@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Iskander Malikov]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]]
+[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"TLDraw":1,"智能体":1,"多智能体协调":3,"编码智能体":36,"Claude Code":116,"Canvas":2,"Fairies":1,"Agent Starter Kit":1,"TechTree 应用":1,"Replit":22}</script>
+<script type="application/json" class="pd-epn">{"TLDraw":1,"智能体":1,"多智能体协调":3,"编码智能体":38,"Claude Code":116,"Canvas":2,"Fairies":1,"Agent Starter Kit":1,"TechTree 应用":1,"Replit":22}</script>
 
 <script>
 (function(){

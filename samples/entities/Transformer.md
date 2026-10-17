@@ -58,7 +58,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[智能体]] · [[AGI]] · [[推理]] · [[Microsoft]] · [[LLM]] · [[预训练]] · [[Google DeepMind]] · [[Meta]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":207,"Anthropic":206,"智能体":1,"AGI":29,"推理":102,"Microsoft":34,"LLM":66,"预训练":10,"Google DeepMind":11,"Meta":56}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":208,"Anthropic":206,"智能体":1,"AGI":29,"推理":102,"Microsoft":34,"LLM":66,"预训练":10,"Google DeepMind":11,"Meta":56}</script>
 
 <script>
 (function(){

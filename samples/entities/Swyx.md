@@ -42,11 +42,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Iskander Malikov]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]]
+[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"沙箱":103,"智能体":1,"推理":102,"Modal":8,"Cognition":27,"Anthropic":206,"Louis Knight-Webb":1,"Akshat Bubna":1,"AI Engineers":1,"Vibhu":1}</script>
+<script type="application/json" class="pd-epn">{"沙箱":104,"智能体":1,"推理":102,"Modal":8,"Cognition":27,"Anthropic":206,"Louis Knight-Webb":1,"Akshat Bubna":1,"AI Engineers":1,"Vibhu":1}</script>
 
 <script>
 (function(){

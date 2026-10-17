@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]]
+[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jason Lemkin":2,"Harry Stebbings":21,"Cursor":87,"SpaceX":23,"OpenRouter":14,"Stripe":52,"Anthropic":206,"Workday":5,"Microsoft":34,"Meta":56}</script>
+<script type="application/json" class="pd-epn">{"Jason Lemkin":2,"Harry Stebbings":21,"Cursor":87,"SpaceX":23,"OpenRouter":14,"Stripe":53,"Anthropic":206,"Workday":5,"Microsoft":34,"Meta":56}</script>
 
 <script>
 (function(){

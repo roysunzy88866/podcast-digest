@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Iskander Malikov]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]]
+[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Snowflake":23,"Cowork":6,"智能体":1,"MCP":98,"变革管理":4,"语义视图":1,"技能":35,"反馈回路":3,"护栏":93}</script>
+<script type="application/json" class="pd-epn">{"Snowflake":23,"Cowork":6,"智能体":1,"MCP":99,"变革管理":4,"语义视图":1,"技能":35,"反馈回路":3,"护栏":93}</script>
 
 <script>
 (function(){

@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Iskander Malikov]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]]
+[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jason":8,"Reflection AI":1,"开源模型":4,"强化学习":1,"沙箱":103,"预训练":10,"奖励黑客":12,"安全":2,"推理":102,"Beam":1}</script>
+<script type="application/json" class="pd-epn">{"Jason":8,"Reflection AI":1,"开源模型":4,"强化学习":1,"沙箱":104,"预训练":10,"奖励黑客":12,"安全":2,"推理":102,"Beam":1}</script>
 
 <script>
 (function(){

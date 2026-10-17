@@ -35,17 +35,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Traversal]] · [[ServiceNow]] · [[American Express]] · [[Pepsi]] · [[DigitalOcean]] · [[事故响应中的 AI]] · [[可观测性]] · [[自动驾驶式生产]] · [[因果机器学习]] · [[生产世界模型]]
+[[Traversal]] · [[ServiceNow]] · [[American Express]] · [[Pepsi]] · [[DigitalOcean]] · [[Capital One]] · [[事故响应中的 AI]] · [[可观测性]] · [[自动驾驶式生产]] · [[因果机器学习]]
 
 ## ④ 也在聊「智能体」的人
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Iskander Malikov]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]]
+[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Traversal":2,"ServiceNow":4,"American Express":1,"Pepsi":1,"DigitalOcean":2,"事故响应中的 AI":2,"可观测性":49,"自动驾驶式生产":1,"因果机器学习":1,"生产世界模型":2}</script>
+<script type="application/json" class="pd-epn">{"Traversal":2,"ServiceNow":4,"American Express":1,"Pepsi":1,"DigitalOcean":2,"Capital One":4,"事故响应中的 AI":2,"可观测性":49,"自动驾驶式生产":1,"因果机器学习":1}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Yash]] · [[All Access]] · [[智能体]] · [[compound engineering]] · [[MCP]] · [[Codex]] · [[Claude]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"Yash":2,"All Access":1,"智能体":1,"compound engineering":2,"MCP":98,"Codex":91,"Claude":99,"Anthropic":206,"OpenAI":207,"Cursor":87}</script>
+<script type="application/json" class="pd-epn">{"Yash":2,"All Access":1,"智能体":1,"compound engineering":2,"MCP":99,"Codex":91,"Claude":99,"Anthropic":206,"OpenAI":208,"Cursor":87}</script>
 
 <script>
 (function(){

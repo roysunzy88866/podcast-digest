@@ -25,7 +25,7 @@ unlisted: true
 
 [[Kevin Roose]] · [[OpenAI]] · [[Anthropic]] · [[Google DeepMind]] · [[Microsoft]] · [[Meta]] · [[AGI]] · [[超级智能]] · [[信念]] · [[推理模型]]
 
-<script type="application/json" class="pd-epn">{"Kevin Roose":1,"OpenAI":207,"Anthropic":206,"Google DeepMind":11,"Microsoft":34,"Meta":56,"AGI":29,"超级智能":13,"信念":1,"推理模型":2}</script>
+<script type="application/json" class="pd-epn">{"Kevin Roose":1,"OpenAI":208,"Anthropic":206,"Google DeepMind":11,"Microsoft":34,"Meta":56,"AGI":29,"超级智能":13,"信念":1,"推理模型":2}</script>
 
 <script>
 (function(){

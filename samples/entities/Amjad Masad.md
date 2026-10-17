@@ -84,11 +84,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Iskander Malikov]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]]
+[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":22,"智能体":1,"Stripe":52,"vibe coding":52,"微调":39,"Patrick Collison":3,"公开构建":2,"Gagan Viani":1,"Alex Atallah":2,"Magic School":1}</script>
+<script type="application/json" class="pd-epn">{"Replit":22,"智能体":1,"Stripe":53,"vibe coding":52,"微调":39,"Patrick Collison":3,"公开构建":2,"Gagan Viani":1,"Alex Atallah":2,"Magic School":1}</script>
 
 <script>
 (function(){

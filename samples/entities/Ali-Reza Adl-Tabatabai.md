@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Iskander Malikov]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]]
+[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"guitar.ai":1,"Sonar":1,"智能体":1,"代码审查":26,"CI-CD":18,"智能体运行时":1,"程序分析":1,"PR 验证":1}</script>
+<script type="application/json" class="pd-epn">{"guitar.ai":1,"Sonar":1,"智能体":1,"代码审查":27,"CI-CD":18,"智能体运行时":1,"程序分析":1,"PR 验证":1}</script>
 
 <script>
 (function(){

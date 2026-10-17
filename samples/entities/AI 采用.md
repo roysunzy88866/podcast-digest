@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[Robert Lucero]] · [[Daniel Whitenack]] · [[Brian Houck]] · [[Chris Benson]] · [[Okta]] · [[Reef Frerichs]] · [[沙箱]] · [[叙事智能]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Robert Lucero":1,"Daniel Whitenack":12,"Brian Houck":1,"Chris Benson":13,"Okta":3,"Reef Frerichs":1,"沙箱":103,"叙事智能":1,"护栏":93}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Robert Lucero":1,"Daniel Whitenack":12,"Brian Houck":2,"Chris Benson":13,"Okta":3,"Reef Frerichs":1,"沙箱":104,"叙事智能":1,"护栏":93}</script>
 
 <script>
 (function(){

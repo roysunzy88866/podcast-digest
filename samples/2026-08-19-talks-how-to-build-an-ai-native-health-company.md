@@ -140,9 +140,9 @@ AI 编程工具可能是最成功的 AI 应用，但不必一步到位。Maven �
 
 **顺着「AI 编程」挖下去**
 
+- [[2026-10-16-engenable-the-cafes-framework-improving-ai-agent-e|AI 干不好活，问题往往不在模型，而在你给它的“上下文”]]<span class="pd-rz">同概念:代码审查 (code review)、幻觉 (hallucination)</span>
 - [[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|Datadog 4000 人AI赋能实战：删掉上下文反而更好]]<span class="pd-rz">同概念:代码审查 (code review)、Cursor</span>
 - [[2026-08-28-talks-building-ureview-uber-s-multi-agent-code|Uber 用 AI 给 AI 评审代码:每周 2.5 万条评论是这样炼成的]]<span class="pd-rz">同概念:代码审查 (code review)、护栏 (guardrails)</span>
-- [[2026-09-30-talks-the-death-of-the-code-review-what-the-da|代码评审未死：人类从引擎变飞行员]]<span class="pd-rz">同概念:代码审查 (code review)、Cursor</span>
 
 </div>
 <div class="pd-ex">

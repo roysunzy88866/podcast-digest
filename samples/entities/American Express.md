@@ -29,9 +29,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Eric Schwartz]] · [[Traversal]] · [[ServiceNow]] · [[Pepsi]] · [[DigitalOcean]] · [[事故响应中的 AI]] · [[可观测性]] · [[自动驾驶式生产]] · [[因果机器学习]] · [[生产世界模型]]
+[[Eric Schwartz]] · [[Traversal]] · [[ServiceNow]] · [[Pepsi]] · [[DigitalOcean]] · [[Capital One]] · [[事故响应中的 AI]] · [[可观测性]] · [[自动驾驶式生产]] · [[因果机器学习]]
 
-<script type="application/json" class="pd-epn">{"Eric Schwartz":1,"Traversal":2,"ServiceNow":4,"Pepsi":1,"DigitalOcean":2,"事故响应中的 AI":2,"可观测性":49,"自动驾驶式生产":1,"因果机器学习":1,"生产世界模型":2}</script>
+<script type="application/json" class="pd-epn">{"Eric Schwartz":1,"Traversal":2,"ServiceNow":4,"Pepsi":1,"DigitalOcean":2,"Capital One":4,"事故响应中的 AI":2,"可观测性":49,"自动驾驶式生产":1,"因果机器学习":1}</script>
 
 <script>
 (function(){

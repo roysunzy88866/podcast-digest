@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Iskander Malikov]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]]
+[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daytona":3,"Cognition":27,"Neon":4,"Parallel":7,"Devin":4,"智能体":1,"沙箱":103,"突发负载":1,"裸金属":2,"计算机使用":22}</script>
+<script type="application/json" class="pd-epn">{"Daytona":3,"Cognition":27,"Neon":4,"Parallel":7,"Devin":4,"智能体":1,"沙箱":104,"突发负载":1,"裸金属":2,"计算机使用":22}</script>
 
 <script>
 (function(){

@@ -35,7 +35,7 @@ unlisted: true
 
 [[Diogo Almeida]] · [[Jev]] · [[TypeSafe]] · [[RLHF]] · [[RLVR]] · [[OpenAI]] · [[System 1 模型]] · [[分类器]] · [[校准]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"Diogo Almeida":4,"Jev":8,"TypeSafe":5,"RLHF":8,"RLVR":4,"OpenAI":207,"System 1 模型":2,"分类器":1,"校准":4,"ChatGPT":115}</script>
+<script type="application/json" class="pd-epn">{"Diogo Almeida":4,"Jev":8,"TypeSafe":5,"RLHF":8,"RLVR":4,"OpenAI":208,"System 1 模型":2,"分类器":1,"校准":4,"ChatGPT":115}</script>
 
 <script>
 (function(){

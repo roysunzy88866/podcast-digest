@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]]
+[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Aakash":4,"Claude Code":116,"项目脚手架技能":1,"可行性闸门":1,"vibe coder":2,"builder PM":1,"Product Mind":1,"Typeform":2,"GitHub":36,"Notion":17}</script>
+<script type="application/json" class="pd-epn">{"Aakash":4,"Claude Code":116,"项目脚手架技能":1,"可行性闸门":1,"vibe coder":2,"builder PM":1,"Product Mind":1,"Typeform":2,"GitHub":37,"Notion":17}</script>
 
 <script>
 (function(){

@@ -37,7 +37,7 @@ unlisted: true
 
 [[Anthropic]] · [[Max Hodak]] · [[SpaceX]] · [[OpenAI]] · [[Science]] · [[Helix]] · [[AI 基础设施]] · [[迭代]] · [[BCI]] · [[归因]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":206,"Max Hodak":2,"SpaceX":23,"OpenAI":207,"Science":2,"Helix":2,"AI 基础设施":6,"迭代":4,"BCI":2,"归因":4}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":206,"Max Hodak":2,"SpaceX":23,"OpenAI":208,"Science":2,"Helix":2,"AI 基础设施":6,"迭代":4,"BCI":2,"归因":4}</script>
 
 <script>
 (function(){

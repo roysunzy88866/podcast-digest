@@ -25,7 +25,7 @@ unlisted: true
 
 [[Greg Brockman]] · [[OpenAI]] · [[Dots]] · [[智能体]] · [[AI 安全]] · [[网络安全]] · [[形式化验证]] · [[药物发现]] · [[神经网络]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"Greg Brockman":2,"OpenAI":207,"Dots":6,"智能体":1,"AI 安全":5,"网络安全":5,"形式化验证":1,"药物发现":3,"神经网络":1,"ChatGPT":115}</script>
+<script type="application/json" class="pd-epn">{"Greg Brockman":2,"OpenAI":208,"Dots":6,"智能体":1,"AI 安全":5,"网络安全":5,"形式化验证":1,"药物发现":3,"神经网络":1,"ChatGPT":115}</script>
 
 <script>
 (function(){

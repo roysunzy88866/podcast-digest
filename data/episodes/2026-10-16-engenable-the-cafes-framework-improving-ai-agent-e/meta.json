@@ -1,0 +1,40 @@
+{
+  "id": "2026-10-16-engenable-the-cafes-framework-improving-ai-agent-e",
+  "audio_mp3": "https://anchor.fm/s/1116ee148/podcast/play/127474575/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-14%2F434169651-44100-2-0d8c41cd31286.mp3",
+  "duration_sec": 2349.322,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 444,
+  "asr": true,
+  "title_en": "The CAFE(S) framework: Improving AI agent effectiveness",
+  "podcast": "Engineering Enablement (DX)",
+  "date": "2026-10-16",
+  "cover_official_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/45774466/45774466-1792083142839-2044774413d1a.jpg",
+  "added": "2026-10-17",
+  "added_at": "2026-10-16T23:38:06.528Z",
+  "speaker_map": {
+    "SPEAKER_00": "Max Canet-Alexander",
+    "SPEAKER_01": "Brian Houck",
+    "SPEAKER_02": "Margaret Ann",
+    "SPEAKER_03": "Irini"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Max Canet-Alexander",
+  "cohosts": [
+    "Brian Houck",
+    "Margaret Ann",
+    "Irini"
+  ],
+  "title_zh": "AI 干不好活，问题往往不在模型，而在你给它的“上下文”",
+  "guest_name": "Max Canet-Alexander",
+  "guest_title": "Capital One 首席软件工程师",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/45774466/45774466-1792083142839-2044774413d1a.jpg",
+    "origin_px": "3000x3000",
+    "aspect": 1,
+    "fetched_at": "2026-10-17T01:06:14.165Z"
+  }
+}

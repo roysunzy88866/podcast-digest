@@ -1,0 +1,443 @@
+{
+  "title_zh": "当机器人开始给机器人写代码：Vercel CEO 谈智能体时代的互联网",
+  "tldr": "Guillermo Rauch 是云基础设施公司 Vercel 的创始人兼 CEO。",
+  "digest_md": "Guillermo Rauch 是云基础设施公司 Vercel 的创始人兼 CEO。11 年前他创办这家公司，只为解决一个问题：让任何人都能轻松把应用发布上线。如今，公司估值 93 亿美元，年化收入 6 亿美元，而驱动这一切疯狂增长的，是一群不眠不休的新客户——AI 编程智能体。\n\n## 10 年攒下的家底，10 个月被智能体翻倍\n\n最能说明变化的是一个数字：Vercel 花了约 10 年才累计完成 10 亿次部署（deployment，即每次把代码更新发布上线的动作）。而接下来的 10 个月，又新增了 15 亿次部署 [08:48 Unknown]。\n\nRauch 解释说，现在的代码越来越难写，但写代码的不再只是人。年初时，Vercel 上**来自编程智能体的部署只占 3%，现在已经是 60%** [14:52 Unknown]。\n\n他的比喻很形象：这就像「机器人指挥机器人干活」——接受英语指令、产出代码的机器人，把代码交给另一批机器人去运行 [15:08 Unknown]。而 Vercel 成了这些智能体默认的插座：代码本身什么都做不了，必须部署到某个地方才能跑起来。\n\n## 为什么智能体偏偏选中了 Vercel？\n\nRauch 从小在阿根廷自学编程。当时写代码的软件买不起、手册全是英文，他得先自学英语才能学会编程。这段经历让他在创办 Vercel 时定下一个原则：**开发者的工具应该免费且开放** [16:17 Unknown]。\n\n11 年来，Vercel 开源了几乎所有积累，包括被全球广泛使用的框架 Next.js。意外的好处是：模型训练时接触到的开源资料越多，智能体就越懂你。当年种下的开放种子，如今成了智能体主动选择 Vercel 的理由。\n\n## 别全信 AI：CEO 的反直觉建议\n\nRauch 的一条走红推文叫拒绝不理解（reject non-understanding）。他反对让 AI 随便干活、看都不看就上线；他自己现在的做法是读代码，并且越来越多地要求 AI 向他解释刚才做了什么 [12:21 Unknown]。\n\n他把这个新角色比作大公司的工程经理：不一定亲手写每一行代码，但要帮工程师排除障碍、做质量把关、写测试来挑毛病。\n\n他也承认分寸感：个人玩具项目随便氛围编程（vibe coding，指不看代码直接让 AI 生成）没问题，但涉及国家安全、关键数据基础设施的大写 S 的系统，**必须严格验证**。\n\n## 互联网正在为智能体重建一遍\n\n在 Rauch 眼里，下一场变革是：网站不光要给人看，还要给智能体看。\n\n一个例子：智能体访问 vercel.com 时，得到的不是人类看到的精美页面和动画——智能体不在乎这些，它要的是直接、精确的信号[19:15 Unknown]。\n\n这背后的逻辑很直白：过去大量互联网技术是用来拦截机器人的（验证码就是干这个的），而未来互联网的主要流量将来自替人类办事的智能体。==如果企业不为智能体优化，就会错过这个时代最大的经济机会==。\n\n> 【背景】DoorDash（外卖平台）、Stripe（支付公司）、Shopify（电商平台）都是文中提到的真实公司，Stripe 与 Shopify 与 Vercel 有合作，让智能体能直接完成交易。\n\n更激进的场景已经在发生：Vercel 的市场上，智能体正在自主购买服务，全程无人类干预——智能体逛虚拟货架，看中一个网页浏览器服务，直接下单 [22:40 Unknown]。\n\n## 80% 的智能体流量，流向了开源模型\n\nVercel 运营着全球最大的智能体算力分发网络之一，因此能看到别处看不到的数据。年初时，开发者主要使用 OpenAI、Anthropic、Google 的专有模型；现在，**网络上 80% 的流量走向了开源模型** [55:02 Unknown]。\n\n原因不复杂：不是每个任务都需要爱因斯坦。制定方案时用最强的模型，执行落地时用便宜的开源模型——后者在这件事上已经足够好。企业也乐于保留切换的自由：换模型只需改一行代码，今天的领头羊可能两周后就被 20 倍便宜、性能相当的开源模型取代 [42:01 Unknown]。\n\n这引出了他对模型公司泡沫的警告。他把当下一些 AI 热潮比作加密货币的投机：有人虚报使用量、靠免费补贴撑数据。「如果前沿模型公司真相信自己的智能优势是持久的，==为什么都跑去开各种随机软件业务==？」[62:52 Unknown]\n\n## 最大隐患：会写代码的 AI，也是最会破解的 AI\n\nRauch 对安全问题毫不掩饰：能写好代码的智能体，本质上也理解怎么破坏规则——它们非常擅长找漏洞 [40:46 Unknown]。\n\n还有提示词注入攻击：你让智能体去找某人邮箱发生日祝福，它翻到一条 YouTube 评论，里面被人埋了恶意指令。它带着你的身份、你的权限去执行坏人的意图 [38:03 Unknown]。\n\nVercel 的应对之一是拿出 100 万美元悬赏，邀请全世界攻击他们的沙盒（sandbox，即给智能体隔离运行的云端计算机）。最终只有一个人——带着一支智能体大军——攻破了它，漏洞出在 Linux 层面，正在与行业共享 [48:02 Unknown]。\n\n长远看，他相信出路是可证明正确的代码：让不知疲倦的智能体生成近乎数学证明般可靠的软件，而这是绝大多数人类程序员做不到的 [50:46 Unknown]。\n\n## 招人标准变了：会指挥智能体的资本配置者\n\n公司约 800 人，仍在招人，但标准变了。Rauch 不再满足于看简历或小 demo，他要找的是能指挥大批智能体、并从中获得真实杠杆的人 [77:36 Unknown]。\n\n他借用 Marc Andreessen 的玩笑——「最后的职业是风险投资人」——并修正为资本配置者：我们所有人都拥有同样的墙钟时间，据他所知没有人能扭曲时间，所以新的稀缺能力是决定把 token 投向什么问题 [69:47 Unknown]。\n\n沟通能力依然关键，而且技术门槛反而更高了。他引用前 Splunk CEO 的话：公司里最有价值的两种人是离代码近的人和离客户近的人。而现在，销售也要离客户的代码近。一个真实案例：用智能体帮 Mercedes F1 车队把老平台代码迁移到新平台，第一版只花了 5 分钟——这种迁移过去要请顾问、耗时一年 [81:09 Unknown]。\n\n## 本集带走\n\n- Vercel 的部署量从 10 年 10 亿次，变成 10 个月新增 15 亿次；智能体驱动的部署从年初 3% 涨到 60%。\n- 开源是 Vercel 赢得智能体的关键：模型训练数据里关于你的内容越多，智能体就越会选择你。\n- 互联网正在从为人设计转向为智能体设计——给智能体看精确信息、开放工具接口，甚至让它直接下单购物。\n- Vercel 网络上 80% 的智能体流量已流向开源模型；换模型只需一行代码，前沿模型公司面临零忠诚度的风险。\n- 最大的安全隐患是：擅长写代码的智能体同样擅长破解代码，企业需要沙盒、验证系统和更好的防御。",
+  "quotes": [
+    {
+      "en": "We started out the year with 3% of deployments on Vercel coming from coding agents. Now 60% are agenting.",
+      "zh": "今年年初，Vercel 上只有 3% 的部署来自编码智能体。现在 60% 都是智能体了。",
+      "timestamp": "00:23",
+      "speaker": "Guillermo Rauch"
+    },
+    {
+      "en": "It took us about 10 years to get to a billion deployments. And then in the next 10 months, we've added another 1.5 billion deployments.",
+      "zh": "我们花了大约 10 年才达到 10 亿次部署。然后在接下来的 10 个月里，我们又增加了 15 亿次部署。",
+      "timestamp": "00:32",
+      "speaker": "Guillermo Rauch"
+    },
+    {
+      "en": "The lethal combination there is that you buy Vercel as the platform and then you never have to buy software again.",
+      "zh": "致命的组合在于：你买下 Vercel 作为平台，然后就再也不用买软件了。",
+      "timestamp": "00:55",
+      "speaker": "Guillermo Rauch"
+    },
+    {
+      "en": "If it was so hard for me to ship an app, I couldn't even fathom an enterprise trying to figure out cloud computing and frameworks and tools and shipping pipelines and all of that.",
+      "zh": "如果连我发布一个应用都这么难，那我根本无法想象一家企业要怎么搞懂云计算、框架、工具和发布流水线这一整套东西。",
+      "timestamp": "08:28",
+      "speaker": "Guillermo Rauch"
+    },
+    {
+      "en": "Like I remember telling people another one of my sort of internal principles is code is a liability.",
+      "zh": "我记得我跟别人说过，我的另一条内部原则是：代码是一种负债。",
+      "timestamp": "09:47",
+      "speaker": "Guillermo Rauch"
+    },
+    {
+      "en": "AI and code will run more and more and more of our lives whether we like it or not.",
+      "zh": "不管我们愿不愿意，AI 和代码会越来越多地运行我们的生活。",
+      "timestamp": "13:54",
+      "speaker": "Guillermo Rauch"
+    },
+    {
+      "en": "And that led me to open source and the big epiphany that has defined Vercel, which is that the tools that developers and agents should use should be free and open so that everybody in the world can learn.",
+      "zh": "而这把我引向了开源，以及那个定义了 Vercel 的重大顿悟：开发者和智能体应该使用的工具应当是自由和开放的，这样世界上每个人都能学习。",
+      "timestamp": "16:17",
+      "speaker": "Guillermo Rauch"
+    },
+    {
+      "en": "And we're helping everybody in the world make this transformation as fast as they can because if they don't make that transformation, they're gonna be left out of the most exciting economic opportunity of our times because more and more of the traffic of the internet will be agents.",
+      "zh": "我们正在帮助世界上每一个人尽可能快地完成这个转变，因为如果不完成这个转变，他们就会被排除在我们这个时代最激动人心的经济机会之外，因为互联网上越来越多的流量将会是智能体。",
+      "timestamp": "19:33",
+      "speaker": "Guillermo Rauch"
+    },
+    {
+      "en": "Everything's a bot. What are we detecting?",
+      "zh": "一切都是机器人。我们还在检测什么？",
+      "timestamp": "21:40",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "en": "I'm a yes-code company because I'm now saying coding agents basically make the code free.",
+      "zh": "我是一家 yes-code 公司，因为我现在基本上是在说，编码智能体让代码变得免费了。",
+      "timestamp": "31:04",
+      "speaker": "Guillermo Rauch"
+    },
+    {
+      "en": "And to understand the rules of code, you also understand how to break the rules of code. And so what's emerged is that these coding agents are really good at hacking.",
+      "zh": "而理解了代码的规则，也就懂得了如何打破代码的规则。于是就出现了这样的情况：这些编码智能体非常擅长入侵。",
+      "timestamp": "40:57",
+      "speaker": "Guillermo Rauch"
+    },
+    {
+      "en": "Whoever is the new hot model today might just keep the pole position for two weeks.",
+      "zh": "今天的新晋热门模型可能只能保持领先位置两周。",
+      "timestamp": "41:52",
+      "speaker": "Guillermo Rauch"
+    },
+    {
+      "en": "The reality is that North Korea, China, enemies, adversaries, bad people, good people, we all have tokens now.",
+      "zh": "现实是，朝鲜、中国、敌人、对手、坏人、好人，我们现在都有 token 了。",
+      "timestamp": "49:59",
+      "speaker": "Guillermo Rauch"
+    },
+    {
+      "en": "I personally disagree with the whole, like, let's ban open models because of the cybersecurity risk. I think that's nonsense because the thing that is making these models good at cybersecurity is just that they're intelligent.",
+      "zh": "我个人不同意那种因为网络安全风险就要封禁开放模型的说法。我认为那是胡扯，因为让这些模型擅长网络安全的，仅仅在于它们有智能。",
+      "timestamp": "50:08",
+      "speaker": "Guillermo Rauch"
+    },
+    {
+      "en": "We can make the agents who are inexhaustible in their energy and capability basically create a kind of code that we can prove almost like mathematically is correct. And humans couldn't do this.",
+      "zh": "我们可以让那些在精力和能力上永不枯竭的智能体，创造出一种我们几乎可以像数学一样证明是正确的代码。而人类做不到这一点。",
+      "timestamp": "50:46",
+      "speaker": "Guillermo Rauch"
+    },
+    {
+      "en": "80% of tokens in our network, and this is a tweet that went viral, is open models.",
+      "zh": "我们网络中 80% 的 token——这是一条走红的推文——是开放模型的。",
+      "timestamp": "55:02",
+      "speaker": "Guillermo Rauch"
+    },
+    {
+      "en": "I don't need to hire Albert Einstein to solve every problem, like answer every support ticket and spell check my stuff and classify my data.",
+      "zh": "我不需要雇阿尔伯特·爱因斯坦来解决每一个问题，比如回复每一个支持工单、给我的东西做拼写检查、给我的数据做分类。",
+      "timestamp": "56:23",
+      "speaker": "Guillermo Rauch"
+    },
+    {
+      "en": "The biggest risk is that it's hard for them to understand what their retention is.",
+      "zh": "最大的风险是，他们很难弄清楚自己的留存率到底是什么。",
+      "timestamp": "59:29",
+      "speaker": "Guillermo Rauch"
+    },
+    {
+      "en": "We're so convinced that the frontier intelligence advantage is enduring, why are they going into random software businesses?",
+      "zh": "既然这么确信前沿智能优势是持久的，那他们为什么要进入各种随机的软件业务？",
+      "timestamp": "62:52",
+      "speaker": "Guillermo Rauch"
+    },
+    {
+      "en": "What I always tell our customers is the primary value that Vercel gives your business is iteration velocity. Not speed. Speed is you could be just spinning in circles.",
+      "zh": "我总是告诉我们的客户，Vercel 给你的业务带来的首要价值是迭代速度。不是速度。速度的话，你可能只是在原地打转。",
+      "timestamp": "65:25",
+      "speaker": "Guillermo Rauch"
+    },
+    {
+      "en": "I look around to my peers in Silicon Valley and you would think, okay, AI has arrived and we're all working two hours a week. The opposite is happening.",
+      "zh": "我环顾硅谷的同行们，你会以为，好吧，AI 已经到来了，我们每周只工作两小时。实际发生的情况恰恰相反。",
+      "timestamp": "66:31",
+      "speaker": "Guillermo Rauch"
+    },
+    {
+      "en": "And everyone's working, it's not even 996. It's most, I think it's like more like 777.",
+      "zh": "每个人都在工作，甚至都不是 996。我觉得更像是 777。",
+      "timestamp": "66:52",
+      "speaker": "Guillermo Rauch"
+    },
+    {
+      "en": "And I realized several years ago that what got us here was not gonna get us there.",
+      "zh": "而我在几年前意识到，让我们走到这里的东西，并不会带我们到那里。",
+      "timestamp": "68:37",
+      "speaker": "Guillermo Rauch"
+    },
+    {
+      "en": "He said, the last job is venture capitalist. And sadly, I think he's kind of right. I wouldn't say venture capitalist, I would say capital allocator.",
+      "zh": "他说，最后一份工作是风险投资家。遗憾的是，我觉得他某种程度上是对的。我不会说风险投资家，我会说资本配置者。",
+      "timestamp": "69:43",
+      "speaker": "Guillermo Rauch"
+    },
+    {
+      "en": "I don't want to read your AI-generated tweet slop. I want to hear what you actually think.",
+      "zh": "我不想读你那些 AI 生成的推文垃圾。我想听你真实的想法。",
+      "timestamp": "78:41",
+      "speaker": "Guillermo Rauch"
+    },
+    {
+      "en": "The two most valuable people at the company are the ones that are close to the code or close to the customer.",
+      "zh": "公司里最有价值的两种人，是贴近代码的人和贴近客户的人。",
+      "timestamp": "80:02",
+      "speaker": "Guillermo Rauch"
+    },
+    {
+      "en": "I think what's really hard for us as humans is just staying focused and keeping it simple.",
+      "zh": "我觉得对我们人类来说，真正难的是保持专注并保持简单。",
+      "timestamp": "85:08",
+      "speaker": "Guillermo Rauch"
+    },
+    {
+      "en": "How can you possibly have six kids and do this? It's because I blur the lines.",
+      "zh": "你怎么可能同时有六个孩子又做到这些？就是因为我模糊了界限。",
+      "timestamp": "86:33",
+      "speaker": "Guillermo Rauch"
+    },
+    {
+      "en": "So the beauty of serverless was when the software is not being used, we spin it down.",
+      "zh": "无服务器的美妙之处在于，当软件没有被使用时，我们就把它关停。",
+      "timestamp": "87:32",
+      "speaker": "Guillermo Rauch"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:23",
+      "speaker": "Guillermo Rauch",
+      "en": "We started out the year with 3% of deployments on Vercel coming from coding agents. Now 60% are agenting.",
+      "zh": "今年年初，Vercel 上只有 3% 的部署来自编码智能体。现在 60% 都是智能体了。"
+    },
+    {
+      "timestamp": "00:32",
+      "speaker": "Guillermo Rauch",
+      "en": "It took us about 10 years to get to a billion deployments. And then in the next 10 months, we've added another 1.5 billion deployments.",
+      "zh": "我们花了大约 10 年才达到 10 亿次部署。然后在接下来的 10 个月里，我们又增加了 15 亿次部署。"
+    },
+    {
+      "timestamp": "00:55",
+      "speaker": "Guillermo Rauch",
+      "en": "The lethal combination there is that you buy Vercel as the platform and then you never have to buy software again.",
+      "zh": "致命的组合在于：你买下 Vercel 作为平台，然后就再也不用买软件了。"
+    },
+    {
+      "timestamp": "05:29",
+      "speaker": "Guillermo Rauch",
+      "en": "You have to be mindful of the data and the anecdata.",
+      "zh": "你必须兼顾数据和轶事数据。"
+    },
+    {
+      "timestamp": "07:34",
+      "speaker": "Guillermo Rauch",
+      "en": "For context, Vercel got really popular because of how easy we made it for anybody in the planet to ship an application.",
+      "zh": "先交代背景：Vercel 之所以大受欢迎，是因为我们让这颗星球上的任何人都能轻松发布应用。"
+    },
+    {
+      "timestamp": "08:09",
+      "speaker": "Guillermo Rauch",
+      "en": "If it was so hard for me to ship an app, I couldn't even fathom an enterprise trying to figure out cloud computing and frameworks and tools and shipping pipelines and all of that.",
+      "zh": "如果连我发布一个应用都这么难，那我根本无法想象一家企业要怎么搞懂云计算、框架、工具和发布流水线这一整套东西。"
+    },
+    {
+      "timestamp": "09:22",
+      "speaker": "Guillermo Rauch",
+      "en": "And I think nobody ever saw that coming.",
+      "zh": "而且我觉得从来没有人预料到这一点。"
+    },
+    {
+      "timestamp": "09:47",
+      "speaker": "Guillermo Rauch",
+      "en": "Like I remember telling people another one of my sort of internal principles is code is a liability.",
+      "zh": "我记得我跟别人说过，我的另一条内部原则是：代码是一种负债。"
+    },
+    {
+      "timestamp": "12:05",
+      "speaker": "Guillermo Rauch",
+      "en": "And there's another route, which is the one that I recommend to my children.",
+      "zh": "还有另一条路线，也是我推荐给我孩子们的那条。"
+    },
+    {
+      "timestamp": "13:27",
+      "speaker": "Guillermo Rauch",
+      "en": "AI and code will run more and more and more of our lives whether we like it or not.",
+      "zh": "不管我们愿不愿意，AI 和代码会越来越多地运行我们的生活。"
+    },
+    {
+      "timestamp": "15:00",
+      "speaker": "Guillermo Rauch",
+      "en": "Now 60% are agentic.",
+      "zh": "现在有 60% 是智能体化的。"
+    },
+    {
+      "timestamp": "16:17",
+      "speaker": "Guillermo Rauch",
+      "en": "And that led me to open source and the big epiphany that has defined Vercel, which is that the tools that developers and agents should use should be free and open so that everybody in the world can learn.",
+      "zh": "而这把我引向了开源，以及那个定义了 Vercel 的重大顿悟：开发者和智能体应该使用的工具应当是自由和开放的，这样世界上每个人都能学习。"
+    },
+    {
+      "timestamp": "19:33",
+      "speaker": "Guillermo Rauch",
+      "en": "And we're helping everybody in the world make this transformation as fast as they can because if they don't make that transformation, they're gonna be left out of the most exciting economic opportunity of our times because more and more of the traffic of the internet will be agents.",
+      "zh": "我们正在帮助世界上每一个人尽可能快地完成这个转变，因为如果不完成这个转变，他们就会被排除在我们这个时代最激动人心的经济机会之外，因为互联网上越来越多的流量将会是智能体。"
+    },
+    {
+      "timestamp": "21:41",
+      "speaker": "Guillermo Rauch",
+      "en": "Everything's a bot. What are we detecting?",
+      "zh": "一切都是机器人。我们还在检测什么？"
+    },
+    {
+      "timestamp": "31:04",
+      "speaker": "Guillermo Rauch",
+      "en": "I'm a yes-code company because I'm now saying coding agents basically make the code free.",
+      "zh": "我是一家 yes-code 公司，因为我现在基本上是在说，编码智能体让代码变得免费了。"
+    },
+    {
+      "timestamp": "32:32",
+      "speaker": "Guillermo Rauch",
+      "en": "But the future is, well, at Vercel, we have our agent that helps prepare our Salesforce and our customer support teams. The interfaces are more generative.",
+      "zh": "但未来是——在 Vercel，我们有智能体帮助我们的 Salesforce 团队和客户支持团队做准备。这些界面更具生成性。"
+    },
+    {
+      "timestamp": "36:08",
+      "speaker": "Guillermo Rauch",
+      "en": "is autonomy.",
+      "zh": "那就是自主性。"
+    },
+    {
+      "timestamp": "40:24",
+      "speaker": "Guillermo Rauch",
+      "en": "In practice, I can tell you, talking to prospects and talking to people that were helping them figure out agents, people have not really figured out agent security yet.",
+      "zh": "实践中我可以告诉你，和潜在客户、和帮别人搞懂智能体的人聊过之后——人们其实还没有真正搞明白智能体安全。"
+    },
+    {
+      "timestamp": "40:57",
+      "speaker": "Guillermo Rauch",
+      "en": "And to understand the rules of code, you also understand how to break the rules of code. And so what's emerged is that these coding agents are really good at hacking.",
+      "zh": "而理解了代码的规则，也就懂得了如何打破代码的规则。于是就出现了这样的情况：这些编码智能体非常擅长入侵。"
+    },
+    {
+      "timestamp": "41:52",
+      "speaker": "Guillermo Rauch",
+      "en": "Whoever is the new hot model today might just keep the pole position for two weeks.",
+      "zh": "今天的新晋热门模型可能只能保持领先位置两周。"
+    },
+    {
+      "timestamp": "49:52",
+      "speaker": "Guillermo Rauch",
+      "en": "The reality is that North Korea, China, enemies, adversaries, bad people, good people, we all have tokens now.",
+      "zh": "现实是，朝鲜、中国、敌人、对手、坏人、好人，我们现在都有 token 了。"
+    },
+    {
+      "timestamp": "50:06",
+      "speaker": "Guillermo Rauch",
+      "en": "I personally disagree with the whole, like, let's ban open models because of the cybersecurity risk. I think that's nonsense because the thing that is making these models good at cybersecurity is just that they're intelligent.",
+      "zh": "我个人不同意那种因为网络安全风险就要封禁开放模型的说法。我认为那是胡扯，因为让这些模型擅长网络安全的，仅仅在于它们有智能。"
+    },
+    {
+      "timestamp": "50:59",
+      "speaker": "Guillermo Rauch",
+      "en": "We can make the agents who are inexhaustible in their energy and capability basically create a kind of code that we can prove almost like mathematically is correct. And humans couldn't do this.",
+      "zh": "我们可以让那些在精力和能力上永不枯竭的智能体，创造出一种我们几乎可以像数学一样证明是正确的代码。而人类做不到这一点。"
+    },
+    {
+      "timestamp": "52:49",
+      "speaker": "Guillermo Rauch",
+      "en": "For context, Vercel operates one of the largest token distribution networks in the world.",
+      "zh": "先交代背景：Vercel 运营着世界上最大的 token 分发网络之一。"
+    },
+    {
+      "timestamp": "55:02",
+      "speaker": "Guillermo Rauch",
+      "en": "80% of tokens in our network, and this is a tweet that went viral, is open models.",
+      "zh": "我们网络中 80% 的 token——这是一条走红的推文——是开放模型的。"
+    },
+    {
+      "timestamp": "56:23",
+      "speaker": "Guillermo Rauch",
+      "en": "I don't need to hire Albert Einstein to solve every problem, like answer every support ticket and spell check my stuff and classify my data.",
+      "zh": "我不需要雇阿尔伯特·爱因斯坦来解决每一个问题，比如回复每一个支持工单、给我的东西做拼写检查、给我的数据做分类。"
+    },
+    {
+      "timestamp": "58:01",
+      "speaker": "Guillermo Rauch",
+      "en": "In reality, it's one line of code.",
+      "zh": "实际上，它就是一行代码。"
+    },
+    {
+      "timestamp": "59:29",
+      "speaker": "Guillermo Rauch",
+      "en": "The biggest risk is that it's hard for them to understand what their retention is.",
+      "zh": "最大的风险是，他们很难弄清楚自己的留存率到底是什么。"
+    },
+    {
+      "timestamp": "60:32",
+      "speaker": "Guillermo Rauch",
+      "en": "And so I think what I would worry about if I were them is like, how fleeting am I?",
+      "zh": "所以我想，如果我是他们，我会担心的是：我有多转瞬即逝？"
+    },
+    {
+      "timestamp": "62:52",
+      "speaker": "Guillermo Rauch",
+      "en": "We're so convinced that the frontier intelligence advantage is enduring, why are they going into random software businesses?",
+      "zh": "既然这么确信前沿智能优势是持久的，那他们为什么要进入各种随机的软件业务？"
+    },
+    {
+      "timestamp": "65:25",
+      "speaker": "Guillermo Rauch",
+      "en": "What I always tell our customers is the primary value that Vercel gives your business is iteration velocity. Not speed. Speed is you could be just spinning in circles.",
+      "zh": "我总是告诉我们的客户，Vercel 给你的业务带来的首要价值是迭代速度。不是速度。速度的话，你可能只是在原地打转。"
+    },
+    {
+      "timestamp": "66:31",
+      "speaker": "Guillermo Rauch",
+      "en": "I look around to my peers in Silicon Valley and you would think, okay, AI has arrived and we're all working two hours a week. The opposite is happening.",
+      "zh": "我环顾硅谷的同行们，你会以为，好吧，AI 已经到来了，我们每周只工作两小时。实际发生的情况恰恰相反。"
+    },
+    {
+      "timestamp": "66:56",
+      "speaker": "Guillermo Rauch",
+      "en": "And everyone's working, it's not even 996. It's most, I think it's like more like 777.",
+      "zh": "每个人都在工作，甚至都不是 996。我觉得更像是 777。"
+    },
+    {
+      "timestamp": "68:37",
+      "speaker": "Guillermo Rauch",
+      "en": "And I realized several years ago that what got us here was not gonna get us there.",
+      "zh": "而我在几年前意识到，让我们走到这里的东西，并不会带我们到那里。"
+    },
+    {
+      "timestamp": "69:43",
+      "speaker": "Guillermo Rauch",
+      "en": "He said, the last job is venture capitalist. And sadly, I think he's kind of right. I wouldn't say venture capitalist, I would say capital allocator.",
+      "zh": "他说，最后一份工作是风险投资家。遗憾的是，我觉得他某种程度上是对的。我不会说风险投资家，我会说资本配置者。"
+    },
+    {
+      "timestamp": "77:36",
+      "speaker": "Guillermo Rauch",
+      "en": "I'm actually looking for your ability to commandeer swathes of agents and really get leverage back from this new ecosystem.",
+      "zh": "我真正在寻找的是你驾驭大批智能体的能力，真正从这个新生态中拿回杠杆。"
+    },
+    {
+      "timestamp": "78:41",
+      "speaker": "Guillermo Rauch",
+      "en": "I don't want to read your AI-generated tweet slop. I want to hear what you actually think.",
+      "zh": "我不想读你那些 AI 生成的推文垃圾。我想听你真实的想法。"
+    },
+    {
+      "timestamp": "80:09",
+      "speaker": "Guillermo Rauch",
+      "en": "The two most valuable people at the company are the ones that are close to the code or close to the customer.",
+      "zh": "公司里最有价值的两种人，是贴近代码的人和贴近客户的人。"
+    },
+    {
+      "timestamp": "81:02",
+      "speaker": "Guillermo Rauch",
+      "en": "But the first iteration of the migration of their old stack to the new one actually took five minutes.",
+      "zh": "但把他们旧技术栈迁移到新栈的第一轮迭代，实际上只花了五分钟。"
+    },
+    {
+      "timestamp": "83:54",
+      "speaker": "Guillermo Rauch",
+      "en": "No one has gotten like the 90% right.",
+      "zh": "没有人把那 90% 做对。"
+    },
+    {
+      "timestamp": "85:08",
+      "speaker": "Guillermo Rauch",
+      "en": "I think what's really hard for us as humans is just staying focused and keeping it simple.",
+      "zh": "我觉得对我们人类来说，真正难的是保持专注并保持简单。"
+    },
+    {
+      "timestamp": "86:33",
+      "speaker": "Guillermo Rauch",
+      "en": "How can you possibly have six kids and do this? It's because I blur the lines.",
+      "zh": "你怎么可能同时有六个孩子又做到这些？就是因为我模糊了界限。"
+    },
+    {
+      "timestamp": "87:13",
+      "speaker": "Guillermo Rauch",
+      "en": "So the beauty of serverless was when the software is not being used, we spin it down.",
+      "zh": "无服务器的美妙之处在于，当软件没有被使用时，我们就把它关停。"
+    }
+  ],
+  "voice_script": "今天要讲的这个人，叫 Guillermo Rauch，是云基础设施公司 Vercel 的创始人兼 CEO。这家公司他十一年前创办，目的特别简单：让任何人都能轻松把应用发布上线。如今估值 93 亿美元，年化收入 6 亿美元。而驱动这一轮疯狂增长的客户，不是人，是一群不眠不休的 AI 编程智能体。这一期聊的，就是当机器人开始给机器人写代码，互联网会发生什么。\n\n先看一个最能说明变化的数字。Vercel 花了大约十年，累计完成了 10 亿次部署。部署这个词，说白了就是每次把代码更新发布上线的动作。而接下来的 10 个月，又新增了 15 亿次。年初的时候，Vercel 上来自编程智能体的部署只占 3%，现在已经是 60%。Rauch 打了个比方：这就像机器人指挥机器人干活——接受英语指令、产出代码的机器人，把代码交给另一批机器人去运行。而 Vercel 成了这些智能体默认的插座，因为代码本身什么都做不了，必须部署到某个地方才能跑起来。\n\n那问题来了，智能体为什么偏偏选中了 Vercel？这里得交代一段背景。Rauch 从小在阿根廷自学编程，那时候写代码的软件买不起，手册又全是英文，得先自学英语才能学会编程。这段经历让他创办 Vercel 时定下一个原则：开发者的工具应该免费且开放。十一年来，Vercel 开源了几乎所有的积累，包括被全球广泛使用的框架 Next.js。而意外的好处是：模型训练时接触到的开源资料越多，智能体就越懂你。当年种下的开放种子，如今成了智能体主动选择 Vercel 的理由。\n\n不过，虽然自己就是卖智能体服务的，Rauch 却给所有人泼了盆冷水。有条让走红的推文，主题叫拒绝不理解。意思是，别让 AI 随便干活、看都不看就上线。他自己现在的做法是亲自读代码，而且越来越多地要求 AI 向他解释刚才做了什么。把这个新角色比作大公司的工程经理：不一定亲手写每一行代码，但要帮工程师排除障碍、做质量把关、写测试来挑毛病。当然也有分寸感——个人玩具项目随便氛围编程没问题，所谓氛围编程，就是不看代码直接让 AI 生成；但涉及国家安全、关键数据基础设施的大系统，必须严格验证。\n\n说到这儿，就更进一步了。在 Rauch 眼里，下一场变革是：网站不光要给人看，还要给智能体看。举个例子，智能体访问 vercel.com 的时候，得到的不是人类看到的精美页面和动画——智能体不在乎这些，它要的是直接、精确的信号。背后的逻辑很直白：过去大量互联网技术是用来拦截机器人的，验证码就是干这个的；而未来互联网的主要流量，将来自替人类办事的智能体。所以如果企业不为智能体优化，就会错过这个时代最大的经济机会。更激进的场景已经发生了：在 Vercel 的市场上，智能体正在自主购买服务，全程没有人类干预——智能体逛虚拟货架，看中一个网页浏览器服务，直接下单。\n\n顺着这个势头往下看，还有一个数据可能出乎很多人意料。Vercel 运营着全球最大的智能体算力分发网络之一，所以能看到别处看不到的数据。年初时，开发者主要用 OpenAI、Anthropic、Google 的专有模型；现在，网络上 80% 的流量走向了开源模型。原因不复杂：不是每个任务都需要爱因斯坦。制定方案时用最强的模型，执行落地时用便宜的开源模型——后者在这件事上已经足够好。而且换模型只需改一行代码，今天的领头羊，可能两周后就被 20 倍便宜、性能相当的开源模型取代。这就引出了对模型公司泡沫的警告。Rauch 把当下一些 AI 热潮比作加密货币的投机：有人虚报使用量、靠免费补贴撑数据。有句话很扎：如果前沿模型公司真相信自己的智能优势是持久的，为什么都跑去开各种随机软件业务？\n\n聊完商业，必须聊聊风险，因为这部分 Rauch 毫不掩饰。能写好代码的智能体，本质上也理解怎么破坏规则——它们非常擅长找漏洞。还有一种叫提示词注入的攻击：你让智能体去找某人邮箱发生日祝福，结果它翻到一条 YouTube 评论，里面被人埋了恶意指令。它就带着你的身份、你的权限，去执行坏人的意图。Vercel 的应对之一，是拿出 100 万美元悬赏，邀请全世界攻击他们的沙盒——沙盒就是给智能体隔离运行的云端计算机。最终只有一个人，带着一支智能体大军，攻破了它，漏洞出在 Linux 层面，现在正在跟行业共享。长远看，Rauch 相信出路是可证明正确的代码：让不知疲倦的智能体，生成近乎数学证明般可靠的软件——而这是绝大多数人类程序员做不到的。\n\n最后说说对人的影响。Vercel 大约 800 人，仍在招人，但标准变了。Rauch 不再满足于看简历或小 demo，他要找的是能指挥大批智能体、并从中获得真实杠杆的人。借用 Marc Andreessen 的玩笑——最后的职业是风险投资人——再修正成资本配置者：所有人都拥有同样的墙钟时间，没人能扭曲时间，所以新的稀缺能力，是决定把 token 投向什么问题。沟通能力依然关键，而且技术门槛反而更高了。前 Splunk CEO 有句话：公司里最有价值的两种人，是离代码近的人和离客户近的人。而现在，连销售也要离客户的代码近。一个真实案例：用智能体帮 Mercedes F1 车队把老平台代码迁移到新平台，第一版只花了 5 分钟——这种迁移过去要请顾问、耗时一年。\n\n回到开头那个数字：十年攒下 10 亿次部署，十个月又翻了不止一倍。不管我们愿不愿意，AI 和代码会越来越多地运行我们的生活。"
+}

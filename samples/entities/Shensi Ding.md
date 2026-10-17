@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Iskander Malikov]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]]
+[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Merge":3,"智能体":1,"MCP":98,"沙箱":103,"连接器":3,"智能 LLM 路由器":1,"可观测性":49,"后训练":1}</script>
+<script type="application/json" class="pd-epn">{"Merge":3,"智能体":1,"MCP":99,"沙箱":104,"连接器":3,"智能 LLM 路由器":1,"可观测性":49,"后训练":1}</script>
 
 <script>
 (function(){

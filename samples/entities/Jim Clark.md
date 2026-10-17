@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Iskander Malikov]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]]
+[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"沙箱":103,"MCP":98,"MCP 网关":2,"harness":67,"泄露的凭证":5,"渐进式披露":6,"XAA":1,"Docker":8,"SBX":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"沙箱":104,"MCP":99,"MCP 网关":2,"harness":67,"泄露的凭证":5,"渐进式披露":6,"XAA":1,"Docker":8,"SBX":2}</script>
 
 <script>
 (function(){

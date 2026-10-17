@@ -169,7 +169,7 @@ Swanson 还提到，Oracle 提供了基于数据库原语的 Python SDK，感兴
 
 - [[2026-09-14-talks-no-memory-no-harness-why-the-database-is|AI 让个人更快，却没让团队更快：智能体记忆才是真瓶颈]]<span class="pd-rz">同公司:Oracle · 同概念:上下文窗口 (context window)、智能体 (agent)、Codex、护栏 (guardrails)</span>
 - [[2026-09-18-talks-total-recall-agent-memory-and-harness-en|模型是租的，harness 才是你的：拆解智能体的七层框架]]<span class="pd-rz">同公司:Oracle · 同概念:上下文窗口 (context window)、智能体 (agent)</span>
-- [[2026-06-09-ainativedev-ryan-lopopolo-openai-39-s-framework-for|Harness 工程：让智能体零人工写代码的实操]]<span class="pd-rz">同概念:提示词注入 (prompt injection)、智能体 (agent)、Codex、护栏 (guardrails)</span>
+- [[2026-10-16-engenable-the-cafes-framework-improving-ai-agent-e|AI 干不好活，问题往往不在模型，而在你给它的“上下文”]]<span class="pd-rz">同概念:上下文窗口 (context window)、提示词注入 (prompt injection)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

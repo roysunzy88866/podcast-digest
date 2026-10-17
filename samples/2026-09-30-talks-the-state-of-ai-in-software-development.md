@@ -149,9 +149,9 @@ Justin 的核心主张：**不要抛弃已建立信任的基础指标**，AI 度
 
 **顺着「AI 编程」挖下去**
 
+- [[2026-10-16-engenable-the-cafes-framework-improving-ai-agent-e|AI 干不好活，问题往往不在模型，而在你给它的“上下文”]]<span class="pd-rz">同公司:DX · 同概念:开发者体验 (developer experience)、智能体 (agent)</span>
 - [[2025-10-06-talks-agents-for-complex-software-engineering|Vibe debugging：代码生成之后，生产环境才是真正的硬仗]]<span class="pd-rz">同概念:代码生成 (code generation)、智能体 (agent)</span>
 - [[2026-10-06-talks-move-fast-and-don-t-break-things-scaling|快速迭代，但别把数据库搞挂]]<span class="pd-rz">同概念:开发者体验 (developer experience)、智能体 (agent)</span>
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder]]<span class="pd-rz">同公司:DX · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

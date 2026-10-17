@@ -157,9 +157,9 @@ PlanetScale 为此构建了很多年，结果发现，**这些为人类打磨的
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-16-engenable-the-cafes-framework-improving-ai-agent-e|AI 干不好活，问题往往不在模型，而在你给它的“上下文”]]<span class="pd-rz">同概念:开发者体验 (developer experience)、智能体 (agent)</span>
 - [[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|Datadog 4000 人AI赋能实战：删掉上下文反而更好]]<span class="pd-rz">同公司:Cursor · 同概念:智能体 (agent)</span>
 - [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|让非工程师也能下指令：Superconductor 的多人智能体协作法]]<span class="pd-rz">同公司:Cursor · 同概念:智能体 (agent)</span>
-- [[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|GrokBot、Origin 与 Grok 4.6 实测]]<span class="pd-rz">同公司:Cursor · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

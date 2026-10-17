@@ -1,0 +1,33 @@
+{
+  "id": "2026-10-16-sourcery-vercel-ceo-guillermo-rauch-on-building-t",
+  "audio_mp3": "https://anchor.fm/s/f192713c/podcast/play/127562088/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-16%2F434294455-44100-2-5c87c2ce36e4e.mp3",
+  "duration_sec": 5345.581,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 1060,
+  "asr": true,
+  "title_en": "Vercel CEO Guillermo Rauch on Building the Internet for Agents",
+  "podcast": "Sourcery",
+  "date": "2026-10-16",
+  "cover_official_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/40429063/40429063-1792145352897-49a897c5b03b4.jpg",
+  "added": "2026-10-17",
+  "added_at": "2026-10-16T22:32:56.094Z",
+  "speaker_map": {
+    "SPEAKER_00": "Guillermo Rauch"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Guillermo Rauch",
+  "cohosts": [],
+  "title_zh": "当机器人开始给机器人写代码：Vercel CEO 谈智能体时代的互联网",
+  "guest_name": "Guillermo Rauch",
+  "guest_title": "Vercel 创始人兼 CEO",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=spliced",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/40429063/40429063-1792145352897-49a897c5b03b4.jpg",
+    "origin_px": "3000x3000",
+    "aspect": 1,
+    "fetched_at": "2026-10-17T01:06:14.422Z"
+  }
+}

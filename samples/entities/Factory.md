@@ -81,7 +81,7 @@ unlisted: true
 
 [[智能体]] · [[开源模型]] · [[token]] · [[软件工厂]] · [[harness]] · [[技能]] · [[Cognition]] · [[Anthropic]] · [[OpenAI]] · [[Matan Grinberg]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"开源模型":4,"token":33,"软件工厂":1,"harness":67,"技能":35,"Cognition":27,"Anthropic":206,"OpenAI":207,"Matan Grinberg":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"开源模型":4,"token":33,"软件工厂":1,"harness":67,"技能":35,"Cognition":27,"Anthropic":206,"OpenAI":208,"Matan Grinberg":1}</script>
 
 <script>
 (function(){

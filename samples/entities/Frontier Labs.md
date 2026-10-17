@@ -57,7 +57,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[后训练]] · [[基准测试]] · [[Anthropic]] · [[ChatGPT]] · [[Garrett Lord]] · [[Theo Jaffe]] · [[Harry Stebbings]] · [[Kevin Ball]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":207,"后训练":1,"基准测试":3,"Anthropic":206,"ChatGPT":115,"Garrett Lord":1,"Theo Jaffe":8,"Harry Stebbings":21,"Kevin Ball":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":208,"后训练":1,"基准测试":3,"Anthropic":206,"ChatGPT":115,"Garrett Lord":1,"Theo Jaffe":8,"Harry Stebbings":21,"Kevin Ball":4}</script>
 
 <script>
 (function(){

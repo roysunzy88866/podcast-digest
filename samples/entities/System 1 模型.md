@@ -33,7 +33,7 @@ unlisted: true
 
 [[Diogo Almeida]] · [[Jev]] · [[TypeSafe]] · [[RLCD]] · [[RLHF]] · [[RLVR]] · [[OpenAI]] · [[模式坍缩]] · [[Matt Turk]] · [[校准]]
 
-<script type="application/json" class="pd-epn">{"Diogo Almeida":4,"Jev":8,"TypeSafe":5,"RLCD":3,"RLHF":8,"RLVR":4,"OpenAI":207,"模式坍缩":1,"Matt Turk":6,"校准":4}</script>
+<script type="application/json" class="pd-epn">{"Diogo Almeida":4,"Jev":8,"TypeSafe":5,"RLCD":3,"RLHF":8,"RLVR":4,"OpenAI":208,"模式坍缩":1,"Matt Turk":6,"校准":4}</script>
 
 <script>
 (function(){

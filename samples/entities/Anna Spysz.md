@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Iskander Malikov]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]]
+[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"智能体商务":1,"Universal Commerce Protocol":3,"系统提示词":9,"共享支付令牌":1,"护栏":93,"商家能力清单":1,"大语言模型":11,"Stripe":52,"Google":72}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"智能体商务":1,"Universal Commerce Protocol":3,"系统提示词":9,"共享支付令牌":1,"护栏":93,"商家能力清单":1,"大语言模型":11,"Stripe":53,"Google":72}</script>
 
 <script>
 (function(){

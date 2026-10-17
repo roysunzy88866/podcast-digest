@@ -1,0 +1,1834 @@
+{
+  "episode_id": "2026-10-16-sourcery-vercel-ceo-guillermo-rauch-on-building-t",
+  "podcast": "Sourcery",
+  "date": "2026-10-16",
+  "tags": [
+    "AI 基础设施",
+    "智能体",
+    "开源模型",
+    "AI 安全",
+    "创业与公司故事"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "guillermo-rauch",
+      "type": "person",
+      "role": "host",
+      "name": "Guillermo Rauch",
+      "file": "Guillermo Rauch",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "vercel",
+      "type": "company",
+      "role": "company",
+      "name": "Vercel",
+      "file": "Vercel",
+      "primary": true,
+      "how_described": "本集把它说成:让任何人都能轻松发布应用的云平台,估值 93 亿美元、年化收入 6 亿美元;编程智能体驱动的部署从年初 3% 涨到 60%,10 个月新增 15 亿次部署,成为智能体默认接入的基础设施。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.051,
+            4.132
+          ],
+          "quote": "Vercel recently raised $300 million in a Series F funding round.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 2,
+          "t": [
+            9.933,
+            11.173
+          ],
+          "quote": "Vercel seems to be winning.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 6,
+          "t": [
+            23.796,
+            28.941
+          ],
+          "quote": "We started out the year with 3% of deployments on Vercel coming from coding agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            44.057,
+            47.599
+          ],
+          "quote": "Almost every other thing I see on X every day is just a Vercel deployment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            47.679,
+            52.783
+          ],
+          "quote": "Sometimes you see the largest companies in the world deploying on Vercel, including companies like OpenAI and Meta.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            55.444,
+            60.688
+          ],
+          "quote": "The lethal combination there is that you buy Vercel as the platform and then you never have to buy software again.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            77.298,
+            80.92
+          ],
+          "quote": "We're here in San Francisco on our seventh floor of the Vercel headquarters.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            114.014,
+            120.119
+          ],
+          "quote": "Well, you know, when I started out the company, Vercel, I was a framework and dev tools builder.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            374.605,
+            385.951
+          ],
+          "quote": "I think what's proven really valuable to Vercel has been, you know, we have a mission about enabling builders and enabling people to ship what's next.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            444.376,
+            446.898
+          ],
+          "quote": "So Vercel does play a role in this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 94,
+          "t": [
+            456.446,
+            465.013
+          ],
+          "quote": "For context, Vercel got really popular because of how easy we made it for anybody in the planet to ship an application.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            617.245,
+            628.088
+          ],
+          "quote": "And Vercel has sort of emerged as the place, this universal field where all of the coding agents are plugging into and pushing their code out so that it can be used by anybody.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            628.608,
+            636.435
+          ],
+          "quote": "So you probably are using Vercel every day of your life because when you see things on X go viral, it now makes me quite proud to see this, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            636.455,
+            642.361
+          ],
+          "quote": "Like it took us so long to build it, but like almost every other thing I see on X every day, it's just a Vercel deployment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            643.061,
+            654.212
+          ],
+          "quote": "And sometimes you can tell because by default we give people a domain name, it's like .vercel.app or sometimes you see the largest companies in the world deploying on Vercel, including companies like OpenAI and Meta.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            892.346,
+            899.809
+          ],
+          "quote": "So we started out the year with 3% of deployments on Vercel were coming from coding agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            977.07,
+            989.32
+          ],
+          "quote": "And that led me to open source and the big epiphany that has defined Vercel, which is that the tools that developers and agents should use should be free and open so that everybody in the world can learn.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            992.081,
+            1003.544
+          ],
+          "quote": "When you think about why Vercel has emerged as this coding agent favorite, it's because over the past 11 years, we've open sourced everything we know.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1078.083,
+            1084.427
+          ],
+          "quote": "To unpack and go deeper into this era of exponential, you've been running Vercel.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1141.487,
+            1153.371
+          ],
+          "quote": "I don't give them the fancy, people should go to Vercel.com, they're gonna see this beautiful triangle with a gradient, our engineers, our agents carefully chiseled this beautiful animation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1159.833,
+            1169.856
+          ],
+          "quote": "So what we give the agent, and this is Vercel cloud capability, we give them highly precise information about our business that the agent needs to learn,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1194.398,
+            1198.964
+          ],
+          "quote": "If you ask Muse to build you a website, it will use Vercel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1199.645,
+            1207.715
+          ],
+          "quote": "So you can go off and say, oh, I'm gonna go, I'm gonna visit Vercel, I'm gonna get some information about how to build software, and then I'm gonna build something for this user.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1263.198,
+            1265.46
+          ],
+          "quote": "Vercel is actually taking the opposite posture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1310.926,
+            1320.254
+          ],
+          "quote": "And the transformation that Vercel made is to go from developer experience, which is sort of our first customer was a developer, to now the agentic developer experience.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1352.868,
+            1359.032
+          ],
+          "quote": "Which is another astonishing fact about the Vercel business is that we see agents now purchasing our services.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1360.453,
+            1368.837
+          ],
+          "quote": "We see one of the most popular tools in the Vercel toolset is a capability that helps agents buy stuff from our marketplace.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1369.618,
+            1376.262
+          ],
+          "quote": "So for example, if an agent needs to buy a web browser, they can purchase browser-based through the Vercel marketplace.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1381.825,
+            1387.45
+          ],
+          "quote": "It's like the agent is visiting the virtual Vercel shelf and is saying, oh, I need that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1528.459,
+            1532.022
+          ],
+          "quote": "So for example, the Vercel MCP says, here's how you deploy software.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1534.504,
+            1541.17
+          ],
+          "quote": "And so we're basically creating a presentation of Vercel that is very ergonomic to the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1606.714,
+            1622.906
+          ],
+          "quote": "But nowadays, the way that we work at Vercel is I can go into my agent that we deploy on Slack, and I can say, hey, tell me about Molly and how frequently she deploys on Vercel, because I'm gonna have a meeting with her, and I'm her account executive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1640.746,
+            1643.128
+          ],
+          "quote": "Almost everything we do at Vercel, we do with agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1692.798,
+            1700.628
+          ],
+          "quote": "The future of the internet is, well, at Vercel, we have our agent that helps prepare our Salesforce and our customer support teams.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1830.642,
+            1836.543
+          ],
+          "quote": "Vercel makes it such that you can prompt with your coding agent and generate software that's perfect for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1890.313,
+            1900.756
+          ],
+          "quote": "I can generate the most beautiful meeting prep or report or all of these awesome things that you can deploy on Vercel, websites, applications, agents, but they need to get their data from somewhere.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1959.559,
+            1967.385
+          ],
+          "quote": "The companies building what's next from Vercel, OpenAI, Anthropic, Granola, and Deepgram all made the same call.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 398,
+          "t": [
+            2082.305,
+            2089.491
+          ],
+          "quote": "So Vercel has created new services, purpose-built, to basically secure and contain the agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2306.515,
+            2317.725
+          ],
+          "quote": "And so long answer to, Vercel is also building the sandboxes and the capabilities so that companies can operate agents, deploy agents, and really trust them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2477.231,
+            2486.097
+          ],
+          "quote": "So Vercel takes a stance here, which is we will not lock you in to any model provider.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 476,
+          "t": [
+            2523.794,
+            2526.154
+          ],
+          "quote": "I was going to say, Vercel sponsors Formula One.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2552.278,
+            2565.785
+          ],
+          "quote": "And so Vercel has sort of emerged as the place where not only people are coming to us to build and ship agents, they're just coming to us to get this optionality or this sort of best of all worlds situation with AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 545,
+          "t": [
+            2795.332,
+            2803.398
+          ],
+          "quote": "Vercel hosts a lot of the largest crypto companies in the world, fintechs, like we have Polymarket and Calci as customers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2882.184,
+            2892.067
+          ],
+          "quote": "We told the world, Vercel sandbox we believe is one of the most secure sandboxes, if not the most secure sandbox in the world, and to strengthen it further, we want you to poke holes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 576,
+          "t": [
+            2969.702,
+            2990.379
+          ],
+          "quote": "And so what Vercel is doing now is we're creating the sort of cybersecurity harnesses and the incentive systems such that we can find out first, we can protect our infrastructure, we can deploy lots and lots of tokens towards, you know, someone asked me on Exo, like, what's gonna happen in the future if all the human code that we've written to date",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 596,
+          "t": [
+            3097.518,
+            3111.021
+          ],
+          "quote": "And so I'm gonna be able to say, and by the way, Vercel has sort of been going down this path of strengthening our infrastructure with this more verifiable code for the past few years, but the surface is enormous.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 608,
+          "t": [
+            3154.413,
+            3166.183
+          ],
+          "quote": "One of them was on, because you and Vercel sees everything that's going on in the world on the infrastructure side, the difference between open weight and closed usage.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 610,
+          "t": [
+            3169.405,
+            3175.673
+          ],
+          "quote": "Yeah, so for context, Vercel operates one of the largest token distribution networks in the world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 615,
+          "t": [
+            3199.449,
+            3203.931
+          ],
+          "quote": "And so developers come to Vercel to get tokens, to power their agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 621,
+          "t": [
+            3230.251,
+            3241.253
+          ],
+          "quote": "And the thing that's astonishing is since the beginning of the year, you know, when we started out the Vercel AI Gateway is what we call this network.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 745,
+          "t": [
+            3925.848,
+            3931.693
+          ],
+          "quote": "What I always tell our customers is the primary value that Vercel gives your business is iteration velocity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 837,
+          "t": [
+            4320.906,
+            4327.41
+          ],
+          "quote": "Incidentally, you know, Vercel built a platform where this kind of code is amazing to deploy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 871,
+          "t": [
+            4473.671,
+            4477.113
+          ],
+          "quote": "In this new world, you buy the Vercel sandbox and you give it to the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 881,
+          "t": [
+            4520.598,
+            4530.38
+          ],
+          "quote": "We've been launching sandboxes in the cloud for 11 years because every single time a Vercel deployment is made, we had almost the same challenges.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 890,
+          "t": [
+            4571.137,
+            4572.719
+          ],
+          "quote": "Well, Vercel seems to be winning.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 898,
+          "t": [
+            4594.104,
+            4597.907
+          ],
+          "quote": "The customer growth of Vercel has been exceptional for the market that we're in, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 919,
+          "t": [
+            4704.678,
+            4706.419
+          ],
+          "quote": "So I give that example of if you go to Vercel.com.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1010,
+          "t": [
+            5138.915,
+            5148.823
+          ],
+          "quote": "So we do Brazilian Jiu-Jitsu together and I hope to basically pass on these lessons and even to the broader Vercel team.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成:自主行动更长时间、替人执行使命的 AI 程序,正在写代码、部署应用、浏览互联网甚至自主购买服务;'机器人指挥机器人干活',互联网流量将越来越多来自智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 137,
+          "t": [
+            715.703,
+            721.488
+          ],
+          "quote": "One, you can tell your AI agent to do whatever, and you don't even look at what it's doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            883.859,
+            890.165
+          ],
+          "quote": "Because I have heard people don't even know how to read their code anymore because they don't know what the coding agent is making.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 188,
+          "t": [
+            992.081,
+            1003.544
+          ],
+          "quote": "When you think about why Vercel has emerged as this coding agent favorite, it's because over the past 11 years, we've open sourced everything we know.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1004.344,
+            1015.308
+          ],
+          "quote": "And it turns out when the models get trained, the more information there is about you and the more they can access your content and the rules that you're defining, the better it is for this agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1123.202,
+            1127.963
+          ],
+          "quote": "The era that we're going into now is more agent to agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1136.186,
+            1140.487
+          ],
+          "quote": "So a simple example is when an agent goes to versell.com,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1155.291,
+            1156.432
+          ],
+          "quote": "The agent don't care.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1156.912,
+            1158.993
+          ],
+          "quote": "The agent wants straight signal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1159.833,
+            1169.856
+          ],
+          "quote": "So what we give the agent, and this is Vercel cloud capability, we give them highly precise information about our business that the agent needs to learn,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1208.576,
+            1217.219
+          ],
+          "quote": "And so I need to present my best face to that agent and to the many, many, many other agents that are gonna, and this is true for every business, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1217.239,
+            1229.224
+          ],
+          "quote": "Like you could have, I mean, the example is super top of mind for people is like DoorDash, customer for sale, just shipped a agent where you can ask for a burrito over text message.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1239.641,
+            1245.865
+          ],
+          "quote": "There's gonna be people talking to an agent and then that agent will go and talk to DoorDash.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1369.618,
+            1376.262
+          ],
+          "quote": "So for example, if an agent needs to buy a web browser, they can purchase browser-based through the Vercel marketplace.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1381.825,
+            1387.45
+          ],
+          "quote": "It's like the agent is visiting the virtual Vercel shelf and is saying, oh, I need that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1422.051,
+            1429.114
+          ],
+          "quote": "And so what we have done as an industry is we give, one of the fundamental tools that we give the agent is the ability to search the internet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1439.757,
+            1448.621
+          ],
+          "quote": "What you wanna make sure is that there's a transcript as well so that when an agent, I'm not even gonna say I because I'm not gonna be doing it, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1448.721,
+            1451.783
+          ],
+          "quote": "When I say my agent, hey, what did Molly say about so and so?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1452.783,
+            1459.126
+          ],
+          "quote": "If you basically fed the internet with that information, you're gonna be there more readily available to the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1534.504,
+            1541.17
+          ],
+          "quote": "And so we're basically creating a presentation of Vercel that is very ergonomic to the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1554.228,
+            1564.555
+          ],
+          "quote": "When I ask my agent, hey, go and purchase the same thing that I purchase every month, or hey, go and get me this really cool, I take a photo of this, go get me this really cool microphone.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1565.76,
+            1576.827
+          ],
+          "quote": "It can go and browse a website or some companies will be out there saying, hey, agent, you can just buy far more quickly in more streamlined fashion because I'm speaking your language.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1606.714,
+            1622.906
+          ],
+          "quote": "But nowadays, the way that we work at Vercel is I can go into my agent that we deploy on Slack, and I can say, hey, tell me about Molly and how frequently she deploys on Vercel, because I'm gonna have a meeting with her, and I'm her account executive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1630.121,
+            1633.183
+          ],
+          "quote": "I just went to the agent and the agent went to Salesforce.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1692.798,
+            1700.628
+          ],
+          "quote": "The future of the internet is, well, at Vercel, we have our agent that helps prepare our Salesforce and our customer support teams.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1801.716,
+            1804.497
+          ],
+          "quote": "The agent is buying directly from the brands and not going to Amazon.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1830.642,
+            1836.543
+          ],
+          "quote": "Vercel makes it such that you can prompt with your coding agent and generate software that's perfect for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1837.584,
+            1844.705
+          ],
+          "quote": "You can build the podcast schedule, note-taking app and agent that fits just your needs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 368,
+          "t": [
+            1929.646,
+            1937.248
+          ],
+          "quote": "The agent can go and get the data out of the system and then either create new software, create new visualizations of the data, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 403,
+          "t": [
+            2117.553,
+            2119.535
+          ],
+          "quote": "So we built that for the agent era.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2128.104,
+            2134.191
+          ],
+          "quote": "And so what happened there is that they had this agent and the agent was given a goal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 418,
+          "t": [
+            2178.474,
+            2179.914
+          ],
+          "quote": "And now we call that the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2183.035,
+            2188.536
+          ],
+          "quote": "And so what can happen is that you say, hey, agent, go and close this sale.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 421,
+          "t": [
+            2189.737,
+            2194.218
+          ],
+          "quote": "And the agent can take a very open definition of that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2212.873,
+            2218.518
+          ],
+          "quote": "The agent can say, well, you know, I'll do whatever it takes to find this email and send her the note.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2236.73,
+            2237.89
+          ],
+          "quote": "I just told my agent to do it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2238.29,
+            2248.356
+          ],
+          "quote": "And so the risk is exactly that, is what are the guardrails of what's okay for this agent to do in the fulfillment of this mission?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2283.073,
+            2290.019
+          ],
+          "quote": "Prompt injection is an instruction that is hidden, that is evil, meant for my agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2290.42,
+            2300.129
+          ],
+          "quote": "So my agent was just scrubbing YouTube and like, oh, now he got somewhat persuaded to do something evil, but it's acting on my behalf.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2360.358,
+            2368.584
+          ],
+          "quote": "But I'll tell you, the thing that kind of concerned me about that incident is that the first escape of the agent, it was from a really good sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2410.061,
+            2423.573
+          ],
+          "quote": "The agent within a controlled environment is more like having the agent be a rat, and you're fully contained, can't break glass, and you're watching it spin, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 461,
+          "t": [
+            2424.474,
+            2433.443
+          ],
+          "quote": "In practice, I can tell you, talking to prospects and talking to people that were helping them figure out agents, people have not really figured out agent security yet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2676.968,
+            2683.553
+          ],
+          "quote": "To, you know, even like the personal agent landscape, like just adding more value to people's lives.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 513,
+          "t": [
+            2696.48,
+            2697.841
+          ],
+          "quote": "This will be an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 551,
+          "t": [
+            2834.734,
+            2843.216
+          ],
+          "quote": "There's very little, it's a very impactful amount, but it's very little that humans can add at this point to the coding agent capability.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 779,
+          "t": [
+            4069.059,
+            4071.459
+          ],
+          "quote": "And then I ask my agent questions and process it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 850,
+          "t": [
+            4386.007,
+            4388.529
+          ],
+          "quote": "Create your own custom agent with a simple prompt.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 853,
+          "t": [
+            4400.798,
+            4401.739
+          ],
+          "quote": "Just tell your agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 871,
+          "t": [
+            4473.671,
+            4477.113
+          ],
+          "quote": "In this new world, you buy the Vercel sandbox and you give it to the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 926,
+          "t": [
+            4734.574,
+            4747.783
+          ],
+          "quote": "Especially, look, we employ fantastic AEs who are selling our agent platform to the Fortune 500s and they're establishing trust-based human relationships.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 944,
+          "t": [
+            4869.757,
+            4873.946
+          ],
+          "quote": "We used an agent to rewrite the code from the old platform to the new one.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 946,
+          "t": [
+            4876.648,
+            4881.611
+          ],
+          "quote": "When I saw the agent's result, I was like, this used to take months.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 957,
+          "t": [
+            4925.467,
+            4927.208
+          ],
+          "quote": "Or close to the agent and close to the agent, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1045,
+          "t": [
+            5290.468,
+            5298.35
+          ],
+          "quote": "It's heterogeneous in the sense that it can work for sandboxes, it can work for functions, it can run your website, it can run your agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "coding-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "编程智能体 (coding agents)",
+      "file": "编程智能体",
+      "primary": true,
+      "how_described": "本集把它说成:超人类地写出惊人代码的机器,但也因此极其擅长找漏洞和入侵;Vercel 上 60% 的部署现在来自编码智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            23.796,
+            28.941
+          ],
+          "quote": "We started out the year with 3% of deployments on Vercel coming from coding agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            554.938,
+            561.445
+          ],
+          "quote": "Not gotten easier in the sense that like the code is actually pretty dumb hard, but now we have coding agents writing the code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            605.76,
+            610.523
+          ],
+          "quote": "But now, you know, these coding agents are superhuman at writing the most amazing code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            617.245,
+            628.088
+          ],
+          "quote": "And Vercel has sort of emerged as the place, this universal field where all of the coding agents are plugging into and pushing their code out so that it can be used by anybody.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            664.702,
+            672.83
+          ],
+          "quote": "Because not only are we seeing all of the activity coming from the coding agents, we're also distributing the tokens in the internet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            792.126,
+            798.169
+          ],
+          "quote": "And so I think the role that most people are now taking with these coding agents is that of an engineering manager.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            892.346,
+            899.809
+          ],
+          "quote": "So we started out the year with 3% of deployments on Vercel were coming from coding agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1398.999,
+            1405.163
+          ],
+          "quote": "Grok, ChatGPT, Claude, the coding agents, and even the search engine crawlers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1864.734,
+            1870.017
+          ],
+          "quote": "I'm a yes-code company because I'm now saying coding agents basically make the code free.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2434.163,
+            2445.49
+          ],
+          "quote": "And a very, very important part of that is to have very secure sandboxes, which is in itself a really big challenge because coding agents are also extremely good at finding vulnerabilities in code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2446.15,
+            2448.532
+          ],
+          "quote": "So we love the coding agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2462.52,
+            2466.783
+          ],
+          "quote": "And so what's emerged is that these coding agents are really good at hacking.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 470,
+          "t": [
+            2486.875,
+            2501.827
+          ],
+          "quote": "We'll give you the tools so that you can use coding agents, so that you can secure your environments and use every model under the sun, which is very attractive to enterprises because sometimes it emerges that a certain model may be better at cybersecurity than another.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2818.146,
+            2829.172
+          ],
+          "quote": "There was this funny moment in the past three years where a lot of my peers have been very skeptical of coding agents, and almost all of them have been proven wrong.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 555,
+          "t": [
+            2859.313,
+            2869.142
+          ],
+          "quote": "And in fact, a lot of the stuff that, you know, the world is suffering from today is that we're using coding agents who are now super intelligent and they're reading the human code and they're like horrified.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 832,
+          "t": [
+            4303.036,
+            4308.358
+          ],
+          "quote": "And now it's coding agents that do it and like we live, we basically live in the promised land.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 859,
+          "t": [
+            4422.384,
+            4435.592
+          ],
+          "quote": "I have to ask you because there are some really quick money grabs in this universe, whether it's like Neo, Clouds, like all these kinds of new providers, the coding agents are spewing off money.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 894,
+          "t": [
+            4580.97,
+            4584.975
+          ],
+          "quote": "You have 60% of AI coding agents using the platform.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集把它说成:给智能体在云端隔离运行的计算机——智能体也需要一台'电脑';Vercel 沙箱以 100 万美元悬赏邀请全世界攻击,最终一人带智能体大军攻破,漏洞出在 Linux 层。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 442,
+          "t": [
+            2323.683,
+            2328.572
+          ],
+          "quote": "Side note, have you ever seen a sandbox that didn't have sand spill on the outsides of it?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 446,
+          "t": [
+            2333.738,
+            2344.166
+          ],
+          "quote": "So the word sandbox is being used a lot, and sometimes it's kind of a technical horror in that it's not what people are calling sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2349.49,
+            2351.132
+          ],
+          "quote": "It's not really a sandbox, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2351.512,
+            2357.917
+          ],
+          "quote": "And so when OpenAI hacked Hugging Face, there were elements that were sandbox-like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2360.358,
+            2368.584
+          ],
+          "quote": "But I'll tell you, the thing that kind of concerned me about that incident is that the first escape of the agent, it was from a really good sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2389.574,
+            2392.055
+          ],
+          "quote": "Because the sandbox is right, the sandbox you just escape.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 558,
+          "t": [
+            2876.502,
+            2881.083
+          ],
+          "quote": "To get ahead of this problem, we put a million dollars towards a sandbox challenge.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2882.184,
+            2892.067
+          ],
+          "quote": "We told the world, Vercel sandbox we believe is one of the most secure sandboxes, if not the most secure sandbox in the world, and to strengthen it further, we want you to poke holes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 568,
+          "t": [
+            2934.057,
+            2940.478
+          ],
+          "quote": "This is not, you know, someone's child saying, hey, Claude, can you hack the sandbox?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 863,
+          "t": [
+            4446.018,
+            4449.4
+          ],
+          "quote": "The Sandbox product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 871,
+          "t": [
+            4473.671,
+            4477.113
+          ],
+          "quote": "In this new world, you buy the Vercel sandbox and you give it to the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 872,
+          "t": [
+            4477.733,
+            4487.499
+          ],
+          "quote": "The relative quality between the sandbox product, not to pat ourselves on the back, but I want to give the world this kind of quality.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open models)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集把它说成:执行落地任务已足够好、便宜 20 倍的模型;Vercel 网络上 80% 的 token 流量已流向开源模型,企业乐于保留一行代码即可换模型的自由。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            242.118,
+            245.259
+          ],
+          "quote": "Open models, build in public, transparent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            681.376,
+            687.38
+          ],
+          "quote": "So you can get open AI, Anthropic, open models, closed models, proprietary models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 581,
+          "t": [
+            3006.845,
+            3013.848
+          ],
+          "quote": "And the tokens, I personally disagree with the whole, like, let's ban open models because of the cybersecurity risk.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 618,
+          "t": [
+            3211.887,
+            3216.468
+          ],
+          "quote": "All of the model providers and all of the open models in the world or most of them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 634,
+          "t": [
+            3302.978,
+            3307.661
+          ],
+          "quote": "80% of tokens in our network, and this is a tweet that went viral, is open models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 636,
+          "t": [
+            3311.805,
+            3316.091
+          ],
+          "quote": "Open models used to be terrible, horrible at coding.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 670,
+          "t": [
+            3540.506,
+            3552.551
+          ],
+          "quote": "A clear commonality that I've seen in the conversations that I've had and one particularly with Bending Spoons is Luca mentioned 99% of the time they're using open models or not using Frontier.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 751,
+          "t": [
+            3948.568,
+            3953.132
+          ],
+          "quote": "I'm not gonna try open models, because I heard this thing on TV and I'm scared or whatever.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "deployment",
+      "type": "concept",
+      "role": "concept",
+      "name": "部署 (deployment)",
+      "file": "部署",
+      "primary": true,
+      "how_described": "本集把它说成:每次把代码改动发布上线的动作;Vercel 花 10 年累计 10 亿次部署,之后 10 个月又新增 15 亿次,是智能体驱动的指数增长的核心指标。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            44.057,
+            47.599
+          ],
+          "quote": "Almost every other thing I see on X every day is just a Vercel deployment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            531.079,
+            532.861
+          ],
+          "quote": "Deployment is one of my favorite words.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            532.961,
+            535.483
+          ],
+          "quote": "Every time you ship a change to your app, that's a deployment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            636.455,
+            642.361
+          ],
+          "quote": "Like it took us so long to build it, but like almost every other thing I see on X every day, it's just a Vercel deployment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 881,
+          "t": [
+            4520.598,
+            4530.38
+          ],
+          "quote": "We've been launching sandboxes in the cloud for 11 years because every single time a Vercel deployment is made, we had almost the same challenges.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prompt injection)",
+      "file": "提示词注入",
+      "primary": true,
+      "how_described": "本集把它说成:藏在网页(如 YouTube 评论)里针对智能体的恶意隐藏指令;智能体会带着你的身份、令牌和工具,去执行坏人的意图。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 435,
+          "t": [
+            2275.665,
+            2281.893
+          ],
+          "quote": "Like, now imagine that in that YouTube comment, someone plants a prompt injection.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2283.073,
+            2290.019
+          ],
+          "quote": "Prompt injection is an instruction that is hidden, that is evil, meant for my agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "serverless",
+      "type": "concept",
+      "role": "concept",
+      "name": "无服务器 (serverless)",
+      "file": "无服务器",
+      "primary": true,
+      "how_described": "本集把它说成:软件不用时自动关停、智能上下线的算力模式,并未过时;其下一次进化是'像液体一样流动'的 fluid compute,将定义下一个十年。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1032,
+          "t": [
+            5226.433,
+            5232.456
+          ],
+          "quote": "There was one I didn't ask, which Darren from Tembo sent me and he wanted to know is serverless dead?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1036,
+          "t": [
+            5252.741,
+            5256.443
+          ],
+          "quote": "So the beauty of serverless was when the software is not being used, we spin it down.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1040,
+          "t": [
+            5269.327,
+            5272.95
+          ],
+          "quote": "So we call the next evolution of serverless fluid compute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1046,
+          "t": [
+            5298.41,
+            5306.092
+          ],
+          "quote": "So, I mean, I've never been more excited about the future of, again, what's the next chapter of serverless, which is fluid compute.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "next-js",
+      "type": "concept",
+      "role": "concept",
+      "name": "Next.js",
+      "file": "Next.js",
+      "primary": true,
+      "how_described": "本集把它说成:Vercel 创办时推出的开源框架,世界上几乎每个人都用它构建现代 Web 体验,是开源战略赢得智能体的关键例证。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            159.469,
+            165.153
+          ],
+          "quote": "And when I started the company, the first tool that kind of became like super, super popular was Next.js.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集把它说成:智能体互联网的新协议,让你能向智能体声明'这些是我服务里你可以用的工具',比如 Vercel 的 MCP 告诉智能体如何部署软件、列出项目。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 290,
+          "t": [
+            1521.373,
+            1528.018
+          ],
+          "quote": "One is called MCP, which basically allows you to say, hey, agents, these are all the tools that you can use from my service.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1528.459,
+            1532.022
+          ],
+          "quote": "So for example, the Vercel MCP says, here's how you deploy software.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "capital-allocator",
+      "type": "concept",
+      "role": "concept",
+      "name": "资本配置者 (capital allocator)",
+      "file": "资本配置者",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 806,
+          "t": [
+            4189.774,
+            4192.896
+          ],
+          "quote": "I wouldn't say venture capitalist, I would say capital allocator.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集顺带提到:作为在 Vercel 上部署的最大公司之一、年初的主要 token 来源,以及 OpenAI 智能体从优秀沙箱中逃脱黑掉 Hugging Face 的事件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            47.679,
+            52.783
+          ],
+          "quote": "Sometimes you see the largest companies in the world deploying on Vercel, including companies like OpenAI and Meta.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            643.061,
+            654.212
+          ],
+          "quote": "And sometimes you can tell because by default we give people a domain name, it's like .vercel.app or sometimes you see the largest companies in the world deploying on Vercel, including companies like OpenAI and Meta.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1959.559,
+            1967.385
+          ],
+          "quote": "The companies building what's next from Vercel, OpenAI, Anthropic, Granola, and Deepgram all made the same call.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 404,
+          "t": [
+            2120.375,
+            2127.063
+          ],
+          "quote": "Another really important primitive is the news that went viral around OpenAI, hacking, Hugging Face.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2351.512,
+            2357.917
+          ],
+          "quote": "And so when OpenAI hacked Hugging Face, there were elements that were sandbox-like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 591,
+          "t": [
+            3060.953,
+            3073.46
+          ],
+          "quote": "Some humans, sorry, some humans in the audience, like a very small percentage of humans could do it, but the code that will result from this looks more like the, I don't know if you saw that OpenAI-approved Navier Stokes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 593,
+          "t": [
+            3077.797,
+            3082.062
+          ],
+          "quote": "I opened the GitHub repo and OpenAI can also not understand.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 632,
+          "t": [
+            3294.371,
+            3297.334
+          ],
+          "quote": "So OpenAI, Gemini, xAI, et cetera.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": false,
+      "how_described": "本集顺带提到:Vercel 与其合作,让智能体能够直接完成交易。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 235,
+          "t": [
+            1276.483,
+            1281.867
+          ],
+          "quote": "I just put out this interview that I did with John Collison of Stripe at the BrowserBase.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1346.225,
+            1351.948
+          ],
+          "quote": "We partner with Stripe and Shopify to offer agents the ability to transact.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1790.486,
+            1795.391
+          ],
+          "quote": "And we're seeing this now, as you're saying, with agents and Shopify and Stripe.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "shopify",
+      "type": "company",
+      "role": "company",
+      "name": "Shopify",
+      "file": "Shopify",
+      "primary": false,
+      "how_described": "本集顺带提到:Vercel 与其合作,让智能体能够直接完成交易。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 252,
+          "t": [
+            1346.225,
+            1351.948
+          ],
+          "quote": "We partner with Stripe and Shopify to offer agents the ability to transact.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1790.486,
+            1795.391
+          ],
+          "quote": "And we're seeing this now, as you're saying, with agents and Shopify and Stripe.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "mercedes",
+      "type": "company",
+      "role": "company",
+      "name": "Mercedes",
+      "file": "Mercedes",
+      "primary": false,
+      "how_described": "本集顺带提到:Vercel 赞助并用智能体帮其 F1 车队把老平台代码迁移到新平台,第一版只花 5 分钟,过去要请顾问耗时一年。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 477,
+          "t": [
+            2526.174,
+            2527.415
+          ],
+          "quote": "We sponsored the Mercedes team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2527.835,
+            2529.216
+          ],
+          "quote": "Mercedes is such a goat.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 938,
+          "t": [
+            4835.092,
+            4837.132
+          ],
+          "quote": "So we did this example with Mercedes.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "vibe coding",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

@@ -27,7 +27,7 @@ unlisted: true
 
 [[AJ Loiacono]] · [[Dr. Wara]] · [[Judy Health]] · [[Thrive Capital]] · [[Capital RX]] · [[OpenAI]] · [[CVS]] · [[ChatGPT]] · [[Cigna]] · [[Neuralink]]
 
-<script type="application/json" class="pd-epn">{"AJ Loiacono":1,"Dr. Wara":1,"Judy Health":1,"Thrive Capital":1,"Capital RX":1,"OpenAI":207,"CVS":2,"ChatGPT":115,"Cigna":2,"Neuralink":4}</script>
+<script type="application/json" class="pd-epn">{"AJ Loiacono":1,"Dr. Wara":1,"Judy Health":1,"Thrive Capital":1,"Capital RX":1,"OpenAI":208,"CVS":2,"ChatGPT":115,"Cigna":2,"Neuralink":4}</script>
 
 <script>
 (function(){

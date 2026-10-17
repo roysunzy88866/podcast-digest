@@ -96,7 +96,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":207,"Stripe":52,"Anthropic":206,"智能体":1,"Cursor":87,"Amazon":36,"NVIDIA":71,"Databricks":26,"Google":72,"CrowdStrike":5}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":208,"Stripe":53,"Anthropic":206,"智能体":1,"Cursor":87,"Amazon":36,"NVIDIA":71,"Databricks":26,"Google":72,"CrowdStrike":5}</script>
 
 <script>
 (function(){

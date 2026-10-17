@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]]
+[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"C15T":1,"lead type":1,"智能体":1,"智能体体验":3,"llms.txt":2,"agents.md":3,"WebMCP":2,"node modules":1,"Aura AI":1,"Stripe":52}</script>
+<script type="application/json" class="pd-epn">{"C15T":1,"lead type":1,"智能体":1,"智能体体验":3,"llms.txt":2,"agents.md":3,"WebMCP":2,"node modules":1,"Aura AI":1,"Stripe":53}</script>
 
 <script>
 (function(){

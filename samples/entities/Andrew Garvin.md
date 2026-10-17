@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Iskander Malikov]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]]
+[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Metronome":3,"Stripe":52,"Stripe Projects":2,"OpenAI":207,"Anthropic":206,"Lovable":20,"HubSpot":11,"智能体":1,"编码智能体":36,"vibe coding":52}</script>
+<script type="application/json" class="pd-epn">{"Metronome":3,"Stripe":53,"Stripe Projects":2,"OpenAI":208,"Anthropic":206,"Lovable":20,"HubSpot":11,"智能体":1,"编码智能体":38,"vibe coding":52}</script>
 
 <script>
 (function(){

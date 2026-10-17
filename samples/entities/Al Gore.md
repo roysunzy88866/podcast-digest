@@ -57,7 +57,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lila Preston":1,"Connie Loizis":1,"Generation Investment Management":1,"Anthropic":206,"OpenAI":207,"Pivot Bio":1,"Gridware":1,"IFS":2,"数据中心":25,"前沿模型":29}</script>
+<script type="application/json" class="pd-epn">{"Lila Preston":1,"Connie Loizis":1,"Generation Investment Management":1,"Anthropic":206,"OpenAI":208,"Pivot Bio":1,"Gridware":1,"IFS":2,"数据中心":25,"前沿模型":29}</script>
 
 <script>
 (function(){

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Roose]] [[Greg Brockman]] [[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Tibo Sottiaux]]
+[[Guillermo Rauch]] [[Kevin Roose]] [[Greg Brockman]] [[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tibo Sottiaux":3,"OpenAI":207,"Codex":91,"ChatGPT":115,"Dots":6,"Astra":8,"智能体":1,"沙箱":103,"对齐":25,"护栏":93}</script>
+<script type="application/json" class="pd-epn">{"Tibo Sottiaux":3,"OpenAI":208,"Codex":91,"ChatGPT":115,"Dots":6,"Astra":8,"智能体":1,"沙箱":104,"对齐":25,"护栏":93}</script>
 
 <script>
 (function(){

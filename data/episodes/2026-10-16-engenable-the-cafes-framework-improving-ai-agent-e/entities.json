@@ -1,0 +1,1581 @@
+{
+  "episode_id": "2026-10-16-engenable-the-cafes-framework-improving-ai-agent-e",
+  "podcast": "Engineering Enablement (DX)",
+  "date": "2026-10-16",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "上下文工程",
+    "开发者体验",
+    "知识管理"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "max-canet-alexander",
+      "type": "person",
+      "role": "host",
+      "name": "Max Canet-Alexander",
+      "file": "Max Canet-Alexander",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            114.18,
+            122.863
+          ],
+          "quote": "I am Max Canet-Alexander, and I am a principal software engineer at Capital One, where I help lead Capital One's efforts around AI-assisted software development.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "brian-houck",
+      "type": "person",
+      "role": "cohost",
+      "name": "Brian Houck",
+      "file": "Brian Houck",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            32.456,
+            34.517
+          ],
+          "quote": "I'm your host this week, Brian Houck.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 16,
+          "t": [
+            98.776,
+            99.436
+          ],
+          "quote": "I'm Brian Houck.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "margaret-ann",
+      "type": "person",
+      "role": "cohost",
+      "name": "Margaret Ann",
+      "file": "Margaret Ann",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            138.905,
+            140.226
+          ],
+          "quote": "So I'm Margaret Ann.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "irini",
+      "type": "person",
+      "role": "cohost",
+      "name": "Irini",
+      "file": "Irini",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            124.063,
+            125.425
+          ],
+          "quote": "Hi, I'm Irini.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 29,
+          "t": [
+            149.349,
+            155.432
+          ],
+          "quote": "And I've worked a lot with Brian and Irini on these very topics and chatted a lot with Max.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 169,
+          "t": [
+            894.394,
+            902.66
+          ],
+          "quote": "Irini, closing us out, what are some examples that you might have seen of context failures that people are like, oh, no, it's just these dumb models?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1108.569,
+            1110.571
+          ],
+          "quote": "Irini, you want to kick us off?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1277.598,
+            1284.04
+          ],
+          "quote": "I think Irini described it well when she said that we're pretty good at kind of telling the agent",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文 (context)",
+      "file": "上下文",
+      "primary": true,
+      "how_described": "本集核心主线:意图被翻译成上下文(任务、约束、代码、资料)再喂给智能体,本集论文主张上下文质量——而非模型本身——才是智能体成败的核心瓶颈,并提出 CAFES 五个质量维度。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            2.532,
+            12.874
+          ],
+          "quote": "And we think that the same will be true with context where so much of the end result will be dictated by the quality of the context that we hand to our agents, particularly as they work more autonomously.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 2,
+          "t": [
+            13.014,
+            20.095
+          ],
+          "quote": "And it's going to create this flywheel effect where high quality context results in good outcomes, which becomes tomorrow's high quality context.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 3,
+          "t": [
+            20.435,
+            27.477
+          ],
+          "quote": "And on the flip side, crappy context will result in bad outcomes that will feed future bad agent interactions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 7,
+          "t": [
+            47.261,
+            57.344
+          ],
+          "quote": "It explores why context quality has become the central bottleneck in agentic workflows and introduces five properties to help teams make their AI agents more effective.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 8,
+          "t": [
+            57.624,
+            63.635
+          ],
+          "quote": "When teams provide better context, they build more effective agents and achieve far better engineering outcomes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 36,
+          "t": [
+            193.457,
+            204.866
+          ],
+          "quote": "CAFES is a framework ultimately for measuring the health and quality of the context that we are feeding into our AI agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 37,
+          "t": [
+            205.427,
+            216.756
+          ],
+          "quote": "And I firmly believe that if we want to improve, maximize AI agent effectiveness, we have to have ever increasingly better context.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 38,
+          "t": [
+            219.142,
+            226.627
+          ],
+          "quote": "As I sort of think about like, what do I mean by context and how does it fit in sort of like human agent collaboration?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 40,
+          "t": [
+            237.513,
+            242.956
+          ],
+          "quote": "And that intent has to be translated into context, which is",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 41,
+          "t": [
+            244.157,
+            253.98
+          ],
+          "quote": "The task that you want to complete, all of the information, the constraints, the data associated with it, your code, that's the context.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 47,
+          "t": [
+            304.175,
+            309.459
+          ],
+          "quote": "But what I found is that almost nobody is holistically evaluating the quality of context itself.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 48,
+          "t": [
+            310.219,
+            321.588
+          ],
+          "quote": "And this is so important right now, especially because of a variety of compounding risks that low quality context in our agentic workflows puts onto us.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 58,
+          "t": [
+            347.439,
+            349.901
+          ],
+          "quote": "And context is really where those costs accumulate.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 59,
+          "t": [
+            350.101,
+            357.047
+          ],
+          "quote": "It is everything that you are asking your agents to read and what you are having them produce is all a function of the context.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 64,
+          "t": [
+            372.363,
+            379.834
+          ],
+          "quote": "And part of that is because poor context turns AI into not something that's helping us, it's turning AI into another source of developer toil.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 65,
+          "t": [
+            383.167,
+            385.869
+          ],
+          "quote": "And there are lots of ways that our context fails us.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 66,
+          "t": [
+            386.249,
+            388.39
+          ],
+          "quote": "And so like, what does it mean to have bad context?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 67,
+          "t": [
+            388.41,
+            399.938
+          ],
+          "quote": "Well, let's talk through just some examples of named real world failures that result from having bad context beyond just hallucination, which is what oftentimes we talk about.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 77,
+          "t": [
+            446.74,
+            453.743
+          ],
+          "quote": "And so you may have incredibly valuable, important, relevant context buried in a much larger context window.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 80,
+          "t": [
+            460.225,
+            464.067
+          ],
+          "quote": "So oftentimes I hear people talk about like, how can we get larger and larger context windows?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 82,
+          "t": [
+            466.387,
+            472.809
+          ],
+          "quote": "If we had infinite size context windows, we may have substantially worse outcomes as a result because of lost in the middle.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 85,
+          "t": [
+            485.473,
+            497.4
+          ],
+          "quote": "Where instructions were embedded in the context that the agent then acted on, resulting in sensitive information getting leaked, you know, perhaps even customer data getting leaked.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 86,
+          "t": [
+            498.121,
+            508.047
+          ],
+          "quote": "And while like, yes, our harnesses and models may be able to help protect us against this, it doesn't change the fact that the underlying context itself was compromised.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 87,
+          "t": [
+            508.727,
+            520.034
+          ],
+          "quote": "And so as we look at some of these named failure modes, the ways that context might fail, we thought about, well, what are all of the durable properties of high quality context?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 101,
+          "t": [
+            569.384,
+            575.287
+          ],
+          "quote": "Can the agent trust that the context is true relative to the task that it is trying to accomplish?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 109,
+          "t": [
+            602.839,
+            609.262
+          ],
+          "quote": "And so the accuracy of that documentation is part of the very definition of the context quality.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 112,
+          "t": [
+            613.804,
+            616.625
+          ],
+          "quote": "Is the context lean enough to be usable and affordable?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 113,
+          "t": [
+            617.185,
+            623.788
+          ],
+          "quote": "And I want to note that this doesn't necessarily mean the smallest possible context.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 120,
+          "t": [
+            654.97,
+            660.976
+          ],
+          "quote": "And then the last property that we think defines what it means to be high-quality context...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 122,
+          "t": [
+            662.737,
+            664.718
+          ],
+          "quote": "Is that context safe and compliant?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 123,
+          "t": [
+            665.199,
+            672.344
+          ],
+          "quote": "And so the first four dimensions really talk about is the context itself high quality?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 124,
+          "t": [
+            672.464,
+            676.447
+          ],
+          "quote": "The last dimension talks about should we have been using that context at all?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 129,
+          "t": [
+            709.074,
+            717.418
+          ],
+          "quote": "And ultimately, we think these properties, if they are true, ultimately result in better context,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 139,
+          "t": [
+            762.988,
+            769.155
+          ],
+          "quote": "What are some failures that you've seen blamed on these models that was actually a context failure?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 156,
+          "t": [
+            849.336,
+            855.7
+          ],
+          "quote": "Kicking it over to you, Max, what are some failures you've seen sort of assigned to the models that might have actually been context failures?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 169,
+          "t": [
+            894.394,
+            902.66
+          ],
+          "quote": "Irini, closing us out, what are some examples that you might have seen of context failures that people are like, oh, no, it's just these dumb models?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 188,
+          "t": [
+            973.058,
+            977.442
+          ],
+          "quote": "And that's the failure that I think has to do with context.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 189,
+          "t": [
+            977.722,
+            982.547
+          ],
+          "quote": "It had context that allowed the model to make a bad call or the agent to make a bad call.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1460.624,
+            1470.473
+          ],
+          "quote": "So thinking about intent debt and how agents in particular, or thinking about if we have good context, how that can make it both better and worse.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1472.936,
+            1483.565
+          ],
+          "quote": "On the one hand, if you have really good context and everything seems to be working really well, you may over time become complacent and not write things down explicitly.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1506.126,
+            1513.692
+          ],
+          "quote": "So I think that having, you know, having better context, having quieter or higher quality context can help.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1518.195,
+            1521.878
+          ],
+          "quote": "So the dimensions of cafes are kind of the properties of the context.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1533.887,
+            1544.236
+          ],
+          "quote": "When an agent doesn't have enough context or certainly not enough high-quality context, humans often have to compensate for that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1557.647,
+            1565.789
+          ],
+          "quote": "From humans, as part of the human-agent interaction, what can those human behaviors tell us about the quality of the context we're providing?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1613.837,
+            1619.34
+          ],
+          "quote": "That's like the person deciding that the context cannot be fixed in the moment, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1619.48,
+            1633.908
+          ],
+          "quote": "And so this compensation behavior that you're describing, I think is, it means the context is being reviewed live by the only person that knows what was like the actual intent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1670.831,
+            1674.394
+          ],
+          "quote": "It's like a light indicator of the quality of context.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 336,
+          "t": [
+            1711.692,
+            1724.256
+          ],
+          "quote": "As we get better at providing high quality context or at least better at recognizing and recovering from context failures, is that part of that maturity journey to become more AI fluent?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1730.059,
+            1742.446
+          ],
+          "quote": "I think that both providing good context and being able to recognize and recover when the context is bad is both things that happened through the stages and they probably happen in that order too.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1743.805,
+            1748.688
+          ],
+          "quote": "I think nobody starts by knowing how to write good context.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1795.439,
+            1798.041
+          ],
+          "quote": "All that to say, I think providing good context.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 357,
+          "t": [
+            1818.358,
+            1823.962
+          ],
+          "quote": "So I think like thinking well about context is part of what the stages are.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1847.113,
+            1860.832
+          ],
+          "quote": "I'm curious for anyone, if anyone has a thought, in the future, will more of the evaluation criteria for what makes a good builder or maker or software engineer or whatever we call roles in the future be the quality of the context that we are creating?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1916.185,
+            1925.148
+          ],
+          "quote": "And this could also be an important part of your context or maybe, you know, a constitution where you put in, here are my expectations, right, for the quality of the code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1925.348,
+            1931.21
+          ],
+          "quote": "And that could also be a direction, I think, that you could improve your context, right, to lead towards that quality.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1932.73,
+            1952.778
+          ],
+          "quote": "You know, I earlier said that sort of a property of context only earns its own pillar, its own dimension if it isn't derivable from the others, can be acted on independently, and names a failure mode, a real-world failure mode that the others miss.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 383,
+          "t": [
+            2003.764,
+            2010.472
+          ],
+          "quote": "I think that there were a few other candidates that, right, like we talked about how current the context is, where it came from.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2027.604,
+            2036.067
+          ],
+          "quote": "So in the paper, we argue for a context review discipline, sort of like we have a code review discipline today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 389,
+          "t": [
+            2036.567,
+            2041.372
+          ],
+          "quote": "With effort proportional to how often a piece of context gets reused.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2041.432,
+            2050.901
+          ],
+          "quote": "So obviously, if you have context that you're feeding into your agents every time, like a shared skills file, an AgentMD file, your effort on reviewing that will be much higher.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 396,
+          "t": [
+            2067.387,
+            2074.109
+          ],
+          "quote": "My question to you is, as a real-world practitioner on the panel, is context review actually realistic?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 398,
+          "t": [
+            2076.606,
+            2079.588
+          ],
+          "quote": "So the goal that you should have is to have great context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 400,
+          "t": [
+            2084.031,
+            2091.036
+          ],
+          "quote": "And there are times when putting a human review gate in front of that process actually causes you to have lower quality context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2173.162,
+            2184.269
+          ],
+          "quote": "And I think that if we have a context review, say in a retrospective, that one of the things that we'll get from it is this shared understanding and this collective evaluation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 411,
+          "t": [
+            2184.589,
+            2186.27
+          ],
+          "quote": "Is this enough context?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 412,
+          "t": [
+            2186.37,
+            2187.631
+          ],
+          "quote": "Is this the right context?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2195.215,
+            2207.745
+          ],
+          "quote": "And I will say like in the paper, we go into much more depth on like what are sort of real world recommendations for validating and improving the quality of your context.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2222.536,
+            2234.187
+          ],
+          "quote": "And we think that the same will be true with context, where so much of the end result will be dictated by the quality of the context that we hand to our agents, particularly as they work more autonomously.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 421,
+          "t": [
+            2237.03,
+            2242.096
+          ],
+          "quote": "High quality context results in good outcomes, which becomes tomorrow's high quality context.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2242.436,
+            2250.325
+          ],
+          "quote": "And on the flip side, crappy context will result in bad outcomes that will feed future bad agent interactions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2250.625,
+            2255.371
+          ],
+          "quote": "And so there is this compounding value to improving your context now.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cafes",
+      "type": "concept",
+      "role": "concept",
+      "name": "CAFES",
+      "file": "CAFES",
+      "primary": true,
+      "how_described": "本集发布的论文框架,用于衡量喂给 AI 智能体的上下文的健康度和质量,提出五个独立可衡量的性质:清晰(Clarity)、可执行(Actionability)、保真(Fidelity)、高效(Efficiency)、安全(Security)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            34.797,
+            46.941
+          ],
+          "quote": "Before we jump into the episode, I want to tell you about the CAFES framework, a new research paper co-authored by researchers from DX, Capital One, GitHub, University of Victoria, and Google.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 9,
+          "t": [
+            63.916,
+            70.548
+          ],
+          "quote": "To learn more and read the paper, head over to getdx.com forward slash cafes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 11,
+          "t": [
+            76.389,
+            84.212
+          ],
+          "quote": "Absolutely thrilled to be talking about a new paper, Cafes, that just was published this morning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 14,
+          "t": [
+            87.874,
+            96.797
+          ],
+          "quote": "I am thrilled to be joined by my Cafes co-authors today, who I'll ask to introduce themselves in just a second.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 35,
+          "t": [
+            179.554,
+            192.137
+          ],
+          "quote": "With that, I'm going to give a little bit of background on what Cafes even is, what's the problem space we are looking at before I kick off a round of questions with my fabulous co-authors.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 36,
+          "t": [
+            193.457,
+            204.866
+          ],
+          "quote": "CAFES is a framework ultimately for measuring the health and quality of the context that we are feeding into our AI agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 98,
+          "t": [
+            564.481,
+            567.103
+          ],
+          "quote": "The third dimension of cafes is...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 193,
+          "t": [
+            987.951,
+            989.653
+          ],
+          "quote": "Which is why it's the dimensions of cafes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1088.035,
+            1094.64
+          ],
+          "quote": "One thought that I've had, and I've actually been asked this already, is like, well, what's the most important dimension of cafes?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1095.1,
+            1108.549
+          ],
+          "quote": "And sort of like a question to all of you is, like, if you were to tell an organization, you know, if you could only improve one dimension of cafes, like, what dimension would you have them to start with, like, and why?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1518.195,
+            1521.878
+          ],
+          "quote": "So the dimensions of cafes are kind of the properties of the context.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体描述为:不会停下来协商需求、会默默自信地选定一种解释继续干;其效能受周围知识环境限制;人类对它的澄清、补充、纠正、放弃等补救行为是上下文质量的诊断信号。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            20.435,
+            27.477
+          ],
+          "quote": "And on the flip side, crappy context will result in bad outcomes that will feed future bad agent interactions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 37,
+          "t": [
+            205.427,
+            216.756
+          ],
+          "quote": "And I firmly believe that if we want to improve, maximize AI agent effectiveness, we have to have ever increasingly better context.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 38,
+          "t": [
+            219.142,
+            226.627
+          ],
+          "quote": "As I sort of think about like, what do I mean by context and how does it fit in sort of like human agent collaboration?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 43,
+          "t": [
+            273.486,
+            281.209
+          ],
+          "quote": "Now, if we want to maximize our human agent collaboration, get the most out of our agents, everything in this flow is important.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 51,
+          "t": [
+            327.652,
+            329.454
+          ],
+          "quote": "If your chat agent",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 85,
+          "t": [
+            485.473,
+            497.4
+          ],
+          "quote": "Where instructions were embedded in the context that the agent then acted on, resulting in sensitive information getting leaked, you know, perhaps even customer data getting leaked.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 88,
+          "t": [
+            520.354,
+            528.639
+          ],
+          "quote": "And the first is, is clarity, is, you know, can the agent interpret the request the way that you intended it to be interpreted?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 94,
+          "t": [
+            547.013,
+            551.515
+          ],
+          "quote": "Have you specified a clear goal that the agent can work for towards?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 95,
+          "t": [
+            551.755,
+            556.157
+          ],
+          "quote": "Does the agent know when it is done or will it just keep on going forever?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 101,
+          "t": [
+            569.384,
+            575.287
+          ],
+          "quote": "Can the agent trust that the context is true relative to the task that it is trying to accomplish?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 153,
+          "t": [
+            836.968,
+            846.734
+          ],
+          "quote": "We need to really take our time in describing to the agent and to the other people on our team what it is that we want to do and what it is that we don't want to do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 175,
+          "t": [
+            923.515,
+            926.577
+          ],
+          "quote": "So I had a coding agent, was working on something pretty routine.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 183,
+          "t": [
+            952.4,
+            959.707
+          ],
+          "quote": "When this was written up, it was written up as like the agent goes rogue and it's something about like the model and alignment and so on.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 184,
+          "t": [
+            959.867,
+            962.689
+          ],
+          "quote": "And like, yes, the agent, of course, ignored.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 189,
+          "t": [
+            977.722,
+            982.547
+          ],
+          "quote": "It had context that allowed the model to make a bad call or the agent to make a bad call.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1031.221,
+            1036.165
+          ],
+          "quote": "Yeah, so one of the great secrets of agent experience is that it's all the same things that we knew about developer experience already.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1131.969,
+            1134.55
+          ],
+          "quote": "It's an agent that can't really do the work.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1213.537,
+            1220.739
+          ],
+          "quote": "I mean, so sort of in a combination, like the first thing is just like you, the human being typing things into the agent has to be providing clear instructions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1277.598,
+            1284.04
+          ],
+          "quote": "I think Irini described it well when she said that we're pretty good at kind of telling the agent",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1318.112,
+            1327.155
+          ],
+          "quote": "But things like that, that we just take for granted and we don't tell the agent that we need to make explicit, I think is super important with clarity.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1329.736,
+            1333.758
+          ],
+          "quote": "Is this changing since you last gave instructions to the agent?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1486.568,
+            1496.317
+          ],
+          "quote": "You could imagine you have an agent that is asking you questions about, yes, you want to implement this feature, but what are the underlying requirements behind that?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1533.887,
+            1544.236
+          ],
+          "quote": "When an agent doesn't have enough context or certainly not enough high-quality context, humans often have to compensate for that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1557.647,
+            1565.789
+          ],
+          "quote": "From humans, as part of the human-agent interaction, what can those human behaviors tell us about the quality of the context we're providing?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1584.775,
+            1591.303
+          ],
+          "quote": "We add information when the agent has very little to go on or has nothing to go on, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1600.935,
+            1606.961
+          ],
+          "quote": "You know, the agent is using something, is acting on something that used to be true, but it no longer is.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1646.823,
+            1652.565
+          ],
+          "quote": "It just shows up as the agent didn't do the thing that I was thinking it was going to do, where it was slower than I expected.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1754.451,
+            1758.934
+          ],
+          "quote": "The agent does something that is, you know, sounds kind of confident, but also is wrong.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1780.428,
+            1788.434
+          ],
+          "quote": "They would front load the things that they have by being burned by those in the past, they've realized the agent absolutely needs to know.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1812.453,
+            1818.158
+          ],
+          "quote": "And a lot of that change is what you hand to the agent and how you structure that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1989.392,
+            1997.978
+          ],
+          "quote": "And I think we described that in the paper too, whether the agent can reach the information at all, that is something that comes before any of the five dimensions.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2242.436,
+            2250.325
+          ],
+          "quote": "And on the flip side, crappy context will result in bad outcomes that will feed future bad agent interactions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2266.756,
+            2276.662
+          ],
+          "quote": "Like the discipline that we're talking about is there's a small set of things that every agent on the team reads, whether it's instructions or architecture docs and so on.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2279.124,
+            2283.606
+          ],
+          "quote": "If you get that right, then every agent becomes more capable with each right.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "coding-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "编码智能体 (coding agent)",
+      "file": "编码智能体",
+      "primary": true,
+      "how_described": "本集多次以编码智能体举例:有开发者觉得用它比手写慢,根因是关键信息只在人脑里没写下来;Irini 举了编码智能体碰到权限问题后乱用无关 API 令牌、删光生产数据库的案例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 175,
+          "t": [
+            923.515,
+            926.577
+          ],
+          "quote": "So I had a coding agent, was working on something pretty routine.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "hallucination",
+      "type": "concept",
+      "role": "concept",
+      "name": "幻觉 (hallucination)",
+      "file": "幻觉",
+      "primary": true,
+      "how_described": "本集说学生常把模型「幻觉」出没要求的功能归咎于模型,一追问发现根本没写清需求;聊天智能体幻觉出不存在的促销,法院裁定公司要兑现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            388.41,
+            399.938
+          ],
+          "quote": "Well, let's talk through just some examples of named real world failures that result from having bad context beyond just hallucination, which is what oftentimes we talk about.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prompt injection)",
+      "file": "提示词注入",
+      "primary": true,
+      "how_described": "本集把它列为低质量上下文导致的一种真实失败模式:指令被嵌入在上下文中,智能体据此行动导致敏感信息甚至客户数据泄露,就像 SQL 注入一样。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 83,
+          "t": [
+            473.349,
+            478.231
+          ],
+          "quote": "And just the last example that I'll talk through real briefly is prompt injection.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "context-window",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文窗口 (context window)",
+      "file": "上下文窗口",
+      "primary": true,
+      "how_described": "本集警告别迷信越来越大的上下文窗口:智能体会「走神」(lost in the middle),重要信息埋在长文本中间反而会被漏掉,无限大的窗口可能让结果更糟。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            446.74,
+            453.743
+          ],
+          "quote": "And so you may have incredibly valuable, important, relevant context buried in a much larger context window.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "developer-experience",
+      "type": "concept",
+      "role": "concept",
+      "name": "开发者体验 (developer experience)",
+      "file": "开发者体验",
+      "primary": true,
+      "how_described": "本集指出糟糕的上下文正给开发者体验带来向下压力(生产力体验悖论),把 AI 从帮手变成另一种开发者苦役来源;并说智能体体验的秘诀就是它和开发者体验是同一批问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            144.587,
+            148.589
+          ],
+          "quote": "I've been studying developer experience and how developers use tools for a long time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 60,
+          "t": [
+            357.867,
+            359.629
+          ],
+          "quote": "And also developer experience.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 62,
+          "t": [
+            365.613,
+            368.457
+          ],
+          "quote": "We're seeing some downward pressure on developer experience.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1031.221,
+            1036.165
+          ],
+          "quote": "Yeah, so one of the great secrets of agent experience is that it's all the same things that we knew about developer experience already.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "triple-debt",
+      "type": "concept",
+      "role": "concept",
+      "name": "三重债 (triple debt)",
+      "file": "三重债",
+      "primary": true,
+      "how_described": "Peggy 此前提出的概念,本集介绍为:技术债、认知债(团队缺乏对要建什么的共识)、意图债(约束、目标、不做什么的决定没有显式记录)三者联动的系统健康框架,智能体会让这些欠账更可见、更昂贵。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 142,
+          "t": [
+            791.035,
+            795.217
+          ],
+          "quote": "And I'll chat about the triple debt model a little bit later on, perhaps, Brian.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1344.642,
+            1351.325
+          ],
+          "quote": "And so Peggy, staying with you for a moment, so you in your triple debt paper, which",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1352.065,
+            1356.327
+          ],
+          "quote": "For those in the audience who have not read Peggy's Triple Debt paper, please, please go and do it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1388.66,
+            1394.782
+          ],
+          "quote": "I mean, maybe I'll just say one quick word about what triple debt is because some folks may not know what that means.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1394.802,
+            1399.905
+          ],
+          "quote": "So triple debt was this paper that I wrote quite some months ago about system health.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "code-review",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码审查 (code review)",
+      "file": "代码审查",
+      "primary": true,
+      "how_described": "本集以代码审查类比倡导的「上下文审查」:审查力度应与上下文被复用频率成正比,杠杆在团队每个智能体都会读的共享文件;并引开发者反馈说代码审查最大收获其实是共享理解。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 388,
+          "t": [
+            2027.604,
+            2036.067
+          ],
+          "quote": "So in the paper, we argue for a context review discipline, sort of like we have a code review discipline today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 391,
+          "t": [
+            2051.721,
+            2052.922
+          ],
+          "quote": "And code review...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 406,
+          "t": [
+            2156.251,
+            2165.097
+          ],
+          "quote": "So thinking about code review, I mean, code review was done, you know, to check the quality of the code, also to make sure that it could be maintainable and easy to change in the future.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2165.597,
+            2170.26
+          ],
+          "quote": "But when we asked developers, like, what was one of the main benefits that they got from doing code review?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 417,
+          "t": [
+            2207.765,
+            2219.514
+          ],
+          "quote": "Because I think, you know, we talked about code review and code quality, like so much about the quality of our resulting software has historically been dictated by the quality of the code that makes it up.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "dx",
+      "type": "company",
+      "role": "company",
+      "name": "DX",
+      "file": "DX",
+      "primary": true,
+      "how_described": "本集主持人 Brian Houck 所在的公司,CAFES 论文的发起方之一,论文网页在 getdx.com。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            34.797,
+            46.941
+          ],
+          "quote": "Before we jump into the episode, I want to tell you about the CAFES framework, a new research paper co-authored by researchers from DX, Capital One, GitHub, University of Victoria, and Google.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 18,
+          "t": [
+            102.177,
+            112.52
+          ],
+          "quote": "I am one of the resident mad scientists over here at DX, studying all things developer productivity, and I will hand it over to Max.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "capital-one",
+      "type": "company",
+      "role": "company",
+      "name": "Capital One",
+      "file": "Capital One",
+      "primary": true,
+      "how_described": "嘉宾 Max Canet-Alexander 任首席软件工程师的银行,他在那里领导 AI 辅助软件开发的努力,也是 CAFES 论文合作机构。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            34.797,
+            46.941
+          ],
+          "quote": "Before we jump into the episode, I want to tell you about the CAFES framework, a new research paper co-authored by researchers from DX, Capital One, GitHub, University of Victoria, and Google.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 20,
+          "t": [
+            114.18,
+            122.863
+          ],
+          "quote": "I am Max Canet-Alexander, and I am a principal software engineer at Capital One, where I help lead Capital One's efforts around AI-assisted software development.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": true,
+      "how_described": "嘉宾 Irini 撰写论文时担任研究顾问的公司,CAFES 论文合作机构之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            34.797,
+            46.941
+          ],
+          "quote": "Before we jump into the episode, I want to tell you about the CAFES framework, a new research paper co-authored by researchers from DX, Capital One, GitHub, University of Victoria, and Google.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 23,
+          "t": [
+            131.333,
+            135.659
+          ],
+          "quote": "But when I worked on this paper, I was at GitHub as a research advisor.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "pocket-os",
+      "type": "company",
+      "role": "company",
+      "name": "Pocket OS",
+      "file": "Pocket OS",
+      "primary": true,
+      "how_described": "本集作为案例提及的为汽车租赁业务提供软件的小公司:其编码智能体在无关文件里翻出 API 令牌继续操作,删掉了整个生产数据库和同处备份。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 174,
+          "t": [
+            919.171,
+            923.154
+          ],
+          "quote": "Pocket OS, I think, and it runs software for car rental businesses.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]]
+[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Ali-Reza Adl-Tabatabai]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"GitHub":36,"Copilot":14,"智能体":1,"智能体工作流":1,"CAPI":1,"子智能体编排":1,"GitHub CLI":1,"市场":5,"人在回路":25,"CI-CD":18}</script>
+<script type="application/json" class="pd-epn">{"GitHub":37,"Copilot":14,"智能体":1,"智能体工作流":1,"CAPI":1,"子智能体编排":1,"GitHub CLI":1,"市场":5,"人在回路":25,"CI-CD":18}</script>
 
 <script>
 (function(){

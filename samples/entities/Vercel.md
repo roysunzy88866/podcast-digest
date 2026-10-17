@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Vercel</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Vercel">VE</div><div class="pi"><h1 class="pt">Vercel</h1><div class="byl">公司</div><div class="nums">本站收录 <b>20</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Vercel">VE</div><div class="pi"><h1 class="pt">Vercel</h1><div class="byl">公司</div><div class="nums">本站收录 <b>21</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -30,10 +30,11 @@ unlisted: true
 - **[[2026-09-14-talks-how-we-solved-agent-building-andrew-qu-v|《Vercel 构建「每桌一个智能体」：从失败的多智能体到文件系统智能体》]]**(00:16起):本集说 Vercel 构建智能体基础设施、从 Web 起家，内部用智能体自动化数据查询等职能，已有约 20 个有产品市场契合度的内部智能体。
 - **[[2026-09-17-sed-scaling-agent-workloads-at-vercel|《把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve》]]**(00:26起):两位嘉宾所在的公司，Eve 的出品方；Eve 构建在 Vercel 的 workflow、serverless 函数、沙箱等产品之上。
 - **[[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《从 Stripe 到 Vercel：她要为 AI 时代重写销售法则》]]**(00:00起):本集把它说成:嘉宾任职 COO、负责整个 go-to-market 的公司,600 人涨到 800 出头、营收远超三位数百分比增长;91% 支持工单由智能体解决,价值观贯穿入职、全员大会和绩效评估,「理论上互联网上的每一个像素都可以构建在 Vercel 之上」。
+- **[[2026-10-16-sourcery-vercel-ceo-guillermo-rauch-on-building-t|《当机器人开始给机器人写代码：Vercel CEO 谈智能体时代的互联网》]]**(00:00起):本集把它说成:让任何人都能轻松发布应用的云平台,估值 93 亿美元、年化收入 6 亿美元;编程智能体驱动的部署从年初 3% 涨到 60%,10 个月新增 15 亿次部署,成为智能体默认接入的基础设施。
 
 ## ① 提到它的金句
 
-*5 条*
+*9 条*
 
 ![[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag#^q5]]
 
@@ -45,9 +46,17 @@ unlisted: true
 
 ![[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi#^q9]]
 
+![[2026-10-16-sourcery-vercel-ceo-guillermo-rauch-on-building-t#^q1]]
+
+![[2026-10-16-sourcery-vercel-ceo-guillermo-rauch-on-building-t#^q3]]
+
+![[2026-10-16-sourcery-vercel-ceo-guillermo-rauch-on-building-t#^q7]]
+
+![[2026-10-16-sourcery-vercel-ceo-guillermo-rauch-on-building-t#^q20]]
+
 ## ② 出现在这些集
 
-*20 集*
+*21 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为被讨论公司(提及)
@@ -69,14 +78,15 @@ unlisted: true
 - [[2026-09-17-sed-scaling-agent-workloads-at-vercel|《把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve》]] — 作为被讨论公司
 - [[2026-10-02-talks-vercel-ceo-reveals-his-agentic-engineeri|《Vercel CEO：AI 时代，写代码的人要变成什么》]] — 作为被讨论公司
 - [[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《从 Stripe 到 Vercel：她要为 AI 时代重写销售法则》]] — 作为被讨论公司
+- [[2026-10-16-sourcery-vercel-ceo-guillermo-rauch-on-building-t|《当机器人开始给机器人写代码：Vercel CEO 谈智能体时代的互联网》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Stripe]] · [[Cursor]] · [[Slack]] · [[沙箱]] · [[OpenAI]] · [[评估]] · [[GitHub]] · [[Claude Code]] · [[SaaS]]
+[[智能体]] · [[Stripe]] · [[沙箱]] · [[OpenAI]] · [[Cursor]] · [[Slack]] · [[评估]] · [[GitHub]] · [[Claude Code]] · [[Shopify]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Stripe":52,"Cursor":87,"Slack":34,"沙箱":103,"OpenAI":207,"评估":1,"GitHub":36,"Claude Code":116,"SaaS":23}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Stripe":53,"沙箱":104,"OpenAI":208,"Cursor":87,"Slack":34,"评估":1,"GitHub":37,"Claude Code":116,"Shopify":19}</script>
 
 <script>
 (function(){

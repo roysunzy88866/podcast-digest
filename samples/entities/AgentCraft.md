@@ -25,7 +25,7 @@ unlisted: true
 
 [[Ido Salomon]] · [[loopers]] · [[智能体]] · [[编排器]] · [[可见性]] · [[自主性]] · [[协作]] · [[审查工具包]] · [[MCP]] · [[Codex]]
 
-<script type="application/json" class="pd-epn">{"Ido Salomon":1,"loopers":1,"智能体":1,"编排器":4,"可见性":1,"自主性":11,"协作":2,"审查工具包":1,"MCP":98,"Codex":91}</script>
+<script type="application/json" class="pd-epn">{"Ido Salomon":1,"loopers":1,"智能体":1,"编排器":4,"可见性":1,"自主性":11,"协作":2,"审查工具包":1,"MCP":99,"Codex":91}</script>
 
 <script>
 (function(){

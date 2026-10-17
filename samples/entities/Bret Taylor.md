@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Iskander Malikov]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]]
+[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Sierra":7,"智能体":1,"基于结果的定价":4,"应用 AI":1,"前沿模型":29,"工具层":2,"上下文工程":19,"编程系统":1,"MCP":98}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Sierra":7,"智能体":1,"基于结果的定价":4,"应用 AI":1,"前沿模型":29,"工具层":2,"上下文工程":19,"编程系统":1,"MCP":99}</script>
 
 <script>
 (function(){

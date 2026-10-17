@@ -118,7 +118,7 @@ jsonLd: |
 
 - [[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|谁来给 AI 聊天机器人做事实核查：前 CNN 主播的新战场]]<span class="pd-rz">同公司:OpenAI · 同概念:LLM</span>
 - [[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|让品牌被 AI 看见：AEO 实战与研究]]<span class="pd-rz">同公司:OpenAI · 同概念:LLM</span>
-- [[2025-05-22-talks-mastering-claude-code-in-30-minutes|Claude Code 实战技巧：从提问到并行]]<span class="pd-rz">同概念:LLM</span>
+- [[2026-10-16-sourcery-vercel-ceo-guillermo-rauch-on-building-t|当机器人开始给机器人写代码：Vercel CEO 谈智能体时代的互联网]]<span class="pd-rz">同公司:OpenAI · 同概念:编码智能体 (coding agents)</span>
 
 </div>
 </div>

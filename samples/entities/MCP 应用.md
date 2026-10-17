@@ -25,7 +25,7 @@ unlisted: true
 
 [[Sam Parsons]] · [[PayPal]] · [[OpenAI]] · [[Google]] · [[ChatGPT]] · [[Claude]] · [[智能体]] · [[智能体商务]] · [[智能体商务协议]] · [[Universal Commerce Protocol]]
 
-<script type="application/json" class="pd-epn">{"Sam Parsons":1,"PayPal":9,"OpenAI":207,"Google":72,"ChatGPT":115,"Claude":99,"智能体":1,"智能体商务":1,"智能体商务协议":1,"Universal Commerce Protocol":3}</script>
+<script type="application/json" class="pd-epn">{"Sam Parsons":1,"PayPal":9,"OpenAI":208,"Google":72,"ChatGPT":115,"Claude":99,"智能体":1,"智能体商务":1,"智能体商务协议":1,"Universal Commerce Protocol":3}</script>
 
 <script>
 (function(){

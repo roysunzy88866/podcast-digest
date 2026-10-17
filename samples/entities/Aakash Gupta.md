@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Iskander Malikov]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]]
+[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jyothi Nookula":1,"Claude":99,"Claude Code":116,"智能体":1,"对抗性智能体":2,"MCP":98,"知识库":3,"技能":35,"vibe coding":52,"红队测试":9}</script>
+<script type="application/json" class="pd-epn">{"Jyothi Nookula":1,"Claude":99,"Claude Code":116,"智能体":1,"对抗性智能体":2,"MCP":99,"知识库":3,"技能":35,"vibe coding":52,"红队测试":9}</script>
 
 <script>
 (function(){

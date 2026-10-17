@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]]
+[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"GitHub":36,"Terraform":2,"Hashicorp":2,"Kubernetes":20,"开源":43,"智能体":1,"PR":6,"AI":35,"工匠精神":1}</script>
+<script type="application/json" class="pd-epn">{"GitHub":37,"Terraform":2,"Hashicorp":2,"Kubernetes":20,"开源":43,"智能体":1,"PR":6,"AI":35,"工匠精神":1}</script>
 
 <script>
 (function(){

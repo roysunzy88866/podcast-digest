@@ -25,7 +25,7 @@ unlisted: true
 
 [[Jose Palafox]] · [[GitHub]] · [[Copilot]] · [[智能体]] · [[智能体工作流]] · [[CAPI]] · [[子智能体编排]] · [[市场]] · [[人在回路]] · [[CI-CD]]
 
-<script type="application/json" class="pd-epn">{"Jose Palafox":1,"GitHub":36,"Copilot":14,"智能体":1,"智能体工作流":1,"CAPI":1,"子智能体编排":1,"市场":5,"人在回路":25,"CI-CD":18}</script>
+<script type="application/json" class="pd-epn">{"Jose Palafox":1,"GitHub":37,"Copilot":14,"智能体":1,"智能体工作流":1,"CAPI":1,"子智能体编排":1,"市场":5,"人在回路":25,"CI-CD":18}</script>
 
 <script>
 (function(){

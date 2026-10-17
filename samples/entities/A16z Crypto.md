@@ -25,7 +25,7 @@ unlisted: true
 
 [[Liz Harkaby]] · [[Dan Bonnet]] · [[Eddie Lazarin]] · [[Justin Baylor]] · [[OpenAI]] · [[Coinbase]] · [[比特币]] · [[密码学]] · [[后量子密码学]] · [[格密码学]]
 
-<script type="application/json" class="pd-epn">{"Liz Harkaby":1,"Dan Bonnet":1,"Eddie Lazarin":1,"Justin Baylor":1,"OpenAI":207,"Coinbase":8,"比特币":2,"密码学":2,"后量子密码学":1,"格密码学":1}</script>
+<script type="application/json" class="pd-epn">{"Liz Harkaby":1,"Dan Bonnet":1,"Eddie Lazarin":1,"Justin Baylor":1,"OpenAI":208,"Coinbase":8,"比特币":2,"密码学":2,"后量子密码学":1,"格密码学":1}</script>
 
 <script>
 (function(){

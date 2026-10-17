@@ -125,8 +125,8 @@ jsonLd: |
 **顺着「AI 编程」挖下去**
 
 - [[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|Datadog 4000 人AI赋能实战：删掉上下文反而更好]]<span class="pd-rz">同概念:上下文 (context)、代码审查 (code review)、智能体 (agent)</span>
+- [[2026-10-16-engenable-the-cafes-framework-improving-ai-agent-e|AI 干不好活，问题往往不在模型，而在你给它的“上下文”]]<span class="pd-rz">同概念:上下文 (context)、代码审查 (code review)、智能体 (agent)</span>
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Claude Code · 同概念:代码审查 (code review)、智能体 (agent)</span>
-- [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|让非工程师也能下指令：Superconductor 的多人智能体协作法]]<span class="pd-rz">同公司:Claude Code · 同概念:上下文 (context)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

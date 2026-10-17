@@ -78,11 +78,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]]
+[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"上下文工程":19,"代码审查":26,"Claude":99,"Simon Mayfor":2,"HumanLayer":1,"软件工厂":1,"Slop Code Bench":1,"规范":2,"暗工厂":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"上下文工程":19,"代码审查":27,"Claude":99,"Simon Mayfor":2,"HumanLayer":1,"软件工厂":1,"Slop Code Bench":1,"规范":2,"暗工厂":4}</script>
 
 <script>
 (function(){

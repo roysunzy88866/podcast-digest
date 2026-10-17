@@ -37,7 +37,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Murphy":2,"Anthropic":206,"Claude":99,"Claude Code":116,"MCP":98,"harness":67,"开源模型":4,"多模型世界":1,"token":33,"OpenRouter":14}</script>
+<script type="application/json" class="pd-epn">{"Matt Murphy":2,"Anthropic":206,"Claude":99,"Claude Code":116,"MCP":99,"harness":67,"开源模型":4,"多模型世界":1,"token":33,"OpenRouter":14}</script>
 
 <script>
 (function(){

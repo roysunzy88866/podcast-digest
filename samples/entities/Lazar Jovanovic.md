@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]]
+[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Lovable":20,"智能体":1,"vibe coding":52,"清晰度":1,"token":33,"沙箱":103,"品味":15,"Codex":91,"Claude":99}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Lovable":20,"智能体":1,"vibe coding":52,"清晰度":1,"token":33,"沙箱":104,"品味":15,"Codex":91,"Claude":99}</script>
 
 <script>
 (function(){

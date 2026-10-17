@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[Fuad]] · [[Sam Newman]] · [[Jose Palafox]] · [[Arise]] · [[微服务]] · [[GitHub]] · [[语音智能体]] · [[ThoughtWorks]] · [[Copilot]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Fuad":1,"Sam Newman":1,"Jose Palafox":1,"Arise":1,"微服务":1,"GitHub":36,"语音智能体":2,"ThoughtWorks":1,"Copilot":14}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Fuad":1,"Sam Newman":1,"Jose Palafox":1,"Arise":1,"微服务":1,"GitHub":37,"语音智能体":2,"ThoughtWorks":1,"Copilot":14}</script>
 
 <script>
 (function(){

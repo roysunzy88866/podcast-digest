@@ -1,0 +1,3554 @@
+[
+ {
+  "seg": 0,
+  "start": 0.191,
+  "end": 2.492,
+  "speaker": "Unknown",
+  "en": "Low quality code can have compounding failures.",
+  "zh": "低质量代码可能导致复合失败。"
+ },
+ {
+  "seg": 1,
+  "start": 2.532,
+  "end": 12.874,
+  "speaker": "Unknown",
+  "en": "And we think that the same will be true with context where so much of the end result will be dictated by the quality of the context that we hand to our agents, particularly as they work more autonomously.",
+  "zh": "而我们认为，同样的道理也适用于上下文，最终结果在很大程度上将取决于我们交给智能体的上下文质量，尤其是当它们更加自主地工作时。"
+ },
+ {
+  "seg": 2,
+  "start": 13.014,
+  "end": 20.095,
+  "speaker": "Unknown",
+  "en": "And it's going to create this flywheel effect where high quality context results in good outcomes, which becomes tomorrow's high quality context.",
+  "zh": "这将产生一种飞轮效应：高质量上下文带来好的结果，而这些结果又成为明天的高质量上下文。"
+ },
+ {
+  "seg": 3,
+  "start": 20.435,
+  "end": 27.477,
+  "speaker": "Unknown",
+  "en": "And on the flip side, crappy context will result in bad outcomes that will feed future bad agent interactions.",
+  "zh": "反过来，糟糕的上下文会导致糟糕的结果，进而影响未来糟糕的智能体交互。"
+ },
+ {
+  "seg": 4,
+  "start": 29.515,
+  "end": 31.896,
+  "speaker": "Unknown",
+  "en": "Welcome to the Engineering Enablement Podcast.",
+  "zh": "欢迎收听 Engineering Enablement 播客。"
+ },
+ {
+  "seg": 5,
+  "start": 32.456,
+  "end": 34.517,
+  "speaker": "Unknown",
+  "en": "I'm your host this week, Brian Houck.",
+  "zh": "我是本周的主持人 Brian Houck。"
+ },
+ {
+  "seg": 6,
+  "start": 34.797,
+  "end": 46.941,
+  "speaker": "Unknown",
+  "en": "Before we jump into the episode, I want to tell you about the CAFES framework, a new research paper co-authored by researchers from DX, Capital One, GitHub, University of Victoria, and Google.",
+  "zh": "在进入本期节目之前，我想向你们介绍 CAFES 框架，这是一篇新的研究论文，由来自 DX、Capital One、GitHub、维多利亚大学和 Google 的研究者共同撰写。"
+ },
+ {
+  "seg": 7,
+  "start": 47.261,
+  "end": 57.344,
+  "speaker": "Unknown",
+  "en": "It explores why context quality has become the central bottleneck in agentic workflows and introduces five properties to help teams make their AI agents more effective.",
+  "zh": "它探讨了为什么上下文质量已成为智能体工作流的核心瓶颈，并引入了五个属性，帮助团队让他们的 AI 智能体更加高效。"
+ },
+ {
+  "seg": 8,
+  "start": 57.624,
+  "end": 63.635,
+  "speaker": "Unknown",
+  "en": "When teams provide better context, they build more effective agents and achieve far better engineering outcomes.",
+  "zh": "当团队提供更好的上下文时，他们能构建更高效的智能体，并取得远更好的工程成果。"
+ },
+ {
+  "seg": 9,
+  "start": 63.916,
+  "end": 70.548,
+  "speaker": "Unknown",
+  "en": "To learn more and read the paper, head over to getdx.com forward slash cafes.",
+  "zh": "要了解更多信息并阅读论文，请访问 getdx.com forward slash cafes。"
+ },
+ {
+  "seg": 10,
+  "start": 73.828,
+  "end": 75.929,
+  "speaker": "Unknown",
+  "en": "Thank you, everyone, for joining today.",
+  "zh": "感谢大家今天参加。"
+ },
+ {
+  "seg": 11,
+  "start": 76.389,
+  "end": 84.212,
+  "speaker": "Unknown",
+  "en": "Absolutely thrilled to be talking about a new paper, Cafes, that just was published this morning.",
+  "zh": "我非常兴奋能谈论一篇今天早上刚刚发表的新论文 Cafes。"
+ },
+ {
+  "seg": 12,
+  "start": 84.532,
+  "end": 86.713,
+  "speaker": "Unknown",
+  "en": "And so it is perfect timing.",
+  "zh": "所以时机恰到好处。"
+ },
+ {
+  "seg": 13,
+  "start": 86.733,
+  "end": 87.854,
+  "speaker": "Unknown",
+  "en": "The stars aligned.",
+  "zh": "星象都对齐了。"
+ },
+ {
+  "seg": 14,
+  "start": 87.874,
+  "end": 96.797,
+  "speaker": "Unknown",
+  "en": "I am thrilled to be joined by my Cafes co-authors today, who I'll ask to introduce themselves in just a second.",
+  "zh": "我很高兴今天有我的 Cafes 合著者加入，我稍后会请他们做自我介绍。"
+ },
+ {
+  "seg": 15,
+  "start": 97.318,
+  "end": 98.058,
+  "speaker": "Unknown",
+  "en": "But to kick us off,",
+  "zh": "但作为开场，"
+ },
+ {
+  "seg": 16,
+  "start": 98.776,
+  "end": 99.436,
+  "speaker": "Unknown",
+  "en": "I'm Brian Houck.",
+  "zh": "我是 Brian Houck。"
+ },
+ {
+  "seg": 17,
+  "start": 99.736,
+  "end": 101.597,
+  "speaker": "Unknown",
+  "en": "I am your host today.",
+  "zh": "我是今天你们的主持人。"
+ },
+ {
+  "seg": 18,
+  "start": 102.177,
+  "end": 112.52,
+  "speaker": "Unknown",
+  "en": "I am one of the resident mad scientists over here at DX, studying all things developer productivity, and I will hand it over to Max.",
+  "zh": "我是 DX 这里的常驻疯狂科学家之一，研究开发者生产力的方方面面，接下来交给 Max。"
+ },
+ {
+  "seg": 19,
+  "start": 113.54,
+  "end": 114.16,
+  "speaker": "Unknown",
+  "en": "Hi, everybody.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 20,
+  "start": 114.18,
+  "end": 122.863,
+  "speaker": "Unknown",
+  "en": "I am Max Canet-Alexander, and I am a principal software engineer at Capital One, where I help lead Capital One's efforts around AI-assisted software development.",
+  "zh": "我是 Max Canet-Alexander，我是 Capital One 的首席软件工程师，在那里我帮助领导 Capital One 在 AI 辅助软件开发方面的工作。"
+ },
+ {
+  "seg": 21,
+  "start": 124.063,
+  "end": 125.425,
+  "speaker": "Unknown",
+  "en": "Hi, I'm Irini.",
+  "zh": "你好，我是 Irini。"
+ },
+ {
+  "seg": 22,
+  "start": 125.705,
+  "end": 131.072,
+  "speaker": "Unknown",
+  "en": "I recently joined CX as a researcher as of like three days ago.",
+  "zh": "我最近刚加入 CX，成为一名研究员，大概三天前的事。"
+ },
+ {
+  "seg": 23,
+  "start": 131.333,
+  "end": 135.659,
+  "speaker": "Unknown",
+  "en": "But when I worked on this paper, I was at GitHub as a research advisor.",
+  "zh": "但在我做这篇论文的时候，我在 GitHub 担任研究顾问。"
+ },
+ {
+  "seg": 24,
+  "start": 135.839,
+  "end": 137.921,
+  "speaker": "Unknown",
+  "en": "So that's what we'll talk about today.",
+  "zh": "所以这就是我们今天要谈论的内容。"
+ },
+ {
+  "seg": 25,
+  "start": 138.905,
+  "end": 140.226,
+  "speaker": "Unknown",
+  "en": "So I'm Margaret Ann.",
+  "zh": "我是 Margaret Ann。"
+ },
+ {
+  "seg": 26,
+  "start": 140.386,
+  "end": 141.426,
+  "speaker": "Unknown",
+  "en": "Everybody calls me Peggy.",
+  "zh": "大家都叫我 Peggy。"
+ },
+ {
+  "seg": 27,
+  "start": 142.366,
+  "end": 144.427,
+  "speaker": "Unknown",
+  "en": "Story from the University of Victoria.",
+  "zh": "故事来自维多利亚大学。"
+ },
+ {
+  "seg": 28,
+  "start": 144.587,
+  "end": 148.589,
+  "speaker": "Unknown",
+  "en": "I've been studying developer experience and how developers use tools for a long time.",
+  "zh": "我研究开发者体验以及开发者如何使用工具已经很长时间了。"
+ },
+ {
+  "seg": 29,
+  "start": 149.349,
+  "end": 155.432,
+  "speaker": "Unknown",
+  "en": "And I've worked a lot with Brian and Irini on these very topics and chatted a lot with Max.",
+  "zh": "我和 Brian 以及 Irini 在这些话题上合作过很多，也和 Max 聊过很多。"
+ },
+ {
+  "seg": 30,
+  "start": 155.452,
+  "end": 157.353,
+  "speaker": "Unknown",
+  "en": "So this is the first time we've actually worked together.",
+  "zh": "所以这是我们第一次真正一起合作。"
+ },
+ {
+  "seg": 31,
+  "start": 157.433,
+  "end": 163.095,
+  "speaker": "Unknown",
+  "en": "So thrilled to be working with Max and all of you as well on this framework.",
+  "zh": "所以能和 Max 以及你们所有人一起做这个框架，我感到非常兴奋。"
+ },
+ {
+  "seg": 32,
+  "start": 163.731,
+  "end": 170.452,
+  "speaker": "Unknown",
+  "en": "I also would like to point out that we had the great privilege of having Dr. Nicole Forsgren be a co-author on the paper.",
+  "zh": "我还想指出，我们有幸邀请到 Dr. Nicole Forsgren 担任这篇论文的合著者。"
+ },
+ {
+  "seg": 33,
+  "start": 170.592,
+  "end": 175.253,
+  "speaker": "Unknown",
+  "en": "She unfortunately couldn't join us today for the panel, but was a key contributor to the paper itself.",
+  "zh": "她很遗憾今天无法参加这个座谈，但她是这篇论文本身的关键贡献者。"
+ },
+ {
+  "seg": 34,
+  "start": 175.313,
+  "end": 179.114,
+  "speaker": "Unknown",
+  "en": "And so, Nicole, if you are watching this, we are thinking of you for sure.",
+  "zh": "所以，Nicole，如果你在看这个，我们肯定在想着你。"
+ },
+ {
+  "seg": 35,
+  "start": 179.554,
+  "end": 192.137,
+  "speaker": "Unknown",
+  "en": "With that, I'm going to give a little bit of background on what Cafes even is, what's the problem space we are looking at before I kick off a round of questions with my fabulous co-authors.",
+  "zh": "说了这些，我准备稍微介绍一下 Cafes 到底是什么、我们正在关注的问题空间是什么，然后我会和我出色的合著者们开始一轮问答。"
+ },
+ {
+  "seg": 36,
+  "start": 193.457,
+  "end": 204.866,
+  "speaker": "Unknown",
+  "en": "CAFES is a framework ultimately for measuring the health and quality of the context that we are feeding into our AI agents.",
+  "zh": "CAFES 归根结底是一个用于衡量我们喂给 AI 智能体的上下文的健康度和质量的框架。"
+ },
+ {
+  "seg": 37,
+  "start": 205.427,
+  "end": 216.756,
+  "speaker": "Unknown",
+  "en": "And I firmly believe that if we want to improve, maximize AI agent effectiveness, we have to have ever increasingly better context.",
+  "zh": "而我坚信，如果我们想提升、最大化 AI 智能体的效能，我们就必须拥有不断提升的更好的上下文。"
+ },
+ {
+  "seg": 38,
+  "start": 219.142,
+  "end": 226.627,
+  "speaker": "Unknown",
+  "en": "As I sort of think about like, what do I mean by context and how does it fit in sort of like human agent collaboration?",
+  "zh": "当我思考上下文的含义以及它在人类与智能体协作中如何定位时，"
+ },
+ {
+  "seg": 39,
+  "start": 227.647,
+  "end": 236.933,
+  "speaker": "Unknown",
+  "en": "And as I sort of trace this from left to right, ultimately intent is what it is a human wants to accomplish.",
+  "zh": "当我从左到右梳理这个流程时，归根结底，意图就是一个人想要完成的事情。"
+ },
+ {
+  "seg": 40,
+  "start": 237.513,
+  "end": 242.956,
+  "speaker": "Unknown",
+  "en": "And that intent has to be translated into context, which is",
+  "zh": "而这个意图必须被转化为上下文，也就是"
+ },
+ {
+  "seg": 41,
+  "start": 244.157,
+  "end": 253.98,
+  "speaker": "Unknown",
+  "en": "The task that you want to complete, all of the information, the constraints, the data associated with it, your code, that's the context.",
+  "zh": "你想要完成的任务、所有相关的信息、约束、数据、你的代码，这些就是上下文。"
+ },
+ {
+  "seg": 42,
+  "start": 254.1,
+  "end": 272.985,
+  "speaker": "Unknown",
+  "en": "All of the information, the knowledge that we are passing to our agents, which gets orchestrated through our harnesses, which deal with retrieval and memory and execution logic before ultimately passing it to the models, which supply the underlying intelligence.",
+  "zh": "我们传递给智能体的所有信息和知识，通过我们的 harness 进行编排，harness 处理检索、记忆和执行逻辑，最终传递给模型，由模型提供底层智能。"
+ },
+ {
+  "seg": 43,
+  "start": 273.486,
+  "end": 281.209,
+  "speaker": "Unknown",
+  "en": "Now, if we want to maximize our human agent collaboration, get the most out of our agents, everything in this flow is important.",
+  "zh": "现在，如果我们想最大化人类与智能体的协作，从我们的智能体中获得最大收益，这个流程中的一切都很重要。"
+ },
+ {
+  "seg": 44,
+  "start": 281.81,
+  "end": 284.371,
+  "speaker": "Unknown",
+  "en": "Like everything has to get better.",
+  "zh": "一切都必须变得更好。"
+ },
+ {
+  "seg": 45,
+  "start": 284.711,
+  "end": 293.515,
+  "speaker": "Unknown",
+  "en": "But we already spend enormous effort improving our harnesses through harness engineering, improving our models through sort of like frontier development.",
+  "zh": "但我们已经花费了巨大的精力通过 harness 工程改进我们的 harness，通过前沿开发改进我们的模型。"
+ },
+ {
+  "seg": 46,
+  "start": 294.664,
+  "end": 303,
+  "speaker": "Unknown",
+  "en": "Intent, we improve through improving our product planning processes to better synthesize and think about customer data, excuse me, things of that nature.",
+  "zh": "意图方面，我们通过改进产品规划流程来提升，以便更好地综合和思考客户数据，抱歉，诸如此类的东西。"
+ },
+ {
+  "seg": 47,
+  "start": 304.175,
+  "end": 309.459,
+  "speaker": "Unknown",
+  "en": "But what I found is that almost nobody is holistically evaluating the quality of context itself.",
+  "zh": "但我发现，几乎没有人对上下文本身的质量进行整体评估。"
+ },
+ {
+  "seg": 48,
+  "start": 310.219,
+  "end": 321.588,
+  "speaker": "Unknown",
+  "en": "And this is so important right now, especially because of a variety of compounding risks that low quality context in our agentic workflows puts onto us.",
+  "zh": "而这一点现在如此重要，尤其是因为低质量上下文在我们的智能体工作流中给我们带来了各种复合风险。"
+ },
+ {
+  "seg": 49,
+  "start": 321.708,
+  "end": 323.389,
+  "speaker": "Unknown",
+  "en": "One example of that is just liability.",
+  "zh": "其中一个例子就是责任问题。"
+ },
+ {
+  "seg": 50,
+  "start": 323.509,
+  "end": 327.012,
+  "speaker": "Unknown",
+  "en": "Organizations are being held accountable for what their agents say and do.",
+  "zh": "组织正在为其智能体的言行承担责任。"
+ },
+ {
+  "seg": 51,
+  "start": 327.652,
+  "end": 329.454,
+  "speaker": "Unknown",
+  "en": "If your chat agent",
+  "zh": "如果你的聊天智能体"
+ },
+ {
+  "seg": 52,
+  "start": 330.074,
+  "end": 334.08,
+  "speaker": "Unknown",
+  "en": "Hallucinates a sale that doesn't really exist.",
+  "zh": "幻觉出一个并不真实存在的促销活动。"
+ },
+ {
+  "seg": 53,
+  "start": 334.66,
+  "end": 337.805,
+  "speaker": "Unknown",
+  "en": "Courts have helped that you are responsible for honoring that.",
+  "zh": "法院已经帮助你(裁定)你要为兑现它负责。"
+ },
+ {
+  "seg": 54,
+  "start": 339.393,
+  "end": 339.753,
+  "speaker": "Unknown",
+  "en": "Cost.",
+  "zh": "成本。"
+ },
+ {
+  "seg": 55,
+  "start": 339.833,
+  "end": 342.115,
+  "speaker": "Unknown",
+  "en": "We all see costs skyrocketing.",
+  "zh": "我们都看到成本在飙升。"
+ },
+ {
+  "seg": 56,
+  "start": 342.135,
+  "end": 343.716,
+  "speaker": "Unknown",
+  "en": "It is growing exponentially.",
+  "zh": "它在呈指数级增长。"
+ },
+ {
+  "seg": 57,
+  "start": 344.397,
+  "end": 347.139,
+  "speaker": "Unknown",
+  "en": "And, you know, every token has a cost associated with it.",
+  "zh": "而且,你知道,每个 token 都有与之相关的成本。"
+ },
+ {
+  "seg": 58,
+  "start": 347.439,
+  "end": 349.901,
+  "speaker": "Unknown",
+  "en": "And context is really where those costs accumulate.",
+  "zh": "而上下文正是这些成本累积的地方。"
+ },
+ {
+  "seg": 59,
+  "start": 350.101,
+  "end": 357.047,
+  "speaker": "Unknown",
+  "en": "It is everything that you are asking your agents to read and what you are having them produce is all a function of the context.",
+  "zh": "你要求智能体去阅读的一切,以及你让它们产出的一切,全都是上下文的函数。"
+ },
+ {
+  "seg": 60,
+  "start": 357.867,
+  "end": 359.629,
+  "speaker": "Unknown",
+  "en": "And also developer experience.",
+  "zh": "还有开发者体验。"
+ },
+ {
+  "seg": 61,
+  "start": 359.649,
+  "end": 364.612,
+  "speaker": "Unknown",
+  "en": "Like we are seeing, even though we are accomplishing more, we are building more and more and more than ever,",
+  "zh": "就像我们看到的那样,尽管我们完成了更多的事情,我们正在建造比以往任何时候都更多、更多的东西,"
+ },
+ {
+  "seg": 62,
+  "start": 365.613,
+  "end": 368.457,
+  "speaker": "Unknown",
+  "en": "We're seeing some downward pressure on developer experience.",
+  "zh": "我们却看到开发者体验承受着向下的压力。"
+ },
+ {
+  "seg": 63,
+  "start": 368.758,
+  "end": 371.982,
+  "speaker": "Unknown",
+  "en": "Annie Vella has called this the productivity experience paradox.",
+  "zh": "Annie Vella 把这称为生产力体验悖论。"
+ },
+ {
+  "seg": 64,
+  "start": 372.363,
+  "end": 379.834,
+  "speaker": "Unknown",
+  "en": "And part of that is because poor context turns AI into not something that's helping us, it's turning AI into another source of developer toil.",
+  "zh": "其中一部分原因是,糟糕的上下文把 AI 变成了不是在帮助我们的东西,而是把 AI 变成了另一个开发者苦役的来源。"
+ },
+ {
+  "seg": 65,
+  "start": 383.167,
+  "end": 385.869,
+  "speaker": "Unknown",
+  "en": "And there are lots of ways that our context fails us.",
+  "zh": "而我们的上下文辜负我们的方式有很多种。"
+ },
+ {
+  "seg": 66,
+  "start": 386.249,
+  "end": 388.39,
+  "speaker": "Unknown",
+  "en": "And so like, what does it mean to have bad context?",
+  "zh": "那么,拥有糟糕的上下文意味着什么?"
+ },
+ {
+  "seg": 67,
+  "start": 388.41,
+  "end": 399.938,
+  "speaker": "Unknown",
+  "en": "Well, let's talk through just some examples of named real world failures that result from having bad context beyond just hallucination, which is what oftentimes we talk about.",
+  "zh": "好的,让我们来过一遍一些有名字的、由糟糕上下文导致的真实世界失败案例,而不仅仅是我们经常谈论的幻觉。"
+ },
+ {
+  "seg": 68,
+  "start": 400.558,
+  "end": 412.163,
+  "speaker": "Unknown",
+  "en": "The first example is what we call weekend runaway, which is like you may set your agents about on a task Friday afternoon and you don't clearly define what done means.",
+  "zh": "第一个例子是我们所说的「周末狂奔」,就是说你可能在周五下午派你的智能体去执行一个任务,而你没有清楚地定义「完成」意味着什么。"
+ },
+ {
+  "seg": 69,
+  "start": 412.763,
+  "end": 417.064,
+  "speaker": "Unknown",
+  "en": "And so those agents just keep going and going and going and going, expanding their scope.",
+  "zh": "于是那些智能体就一直在做、一直做、一直做、一直做,不断扩大它们的范围。"
+ },
+ {
+  "seg": 70,
+  "start": 417.485,
+  "end": 423.207,
+  "speaker": "Unknown",
+  "en": "And you don't realize that until you come in on Monday morning and you see that you've blown through your entire month's token allocation.",
+  "zh": "而你直到周一早上进来时才意识到,你已经烧光了整个月的 token 配额。"
+ },
+ {
+  "seg": 71,
+  "start": 424.007,
+  "end": 424.688,
+  "speaker": "Unknown",
+  "en": "Ambiguity.",
+  "zh": "模糊性。"
+ },
+ {
+  "seg": 72,
+  "start": 425.368,
+  "end": 428.27,
+  "speaker": "Unknown",
+  "en": "Agents don't stop to negotiate requirements.",
+  "zh": "智能体不会停下来去协商需求。"
+ },
+ {
+  "seg": 73,
+  "start": 428.75,
+  "end": 434.513,
+  "speaker": "Unknown",
+  "en": "They will pick an interpretation often silently and proceed often confidently.",
+  "zh": "它们通常会默默地选定一种解释,并常常充满自信地继续进行。"
+ },
+ {
+  "seg": 74,
+  "start": 434.954,
+  "end": 441.458,
+  "speaker": "Unknown",
+  "en": "And the problem is, if that first assumption is wrong early on, it just snowballs and compounds.",
+  "zh": "问题是,如果最初的那个假设在早期就是错的,它就会滚雪球般地不断叠加恶化。"
+ },
+ {
+  "seg": 75,
+  "start": 442.118,
+  "end": 444.619,
+  "speaker": "Unknown",
+  "en": "The next failure mode is what's called lost in the middle.",
+  "zh": "下一种失败模式叫做「迷失在中间」。"
+ },
+ {
+  "seg": 76,
+  "start": 445.139,
+  "end": 446.26,
+  "speaker": "Unknown",
+  "en": "Agents get distracted.",
+  "zh": "智能体会分心。"
+ },
+ {
+  "seg": 77,
+  "start": 446.74,
+  "end": 453.743,
+  "speaker": "Unknown",
+  "en": "And so you may have incredibly valuable, important, relevant context buried in a much larger context window.",
+  "zh": "所以你可能把极其有价值、重要、相关的上下文埋在了一个大得多的上下文窗口里。"
+ },
+ {
+  "seg": 78,
+  "start": 453.763,
+  "end": 458.685,
+  "speaker": "Unknown",
+  "en": "And the agents may overlook the part that really matters because of placement.",
+  "zh": "而智能体可能仅仅因为位置的原因就忽略了真正重要的部分。"
+ },
+ {
+  "seg": 79,
+  "start": 458.885,
+  "end": 460.205,
+  "speaker": "Unknown",
+  "en": "They truly get distracted.",
+  "zh": "它们是真的会分心。"
+ },
+ {
+  "seg": 80,
+  "start": 460.225,
+  "end": 464.067,
+  "speaker": "Unknown",
+  "en": "So oftentimes I hear people talk about like, how can we get larger and larger context windows?",
+  "zh": "所以我经常听到人们谈论,我们怎样才能获得越来越大的上下文窗口?"
+ },
+ {
+  "seg": 81,
+  "start": 464.407,
+  "end": 466.367,
+  "speaker": "Unknown",
+  "en": "And I think that is the wrong way to look at it.",
+  "zh": "而我认为那是一种错误的看待方式。"
+ },
+ {
+  "seg": 82,
+  "start": 466.387,
+  "end": 472.809,
+  "speaker": "Unknown",
+  "en": "If we had infinite size context windows, we may have substantially worse outcomes as a result because of lost in the middle.",
+  "zh": "如果我们拥有无限大小的上下文窗口,结果可能会因此糟糕得多,正是因为「迷失在中间」。"
+ },
+ {
+  "seg": 83,
+  "start": 473.349,
+  "end": 478.231,
+  "speaker": "Unknown",
+  "en": "And just the last example that I'll talk through real briefly is prompt injection.",
+  "zh": "我要简要讲到的最后一个例子是提示词注入。"
+ },
+ {
+  "seg": 84,
+  "start": 478.731,
+  "end": 484.633,
+  "speaker": "Unknown",
+  "en": "You know, much like we have SQL injection, there are real world failure cases.",
+  "zh": "你知道,就像我们有 SQL 注入一样,存在着真实世界的失败案例。"
+ },
+ {
+  "seg": 85,
+  "start": 485.473,
+  "end": 497.4,
+  "speaker": "Unknown",
+  "en": "Where instructions were embedded in the context that the agent then acted on, resulting in sensitive information getting leaked, you know, perhaps even customer data getting leaked.",
+  "zh": "即指令被嵌入在上下文中,而智能体随后据此采取了行动,导致敏感信息被泄露,你知道,甚至可能是客户数据被泄露。"
+ },
+ {
+  "seg": 86,
+  "start": 498.121,
+  "end": 508.047,
+  "speaker": "Unknown",
+  "en": "And while like, yes, our harnesses and models may be able to help protect us against this, it doesn't change the fact that the underlying context itself was compromised.",
+  "zh": "虽然是的,我们的工具框架和模型也许能够帮助我们防范这种情况,但这改变不了底层上下文本身已经被攻破这一事实。"
+ },
+ {
+  "seg": 87,
+  "start": 508.727,
+  "end": 520.034,
+  "speaker": "Unknown",
+  "en": "And so as we look at some of these named failure modes, the ways that context might fail, we thought about, well, what are all of the durable properties of high quality context?",
+  "zh": "所以,当我们审视这些有名字的失败模式、上下文可能辜负我们的种种方式时,我们思考了,那么高质量上下文的所有持久特性是什么?"
+ },
+ {
+  "seg": 88,
+  "start": 520.354,
+  "end": 528.639,
+  "speaker": "Unknown",
+  "en": "And the first is, is clarity, is, you know, can the agent interpret the request the way that you intended it to be interpreted?",
+  "zh": "第一个是清晰性,就是,智能体能按照你意图中想要被理解的方式来解读这个请求吗?"
+ },
+ {
+  "seg": 89,
+  "start": 529.019,
+  "end": 530.3,
+  "speaker": "Unknown",
+  "en": "Like ambiguity...",
+  "zh": "就像模糊性……"
+ },
+ {
+  "seg": 90,
+  "start": 530.96,
+  "end": 533.522,
+  "speaker": "Unknown",
+  "en": "is invisible to the person defining the task.",
+  "zh": "对于定义任务的人来说是不可见的。"
+ },
+ {
+  "seg": 91,
+  "start": 533.602,
+  "end": 539.287,
+  "speaker": "Unknown",
+  "en": "We know what we meant, but thankfully, the agents don't live in our heads.",
+  "zh": "我们知道自己是什么意思,但庆幸的是,智能体并不活在我们脑子里。"
+ },
+ {
+  "seg": 92,
+  "start": 539.607,
+  "end": 542.99,
+  "speaker": "Unknown",
+  "en": "And so clarity is a dimension that has to be specified.",
+  "zh": "所以清晰性是一个必须被明确规定的维度。"
+ },
+ {
+  "seg": 93,
+  "start": 543.67,
+  "end": 546.092,
+  "speaker": "Unknown",
+  "en": "The next dimension is actionability.",
+  "zh": "下一个维度是可执行性。"
+ },
+ {
+  "seg": 94,
+  "start": 547.013,
+  "end": 551.515,
+  "speaker": "Unknown",
+  "en": "Have you specified a clear goal that the agent can work for towards?",
+  "zh": "你有没有指定一个智能体可以去努力达成的清晰目标?"
+ },
+ {
+  "seg": 95,
+  "start": 551.755,
+  "end": 556.157,
+  "speaker": "Unknown",
+  "en": "Does the agent know when it is done or will it just keep on going forever?",
+  "zh": "智能体知不知道什么时候算完成,还是它会永远不停地做下去?"
+ },
+ {
+  "seg": 96,
+  "start": 556.678,
+  "end": 559.059,
+  "speaker": "Unknown",
+  "en": "And clear is not the same thing as sufficient.",
+  "zh": "而清晰并不等于充分。"
+ },
+ {
+  "seg": 97,
+  "start": 559.079,
+  "end": 563.981,
+  "speaker": "Unknown",
+  "en": "You may have a perfectly clear task that is impossible to act on because it is not actionable.",
+  "zh": "你可能有一个完美清晰的任务,却无法执行,因为它不具备可执行性。"
+ },
+ {
+  "seg": 98,
+  "start": 564.481,
+  "end": 567.103,
+  "speaker": "Unknown",
+  "en": "The third dimension of cafes is...",
+  "zh": "cafes 的第三个维度是……"
+ },
+ {
+  "seg": 99,
+  "start": 567.803,
+  "end": 568.283,
+  "speaker": "Unknown",
+  "en": "Fidelity.",
+  "zh": "保真性。"
+ },
+ {
+  "seg": 100,
+  "start": 568.583,
+  "end": 569.224,
+  "speaker": "Unknown",
+  "en": "Truthfulness.",
+  "zh": "真实性。"
+ },
+ {
+  "seg": 101,
+  "start": 569.384,
+  "end": 575.287,
+  "speaker": "Unknown",
+  "en": "Can the agent trust that the context is true relative to the task that it is trying to accomplish?",
+  "zh": "智能体能否相信上下文相对于它想要完成的任务是真实的?"
+ },
+ {
+  "seg": 102,
+  "start": 575.367,
+  "end": 582.79,
+  "speaker": "Unknown",
+  "en": "And accuracy, truthfulness is actually a pretty hard property to wrap your mind around because we all have different definitions sometimes.",
+  "zh": "还有准确性,真实性其实是一个很难理解的属性,因为我们每个人对它的定义有时都不一样。"
+ },
+ {
+  "seg": 103,
+  "start": 583.531,
+  "end": 586.212,
+  "speaker": "Unknown",
+  "en": "And accuracy is not a property you set once.",
+  "zh": "而准确性不是一个你设置一次就完事的属性。"
+ },
+ {
+  "seg": 104,
+  "start": 586.272,
+  "end": 587.232,
+  "speaker": "Unknown",
+  "en": "It decays over time.",
+  "zh": "它会随时间衰减。"
+ },
+ {
+  "seg": 105,
+  "start": 587.272,
+  "end": 594.336,
+  "speaker": "Unknown",
+  "en": "And we've seen this with existing documentation where an organization, maybe your organizations, have tons of documentation.",
+  "zh": "我们在现有文档中就见过这种情况,一个组织,也许就是你们的组织,有海量的文档。"
+ },
+ {
+  "seg": 106,
+  "start": 595.036,
+  "end": 598.277,
+  "speaker": "Unknown",
+  "en": "But if they were written two years ago, are they still relevant?",
+  "zh": "但如果这些文档是两年前写的,它们还有效吗?"
+ },
+ {
+  "seg": 107,
+  "start": 598.297,
+  "end": 599.178,
+  "speaker": "Unknown",
+  "en": "Can you trust them?",
+  "zh": "你能信任它们吗?"
+ },
+ {
+  "seg": 108,
+  "start": 599.238,
+  "end": 602.439,
+  "speaker": "Unknown",
+  "en": "Is that functionally the same thing as not having any documentation at all?",
+  "zh": "这在功能上是不是等同于完全没有文档?"
+ },
+ {
+  "seg": 109,
+  "start": 602.839,
+  "end": 609.262,
+  "speaker": "Unknown",
+  "en": "And so the accuracy of that documentation is part of the very definition of the context quality.",
+  "zh": "所以这些文档的准确性本身就是上下文质量定义的一部分。"
+ },
+ {
+  "seg": 110,
+  "start": 609.962,
+  "end": 611.763,
+  "speaker": "Unknown",
+  "en": "The fourth dimension...",
+  "zh": "第四个维度……"
+ },
+ {
+  "seg": 111,
+  "start": 612.463,
+  "end": 613.223,
+  "speaker": "Unknown",
+  "en": "Is efficiency?",
+  "zh": "是效率?"
+ },
+ {
+  "seg": 112,
+  "start": 613.804,
+  "end": 616.625,
+  "speaker": "Unknown",
+  "en": "Is the context lean enough to be usable and affordable?",
+  "zh": "上下文是否足够精简,既可用又可负担?"
+ },
+ {
+  "seg": 113,
+  "start": 617.185,
+  "end": 623.788,
+  "speaker": "Unknown",
+  "en": "And I want to note that this doesn't necessarily mean the smallest possible context.",
+  "zh": "我想指出的是,这并不一定意味着尽可能小的上下文。"
+ },
+ {
+  "seg": 114,
+  "start": 624.268,
+  "end": 626.269,
+  "speaker": "Unknown",
+  "en": "It means the highest signal to noise.",
+  "zh": "它意味着最高的信噪比。"
+ },
+ {
+  "seg": 115,
+  "start": 626.59,
+  "end": 633.393,
+  "speaker": "Unknown",
+  "en": "And this is a place where, within your organizations, you see individual outliers and token usage.",
+  "zh": "而这也是一个地方,在你的组织内部,你会看到个别异常值和 token 使用情况。"
+ },
+ {
+  "seg": 116,
+  "start": 633.773,
+  "end": 637.535,
+  "speaker": "Unknown",
+  "en": "Oftentimes, it's a failure in efficiency, where it's like, oh, I want to...",
+  "zh": "通常,这是效率上的失败,比如,哦,我想……"
+ },
+ {
+  "seg": 117,
+  "start": 638.475,
+  "end": 643.54,
+  "speaker": "Unknown",
+  "en": "Help understanding this single method, and so I passed in my entire repo.",
+  "zh": "帮忙理解这一个方法,于是我把整个代码库都传进去了。"
+ },
+ {
+  "seg": 118,
+  "start": 644.14,
+  "end": 649.665,
+  "speaker": "Unknown",
+  "en": "Or it's like, hey, I'm trying to debug this one failure, so I passed in all of my build logs.",
+  "zh": "或者是,嘿,我正在调试这一个失败,所以我把所有的构建日志都传进去了。"
+ },
+ {
+  "seg": 119,
+  "start": 649.986,
+  "end": 654.51,
+  "speaker": "Unknown",
+  "en": "And every time you do that, the agents have to read it, and that just uses tokens.",
+  "zh": "而每次你这么做,智能体都得去读它,这就只是消耗 token。"
+ },
+ {
+  "seg": 120,
+  "start": 654.97,
+  "end": 660.976,
+  "speaker": "Unknown",
+  "en": "And then the last property that we think defines what it means to be high-quality context...",
+  "zh": "然后是我们认为定义高质量上下文含义的最后一个属性……"
+ },
+ {
+  "seg": 121,
+  "start": 661.656,
+  "end": 662.397,
+  "speaker": "Unknown",
+  "en": "is security.",
+  "zh": "是安全性。"
+ },
+ {
+  "seg": 122,
+  "start": 662.737,
+  "end": 664.718,
+  "speaker": "Unknown",
+  "en": "Is that context safe and compliant?",
+  "zh": "那个上下文是否安全且合规?"
+ },
+ {
+  "seg": 123,
+  "start": 665.199,
+  "end": 672.344,
+  "speaker": "Unknown",
+  "en": "And so the first four dimensions really talk about is the context itself high quality?",
+  "zh": "因此前四个维度讨论的是上下文本身是否高质量?"
+ },
+ {
+  "seg": 124,
+  "start": 672.464,
+  "end": 676.447,
+  "speaker": "Unknown",
+  "en": "The last dimension talks about should we have been using that context at all?",
+  "zh": "最后一个维度讨论的是我们是否一开始就应该使用那个上下文?"
+ },
+ {
+  "seg": 125,
+  "start": 677.408,
+  "end": 682.432,
+  "speaker": "Unknown",
+  "en": "Now, you may think, you may be asking yourselves, well, like, why these five dimensions?",
+  "zh": "现在,你可能会想,你可能会问自己,那么,为什么要这五个维度?"
+ },
+ {
+  "seg": 126,
+  "start": 682.512,
+  "end": 683.753,
+  "speaker": "Unknown",
+  "en": "Why not something else?",
+  "zh": "为什么不是别的?"
+ },
+ {
+  "seg": 127,
+  "start": 684.573,
+  "end": 690.478,
+  "speaker": "Unknown",
+  "en": "And ultimately, the principle that we had is a property",
+  "zh": "归根结底,我们所依据的原则是,一个属性"
+ },
+ {
+  "seg": 128,
+  "start": 691.487,
+  "end": 708.534,
+  "speaker": "Unknown",
+  "en": "Sort of gets its own pillar if it is not derivable from any of the others, if it can be acted on independently, and it names a real-world failure mode that the others miss.",
+  "zh": "如果它不能从其他任何属性推导出来,如果它可以被独立地行动执行,并且它指出了其他属性遗漏的一种真实世界的失败模式,那么它就有资格自成一柱。"
+ },
+ {
+  "seg": 129,
+  "start": 709.074,
+  "end": 717.418,
+  "speaker": "Unknown",
+  "en": "And ultimately, we think these properties, if they are true, ultimately result in better context,",
+  "zh": "而归根结底,我们认为这些属性,如果为真,最终会带来更好的上下文,"
+ },
+ {
+  "seg": 130,
+  "start": 718.423,
+  "end": 725.012,
+  "speaker": "Unknown",
+  "en": "Which results in more effective agents, which ultimately results in what we care about better outcomes.",
+  "zh": "这会带来更有效的智能体,而最终带来的是我们真正关心的更好的结果。"
+ },
+ {
+  "seg": 131,
+  "start": 725.693,
+  "end": 731.08,
+  "speaker": "Unknown",
+  "en": "Again, that was a seven-minute overview of a very long paper.",
+  "zh": "再说一次,那只是一篇很长论文的七分钟概述。"
+ },
+ {
+  "seg": 132,
+  "start": 731.221,
+  "end": 734.024,
+  "speaker": "Unknown",
+  "en": "I would love it if you all went and read it.",
+  "zh": "我非常希望你们大家去读一读它。"
+ },
+ {
+  "seg": 133,
+  "start": 734.104,
+  "end": 735.166,
+  "speaker": "Unknown",
+  "en": "Let us know what you think.",
+  "zh": "让我们知道你们的想法。"
+ },
+ {
+  "seg": 134,
+  "start": 736.107,
+  "end": 740.25,
+  "speaker": "Unknown",
+  "en": "But that gives you sort of a high-level overview of like, what is the CAFE's framework?",
+  "zh": "但这就给了你们一个大致的高层概述,比如,什么是 CAFE 框架?"
+ },
+ {
+  "seg": 135,
+  "start": 740.27,
+  "end": 743.652,
+  "speaker": "Unknown",
+  "en": "You know, how do we think about sort of its place in the world?",
+  "zh": "你们知道,我们如何思考它在这个世界中的位置?"
+ },
+ {
+  "seg": 136,
+  "start": 744.093,
+  "end": 747.975,
+  "speaker": "Unknown",
+  "en": "And with that, I now want to dive into some questions for my co-authors.",
+  "zh": "说到这里,我现在想深入问一下我的合著者一些问题。"
+ },
+ {
+  "seg": 137,
+  "start": 748.636,
+  "end": 757.402,
+  "speaker": "Unknown",
+  "en": "And my first question is like, we will often blame failures on our actual models, on the LLMs themselves.",
+  "zh": "我的第一个问题是,我们常常会把失败归咎于我们的实际模型,归咎于 LLM 本身。"
+ },
+ {
+  "seg": 138,
+  "start": 758.382,
+  "end": 762.627,
+  "speaker": "Unknown",
+  "en": "And I'm curious, and maybe, you know, Peggy, we can start with you.",
+  "zh": "我很好奇,也许,你知道,Peggy,我们可以从你开始。"
+ },
+ {
+  "seg": 139,
+  "start": 762.988,
+  "end": 769.155,
+  "speaker": "Unknown",
+  "en": "What are some failures that you've seen blamed on these models that was actually a context failure?",
+  "zh": "你见过哪些被归咎于这些模型、但实际上是上下文失败的失败案例?"
+ },
+ {
+  "seg": 140,
+  "start": 769.554,
+  "end": 773.378,
+  "speaker": "Unknown",
+  "en": "Let me talk about the experience that I had in a course.",
+  "zh": "让我谈谈我在一门课程中的经历。"
+ },
+ {
+  "seg": 141,
+  "start": 773.498,
+  "end": 789.994,
+  "speaker": "Unknown",
+  "en": "I mentioned that I'm an academic, a professor at the university, and I teach a course called Startup Studio, where I encourage the students to build a startup in about 12 weeks and to use AI, of course, to go quickly and learn quickly about what their customers might need and learn about the problem that they're trying to address.",
+  "zh": "我提到过我是一名学者,是一名大学的教授,我教一门叫 Startup Studio 的课程,我鼓励学生在大约 12 周内创建一个初创公司,并且当然要使用 AI 来快速行动,快速了解他们的客户可能需要什么,并了解他们试图解决的问题。"
+ },
+ {
+  "seg": 142,
+  "start": 791.035,
+  "end": 795.217,
+  "speaker": "Unknown",
+  "en": "And I'll chat about the triple debt model a little bit later on, perhaps, Brian.",
+  "zh": "稍后我也许会聊聊三重债务模型,Brian。"
+ },
+ {
+  "seg": 143,
+  "start": 795.477,
+  "end": 809.541,
+  "speaker": "Unknown",
+  "en": "But one of the things that I saw last year is that the students were blaming the model for hallucinating features that they were adding to their MVPs, so to the early versions of their startup apps.",
+  "zh": "但去年我注意到的一件事是,学生们把他们在 MVP 中添加的功能,也就是他们初创应用的早期版本中出现的问题,归咎于模型产生了幻觉。"
+ },
+ {
+  "seg": 144,
+  "start": 810.442,
+  "end": 812.422,
+  "speaker": "Unknown",
+  "en": "And I would say to them, well, where did that come from?",
+  "zh": "而我会对他们说,那么,这是从哪来的?"
+ },
+ {
+  "seg": 145,
+  "start": 812.462,
+  "end": 814.003,
+  "speaker": "Unknown",
+  "en": "And they were like, uh...",
+  "zh": "而他们会说,呃……"
+ },
+ {
+  "seg": 146,
+  "start": 814.623,
+  "end": 815.123,
+  "speaker": "Unknown",
+  "en": "Oh, I don't know.",
+  "zh": "哦,我不知道。"
+ },
+ {
+  "seg": 147,
+  "start": 815.163,
+  "end": 817.204,
+  "speaker": "Unknown",
+  "en": "I guess the model hallucinated them.",
+  "zh": "我猜是模型产生了幻觉。"
+ },
+ {
+  "seg": 148,
+  "start": 817.444,
+  "end": 823.105,
+  "speaker": "Unknown",
+  "en": "And I'm like, but where are you writing down to the model what it is that you want it to do?",
+  "zh": "然后我就说,但是你们在哪里向模型写下了你们想要它做的事情?"
+ },
+ {
+  "seg": 149,
+  "start": 823.185,
+  "end": 826.426,
+  "speaker": "Unknown",
+  "en": "Because you're trying to build this minimal kind of set of features.",
+  "zh": "因为你们试图构建的是一个最小化的功能集合。"
+ },
+ {
+  "seg": 150,
+  "start": 826.506,
+  "end": 830.427,
+  "speaker": "Unknown",
+  "en": "Where have you kind of told the model that this is what you need to do?",
+  "zh": "你在什么情况下告诉过模型说这就是你需要做的事情?"
+ },
+ {
+  "seg": 151,
+  "start": 830.527,
+  "end": 832.387,
+  "speaker": "Unknown",
+  "en": "And of course, at that point they had not.",
+  "zh": "当然,那时候他们并没有。"
+ },
+ {
+  "seg": 152,
+  "start": 833.047,
+  "end": 836.088,
+  "speaker": "Unknown",
+  "en": "So that was kind of the first clue that, oh.",
+  "zh": "所以这算是第一个线索,哦。"
+ },
+ {
+  "seg": 153,
+  "start": 836.968,
+  "end": 846.734,
+  "speaker": "Unknown",
+  "en": "We need to really take our time in describing to the agent and to the other people on our team what it is that we want to do and what it is that we don't want to do.",
+  "zh": "我们真的需要花时间向智能体以及团队里的其他人描述清楚我们想做什么、我们不想做什么。"
+ },
+ {
+  "seg": 154,
+  "start": 847.835,
+  "end": 848.475,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "完全正确。"
+ },
+ {
+  "seg": 155,
+  "start": 848.615,
+  "end": 849.196,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "完全正确。"
+ },
+ {
+  "seg": 156,
+  "start": 849.336,
+  "end": 855.7,
+  "speaker": "Unknown",
+  "en": "Kicking it over to you, Max, what are some failures you've seen sort of assigned to the models that might have actually been context failures?",
+  "zh": "把话题交给你,Max,你见过哪些被归咎于模型、但可能实际上是上下文失败的失败案例?"
+ },
+ {
+  "seg": 157,
+  "start": 856.261,
+  "end": 856.541,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 158,
+  "start": 856.641,
+  "end": 862.968,
+  "speaker": "Unknown",
+  "en": "Every so often I'll run into a developer who will tell me, it takes me longer to write code with coding agents than it does to write it by hand.",
+  "zh": "我时不时会遇到一个开发者跟我说,用编码智能体写代码比我自己手写还要花更长时间。"
+ },
+ {
+  "seg": 159,
+  "start": 862.988,
+  "end": 865.791,
+  "speaker": "Unknown",
+  "en": "And that's mystifying because that should never be true.",
+  "zh": "这很让人费解,因为这种情况本来不应该发生。"
+ },
+ {
+  "seg": 160,
+  "start": 866.051,
+  "end": 867.893,
+  "speaker": "Unknown",
+  "en": "Whenever I dig into it, it's one of two things.",
+  "zh": "每当我深入调查,通常就是两种情况之一。"
+ },
+ {
+  "seg": 161,
+  "start": 867.973,
+  "end": 869.675,
+  "speaker": "Unknown",
+  "en": "One of them is, which is totally fine and acceptable.",
+  "zh": "其中一种是,这完全没问题,也可以接受。"
+ },
+ {
+  "seg": 162,
+  "start": 869.695,
+  "end": 872.658,
+  "speaker": "Unknown",
+  "en": "Sometimes people are new to writing with coding agents and that's a learning process.",
+  "zh": "有时候人们刚开始用编码智能体写代码,这是一个学习过程。"
+ },
+ {
+  "seg": 163,
+  "start": 872.698,
+  "end": 874.66,
+  "speaker": "Unknown",
+  "en": "And at first it's going to slow them down and that's normal.",
+  "zh": "一开始会拖慢他们的速度,这是正常的。"
+ },
+ {
+  "seg": 164,
+  "start": 874.7,
+  "end": 876.401,
+  "speaker": "Unknown",
+  "en": "And we expect that as part of the learning process.",
+  "zh": "我们预期这也是学习过程的一部分。"
+ },
+ {
+  "seg": 165,
+  "start": 877.182,
+  "end": 881.925,
+  "speaker": "Unknown",
+  "en": "But usually when I dig into it and I ask them about it, I'm like, what was the problem?",
+  "zh": "但通常当我深入询问他们时,我会问,问题出在哪?"
+ },
+ {
+  "seg": 166,
+  "start": 882.586,
+  "end": 887.549,
+  "speaker": "Unknown",
+  "en": "And they're like, well, it doesn't know any of the things that are in my head and in the heads of all of my teammates.",
+  "zh": "他们会说,嗯,它不知道我脑子里、还有我所有队友脑子里的那些东西。"
+ },
+ {
+  "seg": 167,
+  "start": 887.97,
+  "end": 889.21,
+  "speaker": "Unknown",
+  "en": "And I'm like, well, that's the problem.",
+  "zh": "我就说,嗯,这就是问题所在。"
+ },
+ {
+  "seg": 168,
+  "start": 889.23,
+  "end": 893.714,
+  "speaker": "Unknown",
+  "en": "The problem is that those things are in your head and in the heads of all of your teammates and they aren't written down anywhere.",
+  "zh": "问题在于那些东西在你脑子里、在你所有队友的脑子里,却没有在任何地方被写下来。"
+ },
+ {
+  "seg": 169,
+  "start": 894.394,
+  "end": 902.66,
+  "speaker": "Unknown",
+  "en": "Irini, closing us out, what are some examples that you might have seen of context failures that people are like, oh, no, it's just these dumb models?",
+  "zh": "Irini,为我们收尾,你见过哪些人们会说“哦,不,就是这些笨模型”的上下文失败的例子?"
+ },
+ {
+  "seg": 170,
+  "start": 903,
+  "end": 910.045,
+  "speaker": "Unknown",
+  "en": "So I'm going to call out an example that I saw published at some point in a tech article.",
+  "zh": "我要举一个我曾经在某篇技术文章里看到公开发表过的例子。"
+ },
+ {
+  "seg": 171,
+  "start": 910.485,
+  "end": 914.588,
+  "speaker": "Unknown",
+  "en": "And I'll dig up the link and give it so that we can share with everybody as well.",
+  "zh": "我会找出那个链接分享出来,这样我们也能分享给大家。"
+ },
+ {
+  "seg": 172,
+  "start": 914.608,
+  "end": 916.829,
+  "speaker": "Unknown",
+  "en": "But this happened, I think, back in April.",
+  "zh": "但这件事发生在,我记得,四月份。"
+ },
+ {
+  "seg": 173,
+  "start": 916.849,
+  "end": 918.751,
+  "speaker": "Unknown",
+  "en": "It was a small company that was called...",
+  "zh": "是一家小公司,叫做……"
+ },
+ {
+  "seg": 174,
+  "start": 919.171,
+  "end": 923.154,
+  "speaker": "Unknown",
+  "en": "Pocket OS, I think, and it runs software for car rental businesses.",
+  "zh": "我记得叫 Pocket OS,它为汽车租赁业务提供软件。"
+ },
+ {
+  "seg": 175,
+  "start": 923.515,
+  "end": 926.577,
+  "speaker": "Unknown",
+  "en": "So I had a coding agent, was working on something pretty routine.",
+  "zh": "一个编码智能体当时在处理一件很常规的事情。"
+ },
+ {
+  "seg": 176,
+  "start": 926.597,
+  "end": 938.448,
+  "speaker": "Unknown",
+  "en": "It hit a permissions problem, and instead of stopping there, it went looking, and somewhere it found an API token completely unrelated to the task in an unrelated file.",
+  "zh": "它碰到了一个权限问题,而没有就此停下,它开始到处找,在某处它在一个无关的文件里找到了一个与任务完全无关的 API 令牌。"
+ },
+ {
+  "seg": 177,
+  "start": 938.988,
+  "end": 943.032,
+  "speaker": "Unknown",
+  "en": "And long story short, the whole production database was deleted.",
+  "zh": "长话短说,整个生产数据库被删除了。"
+ },
+ {
+  "seg": 178,
+  "start": 943.572,
+  "end": 943.752,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 179,
+  "start": 943.812,
+  "end": 945.614,
+  "speaker": "Unknown",
+  "en": "And it took a few seconds.",
+  "zh": "而且只花了几秒钟。"
+ },
+ {
+  "seg": 180,
+  "start": 946.034,
+  "end": 948.216,
+  "speaker": "Unknown",
+  "en": "Then the backups, of course, we lived in the same place.",
+  "zh": "然后是备份,当然,备份放在同一个地方。"
+ },
+ {
+  "seg": 181,
+  "start": 948.256,
+  "end": 949.297,
+  "speaker": "Unknown",
+  "en": "So those were gone too.",
+  "zh": "所以那些也没了。"
+ },
+ {
+  "seg": 182,
+  "start": 949.337,
+  "end": 951.86,
+  "speaker": "Unknown",
+  "en": "And then the last good copy was from several months ago.",
+  "zh": "而最后一份完好的副本是几个月前的。"
+ },
+ {
+  "seg": 183,
+  "start": 952.4,
+  "end": 959.707,
+  "speaker": "Unknown",
+  "en": "When this was written up, it was written up as like the agent goes rogue and it's something about like the model and alignment and so on.",
+  "zh": "当这件事被报道出来时,它被写成类似智能体失控变rogue,讲的是模型和对齐之类的东西。"
+ },
+ {
+  "seg": 184,
+  "start": 959.867,
+  "end": 962.689,
+  "speaker": "Unknown",
+  "en": "And like, yes, the agent, of course, ignored.",
+  "zh": "而且确实,这个智能体,当然,忽略了一条指令。"
+ },
+ {
+  "seg": 185,
+  "start": 963.35,
+  "end": 964.031,
+  "speaker": "Unknown",
+  "en": "An instruction.",
+  "zh": "一条指令。"
+ },
+ {
+  "seg": 186,
+  "start": 964.371,
+  "end": 970.836,
+  "speaker": "Unknown",
+  "en": "But if we think about it, it had access to a credential that had nothing to do with a task.",
+  "zh": "但如果我们想一想,它拥有一个与任务毫无关系的凭证。"
+ },
+ {
+  "seg": 187,
+  "start": 970.977,
+  "end": 973.038,
+  "speaker": "Unknown",
+  "en": "It was within reach and it shouldn't have been.",
+  "zh": "它够得着那个东西,而它本不该够得着。"
+ },
+ {
+  "seg": 188,
+  "start": 973.058,
+  "end": 977.442,
+  "speaker": "Unknown",
+  "en": "And that's the failure that I think has to do with context.",
+  "zh": "而这就是我认为与上下文有关的失败。"
+ },
+ {
+  "seg": 189,
+  "start": 977.722,
+  "end": 982.547,
+  "speaker": "Unknown",
+  "en": "It had context that allowed the model to make a bad call or the agent to make a bad call.",
+  "zh": "它拥有的上下文让模型做出了糟糕的判断,或者说让智能体做出了糟糕的判断。"
+ },
+ {
+  "seg": 190,
+  "start": 982.947,
+  "end": 983.427,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 191,
+  "start": 983.507,
+  "end": 987.231,
+  "speaker": "Unknown",
+  "en": "And you can clearly see the potential security ramifications of failures.",
+  "zh": "而且你可以清楚地看到这类失败的潜在安全影响。"
+ },
+ {
+  "seg": 192,
+  "start": 987.291,
+  "end": 987.831,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "完全正确。"
+ },
+ {
+  "seg": 193,
+  "start": 987.951,
+  "end": 989.653,
+  "speaker": "Unknown",
+  "en": "Which is why it's the dimensions of cafes.",
+  "zh": "这就是为什么它是 cafes 的维度之一。"
+ },
+ {
+  "seg": 194,
+  "start": 990.405,
+  "end": 1001.57,
+  "speaker": "Unknown",
+  "en": "So one of the things that, you know, is the thesis, a key thesis of the paper is that for agents to do their best work, it will be limited by the knowledge environment around them.",
+  "zh": "所以,你知道,这篇论文的一个关键论题就是,智能体要发挥出最好的水平,会受到它们周围知识环境的限制。"
+ },
+ {
+  "seg": 195,
+  "start": 1002.31,
+  "end": 1008.732,
+  "speaker": "Unknown",
+  "en": "And knowledge management problems have existed in software organizations sort of forever.",
+  "zh": "而知识管理问题在软件组织里几乎由来已久。"
+ },
+ {
+  "seg": 196,
+  "start": 1010.84,
+  "end": 1011.761,
+  "speaker": "Unknown",
+  "en": "We've known about them.",
+  "zh": "我们早就知道它们了。"
+ },
+ {
+  "seg": 197,
+  "start": 1011.821,
+  "end": 1013.482,
+  "speaker": "Unknown",
+  "en": "We've seen them survey and survey again.",
+  "zh": "我们看到它们被调查了一遍又一遍。"
+ },
+ {
+  "seg": 198,
+  "start": 1013.502,
+  "end": 1017.885,
+  "speaker": "Unknown",
+  "en": "The documentation is one of the key sources of frustration for developers.",
+  "zh": "文档一直是让开发者感到挫败的关键来源之一。"
+ },
+ {
+  "seg": 199,
+  "start": 1018.305,
+  "end": 1021.027,
+  "speaker": "Unknown",
+  "en": "And we largely just learn to live through them.",
+  "zh": "而我们基本上只是学会了去忍受它们。"
+ },
+ {
+  "seg": 200,
+  "start": 1021.488,
+  "end": 1030.614,
+  "speaker": "Unknown",
+  "en": "And so, Max, I'm curious, what's different now that the consumers of this knowledge are agents versus humans?",
+  "zh": "所以，Max，我很好奇，现在这些知识的消费者是智能体而不是人类，这有什么不同？"
+ },
+ {
+  "seg": 201,
+  "start": 1031.221,
+  "end": 1036.165,
+  "speaker": "Unknown",
+  "en": "Yeah, so one of the great secrets of agent experience is that it's all the same things that we knew about developer experience already.",
+  "zh": "是的，智能体体验的一个重大秘诀就是，它其实都是我们早已了解的开发者体验中的那些东西。"
+ },
+ {
+  "seg": 202,
+  "start": 1036.565,
+  "end": 1039.147,
+  "speaker": "Unknown",
+  "en": "And really, knowledge management in many ways is no exception.",
+  "zh": "而且实际上，知识管理在很多方面也不例外。"
+ },
+ {
+  "seg": 203,
+  "start": 1039.187,
+  "end": 1043.65,
+  "speaker": "Unknown",
+  "en": "Like, if you gave a bunch of humans a bunch of confusing documentation, they would also do the wrong things.",
+  "zh": "比如，如果你给一群人类一堆混乱的文档，他们同样会做错事。"
+ },
+ {
+  "seg": 204,
+  "start": 1043.95,
+  "end": 1048.113,
+  "speaker": "Unknown",
+  "en": "You just couldn't see it, and it wasn't like a direct artifact that cost you money.",
+  "zh": "只是你看不到而已，而且它不像是一个直接让你花钱的产物。"
+ },
+ {
+  "seg": 205,
+  "start": 1048.613,
+  "end": 1050.074,
+  "speaker": "Unknown",
+  "en": "So there was always a problem.",
+  "zh": "所以这个问题一直都存在。"
+ },
+ {
+  "seg": 206,
+  "start": 1050.094,
+  "end": 1060.322,
+  "speaker": "Unknown",
+  "en": "Like, if a person couldn't find the information they needed, they would spend a bunch of very expensive time either trying to discover that information or building the wrong thing.",
+  "zh": "比如，如果一个人找不到他需要的信息，他会花大量非常昂贵的时间，要么去发现那些信息，要么去构建错误的东西。"
+ },
+ {
+  "seg": 207,
+  "start": 1061.162,
+  "end": 1066.303,
+  "speaker": "Unknown",
+  "en": "If the instructions that you had were wrong in your documentation, the exact same sort of thing would happen.",
+  "zh": "如果你文档里的说明是错的，同样的事情也会发生。"
+ },
+ {
+  "seg": 208,
+  "start": 1066.323,
+  "end": 1069.184,
+  "speaker": "Unknown",
+  "en": "Like this is a perennial complaint of developers.",
+  "zh": "这是开发者长久以来的抱怨。"
+ },
+ {
+  "seg": 209,
+  "start": 1069.784,
+  "end": 1071.744,
+  "speaker": "Unknown",
+  "en": "All these things always needed to be written down.",
+  "zh": "所有这些东西一直都值得写下来。"
+ },
+ {
+  "seg": 210,
+  "start": 1071.844,
+  "end": 1075.225,
+  "speaker": "Unknown",
+  "en": "It's just become dramatically more apparent in present time.",
+  "zh": "只是在当下变得极其明显了。"
+ },
+ {
+  "seg": 211,
+  "start": 1075.745,
+  "end": 1078.245,
+  "speaker": "Unknown",
+  "en": "You have said on my own podcast, right?",
+  "zh": "你在我自己的播客上说过，对吧？"
+ },
+ {
+  "seg": 212,
+  "start": 1078.265,
+  "end": 1079.646,
+  "speaker": "Unknown",
+  "en": "Like AI is an amplifier.",
+  "zh": "比如，AI 是一个放大器。"
+ },
+ {
+  "seg": 213,
+  "start": 1080.066,
+  "end": 1084.226,
+  "speaker": "Unknown",
+  "en": "And it's like, well, we could sort of like absorb a little bit of being crappy about this.",
+  "zh": "然后就是说，好吧，我们本来还能在这件事上做得烂一点，勉强吸收掉一点。"
+ },
+ {
+  "seg": 214,
+  "start": 1084.286,
+  "end": 1086.987,
+  "speaker": "Unknown",
+  "en": "And it's just like, as you shine a bigger and bigger spotlight on it.",
+  "zh": "而现在，就是你把越来越大的聚光灯打在上面。"
+ },
+ {
+  "seg": 215,
+  "start": 1088.035,
+  "end": 1094.64,
+  "speaker": "Unknown",
+  "en": "One thought that I've had, and I've actually been asked this already, is like, well, what's the most important dimension of cafes?",
+  "zh": "我有过一个想法，而且实际上已经有人问过我这个问题了，就是，cafe 最重要的维度是什么？"
+ },
+ {
+  "seg": 216,
+  "start": 1095.1,
+  "end": 1108.549,
+  "speaker": "Unknown",
+  "en": "And sort of like a question to all of you is, like, if you were to tell an organization, you know, if you could only improve one dimension of cafes, like, what dimension would you have them to start with, like, and why?",
+  "zh": "也可以说是给你们所有人的一个问题，比如，如果你要告诉一个组织，你知道，如果你只能改进 cafe 的一个维度，比如，你会让他们从哪个维度开始，以及为什么？"
+ },
+ {
+  "seg": 217,
+  "start": 1108.569,
+  "end": 1110.571,
+  "speaker": "Unknown",
+  "en": "Irini, you want to kick us off?",
+  "zh": "Irini，你想先开始吗？"
+ },
+ {
+  "seg": 218,
+  "start": 1111.682,
+  "end": 1121.025,
+  "speaker": "Unknown",
+  "en": "I toggle between two because when we were working on the paper, they were like the two that it was harder for me to kind of disambiguate.",
+  "zh": "我在两个之间来回摇摆，因为当我们写那篇论文的时候，这两个是我比较难区分清楚的。"
+ },
+ {
+  "seg": 219,
+  "start": 1121.405,
+  "end": 1123.986,
+  "speaker": "Unknown",
+  "en": "And I'm talking about clarity and actionability.",
+  "zh": "我说的是清晰性和可操作性。"
+ },
+ {
+  "seg": 220,
+  "start": 1124.506,
+  "end": 1131.929,
+  "speaker": "Unknown",
+  "en": "And both of those in my mind are very important because the result, like it looks the same from the outside.",
+  "zh": "在我看来这两者都非常重要，因为它们的结果，比如，从外面看起来是一样的。"
+ },
+ {
+  "seg": 221,
+  "start": 1131.969,
+  "end": 1134.55,
+  "speaker": "Unknown",
+  "en": "It's an agent that can't really do the work.",
+  "zh": "都是一个没法真正完成工作的智能体。"
+ },
+ {
+  "seg": 222,
+  "start": 1135.27,
+  "end": 1141.055,
+  "speaker": "Unknown",
+  "en": "And you can't really tell like why that is, but they do have different fixes.",
+  "zh": "而你很难看出原因是为什么，但它们的修复方法确实不同。"
+ },
+ {
+  "seg": 223,
+  "start": 1141.095,
+  "end": 1142.736,
+  "speaker": "Unknown",
+  "en": "And I think those are equally important.",
+  "zh": "我认为这两者同等重要。"
+ },
+ {
+  "seg": 224,
+  "start": 1142.756,
+  "end": 1146.96,
+  "speaker": "Unknown",
+  "en": "If you really press me to pick one, I would say probably clarity.",
+  "zh": "如果你真的逼我选一个，我可能会说清晰性。"
+ },
+ {
+  "seg": 225,
+  "start": 1147.1,
+  "end": 1150.643,
+  "speaker": "Unknown",
+  "en": "And it's so easy to, as you said, right?",
+  "zh": "而且正如你所说，这太容易了，对吧？"
+ },
+ {
+  "seg": 226,
+  "start": 1150.703,
+  "end": 1155.426,
+  "speaker": "Unknown",
+  "en": "Like the ambiguity is very easy to propagate because...",
+  "zh": "比如，歧义非常容易传播，因为……"
+ },
+ {
+  "seg": 227,
+  "start": 1156.557,
+  "end": 1162.324,
+  "speaker": "Unknown",
+  "en": "I know what I want and it's in my head, but that doesn't necessarily mean that I said it in a way that is unambiguous.",
+  "zh": "我知道我想要什么，它在我脑子里，但这不一定意味着我用一种无歧义的方式把它说出来了。"
+ },
+ {
+  "seg": 228,
+  "start": 1162.864,
+  "end": 1165.668,
+  "speaker": "Unknown",
+  "en": "So both clarity and actionability, I think are key.",
+  "zh": "所以我认为清晰性和可操作性都是关键。"
+ },
+ {
+  "seg": 229,
+  "start": 1166.088,
+  "end": 1171.254,
+  "speaker": "Unknown",
+  "en": "They look the same from the outside when they don't work, but they have different fixes.",
+  "zh": "当它们不起作用时，从外面看起来是一样的，但它们的修复方法不同。"
+ },
+ {
+  "seg": 230,
+  "start": 1171.314,
+  "end": 1173.857,
+  "speaker": "Unknown",
+  "en": "So if I was going to fix something by...",
+  "zh": "所以，如果我要通过……"
+ },
+ {
+  "seg": 231,
+  "start": 1174.758,
+  "end": 1178.22,
+  "speaker": "Unknown",
+  "en": "wording it more precisely, that means that's clarity, right?",
+  "zh": "用更精确的措辞来修复某件事，那意味着那是清晰性，对吧？"
+ },
+ {
+  "seg": 232,
+  "start": 1178.26,
+  "end": 1180.182,
+  "speaker": "Unknown",
+  "en": "I'm taking the ambiguity out of it.",
+  "zh": "我是在消除歧义。"
+ },
+ {
+  "seg": 233,
+  "start": 1180.362,
+  "end": 1188.707,
+  "speaker": "Unknown",
+  "en": "If I was going to fix it by adding something, right, adding a goal, adding a constraint and so on, that means it's kind of like actionability.",
+  "zh": "如果我要通过添加一些东西来修复它，对吧，添加一个目标、添加一个约束等等，那意味着它更像是可操作性。"
+ },
+ {
+  "seg": 234,
+  "start": 1189.007,
+  "end": 1192.269,
+  "speaker": "Unknown",
+  "en": "So in my mind, those are absolutely critical.",
+  "zh": "所以在我看来，这些是绝对关键的。"
+ },
+ {
+  "seg": 235,
+  "start": 1192.489,
+  "end": 1196.492,
+  "speaker": "Unknown",
+  "en": "And I would say the clarity is like number one.",
+  "zh": "而且我会说清晰性是第一名。"
+ },
+ {
+  "seg": 236,
+  "start": 1196.952,
+  "end": 1203.734,
+  "speaker": "Unknown",
+  "en": "Max, I got to interrupt you from geeking out with people about your amazing novel collection back there.",
+  "zh": "Max，我得打断你一下，别在那儿和人们聊你令人惊叹的小说收藏了。"
+ },
+ {
+  "seg": 237,
+  "start": 1204.914,
+  "end": 1208.655,
+  "speaker": "Unknown",
+  "en": "Where would you recommend that organizations start?",
+  "zh": "你会建议组织从哪里开始？"
+ },
+ {
+  "seg": 238,
+  "start": 1208.695,
+  "end": 1209.616,
+  "speaker": "Unknown",
+  "en": "What dimension?",
+  "zh": "哪个维度？"
+ },
+ {
+  "seg": 239,
+  "start": 1210.276,
+  "end": 1213.517,
+  "speaker": "Unknown",
+  "en": "I think the most important thing is probably clarity and actionability.",
+  "zh": "我认为最重要的大概是清晰性和可操作性。"
+ },
+ {
+  "seg": 240,
+  "start": 1213.537,
+  "end": 1220.739,
+  "speaker": "Unknown",
+  "en": "I mean, so sort of in a combination, like the first thing is just like you, the human being typing things into the agent has to be providing clear instructions.",
+  "zh": "我的意思是，某种程度上的结合，比如，第一件事就是，你，这个往智能体里输入内容的人类，必须提供清晰的指令。"
+ },
+ {
+  "seg": 241,
+  "start": 1220.799,
+  "end": 1224.98,
+  "speaker": "Unknown",
+  "en": "Like just like you need to know, because you are the final fallback.",
+  "zh": "就像你必须知道，因为你是最终的兜底。"
+ },
+ {
+  "seg": 242,
+  "start": 1225.835,
+  "end": 1230.6,
+  "speaker": "Unknown",
+  "en": "If there is no other information gathering mechanism, the information gathering mechanism is you.",
+  "zh": "如果没有其他信息收集机制，那么信息收集机制就是你。"
+ },
+ {
+  "seg": 243,
+  "start": 1230.9,
+  "end": 1238.428,
+  "speaker": "Unknown",
+  "en": "And so you have to be the thing that knows how to type out the thing that is actually your intent in a way that it will actually get executed.",
+  "zh": "所以你必须成为那个知道如何把真正是你的意图的东西打出来、并且以一种它真的会被执行的方式打出来的人。"
+ },
+ {
+  "seg": 244,
+  "start": 1238.823,
+  "end": 1241.004,
+  "speaker": "Unknown",
+  "en": "I'm going to be boring and say clarity as well.",
+  "zh": "我要无趣一点，也说是清晰性。"
+ },
+ {
+  "seg": 245,
+  "start": 1242.124,
+  "end": 1245.846,
+  "speaker": "Unknown",
+  "en": "I mean, not surprising, we all worked on the paper together, so we kind of think the same.",
+  "zh": "我的意思是，不奇怪，我们都是一起写那篇论文的，所以我们想法差不多。"
+ },
+ {
+  "seg": 246,
+  "start": 1246.166,
+  "end": 1252.429,
+  "speaker": "Unknown",
+  "en": "But the reason that I think clarity is the most important is that it's the least visible of the problems.",
+  "zh": "但我认为清晰性最重要的原因是，它是这些问题中最不可见的。"
+ },
+ {
+  "seg": 247,
+  "start": 1252.529,
+  "end": 1257.631,
+  "speaker": "Unknown",
+  "en": "I mean, I think a lot of organizations know that they need to, well, maybe,",
+  "zh": "我的意思是，我认为很多组织知道他们需要……嗯，也许，"
+ },
+ {
+  "seg": 248,
+  "start": 1258.331,
+  "end": 1266.434,
+  "speaker": "Unknown",
+  "en": "Maybe not all, but many organizations know that they need to pay attention to security and efficiency is often top of mind because of token costs.",
+  "zh": "也许不是所有，但很多组织知道他们需要注意安全性，而效率经常是最先被想到的，因为代币成本。"
+ },
+ {
+  "seg": 249,
+  "start": 1266.454,
+  "end": 1268.535,
+  "speaker": "Unknown",
+  "en": "So money hurts when you spend too much.",
+  "zh": "所以当你花太多钱时，钱上的痛是真实的。"
+ },
+ {
+  "seg": 250,
+  "start": 1269.335,
+  "end": 1277.558,
+  "speaker": "Unknown",
+  "en": "Fidelity is maybe the fidelity and clarity are kind of the two that I would say, if you're going to make a change, focus on those.",
+  "zh": "保真度，也许保真度和清晰度是我想说的两个，如果你要做改进的话，就聚焦在这两个上面。"
+ },
+ {
+  "seg": 251,
+  "start": 1277.598,
+  "end": 1284.04,
+  "speaker": "Unknown",
+  "en": "I think Irini described it well when she said that we're pretty good at kind of telling the agent",
+  "zh": "我认为 Irini 描述得很好，她说我们其实相当擅长告诉智能体"
+ },
+ {
+  "seg": 252,
+  "start": 1284.54,
+  "end": 1287.901,
+  "speaker": "Unknown",
+  "en": "You know, through our instructions, what it is that we wanted to do.",
+  "zh": "续：这自你上次给智能体下达指令以来有变化吗？"
+ },
+ {
+  "seg": 253,
+  "start": 1288.422,
+  "end": 1292.583,
+  "speaker": "Unknown",
+  "en": "But it's the stuff that, you know, and this is when you see robots fail, right?",
+  "zh": "但真正的问题在于，你知道，这就是你看到机器人失败的时候，对吧？"
+ },
+ {
+  "seg": 254,
+  "start": 1292.643,
+  "end": 1299.926,
+  "speaker": "Unknown",
+  "en": "They fail because of the things that we just take for granted about the physicality of the world and what our senses tell us and implicit knowledge.",
+  "zh": "它们失败是因为那些我们习以为常的东西，关于世界的物理性、我们的感官告诉我们什么，以及隐性知识。"
+ },
+ {
+  "seg": 255,
+  "start": 1300.246,
+  "end": 1302.527,
+  "speaker": "Unknown",
+  "en": "And that's the stuff that we don't tell the agents.",
+  "zh": "而这些恰恰是我们没有告诉智能体的东西。"
+ },
+ {
+  "seg": 256,
+  "start": 1302.587,
+  "end": 1305.428,
+  "speaker": "Unknown",
+  "en": "And it's like, duh, like, why didn't you know that the",
+  "zh": "就像，拜托，你怎么会不知道"
+ },
+ {
+  "seg": 257,
+  "start": 1306.828,
+  "end": 1308.489,
+  "speaker": "Unknown",
+  "en": "We drive on the right-hand side of the road.",
+  "zh": "我们是靠道路右侧行驶的。"
+ },
+ {
+  "seg": 258,
+  "start": 1308.569,
+  "end": 1316.612,
+  "speaker": "Unknown",
+  "en": "I saw a funny video the other day of somebody driving down AI-generated and the car, actually, I think it was a Pelican, was on the wrong side of the road.",
+  "zh": "前几天我看到一个有趣的视频，有人在 AI 生成的画面里开车，那辆车，我记得好像是一只鹈鹕，在错误的 pumpkin 一侧……不对，是在错误的道路一侧行驶。"
+ },
+ {
+  "seg": 259,
+  "start": 1316.652,
+  "end": 1317.932,
+  "speaker": "Unknown",
+  "en": "And I'm like, it's going to get hurt.",
+  "zh": "我就想，它要受伤了。"
+ },
+ {
+  "seg": 260,
+  "start": 1318.112,
+  "end": 1327.155,
+  "speaker": "Unknown",
+  "en": "But things like that, that we just take for granted and we don't tell the agent that we need to make explicit, I think is super important with clarity.",
+  "zh": "但像这样的事情，我们习以为常却没有告诉智能体、需要我们明确说出来的东西，我认为对清晰度来说超级重要。"
+ },
+ {
+  "seg": 261,
+  "start": 1327.436,
+  "end": 1329.676,
+  "speaker": "Unknown",
+  "en": "And then fidelity is like, is this really true?",
+  "zh": "然后保真度就是，这是真的吗？"
+ },
+ {
+  "seg": 262,
+  "start": 1329.736,
+  "end": 1333.758,
+  "speaker": "Unknown",
+  "en": "Is this changing since you last gave instructions to the agent?",
+  "zh": "这是不是在变化,从你上次给智能体下指令之后?"
+ },
+ {
+  "seg": 263,
+  "start": 1334.578,
+  "end": 1335.418,
+  "speaker": "Unknown",
+  "en": "It is interesting.",
+  "zh": "这很有意思。"
+ },
+ {
+  "seg": 264,
+  "start": 1335.478,
+  "end": 1339.04,
+  "speaker": "Unknown",
+  "en": "I sort of like to believe all of the pillars are equally important, but you're right.",
+  "zh": "我有点愿意相信所有支柱都同等重要，但你说得对。"
+ },
+ {
+  "seg": 265,
+  "start": 1339.06,
+  "end": 1344.202,
+  "speaker": "Unknown",
+  "en": "Like there are some that will result in failures substantially quicker, quicker than others.",
+  "zh": "有些支柱会导致失败的速度比其他的快得多、快得多。"
+ },
+ {
+  "seg": 266,
+  "start": 1344.642,
+  "end": 1351.325,
+  "speaker": "Unknown",
+  "en": "And so Peggy, staying with you for a moment, so you in your triple debt paper, which",
+  "zh": "那么 Peggy，请再多留一会儿，你在你的三重债论文中，那篇"
+ },
+ {
+  "seg": 267,
+  "start": 1352.065,
+  "end": 1356.327,
+  "speaker": "Unknown",
+  "en": "For those in the audience who have not read Peggy's Triple Debt paper, please, please go and do it.",
+  "zh": "对于还没读过 Peggy 三重债论文的现场观众，请务必、务必去读一读。"
+ },
+ {
+  "seg": 268,
+  "start": 1356.367,
+  "end": 1362.229,
+  "speaker": "Unknown",
+  "en": "It is, I think, sort of foundational to so much of the way I think about AI these days.",
+  "zh": "我认为，它可以说是我这段时间思考 AI 的许多方式的基础。"
+ },
+ {
+  "seg": 269,
+  "start": 1362.729,
+  "end": 1372.272,
+  "speaker": "Unknown",
+  "en": "You described intent debt as the erosion of rationale, goals, and constraints a system needs to evolve safely.",
+  "zh": "你把意图债描述为一个系统安全演进所需的理由、目标和约束的侵蚀。"
+ },
+ {
+  "seg": 270,
+  "start": 1373.413,
+  "end": 1376.914,
+  "speaker": "Unknown",
+  "en": "An organization can carry these invisibly for years.",
+  "zh": "一个组织可以在不知不觉中背负这些债务多年。"
+ },
+ {
+  "seg": 271,
+  "start": 1377.915,
+  "end": 1383.317,
+  "speaker": "Unknown",
+  "en": "Does delegating work to agents make that debt more visible?",
+  "zh": "把工作委托给智能体会让这种债务更显性吗？"
+ },
+ {
+  "seg": 272,
+  "start": 1383.397,
+  "end": 1384.958,
+  "speaker": "Unknown",
+  "en": "Does it make it more costly?",
+  "zh": "会让它代价更高吗？"
+ },
+ {
+  "seg": 273,
+  "start": 1385.158,
+  "end": 1386.159,
+  "speaker": "Unknown",
+  "en": "Perhaps both?",
+  "zh": "还是两者皆有？"
+ },
+ {
+  "seg": 274,
+  "start": 1386.219,
+  "end": 1387.099,
+  "speaker": "Unknown",
+  "en": "How do you think about that?",
+  "zh": "你怎么看这个问题？"
+ },
+ {
+  "seg": 275,
+  "start": 1388.08,
+  "end": 1388.46,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 276,
+  "start": 1388.66,
+  "end": 1394.782,
+  "speaker": "Unknown",
+  "en": "I mean, maybe I'll just say one quick word about what triple debt is because some folks may not know what that means.",
+  "zh": "我是说，也许我先简单说一句什么是三重债，因为有些人可能不知道那是什么意思。"
+ },
+ {
+  "seg": 277,
+  "start": 1394.802,
+  "end": 1399.905,
+  "speaker": "Unknown",
+  "en": "So triple debt was this paper that I wrote quite some months ago about system health.",
+  "zh": "三重债是我几个月前写的一篇关于系统健康的论文。"
+ },
+ {
+  "seg": 278,
+  "start": 1400.385,
+  "end": 1404.687,
+  "speaker": "Unknown",
+  "en": "So it ties together technical debt, cognitive debt, and intent debt.",
+  "zh": "它把技术债、认知债和意图债联系在一起。"
+ },
+ {
+  "seg": 279,
+  "start": 1405.347,
+  "end": 1408.271,
+  "speaker": "Unknown",
+  "en": "And technical debt is the thing that we all already know about.",
+  "zh": "技术债是我们都已经知道的东西。"
+ },
+ {
+  "seg": 280,
+  "start": 1408.291,
+  "end": 1410.655,
+  "speaker": "Unknown",
+  "en": "I don't need to say much about that.",
+  "zh": "这个我不需要多说了。"
+ },
+ {
+  "seg": 281,
+  "start": 1410.955,
+  "end": 1419.867,
+  "speaker": "Unknown",
+  "en": "There was a lot of discussion in the industry about AI is making technical debt worse while other people were saying maybe it makes it better, improves it.",
+  "zh": "行业里有很多讨论，有人说 AI 正在让技术债变得更糟，也有人说也许它能让技术债变好、得到改善。"
+ },
+ {
+  "seg": 282,
+  "start": 1420.107,
+  "end": 1422.711,
+  "speaker": "Unknown",
+  "en": "But cognitive debt referred to what we have in our minds.",
+  "zh": "而认知债指的是我们头脑中的东西。"
+ },
+ {
+  "seg": 283,
+  "start": 1423.011,
+  "end": 1428.757,
+  "speaker": "Unknown",
+  "en": "So Max kind of touched on this a little bit, you know, expecting, you know, the agents to read our minds.",
+  "zh": "Max 刚才稍微提到了这一点，你知道，期望智能体读我们的心思。"
+ },
+ {
+  "seg": 284,
+  "start": 1428.857,
+  "end": 1440.009,
+  "speaker": "Unknown",
+  "en": "But if we don't actually know what it is that we're trying to build and we don't have a good decision across our team, a shared understanding of what it is we're trying to do, we can build cognitive debt over time.",
+  "zh": "但如果我们其实不知道自己想要构建什么，而且团队内部没有就我们要做什么达成良好的共识、共同的理解，我们就会随着时间积累认知债。"
+ },
+ {
+  "seg": 285,
+  "start": 1440.81,
+  "end": 1451.278,
+  "speaker": "Unknown",
+  "en": "And intent debt is when we don't explicitly document the things that we need the agents or the models to take into consideration or other people on our team.",
+  "zh": "而意图债是当我们没有明确记录那些需要智能体或模型、或者团队其他成员去考虑的事情。"
+ },
+ {
+  "seg": 286,
+  "start": 1451.698,
+  "end": 1459.964,
+  "speaker": "Unknown",
+  "en": "So that's things like the constraints, the things that we want to achieve, as well as the decisions we make about what we are not going to do.",
+  "zh": "那包括约束、我们想要达成的目标，以及我们做出的关于不打算做什么的决定。"
+ },
+ {
+  "seg": 287,
+  "start": 1460.624,
+  "end": 1470.473,
+  "speaker": "Unknown",
+  "en": "So thinking about intent debt and how agents in particular, or thinking about if we have good context, how that can make it both better and worse.",
+  "zh": "所以，思考意图债，尤其是智能体，或者思考如果我们有好的上下文，它如何能既让情况变好又变坏。"
+ },
+ {
+  "seg": 288,
+  "start": 1470.854,
+  "end": 1472.535,
+  "speaker": "Unknown",
+  "en": "I think the answer is both.",
+  "zh": "我认为答案是两者皆有。"
+ },
+ {
+  "seg": 289,
+  "start": 1472.936,
+  "end": 1483.565,
+  "speaker": "Unknown",
+  "en": "On the one hand, if you have really good context and everything seems to be working really well, you may over time become complacent and not write things down explicitly.",
+  "zh": "一方面，如果你的上下文非常好，一切都运行得很顺利，你可能随着时间变得自满，不再明确地把东西写下来。"
+ },
+ {
+  "seg": 290,
+  "start": 1483.826,
+  "end": 1485.467,
+  "speaker": "Unknown",
+  "en": "And on the other hand, it can be better.",
+  "zh": "另一方面，它也可能变得更好。"
+ },
+ {
+  "seg": 291,
+  "start": 1486.568,
+  "end": 1496.317,
+  "speaker": "Unknown",
+  "en": "You could imagine you have an agent that is asking you questions about, yes, you want to implement this feature, but what are the underlying requirements behind that?",
+  "zh": "你可以想象一个智能体会问你问题：是的，你想实现这个功能，但背后的需求是什么？"
+ },
+ {
+  "seg": 292,
+  "start": 1496.878,
+  "end": 1498.76,
+  "speaker": "Unknown",
+  "en": "What are the disagreements about this?",
+  "zh": "关于这个有哪些分歧？"
+ },
+ {
+  "seg": 293,
+  "start": 1498.88,
+  "end": 1502.724,
+  "speaker": "Unknown",
+  "en": "What are the things that you haven't told me that I might need to know?",
+  "zh": "有哪些你没有告诉我、但我可能需要知道的事情？"
+ },
+ {
+  "seg": 294,
+  "start": 1503.204,
+  "end": 1505.666,
+  "speaker": "Unknown",
+  "en": "What are the parts of this task that I should do first?",
+  "zh": "这个任务的哪些部分我应该先做？"
+ },
+ {
+  "seg": 295,
+  "start": 1506.126,
+  "end": 1513.692,
+  "speaker": "Unknown",
+  "en": "So I think that having, you know, having better context, having quieter or higher quality context can help.",
+  "zh": "所以我认为，拥有更好的上下文、拥有质量更高或更安静的上下文会有帮助。"
+ },
+ {
+  "seg": 296,
+  "start": 1514.092,
+  "end": 1518.115,
+  "speaker": "Unknown",
+  "en": "But on the other hand, I think of the triple deaths as being consequences, right?",
+  "zh": "但另一方面，我把三重债看作是后果，对吧？"
+ },
+ {
+  "seg": 297,
+  "start": 1518.195,
+  "end": 1521.878,
+  "speaker": "Unknown",
+  "en": "So the dimensions of cafes are kind of the properties of the context.",
+  "zh": "所以 CAFE 维度算是上下文的属性。"
+ },
+ {
+  "seg": 298,
+  "start": 1522.358,
+  "end": 1531.205,
+  "speaker": "Unknown",
+  "en": "But if we don't have those properties kind of well designed, then we might lead to these consequences of cognitive debt, technical debt and intent debt.",
+  "zh": "但如果我们没有把这些属性设计好，就可能导致认知债、技术债和意图债这些后果。"
+ },
+ {
+  "seg": 299,
+  "start": 1531.985,
+  "end": 1533.867,
+  "speaker": "Unknown",
+  "en": "Aaroni, question for you.",
+  "zh": "Aaroni，有个问题要问你。"
+ },
+ {
+  "seg": 300,
+  "start": 1533.887,
+  "end": 1544.236,
+  "speaker": "Unknown",
+  "en": "When an agent doesn't have enough context or certainly not enough high-quality context, humans often have to compensate for that.",
+  "zh": "当智能体没有足够的上下文，或者肯定没有足够高质量的上下文时，人类往往不得不为此补偿。"
+ },
+ {
+  "seg": 301,
+  "start": 1544.256,
+  "end": 1546.118,
+  "speaker": "Unknown",
+  "en": "We have to clarify.",
+  "zh": "我们必须澄清。"
+ },
+ {
+  "seg": 302,
+  "start": 1546.198,
+  "end": 1547.139,
+  "speaker": "Unknown",
+  "en": "We have to redirect.",
+  "zh": "我们必须重定向。"
+ },
+ {
+  "seg": 303,
+  "start": 1547.159,
+  "end": 1548.22,
+  "speaker": "Unknown",
+  "en": "We have to add information.",
+  "zh": "我们必须补充信息。"
+ },
+ {
+  "seg": 304,
+  "start": 1548.24,
+  "end": 1552.724,
+  "speaker": "Unknown",
+  "en": "Sometimes we just abandon the task entirely because we're like, oh, the models can't do this.",
+  "zh": "有时我们干脆完全放弃任务，因为我们觉得，哦，模型做不到这个。"
+ },
+ {
+  "seg": 305,
+  "start": 1554.405,
+  "end": 1556.487,
+  "speaker": "Unknown",
+  "en": "What can those behaviors",
+  "zh": "这些行为能"
+ },
+ {
+  "seg": 306,
+  "start": 1557.647,
+  "end": 1565.789,
+  "speaker": "Unknown",
+  "en": "From humans, as part of the human-agent interaction, what can those human behaviors tell us about the quality of the context we're providing?",
+  "zh": "来自人类，作为人机交互的一部分，这些人类行为能告诉我们所提供的上下文质量如何？"
+ },
+ {
+  "seg": 307,
+  "start": 1566.429,
+  "end": 1575.751,
+  "speaker": "Unknown",
+  "en": "I think they probably tell us almost everything because I think that if you look at each of these reactions that you mentioned, right, like when do we do it?",
+  "zh": "我认为它们几乎能告诉我们一切，因为我觉得如果你看你提到的每一种反应，对吧，比如我们什么时候会这么做？"
+ },
+ {
+  "seg": 308,
+  "start": 1576.591,
+  "end": 1577.532,
+  "speaker": "Unknown",
+  "en": "When do we clarify?",
+  "zh": "当请求有歧义时我们才澄清。"
+ },
+ {
+  "seg": 309,
+  "start": 1577.552,
+  "end": 1581.072,
+  "speaker": "Unknown",
+  "en": "We clarify when like a request is ambiguous.",
+  "zh": "我们会澄清,比如当一个请求有歧义的时候。"
+ },
+ {
+  "seg": 310,
+  "start": 1581.092,
+  "end": 1582.973,
+  "speaker": "Unknown",
+  "en": "It could be read more than one way.",
+  "zh": "它可能被解读成不止一种意思。"
+ },
+ {
+  "seg": 311,
+  "start": 1584.775,
+  "end": 1591.303,
+  "speaker": "Unknown",
+  "en": "We add information when the agent has very little to go on or has nothing to go on, right?",
+  "zh": "当智能体几乎没有任何依据，或者完全没有依据时，我们才补充信息，对吧？"
+ },
+ {
+  "seg": 312,
+  "start": 1591.343,
+  "end": 1593.646,
+  "speaker": "Unknown",
+  "en": "Like Peggy mentioned, no goals, constraints.",
+  "zh": "就像 Peggy 提到的，没有目标、约束条件。"
+ },
+ {
+  "seg": 313,
+  "start": 1594.127,
+  "end": 1597.651,
+  "speaker": "Unknown",
+  "en": "You mentioned earlier what done looks like.",
+  "zh": "你之前提到了“完成”是什么样的。"
+ },
+ {
+  "seg": 314,
+  "start": 1597.871,
+  "end": 1599.433,
+  "speaker": "Unknown",
+  "en": "We tend to redirect when...",
+  "zh": "我们倾向于重定向，当……"
+ },
+ {
+  "seg": 315,
+  "start": 1600.935,
+  "end": 1606.961,
+  "speaker": "Unknown",
+  "en": "You know, the agent is using something, is acting on something that used to be true, but it no longer is.",
+  "zh": "你知道，智能体在使用某个东西，在基于某个曾经为真、但已经不再为真的东西行事时。"
+ },
+ {
+  "seg": 316,
+  "start": 1607.622,
+  "end": 1610.625,
+  "speaker": "Unknown",
+  "en": "And you mentioned sometimes we abandoned the task.",
+  "zh": "而你提到有时我们会放弃任务。"
+ },
+ {
+  "seg": 317,
+  "start": 1610.665,
+  "end": 1611.826,
+  "speaker": "Unknown",
+  "en": "And I think that that's...",
+  "zh": "我认为那是……"
+ },
+ {
+  "seg": 318,
+  "start": 1613.837,
+  "end": 1619.34,
+  "speaker": "Unknown",
+  "en": "That's like the person deciding that the context cannot be fixed in the moment, right?",
+  "zh": "那就像是一个人在判定上下文无法在当下修复，对吧？"
+ },
+ {
+  "seg": 319,
+  "start": 1619.48,
+  "end": 1633.908,
+  "speaker": "Unknown",
+  "en": "And so this compensation behavior that you're describing, I think is, it means the context is being reviewed live by the only person that knows what was like the actual intent.",
+  "zh": "所以你描述的这种补偿行为，我认为，它意味着上下文正在被唯一一个知道真实意图是什么的人实时审查。"
+ },
+ {
+  "seg": 320,
+  "start": 1634.128,
+  "end": 1635.709,
+  "speaker": "Unknown",
+  "en": "And right now that is...",
+  "zh": "而现在这种……"
+ },
+ {
+  "seg": 321,
+  "start": 1636.541,
+  "end": 1640.522,
+  "speaker": "Unknown",
+  "en": "Like review of that is kind of invisible, right?",
+  "zh": "对它的审查基本上是看不见的，对吧？"
+ },
+ {
+  "seg": 322,
+  "start": 1640.602,
+  "end": 1644.443,
+  "speaker": "Unknown",
+  "en": "We don't know which one of these failures it is.",
+  "zh": "我们不知道是这几种失败中的哪一种。"
+ },
+ {
+  "seg": 323,
+  "start": 1644.803,
+  "end": 1646.743,
+  "speaker": "Unknown",
+  "en": "Nobody records that, right?",
+  "zh": "没有人记录这个，对吧？"
+ },
+ {
+  "seg": 324,
+  "start": 1646.823,
+  "end": 1652.565,
+  "speaker": "Unknown",
+  "en": "It just shows up as the agent didn't do the thing that I was thinking it was going to do, where it was slower than I expected.",
+  "zh": "它只是表现为智能体没有做我原本以为它要做的事，或者它比我预期的要慢。"
+ },
+ {
+  "seg": 325,
+  "start": 1652.965,
+  "end": 1658.306,
+  "speaker": "Unknown",
+  "en": "If we could see it, like which part broke basically, right?",
+  "zh": "如果我们能看到它，比如到底是哪一部分坏了，对吧？"
+ },
+ {
+  "seg": 326,
+  "start": 1658.346,
+  "end": 1664.708,
+  "speaker": "Unknown",
+  "en": "Which compensation reaction we were using and where it came from, you would know what's the property that is failing.",
+  "zh": "我们当时用的是哪种补偿反应，它来自哪里，你就能知道是哪个属性在失效。"
+ },
+ {
+  "seg": 327,
+  "start": 1667.008,
+  "end": 1670.271,
+  "speaker": "Unknown",
+  "en": "Cool and really helpful if we could instrument it somehow.",
+  "zh": "挺酷的，如果能以某种方式对它进行插桩，会非常有用。"
+ },
+ {
+  "seg": 328,
+  "start": 1670.831,
+  "end": 1674.394,
+  "speaker": "Unknown",
+  "en": "It's like a light indicator of the quality of context.",
+  "zh": "它就像是上下文质量的一个指示灯。"
+ },
+ {
+  "seg": 329,
+  "start": 1674.434,
+  "end": 1680.838,
+  "speaker": "Unknown",
+  "en": "And I saw we had a question in chat, and I'll tease a little bit how I'm thinking about measurement systems towards the end today.",
+  "zh": "我看到聊天区有个问题，今天稍后我会稍微预告一下我对测量系统的思考。"
+ },
+ {
+  "seg": 330,
+  "start": 1681.299,
+  "end": 1683.701,
+  "speaker": "Unknown",
+  "en": "But it's like, this is also a measurement system.",
+  "zh": "但这其实也是一种测量系统。"
+ },
+ {
+  "seg": 331,
+  "start": 1683.761,
+  "end": 1685.442,
+  "speaker": "Unknown",
+  "en": "It's like, what were the human behaviors?",
+  "zh": "就是说，人类的行为是什么样的？"
+ },
+ {
+  "seg": 332,
+  "start": 1686.022,
+  "end": 1690.463,
+  "speaker": "Unknown",
+  "en": "A bit lagging and you hope to not like catch it at that point, but like, absolutely.",
+  "zh": "有点滞后，而且你希望不用在那个时候才发现它，但确实如此，绝对。"
+ },
+ {
+  "seg": 333,
+  "start": 1690.683,
+  "end": 1697.264,
+  "speaker": "Unknown",
+  "en": "Arini, staying with you, a previous paper that you and I worked on together was the AI Native Developer.",
+  "zh": "Arini，继续问你，你我之前合作过的一篇论文是《AI 原生开发者》。"
+ },
+ {
+  "seg": 334,
+  "start": 1697.424,
+  "end": 1707.506,
+  "speaker": "Unknown",
+  "en": "And in it, you described sort of four phases of AI fluency and sort of described how people could mature through those phases.",
+  "zh": "在其中，你描述了 AI 熟练度的四个阶段，并描述了人们如何在这些阶段中逐步成熟。"
+ },
+ {
+  "seg": 335,
+  "start": 1707.986,
+  "end": 1710.447,
+  "speaker": "Unknown",
+  "en": "And I'm curious, do you think",
+  "zh": "我很好奇，你觉得"
+ },
+ {
+  "seg": 336,
+  "start": 1711.692,
+  "end": 1724.256,
+  "speaker": "Unknown",
+  "en": "As we get better at providing high quality context or at least better at recognizing and recovering from context failures, is that part of that maturity journey to become more AI fluent?",
+  "zh": "随着我们更善于提供高质量上下文，或者至少更善于识别并从上下文失败中恢复，这是变得 AI 更熟练这一成熟旅程的一部分吗？"
+ },
+ {
+  "seg": 337,
+  "start": 1724.296,
+  "end": 1726.237,
+  "speaker": "Unknown",
+  "en": "Is it a prerequisite to begin with?",
+  "zh": "还是说它是一个先决条件？"
+ },
+ {
+  "seg": 338,
+  "start": 1726.457,
+  "end": 1727.297,
+  "speaker": "Unknown",
+  "en": "How do you think about that?",
+  "zh": "你怎么看这个？"
+ },
+ {
+  "seg": 339,
+  "start": 1727.517,
+  "end": 1728.318,
+  "speaker": "Unknown",
+  "en": "Can I say both?",
+  "zh": "我能说“两者都是”吗？"
+ },
+ {
+  "seg": 340,
+  "start": 1728.878,
+  "end": 1729.538,
+  "speaker": "Unknown",
+  "en": "Of course.",
+  "zh": "当然。"
+ },
+ {
+  "seg": 341,
+  "start": 1730.059,
+  "end": 1742.446,
+  "speaker": "Unknown",
+  "en": "I think that both providing good context and being able to recognize and recover when the context is bad is both things that happened through the stages and they probably happen in that order too.",
+  "zh": "我认为，提供好的上下文以及在上下文不好时能够识别并恢复，这两件事都是在各阶段中发生的，而且它们很可能也是按那个顺序发生的。"
+ },
+ {
+  "seg": 342,
+  "start": 1743.805,
+  "end": 1748.688,
+  "speaker": "Unknown",
+  "en": "I think nobody starts by knowing how to write good context.",
+  "zh": "我认为没有人一开始就知道怎么写好上下文。"
+ },
+ {
+  "seg": 343,
+  "start": 1748.888,
+  "end": 1750.829,
+  "speaker": "Unknown",
+  "en": "That was true in the interviews that we did as well.",
+  "zh": "我们做的那些访谈也是如此。"
+ },
+ {
+  "seg": 344,
+  "start": 1751.129,
+  "end": 1754.371,
+  "speaker": "Unknown",
+  "en": "People start by getting burned and they learn from that.",
+  "zh": "人们从被坑开始，然后从中学习。"
+ },
+ {
+  "seg": 345,
+  "start": 1754.451,
+  "end": 1758.934,
+  "speaker": "Unknown",
+  "en": "The agent does something that is, you know, sounds kind of confident, but also is wrong.",
+  "zh": "智能体做了某件事，它听起来挺自信，但同时也是错的。"
+ },
+ {
+  "seg": 346,
+  "start": 1759.674,
+  "end": 1763.436,
+  "speaker": "Unknown",
+  "en": "And we started working backwards from what we realized it didn't know.",
+  "zh": "然后我们开始从我们意识到它不知道的东西往回推导。"
+ },
+ {
+  "seg": 347,
+  "start": 1764.377,
+  "end": 1767.959,
+  "speaker": "Unknown",
+  "en": "That is definitely like the recovery behavior.",
+  "zh": "这绝对是那种恢复行为。"
+ },
+ {
+  "seg": 348,
+  "start": 1768.499,
+  "end": 1770.74,
+  "speaker": "Unknown",
+  "en": "That's where the learning seems to happen.",
+  "zh": "学习似乎就是发生在这里。"
+ },
+ {
+  "seg": 349,
+  "start": 1771.201,
+  "end": 1772.401,
+  "speaker": "Unknown",
+  "en": "And so the",
+  "zh": "所以"
+ },
+ {
+  "seg": 350,
+  "start": 1774.183,
+  "end": 1780.407,
+  "speaker": "Unknown",
+  "en": "The people that were in the further stages of AI fluency, they have now built a habit to do things the other way, right?",
+  "zh": "那些处于 AI 素养更高阶段的人，现在已经养成了以另一种方式做事的习惯，对吧？"
+ },
+ {
+  "seg": 351,
+  "start": 1780.428,
+  "end": 1788.434,
+  "speaker": "Unknown",
+  "en": "They would front load the things that they have by being burned by those in the past, they've realized the agent absolutely needs to know.",
+  "zh": "他们会把拥有前置，因为他们曾被过去那些东西灼伤过，他们意识到智能体绝对需要知道。"
+ },
+ {
+  "seg": 352,
+  "start": 1788.834,
+  "end": 1795.239,
+  "speaker": "Unknown",
+  "en": "And that meant goals and what is off limits and signaling when something is done, like what's the success criteria.",
+  "zh": "这意味着目标和什么是禁区，以及在事情完成时发出信号，比如成功标准是什么。"
+ },
+ {
+  "seg": 353,
+  "start": 1795.439,
+  "end": 1798.041,
+  "speaker": "Unknown",
+  "en": "All that to say, I think providing good context.",
+  "zh": "说了这么多，我认为提供好的上下文。"
+ },
+ {
+  "seg": 354,
+  "start": 1798.982,
+  "end": 1802.145,
+  "speaker": "Unknown",
+  "en": "It's kind of what recovery looks like when you've done it enough times.",
+  "zh": "有点像你做得足够多次之后，恢复的样子。"
+ },
+ {
+  "seg": 355,
+  "start": 1803.165,
+  "end": 1812.293,
+  "speaker": "Unknown",
+  "en": "And so in the stages, I would say it's the stages are about how the behavior changes relative to the work.",
+  "zh": "所以在各个阶段，我想说这些阶段是关于行为相对于工作如何变化的。"
+ },
+ {
+  "seg": 356,
+  "start": 1812.453,
+  "end": 1818.158,
+  "speaker": "Unknown",
+  "en": "And a lot of that change is what you hand to the agent and how you structure that.",
+  "zh": "而这种变化很大程度上在于你交给智能体什么，以及你如何组织它。"
+ },
+ {
+  "seg": 357,
+  "start": 1818.358,
+  "end": 1823.962,
+  "speaker": "Unknown",
+  "en": "So I think like thinking well about context is part of what the stages are.",
+  "zh": "所以我认为，认真思考上下文是这些阶段的一部分。"
+ },
+ {
+  "seg": 358,
+  "start": 1824.202,
+  "end": 1826.965,
+  "speaker": "Unknown",
+  "en": "And of course you exhibit that as you go through the stages.",
+  "zh": "当然，当你经历这些阶段时，你会展现出这一点。"
+ },
+ {
+  "seg": 359,
+  "start": 1827.525,
+  "end": 1838.035,
+  "speaker": "Unknown",
+  "en": "That sort of makes me think that, you know, today, part of how we evaluate a great engineer is how good are they at writing code?",
+  "zh": "这让我想到，你知道，今天，我们评价一个优秀工程师的部分标准是他们写代码写得多好？"
+ },
+ {
+  "seg": 360,
+  "start": 1838.336,
+  "end": 1842.139,
+  "speaker": "Unknown",
+  "en": "And like, you know, things change, particularly as you get much more senior, but it's like...",
+  "zh": "而且，你知道，情况会变，尤其是当你变得资深得多的时候，但就像……"
+ },
+ {
+  "seg": 361,
+  "start": 1843.128,
+  "end": 1846.613,
+  "speaker": "Unknown",
+  "en": "How we write code and the quality of the code we write is part of how we're evaluated.",
+  "zh": "我们如何写代码以及我们写的代码的质量，是我们被评价的一部分。"
+ },
+ {
+  "seg": 362,
+  "start": 1847.113,
+  "end": 1860.832,
+  "speaker": "Unknown",
+  "en": "I'm curious for anyone, if anyone has a thought, in the future, will more of the evaluation criteria for what makes a good builder or maker or software engineer or whatever we call roles in the future be the quality of the context that we are creating?",
+  "zh": "我很好奇是否有人对此有想法：在未来，构成一个优秀的建造者、创造者、软件工程师或我们未来怎么称呼这些角色的评价标准中，是否会有更多部分取决于我们创建的上下文的质量？"
+ },
+ {
+  "seg": 363,
+  "start": 1861.322,
+  "end": 1874.068,
+  "speaker": "Unknown",
+  "en": "When you are a senior engineer in an organization, a lot of the nature of your job has been, like, I describe in English clearly what I need, and then the quality of the clarity of my description determines the quality of the result that occurs.",
+  "zh": "当你是一个组织里的资深工程师时，你工作的很大一部分性质是，比如，我用英语清楚地描述我需要什么，然后我的描述的清晰程度决定了产生的结果的质量。"
+ },
+ {
+  "seg": 364,
+  "start": 1874.688,
+  "end": 1878.21,
+  "speaker": "Unknown",
+  "en": "So I think that we will continue, like, I think that actually already was a thing.",
+  "zh": "所以我认为我们会继续，其实这已经是一件存在的事了。"
+ },
+ {
+  "seg": 365,
+  "start": 1879.45,
+  "end": 1889.938,
+  "speaker": "Unknown",
+  "en": "And it's not a thing that most, I think, developers experience unless you, like, have become sort of like a staff engineer, basically, or hire at a company, especially at a larger company.",
+  "zh": "而且我认为这不是大多数开发者经历过的事情，除非你基本上已经成为了某种 staff engineer，或者在一家公司任职，尤其是在一家较大的公司。"
+ },
+ {
+  "seg": 366,
+  "start": 1890.518,
+  "end": 1895.042,
+  "speaker": "Unknown",
+  "en": "But once you do, you see that, like, that experience has already been very real.",
+  "zh": "但一旦你做到了，你就会看到，那种体验已经非常真实了。"
+ },
+ {
+  "seg": 367,
+  "start": 1895.222,
+  "end": 1899.945,
+  "speaker": "Unknown",
+  "en": "And you already also see, like, the consequences of failure and how expensive they can be.",
+  "zh": "而你也已经能看到失败的后果，以及它们可能多么昂贵。"
+ },
+ {
+  "seg": 368,
+  "start": 1900.205,
+  "end": 1906.31,
+  "speaker": "Unknown",
+  "en": "And you see that I think that that discipline will spread more and more through everybody who works and creates software.",
+  "zh": "而我看到，我认为这种纪律会越来越广泛地传播到每一个工作并创造软件的人。"
+ },
+ {
+  "seg": 369,
+  "start": 1906.902,
+  "end": 1915.905,
+  "speaker": "Unknown",
+  "en": "And I think companies like CodeScene, right, is leaning heavily into how to evaluate and improve quality of the code.",
+  "zh": "我认为像 CodeScene 这样的公司，对吧，正在大力投入如何评估和提升代码的质量。"
+ },
+ {
+  "seg": 370,
+  "start": 1916.185,
+  "end": 1925.148,
+  "speaker": "Unknown",
+  "en": "And this could also be an important part of your context or maybe, you know, a constitution where you put in, here are my expectations, right, for the quality of the code.",
+  "zh": "而这也可能是你上下文中的一个重要部分，或者也许，你知道，一部「宪法」，你在里面写上：这是我对代码质量的期望，对吧。"
+ },
+ {
+  "seg": 371,
+  "start": 1925.348,
+  "end": 1931.21,
+  "speaker": "Unknown",
+  "en": "And that could also be a direction, I think, that you could improve your context, right, to lead towards that quality.",
+  "zh": "而这也可以是一个方向，我认为，你可以借此改进你的上下文，对吧，来引导通往那种质量。"
+ },
+ {
+  "seg": 372,
+  "start": 1931.23,
+  "end": 1932.21,
+  "speaker": "Unknown",
+  "en": "Arini.",
+  "zh": "Arini。"
+ },
+ {
+  "seg": 373,
+  "start": 1932.73,
+  "end": 1952.778,
+  "speaker": "Unknown",
+  "en": "You know, I earlier said that sort of a property of context only earns its own pillar, its own dimension if it isn't derivable from the others, can be acted on independently, and names a failure mode, a real-world failure mode that the others miss.",
+  "zh": "你知道，我之前说过，上下文的某个属性只有在不 能从其他维度推导出来、可以被独立地采取行动、并且命名了一种其他维度遗漏的真实世界的失败模式的情况下，才配拥有自己的支柱、自己的维度。"
+ },
+ {
+  "seg": 374,
+  "start": 1954.799,
+  "end": 1961.026,
+  "speaker": "Unknown",
+  "en": "I'm curious, like, which of our five dimensions is weakest under that test?",
+  "zh": "我很好奇，比如，在那种检验下，我们五个维度中哪一个最弱？"
+ },
+ {
+  "seg": 375,
+  "start": 1961.066,
+  "end": 1964.931,
+  "speaker": "Unknown",
+  "en": "You sort of already hinted at it when talking about what your favorite dimensions were.",
+  "zh": "你在谈到你最喜欢的维度是什么的时候，其实已经有所暗示了。"
+ },
+ {
+  "seg": 376,
+  "start": 1965.372,
+  "end": 1971.939,
+  "speaker": "Unknown",
+  "en": "But also, can you remember, like, any dimensions that we thought about that then failed that test and so didn't make it back in?",
+  "zh": "但另外，你还记得吗，比如，有哪些我们考虑过、但后来没通过那种检验、所以没有最终纳入的维度？"
+ },
+ {
+  "seg": 377,
+  "start": 1973.139,
+  "end": 1983.787,
+  "speaker": "Unknown",
+  "en": "Yes, to my earlier point, right, the clarity, actionability, I think that that's, you know, they, we distinguish them based on how they fail and what would fix that failure.",
+  "zh": "是的，回到我之前的观点，对吧，清晰度、可操作性，我认为那就是，你知道，我们根据它们如何失败以及什么能修复那种失败来区分它们。"
+ },
+ {
+  "seg": 378,
+  "start": 1984.608,
+  "end": 1989.352,
+  "speaker": "Unknown",
+  "en": "In terms of what we left out, we left out accessibility and we did that on purpose.",
+  "zh": "至于我们遗漏了什么，我们遗漏了可及性，我们是故意这么做的。"
+ },
+ {
+  "seg": 379,
+  "start": 1989.392,
+  "end": 1997.978,
+  "speaker": "Unknown",
+  "en": "And I think we described that in the paper too, whether the agent can reach the information at all, that is something that comes before any of the five dimensions.",
+  "zh": "而且我想我们也在论文里描述了这一点，即智能体是否根本能够接触到那个信息，这是在五个维度中任何一个之前的东西。"
+ },
+ {
+  "seg": 380,
+  "start": 1998.178,
+  "end": 1999.92,
+  "speaker": "Unknown",
+  "en": "And so it does sit outside.",
+  "zh": "所以它确实位于外面。"
+ },
+ {
+  "seg": 381,
+  "start": 2000.52,
+  "end": 2000.981,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 382,
+  "start": 2001.101,
+  "end": 2003.444,
+  "speaker": "Unknown",
+  "en": "So it does sit outside the framework.",
+  "zh": "所以它确实位于这个框架之外。"
+ },
+ {
+  "seg": 383,
+  "start": 2003.764,
+  "end": 2010.472,
+  "speaker": "Unknown",
+  "en": "I think that there were a few other candidates that, right, like we talked about how current the context is, where it came from.",
+  "zh": "我认为还有其他一些候选维度，对吧，比如我们谈过上下文有多新、它从哪里来。"
+ },
+ {
+  "seg": 384,
+  "start": 2010.492,
+  "end": 2012.755,
+  "speaker": "Unknown",
+  "en": "I think we folded that into fidelity.",
+  "zh": "我认为我们把它折叠进了保真度。"
+ },
+ {
+  "seg": 385,
+  "start": 2012.935,
+  "end": 2015.338,
+  "speaker": "Unknown",
+  "en": "But yeah, the accessibility one was a big one.",
+  "zh": "但是的，可及性那一个是很大的一个。"
+ },
+ {
+  "seg": 386,
+  "start": 2016.359,
+  "end": 2022.381,
+  "speaker": "Unknown",
+  "en": "And so sort of last question, Max, I'll kick this off to you.",
+  "zh": "那么最后一个问题，Max，我先抛给你。"
+ },
+ {
+  "seg": 387,
+  "start": 2022.401,
+  "end": 2026.923,
+  "speaker": "Unknown",
+  "en": "And then by all means, Irene and Peggy, if you have additional thoughts, please ladder them in.",
+  "zh": "当然，Irene 和 Peggy，如果你们有额外的想法，请随时接续补充。"
+ },
+ {
+  "seg": 388,
+  "start": 2027.604,
+  "end": 2036.067,
+  "speaker": "Unknown",
+  "en": "So in the paper, we argue for a context review discipline, sort of like we have a code review discipline today.",
+  "zh": "在论文中，我们主张一种上下文审查纪律，有点像我们今天有代码审查纪律。"
+ },
+ {
+  "seg": 389,
+  "start": 2036.567,
+  "end": 2041.372,
+  "speaker": "Unknown",
+  "en": "With effort proportional to how often a piece of context gets reused.",
+  "zh": "所花的 effort 与一段上下文被复用的频率成正比。"
+ },
+ {
+  "seg": 390,
+  "start": 2041.432,
+  "end": 2050.901,
+  "speaker": "Unknown",
+  "en": "So obviously, if you have context that you're feeding into your agents every time, like a shared skills file, an AgentMD file, your effort on reviewing that will be much higher.",
+  "zh": "显然，如果你有每次都喂给你的智能体的上下文，比如一个共享的 skills 文件、一个 AgentMD 文件，你对审查它所花的 effort 会高得多。"
+ },
+ {
+  "seg": 391,
+  "start": 2051.721,
+  "end": 2052.922,
+  "speaker": "Unknown",
+  "en": "And code review...",
+  "zh": "而代码审查……"
+ },
+ {
+  "seg": 392,
+  "start": 2053.703,
+  "end": 2057.544,
+  "speaker": "Unknown",
+  "en": "has taken the industry sort of decades to normalize if we ever have.",
+  "zh": "花了整个行业几十年来使之常态化，如果我们曾经做到的话。"
+ },
+ {
+  "seg": 393,
+  "start": 2057.884,
+  "end": 2064.406,
+  "speaker": "Unknown",
+  "en": "Documentation work is often one of the first things that developers cut when they feel time pressure.",
+  "zh": "文档工作往往是开发者在感到时间压力时最先砍掉的东西之一。"
+ },
+ {
+  "seg": 394,
+  "start": 2064.466,
+  "end": 2065.887,
+  "speaker": "Unknown",
+  "en": "Everyone likes to have documentation.",
+  "zh": "每个人都喜欢有文档。"
+ },
+ {
+  "seg": 395,
+  "start": 2065.907,
+  "end": 2066.947,
+  "speaker": "Unknown",
+  "en": "No one likes to write it.",
+  "zh": "没有人喜欢写文档。"
+ },
+ {
+  "seg": 396,
+  "start": 2067.387,
+  "end": 2074.109,
+  "speaker": "Unknown",
+  "en": "My question to you is, as a real-world practitioner on the panel, is context review actually realistic?",
+  "zh": "我的问题是，作为 panel 上的一个真实世界从业者，上下文审查真的现实吗？"
+ },
+ {
+  "seg": 397,
+  "start": 2075.105,
+  "end": 2076.206,
+  "speaker": "Unknown",
+  "en": "That's a great question.",
+  "zh": "这是个好问题。"
+ },
+ {
+  "seg": 398,
+  "start": 2076.606,
+  "end": 2079.588,
+  "speaker": "Unknown",
+  "en": "So the goal that you should have is to have great context.",
+  "zh": "所以你应该有的目标是拥有很棒的上下文。"
+ },
+ {
+  "seg": 399,
+  "start": 2079.888,
+  "end": 2083.671,
+  "speaker": "Unknown",
+  "en": "Regardless of how you get there, that's what you're trying to accomplish.",
+  "zh": "不管你如何达到那里，那就是你想要实现的目标。"
+ },
+ {
+  "seg": 400,
+  "start": 2084.031,
+  "end": 2091.036,
+  "speaker": "Unknown",
+  "en": "And there are times when putting a human review gate in front of that process actually causes you to have lower quality context.",
+  "zh": "而有时候，在这个流程前面加一道人工审核关卡，反而会导致你的上下文质量更低。"
+ },
+ {
+  "seg": 401,
+  "start": 2091.256,
+  "end": 2103.945,
+  "speaker": "Unknown",
+  "en": "We saw this for years with documentation, where if you allow people to do very easy low review or no review documentation updates, you get a lot higher quality documentation because people all over the company, they'll just show up and they'll fix your documentation.",
+  "zh": "我们在文档上看到这种情况很多年了，如果你允许人们做非常容易的低审核或零审核的文档更新，你会得到质量高得多的文档，因为公司上下的人都会冒出来帮你修文档。"
+ },
+ {
+  "seg": 402,
+  "start": 2104.585,
+  "end": 2116.394,
+  "speaker": "Unknown",
+  "en": "On the other hand, there's also always been this same problem of there's a few types of documents or a few things that are so critical and so important and hard to get right and require expertise that somebody has to control what goes in there.",
+  "zh": "另一方面，也一直存在同样的问题，就是有少数几类文档或少数几样东西是如此关键、如此重要、如此难以做对、需要专业知识，以至于必须有人控制什么能放进去。"
+ },
+ {
+  "seg": 403,
+  "start": 2117.634,
+  "end": 2125.737,
+  "speaker": "Unknown",
+  "en": "And it has to be the person who has the expertise or the skill required in order to control the quality of that thing.",
+  "zh": "而且必须是由拥有相应专业知识或技能的人来控制那件东西的质量。"
+ },
+ {
+  "seg": 404,
+  "start": 2126.257,
+  "end": 2143.083,
+  "speaker": "Unknown",
+  "en": "And so basically your goal is to do whatever gets you that quality, but sometimes there are things that are so critical and in particular usually can only be correctly done by a small group of people or even sometimes a single individual.",
+  "zh": "所以基本上你的目标是做任何能带来质量的事，但有时候有些东西是如此关键，尤其是通常只能由一小群人、甚至有时是单独一个人才能正确完成。"
+ },
+ {
+  "seg": 405,
+  "start": 2144.203,
+  "end": 2155.951,
+  "speaker": "Unknown",
+  "en": "Because they are the person who has like all of the business knowledge in order to make sure that that thing is saying the right thing, that you really would benefit from having a fixed and specific review process that is controlled and enforced on those things.",
+  "zh": "因为他们就是拥有全部业务知识、能确保那件东西说的是正确内容的人，这种情况下你真的会受益于一个固定且具体的审核流程，对这些东西加以控制和强制执行。"
+ },
+ {
+  "seg": 406,
+  "start": 2156.251,
+  "end": 2165.097,
+  "speaker": "Unknown",
+  "en": "So thinking about code review, I mean, code review was done, you know, to check the quality of the code, also to make sure that it could be maintainable and easy to change in the future.",
+  "zh": "所以想想代码审查，我是说，做代码审查是为了检查代码的质量，也是为了确保它在未来可维护、易于修改。"
+ },
+ {
+  "seg": 407,
+  "start": 2165.597,
+  "end": 2170.26,
+  "speaker": "Unknown",
+  "en": "But when we asked developers, like, what was one of the main benefits that they got from doing code review?",
+  "zh": "但当我们问开发者，做代码审查带给他们的主要好处之一是什么？"
+ },
+ {
+  "seg": 408,
+  "start": 2170.28,
+  "end": 2171.341,
+  "speaker": "Unknown",
+  "en": "It was shared understanding.",
+  "zh": "是共享的理解。"
+ },
+ {
+  "seg": 409,
+  "start": 2171.821,
+  "end": 2173.142,
+  "speaker": "Unknown",
+  "en": "Right, about what the code is doing.",
+  "zh": "对，关于代码在做什么的共享理解。"
+ },
+ {
+  "seg": 410,
+  "start": 2173.162,
+  "end": 2184.269,
+  "speaker": "Unknown",
+  "en": "And I think that if we have a context review, say in a retrospective, that one of the things that we'll get from it is this shared understanding and this collective evaluation.",
+  "zh": "而且我认为，如果我们有一个上下文审查，比如说在复盘会里，我们从中得到的东西之一就是这种共享的理解和集体的评估。"
+ },
+ {
+  "seg": 411,
+  "start": 2184.589,
+  "end": 2186.27,
+  "speaker": "Unknown",
+  "en": "Is this enough context?",
+  "zh": "这个上下文够吗？"
+ },
+ {
+  "seg": 412,
+  "start": 2186.37,
+  "end": 2187.631,
+  "speaker": "Unknown",
+  "en": "Is this the right context?",
+  "zh": "这是对的吗上下文？"
+ },
+ {
+  "seg": 413,
+  "start": 2187.811,
+  "end": 2190.152,
+  "speaker": "Unknown",
+  "en": "But also kind of shared across people.",
+  "zh": "而且也是在人与人之间共享的。"
+ },
+ {
+  "seg": 414,
+  "start": 2190.232,
+  "end": 2192.734,
+  "speaker": "Unknown",
+  "en": "They know what it is that we're trying to do.",
+  "zh": "他们知道我们要做的是什么。"
+ },
+ {
+  "seg": 415,
+  "start": 2192.834,
+  "end": 2194.535,
+  "speaker": "Unknown",
+  "en": "So I just wanted to mention that as well.",
+  "zh": "所以我只是想把这个也提一下。"
+ },
+ {
+  "seg": 416,
+  "start": 2195.215,
+  "end": 2207.745,
+  "speaker": "Unknown",
+  "en": "And I will say like in the paper, we go into much more depth on like what are sort of real world recommendations for validating and improving the quality of your context.",
+  "zh": "我还要说，在论文里，我们对如何验证和提升你上下文质量的现实世界建议做了深入得多的探讨。"
+ },
+ {
+  "seg": 417,
+  "start": 2207.765,
+  "end": 2219.514,
+  "speaker": "Unknown",
+  "en": "Because I think, you know, we talked about code review and code quality, like so much about the quality of our resulting software has historically been dictated by the quality of the code that makes it up.",
+  "zh": "因为我觉得，你知道，我们谈了代码审查和代码质量，历来我们最终软件的质量在很大程度上是由构成它的代码质量决定的。"
+ },
+ {
+  "seg": 418,
+  "start": 2220.194,
+  "end": 2222.496,
+  "speaker": "Unknown",
+  "en": "Low-quality code can have compounding failures.",
+  "zh": "低质量的代码会产生复合性的失败。"
+ },
+ {
+  "seg": 419,
+  "start": 2222.536,
+  "end": 2234.187,
+  "speaker": "Unknown",
+  "en": "And we think that the same will be true with context, where so much of the end result will be dictated by the quality of the context that we hand to our agents, particularly as they work more autonomously.",
+  "zh": "而且我们认为上下文也会是同样的情况，最终结果在很大程度上将由我们交给智能体的上下文质量决定，尤其是当它们更自主地工作时。"
+ },
+ {
+  "seg": 420,
+  "start": 2234.548,
+  "end": 2236.47,
+  "speaker": "Unknown",
+  "en": "And it's going to create this flywheel effect where...",
+  "zh": "而且这会创造出一种飞轮效应……"
+ },
+ {
+  "seg": 421,
+  "start": 2237.03,
+  "end": 2242.096,
+  "speaker": "Unknown",
+  "en": "High quality context results in good outcomes, which becomes tomorrow's high quality context.",
+  "zh": "高质量的上下文带来好的结果，而好的结果成为明天的高质量上下文。"
+ },
+ {
+  "seg": 422,
+  "start": 2242.436,
+  "end": 2250.325,
+  "speaker": "Unknown",
+  "en": "And on the flip side, crappy context will result in bad outcomes that will feed future bad agent interactions.",
+  "zh": "反过来，糟糕的上下文会带来糟糕的结果，而这些糟糕的结果会喂给未来糟糕的智能体交互。"
+ },
+ {
+  "seg": 423,
+  "start": 2250.625,
+  "end": 2255.371,
+  "speaker": "Unknown",
+  "en": "And so there is this compounding value to improving your context now.",
+  "zh": "所以现在就改进你的上下文是有这种复合价值的。"
+ },
+ {
+  "seg": 424,
+  "start": 2255.849,
+  "end": 2258.691,
+  "speaker": "Unknown",
+  "en": "I was going to make the same point about leverage, right?",
+  "zh": "我本来也想就杠杆讲同样的观点，对吧？"
+ },
+ {
+  "seg": 425,
+  "start": 2258.751,
+  "end": 2261.152,
+  "speaker": "Unknown",
+  "en": "Like, because you asked the question, is this realistic?",
+  "zh": "因为，你问的这个问题是，这现实吗？"
+ },
+ {
+  "seg": 426,
+  "start": 2261.313,
+  "end": 2266.736,
+  "speaker": "Unknown",
+  "en": "And I think keeping in mind that it's realistic if it's proportionate is what makes sense here.",
+  "zh": "而我认为要记住，只要成比例它就是现实的，这才是这里说得通的。"
+ },
+ {
+  "seg": 427,
+  "start": 2266.756,
+  "end": 2276.662,
+  "speaker": "Unknown",
+  "en": "Like the discipline that we're talking about is there's a small set of things that every agent on the team reads, whether it's instructions or architecture docs and so on.",
+  "zh": "就是我们说的这种纪律，团队里每个智能体都会读的东西只有一小部分，无论是说明文档还是架构文档等等。"
+ },
+ {
+  "seg": 428,
+  "start": 2277.203,
+  "end": 2278.624,
+  "speaker": "Unknown",
+  "en": "And that's where the leverage is.",
+  "zh": "而杠杆就在那里。"
+ },
+ {
+  "seg": 429,
+  "start": 2279.124,
+  "end": 2283.606,
+  "speaker": "Unknown",
+  "en": "If you get that right, then every agent becomes more capable with each right.",
+  "zh": "如果你把那部分做对了，那么每改对一次，每个智能体都变得更能干。"
+ },
+ {
+  "seg": 430,
+  "start": 2283.626,
+  "end": 2287.287,
+  "speaker": "Unknown",
+  "en": "If you get that wrong, then the same mistake runs in every session.",
+  "zh": "如果你把那部分做错了，那么同样的错误会跑在每一个会话里。"
+ },
+ {
+  "seg": 431,
+  "start": 2287.587,
+  "end": 2296.931,
+  "speaker": "Unknown",
+  "en": "So I think the effort is supposed to travel where the impact is, which is something that we also applied to code today.",
+  "zh": "所以我认为，精力应该流向影响所在之处，这也是我们今天对代码同样适用的。"
+ },
+ {
+  "seg": 432,
+  "start": 2297.351,
+  "end": 2304.574,
+  "speaker": "Unknown",
+  "en": "You don't give the same review and attention to a throwaway script versus something that is a shared library.",
+  "zh": "对于一个一次性脚本和一个共享库，你不会给予同样的审查和关注。"
+ },
+ {
+  "seg": 433,
+  "start": 2304.794,
+  "end": 2311.063,
+  "speaker": "Unknown",
+  "en": "So I do think that keeping that proportionality and the where's the leverage, I think makes sense as a criteria.",
+  "zh": "所以我确实认为，保持这种比例感和追问杠杆在哪里，我认为作为一条准则是说得通的。"
+ },
+ {
+  "seg": 434,
+  "start": 2312.287,
+  "end": 2315.53,
+  "speaker": "Unknown",
+  "en": "And with that, we are just about at time.",
+  "zh": "说到这里，我们的时间差不多到了。"
+ },
+ {
+  "seg": 435,
+  "start": 2315.61,
+  "end": 2320.074,
+  "speaker": "Unknown",
+  "en": "I would like to thank all of my panelists and co-authors for joining me today.",
+  "zh": "我要感谢今天所有参加的嘉宾和共同作者。"
+ },
+ {
+  "seg": 436,
+  "start": 2320.294,
+  "end": 2321.596,
+  "speaker": "Unknown",
+  "en": "Please go and read the paper.",
+  "zh": "请大家去读这篇论文。"
+ },
+ {
+  "seg": 437,
+  "start": 2321.636,
+  "end": 2323.557,
+  "speaker": "Unknown",
+  "en": "Let us know what you think.",
+  "zh": "让我们知道你们的想法。"
+ },
+ {
+  "seg": 438,
+  "start": 2323.778,
+  "end": 2327.481,
+  "speaker": "Unknown",
+  "en": "We'd like to know, like, does it actually match your real-world lived experiences?",
+  "zh": "我们想知道，比如，它是否真的符合你们现实世界中的亲身经历？"
+ },
+ {
+  "seg": 439,
+  "start": 2327.521,
+  "end": 2330.223,
+  "speaker": "Unknown",
+  "en": "Like, do you find it relevant for what you're thinking about right now?",
+  "zh": "比如，你们觉得它与你们现在正在思考的事情相关吗？"
+ },
+ {
+  "seg": 440,
+  "start": 2330.644,
+  "end": 2334.327,
+  "speaker": "Unknown",
+  "en": "If you have any questions, feel free to forward them to",
+  "zh": "如果你有什么问题，欢迎把它们发到"
+ },
+ {
+  "seg": 441,
+  "start": 2335.428,
+  "end": 2341.174,
+  "speaker": "Unknown",
+  "en": "Brian, B-R-I-A-N, at team-gitdx.com.",
+  "zh": "Brian,B-R-I-A-N,at team-gitdx.com。"
+ },
+ {
+  "seg": 442,
+  "start": 2341.975,
+  "end": 2347.16,
+  "speaker": "Unknown",
+  "en": "And like I said, we'll try to encapsulate all of these questions and answer them in a dedicated newsletter.",
+  "zh": "就像我说的，我们会试着把这些所有问题汇总起来，在一期专门的通讯里回答。"
+ },
+ {
+  "seg": 443,
+  "start": 2347.46,
+  "end": 2349.322,
+  "speaker": "Unknown",
+  "en": "And so thank you all so very, very much.",
+  "zh": "所以非常非常感谢大家。"
+ }
+]

@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Carl Svera]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]]
+[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"子智能体":7,"主智能体":1,"脚手架":1,"pull request":7,"上下文":34,"确定性语言":1,"Rust":8,"开源":43,"GPU":35}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"子智能体":7,"主智能体":1,"脚手架":1,"pull request":7,"上下文":35,"确定性语言":1,"Rust":8,"开源":43,"GPU":35}</script>
 
 <script>
 (function(){

@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Roose]] [[Greg Brockman]] [[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]]
+[[Guillermo Rauch]] [[Kevin Roose]] [[Greg Brockman]] [[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gregor Vand":2,"Wiz":2,"Google":72,"智能体":1,"harness":67,"SAST":2,"上下文":34,"零日时钟":1,"CI-CD 流水线":1,"可复现性":1}</script>
+<script type="application/json" class="pd-epn">{"Gregor Vand":2,"Wiz":2,"Google":72,"智能体":1,"harness":67,"SAST":2,"上下文":35,"零日时钟":1,"CI-CD 流水线":1,"可复现性":1}</script>
 
 <script>
 (function(){

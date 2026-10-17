@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Iskander Malikov]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]]
+[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":6,"Stripe":52,"Stripe Minions":1,"智能体":1,"智能体商务":1,"稳定币":6,"微交易":2,"Tempo":1,"link agent wallet":1,"主观能动性":1}</script>
+<script type="application/json" class="pd-epn">{"David George":6,"Stripe":53,"Stripe Minions":1,"智能体":1,"智能体商务":1,"稳定币":6,"微交易":2,"Tempo":1,"link agent wallet":1,"主观能动性":1}</script>
 
 <script>
 (function(){

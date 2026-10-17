@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]]
+[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":10,"Guy for Germany":1,"Datadog":9,"智能体":1,"评估":1,"上下文":34,"Cursor":87,"开源权重模型":3,"代码审查":26,"上下文腐烂":4}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":10,"Guy for Germany":1,"Datadog":9,"智能体":1,"评估":1,"上下文":35,"Cursor":87,"开源权重模型":3,"代码审查":27,"上下文腐烂":4}</script>
 
 <script>
 (function(){

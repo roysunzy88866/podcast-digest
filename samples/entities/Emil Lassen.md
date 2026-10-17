@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Roose]] [[Greg Brockman]] [[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]]
+[[Guillermo Rauch]] [[Kevin Roose]] [[Greg Brockman]] [[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":12,"the artificial intelligence underwriting company":1,"AI UC one":1,"智能体":1,"红队测试":9,"幻觉":14,"越狱":2,"提示词注入":1,"标准—审计—保险飞轮":1,"运行时安全":1}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":12,"the artificial intelligence underwriting company":1,"AI UC one":1,"智能体":1,"红队测试":9,"幻觉":15,"越狱":2,"提示词注入":1,"标准—审计—保险飞轮":1,"运行时安全":1}</script>
 
 <script>
 (function(){

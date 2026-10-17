@@ -190,11 +190,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Iskander Malikov]] [[Terry Angelos]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]]
+[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jev":8,"TypeSafe":5,"RLHF":8,"OpenAI":207,"RLCD":3,"分类器":1,"RLVR":4,"ChatGPT":115,"System 1 模型":2,"可靠性":4}</script>
+<script type="application/json" class="pd-epn">{"Jev":8,"TypeSafe":5,"RLHF":8,"OpenAI":208,"RLCD":3,"分类器":1,"RLVR":4,"ChatGPT":115,"System 1 模型":2,"可靠性":4}</script>
 
 <script>
 (function(){

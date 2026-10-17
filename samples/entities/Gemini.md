@@ -71,7 +71,7 @@ unlisted: true
 
 [[智能体]] · [[Google]] · [[ChatGPT]] · [[OpenAI]] · [[Anthropic]] · [[Claude Code]] · [[评估]] · [[TPU]] · [[Cursor]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Google":72,"ChatGPT":115,"OpenAI":207,"Anthropic":206,"Claude Code":116,"评估":1,"TPU":5,"Cursor":87,"Lenny":69}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Google":72,"ChatGPT":115,"OpenAI":208,"Anthropic":206,"Claude Code":116,"评估":1,"TPU":5,"Cursor":87,"Lenny":69}</script>
 
 <script>
 (function(){

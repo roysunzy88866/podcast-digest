@@ -33,7 +33,7 @@ unlisted: true
 
 [[Eric Sager]] · [[Alex Rampell]] · [[Plaid]] · [[Max Levchin]] · [[Square]] · [[Affirm]] · [[OpenAI]] · [[PayPal]] · [[Perplexity]] · [[TrialPay]]
 
-<script type="application/json" class="pd-epn">{"Eric Sager":1,"Alex Rampell":4,"Plaid":3,"Max Levchin":1,"Square":5,"Affirm":2,"OpenAI":207,"PayPal":9,"Perplexity":10,"TrialPay":1}</script>
+<script type="application/json" class="pd-epn">{"Eric Sager":1,"Alex Rampell":4,"Plaid":3,"Max Levchin":1,"Square":5,"Affirm":2,"OpenAI":208,"PayPal":9,"Perplexity":10,"TrialPay":1}</script>
 
 <script>
 (function(){

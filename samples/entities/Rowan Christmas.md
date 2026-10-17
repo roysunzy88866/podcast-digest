@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Roose]] [[Greg Brockman]] [[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]]
+[[Guillermo Rauch]] [[Kevin Roose]] [[Greg Brockman]] [[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Docker":8,"SBX":2,"Claude Code":116,"Claude":99,"沙箱":103,"智能体":1,"MicroVM":2,"提示词注入":1,"提示词":3,"MCP 服务器":3}</script>
+<script type="application/json" class="pd-epn">{"Docker":8,"SBX":2,"Claude Code":116,"Claude":99,"沙箱":104,"智能体":1,"MicroVM":2,"提示词注入":1,"提示词":3,"MCP 服务器":3}</script>
 
 <script>
 (function(){

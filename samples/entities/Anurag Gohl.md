@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Iskander Malikov]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]]
+[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sean Falconer":2,"Render":2,"Stripe":52,"AWS":24,"Kubernetes":20,"智能体":1,"MCP":98,"持久化执行":6,"Temporal":6,"Heroku":2}</script>
+<script type="application/json" class="pd-epn">{"Sean Falconer":2,"Render":2,"Stripe":53,"AWS":24,"Kubernetes":20,"智能体":1,"MCP":99,"持久化执行":6,"Temporal":6,"Heroku":2}</script>
 
 <script>
 (function(){

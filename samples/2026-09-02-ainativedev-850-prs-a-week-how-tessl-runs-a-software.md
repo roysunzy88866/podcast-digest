@@ -149,7 +149,7 @@ Guy 最后强调立场：每家公司应该**拥有**自己的工厂，甚至会
 
 - [[2026-06-30-ainativedev-the-tessl-agent-build-your-software-fact|TESL 智能体：让你的编码智能体自己越用越好]]<span class="pd-rz">同嘉宾:Guy Fajani · 同公司:TESL · 同概念:代码审查 (code review)、验证器 (verifiers)</span>
 - [[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|Datadog 4000 人AI赋能实战：删掉上下文反而更好]]<span class="pd-rz">同概念:上下文 (context)、代码审查 (code review)、技能 (skills)</span>
-- [[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE]]<span class="pd-rz">同概念:上下文 (context)、可观测性 (observability)</span>
+- [[2026-10-16-engenable-the-cafes-framework-improving-ai-agent-e|AI 干不好活，问题往往不在模型，而在你给它的“上下文”]]<span class="pd-rz">同公司:GitHub · 同概念:上下文 (context)、代码审查 (code review)</span>
 
 </div>
 <div class="pd-ex">

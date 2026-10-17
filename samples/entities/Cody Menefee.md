@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Iskander Malikov]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]]
+[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Firecrawl":1,"OpenPasture":1,"Holter":1,"NoFence":1,"Pasture Bird":1,"LLM":66,"上下文":34,"轮牧":1,"vibe coder":2,"知识库":3}</script>
+<script type="application/json" class="pd-epn">{"Firecrawl":1,"OpenPasture":1,"Holter":1,"NoFence":1,"Pasture Bird":1,"LLM":66,"上下文":35,"轮牧":1,"vibe coder":2,"知识库":3}</script>
 
 <script>
 (function(){

@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Iskander Malikov]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]]
+[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"WSO2":1,"首席 AI 官":1,"智能体":1,"MCP 服务器":3,"AI 网关":2,"智能体身份":2,"幻觉":14,"开源":43,"Databricks":26}</script>
+<script type="application/json" class="pd-epn">{"WSO2":1,"首席 AI 官":1,"智能体":1,"MCP 服务器":3,"AI 网关":2,"智能体身份":2,"幻觉":15,"开源":43,"Databricks":26}</script>
 
 <script>
 (function(){

@@ -90,11 +90,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Iskander Malikov]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]]
+[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"聚合理论":2,"Meta":56,"Microsoft":34,"Patrick O'Shaughnessy":3,"Steve Jobs":1,"OpenAI":207,"Mark Zuckerberg":1,"Anthropic":206,"智能体":1,"Google":72}</script>
+<script type="application/json" class="pd-epn">{"聚合理论":2,"Meta":56,"Microsoft":34,"Patrick O'Shaughnessy":3,"Steve Jobs":1,"OpenAI":208,"Mark Zuckerberg":1,"Anthropic":206,"智能体":1,"Google":72}</script>
 
 <script>
 (function(){

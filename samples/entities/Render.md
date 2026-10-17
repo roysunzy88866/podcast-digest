@@ -36,7 +36,7 @@ aliases: ["renders"]
 
 [[智能体]] · [[MCP]] · [[Codex]] · [[Claude]] · [[Yash]] · [[Anurag Gohl]] · [[Builder Pack]] · [[Sean Falconer]] · [[All Access]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"MCP":98,"Codex":91,"Claude":99,"Yash":2,"Anurag Gohl":1,"Builder Pack":1,"Sean Falconer":2,"All Access":1,"Stripe":52}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"MCP":99,"Codex":91,"Claude":99,"Yash":2,"Anurag Gohl":1,"Builder Pack":1,"Sean Falconer":2,"All Access":1,"Stripe":53}</script>
 
 <script>
 (function(){

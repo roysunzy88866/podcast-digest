@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Iskander Malikov]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]]
+[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":206,"智能体":1,"harness":67,"沙箱":103,"智能体循环":6,"上下文工程":19,"会话日志追踪":2,"泄露的凭证":5,"可观测性":49}</script>
+<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":206,"智能体":1,"harness":67,"沙箱":104,"智能体循环":6,"上下文工程":19,"会话日志追踪":2,"泄露的凭证":5,"可观测性":49}</script>
 
 <script>
 (function(){

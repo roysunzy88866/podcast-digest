@@ -186,9 +186,9 @@ Tessl 想做的是让这条路变得渐进、可持续：提供带治理和版�
 
 **换个口味**
 
+- [[2026-10-16-sourcery-vercel-ceo-guillermo-rauch-on-building-t|当机器人开始给机器人写代码：Vercel CEO 谈智能体时代的互联网]]<span class="pd-rz">同概念:沙箱 (sandbox)、编码智能体 (coding agents)</span>
 - [[2026-02-19-lennys-head-of-claude-code-what-happens|Claude Code 负责人：写代码已被解决，下一步是什么]]<span class="pd-rz">同概念:沙箱 (sandbox)</span>
 - [[2026-05-21-latent-space-daytona|Daytona:为智能体造一台像笔记本一样的计算机]]<span class="pd-rz">同概念:沙箱 (sandbox)</span>
-- [[2026-06-16-devtools-swyx-aie|AI Engineer 大会背后的社区逻辑与创业生存法则]]<span class="pd-rz">同概念:沙箱 (sandbox)</span>
 
 </div>
 </div>

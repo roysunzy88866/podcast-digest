@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Iskander Malikov]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]]
+[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Cloudflare":18,"Salesforce":36,"Cloudflare OS":1,"技能文件":4,"智能体":1,"多智能体工作流":2,"go-to-market":14,"MCP":98,"可观测性":49,"LLM":66}</script>
+<script type="application/json" class="pd-epn">{"Cloudflare":18,"Salesforce":36,"Cloudflare OS":1,"技能文件":4,"智能体":1,"多智能体工作流":2,"go-to-market":14,"MCP":99,"可观测性":49,"LLM":66}</script>
 
 <script>
 (function(){

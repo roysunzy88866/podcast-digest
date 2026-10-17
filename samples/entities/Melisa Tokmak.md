@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Iskander Malikov]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]]
+[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NETIC":1,"智能体":1,"基础服务":1,"私募股权":2,"自主企业":1,"AI 整合公司":1,"主观能动性":1,"OpenAI":207,"Anthropic":206,"Scale.ai":3}</script>
+<script type="application/json" class="pd-epn">{"NETIC":1,"智能体":1,"基础服务":1,"私募股权":2,"自主企业":1,"AI 整合公司":1,"主观能动性":1,"OpenAI":208,"Anthropic":206,"Scale.ai":3}</script>
 
 <script>
 (function(){

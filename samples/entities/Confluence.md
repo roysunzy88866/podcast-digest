@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[MCP]] · [[Dennis Pilarinos]] · [[Mike Cannon-Brookes]] · [[Unblocked]] · [[Harry Stebbings]] · [[上下文]] · [[Atlassian]] · [[知识图谱]] · [[团队协作图谱]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"MCP":98,"Dennis Pilarinos":1,"Mike Cannon-Brookes":1,"Unblocked":4,"Harry Stebbings":21,"上下文":34,"Atlassian":6,"知识图谱":8,"团队协作图谱":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"MCP":99,"Dennis Pilarinos":1,"Mike Cannon-Brookes":1,"Unblocked":4,"Harry Stebbings":21,"上下文":35,"Atlassian":6,"知识图谱":8,"团队协作图谱":1}</script>
 
 <script>
 (function(){
