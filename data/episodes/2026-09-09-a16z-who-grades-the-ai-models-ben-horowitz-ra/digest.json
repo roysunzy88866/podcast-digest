@@ -1,0 +1,233 @@
+{
+  "title_zh": "谁来给 AI 模型打分？",
+  "tldr": "a16z 的 Ben Horowitz 与 VALS 创始人 Rayan Krishnan 聊 AI 评测：为什么公开榜单靠不住，独立评测如何成为一门生意。",
+  "digest_md": "AI 模型越来越强，但我们用来衡量它们的测试，几乎以同样的速度过时。更麻烦的是，模型的分数大多是自己说自己好——实验室自己出题、自己考、自己公布成绩。这期 The a16z Show 里，a16z 的 Ben Horowitz 和 Jennifer Lee 找来了 VALS 的创始人兼首席执行官 Rayan Krishnan，聊这家 2024 年成立的第三方评测公司，为什么觉得给 AI 打分能长成一个万亿级产业里的独立审计行业。\n\n## 为什么实验室不能自己给自己打分？\n\nRayan 的背景是做研究和构建评测。他很早就注意到一件事：让模型变强的最大驱动力之一，是先有一种清晰可读的方式去衡量它。2024 年初，市面上出现了越来越多 OpenAI 之外的模型，但没人说得清新模型到底新在哪里，于是他创办了 VALS，专门做高质量评测。\n\n实验室内部当然也做评测，而且做得不错——那正是模型进步的引擎。问题出在对外发布时。Rayan 举了个例子：Meta 发布 Llama 4 时，在 VALS 私有的、不公开的测试集上，模型表现其实不佳；但在题目和评分标准全部公开的主流榜单上，它看起来能力惊人 [03:38 Unknown]。**公开榜单一旦题目泄露，模型就可以被针对性地刷分**。\n\nBen 从行业角度补了一句：实验室其实也希望有一个理性的买家市场。投了几十亿美元做的模型，需要独立证据证明自己真的进步了，而不是全靠自卖自夸。\n\n## 榜单饱和了就退役，像律师重考执照\n\n不少做评测的同行会故意留着一个已经很饱和、容易拿高分的旧榜单，让客户挑最好看的樱桃。VALS 反其道而行：**榜单饱和了就直接废弃**。他们有个非官方口号，叫永远有更高的山峰——既然模型实验室在不停爬山，评测公司的任务就是不断造出下一座山让他们爬 [11:51 Unknown]。\n\n退役榜单还有一个理由：评测应该反映当前的世界。律师要重新考执照，医生要重新认证，模型也该被用最新的医学知识、最新的判例来考，而不是拿着旧世界的题目刷旧世界的分。\n\n## 给递归自我改进立一个统一标尺\n\nVALS 最近发布的一个榜单让研究圈很兴奋：递归自我改进指数（RSI），衡量模型能不能参与训练出自己的下一个版本。很多大实验室开始在模型卡片里报告这件事，但没有统一语言，各家数字没法对比 [10:17 Unknown]。\n\n理想做法是直接让一个前沿模型训练自己的下一代，看提升多少。但这太贵也太慢，所以 VALS 做的是一套代理指标：把造模型的过程拆成预训练、后训练、工程框架等环节，逐项看模型在哪些环节能做出真正的研究工作、哪些环节还不行。\n\n## 新模型发布前 6 小时，评测在抢时间\n\n模型发布前的几个小时是评测公司最紧张的时刻。VALS 的原则是**绝不拖发布会的后腿**，这意味着要在极短的窗口里、用有限的调用额度榨出最多的信号。早期是 Rayan 和联合创始人 Langston 熬通宵出结果；现在他们建了大规模分布式的基础设施，还开发了一个内部系统，取名「Steve，那个经济学意义上的 VALS 员工」，把越来越多的人工活交给它 [05:37 Unknown]。\n\n评测本身的形态也在变。早期像 ImageNet 那样，几百万张图片、一张对一个标签；现在反过来，任务很少——比如生成 50 个全栈网络应用——但评估输出的标准复杂得多 [14:17 Unknown]。而且现在测的是能连跑几天甚至几周的智能体，基础设施必须稳，单个请求失败要从断点重试，不能整条轨迹重来。\n\n## 企业买 AI 的钱，已经可能超过发工资\n\nRayan 讲了一个自己的亲身实验。VALS 团队拿到了一个月不限量的编程工具额度，事后复盘发现：工程师们每天烧掉 10 亿到 20 亿个 token，峰值是一位工程师一天用了 60 亿；换算下来那个月的 token 花费约值 150 万美元——虽然实际是免费的——是同期员工工资的 10 倍 [22:52 Unknown]。\n\n他还提到一家财富 10 强公司：给工程师每天 100 美元的 Claude Code 额度，下午 4 点额度重置，结果公司最高效的工作时段变成了下午 4 点到 6 点，中间的下午反倒成了大家散步喝咖啡的死时间 [16:38 Unknown]。后来额度涨到了每人 300 美元，但这个数字基本是拍脑袋定的。Rayan 的判断是：**token 支出可能开始超过工资支出**，当它成为成本表上如此显眼的一项，企业就必须认真算这笔投入的回报了。\n\n## ValSmith：拿你自己的代码库出题\n\n为此 VALS 发布了面向企业的产品 ValSmith。它聚焦在代码生成这个企业 AI 花钱最多的领域：任何公司可以把 GitHub 代码库接进来，自动生成一套内部编程基准，看哪个编程智能体在自己家的代码上表现最好、性价比最高 [19:43 Unknown]。\n\n结果是反直觉的。今天的可选项太多了：Anthropic 有 Opus 和 Sonnet，还有各种便宜的新模型，加上可以自己部署的开源模型。VALS 实测发现，Sonnet 有时比 Opus 还贵，因为它太能吃token 了 [21:12 Unknown]——凭感觉选模型，很可能多花钱。VALS 自己现在的做法是：所有工具都对员工开放，但系统会针对每个任务自动推荐从哪个工具开始。\n\n## 政府定规则，第三方来验证\n\n聊到政策，Ben 的分工观很清楚：政府知道自己在怕什么——生物黑客、网络攻击——但要回答两个问题：模型有没有这个能力？能不能诱导模型真的去做？**政府擅长定规则和执行规则，但特别不擅长亲自做后面的技术验证**，这活儿该交给有能力的第三方公司 [30:12 Unknown]。\n\nRayan 说 VALS 现在定期给美国行政和立法部门做简报，汇报模型的能力和风险。他们的角色是收集证据、呈现趋势，至于要不要因此限制模型发布，那是立法者的决定 [32:09 Unknown]。他反对评测公司同时向实验室卖训练数据——那是审计行业出安然事件的教训：又做审计又做咨询，激励一混，就变成花钱买及格。\n\n## AI 界的信任但要核实\n\n最后聊到地缘政治。Rayan 借用了里根谈核裁军的话：**信任但要核实**。核时代有飞越核查，让对方国家能审计自己的核武库；如果各国真担心 AI 的社会甚至生存风险，就需要一套关于评测的共同语言来完成核实这一半 [34:44 Unknown]。他认为最值得各国共同盯住的，是递归自我改进——某个国家或公司一旦在这方面跑飞，造出外界一无所知的模型，那才是真正的麻烦。\n\n## 本集带走\n\n- 公开榜单的题目和评分标准一旦泄露，就会被针对性刷分；Llama 4 在公开榜单和 VALS 私有测试集上的表现是两个世界。\n- 评测要跟着模型一起进化：榜单饱和就退役，像律师医生重新考执照一样用当前世界的知识考模型。\n- token 支出可能超过工资支出：VALS 一个月免费额度换算价值约 150 万美元，是员工工资的 10 倍；用什么模型、怎么用，正在变成一个必须算账的问题。\n- 榜单饱和的反面是拿自家数据出题：ValSmith 让企业用自己的代码库生成内部基准，实测发现便宜的模型有时反而更贵。\n- 政策上的合理分工是政府定规则并执法，有能力的第三方做技术验证——就像核时代的信任但要核实。",
+  "quotes": [
+    {
+      "en": "When Meta released Llama 4 on our held out private benchmarks, the model was actually underperforming, but on all of the major public benchmarks, it was showing incredible capabilities.",
+      "zh": "当 Meta 发布 Llama 4 时，在我们留出的私有基准测试上，这个模型实际上表现不佳，但在所有主要的公开基准测试上，它却展现出了令人惊叹的能力。",
+      "timestamp": "00:05",
+      "speaker": "Rayan Krishnan"
+    },
+    {
+      "en": "And actually one of the biggest drivers for model capability is having a new legible way to evaluate models.",
+      "zh": "而实际上，模型能力最大的驱动力之一，就是拥有一种新的清晰可读的方式来评估模型。",
+      "timestamp": "02:35",
+      "speaker": "Rayan Krishnan"
+    },
+    {
+      "en": "And every time a new trillion dollar industry emerges, there's a need for this independent testing group.",
+      "zh": "每当一个新兴的万亿美元产业出现时，就需要这样一个独立的测试机构。",
+      "timestamp": "04:28",
+      "speaker": "Rayan Krishnan"
+    },
+    {
+      "en": "And I think the real goal, Northstar, we think about is we never want to be kind of a lagging indicator or a delay to a model release.",
+      "zh": "我认为真正的目标、北极星，是我们从来不想成为模型发布的一个滞后指标或延迟因素。",
+      "timestamp": "05:06",
+      "speaker": "Rayan Krishnan"
+    },
+    {
+      "en": "I think, for instance, at VALS, one very early decision we made was the decision to never sell training data to labs.",
+      "zh": "比如，在 VALS，我们很早做的一个决定就是永远不向实验室出售训练数据。",
+      "timestamp": "08:46",
+      "speaker": "Rayan Krishnan"
+    },
+    {
+      "en": "And actually, a lot of that industry has now built these gimmick style benchmarks as a mechanism to sell their data.",
+      "zh": "而且实际上，那个行业里很多人现在已经构建了这些噱头式的基准测试，作为售卖他们数据的机制。",
+      "timestamp": "09:01",
+      "speaker": "Rayan Krishnan"
+    },
+    {
+      "en": "And then it just becomes pay to pass the audit, or in this case, pay to win the benchmark.",
+      "zh": "然后这就变成了花钱通过审计，或者在这个场景下，就是花钱赢得基准测试。",
+      "timestamp": "09:23",
+      "speaker": "Rayan Krishnan"
+    },
+    {
+      "en": "So insofar as foundation model labs are hill climbing, they're searching for the next peaks to summit, it is our job to perpetually construct these next mountains for them to summit.",
+      "zh": "所以，既然基础模型实验室在爬山登顶，他们在寻找下一个要攀登的峰顶，那么为他们持续不断建造下一个可供攀登的山峰就是我们的工作。",
+      "timestamp": "11:56",
+      "speaker": "Rayan Krishnan"
+    },
+    {
+      "en": "But what I think is still underappreciated is on the enterprise side, this is turning to be existential as well.",
+      "zh": "但我认为仍然被低估的是，在企业这一边，这也正在变成生死攸关的事。",
+      "timestamp": "16:18",
+      "speaker": "Rayan Krishnan"
+    },
+    {
+      "en": "And so I think what's really illustrative there is that you see that there is a misvaluing of intelligence happening at every layer of the stack.",
+      "zh": "所以我认为这里非常能说明问题的是，你会看到在技术栈的每一层都存在着对智能的错误定价。",
+      "timestamp": "16:57",
+      "speaker": "Rayan Krishnan"
+    },
+    {
+      "en": "And so as we talk about the existential concern for enterprises, I think it is this kind of direction we're shifting in where token spend may start to eclipse salary spend.",
+      "zh": "所以当我们谈到企业面临的生死攸关的问题时，我认为就是我们正在转变的这个方向——代币支出可能会开始超过工资支出。",
+      "timestamp": "17:44",
+      "speaker": "Rayan Krishnan"
+    },
+    {
+      "en": "We're actually seeing in a lot of cases, Sonnet is more expensive than Opus because it is so token hungry.",
+      "zh": "我们在很多情况下实际看到，Sonnet 比 Opus 更贵，因为它太吃 token 了。",
+      "timestamp": "21:12",
+      "speaker": "Rayan Krishnan"
+    },
+    {
+      "en": "I think coding is a sign for what's to come in every domain.",
+      "zh": "我认为编码是未来每个领域将会发生什么的预兆。",
+      "timestamp": "21:33",
+      "speaker": "Rayan Krishnan"
+    },
+    {
+      "en": "But it was actually 10x more we were spending in tokens than employee salary for that month.",
+      "zh": "但实际上我们那个月在 token 上的花费是员工工资的 10 倍。",
+      "timestamp": "23:04",
+      "speaker": "Rayan Krishnan"
+    },
+    {
+      "en": "And I think the government is particularly ill-suited to do the latter, particularly over time. It's just not a good government function. But they're very good at setting the rules because they can enforce the rules.",
+      "zh": "而我认为政府特别不适合做后者，尤其是随着时间推移。这不是一个好的政府职能。但他们非常擅长制定规则，因为他们可以执行规则。",
+      "timestamp": "30:07",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:05",
+      "speaker": "Ryan Krishnath",
+      "en": "When Meta released Llama 4 on our held out private benchmarks, the model was actually underperforming, but on all of the major public benchmarks, it was showing incredible capabilities.",
+      "zh": "当 Meta 发布 Llama 4 时，在我们留出的私有基准测试上，这个模型实际上表现不佳，但在所有主要的公开基准测试上，它却展现出了令人惊叹的能力。"
+    },
+    {
+      "timestamp": "02:35",
+      "speaker": "Ryan Krishnath",
+      "en": "And actually one of the biggest drivers for model capability is having a new legible way to evaluate models.",
+      "zh": "而实际上，模型能力最大的驱动力之一，就是拥有一种新的清晰可读的方式来评估模型。"
+    },
+    {
+      "timestamp": "03:27",
+      "speaker": "Ryan Krishnath",
+      "en": "But I think there's an issue when we speak about model capabilities in a way that's self-reported.",
+      "zh": "但我认为，当我们以自我报告的方式谈论模型能力时，是存在问题的。"
+    },
+    {
+      "timestamp": "04:28",
+      "speaker": "Ryan Krishnath",
+      "en": "And every time a new trillion dollar industry emerges, there's a need for this independent testing group.",
+      "zh": "每当一个新兴的万亿美元产业出现时，就需要这样一个独立的测试机构。"
+    },
+    {
+      "timestamp": "04:03",
+      "speaker": "Ryan Krishnath",
+      "en": "They would like to see that when they invest billions of dollars to build a new model, there are actually substantive ways they can point to evidence and say, we're advancing in these ways.",
+      "zh": "他们希望看到，当他们投入数十亿美元构建一个新模型时，实际上有实质性的方式可以指向证据并说，我们正在这些方面取得进展。"
+    },
+    {
+      "timestamp": "05:06",
+      "speaker": "Ryan Krishnath",
+      "en": "And I think the real goal, Northstar, we think about is we never want to be kind of a lagging indicator or a delay to a model release.",
+      "zh": "我认为真正的目标、北极星，是我们从来不想成为模型发布的一个滞后指标或延迟因素。"
+    },
+    {
+      "timestamp": "08:46",
+      "speaker": "Ryan Krishnath",
+      "en": "I think, for instance, at VALS, one very early decision we made was the decision to never sell training data to labs.",
+      "zh": "比如，在 VALS，我们很早做的一个决定就是永远不向实验室出售训练数据。"
+    },
+    {
+      "timestamp": "09:01",
+      "speaker": "Ryan Krishnath",
+      "en": "And actually, a lot of that industry has now built these gimmick style benchmarks as a mechanism to sell their data.",
+      "zh": "而且实际上，那个行业里很多人现在已经构建了这些噱头式的基准测试，作为售卖他们数据的机制。"
+    },
+    {
+      "timestamp": "09:23",
+      "speaker": "Ryan Krishnath",
+      "en": "And then it just becomes pay to pass the audit, or in this case, pay to win the benchmark.",
+      "zh": "然后这就变成了花钱通过审计，或者在这个场景下，就是花钱赢得基准测试。"
+    },
+    {
+      "timestamp": "11:56",
+      "speaker": "Ryan Krishnath",
+      "en": "So insofar as foundation model labs are hill climbing, they're searching for the next peaks to summit, it is our job to perpetually construct these next mountains for them to summit.",
+      "zh": "所以，既然基础模型实验室在爬山登顶，他们在寻找下一个要攀登的峰顶，那么为他们持续不断建造下一个可供攀登的山峰就是我们的工作。"
+    },
+    {
+      "timestamp": "12:26",
+      "speaker": "Ryan Krishnath",
+      "en": "There's another component of retiring benchmarks, which I think is underappreciated, which is that benchmarks should also be reflective of the current state of the world.",
+      "zh": "关于退役基准测试还有另一个被低估的方面，那就是基准测试也应该反映世界的当前状态。"
+    },
+    {
+      "timestamp": "14:17",
+      "speaker": "Ryan Krishnath",
+      "en": "But I think in general what we've seen is evaluations as they become more complex have a fewer sample size but a larger set of criteria or expectations of them.",
+      "zh": "但我认为总体上我们观察到的是，评估随着变得更复杂，样本量更少了，但评判标准或对它的期望却更多了。"
+    },
+    {
+      "timestamp": "15:41",
+      "speaker": "Ryan Krishnath",
+      "en": "And that's because really the hardest part of routing is building the evals and trying to determine in what places a set of intelligences should be used for a particular application.",
+      "zh": "这是因为路由最困难的部分其实是构建评估，试图确定在哪些场景下为一组特定应用应该使用哪一组智能。"
+    },
+    {
+      "timestamp": "16:18",
+      "speaker": "Ryan Krishnath",
+      "en": "But what I think is still underappreciated is on the enterprise side, this is turning to be existential as well.",
+      "zh": "但我认为仍然被低估的是，在企业这一边，这也正在变成生死攸关的事。"
+    },
+    {
+      "timestamp": "16:57",
+      "speaker": "Ryan Krishnath",
+      "en": "And so I think what's really illustrative there is that you see that there is a misvaluing of intelligence happening at every layer of the stack.",
+      "zh": "所以我认为这里非常能说明问题的是，你会看到在技术栈的每一层都存在着对智能的错误定价。"
+    },
+    {
+      "timestamp": "17:44",
+      "speaker": "Ryan Krishnath",
+      "en": "And so as we talk about the existential concern for enterprises, I think it is this kind of direction we're shifting in where token spend may start to eclipse salary spend.",
+      "zh": "所以当我们谈到企业面临的生死攸关的问题时，我认为就是我们正在转变的这个方向——代币支出可能会开始超过工资支出。"
+    },
+    {
+      "timestamp": "21:12",
+      "speaker": "Ryan Krishnath",
+      "en": "We're actually seeing in a lot of cases, Sonnet is more expensive than Opus because it is so token hungry.",
+      "zh": "我们在很多情况下实际看到，Sonnet 比 Opus 更贵，因为它太吃 token 了。"
+    },
+    {
+      "timestamp": "21:33",
+      "speaker": "Ryan Krishnath",
+      "en": "I think coding is a sign for what's to come in every domain.",
+      "zh": "我认为编码是未来每个领域将会发生什么的预兆。"
+    },
+    {
+      "timestamp": "23:04",
+      "speaker": "Ryan Krishnath",
+      "en": "But it was actually 10x more we were spending in tokens than employee salary for that month.",
+      "zh": "但实际上我们那个月在 token 上的花费是员工工资的 10 倍。"
+    },
+    {
+      "timestamp": "25:17",
+      "speaker": "Ryan Krishnath",
+      "en": "I think the main issue, though, is that policy conversations, as they've happened over the last couple of years, have been very abstract.",
+      "zh": "不过我认为主要问题在于，过去几年的政策讨论一直非常抽象。"
+    },
+    {
+      "timestamp": "30:07",
+      "speaker": "Ben Horowitz",
+      "en": "And I think the government is particularly ill-suited to do the latter, particularly over time. It's just not a good government function. But they're very good at setting the rules because they can enforce the rules.",
+      "zh": "而我认为政府特别不适合做后者，尤其是随着时间推移。这不是一个好的政府职能。但他们非常擅长制定规则，因为他们可以执行规则。"
+    },
+    {
+      "timestamp": "34:01",
+      "speaker": "Ryan Krishnath",
+      "en": "Yeah, I mean, to be honest, from my very idealistic perspective, I'm surprised to see so much investment in sovereign AI.",
+      "zh": "是的，说实话，从我非常理想主义的角度来看，我对主权 AI 上如此多的投资感到惊讶。"
+    }
+  ],
+  "voice_script": "今天要讲的这件事，听起来有点绕，但其实特别实在：AI 模型越来越强，可我们用来给它们打分的那些考试，正在以同样的速度过时。更麻烦的是，很多分数是模型厂商自己说自己好——自己出题、自己考试、自己公布成绩。这期 a16z 的节目里，a16z 的 Ben Horowitz 和 Jennifer Lee 请来了 VALS 的创始人兼首席执行官 Rayan Krishnan。VALS 是一家 2024 年才成立的第三方评测公司，专门给 AI 模型考试打分。Rayan 早年是做研究和构建评测的，他很早就注意到一件事：模型能力最大的驱动力之一，就是先有一种清晰可读的方式去衡量它。2024 年初，市面上出现了越来越多 OpenAI 之外的模型，但没人说得清新模型到底新在哪里，于是就有了 VALS。这一期聊的，就是为什么给 AI 打分能长成一门正经生意。\n\n先说为什么实验室不能自己给自己打分。你可能觉得，实验室内部也做评测啊，而且做得不错——没错，那正是模型进步的引擎，问题出在对外公布成绩的时候。Rayan 举了个特别直白的例子：Meta 发布 Llama 4 的时候，在 VALS 私有的、不公开的测试集上，这个模型表现其实不佳；可在那些题目和评分标准全部公开的主流榜单上，它却能力惊人。为什么差这么多？因为公开榜单一旦题目泄露，模型就可以被针对性地刷分——就像考试前拿到了考卷，成绩还能不作假吗。Ben 从行业角度补了一句：实验室其实也希望有一个理性的买家市场，投了几十亿美元做的模型，需要独立的证据证明自己真的进步了，而不是全靠自卖自夸。\n\n那评测公司该怎么做，才能避免榜单也被玩坏呢？VALS 有一个反着来的原则。不少同行会故意留着一个已经饱和、容易拿高分的旧榜单，让客户挑最好看的成绩来宣传。VALS 不这么干——榜单一旦饱和就直接废弃。他们有个非官方口号，叫永远有更高的山峰：实验室在不停爬山，评测公司的任务就是不断造出下一座山让他们爬。退役榜单还有一层理由，评测应该反映当前的世界。就像律师要重新考执照、医生要重新认证一样，模型也该用最新的医学知识、最新的判例来考，而不是拿着旧世界的题目刷旧世界的分。\n\n这套思路最近落成了一个让研究圈很兴奋的东西：递归自我改进指数，简称 RSI。它衡量的是模型能不能参与训练出自己的下一个版本。很多大实验室开始在模型卡片里报告这件事，但没有统一语言，各家数字没法对比。最理想的做法，是直接让一个前沿模型训练自己的下一代，看提升多少——但太贵太慢，所以 VALS 做了一套代理指标，把造模型的过程拆成预训练、后训练、工程框架这些环节，逐项看模型在哪些环节能做出真正的研究工作。\n\n听起来挺理想化的活儿，实际干起来是什么节奏呢？模型发布前的几个小时，是评测公司最紧张的时刻。VALS 的原则是绝不拖发布会的后腿，这意味着要在极短的窗口里，用有限的调用额度榨出最多的信号。早期是 Rayan 和联合创始人 Langston 熬通宵出结果，现在他们建了大规模分布式的基础设施，还开发了一个内部系统，取名就叫 Steve——一个经济学意义上的 VALS 员工，把越来越多的人工活交给它。而且评测本身的形态也在变：早期像 ImageNet 那样几百万张图片、一张对一个标签；现在反过来，任务很少，比如生成五十个全栈网络应用，但评估输出的标准复杂得多。测的还是能连跑几天甚至几周的智能体，基础设施必须稳，单个请求失败要从断点重试，不能整条轨迹重来。\n\n好，讲到这里你可能觉得，这都是模型厂商和评测公司之间的事。但 Rayan 讲了一个亲身实验，说明这笔账已经跟每个用 AI 的企业直接相关了。VALS 团队拿到过一个月不限量的编程工具额度，事后复盘发现：工程师们每天烧掉十亿到二十亿个 token，峰值是一位工程师一天用了六十亿，换算下来那个月的 token 花费约值一百五十万美元——虽然实际是免费的——是同期员工工资的十倍。他还提到一家财富十强公司，给工程师每天一百美元的 Claude Code 额度，下午四点额度重置，结果公司最高效的工作时段变成了下午四点到六点，中间的下午反倒成了大家散步喝咖啡的死时间。后来额度涨到每人三百美元，但这个数字基本是拍脑袋定的。Rayan 的判断是：token 支出可能开始超过工资支出，当它成为成本表上这么显眼的一项，企业就必须认真算回报了。为此 VALS 发布了面向企业的产品 ValSmith——任何公司可以把 GitHub 代码库接进来，自动生成一套内部编程基准，看哪个编程智能体在自己家的代码上表现最好、性价比最高。结果挺反直觉：可选项太多了，Anthropic 有 Opus 和 Sonnet，还有各种便宜新模型，加上开源模型，而 VALS 实测发现，Sonnet 有时比 Opus 还贵，因为它太能吃 token 了。凭感觉选模型，很可能多花钱。\n\n企业要算账，政府要管事，这时候谁来做技术验证呢？Ben 的分工观很清楚：政府知道自己在怕什么，比如生物黑客、网络攻击，政府擅长定规则、执行规则，但特别不擅长亲自做技术验证——这活儿该交给有能力的第三方公司。Rayan 说 VALS 现在定期给美国行政和立法部门做简报，汇报模型的能力和风险，角色是收集证据、呈现趋势，至于要不要限制模型发布，那是立法者的决定。这里有一条底线值得说说：VALS 很早就决定，永远不向实验室出售训练数据。因为审计行业有安然事件的教训——又做审计又做咨询，激励一混，就变成花钱买及格了。\n\n最后聊到地缘政治，Rayan 借用了里根谈核裁军时的一句话：信任，但要核实。核时代有飞越核查，让对方国家能审计自己的核武库；如果各国真担心 AI 的风险，就需要一套关于评测的共同语言，来完成核实这一半。而最值得各国共同盯住的，正是递归自我改进——一旦有国家或公司在这方面跑飞，造出外界一无所知的模型，那才是真正的麻烦。每当一个万亿美元级的新产业出现，就需要这样一个独立的测试机构——这句是 Rayan 的原话，也是这一集最好的一句总结：模型可以自己爬山，但打分这件事，得有人替所有人把好关。"
+}

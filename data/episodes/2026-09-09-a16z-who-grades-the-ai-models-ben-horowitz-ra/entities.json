@@ -1,0 +1,743 @@
+{
+  "episode_id": "2026-09-09-a16z-who-grades-the-ai-models-ben-horowitz-ra",
+  "podcast": "The a16z Show",
+  "date": "2026-09-09",
+  "tags": [
+    "AI 评测",
+    "基准测试",
+    "智能体",
+    "AI 政策",
+    "企业 AI 支出"
+  ],
+  "categories": [
+    "AI 安全",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "rayan-krishnan",
+      "type": "person",
+      "role": "guest",
+      "name": "Rayan Krishnan",
+      "file": "Rayan Krishnan",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "vals",
+      "type": "company",
+      "role": "company",
+      "name": "VALS",
+      "file": "VALS",
+      "primary": true,
+      "how_described": "本集介绍它是 2024 年成立的第三方评测公司，专门构建高质量评估与基准测试，辨别模型新能力，并给自己定位为万亿美元产业里独立的测试/审计机构。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            98.638,
+            111.862
+          ],
+          "quote": "Ryan also explains why benchmarks need to evolve alongside the models, how VALS is measuring recursive self-improvement, and why EVALS could eventually become a shared language for AI capabilities, risk, and policy.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 18,
+          "t": [
+            114.76,
+            138.502
+          ],
+          "quote": "So I'll start a question from when VALS got started in 2024 after your team discovered that all the public benchmarks are just not sufficient enough to measure model progress and there needs to be a new methodology and approach coming to keep us on the frontier and help model labs continue to hill climb, take us back to the inception of VALS and what you see was missing in the market then.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            337.098,
+            341.862
+          ],
+          "quote": "And we also have this internal system called Steve, Steve the Economic Vals employee.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 97,
+          "t": [
+            526.42,
+            533.007
+          ],
+          "quote": "I think, for instance, at VALS, one very early decision we made was the decision to never sell training data to labs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 173,
+          "t": [
+            901.995,
+            923.569
+          ],
+          "quote": "And do you think that it will become kind of a real-time kind of mechanism, like so for something like OpenRouter, which Stripe just bought, would OpenRouter look to VALs and say, okay, where should this next request go?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1120.326,
+            1123.926
+          ],
+          "quote": "Like what, how does like Vals come in to provide value?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1202.982,
+            1210.188
+          ],
+          "quote": "And actually we use Valsmith a lot of Vals and we're seeing that a lot of the best enterprises and sophisticated ones are doing that too.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 391,
+          "t": [
+            2249.999,
+            2259.627
+          ],
+          "quote": "And so, insofar as we see new places for capabilities or risks at the frontier, we want to make that an actually well-documentable evaluation on Vals.ai.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 397,
+          "t": [
+            2290.289,
+            2295.252
+          ],
+          "quote": "And so making sure evaluations are reflective of those new places is really important for what we do at VALS.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "benchmark",
+      "type": "concept",
+      "role": "concept",
+      "name": "基准测试 (benchmark)",
+      "file": "基准测试",
+      "primary": true,
+      "how_described": "本集主线：公开榜单题目泄露会被针对性刷分（Llama 4 公开榜与私有测试集表现两极），榜单饱和就应退役，评测要像律师重考执照一样反映世界当前状态。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            374.014,
+            380.318
+          ],
+          "quote": "And then of course models are really good at hacking the benchmark.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 105,
+          "t": [
+            563.014,
+            566.636
+          ],
+          "quote": "And then it just becomes pay to pass the audit, or in this case, pay to win the benchmark.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 113,
+          "t": [
+            592.904,
+            598.328
+          ],
+          "quote": "Our finance agent benchmark is used by a bunch of the big financial institutions to get a sense of how models are improving.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 118,
+          "t": [
+            612.158,
+            616.442
+          ],
+          "quote": "So one benchmark we released recently I'm very excited by is our recursive self-improvement index.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 121,
+          "t": [
+            626.57,
+            630.253
+          ],
+          "quote": "And so we created this as an apples-to-apples way to actually benchmark across the models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 122,
+          "t": [
+            630.585,
+            632.488
+          ],
+          "quote": "Yeah, I thought that one is a very cool benchmark.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            641.863,
+            645.248
+          ],
+          "quote": "How do you actually go about like building this RSI benchmark?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            683.019,
+            690.625
+          ],
+          "quote": "It's funny that I always watch this benchmark industry, people like, just like the early diffusion model days, like a cherry pick whichever image.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            771.001,
+            779.945
+          ],
+          "quote": "As an instance of case law updating to something like legal research benchmark, that's a desire to create a benchmark more reflective of the current state of the world and also push the models in place we want to see them go.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 166,
+          "t": [
+            867.812,
+            872.718
+          ],
+          "quote": "And so what I mean by that is a benchmark is largely some kind of input space of things you're trying to query a model to do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1189.731,
+            1202.182
+          ],
+          "quote": "It allows any company to take their GitHub codebase and build their internal coding benchmark from it to get a sense of what coding agents are going to be the most performant, but also what's going to be Pareto optimal or the highest ROI for them to use.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1214.051,
+            1230.645
+          ],
+          "quote": "And what are some of the examples when you let's say benchmark on a private Ripple that it just shows very different performance cost behavior compared to let's say like using like frontier model using a public Ripple benchmark?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (evals)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集把它说成模型进步的最大驱动力之一，也是企业路由模型、算清 token 投入回报的核心；实验室呼吁第三方评估者生态，评测可能成为 AI 能力与风险的共同语言。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            98.638,
+            111.862
+          ],
+          "quote": "Ryan also explains why benchmarks need to evolve alongside the models, how VALS is measuring recursive self-improvement, and why EVALS could eventually become a shared language for AI capabilities, risk, and policy.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 72,
+          "t": [
+            389.905,
+            396.848
+          ],
+          "quote": "I think the honest answer is that it's forcing a lot of the more fuzzy or distributed forms of evals to be made explicit.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 76,
+          "t": [
+            412.536,
+            422.707
+          ],
+          "quote": "And I think long term, that will be actually the biggest bottleneck, our ability to take companies and their evals and make them legible, because that's how we'll figure out what signal we hill climb on and where we actually adopt.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 177,
+          "t": [
+            941.724,
+            950.569
+          ],
+          "quote": "And that's because really the hardest part of routing is building the evals and trying to determine in what places a set of intelligences should be used for a particular application.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 178,
+          "t": [
+            951.39,
+            956.593
+          ],
+          "quote": "And so, you know, our effort in supporting enterprises and building evals has actually supported a lot of them in also adopting routers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1082.893,
+            1086.255
+          ],
+          "quote": "And over time, as we were talking about, I think Affirm really is just its evals.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1089.097,
+            1097.326
+          ],
+          "quote": "make its evals legible in order to solve this ROI calculus is going to be the reason why that company wins out over the competitors in the long term.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1562.202,
+            1571.792
+          ],
+          "quote": "actually did the first evals and is continuing to do evals in terms of, okay, what's at the frontier and needs to be regulated, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1993.093,
+            2005.357
+          ],
+          "quote": "I often see evals being like a representation of sort of the value of the model, the model developer, like you kind of develop this rubric of what's embedded in the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 359,
+          "t": [
+            2026.548,
+            2028.99
+          ],
+          "quote": "So how do you think about how evals, I guess,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 370,
+          "t": [
+            2096.811,
+            2110.017
+          ],
+          "quote": "Having the shared language of evals will allow us to say things like, you have the right number of nuclear warheads, and in that example there were also flyovers, so by which a country could audit another country's nuclear stockpile by having flyovers.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "recursive-self-improvement",
+      "type": "concept",
+      "role": "concept",
+      "name": "递归自我改进 (recursive self-improvement)",
+      "file": "递归自我改进",
+      "primary": true,
+      "how_described": "VALS 发布了递归自我改进指数（RSI），衡量模型能否参与训练出自己的下一代；理想做法是让前沿模型训练自己但太贵，故拆成预训练、后训练等环节做代理指标，Rayan 认为这也是各国最该共同盯住的风险。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            98.638,
+            111.862
+          ],
+          "quote": "Ryan also explains why benchmarks need to evolve alongside the models, how VALS is measuring recursive self-improvement, and why EVALS could eventually become a shared language for AI capabilities, risk, and policy.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 118,
+          "t": [
+            612.158,
+            616.442
+          ],
+          "quote": "So one benchmark we released recently I'm very excited by is our recursive self-improvement index.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 381,
+          "t": [
+            2175.993,
+            2181.377
+          ],
+          "quote": "In my opinion, I think long term, what's actually going to be the most interesting is the recursive self-improvement possibility.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说现在测的是能连跑几天甚至几周的智能体，金融智能体基准被大金融机构使用，编码智能体哪个在企业自家代码上性价比最高是企业最关心的问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 113,
+          "t": [
+            592.904,
+            598.328
+          ],
+          "quote": "Our finance agent benchmark is used by a bunch of the big financial institutions to get a sense of how models are improving.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1299.968,
+            1310.052
+          ],
+          "quote": "You know, if you have a very good coding agent, chances are you have a model that can also make PowerPoint slides or DCFs in Excel and with a high degree of capability as well.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "valsmith",
+      "type": "concept",
+      "role": "concept",
+      "name": "ValSmith",
+      "file": "ValSmith",
+      "primary": true,
+      "how_described": "VALS 面向企业的首个产品，聚焦代码生成：把公司 GitHub 代码库接进来，自动生成内部编程基准，看哪个编码智能体表现最好、ROI 最高。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 208,
+          "t": [
+            1123.986,
+            1127.127
+          ],
+          "quote": "And maybe you can talk through sort of Valsmith new product launch as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1176.461,
+            1182.745
+          ],
+          "quote": "And so to try and remedy that, we've started to release some products more openly for enterprises to use, the first of which is called Valsmith.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1183.325,
+            1189.23
+          ],
+          "quote": "And so ValSmith is focused on CodeGen, the area we're seeing to be the highest expanded in enterprise AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1202.982,
+            1210.188
+          ],
+          "quote": "And actually we use Valsmith a lot of Vals and we're seeing that a lot of the best enterprises and sophisticated ones are doing that too.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1419.102,
+            1422.166
+          ],
+          "quote": "We looked through our GitHub repo and built out the Valsmith tool.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "token",
+      "type": "concept",
+      "role": "concept",
+      "name": "token",
+      "file": "token",
+      "primary": true,
+      "how_described": "本集称 token 支出可能开始超过工资支出：VALS 一个月免费额度换算约 150 万美元、是员工工资的 10 倍；Sonnet 因太吃 token 有时比 Opus 更贵，企业必须认真算这笔账。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 199,
+          "t": [
+            1064.9,
+            1073.366
+          ],
+          "quote": "And so as we talk about the existential concern for enterprises, I think it is this kind of direction we're shifting in where token spend may start to eclipse salary spend.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1272.176,
+            1277.078
+          ],
+          "quote": "We're actually seeing in a lot of cases, Sonnet is more expensive than Opus because it is so token hungry.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1349.875,
+            1357.657
+          ],
+          "quote": "So I wanted to do a token maxing experiment and I was able to get unlimited access for our team for a month for some of the coding tools.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1425.067,
+            1428.668
+          ],
+          "quote": "Like for instance, the Cognition Devon tool is actually very token efficient.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1432.229,
+            1439.391
+          ],
+          "quote": "And I think there's a lot of places when you can get better pricing models out of subscriptions as opposed to token based pricing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1439.712,
+            1446.854
+          ],
+          "quote": "And so it's actually informed our strategy for how we can actually effectively token max without spending one and a half million dollars per month.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1448.128,
+            1458.382
+          ],
+          "quote": "So is the current operating mode that you're using like one, I guess, more token efficient Harness Plus model and then like...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1459.745,
+            1465.807
+          ],
+          "quote": "On top of that, people have some more flexibility to use token-based for some higher or more challenging tasks.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集举财富 10 强公司给工程师每天 100 美元 Claude Code 额度、下午 4 点重置后最高效时段变成 4-6 点的例子，说明额度如何重塑工作节奏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 187,
+          "t": [
+            989.767,
+            998.509
+          ],
+          "quote": "I was meeting with a company in the Fortune 10, and the way that they've adopted Claude Code has been with roughly a $100 a day budget for their engineers.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到 Anthropic 的 Opus 和 Sonnet 模型选择复杂，且它以相当微薄的利润率支撑巨大的推理成本。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 196,
+          "t": [
+            1050.346,
+            1053.469
+          ],
+          "quote": "But then also Anthropic is running on pretty narrow margins to support this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1231.139,
+            1238.49
+          ],
+          "quote": "I think today it's still very unclear whether the best OpenAI model or the best Anthropic model is actually going to be best for your repository.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1246.721,
+            1258.409
+          ],
+          "quote": "I think you also now see a very complex middle set of options in that there's now Opus and Sonnet models from Anthropic, but also Luna and Terra, and Luna's very cost-competitive.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提到 2024 年初模型不再全都来自 OpenAI，以及不清楚最好的 OpenAI 模型是否对你的代码库最好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            165.282,
+            166.723
+          ],
+          "quote": "They weren't all coming from OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1231.139,
+            1238.49
+          ],
+          "quote": "I think today it's still very unclear whether the best OpenAI model or the best Anthropic model is actually going to be best for your repository.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1869.177,
+            1875.598
+          ],
+          "quote": "The narratives that connects to the actual examples are very rare, which is why we still talk about OpenAI and Hugging Face hack.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": false,
+      "how_described": "本集以 Meta 发布 Llama 4 为例：在 VALS 私有测试集上表现不佳，却在公开榜单上展现惊人能力，说明自我报告的问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            5.809,
+            14.715
+          ],
+          "quote": "When Meta released Llama 4 on our held out private benchmarks, the model was actually underperforming, but on all of the major public benchmarks, it was showing incredible capabilities.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 35,
+          "t": [
+            212.573,
+            216.276
+          ],
+          "quote": "And so one of the early indications of that you saw was when Meta released Llama 4.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "llama-4",
+      "type": "concept",
+      "role": "concept",
+      "name": "Llama 4",
+      "file": "Llama 4",
+      "primary": false,
+      "how_described": "本集说它在 VALS 留出的私有基准上实际表现不佳，但在题目和评分标准开源的主要公开基准上却展现令人惊叹的能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            5.809,
+            14.715
+          ],
+          "quote": "When Meta released Llama 4 on our held out private benchmarks, the model was actually underperforming, but on all of the major public benchmarks, it was showing incredible capabilities.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 35,
+          "t": [
+            212.573,
+            216.276
+          ],
+          "quote": "And so one of the early indications of that you saw was when Meta released Llama 4.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "alignment",
+      "type": "concept",
+      "role": "concept",
+      "name": "对齐 (alignment)",
+      "file": "对齐",
+      "primary": false,
+      "how_described": "本集说 VALS 把奖励作弊、模型是否与用户意图对齐等归在对齐类别下评估，并发现模型表现出不对齐行为的证据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 304,
+          "t": [
+            1694.355,
+            1697.317
+          ],
+          "quote": "Yeah, I mean, we think about this broadly under the category of alignment.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,2289 @@
+{
+  "episode_id": "2026-10-11-talks-the-data-context-layer-for-agents-yoni-m",
+  "podcast": "精选演讲",
+  "date": "2026-10-11",
+  "tags": [
+    "智能体",
+    "数据基础设施",
+    "上下文工程",
+    "评测与基准",
+    "图数据库"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "yoni-michael",
+      "type": "person",
+      "role": "guest",
+      "name": "Yoni Michael",
+      "file": "Yoni Michael",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            14.781,
+            15.741
+          ],
+          "quote": "My name is Yoni Michael.",
+          "speaker": "SPEAKER_12"
+        }
+      ]
+    },
+    {
+      "id": "typedef",
+      "type": "company",
+      "role": "company",
+      "name": "TypeDef",
+      "file": "TypeDef",
+      "primary": true,
+      "how_described": "两位嘉宾创办的初创公司,在为数据智能体构建信任层,核心产品是「数据上下文层」——一张可查询的数据资产图谱,让智能体安全、准确地操作企业数据系统。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            15.821,
+            18.002
+          ],
+          "quote": "I'm one of the co-founders of a startup called TypeDef.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 11,
+          "t": [
+            54.018,
+            67.111
+          ],
+          "quote": "I wanted to walk through a little bit around the problem set that we're trying to solve here at typedef and kind of set the stage and give some context or concepts and principles that will later be applied to the actual workshop that Brandon will lead us on.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 12,
+          "t": [
+            68.995,
+            73.397
+          ],
+          "quote": "So the main idea behind this talk is the background on typedef.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 22,
+          "t": [
+            132.139,
+            136.121
+          ],
+          "quote": "All right, so here's the bet that we're taking as a startup called TypeDef.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1641.531,
+            1646.775
+          ],
+          "quote": "So my name is Brandon, I'm at TypeDef, and you're gonna hear a lot of talks here at the conference this week about how",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2850.615,
+            2858.637
+          ],
+          "quote": "You can actually have an LLM summarize these symbols and embed them, and TypeDef actually has an open source library for this called Fennec.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 790,
+          "t": [
+            4556.325,
+            4563.23
+          ],
+          "quote": "And that's sort of what we try to do at TypeDef is find all the different ways that we can pull as much context as possible out of the data that we have.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 924,
+          "t": [
+            5242.106,
+            5252.392
+          ],
+          "quote": "The underlying structure for how typedef works is we try to build out as many of these different ingest processes as we can to pull data from many different places and then sort of synthesize it all into one.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 953,
+          "t": [
+            5395.993,
+            5403.801
+          ],
+          "quote": "So small, grounded, auditable semantic operations over our structure, that's what our library Fennec is for, and that's what we use it for as part of typedef.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 966,
+          "t": [
+            5481.128,
+            5482.53
+          ],
+          "quote": "I'm Brandon Callender from TypeDef.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1003,
+          "t": [
+            5715.841,
+            5725.331
+          ],
+          "quote": "at typedef for trying to build this at a larger scale across a large data architecture because you don't want to have to go and query your warehouse 500 times again.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1074,
+          "t": [
+            6154.02,
+            6157.742
+          ],
+          "quote": "So the goal of TypeDef is you really just, it was great, thank you for",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1090,
+          "t": [
+            6265.234,
+            6272.037
+          ],
+          "quote": "So the goal with typedef, right, is for that business analyst to be able to go in and say, hey, my dashboard is broken, right?",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "data-context-layer",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据上下文层 (data context layer)",
+      "file": "数据上下文层",
+      "primary": true,
+      "how_described": "本集的核心概念:把粒度、join 安全性、指标定义、模型依赖这些散落在文档和部落知识里的事实,计算成一张每次提交时原子刷新的图,智能体一次遍历就能拉取所需子图。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            84.161,
+            91.724
+          ],
+          "quote": "And so the title of the talk is the data context layer, which is a core piece of infrastructure that we've actually built to help us with that mission.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 21,
+          "t": [
+            126.518,
+            128.674
+          ],
+          "quote": "So this is what we call the data context layer.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 33,
+          "t": [
+            226.123,
+            228.105
+          ],
+          "quote": "So that's the goal of the data context layer here.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 136,
+          "t": [
+            867.11,
+            869.29
+          ],
+          "quote": "We call it the data context layer.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1304.896,
+            1313.604
+          ],
+          "quote": "But the key findings here is that although it's the same models, it's the same task, the only variable that's changing is where the agent has the access to the data context layer.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1322.271,
+            1326.194
+          ],
+          "quote": "It's almost 35 points higher when it's armed with the data context layer.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1553.323,
+            1555.884
+          ],
+          "quote": "And that's like what we built with this like data context layer.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 551,
+          "t": [
+            3235.052,
+            3239.994
+          ],
+          "quote": "So my question is about the data context layer that you talked about earlier.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 791,
+          "t": [
+            4566.173,
+            4579.424
+          ],
+          "quote": "I have a quick question for how would you say this concept of the data context layer combines with something like a data catalog,",
+          "speaker": "SPEAKER_09"
+        }
+      ]
+    },
+    {
+      "id": "grain",
+      "type": "concept",
+      "role": "concept",
+      "name": "粒度 (grain)",
+      "file": "粒度",
+      "primary": true,
+      "how_described": "数据行话,指表的每一行实际代表什么(如「每客户每月」)。粒度悄悄从月变周时下游所有求和都会错,而 SQL 照样编译通过;智能体无法从数据本身判断粒度变更。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 57,
+          "t": [
+            354.852,
+            361.213
+          ],
+          "quote": "And for the next, let's say, 15 minutes while I'm going over this, we'll be using a term that's called grain.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 58,
+          "t": [
+            361.253,
+            366.154
+          ],
+          "quote": "So for all of you non-data folks in the room, what grain actually means from a data team perspective is",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 61,
+          "t": [
+            377.32,
+            391.788
+          ],
+          "quote": "And so if the grain is customer by month and I accidentally turn it into customer by week, then every downstream sum after that can become wrong, even though the SQL compiles and everything runs correctly, right?",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 62,
+          "t": [
+            392.028,
+            393.609
+          ],
+          "quote": "So that's what I mean when I talk about grain change.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 71,
+          "t": [
+            430.317,
+            432.278
+          ],
+          "quote": "So that means the grain actually changed.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 72,
+          "t": [
+            432.978,
+            442.724
+          ],
+          "quote": "And the agent literally cannot tell a real spike, like a real data spike, and differentiate between that and an actual grain change because the grain isn't in the data itself.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 94,
+          "t": [
+            569.64,
+            570.92
+          ],
+          "quote": "This is what we talked about, the grain.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 107,
+          "t": [
+            649.76,
+            655.284
+          ],
+          "quote": "So it could be a safe as of lookup or a date spine that actually explodes your grain, right?",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 121,
+          "t": [
+            778.82,
+            783.043
+          ],
+          "quote": "And so you're able to compute grain and lineage straight from the actual SQL itself.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 177,
+          "t": [
+            1068.506,
+            1074.331
+          ],
+          "quote": "So the agent proposes a change for modifying like a model's grain, for example, right?",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 179,
+          "t": [
+            1085.261,
+            1089.344
+          ],
+          "quote": "Does this actually break the grain that you have represented in this node here?",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 180,
+          "t": [
+            1089.924,
+            1110.236
+          ],
+          "quote": "So here it's able to catch that a monthly ARR measure would get repeated across weekly rows if I'm trying to go from the monthly grain change to the weekly grain change and that downstream there's some ARR that's actually summing all of the different values for this on a monthly basis which would result in let's say the metric having like a 4x",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1391.546,
+            1394.167
+          ],
+          "quote": "And then things like being able to compute grain, right?",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 882,
+          "t": [
+            5025.746,
+            5034.195
+          ],
+          "quote": "So if you can design with the grain as much as possible, help the agents lean into what they want to do anyway, it will help you out quite a bit.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集贯穿主线:智能体在数据任务上失败不是因为不会写 SQL,而是缺少语义上下文;Brandon 还展示了智能体有 grep 的「肌肉记忆」,会给好工具不用、会在评测里作弊。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            166.618,
+            174.583
+          ],
+          "quote": "And the data is exactly where if an agent is confidently wrong, which it oftentimes is, it can actually end up costing a lot of money, right?",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 32,
+          "t": [
+            209.964,
+            225.522
+          ],
+          "quote": "And that only really works if you're able to give the agent the reasoning layer so that it can actually understand the data system end-to-end, very much like how a data engineering or a data team that actually has working knowledge that was able to build the system from end-to-end is able to also reason about it.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 46,
+          "t": [
+            284.702,
+            290.067
+          ],
+          "quote": "And if your agent can't reason and do these tasks reliably, it's very hard to actually trust it.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 55,
+          "t": [
+            338.988,
+            341.589
+          ],
+          "quote": "But the agent actually needs something in between all of that.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 64,
+          "t": [
+            400.155,
+            408.742
+          ],
+          "quote": "Like in terms of reliability, what does it actually mean if someone asks an agent why a pipeline's row count suddenly spiked and it jumped 40% overnight?",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 65,
+          "t": [
+            410.283,
+            411.884
+          ],
+          "quote": "The agent can go and write valid SQL.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 72,
+          "t": [
+            432.978,
+            442.724
+          ],
+          "quote": "And the agent literally cannot tell a real spike, like a real data spike, and differentiate between that and an actual grain change because the grain isn't in the data itself.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 73,
+          "t": [
+            445.034,
+            458.138
+          ],
+          "quote": "And so the agent can run the query, it could get some sample rows, it could sample the data, it could read the SQL very well to understand, but it didn't know that what one row was actually supposed to mean and that now it means something completely different, right?",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 75,
+          "t": [
+            462.339,
+            466.1
+          ],
+          "quote": "The semantics are actually very, very important when you're trying to get an agent to be effective.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 78,
+          "t": [
+            481.21,
+            483.411
+          ],
+          "quote": "So you can give the agent the code, right?",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 91,
+          "t": [
+            546.655,
+            556.757
+          ],
+          "quote": "So let's take a step back and name exactly what's missing from the context that you need to actually give the agent to be able to reason effectively across these complex data changes.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 92,
+          "t": [
+            557.157,
+            564.699
+          ],
+          "quote": "There are four facts, let's say, that decide whether an answer is right, and none of them are actually written down anywhere that the agent can read or infer.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 98,
+          "t": [
+            583.251,
+            593.854
+          ],
+          "quote": "And so an agent can read your SQL just fine, but it can't see these four things very easily at query time when it's the most important time for it to gather the exact context that it needs.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 99,
+          "t": [
+            594.674,
+            606.857
+          ],
+          "quote": "So the goal of what we did was let's see how we can make them computable and queryable so that the agent is effectively able to grab just the context it needs just at the time it needs and not have to rebuild it during every single session.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 103,
+          "t": [
+            619.127,
+            627.251
+          ],
+          "quote": "And this is a good example because it's a cleanest example of like why syntax isn't actually enough to be able to get the agent to be effective.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 108,
+          "t": [
+            655.625,
+            662.07
+          ],
+          "quote": "So the agent can see this syntax, but it can actually understand which of these scenarios is going to result because of this syntax.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 110,
+          "t": [
+            665.553,
+            668.495
+          ],
+          "quote": "That's like a context problem that we're actually trying to arm the agent with.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 116,
+          "t": [
+            722.03,
+            742.965
+          ],
+          "quote": "So the system clusters them automatically for you into the domains so that when you go and ask the agent, okay, which models are in my revenue domain for the RevOps team, it becomes a query that the agent can actually run and not a question it has to ask, like, you know, that has to go back and forth with the human to be able to understand which are in the same domain.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 118,
+          "t": [
+            747.59,
+            757.721
+          ],
+          "quote": "It's you take something that is tribal knowledge that lives in someone's heads or lives in some documentation elsewhere and you try and actually compute it and then make it queryable for the agent.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 123,
+          "t": [
+            792.31,
+            802.217
+          ],
+          "quote": "And that way the agent can't drift from the actual implementation itself because the basis of the graph and the context we're giving it is actually derived from the implementation itself.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 128,
+          "t": [
+            818.074,
+            821.557
+          ],
+          "quote": "So that allows the agent to not really guess about things like cardinality.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 142,
+          "t": [
+            897.827,
+            903.292
+          ],
+          "quote": "So the agent's able to pull exactly the subgraph it needs in one traversal.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 176,
+          "t": [
+            1058.677,
+            1068.466
+          ],
+          "quote": "If we go back and think about the use cases that are relevant that the agent can now solve because of this context layer that we have, impact analysis is the first one, right?",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 177,
+          "t": [
+            1068.506,
+            1074.331
+          ],
+          "quote": "So the agent proposes a change for modifying like a model's grain, for example, right?",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 183,
+          "t": [
+            1125.96,
+            1131.501
+          ],
+          "quote": "So the agent has visibility and they're able to walk the lineage all the way across the data lifecycle, if you will.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1145.814,
+            1153.358
+          ],
+          "quote": "So this is like the agent wants to attribute, the exercise here is like the agent wants to attribute ARR by marketing channel, right?",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1198.702,
+            1204.687
+          ],
+          "quote": "And so if you're asking an agent to let's say tidy up some measure or some metric that you have and it removes a predicate,",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1245.54,
+            1255.165
+          ],
+          "quote": "And so this is like if you're making the agent have these as like first class constraints, it's not just a comment that is in some YAML file or something like that.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1304.896,
+            1313.604
+          ],
+          "quote": "But the key findings here is that although it's the same models, it's the same task, the only variable that's changing is where the agent has the access to the data context layer.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1336.843,
+            1350.172
+          ],
+          "quote": "The better context, the more rich context you're able to give the agent, the outcome changes tremendously than just, let's say, like swapping models or adding more generic-like tools, MCP tools to the model itself.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1417.908,
+            1424.776
+          ],
+          "quote": "So it's oftentimes good to just keep the signals and then let the agent be able to reason because these models are very capable.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1469.566,
+            1480.616
+          ],
+          "quote": "Even for the MCPs that we do have that give our agent access to, Snowflake MCP or Databricks MCP, we found ourselves rewriting a lot of it to match the capabilities and functionality of what we're trying to accomplish.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1489.939,
+            1493.021
+          ],
+          "quote": "You can't really build a reliable agent regardless of what the agent is doing.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1533.776,
+            1553.023
+          ],
+          "quote": "So if you make that context really a first-class citizen, you extract it, you compute it, you persist it, and then the agent's able to query it in a really efficient way because you have a graph, then you're able to cross the line between from an agent that only reads your code to one that's actually ready to like operate your data system.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1647.676,
+            1653.419
+          ],
+          "quote": "Agent is only as good as the context you give it, and that building that context is in fact the actual job.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1658.441,
+            1666.384
+          ],
+          "quote": "Over the next 90 minutes, we're gonna build a context layer for a coding agent together, a real one over a real example code base.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1668.985,
+            1678.319
+          ],
+          "quote": "And then I'm going to show you the last part, which is that even if you build, when you build these amazing tools, the agent's mostly going to ignore it unless you help it along the way.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1751.17,
+            1756.074
+          ],
+          "quote": "Let's start where every coding agent starts, which is text search.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1762.339,
+            1764.101
+          ],
+          "quote": "So when the agent goes, it runs RipGrip.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1778.612,
+            1779.932
+          ],
+          "quote": "Your agent's gonna do the same thing.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1816.128,
+            1831.792
+          ],
+          "quote": "So, we just watched Yoni make this, you know, a very similar case for data, and it's problematic to have the agent re-derive the entire system for every run with no memory because, for one thing, it's going to be expensive, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1863.335,
+            1865.317
+          ],
+          "quote": "The goal isn't necessarily to get the agent to be",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1985.231,
+            1988.735
+          ],
+          "quote": "So you can think about context of a coding agent in sort of this terms of levels.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 363,
+          "t": [
+            2038.747,
+            2049.031
+          ],
+          "quote": "So I think for the next part of this workshop we're gonna go through and build up through these different levels and by the end we'll get to an agent that can answer questions about the code base using this traversable graph.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2419.795,
+            2426.137
+          ],
+          "quote": "The agent's gonna be able to traverse all the relationships between those different things once we actually build out the graph itself.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2460.376,
+            2462.858
+          ],
+          "quote": "And the agent can infer that and it can, you know,",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 439,
+          "t": [
+            2523.858,
+            2538.024
+          ],
+          "quote": "So now that we have this sort of graph, we can build tools that specifically harness the capabilities of the graph to give our agent access to something that's gonna make it easier for it to do its job.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2567.31,
+            2578.712
+          ],
+          "quote": "And so in that sense, you can ask the agent to answer a question that would have taken multiple graphs across multiple different files, and in theory, the agent can just answer it in one go.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2653.418,
+            2662.066
+          ],
+          "quote": "So now we can actually take what we built so far and build a very small limited function agent to actually use this new tooling.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2663.747,
+            2669.973
+          ],
+          "quote": "Now that we have this blast radius tool, we can wire up a very quick little agent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2670.613,
+            2672.115
+          ],
+          "quote": "This agent is very simple.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 458,
+          "t": [
+            2672.215,
+            2678.62
+          ],
+          "quote": "It's just a Pydantic agent that is just configured with a system prompt that says you have",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2712.293,
+            2721.109
+          ],
+          "quote": "So now if you go ahead and run this agent, this agent will actually spend a few turns calling the tools and trying to figure things out.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 470,
+          "t": [
+            2745.551,
+            2756.345
+          ],
+          "quote": "So we can see that if you have an agent that is skilled enough in tool usage, it can use these new tools to build out its understanding of the code base.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2799.806,
+            2814.878
+          ],
+          "quote": "I could give the agent access to a system prompt that has a schema in it that tells the agent, okay, these are the different nodes, these are the different edges, and I can write my requests in natural language.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2820.762,
+            2826.567
+          ],
+          "quote": "And if I run that, it'll take a second because the agent's gonna actually try to figure it out.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2893.51,
+            2901.815
+          ],
+          "quote": "So in the long run, right, the idea would be to make this information up into your graph so that this information is also available for the agent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 496,
+          "t": [
+            2911.922,
+            2918.566
+          ],
+          "quote": "If the agent on the fly figures out what that function does and it's wrong, you're not gonna know that it's wrong until much later down the line.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 548,
+          "t": [
+            3221.353,
+            3227.394
+          ],
+          "quote": "It is probably worth it for someone to build for the purpose of learning about how to build an agent and how to build tooling and how to build context graphs.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 561,
+          "t": [
+            3279.965,
+            3292.653
+          ],
+          "quote": "We've tried to find representative data architectures, which is kind of hard, because you can build an easy tour example, like in your, and say, oh, my agent, ACE is 100% of my tests on my 30 model corpus.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 570,
+          "t": [
+            3363,
+            3365.242
+          ],
+          "quote": "So you're talking about when the agent is actually running?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 571,
+          "t": [
+            3366.603,
+            3368.705
+          ],
+          "quote": "Yes, when the agent is actually running.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 572,
+          "t": [
+            3368.725,
+            3377.612
+          ],
+          "quote": "That's when we find the most use out of it, because when the agent is running, it's going to be querying all of the tools that we built, and that's where the real value is coming into play, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 573,
+          "t": [
+            3377.832,
+            3382.856
+          ],
+          "quote": "If the agent's able to query all this stuff at runtime, it doesn't have to re-derive it all at one time, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 601,
+          "t": [
+            3511.353,
+            3514.835
+          ],
+          "quote": "But the problem is the agent...",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 602,
+          "t": [
+            3516.045,
+            3517.766
+          ],
+          "quote": "You have to actually go and give it to an agent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 603,
+          "t": [
+            3518.166,
+            3531.091
+          ],
+          "quote": "So when you give this agent this tool, and you give it this agent this tool, and you give it alongside all the existing tools the agent already has, and you know, we have this really cool tool, we've seen it do this amazing stuff, and it ran grep anyway.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 610,
+          "t": [
+            3556.617,
+            3558.958
+          ],
+          "quote": "But the agent has to actually use them.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 615,
+          "t": [
+            3569.504,
+            3571.665
+          ],
+          "quote": "The hard part is actually making the agent use it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 621,
+          "t": [
+            3594.912,
+            3598.253
+          ],
+          "quote": "You can make a better tool, but the agent's muscle memory isn't gonna let it use it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 625,
+          "t": [
+            3609.917,
+            3619.403
+          ],
+          "quote": "So the important thing is that you're not necessarily competing on the merits of your tool being better than all the tools inside of the tool set of the agent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 633,
+          "t": [
+            3653.361,
+            3655.042
+          ],
+          "quote": "The agent will use it in a certain kind of way.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 634,
+          "t": [
+            3655.062,
+            3659.425
+          ],
+          "quote": "What I found is that if you call a tool search, the agent will basically always do multi-keyword search into it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 641,
+          "t": [
+            3690.041,
+            3706.634
+          ],
+          "quote": "And the last thing is that you need to have your tools pay off in the first call every time because when something, when the agent goes down a path and it finds a dead end or something that it thinks is a dead end, it called search, didn't get any results.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 652,
+          "t": [
+            3745.824,
+            3751.047
+          ],
+          "quote": "How do you actually show that the agent is doing what you think it is supposed to be doing, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 662,
+          "t": [
+            3796.029,
+            3799.412
+          ],
+          "quote": "So we're going to have an agent with our new graph tools.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 663,
+          "t": [
+            3799.432,
+            3803.254
+          ],
+          "quote": "So we're going to give the agent access to the same model and our graph tools.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 664,
+          "t": [
+            3803.555,
+            3810.86
+          ],
+          "quote": "We're going to have our control agent that's going to have access to the same model and a set of file system probing tools that's maintained by Dantic.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 683,
+          "t": [
+            3904.095,
+            3909.757
+          ],
+          "quote": "You're not just asking the agent to provide its opinion and then asking another agent to counterman that opinion with its opinion.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 691,
+          "t": [
+            3944.433,
+            3953.858
+          ],
+          "quote": "How this works is we build out our two different agents, and then we build out the agent runner itself, and then we build out an evaluator, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 692,
+          "t": [
+            3953.878,
+            3959.481
+          ],
+          "quote": "So this is what actually will evaluate the agent based on the given tasks that we have in front of it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 693,
+          "t": [
+            3960.101,
+            3966.404
+          ],
+          "quote": "We'll basically compare what the agent has said to what we expect it to for each given task, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 694,
+          "t": [
+            3966.784,
+            3972.549
+          ],
+          "quote": "And that way we're able to compare the responses and the results between our graph agent and our graph agent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 700,
+          "t": [
+            4003.966,
+            4009.411
+          ],
+          "quote": "So we just say, for every task in our data set, one shot, graph agent, graph agent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 701,
+          "t": [
+            4009.691,
+            4012.774
+          ],
+          "quote": "And when we do that, the graph agent doesn't do very well.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 702,
+          "t": [
+            4013.274,
+            4023.783
+          ],
+          "quote": "You can see that the graph agent, it does edge out the graph agent a little bit, but it's not really consistent, and it's not really like very, it's not what we wanted, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 717,
+          "t": [
+            4095.427,
+            4103.591
+          ],
+          "quote": "Now, all of a sudden, the Graph agent is twice as good at doing the correct thing all five runs than the Graph agent, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 721,
+          "t": [
+            4117.99,
+            4121.392
+          ],
+          "quote": "The last part is, okay, how do we actually get the agent to use the graph?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 723,
+          "t": [
+            4128.517,
+            4131.198
+          ],
+          "quote": "How often is my agent using the tools that I want it to be using?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 728,
+          "t": [
+            4146.228,
+            4153.474
+          ],
+          "quote": "So the evals are the only way that you're going to be able to actually understand that the agent is using the tools that you want it to use.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 739,
+          "t": [
+            4215.527,
+            4220.99
+          ],
+          "quote": "Putting in examples of things that your agent may not necessarily be good at, because you don't want it to pass 100%.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 741,
+          "t": [
+            4222.29,
+            4225.452
+          ],
+          "quote": "If your agent's passing your eval 100%, your eval's too easy.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 742,
+          "t": [
+            4225.912,
+            4228.153
+          ],
+          "quote": "Your agent should be close to failing your evals.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 743,
+          "t": [
+            4229.234,
+            4234.016
+          ],
+          "quote": "Your evals are your chance to see where the metal hits the road and what your agent's gonna do in its hardest possible circumstances.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 747,
+          "t": [
+            4259.892,
+            4264.596
+          ],
+          "quote": "The agent would often use grep instead of graph, so you had to retool it to be the search tool.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 766,
+          "t": [
+            4398.888,
+            4416.859
+          ],
+          "quote": "But I would think that, yeah, if you're less technical or non-technical, I would think that the goal would be that you would, if you want to engineer the agent to be using these things in the context of actual coding, you would promote these prompt engineering things I'm talking about here into skills and give those to your coding agent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 770,
+          "t": [
+            4443.173,
+            4448.362
+          ],
+          "quote": "As opposed to waiting for the agent to go and read everything and look at all the changes and give you back that same diff.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 777,
+          "t": [
+            4489.802,
+            4495.145
+          ],
+          "quote": "And making those things searchable and accessible to an agent might have payoffs.",
+          "speaker": "SPEAKER_11"
+        },
+        {
+          "seg": 819,
+          "t": [
+            4718.558,
+            4721.898
+          ],
+          "quote": "And then you'll ask the agent to go and try and fix this bug.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 826,
+          "t": [
+            4750.093,
+            4757.379
+          ],
+          "quote": "So forcing the agent to work backward from what that depends on upward through the tree to understand where the actual root cause of the issue is coming from.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 831,
+          "t": [
+            4771.626,
+            4779.889
+          ],
+          "quote": "Like for example, your agent, if you say that, oh, my test case is, the agent will check out a branch and then it will go and try to fix the problem.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 832,
+          "t": [
+            4780.389,
+            4787.212
+          ],
+          "quote": "The agent will very happily cheat and use git to go back to main and try to figure out how you introduce the problem in this branch from there.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 835,
+          "t": [
+            4794.214,
+            4804.518
+          ],
+          "quote": "So you have to be very careful about hardening your harness to actually be representative of the tasks that you want your agent to do because that's always gonna be the danger there.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 841,
+          "t": [
+            4823.018,
+            4830.884
+          ],
+          "quote": "Creating problems in repos using diffs and then having the agent go and read data from the warehouse and read data from the code and try to fix the problem.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 846,
+          "t": [
+            4846.015,
+            4853.139
+          ],
+          "quote": "You need that data to be internally consistent, so you don't want the agent to be spinning around trying to figure out, oh, why are the numbers from 2024?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 855,
+          "t": [
+            4892.358,
+            4905.222
+          ],
+          "quote": "As we get the agent to use the tools more, the agent is able to be more consistent in its ability to answer the same set of questions and is able to answer those same set of questions more efficiently.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 858,
+          "t": [
+            4919.717,
+            4932.765
+          ],
+          "quote": "The number that actually matters was how do you actually make sure that your agent is using the new tooling and so you really want to make sure that you're getting your adoption numbers up and that you're measuring your adoption of the tools because that's really what's going to get you the last part of the way.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 868,
+          "t": [
+            4972.871,
+            4974.693
+          ],
+          "quote": "Like the agent has its own reflex.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 874,
+          "t": [
+            4991.122,
+            4997.306
+          ],
+          "quote": "This false feeling of, I just need more rigor and more tests, and then the agent will be better at using the tools.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 880,
+          "t": [
+            5017.398,
+            5019.981
+          ],
+          "quote": "So the agent is going to grep anyway.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 899,
+          "t": [
+            5128.782,
+            5138.965
+          ],
+          "quote": "The hard part is really gonna be building out your eval loop, building out your monitoring observability and making sure that your agent is actually doing the work that you want it to do with the tools you want it to be using.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 949,
+          "t": [
+            5378.749,
+            5383.59
+          ],
+          "quote": "Then, at that point, you can ask the agent to do classification and summarization, and those are things that it's good at, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 956,
+          "t": [
+            5421.699,
+            5429.471
+          ],
+          "quote": "Yeah, so as I was talking about before, there's a lot more that you can do here if you actually want to build a coding, a code-based graph analysis agent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 965,
+          "t": [
+            5478.346,
+            5480.388
+          ],
+          "quote": "This has been my talk, The Agent Will Grip Anyway.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 990,
+          "t": [
+            5600.549,
+            5611.413
+          ],
+          "quote": "That approach does get you the ability to find all the places in the code that you want to then examine with the agent, but you still have to go and examine all those places with the agent, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 992,
+          "t": [
+            5619.775,
+            5626.838
+          ],
+          "quote": "I basically want to be able to do the IDE click on the thing to see all its call sites, but within my agent, without my agent needing to grab everywhere.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 997,
+          "t": [
+            5649.177,
+            5658.719
+          ],
+          "quote": "I'm really curious about caching and storage as you really start thinking about scaling this, given that making sure the agent gets it right on the first call is so key in steering.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1021,
+          "t": [
+            5829.644,
+            5834.769
+          ],
+          "quote": "In an ideal world, your agent is going to get better and better at answering the same questions.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1029,
+          "t": [
+            5890.956,
+            5901.587
+          ],
+          "quote": "If this bug was introduced, then the agent went to this and this function and fixed it, but then you do a refactoring, and then this function is actually not even used anymore, so then the eval breaks.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 1033,
+          "t": [
+            5917.238,
+            5926
+          ],
+          "quote": "The specific diff that I want to introduce to see if the agent can fix it, and then the resultant set of changes from that prompt, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1036,
+          "t": [
+            5936.762,
+            5938.603
+          ],
+          "quote": "You're not testing the agent's ability to",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1037,
+          "t": [
+            5939.74,
+            5948.108
+          ],
+          "quote": "React to the new code, you're testing the agent's ability to make that change based on that circumstance that it was in when you wrote the eval.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1049,
+          "t": [
+            5990.681,
+            6011.266
+          ],
+          "quote": "Yes, so that's basically our product, right, is that concept of we build the context graph, we build the ontology layer on top of it, where we try to organize all the information around your data architecture, where things are pointed, where things live, what things mean, and then we give the agent access to that toolset to be able to answer questions and make changes within your data architecture.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1052,
+          "t": [
+            6034.964,
+            6040.31
+          ],
+          "quote": "You as the developer with domain expertise are going to build a knowledge graph in this area, and they're going to provide it out to an agent",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1053,
+          "t": [
+            6040.677,
+            6044.841
+          ],
+          "quote": "And then make that agent query cipher to get some semantic information.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1077,
+          "t": [
+            6177.05,
+            6180.011
+          ],
+          "quote": "And then when you ask your agent a question like, hey,",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1098,
+          "t": [
+            6306.77,
+            6320.722
+          ],
+          "quote": "That's what we're trying to get to is that unified vision of how everything works from runtime through lineage and being able for the agent to actually answer those kind of questions and sit between those different layers and make that process more efficient.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评测 (evals)",
+      "file": "评测",
+      "primary": true,
+      "how_described": "本集反复强调 eval-driven development:不看单次准确率而看多次运行的确定性(pass^k),用评测量化工具采用率,永远读完整 trace 而不是只信记分牌。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 248,
+          "t": [
+            1482.857,
+            1487.919
+          ],
+          "quote": "And then let's say the fifth thing is we talked about like evals, evals, evals, right?",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 651,
+          "t": [
+            3743.362,
+            3745.524
+          ],
+          "quote": "And this is all about evals, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 684,
+          "t": [
+            3910.277,
+            3912.378
+          ],
+          "quote": "Those questions don't really tend to ever work out as evals.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 690,
+          "t": [
+            3937.95,
+            3943.173
+          ],
+          "quote": "For the evals themselves, we're using a configuration in PyDantic evals just because it's really easy to set up.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 722,
+          "t": [
+            4121.832,
+            4128.296
+          ],
+          "quote": "This is where your evals come into place, because you basically have to write an eval that says, hey, examine all the tools in my trace.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 728,
+          "t": [
+            4146.228,
+            4153.474
+          ],
+          "quote": "So the evals are the only way that you're going to be able to actually understand that the agent is using the tools that you want it to use.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 734,
+          "t": [
+            4178.324,
+            4191.538
+          ],
+          "quote": "And so the recipe for building really solid, honest evals is to mine real task candidates out of your corpus, build a deterministic as much as you can, an anchored score, and unit test the score itself first.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 735,
+          "t": [
+            4192.799,
+            4193.62
+          ],
+          "quote": "I like pedantic evals.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 736,
+          "t": [
+            4193.64,
+            4198.545
+          ],
+          "quote": "There's many, many other evals, things out there, but the core structure of them is all going to be the same.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 738,
+          "t": [
+            4202.675,
+            4211.179
+          ],
+          "quote": "Make sure you run your evals many times over and reports pass at k, pass at k, and all your different metrics, and make sure that you are",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 742,
+          "t": [
+            4225.912,
+            4228.153
+          ],
+          "quote": "Your agent should be close to failing your evals.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 743,
+          "t": [
+            4229.234,
+            4234.016
+          ],
+          "quote": "Your evals are your chance to see where the metal hits the road and what your agent's gonna do in its hardest possible circumstances.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 744,
+          "t": [
+            4234.036,
+            4240.219
+          ],
+          "quote": "So it doesn't really do a good anyone any service by just giving it very easy and very simple evals.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 810,
+          "t": [
+            4675.417,
+            4689.926
+          ],
+          "quote": "To try to bring this back to data engineering and this concept of evals, do you think about it the same way in terms of asking a set of data questions and then seeing how those react to using the tool or not using the tool?",
+          "speaker": "SPEAKER_14"
+        },
+        {
+          "seg": 836,
+          "t": [
+            4804.798,
+            4810.064
+          ],
+          "quote": "For these evals, do you find people encoding them from scratch for the most part?",
+          "speaker": "SPEAKER_14"
+        },
+        {
+          "seg": 856,
+          "t": [
+            4908.283,
+            4914.405
+          ],
+          "quote": "An example of why it's quite important to run these evals multiple times.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 863,
+          "t": [
+            4956.251,
+            4960.054
+          ],
+          "quote": "I did all this work and I built this context graph and I ran the evals and it was a tie.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 872,
+          "t": [
+            4983.361,
+            4989.107
+          ],
+          "quote": "And it's like, oh, you think that maybe it's just that you just need more testing or more evals or more something, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 883,
+          "t": [
+            5035.684,
+            5046.311
+          ],
+          "quote": "I've now done multiple talks where I had a conclusion, finished the talk, I said let me rerun one set of evals and then I had to redo the whole talk because the conclusions were completely different.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 884,
+          "t": [
+            5046.691,
+            5054.396
+          ],
+          "quote": "What had happened was I wrote my evals and I built this whole harness and I built it wrong and I got answers that were directionally correct.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1017,
+          "t": [
+            5809.164,
+            5816.689
+          ],
+          "quote": "So I could say that this is my snapshot and that when I run my evals, I have a deterministically set of my goal questions, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1024,
+          "t": [
+            5847.952,
+            5855.034
+          ],
+          "quote": "The answer is you don't, because for the purpose of evals, your goals should be constant against a constant corpus.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "context-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文工程 (context engineering)",
+      "file": "上下文工程",
+      "primary": true,
+      "how_described": "本集把构建上下文称为真正的工作:把部落知识变成可计算、可查询的东西,能确定性计算的绝不交给 LLM,遍历永远胜过提示词塞入。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            107.07,
+            112.991
+          ],
+          "quote": "And there's a lot of things that you need to think about when building the right harness, when context engineering for these agents to be really effective.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 23,
+          "t": [
+            136.181,
+            144.345
+          ],
+          "quote": "All of us have spent, let's say, like the last two years generally in the industry going and thinking about context engineering for coding agents, right?",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 117,
+          "t": [
+            743.565,
+            747.51
+          ],
+          "quote": "So this is kind of the same principle for context engineering that you see over and over again.",
+          "speaker": "SPEAKER_12"
+        }
+      ]
+    },
+    {
+      "id": "context-graph",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文图谱 (context graph)",
+      "file": "上下文图谱",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 139,
+          "t": [
+            875.452,
+            882.233
+          ],
+          "quote": "So we're incrementally modifying this context graph as data teams are making more data commits to it.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 182,
+          "t": [
+            1114.818,
+            1125.92
+          ],
+          "quote": "And then it could land on, let's say, everything downstream on like a board level dashboard that you have because the context graph is inclusive of your entire data system, everything from like source systems all the way down to the BI layer and the dashboards layer.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 797,
+          "t": [
+            4595.221,
+            4608.044
+          ],
+          "quote": "A sort of fixed understanding of exactly what is present in your data warehouse, which I think is kind of a different ask than what the context graph is trying to extract, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 799,
+          "t": [
+            4609.444,
+            4613.866
+          ],
+          "quote": "We read information from the catalog to form the context graph.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 863,
+          "t": [
+            4956.251,
+            4960.054
+          ],
+          "quote": "I did all this work and I built this context graph and I ran the evals and it was a tie.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1049,
+          "t": [
+            5990.681,
+            6011.266
+          ],
+          "quote": "Yes, so that's basically our product, right, is that concept of we build the context graph, we build the ontology layer on top of it, where we try to organize all the information around your data architecture, where things are pointed, where things live, what things mean, and then we give the agent access to that toolset to be able to answer questions and make changes within your data architecture.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1070,
+          "t": [
+            6129.668,
+            6135.971
+          ],
+          "quote": "Incorporate all of that into a single understood context tree, context graph that we can actually traverse.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": false,
+      "how_described": "Brandon 用它解释智能体为何偏爱 grep:训练里有太多场景正确答案就是搜索加读文件,形成了对抗不了的条件反射。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 617,
+          "t": [
+            3579.128,
+            3580.329
+          ],
+          "quote": "Well, it's because of the post-training.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "lineage",
+      "type": "concept",
+      "role": "concept",
+      "name": "血缘 (lineage)",
+      "file": "血缘",
+      "primary": false,
+      "how_described": "本集讲表级/列级血缘可从 SQL 解析到 AST 确定性算出,智能体能沿血缘走完整条数据生命周期做影响分析。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 114,
+          "t": [
+            712.004,
+            716.286
+          ],
+          "quote": "So for example you can take a look at how the models actually connect looking at lineage for example.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 115,
+          "t": [
+            716.786,
+            721.489
+          ],
+          "quote": "Table level lineage, column level lineage, looking at shared keys, looking at shared naming.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 121,
+          "t": [
+            778.82,
+            783.043
+          ],
+          "quote": "And so you're able to compute grain and lineage straight from the actual SQL itself.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 183,
+          "t": [
+            1125.96,
+            1131.501
+          ],
+          "quote": "So the agent has visibility and they're able to walk the lineage all the way across the data lifecycle, if you will.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 1080,
+          "t": [
+            6194.922,
+            6209.914
+          ],
+          "quote": "Yeah, that lineage is very useful, but for us, it's partially for the data team that's doing this development, great, but I want that to eventually be accessible to the business, right, so they can look at their report and they're like, that's not right, what the hell, and then rather than coming to my team and to yell at me,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1098,
+          "t": [
+            6306.77,
+            6320.722
+          ],
+          "quote": "That's what we're trying to get to is that unified vision of how everything works from runtime through lineage and being able for the agent to actually answer those kind of questions and sit between those different layers and make that process more efficient.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "quadrant",
+      "type": "company",
+      "role": "company",
+      "name": "Quadrant",
+      "file": "Quadrant",
+      "primary": true,
+      "how_described": "Brandon 工作坊选用的真实开源代码库(转写稿作 Quadrant),用它演示文本搜索分不清两个同名 posting list,而代码图谱一查就能区分。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 283,
+          "t": [
+            1666.404,
+            1668.185
+          ],
+          "quote": "We're gonna be using the Quadrant code base today.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1760.197,
+            1761.338
+          ],
+          "quote": "It's a real type in Quadrant.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 396,
+          "t": [
+            2242.504,
+            2255.33
+          ],
+          "quote": "So, this notebook, what this notebook is gonna do is it's just going to walk through the process of building up those levels of different context for our quadrant project.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "neo4j",
+      "type": "company",
+      "role": "company",
+      "name": "Neo4j",
+      "file": "Neo4j",
+      "primary": true,
+      "how_described": "工作坊用来存放代码图谱的图数据库,通过 Docker 运行,智能体用 Cypher 查询节点和边。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 289,
+          "t": [
+            1707.249,
+            1711.769
+          ],
+          "quote": "The dependencies there are Docker Compose or Docker for running Neo4j.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 409,
+          "t": [
+            2318.621,
+            2328.688
+          ],
+          "quote": "For the colab for the notebook one, if you do want to use the graph, you will need a Neo4j or a login, but that's just a special thing for that.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2497.225,
+            2502.237
+          ],
+          "quote": "We transform that into a bunch of nodes and edges that we can populate into our Neo4j graph.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2508.302,
+            2511.986
+          ],
+          "quote": "So once that's in the graph, right, we can even go into Neo4j.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1051,
+          "t": [
+            6028.296,
+            6034.263
+          ],
+          "quote": "So a lot of stuff that you showed here is very similar to what Neo4j showed in an earlier workshop, which is like, okay, here's the knowledge graph.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集作为参照提及:一年前和现在运行体验完全不同,以及 Typedef 的评测对比中「比单独运行 Claude Code 更好」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 333,
+          "t": [
+            1891.956,
+            1895.302
+          ],
+          "quote": "We can all see what happened when we ran Claude Code a year ago versus running it now.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 568,
+          "t": [
+            3330.931,
+            3354.713
+          ],
+          "quote": "By building out our evaluation layer and layering out evaluations of how correct it is, how complete it is, how efficient it is, we are able to see that with the appropriate context, our agents are able to do a better job overall and in certain particular categories to accomplish those same tasks better than just Claude Code running alone.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 763,
+          "t": [
+            4389.362,
+            4391.704
+          ],
+          "quote": "Ask your Claude Code to call the graph and do those other things.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "被作为编码智能体上下文工程的代表提及;Q&A 里说 Cursor 做的语义向量搜索是第二层上下文,有效但仍是扁平列表。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 985,
+          "t": [
+            5577.826,
+            5581.067
+          ],
+          "quote": "Cursor does a lot of the level two stuff.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 986,
+          "t": [
+            5581.547,
+            5587.67
+          ],
+          "quote": "So when you see Cursor doing searching through your code base, it's usually doing semantic search, like vector embedding search.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "mattermost",
+      "type": "company",
+      "role": "company",
+      "name": "Mattermost",
+      "file": "Mattermost",
+      "primary": true,
+      "how_described": "Typedef 评测语料的来源:这家开源的事件响应/聊天公司开放了含约 300-350 个模型的整个 dbt 项目,团队注入 bug 让智能体找根因。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 564,
+          "t": [
+            3299.678,
+            3303.62
+          ],
+          "quote": "So we ended up settling on using, I don't know if anyone's heard of Mattermost.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "adebench",
+      "type": "concept",
+      "role": "concept",
+      "name": "ADEbench",
+      "file": "ADEbench",
+      "primary": false,
+      "how_described": "本集提到的数据工程智能体现有基准,被视为当前行业标准:用 diff 在仓库里制造问题,让智能体读 warehouse 和代码去修复。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 838,
+          "t": [
+            4812.086,
+            4813.808
+          ],
+          "quote": "ADEbench is a great one.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": false,
+      "how_described": "本集谈到 Snowflake/Databricks 的 MCP:精选工具集永远胜过现成 MCP 大杂烩,他们重写了很多 MCP 以匹配自身能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            505.899,
+            509.1
+          ],
+          "quote": "So I'm going to connect my Snowflake or Databricks MCP to it.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1336.843,
+            1350.172
+          ],
+          "quote": "The better context, the more rich context you're able to give the agent, the outcome changes tremendously than just, let's say, like swapping models or adding more generic-like tools, MCP tools to the model itself.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1469.566,
+            1480.616
+          ],
+          "quote": "Even for the MCPs that we do have that give our agent access to, Snowflake MCP or Databricks MCP, we found ourselves rewriting a lot of it to match the capabilities and functionality of what we're trying to accomplish.",
+          "speaker": "SPEAKER_12"
+        },
+        {
+          "seg": 761,
+          "t": [
+            4372.134,
+            4383.781
+          ],
+          "quote": "Yes, I think the easiest part, I mean, would probably be like starting to hook it in as an MCP to the tools that you're already using.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "palantir",
+      "type": "company",
+      "role": "company",
+      "name": "Palantir",
+      "file": "Palantir",
+      "primary": false,
+      "how_described": "Q&A 中一位听众提及:这种本体/依赖的思路正是 Palantir 靠之赚钱的东西。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1045,
+          "t": [
+            5970.221,
+            5972.962
+          ],
+          "quote": "And this is what Palantir is making a killing out of, actually.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "type": "company",
+      "role": "company",
+      "name": "Salesforce",
+      "file": "Salesforce",
+      "primary": false,
+      "how_described": "被作为高度可配置的第三方 SaaS 数据源和 Yoni 曾工作过的公司提及,用于讨论从 Salesforce 到 BI 层的端到端血缘。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1069,
+          "t": [
+            6117.6,
+            6128.084
+          ],
+          "quote": "The goal is to be reading from your Salesforce, from your Fivetran, from your Airbyte, from your whatever, from all the transfer mechanisms that you have, your Airflow, your whatever,",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1076,
+          "t": [
+            6163.825,
+            6176.55
+          ],
+          "quote": "It's to be able to reason across all those different layers that you have in your data architecture, build off a single graph that you can actually trace how data is flowing from Salesforce all the way down to your BI layer, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1079,
+          "t": [
+            6183.233,
+            6194.542
+          ],
+          "quote": "It's able to say, oh, yeah, great, that originates up here in the Stripe data, actually, and then it gets joined into your Salesforce lead data down here to figure out this thing down here, which is where the actual data is being calculated.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1089,
+          "t": [
+            6260.313,
+            6263.814
+          ],
+          "quote": "I worked at Salesforce for this, so I get a little bit of that on a high level.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

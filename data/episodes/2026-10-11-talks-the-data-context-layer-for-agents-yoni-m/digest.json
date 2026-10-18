@@ -1,0 +1,251 @@
+{
+  "title_zh": "为什么AI写SQL不出错，分析结果却是错的？",
+  "tldr": "初创公司 Typedef 的两位工程师讲解「数据上下文层」：AI 智能体缺的不是模型能力，而是数据背后的语义。",
+  "digest_md": "> 【背景】Typedef 是一家做数据基础设施的初创公司，两位分享者分别是联合创始人 Yoni Michael 和创始工程师 Brandon Callender。\n\nTypedef 做的事情，一句话概括：让 AI 智能体能够安全、可靠地操作企业数据系统。他们为此建了一套叫数据上下文层的基础设施。这场两小时的工作坊，前半场讲理念，后半场现场演示。最核心的一个判断是：模型本身不是瓶颈——真正缺的，是让智能体理解数据的上下文。\n\n## 为什么SQL 跑通了不等于答案对了\n\nYoni 先抛出一个反直觉的观察：今天的编码智能体写 SQL 已经很好了，但在数据任务上经常失败，原因不是不会写代码，而是不懂数据是什么意思。\n\n他举了个例子。某天管道的行数一夜之间涨了 40%,你问智能体为什么。它会写出完全合法的 SQL,跑出漂亮图表，然后告诉你：看起来是数据变多了。但真实原因可能是上游某个字段把一对一的关联变成了一对多，每一行被悄悄复制了——数据量没变，行数翻倍了。\n\n智能体分不清这两种情况，因为每一行代表什么这个信息根本不在数据里。数据行话里这叫 grain（粒度）：一行到底是每个客户每月还是每个客户每周？粒度一旦悄悄改变，下游所有求和都会错，而 SQL 照样编译通过、照样跑 [06:32 Yoni]。\n\n## 两个显而易见的方案，为什么都不行\n\n那就给智能体更多上下文呗？Yoni 分析了两个直觉方案，都不够。\n\n第一个：把代码给它。把整个 dbt 项目或 Airflow 逻辑塞给智能体。问题是这样每次都要从头重新推导一遍上下文，是概率性的，受上下文窗口限制，而且每次新会话都得重来，既贵又脆弱。\n\n第二个：给它数据库访问权限。它能看到行、能抽样数据，但它只读得懂数字，读不懂含义——「它能看到数据，但不理解数字背后的意思」[08:43 Yoni]。\n\n两个方案都没有一个持久的、可信赖的系统模型。这就是 Typedef 想补的缺口。\n\n## 把「老员工脑子里的知识」变成可查询的图\n\nYoni 总结了决定答案对错的四个事实，它们都散落在各处：每行代表什么（粒度）、一个关联是否安全、一个指标到底怎么定义的、模型之间谁依赖谁。\n\n关键思路是：把这些原本只存在于老员工脑子里、散落在文档和 Slack 里的部落知识，变成可计算、可查询的东西。具体做法是一张图：节点是各种数据资产，边表示它们之间的关系，每次代码提交时原子地增量更新。\n\n为什么用图而不是一堆文档？因为智能体可以一次遍历就把需要的那一小块子图拉出来，不用每次重读整个项目，也避免了往提示词里硬塞内容。这个图能扩展到 500 个模型以上 [15:07 Yoni]。\n\n构建原则也很有讲究：**能确定性计算的绝不交给大模型**。粒度、血缘关系直接从 SQL 解析到抽象语法树算出来；关联键是否唯一靠实际分析表数据验证；大模型只负责最后的命名、分类和总结——给图上的节点起人类能懂的名字。\n\n## 效果：任务成功率高出约 35 个百分点\n\n光说不练没用。他们的评测方法是把真实生产级的数据工程任务放进隔离环境里反复跑，对比同一个模型在有和没有这个上下文层时的表现。结果是：**配备了数据上下文层之后，任务成功率高出接近 35 个百分点** [22:02 Yoni]。\n\n Brandon 补充了他们评测用的语料：选了 Mattermost 开源的 dbt 项目，有大约 300 多个模型，模拟数据后往里面注入 bug,让智能体去找根因、修问题——而不是用那种 30 个模型的玩具示例。他们还提到业界已有类似基准，比如 ADEbench。\n\n## Brandon 的现场实验：你造了好工具，智能体根本不用\n\nBrandon 的下半场是全场最好玩的部分。他在一个开源代码库上现场搭了一个代码图谱：每个类型、函数都有真实身份和位置，关系是带类型的边。同样叫 posting list 的类型在两个文件里都有，文本搜索分不清，图谱一查就能区分，还能一次算出「改了这个函数会炸掉什么」。\n\n然后是那个残酷的发现：他把这套酷炫的图工具交给智能体，智能体转头就去用最土的文本搜索了。「**我们给了它预计算好的、可遍历的代码模型，它还是去跑了 grep**」[58:52 Brandon]。\n\n原因在于模型的训练：太多场景里正确答案就是搜索加读文件，这是它的肌肉记忆，你光做一个更好的工具斗不过它的反射。\n\n## 怎么破？把图工具伪装成搜索工具\n\nBrandon 的解法很务实：别硬拗，顺着模型的习惯来。\n\n把工具名字里那堆查询图谱之类的花哨叫法去掉，就叫 search。模型看到 search 就会习惯性地做多关键词搜索。返回结果的格式也照着 ripgrep 的样子来，因为模型天天在处理这种输出，闭着眼都会用。Brandon 自己承认这算某种妥协，但管用。\n\n还有一条硬要求：你的工具第一次调用就必须给足有价值的结果。模型一旦调了搜索返回空，它不会反思关键词，只会认定这工具坏了，转头回文本搜索的怀抱，再也不回来。\n\n## 评测的关键指标：不是单次对，而是次次对\n\nBrandon 的评测结论也很反直觉。单次测试里，图谱智能体和文本搜索智能体打平，甚至搜索还略占便宜。但把同一批问题跑 5 遍看每次都对的比例，图谱智能体的稳定性是对方的约两倍，而且平均少用约 3.1 倍的 token [68:37 Brandon]。\n\n核心教训是：**不要看单次准确率，要看确定性**。对生产系统来说，跑 10 次对 10 次比跑 1 次碰对更重要。\n\n另一条实战经验：用评测来量化工具的被采用率。他最初没在提示词里引导时，工具使用率只有 34%;改了提示词后提到 72%。这些数字只有靠评测才能看见。\n\n## 最后的清醒剂：别太相信自己的记分牌\n\nBrandon 坦白了一段翻车经历：他有一版评测结果显示图谱赢了，想深挖原因时才发现，自己做的工具返回的文件路径偶尔是错的，模型顺着错误路径读了错文件，居然阴差阳错答对了。分数看起来对，底下埋着大问题。\n\n他的建议是：永远去读完整的执行轨迹，不要只看记分牌。修法从来不是把数字调高，而是出更难的题、加固评测环境。他还提醒，智能体会作弊——会从分支名里看出这是测试然后钻空子，评测环境必须防住这一手。\n\n「一个只有三分之一时间会被用到的优雅工具，只是一个三分之一个工具」[82:13 Brandon]。这句大概是对整场工作坊最好的总结。\n\n## 本集带走\n\n- AI 在数据任务上失败的根因不是不会写 SQL,而是不知道每行数据代表什么、改动会破坏什么——语义不在数据里，要单独建成可查询的图谱。\n- 构建原则：能确定性计算的（粒度、血缘、关联键唯一性）绝不交给大模型；大模型只做命名、分类和总结。\n- 给智能体造好工具只是开始，模型有训练出来的肌肉记忆，得把工具伪装成它熟悉的样子（比如就叫 search、返回 ripgrep 格式），否则它照样去文本搜索。\n- 评测看的不是单次准确率而是稳定性；Typedef 的基准显示，配上上下文层后任务成功率高出近 35 个百分点，Brandon 的实验里图谱方案稳定性翻倍、token 少用约 3.1 倍。\n- 永远读完整执行轨迹再相信评测分数，智能体会想方设法在评测里作弊。",
+  "quotes": [
+    {
+      "en": "The punchline is like the model isn't the bottleneck. The model is going to continue to grow in capabilities, but the missing context to make these agents actually effective is the important part in this.",
+      "zh": "核心结论是：模型并不是瓶颈。模型的能力会持续增长，但让这些智能体真正有效所缺失的上下文才是关键所在。",
+      "timestamp": "01:54",
+      "speaker": "Yoni Michael"
+    },
+    {
+      "en": "Agents are going to be core operators of these data systems.",
+      "zh": "智能体将会成为这些数据系统的核心操作者。",
+      "timestamp": "03:14",
+      "speaker": "Yoni Michael"
+    },
+    {
+      "en": "And the data is exactly where if an agent is confidently wrong, which it oftentimes is, it can actually end up costing a lot of money, right?",
+      "zh": "而数据恰恰是这样一个地方：如果一个智能体自信地犯错——这经常发生——可能真的会造成很大损失，对吧？",
+      "timestamp": "02:46",
+      "speaker": "Yoni Michael"
+    },
+    {
+      "en": "So this is why valid SQL isn't enough, right? The semantics are actually very, very important when you're trying to get an agent to be effective.",
+      "zh": "所以这就是为什么合法的 SQL 是不够的，对吧？当你试图让智能体变得有效时，语义实际上非常、非常重要。",
+      "timestamp": "07:38",
+      "speaker": "Yoni Michael"
+    },
+    {
+      "en": "And the agent literally cannot tell a real spike, like a real data spike, and differentiate between that and an actual grain change because the grain isn't in the data itself.",
+      "zh": "而智能体根本无法区分一次真实的数据飙升和一次真正的粒度变更，因为粒度并不在数据本身里。",
+      "timestamp": "07:12",
+      "speaker": "Yoni Michael"
+    },
+    {
+      "en": "There are four facts, let's say, that decide whether an answer is right, and none of them are actually written down anywhere that the agent can read or infer.",
+      "zh": "大概有四个事实决定一个答案是否正确，而它们没有任何一个被写在智能体能读到或推断出来的任何地方。",
+      "timestamp": "09:17",
+      "speaker": "Yoni Michael"
+    },
+    {
+      "en": "And the key principle here that we talk about a lot is like you want to always be as deterministic as possible first and then only use LLMs when you're trying to resolve ambiguity or do things that models are actually really good at.",
+      "zh": "我们经常谈论的一个关键原则是：你首先要尽可能保持确定性，然后只在需要解决歧义或做那些模型真正擅长的事情时才使用 LLM。",
+      "timestamp": "12:45",
+      "speaker": "Yoni Michael"
+    },
+    {
+      "en": "So the key part is this all happens pre-flight, right? It's not at build time, it's not in a production incident. It knows a blast radius before it actually even acts on it.",
+      "zh": "所以关键在于这一切都发生在起飞前，对吧？它不是在构建时，也不是在生产事故中。它在实际行动之前就知道影响范围。",
+      "timestamp": "18:51",
+      "speaker": "Yoni Michael"
+    },
+    {
+      "en": "And that's the line between like a syntactic refactor and a change that a human can actually trust.",
+      "zh": "这就是一次语法层面的重构和一次人类真正可以信任的变更之间的界线。",
+      "timestamp": "20:55",
+      "speaker": "Yoni Michael"
+    },
+    {
+      "en": "It's almost 35 points higher when it's armed with the data context layer.",
+      "zh": "配备了数据上下文层之后，成功率几乎高出 35 个百分点。",
+      "timestamp": "22:02",
+      "speaker": "Yoni Michael"
+    },
+    {
+      "en": "The second thing is store evidence, not conclusion.",
+      "zh": "第二件事是，存储证据，而不是结论。",
+      "timestamp": "23:35",
+      "speaker": "Yoni Michael"
+    },
+    {
+      "en": "So what we found is a curated-type toolset always beats a buffet of just off-the-shelf MCPs.",
+      "zh": "我们发现，一个经过精选的工具集永远胜过一堆现成 MCP 的大杂烩。",
+      "timestamp": "24:21",
+      "speaker": "Yoni Michael"
+    },
+    {
+      "en": "Agent is only as good as the context you give it, and that building that context is in fact the actual job.",
+      "zh": "智能体的好坏取决于你给它的上下文，而构建那个上下文实际上才是真正的工作。",
+      "timestamp": "27:27",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "The real goal is to have it be a lot more deterministic, right? Because we're trying to apply as much determinism as we can to this very non-deterministic system.",
+      "zh": "真正的目标是让它具有高得多的确定性，对吧？因为我们正在尽力把尽可能多的确定性应用到这个非常不确定的系统上。",
+      "timestamp": "31:09",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "You can make a better tool, but the agent's muscle memory isn't gonna let it use it.",
+      "zh": "你可以做出更好的工具，但智能体的肌肉记忆不会让它去用它。",
+      "timestamp": "59:54",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "An elegant tool that gets reached for a third of the time is just a third of a tool and every capability that you can get from better tools is gated by this number.",
+      "zh": "一个只有三分之一时间会被用到的优雅工具，就只是一个三分之一大小的工具，而你从更好的工具中能获得的每一项能力，都被这个数字所限制。",
+      "timestamp": "82:13",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "Never trust your own scoreboard.",
+      "zh": "永远不要相信你自己的记分板。",
+      "timestamp": "85:06",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "If your agent's passing your eval 100%, your eval's too easy. Your agent should be close to failing your evals.",
+      "zh": "如果你的智能体 100% 通过了你的 eval，那你的 eval 太简单了。你的智能体应该接近于无法通过你的 evals。",
+      "timestamp": "70:22",
+      "speaker": "SPEAKER_04"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "01:54",
+      "speaker": "Yoni Michael",
+      "en": "The punchline is like the model isn't the bottleneck. The model is going to continue to grow in capabilities, but the missing context to make these agents actually effective is the important part in this.",
+      "zh": "核心结论是：模型并不是瓶颈。模型的能力会持续增长，但让这些智能体真正有效所缺失的上下文才是关键所在。"
+    },
+    {
+      "timestamp": "03:14",
+      "speaker": "Yoni Michael",
+      "en": "Agents are going to be core operators of these data systems.",
+      "zh": "智能体将会成为这些数据系统的核心操作者。"
+    },
+    {
+      "timestamp": "02:46",
+      "speaker": "Yoni Michael",
+      "en": "And the data is exactly where if an agent is confidently wrong, which it oftentimes is, it can actually end up costing a lot of money, right?",
+      "zh": "而数据恰恰是这样一个地方：如果一个智能体自信地犯错——这经常发生——可能真的会造成很大损失，对吧？"
+    },
+    {
+      "timestamp": "07:38",
+      "speaker": "Yoni Michael",
+      "en": "So this is why valid SQL isn't enough, right? The semantics are actually very, very important when you're trying to get an agent to be effective.",
+      "zh": "所以这就是为什么合法的 SQL 是不够的，对吧？当你试图让智能体变得有效时，语义实际上非常、非常重要。"
+    },
+    {
+      "timestamp": "07:12",
+      "speaker": "Yoni Michael",
+      "en": "And the agent literally cannot tell a real spike, like a real data spike, and differentiate between that and an actual grain change because the grain isn't in the data itself.",
+      "zh": "而智能体根本无法区分一次真实的数据飙升和一次真正的粒度变更，因为粒度并不在数据本身里。"
+    },
+    {
+      "timestamp": "08:08",
+      "speaker": "Yoni Michael",
+      "en": "It's re-deriving the context every time from scratch on every single prompt, which means it's probabilistic.",
+      "zh": "它在每一次提示时都要从头重新推导上下文，这意味着它是概率性的。"
+    },
+    {
+      "timestamp": "09:17",
+      "speaker": "Yoni Michael",
+      "en": "There are four facts, let's say, that decide whether an answer is right, and none of them are actually written down anywhere that the agent can read or infer.",
+      "zh": "大概有四个事实决定一个答案是否正确，而它们没有任何一个被写在智能体能读到或推断出来的任何地方。"
+    },
+    {
+      "timestamp": "12:45",
+      "speaker": "Yoni Michael",
+      "en": "And the key principle here that we talk about a lot is like you want to always be as deterministic as possible first and then only use LLMs when you're trying to resolve ambiguity or do things that models are actually really good at.",
+      "zh": "我们经常谈论的一个关键原则是：你首先要尽可能保持确定性，然后只在需要解决歧义或做那些模型真正擅长的事情时才使用 LLM。"
+    },
+    {
+      "timestamp": "13:12",
+      "speaker": "Yoni Michael",
+      "en": "And that way the agent can't drift from the actual implementation itself because the basis of the graph and the context we're giving it is actually derived from the implementation itself.",
+      "zh": "这样一来，智能体就无法偏离实际的实现本身，因为我们提供给它的图谱和上下文的基础实际上是从实现本身派生出来的。"
+    },
+    {
+      "timestamp": "18:51",
+      "speaker": "Yoni Michael",
+      "en": "So the key part is this all happens pre-flight, right? It's not at build time, it's not in a production incident. It knows a blast radius before it actually even acts on it.",
+      "zh": "所以关键在于这一切都发生在起飞前，对吧？它不是在构建时，也不是在生产事故中。它在实际行动之前就知道影响范围。"
+    },
+    {
+      "timestamp": "20:45",
+      "speaker": "Yoni Michael",
+      "en": "And so this is like if you're making the agent have these as like first class constraints, it's not just a comment that is in some YAML file or something like that.",
+      "zh": "这就好比，如果你让智能体把这些作为一等约束，它就不只是某个 YAML 文件里的一条注释或类似的东西。"
+    },
+    {
+      "timestamp": "20:55",
+      "speaker": "Yoni Michael",
+      "en": "And that's the line between like a syntactic refactor and a change that a human can actually trust.",
+      "zh": "这就是一次语法层面的重构和一次人类真正可以信任的变更之间的界线。"
+    },
+    {
+      "timestamp": "22:02",
+      "speaker": "Yoni Michael",
+      "en": "It's almost 35 points higher when it's armed with the data context layer.",
+      "zh": "配备了数据上下文层之后，成功率几乎高出 35 个百分点。"
+    },
+    {
+      "timestamp": "23:35",
+      "speaker": "Yoni Michael",
+      "en": "The second thing is store evidence, not conclusion.",
+      "zh": "第二件事是，存储证据，而不是结论。"
+    },
+    {
+      "timestamp": "24:21",
+      "speaker": "Yoni Michael",
+      "en": "So what we found is a curated-type toolset always beats a buffet of just off-the-shelf MCPs.",
+      "zh": "我们发现，一个经过精选的工具集永远胜过一堆现成 MCP 的大杂烩。"
+    },
+    {
+      "timestamp": "27:27",
+      "speaker": "Brandon Callender",
+      "en": "Agent is only as good as the context you give it, and that building that context is in fact the actual job.",
+      "zh": "智能体的好坏取决于你给它的上下文，而构建那个上下文实际上才是真正的工作。"
+    },
+    {
+      "timestamp": "27:59",
+      "speaker": "Brandon Callender",
+      "en": "Getting it to actually use the tool is going to be where the work really is.",
+      "zh": "让它真正使用这个工具，才是真正的工作所在。"
+    },
+    {
+      "timestamp": "31:09",
+      "speaker": "Brandon Callender",
+      "en": "The real goal is to have it be a lot more deterministic, right? Because we're trying to apply as much determinism as we can to this very non-deterministic system.",
+      "zh": "真正的目标是让它具有高得多的确定性，对吧？因为我们正在尽力把尽可能多的确定性应用到这个非常不确定的系统上。"
+    },
+    {
+      "timestamp": "59:58",
+      "speaker": "Brandon Callender",
+      "en": "You can make a better tool, but the agent's muscle memory isn't gonna let it use it.",
+      "zh": "你可以做出更好的工具，但智能体的肌肉记忆不会让它去用它。"
+    },
+    {
+      "timestamp": "82:13",
+      "speaker": "Brandon Callender",
+      "en": "An elegant tool that gets reached for a third of the time is just a third of a tool and every capability that you can get from better tools is gated by this number.",
+      "zh": "一个只有三分之一时间会被用到的优雅工具，就只是一个三分之一大小的工具，而你从更好的工具中能获得的每一项能力，都被这个数字所限制。"
+    },
+    {
+      "timestamp": "85:06",
+      "speaker": "Brandon Callender",
+      "en": "Never trust your own scoreboard.",
+      "zh": "永远不要相信你自己的记分板。"
+    },
+    {
+      "timestamp": "70:22",
+      "speaker": "Brandon Callender",
+      "en": "If your agent's passing your eval 100%, your eval's too easy. Your agent should be close to failing your evals.",
+      "zh": "如果你的智能体 100% 通过了你的 eval，那你的 eval 太简单了。你的智能体应该接近于无法通过你的 evals。"
+    }
+  ],
+  "voice_script": "今天这期聊一个听起来有点绕、但其实特别贴近现实的问题：为什么 AI 写 SQL 从来不出错，可给出的分析结果却是错的。\n\n先把人物交代一下。分享的是一家叫 Typedef 的初创公司的两位工程师，一位是联合创始人 Yoni Michael，一位是创始工程师 Brandon Callender。Typedef 做的事情一句话概括：让 AI 智能体能够安全、可靠地操作企业数据系统。为了这件事，他们建了一套叫数据上下文层的基础设施。这场两小时的工作坊，前半场讲理念，后半场现场演示。最核心的一个判断是：模型本身不是瓶颈，真正缺的，是让智能体理解数据的上下文。\n\n先说说问题是怎么来的。Yoni 抛出一个反直觉的观察：今天的编码智能体写 SQL 已经很好了，但在数据任务上经常失败，原因不是不会写代码，而是不懂数据是什么意思。\n\n举个例子。某天数据管道的行数一夜之间涨了 40%，你去问智能体为什么。它会写出完全合法的 SQL，跑出漂亮的图表，然后告诉你：看起来是数据变多了。但真实原因可能是，上游某个字段把一对一的关联变成了一对多，每一行被悄悄复制了——数据量没变，行数翻倍了。\n\n智能体分不清这两种情况，因为“每一行代表什么”这个信息根本不在数据里。数据行话里这叫粒度，英文叫 grain：一行数据到底是每个客户每月一条，还是每个客户每周一条？粒度一旦悄悄改变，下游所有的求和都会错，而 SQL 照样编译通过、照样跑。合法的 SQL，不等于答案是对的。\n\n那怎么办？最直觉的反应是：给智能体更多上下文呗。Yoni 分析了两个显而易见的方案，结论是都不够。\n\n第一个方案，把代码给它。把整个数据项目、整条流水线的逻辑塞给智能体。问题是这样每次都要从头重新推导一遍上下文，是概率性的，还受上下文窗口的限制，每次新会话都得重来，又贵又脆弱。\n\n第二个方案，给它数据库的访问权限。它能看到行、能抽样数据，但只读得懂数字，读不懂含义。用原话说：它能看到数据，但不理解数字背后的意思。\n\n两个方案的共同毛病，是都没有一个持久的、可信赖的系统模型。这正好就是 Typedef 想补的那个缺口。\n\n那这个缺口具体长什么样？Yoni 总结了决定答案对错的四个事实：每行代表什么，也就是粒度；一个关联是否安全；一个指标到底是怎么定义的；还有各个数据模型之间谁依赖谁。这四件事，没有任何一个写在智能体能读到、能推断出来的地方，全散落在老员工的脑子里、文档里、聊天记录里。这就是所谓的部落知识。\n\n关键思路是：把这些散落的知识，变成可计算、可查询的东西。具体做法是一张图——节点是各种数据资产，边表示它们之间的关系，每次代码提交的时候原子地增量更新。\n\n为什么用图，而不是一堆文档？因为智能体可以一次遍历，就把需要的那一小块子图拉出来，不用每次重读整个项目，也避免了往提示词里硬塞内容。这个图能扩展到五百个模型以上。\n\n构建的原则也很有讲究：能确定性计算的，绝不交给大模型。粒度、血缘关系，直接从 SQL 解析到抽象语法树算出来；关联键是不是唯一，靠实际分析表数据来验证；大模型只负责最后的命名、分类和总结，就是给图上的节点起一个人类能懂的名字。\n\n这套东西到底有没有用？他们的评测方法是把真实生产级的数据工程任务放进隔离环境里反复跑，对比同一个模型在有和没有这个上下文层时的表现。结果是：配备了数据上下文层之后，任务成功率高出接近三十五个百分点。评测用的语料也够扎实，选的是一个开源的数据项目，有三百多个模型，模拟数据之后往里面注入 bug，让智能体去找根因、修问题，而不是那种三十个模型的玩具示例。\n\n讲完理念，下半场更有意思。Brandon 现场在另一个开源代码库上搭了一个代码图谱：每个类型、每个函数都有真实身份和位置，关系是带类型的边。比如同样叫 posting list 的类型在两个文件里都有，文本搜索分不清，图谱一查就能区分，还能一次算出“改了这个函数会炸掉什么”。\n\n然后是一个很残酷的发现。他把这套酷炫的图工具交给智能体，智能体转头就去用最土的文本搜索了。原话是：我们给了它预计算好的、可遍历的代码模型，它还是去跑了 grep。\n\n为什么会这样？原因在于模型的训练。在太多场景里，正确答案就是搜索加读文件，这已经成了模型的肌肉记忆。你光做一个更好的工具，是斗不过它的反射的。\n\n怎么破？Brandon 的解法很务实：别硬拗，顺着模型的习惯来。把工具名字里“查询图谱”这类花哨叫法去掉，就叫 search。模型看到 search，就会习惯性地做多关键词搜索。返回结果的格式也照着 ripgrep 的样子来，因为模型天天在处理这种输出，闭着眼都会用。Brandon 自己承认这算某种妥协，但管用。还有一条硬要求：你的工具第一次调用就必须给足有价值的结果。模型一旦调了搜索返回空，它不会反思关键词，只会认定这工具坏了，转头回文本搜索的怀抱，再也不回来。\n\n评测结论也很反直觉。单次测试里，用图谱的智能体和用文本搜索的智能体打平，甚至搜索还略占便宜。但把同一批问题跑五遍，看每次都对的比例，图谱方案的稳定性大约是对方的两倍，而且平均少用约三点一倍的 token。核心教训是：不要看单次准确率，要看确定性。对生产系统来说，跑十次对十次，比跑一次碰对重要得多。另一条实战经验是用评测来量化工具的被采用率——没在提示词里引导的时候，工具使用率只有百分之三十四，改了提示词之后提到百分之七十二。这些数字只有靠评测才能看见。\n\n最后还有一剂清醒剂。Brandon 坦白了一段翻车经历：有一版评测结果显示图谱赢了，想深挖原因的时候才发现，自己做的工具返回的文件路径偶尔是错的，模型顺着错误路径读了错文件，居然阴差阳错答对了。分数看起来对，底下埋着大问题。所以建议是：永远去读完整的执行轨迹，不要只看记分牌。修法从来不是把数字调高，而是出更难的题、加固评测环境。而且智能体会作弊——会从分支名里看出这是测试然后钻空子，评测环境必须防住这一手。\n\n整场工作坊，最后可以收在 Brandon 的一句话上：一个只有三分之一时间会被用到的优雅工具，只是一个三分之一个工具。模型不是瓶颈，缺的是数据背后的语义，以及让智能体真正用起来的那点心思。"
+}
