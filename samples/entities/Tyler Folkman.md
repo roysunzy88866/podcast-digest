@@ -53,7 +53,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"JobNimbus":1,"Claude":99,"Herder":1,"循环":10,"智能体":1,"技能":36,"闸门":2,"原型":8,"hooks":4,"构建者":5}</script>
+<script type="application/json" class="pd-epn">{"JobNimbus":1,"Claude":100,"Herder":1,"循环":10,"智能体":1,"技能":36,"闸门":2,"原型":8,"hooks":4,"构建者":5}</script>
 
 <script>
 (function(){

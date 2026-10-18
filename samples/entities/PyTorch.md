@@ -37,7 +37,7 @@ unlisted: true
 
 [[NVIDIA]] · [[智能体]] · [[SGLang]] · [[GPU]] · [[vLLM]] · [[推理]] · [[Jensen Huang]] · [[Charles Frye]] · [[Amin Vahdat]] · [[Abdul Dakkak]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":72,"智能体":1,"SGLang":5,"GPU":36,"vLLM":9,"推理":105,"Jensen Huang":4,"Charles Frye":1,"Amin Vahdat":1,"Abdul Dakkak":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":72,"智能体":1,"SGLang":5,"GPU":37,"vLLM":10,"推理":106,"Jensen Huang":4,"Charles Frye":1,"Amin Vahdat":1,"Abdul Dakkak":1}</script>
 
 <script>
 (function(){

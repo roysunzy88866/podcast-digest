@@ -51,7 +51,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jason":8,"Reflection AI":1,"开源模型":4,"强化学习":1,"沙箱":104,"预训练":10,"奖励黑客":13,"安全":2,"推理":105,"Beam":1}</script>
+<script type="application/json" class="pd-epn">{"Jason":8,"Reflection AI":1,"开源模型":4,"强化学习":1,"沙箱":104,"预训练":10,"奖励黑客":13,"安全":2,"推理":106,"Beam":1}</script>
 
 <script>
 (function(){

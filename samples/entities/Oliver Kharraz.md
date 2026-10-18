@@ -51,7 +51,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Julie Yu":1,"ZocDoc":1,"Gemini":17,"智能体":1,"医疗可及性基础设施":1,"EHR":3,"围墙花园":3,"发现型预约":1,"利用率":1}</script>
+<script type="application/json" class="pd-epn">{"Julie Yu":1,"ZocDoc":1,"Gemini":18,"智能体":1,"医疗可及性基础设施":1,"EHR":3,"围墙花园":3,"发现型预约":1,"利用率":1}</script>
 
 <script>
 (function(){

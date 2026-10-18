@@ -45,7 +45,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Airbyte":1,"MCP":100,"CLI":5,"智能体":1,"上下文存储":1,"OAuth":4,"技能":36}</script>
+<script type="application/json" class="pd-epn">{"Airbyte":1,"MCP":101,"CLI":5,"智能体":1,"上下文存储":1,"OAuth":4,"技能":36}</script>
 
 <script>
 (function(){

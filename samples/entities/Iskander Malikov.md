@@ -59,7 +59,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Trioma":1,"编排":9,"智能体":1,"智能体工作流":1,"提示词工程":3,"令牌":6,"订阅模式":1,"TGN":1,"GPU":36,"开放权重模型":1}</script>
+<script type="application/json" class="pd-epn">{"Trioma":1,"编排":9,"智能体":1,"智能体工作流":1,"提示词工程":3,"令牌":6,"订阅模式":1,"TGN":1,"GPU":37,"开放权重模型":1}</script>
 
 <script>
 (function(){

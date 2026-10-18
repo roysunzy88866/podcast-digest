@@ -93,7 +93,7 @@ unlisted: true
 
 [[Anthropic]] · [[OpenAI]] · [[Dianne Penn]] · [[Martin Casado]] · [[Lenny]] · [[Sophia Du]] · [[Claude]] · [[Theo Jaffe]] · [[Claude Code]] · [[OpenRouter]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":206,"OpenAI":210,"Dianne Penn":1,"Martin Casado":7,"Lenny":69,"Sophia Du":5,"Claude":99,"Theo Jaffe":8,"Claude Code":117,"OpenRouter":15}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":206,"OpenAI":210,"Dianne Penn":1,"Martin Casado":7,"Lenny":69,"Sophia Du":5,"Claude":100,"Theo Jaffe":8,"Claude Code":117,"OpenRouter":15}</script>
 
 <script>
 (function(){

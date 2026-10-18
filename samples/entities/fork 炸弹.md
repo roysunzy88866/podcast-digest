@@ -25,7 +25,7 @@ unlisted: true
 
 [[Michael Forrester]] · [[Whitney Lee]] · [[智能体]] · [[护栏]] · [[提示词注入]] · [[MCP]] · [[IDP]] · [[Kubernetes]] · [[Kyverno]] · [[Falco]]
 
-<script type="application/json" class="pd-epn">{"Michael Forrester":1,"Whitney Lee":1,"智能体":1,"护栏":94,"提示词注入":1,"MCP":100,"IDP":2,"Kubernetes":22,"Kyverno":1,"Falco":1}</script>
+<script type="application/json" class="pd-epn">{"Michael Forrester":1,"Whitney Lee":1,"智能体":1,"护栏":94,"提示词注入":1,"MCP":101,"IDP":2,"Kubernetes":23,"Kyverno":1,"Falco":1}</script>
 
 <script>
 (function(){

@@ -220,9 +220,9 @@ Crusoe 的应对是把底层芯片从服务中抽象掉(托管 AI 服务),「做
 
 **换个口味**
 
+- [[2026-10-11-talks-agents-that-own-their-inference-du-an-li|自己的 AI 自己养：在专属 GPU 上跑生产级智能体]]<span class="pd-rz">同概念:GPU、KV 缓存 (KV cache)、推理 (inference)、智能体 (agent)</span>
 - [[2026-10-17-twentyvc-20vc-horizontal-vs-vertical-agents-who-w|LangChain 创始人：智能体为什么还这么难做，钱又会流向哪里]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同公司:Fireworks · 同概念:推理 (inference)、智能体 (agent)、后训练 (post-training)</span>
 - [[2026-10-12-sourcery-perplexity-ceo-smbs-could-drive-the-next|AI 没有网络效应，只有「复利效应」：Perplexity CEO 的反共识打法]]<span class="pd-rz">同公司:NVIDIA · 同概念:推理 (inference)、数据中心 (data center)、智能体 (agent)</span>
-- [[2026-07-25-twentyvc-20vc-mercor-cpo-on-revenue-concentration|Mercor CPO:开源模型蚕食不了数据生意]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同概念:开源模型 (open source)、智能体 (agent)</span>
 
 </div>
 </div>

@@ -122,7 +122,7 @@ Crusoe 宣布了一键 Slurm：一条命令就配好 Kubernetes 集群、Slurm �
 
 - [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]]<span class="pd-rz">同概念:Kubernetes、推理 (inference)</span>
 - [[2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you|卖数据中心、卖 GPU、再卖 token:Crusoe 的 AI 算力生意经]]<span class="pd-rz">同公司:Crusoe · 同概念:推理 (inference)</span>
-- [[2026-09-03-talks-tethered-our-agents-are-us-shu-fang-two|给智能体系上绳索:Two Sigma 让云端 AI 以你的身份安全运行]]<span class="pd-rz">同概念:Kubernetes、推理 (inference)</span>
+- [[2026-10-11-talks-agents-that-own-their-inference-du-an-li|自己的 AI 自己养：在专属 GPU 上跑生产级智能体]]<span class="pd-rz">同概念:Kubernetes、推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

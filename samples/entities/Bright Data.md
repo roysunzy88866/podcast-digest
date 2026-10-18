@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Bright Data</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Bright Data">BR</div><div class="pi"><h1 class="pt">Bright Data</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>7</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Bright Data">BR</div><div class="pi"><h1 class="pt">Bright Data</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-09-24-talks-physical-ai-s-next-bottleneck-is-finding|《训练机器人缺数据？答案藏在数十亿网络视频里》]]**(00:30起):嘉宾工作了八年多的数据采集公司，本集发布其新产品：预先给数十亿视频建索引（已达 11 亿个），让用户按动作而非标题搜索视频片段，主张「先搜索、后采集」以省掉九成浪费。
+- **[[2026-10-11-talks-building-ai-agents-with-real-time-web-da|《网站不让你爬，AI 怎么办？Bright Data 架构师讲实时数据与智能体》]]**(00:17起):本集嘉宾所在公司:从代理基础设施起家,如今号称世界最大的网络数据采集平台,每月采集 PB 级数据、仅次于 Google,靠规模化基础设施和多年反爬绕过逻辑解锁网络数据。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-09-24-talks-physical-ai-s-next-bottleneck-is-finding|《训练机器人缺数据？答案藏在数十亿网络视频里》]] — 作为概念
+- [[2026-10-11-talks-building-ai-agents-with-real-time-web-da|《网站不让你爬，AI 怎么办？Bright Data 架构师讲实时数据与智能体》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Rafael Levi]] · [[世界模型]] · [[视频索引]] · [[训练数据]] · [[YouTube]] · [[Meta]] · [[NVIDIA]]
+[[Rafael Levi]] · [[Yohan Raju]] · [[世界模型]] · [[智能体]] · [[视频索引]] · [[网页抓取]] · [[训练数据]] · [[MCP]] · [[YouTube]] · [[同步与异步两条回答路径]]
 
-<script type="application/json" class="pd-epn">{"Rafael Levi":1,"世界模型":15,"视频索引":1,"训练数据":4,"YouTube":9,"Meta":56,"NVIDIA":72}</script>
+<script type="application/json" class="pd-epn">{"Rafael Levi":1,"Yohan Raju":1,"世界模型":15,"智能体":1,"视频索引":1,"网页抓取":2,"训练数据":4,"MCP":101,"YouTube":10,"同步与异步两条回答路径":1}</script>
 
 <script>
 (function(){

@@ -109,9 +109,9 @@ jsonLd: |
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-11-talks-building-ai-agents-with-real-time-web-da|网站不让你爬，AI 怎么办？Bright Data 架构师讲实时数据与智能体]]<span class="pd-rz">同概念:智能体 (agent)、浏览器自动化 (browser automation)、网页抓取 (web scraping)</span>
 - [[2026-06-25-ainativedev-why-agents-are-forcing-enterprises-to-fi|DevOps 之父谈智能体开发：谁来管、怎么管、别踩什么坑]]<span class="pd-rz">同概念:token、智能体 (agent)、可观测性 (observability)</span>
 - [[2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark|Factory CEO Matan:早两年等于错，退款、路由器与软件工厂]]<span class="pd-rz">同概念:token、智能体 (agent)</span>
-- [[2026-08-22-talks-give-the-agent-a-budget-not-a-token-sach|给智能体预算，而不是令牌：Anthropic 的智能体安全上生产之道]]<span class="pd-rz">同概念:token、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

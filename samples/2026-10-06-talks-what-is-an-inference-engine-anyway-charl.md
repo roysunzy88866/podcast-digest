@@ -171,9 +171,9 @@ Frye 强调，大多数优化都是挤百分比的游戏，一次挣 5%、10%;�
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-11-talks-agents-that-own-their-inference-du-an-li|自己的 AI 自己养：在专属 GPU 上跑生产级智能体]]<span class="pd-rz">同公司:vLLM · 同概念:KV 缓存 (KV cache)、投机解码 (speculative decoding)、推理 (inference)、智能体 (agent)</span>
 - [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]]<span class="pd-rz">同公司:Modal、SGLang、vLLM · 同概念:投机解码 (speculative decoding)、推理 (inference)、智能体 (agent)</span>
 - [[2026-09-19-talks-operating-distributed-inference-systems|推理已成一个分布式系统问题:Meta 讲透大规模推理的编排之道]]<span class="pd-rz">同公司:SGLang、vLLM · 同概念:可观测性 (observability)、推理 (inference)、智能体 (agent)、投机解码 (speculative decoding)</span>
-- [[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo|推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争]]<span class="pd-rz">同公司:NVIDIA · 同概念:KV 缓存 (KV cache)、推理 (inference)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

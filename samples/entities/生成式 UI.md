@@ -41,7 +41,7 @@ unlisted: true
 
 [[智能体]] · [[MCP]] · [[Muse]] · [[沙箱]] · [[Meta]] · [[Claude]] · [[ChatGPT]] · [[Wes Bos]] · [[Gus Iwanaga]] · [[Jeremiah Lowin]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"MCP":100,"Muse":9,"沙箱":104,"Meta":56,"Claude":99,"ChatGPT":116,"Wes Bos":1,"Gus Iwanaga":1,"Jeremiah Lowin":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"MCP":101,"Muse":9,"沙箱":104,"Meta":56,"Claude":100,"ChatGPT":116,"Wes Bos":1,"Gus Iwanaga":1,"Jeremiah Lowin":1}</script>
 
 <script>
 (function(){

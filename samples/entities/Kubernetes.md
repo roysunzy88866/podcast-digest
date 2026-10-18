@@ -8,7 +8,7 @@ aliases: ["K8s", "k8s"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Kubernetes</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Kubernetes">KU</div><div class="pi"><h1 class="pt">Kubernetes</h1><div class="byl">公司 · 又名 K8s / k8s</div><div class="nums">本站收录 <b>22</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Kubernetes">KU</div><div class="pi"><h1 class="pt">Kubernetes</h1><div class="byl">公司 · 又名 K8s / k8s</div><div class="nums">本站收录 <b>23</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -32,6 +32,7 @@ aliases: ["K8s", "k8s"]
 - **[[2026-10-07-pragmatic-building-resilient-systems-with-sam|《写出最火微服务书籍的人，为什么说微服务是“最后的手段”？》]]**(79:59起):本集用它举例鲁棒性（pod 挂了自动拉起新的）以及鲁棒性手段反增复杂度的悖论（引入它本身又成了新风险源）。
 - **[[2026-10-07-talks-why-ai-agents-should-have-their-own-sand|《给AI智能体一间自己的屋子：Google DeepMind谈沙盒环境》]]**(12:02起):本集一笔带过:用托管智能体就不用再考虑 Kubernetes、Terraform、微服务这些事
 - **[[2026-10-08-talks-brains-vs-hands-how-to-run-ai-agents-saf|《AI 智能体上了生产环境，谁来管住它的手？》]]**(04:06起):本集在举例时提到 harness 会与 Kubernetes 集群通信、重启生产集群需确定性流程与人工审批。
+- **[[2026-10-11-talks-agents-that-own-their-inference-du-an-li|《自己的 AI 自己养：在专属 GPU 上跑生产级智能体》]]**(06:30起):本集的工作坊环境是 200 多个 GPU 节点的 Kubernetes 集群，Omer 在 Akamai 负责 Kubernetes 方面，用 vllm.yaml manifest 部署和滚动更新模型，LKE 还支持按突发流量自动扩缩容。
 - **[[2026-10-11-talks-build-a-platform-and-watch-it-burn-micha|《造一个平台，然后放个 AI 进去搞破坏》]]**(01:38起):本集用 Kubernetes 集群做被攻击对象，强调过去十年的 Kubernetes 安全经验（网络策略、CI/CD、SDLC）在 AI 时代比以往更重要。
 - **[[2026-10-11-talks-stop-renting-intelligence-the-train-to-d|《别再租用智能:开源模型怎么训练到部署一把抓》]]**(13:38起):本集顺带提到：跨平台训练和托管时模型质量会莫名下降，原因是 Kubernetes 在不同平台之间并不总是兼容
 
@@ -47,7 +48,7 @@ aliases: ["K8s", "k8s"]
 
 ## ② 出现在这些集
 
-*22 集*
+*23 集*
 
 - [[2026-04-22-beyondcoding-oss-expert-why-world-class-engineers-get|《开源贡献的真正门槛：不是代码，是认知负荷》]] — 作为被讨论公司(提及)
 - [[2026-06-24-latent-space-databricks|《Databricks 的反击：重写数据库、统一智能体与开放的执念》]] — 作为概念(提及)
@@ -69,6 +70,7 @@ aliases: ["K8s", "k8s"]
 - [[2026-10-07-pragmatic-building-resilient-systems-with-sam|《写出最火微服务书籍的人，为什么说微服务是“最后的手段”？》]] — 作为概念(提及)
 - [[2026-10-07-talks-why-ai-agents-should-have-their-own-sand|《给AI智能体一间自己的屋子：Google DeepMind谈沙盒环境》]] — 作为概念(提及)
 - [[2026-10-08-talks-brains-vs-hands-how-to-run-ai-agents-saf|《AI 智能体上了生产环境，谁来管住它的手？》]] — 作为概念(提及)
+- [[2026-10-11-talks-agents-that-own-their-inference-du-an-li|《自己的 AI 自己养：在专属 GPU 上跑生产级智能体》]] — 作为概念
 - [[2026-10-11-talks-build-a-platform-and-watch-it-burn-micha|《造一个平台，然后放个 AI 进去搞破坏》]] — 作为概念
 - [[2026-10-11-talks-stop-renting-intelligence-the-train-to-d|《别再租用智能:开源模型怎么训练到部署一把抓》]] — 作为概念(提及)
 
@@ -76,9 +78,9 @@ aliases: ["K8s", "k8s"]
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[沙箱]] · [[MCP]] · [[推理]] · [[Anthropic]] · [[OpenAI]] · [[Claude]] · [[LLM]] · [[可观测性]] · [[投机解码]]
+[[智能体]] · [[沙箱]] · [[MCP]] · [[推理]] · [[Anthropic]] · [[投机解码]] · [[Claude]] · [[LLM]] · [[可观测性]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"沙箱":104,"MCP":100,"推理":105,"Anthropic":206,"OpenAI":210,"Claude":99,"LLM":66,"可观测性":50,"投机解码":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"沙箱":104,"MCP":101,"推理":106,"Anthropic":206,"投机解码":1,"Claude":100,"LLM":66,"可观测性":50,"OpenAI":210}</script>
 
 <script>
 (function(){

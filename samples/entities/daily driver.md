@@ -25,7 +25,7 @@ unlisted: true
 
 [[Nathan]] · [[Wade Foster]] · [[Zapier]] · [[MCP]] · [[智能体]] · [[确定性代码]] · [[Automation Bench]] · [[token]] · [[Cursor]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"Nathan":5,"Wade Foster":2,"Zapier":6,"MCP":100,"智能体":1,"确定性代码":2,"Automation Bench":1,"token":33,"Cursor":88,"ChatGPT":116}</script>
+<script type="application/json" class="pd-epn">{"Nathan":5,"Wade Foster":2,"Zapier":6,"MCP":101,"智能体":1,"确定性代码":2,"Automation Bench":1,"token":33,"Cursor":88,"ChatGPT":116}</script>
 
 <script>
 (function(){

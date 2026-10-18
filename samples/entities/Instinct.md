@@ -51,7 +51,7 @@ unlisted: true
 
 [[智能体]] · [[Muse]] · [[ChatGPT]] · [[Amazon]] · [[OpenAI]] · [[Shopify]] · [[Anthropic]] · [[Stripe]] · [[主动性]] · [[OpenClaw]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Muse":9,"ChatGPT":116,"Amazon":36,"OpenAI":210,"Shopify":20,"Anthropic":206,"Stripe":53,"主动性":2,"OpenClaw":25}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Muse":9,"ChatGPT":116,"Amazon":37,"OpenAI":210,"Shopify":20,"Anthropic":206,"Stripe":53,"主动性":2,"OpenClaw":25}</script>
 
 <script>
 (function(){

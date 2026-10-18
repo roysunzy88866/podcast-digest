@@ -65,7 +65,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nubank":1,"AI":35,"基础模型":7,"智能体":1,"稳定币":6,"开放银行":1,"新银行":1,"冒名顶替综合症":2,"Netflix":10}</script>
+<script type="application/json" class="pd-epn">{"Nubank":1,"AI":35,"基础模型":7,"智能体":1,"稳定币":6,"开放银行":1,"新银行":1,"冒名顶替综合症":2,"Netflix":11}</script>
 
 <script>
 (function(){

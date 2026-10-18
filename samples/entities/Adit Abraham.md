@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Reducto":3,"智能体":1,"RAG":31,"PDF":1,"VLM":4,"OCR":3,"harness":68,"评估":1,"嵌入模型":4,"目标检测":2}</script>
+<script type="application/json" class="pd-epn">{"Reducto":3,"智能体":1,"RAG":32,"PDF":1,"VLM":4,"OCR":3,"harness":68,"评估":1,"嵌入模型":4,"目标检测":2}</script>
 
 <script>
 (function(){

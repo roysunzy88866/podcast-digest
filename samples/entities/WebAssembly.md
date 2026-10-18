@@ -35,7 +35,7 @@ unlisted: true
 
 [[沙箱]] · [[Paige Bailey]] · [[Thorsten Hans]] · [[DeepMind]] · [[智能体]] · [[Gemma 4]] · [[MCP]] · [[Google AI Edge Gallery]] · [[冷启动]] · [[Managed Agents]]
 
-<script type="application/json" class="pd-epn">{"沙箱":104,"Paige Bailey":1,"Thorsten Hans":1,"DeepMind":19,"智能体":1,"Gemma 4":2,"MCP":100,"Google AI Edge Gallery":1,"冷启动":4,"Managed Agents":7}</script>
+<script type="application/json" class="pd-epn">{"沙箱":104,"Paige Bailey":1,"Thorsten Hans":1,"DeepMind":19,"智能体":1,"Gemma 4":2,"MCP":101,"Google AI Edge Gallery":1,"冷启动":4,"Managed Agents":7}</script>
 
 <script>
 (function(){

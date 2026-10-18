@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>KV 缓存 (KV cache)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="KV 缓存">KV</div><div class="pi"><h1 class="pt">KV 缓存 (KV cache)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>6</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="KV 缓存">KV</div><div class="pi"><h1 class="pt">KV 缓存 (KV cache)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>7</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,6 +17,7 @@ unlisted: true
 - **[[2026-10-03-talks-what-makes-open-models-fast-in-productio|《开源大模型要跑得快，背后全是硬功夫》]]**(18:04起):把已生成 token 的中间结果缓存避免重复计算,本集称之为推理里 ROI 最高的优化,带来 5-10 倍加速,并支持在 GPU 内存与普通内存间自动卸载搬运
 - **[[2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you|《卖数据中心、卖 GPU、再卖 token:Crusoe 的 AI 算力生意经》]]**(46:28起):本集解释它是让 GPU 保持忙碌的关键:把已算过的 token 结果存进查找表避免重复矩阵乘法,会膨胀到超出 HBM,需跨 HBM/DRAM/NVMe/对象存储分层管理。
 - **[[2026-10-06-talks-what-is-an-inference-engine-anyway-charl|《大模型背后：推理引擎到底在干什么》]]**(12:00起):随请求累积的主要状态,用分页或基树结构实现前缀复用;引擎的真正问题是 KV 缓存容量管理和布局,已部分整合进注意力内核
+- **[[2026-10-11-talks-agents-that-own-their-inference-du-an-li|《自己的 AI 自己养：在专属 GPU 上跑生产级智能体》]]**(34:28起):本集说显存减去模型权重后剩下的就是 KV 缓存，即能装下多少上下文——20GB 卡装 8GB 权重后约能放 37000 个 token，4 个用户各 8000 token 就塞满；KV 缓存爆掉就是并发到顶、延迟飙升的原因。
 
 ## ① 提到它的金句
 
@@ -26,7 +27,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*6 集*
+*7 集*
 
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|《不靠一个模型打天下:多模型路由的早期探索与实战权衡》]] — 作为概念
 - [[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|《OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么》]] — 作为概念
@@ -34,14 +35,15 @@ unlisted: true
 - [[2026-10-03-talks-what-makes-open-models-fast-in-productio|《开源大模型要跑得快，背后全是硬功夫》]] — 作为概念
 - [[2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you|《卖数据中心、卖 GPU、再卖 token:Crusoe 的 AI 算力生意经》]] — 作为概念
 - [[2026-10-06-talks-what-is-an-inference-engine-anyway-charl|《大模型背后：推理引擎到底在干什么》]] — 作为概念
+- [[2026-10-11-talks-agents-that-own-their-inference-du-an-li|《自己的 AI 自己养：在专属 GPU 上跑生产级智能体》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[NVIDIA]] · [[智能体]] · [[推理]] · [[Cognition]] · [[OpenClaw]] · [[Anthropic]] · [[Harry Stebbings]] · [[后训练]] · [[开源模型]] · [[OpenAI]]
+[[智能体]] · [[NVIDIA]] · [[推理]] · [[Cognition]] · [[量化]] · [[OpenClaw]] · [[Anthropic]] · [[Harry Stebbings]] · [[后训练]] · [[GPU]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":72,"智能体":1,"推理":105,"Cognition":27,"OpenClaw":25,"Anthropic":206,"Harry Stebbings":22,"后训练":1,"开源模型":4,"OpenAI":210}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"NVIDIA":72,"推理":106,"Cognition":27,"量化":1,"OpenClaw":25,"Anthropic":206,"Harry Stebbings":22,"后训练":1,"GPU":37}</script>
 
 <script>
 (function(){

@@ -39,7 +39,7 @@ unlisted: true
 
 [[智能体]] · [[Stripe]] · [[联合创始人]] · [[稳定币]] · [[X402]] · [[ChatGPT]] · [[加密货币]] · [[Anthropic]] · [[分词]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Stripe":53,"联合创始人":4,"稳定币":6,"X402":3,"ChatGPT":116,"加密货币":2,"Anthropic":206,"分词":6,"Lenny":69}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Stripe":53,"联合创始人":4,"稳定币":6,"X402":3,"ChatGPT":116,"加密货币":3,"Anthropic":206,"分词":6,"Lenny":69}</script>
 
 <script>
 (function(){

@@ -1,0 +1,1882 @@
+[
+ {
+  "seg": 0,
+  "start": 13.065,
+  "end": 14.165,
+  "speaker": "Unknown",
+  "en": "All right, let's begin.",
+  "zh": "好的，我们开始吧。"
+ },
+ {
+  "seg": 1,
+  "start": 14.266,
+  "end": 15.826,
+  "speaker": "Unknown",
+  "en": "So nice to meet everyone.",
+  "zh": "很高兴见到大家。"
+ },
+ {
+  "seg": 2,
+  "start": 15.846,
+  "end": 17.067,
+  "speaker": "Unknown",
+  "en": "My name is Johan Raju.",
+  "zh": "我叫 Johan Raju。"
+ },
+ {
+  "seg": 3,
+  "start": 17.107,
+  "end": 19.108,
+  "speaker": "Unknown",
+  "en": "I'm a solutions architect here at Bright Data.",
+  "zh": "我是 Bright Data 的解决方案架构师。"
+ },
+ {
+  "seg": 4,
+  "start": 19.688,
+  "end": 26.271,
+  "speaker": "Unknown",
+  "en": "I've been with the company for about six years, and I've been working in this space of data collection and web scraping.",
+  "zh": "我在这家公司工作大约六年了，一直从事数据采集和网络爬虫这个领域的工作。"
+ },
+ {
+  "seg": 5,
+  "start": 26.711,
+  "end": 29.532,
+  "speaker": "Unknown",
+  "en": "We initially started off as a proxy infrastructure company.",
+  "zh": "我们最初是一家代理基础设施公司。"
+ },
+ {
+  "seg": 6,
+  "start": 30.372,
+  "end": 33.373,
+  "speaker": "Unknown",
+  "en": "with the largest residential IP network in the world.",
+  "zh": "拥有世界上最大的住宅 IP 网络。"
+ },
+ {
+  "seg": 7,
+  "start": 33.873,
+  "end": 37.073,
+  "speaker": "Unknown",
+  "en": "And then we moved into the data collection platform.",
+  "zh": "然后我们转型进入了数据采集平台。"
+ },
+ {
+  "seg": 8,
+  "start": 37.714,
+  "end": 44.355,
+  "speaker": "Unknown",
+  "en": "Now we're the world's largest web data collection platform, collecting petabytes of data per month, only second to Google.",
+  "zh": "现在我们是世界上最大的网络数据采集平台，每月采集 PB 级的数据，仅次于 Google。"
+ },
+ {
+  "seg": 9,
+  "start": 44.975,
+  "end": 50.976,
+  "speaker": "Unknown",
+  "en": "So just a little information for you guys on where we started and how we moved over to today.",
+  "zh": "所以这只是给大家简单介绍一下我们从哪里起步、以及如何发展到今天。"
+ },
+ {
+  "seg": 10,
+  "start": 51.056,
+  "end": 53.177,
+  "speaker": "Unknown",
+  "en": "So I'm gonna be covering two topics.",
+  "zh": "我要讲两个主题。"
+ },
+ {
+  "seg": 11,
+  "start": 53.337,
+  "end": 54.757,
+  "speaker": "Unknown",
+  "en": "First is I'm gonna be speaking about...",
+  "zh": "首先是我要讲……"
+ },
+ {
+  "seg": 12,
+  "start": 55.417,
+  "end": 57.559,
+  "speaker": "Unknown",
+  "en": "Building AI agents with real-time web data.",
+  "zh": "用实时网络数据构建 AI 智能体。"
+ },
+ {
+  "seg": 13,
+  "start": 58.199,
+  "end": 74.75,
+  "speaker": "Unknown",
+  "en": "Some tools that people are generally using when it comes to AI agents versus depending on your RAG model with pre-index data and what are the advantages, what we see in the industry and what changes are to come and what it takes to run these agents.",
+  "zh": "包括人们在构建 AI 智能体时通常使用的一些工具，与之相对的是依赖带有预索引数据的 RAG 模型，还有各有什么优势、我们在行业中看到了什么、未来会有什么变化，以及运行这些智能体需要什么。"
+ },
+ {
+  "seg": 14,
+  "start": 74.79,
+  "end": 84.057,
+  "speaker": "Unknown",
+  "en": "And then finally, I'm gonna have my hands-on exercise that you guys can follow along with me where I have a product intelligence agent that will essentially",
+  "zh": "最后，我会有一个大家可以跟着我一起做的动手练习，其中我有一个产品情报智能体，它基本上会"
+ },
+ {
+  "seg": 15,
+  "start": 84.937,
+  "end": 91.341,
+  "speaker": "Unknown",
+  "en": "Use a product from Amazon, get sentiment on Reddit, and then provide you analysis with, you know, should I buy that product, yes or no?",
+  "zh": "使用 Amazon 上的一个产品，获取 Reddit 上的情感倾向，然后为你提供分析，比如，我该不该买那个产品，是还是否？"
+ },
+ {
+  "seg": 16,
+  "start": 94.863,
+  "end": 106.55,
+  "speaker": "Unknown",
+  "en": "So working in the scraping space for a long period of time, one thing I've noticed is, you know, when you think about building, scraping, or collecting data,",
+  "zh": "所以在爬虫领域工作了很长时间，我注意到的一点是，你知道，当你想到构建、爬取或采集数据时，"
+ },
+ {
+  "seg": 17,
+  "start": 107.5,
+  "end": 108.721,
+  "speaker": "Unknown",
+  "en": "What does it really take, right?",
+  "zh": "这到底需要什么，对吧？"
+ },
+ {
+  "seg": 18,
+  "start": 109.481,
+  "end": 118.585,
+  "speaker": "Unknown",
+  "en": "Now, the early customers in the scraping space that I've worked with, you know, when you first start, it's always about, hey, I want to, these are my target sites and this is what I want to scrape, right?",
+  "zh": "我合作过的爬虫领域的早期客户，你知道，刚开始的时候，总是关于，嘿，我想，这些是我的目标网站，这就是我想爬取的东西，对吧？"
+ },
+ {
+  "seg": 19,
+  "start": 118.605,
+  "end": 120.626,
+  "speaker": "Unknown",
+  "en": "You know, people usually start off with low volume.",
+  "zh": "你知道，人们通常从低数据量起步。"
+ },
+ {
+  "seg": 20,
+  "start": 121.286,
+  "end": 122.367,
+  "speaker": "Unknown",
+  "en": "You know, that's what...",
+  "zh": "你知道，那就是……"
+ },
+ {
+  "seg": 21,
+  "start": 122.927,
+  "end": 126.89,
+  "speaker": "Unknown",
+  "en": "comprises a general traditional scraping architecture.",
+  "zh": "构成了一般传统爬虫架构的东西。"
+ },
+ {
+  "seg": 22,
+  "start": 127.291,
+  "end": 131.034,
+  "speaker": "Unknown",
+  "en": "Now let's say I'm an e-commerce user and I want to collect e-commerce data.",
+  "zh": "现在假设我是一个电商用户，我想采集电商数据。"
+ },
+ {
+  "seg": 23,
+  "start": 131.934,
+  "end": 144.205,
+  "speaker": "Unknown",
+  "en": "My biggest targets might be Amazon and Walmart because I can find a lot of products on there and I can get price intelligence and data on reviews and all the general information for a vast majority of products.",
+  "zh": "我最大的目标可能是 Amazon 和 Walmart，因为我可以在上面找到很多产品，我可以获得价格情报以及评论数据和绝大多数产品的一般信息。"
+ },
+ {
+  "seg": 24,
+  "start": 144.925,
+  "end": 148.046,
+  "speaker": "Unknown",
+  "en": "Now, when does scraping become challenging?",
+  "zh": "那么，爬虫什么时候会变得具有挑战性呢？"
+ },
+ {
+  "seg": 25,
+  "start": 148.227,
+  "end": 158.211,
+  "speaker": "Unknown",
+  "en": "And this is a change that I've actually seen with customers that I work with today occurring in the industry when it's not just about Amazon and Walmart anymore.",
+  "zh": "这是我今天合作的客户中实际看到的一种行业变化，即不再只是 Amazon 和 Walmart 了。"
+ },
+ {
+  "seg": 26,
+  "start": 158.251,
+  "end": 165.114,
+  "speaker": "Unknown",
+  "en": "Now you want Shopee, now you want Shopify stores, now you want Etsy and a bunch of other sites.",
+  "zh": "现在你想要 Shopee，现在你想要 Shopify 店铺，现在你想要 Etsy 和一堆其他网站。"
+ },
+ {
+  "seg": 27,
+  "start": 165.174,
+  "end": 166.935,
+  "speaker": "Unknown",
+  "en": "Now, if we take a step back,",
+  "zh": "现在，如果我们退一步，"
+ },
+ {
+  "seg": 28,
+  "start": 167.655,
+  "end": 169.816,
+  "speaker": "Unknown",
+  "en": "And I mentioned you know your target sites.",
+  "zh": "我提到过你的目标网站。"
+ },
+ {
+  "seg": 29,
+  "start": 170.497,
+  "end": 177.962,
+  "speaker": "Unknown",
+  "en": "In order to build scrapers around your target sites, it takes generally about three to five days to develop a scraper if you're a developer.",
+  "zh": "要围绕你的目标网站构建爬虫，如果你是一名开发者，开发一个爬虫通常需要大约三到五天。"
+ },
+ {
+  "seg": 30,
+  "start": 178.382,
+  "end": 185.786,
+  "speaker": "Unknown",
+  "en": "And that's not only developing it, it's QAing it, running it in development, testing it out, and the whole end-to-end pipeline.",
+  "zh": "而且这不仅是开发它，还要对它做 QA、在开发环境中运行它、测试它，以及整个端到端流水线。"
+ },
+ {
+  "seg": 31,
+  "start": 186.447,
+  "end": 190.309,
+  "speaker": "Unknown",
+  "en": "Now, if we think about 10 sites, okay, might take a bit of time.",
+  "zh": "现在，如果我们想想 10 个网站，好吧，可能需要一些时间。"
+ },
+ {
+  "seg": 32,
+  "start": 190.87,
+  "end": 193.651,
+  "speaker": "Unknown",
+  "en": "Now you think, okay, I wanna add 100 sites, 1,000 sites.",
+  "zh": "现在你想，好吧，我想增加 100 个网站、1000 个网站。"
+ },
+ {
+  "seg": 33,
+  "start": 194.072,
+  "end": 195.753,
+  "speaker": "Unknown",
+  "en": "This is where things start getting complicated.",
+  "zh": "这就是事情开始变得复杂的地方。"
+ },
+ {
+  "seg": 34,
+  "start": 196.353,
+  "end": 210.919,
+  "speaker": "Unknown",
+  "en": "Now, before AI even came into the picture, developers would have to manually understand the site, understand where the selectors are located, can I target these data points in the API, and actually build crawlers around that knowledge.",
+  "zh": "现在，在 AI 进入视野之前，开发者必须手动理解网站，理解选择器位于何处、我能否在 API 中定位这些数据点，并基于这些知识实际构建爬虫。"
+ },
+ {
+  "seg": 35,
+  "start": 211.719,
+  "end": 229.228,
+  "speaker": "Unknown",
+  "en": "And I've worked with many people that have been scraping for 10 plus years that have been managing and maintaining these crawlers, but when it comes to scaling up, then you're thinking, okay, now I'm adding more sites to what I already am scraping, but I also need to manage the scrapers that I already have.",
+  "zh": "我曾与许多爬取了 10 年以上的人共事，他们一直在管理和维护这些爬虫，但当要扩大规模时，你就会想，好吧，现在我在已爬取内容的基础上增加更多网站，但我还需要管理我已经拥有的爬虫。"
+ },
+ {
+  "seg": 36,
+  "start": 229.268,
+  "end": 230.809,
+  "speaker": "Unknown",
+  "en": "So let's say Amazon makes a change",
+  "zh": "所以假设 Amazon 明天做了一个更改"
+ },
+ {
+  "seg": 37,
+  "start": 231.949,
+  "end": 232.389,
+  "speaker": "Unknown",
+  "en": "Tomorrow.",
+  "zh": "明天。"
+ },
+ {
+  "seg": 38,
+  "start": 233.25,
+  "end": 236.232,
+  "speaker": "Unknown",
+  "en": "And two other sites make a change tomorrow, but you're managing a thousand sites.",
+  "zh": "另外两个网站明天也做了更改，但你在管理一千个网站。"
+ },
+ {
+  "seg": 39,
+  "start": 236.633,
+  "end": 242.137,
+  "speaker": "Unknown",
+  "en": "This requires a lot more engineering resources and a lot more time for you to actually figure out, okay, what change was made?",
+  "zh": "这就需要多得多的工程资源和多得多的时间，你才能真正弄清楚，好吧，做了什么更改？"
+ },
+ {
+  "seg": 40,
+  "start": 242.697,
+  "end": 243.938,
+  "speaker": "Unknown",
+  "en": "How can I counteract it?",
+  "zh": "我该如何应对它？"
+ },
+ {
+  "seg": 41,
+  "start": 243.978,
+  "end": 244.759,
+  "speaker": "Unknown",
+  "en": "How can I fix it?",
+  "zh": "我该如何修复它？"
+ },
+ {
+  "seg": 42,
+  "start": 245.44,
+  "end": 249.643,
+  "speaker": "Unknown",
+  "en": "And is this actually impacting my customers, my SLA, and my data quality?",
+  "zh": "以及这是否真的在影响我的客户、我的 SLA 和我的数据质量？"
+ },
+ {
+  "seg": 43,
+  "start": 250.766,
+  "end": 277.584,
+  "speaker": "Unknown",
+  "en": "Now, before we had this bottleneck of having to scale up your resources, and at those times when you would have to manage 1,000 sites, you'd need two times more engineers, four times more engineers, et cetera, but now in this AI space, none of that is needed because we have things like agents, and agents can actually go out and discover and build sites, build scrapers for these sites a lot easier than a team of developers and engineers.",
+  "zh": "过去我们存在这种必须扩大资源的瓶颈，在那些你必须管理 1000 个网站的时候，你需要两倍多的工程师、四倍多的工程师，等等，但现在在这个 AI 领域，这些都不需要了，因为我们有了智能体这样的东西，而智能体可以实际走出去发现并构建网站、为这些网站构建爬虫，比一个开发者工程师团队容易得多。"
+ },
+ {
+  "seg": 44,
+  "start": 279.285,
+  "end": 284.908,
+  "speaker": "Unknown",
+  "en": "Now, this is one classic example of an e-commerce site of targeting selectors on the page.",
+  "zh": "现在，这是一个电商网站在页面上定位选择器的经典例子。"
+ },
+ {
+  "seg": 45,
+  "start": 285.649,
+  "end": 289.631,
+  "speaker": "Unknown",
+  "en": "So you can see here, we're just, in this example, it's just targeting price and title.",
+  "zh": "所以你可以在这里看到，在这个例子中，我们只是定位价格和标题。"
+ },
+ {
+  "seg": 46,
+  "start": 290.332,
+  "end": 294.474,
+  "speaker": "Unknown",
+  "en": "Now, what happens if the price is changed, the selector for the price is changed tomorrow?",
+  "zh": "那么，如果价格变了、价格的选择器明天变了，会发生什么？"
+ },
+ {
+  "seg": 47,
+  "start": 295.795,
+  "end": 307.403,
+  "speaker": "Unknown",
+  "en": "That will require some downtime on your end because if you're the one scraping the site because now you're not getting price and that can affect the rest of your pipeline that you have to maybe analyze products, et cetera.",
+  "zh": "那将需要你这边的某种停机时间，因为如果是你在爬取这个网站，因为现在你获取不到价格了，这可能会影响你流水线的其余部分，你可能不得不去分析产品，等等。"
+ },
+ {
+  "seg": 48,
+  "start": 308.103,
+  "end": 319.811,
+  "speaker": "Unknown",
+  "en": "Now, usually that would require a team to go in, fix it, then maybe backfill on the data that you've lost, but now with AI agents, that can be automated and done automatically.",
+  "zh": "过去，这通常需要一个团队进去修复它，然后可能对你丢失的数据做回填，但现在有了 AI 智能体，这可以被自动化并自动完成。"
+ },
+ {
+  "seg": 49,
+  "start": 322.387,
+  "end": 327.671,
+  "speaker": "Unknown",
+  "en": "When you also build scrapers, one thing to always know is every website is different.",
+  "zh": "当你构建爬虫时，要始终明白的一点是，每个网站都是不同的。"
+ },
+ {
+  "seg": 50,
+  "start": 328.412,
+  "end": 337.099,
+  "speaker": "Unknown",
+  "en": "Now, sites, in the example I use, like Amazon and Walmart, they have two different layouts, even though they both might have things like price, title, description.",
+  "zh": "现在，网站，在我用的例子中，比如 Amazon 和 Walmart，它们有两种不同的页面布局，即使它们可能都有价格、标题、描述这些东西。"
+ },
+ {
+  "seg": 51,
+  "start": 337.64,
+  "end": 343.004,
+  "speaker": "Unknown",
+  "en": "So each site requires a unique scraper to build for.",
+  "zh": "所以每个网站都需要构建一个独特的爬虫。"
+ },
+ {
+  "seg": 52,
+  "start": 344.165,
+  "end": 349.089,
+  "speaker": "Unknown",
+  "en": "And even more important than that is each site wants to protect their data.",
+  "zh": "而比这更重要的是，每个网站都想保护它们的数据。"
+ },
+ {
+  "seg": 53,
+  "start": 351.114,
+  "end": 370.519,
+  "speaker": "Unknown",
+  "en": "Sites usually like to ensure that no one else has the same product intelligence they have, or depending on what type of data that they're trying to keep secure, they will always implement different types of anti-bot and different types of captcha to throw scrapers and bots off from collecting that data.",
+  "zh": "网站通常希望确保没有其他人拥有和它们相同的产品情报，或者取决于它们想要保护什么类型的数据，它们总会实现不同类型的反爬虫和不同类型的验证码，来阻止爬虫和机器人收集那些数据。"
+ },
+ {
+  "seg": 54,
+  "start": 371.83,
+  "end": 374.551,
+  "speaker": "Unknown",
+  "en": "Now, I've seen all different types of blocks.",
+  "zh": "现在，我见过各种不同类型的封禁。"
+ },
+ {
+  "seg": 55,
+  "start": 374.591,
+  "end": 389.277,
+  "speaker": "Unknown",
+  "en": "I've seen the most basic sites that you can get through with data center, and then I've seen sites that are protected by Cloudflare, Akamai, you name it, that you actually need to have a residential IP address, you need to have a real browser, and you need to seem like a real user.",
+  "zh": "我见过最基础的网站，用数据中心 IP 就能通过，也见过受 Cloudflare、Akamai 等等保护的网站，你实际上需要拥有住宅 IP 地址，你需要有真实的浏览器，而且你需要看起来像一个真实用户。"
+ },
+ {
+  "seg": 56,
+  "start": 389.297,
+  "end": 393.078,
+  "speaker": "Unknown",
+  "en": "If you click too fast on the page, if you scroll too fast, that could all trigger anti-bot.",
+  "zh": "如果你在页面上点击太快，如果你滚动太快，这些都可能触发反爬虫。"
+ },
+ {
+  "seg": 57,
+  "start": 393.098,
+  "end": 395.219,
+  "speaker": "Unknown",
+  "en": "If you're blocking images, things like that.",
+  "zh": "如果你屏蔽了图片，诸如此类的东西。"
+ },
+ {
+  "seg": 58,
+  "start": 396.552,
+  "end": 410.537,
+  "speaker": "Unknown",
+  "en": "Now, like I mentioned before, engineering has been a bottleneck until the AI space came here, when we had the AI agents able to build crawlers, and you'd have to actually have a deep understanding of the site.",
+  "zh": "现在，就像我之前提到的，工程一直是一个瓶颈，直到 AI 领域出现，那时我们有了能够构建爬虫的 AI 智能体，而你实际上必须对该网站有深入的理解。"
+ },
+ {
+  "seg": 59,
+  "start": 411.157,
+  "end": 425.803,
+  "speaker": "Unknown",
+  "en": "A lot of sites, like I mentioned, because the layout is very different, it means that they'll try to make sure the data is as hard as possible to collect for you, and you'd have to have a deep level of domain knowledge expertise to get to that data.",
+  "zh": "很多网站，就像我提到的，因为布局非常不同，这意味着它们会尽力让数据对你来说尽可能难以收集，而你必须有深入的领域知识专业能力才能获取到那些数据。"
+ },
+ {
+  "seg": 60,
+  "start": 427.329,
+  "end": 431.39,
+  "speaker": "Unknown",
+  "en": "Now, this is a diagram of how the traditional scraping architecture look like.",
+  "zh": "现在，这是一张传统爬取架构样子的图。"
+ },
+ {
+  "seg": 61,
+  "start": 432.131,
+  "end": 441.434,
+  "speaker": "Unknown",
+  "en": "So just to briefly go over this, we have on the left-hand side the actor, essentially what's triggering this crawl.",
+  "zh": "简单过一下，我们在左手边有触发者（actor），本质上就是触发这次爬取的东西。"
+ },
+ {
+  "seg": 62,
+  "start": 442.194,
+  "end": 453.558,
+  "speaker": "Unknown",
+  "en": "So some people like using schedulers, cron jobs, you name it, where they want the data fed to them daily, weekly, et cetera, and that kicks off the job directly over to the next layer.",
+  "zh": "有些人喜欢用调度器、cron 作业等等，他们希望数据每天、每周等定时喂给他们，这会直接把任务启动并传递到下一层。"
+ },
+ {
+  "seg": 63,
+  "start": 454.398,
+  "end": 458.041,
+  "speaker": "Unknown",
+  "en": "Some people like doing specific configs, specific URLs.",
+  "zh": "有些人喜欢做特定的配置、特定的 URL。"
+ },
+ {
+  "seg": 64,
+  "start": 458.621,
+  "end": 460.823,
+  "speaker": "Unknown",
+  "en": "Same idea right there.",
+  "zh": "同样的道理。"
+ },
+ {
+  "seg": 65,
+  "start": 461.143,
+  "end": 463.525,
+  "speaker": "Unknown",
+  "en": "And that goes right over to the proxy layer.",
+  "zh": "然后它直接进入代理层。"
+ },
+ {
+  "seg": 66,
+  "start": 464.025,
+  "end": 468.108,
+  "speaker": "Unknown",
+  "en": "Now the proxy's essentially how you mask yourself from being detected.",
+  "zh": "代理本质上就是你如何掩饰自己不被检测到。"
+ },
+ {
+  "seg": 67,
+  "start": 468.568,
+  "end": 471.21,
+  "speaker": "Unknown",
+  "en": "There's different types of proxies that you can use.",
+  "zh": "你可以使用不同类型的代理。"
+ },
+ {
+  "seg": 68,
+  "start": 471.471,
+  "end": 474.253,
+  "speaker": "Unknown",
+  "en": "Some static IP addresses like data center ISP.",
+  "zh": "一些静态 IP 地址，比如数据中心 ISP。"
+ },
+ {
+  "seg": 69,
+  "start": 475.013,
+  "end": 485.297,
+  "speaker": "Unknown",
+  "en": "Some rotating residential IP addresses that come from laptops, tablets, TVs that are more authentic to sites because they can say, okay, this is registered to an actual device, we'll let them in.",
+  "zh": "一些轮换的住宅 IP 地址，来自笔记本电脑、平板电脑、电视，它们对网站来说更真实，因为网站可以说，好吧，这是注册到真实设备上的，我们放行。"
+ },
+ {
+  "seg": 70,
+  "start": 486.098,
+  "end": 495.282,
+  "speaker": "Unknown",
+  "en": "And then some tools that have anti-bot capabilities built in, like what Bright Data offers, WebUnlocker or Browser API, which is in the browser automation side of it.",
+  "zh": "还有一些内置反爬虫能力的工具，比如 Bright Data 提供的 WebUnlocker 或 Browser API，它属于浏览器自动化那一块。"
+ },
+ {
+  "seg": 71,
+  "start": 497.003,
+  "end": 501.628,
+  "speaker": "Unknown",
+  "en": "Where the actual product itself manages, okay, is my request getting blocked?",
+  "zh": "也就是实际产品本身会管理，好吧，我的请求被拦了吗？"
+ },
+ {
+  "seg": 72,
+  "start": 501.809,
+  "end": 502.75,
+  "speaker": "Unknown",
+  "en": "Am I gonna retry?",
+  "zh": "我要重试吗？"
+ },
+ {
+  "seg": 73,
+  "start": 503.09,
+  "end": 504.432,
+  "speaker": "Unknown",
+  "en": "Am I using the right IP?",
+  "zh": "我用的是正确的 IP 吗？"
+ },
+ {
+  "seg": 74,
+  "start": 504.952,
+  "end": 509.197,
+  "speaker": "Unknown",
+  "en": "That's all in a part of the layer when you think about the anti-bot side of things.",
+  "zh": "当你考虑反爬虫这一面时，这些都属于该层的一部分。"
+ },
+ {
+  "seg": 75,
+  "start": 509.838,
+  "end": 517.206,
+  "speaker": "Unknown",
+  "en": "Now from there, then the next layer is parsing the data and actually validating if the data is authentic.",
+  "zh": "从那里开始，下一层是解析数据，并实际验证数据是否真实。"
+ },
+ {
+  "seg": 76,
+  "start": 517.947,
+  "end": 527.713,
+  "speaker": "Unknown",
+  "en": "That's a big part of, you know, after you actually get to the site and collect the data, am I getting price back 90% of the time and do I want to validate that I'm getting it back 90% of the time?",
+  "zh": "这是很大的一部分，你知道，在你实际访问网站并收集数据之后，我 90% 的时间都能拿到价格吗，我想不想验证我 90% 的时间都能拿到它？"
+ },
+ {
+  "seg": 77,
+  "start": 528.433,
+  "end": 530.134,
+  "speaker": "Unknown",
+  "en": "Do I need review data?",
+  "zh": "我需要评论数据吗？"
+ },
+ {
+  "seg": 78,
+  "start": 530.154,
+  "end": 530.975,
+  "speaker": "Unknown",
+  "en": "Do I need ratings?",
+  "zh": "我需要评分吗？"
+ },
+ {
+  "seg": 79,
+  "start": 530.995,
+  "end": 532.275,
+  "speaker": "Unknown",
+  "en": "You know, things like that.",
+  "zh": "你知道的，诸如此类的东西。"
+ },
+ {
+  "seg": 80,
+  "start": 532.696,
+  "end": 543.322,
+  "speaker": "Unknown",
+  "en": "You have to think about, okay, like, how do I ensure that I'm not going to be setting up when the data goes through my pipeline that it's going to be checked accurately by validation rules?",
+  "zh": "你必须考虑，好吧，比如，当数据流经我的管道时，我如何确保它会被验证规则准确地检查，而不会出问题？"
+ },
+ {
+  "seg": 81,
+  "start": 544.523,
+  "end": 552.825,
+  "speaker": "Unknown",
+  "en": "Then we go into the post-processing side of the ingestion layer, so deduping records, enriching your data, processing your badges.",
+  "zh": "然后我们进入摄取层的后处理部分，比如对记录去重、丰富你的数据、处理你的徽章（badges）。"
+ },
+ {
+  "seg": 82,
+  "start": 554.085,
+  "end": 557.006,
+  "speaker": "Unknown",
+  "en": "Some people like delivering it to cloud storage.",
+  "zh": "有些人喜欢把它交付到云存储。"
+ },
+ {
+  "seg": 83,
+  "start": 557.046,
+  "end": 559.146,
+  "speaker": "Unknown",
+  "en": "Some people like delivering it to their internal systems.",
+  "zh": "有些人喜欢把它交付到他们的内部系统。"
+ },
+ {
+  "seg": 84,
+  "start": 559.627,
+  "end": 561.387,
+  "speaker": "Unknown",
+  "en": "Once it gets there, what are you doing with the data?",
+  "zh": "一旦数据到了那里，你要对数据做什么？"
+ },
+ {
+  "seg": 85,
+  "start": 561.407,
+  "end": 566.588,
+  "speaker": "Unknown",
+  "en": "How do you ensure that you're not providing the same record twice or on unclean data?",
+  "zh": "你如何确保不会两次提供同一条记录，或者提供不干净的数据？"
+ },
+ {
+  "seg": 86,
+  "start": 566.788,
+  "end": 574.29,
+  "speaker": "Unknown",
+  "en": "So moving it from in the Medallion architecture, bronze, silver, and then finally moving it over to your database",
+  "zh": "所以在 Medallion 架构中把它从 bronze 移到 silver，最后把它移到你的数据库"
+ },
+ {
+  "seg": 87,
+  "start": 575.211,
+  "end": 580.815,
+  "speaker": "Unknown",
+  "en": "And if anything fails in that process, then you need to start the whole process over.",
+  "zh": "如果这个过程中的任何环节失败了，那么你就需要重新开始整个流程。"
+ },
+ {
+  "seg": 88,
+  "start": 580.855,
+  "end": 581.936,
+  "speaker": "Unknown",
+  "en": "And this is what I was mentioning.",
+  "zh": "这就是我刚才提到的。"
+ },
+ {
+  "seg": 89,
+  "start": 581.976,
+  "end": 590.342,
+  "speaker": "Unknown",
+  "en": "If something breaks in the anti-bots layer or if it breaks and selector has changed, you'd need to start the whole process over.",
+  "zh": "如果反爬虫层出了问题，或者选择器（selector）变了导致出错，你就需要重新开始整个流程。"
+ },
+ {
+  "seg": 90,
+  "start": 590.402,
+  "end": 593.785,
+  "speaker": "Unknown",
+  "en": "Sometimes backfilling, maybe you might miss SLAs and things like that.",
+  "zh": "有时候要回填，也许你可能会错过 SLA 之类的。"
+ },
+ {
+  "seg": 91,
+  "start": 596.203,
+  "end": 599.784,
+  "speaker": "Unknown",
+  "en": "And so here I'm gonna be talking about now specifically AI.",
+  "zh": "所以现在我要专门谈谈 AI。"
+ },
+ {
+  "seg": 92,
+  "start": 600.484,
+  "end": 608.187,
+  "speaker": "Unknown",
+  "en": "Now, how many of you guys today are using things like Claude, GPT, any of the actual AI brains?",
+  "zh": "现在，你们当中今天有多少人在使用像 Claude、GPT、任何真正的 AI 大脑这样的东西？"
+ },
+ {
+  "seg": 93,
+  "start": 609.507,
+  "end": 609.947,
+  "speaker": "Unknown",
+  "en": "Okay, cool.",
+  "zh": "好的，不错。"
+ },
+ {
+  "seg": 94,
+  "start": 610.408,
+  "end": 617.95,
+  "speaker": "Unknown",
+  "en": "How many of you guys have entered a query where you see it says thinking or looking for an answer or searching the web?",
+  "zh": "你们当中有多少人输入过一个查询，然后看到它显示“思考中”或者“正在寻找答案”或者“正在搜索网络”？"
+ },
+ {
+  "seg": 95,
+  "start": 620.095,
+  "end": 620.695,
+  "speaker": "Unknown",
+  "en": "Okay, cool, nice.",
+  "zh": "好的，不错，很好。"
+ },
+ {
+  "seg": 96,
+  "start": 621.196,
+  "end": 637.227,
+  "speaker": "Unknown",
+  "en": "So this is where you see, and I've split it up into two, where the left-hand side is where you see, okay, when the AI is actually thinking or searching the web, that's where it decides, okay, the query that you gave me, I actually need to go out and find the answer to this.",
+  "zh": "所以这就是你看到的，我把它分成了两部分，左手边是当你看到，好吧，当 AI 真的在思考或搜索网络时，那就是它在决定，好吧，你给我的这个查询，我实际上需要出去找到它的答案。"
+ },
+ {
+  "seg": 97,
+  "start": 637.267,
+  "end": 639.208,
+  "speaker": "Unknown",
+  "en": "I can't use my pre-trained data.",
+  "zh": "我不能用我预训练的数据。"
+ },
+ {
+  "seg": 98,
+  "start": 639.228,
+  "end": 642.03,
+  "speaker": "Unknown",
+  "en": "So some prompts, like, I'll give a basic example.",
+  "zh": "所以有些提示词，比如，我举一个基础的例子。"
+ },
+ {
+  "seg": 99,
+  "start": 642.73,
+  "end": 645.933,
+  "speaker": "Unknown",
+  "en": "When's the best time to travel to San Francisco?",
+  "zh": "去旧金山旅行的最佳时间是什么时候？"
+ },
+ {
+  "seg": 100,
+  "start": 646.613,
+  "end": 647.374,
+  "speaker": "Unknown",
+  "en": "So if I say that,",
+  "zh": "所以如果我说,"
+ },
+ {
+  "seg": 101,
+  "start": 648.194,
+  "end": 659.318,
+  "speaker": "Unknown",
+  "en": "Sometimes the AI brain will usually go over to the RAG side, the async, where it'll be used to pre-trained data that, you know, hey, maybe the best time to travel is during the summer.",
+  "zh": "有时候 AI 大脑通常会走 RAG 这边,即异步路径,它会使用预训练数据,比如,嘿,也许最佳旅行时间是夏天。"
+ },
+ {
+  "seg": 102,
+  "start": 660.178,
+  "end": 661.718,
+  "speaker": "Unknown",
+  "en": "And it'll actually provide that back to you.",
+  "zh": "然后它会把那个结果返回给你。"
+ },
+ {
+  "seg": 103,
+  "start": 661.758,
+  "end": 663.239,
+  "speaker": "Unknown",
+  "en": "Now, if I change my query and say,",
+  "zh": "现在,如果我改变我的查询,说,"
+ },
+ {
+  "seg": 104,
+  "start": 664.219,
+  "end": 667.58,
+  "speaker": "Unknown",
+  "en": "When's the best time to travel this year to San Francisco?",
+  "zh": "今年去旧金山旅行的最佳时间是什么时候?"
+ },
+ {
+  "seg": 105,
+  "start": 668.32,
+  "end": 674.902,
+  "speaker": "Unknown",
+  "en": "Then the AI has to actually go out into the web and see, okay, do I need to look at what's going on?",
+  "zh": "那么 AI 就必须真正上网去看,好吧,我需要看看现在发生了什么吗?"
+ },
+ {
+  "seg": 106,
+  "start": 674.922,
+  "end": 678.783,
+  "speaker": "Unknown",
+  "en": "Is my user asking me for events that are going on?",
+  "zh": "我的使用者是在问我正在进行的活动吗?"
+ },
+ {
+  "seg": 107,
+  "start": 678.963,
+  "end": 683.865,
+  "speaker": "Unknown",
+  "en": "I need to make a decision this year real time to find out when I can recommend for them to travel.",
+  "zh": "我需要实时做一个今年的决定,以找出我可以推荐他们什么时候去旅行。"
+ },
+ {
+  "seg": 108,
+  "start": 684.685,
+  "end": 694.034,
+  "speaker": "Unknown",
+  "en": "So these are two different paths that each AI can actually make and provide you an output with.",
+  "zh": "所以这是每个 AI 实际上可以走的两条不同路径,并为你提供一个输出。"
+ },
+ {
+  "seg": 109,
+  "start": 694.495,
+  "end": 698.438,
+  "speaker": "Unknown",
+  "en": "Some things I notice is, like, responses sometimes can be cached.",
+  "zh": "我注意到的一点是,比如,响应有时可以被缓存。"
+ },
+ {
+  "seg": 110,
+  "start": 698.458,
+  "end": 708.028,
+  "speaker": "Unknown",
+  "en": "Like, you know, if someone's asking, what's the weather today in New York City, like a few times a day, that might be a good response to cache because you only need one person to really ask that.",
+  "zh": "比如,你知道,如果有人问,今天纽约的天气怎么样,一天问几次,那可能是一个值得缓存的响应,因为实际上只需要一个人问那个问题。"
+ },
+ {
+  "seg": 111,
+  "start": 709.016,
+  "end": 713.897,
+  "speaker": "Unknown",
+  "en": "And you know what the weather is going to be for the day, and you can just provide it.",
+  "zh": "然后你就知道这一天的天气会是什么样,你可以直接提供。"
+ },
+ {
+  "seg": 112,
+  "start": 713.977,
+  "end": 722.619,
+  "speaker": "Unknown",
+  "en": "So you don't have to burn through tokens or money to actually go out in the web and actually find that data.",
+  "zh": "这样你就不必烧 token 或花钱真正上网去实际找那个数据。"
+ },
+ {
+  "seg": 113,
+  "start": 725.28,
+  "end": 733.181,
+  "speaker": "Unknown",
+  "en": "Now, like I mentioned, there's two paths to gather this intelligence, the sync path and then the async path.",
+  "zh": "现在,就像我提到的,有两条路径来收集这些智能,同步路径和异步路径。"
+ },
+ {
+  "seg": 114,
+  "start": 733.761,
+  "end": 735.642,
+  "speaker": "Unknown",
+  "en": "Both are advantageous for different cases.",
+  "zh": "两者在不同场景下各有优势。"
+ },
+ {
+  "seg": 115,
+  "start": 736.884,
+  "end": 745.821,
+  "speaker": "Unknown",
+  "en": "The sync path is if you really actually want to go out on the web and actually find what you're looking for, and async is if it's okay to rely on pre-trained data.",
+  "zh": "同步路径是如果你真的想上网实际寻找你要找的东西,而异步路径是如果依赖预训练数据是可以的。"
+ },
+ {
+  "seg": 116,
+  "start": 747.029,
+  "end": 750.771,
+  "speaker": "Unknown",
+  "en": "And both require different sort of setups.",
+  "zh": "而且两者需要不同的设置。"
+ },
+ {
+  "seg": 117,
+  "start": 750.811,
+  "end": 759.954,
+  "speaker": "Unknown",
+  "en": "And we also do offer a tool, which I'm gonna cover in the next slide, where you can actually use, leverage Bright Data's tools to actually go out into the web and collect data.",
+  "zh": "我们也提供一个工具,我会在下一张幻灯片中讲到,你可以实际使用、利用 Bright Data 的工具真正上网收集数据。"
+ },
+ {
+  "seg": 118,
+  "start": 760.094,
+  "end": 768.438,
+  "speaker": "Unknown",
+  "en": "Now, one thing I actually noticed is if you go into any website, and if any of you guys are familiar with robots.txt, a lot of...",
+  "zh": "现在,我实际注意到的一点是,如果你进入任何网站,如果你们中有人熟悉 robots.txt,很多……"
+ },
+ {
+  "seg": 119,
+  "start": 769.218,
+  "end": 772.661,
+  "speaker": "Unknown",
+  "en": "Sites usually block things like ClaudeBot and GPTBot.",
+  "zh": "网站通常会屏蔽像 ClaudeBot 和 GPTBot 这样的东西。"
+ },
+ {
+  "seg": 120,
+  "start": 772.761,
+  "end": 785.894,
+  "speaker": "Unknown",
+  "en": "So if you ask these engines these questions that are actually going out to the web and trying to find the data, they might not be able to get those data from those specific sites because they're actually blocking those, you know, GPT or Claude from actually accessing the data.",
+  "zh": "所以如果你问这些引擎那些真正上网尝试找数据的问题,它们可能无法从那些特定网站获取那些数据,因为那些网站实际上在屏蔽那些,你知道的,GPT 或 Claude 访问数据。"
+ },
+ {
+  "seg": 121,
+  "start": 786.354,
+  "end": 787.735,
+  "speaker": "Unknown",
+  "en": "Now, that's where we sort of come in.",
+  "zh": "现在,这就是我们某种程度上发挥作用的地方。"
+ },
+ {
+  "seg": 122,
+  "start": 788.356,
+  "end": 790.358,
+  "speaker": "Unknown",
+  "en": "And because our advantage is",
+  "zh": "因为我们的优势是"
+ },
+ {
+  "seg": 123,
+  "start": 792.8,
+  "end": 795.621,
+  "speaker": "Unknown",
+  "en": "We're able to actually unlock the web.",
+  "zh": "我们能够真正解锁网络。"
+ },
+ {
+  "seg": 124,
+  "start": 795.661,
+  "end": 809.884,
+  "speaker": "Unknown",
+  "en": "Whether it's if you have a scraper or you have an agent or you're using something like Claude or GPT, we have tools that will allow it to actually go out into the web without actually getting blocked and scraping data.",
+  "zh": "无论是你有爬虫、有智能体,还是你在用像 Claude 或 GPT 这样的东西,我们有工具可以让它实际上网而不被屏蔽并抓取数据。"
+ },
+ {
+  "seg": 125,
+  "start": 809.904,
+  "end": 812.324,
+  "speaker": "Unknown",
+  "en": "And we've been masters at this for a long time.",
+  "zh": "而且我们在这一领域早已是大师。"
+ },
+ {
+  "seg": 126,
+  "start": 813.604,
+  "end": 817.965,
+  "speaker": "Unknown",
+  "en": "Now, I'm gonna be talking about the web model context protocol.",
+  "zh": "现在,我要讲一下 web 模型上下文协议。"
+ },
+ {
+  "seg": 127,
+  "start": 818.866,
+  "end": 819.926,
+  "speaker": "Unknown",
+  "en": "That's what MCP means.",
+  "zh": "这就是 MCP 的含义。"
+ },
+ {
+  "seg": 128,
+  "start": 821.957,
+  "end": 826.54,
+  "speaker": "Unknown",
+  "en": "It usually integrates with something like Claude Code, LangChain, name it.",
+  "zh": "它通常与像 Claude Code、LangChain 之类的东西集成,随你说。"
+ },
+ {
+  "seg": 129,
+  "start": 826.66,
+  "end": 829.622,
+  "speaker": "Unknown",
+  "en": "You could think of it as a brain that it needs to speak to.",
+  "zh": "你可以把它想象成它需要与之对话的大脑。"
+ },
+ {
+  "seg": 130,
+  "start": 830.523,
+  "end": 840.509,
+  "speaker": "Unknown",
+  "en": "And that brain essentially connects to our MCP endpoint, which is essentially 60-plus APIs that we control in our library.",
+  "zh": "而那个大脑本质上连接到我们的 MCP 端点,这本质上是我们库中控制的 60 多个 API。"
+ },
+ {
+  "seg": 131,
+  "start": 840.549,
+  "end": 844.592,
+  "speaker": "Unknown",
+  "en": "And some examples you can see here are search engine, so Google results.",
+  "zh": "你在这里可以看到的一些例子是搜索引擎,即 Google 结果。"
+ },
+ {
+  "seg": 132,
+  "start": 845.622,
+  "end": 849.345,
+  "speaker": "Unknown",
+  "en": "Scraping pages as Markdown files and scraping pages as HTML.",
+  "zh": "将页面抓取为 Markdown 文件以及将页面抓取为 HTML。"
+ },
+ {
+  "seg": 133,
+  "start": 849.865,
+  "end": 858.191,
+  "speaker": "Unknown",
+  "en": "Now, if I want to target specific sites like Amazon, Reddit, LinkedIn, Instagram, that's all included as well.",
+  "zh": "现在,如果我想针对特定网站,比如 Amazon、Reddit、LinkedIn、Instagram,这些也都包含在内。"
+ },
+ {
+  "seg": 134,
+  "start": 858.311,
+  "end": 867.417,
+  "speaker": "Unknown",
+  "en": "I actually, as an example, I worked with someone two weeks ago that was trying to build a social media listener with the MCP.",
+  "zh": "我实际上,举个例子,两周前我和某个人合作,他试图用 MCP 构建一个社交媒体监听器。"
+ },
+ {
+  "seg": 135,
+  "start": 867.997,
+  "end": 871.44,
+  "speaker": "Unknown",
+  "en": "And one use case they said was, hey, this is my name.",
+  "zh": "他们说的一个使用场景是,嘿,这是我的名字。"
+ },
+ {
+  "seg": 136,
+  "start": 872.2,
+  "end": 878.166,
+  "speaker": "Unknown",
+  "en": "I want to go out into the web and collect me all of my social media profiles and return me how many followers I have.",
+  "zh": "我想上网帮我收集我所有的社交媒体资料,并返回我有多少粉丝。"
+ },
+ {
+  "seg": 137,
+  "start": 878.847,
+  "end": 880.849,
+  "speaker": "Unknown",
+  "en": "So what this did was he was using it on Claude Code.",
+  "zh": "所以这个做的事情是,他在 Claude Code 上使用它。"
+ },
+ {
+  "seg": 138,
+  "start": 881.689,
+  "end": 889.717,
+  "speaker": "Unknown",
+  "en": "It made a call to our MCP using the search engine first, found the results, his pages on Instagram, TikTok, LinkedIn,",
+  "zh": "它先使用搜索引擎对我们的 MCP 发起调用,找到了结果,他在 Instagram、TikTok、LinkedIn 上的页面,"
+ },
+ {
+  "seg": 139,
+  "start": 890.678,
+  "end": 900.122,
+  "speaker": "Unknown",
+  "en": "Brought that back, made the API request to our data pipeline, and then brought back the results on how many followers you have and gave them the context back.",
+  "zh": "把结果带回来,向我们的数据管道发起 API 请求,然后把关于你有多少粉丝的结果带回来,并把上下文返回给他。"
+ },
+ {
+  "seg": 140,
+  "start": 900.723,
+  "end": 906.225,
+  "speaker": "Unknown",
+  "en": "So that's the power of, you know, what this can do and how much of the web the MCP can unlock.",
+  "zh": "所以这就是它的能力,以及 MCP 能解锁多大的网络。"
+ },
+ {
+  "seg": 141,
+  "start": 906.465,
+  "end": 908.246,
+  "speaker": "Unknown",
+  "en": "And also this works for browser automations.",
+  "zh": "而且这也适用于浏览器自动化。"
+ },
+ {
+  "seg": 142,
+  "start": 908.266,
+  "end": 916.63,
+  "speaker": "Unknown",
+  "en": "So, you know, creating things that you want to use a browser for, like clicking, scrolling, you know, maybe DoorDash, like automating an order.",
+  "zh": "所以,你知道,创建你想用浏览器来做的事情,比如点击、滚动,你知道,也许 DoorDash,比如自动化下单。"
+ },
+ {
+  "seg": 143,
+  "start": 917.59,
+  "end": 925.755,
+  "speaker": "Unknown",
+  "en": "Or automating on a travel site, trying to find what's the best times to buy a flight, book a flight.",
+  "zh": "或者在旅行网站上自动化,试图找出买机票、订机票的最佳时间。"
+ },
+ {
+  "seg": 144,
+  "start": 926.556,
+  "end": 928.957,
+  "speaker": "Unknown",
+  "en": "So things like that, it's very advantageous for.",
+  "zh": "这类事情,它对此非常有优势。"
+ },
+ {
+  "seg": 145,
+  "start": 930.238,
+  "end": 934.381,
+  "speaker": "Unknown",
+  "en": "And I'm gonna show you a little video on how the MCP works.",
+  "zh": "我要给你们展示一个关于 MCP 如何工作的短视频。"
+ },
+ {
+  "seg": 146,
+  "start": 935.682,
+  "end": 936.442,
+  "speaker": "Unknown",
+  "en": "Let me bring...",
+  "zh": "让我调出……"
+ },
+ {
+  "seg": 147,
+  "start": 938.257,
+  "end": 947.242,
+  "speaker": "Unknown",
+  "en": "So on the left-hand side, you can see this is Claude with Bright Data's MCP setup, and on the right side, this is without Bright Data's MCP setup on Claude.",
+  "zh": "在左边,你可以看到这是设置了 Bright Data MCP 的 Claude,而在右边,这是没有设置 Bright Data MCP 的 Claude。"
+ },
+ {
+  "seg": 148,
+  "start": 948.423,
+  "end": 955.928,
+  "speaker": "Unknown",
+  "en": "So you can see it's the same prompt being asked, and it's use your browser to get the contents of this page, which is a Glassdoor URL.",
+  "zh": "所以你可以看到被问的是同一个提示词,即使用你的浏览器获取这个页面的内容,这是一个 Glassdoor 的 URL。"
+ },
+ {
+  "seg": 149,
+  "start": 957.868,
+  "end": 964.711,
+  "speaker": "Unknown",
+  "en": "And on the left side, you can see with Bright Data's MCP, it actually went over to Glassdoor and got the results.",
+  "zh": "在左边,你可以看到有了 Bright Data 的 MCP,它实际上访问了 Glassdoor 并拿到了结果。"
+ },
+ {
+  "seg": 150,
+  "start": 965.392,
+  "end": 969.474,
+  "speaker": "Unknown",
+  "en": "But on the right-hand side, it actually got blocked from going into Glassdoor.",
+  "zh": "但在右边这边,它实际上被阻止进入 Glassdoor。"
+ },
+ {
+  "seg": 151,
+  "start": 970.856,
+  "end": 978.16,
+  "speaker": "Unknown",
+  "en": "So this is one perfect example of sites like Glastro I've worked with on a data collection level that's a very protected site.",
+  "zh": "所以这是像 Glastro 这样的网站的一个完美例子,我在数据收集层面上打过交道,这是一个受保护程度非常高的网站。"
+ },
+ {
+  "seg": 152,
+  "start": 979.081,
+  "end": 988.747,
+  "speaker": "Unknown",
+  "en": "And this is one great example on why the MCP is advantageous, pairing it up with something like Claude or GPT or any sort of brains that you'd want to run it on.",
+  "zh": "而这也是为什么 MCP 有优势的一个很好的例子,把它和像 Claude 或 GPT 或任何你想用来运行它的“大脑”搭配起来。"
+ },
+ {
+  "seg": 153,
+  "start": 995.131,
+  "end": 998.653,
+  "speaker": "Unknown",
+  "en": "Okay, so now I'm gonna be speaking about an example use case",
+  "zh": "好,现在我要讲一个示例用例"
+ },
+ {
+  "seg": 154,
+  "start": 1000.998,
+  "end": 1011.542,
+  "speaker": "Unknown",
+  "en": "So working with AI companies, these are examples of customers that I speak with that use bright data in any form of way.",
+  "zh": "和 AI 公司合作,这些是和我交流过的客户的一些例子,他们以各种方式使用 bright data。"
+ },
+ {
+  "seg": 155,
+  "start": 1011.742,
+  "end": 1024.606,
+  "speaker": "Unknown",
+  "en": "So training models, fine-tune, enriching their models or fine-tuning their models, providing AI agents real-time access, like we mentioned, or enriching RAG.",
+  "zh": "比如训练模型、微调、丰富他们的模型或微调他们的模型、为智能体提供实时访问,就像我们提到的,或者丰富 RAG。"
+ },
+ {
+  "seg": 156,
+  "start": 1024.646,
+  "end": 1026.927,
+  "speaker": "Unknown",
+  "en": "So in this example, I'm gonna be speaking about",
+  "zh": "所以在这个例子中,我要讲的是"
+ },
+ {
+  "seg": 157,
+  "start": 1027.727,
+  "end": 1028.948,
+  "speaker": "Unknown",
+  "en": "Specifically jobs, right?",
+  "zh": "具体是职位,对吧?"
+ },
+ {
+  "seg": 158,
+  "start": 1028.968,
+  "end": 1039.017,
+  "speaker": "Unknown",
+  "en": "So let's say someone came to me and said, hey, listen, I need job data and I want to train a model with jobs data, like maybe resume matching, you know, as an example.",
+  "zh": "假设有人来找我说,嘿,听着,我需要职位数据,我想用职位数据训练一个模型,比如简历匹配之类的,作为例子。"
+ },
+ {
+  "seg": 159,
+  "start": 1042.382,
+  "end": 1052.631,
+  "speaker": "Unknown",
+  "en": "One thing we need to know is when you're thinking about jobs data, it's not like collecting other forms of data where it's I can pull in the data and then I can just forget about it or train a model.",
+  "zh": "我们需要知道的一点是,当你考虑职位数据时,它不像收集其他形式的数据那样,我可以把数据拉进来然后就不管它,或者直接训练一个模型。"
+ },
+ {
+  "seg": 160,
+  "start": 1052.671,
+  "end": 1055.333,
+  "speaker": "Unknown",
+  "en": "You need continuous updates about jobs.",
+  "zh": "你需要关于职位的持续更新。"
+ },
+ {
+  "seg": 161,
+  "start": 1055.393,
+  "end": 1061.238,
+  "speaker": "Unknown",
+  "en": "Which companies are posting what, how many jobs are available, what's the salary, location, et cetera.",
+  "zh": "哪些公司在发布什么职位,有多少职位可用,薪资是多少,地点在哪里,等等。"
+ },
+ {
+  "seg": 162,
+  "start": 1061.298,
+  "end": 1066.363,
+  "speaker": "Unknown",
+  "en": "So this is why it's important that the data is actually structured and has a consistent output.",
+  "zh": "所以这就是为什么数据必须是结构化的并且有一致的输出,这一点很重要。"
+ },
+ {
+  "seg": 163,
+  "start": 1067.698,
+  "end": 1078.241,
+  "speaker": "Unknown",
+  "en": "The actual performance is very key as well because if you're building a model to analyze job patterns or anything in the job market, you need that data flowing to you consistently.",
+  "zh": "实际的性能也非常关键,因为如果你在构建一个模型来分析职位模式或就业市场中的任何东西,你需要这些数据持续不断地流向你。"
+ },
+ {
+  "seg": 164,
+  "start": 1079.602,
+  "end": 1089.425,
+  "speaker": "Unknown",
+  "en": "And you also need this to be very reliable because if something breaks or if there's downtime, then that can actually affect the entire pipeline that you want to run.",
+  "zh": "而且你还需要它非常可靠,因为如果出了故障或者有停机时间,那实际上会影响你想运行的整个流水线。"
+ },
+ {
+  "seg": 165,
+  "start": 1091.002,
+  "end": 1097.446,
+  "speaker": "Unknown",
+  "en": "And the timeline for this, you know, it's not only about getting data starting from today about jobs throughout.",
+  "zh": "而时间线上,你知道,这不仅仅是获取从今天开始的职位数据。"
+ },
+ {
+  "seg": 166,
+  "start": 1098.086,
+  "end": 1104.249,
+  "speaker": "Unknown",
+  "en": "Some people need jobs data previously, you know, like the past few months or past few years.",
+  "zh": "有些人需要以前的职位数据,你知道,比如过去几个月或过去几年的。"
+ },
+ {
+  "seg": 167,
+  "start": 1104.71,
+  "end": 1112.234,
+  "speaker": "Unknown",
+  "en": "So that's why it's very important that, you know, you're covering all of these because if you want to build a big picture on, you know, in this example for jobs,",
+  "zh": "所以这就是为什么非常重要的是,你要覆盖所有这些,因为如果你想建立一个大局观,你知道,在这个职位数据的例子里,"
+ },
+ {
+  "seg": 168,
+  "start": 1113.154,
+  "end": 1118.937,
+  "speaker": "Unknown",
+  "en": "On, you know, how do I find, train my model on jobs data so I can find the best matches for this position?",
+  "zh": "关于,你知道,我如何找到职位数据来训练我的模型,这样我就能为这个职位找到最佳匹配?"
+ },
+ {
+  "seg": 169,
+  "start": 1119.318,
+  "end": 1121.559,
+  "speaker": "Unknown",
+  "en": "You need to understand how the trends changed.",
+  "zh": "你需要了解趋势是如何变化的。"
+ },
+ {
+  "seg": 170,
+  "start": 1121.899,
+  "end": 1131.945,
+  "speaker": "Unknown",
+  "en": "You know, maybe salary has increased for software engineers over time, and you need to understand why, what the demand is, what's the current, you know, offering, and, you know, you build your model around that.",
+  "zh": "你知道,也许软件工程师的薪资随着时间推移上涨了,你需要理解为什么,需求是什么,当前的报价是什么,你知道,然后你围绕这些来构建你的模型。"
+ },
+ {
+  "seg": 171,
+  "start": 1132.045,
+  "end": 1136.868,
+  "speaker": "Unknown",
+  "en": "So this is like the example use case, like an AI agent for resume matching.",
+  "zh": "所以这就是示例用例,比如一个用于简历匹配的 AI 智能体。"
+ },
+ {
+  "seg": 172,
+  "start": 1138.698,
+  "end": 1140.339,
+  "speaker": "Unknown",
+  "en": "So it's exactly what we discussed here.",
+  "zh": "所以这正是我们在这里讨论的内容。"
+ },
+ {
+  "seg": 173,
+  "start": 1141.18,
+  "end": 1150.968,
+  "speaker": "Unknown",
+  "en": "So immediately you need real-time access to actually go through and scrape the data and be able to train this model along with it.",
+  "zh": "所以你立即需要实时访问来实际遍历并抓取数据,并能够随之训练这个模型。"
+ },
+ {
+  "seg": 174,
+  "start": 1154.791,
+  "end": 1158.995,
+  "speaker": "Unknown",
+  "en": "Okay, so I'm gonna be covering a hands-on exercise here.",
+  "zh": "好,接下来我要讲一个动手练习。"
+ },
+ {
+  "seg": 175,
+  "start": 1161.452,
+  "end": 1164.253,
+  "speaker": "Unknown",
+  "en": "I have a Google notebook here.",
+  "zh": "我这里有一个 Google notebook。"
+ },
+ {
+  "seg": 176,
+  "start": 1164.474,
+  "end": 1170.156,
+  "speaker": "Unknown",
+  "en": "And if any of you guys are following along, there's two things that you require to actually run this script.",
+  "zh": "如果你们中有人想跟着做,实际运行这个脚本需要两样东西。"
+ },
+ {
+  "seg": 177,
+  "start": 1171.137,
+  "end": 1173.478,
+  "speaker": "Unknown",
+  "en": "One is a Bright Data API token.",
+  "zh": "一个是 Bright Data API token。"
+ },
+ {
+  "seg": 178,
+  "start": 1174.739,
+  "end": 1176.9,
+  "speaker": "Unknown",
+  "en": "And one is a Gemini API key.",
+  "zh": "另一个是 Gemini API key。"
+ },
+ {
+  "seg": 179,
+  "start": 1177.34,
+  "end": 1180.962,
+  "speaker": "Unknown",
+  "en": "And I have the list of instructions in the Google Drive on how to set up both.",
+  "zh": "我在 Google Drive 里放了设置这两者的说明列表。"
+ },
+ {
+  "seg": 180,
+  "start": 1182.275,
+  "end": 1187.177,
+  "speaker": "Unknown",
+  "en": "And essentially, I have everything set up here for you to run, so I'll speak a bit about what we're doing here.",
+  "zh": "基本上,我把所有东西都设置好了供你们运行,所以我会稍微讲一下我们在这里做什么。"
+ },
+ {
+  "seg": 181,
+  "start": 1187.697,
+  "end": 1192.079,
+  "speaker": "Unknown",
+  "en": "So first, we're calling Bright Data's API endpoint to collect Amazon data.",
+  "zh": "首先,我们调用 Bright Data 的 API endpoint 来收集 Amazon 数据。"
+ },
+ {
+  "seg": 182,
+  "start": 1193.36,
+  "end": 1205.165,
+  "speaker": "Unknown",
+  "en": "We're collecting the response from Amazon, then calling the API for Reddit itself, capturing the raw Reddit data response, and then performing AI analysis over that.",
+  "zh": "我们收集来自 Amazon 的响应,然后调用 Reddit 本身的 API,捕获原始的 Reddit 数据响应,然后对其进行 AI 分析。"
+ },
+ {
+  "seg": 183,
+  "start": 1206.127,
+  "end": 1212.649,
+  "speaker": "Unknown",
+  "en": "Now, before I run this, I wanna show you the exact data that we're getting from each of these APIs.",
+  "zh": "现在,在我运行这个之前,我想给你们看看我们从这些 API 中各自得到的确切数据。"
+ },
+ {
+  "seg": 184,
+  "start": 1213.45,
+  "end": 1220.252,
+  "speaker": "Unknown",
+  "en": "So Amazon, we're getting product-level data, so I picked a Tumblr cup as an example.",
+  "zh": "对于 Amazon,我们得到的是产品级数据,我选了一个 Tumblr 杯作为例子。"
+ },
+ {
+  "seg": 185,
+  "start": 1221.292,
+  "end": 1232.056,
+  "speaker": "Unknown",
+  "en": "And essentially, we have every single data about the product, so price, images, URLs, et cetera.",
+  "zh": "基本上,我们有关于这个产品的每一个数据,比如价格、图片、URL 等等。"
+ },
+ {
+  "seg": 186,
+  "start": 1232.436,
+  "end": 1234.197,
+  "speaker": "Unknown",
+  "en": "And I'll show you this once it runs as well.",
+  "zh": "等它运行起来我也会给你们展示。"
+ },
+ {
+  "seg": 187,
+  "start": 1235.115,
+  "end": 1237.658,
+  "speaker": "Unknown",
+  "en": "My screen's a little small, so it might not show the entire thing.",
+  "zh": "我的屏幕有点小,所以可能显示不全。"
+ },
+ {
+  "seg": 188,
+  "start": 1239.019,
+  "end": 1255.738,
+  "speaker": "Unknown",
+  "en": "And we also have a Reddit API where what I'm going to do in this script that I built is I'll actually run a keyword search for that specific Tumblr cup, and I'm going to be outputting posts",
+  "zh": "我们还有一个 Reddit API,在我构建的这个脚本里,我要做的是针对那个特定的 Tumblr 杯运行一个关键词搜索,我会输出那些帖子"
+ },
+ {
+  "seg": 189,
+  "start": 1256.867,
+  "end": 1262.129,
+  "speaker": "Unknown",
+  "en": "that talk about what's exactly, should I buy this or not?",
+  "zh": "讨论的内容正是,我该不该买这个?"
+ },
+ {
+  "seg": 190,
+  "start": 1262.289,
+  "end": 1263.07,
+  "speaker": "Unknown",
+  "en": "Is this worth it?",
+  "zh": "值不值?"
+ },
+ {
+  "seg": 191,
+  "start": 1263.09,
+  "end": 1263.99,
+  "speaker": "Unknown",
+  "en": "Is this not worth it?",
+  "zh": "不值不值?"
+ },
+ {
+  "seg": 192,
+  "start": 1264.23,
+  "end": 1264.971,
+  "speaker": "Unknown",
+  "en": "What are people saying?",
+  "zh": "大家都在说什么?"
+ },
+ {
+  "seg": 193,
+  "start": 1265.911,
+  "end": 1267.752,
+  "speaker": "Unknown",
+  "en": "So let's run this live.",
+  "zh": "那我们现场运行一下。"
+ },
+ {
+  "seg": 194,
+  "start": 1293.073,
+  "end": 1294.834,
+  "speaker": "Unknown",
+  "en": "All right, so we got our keys loaded here.",
+  "zh": "好,我们的 key 已经加载好了。"
+ },
+ {
+  "seg": 195,
+  "start": 1301.279,
+  "end": 1303.44,
+  "speaker": "Unknown",
+  "en": "All right, so we got our Amazon data that came back.",
+  "zh": "好,我们的 Amazon 数据返回来了。"
+ },
+ {
+  "seg": 196,
+  "start": 1303.72,
+  "end": 1316.75,
+  "speaker": "Unknown",
+  "en": "You can see it has price, rating, other sellers that are selling it, all of the actual data from the product itself, features, you name it.",
+  "zh": "你可以看到它有价格、评分、其他在卖的卖家、产品本身的所有实际数据、功能特性,应有尽有。"
+ },
+ {
+  "seg": 197,
+  "start": 1319.989,
+  "end": 1331.026,
+  "speaker": "Unknown",
+  "en": "Now we'll go ahead and trigger a Reddit search for the Stanley Quencher Tumblr, just having reviews about the actual product itself.",
+  "zh": "现在我们继续,触发一次对 Stanley Quencher Tumblr 杯的 Reddit 搜索,就是找关于这个产品本身的评论。"
+ },
+ {
+  "seg": 198,
+  "start": 1355.157,
+  "end": 1361.019,
+  "speaker": "Unknown",
+  "en": "And while this is running, I will show you a bit about what I spoke about the model context protocol, the MCP servers.",
+  "zh": "在这个运行的同时,我会给你们展示一点我刚才讲到的模型上下文协议,也就是 MCP 服务器。"
+ },
+ {
+  "seg": 199,
+  "start": 1361.079,
+  "end": 1364.219,
+  "speaker": "Unknown",
+  "en": "So we have different layers.",
+  "zh": "所以我们有不同的层。"
+ },
+ {
+  "seg": 200,
+  "start": 1364.259,
+  "end": 1376.403,
+  "speaker": "Unknown",
+  "en": "I know I talked about things like browser automation and search engine, but we also do cover things like e-commerce, social media, financial intelligence, research.",
+  "zh": "我知道我谈过像浏览器自动化和搜索引擎之类的东西,但我们确实也涵盖像电子商务、社交媒体、金融情报、研究这些领域。"
+ },
+ {
+  "seg": 201,
+  "start": 1377.645,
+  "end": 1378.626,
+  "speaker": "Unknown",
+  "en": "Business Intelligence.",
+  "zh": "商业智能。"
+ },
+ {
+  "seg": 202,
+  "start": 1378.666,
+  "end": 1382.928,
+  "speaker": "Unknown",
+  "en": "So these can all be plugged into an MCP endpoint.",
+  "zh": "所以这些都可以接入到一个 MCP 端点。"
+ },
+ {
+  "seg": 203,
+  "start": 1383.248,
+  "end": 1384.469,
+  "speaker": "Unknown",
+  "en": "You know, App Store travels.",
+  "zh": "你知道,App Store travels。"
+ },
+ {
+  "seg": 204,
+  "start": 1385.269,
+  "end": 1387.29,
+  "speaker": "Unknown",
+  "en": "And we are still adding to it.",
+  "zh": "而且我们还在继续添加。"
+ },
+ {
+  "seg": 205,
+  "start": 1387.33,
+  "end": 1392.353,
+  "speaker": "Unknown",
+  "en": "Currently, we have about like 60 plus tools available to use for AI agents.",
+  "zh": "目前,我们大约有 60 多个可供 AI 智能体使用的工具。"
+ },
+ {
+  "seg": 206,
+  "start": 1392.393,
+  "end": 1399.877,
+  "speaker": "Unknown",
+  "en": "Some people prefer actually using scrapers themselves, but this will allow your AI agent to choose which tools to use.",
+  "zh": "有些人其实更喜欢自己使用爬虫,但这会让你的 AI 智能体选择使用哪些工具。"
+ },
+ {
+  "seg": 207,
+  "start": 1399.917,
+  "end": 1401.878,
+  "speaker": "Unknown",
+  "en": "So it'll be a lot more streamlined and easier.",
+  "zh": "所以这样会更加精简、更容易。"
+ },
+ {
+  "seg": 208,
+  "start": 1426.478,
+  "end": 1429.099,
+  "speaker": "Unknown",
+  "en": "While this is running, I can take any questions if anyone has.",
+  "zh": "在这个运行的同时,如果任何人有问题,我可以回答。"
+ },
+ {
+  "seg": 209,
+  "start": 1445.608,
+  "end": 1452.111,
+  "speaker": "Unknown",
+  "en": "Yeah, so the question was, how come you guys can scrape resume-level data, but bots can't do it, right?",
+  "zh": "好的,这个问题是,为什么你们能抓取简历级别的数据,但机器人却做不到,对吧?"
+ },
+ {
+  "seg": 210,
+  "start": 1454.165,
+  "end": 1472.778,
+  "speaker": "Unknown",
+  "en": "What gives Bright Data the advantage, and this is why we're able to do it, whereas things like bots aren't able to, is because we have the world's largest infrastructure, like proxy infrastructure, and where you're talking about a few requests, maybe a few days' worth of scraping pages, like Glassdoor I use as an example.",
+  "zh": "是什么让 Bright Data 拥有优势,这也是我们能做到而像机器人那样的东西做不到的原因,是因为我们拥有世界上最大的基础设施,比如代理基础设施,而当你谈论的是少量请求、也许几天时间的页面抓取时,比如我拿 Glassdoor 举例。"
+ },
+ {
+  "seg": 211,
+  "start": 1473.957,
+  "end": 1474.637,
+  "speaker": "Unknown",
+  "en": "Might work, right?",
+  "zh": "可能行得通,对吧?"
+ },
+ {
+  "seg": 212,
+  "start": 1474.997,
+  "end": 1488.16,
+  "speaker": "Unknown",
+  "en": "But let's say, after a while, Glassdoor catches on, like, hey, you know, he's using a data center IP, he's accessing the page, you know, nothing's actually being done on the page, and then they start adding all these layers of anti-bot into the picture.",
+  "zh": "但假设,过了一段时间之后,Glassdoor 察觉到了,比如,嘿,你知道,他在使用数据中心 IP,他在访问页面,你知道,页面上实际上什么操作都没做,然后他们开始把所有这些反机器人层加进来。"
+ },
+ {
+  "seg": 213,
+  "start": 1488.8,
+  "end": 1503.423,
+  "speaker": "Unknown",
+  "en": "That's when companies like us, Bright Data, would come into the play because you need to actually not only own, like, a scraper or a bot, but you need to think about how do I bypass, you know, what the site is protected with, the CAPTCHA, and how do I do it consistently",
+  "zh": "那时候,像我们这样的公司,Bright Data,就会派上用场,因为你实际上不仅需要拥有,比如,一个爬虫或一个机器人,还需要考虑如何绕过,你知道,网站的保护措施、CAPTCHA,以及如何持续稳定地做到这一点"
+ },
+ {
+  "seg": 214,
+  "start": 1504.183,
+  "end": 1505.864,
+  "speaker": "Unknown",
+  "en": "Without triggering the block.",
+  "zh": "而不触发封锁。"
+ },
+ {
+  "seg": 215,
+  "start": 1506.224,
+  "end": 1514.348,
+  "speaker": "Unknown",
+  "en": "So we've been doing it for years and we have tools that bake in to this anti-bot logic where we're changing our approach to a site every time at scale.",
+  "zh": "所以我们做这件事已经很多年了,我们有一些工具内置了这种反机器人逻辑,我们会大规模地每次都改变对某个网站的策略。"
+ },
+ {
+  "seg": 216,
+  "start": 1515.048,
+  "end": 1520.93,
+  "speaker": "Unknown",
+  "en": "But sometimes people that are starting off scraping might be doing it in-house and managing it.",
+  "zh": "但有时候刚开始做抓取的人可能是在内部做并自行管理。"
+ },
+ {
+  "seg": 217,
+  "start": 1521.03,
+  "end": 1531.295,
+  "speaker": "Unknown",
+  "en": "You have to also think that's also engineering time and resource time because trying to figure out what change did that site make also takes time, even probably more time than managing the scraper.",
+  "zh": "你还必须考虑到,那也是工程时间和资源时间,因为试图弄清楚那个网站做了什么改动也要花时间,甚至可能比管理爬虫花的时间还多。"
+ },
+ {
+  "seg": 218,
+  "start": 1535.902,
+  "end": 1538.844,
+  "speaker": "Unknown",
+  "en": "Okay, cool, looks like it came back with data here.",
+  "zh": "好的,很酷,看起来这里返回了数据。"
+ },
+ {
+  "seg": 219,
+  "start": 1538.904,
+  "end": 1554.075,
+  "speaker": "Unknown",
+  "en": "So I can show you, so it captured a few Reddit posts about the actual Tumblr itself, so some comments about, you know, what people were saying about the actual Tumblr.",
+  "zh": "那么我可以给你们看,它抓取了几条关于这个 Tumblr 本身的 Reddit 帖子,所以有一些评论,你知道,人们对这个 Tumblr 本身的评价。"
+ },
+ {
+  "seg": 220,
+  "start": 1554.536,
+  "end": 1562.521,
+  "speaker": "Unknown",
+  "en": "It looks like people were saying it was embarrassing and people were obsessed, but, and then it gives the actual response here.",
+  "zh": "看起来人们说它很尴尬,人们很着迷,但是,然后它在这里给出了实际的回应。"
+ },
+ {
+  "seg": 221,
+  "start": 1562.561,
+  "end": 1563.102,
+  "speaker": "Unknown",
+  "en": "So you could see,",
+  "zh": "所以你可以看到,"
+ },
+ {
+  "seg": 222,
+  "start": 1564.977,
+  "end": 1565.699,
+  "speaker": "Unknown",
+  "en": "Actually buy it.",
+  "zh": "实际上可以买它。"
+ },
+ {
+  "seg": 223,
+  "start": 1566.701,
+  "end": 1568.003,
+  "speaker": "Unknown",
+  "en": "It's on a decent discount.",
+  "zh": "它有不错的折扣。"
+ },
+ {
+  "seg": 224,
+  "start": 1568.504,
+  "end": 1572.372,
+  "speaker": "Unknown",
+  "en": "There's overwhelmingly positive reviews, but a few minor mixed opinions.",
+  "zh": "有压倒性的好评,但有一些轻微的分歧意见。"
+ },
+ {
+  "seg": 225,
+  "start": 1573.153,
+  "end": 1576.82,
+  "speaker": "Unknown",
+  "en": "There's high demand, but low stock on Amazon because they returned that from the data.",
+  "zh": "需求很高,但 Amazon 上库存很低,因为它们是从数据中返回的那些信息。"
+ },
+ {
+  "seg": 226,
+  "start": 1578.574,
+  "end": 1583.735,
+  "speaker": "Unknown",
+  "en": "And a few other analysis points about the actual Tumblr and the amount of reviews it has.",
+  "zh": "还有其他一些关于这个 Tumblr 本身以及它的评论数量的分析点。"
+ },
+ {
+  "seg": 227,
+  "start": 1583.775,
+  "end": 1591.017,
+  "speaker": "Unknown",
+  "en": "It actually dissected all the data points that we returned from our API and gave you a decision on, yes, should I buy it, should I not buy it?",
+  "zh": "它实际上把我们从 API 返回的所有数据点都拆解分析了,并给你一个决定,是的,我该不该买它?"
+ },
+ {
+  "seg": 228,
+  "start": 1591.397,
+  "end": 1600.219,
+  "speaker": "Unknown",
+  "en": "Now, this is just one example of using data starting from Amazon, running it on Reddit, and then making a decision, but you can think of this on a bigger picture.",
+  "zh": "现在,这只是从 Amazon 的数据开始、在 Reddit 上运行、然后做出决策的一个例子,但你可以在更大的图景上来考虑这件事。"
+ },
+ {
+  "seg": 229,
+  "start": 1602.52,
+  "end": 1603.641,
+  "speaker": "Unknown",
+  "en": "It doesn't have to be e-commerce.",
+  "zh": "它不必是电子商务。"
+ },
+ {
+  "seg": 230,
+  "start": 1603.661,
+  "end": 1605.141,
+  "speaker": "Unknown",
+  "en": "It can be any sort of use case.",
+  "zh": "它可以是任何类型的用例。"
+ },
+ {
+  "seg": 231,
+  "start": 1605.441,
+  "end": 1620.147,
+  "speaker": "Unknown",
+  "en": "As long as we have the tools that can allow you to go to the page and access the data, now it's up to you what logic and how you want to build that pipeline, and build it at scale as well, because one thing we do best is actually provide the data at scale.",
+  "zh": "只要我们有能让你进入页面并访问数据的工具,接下来就取决于你想要什么样的逻辑、想如何构建那个管道,并且也要大规模地构建它,因为我们最擅长的事情之一就是大规模地提供数据。"
+ },
+ {
+  "seg": 232,
+  "start": 1622.728,
+  "end": 1622.868,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "很酷。"
+ },
+ {
+  "seg": 233,
+  "start": 1623.069,
+  "end": 1631.272,
+  "speaker": "Unknown",
+  "en": "I think we're able to wrap up, and if you have questions after, I'll be available, or you can stop by at the Bright Data Booth, but thank you for your time, guys.",
+  "zh": "我想我们可以收尾了,如果你之后有问题,我可以随时解答,或者你可以到 Bright Data 的展位来,但谢谢大家的时间。"
+ },
+ {
+  "seg": 234,
+  "start": 1638.403,
+  "end": 1639.327,
+  "speaker": "Unknown",
+  "en": "Let's go.",
+  "zh": "我们走。"
+ }
+]

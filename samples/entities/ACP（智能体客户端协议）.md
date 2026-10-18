@@ -27,7 +27,7 @@ unlisted: true
 
 [[MCP]] · [[智能体]] · [[Alex Hancock]] · [[Dominik Kundel]] · [[Block]] · [[Codex]] · [[Goose]] · [[OpenAI]] · [[Zed]] · [[应用服务器]]
 
-<script type="application/json" class="pd-epn">{"MCP":100,"智能体":1,"Alex Hancock":1,"Dominik Kundel":1,"Block":3,"Codex":92,"Goose":2,"OpenAI":210,"Zed":3,"应用服务器":2}</script>
+<script type="application/json" class="pd-epn">{"MCP":101,"智能体":1,"Alex Hancock":1,"Dominik Kundel":1,"Block":3,"Codex":92,"Goose":2,"OpenAI":210,"Zed":3,"应用服务器":2}</script>
 
 <script>
 (function(){

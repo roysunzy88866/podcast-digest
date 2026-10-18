@@ -31,7 +31,7 @@ unlisted: true
 
 [[Figma]] · [[智能体]] · [[产品构建者]] · [[Amazon]] · [[MCP]] · [[Dylan Field]] · [[Aakash]] · [[Akash]] · [[Holly Li]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"Figma":23,"智能体":1,"产品构建者":3,"Amazon":36,"MCP":100,"Dylan Field":2,"Aakash":4,"Akash":4,"Holly Li":1,"Lenny":69}</script>
+<script type="application/json" class="pd-epn">{"Figma":23,"智能体":1,"产品构建者":3,"Amazon":37,"MCP":101,"Dylan Field":2,"Aakash":4,"Akash":4,"Holly Li":1,"Lenny":69}</script>
 
 <script>
 (function(){

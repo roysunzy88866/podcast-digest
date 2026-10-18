@@ -25,7 +25,7 @@ unlisted: true
 
 [[Aaron Goldsmid]] · [[Amazon]] · [[Facebook]] · [[Twilio]] · [[AKI]] · [[智能体]] · [[LLM]] · [[小语言模型]] · [[语义层]] · [[知识库]]
 
-<script type="application/json" class="pd-epn">{"Aaron Goldsmid":1,"Amazon":36,"Facebook":18,"Twilio":4,"AKI":1,"智能体":1,"LLM":66,"小语言模型":1,"语义层":6,"知识库":3}</script>
+<script type="application/json" class="pd-epn">{"Aaron Goldsmid":1,"Amazon":37,"Facebook":18,"Twilio":4,"AKI":1,"智能体":1,"LLM":66,"小语言模型":1,"语义层":6,"知识库":3}</script>
 
 <script>
 (function(){

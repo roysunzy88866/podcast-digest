@@ -25,7 +25,7 @@ unlisted: true
 
 [[Paul Kedrosky]] · [[数据中心]] · [[token]] · [[GPU]] · [[推理]] · [[商业地产]] · [[前沿模型]] · [[harness]] · [[预训练]] · [[后训练]]
 
-<script type="application/json" class="pd-epn">{"Paul Kedrosky":1,"数据中心":25,"token":33,"GPU":36,"推理":105,"商业地产":1,"前沿模型":29,"harness":68,"预训练":10,"后训练":1}</script>
+<script type="application/json" class="pd-epn">{"Paul Kedrosky":1,"数据中心":25,"token":33,"GPU":37,"推理":106,"商业地产":1,"前沿模型":29,"harness":68,"预训练":10,"后训练":1}</script>
 
 <script>
 (function(){

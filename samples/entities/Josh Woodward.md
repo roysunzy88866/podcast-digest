@@ -59,7 +59,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Google":72,"Google Labs":1,"Gemini":17,"NotebookLM":1,"AI Studio":3,"Flow":2,"产品市场契合":32,"构建者":5,"遗忘学习率":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Google":73,"Google Labs":1,"Gemini":18,"NotebookLM":1,"AI Studio":3,"Flow":2,"产品市场契合":32,"构建者":5,"遗忘学习率":1}</script>
 
 <script>
 (function(){

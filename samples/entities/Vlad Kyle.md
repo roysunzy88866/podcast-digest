@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elena Berger":5,"Seema Amble":1,"Leo":1,"a16z":21,"Salesforce":36,"SAP":4,"Oracle":13,"Claude":99,"OpenAI":210,"Anthropic":206}</script>
+<script type="application/json" class="pd-epn">{"Elena Berger":6,"Seema Amble":1,"Leo":1,"a16z":21,"Salesforce":36,"SAP":4,"Oracle":13,"Claude":100,"OpenAI":210,"Anthropic":206}</script>
 
 <script>
 (function(){

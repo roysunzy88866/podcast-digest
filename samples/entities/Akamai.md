@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Akamai</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Akamai">AK</div><div class="pi"><h1 class="pt">Akamai</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Akamai">AK</div><div class="pi"><h1 class="pt">Akamai</h1><div class="byl">公司</div><div class="nums">本站收录 <b>6</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,23 +15,27 @@ unlisted: true
 - **[[2026-10-01-a16z-rebuilding-the-internet-for-privacy-barr|《重造互联网：DocsNet 与一场隐私保卫战》]]**(33:49起):本集提到 Prolexic 至今仍以 Akamai Prolexic 之名存在，「他们甚至保留了名字」。
 - **[[2026-10-06-talks-is-speculative-decoding-worth-it-profili|《让小模型先猜，大模型来批：推理加速值不值？》]]**(00:13起):Sheila 所在公司；本集说其 GitHub（Akamai developers）上有投机解码的完整复现教程，团队还覆盖 AI 智能体、托管 Kubernetes 服务等方向
 - **[[2026-10-10-talks-zero-cold-starts-serverless-ai-agents-on|《零冷启动:把 AI 应用跑在离用户最近的边缘》]]**(00:25起):演讲者所在公司,本集的 Edge Native AI 栈由其 Akamai Functions 运行时承载,演示了全球边缘网络把请求路由到最近服务区域
+- **[[2026-10-11-talks-agents-that-own-their-inference-du-an-li|《自己的 AI 自己养：在专属 GPU 上跑生产级智能体》]]**(00:15起):本集两位嘉宾 Du'an Lightfoot 和 Omer 都是 Akamai 的员工（开发者布道师/高级软件工程师），全程用它提供的 LKE Kubernetes 集群和 RTX 4000 ADA 专用 GPU 做现场演示，并介绍注册 Akamai Cloud 免费送 300 美元额度。
+- **[[2026-10-11-talks-building-ai-agents-with-real-time-web-da|《网站不让你爬，AI 怎么办？Bright Data 架构师讲实时数据与智能体》]]**(06:14起):本集顺带提到它是另一家反爬保护服务商,受其保护的网站需要真实住宅 IP 才能访问。
 
 ## ② 出现在这些集
 
-*4 集*
+*6 集*
 
 - [[2026-08-27-indepth-the-fastest-way-to-learn-is-to-run-two-c|《工程领导力的五根支柱与速度哲学》]] — 作为被讨论公司
 - [[2026-10-01-a16z-rebuilding-the-internet-for-privacy-barr|《重造互联网：DocsNet 与一场隐私保卫战》]] — 作为概念(提及)
 - [[2026-10-06-talks-is-speculative-decoding-worth-it-profili|《让小模型先猜，大模型来批：推理加速值不值？》]] — 作为被讨论公司
 - [[2026-10-10-talks-zero-cold-starts-serverless-ai-agents-on|《零冷启动:把 AI 应用跑在离用户最近的边缘》]] — 作为被讨论公司
+- [[2026-10-11-talks-agents-that-own-their-inference-du-an-li|《自己的 AI 自己养：在专属 GPU 上跑生产级智能体》]] — 作为被讨论公司
+- [[2026-10-11-talks-building-ai-agents-with-real-time-web-da|《网站不让你爬，AI 怎么办？Bright Data 架构师讲实时数据与智能体》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[推理]] · [[Jay Parikh]] · [[Barrett Lyon]] · [[Sheila]] · [[Thorsten Hans]] · [[Brett]] · [[Joel de la Garza]] · [[投机解码]] · [[MCP]]
+[[智能体]] · [[推理]] · [[投机解码]] · [[MCP]] · [[GPU]] · [[vLLM]] · [[RAG]] · [[Jay Parikh]] · [[Barrett Lyon]] · [[Sheila]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"推理":105,"Jay Parikh":1,"Barrett Lyon":1,"Sheila":1,"Thorsten Hans":1,"Brett":1,"Joel de la Garza":5,"投机解码":1,"MCP":100}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"推理":106,"投机解码":1,"MCP":101,"GPU":37,"vLLM":10,"RAG":32,"Jay Parikh":1,"Barrett Lyon":1,"Sheila":1}</script>
 
 <script>
 (function(){

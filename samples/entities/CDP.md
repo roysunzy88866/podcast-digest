@@ -25,7 +25,7 @@ unlisted: true
 
 [[Arman Vaziri]] · [[Ramp]] · [[go-to-market 编排]] · [[智能体]] · [[持久化执行]] · [[MCP]] · [[护栏]] · [[Temporal]] · [[TurboPuffer]] · [[Snowflake]]
 
-<script type="application/json" class="pd-epn">{"Arman Vaziri":1,"Ramp":12,"go-to-market 编排":1,"智能体":1,"持久化执行":6,"MCP":100,"护栏":94,"Temporal":6,"TurboPuffer":3,"Snowflake":23}</script>
+<script type="application/json" class="pd-epn">{"Arman Vaziri":1,"Ramp":12,"go-to-market 编排":1,"智能体":1,"持久化执行":6,"MCP":101,"护栏":94,"Temporal":6,"TurboPuffer":3,"Snowflake":23}</script>
 
 <script>
 (function(){

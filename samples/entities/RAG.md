@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>RAG</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="RAG">RA</div><div class="pi"><h1 class="pt">RAG</h1><div class="byl">概念</div><div class="nums">本站收录 <b>31</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="RAG">RA</div><div class="pi"><h1 class="pt">RAG</h1><div class="byl">概念</div><div class="nums">本站收录 <b>32</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -41,6 +41,7 @@ unlisted: true
 - **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]]**(00:34起):本集说两年前「数据库+AI」就等于 RAG 和向量数据库——用相似性搜索给聊天机器人补上下文,如今重点已转向智能体直接操作数据库
 - **[[2026-10-08-pg-pm-to-product-builder-roadmap|《从产品经理到产品构建者：一份被 12500 份招聘启事验证的转型路线图》]]**(25:39起):本集提到 RAG 也不是招聘数据里的头号技能,并举例基于 RAG 的客服问答系统可作为 AI 用例
 - **[[2026-10-10-talks-beyond-rag-a-relational-context-engine-t|《上下文引擎:让AI不再像新员工一样瞎摸》]]**(06:45起):本集说 RAG 解决了检索的内容/语义那一半,但「上周合并的 PR」这类有时间条件、要按人过滤的结构性问题是查询不是语义搜索,RAG 做不到。
+- **[[2026-10-11-talks-building-ai-agents-with-real-time-web-da|《网站不让你爬，AI 怎么办？Bright Data 架构师讲实时数据与智能体》]]**(00:58起):本集把 RAG 描述为依赖预索引/预训练数据回答问题的那条路径,与实时上网查询相对;Bright Data 客户也用它丰富 RAG。
 - **[[2026-10-15-twiml-your-ranking-model-is-optimizing-the-wro|《别再优化点击了：你的排序模型瞄错了目标》]]**(01:22起):本集以 RAG 系统为例,说明做检索增强的团队反馈信号只有点击或点赞,苦于缺少反馈,呼应隐式反馈的价值。
 
 ## ① 提到它的金句
@@ -55,7 +56,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*31 集*
+*32 集*
 
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]] — 作为概念
 - [[2025-10-23-lennys-al-engineering-101-with-chip-huyen|《Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事》]] — 作为概念
@@ -87,15 +88,16 @@ unlisted: true
 - [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]] — 作为概念
 - [[2026-10-08-pg-pm-to-product-builder-roadmap|《从产品经理到产品构建者：一份被 12500 份招聘启事验证的转型路线图》]] — 作为概念(提及)
 - [[2026-10-10-talks-beyond-rag-a-relational-context-engine-t|《上下文引擎:让AI不再像新员工一样瞎摸》]] — 作为概念
+- [[2026-10-11-talks-building-ai-agents-with-real-time-web-da|《网站不让你爬，AI 怎么办？Bright Data 架构师讲实时数据与智能体》]] — 作为概念
 - [[2026-10-15-twiml-your-ranking-model-is-optimizing-the-wro|《别再优化点击了：你的排序模型瞄错了目标》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[MCP]] · [[Claude Code]] · [[上下文]] · [[Anthropic]] · [[Codex]] · [[向量搜索]] · [[向量数据库]] · [[LLM]] · [[上下文工程]]
+[[智能体]] · [[MCP]] · [[Claude Code]] · [[上下文]] · [[Anthropic]] · [[Codex]] · [[Claude]] · [[向量搜索]] · [[向量数据库]] · [[LLM]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"MCP":100,"Claude Code":117,"上下文":35,"Anthropic":206,"Codex":92,"向量搜索":6,"向量数据库":9,"LLM":66,"上下文工程":19}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"MCP":101,"Claude Code":117,"上下文":35,"Anthropic":206,"Codex":92,"Claude":100,"向量搜索":6,"向量数据库":9,"LLM":66}</script>
 
 <script>
 (function(){

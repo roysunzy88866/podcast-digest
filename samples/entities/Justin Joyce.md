@@ -37,7 +37,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Cloudflare":18,"Salesforce":36,"Cloudflare OS":1,"技能文件":4,"智能体":1,"多智能体工作流":2,"go-to-market":14,"MCP":100,"可观测性":50,"LLM":66}</script>
+<script type="application/json" class="pd-epn">{"Cloudflare":19,"Salesforce":36,"Cloudflare OS":1,"技能文件":4,"智能体":1,"多智能体工作流":2,"go-to-market":14,"MCP":101,"可观测性":50,"LLM":66}</script>
 
 <script>
 (function(){

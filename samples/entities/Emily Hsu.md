@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Kevin Ball":4,"Scale.ai":3,"Google":72,"企业 AI":1,"智能体":1,"评估":1,"实体消解":1,"人在回路":25,"基准测试":3,"校准":4}</script>
+<script type="application/json" class="pd-epn">{"Kevin Ball":4,"Scale.ai":3,"Google":73,"企业 AI":1,"智能体":1,"评估":1,"实体消解":1,"人在回路":25,"基准测试":3,"校准":4}</script>
 
 <script>
 (function(){

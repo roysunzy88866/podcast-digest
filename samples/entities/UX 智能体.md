@@ -25,7 +25,7 @@ unlisted: true
 
 [[Gus Iwanaga]] · [[Commerce Tools]] · [[生成式 UI]] · [[编排器]] · [[UI 协议]] · [[A2UI]] · [[组件目录]] · [[原子设计]] · [[MCP]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"Gus Iwanaga":1,"Commerce Tools":1,"生成式 UI":6,"编排器":4,"UI 协议":1,"A2UI":1,"组件目录":1,"原子设计":1,"MCP":100,"沙箱":104}</script>
+<script type="application/json" class="pd-epn">{"Gus Iwanaga":1,"Commerce Tools":1,"生成式 UI":6,"编排器":4,"UI 协议":1,"A2UI":1,"组件目录":1,"原子设计":1,"MCP":101,"沙箱":104}</script>
 
 <script>
 (function(){

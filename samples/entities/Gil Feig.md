@@ -37,7 +37,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Merge":3,"上下文图":5,"MCP":100,"实时 API 调用":1,"同步缓存数据":1,"技能":36,"记忆":31,"派生上下文":1,"向量数据库":9,"可追溯性":2}</script>
+<script type="application/json" class="pd-epn">{"Merge":3,"上下文图":5,"MCP":101,"实时 API 调用":1,"同步缓存数据":1,"技能":36,"记忆":31,"派生上下文":1,"向量数据库":9,"可追溯性":2}</script>
 
 <script>
 (function(){

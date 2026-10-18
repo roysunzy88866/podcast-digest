@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"AI21":1,"分块":1,"RAG":31,"智能体搜索":4,"多尺度索引":1,"RRF":1,"Oracle 实验":1,"LlamaIndex":3,"Anthropic":206}</script>
+<script type="application/json" class="pd-epn">{"AI21":1,"分块":1,"RAG":32,"智能体搜索":4,"多尺度索引":1,"RRF":1,"Oracle 实验":1,"LlamaIndex":3,"Anthropic":206}</script>
 
 <script>
 (function(){

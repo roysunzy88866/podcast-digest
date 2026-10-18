@@ -55,7 +55,7 @@ unlisted: true
 
 [[智能体]] · [[评估]] · [[Claude]] · [[Codex]] · [[Anthropic]] · [[OpenAI]] · [[护栏]] · [[错误分析]] · [[harness]] · [[GitHub]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"评估":1,"Claude":99,"Codex":92,"Anthropic":206,"OpenAI":210,"护栏":94,"错误分析":2,"harness":68,"GitHub":37}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"评估":1,"Claude":100,"Codex":92,"Anthropic":206,"OpenAI":210,"护栏":94,"错误分析":2,"harness":68,"GitHub":37}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Netflix</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Netflix">NE</div><div class="pi"><h1 class="pt">Netflix</h1><div class="byl">公司</div><div class="nums">本站收录 <b>10</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Netflix">NE</div><div class="pi"><h1 class="pt">Netflix</h1><div class="byl">公司</div><div class="nums">本站收录 <b>11</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,6 +15,7 @@ unlisted: true
 - **[[2026-07-28-eyeonai-video-is-about-to-stop-being-one-way-and|《Synthesia CEO：AI 视频不会进好莱坞，而是创造新媒介》]]**(00:12起):本集说 AI 生成的娱乐内容不会出现在 Netflix 上，它不会是 AI 视频的爆发渠道
 - **[[2026-07-29-a16z-ai-micro-dramas-generative-media-and-the|《当 AI 学会讲故事:微剧爆发与生成式媒体的下一个拐点》]]**(00:07起):本集提到：宣布了完全由 AI 生成动画项目的大型工作室之一，但它不会被 AI 微剧直接取代
 - **[[2026-09-10-mos-from-high-school-dropout-to-ceo-with-aut|《从高中辍学到 Autodesk CEO:Andrew Anagnost 的「杀死自己业务」领导哲学》]]**(19:48起):本集以 Netflix 的转型为例说明范式转变来临时该做「飞跃」而非小跳。
+- **[[2026-09-23-bigtech-youtube-ceo-neal-mohan-why-we-re-betting|《YouTube CEO 谈 AI：不是算法在选内容，是观众在选》]]**(02:07起):本集把它说成对比对象:年营收 450 亿美元、被 YouTube 超越;并讨论 Netflix 用独家条款挖走 YouTube 播客主播的竞争威胁。
 - **[[2026-09-24-newcomer-josh-elman-on-apple--ai-agents--why-star|《从苹果回到风投：Josh Elman 谈 AI 代理、微短剧与创业者的新机会》]]**(20:54起):本集说微短剧不是耗资数亿美元的 Netflix 剧集,新平台今天不需要打败 Netflix 和 Hulu,只需打败「不知道该看什么」的时刻
 - **[[2026-09-29-knowledge-bill-ackman-the-biggest-fight-of-his-lif|《从女儿脑出血到再造伯克希尔：Bill Ackman 谈投资、AI 泡沫与人生》]]**(50:27起):本集用它讲解「论点破裂就退出」:管理层三周前还说绝不做广告模式、财报电话会却像被震住,离散度扩大于是卖出换 Alphabet,后来证明业务后在价格合理时买回。
 - **[[2026-10-03-talks-live-poteto-creator-of-pstack-on-shippin|《一个月2500个代码合并是怎么做到的：专访pstack作者Potato》]]**(41:37起):嘉宾提到以前在 Netflix 时经理们爱谈「上下文，而非控制」的理念，并类比到智能体世界
@@ -24,20 +25,23 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*2 条*
+*3 条*
 
 ![[2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra#^q13]]
+
+![[2026-09-23-bigtech-youtube-ceo-neal-mohan-why-we-re-betting#^q4]]
 
 ![[2026-10-17-twist-flying-cars-openai-spies-why-ai-isn-t-st#^q9]]
 
 ## ② 出现在这些集
 
-*10 集*
+*11 集*
 
 - [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失》]] — 作为被讨论公司
 - [[2026-07-28-eyeonai-video-is-about-to-stop-being-one-way-and|《Synthesia CEO：AI 视频不会进好莱坞，而是创造新媒介》]] — 作为被讨论公司(提及)
 - [[2026-07-29-a16z-ai-micro-dramas-generative-media-and-the|《当 AI 学会讲故事:微剧爆发与生成式媒体的下一个拐点》]] — 作为被讨论公司(提及)
 - [[2026-09-10-mos-from-high-school-dropout-to-ceo-with-aut|《从高中辍学到 Autodesk CEO:Andrew Anagnost 的「杀死自己业务」领导哲学》]] — 作为被讨论公司(提及)
+- [[2026-09-23-bigtech-youtube-ceo-neal-mohan-why-we-re-betting|《YouTube CEO 谈 AI：不是算法在选内容，是观众在选》]] — 作为被讨论公司
 - [[2026-09-24-newcomer-josh-elman-on-apple--ai-agents--why-star|《从苹果回到风投：Josh Elman 谈 AI 代理、微短剧与创业者的新机会》]] — 作为被讨论公司(提及)
 - [[2026-09-29-knowledge-bill-ackman-the-biggest-fight-of-his-lif|《从女儿脑出血到再造伯克希尔：Bill Ackman 谈投资、AI 泡沫与人生》]] — 作为被讨论公司
 - [[2026-10-03-talks-live-poteto-creator-of-pstack-on-shippin|《一个月2500个代码合并是怎么做到的：专访pstack作者Potato》]] — 作为被讨论公司(提及)
@@ -49,9 +53,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Google]] · [[AI]] · [[LLM]] · [[OpenAI]] · [[Anthropic]] · [[TikTok]] · [[Meta]] · [[模糊测试]] · [[Lenny]]
+[[智能体]] · [[Google]] · [[AI]] · [[LLM]] · [[OpenAI]] · [[Anthropic]] · [[TikTok]] · [[YouTube]] · [[Meta]] · [[模糊测试]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Google":72,"AI":35,"LLM":66,"OpenAI":210,"Anthropic":206,"TikTok":8,"Meta":56,"模糊测试":3,"Lenny":69}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Google":73,"AI":35,"LLM":66,"OpenAI":210,"Anthropic":206,"TikTok":9,"YouTube":10,"Meta":56,"模糊测试":3}</script>
 
 <script>
 (function(){

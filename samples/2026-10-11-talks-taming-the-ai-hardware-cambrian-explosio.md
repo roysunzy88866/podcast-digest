@@ -159,8 +159,8 @@ Max就是为AI推理从头造的替代品：最好的图编译器、支持即时
 **换个口味**
 
 - [[2026-10-06-talks-is-speculative-decoding-worth-it-profili|让小模型先猜，大模型来批：推理加速值不值？]]<span class="pd-rz">同概念:GPU、推理 (inference)、vLLM</span>
+- [[2026-10-11-talks-agents-that-own-their-inference-du-an-li|自己的 AI 自己养：在专属 GPU 上跑生产级智能体]]<span class="pd-rz">同概念:GPU、推理 (inference)、vLLM</span>
 - [[2026-08-18-a16z-how-do-you-defend-against-ai-that-can-ha|当签名已死：AI智能体如何击穿传统网络安全]]<span class="pd-rz">同概念:Max、推理 (inference)</span>
-- [[2026-09-19-talks-operating-distributed-inference-systems|推理已成一个分布式系统问题:Meta 讲透大规模推理的编排之道]]<span class="pd-rz">同概念:GPU、推理 (inference)</span>
 
 </div>
 </div>

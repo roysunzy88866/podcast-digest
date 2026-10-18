@@ -31,7 +31,7 @@ unlisted: true
 
 [[智能体]] · [[Cursor]] · [[Anthropic]] · [[推理]] · [[OpenAI]] · [[PLG]] · [[GrokBot]] · [[DoorDash]] · [[Town]] · [[护城河]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Cursor":88,"Anthropic":206,"推理":105,"OpenAI":210,"PLG":12,"GrokBot":8,"DoorDash":10,"Town":5,"护城河":14}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Cursor":88,"Anthropic":206,"推理":106,"OpenAI":210,"PLG":12,"GrokBot":8,"DoorDash":10,"Town":5,"护城河":14}</script>
 
 <script>
 (function(){

@@ -1,0 +1,130 @@
+{
+  "title_zh": "自己的 AI 自己养：在专属 GPU 上跑生产级智能体",
+  "tldr": "Akamai 的 Du'an Lightfoot 和 Omer 讲解如何租下专属 GPU,把自己的 AI 智能体和推理全部握在自己手里。",
+  "digest_md": "大部分 AI 应用的做法，是把请求发给别人的大模型接口，按 token 付费。Akamai 的开发者布道师 Du'an Lightfoot 和资深软件工程师 Omer 在这场工作坊里演示了另一条路：自己占有或租用 GPU,把模型、智能体、数据全部跑在自己的集群里。他们不光讲理念，还现场演示了压测、调参、重新部署的全过程，甚至包括翻车现场。\n\n## 什么时候该自己养 GPU?\n\n所谓拥有自己的推理，就是你自己拥有或租下 GPU,模型就跑在上面，数据不离开你的集群、数据中心甚至笔记本电脑 [03:01 Unknown]。\n\n什么时候值得这么干？Du'an 给了 3 个判断：使用量大且稳定——既然为 GPU 付了钱，它就应该一直在干活；数据需要隐私和合规，比如涉及知识产权或治理要求；以及你有硬件余量。\n\n反过来，如果流量低、突发性强，或者你需要最强大的模型(那类模型对 GPU 要求高，公有服务商有现成基础设施)，又或者团队没有自托管的专业知识，那租用接口更划算。\n\n算一笔账：如果每天处理 20 万 token,用托管接口约每月 1500 美元，而租一块 GPU 约每月 1000 美元 [25:54 Unknown]。**前提是你的 GPU 被持续用满**。\n\n## 智能体本质上是一个烧 token 的循环\n\n智能体并不神秘：一个循环而已。给大模型一个提示词，它能调用工具、感知环境、做推理决策；工具执行后把结果交回模型，模型更新计划、继续行动，直到目标达成 [01:53 Unknown]。\n\n问题在于，每一步都在生成 token。Du'an 从 2023 年 1 月开始造智能体，最早的模型上下文只有 8000 token,他很快发现两件事：用别人的接口很贵；用本地小模型，能力又不够，还会撞上显存和算力的墙。\n\n还有一个常被忽略的开销：如果模型要思考(做智能体必需的多步工具调用)，输出会暴涨。同一个问题，关掉思考模式只要 35 个 token,打开后要约 600 个 [46:24 Unknown]。\n\n## 显存就是你的接待能力\n\n模型在 GPU 上怎么住？以 40 亿参数的模型为例，用 BF16 全精度，权重占 8GB;剩下的显存全部留给 KV 缓存——也就是能装下多少上下文 [29:07 Unknown]。\n\nOmer 用一节课讲透了这个概念：一块 20GB 显存的卡，装了 8GB 权重后，剩下约能放 37000 个 token 的上下文。如果 4 个用户同时用，每人 8000 token 输入输出加工具调用，刚好塞满。用户再多，就装不下了。\n\n这就是为什么量化如此重要：把模型从 BF16 压到 FP8,体积极大缩小，省下的显存全变成 KV 缓存，能同时接待更多请求。**BF16 到 FP8 的质量损失几乎可以忽略，是非常划算的一档** [53:11 Unknown]。\n\nOmer 现场做了对比实验。基准的 BF16 模型，在 32 并发下总吞吐 714 token/秒。换上 Red Hat 预量化的 FP8 版本后，单并发从 37.5 涨到 53.4 token/秒；64 并发下总吞吐从 800 涨到 1140 token/秒，约提升 1.442 倍 [64:04 Unknown]。\n\n他反复强调：换任何量化方案前都要跑自己的评估集。BF16 下工作正常的函数调用，FP8 下可能因为 JSON 生成出错而失败；推理能力也可能变弱。**跑评估不是可选项**。\n\n> 【背景】量化指降低模型参数的数值精度(如 16 位压到 8 位)来缩小体积。Hugging Face 上有很多预量化好的模型可直接下载。\n\n## 投机解码：小模型打草稿，大模型批改\n\n第二个技巧更有意思，叫投机解码。思路是：让一个很小的草稿模型一次提前猜出几个 token,再让主模型批量验证——对的高置信度就收下，错的丢掉 [65:31 Unknown]。因为验证比逐个生成快，配对了就白赚速度。\n\n但现场演示翻车了：配的草稿模型和主模型不匹配，接受率极低，性能不升反降——从 58 token/秒掉到 16 [76:02 Unknown]。Omer 坦率地说，原因就是草稿模型没有针对这个主模型正确训练。\n\n他用自己家里的机器举例：Quint 3.6 350 亿参数的 MOE 模型配上 dFlash 草稿模型，能拿到 2 到 3 倍的生成加速 [84:20 Unknown]。浏览器自动化约 1.5 倍，代码生成接近 3 倍。关键是找到和主模型配对的草稿模型——最好用官方配套发布的那个。\n\n## 找到那条拐点，然后拧对旋钮\n\n所有调优都围绕一张图：并发数上去，吞吐先涨后平，但延迟会一直涨。==你要找的是吞吐即将变平、延迟还没爆炸的那个拐点== [87:51 Unknown]。\n\n现场他们找到了：32 并发。再往上，吞吐不变，延迟从 277 毫秒跳到 1300 毫秒。\n\n解法之一是调 vLLM 的 max num sequences 参数——即同时处理的请求数上限。从 32 调到 128 后，64 并发下吞吐从 800 涨到 1100 token/秒，延迟反而从 2000 毫秒降到 800 毫秒 [107:42 Unknown]。\n\nOmer 的调优心法很朴素：**一次只改一个参数，改完就压测，量数据，再决定下一步**。\n\n## 本集带走\n\n- 流量稳定、在意数据隐私时，自托管 GPU 可能比按 token 付费便宜；突发流量则租接口更划算。\n- 显存预算 = 模型权重 + KV 缓存；\n- 投机解码上限很高(2–3 倍加速)，但草稿模型必须与主模型配套，否则性能反而暴跌。\n- 调优找拐点：吞吐变平、延迟未爆的并发数；一次改一个参数，压测验证。\n- 任何模型改动(量化、参数)都要跑自己的评估集，防止 JSON 损坏、函数调用失败这类隐性退化。",
+  "quotes": [],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "25:09",
+      "speaker": "Unknown",
+      "en": "Well, you're going to optimize on the one that takes the most time rather than the median.",
+      "zh": "你要针对花时间最多的那一个做优化，而不是中位数。"
+    },
+    {
+      "timestamp": "41:03",
+      "speaker": "Unknown",
+      "en": "Prompt caching, especially if you have a continuous application that's running within every five minutes, prompt caching is a must.",
+      "zh": "提示词缓存——尤其是如果你有一个每五分钟内都有请求的持续运行的应用——提示词缓存是必须的。"
+    },
+    {
+      "timestamp": "41:11",
+      "speaker": "Unknown",
+      "en": "You can decrease the cost by up to 75%, depending on who you're using.",
+      "zh": "你可以把成本降低多达 75%，具体取决于你用的是哪家。"
+    },
+    {
+      "timestamp": "42:58",
+      "speaker": "Unknown",
+      "en": "So that's one of the benefits, even though it's a larger model when it's a mixture of experts, it's actually can be performed a lot better within an application or a lot faster within an application.",
+      "zh": "所以这是好处之一，即使专家混合是一个更大的模型，它在应用中实际上可以表现得更好，或者在应用中快得多。"
+    },
+    {
+      "timestamp": "51:29",
+      "speaker": "Unknown",
+      "en": "Reason being, the more KV cache you can have on the memory, the more requests you can process in parallel, thereby increasing your throughput.",
+      "zh": "原因是，内存里能放下的 KV 缓存越多，你能并行处理的请求就越多，从而提高你的吞吐量。"
+    },
+    {
+      "timestamp": "51:42",
+      "speaker": "Unknown",
+      "en": "We want to reduce the size of the model so that way you can fit more KV cache and essentially increase your throughput.",
+      "zh": "我们想缩小模型的体积，这样你就能装下更多 KV 缓存，从而本质上提高你的吞吐量。"
+    },
+    {
+      "timestamp": "51:51",
+      "speaker": "Unknown",
+      "en": "The other big reason, I think, is also because you're shrinking the weights essentially by in half, you don't have to do that memory movement between the different memory hierarchies, resulting in essentially faster decode as well.",
+      "zh": "另一个重要原因，我认为，是因为你本质上把权重缩小了一半，你就不需要在不同的内存层级之间做那些内存搬运了，从而本质上也让解码更快。"
+    },
+    {
+      "timestamp": "53:16",
+      "speaker": "Unknown",
+      "en": "And it will result in more performance while keeping the quality exactly the same.",
+      "zh": "而且它会带来更多性能，同时保持质量完全一样。"
+    },
+    {
+      "timestamp": "62:59",
+      "speaker": "Unknown",
+      "en": "But if we, let's just say, use FP4, it won't be able to do that, and we would actually not see a whole lot of performance gains, and we would actually see performance go down.",
+      "zh": "但如果我们，假设说，用 FP4，它就无法做到这一点，我们实际上不会看到太多性能提升，我们反而会看到性能下降。"
+    },
+    {
+      "timestamp": "68:31",
+      "speaker": "Unknown",
+      "en": "That's 50% acceptance rate, and that is pretty bad.",
+      "zh": "那就是百分之 50 的接受率，而那是相当糟糕的。"
+    },
+    {
+      "timestamp": "76:02",
+      "speaker": "Unknown",
+      "en": "You'll actually see the performance went down drastically. You're seeing 16 tokens per second, whereas the baseline was 58.",
+      "zh": "你实际上会看到性能急剧下降了。你看到的是每秒 16 个 token，而基线是 58。"
+    },
+    {
+      "timestamp": "78:08",
+      "speaker": "Unknown",
+      "en": "If you don't do that, you will run into a scenario that I'm showcasing here where, like, your performance is going to tank",
+      "zh": "如果你不这么做，你就会遇到我在这里展示的情况，就是你的性能会暴跌。"
+    },
+    {
+      "timestamp": "80:00",
+      "speaker": "Unknown",
+      "en": "Most of the time, what you want to do is you want to keep the draft model and the main model at the same precision.",
+      "zh": "大多数时候，你想做的是让草稿模型和主模型保持相同的精度。"
+    },
+    {
+      "timestamp": "84:53",
+      "speaker": "Unknown",
+      "en": "Because the main model is the model that has all the knowledge.",
+      "zh": "因为主模型才是拥有全部知识的模型。"
+    },
+    {
+      "timestamp": "85:00",
+      "speaker": "Unknown",
+      "en": "So you want it to be small, but not so small that it's dumb, but big enough where it's going to actually give you",
+      "zh": "所以你希望它小，但又不能小到太笨，要大到它确实能给你带来效果。"
+    },
+    {
+      "timestamp": "87:04",
+      "speaker": "Unknown",
+      "en": "Saturation meaning we want to get the GPU to work as hard as possible, as long as possible, because you want to get your money's worth.",
+      "zh": "饱和度的意思是，我们想让 GPU 尽可能努力地工作，尽可能长时间地工作，因为你想让钱花得值。"
+    },
+    {
+      "timestamp": "87:36",
+      "speaker": "Unknown",
+      "en": "And the reason for that is essentially the throughput at some point is going to flatten out, but the latency can keep increasing if you keep increasing the concurrency.",
+      "zh": "其原因本质上是吞吐量在某个点会趋于平缓，但如果你继续增加并发，延迟可能会持续增加。"
+    },
+    {
+      "timestamp": "98:22",
+      "speaker": "Unknown",
+      "en": "But yeah, the idea is you want to change one flag at a time.",
+      "zh": "但是的，关键是你要一次只改一个参数。"
+    },
+    {
+      "timestamp": "100:41",
+      "speaker": "Unknown",
+      "en": "There's only so much you can tune, but you're trying to squeeze as much out of the GPU as possible.",
+      "zh": "你能调优的就只有这么多，但你在努力从 GPU 里尽可能榨出更多性能。"
+    },
+    {
+      "timestamp": "92:33",
+      "speaker": "Unknown",
+      "en": "But with DeepSeq's way of doing it, they are making it dynamic, meaning",
+      "zh": "但用 DeepSeq 的做法，他们把它做成动态的，意思是——"
+    }
+  ],
+  "voice_script": "今天这一期，是 Akamai 的两位开发者布道师和工程师，Du'an Lightfoot 和 Omer,带来的一场工作坊，主题特别实在：怎么把 AI 智能体，从别人的云服务里搬出来，跑在自己的 GPU 上。为什么聊这个？因为现在大部分 AI 应用，都是把请求发给别人的大模型接口，按 token 付费，用多少付多少。但 Akamai 的这两位说，还有另一条路：自己占有或者租下 GPU,把模型、智能体、数据全部跑在自己的集群里。而且他们不光讲理念，还现场演示了压测、调参、重新部署的全过程，连翻车现场都没剪掉。\n\n先说说，什么情况下值得自己养 GPU。Du'an 给了三个判断。第一，使用量大而且稳定。既然你为 GPU 付了钱，这块卡就应该一直在干活，别让它闲着。第二，数据需要隐私和合规，比如涉及知识产权，或者治理上的要求，数据不能出你的门。第三，你有硬件余量。反过来，如果你的流量低、突发性强，或者你需要那种最强大的、对 GPU 要求极高的模型，又或者团队根本没有自托管的专业知识，那老老实实租接口更划算。这里面还能算一笔账：如果每天处理二十万 token,用托管接口大概每月一千五百美元，而租一块 GPU 大约每月一千美元。但注意，前提是你的 GPU 被持续用满。\n\n说到智能体，很多人觉得玄乎。其实拆开看，智能体本质上就是一个循环：给大模型一个提示词，让它调用工具、感知环境、做推理决策；工具执行完，把结果交回模型，模型更新计划、继续行动，直到目标达成。问题在哪？在于每一步都在生成 token,都在烧钱。Du'an 从 2023 年 1 月就开始造智能体，最早那批模型的上下文只有八千 token。很快发现两件事：用别人的接口很贵；用本地小模型，能力又不够，还会撞上显存和算力的墙。还有一个常被忽略的开销：模型一旦要思考，也就是做智能体必需的多步工具调用，输出会暴涨。同一个问题，关掉思考模式只要三十五个 token,打开以后要大约六百个。\n\n那么模型在 GPU 上到底怎么\"住\"的？这里就要讲一个关键概念：显存。以一个四十亿参数的模型为例，用 BF16 全精度，光权重就占八个 GB,剩下的显存，全部留给一样东西，叫 KV 缓存，说白了就是能装下多少上下文。Omer 现场算了笔账：一块二十 GB 显存的卡，装了八个 GB 的权重之后，剩下大约能放三万七千个 token 的上下文。如果有四个用户同时用，每人八千 token 的输入输出加工具调用，刚好塞满。用户再多，就装不下了。这就是为什么量化如此重要。量化，就是把模型参数的数值精度压低，比如从十六位压到八位，体积一下子缩小，省出来的显存全变成 KV 缓存，能同时接待更多请求。而且从 BF16 压到 FP8,质量损失几乎可以忽略，是非常划算的一档。\n\n到底能快多少？Omer 做了对比实验。基准的 BF16 模型，在 32 并发下总吞吐是每秒七百一十四个 token。换上 Red Hat 预量化好的 FP8 版本，单并发从每秒 37.5 涨到 53.4;64 并发下，总吞吐从八百涨到一千一百四十，大约提升了 1.442 倍。但这里有个必须敲黑板的提醒：换任何量化方案之前，都要跑自己的评估集。BF16 下工作正常的函数调用，到了 FP8 可能因为 JSON 生成出错而失败，推理能力也可能变弱。跑评估不是可选项。\n\n说到提速，还有一个更有意思的技巧，叫投机解码。思路是这样的：让一个很小的草稿模型，一次提前猜出几个 token,再让主模型批量验证，对的高置信度就收下，错的丢掉。因为验证比逐个生成快，只要配对得当，就等于白赚速度。不过现场这一段翻车了：配的草稿模型和主模型不匹配，接受率极低，性能不升反降，从每秒五十八个 token 掉到十六个。原因就是草稿模型没有针对这个主模型正确训练。那配对了是什么样？Omer 用自己家里的机器举了个例子：Quint 3.6 的三百五十亿参数 MOE 模型，配上 dFlash 草稿模型，能拿到两到三倍的生成加速，浏览器自动化约 1.5 倍，代码生成接近三倍。关键就是，找到和主模型配对的草稿模型，最好用官方配套发布的那个。\n\n说到底，所有调优都围绕一张图：并发数往上升，吞吐先涨后平，但延迟会一直涨。你要找的，是吞吐即将变平、延迟还没爆炸的那个拐点。现场他们找到了，就是 32 并发。再往上，吞吐不变，延迟却从 277 毫秒直接跳到一千三百毫秒。解法之一，是调 vLLM 的 max num sequences 参数，也就是同时处理的请求数上限。从 32 调到 128 之后，64 并发下吞吐从八百涨到一千一百 token 每秒，延迟反而从两千毫秒降到八百毫秒。Omer 的调优心法特别朴素：一次只改一个参数，改完就压测，量数据，再决定下一步。\n\n这一期带走的东西可以归结成一句话：流量稳定、又在意数据隐私的时候，自己养一块 GPU,把模型、智能体和数据全握在自己手里，不但可能更便宜，而且每一毫秒、每一个 token,都在你自己的掌控之中。"
+}

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Lenny]] · [[Josh Woodward]] · [[Google]] · [[Google Labs]] · [[Gemini]] · [[AI Studio]] · [[Flow]] · [[产品市场契合]] · [[构建者]] · [[遗忘学习率]]
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Josh Woodward":1,"Google":72,"Google Labs":1,"Gemini":17,"AI Studio":3,"Flow":2,"产品市场契合":32,"构建者":5,"遗忘学习率":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Josh Woodward":1,"Google":73,"Google Labs":1,"Gemini":18,"AI Studio":3,"Flow":2,"产品市场契合":32,"构建者":5,"遗忘学习率":1}</script>
 
 <script>
 (function(){

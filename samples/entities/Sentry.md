@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Codex]] · [[软件工厂]] · [[Claude Code]] · [[vibe coding]] · [[MCP]] · [[护栏]] · [[GitHub]] · [[CI-CD]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":206,"Codex":92,"软件工厂":1,"Claude Code":117,"vibe coding":52,"MCP":100,"护栏":94,"GitHub":37,"CI-CD":18}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":206,"Codex":92,"软件工厂":1,"Claude Code":117,"vibe coding":52,"MCP":101,"护栏":94,"GitHub":37,"CI-CD":18}</script>
 
 <script>
 (function(){

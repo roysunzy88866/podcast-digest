@@ -130,7 +130,7 @@ AI 基础设施的第一阶段是更好的模型，当前阶段是更快的推�
 
 - [[2026-08-25-iltb-neil-movva-making-ai-10x-cheaper-invest|把 token 压到最便宜：一家「代币工厂」的算力拾荒术]]<span class="pd-rz">同概念:GPU、KVCache、推理 (inference)、智能体 (agent)</span>
 - [[2026-10-06-talks-what-is-an-inference-engine-anyway-charl|大模型背后：推理引擎到底在干什么]]<span class="pd-rz">同概念:可观测性 (observability)、推理 (inference)、智能体 (agent)、SGLang、vLLM、投机解码 (speculative decoding)</span>
-- [[2026-10-06-talks-is-speculative-decoding-worth-it-profili|让小模型先猜，大模型来批：推理加速值不值？]]<span class="pd-rz">同概念:GPU、KVCache、推理 (inference)、vLLM、投机解码 (speculative decoding)</span>
+- [[2026-10-11-talks-agents-that-own-their-inference-du-an-li|自己的 AI 自己养：在专属 GPU 上跑生产级智能体]]<span class="pd-rz">同概念:GPU、推理 (inference)、智能体 (agent)、Kubernetes、vLLM、投机解码 (speculative decoding)</span>
 
 </div>
 <div class="pd-ex">

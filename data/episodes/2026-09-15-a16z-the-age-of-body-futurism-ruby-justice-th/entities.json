@@ -1,0 +1,497 @@
+{
+  "episode_id": "2026-09-15-a16z-the-age-of-body-futurism-ruby-justice-th",
+  "podcast": "The a16z Show",
+  "date": "2026-09-15",
+  "tags": [
+    "健康与优化文化",
+    "社交媒体趋势",
+    "GLP-1",
+    "身体量化",
+    "文化研究"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "elena-berger",
+      "type": "person",
+      "role": "host",
+      "name": "Elena Berger",
+      "file": "Elena Berger",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            71.784,
+            81.951
+          ],
+          "quote": "In this episode, Elena Berger sits down with academic and cyber ethnographer Ruby Justice the Low to unpack the gap between what's happening online and what people are actually doing in the real world.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ruby-justice-thelot",
+      "type": "person",
+      "role": "cohost",
+      "name": "Ruby Justice Thelot",
+      "file": "Ruby Justice Thelot",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "paracontent",
+      "type": "concept",
+      "role": "concept",
+      "name": "次级内容 (paracontent)",
+      "file": "次级内容",
+      "primary": true,
+      "how_described": "本集把它说成:关于内容的内容——围绕一个东西的讨论往往比这个东西本身还多,可以自成生命却对现实世界没有实质影响,是判断潮流真伪的关键框架",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            25.736,
+            31.998
+          ],
+          "quote": "We are submerged by paracontent, which is content about content.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 29,
+          "t": [
+            192.225,
+            195.827
+          ],
+          "quote": "The first one is called The Age of Paracontent, and the other one is called The Post is the Product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 30,
+          "t": [
+            196.467,
+            202.871
+          ],
+          "quote": "In The Age of Paracontent, I sort of present to reduce this idea of Paracontent, which is content about content.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "peptides",
+      "type": "concept",
+      "role": "concept",
+      "name": "肽类 (peptides)",
+      "file": "肽类",
+      "primary": true,
+      "how_described": "本集说它常被误归功于硅谷,实际起源于中西部健美圈和灰色市场(如中国肽类、医疗 spa),硅谷只是把它专业化、加速和包装",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            63.658,
+            68.402
+          ],
+          "quote": "Are peptides, protein maxing, wearables, and longevity clinics actually taking over?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            93.156,
+            103.76
+          ],
+          "quote": "From GLP-1s and peptides to OroRings, microplastics, and protein, they trace how niche behaviors become cultural conversations and sometimes eventually become mainstream behavior.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            411.782,
+            416.985
+          ],
+          "quote": "And I think like a very, very interesting example of that is actually peptides.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 62,
+          "t": [
+            432.473,
+            437.656
+          ],
+          "quote": "In San Francisco or people using Chinese peptides just like in general.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 64,
+          "t": [
+            449.662,
+            461.328
+          ],
+          "quote": "Like I remember I actually first heard about peptides in Austin, Texas when I was like visiting friends there and everybody was like going to some like med spa that was giving them Chinese peptides.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 76,
+          "t": [
+            536.166,
+            539.009
+          ],
+          "quote": "When I first encountered peptides, I was thinking to myself, the thing from like...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            564.487,
+            570.79
+          ],
+          "quote": "But yeah, this kind of goes to this bigger question of, okay, obviously people are aware of peptides.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 85,
+          "t": [
+            571.01,
+            579.674
+          ],
+          "quote": "Either they are aware of peptides when it comes to, like, GLP-1s and the more kind of, like, regulated use cases.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 87,
+          "t": [
+            583.095,
+            591.637
+          ],
+          "quote": "They're aware of Chinese peptides and less regulated and not like FDA approved for a bunch of like other outcomes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 88,
+          "t": [
+            591.737,
+            595.479
+          ],
+          "quote": "People inject some peptides for muscle repair.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 124,
+          "t": [
+            831.421,
+            833.883
+          ],
+          "quote": "Why do people take peptides?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 126,
+          "t": [
+            842.109,
+            855.599
+          ],
+          "quote": "Well, let me pull out some data that I spent the week crunching on what people are saying about peptides online as a first example of what we're seeing across social media.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 147,
+          "t": [
+            943.465,
+            949.928
+          ],
+          "quote": "And so the three main categories of content posted about peptides are promotional, personal exploration and educational.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1994.78,
+            2003.227
+          ],
+          "quote": "And we can track, for instance, like the Ray P diet, we can track sentiment around it in the same format that we've seen for these peptides.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 314,
+          "t": [
+            2095.199,
+            2100.18
+          ],
+          "quote": "We talked about peptides, talked about sort of wellness and quantification.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 327,
+          "t": [
+            2189.955,
+            2210.827
+          ],
+          "quote": "I think maybe to close out, we kind of have been just discussing and dancing around as well, which is when it comes to peptides, when it comes to looks maxing, when it comes to all of these things, are we just going to accelerate forever or are we going to see some kind of backlash and some kind of reversal?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 352,
+          "t": [
+            2372.198,
+            2374.219
+          ],
+          "quote": "Or all injecting the same peptides.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "quantified-self",
+      "type": "concept",
+      "role": "concept",
+      "name": "量化自我 (quantified self)",
+      "file": "量化自我",
+      "primary": true,
+      "how_described": "本集说这是 Kevin Kelly 2007 年在 Wired 提出的理念,伴随我们约 20 年,如今正在出现反弹——假睡眠分数能让人真的感觉变糟,部分人转向灵气、针灸等整体式身体认知",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 248,
+          "t": [
+            1609.73,
+            1613.953
+          ],
+          "quote": "That same year, Kevin Kelly in Wired says it is the year of the quantified self.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1614.894,
+            1617.936
+          ],
+          "quote": "And so that idea of a quantified self has been with us for like 20 years.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1758.911,
+            1768.275
+          ],
+          "quote": "There's also, this is maybe one step further than Quantified Self, but there was the group that I think was",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "wearables",
+      "type": "concept",
+      "role": "concept",
+      "name": "可穿戴设备 (wearables)",
+      "file": "可穿戴设备",
+      "primary": true,
+      "how_described": "本集说它从 2007 年 Fitbit 到 Apple Watch 逐渐被成年人采用,用来控制、理解和改善身体;下一个战场可能是声称 4 小时获得整晚休息效果的睡眠设备",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            63.658,
+            68.402
+          ],
+          "quote": "Are peptides, protein maxing, wearables, and longevity clinics actually taking over?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1599.79,
+            1605.646
+          ],
+          "quote": "Did you want to talk about wearables or kind of where that fits in?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1605.666,
+            1607.029
+          ],
+          "quote": "So wearables are very interesting.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1632.477,
+            1643.647
+          ],
+          "quote": "Through proper product development, and of course, like slow adoption, we're seeing more and more adults adopt wearables as a way to control, understand, and of course, improve their bodies.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "body-futurism",
+      "type": "concept",
+      "role": "concept",
+      "name": "身体未来主义 (body futurism)",
+      "file": "身体未来主义",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            110.288,
+            122.276
+          ],
+          "quote": "As technology gives us more ways to measure and modify ourselves, Ruby argues we may be entering an era of body futurism, where optimization becomes increasingly personal, fragmented, and extreme.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1644.287,
+            1650.533
+          ],
+          "quote": "An idea that I like a lot around this concept of quantification of the self is the idea of body futurism by Toby Shorn.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1666.065,
+            1667.826
+          ],
+          "quote": "And that's what he calls body futurism.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1668.346,
+            1678.313
+          ],
+          "quote": "And so when I think about these like dashboards that people have on these apps or, you know, waking up, going to your longevity clinic, even something like Don't Die, this is like body futurism.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 362,
+          "t": [
+            2451.016,
+            2455.377
+          ],
+          "quote": "Toby wrote his essay, Body Futurism, kind of before the big AI boom.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tiktok",
+      "type": "company",
+      "role": "company",
+      "name": "TikTok",
+      "file": "TikTok",
+      "primary": false,
+      "how_described": "本集把它当作研究数据来源:分析了约 960 条肽类相关视频的内容类型与情绪分布",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            305.022,
+            319.741
+          ],
+          "quote": "I famously did a piece that got me into a lot of trouble around hetero pessimism as well, which is this idea of like straight relationships are kind of doomed from the woman's perspective and taking a look at content on Reels and TikTok, trying to analyze the sentiment across, you know, about 2000 videos.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 73,
+          "t": [
+            517.892,
+            530.202
+          ],
+          "quote": "Now that you'll have a TikTok influencer who's doing more like classic wellness for women who will take a product that was used for bodybuilders because she's seen on another blog that it can be used for this or that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 127,
+          "t": [
+            855.619,
+            858.401
+          ],
+          "quote": "So this is mainly around TikTok.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 143,
+          "t": [
+            919.288,
+            928.755
+          ],
+          "quote": "Kind of fact looking at all the TikTok, well, not all, but a sample of TikTok content posted is this idea that we're actually seeing a convergence between promotional content and personal experience.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 152,
+          "t": [
+            973.438,
+            982.42
+          ],
+          "quote": "And they're going to TikTok to influencers to get, I guess, additional trust or additional information about this new pharmaceutical.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 174,
+          "t": [
+            1080.993,
+            1090.738
+          ],
+          "quote": "A lot of top influencers we see on TikTok right now that we're taking a look at are healthy eating influencers, both for like simple, but also healthy meals.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "crypto",
+      "type": "concept",
+      "role": "concept",
+      "name": "加密货币 (crypto)",
+      "file": "加密货币",
+      "primary": false,
+      "how_described": "本集用它做对比:95% 听说过、14% 持有,与 GLP-1 的 90%/11% 比例惊人相似,都是约一比十的认知-使用鸿沟",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 97,
+          "t": [
+            667.072,
+            678.563
+          ],
+          "quote": "And Astra came up with another Gallup poll for crypto where 95 percent of Americans are aware of or have heard of crypto.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 112,
+          "t": [
+            744.578,
+            751.426
+          ],
+          "quote": "But it always is a conversion from like actually knowing about the thing to setting up your crypto wallet or actually getting the subscription service.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "GLP-1",
+      "reason": "专名「GLP-1」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

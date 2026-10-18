@@ -1,0 +1,1930 @@
+{
+  "episode_id": "2026-10-11-talks-agents-that-own-their-inference-du-an-li",
+  "podcast": "精选演讲",
+  "date": "2026-10-11",
+  "tags": [
+    "AI 基础设施",
+    "自托管 GPU",
+    "推理优化",
+    "量化",
+    "智能体"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "du-an-lightfoot",
+      "type": "person",
+      "role": "guest",
+      "name": "Du'an Lightfoot",
+      "file": "Du'an Lightfoot",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "akamai",
+      "type": "company",
+      "role": "company",
+      "name": "Akamai",
+      "file": "Akamai",
+      "primary": true,
+      "how_described": "本集两位嘉宾 Du'an Lightfoot 和 Omer 都是 Akamai 的员工（开发者布道师/高级软件工程师），全程用它提供的 LKE Kubernetes 集群和 RTX 4000 ADA 专用 GPU 做现场演示，并介绍注册 Akamai Cloud 免费送 300 美元额度。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            15.094,
+            18.997
+          ],
+          "quote": "I'm a developer advocate at Akamai, and this is my colleague.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 4,
+          "t": [
+            21.458,
+            23.379
+          ],
+          "quote": "I'm a senior software engineer at Akamai.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 84,
+          "t": [
+            454.874,
+            458.777
+          ],
+          "quote": "So I work on the Kubernetes side of things at Akamai.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 87,
+          "t": [
+            467.402,
+            469.363
+          ],
+          "quote": "But I want to talk about what Akamai has.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 132,
+          "t": [
+            735.844,
+            743.869
+          ],
+          "quote": "If you want to look at the code and try this on your own at home, I do have the repo public on Akamai's developers.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1261.553,
+            1283.438
+          ],
+          "quote": "Now for those of you that when we talk about agents, there are no tools in this agent, so it's actually just a request, but just the foundation of the agent, we're giving it a system prompt so it knows its role when we do give it tools later on in the course, but right now we're just giving it a single prompt and we're giving it a role as a solutions architect agent for Akamai.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 538,
+          "t": [
+            2933.364,
+            2939.206
+          ],
+          "quote": "I develop a lot of Kubernetes stuff at Akamai, and I work on the managed Kubernetes platform there.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 1208,
+          "t": [
+            6071.574,
+            6084.925
+          ],
+          "quote": "But what I am going to give you, if you scan this QR code, you'll get access to the PowerPoint as well as the repo if you want to spin this up in your own Akamai Cloud account or if you want to run it on your laptop, you can do that.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 1210,
+          "t": [
+            6089.309,
+            6091.251
+          ],
+          "quote": "And if you don't have Akamai Cloud account,",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 1323,
+          "t": [
+            6580.853,
+            6583.275
+          ],
+          "quote": "Feel free to start a free Akamai Cloud account.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体说成『就是一个循环』：给 LLM 提示词，它调用工具、做推理决策、把结果交回模型更新计划，直到目标达成；并强调智能体每一步都在烧 token，需要开启 thinking 时输出从 35 token 暴涨到约 600。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            41.165,
+            46.008
+          ],
+          "quote": "Back in January 2023 is when I built my first agent.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 22,
+          "t": [
+            111.473,
+            113.194
+          ],
+          "quote": "When it comes to an agent, it's just a loop.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 72,
+          "t": [
+            371.367,
+            377.81
+          ],
+          "quote": "And then finally, from there, we'll take that agent and deploy it into our own dedicated cluster.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 78,
+          "t": [
+            415.615,
+            419.178
+          ],
+          "quote": "And then we're also going to be deploying the agent on there as well.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 143,
+          "t": [
+            809.502,
+            817.567
+          ],
+          "quote": "We'll also look at building our first agent, some things that we need to know, look at some metrics, and then understand the model that we'll connect to.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 151,
+          "t": [
+            858.811,
+            860.813
+          ],
+          "quote": "So agent gateway is often.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 168,
+          "t": [
+            930.717,
+            935.66
+          ],
+          "quote": "And then you'll have another pod, well, another pod that you could launch for the agent, and we'll see that too.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1259.452,
+            1260.812
+          ],
+          "quote": "Now here we're going to build our first agent.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1261.553,
+            1283.438
+          ],
+          "quote": "Now for those of you that when we talk about agents, there are no tools in this agent, so it's actually just a request, but just the foundation of the agent, we're giving it a system prompt so it knows its role when we do give it tools later on in the course, but right now we're just giving it a single prompt and we're giving it a role as a solutions architect agent for Akamai.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1300.294,
+            1308.525
+          ],
+          "quote": "But then, the question is, if we're trying to do this at scale, or we're trying to build an agent that...",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1370.732,
+            1374.135
+          ],
+          "quote": "Our agent and invoke it and we're actually gonna look at the steps.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1425.745,
+            1437.39
+          ],
+          "quote": "And you can see every step, every trace, every span in your agent with how many tokens, what was the latency, not just for the time to purchase token, but for every tool call.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1464.464,
+            1470.147
+          ],
+          "quote": "And that could be something as simple as a prompt, removing tools, or making the agent just a little bit more specialized.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1534.616,
+            1541.197
+          ],
+          "quote": "Versus if you have an agent or some agentic applications that are always working, you can kind of compare that cost.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 496,
+          "t": [
+            2756.17,
+            2768.116
+          ],
+          "quote": "If you're wanting to do any type of agent and the model needs to reason, meaning that maybe the prompt comes in, you have tools, and it needs to make multiple tool calls, well, you're gonna enable thinking.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2824.42,
+            2831.984
+          ],
+          "quote": "There's a lot of things to think about, but one of the things we want to think about is that memory bound limit for the actual card, and then how to apply that for the agent.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 1059,
+          "t": [
+            5401.511,
+            5406.974
+          ],
+          "quote": "Like, for example, with agent loops, with tool call, or with coding, like, what kind of, like, use cases?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1060,
+          "t": [
+            5407.154,
+            5413.978
+          ],
+          "quote": "Agent loops, it's really good at tool calling, it's really good at browser use is the one particular use case that I use it for.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 1062,
+          "t": [
+            5423.064,
+            5430.769
+          ],
+          "quote": "And yeah, the draft model helps you generate more tokens faster, so you see your browser agent just essentially run around and do things faster.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 1238,
+          "t": [
+            6190.282,
+            6193.785
+          ],
+          "quote": "So if you have a single agent running, I think it's fine to use OLAMA.",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集主线『own your inference』：自己拥有或租用 GPU，让模型、智能体、数据都跑在自己的集群里；给出了何时自托管 vs 租接口的判断标准和成本对比（每天 20 万 token：托管约月 1500 美元 vs 租 GPU 约 1000 美元）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            24.039,
+            30.203
+          ],
+          "quote": "And we're going to be talking agents that own their own inference, building production AI agents on dedicated GPUs.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 28,
+          "t": [
+            158.875,
+            160.477
+          ],
+          "quote": "So what does it mean to own your inference?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 29,
+          "t": [
+            161.017,
+            166.382
+          ],
+          "quote": "First, when it comes to owning your inference, you actually own the GPU or rent the GPU.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 70,
+          "t": [
+            353.498,
+            358.64
+          ],
+          "quote": "From there, Omar will discuss how to optimize your inference.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 71,
+          "t": [
+            358.701,
+            369.986
+          ],
+          "quote": "Once you figure out, okay, we want to do self-hosting, how can we optimize this to get the most out of our GPUs, the inference engine that we run, and just our entire workload.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 77,
+          "t": [
+            395.182,
+            413.921
+          ],
+          "quote": "GPU nodes, each of you gets a single GPU and we have set it up in such a way that each of you gets sort of like your own namespace and within that namespace you will have like your Jupyter notebook running and then you will have your vLLM inference endpoint running as well that you'll be playing around with.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 104,
+          "t": [
+            548.985,
+            551.849
+          ],
+          "quote": "So for the inference engine, we're going to be using vLLM.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 107,
+          "t": [
+            581.915,
+            590.698
+          ],
+          "quote": "It also allows you to do some really interesting tweaks when you're setting up inference for your endpoints and for your applications.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 141,
+          "t": [
+            799.344,
+            802.727
+          ],
+          "quote": "All right, so in the first module, we're going to talk about the inference stack.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 378,
+          "t": [
+            2097.298,
+            2107.442
+          ],
+          "quote": "I had to do a workshop and I had to figure out how to serve 80 students and perform inference for all the students with about three or four GPUs that were about 20 gigs.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2822.161,
+            2823.522
+          ],
+          "quote": "And so when we talk about inference,",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 957,
+          "t": [
+            4879.608,
+            4883.29
+          ],
+          "quote": "Let's jump onto the inference side of things.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 1081,
+          "t": [
+            5498.116,
+            5502.458
+          ],
+          "quote": "Or is this more, like, for open source if you're training your own stuff or running inference?",
+          "speaker": "SPEAKER_12"
+        }
+      ]
+    },
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": true,
+      "how_described": "本集围绕专用 GPU 展开工作坊：讲显存预算（权重+KV 缓存）、decode 受显存带宽限制、饱和度要让 GPU 尽量跑满，并现场演示单卡 20GB VRAM 上的压测与调优。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            83.147,
+            88.452
+          ],
+          "quote": "That memory in that GPU may not handle the larger context, so that's the inputs and outputs.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 29,
+          "t": [
+            161.017,
+            166.382
+          ],
+          "quote": "First, when it comes to owning your inference, you actually own the GPU or rent the GPU.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 30,
+          "t": [
+            167.46,
+            181.687
+          ],
+          "quote": "So when you do that, that means that you have access to the GPU, the hardware for that AI to be ran on, for the models to live on, which means then you have access to control where it goes.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 46,
+          "t": [
+            237.573,
+            244.657
+          ],
+          "quote": "If you're constantly have a workload running, because if you're paying for a GPU, you're renting a GPU, what does that mean?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 47,
+          "t": [
+            245.798,
+            247.439
+          ],
+          "quote": "That GPU should always be working.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 69,
+          "t": [
+            347.189,
+            352.552
+          ],
+          "quote": "So you understand what that actually looks like on the GPU and why you would pick one or the other.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 77,
+          "t": [
+            395.182,
+            413.921
+          ],
+          "quote": "GPU nodes, each of you gets a single GPU and we have set it up in such a way that each of you gets sort of like your own namespace and within that namespace you will have like your Jupyter notebook running and then you will have your vLLM inference endpoint running as well that you'll be playing around with.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 92,
+          "t": [
+            480.409,
+            489.753
+          ],
+          "quote": "Your GPU has two gigabytes of VRAM with two 60 gigabytes per second memory bandwidth, so the decode will be pretty quick because of that.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 94,
+          "t": [
+            497.997,
+            503.68
+          ],
+          "quote": "Currently, for your workshop, we will be using a single GPU, but that doesn't mean when you want to deploy this at the end,",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 124,
+          "t": [
+            688.839,
+            692.18
+          ],
+          "quote": "To understand how your GPU is performing, that time the first token.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1022.241,
+            1026.602
+          ],
+          "quote": "So it's four billion, which means it's eight gigs on the GPU.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1169.007,
+            1173.57
+          ],
+          "quote": "It can't do the complex multiplication in those matrices like a GPU can.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1173.891,
+            1175.051
+          ],
+          "quote": "That's the purpose of the GPU.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1186.499,
+            1191.503
+          ],
+          "quote": "And then from there, we actually look at this on the GPU to see how that looks.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1321.705,
+            1331.11
+          ],
+          "quote": "You start to think about how much context, because when we start talking about that KB cache, that's actually how much context you can actually fit on that GPU, right?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1344.917,
+            1350.298
+          ],
+          "quote": "So a smaller GPU can actually handle a bunch of requests if you're using with something like vLLM.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1564.513,
+            1567.617
+          ],
+          "quote": "But if you're renting a GPU, that's going to be about a thousand per month.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1568.779,
+            1579.653
+          ],
+          "quote": "Now, it does matter the size of the GPU, the size of the model, if it actually performs the way you need, but these are some of the things you think about when you're trying to compare should I rent versus own.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1729.991,
+            1739.598
+          ],
+          "quote": "We're also gonna look at the model's real config and understand how a model actually sits and how it actually looks when it comes to a GPU.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1747.896,
+            1753.38
+          ],
+          "quote": "All right, so when we talk about the model actually sitting on the GPU, you have the model weights.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1761.005,
+            1767.89
+          ],
+          "quote": "So we have eight gigs, and the rest of the room is gonna be for KB cache, meaning how much context can you fit on that GPU?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1960.875,
+            1966.598
+          ],
+          "quote": "So this four billion perimeter will be 16 gigs at full precision, right, on your GPU.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 364,
+          "t": [
+            2014.087,
+            2016.308
+          ],
+          "quote": "So we'll look at the GPU, where the waste live.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 368,
+          "t": [
+            2024.938,
+            2040.209
+          ],
+          "quote": "And then we have another model that we're going to use in this course where it's a, at eight billion parameters, it's five gigs on the GPU, which you can see how much you save with the still intelligence that works for the use cases that we're discussing if you decide to quantize them.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 370,
+          "t": [
+            2050.869,
+            2063.237
+          ],
+          "quote": "You take the, where we're actually calculating, okay, we know how the speed of the GPU is 360 and we're showing how to calculate to get the tokens per second and where we're actually bound.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 371,
+          "t": [
+            2063.257,
+            2068
+          ],
+          "quote": "So we're gonna be bound by the speed of the actual GPU on how fast it can go.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 376,
+          "t": [
+            2089.055,
+            2092.136
+          ],
+          "quote": "You have 100 users you want to serve, you have a smaller GPU.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 377,
+          "t": [
+            2092.536,
+            2097.238
+          ],
+          "quote": "The question is, I got the smaller GPU, let's say, I'll give you a perfect example.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 383,
+          "t": [
+            2114.847,
+            2116.768
+          ],
+          "quote": "Will the GPU, will the cluster support that?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 391,
+          "t": [
+            2143.066,
+            2149.249
+          ],
+          "quote": "So here's our, we can get 37,000 tokens on this GPU, right?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 392,
+          "t": [
+            2149.309,
+            2158.613
+          ],
+          "quote": "On a single GPU, there's eight gigs for the model weights, and then the room that you have is gonna be 37,000 tokens, right?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 396,
+          "t": [
+            2171.433,
+            2177.457
+          ],
+          "quote": "For input, output, tool calls, this is gonna add up to 8,000 tokens at the same time on that GPU.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 399,
+          "t": [
+            2192.485,
+            2200.514
+          ],
+          "quote": "And this kind of shows how to do that math when you're trying to understand your compute constraint, your GPU, and then the workloads that you're performing.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 409,
+          "t": [
+            2271.699,
+            2276.522
+          ],
+          "quote": "And really understand what's actually happening on that GPU when you're sending requests.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2513.765,
+            2521.192
+          ],
+          "quote": "All right, so we'll go back and we'll go to the fourth section where we talk about dense model versus the mixture of experts on the GPU.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 452,
+          "t": [
+            2526.177,
+            2533.244
+          ],
+          "quote": "Well, a dense model, when it sits on a GPU, that whole model is used to generate tokens, right?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2538.486,
+            2545.628
+          ],
+          "quote": "So the QUIN3-4B at BF16, eight gigs on the actual GPU.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2604.766,
+            2607.888
+          ],
+          "quote": "So when we looked at the speed of this GPU, that's bound.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2715.083,
+            2716.704
+          ],
+          "quote": "We'll look at the bandwidth, the GPU serves.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2733.409,
+            2743.952
+          ],
+          "quote": "But we're looking at the ceiling, this is actually looking at the bandwidth, and it's doing the math here to get that, the max that we can get, the ceiling that we have on this GPU is gonna be 45 tokens per second.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 515,
+          "t": [
+            2849.803,
+            2853.546
+          ],
+          "quote": "You have the pre-fill, GPU pool, and the decode, which is memory bound.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2856.007,
+            2861.832
+          ],
+          "quote": "So it needs to go from your memory to the GPU, and it needs to be cached, right?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 518,
+          "t": [
+            2862.472,
+            2873.46
+          ],
+          "quote": "That phase, you can do a lot of optimizations, but when it comes to the decode phase, there's nothing you can really do because you're bounded by the GPU.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 725,
+          "t": [
+            3746.882,
+            3748.302
+          ],
+          "quote": "It depends on the GPU as well.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 727,
+          "t": [
+            3751.864,
+            3753.265
+          ],
+          "quote": "Yeah, so GPU support is important.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 730,
+          "t": [
+            3758.255,
+            3764.418
+          ],
+          "quote": "GPU might support it, but it might not be accelerated by the GPU, meaning you might not get the full performance that you would be expecting out of it.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 861,
+          "t": [
+            4390.205,
+            4403.944
+          ],
+          "quote": "I noticed that you set the GPU memory utilization to 0.7, which essentially leaves 30% of the VRAM unused.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 864,
+          "t": [
+            4413.163,
+            4423.486
+          ],
+          "quote": "Sometimes you might have multiple deployments on the same GPU, and you want to make sure that you have enough RAM for something else, VRAM for something else, and then you keep enough VRAM for this.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 907,
+          "t": [
+            4645.959,
+            4648.36
+          ],
+          "quote": "And then, yeah, again, same GPU contention.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 908,
+          "t": [
+            4648.38,
+            4651.221
+          ],
+          "quote": "You're using the same GPU to do this work.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 918,
+          "t": [
+            4696.177,
+            4700.899
+          ],
+          "quote": "I can tell you from the resource perspective, this GPU has enough headroom to support all of this.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 995,
+          "t": [
+            5081.454,
+            5089.256
+          ],
+          "quote": "You basically want to figure out the smallest model that you can run that doesn't take as much GPU power.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 1028,
+          "t": [
+            5224.109,
+            5231.493
+          ],
+          "quote": "Saturation meaning we want to get the GPU to work as hard as possible, as long as possible, because you want to get your money's worth.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 1029,
+          "t": [
+            5231.533,
+            5236.316
+          ],
+          "quote": "If you're renting a GPU or if you're buying a GPU, you want to run it as much as possible.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 1096,
+          "t": [
+            5553.222,
+            5563.664
+          ],
+          "quote": "You know, it on the fly sort of decides, oh, I'm going to generate only two tokens, or I'm going to generate four tokens or five tokens, depending on the acceptance criteria, depending on the GPU load, and all sorts of metrics.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 1159,
+          "t": [
+            5823.428,
+            5826.889
+          ],
+          "quote": "But the main four ones are, again, the GPU memory utilization.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 1161,
+          "t": [
+            5830.669,
+            5835.99
+          ],
+          "quote": "Again, if you are running multiple models on the same GPU, you might want to keep it low, and that's a trade-off you're making.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 1171,
+          "t": [
+            5891.492,
+            5896.076
+          ],
+          "quote": "You want to keep it bigger if you want to do pre-fill faster if your GPU can handle it.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 1172,
+          "t": [
+            5896.136,
+            5900.82
+          ],
+          "quote": "You want to do it smaller if your GPU is on a little slower side and you can't handle it.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 1202,
+          "t": [
+            6041.285,
+            6045.866
+          ],
+          "quote": "There's only so much you can tune, but you're trying to squeeze as much out of the GPU as possible.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 1222,
+          "t": [
+            6129.832,
+            6139.117
+          ],
+          "quote": "Would you say it's good to use VLLM instead of Lama for, like, long, long GPU with your personal assistant?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1231,
+          "t": [
+            6153.254,
+            6155.278
+          ],
+          "quote": "For the sake of the argument, let's just say you have the best GPU.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 1233,
+          "t": [
+            6159.527,
+            6162.508
+          ],
+          "quote": "Yeah, you have the latest Blackwell GPU.",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "vllm",
+      "type": "concept",
+      "role": "concept",
+      "name": "vLLM",
+      "file": "vLLM",
+      "primary": true,
+      "how_described": "本集用作推理引擎：支持 OpenAI 兼容 API、continuous batching 和 paged attention，可调 max num sequences 等参数（32→128 使 64 并发下吞吐从 800 涨到 1100 token/秒、延迟从 2000ms 降到 800ms）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            395.182,
+            413.921
+          ],
+          "quote": "GPU nodes, each of you gets a single GPU and we have set it up in such a way that each of you gets sort of like your own namespace and within that namespace you will have like your Jupyter notebook running and then you will have your vLLM inference endpoint running as well that you'll be playing around with.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 79,
+          "t": [
+            420.118,
+            430.607
+          ],
+          "quote": "The cool thing here is that the vLLM endpoint that we have running in your namespace, you're going to be optimizing it as part of after the first four modules.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 82,
+          "t": [
+            437.052,
+            448.99
+          ],
+          "quote": "to do so and you're going to redeploy this VLLM endpoint over and over again until you have sort of optimized it to increase the throughput, reduce the latency, and make sure like you're meeting all your SLAs.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 104,
+          "t": [
+            548.985,
+            551.849
+          ],
+          "quote": "So for the inference engine, we're going to be using vLLM.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 105,
+          "t": [
+            552.761,
+            567.832
+          ],
+          "quote": "Now, some of you may have heard of Llama, which is great for local, but vLLM offers some benefits that are better for production, one of those being continuous batching out the box, the other being page detention.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 106,
+          "t": [
+            568.693,
+            580.042
+          ],
+          "quote": "Now, it also supports the OpenAI-compatible API, so if you're using whatever SDK that supports OpenAI, you can use it with vLLM.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 120,
+          "t": [
+            653.877,
+            670.169
+          ],
+          "quote": "But what pays attention, now that is all managed with the VLLM that ensures that you can continuously process, generate, and batch those requests as they come through VLLM.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 126,
+          "t": [
+            697.761,
+            704.863
+          ],
+          "quote": "From there, that KVCache utilization, we're going to look at these metrics and show you how to get all of that out of VLLM and then the QDEP.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 142,
+          "t": [
+            803.838,
+            808.961
+          ],
+          "quote": "We're going to connect to our VLLM endpoint, understand it, see how it generates tokens.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 145,
+          "t": [
+            829.775,
+            831.936
+          ],
+          "quote": "Now, when we talk about VLLM,",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 147,
+          "t": [
+            839.882,
+            846.208
+          ],
+          "quote": "So if you want to serve two models, you're going to need another vLLM endpoint, which means",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 165,
+          "t": [
+            922.858,
+            925.7
+          ],
+          "quote": "You also have the vLLM server endpoint.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 174,
+          "t": [
+            955.334,
+            968.724
+          ],
+          "quote": "So once we send our first request to understand how we're configured in vLLM, you can notice the model that we have, the name of your namespace inside of the cluster.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 176,
+          "t": [
+            977.791,
+            981.654
+          ],
+          "quote": "And then we don't have an API key set, but you can set one with vLLM.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 177,
+          "t": [
+            986.148,
+            1001.158
+          ],
+          "quote": "Now, from here, we're gonna use the OpenAI API-compatible endpoint to be able, or API, to connect to the VLLM-QQUIN3-4B, 4 billion-parameter model.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1344.917,
+            1350.298
+          ],
+          "quote": "So a smaller GPU can actually handle a bunch of requests if you're using with something like vLLM.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1350.798,
+            1362.401
+          ],
+          "quote": "Now, if you're using something like OLAMA, you'll see you'll get throttled a lot faster because it doesn't process those requests the same way, but vLLM actually handles that with their scheduler a lot better.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1393.305,
+            1394.205
+          ],
+          "quote": "VLLM, right?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1703.097,
+            1711.006
+          ],
+          "quote": "When you can explore the cluster, explore vLLM, you can feel free to do that in this notebook.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1863.06,
+            1866.443
+          ],
+          "quote": "But the configuration is what tells vLLM how to handle that model.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2256.129,
+            2271.058
+          ],
+          "quote": "And if you're looking at the metrics inside of vLLM, you send that to Grafana, you can actually view that on the dashboard, and you can watch, okay, as I increase my prompts, you can watch it increase, you can watch it decrease, right?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2393.501,
+            2402.564
+          ],
+          "quote": "And we can see what vLLM is actually exposing, so we can actually look at those metrics and we're just showing some of the metrics that are actually being exposed and how you would view that in vLLM.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2972.851,
+            2983.636
+          ],
+          "quote": "We're gonna talk about how do you tweak your VLLM config to make sure that you're getting max performance out of it",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 641,
+          "t": [
+            3419.657,
+            3421.858
+          ],
+          "quote": "And in there, you will see vllm.yaml.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 651,
+          "t": [
+            3453.105,
+            3458.748
+          ],
+          "quote": "And we have a simple deployment with VLLM with a lot of different arguments and flags here.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 678,
+          "t": [
+            3566.251,
+            3570.314
+          ],
+          "quote": "So if you get, you see the VLLM endpoint is still coming up.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 686,
+          "t": [
+            3606.825,
+            3609.206
+          ],
+          "quote": "It's provided by VLLM, I believe.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 836,
+          "t": [
+            4272.577,
+            4286.893
+          ],
+          "quote": "And then we'll do another load test quickly, sort of to get another baseline of what it would look like before we implement and add speculative decoding to this particular deployment in vLLM.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 841,
+          "t": [
+            4314.303,
+            4319.089
+          ],
+          "quote": "So this is a particular flag you can pass in vLLM to set the draft model.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 904,
+          "t": [
+            4633.032,
+            4638.095
+          ],
+          "quote": "There's a lot of things with the scheduler as well with vLLM, depending on how it's scheduling these requests in.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 987,
+          "t": [
+            5026.306,
+            5036.788
+          ],
+          "quote": "VLLM has actually done a big report on this, and they've seen about 1.5x increase in token generation, if you set it up correctly, with the right model and with the right drafter and the right settings.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 1027,
+          "t": [
+            5213.742,
+            5223.688
+          ],
+          "quote": "So here I want to talk about some of the different flags that you should care about when deploying using vLLM and how you want to get the saturation to be as high as possible.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 1036,
+          "t": [
+            5271.497,
+            5278.22
+          ],
+          "quote": "And that is something that vLLM sort of lets you kind of tweak and make sure that you find that sweet spot.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 1158,
+          "t": [
+            5818.267,
+            5822.948
+          ],
+          "quote": "And there's a bunch of different knobs you can tweak in vLLM to make it better.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 1165,
+          "t": [
+            5855.862,
+            5864.625
+          ],
+          "quote": "In our particular deployment, if you look at the vllm.yaml, we start with 32 sequences, right?",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 1166,
+          "t": [
+            5864.685,
+            5871.826
+          ],
+          "quote": "So what that is doing is telling vllm that it can only process 32 requests at a time and not more than that.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 1222,
+          "t": [
+            6129.832,
+            6139.117
+          ],
+          "quote": "Would you say it's good to use VLLM instead of Lama for, like, long, long GPU with your personal assistant?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1235,
+          "t": [
+            6173.453,
+            6182.697
+          ],
+          "quote": "But once you have a model that you know I'm going to use for sure for this use case and this is working great, you probably want to switch to VLLM, SGLang, or one of these other model",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 1241,
+          "t": [
+            6206.311,
+            6209.413
+          ],
+          "quote": "Yeah, yeah, you can set up speculative decoding with vLLM.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 1248,
+          "t": [
+            6237.898,
+            6242.445
+          ],
+          "quote": "Yeah, I mean, I think VLLM supports it, so I think you would be able to run it on VLLM.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 1255,
+          "t": [
+            6275.984,
+            6281.669
+          ],
+          "quote": "Again, this is sort of how many requests vLLM is able to process at one time.",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "quantization",
+      "type": "concept",
+      "role": "concept",
+      "name": "量化 (quantization)",
+      "file": "量化",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 320,
+          "t": [
+            1803.361,
+            1816.031
+          ],
+          "quote": "And so we're also looking at if we're using at FP8, which Omer's gonna talk about quantization and what that actually looks like to shrink a model and to still get the efficiency that you're looking for.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 373,
+          "t": [
+            2070.622,
+            2075.065
+          ],
+          "quote": "And I'm trying to go a little faster so we can get into the quantization and the optimization.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 512,
+          "t": [
+            2832.304,
+            2844.511
+          ],
+          "quote": "So we look at all of the modules, we talk about that KB cache, the prefix caching, the attention heads, as well as quantization, which I'm always going to cover here in a minute, and then from there that continues batching.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 526,
+          "t": [
+            2907.564,
+            2908.785
+          ],
+          "quote": "You can talk about quantization.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 542,
+          "t": [
+            2956.739,
+            2958.121
+          ],
+          "quote": "So we're going to talk about quantization.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 551,
+          "t": [
+            2999.144,
+            3001.105
+          ],
+          "quote": "So I'll dive into quantization.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 556,
+          "t": [
+            3015.769,
+            3021.635
+          ],
+          "quote": "So, in quantization, there's a whole lot of different, there's a lot of different types of quantizations you can do.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 566,
+          "t": [
+            3049.008,
+            3053.79
+          ],
+          "quote": "There's NVFP4, which is NVIDIA's proprietary quantization technique that they use.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 576,
+          "t": [
+            3100.237,
+            3102.699
+          ],
+          "quote": "So that's why we essentially want to do quantization.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 586,
+          "t": [
+            3152.491,
+            3158.853
+          ],
+          "quote": "Again, as I said, sort of like a high level overview, there's a whole different source of different techniques you can do quantization with.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 619,
+          "t": [
+            3338.063,
+            3342.224
+          ],
+          "quote": "Reason being, again, you can have performance degradation when you do quantization.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 625,
+          "t": [
+            3359.009,
+            3367.252
+          ],
+          "quote": "You want to think about if the JSON is being generated correctly, if the JSON is being corrupted when you reduce the quantization.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 658,
+          "t": [
+            3486.126,
+            3495.557
+          ],
+          "quote": "In a lot of cases, in a lot of different quantization techniques, you might want to quantize the model, only specific parts of the model and not the others to make sure the performance stays the same.",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "speculative-decoding",
+      "type": "concept",
+      "role": "concept",
+      "name": "投机解码 (speculative decoding)",
+      "file": "投机解码",
+      "primary": true,
+      "how_described": "本集说投机解码是让小草稿模型提前猜几个 token、主模型并行验证，验证比逐个生成快所以配对了就白赚速度；但现场演示翻车（58→16 token/秒），原因是草稿模型没针对主模型正确训练。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 545,
+          "t": [
+            2961.746,
+            2963.467
+          ],
+          "quote": "We're gonna talk about speculative decoding.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 756,
+          "t": [
+            3908.095,
+            3912.098
+          ],
+          "quote": "We'll jump into next is speculative decoding, which I think is a pretty interesting one.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 759,
+          "t": [
+            3916.28,
+            3921.363
+          ],
+          "quote": "All right, so how many of you have heard of speculative decoding before?",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 762,
+          "t": [
+            3925.18,
+            3929.466
+          ],
+          "quote": "For those who don't know what speculative decoding is, let me make this smaller.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 778,
+          "t": [
+            4013.449,
+            4020.01
+          ],
+          "quote": "OK. Before we get into it, I also want to talk briefly about all of the different ways you can do speculative decoding.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 836,
+          "t": [
+            4272.577,
+            4286.893
+          ],
+          "quote": "And then we'll do another load test quickly, sort of to get another baseline of what it would look like before we implement and add speculative decoding to this particular deployment in vLLM.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 884,
+          "t": [
+            4526.871,
+            4531.514
+          ],
+          "quote": "So we now have speculative decoding set up correctly.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 888,
+          "t": [
+            4547.116,
+            4550.302
+          ],
+          "quote": "So this is our sort of baseline before we do speculative decoding.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 923,
+          "t": [
+            4738.945,
+            4743.607
+          ],
+          "quote": "But yeah, that is it for speculative decoding.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 961,
+          "t": [
+            4898,
+            4908.186
+          ],
+          "quote": "So the fact that we have speculative decoding presumably is because for a model it's faster to verify rather than decode.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 969,
+          "t": [
+            4944.466,
+            4952.628
+          ],
+          "quote": "Instead of doing that one token at a time, when you run with speculative decoding, you're running the model for parallel things.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 972,
+          "t": [
+            4964.211,
+            4966.592
+          ],
+          "quote": "In the same way, you're doing the same thing for speculative decoding.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 985,
+          "t": [
+            5017.764,
+            5021.265
+          ],
+          "quote": "Yeah, so there's a lot of different write-ups on speculative decoding.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 1057,
+          "t": [
+            5387.703,
+            5392.286
+          ],
+          "quote": "So, my question was, again, on the previous speculative decoding.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1086,
+          "t": [
+            5514.053,
+            5523.883
+          ],
+          "quote": "All the open source big models that you want to use, all the Quen models, the GLM models, Kimi models, they all have speculative decoding, drafter models available that you want to use.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 1091,
+          "t": [
+            5537.11,
+            5541.614
+          ],
+          "quote": "It's like their own technique for doing speculative decoding in a more dynamic way.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 1241,
+          "t": [
+            6206.311,
+            6209.413
+          ],
+          "quote": "Yeah, yeah, you can set up speculative decoding with vLLM.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 1242,
+          "t": [
+            6209.953,
+            6213.556
+          ],
+          "quote": "I don't think OLAMA supports speculative decoding as far as I know, but I could be wrong.",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "kv-cache",
+      "type": "concept",
+      "role": "concept",
+      "name": "KV 缓存 (KV cache)",
+      "file": "KV 缓存",
+      "primary": true,
+      "how_described": "本集说显存减去模型权重后剩下的就是 KV 缓存，即能装下多少上下文——20GB 卡装 8GB 权重后约能放 37000 个 token，4 个用户各 8000 token 就塞满；KV 缓存爆掉就是并发到顶、延迟飙升的原因。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 372,
+          "t": [
+            2068.06,
+            2070.482
+          ],
+          "quote": "And we're showing the math for the KV cache here.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 573,
+          "t": [
+            3085.695,
+            3089.275
+          ],
+          "quote": "So we want to make sure we have enough space for KV cache.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 574,
+          "t": [
+            3089.315,
+            3098.357
+          ],
+          "quote": "Reason being, the more KV cache you can have on the memory, the more requests you can process in parallel, thereby increasing your throughput.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 577,
+          "t": [
+            3102.719,
+            3108.003
+          ],
+          "quote": "We want to reduce the size of the model so that way you can fit more KV cache and essentially increase your throughput.",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "kubernetes",
+      "type": "concept",
+      "role": "concept",
+      "name": "Kubernetes",
+      "file": "Kubernetes",
+      "primary": true,
+      "how_described": "本集的工作坊环境是 200 多个 GPU 节点的 Kubernetes 集群，Omer 在 Akamai 负责 Kubernetes 方面，用 vllm.yaml manifest 部署和滚动更新模型，LKE 还支持按突发流量自动扩缩容。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 76,
+          "t": [
+            390.692,
+            393.573
+          ],
+          "quote": "We have a Kubernetes cluster with around 200 plus",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 84,
+          "t": [
+            454.874,
+            458.777
+          ],
+          "quote": "So I work on the Kubernetes side of things at Akamai.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 86,
+          "t": [
+            462.399,
+            466.561
+          ],
+          "quote": "So if anyone has any Kubernetes-related questions, feel free to ask any time.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 536,
+          "t": [
+            2921.078,
+            2928.362
+          ],
+          "quote": "So I'll be talking about a whole different optimization techniques I think you can use to deploy these models on Kubernetes.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 537,
+          "t": [
+            2930.022,
+            2932.884
+          ],
+          "quote": "Like I said, my background is in Kubernetes.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 538,
+          "t": [
+            2933.364,
+            2939.206
+          ],
+          "quote": "I develop a lot of Kubernetes stuff at Akamai, and I work on the managed Kubernetes platform there.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 539,
+          "t": [
+            2939.306,
+            2947.25
+          ],
+          "quote": "So a lot of the stuff that we do is we want to make sure that we're able to use GPUs on Kubernetes really well, use all the different features that they have,",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 643,
+          "t": [
+            3426.708,
+            3435.151
+          ],
+          "quote": "So this is a typical manifest configuration file that you have for Kubernetes deployments.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 644,
+          "t": [
+            3436.112,
+            3439.754
+          ],
+          "quote": "How many of you have used Kubernetes before or have knowledge of Kubernetes?",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "mixture-of-experts",
+      "type": "concept",
+      "role": "concept",
+      "name": "专家混合 (mixture of experts)",
+      "file": "专家混合",
+      "primary": false,
+      "how_described": "本集解释 MoE 模型虽然总体更大（如 300 亿参数、128 个专家），但每个 token 只激活约 8 个专家，生成时用到的字节数比稠密模型少 9 倍，所以解码可以更快。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            342.647,
+            347.169
+          ],
+          "quote": "And then from there, we'll look at dense models versus mixture of experts.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2513.765,
+            2521.192
+          ],
+          "quote": "All right, so we'll go back and we'll go to the fourth section where we talk about dense model versus the mixture of experts on the GPU.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2553.852,
+            2557.835
+          ],
+          "quote": "So it's going to be a little slower than if you use a mixture of experts.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 458,
+          "t": [
+            2558.356,
+            2560.397
+          ],
+          "quote": "A mixture of experts may be a larger model.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2578.554,
+            2588.037
+          ],
+          "quote": "So that's one of the benefits, even though it's a larger model when it's a mixture of experts, it's actually can be performed a lot better within an application or a lot faster within an application.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2646.229,
+            2651.273
+          ],
+          "quote": "Now if we look at the mixture of experts, now we're just gonna look at this as code so we can actually understand it.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 1001,
+          "t": [
+            5115.283,
+            5125.269
+          ],
+          "quote": "The reason why is a lot of MOE models, like I was talking about QIN 3.6, 35 billion, so it's a mixture of experts model, and each expert is about 3 billion parameters.",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

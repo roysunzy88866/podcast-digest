@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Rene Haas":1,"Arm":2,"SoftBank":5,"TSMC":9,"Meta":56,"NVIDIA":72,"CPU":5,"推理":105,"芯片设计":2,"验证":3}</script>
+<script type="application/json" class="pd-epn">{"Rene Haas":1,"Arm":2,"SoftBank":5,"TSMC":9,"Meta":56,"NVIDIA":72,"CPU":5,"推理":106,"芯片设计":2,"验证":3}</script>
 
 <script>
 (function(){

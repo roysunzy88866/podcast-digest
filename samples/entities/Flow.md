@@ -49,7 +49,7 @@ unlisted: true
 
 [[Adam Neumann]] · [[Lenny]] · [[WeWork]] · [[Josh Woodward]] · [[SoftBank]] · [[Google]] · [[a16z]] · [[Google Labs]] · [[基准测试]] · [[Gemini]]
 
-<script type="application/json" class="pd-epn">{"Adam Neumann":1,"Lenny":69,"WeWork":1,"Josh Woodward":1,"SoftBank":5,"Google":72,"a16z":21,"Google Labs":1,"基准测试":3,"Gemini":17}</script>
+<script type="application/json" class="pd-epn">{"Adam Neumann":1,"Lenny":69,"WeWork":1,"Josh Woodward":1,"SoftBank":5,"Google":73,"a16z":21,"Google Labs":1,"基准测试":3,"Gemini":18}</script>
 
 <script>
 (function(){

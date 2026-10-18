@@ -1,0 +1,2294 @@
+{
+  "episode_id": "2026-09-23-bigtech-youtube-ceo-neal-mohan-why-we-re-betting",
+  "podcast": "Big Technology Podcast",
+  "date": "2026-09-23",
+  "tags": [
+    "AI 与媒体",
+    "推荐算法",
+    "创作者经济",
+    "AI 生成内容",
+    "平台竞争"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "neal-mohan",
+      "type": "person",
+      "role": "host",
+      "name": "Neal Mohan",
+      "file": "Neal Mohan",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "youtube",
+      "type": "company",
+      "role": "company",
+      "name": "YouTube",
+      "file": "YouTube",
+      "primary": true,
+      "how_described": "本集把它说成:年收入 600 亿美元、每天 20 多亿人使用的开放平台——没有守门人,算法只是舞台,选择权在观众手里;本集主线的全部话题都围绕它展开。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.051,
+            4.382
+          ],
+          "quote": "How much should AI decide what you watch on YouTube and determine what people like me create?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1,
+          "t": [
+            4.522,
+            8.051
+          ],
+          "quote": "Let's talk about it with YouTube CEO Neil Mohan right after this.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 26,
+          "t": [
+            84.534,
+            96.202
+          ],
+          "quote": "We're going to talk all about AI's dramatic influence on what we watch on YouTube and what we create on YouTube, whether it's advisable and a bunch of new products and features that YouTube is releasing today.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 27,
+          "t": [
+            96.562,
+            99.403
+          ],
+          "quote": "And we're joined by the CEO of YouTube, Neil Mohan.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 31,
+          "t": [
+            102.085,
+            113.041
+          ],
+          "quote": "So I went back in the archives and I tweeted about your move from Google's ad division to YouTube 11 years ago in 2015.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 32,
+          "t": [
+            113.061,
+            116.647
+          ],
+          "quote": "And I said, Neil Mohan is off to YouTube, ready to make them some money.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 35,
+          "t": [
+            121.528,
+            127.01
+          ],
+          "quote": "YouTube today, for those who are catching up, is a $60 billion annual business.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 42,
+          "t": [
+            147.623,
+            152.606
+          ],
+          "quote": "And that means a billion daily hours of YouTube are watched on TV alone.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 44,
+          "t": [
+            159.869,
+            164.431
+          ],
+          "quote": "So when we talk about YouTube, it's not just the cat on the skateboard or the dog on the skateboard anymore.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 48,
+          "t": [
+            174.644,
+            180.228
+          ],
+          "quote": "And, you know, YouTube is really kind of everything that you described it to be there.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 52,
+          "t": [
+            203.543,
+            206.525
+          ],
+          "quote": "And in essence, that's the magic of YouTube.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 53,
+          "t": [
+            206.765,
+            219.894
+          ],
+          "quote": "And as a result of all of that fandom that manifests on YouTube every day, that's what creates the business opportunities, of course, that you talked about for our creators, for our partners, for the brands that work with YouTube.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 55,
+          "t": [
+            223.556,
+            226.285
+          ],
+          "quote": "Creates sort of the cultural phenomenon that is YouTube.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 59,
+          "t": [
+            239.263,
+            240.763
+          ],
+          "quote": "It's, it's often YouTube.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 60,
+          "t": [
+            240.943,
+            246.805
+          ],
+          "quote": "And, you know, you could say it's a Netflix versus HBO battle, but it's really Netflix and HBO versus YouTube.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 61,
+          "t": [
+            246.865,
+            253.706
+          ],
+          "quote": "It's Spotify and Apple podcasts, which we have big listenership on, but it's versus YouTube, where I would say most of our listenership is on.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 63,
+          "t": [
+            256.287,
+            272.037
+          ],
+          "quote": "But there's sort of a difference between YouTube and these other legacy media platforms, which is that you would have a group of people programming, thinking what the audience wants, and then adjusting based off of how the show is due for like a Netflix or an HBO.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 64,
+          "t": [
+            272.877,
+            275.258
+          ],
+          "quote": "With YouTube, it's largely people programmed.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 66,
+          "t": [
+            289.101,
+            295.403
+          ],
+          "quote": "But a lot of that has been almost an inexact science for creators on YouTube.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 69,
+          "t": [
+            301.785,
+            315.515
+          ],
+          "quote": "But now what we're seeing with the fact that I would say YouTube is the Google product that uses AI the most is that AI is coming in to the product, coming into the programming decisions.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 72,
+          "t": [
+            323.64,
+            325.582
+          ],
+          "quote": "A creator can now upload a draft on YouTube.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 73,
+          "t": [
+            326.522,
+            330.984
+          ],
+          "quote": "And get feedback and suggested edits that's coming in from YouTube's AI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 74,
+          "t": [
+            332.045,
+            337.707
+          ],
+          "quote": "When you do that, YouTube will also suggest thumbnails and it will give you feedback.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 79,
+          "t": [
+            353.981,
+            362.792
+          ],
+          "quote": "So maybe one audience responds to one thumbnail and then the other audience responds to another and YouTube will dynamically show them what they want.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 82,
+          "t": [
+            386.153,
+            389.858
+          ],
+          "quote": "How much do we want to let AI program what we watch on YouTube?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 87,
+          "t": [
+            421.862,
+            428.944
+          ],
+          "quote": "But it's our amazing creators, including yourself and all the success you've had around your channels on YouTube, that are the people that are on that stage.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 89,
+          "t": [
+            434.786,
+            445.67
+          ],
+          "quote": "Like if you walk the halls of YouTube every single day, you're going to hear that term creator or podcaster or artist, creators writ large, a hundred times a day.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 92,
+          "t": [
+            461.621,
+            469.527
+          ],
+          "quote": "And so it's really about doing what YouTube does, helping creators build an audience and then build a business, but to do it more efficiently and do it faster.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 94,
+          "t": [
+            476.071,
+            486.064
+          ],
+          "quote": "that we're going to talk about at our Made on YouTube are powered by AI, but they're doing things that are core to the creator business.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 100,
+          "t": [
+            503.899,
+            518.387
+          ],
+          "quote": "And those are all powered by our investment in AI, using Gemini, our creation tools, like actually being able to hit the plus button on YouTube and creating videos, that's powered by models like Omni.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 104,
+          "t": [
+            529.89,
+            547.073
+          ],
+          "quote": "Going back to sort of the core AI use in YouTube, which is when you open up the app on the television screen, those recommendations that you get, the reason why they are so relevant and useful to you as a viewer is because of our investment in AI.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 107,
+          "t": [
+            562.968,
+            568.954
+          ],
+          "quote": "Yeah, and there's, by the way, I don't think any platform can do what YouTube is doing just because of the level of AI you have access to.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 115,
+          "t": [
+            599.792,
+            603.874
+          ],
+          "quote": "Creators, because I know I'm on YouTube, they'll respond to incentives.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 116,
+          "t": [
+            604.314,
+            610.877
+          ],
+          "quote": "So like if the algorithm, like YouTube, YouTube even today suggests videos to make because there's an audience for it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 126,
+          "t": [
+            677.899,
+            682.54
+          ],
+          "quote": "And from the very beginning, YouTube's approach has been very different.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 138,
+          "t": [
+            724.035,
+            727.136
+          ],
+          "quote": "That's the difference between YouTube and other platforms.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 142,
+          "t": [
+            732.999,
+            737.521
+          ],
+          "quote": "But what you're seeing in YouTube every single day is the audience giving you feedback.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 144,
+          "t": [
+            744.824,
+            751.487
+          ],
+          "quote": "Why can't the two billion viewers who come to YouTube every single day make decisions for themselves about what they like, what they don't like?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 145,
+          "t": [
+            752.148,
+            757.17
+          ],
+          "quote": "And it's that sort of entrepreneurial sort of creative energy that exists on YouTube every day",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 149,
+          "t": [
+            770.22,
+            775.544
+          ],
+          "quote": "And nobody gets to tell us on YouTube what's good, what's not good, what's art, what's not art.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 151,
+          "t": [
+            776.705,
+            779.607
+          ],
+          "quote": "And that's the power of an open platform like YouTube.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 152,
+          "t": [
+            779.882,
+            791.269
+          ],
+          "quote": "Yeah, and I should say I'm much happier with the YouTube version of the world than the gatekeeper version of the world because let's face it, if I was trying to do big technology in the world of gatekeepers, it probably wouldn't happen.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 171,
+          "t": [
+            869.413,
+            874.657
+          ],
+          "quote": "All content goes, maybe not all, but much of it, like YouTube has hit shows on it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 172,
+          "t": [
+            874.737,
+            879.861
+          ],
+          "quote": "YouTube is, this is another announcement you're making, you're leaning into more shorter mini series on YouTube.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 173,
+          "t": [
+            879.881,
+            889.109
+          ],
+          "quote": "So YouTube is starting to sort of, it's not even starting, it is, you know, well, beating the legacy players, but in league with that level of production as well.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 182,
+          "t": [
+            929.46,
+            934.424
+          ],
+          "quote": "That's just not the way YouTube has worked.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 183,
+          "t": [
+            934.444,
+            939.289
+          ],
+          "quote": "You've obviously followed the YouTube story for almost since the very beginning.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 187,
+          "t": [
+            949.075,
+            967.759
+          ],
+          "quote": "And what I mean by that is what happens because of this lack of gatekeepers, because of this sort of entrepreneurial sort of creativity that YouTube allows, like you describe in your own case, there are millions and millions of fandoms and niches that emerge.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 188,
+          "t": [
+            968.119,
+            975.12
+          ],
+          "quote": "You know, what I think the YouTube experience is is a bit of the opposite of that, which is when you turn on the TV,",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 190,
+          "t": [
+            983.849,
+            996.894
+          ],
+          "quote": "Now, it turns out that there are millions of other people who also have those interests, so those niche sort of cultural phenomenon are not tiny, they're large because of, you know, the two billion people that come to YouTube every day, but they really are...",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1005.741,
+            1013.567
+          ],
+          "quote": "And I happen, you know, I go to YouTube because I love to learn, you know, kind of random esoteric things sometimes.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1014.007,
+            1018.971
+          ],
+          "quote": "But I also go to YouTube because I love sports and that's sort of as mainstream monoculture as it gets.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1020.031,
+            1026.274
+          ],
+          "quote": "And sort of YouTube sort of gives you that sort of full spectrum as opposed to any sort of homogenization.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1047.892,
+            1056.204
+          ],
+          "quote": "Maybe not in the videos themselves, but like if you think about like it's it's kind of this phenomenon on YouTube that the way that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1082.024,
+            1090.943
+          ],
+          "quote": "But there has been some of this, I would call it maybe algorithmic-driven homogenization in some elements on YouTube.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1092.549,
+            1107.001
+          ],
+          "quote": "You know, I think that certainly there are creators, up-and-coming creators, that look to, you know, Jimmy just given his success on YouTube and just his success in the culture as, hey, that's a blueprint that I should try to follow.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1107.041,
+            1113.587
+          ],
+          "quote": "And by the way, I think that that has actually always been part of the YouTube culture, like the YouTube creator culture.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1136.132,
+            1138.153
+          ],
+          "quote": "homogeneity across all of YouTube.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1142.775,
+            1154.301
+          ],
+          "quote": "And we certainly don't see, every time I go, I always, you know, one of my favorite questions is when I'm at an event or, you know, hanging out with friends is just to ask what their favorite thing is to watch on YouTube.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1164.025,
+            1170.992
+          ],
+          "quote": "And I think that is more the essence of the experience on YouTube and, frankly, where the longevity comes from.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1187.866,
+            1197.672
+          ],
+          "quote": "I mean, it helps with all of those things, but it helps with really just like I said, it gives us a different set of toolkits that help with different aspects of YouTube.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1197.692,
+            1205.797
+          ],
+          "quote": "You know, one of the core parts of YouTube that I know you're familiar with is Content ID and protecting creators' rights and their IP.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1225.579,
+            1231.162
+          ],
+          "quote": "But there's places where it's just kind of deeply embedded into how YouTube works.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1233.483,
+            1238.926
+          ],
+          "quote": "So when you think about the content that you want on YouTube, do you want AI-generated content on YouTube?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1246.59,
+            1251.393
+          ],
+          "quote": "I often sometimes say that YouTube is the world's most efficient connector of a...",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1257.24,
+            1264.408
+          ],
+          "quote": "And so to the extent that that is the core of what YouTube does, I want more of that type of content, right?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1277.161,
+            1290.352
+          ],
+          "quote": "I do believe that it is YouTube's responsibility to make sure that our creators like yourself have access to those tools, but it's the creator's choice and responsibility to choose which tools to use and how to use them.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1290.892,
+            1295.697
+          ],
+          "quote": "And what I find is when viewers come to YouTube, it's really more that",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1332.662,
+            1337.106
+          ],
+          "quote": "And I think that that's at least so far what we're seeing on YouTube.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1352.681,
+            1361.95
+          ],
+          "quote": "And so that's what we're seeing on YouTube, both on the short side, but also on the long form side, because I think people come to connect with humans.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1367.615,
+            1371.299
+          ],
+          "quote": "It's really only interesting on YouTube if at least one of them is human.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1518.317,
+            1521.438
+          ],
+          "quote": "So YouTube won't like penalize content if it's AI off the bat.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1562.493,
+            1572.258
+          ],
+          "quote": "I would never want, you know, our YouTube shorts experience to basically become that or any of our experiences or surfaces on YouTube to become that.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1583.578,
+            1587.24
+          ],
+          "quote": "I thought you were about to say I made it, which I have, but I'm trying not to upload it on YouTube.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1587.26,
+            1600.767
+          ],
+          "quote": "But I have thought about creating other channels where, for instance, I would take the day's tech news, put it through Notebook LM, which is a Google product, and you can make videos from Notebook LM and then upload it to YouTube.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1642.028,
+            1646.333
+          ],
+          "quote": "What goes into what succeeds on YouTube versus not as well.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1647.114,
+            1657.346
+          ],
+          "quote": "Since the development of or the inception of these AI tools, have you seen an increase in uploads on YouTube?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1663.169,
+            1669.431
+          ],
+          "quote": "I mean, YouTube continues to grow, continues to be a place where new creators are finding audience every day.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1669.491,
+            1677.535
+          ],
+          "quote": "Like, sometimes I get asked this question, it's like, well, you know, who are the most important, you know, creators on YouTube or who do you think about the most?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1686.705,
+            1694.859
+          ],
+          "quote": "Because that's the lifeblood of YouTube, which is creating an opportunity for the next Alex to come along and start uploading today.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1696.443,
+            1704.385
+          ],
+          "quote": "As YouTube has become this cultural phenomenon, of course, there are many more creators, millions of them kind of trying their hand at it.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1708.827,
+            1716.609
+          ],
+          "quote": "Does AI actually make some of this content creation easier and further democratized it, just like YouTube did in the very early days 20 years ago?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1720.25,
+            1726.775
+          ],
+          "quote": "Okay, so there was not like, you know, some level of content creation happening on YouTube and then just a inflection point.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1744.676,
+            1751.181
+          ],
+          "quote": "Well, for YouTube, you can really only be watching one thing at the same time or engaged in one, maybe two, maybe two.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1756.364,
+            1757.685
+          ],
+          "quote": "But with- Do you have YouTube TV?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 357,
+          "t": [
+            1766.131,
+            1770.594
+          ],
+          "quote": "But I watch YouTube mostly on the computer and, and, and phone.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1810.025,
+            1819.984
+          ],
+          "quote": "Yeah, I mean, I've been, as you know, Alex, in this business for a very long time, even before YouTube, just in this sort of media and technology",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1847.301,
+            1860.951
+          ],
+          "quote": "And so the best way to really kind of answer that question for you is, you know, our focus is that when you're on YouTube or when you're thinking about coming to YouTube, that we really are giving you the best experience possible.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 376,
+          "t": [
+            1868.716,
+            1871.66
+          ],
+          "quote": "on YouTube of sort of long-term satisfaction.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1927.691,
+            1938.615
+          ],
+          "quote": "And so we do attempt to cater to whatever our viewers are demanding when they come to YouTube, and that's how we think about our products.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 393,
+          "t": [
+            1970.118,
+            1980.745
+          ],
+          "quote": "I think one of the things that's really interesting about YouTube is we all as human beings, as a human species, have...",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 395,
+          "t": [
+            1993.57,
+            1995.032
+          ],
+          "quote": "And that's what happens on YouTube.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 398,
+          "t": [
+            2000.76,
+            2008.546
+          ],
+          "quote": "And so as long as YouTube can remain core to that, and we saw it, you know, for example, this summer was a great example of that.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 399,
+          "t": [
+            2008.586,
+            2021.675
+          ],
+          "quote": "Like everything from, you know, Justin Bieber at Coachella live streaming on YouTube to the 1.7 billion people all over the world who watched some FIFA content on YouTube during those...",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 406,
+          "t": [
+            2066.44,
+            2072.966
+          ],
+          "quote": "Why YouTube has been so good at taking what Google DeepMind has to offer and implementing it into the product fest.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2196.433,
+            2199.755
+          ],
+          "quote": "And we're back here on Big Technology Podcast with YouTube CEO Neil Mohan.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2238.331,
+            2244.333
+          ],
+          "quote": "And, you know, similar optimization happens in YouTube or like it's like, how do you get that video to that right person?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 458,
+          "t": [
+            2302.339,
+            2307.983
+          ],
+          "quote": "And so it has to be a good use of all of our time when we're on YouTube.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2316.689,
+            2328.679
+          ],
+          "quote": "A lot of what we focus on is not just those features that are what you experience in the main YouTube app on your phone, on your desktop, on your television screen, but are actually in YouTube studio itself, right?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2353.324,
+            2363.252
+          ],
+          "quote": "Like some of brands are ending up thinking about themselves as creators on YouTube first and foremost, even before they think about the first dollar they're going to spend on media.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2400.325,
+            2412.373
+          ],
+          "quote": "Any AI innovation that the research group makes and made it available to different products like YouTube, like Maps, like Gmail, and sort of up to those products to then integrate the technology.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2414.894,
+            2420.078
+          ],
+          "quote": "I've said it before the break, I'll say it again, I don't think any division within YouTube or product within YouTube",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 476,
+          "t": [
+            2420.758,
+            2423.801
+          ],
+          "quote": "has more aggressively implemented AI than YouTube.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2427.405,
+            2438.916
+          ],
+          "quote": "We can talk a little bit about ask, like the fact that you can ask anything underneath any YouTube video and it will allow you to engage with the subject matter there, even if you haven't watched the full video.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2452.587,
+            2461.834
+          ],
+          "quote": "So talk a little bit about, first of all, how you work with that engine room, whether that's the way it works, and then why you've decided to be so aggressive about implementing AI to YouTube.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2462.224,
+            2471.546
+          ],
+          "quote": "Yeah, I mean, so first and foremost, YouTube works very closely with Google DeepMind on a daily basis.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2492.062,
+            2503.093
+          ],
+          "quote": "As we've talked about here, a big focus of mine and YouTube's, both on the creator side and all those creator tools, including many of them that we're announcing this week, but also on the viewer side and the brand side.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 491,
+          "t": [
+            2503.133,
+            2510.24
+          ],
+          "quote": "Actually, all facets of stakeholders at YouTube have benefited, I would argue, over the last two, three, four years from",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 496,
+          "t": [
+            2528.593,
+            2533.156
+          ],
+          "quote": "I mean, when I want to search a YouTube video, I get a much better result than when I want to search my Gmail.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2538.095,
+            2543.92
+          ],
+          "quote": "But I know when I use Ask Studio or I'm using Ask underneath the YouTube video, I'm getting.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 503,
+          "t": [
+            2549.465,
+            2550.445
+          ],
+          "quote": "Between YouTube and",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2555.611,
+            2568.386
+          ],
+          "quote": "And the idea there, and actually that's why you see at the bottom of every YouTube Ask session that you're in, a link out to Gemini in case you want to go deeper.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2584.879,
+            2589.02
+          ],
+          "quote": "And you can talk to YouTube about the video effectively.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 515,
+          "t": [
+            2603.865,
+            2606.347
+          ],
+          "quote": "On the internet period is YouTube.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2734.401,
+            2743.043
+          ],
+          "quote": "And in that sense, it's kind of like this very kind of organic, sort of very natural way of engaging with YouTube.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 550,
+          "t": [
+            2748.505,
+            2765.798
+          ],
+          "quote": "But back to your core question of how it came about and how that partnership works, that is a very classic example of daily, almost sort of blended teams across YouTube and Google DeepMind because it is powered by Gemini.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 553,
+          "t": [
+            2772.319,
+            2778.661
+          ],
+          "quote": "What we did in the YouTube context specifically is really make it about that video that you're engaging in.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 555,
+          "t": [
+            2789.185,
+            2794.867
+          ],
+          "quote": "And I think that that's what makes that experience sort of unique to YouTube, which is like, it is about the video.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 563,
+          "t": [
+            2835.583,
+            2846.808
+          ],
+          "quote": "now, I think a couple of months ago, which is to bring that similar type of conversational experience, video forward, creator forward, conversational experience to the search experience on YouTube as well.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 569,
+          "t": [
+            2860.753,
+            2864.854
+          ],
+          "quote": "You know, the biggest screen in your home, where, as you said, lots and lots of people watch YouTube.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 571,
+          "t": [
+            2869.435,
+            2881.178
+          ],
+          "quote": "But you can imagine what you can now do through that experience, which is like, YouTube, can you help me plan my, you know, trip with my wife to Paris, right?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 577,
+          "t": [
+            2902.223,
+            2909.105
+          ],
+          "quote": "But this is an example of close collaboration between DeepMind and Gemini and YouTube to deliver",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 578,
+          "t": [
+            2909.968,
+            2913.87
+          ],
+          "quote": "A really big win for billions of viewers who come to YouTube every single day.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 580,
+          "t": [
+            2914.29,
+            2920.293
+          ],
+          "quote": "So as I said, there's lots of like it's so much valuable information is baked within YouTube.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 589,
+          "t": [
+            2993.051,
+            2999.873
+          ],
+          "quote": "And as, you know, one of the things that's unique about YouTube that YouTube can bring to this experience is video.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 592,
+          "t": [
+            3015.259,
+            3029.007
+          ],
+          "quote": "Like, you know, how to fix a garage door, that's a video kind of step-by-step type of an experience, and only that kind of ask YouTube-type experience can bring that to the fore.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 597,
+          "t": [
+            3050.43,
+            3053.712
+          ],
+          "quote": "engagement with YouTube, this is sort of a sliver of that, right?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 598,
+          "t": [
+            3053.772,
+            3060.416
+          ],
+          "quote": "Lots of YouTube is about, you know, watching, you know, your favorite documentary on a television screen, and that's the experience, right?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 600,
+          "t": [
+            3071.547,
+            3091.435
+          ],
+          "quote": "Fresh pieces of content or content that might not have gotten a lot of views because it actually has, you know, out of a 10 minute video, this two minutes of gold that are really getting at the essence of this very, very esoteric query that you might have asked in Ask YouTube that previously wasn't being surfaced in the right way.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 602,
+          "t": [
+            3101.693,
+            3102.533
+          ],
+          "quote": "Um, on YouTube.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 613,
+          "t": [
+            3130.081,
+            3137.629
+          ],
+          "quote": "Well, you know, the way it... Maybe YouTube was doing me a favor by blocking the game for me.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 639,
+          "t": [
+            3259.833,
+            3264.378
+          ],
+          "quote": "So in that sense, it's like more akin to what you would sort of expect to see on YouTube.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 647,
+          "t": [
+            3285.174,
+            3288.657
+          ],
+          "quote": "Live has always been a very important part of YouTube, right?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 651,
+          "t": [
+            3294.843,
+            3306.396
+          ],
+          "quote": "And so live has always been this kind of core aspect of YouTube, and that's how I think about live events, at least in terms of their home on YouTube.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 655,
+          "t": [
+            3317.944,
+            3320.706
+          ],
+          "quote": "One of the killer AI features on YouTube, right?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 658,
+          "t": [
+            3328.09,
+            3334.094
+          ],
+          "quote": "Netflix is trying to take successful YouTube podcasts and use them as a growth engine.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 660,
+          "t": [
+            3339.777,
+            3340.597
+          ],
+          "quote": "Running them on YouTube.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 665,
+          "t": [
+            3367.736,
+            3376.419
+          ],
+          "quote": "If a creator finds success off of YouTube because of their success on YouTube, I think that's a really positive thing.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 670,
+          "t": [
+            3390.786,
+            3393.547
+          ],
+          "quote": "But he has had enormous success outside of YouTube.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 672,
+          "t": [
+            3398.53,
+            3404.374
+          ],
+          "quote": "And I think that's valuable because, you know, when you go to his offices, one of his first rules is YouTube first.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 673,
+          "t": [
+            3404.414,
+            3408.558
+          ],
+          "quote": "Like, he recognizes that YouTube is his home and the font of all of that success.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 676,
+          "t": [
+            3417.524,
+            3428.151
+          ],
+          "quote": "The cultural phenomenon that YouTube creators are and this sort of juggernaut that they are in the culture out there, of course, other streaming platform services have taken note.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 679,
+          "t": [
+            3434.335,
+            3443.381
+          ],
+          "quote": "I've been at YouTube long enough to know that there are other platforms and services that have sort of made a run at this over the years.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 681,
+          "t": [
+            3446.322,
+            3453.163
+          ],
+          "quote": "And our job is to make sure that our creators feel like their primary home is YouTube and that's how we engage with them.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 685,
+          "t": [
+            3473.354,
+            3480.917
+          ],
+          "quote": "Like we're listening to you on YouTube, whether it's a feature, whether it's, you know, helping you with, you know, brand deals or what have you, right?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 691,
+          "t": [
+            3491.481,
+            3494.963
+          ],
+          "quote": "There's been a recent change on the way that YouTube counts views.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 692,
+          "t": [
+            3495.723,
+            3512.836
+          ],
+          "quote": "Now, I don't fully understand it, but all I can tell you is it seems like there's some serious great inflation going on on YouTube where like the videos that I'm producing are, my estimate is like 30 or 40% more views than they were previously.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 694,
+          "t": [
+            3515.118,
+            3520.282
+          ],
+          "quote": "And should we start like having that context in mind when looking at view accounts on YouTube?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 695,
+          "t": [
+            3520.489,
+            3536.606
+          ],
+          "quote": "Yeah, you know, one of the kind of favorite parts about my job at YouTube is anytime we tweak a feature or functionality, like, the feedback is instantaneously, instantaneous, and I appreciate it, good and bad, and that happens...",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 705,
+          "t": [
+            3598.036,
+            3601.5
+          ],
+          "quote": "Now we want to just be consistent across all of YouTube, and that's all we did.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 717,
+          "t": [
+            3651.515,
+            3658.517
+          ],
+          "quote": "There's the media ad side, which you come out of and which you're currently, you know, in within YouTube.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 726,
+          "t": [
+            3700.118,
+            3706.984
+          ],
+          "quote": "So obviously our cloud business, our core businesses, search and ads, and then of course YouTube.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 727,
+          "t": [
+            3707.024,
+            3715.652
+          ],
+          "quote": "And the way that I describe YouTube is actually a little bit different than the way you talked about it, which is at its core, it is a technology company.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 730,
+          "t": [
+            3719.955,
+            3721.736
+          ],
+          "quote": "That's what YouTube is all about, right?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 735,
+          "t": [
+            3745.324,
+            3757.23
+          ],
+          "quote": "So much of what YouTube does sits on that sort of incredibly deep Google technology stack that allows us to actually build all these amazing features for our creators and viewers and brands.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "google-deepmind",
+      "type": "company",
+      "role": "company",
+      "name": "Google DeepMind",
+      "file": "Google DeepMind",
+      "primary": true,
+      "how_described": "本集说 YouTube 与它进行日常级的深度协作,从 CEO 到一线团队每天对接,Ask 等功能正是这种「融合团队」合作的产物。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 91,
+          "t": [
+            454.756,
+            461.341
+          ],
+          "quote": "You know, we work with companies like Google DeepMind every single day to make that stage even better.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2056.537,
+            2065.6
+          ],
+          "quote": "I want to take a quick break and then talk about the way that you work with Google DeepMind and the way that technology, AI technology in particular, is diffused within Google.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 406,
+          "t": [
+            2066.44,
+            2072.966
+          ],
+          "quote": "Why YouTube has been so good at taking what Google DeepMind has to offer and implementing it into the product fest.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 470,
+          "t": [
+            2364.815,
+            2372.738
+          ],
+          "quote": "So I teased before the break that I wanted to talk with you about the way that you work with Google's AI division, Google DeepMind.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2381.405,
+            2395
+          ],
+          "quote": "AI works within Google is that basically Google DeepMind has created this division sort of it's called the engine room within the company where it's brought in like a lot of talent, AI talent and talent from other divisions.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2462.224,
+            2471.546
+          ],
+          "quote": "Yeah, I mean, so first and foremost, YouTube works very closely with Google DeepMind on a daily basis.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 550,
+          "t": [
+            2748.505,
+            2765.798
+          ],
+          "quote": "But back to your core question of how it came about and how that partnership works, that is a very classic example of daily, almost sort of blended teams across YouTube and Google DeepMind because it is powered by Gemini.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "本集结尾讨论 Google 的未来:云、搜索广告、YouTube 可以并存;Mohan 称 YouTube 核心是一家科技公司,深搭在 Google 技术栈上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            102.085,
+            113.041
+          ],
+          "quote": "So I went back in the archives and I tweeted about your move from Google's ad division to YouTube 11 years ago in 2015.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 69,
+          "t": [
+            301.785,
+            315.515
+          ],
+          "quote": "But now what we're seeing with the fact that I would say YouTube is the Google product that uses AI the most is that AI is coming in to the product, coming into the programming decisions.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 91,
+          "t": [
+            454.756,
+            461.341
+          ],
+          "quote": "You know, we work with companies like Google DeepMind every single day to make that stage even better.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1587.26,
+            1600.767
+          ],
+          "quote": "But I have thought about creating other channels where, for instance, I would take the day's tech news, put it through Notebook LM, which is a Google product, and you can make videos from Notebook LM and then upload it to YouTube.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2056.537,
+            2065.6
+          ],
+          "quote": "I want to take a quick break and then talk about the way that you work with Google DeepMind and the way that technology, AI technology in particular, is diffused within Google.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 406,
+          "t": [
+            2066.44,
+            2072.966
+          ],
+          "quote": "Why YouTube has been so good at taking what Google DeepMind has to offer and implementing it into the product fest.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 470,
+          "t": [
+            2364.815,
+            2372.738
+          ],
+          "quote": "So I teased before the break that I wanted to talk with you about the way that you work with Google's AI division, Google DeepMind.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2381.405,
+            2395
+          ],
+          "quote": "AI works within Google is that basically Google DeepMind has created this division sort of it's called the engine room within the company where it's brought in like a lot of talent, AI talent and talent from other divisions.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2462.224,
+            2471.546
+          ],
+          "quote": "Yeah, I mean, so first and foremost, YouTube works very closely with Google DeepMind on a daily basis.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2514.383,
+            2522.008
+          ],
+          "quote": "But I would say, you know, that I think is pervasive across all of Google and all of Google's products through and through.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 504,
+          "t": [
+            2554.329,
+            2555.371
+          ],
+          "quote": "Google Gemini.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 550,
+          "t": [
+            2748.505,
+            2765.798
+          ],
+          "quote": "But back to your core question of how it came about and how that partnership works, that is a very classic example of daily, almost sort of blended teams across YouTube and Google DeepMind because it is powered by Gemini.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 716,
+          "t": [
+            3645.913,
+            3651.475
+          ],
+          "quote": "For those of us on the outside, it seems like there might be like two futures of Google emerging.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 719,
+          "t": [
+            3662.618,
+            3666.08
+          ],
+          "quote": "You know, when you think about the future of Google,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 721,
+          "t": [
+            3669.608,
+            3676.45
+          ],
+          "quote": "And which one do you think will be the primary Google of the future?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 722,
+          "t": [
+            3677.07,
+            3685.792
+          ],
+          "quote": "Oh, I mean, I think that that's, at least in my mind, pretty clear, which is, you know, and I've been at Google a very long time.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 723,
+          "t": [
+            3685.832,
+            3690.374
+          ],
+          "quote": "It's been a real privilege to see all these aspects of Google.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 725,
+          "t": [
+            3696.555,
+            3700.078
+          ],
+          "quote": "successful within Google.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 732,
+          "t": [
+            3731.2,
+            3736.523
+          ],
+          "quote": "And I think that is the common core of Google in everything that we do.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 733,
+          "t": [
+            3736.563,
+            3743.366
+          ],
+          "quote": "You described, for example, how Gemini works with every facet of Google and bringing AI to bear across all of these products.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 735,
+          "t": [
+            3745.324,
+            3757.23
+          ],
+          "quote": "So much of what YouTube does sits on that sort of incredibly deep Google technology stack that allows us to actually build all these amazing features for our creators and viewers and brands.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "gemini",
+      "type": "concept",
+      "role": "concept",
+      "name": "Gemini",
+      "file": "Gemini",
+      "primary": true,
+      "how_described": "本集说 Ask 功能由 Gemini 驱动,是 YouTube 与 DeepMind 深度合作的例子,每个 Ask 会话底部还有跳转 Gemini 的链接。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 100,
+          "t": [
+            503.899,
+            518.387
+          ],
+          "quote": "And those are all powered by our investment in AI, using Gemini, our creation tools, like actually being able to hit the plus button on YouTube and creating videos, that's powered by models like Omni.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2533.892,
+            2534.433
+          ],
+          "quote": "With Gemini.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 504,
+          "t": [
+            2554.329,
+            2555.371
+          ],
+          "quote": "Google Gemini.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2555.611,
+            2568.386
+          ],
+          "quote": "And the idea there, and actually that's why you see at the bottom of every YouTube Ask session that you're in, a link out to Gemini in case you want to go deeper.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 550,
+          "t": [
+            2748.505,
+            2765.798
+          ],
+          "quote": "But back to your core question of how it came about and how that partnership works, that is a very classic example of daily, almost sort of blended teams across YouTube and Google DeepMind because it is powered by Gemini.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 577,
+          "t": [
+            2902.223,
+            2909.105
+          ],
+          "quote": "But this is an example of close collaboration between DeepMind and Gemini and YouTube to deliver",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 733,
+          "t": [
+            3736.563,
+            3743.366
+          ],
+          "quote": "You described, for example, how Gemini works with every facet of Google and bringing AI to bear across all of these products.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "netflix",
+      "type": "company",
+      "role": "company",
+      "name": "Netflix",
+      "file": "Netflix",
+      "primary": true,
+      "how_described": "本集把它说成对比对象:年营收 450 亿美元、被 YouTube 超越;并讨论 Netflix 用独家条款挖走 YouTube 播客主播的竞争威胁。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            127.03,
+            134.212
+          ],
+          "quote": "You can correct me if I'm wrong here, but Netflix is $45 billion, so dramatically bigger than Netflix.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 58,
+          "t": [
+            228.1,
+            239.183
+          ],
+          "quote": "And when you think about like the ability of companies like Netflix to grow or Spotify to grow, Amazon Video, you know, when I'm asked, okay, who's the big competition they're coming up against?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 60,
+          "t": [
+            240.943,
+            246.805
+          ],
+          "quote": "And, you know, you could say it's a Netflix versus HBO battle, but it's really Netflix and HBO versus YouTube.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 63,
+          "t": [
+            256.287,
+            272.037
+          ],
+          "quote": "But there's sort of a difference between YouTube and these other legacy media platforms, which is that you would have a group of people programming, thinking what the audience wants, and then adjusting based off of how the show is due for like a Netflix or an HBO.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1736.222,
+            1742.587
+          ],
+          "quote": "Because, you know, there was that interesting comment from like the Netflix CEO where he was like, well, my competition is sleep.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1770.614,
+            1773.316
+          ],
+          "quote": "But to be fair, that's where I also watch like Netflix and HBO.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 632,
+          "t": [
+            3219.934,
+            3230.12
+          ],
+          "quote": "When it comes to live content, something that Netflix is really going big into, just trying to do more live, how much of that do you want to program yourself or do you want to like buy it or license it or make it available?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 658,
+          "t": [
+            3328.09,
+            3334.094
+          ],
+          "quote": "Netflix is trying to take successful YouTube podcasts and use them as a growth engine.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 659,
+          "t": [
+            3334.394,
+            3338.616
+          ],
+          "quote": "And I think prohibit the creators who run their podcasts on Netflix from",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "ask",
+      "type": "concept",
+      "role": "concept",
+      "name": "Ask",
+      "file": "Ask",
+      "primary": true,
+      "how_described": "本集说它是每个视频下方的提问按钮,可就视频内容对话(如问时间戳、要点),以「视频优先、创作者优先」设计,下一步将进入搜索体验。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 88,
+          "t": [
+            429.244,
+            434.766
+          ],
+          "quote": "And that's sort of the mental model that I would ask people to sort of hold in your heads.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1142.775,
+            1154.301
+          ],
+          "quote": "And we certainly don't see, every time I go, I always, you know, one of my favorite questions is when I'm at an event or, you know, hanging out with friends is just to ask what their favorite thing is to watch on YouTube.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1939.216,
+            1942.677
+          ],
+          "quote": "Let's maybe ask a Dworkish-style question on this one.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2427.405,
+            2438.916
+          ],
+          "quote": "We can talk a little bit about ask, like the fact that you can ask anything underneath any YouTube video and it will allow you to engage with the subject matter there, even if you haven't watched the full video.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2439.316,
+            2441.458
+          ],
+          "quote": "And on the creator side, there's Ask Studio.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2441.478,
+            2444.76
+          ],
+          "quote": "So you're in the studio and you can ask questions like, how's my channel doing?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2538.095,
+            2543.92
+          ],
+          "quote": "But I know when I use Ask Studio or I'm using Ask underneath the YouTube video, I'm getting.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2544.301,
+            2547.383
+          ],
+          "quote": "I mean, Ask is a deep collaboration, actually.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2555.611,
+            2568.386
+          ],
+          "quote": "And the idea there, and actually that's why you see at the bottom of every YouTube Ask session that you're in, a link out to Gemini in case you want to go deeper.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 508,
+          "t": [
+            2572.43,
+            2575.512
+          ],
+          "quote": "Should we tell folks about this ask button?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2575.632,
+            2584.078
+          ],
+          "quote": "In case you're not familiar, there's an ask button underneath every video now where you can basically hit the button and a conversation pops up.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 522,
+          "t": [
+            2633.885,
+            2640.713
+          ],
+          "quote": "But if they're not getting to the point where I watch the first couple of minutes and I'm like, I wonder if there's anything else and if it's worth continuing to watch, I'll just hit ask.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 532,
+          "t": [
+            2660.589,
+            2665.994
+          ],
+          "quote": "Great way to do this is ask, ask for the timestamps of a video and you can see what's coming.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 540,
+          "t": [
+            2687.624,
+            2688.705
+          ],
+          "quote": "I'm an ask junkie.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 546,
+          "t": [
+            2713.544,
+            2725.758
+          ],
+          "quote": "If I'm listening to a music video with them, I can ask about sort of the inspiration of the lyrics or what did she mean actually by this very specific thing.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2822.096,
+            2825.718
+          ],
+          "quote": "And that Ask experience is a version of that.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 575,
+          "t": [
+            2890.92,
+            2899.542
+          ],
+          "quote": "how to set up an itinerary step-by-step, so like a much richer type of an experience, just like you're familiar with Ask on the watch page.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 587,
+          "t": [
+            2979.648,
+            2988.33
+          ],
+          "quote": "The first thing that I would say is that the Ask experience is video forward, it's creator forward.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 592,
+          "t": [
+            3015.259,
+            3029.007
+          ],
+          "quote": "Like, you know, how to fix a garage door, that's a video kind of step-by-step type of an experience, and only that kind of ask YouTube-type experience can bring that to the fore.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 600,
+          "t": [
+            3071.547,
+            3091.435
+          ],
+          "quote": "Fresh pieces of content or content that might not have gotten a lot of views because it actually has, you know, out of a 10 minute video, this two minutes of gold that are really getting at the essence of this very, very esoteric query that you might have asked in Ask YouTube that previously wasn't being surfaced in the right way.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "algorithm",
+      "type": "concept",
+      "role": "concept",
+      "name": "算法 (algorithm)",
+      "file": "算法",
+      "primary": true,
+      "how_described": "本集反复讨论:Mohan 主张把「AI/算法」这个词换成「观众」——算法只是舞台,是 20 亿观众在选择内容,而非 AI 替人做决定。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            296.683,
+            299.744
+          ],
+          "quote": "You listen to the algorithm and you make some of your own decisions.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 80,
+          "t": [
+            363.492,
+            383.19
+          ],
+          "quote": "You could also, this is a crazy one, you can actually A-B test not just titles and thumbnails, but you can A-B test videos, which is that creators can now put up like a couple of videos and maybe one with, maybe we'll do that with this one, where we'll do one with like a trailer, one without a trailer and see what does better, see what gets more watch time and is enhanced by the algorithm.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 116,
+          "t": [
+            604.314,
+            610.877
+          ],
+          "quote": "So like if the algorithm, like YouTube, YouTube even today suggests videos to make because there's an audience for it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 136,
+          "t": [
+            715.851,
+            721.494
+          ],
+          "quote": "And what AI does and, you know, I often say replace that word AI algorithm with audience.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 140,
+          "t": [
+            729.817,
+            731.178
+          ],
+          "quote": "the AI or the algorithm.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 157,
+          "t": [
+            812.53,
+            814.893
+          ],
+          "quote": "You know, you described it in the context of the algorithm.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 178,
+          "t": [
+            913.027,
+            918.949
+          ],
+          "quote": "Like there is a algorithm driven homogenization of content that's happened there.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "ai-generated-content",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 生成内容 (AI-generated content)",
+      "file": "AI 生成内容",
+      "primary": true,
+      "how_described": "本集说 YouTube 不按「是否 AI 生成」评判内容,只看质量与观众反响;判断标准是内容好不好,而非制作工具是什么。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 241,
+          "t": [
+            1233.483,
+            1238.926
+          ],
+          "quote": "So when you think about the content that you want on YouTube, do you want AI-generated content on YouTube?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1435.024,
+            1440.866
+          ],
+          "quote": "You asked at the beginning of your question, like, how do I think about AI-generated content?",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "ai-slop",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 垃圾 (AI slop)",
+      "file": "AI 垃圾",
+      "primary": true,
+      "how_described": "本集说 Mohan 承认 AI slop 是真实存在的问题,与 AI 本身是两回事,YouTube 非常认真地防止平台被这类低质内容淹没。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 277,
+          "t": [
+            1426.242,
+            1427.443
+          ],
+          "quote": "I wouldn't say that's AI slop.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1502.673,
+            1515.696
+          ],
+          "quote": "And so that's probably more the dimension into which to look, which is, you know, whether it's referred to as like AI slop or what have you, like that's different than AI, you know, per se, right?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1556.971,
+            1562.473
+          ],
+          "quote": "And we take the notion of AI slop very seriously.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1573.139,
+            1575.96
+          ],
+          "quote": "So you believe, so the term AI slop.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1577.195,
+            1580.577
+          ],
+          "quote": "You believe that there's a thing called AI slop and you don't want it.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "a-b-test",
+      "type": "concept",
+      "role": "concept",
+      "name": "A/B 测试 (A-B test)",
+      "file": "A/B 测试",
+      "primary": false,
+      "how_described": "本集说 YouTube 新功能允许创作者不只对标题和缩略图,还能对整支视频做 A/B 测试,看哪版观看时长更高。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            363.492,
+            383.19
+          ],
+          "quote": "You could also, this is a crazy one, you can actually A-B test not just titles and thumbnails, but you can A-B test videos, which is that creators can now put up like a couple of videos and maybe one with, maybe we'll do that with this one, where we'll do one with like a trailer, one without a trailer and see what does better, see what gets more watch time and is enhanced by the algorithm.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 447,
+          "t": [
+            2253.098,
+            2257.281
+          ],
+          "quote": "Um, and, you know, you could see that when you're able to A-B test a video now.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "dynamic-thumbnails",
+      "type": "concept",
+      "role": "concept",
+      "name": "动态缩略图 (dynamic thumbnails)",
+      "file": "动态缩略图",
+      "primary": false,
+      "how_described": "本集说这是 YouTube 新发布的 AI 功能:缩略图根据不同观众动态切换,由 AI 驱动优化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            347.292,
+            349.435
+          ],
+          "quote": "There's also going to be dynamic thumbnails.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 95,
+          "t": [
+            486.104,
+            487.385
+          ],
+          "quote": "So dynamic thumbnails.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

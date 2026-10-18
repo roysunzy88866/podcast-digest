@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 生成内容 (AI-generated content)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI 生成内容">AI</div><div class="pi"><h1 class="pt">AI 生成内容 (AI-generated content)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI 生成内容">AI</div><div class="pi"><h1 class="pt">AI 生成内容 (AI-generated content)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]]**(52:14起):本集说纯 AI 生成（无人介入）的内容不奏效，Google 搜索和 ChatGPT 引用中约 10%-12% 是纯 AI 生成的，90% 不是；如果 AI 衍生内容被排名，会导致'衍生内容的无限循环'，群体智慧收敛成单一观点
+- **[[2026-09-23-bigtech-youtube-ceo-neal-mohan-why-we-re-betting|《YouTube CEO 谈 AI：不是算法在选内容，是观众在选》]]**(20:33起):本集说 YouTube 不按「是否 AI 生成」评判内容,只看质量与观众反响;判断标准是内容好不好,而非制作工具是什么。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]] — 作为概念
+- [[2026-09-23-bigtech-youtube-ceo-neal-mohan-why-we-re-betting|《YouTube CEO 谈 AI：不是算法在选内容，是观众在选》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Ethan Smith]] · [[AEO]] · [[SEO]] · [[RAG]] · [[LLM]] · [[citation]] · [[Webflow]] · [[ChatGPT]] · [[Google]]
+[[Google]] · [[YouTube]] · [[Lenny]] · [[Neal Mohan]] · [[Ethan Smith]] · [[Google DeepMind]] · [[AEO]] · [[Gemini]] · [[SEO]] · [[Netflix]]
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Ethan Smith":1,"AEO":5,"SEO":8,"RAG":31,"LLM":66,"citation":2,"Webflow":2,"ChatGPT":116,"Google":72}</script>
+<script type="application/json" class="pd-epn">{"Google":73,"YouTube":10,"Lenny":69,"Neal Mohan":1,"Ethan Smith":1,"Google DeepMind":12,"AEO":5,"Gemini":18,"SEO":8,"Netflix":11}</script>
 
 <script>
 (function(){

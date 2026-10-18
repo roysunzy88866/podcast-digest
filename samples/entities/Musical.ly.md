@@ -27,7 +27,7 @@ unlisted: true
 
 [[Josh Elman]] · [[Andreessen Horowitz]] · [[ChatGPT]] · [[智能体]] · [[TikTok]] · [[Apple]] · [[Siri]] · [[Google]] · [[Oli Forsyth]] · [[Eric Newcomer]]
 
-<script type="application/json" class="pd-epn">{"Josh Elman":2,"Andreessen Horowitz":3,"ChatGPT":116,"智能体":1,"TikTok":8,"Apple":27,"Siri":2,"Google":72,"Oli Forsyth":1,"Eric Newcomer":2}</script>
+<script type="application/json" class="pd-epn">{"Josh Elman":2,"Andreessen Horowitz":3,"ChatGPT":116,"智能体":1,"TikTok":9,"Apple":27,"Siri":2,"Google":73,"Oli Forsyth":1,"Eric Newcomer":2}</script>
 
 <script>
 (function(){

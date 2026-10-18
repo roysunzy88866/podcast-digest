@@ -1,0 +1,970 @@
+{
+  "episode_id": "2026-10-11-talks-building-ai-agents-with-real-time-web-da",
+  "podcast": "精选演讲",
+  "date": "2026-10-11",
+  "tags": [
+    "AI 智能体",
+    "网络爬虫",
+    "数据基础设施",
+    "MCP",
+    "实时网络数据"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "yohan-raju",
+      "type": "person",
+      "role": "guest",
+      "name": "Yohan Raju",
+      "file": "Yohan Raju",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "bright-data",
+      "type": "company",
+      "role": "company",
+      "name": "Bright Data",
+      "file": "Bright Data",
+      "primary": true,
+      "how_described": "本集嘉宾所在公司:从代理基础设施起家,如今号称世界最大的网络数据采集平台,每月采集 PB 级数据、仅次于 Google,靠规模化基础设施和多年反爬绕过逻辑解锁网络数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            17.107,
+            19.108
+          ],
+          "quote": "I'm a solutions architect here at Bright Data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            486.098,
+            495.282
+          ],
+          "quote": "And then some tools that have anti-bot capabilities built in, like what Bright Data offers, WebUnlocker or Browser API, which is in the browser automation side of it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            750.811,
+            759.954
+          ],
+          "quote": "And we also do offer a tool, which I'm gonna cover in the next slide, where you can actually use, leverage Bright Data's tools to actually go out into the web and collect data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            938.257,
+            947.242
+          ],
+          "quote": "So on the left-hand side, you can see this is Claude with Bright Data's MCP setup, and on the right side, this is without Bright Data's MCP setup on Claude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            957.868,
+            964.711
+          ],
+          "quote": "And on the left side, you can see with Bright Data's MCP, it actually went over to Glassdoor and got the results.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            1000.998,
+            1011.542
+          ],
+          "quote": "So working with AI companies, these are examples of customers that I speak with that use bright data in any form of way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            1171.137,
+            1173.478
+          ],
+          "quote": "One is a Bright Data API token.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1187.697,
+            1192.079
+          ],
+          "quote": "So first, we're calling Bright Data's API endpoint to collect Amazon data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1454.165,
+            1472.778
+          ],
+          "quote": "What gives Bright Data the advantage, and this is why we're able to do it, whereas things like bots aren't able to, is because we have the world's largest infrastructure, like proxy infrastructure, and where you're talking about a few requests, maybe a few days' worth of scraping pages, like Glassdoor I use as an example.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1488.8,
+            1503.423
+          ],
+          "quote": "That's when companies like us, Bright Data, would come into the play because you need to actually not only own, like, a scraper or a bot, but you need to think about how do I bypass, you know, what the site is protected with, the CAPTCHA, and how do I do it consistently",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1623.069,
+            1631.272
+          ],
+          "quote": "I think we're able to wrap up, and if you have questions after, I'll be available, or you can stop by at the Bright Data Booth, but thank you for your time, guys.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线之一:AI 智能体能自动发现网站、生成和修复爬虫,替代过去需要翻倍增加的工程师团队;还能选择使用哪些数据工具,替用户点击、滚动、下单。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            74.79,
+            84.057
+          ],
+          "quote": "And then finally, I'm gonna have my hands-on exercise that you guys can follow along with me where I have a product intelligence agent that will essentially",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            795.661,
+            809.884
+          ],
+          "quote": "Whether it's if you have a scraper or you have an agent or you're using something like Claude or GPT, we have tools that will allow it to actually go out into the web without actually getting blocked and scraping data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            1132.045,
+            1136.868
+          ],
+          "quote": "So this is like the example use case, like an AI agent for resume matching.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1392.393,
+            1399.877
+          ],
+          "quote": "Some people prefer actually using scrapers themselves, but this will allow your AI agent to choose which tools to use.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "web-scraping",
+      "type": "concept",
+      "role": "concept",
+      "name": "网络爬虫 (web scraping)",
+      "file": "网络爬虫",
+      "primary": true,
+      "how_described": "本集核心话题:开发一个网站的爬虫要 3 到 5 天,扩到上千个网站后维护成本失控——网站改版、选择器变化、反爬和验证码都是持续难题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            19.688,
+            26.271
+          ],
+          "quote": "I've been with the company for about six years, and I've been working in this space of data collection and web scraping.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集重点介绍:web MCP 是 AI 大脑对外连接的接口,Bright Data 的 MCP 端点接入 60 多个 API,覆盖搜索引擎、网页抓取、Amazon、Reddit、LinkedIn、浏览器自动化等。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 127,
+          "t": [
+            818.866,
+            819.926
+          ],
+          "quote": "That's what MCP means.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            830.523,
+            840.509
+          ],
+          "quote": "And that brain essentially connects to our MCP endpoint, which is essentially 60-plus APIs that we control in our library.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            858.311,
+            867.417
+          ],
+          "quote": "I actually, as an example, I worked with someone two weeks ago that was trying to build a social media listener with the MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            881.689,
+            889.717
+          ],
+          "quote": "It made a call to our MCP using the search engine first, found the results, his pages on Instagram, TikTok, LinkedIn,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            900.723,
+            906.225
+          ],
+          "quote": "So that's the power of, you know, what this can do and how much of the web the MCP can unlock.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            930.238,
+            934.381
+          ],
+          "quote": "And I'm gonna show you a little video on how the MCP works.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            938.257,
+            947.242
+          ],
+          "quote": "So on the left-hand side, you can see this is Claude with Bright Data's MCP setup, and on the right side, this is without Bright Data's MCP setup on Claude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            957.868,
+            964.711
+          ],
+          "quote": "And on the left side, you can see with Bright Data's MCP, it actually went over to Glassdoor and got the results.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            979.081,
+            988.747
+          ],
+          "quote": "And this is one great example on why the MCP is advantageous, pairing it up with something like Claude or GPT or any sort of brains that you'd want to run it on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1355.157,
+            1361.019
+          ],
+          "quote": "And while this is running, I will show you a bit about what I spoke about the model context protocol, the MCP servers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1378.666,
+            1382.928
+          ],
+          "quote": "So these can all be plugged into an MCP endpoint.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sync-path",
+      "type": "concept",
+      "role": "concept",
+      "name": "同步与异步两条回答路径 (sync path)",
+      "file": "同步与异步两条回答路径",
+      "primary": true,
+      "how_described": "本集说 AI 回答问题分两条路:同步路径真正上网实时查(如'今年什么时候去旧金山最好'),异步路径依赖预训练/RAG 数据直接回答,响应有时还可缓存省 token。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 113,
+          "t": [
+            725.28,
+            733.181
+          ],
+          "quote": "Now, like I mentioned, there's two paths to gather this intelligence, the sync path and then the async path.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            736.884,
+            745.821
+          ],
+          "quote": "The sync path is if you really actually want to go out on the web and actually find what you're looking for, and async is if it's okay to rely on pre-trained data.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "type": "concept",
+      "role": "concept",
+      "name": "RAG",
+      "file": "RAG",
+      "primary": true,
+      "how_described": "本集把 RAG 描述为依赖预索引/预训练数据回答问题的那条路径,与实时上网查询相对;Bright Data 客户也用它丰富 RAG。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            58.199,
+            74.75
+          ],
+          "quote": "Some tools that people are generally using when it comes to AI agents versus depending on your RAG model with pre-index data and what are the advantages, what we see in the industry and what changes are to come and what it takes to run these agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            648.194,
+            659.318
+          ],
+          "quote": "Sometimes the AI brain will usually go over to the RAG side, the async, where it'll be used to pre-trained data that, you know, hey, maybe the best time to travel is during the summer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            1011.742,
+            1024.606
+          ],
+          "quote": "So training models, fine-tune, enriching their models or fine-tuning their models, providing AI agents real-time access, like we mentioned, or enriching RAG.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "robots-txt",
+      "type": "concept",
+      "role": "concept",
+      "name": "robots.txt",
+      "file": "robots.txt",
+      "primary": true,
+      "how_described": "本集指出很多网站的 robots.txt 明确屏蔽 ClaudeBot 和 GPTBot,导致 AI 上网查资料时根本进不去目标网站。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 118,
+          "t": [
+            760.094,
+            768.438
+          ],
+          "quote": "Now, one thing I actually noticed is if you go into any website, and if any of you guys are familiar with robots.txt, a lot of...",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anti-bot",
+      "type": "concept",
+      "role": "concept",
+      "name": "反爬虫 (anti-bot)",
+      "file": "反爬虫",
+      "primary": true,
+      "how_described": "本集说每个网站都用不同的反爬和验证码保护数据,受 Cloudflare、Akamai 保护的站点需要住宅 IP 和真实浏览器;Bright Data 的工具内置了每次变换策略的反爬逻辑。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            351.114,
+            370.519
+          ],
+          "quote": "Sites usually like to ensure that no one else has the same product intelligence they have, or depending on what type of data that they're trying to keep secure, they will always implement different types of anti-bot and different types of captcha to throw scrapers and bots off from collecting that data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            389.297,
+            393.078
+          ],
+          "quote": "If you click too fast on the page, if you scroll too fast, that could all trigger anti-bot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            486.098,
+            495.282
+          ],
+          "quote": "And then some tools that have anti-bot capabilities built in, like what Bright Data offers, WebUnlocker or Browser API, which is in the browser automation side of it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            504.952,
+            509.197
+          ],
+          "quote": "That's all in a part of the layer when you think about the anti-bot side of things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1474.997,
+            1488.16
+          ],
+          "quote": "But let's say, after a while, Glassdoor catches on, like, hey, you know, he's using a data center IP, he's accessing the page, you know, nothing's actually being done on the page, and then they start adding all these layers of anti-bot into the picture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1506.224,
+            1514.348
+          ],
+          "quote": "So we've been doing it for years and we have tools that bake in to this anti-bot logic where we're changing our approach to a site every time at scale.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "browser-automation",
+      "type": "concept",
+      "role": "concept",
+      "name": "浏览器自动化 (browser automation)",
+      "file": "浏览器自动化",
+      "primary": true,
+      "how_described": "本集介绍 Browser API 等:让智能体替你点击、滚动,自动化下单(如 DoorDash)或订机票。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            486.098,
+            495.282
+          ],
+          "quote": "And then some tools that have anti-bot capabilities built in, like what Bright Data offers, WebUnlocker or Browser API, which is in the browser automation side of it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1364.259,
+            1376.403
+          ],
+          "quote": "I know I talked about things like browser automation and search engine, but we also do cover things like e-commerce, social media, financial intelligence, research.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "proxy",
+      "type": "concept",
+      "role": "concept",
+      "name": "代理基础设施 (proxy)",
+      "file": "代理基础设施",
+      "primary": false,
+      "how_described": "本集说 Bright Data 最初是代理基础设施公司,拥有世界最大的住宅 IP 网络;代理层是爬取架构中掩饰自己不被检测的一层。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            26.711,
+            29.532
+          ],
+          "quote": "We initially started off as a proxy infrastructure company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            461.143,
+            463.525
+          ],
+          "quote": "And that goes right over to the proxy layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            464.025,
+            468.108
+          ],
+          "quote": "Now the proxy's essentially how you mask yourself from being detected.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1454.165,
+            1472.778
+          ],
+          "quote": "What gives Bright Data the advantage, and this is why we're able to do it, whereas things like bots aren't able to, is because we have the world's largest infrastructure, like proxy infrastructure, and where you're talking about a few requests, maybe a few days' worth of scraping pages, like Glassdoor I use as an example.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "本集用它做现场演示:接入 Bright Data MCP 后 Claude 成功抓取 Glassdoor 页面,不接就被拦;其 ClaudeBot 也被很多网站屏蔽。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 92,
+          "t": [
+            600.484,
+            608.187
+          ],
+          "quote": "Now, how many of you guys today are using things like Claude, GPT, any of the actual AI brains?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            772.761,
+            785.894
+          ],
+          "quote": "So if you ask these engines these questions that are actually going out to the web and trying to find the data, they might not be able to get those data from those specific sites because they're actually blocking those, you know, GPT or Claude from actually accessing the data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            795.661,
+            809.884
+          ],
+          "quote": "Whether it's if you have a scraper or you have an agent or you're using something like Claude or GPT, we have tools that will allow it to actually go out into the web without actually getting blocked and scraping data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            821.957,
+            826.54
+          ],
+          "quote": "It usually integrates with something like Claude Code, LangChain, name it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            878.847,
+            880.849
+          ],
+          "quote": "So what this did was he was using it on Claude Code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            938.257,
+            947.242
+          ],
+          "quote": "So on the left-hand side, you can see this is Claude with Bright Data's MCP setup, and on the right side, this is without Bright Data's MCP setup on Claude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            979.081,
+            988.747
+          ],
+          "quote": "And this is one great example on why the MCP is advantageous, pairing it up with something like Claude or GPT or any sort of brains that you'd want to run it on.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gpt",
+      "type": "company",
+      "role": "company",
+      "name": "GPT",
+      "file": "GPT",
+      "primary": false,
+      "how_described": "本集与 Claude 并提的 AI 大脑之一,GPTBot 常被网站 robots.txt 屏蔽。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 92,
+          "t": [
+            600.484,
+            608.187
+          ],
+          "quote": "Now, how many of you guys today are using things like Claude, GPT, any of the actual AI brains?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            772.761,
+            785.894
+          ],
+          "quote": "So if you ask these engines these questions that are actually going out to the web and trying to find the data, they might not be able to get those data from those specific sites because they're actually blocking those, you know, GPT or Claude from actually accessing the data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            795.661,
+            809.884
+          ],
+          "quote": "Whether it's if you have a scraper or you have an agent or you're using something like Claude or GPT, we have tools that will allow it to actually go out into the web without actually getting blocked and scraping data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            979.081,
+            988.747
+          ],
+          "quote": "And this is one great example on why the MCP is advantageous, pairing it up with something like Claude or GPT or any sort of brains that you'd want to run it on.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare",
+      "type": "company",
+      "role": "company",
+      "name": "Cloudflare",
+      "file": "Cloudflare",
+      "primary": false,
+      "how_described": "本集顺带提到它是给网站提供反爬保护的服务商之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            374.591,
+            389.277
+          ],
+          "quote": "I've seen the most basic sites that you can get through with data center, and then I've seen sites that are protected by Cloudflare, Akamai, you name it, that you actually need to have a residential IP address, you need to have a real browser, and you need to seem like a real user.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "akamai",
+      "type": "company",
+      "role": "company",
+      "name": "Akamai",
+      "file": "Akamai",
+      "primary": false,
+      "how_described": "本集顺带提到它是另一家反爬保护服务商,受其保护的网站需要真实住宅 IP 才能访问。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            374.591,
+            389.277
+          ],
+          "quote": "I've seen the most basic sites that you can get through with data center, and then I've seen sites that are protected by Cloudflare, Akamai, you name it, that you actually need to have a residential IP address, you need to have a real browser, and you need to seem like a real user.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "glassdoor",
+      "type": "company",
+      "role": "company",
+      "name": "Glassdoor",
+      "file": "Glassdoor",
+      "primary": false,
+      "how_described": "本集用作受保护程度极高的网站示例:演示中 Claude 接入 MCP 才能抓取其页面,自建爬虫几天后就会被察觉并加码反爬。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 148,
+          "t": [
+            948.423,
+            955.928
+          ],
+          "quote": "So you can see it's the same prompt being asked, and it's use your browser to get the contents of this page, which is a Glassdoor URL.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            957.868,
+            964.711
+          ],
+          "quote": "And on the left side, you can see with Bright Data's MCP, it actually went over to Glassdoor and got the results.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            965.392,
+            969.474
+          ],
+          "quote": "But on the right-hand side, it actually got blocked from going into Glassdoor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1454.165,
+            1472.778
+          ],
+          "quote": "What gives Bright Data the advantage, and this is why we're able to do it, whereas things like bots aren't able to, is because we have the world's largest infrastructure, like proxy infrastructure, and where you're talking about a few requests, maybe a few days' worth of scraping pages, like Glassdoor I use as an example.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1474.997,
+            1488.16
+          ],
+          "quote": "But let's say, after a while, Glassdoor catches on, like, hey, you know, he's using a data center IP, he's accessing the page, you know, nothing's actually being done on the page, and then they start adding all these layers of anti-bot into the picture.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "type": "company",
+      "role": "company",
+      "name": "Amazon",
+      "file": "Amazon",
+      "primary": true,
+      "how_described": "本集贯穿举例的电商数据源:页面改版会让爬虫失效;演示中购物智能体抓取 Stanley Quencher 保温杯的价格、评分、卖家、库存数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            84.937,
+            91.341
+          ],
+          "quote": "Use a product from Amazon, get sentiment on Reddit, and then provide you analysis with, you know, should I buy that product, yes or no?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            131.934,
+            144.205
+          ],
+          "quote": "My biggest targets might be Amazon and Walmart because I can find a lot of products on there and I can get price intelligence and data on reviews and all the general information for a vast majority of products.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            148.227,
+            158.211
+          ],
+          "quote": "And this is a change that I've actually seen with customers that I work with today occurring in the industry when it's not just about Amazon and Walmart anymore.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            229.268,
+            230.809
+          ],
+          "quote": "So let's say Amazon makes a change",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            328.412,
+            337.099
+          ],
+          "quote": "Now, sites, in the example I use, like Amazon and Walmart, they have two different layouts, even though they both might have things like price, title, description.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            849.865,
+            858.191
+          ],
+          "quote": "Now, if I want to target specific sites like Amazon, Reddit, LinkedIn, Instagram, that's all included as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1187.697,
+            1192.079
+          ],
+          "quote": "So first, we're calling Bright Data's API endpoint to collect Amazon data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            1193.36,
+            1205.165
+          ],
+          "quote": "We're collecting the response from Amazon, then calling the API for Reddit itself, capturing the raw Reddit data response, and then performing AI analysis over that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1213.45,
+            1220.252
+          ],
+          "quote": "So Amazon, we're getting product-level data, so I picked a Tumblr cup as an example.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1301.279,
+            1303.44
+          ],
+          "quote": "All right, so we got our Amazon data that came back.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1573.153,
+            1576.82
+          ],
+          "quote": "There's high demand, but low stock on Amazon because they returned that from the data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1591.397,
+            1600.219
+          ],
+          "quote": "Now, this is just one example of using data starting from Amazon, running it on Reddit, and then making a decision, but you can think of this on a bigger picture.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reddit",
+      "type": "company",
+      "role": "company",
+      "name": "Reddit",
+      "file": "Reddit",
+      "primary": false,
+      "how_described": "本集演示中用于获取网友对产品真实评价的社媒数据源,Bright Data MCP 提供专门的 Reddit API。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            84.937,
+            91.341
+          ],
+          "quote": "Use a product from Amazon, get sentiment on Reddit, and then provide you analysis with, you know, should I buy that product, yes or no?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            849.865,
+            858.191
+          ],
+          "quote": "Now, if I want to target specific sites like Amazon, Reddit, LinkedIn, Instagram, that's all included as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            1193.36,
+            1205.165
+          ],
+          "quote": "We're collecting the response from Amazon, then calling the API for Reddit itself, capturing the raw Reddit data response, and then performing AI analysis over that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1239.019,
+            1255.738
+          ],
+          "quote": "And we also have a Reddit API where what I'm going to do in this script that I built is I'll actually run a keyword search for that specific Tumblr cup, and I'm going to be outputting posts",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1319.989,
+            1331.026
+          ],
+          "quote": "Now we'll go ahead and trigger a Reddit search for the Stanley Quencher Tumblr, just having reviews about the actual product itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1538.904,
+            1554.075
+          ],
+          "quote": "So I can show you, so it captured a few Reddit posts about the actual Tumblr itself, so some comments about, you know, what people were saying about the actual Tumblr.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1591.397,
+            1600.219
+          ],
+          "quote": "Now, this is just one example of using data starting from Amazon, running it on Reddit, and then making a decision, but you can think of this on a bigger picture.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

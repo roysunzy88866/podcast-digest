@@ -77,7 +77,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Amazon]] · [[Anthropic]] · [[Stripe]] · [[ChatGPT]] · [[Google]] · [[SaaS]] · [[Perplexity]] · [[Vercel]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":210,"Amazon":36,"Anthropic":206,"Stripe":53,"ChatGPT":116,"Google":72,"SaaS":23,"Perplexity":10,"Vercel":22}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":210,"Amazon":37,"Anthropic":206,"Stripe":53,"ChatGPT":116,"Google":73,"SaaS":23,"Perplexity":10,"Vercel":22}</script>
 
 <script>
 (function(){

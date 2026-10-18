@@ -40,7 +40,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"推理":105,"Nick Warner":1,"Abdul Dakkak":1,"Joel de la Garza":5,"模块化":2,"Hugging Face":39,"Mojo":1,"NEO":1,"GPU":36,"Cotool":1}</script>
+<script type="application/json" class="pd-epn">{"推理":106,"Nick Warner":1,"Abdul Dakkak":1,"Joel de la Garza":5,"模块化":2,"Hugging Face":39,"Mojo":1,"NEO":1,"GPU":37,"Cotool":1}</script>
 
 <script>
 (function(){

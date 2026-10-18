@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-11-talks-building-ai-agents-with-real-time-web-da",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/IK8cC4FScps.m4a",
+  "duration_sec": 1639.327,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 235,
+  "asr": true,
+  "title_en": "Building AI Agents with Real-Time Web Data — Yohan Raju, Bright Data",
+  "podcast": "精选演讲",
+  "date": "2026-10-11",
+  "added": "2026-10-18",
+  "added_at": "2026-10-18T03:17:24.165Z",
+  "speaker_map": {
+    "SPEAKER_00": "Yohan Raju"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Yohan Raju"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "网站不让你爬，AI 怎么办？Bright Data 架构师讲实时数据与智能体",
+  "guest_name": "Yohan Raju",
+  "guest_title": "Bright Data 解决方案架构师",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

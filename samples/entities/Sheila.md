@@ -35,7 +35,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"投机解码":1,"草稿模型":1,"接受率":2,"KVCache":5,"推理":105,"GPU":36,"vLLM":9,"Llama":3,"RAG":31,"Akamai":4}</script>
+<script type="application/json" class="pd-epn">{"投机解码":1,"草稿模型":1,"接受率":2,"KVCache":5,"推理":106,"GPU":37,"vLLM":10,"Llama":3,"RAG":32,"Akamai":6}</script>
 
 <script>
 (function(){

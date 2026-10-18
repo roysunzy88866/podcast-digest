@@ -41,7 +41,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Fireworks":9,"Cursor":88,"Vercel":22,"GenSpark":1,"开源模型":4,"推理":105,"微调":40,"智能体":1,"投机解码":1,"Kubernetes":22}</script>
+<script type="application/json" class="pd-epn">{"Fireworks":9,"Cursor":88,"Vercel":22,"GenSpark":1,"开源模型":4,"推理":106,"微调":40,"智能体":1,"投机解码":1,"Kubernetes":23}</script>
 
 <script>
 (function(){

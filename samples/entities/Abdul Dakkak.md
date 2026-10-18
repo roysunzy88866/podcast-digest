@@ -45,7 +45,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"模块化":2,"Mojo":1,"Max":2,"推理":105,"GPU":36,"PyTorch":4,"算子":2,"vLLM":9,"SGLang":5}</script>
+<script type="application/json" class="pd-epn">{"模块化":2,"Mojo":1,"Max":2,"推理":106,"GPU":37,"PyTorch":4,"算子":2,"vLLM":10,"SGLang":5}</script>
 
 <script>
 (function(){

@@ -59,7 +59,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"RunLayer":1,"技能":36,"智能体":1,"MCP":100,"提示词注入":1,"Voyager":2,"渐进式披露":6,"Zapier":6,"Claude":99,"ChatGPT":116}</script>
+<script type="application/json" class="pd-epn">{"RunLayer":1,"技能":36,"智能体":1,"MCP":101,"提示词注入":1,"Voyager":2,"渐进式披露":6,"Zapier":6,"Claude":100,"ChatGPT":116}</script>
 
 <script>
 (function(){

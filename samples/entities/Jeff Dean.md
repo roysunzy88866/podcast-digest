@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"多智能体系统":1,"专用推理硬件":1,"推理":105,"上下文工程":19,"TPU":5,"MapReduce":1,"蒸馏":1,"AlphaFold":4,"Gemini":17}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"多智能体系统":1,"专用推理硬件":1,"推理":106,"上下文工程":19,"TPU":5,"MapReduce":1,"蒸馏":1,"AlphaFold":4,"Gemini":18}</script>
 
 <script>
 (function(){

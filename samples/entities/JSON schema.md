@@ -25,7 +25,7 @@ unlisted: true
 
 [[Philipp Schmid]] · [[智能体]] · [[沙箱]] · [[harness]] · [[函数调用]] · [[上下文窗口]] · [[评估]] · [[Gemini]] · [[Google]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"Philipp Schmid":2,"智能体":1,"沙箱":104,"harness":68,"函数调用":4,"上下文窗口":20,"评估":1,"Gemini":17,"Google":72,"Cursor":88}</script>
+<script type="application/json" class="pd-epn">{"Philipp Schmid":2,"智能体":1,"沙箱":104,"harness":68,"函数调用":4,"上下文窗口":20,"评估":1,"Gemini":18,"Google":73,"Cursor":88}</script>
 
 <script>
 (function(){

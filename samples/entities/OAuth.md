@@ -37,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[MCP]] · [[CLI]] · [[Simon Mayfor]] · [[Jesse Lumarie]] · [[Jay Mok]] · [[Pedro Lopez]] · [[Ian Livingstone]] · [[Figma]] · [[Ben Coumes]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"MCP":100,"CLI":5,"Simon Mayfor":2,"Jesse Lumarie":1,"Jay Mok":1,"Pedro Lopez":1,"Ian Livingstone":1,"Figma":23,"Ben Coumes":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"MCP":101,"CLI":5,"Simon Mayfor":2,"Jesse Lumarie":1,"Jay Mok":1,"Pedro Lopez":1,"Ian Livingstone":1,"Figma":23,"Ben Coumes":1}</script>
 
 <script>
 (function(){

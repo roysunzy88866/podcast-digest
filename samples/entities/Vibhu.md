@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Swyx":2,"Akshat Bubna":1,"Modal":10,"智能体":1,"AX":1,"DX":5,"沙箱":104,"推理":105,"弹性推理":1,"投机解码":1}</script>
+<script type="application/json" class="pd-epn">{"Swyx":2,"Akshat Bubna":1,"Modal":10,"智能体":1,"AX":1,"DX":5,"沙箱":104,"推理":106,"弹性推理":1,"投机解码":1}</script>
 
 <script>
 (function(){

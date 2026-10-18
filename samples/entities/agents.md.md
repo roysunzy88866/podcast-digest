@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[MCP]] · [[Christopher Burns]] · [[Daniel Whitenack]] · [[Harald Kirschner]] · [[C15T]] · [[Chris Benson]] · [[VS Code]] · [[lead type]] · [[Nick]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"MCP":100,"Christopher Burns":1,"Daniel Whitenack":13,"Harald Kirschner":1,"C15T":1,"Chris Benson":14,"VS Code":6,"lead type":1,"Nick":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"MCP":101,"Christopher Burns":1,"Daniel Whitenack":13,"Harald Kirschner":1,"C15T":1,"Chris Benson":14,"VS Code":6,"lead type":1,"Nick":1}</script>
 
 <script>
 (function(){
