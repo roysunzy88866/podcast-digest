@@ -1,0 +1,197 @@
+{
+  "title_zh": "会飞的特斯拉、OpenAI 会议室里的窃听器，以及“AI 到底该怎么用”",
+  "tldr": "Superhuman CEO Shashir Marotra 做客 This Week in Startups，聊买公司、AI 检测、写作教育，主播 Jason Calacanis 还点评了会飞的 Roadster 和 OpenAI 窃听案。",
+  "digest_md": "Superhuman 和 Grammarly 的掌门人 Shashir Marotra 又上节目了。这一次他不只聊产品，还把自家收购逻辑、AI 使用的 3 种流派、以及“怎么判断一篇文章是不是 AI 写的”都讲了一遍。后半段主播 Jason Calacanis 顺带聊了特斯拉会飞的新车和 OpenAI 的窃听案，同样值得一看。\n\n> 【背景】Superhuman 原是知名邮件客户端，后被 Grammarly 收购，如今 Grammarly 把整个产品套件统一挂上了 Superhuman 品牌。\n\n## 买公司：和 Bending Spoons 长得像，逻辑完全相反\n\n上次上节目到现在，Superhuman 收购了 3 家公司：葡萄牙的表格产品 Rose、AI 检测公司 GPTZero，以及会议记录工具 Fathom。外界常拿他们和 Bending Spoons 比较——两家都是如今市场上最活跃的买家。\n\n但 Shashir 说，策略几乎是反着来的。Bending Spoons 买的多半是巅峰已过的产品，想办法延长生命；他自己则是**买那些还在增长、但缺分发渠道的产品**，给它们更大的平台 [05:52 Shashir Marotra]。比如 GPTZero 是全球排名第一或第二的 AI 检测器，接进来就有 4000 万日活用户可以用。\n\n## 互联网上到底有多少内容是 AI 写的？\n\nGPTZero 做了个网页 istheinternetai.com，持续扫描 Reddit、LinkedIn、X 等平台。结果：Reddit 上约 6% 的内容是 AI，X 上是 13%。LinkedIn 更高。Shashir 说这未必是坏事，但读者应该知道——**想知道人在哪，去 Reddit 找** [09:54 Shashir Marotra]。\n\n检测器准不准？他说在标准基准测试上，这类产品能到百分之九十几的检出率；文章越长越好检。有人抱怨“我明明自己写的，却被判 85% 是人写的”，他的回答是：85% 可能已经够了，更可能检测器是对的——你引用的某句话，也许早被 AI 打磨过。\n\n## 用 AI 不丢人，署名才要命\n\n关于 Druckenmiller 承认用 AI 写《华尔街日报》专栏的事，Shashir 的立场很清楚：用工具没错，但你得公开合作者。他自己写书，合著者会署名。Jason 补了一句大实话：**你把名字签上去，就得为内容负责**。\n\n## AI 的 3 种流派：聊天、代干、随行\n\n面对“Muse、GrokBot 也能干这些”的竞争问题，Shashir 给出一个好用的框架。他把 AI 产品分成 3 种隐喻：chat（聊天）、do（代干）、assist（随行）。\n\nChatGPT 是聊天；很多新工具是“代干”——像给 AI 一个任务清单，它去办，你不管过程。而 Superhuman 做的是随行：像一个同事坐在你旁边，看着你打字，随时在光标旁边帮你改。数字很惊人：每周产生超过 1250 亿次大模型调用，平均每用户每天 3000 次 [39:21 Shashir Marotra]。新平台 Go 把这套能力开放出来，团队可以自己部署“事实核查员”“点子生成器”，让它们坐在每个员工身边。\n\n最有意思的场景：你给客户写邮件，说他们要 1000 个席位，系统直接提醒你——会上说的是 2000 个，你要丢一半的单子了。\n\n## 记笔记这件事，90% 的信息正在流失\n\nShashir 的一个核心观察：在任何公司，**写下来的只占 10%，说出来的占 90%**，而说完就忘了 [15:26 Shashir Marotra]。收购 Fathom 就是为了这块——做一个真正跟着你到处走的记录工具，并且把会议里说过的话，变成你写邮件、写文档时的实时校对。\n\n## Jason 的暴论：AI 伴侣是邪恶的\n\n节目后半段转向新闻。8 个州起诉 OpenAI，指控 ChatGPT 对未成年用户保护不足。Jason 的观点很直接：应该有严格限制的儿童版，而且儿童版应该像家教，不给答案、只引导。他还放话说，给成年人做 AI 亲密关系是可憎的，给孩子做是“高等级的邪恶”。\n\n## OpenAI 会议室里的窃听器\n\n更戏剧性的新闻：FBI 逮捕了 OpenAI 工程师 Abdulrahman Al-Fazan，指控他把录音设备藏在高管会议室电视后面。设计说明是在他妻子的 ChatGPT 账号里找到的。OpenAI 的反谍报很漂亮：发现设备后没动它，架了针孔摄像头，等他回来取时拍个正着 [83:21 Jason]。\n\nJason 猜这不是国家间谍，而是金融间谍——会议室里聊的是上市、融资这些能让股票交易者赚钱的信息。另一个提醒：妻子在 ChatGPT 里搜的东西被翻了出来——你输入任何 AI 服务的内容都被记录着，别指望删得掉。\n\n## 会飞的 Roadster，其实是特斯拉和 SpaceX 合并的预告\n\n特斯拉在德州发布了新款 Roadster：无人驾驶状态下空中翻滚、跳过车队、0 到 60 英里加速不到 1 秒。车身有 10 个喷口和超高压气罐。Jason 几个月前看过演示，第一反应是“这是 AI 做的假视频吧”。\n\n他说**这辆车真正象征的是特斯拉和 SpaceX 的合体**——新闻里说合并年底宣布，一切都要归到 ELON 这一个代码下面。\n\n## 本集带走\n\n- Superhuman 的收购逻辑：买有增长、缺分发的产品，接入 4000 万日活的平台，与 Bending Spoons 的“买过气产品续命”相反。\n- AI 产品分 3 种：聊天、代干、随行；Superhuman 押注“随行”——坐在你身边、在你打字瞬间帮你。\n- X 上约 13% 的内容是 AI；用 AI 没问题，公开合作者、为署名内容负责才是底线。\n- OpenAI 窃听案提醒所有人：输入任何 AI 服务的聊天记录都会被永久保存。\n- Jason 的暴论：AI 伴侣对成年人是可憎的生意，对孩子则更严重——孩子应该用“只引导不给答案”的家教型 AI。",
+  "quotes": [
+    {
+      "en": "We take things that are growing but lacking distribution and we give them a bigger platform.",
+      "zh": "我们接手那些正在增长但缺乏分发渠道的东西，然后给它们一个更大的平台。",
+      "timestamp": "05:52",
+      "speaker": "Shashir Marotra"
+    },
+    {
+      "en": "And I think one of our core insights was that if you look at any company or any team, you know, something like 10% of what you do is written down and 90% is spoken.",
+      "zh": "我认为我们的一个核心洞察是，如果你看任何公司或任何团队，你所做的事情中大约 10% 会被写下来，90% 是说出来的。",
+      "timestamp": "15:22",
+      "speaker": "Shashir Marotra"
+    },
+    {
+      "en": "I had this line I love in the company that we spent 17 years turning people into super writers. Now we're going to turn people into super humans.",
+      "zh": "我在公司里有一句我很喜欢的话，我们花了 17 年把人变成超级写作者。现在我们要把人变成超级人类。",
+      "timestamp": "19:51",
+      "speaker": "Shashir Marotra"
+    },
+    {
+      "en": "And I would say I trust the AI detector more. It's more likely the AI detector is right.",
+      "zh": "而我会说我更信任 AI 检测器。AI 检测器更有可能是对的。",
+      "timestamp": "27:31",
+      "speaker": "Shashir Marotra"
+    },
+    {
+      "en": "We generate over 125 billion LLM queries per week. So if you think about that per user, that's 3000 LLM queries per user per day.",
+      "zh": "我们每周生成超过 1250 亿个 LLM 查询。如果按用户来算，那就是每个用户每天 3000 个 LLM 查询。",
+      "timestamp": "39:16",
+      "speaker": "Shashir Marotra"
+    },
+    {
+      "en": "I think AI relationships are evil.",
+      "zh": "我认为 AI 关系是邪恶的。",
+      "timestamp": "90:43",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "en": "So this should let you know, if you're putting anything into OpenAI, Claude or Gemini or any of these services, it's recorded.",
+      "zh": "所以这应该让你知道，如果你往 OpenAI、Claude 或 Gemini 或任何这类服务里输入任何东西，它都会被记录下来。",
+      "timestamp": "86:39",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "en": "Anybody's going to be able to create these bots, I want to hire humans to be on top of them.",
+      "zh": "任何人都能创建这些机器人，我要雇人类来管理它们。",
+      "timestamp": "63:13",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "en": "It tells me what to watch on Netflix, but it's not a good therapist and it's not a good friend.",
+      "zh": "它告诉我 Netflix 上该看什么，但它不是一个好的治疗师，也不是一个好的朋友。",
+      "timestamp": "91:59",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "en": "Slop is you didn't review it. You didn't iterate. Taste is you thought about who's going to consume it, including yourself.",
+      "zh": "垃圾内容就是你没审查它，你没有迭代。品味是你考虑了谁来消费它，包括你自己。",
+      "timestamp": "72:49",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "en": "To make anything great in the world, 90% of what you created has to be thrown away.",
+      "zh": "要在世界做出任何伟大的东西，你所创造的 90% 都必须被扔掉。",
+      "timestamp": "73:12",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "05:34",
+      "speaker": "Shashir Marotra",
+      "en": "I mean, their strategy is mostly to buy things that are sort of past their prime and extend the life.",
+      "zh": "我是说，他们的策略主要是买那些已经过了巅峰期的东西，然后延长其寿命。"
+    },
+    {
+      "timestamp": "05:52",
+      "speaker": "Shashir Marotra",
+      "en": "We take things that are growing but lacking distribution and we give them a bigger platform.",
+      "zh": "我们接手那些正在增长但缺乏分发渠道的东西，然后给它们一个更大的平台。"
+    },
+    {
+      "timestamp": "10:19",
+      "speaker": "Shashir Marotra",
+      "en": "If you want to know where to find humans right now, you're going to find more of them there.",
+      "zh": "如果你想知道现在去哪里找人，你在那里会找到更多的人类。"
+    },
+    {
+      "timestamp": "15:22",
+      "speaker": "Shashir Marotra",
+      "en": "And I think one of our core insights was that if you look at any company or any team, you know, something like 10% of what you do is written down and 90% is spoken.",
+      "zh": "我认为我们的一个核心洞察是，如果你看任何公司或任何团队，你所做的事情中大约 10% 会被写下来，90% 是说出来的。"
+    },
+    {
+      "timestamp": "19:51",
+      "speaker": "Shashir Marotra",
+      "en": "I had this line I love in the company that we spent 17 years turning people into super writers. Now we're going to turn people into super humans.",
+      "zh": "我在公司里有一句我很喜欢的话，我们花了 17 年把人变成超级写作者。现在我们要把人变成超级人类。"
+    },
+    {
+      "timestamp": "29:09",
+      "speaker": "Shashir Marotra",
+      "en": "I think that you have to own your ideas and you have to disclose your collaborators.",
+      "zh": "我认为你必须为你的想法负责，并且必须披露你的合作者。"
+    },
+    {
+      "timestamp": "27:31",
+      "speaker": "Shashir Marotra",
+      "en": "And I would say I trust the AI detector more. It's more likely the AI detector is right.",
+      "zh": "而我会说我更信任 AI 检测器。AI 检测器更有可能是对的。"
+    },
+    {
+      "timestamp": "39:16",
+      "speaker": "Shashir Marotra",
+      "en": "We generate over 125 billion LLM queries per week. So if you think about that per user, that's 3000 LLM queries per user per day.",
+      "zh": "我们每周生成超过 1250 亿个 LLM 查询。如果按用户来算，那就是每个用户每天 3000 个 LLM 查询。"
+    },
+    {
+      "timestamp": "40:01",
+      "speaker": "Shashir Marotra",
+      "en": "I think it's interesting because the volume, if you use Grammarly, we are almost certainly your number one AI tool.",
+      "zh": "我觉得这很有意思，因为就流量而言，如果你在用 Grammarly，我们几乎可以肯定是你的头号 AI 工具。"
+    },
+    {
+      "timestamp": "32:21",
+      "speaker": "Shashir Marotra",
+      "en": "And I think there's going to actually be this return to humanness.",
+      "zh": "而我认为实际上会出现向人性的回归。"
+    },
+    {
+      "timestamp": "90:43",
+      "speaker": "Jason Calacanis",
+      "en": "I think AI relationships are evil.",
+      "zh": "我认为 AI 关系是邪恶的。"
+    },
+    {
+      "timestamp": "84:46",
+      "speaker": "Jason Calacanis",
+      "en": "I think people are trading the stock, if I'm being honest.",
+      "zh": "坦白说，我认为是有人在交易股票。"
+    },
+    {
+      "timestamp": "85:46",
+      "speaker": "Jason Calacanis",
+      "en": "And by the way, we're doing 100 times this on the offensive.",
+      "zh": "顺便说一句，我们在进攻端做的是这个的一百倍。"
+    },
+    {
+      "timestamp": "86:39",
+      "speaker": "Jason Calacanis",
+      "en": "So this should let you know, if you're putting anything into OpenAI, Claude or Gemini or any of these services, it's recorded.",
+      "zh": "所以这应该让你知道，如果你往 OpenAI、Claude 或 Gemini 或任何这类服务里输入任何东西，它都会被记录下来。"
+    },
+    {
+      "timestamp": "63:13",
+      "speaker": "Jason Calacanis",
+      "en": "Anybody's going to be able to create these bots, I want to hire humans to be on top of them.",
+      "zh": "任何人都能创建这些机器人，我要雇人类来管理它们。"
+    },
+    {
+      "timestamp": "53:16",
+      "speaker": "Lon Harris",
+      "en": "And so what the team from Railway has figured out is how do we get agents to choose Railway more than some of our other competitors automatically without a human ever having to prompt it or ask.",
+      "zh": "所以 Railway 团队搞清楚的是，如何让智能体在没有人工提示或询问的情况下，自动更多地选择 Railway 而不是我们其他一些竞争对手。"
+    },
+    {
+      "timestamp": "91:53",
+      "speaker": "Lon Harris",
+      "en": "There's a million things that AI is good at. It's a great researcher. It's a great writing coach.",
+      "zh": "AI 擅长的事情有无数件。它是一位很棒的研究员，也是一位很棒的写作教练。"
+    },
+    {
+      "timestamp": "91:59",
+      "speaker": "Lon Harris",
+      "en": "It tells me what to watch on Netflix, but it's not a good therapist and it's not a good friend.",
+      "zh": "它告诉我 Netflix 上该看什么，但它不是一个好的治疗师，也不是一个好的朋友。"
+    },
+    {
+      "timestamp": "72:49",
+      "speaker": "Jason Calacanis",
+      "en": "Slop is you didn't review it. You didn't iterate. Taste is you thought about who's going to consume it, including yourself.",
+      "zh": "垃圾内容就是你没审查它，你没有迭代。品味是你考虑了谁来消费它，包括你自己。"
+    },
+    {
+      "timestamp": "73:12",
+      "speaker": "Jason Calacanis",
+      "en": "To make anything great in the world, 90% of what you created has to be thrown away.",
+      "zh": "要在世界做出任何伟大的东西，你所创造的 90% 都必须被扔掉。"
+    }
+  ],
+  "voice_script": "今天这期节目挺有意思，来的是 Superhuman 和 Grammarly 的掌门人 Shashir Marotra。这家公司你可能听说过，原来做的是知名邮件客户端 Superhuman，后来被 Grammarly 收购，现在整个产品套件都统一挂上了 Superhuman 这个牌子。这次上节目，聊的面特别宽：买了哪些公司、AI 到底该怎么用、怎么判断一篇文章是不是 AI 写的。主持人 Jason Calacanis 还顺带点评了几条新闻，包括会飞的特斯拉，和 OpenAI 会议室里被装了窃听器这桩案子。听着像是东一榔头西一棒子，但其实背后都绕着同一个问题——AI 时代，企业和个人到底该怎么跟这东西相处。\n\n先说买公司这件事。从上次上节目到现在，Superhuman 一口气收购了三家公司：葡萄牙的表格产品 Rose、AI 检测公司 GPTZero，还有会议记录工具 Fathom。现在市面上最活跃的买家，一个是他们，另一个叫 Bending Spoons，所以外界老爱把这两家放在一起比。但 Shashir 说，两家的策略几乎是反着来的。Bending Spoons 买的，多半是巅峰已过的产品，买回来想办法延长生命；而他们的逻辑是，接手那些还在增长、但缺分发渠道的东西，给它们一个更大的平台。举个例子，GPTZero 是全球排第一或第二的 AI 检测器，接进来之后，就有 4000 万日活用户可以直接用上它。同样的买卖动作，背后的逻辑完全相反。\n\n那买 AI 检测器回来，到底想干什么？这就要说到一个挺扎心的问题了：互联网上到底有多少内容是 AI 写的？GPTZero 做了一个网页，叫 istheinternetai.com，持续扫描 Reddit、LinkedIn、X 这些平台。结果是这样：Reddit 上大概 6% 的内容是 AI 产的，X 上是 13%，LinkedIn 比例还要更高。Shashir 的态度挺开明，说这未必是坏事，但读者应该知道这个事实——想知道真人在哪儿聊天，去 Reddit 找。\n\n听到这儿你可能会问：那检测器本身准不准？毕竟不少人都抱怨过，明明是自己一个字一个字写的，却被判成 AI 写的。Shashir 的回答很硬：在标准基准测试上，这类产品能到百分之九十几的检出率，而且文章越长越好检。至于那些喊冤的人，他说了一句很有意思的话——85% 这个比例，可能已经够了，更可能检测器是对的。因为你自己写的那段话里，也许有某一句，早就被 AI 打磨过一遍了。你甚至不一定知道。\n\n顺着这个话题，就聊到一个更微妙的场景。投资人 Druckenmiller 承认用 AI 写过《华尔街日报》的专栏，这事儿怎么评价？Shashir 的立场很清楚：用工具没错，但你得公开你的合作者。你自己写书，合著者不是也要署名吗？Jason 补了一句大实话：你把名字签上去，就得为内容负责。说白了，用 AI 不丢人，藏着掖着才要命。\n\n聊完署名，咱们回到 Superhuman 自家的产品思路。市面上 AI 工具那么多，有人当面就问：Muse、GrokBot 不也能干这些吗？Shashir 给了一个特别好用的框架，把 AI 产品分成三种隐喻：聊天、代干、随行。ChatGPT 是聊天；很多新工具是代干，就像给 AI 一张任务清单，让它去办，过程你不用管。而 Superhuman 押注的是第三种——随行。什么意思？像一个同事坐在你旁边，看着你打字，随时在光标旁边帮你改。这个用量听着夸张：每周产生超过 1250 亿次大模型调用，平均下来，每个用户每天 3000 次。他们新出的平台叫 Go，把这套能力开放出来，团队可以自己部署“事实核查员”“点子生成器”，让它们坐在每个员工身边。最有意思的是一个具体场景：你给客户写邮件，说对方要 1000 个席位，系统直接提醒你——会上人家说的是 2000 个，你这么写要丢一半的单子了。\n\n那为什么这么执着于“随行”？这里有个更根本的观察。Shashir 在公司里有句很喜欢的话：看任何公司、任何团队，所做的事情里大约 10% 会被写下来，90% 是说出来的——而说出来的部分，说完就忘了。收购 Fathom 就是为了这一块：做一个真正跟着你到处走的记录工具，把会议里说过的话，变成你写邮件、写文档时的实时校对。于是就有了那句总结：我们花了 17 年把人变成超级写作者，现在，我们要把人变成超级人类。\n\n节目的后半段转向新闻，Jason 的火力也不小。先说 AI 伴侣。现在有 8 个州起诉 OpenAI，指控 ChatGPT 对未成年用户保护不足。Jason 的观点很直接：应该有严格限制的儿童版，而且这个儿童版应该像家教——不给答案，只引导。至于 AI 亲密关系，他放话说，给成年人做是可憎的，给孩子做是高等级的邪恶。这话重，但立场清楚。\n\n接下来这条新闻更戏剧性。FBI 逮捕了一名 OpenAI 工程师，指控他把录音设备藏在高管会议室电视后面。讽刺的是，设计说明是在他妻子的 ChatGPT 账号里找到的。而 OpenAI 的反谍报操作相当漂亮：发现设备之后没动它，悄悄架了个针孔摄像头，等这个人回来取的时候，拍了个正着。Jason 猜这不是国家间谍，更可能是金融间谍——会议室里聊的是上市、融资，这些信息能让股票交易者赚钱。但这案子还有一个提醒，跟我们每个人都有关：你输入任何 AI 服务的内容，都被记录着，别指望删得掉。那位工程师妻子在 ChatGPT 里搜的东西，不就被翻出来了吗？\n\n最后一条新闻，轻松一点，但信息量不小。特斯拉在德州发布了新款 Roadster，演示画面是：无人驾驶状态下空中翻滚、跳过一整列车队，0 到 60 英里加速不到 1 秒。车身有 10 个喷口和超高压气罐。Jason 几个月前看过演示，第一反应是——这是 AI 做的假视频吧。结果是真的。他的解读是，这辆车真正象征的，不是速度，而是特斯拉和 SpaceX 的合体，新闻里说合并年底宣布，一切都要归到 ELON 这一个代码下面。\n\n回到开头那个问题：AI 时代该怎么跟这东西相处？这一集给出的答案其实挺一致——不管你是买公司、做产品，还是用它写东西，关键是透明和负责。就像 Shashir 说的，用 AI 没问题，但你得公开你的合作者，因为你署了名，你就得为内容负责。"
+}

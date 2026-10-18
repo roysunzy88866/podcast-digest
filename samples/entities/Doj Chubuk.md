@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Liam Fedus":1,"Mario":4,"Periodic Labs":1,"OpenAI":208,"Google DeepMind":11,"ChatGPT":115,"大型语言模型":6,"超导体":1,"合成超级智能":1,"空想主义不够":1}</script>
+<script type="application/json" class="pd-epn">{"Liam Fedus":1,"Mario":4,"Periodic Labs":1,"OpenAI":210,"Google DeepMind":11,"ChatGPT":116,"大型语言模型":6,"超导体":1,"合成超级智能":1,"空想主义不够":1}</script>
 
 <script>
 (function(){

@@ -42,7 +42,7 @@ unlisted: true
 
 [[Olivia Moore]] · [[David Booth]] · [[Elena Berger]] · [[Cosign]] · [[智能体]] · [[背书]] · [[ChatGPT]] · [[职业声誉]] · [[Claude]] · [[社会资本]]
 
-<script type="application/json" class="pd-epn">{"Olivia Moore":3,"David Booth":1,"Elena Berger":5,"Cosign":1,"智能体":1,"背书":1,"ChatGPT":115,"职业声誉":1,"Claude":99,"社会资本":1}</script>
+<script type="application/json" class="pd-epn">{"Olivia Moore":3,"David Booth":1,"Elena Berger":5,"Cosign":1,"智能体":1,"背书":1,"ChatGPT":116,"职业声誉":1,"Claude":99,"社会资本":1}</script>
 
 <script>
 (function(){

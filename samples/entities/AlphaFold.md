@@ -31,7 +31,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[ChatGPT]] · [[药物发现]] · [[Jeff Dean]] · [[Zubin Gharemani]] · [[Dr. Wara]] · [[Greg Brockman]] · [[多智能体系统]] · [[Google DeepMind]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":208,"ChatGPT":115,"药物发现":3,"Jeff Dean":1,"Zubin Gharemani":1,"Dr. Wara":1,"Greg Brockman":2,"多智能体系统":1,"Google DeepMind":11}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":210,"ChatGPT":116,"药物发现":3,"Jeff Dean":1,"Zubin Gharemani":1,"Dr. Wara":1,"Greg Brockman":2,"多智能体系统":1,"Google DeepMind":11}</script>
 
 <script>
 (function(){

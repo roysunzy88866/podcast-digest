@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]]
+[[Julie Yu]] [[Oliver Kharraz]] [[Harrison Chase]] [[Shashir Marotra]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Raj":1,"Harrison":1,"Traversal":2,"智能体":1,"生产世界模型":2,"可观测性":49,"遥测数据":1,"上下文":35,"文件系统":3,"评估":1}</script>
+<script type="application/json" class="pd-epn">{"Raj":1,"Harrison":1,"Traversal":2,"智能体":1,"生产世界模型":2,"可观测性":50,"遥测数据":1,"上下文":35,"文件系统":3,"评估":1}</script>
 
 <script>
 (function(){

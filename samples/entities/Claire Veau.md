@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Nnenna Ndukwe]] [[James Norman]]
+[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Nnenna Ndukwe]] [[Dixing Xu]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex Lieberman":1,"10X":1,"内容机器":1,"AI 垃圾内容":4,"员工倡导":1,"FDE":4,"工作流":13,"Claude Code":117,"Anthropic":206,"OpenAI":208}</script>
+<script type="application/json" class="pd-epn">{"Alex Lieberman":1,"10X":1,"内容机器":1,"AI 垃圾内容":4,"员工倡导":1,"FDE":4,"工作流":13,"Claude Code":117,"Anthropic":206,"OpenAI":210}</script>
 
 <script>
 (function(){

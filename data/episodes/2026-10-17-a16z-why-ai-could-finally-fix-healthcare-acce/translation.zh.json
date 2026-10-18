@@ -1,0 +1,2842 @@
+[
+ {
+  "seg": 0,
+  "start": 0.692,
+  "end": 2.195,
+  "speaker": "Unknown",
+  "en": "In travel, you book a flight.",
+  "zh": "在旅行领域，你预订航班。"
+ },
+ {
+  "seg": 1,
+  "start": 2.215,
+  "end": 4.579,
+  "speaker": "Unknown",
+  "en": "In e-commerce, you buy a product.",
+  "zh": "在电商领域，你购买商品。"
+ },
+ {
+  "seg": 2,
+  "start": 4.96,
+  "end": 8.526,
+  "speaker": "Unknown",
+  "en": "But in healthcare, simply booking an appointment can still take weeks.",
+  "zh": "但在医疗健康领域，仅仅预约一个号都可能需要数周时间。"
+ },
+ {
+  "seg": 3,
+  "start": 9.406,
+  "end": 20.278,
+  "speaker": "Unknown",
+  "en": "In this episode, A16Z general partner Julie Yu sits down with ZocDoc founder and CEO Oliver Karaz to discuss why healthcare scheduling remains so difficult and how AI could change that.",
+  "zh": "在本期节目中，A16Z 普通合伙人 Julie Yu 与 ZocDoc 创始人兼 CEO Oliver Karaz 坐下来探讨为什么医疗排班依然如此困难，以及 AI 如何改变这一点。"
+ },
+ {
+  "seg": 4,
+  "start": 21.219,
+  "end": 31.81,
+  "speaker": "Unknown",
+  "en": "Oliver explains how ZocDoc built the infrastructure to connect patients with doctors across hundreds of scheduling systems and why the company is now making that technology available to AI agents and other platforms.",
+  "zh": "Oliver 解释了 ZocDoc 如何构建基础设施，将患者与横跨数百个排班系统的医生连接起来，以及公司现在为什么正在把这项技术开放给 AI 智能体和其他平台。"
+ },
+ {
+  "seg": 5,
+  "start": 32.531,
+  "end": 41.857,
+  "speaker": "Unknown",
+  "en": "They also discussed ZocDoc's partnership with Gemini, why no single company should own the front door to healthcare, and how better scheduling can help patients see doctors in days rather than weeks.",
+  "zh": "他们还讨论了 ZocDoc 与 Gemini 的合作、为什么不应该由任何单一公司掌控医疗健康的前门，以及更好的排班如何帮助患者在几天而不是几周内看上医生。"
+ },
+ {
+  "seg": 6,
+  "start": 42.738,
+  "end": 48.402,
+  "speaker": "Unknown",
+  "en": "And ultimately, what changes when finding and booking the right doctor becomes as easy as booking a flight.",
+  "zh": "以及归根结底，当找到并预约合适的医生变得像订机票一样简单时，会发生什么改变。"
+ },
+ {
+  "seg": 7,
+  "start": 51.228,
+  "end": 55.17,
+  "speaker": "Unknown",
+  "en": "I am so excited to be here with Oliver Karaz, who is the CEO of ZocDoc.",
+  "zh": "我非常激动能和 Oliver Karaz 在这里，他是 ZocDoc 的 CEO。"
+ },
+ {
+  "seg": 8,
+  "start": 55.51,
+  "end": 56.57,
+  "speaker": "Unknown",
+  "en": "Oliver and I go way back.",
+  "zh": "Oliver 和我认识很多年了。"
+ },
+ {
+  "seg": 9,
+  "start": 56.971,
+  "end": 65.094,
+  "speaker": "Unknown",
+  "en": "You and I are kindred spirits and both having tried to solve a lot of similar problems in healthcare over the years and, dare I say, decades almost.",
+  "zh": "你和我是志同道合的人，多年来都试图解决医疗健康领域许多类似的问题，甚至可以说，几乎是几十年的问题了。"
+ },
+ {
+  "seg": 10,
+  "start": 65.835,
+  "end": 67.435,
+  "speaker": "Unknown",
+  "en": "And I feel like we competed at times.",
+  "zh": "而且我感觉我们有时还互相竞争。"
+ },
+ {
+  "seg": 11,
+  "start": 67.455,
+  "end": 73.038,
+  "speaker": "Unknown",
+  "en": "We probably should have just partnered with each other, but it's been fun to share notes with you as ZocDoc has continued to evolve.",
+  "zh": "我们也许本应该直接彼此合作，但随着 ZocDoc 持续发展，能和你交流心得一直很有趣。"
+ },
+ {
+  "seg": 12,
+  "start": 73.838,
+  "end": 80.102,
+  "speaker": "Unknown",
+  "en": "And arguably ZocDoc is one of the few companies in health tech that has truly built like a household iconic name for itself.",
+  "zh": "可以说，ZocDoc 是医疗科技领域少数几家真正打造出了家喻户晓的标志性品牌的公司之一。"
+ },
+ {
+  "seg": 13,
+  "start": 80.603,
+  "end": 82.424,
+  "speaker": "Unknown",
+  "en": "So huge kudos for doing that.",
+  "zh": "所以对做到这一点表示巨大的赞许。"
+ },
+ {
+  "seg": 14,
+  "start": 82.804,
+  "end": 87.627,
+  "speaker": "Unknown",
+  "en": "Maybe Oliver, we can start with you just providing the audience with an update.",
+  "zh": "也许 Oliver，我们可以从你开始，给听众们提供一个最新情况。"
+ },
+ {
+  "seg": 15,
+  "start": 87.907,
+  "end": 93.151,
+  "speaker": "Unknown",
+  "en": "What is ZocDoc today and how has it evolved the most over the last several years that you've been building the business?",
+  "zh": "ZocDoc 今天是什么，以及在你经营这门生意的过去几年里，它演变最大的地方是什么？"
+ },
+ {
+  "seg": 16,
+  "start": 94.062,
+  "end": 94.882,
+  "speaker": "Unknown",
+  "en": "Yeah, thank you, Julie.",
+  "zh": "好的，谢谢你，Julie。"
+ },
+ {
+  "seg": 17,
+  "start": 94.922,
+  "end": 95.563,
+  "speaker": "Unknown",
+  "en": "Good to be here.",
+  "zh": "很高兴来到这里。"
+ },
+ {
+  "seg": 18,
+  "start": 95.603,
+  "end": 100.805,
+  "speaker": "Unknown",
+  "en": "And in fact, it's been decades, but it feels like days and I always enjoyed learning from you.",
+  "zh": "事实上，已经过去几十年了，但感觉就像几天一样，我一直很享受向你学习。"
+ },
+ {
+  "seg": 19,
+  "start": 101.245,
+  "end": 109.649,
+  "speaker": "Unknown",
+  "en": "So a lot of your listeners will probably think of ZogDog as a destination website where they go and can find a doctor that accepts their insurance and then...",
+  "zh": "所以你的很多听众可能会把 ZogDog 想象成一个目的地网站，他们去那里可以找到一位接受他们保险的医生，然后……"
+ },
+ {
+  "seg": 20,
+  "start": 109.949,
+  "end": 111.91,
+  "speaker": "Unknown",
+  "en": "They'll book an appointment right there and then.",
+  "zh": "他们当场就能预约。"
+ },
+ {
+  "seg": 21,
+  "start": 112.35,
+  "end": 114.371,
+  "speaker": "Unknown",
+  "en": "And that's something that we, of course, still do.",
+  "zh": "当然，这仍然是我们现在做的事情。"
+ },
+ {
+  "seg": 22,
+  "start": 114.411,
+  "end": 123.615,
+  "speaker": "Unknown",
+  "en": "But what is new now is that we take this infrastructure that we have built that enables that marketplace and we make it available to third parties.",
+  "zh": "但现在的最新情况是，我们把我们构建的、支撑这个市场的基础设施开放给第三方。"
+ },
+ {
+  "seg": 23,
+  "start": 123.695,
+  "end": 135.38,
+  "speaker": "Unknown",
+  "en": "So whether you are a payer, you're an AI platform, you have a consumer audience, you can now give them the ability to schedule their adopters seamlessly, no matter where they start the journey.",
+  "zh": "所以无论你是支付方、你是 AI 平台、你拥有消费者受众，你现在都可以让他们无缝预约他们的就诊者，无论他们从哪里开始这段旅程。"
+ },
+ {
+  "seg": 24,
+  "start": 136.013,
+  "end": 147.645,
+  "speaker": "Unknown",
+  "en": "The genesis of this conversation actually was you and I just texting each other after I put a tweet out there a few weeks ago saying tongue in cheek that nothing is certain in life except death, taxes, and the provider directory problem.",
+  "zh": "这次对话的起因其实是几周前我发了一条推文之后，你和我互相发短信，我半开玩笑地说，人生中没有什么是不确定的，除了死亡、税收和提供者目录问题。"
+ },
+ {
+  "seg": 25,
+  "start": 148.346,
+  "end": 152.03,
+  "speaker": "Unknown",
+  "en": "And you and I have both tried to solve this problem from different angles, but it still persists, right?",
+  "zh": "而你和我都曾从不同角度尝试解决过这个问题，但它依然存在，对吧？"
+ },
+ {
+  "seg": 26,
+  "start": 152.05,
+  "end": 153.592,
+  "speaker": "Unknown",
+  "en": "I mean, that's part of why I wrote it was...",
+  "zh": "我是说，这正是我写那条推文的部分原因……"
+ },
+ {
+  "seg": 27,
+  "start": 154.112,
+  "end": 161.26,
+  "speaker": "Unknown",
+  "en": "We continue to encounter, whether it's our startup companies who are trying to build in this area and themselves ask the question, like, why hasn't this been solved?",
+  "zh": "我们不断遇到这种情况，无论是试图在这个领域创业的初创公司，它们自己也会提出疑问，比如，为什么这个问题还没被解决？"
+ },
+ {
+  "seg": 28,
+  "start": 161.62,
+  "end": 169.729,
+  "speaker": "Unknown",
+  "en": "Incumbents who also struggle to maintain precise information about who their providers are, who's doing what, who's bookable, who takes what insurance, et cetera.",
+  "zh": "还有现有的大公司，它们也难以维护关于它们的提供者是谁、谁在做什么、谁可以预约、接受什么保险等等的精确信息。"
+ },
+ {
+  "seg": 29,
+  "start": 170.61,
+  "end": 173.951,
+  "speaker": "Unknown",
+  "en": "What's your view on why this problem has persisted?",
+  "zh": "你怎么看待为什么这个问题一直存在？"
+ },
+ {
+  "seg": 30,
+  "start": 174.031,
+  "end": 186.436,
+  "speaker": "Unknown",
+  "en": "What is the fundamental incentive that we've failed as an industry to align that you think is the biggest blocker to having a true golden record for every licensed medical practitioner in this country?",
+  "zh": "你认为作为整个行业，我们未能对齐的根本性激励是什么，而它是不是让这个国家每一位持照医疗从业者拥有真正的黄金记录的最大阻碍？"
+ },
+ {
+  "seg": 31,
+  "start": 186.894,
+  "end": 190.715,
+  "speaker": "Unknown",
+  "en": "Yeah, so I think actually the problem is to a large extent solved.",
+  "zh": "是的，所以我认为实际上这个问题在很大程度上已经被解决了。"
+ },
+ {
+  "seg": 32,
+  "start": 190.755,
+  "end": 197.256,
+  "speaker": "Unknown",
+  "en": "If we look at what we're doing, we have the ability to schedule into the providers that are connected to us.",
+  "zh": "如果我们看看我们在做的事情，我们已经具备向与我们连接的提供者进行排班的能力。"
+ },
+ {
+  "seg": 33,
+  "start": 197.376,
+  "end": 203.778,
+  "speaker": "Unknown",
+  "en": "We have data that's more than 99% accurate, which compares quite favorably with your average insurance directory.",
+  "zh": "我们的数据准确率超过 99%，这与普通的保险目录相比相当有优势。"
+ },
+ {
+  "seg": 34,
+  "start": 204.378,
+  "end": 209.459,
+  "speaker": "Unknown",
+  "en": "And the reason, and the Gordon knot here was actually enabling the transaction.",
+  "zh": "而原因，这里的戈耳狄俄斯之结实际上是让交易得以实现。"
+ },
+ {
+  "seg": 35,
+  "start": 209.539,
+  "end": 215.941,
+  "speaker": "Unknown",
+  "en": "When you put out a provider directory, frequently you're in the business of publishing the Encyclopedia Britannica, right?",
+  "zh": "当你发布一个提供者目录时，你常常是在做出版《大英百科全书》的生意，对吧？"
+ },
+ {
+  "seg": 36,
+  "start": 217.061,
+  "end": 221.442,
+  "speaker": "Unknown",
+  "en": "You're able to really put it out there and present it to patients.",
+  "zh": "你能把它发布出去并呈现给患者。"
+ },
+ {
+  "seg": 37,
+  "start": 221.503,
+  "end": 222.823,
+  "speaker": "Unknown",
+  "en": "It's already out of date.",
+  "zh": "但它已经过时了。"
+ },
+ {
+  "seg": 38,
+  "start": 223.103,
+  "end": 224.584,
+  "speaker": "Unknown",
+  "en": "You're constantly chasing the problem.",
+  "zh": "你在不断追赶这个问题。"
+ },
+ {
+  "seg": 39,
+  "start": 225.184,
+  "end": 229.125,
+  "speaker": "Unknown",
+  "en": "Once you have the transaction, it's much more like Wikipedia, right?",
+  "zh": "一旦你有了交易，它就更像维基百科，对吧？"
+ },
+ {
+  "seg": 40,
+  "start": 229.285,
+  "end": 232.826,
+  "speaker": "Unknown",
+  "en": "Every incremental transaction actually validates the information you have.",
+  "zh": "每一笔增量交易实际上都在验证你拥有的信息。"
+ },
+ {
+  "seg": 41,
+  "start": 233.166,
+  "end": 237.308,
+  "speaker": "Unknown",
+  "en": "You make any mistake you make exactly once and then you know what's going in.",
+  "zh": "你犯的任何错误你只犯一次，然后你就知道是怎么回事了。"
+ },
+ {
+  "seg": 42,
+  "start": 237.568,
+  "end": 244.23,
+  "speaker": "Unknown",
+  "en": "Now, of course, as you know, the actual transactability and the ability for a patient to book seamlessly",
+  "zh": "当然，如你所知，实际的可交易性以及患者无缝预约的能力"
+ },
+ {
+  "seg": 43,
+  "start": 244.71,
+  "end": 246.932,
+  "speaker": "Unknown",
+  "en": "It was an extremely hard problem to solve.",
+  "zh": "是一个极其难以解决的问题。"
+ },
+ {
+  "seg": 44,
+  "start": 246.952,
+  "end": 249.353,
+  "speaker": "Unknown",
+  "en": "There are hundreds of different EHRs.",
+  "zh": "这里有数百种不同的 EHR。"
+ },
+ {
+  "seg": 45,
+  "start": 249.673,
+  "end": 252.635,
+  "speaker": "Unknown",
+  "en": "There's tens of thousands of insurance plans that need to be mapped.",
+  "zh": "有数以万计的保险计划需要映射。"
+ },
+ {
+  "seg": 46,
+  "start": 252.675,
+  "end": 258.539,
+  "speaker": "Unknown",
+  "en": "There are many, many different ways to work in this, different workflows and different practices, different specialties.",
+  "zh": "有很多很多不同的处理方式，不同的工作流程、不同的诊所、不同的专科。"
+ },
+ {
+  "seg": 47,
+  "start": 258.899,
+  "end": 262.602,
+  "speaker": "Unknown",
+  "en": "And it turns into this Tetris game that we needed to solve.",
+  "zh": "它就变成了一个我们需要解开的俄罗斯方块游戏。"
+ },
+ {
+  "seg": 48,
+  "start": 262.662,
+  "end": 272.568,
+  "speaker": "Unknown",
+  "en": "And it took us 20 years to get to where we are today, that this infrastructure is available for anyone who wants to plug in and to provide that experience for their patients.",
+  "zh": "我们花了 20 年才走到今天这个位置，这套基础设施现在对任何想接入并为其患者提供这种体验的人都可用。"
+ },
+ {
+  "seg": 49,
+  "start": 272.957,
+  "end": 273.697,
+  "speaker": "Unknown",
+  "en": "Okay, that's amazing.",
+  "zh": "好的，这太棒了。"
+ },
+ {
+  "seg": 50,
+  "start": 273.717,
+  "end": 277.499,
+  "speaker": "Unknown",
+  "en": "So that is a bold claim and I'm so glad that you are confident that we have solved this problem.",
+  "zh": "所以这是一个大胆的说法,我很高兴你有信心我们已经解决了这个问题。"
+ },
+ {
+  "seg": 51,
+  "start": 277.88,
+  "end": 279.521,
+  "speaker": "Unknown",
+  "en": "Can we actually double-click on that a little bit, Oliver?",
+  "zh": "我们能不能真正深入探讨一下这个问题,Oliver?"
+ },
+ {
+  "seg": 52,
+  "start": 279.841,
+  "end": 289.546,
+  "speaker": "Unknown",
+  "en": "When I think back to the way that we approach this problem at Kairos, we largely, just to abstract out the problem a little bit, there's three buckets of data that matter about a doctor.",
+  "zh": "当我回想我们在 Kairos 处理这个问题的方法时,大体上——稍微把问题抽象一下——关于一位医生,有三类重要的数据。"
+ },
+ {
+  "seg": 53,
+  "start": 289.786,
+  "end": 296.55,
+  "speaker": "Unknown",
+  "en": "There's the basic demographic information, who's a doctor, what are they credentialed in, what insurance they take, organizational affiliations, et cetera.",
+  "zh": "有基本的身份信息,谁是医生、他们的执业资格是什么、他们接受哪些保险、组织隶属关系等等。"
+ },
+ {
+  "seg": 54,
+  "start": 297.15,
+  "end": 300.653,
+  "speaker": "Unknown",
+  "en": "There's a second bucket of data, which is their kind of practice data.",
+  "zh": "有第二类数据,也就是他们的执业数据。"
+ },
+ {
+  "seg": 55,
+  "start": 300.793,
+  "end": 302.995,
+  "speaker": "Unknown",
+  "en": "What do they actually do clinically in practice?",
+  "zh": "他们在临床实践中实际做什么?"
+ },
+ {
+  "seg": 56,
+  "start": 303.696,
+  "end": 307.579,
+  "speaker": "Unknown",
+  "en": "And maybe even things like who do they refer to or who refers to them, things of that sort.",
+  "zh": "甚至可能还有诸如他们把病人转诊给谁、或者谁把病人转诊给他们,诸如此类的事情。"
+ },
+ {
+  "seg": 57,
+  "start": 308.26,
+  "end": 312.123,
+  "speaker": "Unknown",
+  "en": "And then the third, which you alluded to already, is what is their actual availability?",
+  "zh": "然后是第三类,你已经提到过了,就是他们的实际可预约情况是什么?"
+ },
+ {
+  "seg": 58,
+  "start": 312.304,
+  "end": 319.05,
+  "speaker": "Unknown",
+  "en": "And that means wiring into the source of truth, like scheduling systems and understanding what the capacity of the system is and how to effectively route.",
+  "zh": "这意味着要接入事实来源,比如预约系统,并理解系统的容量是多少以及如何有效路由。"
+ },
+ {
+  "seg": 59,
+  "start": 319.69,
+  "end": 321.831,
+  "speaker": "Unknown",
+  "en": "Can you just walk us through, what is the approach?",
+  "zh": "你能带我们走一遍,方法是什么?"
+ },
+ {
+  "seg": 60,
+  "start": 321.851,
+  "end": 324.353,
+  "speaker": "Unknown",
+  "en": "Like, do you have to take a unique approach to each of those buckets?",
+  "zh": "比如,你是不是要对每一类数据采取不同的方法?"
+ },
+ {
+  "seg": 61,
+  "start": 324.773,
+  "end": 326.955,
+  "speaker": "Unknown",
+  "en": "Which one is the hardest to solve?",
+  "zh": "哪一类最难解决?"
+ },
+ {
+  "seg": 62,
+  "start": 327.375,
+  "end": 333.399,
+  "speaker": "Unknown",
+  "en": "Where have you had the most success in doing something that you think is novel relative to everyone else who's tried their hand at this problem over the years?",
+  "zh": "相对于多年来尝试过这个问题的其他人,你在哪个方面取得的成功最大,做出了你认为新颖的东西?"
+ },
+ {
+  "seg": 63,
+  "start": 334.039,
+  "end": 337.121,
+  "speaker": "Unknown",
+  "en": "Yeah, so I think problem one is distinct from the others, right?",
+  "zh": "是的,我认为问题一和其他两个是不同的,对吧?"
+ },
+ {
+  "seg": 64,
+  "start": 337.141,
+  "end": 339.983,
+  "speaker": "Unknown",
+  "en": "This is information that doesn't change as often.",
+  "zh": "这是那些不经常变化的信息。"
+ },
+ {
+  "seg": 65,
+  "start": 340.023,
+  "end": 341.344,
+  "speaker": "Unknown",
+  "en": "Where did they go to med school?",
+  "zh": "他们上的哪所医学院?"
+ },
+ {
+  "seg": 66,
+  "start": 341.424,
+  "end": 342.945,
+  "speaker": "Unknown",
+  "en": "Like, where is their practice located?",
+  "zh": "比如,他们的诊所在哪里?"
+ },
+ {
+  "seg": 67,
+  "start": 343.245,
+  "end": 347.908,
+  "speaker": "Unknown",
+  "en": "That seems to be the most tractable problem, and that's why most people focus there.",
+  "zh": "这似乎是最容易解决的问题,这就是为什么大多数人把注意力集中在那里。"
+ },
+ {
+  "seg": 68,
+  "start": 348.701,
+  "end": 357.625,
+  "speaker": "Unknown",
+  "en": "The second two problems are related, and you can both extract them from the EHR, but they are very, very difficult to standardize.",
+  "zh": "后两个问题是相关的,你既可以从 EHR 中提取它们,但它们非常非常难以标准化。"
+ },
+ {
+  "seg": 69,
+  "start": 357.685,
+  "end": 359.186,
+  "speaker": "Unknown",
+  "en": "I'll give you sort of an idea.",
+  "zh": "我给你一个大概的概念。"
+ },
+ {
+  "seg": 70,
+  "start": 359.226,
+  "end": 362.508,
+  "speaker": "Unknown",
+  "en": "Yes, you can write integrations to the EHRs, which we do.",
+  "zh": "是的,你可以写与 EHR 的集成,我们就是这么做的。"
+ },
+ {
+  "seg": 71,
+  "start": 362.668,
+  "end": 369.591,
+  "speaker": "Unknown",
+  "en": "We have them out of the box for 175 different EHRs plus, but then they're being used very differently.",
+  "zh": "我们开箱即用支持 175 种以上不同的 EHR,但它们的使用方式千差万别。"
+ },
+ {
+  "seg": 72,
+  "start": 369.611,
+  "end": 371.392,
+  "speaker": "Unknown",
+  "en": "I'll give you one complete example.",
+  "zh": "我给你一个完整的例子。"
+ },
+ {
+  "seg": 73,
+  "start": 371.712,
+  "end": 383.145,
+  "speaker": "Unknown",
+  "en": "When we first got started, we realized that there was a practice where we constantly got cancellations from the office manager that said that this doctor isn't available at the time we wanted to book the patient into.",
+  "zh": "当我们刚起步的时候,我们发现有一个诊所,我们会不断地收到办公室经理的取消通知,说这位医生在我们想给病人预约的时间段没有空。"
+ },
+ {
+  "seg": 74,
+  "start": 383.726,
+  "end": 388.672,
+  "speaker": "Unknown",
+  "en": "And we couldn't figure out why because the copy of the calendar and the",
+  "zh": "而我们搞不清楚为什么,因为我们这边的日历副本和"
+ },
+ {
+  "seg": 75,
+  "start": 389.072,
+  "end": 391.194,
+  "speaker": "Unknown",
+  "en": "Practice in our company seemed identical.",
+  "zh": "我们公司里那份诊所副本看起来是一模一样的。"
+ },
+ {
+  "seg": 76,
+  "start": 391.334,
+  "end": 394.296,
+  "speaker": "Unknown",
+  "en": "And we brought all the smartest people at DocTalk in a room.",
+  "zh": "我们把 DocTalk 所有最聪明的人都叫到一个房间里。"
+ },
+ {
+  "seg": 77,
+  "start": 394.836,
+  "end": 395.777,
+  "speaker": "Unknown",
+  "en": "I brought them pizza.",
+  "zh": "我给他们买了披萨。"
+ },
+ {
+  "seg": 78,
+  "start": 395.837,
+  "end": 396.818,
+  "speaker": "Unknown",
+  "en": "I walked their dogs.",
+  "zh": "我帮他们遛狗。"
+ },
+ {
+  "seg": 79,
+  "start": 397.198,
+  "end": 398.018,
+  "speaker": "Unknown",
+  "en": "They couldn't figure it out.",
+  "zh": "他们也搞不明白。"
+ },
+ {
+  "seg": 80,
+  "start": 398.058,
+  "end": 399.86,
+  "speaker": "Unknown",
+  "en": "So I sat next to the office manager.",
+  "zh": "于是我坐到了办公室经理旁边。"
+ },
+ {
+  "seg": 81,
+  "start": 400.26,
+  "end": 406.104,
+  "speaker": "Unknown",
+  "en": "And what I realized is that sometimes the doctor would walk out and say, hey, I'm out next Friday.",
+  "zh": "我意识到的是,有时医生会走出来喊一声,嘿,我下周五不在。"
+ },
+ {
+  "seg": 82,
+  "start": 406.544,
+  "end": 408.726,
+  "speaker": "Unknown",
+  "en": "And the office manager would actually take a post-it note.",
+  "zh": "然后办公室经理会真的拿一张便利贴。"
+ },
+ {
+  "seg": 83,
+  "start": 409.026,
+  "end": 412.107,
+  "speaker": "Unknown",
+  "en": "And attach that to their monitor instead of going into the EHR.",
+  "zh": "贴到他们的显示器上,而不是录入 EHR。"
+ },
+ {
+  "seg": 84,
+  "start": 412.727,
+  "end": 416.388,
+  "speaker": "Unknown",
+  "en": "Well, once you know these things are happening, you can solve for that.",
+  "zh": "好吧,一旦你知道这些事情在发生,你就能解决它。"
+ },
+ {
+  "seg": 85,
+  "start": 416.468,
+  "end": 417.428,
+  "speaker": "Unknown",
+  "en": "Math is your friend.",
+  "zh": "数学是你的朋友。"
+ },
+ {
+  "seg": 86,
+  "start": 417.869,
+  "end": 428.812,
+  "speaker": "Unknown",
+  "en": "And it turns out that just one example, there were literally 1,000.1% solutions that we had to figure out to make the EHR integration for scheduling truly accurate.",
+  "zh": "事实是,仅仅是这一个例子,我们就有字面意义上的 1,000.1% 个解决方案需要搞清楚,才能让用于预约的 EHR 集成真正准确。"
+ },
+ {
+  "seg": 87,
+  "start": 429.912,
+  "end": 436.057,
+  "speaker": "Unknown",
+  "en": "Several years to do, and I think many folks just got frustrated with this task and we were stubborn enough to persist.",
+  "zh": "这花了好几年时间,我想很多人都对这个任务感到沮丧了,而我们足够固执,坚持了下来。"
+ },
+ {
+  "seg": 88,
+  "start": 436.457,
+  "end": 446.745,
+  "speaker": "Unknown",
+  "en": "And as a result, we have now gotten enough information about how EHR is actually used to answer question two and three that you laid out based on a single integration into their EHR.",
+  "zh": "结果,我们现在已经获得了足够多关于 EHR 实际使用方式的信息,可以基于对其 EHR 的单次集成来回答你提出的第二个和第三个问题。"
+ },
+ {
+  "seg": 89,
+  "start": 447.41,
+  "end": 452.072,
+  "speaker": "Unknown",
+  "en": "We used to joke that 3M was our biggest competitor because of Post-it notes.",
+  "zh": "我们过去常开玩笑说,3M 是我们最大的竞争对手,因为便利贴。"
+ },
+ {
+  "seg": 90,
+  "start": 452.552,
+  "end": 458.994,
+  "speaker": "Unknown",
+  "en": "The other kind of unique distinction that ZocDoc has relative to a lot of others in this space is the fact that you've always been consumer aligned.",
+  "zh": "ZocDoc 相对于这个领域很多其他公司的另一个独特之处在于,你们一直是站在消费者这一边的。"
+ },
+ {
+  "seg": 91,
+  "start": 459.274,
+  "end": 461.675,
+  "speaker": "Unknown",
+  "en": "And to the point I made earlier, you guys are now a household brand.",
+  "zh": "按我之前说的观点,你们现在已经成为家喻户晓的品牌了。"
+ },
+ {
+  "seg": 92,
+  "start": 461.715,
+  "end": 472.659,
+  "speaker": "Unknown",
+  "en": "I think consumers do view ZocDoc as a go-to place when they do need a doctor's appointment, as opposed to many companies, including mine, which took much more of a B2B approach and aligned with health systems, provider organizations, et cetera.",
+  "zh": "我认为消费者确实把 ZocDoc 当作需要看医生时的首选之地,而不像许多公司——包括我的公司——采取了更偏向 B2B 的路线,与医疗系统、医疗服务提供方组织等等结盟。"
+ },
+ {
+  "seg": 93,
+  "start": 473.039,
+  "end": 476.12,
+  "speaker": "Unknown",
+  "en": "To what extent do you think that played into your ability to crack this nut?",
+  "zh": "你认为这在多大程度上促成了你们攻下这个难题的能力,"
+ },
+ {
+  "seg": 94,
+  "start": 476.6,
+  "end": 481.484,
+  "speaker": "Unknown",
+  "en": "uniquely and differently and better than others who are going sort of through the system, so to speak.",
+  "zh": "独特地、以不同的方式、比其他人更好地,可以说,从系统内部切入?"
+ },
+ {
+  "seg": 95,
+  "start": 481.924,
+  "end": 493.134,
+  "speaker": "Unknown",
+  "en": "And can you give some examples of maybe where your consumer-driven approach was ultimately the thing that got, you know, providers to change behavior or that helped solve this problem in a unique way?",
+  "zh": "你能不能举一些例子,说明你们以消费者为驱动的方法最终在哪些地方促成了医疗服务提供方改变行为,或者以独特的方式帮助解决了这个问题?"
+ },
+ {
+  "seg": 96,
+  "start": 493.994,
+  "end": 496.817,
+  "speaker": "Unknown",
+  "en": "Yeah, so I think this speaks to the fact that",
+  "zh": "是的,我认为这说明了一个事实,"
+ },
+ {
+  "seg": 97,
+  "start": 497.917,
+  "end": 500.98,
+  "speaker": "Unknown",
+  "en": "We just firmly believe that everything has to start with the patient.",
+  "zh": "我们坚定地相信,一切都必须从患者出发。"
+ },
+ {
+  "seg": 98,
+  "start": 501.521,
+  "end": 503.703,
+  "speaker": "Unknown",
+  "en": "And when the patient wins, everyone wins.",
+  "zh": "当患者赢了,所有人都赢了。"
+ },
+ {
+  "seg": 99,
+  "start": 503.723,
+  "end": 505.705,
+  "speaker": "Unknown",
+  "en": "The provider wins, ZocDoc wins.",
+  "zh": "医疗服务提供方赢了,ZocDoc 也赢了。"
+ },
+ {
+  "seg": 100,
+  "start": 505.865,
+  "end": 510.089,
+  "speaker": "Unknown",
+  "en": "And so that's a mindset that we brought to the providers we partnered with.",
+  "zh": "这就是我们带给合作医疗服务提供方的一种思维方式。"
+ },
+ {
+  "seg": 101,
+  "start": 510.489,
+  "end": 517.236,
+  "speaker": "Unknown",
+  "en": "And it's interestingly not a mindset that is easily reinforced by a lot of the other software they use.",
+  "zh": "有趣的是，他们使用的其他许多软件并不容易强化这种思维方式。"
+ },
+ {
+  "seg": 102,
+  "start": 517.597,
+  "end": 522.942,
+  "speaker": "Unknown",
+  "en": "There is a general walled garden preference in healthcare frequently.",
+  "zh": "在医疗健康领域，普遍存在一种“围墙花园”的偏好。"
+ },
+ {
+  "seg": 103,
+  "start": 523.222,
+  "end": 527.524,
+  "speaker": "Unknown",
+  "en": "Where the idea is that we own the front door to care, that we own the patient.",
+  "zh": "也就是说，我们拥有通向医疗服务的“前门”，我们拥有患者。"
+ },
+ {
+  "seg": 104,
+  "start": 528.044,
+  "end": 530.766,
+  "speaker": "Unknown",
+  "en": "And the reality is that that's a flawed premise.",
+  "zh": "而现实是，这是一个有缺陷的前提。"
+ },
+ {
+  "seg": 105,
+  "start": 531.226,
+  "end": 536.829,
+  "speaker": "Unknown",
+  "en": "Because healthcare isn't like a building where you lure the patient in and you slam the door shut behind them.",
+  "zh": "因为医疗健康不像一栋建筑，你把患者诱进来，然后在他们身后砰地关上门。"
+ },
+ {
+  "seg": 106,
+  "start": 537.309,
+  "end": 539.09,
+  "speaker": "Unknown",
+  "en": "It's a lot more like a city, right?",
+  "zh": "它更像一座城市，对吧?"
+ },
+ {
+  "seg": 107,
+  "start": 539.15,
+  "end": 545.213,
+  "speaker": "Unknown",
+  "en": "And the patient walks the city and depending on what their need is at this current moment, they might knock on different doors.",
+  "zh": "患者在这座城市里行走，根据他们当下时刻的需求，他们可能会敲不同的门。"
+ },
+ {
+  "seg": 108,
+  "start": 545.233,
+  "end": 549.995,
+  "speaker": "Unknown",
+  "en": "They might go to an urgent care center, you know, their kid is sick, or they might look for the most",
+  "zh": "他们可能会去紧急护理中心，你知道的，比如孩子生病了，或者他们可能会寻找最"
+ },
+ {
+  "seg": 109,
+  "start": 550.095,
+  "end": 555.719,
+  "speaker": "Unknown",
+  "en": "Specialized doctor if they have a rare disease or someone who can be there for the journey if they have a chronic condition.",
+  "zh": "专科化的医生，如果他们患有罕见病，或者能陪伴整个病程的人，如果他们有慢性病。"
+ },
+ {
+  "seg": 110,
+  "start": 556.099,
+  "end": 563.444,
+  "speaker": "Unknown",
+  "en": "And so you need to acknowledge that you need to open all the doors in order for this to truly work.",
+  "zh": "所以你需要承认，你必须打开所有的门，这一切才能真正运转起来。"
+ },
+ {
+  "seg": 111,
+  "start": 563.824,
+  "end": 572.73,
+  "speaker": "Unknown",
+  "en": "And then you will sort of take learnings that you would never be able to get from a single EHR because you're focused around the problem the way the patient sees it.",
+  "zh": "然后你会得到一些你永远无法从单一 EHR 中获得的经验，因为你是围绕患者所看到的问题来聚焦的。"
+ },
+ {
+  "seg": 112,
+  "start": 573.193,
+  "end": 598.99,
+  "speaker": "Unknown",
+  "en": "Okay, and just to sort of reinforce that somewhat contrarian view, Oliver, I think the notion that no single party should own the front door, and in fact, there is no single front door, we should enable care no matter where the patient wants to go, is somewhat at odds with kind of the belief that I think has been long held by people in the system, which is that if you think about it that way, you might sacrifice some of the coordination that is necessary to ensure that a patient is getting the right care at the right time longitudinally.",
+  "zh": "好的，为了再强化一下这个 somewhat 反传统的观点，Oliver，我认为“任何单一方都不应拥有前门，实际上根本不存在单一前门，无论患者想去哪里我们都应该提供医疗服务”这一观点，与系统内的人们长期持有的信念有些相悖，那就是：如果你那样想，你可能会牺牲一些必要的协调，以确保患者在纵向时间线上在正确的时间得到正确的医疗。"
+ },
+ {
+  "seg": 113,
+  "start": 599.35,
+  "end": 602.272,
+  "speaker": "Unknown",
+  "en": "To a point that they actually resolve whatever health issues that they have.",
+  "zh": "直到最后他们真正解决自己所有的健康问题。"
+ },
+ {
+  "seg": 114,
+  "start": 602.853,
+  "end": 606.195,
+  "speaker": "Unknown",
+  "en": "How do you sort of reconcile those two points of view?",
+  "zh": "你如何调和这两种观点?"
+ },
+ {
+  "seg": 115,
+  "start": 606.536,
+  "end": 608.637,
+  "speaker": "Unknown",
+  "en": "And maybe if you could even share, what do you actually see in your data?",
+  "zh": "甚至或许你可以分享一下，你在自己的数据里实际看到了什么?"
+ },
+ {
+  "seg": 116,
+  "start": 608.657,
+  "end": 625.09,
+  "speaker": "Unknown",
+  "en": "You guys have probably millions if not billions of data points about how patients themselves view loyalty to a provider and in what circumstances do they actually get better care if they are looking at a holistic set of provider options as opposed to just being tethered to any one health system or any one provider affiliation.",
+  "zh": "你们大概有数百万甚至数十亿个数据点，关于患者自己如何看待对某个医疗提供方的忠诚度，以及在他们面对一整套整体的医疗提供方选择、而不是被拴在任何一个医疗系统或任何一个医疗提供方隶属关系上时，他们在什么情况下实际上能得到更好的医疗。"
+ },
+ {
+  "seg": 117,
+  "start": 625.11,
+  "end": 628.673,
+  "speaker": "Unknown",
+  "en": "Can you just speak to some examples of why you believe what you believe?",
+  "zh": "你能讲几个例子，说明你为什么相信你所相信的东西吗?"
+ },
+ {
+  "seg": 118,
+  "start": 629.421,
+  "end": 636.406,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, so first of all, let's just reset how everything else works in our everyday experience, right?",
+  "zh": "好，我是说，首先，让我们重新审视一下我们日常经验中其他一切事物的运作方式，对吧?"
+ },
+ {
+  "seg": 119,
+  "start": 636.426,
+  "end": 637.987,
+  "speaker": "Unknown",
+  "en": "In e-commerce, you buy.",
+  "zh": "在电子商务中，你购买。"
+ },
+ {
+  "seg": 120,
+  "start": 638.007,
+  "end": 639.127,
+  "speaker": "Unknown",
+  "en": "In travel, you book.",
+  "zh": "在旅行中，你预订。"
+ },
+ {
+  "seg": 121,
+  "start": 639.428,
+  "end": 640.388,
+  "speaker": "Unknown",
+  "en": "In healthcare, you're blocked.",
+  "zh": "在医疗健康中，你被挡住了。"
+ },
+ {
+  "seg": 122,
+  "start": 640.969,
+  "end": 643.29,
+  "speaker": "Unknown",
+  "en": "That is very, very unique.",
+  "zh": "这是非常非常独特的。"
+ },
+ {
+  "seg": 123,
+  "start": 643.35,
+  "end": 647.033,
+  "speaker": "Unknown",
+  "en": "We make it really difficult for patients to do business with us.",
+  "zh": "我们让患者很难与我们做生意。"
+ },
+ {
+  "seg": 124,
+  "start": 647.053,
+  "end": 649.534,
+  "speaker": "Unknown",
+  "en": "And that's not what patients actually want.",
+  "zh": "而这并不是患者真正想要的。"
+ },
+ {
+  "seg": 125,
+  "start": 649.554,
+  "end": 652.036,
+  "speaker": "Unknown",
+  "en": "When we see patient behavior, they typically check.",
+  "zh": "当我们观察患者行为时，他们通常会查看。"
+ },
+ {
+  "seg": 126,
+  "start": 652.376,
+  "end": 658.819,
+  "speaker": "Unknown",
+  "en": "You know, multiple providers, they spend a lot of time going through the reviews and understanding what these providers went to.",
+  "zh": "你知道的，多个医疗提供方，他们花大量时间浏览评价，了解这些提供方的背景。"
+ },
+ {
+  "seg": 127,
+  "start": 658.839,
+  "end": 665.802,
+  "speaker": "Unknown",
+  "en": "This is a very high consideration sort of engagement relative to other things they do in their lives.",
+  "zh": "相对于他们生活中的其他事情，这是一种考虑度非常高的参与行为。"
+ },
+ {
+  "seg": 128,
+  "start": 666.682,
+  "end": 675.706,
+  "speaker": "Unknown",
+  "en": "Narrowing the aperture of what you offer to them and making it hard for them to engage with you just lets you fall off the radar.",
+  "zh": "把你能提供的东西的口径收窄，让他们难以与你互动，只会让你从他们的视线中消失。"
+ },
+ {
+  "seg": 129,
+  "start": 675.767,
+  "end": 676.187,
+  "speaker": "Unknown",
+  "en": "And so...",
+  "zh": "所以……"
+ },
+ {
+  "seg": 130,
+  "start": 676.947,
+  "end": 685.072,
+  "speaker": "Unknown",
+  "en": "But on the flip side, once they make that commitment, we see actually extremely high loyalty to the providers that they go to.",
+  "zh": "但反过来，一旦他们做出了那个承诺，我们实际上看到他们对所去的医疗提供方有极高的忠诚度。"
+ },
+ {
+  "seg": 131,
+  "start": 685.552,
+  "end": 692.036,
+  "speaker": "Unknown",
+  "en": "A roughly 75% to 80% rebooking rate with the same provider when a patient books in the same specialty.",
+  "zh": "当患者在同一专科内预约时，对同一提供方大约有 75% 到 80% 的复订率。"
+ },
+ {
+  "seg": 132,
+  "start": 692.296,
+  "end": 698.52,
+  "speaker": "Unknown",
+  "en": "So it speaks to the fact that it's not really necessary to lock them in through the systems you build.",
+  "zh": "这说明，其实并不需要通过你构建的系统把他们锁住。"
+ },
+ {
+  "seg": 133,
+  "start": 698.9,
+  "end": 702.162,
+  "speaker": "Unknown",
+  "en": "You will gain their loyalty just by being a good doctor to them.",
+  "zh": "你只要做一名对他们好的医生，就能赢得他们的忠诚。"
+ },
+ {
+  "seg": 134,
+  "start": 702.692,
+  "end": 705.753,
+  "speaker": "Unknown",
+  "en": "Yeah, and it's interesting to have this conversation in light of where we are today, right?",
+  "zh": "是的，在今天我们所处的背景下进行这场对话很有意思，对吧?"
+ },
+ {
+  "seg": 135,
+  "start": 705.773,
+  "end": 721.916,
+  "speaker": "Unknown",
+  "en": "We're a few weeks into the sort of like the era of instinct and muse and all of these consumer agents that, you know, people are now using to do exactly the types of things that you're describing, Oliver, booking appointments, you know, travel, restaurants, and of course, inevitably, their healthcare experiences.",
+  "zh": "我们正处于这个 instinct 和 muse 以及所有这些消费级智能体时代的头几周，你知道的，人们现在正在用它们去做你正在描述的那类事情，Oliver,预约挂号、旅行、餐厅，当然，不可避免地，还有他们的医疗健康体验。"
+ },
+ {
+  "seg": 136,
+  "start": 722.297,
+  "end": 732.319,
+  "speaker": "Unknown",
+  "en": "You guys announced a partnership with Gemini along these lines where agentically people can use your platform to, you know, more efficiently get to the right doctors and book appointments.",
+  "zh": "你们宣布了与 Gemini 在这方面的合作，人们可以智能体式地使用你们的平台，更高效地找到合适的医生并预约。"
+ },
+ {
+  "seg": 137,
+  "start": 732.839,
+  "end": 751.579,
+  "speaker": "Unknown",
+  "en": "What's your view and maybe like has anything changed I guess fundamentally about how you view the role of ZocDoc in this era of personal consumer co-pilot agents and also the role that you play on behalf of your provider customers in terms of how they can reconcile like all the inbound that I'm sure they're anticipating getting from all these tools?",
+  "zh": "你怎么看？或者说，在这个个人消费副驾驶智能体的时代，你对 ZocDoc 角色的看法是否有什么根本性的变化，以及你在代表你的医疗提供方客户方面所扮演的角色，就他们如何消化我确信他们正在预期能从所有这些工具中获得的全部入站流量而言？"
+ },
+ {
+  "seg": 138,
+  "start": 752.541,
+  "end": 753.682,
+  "speaker": "Unknown",
+  "en": "Yeah, so for sure.",
+  "zh": "是的，当然。"
+ },
+ {
+  "seg": 139,
+  "start": 753.702,
+  "end": 761.065,
+  "speaker": "Unknown",
+  "en": "I think if I think about the role of AI here, it's really making patient engagement go through the roof.",
+  "zh": "我想，如果我来思考 AI 在这里的作用，它真的是让患者参与度突破了天花板。"
+ },
+ {
+  "seg": 140,
+  "start": 761.325,
+  "end": 763.686,
+  "speaker": "Unknown",
+  "en": "You know, they get much more personalized information.",
+  "zh": "你知道的，他们能获得更加个性化的信息。"
+ },
+ {
+  "seg": 141,
+  "start": 763.726,
+  "end": 769.409,
+  "speaker": "Unknown",
+  "en": "It feels much more specific and it's much more likely to lead to action.",
+  "zh": "它感觉更加具体，也更有可能导向行动。"
+ },
+ {
+  "seg": 142,
+  "start": 769.509,
+  "end": 771.69,
+  "speaker": "Unknown",
+  "en": "And that's where Zohtar comes in, right?",
+  "zh": "而这正是 Zohtar 发挥作用的地方，对吧?"
+ },
+ {
+  "seg": 143,
+  "start": 771.73,
+  "end": 773.571,
+  "speaker": "Unknown",
+  "en": "The AI can give you the information.",
+  "zh": "AI 可以给你信息。"
+ },
+ {
+  "seg": 144,
+  "start": 774.011,
+  "end": 779.993,
+  "speaker": "Unknown",
+  "en": "But ZocDoc can make it actually actionable so that you can go see a provider.",
+  "zh": "但 ZocDoc 能让它真正可执行，让你能去见一位医疗提供方。"
+ },
+ {
+  "seg": 145,
+  "start": 780.013,
+  "end": 785.314,
+  "speaker": "Unknown",
+  "en": "So that is a dynamic that is just beginning, but already very, very strong.",
+  "zh": "所以这是一个才刚刚开始、但已经非常非常强劲的动态。"
+ },
+ {
+  "seg": 146,
+  "start": 785.814,
+  "end": 789.655,
+  "speaker": "Unknown",
+  "en": "Now, AI, as you mentioned, we are partnering with Gemini.",
+  "zh": "现在，AI,正如你提到的，我们正在与 Gemini 合作。"
+ },
+ {
+  "seg": 147,
+  "start": 790.035,
+  "end": 792.876,
+  "speaker": "Unknown",
+  "en": "We're certainly here to partner with",
+  "zh": "我们当然愿意与"
+ },
+ {
+  "seg": 148,
+  "start": 793.296,
+  "end": 796.418,
+  "speaker": "Unknown",
+  "en": "Anyone who wants to have that immediate bookability.",
+  "zh": "任何想要那种即时可预约能力的人合作。"
+ },
+ {
+  "seg": 149,
+  "start": 796.858,
+  "end": 805.643,
+  "speaker": "Unknown",
+  "en": "And what's interesting about this is that the number of sort of quote unquote front doors is really exploding because there are lots of different agents.",
+  "zh": "而有趣的是，这种所谓“前门”的数量正在真正爆发，因为存在很多不同的智能体。"
+ },
+ {
+  "seg": 150,
+  "start": 805.683,
+  "end": 810.305,
+  "speaker": "Unknown",
+  "en": "There's a lot of different modalities on how consumers can use them.",
+  "zh": "消费者使用它们的方式有很多种不同的模态。"
+ },
+ {
+  "seg": 151,
+  "start": 810.645,
+  "end": 817.989,
+  "speaker": "Unknown",
+  "en": "And for a doctor, it's really inconceivable to sort of hunt them all down and try to connect to them one off.",
+  "zh": "而对医生来说，要把它们全部找出来并逐个尝试连接，实在是难以想象的。"
+ },
+ {
+  "seg": 152,
+  "start": 818.15,
+  "end": 820.191,
+  "speaker": "Unknown",
+  "en": "And so our promise to the providers",
+  "zh": "所以我们对医疗机构的承诺是"
+ },
+ {
+  "seg": 153,
+  "start": 820.851,
+  "end": 823.092,
+  "speaker": "Unknown",
+  "en": "Do a single integration with Zoktar.",
+  "zh": "与 Zoktar 做一次单一集成。"
+ },
+ {
+  "seg": 154,
+  "start": 823.593,
+  "end": 833.059,
+  "speaker": "Unknown",
+  "en": "We then distribute your availability to all the different platforms that are out there and sort of take that distribution worry off your hands.",
+  "zh": "然后我们会把你的可用时段分发到外面所有不同的平台上，把分发这件事的烦恼从你手上拿走。"
+ },
+ {
+  "seg": 155,
+  "start": 833.599,
+  "end": 837.882,
+  "speaker": "Unknown",
+  "en": "Our role in this is really just that of healthcare access infrastructure, right?",
+  "zh": "我们在其中的角色其实就只是医疗可及性基础设施，对吧？"
+ },
+ {
+  "seg": 156,
+  "start": 837.922,
+  "end": 842.865,
+  "speaker": "Unknown",
+  "en": "We don't need every booking to happen on Zoktar.com or our app.",
+  "zh": "我们不需要每一次预约都发生在 Zoktar.com 或我们的应用上。"
+ },
+ {
+  "seg": 157,
+  "start": 843.225,
+  "end": 847.888,
+  "speaker": "Unknown",
+  "en": "We just want to make sure that whatever door the patient is knocking on, that door actually opens.",
+  "zh": "我们只想确保，无论病人敲的是哪扇门，那扇门真的能打开。"
+ },
+ {
+  "seg": 158,
+  "start": 848.63,
+  "end": 855.493,
+  "speaker": "Unknown",
+  "en": "Yeah, and the interesting question that arises from that dynamic, first of all, that's great to hear that you are, you know, into it.",
+  "zh": "是的，由这个动态引出的一个有趣的问题，首先，很高兴听到你们已经投入进去了。"
+ },
+ {
+  "seg": 159,
+  "start": 855.513,
+  "end": 867.018,
+  "speaker": "Unknown",
+  "en": "Like, I think there's a lot of companies right now that serve sort of this marketplace type role in a variety of industries who are taking different approaches and having very different reactions to how they deal with these agents.",
+  "zh": "就像，我认为现在有很多公司在各种行业里扮演着这种市场平台型的角色，他们在如何应对这些智能体方面采取了不同的做法，反应也非常不同。"
+ },
+ {
+  "seg": 160,
+  "start": 867.038,
+  "end": 872.721,
+  "speaker": "Unknown",
+  "en": "So I agree that there's a huge opportunity for you to become the sort of the utility layer to all this activity.",
+  "zh": "所以我同意，你们有一个巨大的机会成为所有这些活动的某种公共事业层。"
+ },
+ {
+  "seg": 161,
+  "start": 873.241,
+  "end": 874.082,
+  "speaker": "Unknown",
+  "en": "How do you think about",
+  "zh": "你是怎么思考"
+ },
+ {
+  "seg": 162,
+  "start": 875.683,
+  "end": 885.411,
+  "speaker": "Unknown",
+  "en": "And, you know, I think what you guys today, you have a UI, you have an app, like I use your app and I as a consumer can apply my own agency to determining what my preferences are.",
+  "zh": "而且，你知道，我觉得你们今天有一个 UI，有一个应用，就像我用你们的应用，作为消费者我可以运用我自己的主观能动性来确定我的偏好是什么。"
+ },
+ {
+  "seg": 163,
+  "start": 885.471,
+  "end": 890.536,
+  "speaker": "Unknown",
+  "en": "If I have seven choices, you know, how do I rank order those choices and pick the ultimate one that I think is best for me?",
+  "zh": "如果我有七个选择，你知道，我如何对这些选择排序，并挑出我认为对自己最好的那一个？"
+ },
+ {
+  "seg": 164,
+  "start": 891.457,
+  "end": 901.446,
+  "speaker": "Unknown",
+  "en": "As you, you know, kind of as the role of ZocDoc goes more towards like that sort of the middleware layer, the utility layer, obviously you lose some of that interaction that might",
+  "zh": "当你，你知道，当 ZocDoc 的角色更偏向那种中间件层、公共事业层时，显然你会失去一些互动，那种互动可能"
+ },
+ {
+  "seg": 165,
+  "start": 902.366,
+  "end": 905.967,
+  "speaker": "Unknown",
+  "en": "Be considered like a fairness layer in some ways to the consumer.",
+  "zh": "在某种程度上被视为对消费者的一种公平层。"
+ },
+ {
+  "seg": 166,
+  "start": 906.787,
+  "end": 909.268,
+  "speaker": "Unknown",
+  "en": "What's your rubric for how you think about like routing?",
+  "zh": "你在思考路由时的标准是什么？"
+ },
+ {
+  "seg": 167,
+  "start": 909.448,
+  "end": 918.051,
+  "speaker": "Unknown",
+  "en": "You know, like, are you guys applying judgment to the routing layer where if your system brings back 12 choices, you apply, you know, some preference on behalf of the consumer?",
+  "zh": "你知道，比如，你们是否会在路由层上做判断，当你们的系统返回 12 个选择时，你们会代表消费者施加某种偏好？"
+ },
+ {
+  "seg": 168,
+  "start": 918.571,
+  "end": 922.792,
+  "speaker": "Unknown",
+  "en": "Or have you thought through ways that you could actually still surface that level of agency to the end user?",
+  "zh": "还是说你们已经想清楚了办法，可以把那种程度的主观能动性真正呈现给最终用户？"
+ },
+ {
+  "seg": 169,
+  "start": 923.437,
+  "end": 928.905,
+  "speaker": "Unknown",
+  "en": "So we have always sort of given all the agency to the end user, to the patient, right?",
+  "zh": "我们一直都是把所有的主观能动性交给最终用户、交给病人的，对吧？"
+ },
+ {
+  "seg": 170,
+  "start": 928.925,
+  "end": 931.889,
+  "speaker": "Unknown",
+  "en": "Like we present the options the patient chooses.",
+  "zh": "就像我们呈现选项，病人来选择。"
+ },
+ {
+  "seg": 171,
+  "start": 932.489,
+  "end": 938.838,
+  "speaker": "Unknown",
+  "en": "And in our view, you know, these AI agents are just going to be extensions of the patients, right?",
+  "zh": "而在我们的看法里，你知道，这些 AI 智能体只会是病人的延伸，对吧？"
+ },
+ {
+  "seg": 172,
+  "start": 939.979,
+  "end": 949.423,
+  "speaker": "Unknown",
+  "en": "Obviously, every agent might have their own way to solve that, but they probably gather the preferences or the decision criteria of the patient in some way and then apply it.",
+  "zh": "显然，每个智能体可能都有自己的解决方式，但它们大概会以某种方式收集病人的偏好或决策标准，然后再应用它。"
+ },
+ {
+  "seg": 173,
+  "start": 949.823,
+  "end": 954.806,
+  "speaker": "Unknown",
+  "en": "We really look at that as one thing, the patient and the agent.",
+  "zh": "我们真的把它看作一个整体，就是病人和智能体。"
+ },
+ {
+  "seg": 174,
+  "start": 955.466,
+  "end": 966.431,
+  "speaker": "Unknown",
+  "en": "We don't differentiate between these two things and we'll show them both whatever options are available to them and then they decide what's the best match.",
+  "zh": "我们不区分这两者，我们会向它们展示所有可用的选项，然后由它们决定什么是最佳匹配。"
+ },
+ {
+  "seg": 175,
+  "start": 967.498,
+  "end": 974.201,
+  "speaker": "Unknown",
+  "en": "Maybe can you speak a little bit to how the supply side of your marketplace has evolved over time?",
+  "zh": "能不能稍微谈谈你们市场平台的供给端是如何随时间演变的？"
+ },
+ {
+  "seg": 176,
+  "start": 975.301,
+  "end": 985.465,
+  "speaker": "Unknown",
+  "en": "I know initially, and this was, you know, again, years ago, a lot of the focus was on kind of the lower acuity specialty areas like primary care, urgent care, you know, even dental, you know, things of that sort.",
+  "zh": "我知道最初，你知道，这又是很多年前了，很多重点放在较低严重度的专科领域，比如初级诊疗、紧急护理，你知道，甚至牙科，诸如此类。"
+ },
+ {
+  "seg": 177,
+  "start": 986.086,
+  "end": 993.529,
+  "speaker": "Unknown",
+  "en": "And it was just culturally more challenging to get the true specialists aligned in a way that they would play nice on platforms like this.",
+  "zh": "而且在文化上，让真正的专科医生以一种在这种平台上好好配合的方式对齐起来，一直是更具挑战性的。"
+ },
+ {
+  "seg": 178,
+  "start": 994.589,
+  "end": 995.329,
+  "speaker": "Unknown",
+  "en": "Has that changed?",
+  "zh": "这一点变了吗？"
+ },
+ {
+  "seg": 179,
+  "start": 995.389,
+  "end": 996.17,
+  "speaker": "Unknown",
+  "en": "Like, do you actually see",
+  "zh": "比如，你真的看到"
+ },
+ {
+  "seg": 180,
+  "start": 996.87,
+  "end": 1008.388,
+  "speaker": "Unknown",
+  "en": "Specialist practices, getting on board with kind of open scheduling practices and, you know, what changed or what did you guys do or what do you think has changed in the market to drive that evolution?",
+  "zh": "专科诊所开始接受这种开放排班的做法了吗，你知道，什么改变了，或者你们做了什么，或者你认为市场中发生了什么变化推动了这种演变？"
+ },
+ {
+  "seg": 181,
+  "start": 1009.435,
+  "end": 1012.637,
+  "speaker": "Unknown",
+  "en": "So we've been pretty broad for a while, actually.",
+  "zh": "其实我们已经相当广了有一段时间了。"
+ },
+ {
+  "seg": 182,
+  "start": 1012.757,
+  "end": 1019.08,
+  "speaker": "Unknown",
+  "en": "Now, obviously, many more patients go to a primary care doctor or a dentist than to a neurosurgeon.",
+  "zh": "现在，显然，去初级诊疗医生或牙医那里的病人比去神经外科医生那里的多得多。"
+ },
+ {
+  "seg": 183,
+  "start": 1019.821,
+  "end": 1020.821,
+  "speaker": "Unknown",
+  "en": "That's the case for sure.",
+  "zh": "这是肯定的。"
+ },
+ {
+  "seg": 184,
+  "start": 1020.861,
+  "end": 1026.305,
+  "speaker": "Unknown",
+  "en": "But we have 250 different specialties on the platform and all of them are being booked.",
+  "zh": "但我们平台上有 250 个不同的专科，而且所有这些专科都有人在预约。"
+ },
+ {
+  "seg": 185,
+  "start": 1027.225,
+  "end": 1034.229,
+  "speaker": "Unknown",
+  "en": "I came out of a meeting where I learned that we have literally tens of thousands of oncology bookings going through ZocDoc in New York City alone.",
+  "zh": "我刚开完一个会，会上我了解到，仅在纽约市，就有数以万计的肿瘤科预约在通过 ZocDoc 进行。"
+ },
+ {
+  "seg": 186,
+  "start": 1034.55,
+  "end": 1045.096,
+  "speaker": "Unknown",
+  "en": "So this is very broad from, hey, I just need to go see someone or have a dental issue or a mental health issue, to I need to see someone very self-specialized.",
+  "zh": "所以这个范围非常广，从「嘿，我只是需要去看个人」或有牙科问题、心理健康问题，到「我需要看一个非常专科化的人」。"
+ },
+ {
+  "seg": 187,
+  "start": 1045.196,
+  "end": 1054.842,
+  "speaker": "Unknown",
+  "en": "And all of that is available on ZocDoc and it's available much sooner than if you got on the phone and played scheduling Tetris with an office manager.",
+  "zh": "而这一切在 ZocDoc 上都可获得，而且比打电话给办公室经理玩排班俄罗斯方块要快得多。"
+ },
+ {
+  "seg": 188,
+  "start": 1055.248,
+  "end": 1072.922,
+  "speaker": "Unknown",
+  "en": "How have they, how does this relate to, you know, kind of the argument in the past, especially with, you know, kind of high end specialty practices like oncology or what have you, was that there's a great deal of clinical qualification that needs to happen before you, you know, take that precious slot and, you know, give it to a certain patient.",
+  "zh": "那么，这和过去的论点有什么关系呢，你知道，尤其是针对那种高端专科诊所，比如肿瘤科之类的，论点是：在你占掉那个宝贵的时间段并把它给某个病人之前，需要进行大量的临床资质审核。"
+ },
+ {
+  "seg": 189,
+  "start": 1074.543,
+  "end": 1080.948,
+  "speaker": "Unknown",
+  "en": "What are you seeing there in terms of how, again, the providers are just playing in that zone?",
+  "zh": "在这方面你看到了什么，再次，就是医疗机构在那个领域是怎么玩的？"
+ },
+ {
+  "seg": 190,
+  "start": 1081.048,
+  "end": 1085.832,
+  "speaker": "Unknown",
+  "en": "Are they now comfortable with fully self-service selection on the consumer's part?",
+  "zh": "他们现在对消费者端完全自助的选择感到放心了吗？"
+ },
+ {
+  "seg": 191,
+  "start": 1086.312,
+  "end": 1096.52,
+  "speaker": "Unknown",
+  "en": "Are there AI tools that they can use to implement some of what used to be these really rigid scheduling rules that were largely baked into the EHR platforms?",
+  "zh": "有没有 AI 工具他们可以用来实现过去那些大部分内嵌在 EHR 平台里的非常死板的排班规则中的一部分？"
+ },
+ {
+  "seg": 192,
+  "start": 1096.54,
+  "end": 1099.703,
+  "speaker": "Unknown",
+  "en": "What do you think is AI-proof in this environment?",
+  "zh": "你认为在这个环境中什么是防 AI 的？"
+ },
+ {
+  "seg": 193,
+  "start": 1100.152,
+  "end": 1103.554,
+  "speaker": "Unknown",
+  "en": "So I think it has moved on both directions, right?",
+  "zh": "我认为这是双向都在演进的，对吧？"
+ },
+ {
+  "seg": 194,
+  "start": 1103.614,
+  "end": 1112.659,
+  "speaker": "Unknown",
+  "en": "Both the technology that helps patients filter down providers that are a good match for them has improved by leaps and bounds over the years.",
+  "zh": "一方面，帮助病人筛选出与自己匹配度高的医疗机构的技术，这些年突飞猛进。"
+ },
+ {
+  "seg": 195,
+  "start": 1112.699,
+  "end": 1120.883,
+  "speaker": "Unknown",
+  "en": "And then providers have also gotten increasingly confident because they actually realized that the vast majority of patients",
+  "zh": "另一方面，医疗机构也越来越有信心，因为他们实际上意识到，绝大多数病人"
+ },
+ {
+  "seg": 196,
+  "start": 1121.323,
+  "end": 1125.327,
+  "speaker": "Unknown",
+  "en": "have pretty good judgment on their own whether they should see this provider.",
+  "zh": "自己对是否应该看这位医生有相当好的判断。"
+ },
+ {
+  "seg": 197,
+  "start": 1125.387,
+  "end": 1144.645,
+  "speaker": "Unknown",
+  "en": "Many times they're essentially acting on a referral that has been given by them from their primary care doc that has the sort of ongoing relationship and they just use DocTalk because it's a tool for them to really screen the market and pre-meet providers that they might want to see on the profile.",
+  "zh": "很多时候，他们实际上是在执行由他们的初级诊疗医生给出的转诊，那位医生有这种持续的关系，他们只是用 DocTalk，因为对他们来说这是一个真正筛选市场、提前在个人资料上了解他们可能想看的医生的工具。"
+ },
+ {
+  "seg": 198,
+  "start": 1145.345,
+  "end": 1151.832,
+  "speaker": "Unknown",
+  "en": "That's something that has just been getting better and better over the last years.",
+  "zh": "这是过去几年里一直在变得越来越好的一件事。"
+ },
+ {
+  "seg": 199,
+  "start": 1152.292,
+  "end": 1165.806,
+  "speaker": "Unknown",
+  "en": "And I'm sure we're going to further improve through AI, but it has not been a blocker for us, even predating the release of this latest series of AI tools.",
+  "zh": "而且我相信我们会通过 AI 进一步改进，但即使在这最新一批 AI 工具发布之前，它也从来不是我们的阻碍。"
+ },
+ {
+  "seg": 200,
+  "start": 1166.759,
+  "end": 1181.147,
+  "speaker": "Unknown",
+  "en": "You know, one of the big areas of activity that we see a lot of, which is in some ways like a holy grail, you know, problem set for entrepreneurs is, you know, who will build the sort of next generation AI native, you know, practice management and EHR, you know, platform.",
+  "zh": "你知道，我们看到的一个非常大的活跃领域，在某种意义上可以说是创业者的圣杯级问题集，那就是，谁来打造下一代 AI 原生的、你知道的，诊所管理和 EHR 平台。"
+ },
+ {
+  "seg": 201,
+  "start": 1181.688,
+  "end": 1184.97,
+  "speaker": "Unknown",
+  "en": "And I know ZogDoc has already kind of started to vertically integrate into",
+  "zh": "而且我知道 ZogDoc 已经开始了一定程度的垂直整合，进入"
+ },
+ {
+  "seg": 202,
+  "start": 1185.59,
+  "end": 1196.755,
+  "speaker": "Unknown",
+  "en": "You know, certain capabilities and components of what traditionally has been known more as like a practice management system zone, but are natural extensions of the work that you're already doing from top of funnel perspective.",
+  "zh": "你知道的，某些传统上更被视为诊所管理系统范畴的能力和组件，但从获客漏斗顶端的视角看，这些是你们已经在做的工作的自然延伸。"
+ },
+ {
+  "seg": 203,
+  "start": 1196.955,
+  "end": 1198.976,
+  "speaker": "Unknown",
+  "en": "What's been your, you know, what's your vision there?",
+  "zh": "那么你的，你知道的，你在这方面的愿景是什么？"
+ },
+ {
+  "seg": 204,
+  "start": 1199.036,
+  "end": 1201.757,
+  "speaker": "Unknown",
+  "en": "Like, are you guys, do you view yourselves ultimately over time?",
+  "zh": "比如，你们，你们最终随着时间推移认为自己"
+ },
+ {
+  "seg": 205,
+  "start": 1202.297,
+  "end": 1208.481,
+  "speaker": "Unknown",
+  "en": "Becoming more of a system of record for things like scheduling and other, you know, administrative capabilities within the practice?",
+  "zh": "会变成更像一个针对预约调度和其他你知道的诊所内管理能力的记录系统(system of record)吗？"
+ },
+ {
+  "seg": 206,
+  "start": 1208.721,
+  "end": 1218.087,
+  "speaker": "Unknown",
+  "en": "Or, you know, how do you see yourself playing a role vis-à-vis existing platforms and, you know, very incumbent, like very entrenched systems in that universe?",
+  "zh": "还是说，你知道的，你如何看待自己相对于现有平台，你知道的，那个领域中非常根深蒂固的在位系统所扮演的角色？"
+ },
+ {
+  "seg": 207,
+  "start": 1218.607,
+  "end": 1223.653,
+  "speaker": "Unknown",
+  "en": "Yeah, I think, look, we're driven by what the patient wants and what works for the patient.",
+  "zh": "是的，我觉得，看，我们是由患者想要什么、什么对患者有效来驱动的。"
+ },
+ {
+  "seg": 208,
+  "start": 1223.673,
+  "end": 1231.041,
+  "speaker": "Unknown",
+  "en": "And obviously we think of ourselves as an entity that, you know, is very consumer oriented in a space that's generally not.",
+  "zh": "你知道的，代表患者，让他们更容易去就诊，你知道的，让他们明白谁是适合他们的医生，明白他们可以随时联系到这位医生，你知道的，通过电话或其他方式。"
+ },
+ {
+  "seg": 209,
+  "start": 1231.101,
+  "end": 1236.928,
+  "speaker": "Unknown",
+  "en": "And so areas where we can make it, can take friction out.",
+  "zh": "所以那些我们能够消除摩擦的领域。"
+ },
+ {
+  "seg": 210,
+  "start": 1237.328,
+  "end": 1251.251,
+  "speaker": "Unknown",
+  "en": "You know, on behalf of the patient, make it easier to go be seen, you know, to understand who's the right doctor for them to understand, you know, that they can reach this doctor at any time, you know, over the phone through other modalities.",
+  "zh": "你知道,代表患者,让就诊变得更方便,你知道,去弄清楚谁才是适合他们的医生,去弄清楚,你知道,他们随时都能联系上这位医生,你知道,通过电话或其他方式。"
+ },
+ {
+  "seg": 211,
+  "start": 1251.891,
+  "end": 1254.252,
+  "speaker": "Unknown",
+  "en": "These are all things that we are now supporting.",
+  "zh": "这些都是我们现在正在支持的事情。"
+ },
+ {
+  "seg": 212,
+  "start": 1254.272,
+  "end": 1258.153,
+  "speaker": "Unknown",
+  "en": "And again, for us, it's been also a bit of a mind shift away from...",
+  "zh": "再说，对我们来说，这也是一种思维上的转变，从……"
+ },
+ {
+  "seg": 213,
+  "start": 1258.653,
+  "end": 1260.774,
+  "speaker": "Unknown",
+  "en": "Hey, everything has to happen on zogtrap.com.",
+  "zh": "嘿，一切都必须在 zogtrap.com 上发生。"
+ },
+ {
+  "seg": 214,
+  "start": 1260.794,
+  "end": 1264.995,
+  "speaker": "Unknown",
+  "en": "We now have products, for example, that can live on the provider's own homepage.",
+  "zh": "我们现在有产品，比如，可以放在医疗提供方自己的主页上。"
+ },
+ {
+  "seg": 215,
+  "start": 1265.015,
+  "end": 1267.315,
+  "speaker": "Unknown",
+  "en": "We have products that can live in their call center.",
+  "zh": "我们有产品可以放在他们的呼叫中心里。"
+ },
+ {
+  "seg": 216,
+  "start": 1267.355,
+  "end": 1273.336,
+  "speaker": "Unknown",
+  "en": "We have products that are internal to them to help them take friction out for the patient.",
+  "zh": "我们有他们内部使用的产品，帮助他们为患者消除摩擦。"
+ },
+ {
+  "seg": 217,
+  "start": 1273.356,
+  "end": 1275.677,
+  "speaker": "Unknown",
+  "en": "And so this is a journey that will continue to be on.",
+  "zh": "所以这是一段将会持续下去的旅程。"
+ },
+ {
+  "seg": 218,
+  "start": 1276.057,
+  "end": 1288.2,
+  "speaker": "Unknown",
+  "en": "And it's really driven by the use cases and where we have unique capabilities and expertise so that we can add value to the journey of the patient and by extension of the doctor.",
+  "zh": "而它真正是由用例以及我们拥有独特能力和专长的地方驱动的，这样我们就能为患者的旅程增添价值，并进而为医生的旅程增添价值。"
+ },
+ {
+  "seg": 219,
+  "start": 1288.98,
+  "end": 1292.543,
+  "speaker": "Unknown",
+  "en": "Yeah, to that end, you have also recently announced some partnerships on the insurance side.",
+  "zh": "是的，说到这一点，你们最近也宣布了一些保险方面的合作伙伴关系。"
+ },
+ {
+  "seg": 220,
+  "start": 1293.083,
+  "end": 1303.171,
+  "speaker": "Unknown",
+  "en": "And in some ways that's, you know, the tail that whacks the dog on all of this is I could, you know, have the best appointments booked in the most timely fashion, but if I'm not going to get reimbursed for it, then it's all moot.",
+  "zh": "而在某种意义上，你知道的，这一切中甩动狗尾巴的那个尾巴是，我可能，你知道的，用最及时的方式预约到了最好的就诊，但如果我不能因此获得报销，那一切都白搭。"
+ },
+ {
+  "seg": 221,
+  "start": 1303.631,
+  "end": 1315.74,
+  "speaker": "Unknown",
+  "en": "And so can you speak a little bit to that of, you know, what role do the payer partnerships play in, you know, making the experience better for the patients and providers and what gets unlocked as you guys extend that strategy?",
+  "zh": "所以你能不能稍微谈一谈，你知道的，付款方合作伙伴关系在提升患者和医疗提供方体验方面扮演什么角色，以及当你们延伸这一策略时会解锁什么？"
+ },
+ {
+  "seg": 222,
+  "start": 1316.419,
+  "end": 1335.49,
+  "speaker": "Unknown",
+  "en": "Yeah, and so one of our classical implementations here is with, for example, Blue Shield of California, where on their own member directory, you can now book directly a doctor's appointment, and that's powered by ZocDoc ultimately.",
+  "zh": "是的，我们这方面的一个经典落地案例是，比如，与加州 Blue Shield 的合作，在他们自己的会员目录上，现在可以直接预约医生，而这最终是由 ZocDoc 驱动的。"
+ },
+ {
+  "seg": 223,
+  "start": 1336.03,
+  "end": 1344.034,
+  "speaker": "Unknown",
+  "en": "And it is such a natural point of integration where they can now serve their patients better.",
+  "zh": "这是一个非常自然的整合点，他们现在可以更好地服务他们的患者。"
+ },
+ {
+  "seg": 224,
+  "start": 1344.095,
+  "end": 1344.575,
+  "speaker": "Unknown",
+  "en": "They can be",
+  "zh": "他们可以在"
+ },
+ {
+  "seg": 225,
+  "start": 1345.135,
+  "end": 1364.533,
+  "speaker": "Unknown",
+  "en": "There when a patient makes the decision to get care with all the insights that they can generate from that and they can keep patients out of high cost modalities like the emergency room that are 10 to 12 times as expensive as ambulatory care and have worse outcomes.",
+  "zh": "患者做出就医决定的那一刻在场，利用他们能从中产生的所有洞察，并且他们可以让患者远离像急诊室这样的高成本就医方式，那比门诊贵 10 到 12 倍，而且结果更差。"
+ },
+ {
+  "seg": 226,
+  "start": 1364.613,
+  "end": 1367.455,
+  "speaker": "Unknown",
+  "en": "And so it's really a win-win-win.",
+  "zh": "所以这真的是一个三赢。"
+ },
+ {
+  "seg": 227,
+  "start": 1367.816,
+  "end": 1370.378,
+  "speaker": "Unknown",
+  "en": "What was interesting for us on this journey is actually that",
+  "zh": "在这段旅程中对我们来说有趣的一点其实是"
+ },
+ {
+  "seg": 228,
+  "start": 1371.979,
+  "end": 1377.122,
+  "speaker": "Unknown",
+  "en": "The amount of change on the payer side is relatively minimal.",
+  "zh": "付款方那一侧需要做的改动相对很小。"
+ },
+ {
+  "seg": 229,
+  "start": 1377.482,
+  "end": 1382.524,
+  "speaker": "Unknown",
+  "en": "They can now plug into our healthcare access infrastructure and it just works out of the box.",
+  "zh": "他们现在可以接入我们的医疗可及性基础设施，而且开箱即用。"
+ },
+ {
+  "seg": 230,
+  "start": 1382.884,
+  "end": 1390.368,
+  "speaker": "Unknown",
+  "en": "So once they realize that that's happening, you start with one area in a payer and then suddenly other people come in.",
+  "zh": "所以一旦他们意识到这一点，你从付款方的某一个领域开始，然后突然其他人也来了。"
+ },
+ {
+  "seg": 231,
+  "start": 1390.688,
+  "end": 1392.008,
+  "speaker": "Unknown",
+  "en": "Say, can I use this also?",
+  "zh": "说，我也能用这个吗？"
+ },
+ {
+  "seg": 232,
+  "start": 1392.129,
+  "end": 1394.489,
+  "speaker": "Unknown",
+  "en": "And I have this use case and this other use case.",
+  "zh": "然后我有这个用例，还有那个用例。"
+ },
+ {
+  "seg": 233,
+  "start": 1394.549,
+  "end": 1399.711,
+  "speaker": "Unknown",
+  "en": "And pretty quickly, you're working with the entire organization, which is very, very exciting to us.",
+  "zh": "很快，你就在和整个组织合作了，这让我们非常非常兴奋。"
+ },
+ {
+  "seg": 234,
+  "start": 1399.811,
+  "end": 1410.394,
+  "speaker": "Unknown",
+  "en": "And honestly, not something that I would have expected going into that, but I'm very positively in a very positive state of mind here to find that.",
+  "zh": "而且说实话，这不是我当初进入这件事时所预期的，但我现在处于一种非常积极的心态中对此感到欣喜。"
+ },
+ {
+  "seg": 235,
+  "start": 1410.454,
+  "end": 1418.537,
+  "speaker": "Unknown",
+  "en": "And so we think that we will be in a position to serve a large number of members in the coming year.",
+  "zh": "所以我们认为，在未来一年，我们将有能力服务大量会员。"
+ },
+ {
+  "seg": 236,
+  "start": 1419.34,
+  "end": 1430.947,
+  "speaker": "Unknown",
+  "en": "In a situation like that, you have the trifecta of payers, providers, and consumers now directly engaged with you in a formal relationship fashion.",
+  "zh": "在那样的情况下，付款方、医疗提供方和消费者三方现在都以正式关系的形式直接与你接触。"
+ },
+ {
+  "seg": 237,
+  "start": 1431.667,
+  "end": 1434.569,
+  "speaker": "Unknown",
+  "en": "What is your business model in that context?",
+  "zh": "在那种背景下，你的商业模式是什么？"
+ },
+ {
+  "seg": 238,
+  "start": 1434.649,
+  "end": 1440.052,
+  "speaker": "Unknown",
+  "en": "And has that changed as you've moved away from just providers and now getting involved with payers?",
+  "zh": "而随着你们从只面向医疗提供方发展到如今介入付款方，这一点是否发生了变化？"
+ },
+ {
+  "seg": 239,
+  "start": 1441.153,
+  "end": 1443.695,
+  "speaker": "Unknown",
+  "en": "How do you think about monetization, incentives?",
+  "zh": "你如何看待变现和激励？"
+ },
+ {
+  "seg": 240,
+  "start": 1444.835,
+  "end": 1452.281,
+  "speaker": "Unknown",
+  "en": "And I know you've done a lot of work even like legally to try to push the envelope on how people think about things like Stark and anti-kickback.",
+  "zh": "而且我知道你们甚至在法律层面做了很多工作，试图推动人们对像 Stark 法案和反回扣法规这类问题的思考边界。"
+ },
+ {
+  "seg": 241,
+  "start": 1452.681,
+  "end": 1457.265,
+  "speaker": "Unknown",
+  "en": "Maybe you can share some of those war stories and a little bit of the journey of how you got to your current business model.",
+  "zh": "也许你可以分享一些那些实战故事，以及一点点你们如何走到当前商业模式的旅程。"
+ },
+ {
+  "seg": 242,
+  "start": 1457.922,
+  "end": 1458.582,
+  "speaker": "Unknown",
+  "en": "Yeah, for sure.",
+  "zh": "是的，当然。"
+ },
+ {
+  "seg": 243,
+  "start": 1458.642,
+  "end": 1466.986,
+  "speaker": "Unknown",
+  "en": "And we started out as a subscription business where we charged every doctor the same amount of money just to be on the platform.",
+  "zh": "我们最初是一个订阅制业务，我们向每一位医生收取同样的费用，只要他们出现在平台上。"
+ },
+ {
+  "seg": 244,
+  "start": 1468.126,
+  "end": 1477.67,
+  "speaker": "Unknown",
+  "en": "That, quite frankly, didn't work as well as we hoped, because some doctors saw a lot of patients, some doctors saw a lot fewer, and everyone paid the same amount of money.",
+  "zh": "坦率地说，那不像我们希望的那样奏效，因为有些医生看很多病人，有些医生看得少得多，而每个人都付同样的钱。"
+ },
+ {
+  "seg": 245,
+  "start": 1477.69,
+  "end": 1482.592,
+  "speaker": "Unknown",
+  "en": "And ultimately, it was maybe too expensive for some and too cheap for others.",
+  "zh": "最终，这对一些人来说可能太贵，对另一些人来说又太便宜。"
+ },
+ {
+  "seg": 246,
+  "start": 1483.332,
+  "end": 1497.983,
+  "speaker": "Unknown",
+  "en": "We were very blessed by presenting this issue to the regulator and also laying out why a system like ZocTalk is really beneficial for the patient, for the provider, for the payers.",
+  "zh": "我们非常幸运地向监管机构提出了这个问题，并且阐述了为什么像 ZocTalk 这样的系统真正有利于患者、医疗提供方和付款方。"
+ },
+ {
+  "seg": 247,
+  "start": 1498.143,
+  "end": 1502.787,
+  "speaker": "Unknown",
+  "en": "And we ultimately got permission to operate the model that we operate today, which is",
+  "zh": "我们最终获得了运营我们今天所运营模式的许可，那就是"
+ },
+ {
+  "seg": 248,
+  "start": 1503.227,
+  "end": 1515.872,
+  "speaker": "Unknown",
+  "en": "We charge a provider for a discovery booking, meaning a booking where the patient was doing a general search and we connected them to that doctor.",
+  "zh": "我们针对发现型预约(discovery booking)向医疗提供方收费，即患者在进行一般性搜索时、我们把患者连接到那位医生的预约。"
+ },
+ {
+  "seg": 249,
+  "start": 1516.813,
+  "end": 1525.496,
+  "speaker": "Unknown",
+  "en": "Notably, we do not charge for bookings where a patient is looking for a specific doctor to begin with and all we do is facilitate the booking.",
+  "zh": "值得注意的是，我们不针对以下情况收费：患者一开始就在找某位特定医生，而我们所做的只是促成这次预约。"
+ },
+ {
+  "seg": 250,
+  "start": 1525.656,
+  "end": 1528.737,
+  "speaker": "Unknown",
+  "en": "That's software that should be free and we make it free.",
+  "zh": "那是本应免费的软件，我们让它免费。"
+ },
+ {
+  "seg": 251,
+  "start": 1528.757,
+  "end": 1529.858,
+  "speaker": "Unknown",
+  "en": "And as such, we have",
+  "zh": "因此，我们"
+ },
+ {
+  "seg": 252,
+  "start": 1530.578,
+  "end": 1537.181,
+  "speaker": "Unknown",
+  "en": "A very, very low bar for the doc financial bar for the doctor to come and join ZocDoc.",
+  "zh": "为医生设定了一个非常非常低的门槛，极低的财务门槛，让他们来加入 ZocDoc。"
+ },
+ {
+  "seg": 253,
+  "start": 1537.441,
+  "end": 1545.924,
+  "speaker": "Unknown",
+  "en": "There are many ways how you can use us for free and it just takes sort of the initial friction out of this entire relationship building.",
+  "zh": "有很多方式可以免费使用我们，这基本上消除了整个建立关系过程中的初期摩擦。"
+ },
+ {
+  "seg": 254,
+  "start": 1545.944,
+  "end": 1552.246,
+  "speaker": "Unknown",
+  "en": "So that's sort of how we're building our provider network today and it works fantastically.",
+  "zh": "这就是我们今天构建提供者网络的方式，而且效果非常好。"
+ },
+ {
+  "seg": 255,
+  "start": 1554.067,
+  "end": 1560.311,
+  "speaker": "Unknown",
+  "en": "What I'm particularly proud of is that 97% of the providers we signed up in the last 12 months inbounded to us.",
+  "zh": "我特别引以为豪的是，过去 12 个月我们签约的提供者中有 97% 是主动找上门来的。"
+ },
+ {
+  "seg": 256,
+  "start": 1560.651,
+  "end": 1561.451,
+  "speaker": "Unknown",
+  "en": "That's word of mouth.",
+  "zh": "这就是口碑传播。"
+ },
+ {
+  "seg": 257,
+  "start": 1561.591,
+  "end": 1564.033,
+  "speaker": "Unknown",
+  "en": "Their friends tell them this is a system that really works.",
+  "zh": "他们的朋友告诉他们，这个系统真的很好用。"
+ },
+ {
+  "seg": 258,
+  "start": 1564.433,
+  "end": 1565.373,
+  "speaker": "Unknown",
+  "en": "You should join too.",
+  "zh": "你也应该加入。"
+ },
+ {
+  "seg": 259,
+  "start": 1565.453,
+  "end": 1568.515,
+  "speaker": "Unknown",
+  "en": "And then they come to us and we onboard them.",
+  "zh": "然后他们来找我们，我们帮他们完成入驻。"
+ },
+ {
+  "seg": 260,
+  "start": 1568.635,
+  "end": 1573.038,
+  "speaker": "Unknown",
+  "en": "And that's been sort of a number that has been going up over the last few years.",
+  "zh": "这个数字在过去几年一直在上升。"
+ },
+ {
+  "seg": 261,
+  "start": 1573.438,
+  "end": 1575.279,
+  "speaker": "Unknown",
+  "en": "And we're very glad to see that.",
+  "zh": "我们对此非常高兴。"
+ },
+ {
+  "seg": 262,
+  "start": 1575.299,
+  "end": 1578.201,
+  "speaker": "Unknown",
+  "en": "That just tells us we're doing something right for the doctors.",
+  "zh": "这只是告诉我们，我们为医生做了正确的事情。"
+ },
+ {
+  "seg": 263,
+  "start": 1578.961,
+  "end": 1586.247,
+  "speaker": "Unknown",
+  "en": "On the payer side, we are monetizing slightly differently and it depends on the specific relationship.",
+  "zh": "在支付方这一侧，我们的变现方式略有不同，这取决于具体的合作关系。"
+ },
+ {
+  "seg": 264,
+  "start": 1586.407,
+  "end": 1589.53,
+  "speaker": "Unknown",
+  "en": "They get access to the entire network of providers.",
+  "zh": "他们可以访问整个提供者网络。"
+ },
+ {
+  "seg": 265,
+  "start": 1589.59,
+  "end": 1592.232,
+  "speaker": "Unknown",
+  "en": "They can schedule their patients with us.",
+  "zh": "他们可以通过我们来为他们的患者安排预约。"
+ },
+ {
+  "seg": 266,
+  "start": 1592.292,
+  "end": 1598.577,
+  "speaker": "Unknown",
+  "en": "They can, to the extent that they are, for example, in the AI platform, they can immediately",
+  "zh": "他们可以在某种程度上——比如，如果他们在 AI 平台上，他们可以立即"
+ },
+ {
+  "seg": 267,
+  "start": 1600.158,
+  "end": 1608.16,
+  "speaker": "Unknown",
+  "en": "Check also the insurance participation of the patient, of the provider, make sure this is really a match before they send the patient on their way.",
+  "zh": "检查患者的保险参保情况、提供者的参保情况，确保这确实是一个匹配，然后才让患者动身前往。"
+ },
+ {
+  "seg": 268,
+  "start": 1608.64,
+  "end": 1612.421,
+  "speaker": "Unknown",
+  "en": "And it's all turnkey out of one relationship.",
+  "zh": "这一切都通过一段合作关系即可开箱即用。"
+ },
+ {
+  "seg": 269,
+  "start": 1613.362,
+  "end": 1625.325,
+  "speaker": "Unknown",
+  "en": "We always focus on it being a win-win-win to make sure that this is really seamless and that we minimize any financial friction for our partners.",
+  "zh": "我们始终专注于实现三方共赢，确保这一切真正无缝，并最大限度地减少合作伙伴的任何财务摩擦。"
+ },
+ {
+  "seg": 270,
+  "start": 1626.008,
+  "end": 1627.229,
+  "speaker": "Unknown",
+  "en": "You mentioned a few metrics, Oliver.",
+  "zh": "Oliver，你提到了一些指标。"
+ },
+ {
+  "seg": 271,
+  "start": 1627.249,
+  "end": 1643.542,
+  "speaker": "Unknown",
+  "en": "I'm curious, back in the day at Kairos, we used to measure, you know, things like wait times, you know, distribution of capacity utilization across a group of providers and making sure that, you know, every provider is getting utilized in sort of relatively equal ways, you know, things of that sort.",
+  "zh": "我很好奇，当年在 Kairos 的时候，我们常常衡量一些指标，比如等待时间，比如一组提供者之间产能利用率的分布，确保每个提供者都以相对均衡的方式被利用，诸如此类。"
+ },
+ {
+  "seg": 272,
+  "start": 1643.562,
+  "end": 1646.144,
+  "speaker": "Unknown",
+  "en": "Like, can you share what kind of impact you've had?",
+  "zh": "比如，你能不能分享一下你们产生了什么样的影响？"
+ },
+ {
+  "seg": 273,
+  "start": 1646.164,
+  "end": 1647.005,
+  "speaker": "Unknown",
+  "en": "Like, are you seeing...",
+  "zh": "比如，你们是否看到……"
+ },
+ {
+  "seg": 274,
+  "start": 1647.685,
+  "end": 1648.965,
+  "speaker": "Unknown",
+  "en": "You know, reductions in wait times.",
+  "zh": "你知道，等待时间的缩短。"
+ },
+ {
+  "seg": 275,
+  "start": 1649.325,
+  "end": 1656.767,
+  "speaker": "Unknown",
+  "en": "And I think it was like 45 days was the average wait time for a primary care doctor's appointment in Boston, you know, at the time that I left Kairos.",
+  "zh": "我记得我离开 Kairos 的时候，在波士顿看一次初级保健医生的平均等待时间大概是 45 天。"
+ },
+ {
+  "seg": 276,
+  "start": 1656.787,
+  "end": 1657.808,
+  "speaker": "Unknown",
+  "en": "Like, has that gotten better?",
+  "zh": "那个情况有改善吗？"
+ },
+ {
+  "seg": 277,
+  "start": 1658.448,
+  "end": 1661.969,
+  "speaker": "Unknown",
+  "en": "And, you know, what have been the drivers of impact in either direction?",
+  "zh": "还有，你认为在这两个方向上，产生影响的驱动因素是什么？"
+ },
+ {
+  "seg": 278,
+  "start": 1661.989,
+  "end": 1664.209,
+  "speaker": "Unknown",
+  "en": "Like, has it gotten worse actually in certain areas?",
+  "zh": "比如，某些地区实际上是不是变得更糟了？"
+ },
+ {
+  "seg": 279,
+  "start": 1664.31,
+  "end": 1665.77,
+  "speaker": "Unknown",
+  "en": "And, you know, why do you think that's the case?",
+  "zh": "还有，你认为为什么会这样？"
+ },
+ {
+  "seg": 280,
+  "start": 1666.396,
+  "end": 1671.518,
+  "speaker": "Unknown",
+  "en": "So the sad story is broadly, since we started, it's gotten worse.",
+  "zh": "说来遗憾，总体而言，自我们成立以来，情况变得更糟了。"
+ },
+ {
+  "seg": 281,
+  "start": 1671.658,
+  "end": 1677.6,
+  "speaker": "Unknown",
+  "en": "When we got started, there was roughly 17 days, the average wait time nationwide to see a primary care doctor.",
+  "zh": "拿飞机来对比一下，对吧？"
+ },
+ {
+  "seg": 282,
+  "start": 1677.981,
+  "end": 1679.161,
+  "speaker": "Unknown",
+  "en": "Now it's 31 days.",
+  "zh": "现在是 31 天。"
+ },
+ {
+  "seg": 283,
+  "start": 1679.621,
+  "end": 1683.843,
+  "speaker": "Unknown",
+  "en": "However, using ZocDoc, you can see a doctor",
+  "zh": "然而，使用 ZocDoc，你可以看上医生"
+ },
+ {
+  "seg": 284,
+  "start": 1684.323,
+  "end": 1687.106,
+  "speaker": "Unknown",
+  "en": "Typically within three days or less, right?",
+  "zh": "通常在三天或更短时间之内，对吧？"
+ },
+ {
+  "seg": 285,
+  "start": 1687.406,
+  "end": 1688.307,
+  "speaker": "Unknown",
+  "en": "So 72 hours.",
+  "zh": "也就是 72 小时。"
+ },
+ {
+  "seg": 286,
+  "start": 1688.407,
+  "end": 1692.55,
+  "speaker": "Unknown",
+  "en": "And, you know, that's true for a broad range of specialties.",
+  "zh": "而且，这在很广泛的专科范围内都是如此。"
+ },
+ {
+  "seg": 287,
+  "start": 1693.011,
+  "end": 1695.733,
+  "speaker": "Unknown",
+  "en": "And it's true because doctors have last-minute cancellations.",
+  "zh": "之所以如此，是因为医生会有临时取消的预约。"
+ },
+ {
+  "seg": 288,
+  "start": 1695.773,
+  "end": 1697.715,
+  "speaker": "Unknown",
+  "en": "They have no-shows, they have reschedules.",
+  "zh": "会有爽约的，会有改期的。"
+ },
+ {
+  "seg": 289,
+  "start": 1698.035,
+  "end": 1704.381,
+  "speaker": "Unknown",
+  "en": "This last-minute capacity that we're surfacing to the patient and recapture.",
+  "zh": "这些最后一刻的产能，我们把它呈现给患者并重新回收利用。"
+ },
+ {
+  "seg": 290,
+  "start": 1704.561,
+  "end": 1708.425,
+  "speaker": "Unknown",
+  "en": "And this is one of the most incredible things about the entire healthcare system.",
+  "zh": "这是整个医疗系统最令人难以置信的事情之一。"
+ },
+ {
+  "seg": 291,
+  "start": 1709.025,
+  "end": 1711.068,
+  "speaker": "Unknown",
+  "en": "Compare that with airplanes, right?",
+  "zh": "对比一下飞机，对吧？"
+ },
+ {
+  "seg": 292,
+  "start": 1711.088,
+  "end": 1715.955,
+  "speaker": "Unknown",
+  "en": "Like airplanes, you know, used to fly 60% full, but that was in the 70s.",
+  "zh": "比如，飞机曾经上座率只有 60%，但那是在 70 年代。"
+ },
+ {
+  "seg": 293,
+  "start": 1716.075,
+  "end": 1724.147,
+  "speaker": "Unknown",
+  "en": "You know, with the advent of the internet, we had, you know, the Kayaks and the Expedias and the Bookings.com, and now airplanes have a load factor of over 90%.",
+  "zh": "随着互联网的出现，我们有了 Kayak、Expedia、Booking.com 这些平台，现在飞机的载客率超过 90%。"
+ },
+ {
+  "seg": 294,
+  "start": 1726.002,
+  "end": 1730.563,
+  "speaker": "Unknown",
+  "en": "In the wild, doctors have load factors around 70%, just under 70%.",
+  "zh": "在现实中，医生的利用率大约是 70%，略低于 70%。"
+ },
+ {
+  "seg": 295,
+  "start": 1730.903,
+  "end": 1739.686,
+  "speaker": "Unknown",
+  "en": "Now, with ZocDoc, we fill that last-minute capacity, and this is how we can get to the three-day average time.",
+  "zh": "现在，有了 ZocDoc，我们把这些最后一刻的产能填满，这就是我们能把平均等待时间缩短到三天的原因。"
+ },
+ {
+  "seg": 296,
+  "start": 1739.986,
+  "end": 1741.826,
+  "speaker": "Unknown",
+  "en": "And then, quite frankly, we manage our network.",
+  "zh": "然后，坦率地说，我们还管理我们的网络。"
+ },
+ {
+  "seg": 297,
+  "start": 1744.908,
+  "end": 1747.57,
+  "speaker": "Unknown",
+  "en": "For a patient to be able to have that experience.",
+  "zh": "为了让患者能够拥有那样的体验。"
+ },
+ {
+  "seg": 298,
+  "start": 1747.59,
+  "end": 1758.599,
+  "speaker": "Unknown",
+  "en": "So when we see that there's low capacity in one of our specialty zip code insurance quadrants, then we will add providers there.",
+  "zh": "所以，当我们发现某个专科、邮编、保险组成的象限里产能偏低时，我们就会在那里增加提供者。"
+ },
+ {
+  "seg": 299,
+  "start": 1760.58,
+  "end": 1768.748,
+  "speaker": "Unknown",
+  "en": "We're really much more driven by the patient experience and patient metrics than we are by any other metric.",
+  "zh": "我们的驱动，更多是来自患者体验和患者指标，而不是任何其他指标。"
+ },
+ {
+  "seg": 300,
+  "start": 1768.828,
+  "end": 1772.211,
+  "speaker": "Unknown",
+  "en": "And that's because we believe that when the patient wins, everyone wins.",
+  "zh": "这是因为我们相信,当患者赢了,所有人都会赢。"
+ },
+ {
+  "seg": 301,
+  "start": 1772.931,
+  "end": 1773.472,
+  "speaker": "Unknown",
+  "en": "That's incredible.",
+  "zh": "这太不可思议了。"
+ },
+ {
+  "seg": 302,
+  "start": 1773.972,
+  "end": 1778.917,
+  "speaker": "Unknown",
+  "en": "And, you know, one of the, like a cynical view about what you just described is that",
+  "zh": "而且,你知道,关于你刚才描述的,有一种比较愤世嫉俗的看法是"
+ },
+ {
+  "seg": 303,
+  "start": 1779.417,
+  "end": 1786.864,
+  "speaker": "Unknown",
+  "en": "If you're able to book an appointment within three days, whether it's DocDoc or any other mechanism, something's wrong with that doctor.",
+  "zh": "如果你能在三天内约到医生,无论是 DocDoc 还是任何其他机制,那这个医生肯定有问题。"
+ },
+ {
+  "seg": 304,
+  "start": 1786.904,
+  "end": 1790.267,
+  "speaker": "Unknown",
+  "en": "Why do they have availability when all the best doctors are booked out for months?",
+  "zh": "当所有最好的医生都排满几个月的时候,为什么他们还有空档?"
+ },
+ {
+  "seg": 305,
+  "start": 1790.307,
+  "end": 1802.358,
+  "speaker": "Unknown",
+  "en": "What's your take on that and your philosophy around quality and how consumers should think about judging the caliber of whatever capacity is available in the system?",
+  "zh": "你对此怎么看?你围绕质量的哲学是什么?消费者应该如何判断系统中可用服务能力的水准?"
+ },
+ {
+  "seg": 306,
+  "start": 1802.818,
+  "end": 1804.019,
+  "speaker": "Unknown",
+  "en": "And do you have examples where",
+  "zh": "你有没有例子"
+ },
+ {
+  "seg": 307,
+  "start": 1804.72,
+  "end": 1817.75,
+  "speaker": "Unknown",
+  "en": "You've actually, like, where you have teeth behind SLAs, for instance, or, you know, if providers do not demonstrate certain outcomes on your platform, you would pull them off, you know, any teeth behind that concept?",
+  "zh": "你实际上,比如说,在 SLA 背后有真正的约束手段,或者说,如果服务提供者在你的平台上没有展现出某种成果,你会把他们下架,你知道,这个概念背后有任何真正的约束手段吗?"
+ },
+ {
+  "seg": 308,
+  "start": 1818.231,
+  "end": 1821.453,
+  "speaker": "Unknown",
+  "en": "Yeah, so yes on both sides.",
+  "zh": "是的,两方面都有。"
+ },
+ {
+  "seg": 309,
+  "start": 1821.473,
+  "end": 1825.436,
+  "speaker": "Unknown",
+  "en": "So one kind of counterintuitive bit is that actually the best doctors",
+  "zh": "所以有一个有点反直觉的事实是,实际上最好的医生"
+ },
+ {
+  "seg": 310,
+  "start": 1826.377,
+  "end": 1834.684,
+  "speaker": "Unknown",
+  "en": "tend to have the worst utilization because they frequently treat patients that have very busy lives and cancel on them more often and they don't double book.",
+  "zh": "往往利用率最差,因为他们的患者通常生活很忙碌,更经常取消预约,而他们不做超额预约。"
+ },
+ {
+  "seg": 311,
+  "start": 1835.504,
+  "end": 1845.412,
+  "speaker": "Unknown",
+  "en": "And there's a funny anecdote where, you know, one of the deans of one of the academic medical centers we work with here in New York said, hey, I'm booked out three months in the future.",
+  "zh": "有一个有趣的轶事,你知道,我们在纽约合作的一家学术医疗中心的院长之一说,嘿,我的号排到三个月以后了。"
+ },
+ {
+  "seg": 312,
+  "start": 1845.432,
+  "end": 1847.494,
+  "speaker": "Unknown",
+  "en": "I don't think I should be on ZocTag.",
+  "zh": "我觉得我不应该上 ZocTag。"
+ },
+ {
+  "seg": 313,
+  "start": 1847.554,
+  "end": 1850.516,
+  "speaker": "Unknown",
+  "en": "And we said, okay, fine, we'll take you off, but give us just another 30 days.",
+  "zh": "我们说,好吧,行,我们把你下架,但再给我们 30 天。"
+ },
+ {
+  "seg": 314,
+  "start": 1851.557,
+  "end": 1856.262,
+  "speaker": "Unknown",
+  "en": "And just to see how many patients actually end up booking with you.",
+  "zh": "只是看看最终实际有多少患者会和你预约。"
+ },
+ {
+  "seg": 315,
+  "start": 1856.282,
+  "end": 1869.095,
+  "speaker": "Unknown",
+  "en": "And it was something in the order of magnitude of 40 patients, because sure enough, he had last minute cancellations that would have gone to waste, but we were able to connect a patient with them who were...",
+  "zh": "结果大约是 40 位患者这个量级,因为果然,他有一些本会被浪费掉的临时取消的号,但我们成功地把患者和他连接了起来,这些患者……"
+ },
+ {
+  "seg": 316,
+  "start": 1869.475,
+  "end": 1890.884,
+  "speaker": "Unknown",
+  "en": "Obviously keen to see him last minute but found him through ZocDoc and so he got better utilization and these patients got to see him and to my knowledge he's still on the system today because that's obviously the kinds of service that good doctors want to deliver to their patients.",
+  "zh": "显然非常想在临时的情况下见到他,但他们是通过 ZocDoc 找到他的,所以他的利用率提高了,这些患者也见到了他,据我所知,他今天仍然在系统上,因为这显然是好医生想要为患者提供的那种服务。"
+ },
+ {
+  "seg": 317,
+  "start": 1891.324,
+  "end": 1898.927,
+  "speaker": "Unknown",
+  "en": "In terms of who gets to be on ZocDoc, we are more selective than your neighborhood state",
+  "zh": "至于谁能上 ZocDoc,我们比你所在社区的州标准更严格"
+ },
+ {
+  "seg": 318,
+  "start": 1899.487,
+  "end": 1910.109,
+  "speaker": "Unknown",
+  "en": "You know, we have our own qualification, you know, entities and rules, and we do make sure that, you know, the doctors that are un-doctored all pass that.",
+  "zh": "你知道,我们有自己的资质认证,你知道,机构和规则,我们确保,你知道,所有医生都通过了认证。"
+ },
+ {
+  "seg": 319,
+  "start": 1910.489,
+  "end": 1913.25,
+  "speaker": "Unknown",
+  "en": "And, you know, we do remove doctors that don't.",
+  "zh": "而且,你知道,我们确实会移除没有通过的医生。"
+ },
+ {
+  "seg": 320,
+  "start": 1913.51,
+  "end": 1915.47,
+  "speaker": "Unknown",
+  "en": "Thinking ahead, like, what's next for XAI?",
+  "zh": "往前看,比如,XAI 的下一步是什么?"
+ },
+ {
+  "seg": 321,
+  "start": 1915.49,
+  "end": 1928.793,
+  "speaker": "Unknown",
+  "en": "You guys have accomplished so much and expanded, you know, the footprint of your product, expanded the number of markets that you sell into, you know, evolve your business model, lean into AI, you know, there's so much surface area now to what you do.",
+  "zh": "你们已经完成了这么多成就,扩展了,你知道,产品的版图,扩展了你们进入的市场数量,你知道,演进你们的商业模式,拥抱 AI,你知道,你们做的事情现在有这么大的覆盖面。"
+ },
+ {
+  "seg": 322,
+  "start": 1930.114,
+  "end": 1935.779,
+  "speaker": "Unknown",
+  "en": "What is, you know, maybe one or two big things that you look forward to that is on the roadmap for your company?",
+  "zh": "有什么,你知道,也许一两件你期待的大事在你们公司的路线图上?"
+ },
+ {
+  "seg": 323,
+  "start": 1936.44,
+  "end": 1937.401,
+  "speaker": "Unknown",
+  "en": "And what keeps you up at night?",
+  "zh": "又是什么让你夜不能寐?"
+ },
+ {
+  "seg": 324,
+  "start": 1937.421,
+  "end": 1941.805,
+  "speaker": "Unknown",
+  "en": "Like, what are you fearful about in terms of the future for the business?",
+  "zh": "比如,你对这个业务未来的什么感到担忧?"
+ },
+ {
+  "seg": 325,
+  "start": 1942.185,
+  "end": 1944.067,
+  "speaker": "Unknown",
+  "en": "Oh, my superpower is sleeping.",
+  "zh": "哦,我的超能力是睡觉。"
+ },
+ {
+  "seg": 326,
+  "start": 1944.127,
+  "end": 1945.648,
+  "speaker": "Unknown",
+  "en": "I don't know.",
+  "zh": "我不知道。"
+ },
+ {
+  "seg": 327,
+  "start": 1945.788,
+  "end": 1949.491,
+  "speaker": "Unknown",
+  "en": "I don't really stay up at night that long, but I'll say that...",
+  "zh": "我其实不会熬夜太久,但我会说……"
+ },
+ {
+  "seg": 328,
+  "start": 1950.456,
+  "end": 1956.237,
+  "speaker": "Unknown",
+  "en": "Our goal is to connect every single provider and make sure that every single front door in healthcare opens, right?",
+  "zh": "我们的目标是连接每一个服务提供者,确保医疗健康的每一扇前门都打开,对吧?"
+ },
+ {
+  "seg": 329,
+  "start": 1956.257,
+  "end": 1971.72,
+  "speaker": "Unknown",
+  "en": "This is why we've opened up our healthcare access infrastructure so that every payer, every AI platform, every consumer platform, review platform, search site, they can connect their patients directly to a doctor and it will work and it will work well.",
+  "zh": "这就是我们开放我们医疗可及性基础设施的原因,让每一个支付方、每一个 AI 平台、每一个消费者平台、评价平台、搜索网站,都能把他们的患者直接连接到医生,而且它能运作,而且运作良好。"
+ },
+ {
+  "seg": 330,
+  "start": 1972.08,
+  "end": 1979.262,
+  "speaker": "Unknown",
+  "en": "And I think that's a contribution to US welfare and healthcare that we would be very proud of.",
+  "zh": "我认为这是我们对美国福利和医疗健康的一项贡献,我们会为此感到非常自豪。"
+ },
+ {
+  "seg": 331,
+  "start": 1979.795,
+  "end": 1980.215,
+  "speaker": "Unknown",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 332,
+  "start": 1980.955,
+  "end": 1982.996,
+  "speaker": "Unknown",
+  "en": "Anything that we didn't cover, Oliver, that you want to speak to?",
+  "zh": "Oliver,有没有我们没聊到、你想谈的?"
+ },
+ {
+  "seg": 333,
+  "start": 1983.476,
+  "end": 1987.737,
+  "speaker": "Unknown",
+  "en": "Well, I mean, I think that's really the aspiration.",
+  "zh": "嗯,我是说,我觉得这真的就是我们的愿景。"
+ },
+ {
+  "seg": 334,
+  "start": 1987.757,
+  "end": 1989.018,
+  "speaker": "Unknown",
+  "en": "You know, we are hiring.",
+  "zh": "你知道,我们在招聘。"
+ },
+ {
+  "seg": 335,
+  "start": 1989.618,
+  "end": 1997.54,
+  "speaker": "Unknown",
+  "en": "I strongly believe that people are going to be a necessary and much more productive through AI, but we want the strongest possible team.",
+  "zh": "我坚信人们会是必需的,而且通过 AI 会更有生产力,但我们想要尽可能最强的团队。"
+ },
+ {
+  "seg": 336,
+  "start": 1997.84,
+  "end": 2005.643,
+  "speaker": "Unknown",
+  "en": "So if you're excited about it by making it easier for patients to connect to care wherever they are, I would like to seek us out.",
+  "zh": "所以,如果你对让患者无论身在何处都更容易连接到医疗服务感到兴奋,我希望能找到我们。"
+ },
+ {
+  "seg": 337,
+  "start": 2005.723,
+  "end": 2006.983,
+  "speaker": "Unknown",
+  "en": "Very much looking forward to meeting you.",
+  "zh": "非常期待见到你。"
+ },
+ {
+  "seg": 338,
+  "start": 2007.243,
+  "end": 2007.603,
+  "speaker": "Unknown",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 339,
+  "start": 2007.743,
+  "end": 2014.526,
+  "speaker": "Unknown",
+  "en": "And I presume that if you're a startup building in this space and you want access to the ZocDoc APIs, is that something that's readily available on your website?",
+  "zh": "我猜,如果你是一家在这个领域创业的公司,想要访问 ZocDoc 的 API,这在你们的网站上可以轻易获取吗?"
+ },
+ {
+  "seg": 340,
+  "start": 2014.886,
+  "end": 2015.387,
+  "speaker": "Unknown",
+  "en": "It's right.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 341,
+  "start": 2015.407,
+  "end": 2019.048,
+  "speaker": "Unknown",
+  "en": "Just find it on the website, submit your information, we'll get back to you.",
+  "zh": "在网站上找到它,提交你的信息,我们会回复你。"
+ },
+ {
+  "seg": 342,
+  "start": 2019.068,
+  "end": 2019.969,
+  "speaker": "Unknown",
+  "en": "Thank you so much, Oliver.",
+  "zh": "非常感谢你,Oliver。"
+ },
+ {
+  "seg": 343,
+  "start": 2020.169,
+  "end": 2024.23,
+  "speaker": "Unknown",
+  "en": "Congratulations on everything you've done over the long arc of time that you and I have been in this space.",
+  "zh": "祝贺你在你我共同身处这个领域的漫长岁月里所做成的一切。"
+ },
+ {
+  "seg": 344,
+  "start": 2024.491,
+  "end": 2028.052,
+  "speaker": "Unknown",
+  "en": "And we look forward to what's coming in the future for ZocDoc.",
+  "zh": "我们期待 ZocDoc 未来的发展。"
+ },
+ {
+  "seg": 345,
+  "start": 2028.632,
+  "end": 2029.173,
+  "speaker": "Unknown",
+  "en": "Good to be here.",
+  "zh": "很高兴来到这里。"
+ },
+ {
+  "seg": 346,
+  "start": 2029.193,
+  "end": 2029.833,
+  "speaker": "Unknown",
+  "en": "Thank you so much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 347,
+  "start": 2032.594,
+  "end": 2035.536,
+  "speaker": "Unknown",
+  "en": "Thanks for listening to this episode of the A16Z Podcast.",
+  "zh": "感谢收听本期 A16Z Podcast。"
+ },
+ {
+  "seg": 348,
+  "start": 2036.097,
+  "end": 2042.482,
+  "speaker": "Unknown",
+  "en": "If you liked this episode, be sure to like, comment, subscribe, leave us a rating or review, and share it with your friends and family.",
+  "zh": "如果你喜欢这一集,请务必点赞、评论、订阅,给我们评分或评论,并分享给你的朋友和家人。"
+ },
+ {
+  "seg": 349,
+  "start": 2043.243,
+  "end": 2046.825,
+  "speaker": "Unknown",
+  "en": "For more episodes, go to YouTube, Apple Podcasts, and Spotify.",
+  "zh": "更多剧集请前往 YouTube、Apple Podcasts 和 Spotify。"
+ },
+ {
+  "seg": 350,
+  "start": 2047.406,
+  "end": 2053.151,
+  "speaker": "Unknown",
+  "en": "Follow us on X at A16Z and subscribe to our Substack at a16z.substack.com.",
+  "zh": "请在 X 上关注我们,账号是 A16Z,并订阅我们的 Substack:a16z.substack.com。"
+ },
+ {
+  "seg": 351,
+  "start": 2053.491,
+  "end": 2056.033,
+  "speaker": "Unknown",
+  "en": "Thanks again for listening, and I'll see you in the next episode.",
+  "zh": "再次感谢收听,我们下期节目再见。"
+ },
+ {
+  "seg": 352,
+  "start": 2058.102,
+  "end": 2071.169,
+  "speaker": "Unknown",
+  "en": "As a reminder, the content here is for informational purposes only, should not be taken as legal, business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any A16Z fund.",
+  "zh": "提醒一下,本内容仅供参考,不应被视为法律、商业、税务或投资建议,也不应用于评估任何投资或证券,且不面向任何 A16Z 基金的投资者或潜在投资者。"
+ },
+ {
+  "seg": 353,
+  "start": 2071.829,
+  "end": 2076.511,
+  "speaker": "Unknown",
+  "en": "Please note that A16Z and its affiliates may also maintain investments in the companies discussed in this podcast.",
+  "zh": "请注意,A16Z 及其关联机构也可能持有本播客中所讨论公司的投资。"
+ },
+ {
+  "seg": 354,
+  "start": 2077.012,
+  "end": 2083.655,
+  "speaker": "Unknown",
+  "en": "For more details, including a link to our investments, please see a16z.com forward slash disclosures.",
+  "zh": "更多详情,包括我们投资项目的链接,请访问 a16z.com forward slash disclosures。"
+ }
+]

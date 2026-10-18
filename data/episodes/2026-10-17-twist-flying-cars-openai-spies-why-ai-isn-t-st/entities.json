@@ -1,0 +1,1976 @@
+{
+  "episode_id": "2026-10-17-twist-flying-cars-openai-spies-why-ai-isn-t-st",
+  "podcast": "This Week in Startups",
+  "date": "2026-10-17",
+  "tags": [
+    "并购",
+    "智能体",
+    "AI 检测",
+    "AI 写作",
+    "AI 安全"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "shashir-marotra",
+      "type": "person",
+      "role": "host",
+      "name": "Shashir Marotra",
+      "file": "Shashir Marotra",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            194.767,
+            197.11
+          ],
+          "quote": "Once again, joined by the great Shashir Marotra.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "superhuman",
+      "type": "company",
+      "role": "company",
+      "name": "Superhuman",
+      "file": "Superhuman",
+      "primary": true,
+      "how_described": "本集说 Superhuman 是被 Grammarly 收购后统一挂上品牌的生产力套件,CEO 谈其收购逻辑:买正在增长但缺分发的产品,给它们更大的平台。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 75,
+          "t": [
+            197.15,
+            199.192
+          ],
+          "quote": "He's the CEO of Superhuman.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 77,
+          "t": [
+            212.245,
+            215.709
+          ],
+          "quote": "You could fall back on these amazing productivity tools from Superhuman.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 86,
+          "t": [
+            231.892,
+            242.918
+          ],
+          "quote": "You obviously Grammarly bought Superhuman, Raul's company, which we were the first investors in, although some people will claim to be the first investors, and we'll have that debate till the end of time.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 116,
+          "t": [
+            393.634,
+            396.817
+          ],
+          "quote": "Obviously, Superhuman has now become super integrated.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 124,
+          "t": [
+            423.797,
+            432.924
+          ],
+          "quote": "So that's turning into a new set of capabilities that'll show up in what's currently SuperHuman Docs as we're building out that suite, that's SuperHuman Spreadsheet, SuperHuman Databases.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1184.415,
+            1185.977
+          ],
+          "quote": "It's like part of why we picked the name superhuman.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1427.985,
+            1435.551
+          ],
+          "quote": "I need a lightweight assessment tool, just in Grammarly, in Superhuman, boom, or just look at everybody's output and then just rate them.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1435.751,
+            1443.058
+          ],
+          "quote": "What is the actual output of this person's SLACs and Superhuman email output?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 486,
+          "t": [
+            1840.457,
+            1848.42
+          ],
+          "quote": "Why, when I'm on X myself or I'm in an email, why aren't you checking in Superhuman if the person who sent me the email is using AI?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 496,
+          "t": [
+            1871.537,
+            1874.442
+          ],
+          "quote": "Superhuman male is like a lifeline for me.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 577,
+          "t": [
+            2112.484,
+            2116.686
+          ],
+          "quote": "I say, take a screenshot that you have Superhuman Grammarly turned on.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 583,
+          "t": [
+            2138.505,
+            2141.809
+          ],
+          "quote": "I'm angry customer number one for superhuman now.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 613,
+          "t": [
+            2247.798,
+            2260.961
+          ],
+          "quote": "So my first thought was a lot of the things that we at Launch are using Grammarly Superhuman for, you start to hear them associated with, well, you could do that with Muse, you could do that with Dots, you could do that with GrokBot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 615,
+          "t": [
+            2263.461,
+            2266.722
+          ],
+          "quote": "Like, how at Superhuman are you thinking about that?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 664,
+          "t": [
+            2464.277,
+            2467.839
+          ],
+          "quote": "I'm just letting everybody at Superhuman know, cancel your plans.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 716,
+          "t": [
+            2648.694,
+            2652.317
+          ],
+          "quote": "If you haven't tried Superhuman or Grab really, what are you doing, folks?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 721,
+          "t": [
+            2658.978,
+            2668.266
+          ],
+          "quote": "This is the easiest decision you're ever gonna make is to have Grammarly and Superhuman running because you're gonna save minimum two hours a week on email.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 732,
+          "t": [
+            2710.788,
+            2712.648
+          ],
+          "quote": "Okay, everybody go, get superhuman grammar.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 737,
+          "t": [
+            2717.472,
+            2718.673
+          ],
+          "quote": "Superhuman, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 738,
+          "t": [
+            2718.733,
+            2723.176
+          ],
+          "quote": "As you know, for background, Lon, we were the first investors in Superhuman.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 741,
+          "t": [
+            2727.48,
+            2734.025
+          ],
+          "quote": "They put it all together, and they slapped the Superhuman label on the entire suite, which makes sense.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "grammarly",
+      "type": "company",
+      "role": "company",
+      "name": "Grammarly",
+      "file": "Grammarly",
+      "primary": true,
+      "how_described": "本集说它是套件中争议最小的 AI 工具,在用户工作的一切界面旁运行、持续纠错,研究表明使用它的学生反而能学到更好的语法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 76,
+          "t": [
+            199.392,
+            212.025
+          ],
+          "quote": "They, of course, make AI tools, including Grammarly, that help you write your documents, manage your email, get work done anywhere that you are, any site that you're on, any platform that you're using.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 86,
+          "t": [
+            231.892,
+            242.918
+          ],
+          "quote": "You obviously Grammarly bought Superhuman, Raul's company, which we were the first investors in, although some people will claim to be the first investors, and we'll have that debate till the end of time.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 187,
+          "t": [
+            654.121,
+            662.825
+          ],
+          "quote": "We can come back and talk more about Go, but basically the platform layer of Grammarly allows you to build agents that work everywhere you work, just like Grammarly does.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 245,
+          "t": [
+            936.571,
+            958.497
+          ],
+          "quote": "And just, I mean, just to give you a very simplistic example is you imagine that you're writing your email to a customer and, you know, today you have Grammarly running right alongside you and Grammarly comes in like your grammar teacher in your pocket saying, hey, you've got the incorrect spelling or grammar here, or you have a passive tone here and you're unlikely to close a deal.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1001.32,
+            1005.141
+          ],
+          "quote": "Grammarly is a very polarizing product in education.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1005.601,
+            1008.962
+          ],
+          "quote": "There are people who are like, you have to use Grammarly.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1009.042,
+            1012.262
+          ],
+          "quote": "And then there are people who are, you cannot use Grammarly.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1014.963,
+            1018.804
+          ],
+          "quote": "I am a part of the former camp, which is you have to use Grammarly.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1040.521,
+            1042.003
+          ],
+          "quote": "And then what I love about Grammarly is",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1042.583,
+            1052.896
+          ],
+          "quote": "I don't care if you don't know the commas right now because grammarly correcting you on a regular basis actually kind of makes you learn it over time.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1129.373,
+            1134.417
+          ],
+          "quote": "You said a couple of things there that are worth reacting to is on Grammarly being polarizing.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1136.598,
+            1141.762
+          ],
+          "quote": "I would say Grammarly is the least polarizing AI tool in the suite.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1156.273,
+            1161.757
+          ],
+          "quote": "And mathematically, what you said is true, that the students who use Grammarly actually learn better grammar.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1165.861,
+            1171.625
+          ],
+          "quote": "In some cases, it's like meaningful changes and they do a holdback study and some people get Grammarly and some people don't.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1427.985,
+            1435.551
+          ],
+          "quote": "I need a lightweight assessment tool, just in Grammarly, in Superhuman, boom, or just look at everybody's output and then just rate them.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1453.166,
+            1462.094
+          ],
+          "quote": "Doesn't Grammarly already do something like, I feel like I get scores back from Grammarly where it's like your vocabs in the top 97% of all Grammarly users.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 483,
+          "t": [
+            1834.936,
+            1835.776
+          ],
+          "quote": "You have Grammarly.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 532,
+          "t": [
+            1961.957,
+            1964.778
+          ],
+          "quote": "When, when, cause I have it, I have Grammarly on.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 533,
+          "t": [
+            1964.878,
+            1968.44
+          ],
+          "quote": "I, the biggest issue I have in my company with Grammarly is enforcement.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 543,
+          "t": [
+            2009.234,
+            2010.814
+          ],
+          "quote": "I forgot to turn Grammarly on.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 562,
+          "t": [
+            2069.751,
+            2070.891
+          ],
+          "quote": "It looks just like Grammarly.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 577,
+          "t": [
+            2112.484,
+            2116.686
+          ],
+          "quote": "I say, take a screenshot that you have Superhuman Grammarly turned on.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 600,
+          "t": [
+            2184.716,
+            2187.939
+          ],
+          "quote": "Please make sure you have Grammarly desktop downloaded and installed on your machine.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 613,
+          "t": [
+            2247.798,
+            2260.961
+          ],
+          "quote": "So my first thought was a lot of the things that we at Launch are using Grammarly Superhuman for, you start to hear them associated with, well, you could do that with Muse, you could do that with Dots, you could do that with GrokBot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 640,
+          "t": [
+            2341.274,
+            2348.279
+          ],
+          "quote": "And the key thing to know about Grammarly, what's now Go, so Grammarly works in about 40 million or so daily active users.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 646,
+          "t": [
+            2372.413,
+            2386.979
+          ],
+          "quote": "So as you type anywhere, you could be in Salesforce, you could be in Apple Notes, you could be in Slack, you could be anywhere, you have Grammarly and now Go, watching everything you do, annotating in a way that's unobtrusive to you and to the application and making changes on your behalf.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 650,
+          "t": [
+            2401.551,
+            2407.78
+          ],
+          "quote": "I think it's interesting because the volume, if you use Grammarly, we are almost certainly your number one AI tool.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 673,
+          "t": [
+            2481.407,
+            2485.271
+          ],
+          "quote": "You have a keyboard, Grammarly keyboard on iOS.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 674,
+          "t": [
+            2485.491,
+            2487.252
+          ],
+          "quote": "It's incredible for doing Grammarly.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 680,
+          "t": [
+            2499.603,
+            2507.168
+          ],
+          "quote": "Now, when you do dictation on Grammarly, it doesn't do whisper flow level dictation.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 721,
+          "t": [
+            2658.978,
+            2668.266
+          ],
+          "quote": "This is the easiest decision you're ever gonna make is to have Grammarly and Superhuman running because you're gonna save minimum two hours a week on email.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 730,
+          "t": [
+            2700.886,
+            2709.447
+          ],
+          "quote": "And I put Grammarly on my 16-year-old's computer and I'm like, going through this with her, you have to learn to write acoustically.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 739,
+          "t": [
+            2723.196,
+            2724.978
+          ],
+          "quote": "The email program Grammarly was going.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 754,
+          "t": [
+            2773.642,
+            2780.366
+          ],
+          "quote": "Grammarly has been my domain registrar for 20 years, I think.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "go",
+      "type": "company",
+      "role": "company",
+      "name": "Go",
+      "file": "Go",
+      "primary": true,
+      "how_described": "本集说 Go 是 Grammarly 开放出来的平台层,允许团队自己部署'事实核查员''点子生成器'等智能体,让它们坐在每个员工身边,正以每周多个百分点的速度增长。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            49.27,
+            56.294
+          ],
+          "quote": "There's trains, but then you get to the neighborhoods and you just want to mill around and go down all the little side streets and see everything there is to see.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 18,
+          "t": [
+            57.725,
+            71.841
+          ],
+          "quote": "Yeah, and if you're an old man like me and you get addicted to rucking, you throw the backpack on, you walk around, bang, bang, I hit two different lunch places, bang, bang, two different cafes, I take my laptop out, I work for an hour or two, go to the next place.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 52,
+          "t": [
+            143.243,
+            150.226
+          ],
+          "quote": "If you want to check out Plod, go to plodai.twist and use the code TWIST and they're going to give you 10% off your Plod Notepid.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 108,
+          "t": [
+            357.01,
+            364.054
+          ],
+          "quote": "And, you know, we take the number one or number two AI detector on the planet and we give it a much bigger platform to go run on.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 162,
+          "t": [
+            576.065,
+            586.431
+          ],
+          "quote": "If you go to istheinternetai.com, it's a really interesting look at, we've been scanning Reddit, LinkedIn, Twitter, so on.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 183,
+          "t": [
+            641.933,
+            644.095
+          ],
+          "quote": "But if you're looking for humans, you can go help find them.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 186,
+          "t": [
+            649.178,
+            652.74
+          ],
+          "quote": "It's very broadly deployed, but will run as an agent on Go.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 187,
+          "t": [
+            654.121,
+            662.825
+          ],
+          "quote": "We can come back and talk more about Go, but basically the platform layer of Grammarly allows you to build agents that work everywhere you work, just like Grammarly does.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 217,
+          "t": [
+            784.231,
+            798.086
+          ],
+          "quote": "And this used to be, you know, I would say a pretty big business because you had these companies like ZoomInvo that would pay thousands of people to go and call and make notes and fill out this database.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 221,
+          "t": [
+            805.931,
+            817.295
+          ],
+          "quote": "You could get to use one of these web LLM tools, go and scrape the web, find the newest updates, and then connect it to your database.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 222,
+          "t": [
+            817.615,
+            829.378
+          ],
+          "quote": "So sort of lead enrichment in our world is like use, you know, a modern LLM web provider like Exa and get them to go search through a million different documents and come back to you with an answer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 223,
+          "t": [
+            829.578,
+            834.941
+          ],
+          "quote": "All right, everybody go check out lightfield.app and see what it can do for your company.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 236,
+          "t": [
+            890.453,
+            893.174
+          ],
+          "quote": "We also, through Go, we integrate with just about everything.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 243,
+          "t": [
+            932.43,
+            933.63
+          ],
+          "quote": "And so where does that all go?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 485,
+          "t": [
+            1838.337,
+            1840.037
+          ],
+          "quote": "Why can't I go on the offensive?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 542,
+          "t": [
+            2003.353,
+            2009.034
+          ],
+          "quote": "Because people on my team are constantly, I catch them with mistakes, and they go, oh, I forgot.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 549,
+          "t": [
+            2020.758,
+            2024.561
+          ],
+          "quote": "The thing we're seeing a lot with Go, by the way, Go is growing like a rocket ship.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 553,
+          "t": [
+            2041.275,
+            2043.197
+          ],
+          "quote": "Yeah, there you go.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 561,
+          "t": [
+            2067.851,
+            2069.651
+          ],
+          "quote": "And they go and they deploy an agent on Go.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 564,
+          "t": [
+            2078.573,
+            2079.953
+          ],
+          "quote": "And you can then go enforce it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 576,
+          "t": [
+            2110.663,
+            2112.364
+          ],
+          "quote": "I go to my general channel in Slack.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 578,
+          "t": [
+            2117.026,
+            2121.928
+          ],
+          "quote": "And then if somebody doesn't reply, then I have somebody go break their chops and be like, what's going on here?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 616,
+          "t": [
+            2266.742,
+            2273.363
+          ],
+          "quote": "Do you see them as direct rivals or are you just, you know, like, that's a fad, it'll come and go, we're focused on our mission?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 632,
+          "t": [
+            2317.048,
+            2317.988
+          ],
+          "quote": "They go off and do the tasks.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 640,
+          "t": [
+            2341.274,
+            2348.279
+          ],
+          "quote": "And the key thing to know about Grammarly, what's now Go, so Grammarly works in about 40 million or so daily active users.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 646,
+          "t": [
+            2372.413,
+            2386.979
+          ],
+          "quote": "So as you type anywhere, you could be in Salesforce, you could be in Apple Notes, you could be in Slack, you could be anywhere, you have Grammarly and now Go, watching everything you do, annotating in a way that's unobtrusive to you and to the application and making changes on your behalf.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 653,
+          "t": [
+            2416.847,
+            2420.549
+          ],
+          "quote": "And what we did with Go is we just opened that up and we said, it's no longer just about grammar.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 690,
+          "t": [
+            2531.095,
+            2533.036
+          ],
+          "quote": "They want dictation when they're on the go.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 718,
+          "t": [
+            2653.918,
+            2655.179
+          ],
+          "quote": "Go download it right now.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 732,
+          "t": [
+            2710.788,
+            2712.648
+          ],
+          "quote": "Okay, everybody go, get superhuman grammar.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 745,
+          "t": [
+            2740.428,
+            2754.493
+          ],
+          "quote": "You know, a lot of founders, when they're getting started, they might try to, well, you know, like, here's the name we want, we're going to put try in front, or we're going to put get in front, or we're going to go .egc or whatever, you know, to try to get the name they want.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 748,
+          "t": [
+            2760.055,
+            2765.037
+          ],
+          "quote": "And that's why you want to go and get help from our friends, Jason, at GoDaddy.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 765,
+          "t": [
+            2806.239,
+            2812.482
+          ],
+          "quote": "We just want people to go learn more about how they can get the best domain name possible at GoDaddy.com.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 793,
+          "t": [
+            2878.844,
+            2891.307
+          ],
+          "quote": "So Disgratziad I have, and I just go into GoDaddy and I forward it as a joke to whoever's my Disgratziad of the week, somebody who I'm upset with that they did something disgraceful.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 795,
+          "t": [
+            2895.807,
+            2897.548
+          ],
+          "quote": "There is no promo code, just go to GoDaddy.com.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 807,
+          "t": [
+            2931.563,
+            2934.625
+          ],
+          "quote": "The news goes by in your social feed, funding announcements go by.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 930,
+          "t": [
+            3412.995,
+            3416.297
+          ],
+          "quote": "Now, if we go to the next image, I don't know if there's a second image in this newsletter.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 933,
+          "t": [
+            3418.399,
+            3418.86
+          ],
+          "quote": "There we go.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 944,
+          "t": [
+            3477.828,
+            3484.589
+          ],
+          "quote": "So go sign up, twistartups.substack.com if you want this kind of content.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 996,
+          "t": [
+            3659.464,
+            3666.23
+          ],
+          "quote": "Then I want the video to go back in the newsletter so we can ask Lon and I specific follow-ups to the person.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1012,
+          "t": [
+            3731.564,
+            3733.045
+          ],
+          "quote": "Let's go take a look.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1044,
+          "t": [
+            3839.069,
+            3842.452
+          ],
+          "quote": "But you can also go to careers.launch.co.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1133,
+          "t": [
+            4180.504,
+            4185.305
+          ],
+          "quote": "So these are very nuanced issues and you need to go through hiring training if you're going to do this.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1170,
+          "t": [
+            4318.97,
+            4322.19
+          ],
+          "quote": "And then I go through that list myself with my knowledge and taste.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1213,
+          "t": [
+            4465.133,
+            4468.336
+          ],
+          "quote": "Word is that this new Roadster will go into production in 2028.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1256,
+          "t": [
+            4593.133,
+            4596.955
+          ],
+          "quote": "And if you go and you hit a quadcopter, it rebalances, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1298,
+          "t": [
+            4734.251,
+            4736.392
+          ],
+          "quote": "He claims it's going to be able to go at half a Mach.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1362,
+          "t": [
+            5019.732,
+            5031.579
+          ],
+          "quote": "There's a picture of the person going behind the TV set in the boardroom to go collect the device with a shocking look on their face, which is either them just being guilty by default.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1364,
+          "t": [
+            5035.821,
+            5037.622
+          ],
+          "quote": "So just take that one down and go to the other one.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1366,
+          "t": [
+            5040.804,
+            5052.456
+          ],
+          "quote": "Where they're ready to go like to retrieve this, the countermeasure, they put a video camera or tiny pin camera to get the person on camera retrieving it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1395,
+          "t": [
+            5176.682,
+            5179.404
+          ],
+          "quote": "So they didn't need to get a judge's warrant to go look at her.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1519,
+          "t": [
+            5569.917,
+            5571.298
+          ],
+          "quote": "I didn't even know you were in- There you go.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "bending-spoons",
+      "type": "company",
+      "role": "company",
+      "name": "Bending Spoons",
+      "file": "Bending Spoons",
+      "primary": true,
+      "how_described": "本集说它是与 Superhuman 并列最活跃的收购方,但策略几乎相反:买巅峰已过的产品,延长寿命、榨取额外价值。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 83,
+          "t": [
+            220.874,
+            225.279
+          ],
+          "quote": "In some ways, are you becoming like the productivity version of Bending Spoons?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 91,
+          "t": [
+            266.596,
+            276.005
+          ],
+          "quote": "You have bending spoons, buying Airtable and other assets for one times, two times revenue, and then managing them more effectively with AI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 95,
+          "t": [
+            304.583,
+            305.643
+          ],
+          "quote": "The Bending Spoons comparison,",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "fathom",
+      "type": "company",
+      "role": "company",
+      "name": "Fathom",
+      "file": "Fathom",
+      "primary": true,
+      "how_described": "本集说 Fathom 是被数百万用户使用的流行笔记工具,收购它是为了抓住'公司里 90% 的发言内容被说完即忘'的机会。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 94,
+          "t": [
+            297.458,
+            303.402
+          ],
+          "quote": "Yeah, I think since I last came on the show, we bought three companies, Rose Fathom and GPG Zero.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 109,
+          "t": [
+            364.094,
+            370.777
+          ],
+          "quote": "We take a popular note taker with Fathom and give it a much broader base of users to run on, much broader set of surfaces to run on.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 188,
+          "t": [
+            663.465,
+            668.047
+          ],
+          "quote": "And then the third acquisition that was most recent was Fathom.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 189,
+          "t": [
+            668.087,
+            681.992
+          ],
+          "quote": "So Fathom is a popular note-taking tool, the software version of the thing you were showing at the beginning of the show, used by millions of users, a really popular product.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "rose",
+      "type": "company",
+      "role": "company",
+      "name": "Rose",
+      "file": "Rose",
+      "primary": false,
+      "how_described": "本集说 Rose 是葡萄牙的电子表格产品公司,将被完全整合进 Superhuman Docs 套件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 94,
+          "t": [
+            297.458,
+            303.402
+          ],
+          "quote": "Yeah, I think since I last came on the show, we bought three companies, Rose Fathom and GPG Zero.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 122,
+          "t": [
+            415.832,
+            417.813
+          ],
+          "quote": "So we bought a company in Portugal called Rose.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集新闻说 FBI 逮捕了在高管会议室藏录音设备的 OpenAI 工程师,八个州起诉其儿童保护不足,且其聊天记录永久保存成为窃听案破案关键。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1344,
+          "t": [
+            4885.657,
+            4894.764
+          ],
+          "quote": "Earlier this week, the FBI arrested OpenAI engineer Abdulrahman Al-Fazan for allegedly hiding a recording device in an executive conference room.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1348,
+          "t": [
+            4908.973,
+            4917.237
+          ],
+          "quote": "The Wall Street Journal reports that OpenAI was already training staff to spot honeypots and spies who use romance, Jason, to get their secrets.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1349,
+          "t": [
+            4917.498,
+            4921.72
+          ],
+          "quote": "They are told not to wear their OpenAI gear in public and to be wary.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1351,
+          "t": [
+            4923.943,
+            4934.779
+          ],
+          "quote": "I mean, if you work at OpenAI and someone comes up to you in a bar and they're being a little too friendly to you, should you now presume that person is an international spy trying to get at your models?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1360,
+          "t": [
+            5001.725,
+            5012.009
+          ],
+          "quote": "They have really good counterintelligence, I think, going on at OpenAI because they put a camera, once they found this device, they left it because they knew the person would retrieve it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1373,
+          "t": [
+            5072.254,
+            5086.308
+          ],
+          "quote": "I mean, that was going to be my first question to you is, what do you think they're actually trying to get on tape in this OpenAI conference room that would be so valuable that it's worth sending this guy in there?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1393,
+          "t": [
+            5167.815,
+            5172.999
+          ],
+          "quote": "The person's spouse was looking this up on their OpenAI account.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1396,
+          "t": [
+            5184.935,
+            5189.139
+          ],
+          "quote": "The spouse's OpenAI account, they just were like, well, who's this person's spouse?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1398,
+          "t": [
+            5190.28,
+            5197.347
+          ],
+          "quote": "The OpenAI security team was able to look at their own OpenAI chat logs and say, well, who's the person's spouse?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1400,
+          "t": [
+            5199.129,
+            5204.874
+          ],
+          "quote": "So this should let you know, if you're putting anything into OpenAI, Claude or Gemini or any of these services, it's recorded.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1403,
+          "t": [
+            5207.937,
+            5214.24
+          ],
+          "quote": "I know that you'll hear people say they're kind of freaked out about everything OpenAI or knows about them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1447,
+          "t": [
+            5289.731,
+            5293.373
+          ],
+          "quote": "Eight states are suing OpenAI, speaking of House of Altman.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1452,
+          "t": [
+            5309.723,
+            5316.507
+          ],
+          "quote": "The suits say OpenAI is marketing ChatGPT as safe for kids under 13 and that it plainly is not.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1458,
+          "t": [
+            5336.115,
+            5343.939
+          ],
+          "quote": "Brenna and the other AGs want OpenAI to disgorge money they earned while miners are being harmed and stop making deceptive safety claims.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1461,
+          "t": [
+            5348.401,
+            5356.325
+          ],
+          "quote": "OpenAI responded that it has built age-specific protections and wants rules that will apply to the whole industry, not just one company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1515,
+          "t": [
+            5554.991,
+            5558.352
+          ],
+          "quote": "It's on OpenAI to make sure kids aren't using it.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集说八个州指控 ChatGPT 对未成年用户保护不足,Jason 主张应有严格限制的儿童版、像只引导不给答案的家教。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 624,
+          "t": [
+            2289.98,
+            2291.722
+          ],
+          "quote": "And so ChatGPT came out, you know,",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 877,
+          "t": [
+            3181.639,
+            3191.165
+          ],
+          "quote": "They're not even going to ChatGPT and asking, hey, what's the best tool to connect my app to this or to get my app online quickly or whatever they want to do?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1338,
+          "t": [
+            4877.35,
+            4879.612
+          ],
+          "quote": "Like there's the ChatGPT lawsuits.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1345,
+          "t": [
+            4895.324,
+            4902.97
+          ],
+          "quote": "Prosecutors say the bug was wrapped in toilet paper behind a TV and instructions for designing it were found on his wife's ChatGPT account.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1452,
+          "t": [
+            5309.723,
+            5316.507
+          ],
+          "quote": "The suits say OpenAI is marketing ChatGPT as safe for kids under 13 and that it plainly is not.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1453,
+          "t": [
+            5317.027,
+            5326.651
+          ],
+          "quote": "Some examples in the suits, ChatGPT, they accuse of coaching kids to commit suicide or to harm others and showing flagrant disregard.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1456,
+          "t": [
+            5330.333,
+            5334.234
+          ],
+          "quote": "The company told users all across the country that ChatGPT is safe.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1473,
+          "t": [
+            5409.578,
+            5414.48
+          ],
+          "quote": "There needs to be ChatGPT for kids, obviously, and Character AI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1521,
+          "t": [
+            5572.438,
+            5577.08
+          ],
+          "quote": "Uh, that, that should be how ChatGPT for kids automatically works.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1524,
+          "t": [
+            5587.362,
+            5590.77
+          ],
+          "quote": "Like as soon as a kid logs in, we know they're in ChatGPT kids.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "tesla",
+      "type": "company",
+      "role": "company",
+      "name": "Tesla",
+      "file": "Tesla",
+      "primary": true,
+      "how_described": "本集说特斯拉发布了无人驾驶状态下空中翻转、跳过车队、0 到 60 英里加速不到 1 秒的新款 Roadster,车身有 10 个喷口和超高压气罐。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1201,
+          "t": [
+            4406.94,
+            4416.324
+          ],
+          "quote": "So Tesla last night unveiled the long-awaited Next Roadster dramatic event at the SpaceX tech site not far from here in McGregor, Texas.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1203,
+          "t": [
+            4420.045,
+            4427.528
+          ],
+          "quote": "It jumped over several other cars and trucks from the Tesla fleet, and it accelerates from zero to 60 miles per hour in under a second.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1307,
+          "t": [
+            4760.953,
+            4768.615
+          ],
+          "quote": "I pay for the fastest version of the Tesla, and I purposely downgrade it to chill mode so that people in the car don't get car sick.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1313,
+          "t": [
+            4799.02,
+            4811.382
+          ],
+          "quote": "What this really symbolizes more than anything is the merger of Tesla and SpaceX, which I don't have any inside information on, but in my newsfeed it said it's gonna be announced and done by the end of this year.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1314,
+          "t": [
+            4812.122,
+            4819.088
+          ],
+          "quote": "Which would lead somebody to believe, should you buy Tesla or should you buy SpaceX shares if they're going to merge?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1319,
+          "t": [
+            4836.201,
+            4838.362
+          ],
+          "quote": "Data centers for Tesla.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1320,
+          "t": [
+            4838.382,
+            4839.802
+          ],
+          "quote": "And Tesla's doing real-world AI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1321,
+          "t": [
+            4839.902,
+            4844.103
+          ],
+          "quote": "And then you have Grok doing LLMs and Optimus is at Tesla.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "spacex",
+      "type": "company",
+      "role": "company",
+      "name": "SpaceX",
+      "file": "SpaceX",
+      "primary": true,
+      "how_described": "本集说新款 Roadster 的飞行能力是特斯拉与 SpaceX 技术结合的产物,Jason 称这辆车真正象征两家公司的合并,年底或将宣布。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1201,
+          "t": [
+            4406.94,
+            4416.324
+          ],
+          "quote": "So Tesla last night unveiled the long-awaited Next Roadster dramatic event at the SpaceX tech site not far from here in McGregor, Texas.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1313,
+          "t": [
+            4799.02,
+            4811.382
+          ],
+          "quote": "What this really symbolizes more than anything is the merger of Tesla and SpaceX, which I don't have any inside information on, but in my newsfeed it said it's gonna be announced and done by the end of this year.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1314,
+          "t": [
+            4812.122,
+            4819.088
+          ],
+          "quote": "Which would lead somebody to believe, should you buy Tesla or should you buy SpaceX shares if they're going to merge?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1322,
+          "t": [
+            4844.663,
+            4846.583
+          ],
+          "quote": "But then you have Grok as part of SpaceX.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1323,
+          "t": [
+            4846.623,
+            4848.024
+          ],
+          "quote": "SpaceX does manufacturing.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体作为主线概念:Superhuman 用 agent harness 做所有事,GPTZero 将作为智能体跑在 Go 上,企业可在 Go 上部署合规、事实核查等智能体,新闻还谈到 AEO——让智能体替人选供应商。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 186,
+          "t": [
+            649.178,
+            652.74
+          ],
+          "quote": "It's very broadly deployed, but will run as an agent on Go.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1352.223,
+            1359.226
+          ],
+          "quote": "They're gonna handle your Delaware C-Corp, your EIN, and getting a registered agent with no legal fees and no delays.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 561,
+          "t": [
+            2067.851,
+            2069.651
+          ],
+          "quote": "And they go and they deploy an agent on Go.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 638,
+          "t": [
+            2331.363,
+            2337.371
+          ],
+          "quote": "What we work on primarily, we do all those things, our agent harness does all those things, but the one we do uniquely well, we call assist.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 647,
+          "t": [
+            2387.359,
+            2389.24
+          ],
+          "quote": "And so that's what we call an assistive agent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 698,
+          "t": [
+            2560.635,
+            2571.646
+          ],
+          "quote": "We also get feedback on the fact that it feels like an agent that you can direct and you can say, hey, I just want a response that accepts this and get me on my latest details and so on.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 878,
+          "t": [
+            3191.505,
+            3194.507
+          ],
+          "quote": "They're going directly to an agent and they're saying, just do this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 879,
+          "t": [
+            3194.907,
+            3196.288
+          ],
+          "quote": "And they let the agent decide.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 922,
+          "t": [
+            3378.28,
+            3382.101
+          ],
+          "quote": "And one of them here is it's your next customer asks an agent first.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 927,
+          "t": [
+            3404.169,
+            3405.99
+          ],
+          "quote": "Agent picks a vendor for them.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 928,
+          "t": [
+            3406.47,
+            3411.234
+          ],
+          "quote": "Then the agent installs the MCP, and the agent is live, and then it has a line through the homepage.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 934,
+          "t": [
+            3419.12,
+            3421.463
+          ],
+          "quote": "So here it says, is your product agent ready?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "ai-detector",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 检测器 (AI detector)",
+      "file": "AI 检测器",
+      "primary": true,
+      "how_described": "本集说这类产品在标准基准上检出率能到 90 多分,文章越长越好检;Shashir 认为被误判 85% 时更可能是检测器对了。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 108,
+          "t": [
+            357.01,
+            364.054
+          ],
+          "quote": "And, you know, we take the number one or number two AI detector on the planet and we give it a much bigger platform to go run on.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 131,
+          "t": [
+            447.87,
+            453.533
+          ],
+          "quote": "So the product they're most well-known for is it's the most popular AI detector out there.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 428,
+          "t": [
+            1651.855,
+            1654.335
+          ],
+          "quote": "And I would say I trust the AI detector more.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 429,
+          "t": [
+            1656.136,
+            1658.776
+          ],
+          "quote": "It's more likely the AI detector is right.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 482,
+          "t": [
+            1833.135,
+            1834.716
+          ],
+          "quote": "You now have this AI detector.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "notetaker",
+      "type": "concept",
+      "role": "concept",
+      "name": "笔记工具 (notetaker)",
+      "file": "笔记工具",
+      "primary": true,
+      "how_described": "本集说现有笔记工具的体验已被打破、强迫用户改变行为,Superhuman 要做一个真正跟随你到处走、并把会议内容变成写邮件实时校对的笔记工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 232,
+          "t": [
+            876.626,
+            881.208
+          ],
+          "quote": "You can think about it as how the notetaker fits in your day.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 233,
+          "t": [
+            881.549,
+            884.87
+          ],
+          "quote": "Giving more context to your notetaker is definitely a positive thing.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 237,
+          "t": [
+            893.675,
+            902.259
+          ],
+          "quote": "And so it's definitely the case that a notetaker that has read your CRM system and understands what's happening in your task tracking system has a better chance of taking good notes.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "ai-relationships",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 关系 (AI relationships)",
+      "file": "AI 关系",
+      "primary": true,
+      "how_described": "本集 Jason 暴论:给成年人做 AI 亲密关系是可憎的生意,给孩子做是'高等级的邪恶',儿童 AI 应该像只引导不给答案的家教。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1483,
+          "t": [
+            5441.177,
+            5443.859
+          ],
+          "quote": "But let's call it AI relationships.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1484,
+          "t": [
+            5443.999,
+            5445.96
+          ],
+          "quote": "I think AI relationships are evil.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "m-a",
+      "type": "concept",
+      "role": "concept",
+      "name": "并购 (M&A)",
+      "file": "并购",
+      "primary": true,
+      "how_described": "本集开头整段聊 Superhuman 一年内收购 Rose、GPTZero、Fathom 三家公司的逻辑,以及整合与独立运营的取舍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            262.191,
+            266.075
+          ],
+          "quote": "But tell me a little bit about what's going on in M&A land.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 93,
+          "t": [
+            281.108,
+            297.278
+          ],
+          "quote": "So walk us through what's happening in M&A land for the companies that are cashed up like yours, companies that have big installed bases like yours, and have the ability, like your management team does, to integrate great companies, which is not an easy task.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 442,
+          "t": [
+            1713.62,
+            1716.482
+          ],
+          "quote": "But I'm a writer, so I write it myself, then I pull them in.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 465,
+          "t": [
+            1792.247,
+            1794.088
+          ],
+          "quote": "Maybe I'm a bit biased for words.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 570,
+          "t": [
+            2092.616,
+            2093.717
+          ],
+          "quote": "You know, I'm a lawyer.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1355,
+          "t": [
+            4957.482,
+            4980.492
+          ],
+          "quote": "By their accent, and a Russian very clearly like, you know, many inches taller than me, much more attractive than I am, was showing way too much interest in me than, and I'm a married guy, like I'm not interested obviously, but you know, not exactly proposition, but everything up to that, wanting to spend time, asking to have a drink, asking...",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "slop",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 垃圾内容 (slop)",
+      "file": "AI 垃圾内容",
+      "primary": false,
+      "how_described": "本集用它指未加审查、直接照搬 AI 产出的低质内容,与'品味'相对——未经迭代就贴上名字的就是 slop。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 137,
+          "t": [
+            478.243,
+            479.364
+          ],
+          "quote": "Is this AI slop?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 415,
+          "t": [
+            1600.07,
+            1607.255
+          ],
+          "quote": "Like what can we do to make these, establish these as like a source of truth more for people rather than just the next level of the AI slop debate?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 524,
+          "t": [
+            1939.402,
+            1941.143
+          ],
+          "quote": "And with slop.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1183,
+          "t": [
+            4358.459,
+            4362.12
+          ],
+          "quote": "And so this is where slop versus tool.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1186,
+          "t": [
+            4364.8,
+            4369.503
+          ],
+          "quote": "So you have on one end of the spectrum, you have taste and the other one you have slop.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1187,
+          "t": [
+            4369.863,
+            4371.464
+          ],
+          "quote": "Slop is you didn't review it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1196,
+          "t": [
+            4399.457,
+            4402.058
+          ],
+          "quote": "That's the secret, I think, between slop and null.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "character-ai",
+      "type": "company",
+      "role": "company",
+      "name": "Character AI",
+      "file": "Character AI",
+      "primary": false,
+      "how_described": "本集顺带提到 Character AI 刚刚倒闭,曾在学校里非常有争议。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1462,
+          "t": [
+            5356.425,
+            5358.807
+          ],
+          "quote": "Yeah, Character AI just went out of business as well.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1473,
+          "t": [
+            5409.578,
+            5414.48
+          ],
+          "quote": "There needs to be ChatGPT for kids, obviously, and Character AI.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "GPTZero",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

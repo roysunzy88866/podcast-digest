@@ -27,7 +27,7 @@ unlisted: true
 
 [[提示词注入]] · [[可观测性]] · [[Sam]] · [[Michael Patterson]] · [[Gravity]] · [[Coder]] · [[智能体]] · [[Claude Code]] · [[MCP 网关]] · [[OpenClaw]]
 
-<script type="application/json" class="pd-epn">{"提示词注入":1,"可观测性":49,"Sam":1,"Michael Patterson":1,"Gravity":1,"Coder":1,"智能体":1,"Claude Code":117,"MCP 网关":2,"OpenClaw":25}</script>
+<script type="application/json" class="pd-epn">{"提示词注入":1,"可观测性":50,"Sam":1,"Michael Patterson":1,"Gravity":1,"Coder":1,"智能体":1,"Claude Code":117,"MCP 网关":2,"OpenClaw":25}</script>
 
 <script>
 (function(){

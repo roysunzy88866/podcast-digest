@@ -25,7 +25,7 @@ unlisted: true
 
 [[Will O'Brien]] · [[Ulysses]] · [[SpaceX]] · [[Starlink]] · [[US Navy]] · [[水下无人机]] · [[自主性]] · [[海草修复]] · [[海底电缆]] · [[垂直整合]]
 
-<script type="application/json" class="pd-epn">{"Will O'Brien":1,"Ulysses":2,"SpaceX":23,"Starlink":4,"US Navy":1,"水下无人机":1,"自主性":11,"海草修复":1,"海底电缆":1,"垂直整合":1}</script>
+<script type="application/json" class="pd-epn">{"Will O'Brien":1,"Ulysses":2,"SpaceX":24,"Starlink":4,"US Navy":1,"水下无人机":1,"自主性":11,"海草修复":1,"海底电缆":1,"垂直整合":1}</script>
 
 <script>
 (function(){

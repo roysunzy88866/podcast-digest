@@ -50,11 +50,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Nnenna Ndukwe]] [[James Norman]]
+[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Nnenna Ndukwe]] [[Dixing Xu]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":208,"Codex":92,"计算机使用":22,"语音智能体":2,"Gabriel Chua":1,"语音转语音":1,"智能体":1,"语音转动作":1,"子智能体":7,"事件转语音":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":210,"Codex":92,"计算机使用":22,"语音智能体":2,"Gabriel Chua":1,"语音转语音":1,"智能体":1,"语音转动作":1,"子智能体":7,"事件转语音":1}</script>
 
 <script>
 (function(){

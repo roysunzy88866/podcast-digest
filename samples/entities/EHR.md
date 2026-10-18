@@ -7,27 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>EHR</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="EHR">EH</div><div class="pi"><h1 class="pt">EHR</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="EHR">EH</div><div class="pi"><h1 class="pt">EHR</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-19-talks-from-ambient-documentation-to-clinical-i|《医疗是最高风险的前沿 AI 战场：Abridge 的 clinical intelligence 之路》]]**(10:42起):本集说 EHR 上下文是支撑产品的三类上下文之一(既往化验、既往病历),医生也在 EHR 里确认签署系统生成的医嘱。
 - **[[2026-08-19-talks-healthcare-s-agent-bytecode-x12-as-the-h|《给医疗理赔智能体套上 X12 护栏》]]**(05:21起):本集把 EHR 列为智能体执行层可对接的系统之一，智能体可以就理赔研究 EHR、把它作为下游机器学习的数据来源。
+- **[[2026-10-17-a16z-why-ai-could-finally-fix-healthcare-acce|《挂号为什么要等一个月？Zocdoc CEO 说 AI 时代终于有解了》]]**(05:48起):本集说美国有数百种 EHR、使用方式千差万别,ZocDoc 花了 20 年做出开箱即用的 175 种以上 EHR 对接,还要解决前台拿便利贴贴显示器这类不录入系统的边角问题。
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-08-19-talks-from-ambient-documentation-to-clinical-i|《医疗是最高风险的前沿 AI 战场：Abridge 的 clinical intelligence 之路》]] — 作为概念
 - [[2026-08-19-talks-healthcare-s-agent-bytecode-x12-as-the-h|《给医疗理赔智能体套上 X12 护栏》]] — 作为概念
+- [[2026-10-17-a16z-why-ai-could-finally-fix-healthcare-acce|《挂号为什么要等一个月？Zocdoc CEO 说 AI 时代终于有解了》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Chaitanya Asawa]] · [[Vasant Kearney]] · [[Abridge]] · [[X12]] · [[Glean]] · [[harness]] · [[临床决策支持]] · [[护栏]] · [[评估]]
+[[智能体]] · [[Chaitanya Asawa]] · [[Vasant Kearney]] · [[Julie Yu]] · [[Abridge]] · [[X12]] · [[Oliver Kharraz]] · [[Glean]] · [[harness]] · [[ZocDoc]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Chaitanya Asawa":1,"Vasant Kearney":1,"Abridge":1,"X12":1,"Glean":2,"harness":68,"临床决策支持":1,"护栏":94,"评估":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Chaitanya Asawa":1,"Vasant Kearney":1,"Julie Yu":1,"Abridge":1,"X12":1,"Oliver Kharraz":1,"Glean":2,"harness":68,"ZocDoc":1}</script>
 
 <script>
 (function(){

@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]]
+[[Julie Yu]] [[Oliver Kharraz]] [[Harrison Chase]] [[Shashir Marotra]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Merge":3,"智能体":1,"MCP":100,"沙箱":104,"连接器":3,"智能 LLM 路由器":1,"可观测性":49,"后训练":1}</script>
+<script type="application/json" class="pd-epn">{"Merge":3,"智能体":1,"MCP":100,"沙箱":104,"连接器":3,"智能 LLM 路由器":1,"可观测性":50,"后训练":1}</script>
 
 <script>
 (function(){

@@ -37,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[Luca Ferrari]] · [[Bending Spoons]] · [[极致所有权]] · [[Farooq Malik]] · [[Vali]] · [[Airtable]] · [[Mario]] · [[Grindr]] · [[Evernote]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Luca Ferrari":3,"Bending Spoons":3,"极致所有权":3,"Farooq Malik":1,"Vali":1,"Airtable":5,"Mario":4,"Grindr":1,"Evernote":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Luca Ferrari":3,"Bending Spoons":4,"极致所有权":3,"Farooq Malik":1,"Vali":1,"Airtable":5,"Mario":4,"Grindr":1,"Evernote":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,167 @@
+{
+  "title_zh": "AI自己搞科研：一个自动研究智能体如何在OpenAI比赛中击败一千名人类",
+  "tldr": "Weco AI 团队讲解自动研究(AutoResearch)原理，以及他们的智能体 Aiden 如何成为 OpenAI Parameter Golf 挑战赛的头号贡献者。",
+  "digest_md": "一场公开比赛中，一千多名人类研究者提交了两千多个方案，最后合并进正式记录的只有 47 个。而一个名为 Aiden 的 AI 系统，只用了社区 4% 的算力，就拿下其中 15% 的记录，成为全场最有影响力的贡献者。这是 Weco AI 团队在 AI Engineers World Fair 一场工作坊上讲的故事。四位讲者 Vayum Arora、Zhengyao Jiang、Dixing Xu 和 Dhruv Srikanth 不仅复盘了比赛，还手把手教观众在自己笔记本电脑上跑起一个自动研究循环。\n\n## 什么是自动研究？\n\n说白了，就是一个试错循环。你给语言模型一份代码和一个可重复运行的评估脚本，它就不停地尝试新想法，用评估打分。能提高分数的想法留下，其余全部丢弃。\n\n指标可以是准确率、速度、成本，任何能量化成单一数字的东西。\n\n这类思路在开源社区已经存在约两年，但今年才真正火起来。应用范围从模型训练迅速扩展到后端工程、提示词和智能体工程、推理加速，甚至进入了生产环境——比如降低了 Shopify 持续集成管线的延迟。\n\n## 那场比赛：16 兆字节、10 分钟，训出最好的模型\n\nParameter Golf 是 OpenAI 办的模型训练挑战赛。规则苛刻：模型权重等所有产物加上训练代码，总共不能超过 16 兆字节，训练必须在 10 分钟内完成。评分用验证集上的 bits per byte,越低越好。\n\n比赛持续 44 天，1016 名研究者参与，提交了 2048 个 PR,烧掉了大约 25 万美元的 GPU 算力。最终只有 47 个 PR 被合并为记录，来自 31 位贡献者。\n\nWeco 的参赛系统 Aiden 是一个基于 Claude 和 GPT 系列模型的自改进多智能体。它把整个研究流程自动化了：从 GitHub 找高质量实现、翻自己的历史日志，然后提出新想法、测试、检查合规性、写代码、跑实验，通过质量检查后自动提交 PR。\n\n战绩是 7 项合并进排行榜的记录，是最强的第二名的两倍。更重要的是，有 435 个后续 PR 建立在 Aiden 的工作之上——它不只是交作业，而是产出了别人能反复使用的成果。\n\n**只花了 4% 的算力拿到 15% 的记录，成本效率是全场平均的 3.7 倍**。\n\n## 自动研究系统的五个关键部件\n\nDhruv 拆解了搭建自动研究循环需要考虑的东西，适用于几乎所有这类系统。\n\n第一，源文件。这是智能体被允许修改的代码，定义了搜索空间。\n\n第二，也是最关键的：评估。**它必须简单、快、便宜、噪声低**。评估快，固定预算内就能跑更多步；噪声低，人和智能体在爬山时才更有信心。但要警惕——智能体特别爱钻评估的空子，所以要尽量把评估做得结实。\n\n第三和第四，指标和目标：想提升什么，越高越好还是越低越好。\n\n第五，初始引导。把你的领域经验写进一个文档，告诉智能体什么可能有效、什么肯定不行。在他们的系统里，这一步就是指向一个 markdown 文件。\n\n## 为什么树状搜索、可观察、可干预这么重要\n\n让自动研究达到生产级的三个特质，他们总结为结构、可观察性、可操纵性。\n\n结构指的是树状搜索：从基线代码的根节点出发，每个节点是一次代码修改加对应得分。有效的分支继续往下长，无效的剪掉。想法可以层层叠加，而不是每次从零开始。\n\n可观察性：任何一个节点都能点开，看到具体改了哪几行代码、为什么分数动了。\n\n可干预性可能是最有意思的一点——循环跑着的时候，你可以随时用自然语言塞进一个新想法，开一条新分支，甚至给每个节点分配算力预算。\n\n## 真正的突破，来自人机配合\n\n可干预性不是锦上添花，它在 Parameter Golf 里直接带来了胜利。\n\n比赛期间，Aiden 从 4 月 15 日到 19 日连续试了五天：新注意力机制、压缩方案、更丰富的技术栈，分数却基本停滞。\n\n这时社区里有人发布了一个巧妙的新分词器。Aiden 的系统在八小时内捕捉到这个变化，把它和自己已有的成果融合，产出了几周以来最大的一次分数跃升。\n\n他们的结论是：在真正难的问题上，自动研究不是设定完就不管。它是人与智能体的协作——你引导方向，吸收周围人的想法，突破就是这么发生的。\n\n## 现场实操：把 Flappy Bird 变成研究问题\n\n工作坊的压轴环节是一场现场比赛。他们把 Flappy Bird 改造成自动研究任务：不亲自玩，而是优化一个叫 should flap 的控制器，由它决定每一帧小鸟是否扇翅膀。指标是平均得分，越高越好。\n\n游戏有四个世界：普通版、缺口上下漂移版、有风推鸟的版本，以及混合所有条件的版本。分数取四个世界的平均——只想在普通版拿高分的控制器赢不了。而且排行榜用的是隐藏的验证集，没法对着公开版本过拟合。\n\n规则保证了公平：只能改控制器文件，不许引入外部库，不许并行算力，所有人用同一个默认模型。奖品是一台 Nintendo Switch。\n\n现场还出现了个小插曲：一个叫 FurNog 的队伍只用一个节点就拿了高分，讲者当场表示会检查所有运行记录，确保没人作弊。\n\n## 本集带走\n\n- 自动研究的核心是试错循环：给智能体代码加一个输出单一分数的评估脚本，它自己不停地试、留好的、丢差的。\n- Aiden 在 OpenAI 的 Parameter Golf 中用 4% 的算力拿到 15% 的合并记录，成本效率是全场平均的 3.7 倍，并有 435 个后续 PR 建立在它的工作上。\n- 评估是整套系统里最关键的一环：要快、便宜、噪声低，还得防住智能体钻空子。\n- 树状搜索让想法可以叠加积累；可观察性让你看懂每一步；可干预性让你在循环中途注入人类直觉。\n- 真正的突破来自人机协作：社区的新分词器加上 Aiden 已有的积累，带来了几周内最大的分数跃升。",
+  "quotes": [
+    {
+      "en": "And so one thing to be aware of, though, is agents love to reward hack.",
+      "zh": "不过有一点需要注意，那就是智能体特别喜欢钻评估的空子（reward hack）。",
+      "timestamp": "12:53",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "en": "Point it to the right eval, you basically let it boil the ocean for you, but otherwise you're just burning through all of your RM tokens.",
+      "zh": "把它指向正确的 eval，你基本上就是让它替你 boil the ocean，否则你就只是在烧掉你所有的 tokens。",
+      "timestamp": "03:13",
+      "speaker": "Zhengyao Jiang"
+    },
+    {
+      "en": "And on that benchmark, it scored about four times the medal rate of the next best agent.",
+      "zh": "在那个基准上，它的夺牌率大约是第二名最佳智能体的四倍。",
+      "timestamp": "05:11",
+      "speaker": "Vayum Arora"
+    },
+    {
+      "en": "That's twice the next best human.",
+      "zh": "那是第二名人类的两倍。",
+      "timestamp": "07:43",
+      "speaker": "Dixing Xu"
+    },
+    {
+      "en": "From just 4% of the community's GPU compute, it got 15% of total merged records.",
+      "zh": "仅用社区 GPU 算力的 4%，它拿下了总合并纪录的 15%。",
+      "timestamp": "08:06",
+      "speaker": "Dixing Xu"
+    },
+    {
+      "en": "That's 3.7 times more cost effective than the field average.",
+      "zh": "这比领域平均水平高出 3.7 倍的成本效益。",
+      "timestamp": "08:13",
+      "speaker": "Dixing Xu"
+    },
+    {
+      "en": "And within eight hours of emerging that change, our system picked it up, fused it with the pieces it had already been working on, and shipped the biggest jump in weeks.",
+      "zh": "而在那个改动出现后的八小时内，我们的系统就把它吸收了，与它已经在研究的部分融合，并实现了数周以来最大的一次跳升。",
+      "timestamp": "20:14",
+      "speaker": "Vayum Arora"
+    },
+    {
+      "en": "This is essentially when you stop watching and start to take over.",
+      "zh": "这本质上就是当你停止旁观、开始接管的时候。",
+      "timestamp": "19:03",
+      "speaker": "Vayum Arora"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "12:53",
+      "speaker": "Unknown",
+      "en": "And so one thing to be aware of, though, is agents love to reward hack.",
+      "zh": "不过有一点需要注意，那就是智能体特别喜欢钻评估的空子（reward hack）。"
+    },
+    {
+      "timestamp": "03:07",
+      "speaker": "Unknown",
+      "en": "So it's much bigger multiplier on your prompt and your setup.",
+      "zh": "所以它对你的 prompt 和你的设置的放大倍数要大得多。"
+    },
+    {
+      "timestamp": "03:13",
+      "speaker": "Unknown",
+      "en": "Point it to the right eval, you basically let it boil the ocean for you, but otherwise you're just burning through all of your RM tokens.",
+      "zh": "把它指向正确的 eval，你基本上就是让它替你 boil the ocean，否则你就只是在烧掉你所有的 tokens。"
+    },
+    {
+      "timestamp": "05:04",
+      "speaker": "Unknown",
+      "en": "And on that benchmark, it scored about four times the medal rate of the next best agent.",
+      "zh": "在那个基准上，它的夺牌率大约是第二名最佳智能体的四倍。"
+    },
+    {
+      "timestamp": "07:43",
+      "speaker": "Unknown",
+      "en": "That's twice the next best human.",
+      "zh": "那是第二名人类的两倍。"
+    },
+    {
+      "timestamp": "08:06",
+      "speaker": "Unknown",
+      "en": "From just 4% of the community's GPU compute, it got 15% of total merged records.",
+      "zh": "仅用社区 GPU 算力的 4%，它拿下了总合并纪录的 15%。"
+    },
+    {
+      "timestamp": "08:13",
+      "speaker": "Unknown",
+      "en": "That's 3.7 times more cost effective than the field average.",
+      "zh": "这比领域平均水平高出 3.7 倍的成本效益。"
+    },
+    {
+      "timestamp": "07:53",
+      "speaker": "Unknown",
+      "en": "It published reusable work that other participants kept building on.",
+      "zh": "它发表的是可复用的工作，其他参与者持续在其上构建。"
+    },
+    {
+      "timestamp": "14:01",
+      "speaker": "Unknown",
+      "en": "But really, more ideas that gets tried generally leads to more breakthroughs.",
+      "zh": "但实际上，尝试的想法越多，通常就会带来更多突破。"
+    },
+    {
+      "timestamp": "12:58",
+      "speaker": "Unknown",
+      "en": "So they love to find holes in your evaluation protocol, holes in your benchmark.",
+      "zh": "它们喜欢在你的评估协议里找漏洞，在你的基准测试里找漏洞。"
+    },
+    {
+      "timestamp": "20:08",
+      "speaker": "Unknown",
+      "en": "And within eight hours of emerging that change, our system picked it up, fused it with the pieces it had already been working on, and shipped the biggest jump in weeks.",
+      "zh": "而在那个改动出现后的八小时内，我们的系统就把它吸收了，与它已经在研究的部分融合，并实现了数周以来最大的一次跳升。"
+    },
+    {
+      "timestamp": "20:25",
+      "speaker": "Unknown",
+      "en": "Running auto research on something this hard is less of a set it and forget it.",
+      "zh": "在这么难的问题上运行自动研究，不太像是“设置好然后忘掉它”。"
+    },
+    {
+      "timestamp": "20:39",
+      "speaker": "Unknown",
+      "en": "It's how real breakthroughs actually happen.",
+      "zh": "真正的突破实际上就是这样发生的。"
+    },
+    {
+      "timestamp": "18:56",
+      "speaker": "Unknown",
+      "en": "So once you can see what it's doing, the next natural step is to be able to change what it does.",
+      "zh": "所以一旦你能看到它在做什么，下一个自然的步骤就是能够改变它做的事情。"
+    },
+    {
+      "timestamp": "19:03",
+      "speaker": "Unknown",
+      "en": "This is essentially when you stop watching and start to take over.",
+      "zh": "这本质上就是当你停止旁观、开始接管的时候。"
+    },
+    {
+      "timestamp": "30:44",
+      "speaker": "Unknown",
+      "en": "And the leaderboard scores you on a hidden validation set that you never see, so you can't obviously overfit on the public game.",
+      "zh": "排行榜是按一个你永远看不到的隐藏验证集来打分的，所以你显然不能在公开游戏上过拟合。"
+    },
+    {
+      "timestamp": "16:51",
+      "speaker": "Unknown",
+      "en": "The first is structure.",
+      "zh": "第一个是结构。"
+    },
+    {
+      "timestamp": "12:06",
+      "speaker": "Unknown",
+      "en": "And then the second thing, and in my opinion this is probably the most crucial part of an auto-research system, is the evaluation.",
+      "zh": "然后第二件事，在我看来这可能是 auto-research 系统最关键的部分，就是评估。"
+    }
+  ],
+  "voice_script": "今天要讲的故事,发生在一场真实的公开比赛里。一千多名人类研究者,提交了两千多个方案,最后能合并进正式记录的,只有四十七个。而一个叫 Aiden 的 AI 系统,只用了社区百分之四的算力,就拿下其中百分之十五的记录,成了全场最有影响力的贡献者。讲这个故事的是 Weco AI 团队,四位讲者在 AI Engineers World Fair 的工作坊上,不仅复盘了这场比赛,还手把手教观众在自己笔记本电脑上跑起一个自动研究循环。\n\n先交代一下背景。所谓自动研究,说白了就是一个试错循环。你给语言模型一份代码,再给它一个可以重复运行的评估脚本,它就不停地尝试新想法,用评估打分。能提高分数的想法留下,其余全部丢弃。指标可以是准确率、速度、成本,任何能量化成单一数字的东西都行。这类思路在开源社区已经存在了大约两年,但今年才真正火起来,应用从模型训练一路扩展到后端工程、提示词工程、推理加速,甚至进了生产环境,比如降低了 Shopify 持续集成管线的延迟。\n\n那 Aiden 到底赢下的是一场什么比赛?这是 OpenAI 办的模型训练挑战赛,叫 Parameter Golf,规则相当苛刻:模型权重等所有产物,加上训练代码,总共不能超过十六兆字节,训练必须在十分钟内完成,评分用验证集上的 bits per byte,越低越好。比赛持续四十四天,一千零一十六名研究者参与,提交了两千多个 PR,烧掉了大约二十五万美元的 GPU 算力,最后只有四十七个 PR 被合并为记录。\n\nWeco 的参赛系统 Aiden,是一个基于 Claude 和 GPT 系列模型的自改进多智能体,整个研究流程都自动化了:从 GitHub 找高质量实现、翻自己的历史日志,然后提出新想法、测试、检查合规性、写代码、跑实验,通过质量检查后自动提交 PR。战绩是七项合并进排行榜的记录,是最强的第二名的两倍。更关键的是,有四百三十五个后续 PR 建立在 Aiden 的工作之上——也就是说,它不只是交作业,而是产出了别人能反复使用的成果。算下来,只花了百分之四的算力,拿到百分之十五的记录,成本效率是全场平均的 3.7 倍。\n\n那这样的系统是怎么搭起来的?团队拆解了五个关键部件。第一是源文件,就是智能体被允许修改的代码,它定义了搜索空间。第二也是最关键的,是评估。评估必须简单、快、便宜、噪声低——评估快,固定预算内就能跑更多步;噪声低,人和智能体爬山时才更有信心。但这里有个坑:智能体特别喜欢钻评估的空子,所以评估要尽量做得结实。第三和第四是指标和目标,想提升什么,是越高越好还是越低越好。第五是初始引导,把你的领域经验写进一个文档,告诉智能体什么可能有效、什么肯定不行。\n\n有了这五个部件,怎么让自动研究达到生产级?团队总结了三个特质:结构、可观察性、可干预性。结构指的是树状搜索——从基线代码的根节点出发,每个节点是一次代码修改加对应得分,有效的分支继续往下长,无效的剪掉,这样想法可以层层叠加,而不是每次从零开始。可观察性是说,任何一个节点都能点开,看到具体改了哪几行代码、为什么分数动了。而可干预性是最有意思的一点:循环跑着的时候,你可以随时用自然语言塞进一个新想法,开一条新分支,甚至给每个节点分配算力预算。\n\n为什么说可干预性不是锦上添花?因为它在 Parameter Golf 里直接带来了胜利。比赛期间,Aiden 从四月十五号到十九号连续试了五天,新注意力机制、压缩方案、更丰富的技术栈,分数却基本停滞。就在这时,社区里有人发布了一个巧妙的新分词器。Aiden 的系统在八小时内捕捉到这个变化,把它和自己已有的成果融合,产出了几周以来最大的一次分数跃升。所以团队的结论是:在真正难的问题上,自动研究不是设定完就不管,而是人与智能体的协作——你引导方向,吸收周围人的想法,突破就是这么发生的。\n\n这套东西离普通人也不远。工作坊的压轴环节是一场现场比赛,把 Flappy Bird 改造成了自动研究任务:不亲自玩,而是优化一个叫 should flap 的控制器,由它决定每一帧小鸟是否扇翅膀。游戏有四个世界,包括缺口漂移版、有风推鸟的版本,分数取四个世界的平均,只想在普通版拿高分的控制器赢不了,而且排行榜用的是隐藏验证集,没法对着公开版本过拟合。规则还保证了公平:只能改控制器文件,不许引入外部库,所有人用同一个默认模型。现场还出了个小插曲:一个叫 FurNog 的队伍只用一个节点就拿了高分,讲者当场表示会检查所有运行记录,确保没人作弊。\n\n回过头看,这一集真正值得记住的是这件事:把研究领域经验写成文档、指给智能体一个正确的评估,它就能替你大规模地试错;而突破往往发生在人类直觉和机器积累相遇的那一刻。"
+}

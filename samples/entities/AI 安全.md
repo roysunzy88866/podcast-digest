@@ -39,7 +39,7 @@ unlisted: true
 
 [[OpenAI]] · [[智能体]] · [[护栏]] · [[Hugging Face]] · [[对齐]] · [[超级智能]] · [[Anthropic]] · [[网络安全]] · [[Alex]] · [[Theo Jaffe]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":208,"智能体":1,"护栏":94,"Hugging Face":39,"对齐":25,"超级智能":13,"Anthropic":206,"网络安全":5,"Alex":6,"Theo Jaffe":8}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":210,"智能体":1,"护栏":94,"Hugging Face":39,"对齐":25,"超级智能":13,"Anthropic":206,"网络安全":5,"Alex":6,"Theo Jaffe":8}</script>
 
 <script>
 (function(){

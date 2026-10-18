@@ -60,7 +60,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":208,"Anthropic":206,"Meta":56,"Google":72,"NVIDIA":72,"资本支出":7,"推理":105,"SpaceX":23,"SemiAnalysis":1,"Jane Street":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":210,"Anthropic":206,"Meta":56,"Google":72,"NVIDIA":72,"资本支出":7,"推理":105,"SpaceX":24,"SemiAnalysis":1,"Jane Street":1}</script>
 
 <script>
 (function(){

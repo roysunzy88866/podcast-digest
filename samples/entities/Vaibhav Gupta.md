@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Nnenna Ndukwe]] [[James Norman]]
+[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Nnenna Ndukwe]] [[Dixing Xu]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"BAML":1,"垃圾话":10,"智能体":1,"代码审查":28,"不变量":1,"执行跟踪":1,"类型系统":1,"工具调用":4,"TypeScript":3,"JavaScript":1}</script>
+<script type="application/json" class="pd-epn">{"BAML":1,"垃圾话":11,"智能体":1,"代码审查":28,"不变量":1,"执行跟踪":1,"类型系统":1,"工具调用":4,"TypeScript":3,"JavaScript":1}</script>
 
 <script>
 (function(){

@@ -41,7 +41,7 @@ unlisted: true
 
 [[智能体]] · [[沙箱]] · [[OpenAI]] · [[开放权重模型]] · [[harness]] · [[推理]] · [[Codex]] · [[Chris Benson]] · [[Arjun Singh]] · [[Connor Hegey]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"沙箱":104,"OpenAI":208,"开放权重模型":1,"harness":68,"推理":105,"Codex":92,"Chris Benson":14,"Arjun Singh":1,"Connor Hegey":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"沙箱":104,"OpenAI":210,"开放权重模型":1,"harness":68,"推理":105,"Codex":92,"Chris Benson":14,"Arjun Singh":1,"Connor Hegey":1}</script>
 
 <script>
 (function(){

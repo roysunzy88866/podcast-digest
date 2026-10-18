@@ -35,7 +35,7 @@ unlisted: true
 
 [[OpenAI]] · [[智能体]] · [[Codex]] · [[ChatGPT]] · [[Dot]] · [[Holly Li]] · [[Sites]] · [[Claude Shee]] · [[GPT-6.1 Sol]] · [[Dots]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":208,"智能体":1,"Codex":92,"ChatGPT":115,"Dot":2,"Holly Li":1,"Sites":3,"Claude Shee":1,"GPT-6.1 Sol":1,"Dots":6}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":210,"智能体":1,"Codex":92,"ChatGPT":116,"Dot":2,"Holly Li":1,"Sites":3,"Claude Shee":1,"GPT-6.1 Sol":1,"Dots":6}</script>
 
 <script>
 (function(){

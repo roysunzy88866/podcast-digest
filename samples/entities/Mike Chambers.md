@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]]
+[[Julie Yu]] [[Oliver Kharraz]] [[Harrison Chase]] [[Shashir Marotra]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"harness 工程":4,"Bedrock AgentCore":1,"MCP":100,"记忆":31,"多租户隔离":2,"可观测性":49,"基础设施即代码":2,"系统提示词":9,"Kiro":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"harness 工程":4,"Bedrock AgentCore":1,"MCP":100,"记忆":31,"多租户隔离":2,"可观测性":50,"基础设施即代码":2,"系统提示词":9,"Kiro":4}</script>
 
 <script>
 (function(){

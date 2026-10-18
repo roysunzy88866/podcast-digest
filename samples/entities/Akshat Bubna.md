@@ -38,11 +38,11 @@ aliases: ["Akshat"]
 
 <div class="pd-peers">
 
-[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]]
+[[Julie Yu]] [[Oliver Kharraz]] [[Harrison Chase]] [[Shashir Marotra]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Swyx":2,"Vibhu":1,"Modal":9,"智能体":1,"AX":1,"DX":5,"沙箱":104,"推理":105,"弹性推理":1,"投机解码":1}</script>
+<script type="application/json" class="pd-epn">{"Swyx":2,"Vibhu":1,"Modal":10,"智能体":1,"AX":1,"DX":5,"沙箱":104,"推理":105,"弹性推理":1,"投机解码":1}</script>
 
 <script>
 (function(){

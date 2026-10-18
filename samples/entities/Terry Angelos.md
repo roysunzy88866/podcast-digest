@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
+[[Julie Yu]] [[Oliver Kharraz]] [[Harrison Chase]] [[Shashir Marotra]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex Rampell":4,"智能体":1,"智能体商务":1,"支付凭证":1,"智能体代币":1,"钱包大战":1,"保险库":2,"分词":6,"围墙花园":2,"VGS":1}</script>
+<script type="application/json" class="pd-epn">{"Alex Rampell":4,"智能体":1,"智能体商务":1,"支付凭证":1,"智能体代币":1,"钱包大战":1,"保险库":2,"分词":6,"围墙花园":3,"VGS":1}</script>
 
 <script>
 (function(){

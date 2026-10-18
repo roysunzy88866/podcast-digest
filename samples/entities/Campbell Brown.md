@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Guillermo Rauch]] [[Kevin Roose]] [[Greg Brockman]] [[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]]
+[[Shashir Marotra]] [[Guillermo Rauch]] [[Kevin Roose]] [[Greg Brockman]] [[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex":6,"Forum AI":1,"OpenAI":208,"Anthropic":206,"Meta":56,"ChatGPT":115,"LLM":66,"幻觉":15,"诱导性提示":1,"互动率":1}</script>
+<script type="application/json" class="pd-epn">{"Alex":6,"Forum AI":1,"OpenAI":210,"Anthropic":206,"Meta":56,"ChatGPT":116,"LLM":66,"幻觉":15,"诱导性提示":1,"互动率":1}</script>
 
 <script>
 (function(){

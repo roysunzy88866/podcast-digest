@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]]
+[[Julie Yu]] [[Oliver Kharraz]] [[Harrison Chase]] [[Shashir Marotra]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"循环":10,"智能体配方":1,"系统蒸馏":1,"品味":15,"评估":1,"每瓦特有价值工作":1,"智能体":1,"harness":68,"RLHF":8,"RL":14}</script>
+<script type="application/json" class="pd-epn">{"循环":10,"智能体配方":1,"系统蒸馏":1,"品味":15,"评估":1,"每瓦特有价值工作":1,"智能体":1,"harness":68,"RLHF":8,"RL":15}</script>
 
 <script>
 (function(){

@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]]
+[[Julie Yu]] [[Oliver Kharraz]] [[Harrison Chase]] [[Shashir Marotra]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Traversal":2,"ServiceNow":4,"American Express":1,"Pepsi":1,"DigitalOcean":2,"Capital One":4,"事故响应中的 AI":2,"可观测性":49,"自动驾驶式生产":1,"因果机器学习":1}</script>
+<script type="application/json" class="pd-epn">{"Traversal":2,"ServiceNow":4,"American Express":1,"Pepsi":1,"DigitalOcean":2,"Capital One":4,"事故响应中的 AI":2,"可观测性":50,"自动驾驶式生产":1,"因果机器学习":1}</script>
 
 <script>
 (function(){

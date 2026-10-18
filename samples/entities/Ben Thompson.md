@@ -90,11 +90,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]]
+[[Julie Yu]] [[Oliver Kharraz]] [[Harrison Chase]] [[Shashir Marotra]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"聚合理论":2,"Meta":56,"Microsoft":34,"Patrick O'Shaughnessy":3,"Steve Jobs":1,"OpenAI":208,"Mark Zuckerberg":1,"Anthropic":206,"智能体":1,"Google":72}</script>
+<script type="application/json" class="pd-epn">{"聚合理论":2,"Meta":56,"Microsoft":34,"Patrick O'Shaughnessy":3,"Steve Jobs":1,"OpenAI":210,"Mark Zuckerberg":1,"Anthropic":206,"智能体":1,"Google":72}</script>
 
 <script>
 (function(){

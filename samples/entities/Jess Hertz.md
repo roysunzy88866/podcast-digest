@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]]
+[[Julie Yu]] [[Oliver Kharraz]] [[Harrison Chase]] [[Shashir Marotra]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bob Safian":8,"Shopify":19,"River":2,"智能体":1,"sidekick":2,"Catalog":2,"Universal Commerce Protocol":3,"X 型人":1,"T 型人":1,"关税":1}</script>
+<script type="application/json" class="pd-epn">{"Bob Safian":8,"Shopify":20,"River":2,"智能体":1,"sidekick":2,"Catalog":2,"Universal Commerce Protocol":3,"X 型人":1,"T 型人":1,"关税":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,2530 @@
+[
+ {
+  "seg": 0,
+  "start": 13.336,
+  "end": 13.717,
+  "speaker": "Unknown",
+  "en": "Welcome.",
+  "zh": "欢迎。"
+ },
+ {
+  "seg": 1,
+  "start": 14.057,
+  "end": 15.478,
+  "speaker": "Unknown",
+  "en": "Please grab a seat if you haven't already.",
+  "zh": "如果还没入座，请抓紧坐下。"
+ },
+ {
+  "seg": 2,
+  "start": 16.118,
+  "end": 16.919,
+  "speaker": "Unknown",
+  "en": "My name is Vayim.",
+  "zh": "我叫 Vayim。"
+ },
+ {
+  "seg": 3,
+  "start": 17.199,
+  "end": 19.02,
+  "speaker": "Unknown",
+  "en": "We have Jungyao, Dhruv, and Dex.",
+  "zh": "我们还有 Jungyao、Dhruv 和 Dex。"
+ },
+ {
+  "seg": 4,
+  "start": 19.761,
+  "end": 25.705,
+  "speaker": "Unknown",
+  "en": "Before anything else, a huge thank you to Sean and the AI Engineers World Fair for having us.",
+  "zh": "首先，非常感谢 Sean 和 AI Engineers World Fair 邀请我们来这里。"
+ },
+ {
+  "seg": 5,
+  "start": 26.485,
+  "end": 27.426,
+  "speaker": "Unknown",
+  "en": "This is generally",
+  "zh": "总体来说，"
+ },
+ {
+  "seg": 6,
+  "start": 29.007,
+  "end": 31.752,
+  "speaker": "Unknown",
+  "en": "A great room of AI and we're really, really happy to be here.",
+  "zh": "这是一个很棒的 AI 之屋，我们真的非常非常高兴能来到这里。"
+ },
+ {
+  "seg": 7,
+  "start": 32.793,
+  "end": 34.917,
+  "speaker": "Unknown",
+  "en": "If you haven't been able to get set up yet, no worries.",
+  "zh": "如果你还没能完成设置，别担心。"
+ },
+ {
+  "seg": 8,
+  "start": 35.437,
+  "end": 37.941,
+  "speaker": "Unknown",
+  "en": "We're gonna have ample time to get to it later.",
+  "zh": "我们稍后会有充足的时间来完成它。"
+ },
+ {
+  "seg": 9,
+  "start": 39.464,
+  "end": 43.029,
+  "speaker": "Unknown",
+  "en": "Junyao will give us a brief background on the basics behind auto research.",
+  "zh": "Junyao 会给我们简单介绍一下 auto research 背后的基础知识。"
+ },
+ {
+  "seg": 10,
+  "start": 53.861,
+  "end": 61.47,
+  "speaker": "Unknown",
+  "en": "In case any of you still don't know of auto-researchers, this is just a quick brief.",
+  "zh": "万一你们中还有人不知道 auto-researchers,这里只是一个简短的介绍。"
+ },
+ {
+  "seg": 11,
+  "start": 61.61,
+  "end": 65.534,
+  "speaker": "Unknown",
+  "en": "Auto-research is basically a loop of a trial and error.",
+  "zh": "Auto-research 基本上就是一个试错的循环。"
+ },
+ {
+  "seg": 12,
+  "start": 66.862,
+  "end": 72.543,
+  "speaker": "Unknown",
+  "en": "You give a language model your code and a replayable evaluation script.",
+  "zh": "你把你的代码和一个可重放的评估脚本交给一个语言模型。"
+ },
+ {
+  "seg": 13,
+  "start": 73.324,
+  "end": 77.425,
+  "speaker": "Unknown",
+  "en": "It will keep trying ideas and test them against that eval.",
+  "zh": "它会不断尝试各种想法，并用那个 eval 来测试它们。"
+ },
+ {
+  "seg": 14,
+  "start": 78.005,
+  "end": 83.166,
+  "speaker": "Unknown",
+  "en": "And it keeps the ideas that improve the score and discard everything else.",
+  "zh": "它会保留能提升分数的想法，丢弃其余的一切。"
+ },
+ {
+  "seg": 15,
+  "start": 84.667,
+  "end": 90.308,
+  "speaker": "Unknown",
+  "en": "So some example metrics include accuracy, speed, and cost.",
+  "zh": "所以一些示例指标包括准确率、速度和成本。"
+ },
+ {
+  "seg": 16,
+  "start": 91.955,
+  "end": 112.775,
+  "speaker": "Unknown",
+  "en": "SimilarLoop has existed in dynamic for a while, like two years, but it really got viral in this year when Capacity posted about it in his model training scripts, and it turns out works really well for him.",
+  "zh": "类似的循环在 dynamic 里已经存在一段时间了，大概两年，但它在今年真正火起来，是因为 Capacity 在他的 model training scripts 里发了关于它的帖子，结果发现对他来说效果非常好。"
+ },
+ {
+  "seg": 17,
+  "start": 115.472,
+  "end": 132.844,
+  "speaker": "Unknown",
+  "en": "In just a few weeks, the use case of auto research spread from training to everything, like back-end engineering, prompt and agent engineering, speed up model inference, and it also quickly show up in production.",
+  "zh": "仅仅几周之内，auto research 的用例就从训练扩散到了一切，比如后端工程、prompt 和智能体工程、加速模型推理，而且它也很快出现在生产环境中。"
+ },
+ {
+  "seg": 18,
+  "start": 133.765,
+  "end": 144.252,
+  "speaker": "Unknown",
+  "en": "For example, it reduced the latency of Shopify's CI, CD pipeline, and it improved the browser use, the company's browser use agent.",
+  "zh": "例如，它降低了 Shopify 的 CI、CD 流水线的延迟，还改进了 browser use,也就是那家公司的 browser use 智能体。"
+ },
+ {
+  "seg": 19,
+  "start": 148.003,
+  "end": 165.288,
+  "speaker": "Unknown",
+  "en": "In April, our experimental research agent, Aiden, even won OpenAI's hiring challenge called the parameter golf, which we will tell you a bit more soon, and I also have a talk on Wednesday specifically about it.",
+  "zh": "四月份，我们的实验性研究智能体 Aiden,甚至赢得了 OpenAI 举办的一场叫 parameter golf 的招聘挑战赛，我们很快会多讲一点这个，我周三也有一场专门关于它的演讲。"
+ },
+ {
+  "seg": 20,
+  "start": 167.309,
+  "end": 172.55,
+  "speaker": "Unknown",
+  "en": "So, okay, all the research can be really powerful, but it's also hard to master.",
+  "zh": "所以，好吧，所有的 research 可以非常强大，但也很难掌握。"
+ },
+ {
+  "seg": 21,
+  "start": 173.411,
+  "end": 174.711,
+  "speaker": "Unknown",
+  "en": "With a normal coding agent,",
+  "zh": "用一个普通的 coding 智能体，"
+ },
+ {
+  "seg": 22,
+  "start": 177.205,
+  "end": 180.969,
+  "speaker": "Unknown",
+  "en": "You basically steer agent every single step.",
+  "zh": "你基本上每一步都在引导智能体。"
+ },
+ {
+  "seg": 23,
+  "start": 181.489,
+  "end": 186.594,
+  "speaker": "Unknown",
+  "en": "But for auto-research, it's like the agent is running in a loop on its own.",
+  "zh": "但对于 auto-research,就像是智能体在自己独立地循环运行。"
+ },
+ {
+  "seg": 24,
+  "start": 187.015,
+  "end": 191.96,
+  "speaker": "Unknown",
+  "en": "So it's much bigger multiplier on your prompt and your setup.",
+  "zh": "所以它对你的 prompt 和你的设置的放大倍数要大得多。"
+ },
+ {
+  "seg": 25,
+  "start": 193.624,
+  "end": 202.768,
+  "speaker": "Unknown",
+  "en": "Point it to the right eval, you basically let it boil the ocean for you, but otherwise you're just burning through all of your RM tokens.",
+  "zh": "把它指向正确的 eval,你基本上就是让它替你 boil the ocean,否则你就只是在烧掉你所有的 RM tokens。"
+ },
+ {
+  "seg": 26,
+  "start": 204.889,
+  "end": 213.794,
+  "speaker": "Unknown",
+  "en": "So hopefully this workshop will give you a good starting point to learn about auto research and apply that in your own work.",
+  "zh": "所以希望这个工作坊能给你一个很好的起点，去了解 auto research 并把它应用到你自己工作中。"
+ },
+ {
+  "seg": 27,
+  "start": 214.734,
+  "end": 216.655,
+  "speaker": "Unknown",
+  "en": "Okay, welcome back to Viam.",
+  "zh": "好，欢迎回到 Viam。"
+ },
+ {
+  "seg": 28,
+  "start": 220.894,
+  "end": 221.495,
+  "speaker": "Unknown",
+  "en": "Thanks, Jingyal.",
+  "zh": "谢谢，Jingyal。"
+ },
+ {
+  "seg": 29,
+  "start": 222.215,
+  "end": 224.157,
+  "speaker": "Unknown",
+  "en": "So here's how we'll spend the next two hours.",
+  "zh": "接下来两个小时我们会这样度过。"
+ },
+ {
+  "seg": 30,
+  "start": 225.498,
+  "end": 236.689,
+  "speaker": "Unknown",
+  "en": "Dex will take you inside Parameter Golf, the challenge that we entered our agent into, what that challenge was actually all about, and how our agent ended up as the most influential contributor.",
+  "zh": "Dex 会带你深入了解 Parameter Golf,也就是我们让我们的智能体参加的那场挑战赛，那场挑战赛到底是关于什么的，以及我们的智能体最终如何成为最有影响力的贡献者。"
+ },
+ {
+  "seg": 31,
+  "start": 237.79,
+  "end": 238.451,
+  "speaker": "Unknown",
+  "en": "Then it's your turn.",
+  "zh": "然后就轮到你们了。"
+ },
+ {
+  "seg": 32,
+  "start": 239.051,
+  "end": 242.374,
+  "speaker": "Unknown",
+  "en": "We'll get you set up and kick off an auto-research run on your laptop.",
+  "zh": "我们会帮你完成设置，并在你的笔记本电脑上启动一次 auto-research 运行。"
+ },
+ {
+  "seg": 33,
+  "start": 243.344,
+  "end": 250.763,
+  "speaker": "Unknown",
+  "en": "While your auto research is running in the background, we'll break down the basics of an auto research loop and the pieces that actually shape what an agent does.",
+  "zh": "当你的 auto research 在后台运行时，我们会拆解 auto research 循环的基础知识，以及真正决定智能体行为的那些组成部分。"
+ },
+ {
+  "seg": 34,
+  "start": 252.842,
+  "end": 258.845,
+  "speaker": "Unknown",
+  "en": "And we'll go deeper and do a guided demo where you're able to run, steer, and inspect what your agent is doing live.",
+  "zh": "然后我们会更深入，做一个引导式演示，你可以运行、引导并实时查看你的智能体正在做什么。"
+ },
+ {
+  "seg": 35,
+  "start": 259.746,
+  "end": 263.528,
+  "speaker": "Unknown",
+  "en": "And we'll finish with a fun part, which is a live competition.",
+  "zh": "最后我们以有趣的部分收尾，也就是一场现场比赛。"
+ },
+ {
+  "seg": 36,
+  "start": 264.589,
+  "end": 278.357,
+  "speaker": "Unknown",
+  "en": "You'll take everything that you learned today, point out of research at a game that we've all played before, and go head-to-head to see whose agent can get the highest score with the winner walking away with a really cool prize.",
+  "zh": "你会用上今天学到的一切，把 research 指向一个我们都玩过的游戏，正面比拼看谁的智能体能拿到最高分，获胜者将带走一份非常酷的奖品。"
+ },
+ {
+  "seg": 37,
+  "start": 282.072,
+  "end": 283.893,
+  "speaker": "Unknown",
+  "en": "A little bit more on who we are.",
+  "zh": "再多讲一点我们是谁。"
+ },
+ {
+  "seg": 38,
+  "start": 284.433,
+  "end": 287.394,
+  "speaker": "Unknown",
+  "en": "So we've been working on auto research for quite some time now.",
+  "zh": "我们做 auto research 已经有相当长一段时间了。"
+ },
+ {
+  "seg": 39,
+  "start": 287.954,
+  "end": 295.297,
+  "speaker": "Unknown",
+  "en": "Before WeCo, we released Aid in April 2024, which was an autonomous ML engineering agent.",
+  "zh": "在 WeCo 之前，我们于 2024 年 4 月发布了 Aid,它是一个自主的 ML 工程智能体。"
+ },
+ {
+  "seg": 40,
+  "start": 295.997,
+  "end": 303.02,
+  "speaker": "Unknown",
+  "en": "The basic idea was give it a machine learning problem, let it write code, run experiments, read the results, and keep improving.",
+  "zh": "基本思路是给它一个机器学习问题，让它写代码、跑实验、读结果，并不断改进。"
+ },
+ {
+  "seg": 41,
+  "start": 304.08,
+  "end": 315.668,
+  "speaker": "Unknown",
+  "en": "When OpenAI built MLEBench, Aid was one of the first agents they evaluated independently, and on that benchmark, it scored about four times the medal rate of the next best agent.",
+  "zh": "当 OpenAI 构建 MLEBench 时，Aid 是他们独立评估的首批智能体之一，在那个基准上，它的夺牌率大约是第二名最佳智能体的四倍。"
+ },
+ {
+  "seg": 42,
+  "start": 317.169,
+  "end": 325.095,
+  "speaker": "Unknown",
+  "en": "More recently, as we discussed, we pointed our agent to ParameterGolf, and across more than 1,000 researchers, it became the number one contributor.",
+  "zh": "最近，正如我们讨论过的，我们把我们的智能体指向了 ParameterGolf,在超过 1,000 个 researchers 中，它成为了头号贡献者。"
+ },
+ {
+  "seg": 43,
+  "start": 325.856,
+  "end": 328.638,
+  "speaker": "Unknown",
+  "en": "I'm going to hand it off to Dex, who's going to tell us more about the competition.",
+  "zh": "我要把它交给 Dex,他会给我们更多关于这场比赛的信息。"
+ },
+ {
+  "seg": 44,
+  "start": 339.763,
+  "end": 340.424,
+  "speaker": "Unknown",
+  "en": "Hello, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 45,
+  "start": 341.044,
+  "end": 341.885,
+  "speaker": "Unknown",
+  "en": "My name is Dex.",
+  "zh": "我叫 Dex。"
+ },
+ {
+  "seg": 46,
+  "start": 342.686,
+  "end": 345.169,
+  "speaker": "Unknown",
+  "en": "So I'm going to talk about PyramidGraph.",
+  "zh": "我要讲的是 PyramidGraph。"
+ },
+ {
+  "seg": 47,
+  "start": 345.786,
+  "end": 349.367,
+  "speaker": "Unknown",
+  "en": "So Paramedic Gov is OpenAI's Model Craft Challenge.",
+  "zh": "Paramedic Gov 是 OpenAI 的 Model Craft 挑战赛。"
+ },
+ {
+  "seg": 48,
+  "start": 350.108,
+  "end": 355.03,
+  "speaker": "Unknown",
+  "en": "The goal is to train the best language model you can under two hard constraints.",
+  "zh": "目标是在两个硬性约束下训练出你能做到的最好的语言模型。"
+ },
+ {
+  "seg": 49,
+  "start": 356.35,
+  "end": 362.633,
+  "speaker": "Unknown",
+  "en": "One is the four artifacts, including model weights, plus training code has to fit in 16 megabytes.",
+  "zh": "其中之一是四个 artifacts,包括模型权重加训练代码，必须装进 16 megabytes。"
+ },
+ {
+  "seg": 50,
+  "start": 363.353,
+  "end": 365.634,
+  "speaker": "Unknown",
+  "en": "And the training has to finish within 10 minutes.",
+  "zh": "而且训练必须在 10 分钟内完成。"
+ },
+ {
+  "seg": 51,
+  "start": 366.334,
+  "end": 371.937,
+  "speaker": "Unknown",
+  "en": "Submissions are scored by a bit per byte, BBB on the fine-wide validation set.",
+  "zh": "提交结果按 bit per byte(BBB)在 fine-wide 验证集上评分。"
+ },
+ {
+  "seg": 52,
+  "start": 372.697,
+  "end": 373.558,
+  "speaker": "Unknown",
+  "en": "And the lowest better.",
+  "zh": "且越低越好。"
+ },
+ {
+  "seg": 53,
+  "start": 374.138,
+  "end": 385.149,
+  "speaker": "Unknown",
+  "en": "OpenAI provided a baseline data set and evaluation scripts so participants can fork the repo, improve the model, and submit their result through GitHub.",
+  "zh": "OpenAI 提供了一个基线数据集和评估脚本，参与者可以 fork 仓库、改进模型，并通过 GitHub 提交他们的结果。"
+ },
+ {
+  "seg": 54,
+  "start": 385.589,
+  "end": 387.271,
+  "speaker": "Unknown",
+  "en": "So everything is open sourced.",
+  "zh": "所以一切都是开源的。"
+ },
+ {
+  "seg": 55,
+  "start": 387.711,
+  "end": 393.016,
+  "speaker": "Unknown",
+  "en": "They also put up a million dollar in computer credits and reviewed every submission.",
+  "zh": "他们还提供了 100 万美元的计算额度，并审查了每一个提交。"
+ },
+ {
+  "seg": 56,
+  "start": 393.737,
+  "end": 407.084,
+  "speaker": "Unknown",
+  "en": "During the 44-day competition, there were 1,016 researchers entered and filed 2,048 peers, roughly about 250k of GPU compute burned.",
+  "zh": "在为期 44 天的比赛期间，共有 1,016 名研究人员参赛，提交了 2,048 个 PR,大约烧掉了约 25 万美元的 GPU 算力。"
+ },
+ {
+  "seg": 57,
+  "start": 407.124,
+  "end": 413.988,
+  "speaker": "Unknown",
+  "en": "Finally, the board is shot, only 47 peers merged as record from 31 contributors.",
+  "zh": "最终，门槛很高，只有来自 31 位贡献者的 47 个 PR 被合并为纪录。"
+ },
+ {
+  "seg": 58,
+  "start": 415.955,
+  "end": 423.268,
+  "speaker": "Unknown",
+  "en": "And for this competition, we built Aden, a self-improving multi-aging system based on the cloud and GPT model families.",
+  "zh": "而为了这场比赛，我们构建了 Aden,一个基于 Claude 和 GPT 模型系列的自我改进多智能体系统。"
+ },
+ {
+  "seg": 59,
+  "start": 423.749,
+  "end": 426.874,
+  "speaker": "Unknown",
+  "en": "The role is definitely to help clamp on a single metric.",
+  "zh": "这个任务绝对适合在单一指标上死磕。"
+ },
+ {
+  "seg": 60,
+  "start": 427.495,
+  "end": 428.257,
+  "speaker": "Unknown",
+  "en": "Empowerment, Gov.",
+  "zh": "赋权，Gov。"
+ },
+ {
+  "seg": 61,
+  "start": 429.276,
+  "end": 431.557,
+  "speaker": "Unknown",
+  "en": "Aden automated the full research loop.",
+  "zh": "Aden 自动化了完整的研究循环。"
+ },
+ {
+  "seg": 62,
+  "start": 432.158,
+  "end": 450.087,
+  "speaker": "Unknown",
+  "en": "It pulls public papers from archive, strong implementations from GitHub, and its own path logs, then propose new ideas, test them, audit them for legality, keep the ones that work, write the implementation, and run the experiments.",
+  "zh": "它从 archive 拉取公开论文、从 GitHub 拉取实现和它自己的路径日志，然后提出新想法、测试它们、审计其合法性、保留有效的那些、编写实现，并运行实验。"
+ },
+ {
+  "seg": 63,
+  "start": 450.968,
+  "end": 456.531,
+  "speaker": "Unknown",
+  "en": "Once the results clear the quality gates, it will create and submit a PR for review.",
+  "zh": "一旦结果通过质量闸门，它就会创建并提交一个 PR 供审查。"
+ },
+ {
+  "seg": 64,
+  "start": 458.872,
+  "end": 460.273,
+  "speaker": "Unknown",
+  "en": "And the results are remarkable.",
+  "zh": "结果非常惊人。"
+ },
+ {
+  "seg": 65,
+  "start": 460.793,
+  "end": 463.494,
+  "speaker": "Unknown",
+  "en": "Aden landed seven merge leaderboard records.",
+  "zh": "Aden 拿下了七条被合并的排行榜纪录。"
+ },
+ {
+  "seg": 66,
+  "start": 463.915,
+  "end": 465.435,
+  "speaker": "Unknown",
+  "en": "That's twice the next best human.",
+  "zh": "那是第二名人类的两倍。"
+ },
+ {
+  "seg": 67,
+  "start": 466.016,
+  "end": 473.48,
+  "speaker": "Unknown",
+  "en": "It also has the highest LPRH index in the whole computation, which means Aden didn't just produce accept records.",
+  "zh": "它还拥有整个比赛中最高的 LPRH 指数，这意味着 Aden 不只是产出了被接受的纪录。"
+ },
+ {
+  "seg": 68,
+  "start": 473.72,
+  "end": 479.543,
+  "speaker": "Unknown",
+  "en": "It published reusable work that other participants kept building on.",
+  "zh": "它发表的是可复用的工作，其他参与者持续在其上构建。"
+ },
+ {
+  "seg": 69,
+  "start": 479.843,
+  "end": 483.165,
+  "speaker": "Unknown",
+  "en": "435 downstream peers studied and built on Aden's work.",
+  "zh": "有 435 个下游 PR 站在并构建于 Aden 的工作之上。"
+ },
+ {
+  "seg": 70,
+  "start": 484.126,
+  "end": 486.368,
+  "speaker": "Unknown",
+  "en": "It goes there on a fraction of the budget.",
+  "zh": "而且它只用了预算的一小部分就做到了。"
+ },
+ {
+  "seg": 71,
+  "start": 486.808,
+  "end": 493.714,
+  "speaker": "Unknown",
+  "en": "From just 4% of the community's GPU compute, it got 15% of total merged records.",
+  "zh": "仅用社区 GPU 算力的 4%,它拿下了总合并纪录的 15%。"
+ },
+ {
+  "seg": 72,
+  "start": 493.774,
+  "end": 497.457,
+  "speaker": "Unknown",
+  "en": "That's 3.7 times more cost effective than the field average.",
+  "zh": "这比领域平均水平高出 3.7 倍的成本效益。"
+ },
+ {
+  "seg": 73,
+  "start": 498.417,
+  "end": 504.422,
+  "speaker": "Unknown",
+  "en": "And this wraps up how Aden becomes the number one contributor to the OpenAI's hiring challenge.",
+  "zh": "这就总结了 Aden 如何成为 OpenAI hiring 挑战赛的第一贡献者。"
+ },
+ {
+  "seg": 74,
+  "start": 505.003,
+  "end": 505.343,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 75,
+  "start": 510.736,
+  "end": 518.861,
+  "speaker": "Unknown",
+  "en": "Cool, so we're actually gonna run auto research on a version of the same parameter golf challenge that Dex just walked you through.",
+  "zh": "好，我们实际上要在 Dex 刚才带你们走过的那个 parameter golf 挑战赛的某个版本上运行 auto research。"
+ },
+ {
+  "seg": 76,
+  "start": 519.921,
+  "end": 524.724,
+  "speaker": "Unknown",
+  "en": "For future reference, we will just call this MiniPG, which stands for MiniParameterGolf.",
+  "zh": "为了便于后续参考，我们就把它叫做 MiniPG,即 MiniParameterGolf 的缩写。"
+ },
+ {
+  "seg": 77,
+  "start": 525.965,
+  "end": 530.026,
+  "speaker": "Unknown",
+  "en": "As Dex discussed, the real parameter golf competition was heavy.",
+  "zh": "正如 Dex 所说，真正的 parameter golf 比赛非常重。 [[58→应为57后的补充说明略]] 每一个实验都是在一个海量数据集上训练语言模型，当比赛持续四周以上时这没问题，但在像今天这样的工作坊里，你根本没法真正看到你的 auto research 跑起来。"
+ },
+ {
+  "seg": 78,
+  "start": 530.466,
+  "end": 542.67,
+  "speaker": "Unknown",
+  "en": "Every single experiment was training a language model on a massive data set, which is fine when the competition is over four weeks, but in a workshop like today, you'd never actually be able to see your auto research run.",
+  "zh": "每一个实验都是在一个大规模数据集上训练语言模型，如果比赛持续四周这没问题，但在像今天这样的工作坊里，你根本不可能真正看到你的 auto research 跑起来。"
+ },
+ {
+  "seg": 79,
+  "start": 543.63,
+  "end": 548.472,
+  "speaker": "Unknown",
+  "en": "So think of MiniPG as a scale model of the challenge.",
+  "zh": "所以把 MiniPG 想成是这个挑战赛的缩比模型。"
+ },
+ {
+  "seg": 80,
+  "start": 549.512,
+  "end": 560.936,
+  "speaker": "Unknown",
+  "en": "You're still going to train a real language model, score it on the same fixed evaluator, and drive down the same single number, ValBBP, which is essentially measuring how well the model predicts text it hasn't seen.",
+  "zh": "你仍然要训练一个真实的语言模型，用同一个固定评估器给它打分，并压低同一个数字，ValBBP,它本质上衡量的是模型对没见过的文本的预测能力。"
+ },
+ {
+  "seg": 81,
+  "start": 561.556,
+  "end": 563.397,
+  "speaker": "Unknown",
+  "en": "But what we did is we shrank this in scale.",
+  "zh": "但我们所做的是把它在规模上缩小了。"
+ },
+ {
+  "seg": 82,
+  "start": 563.997,
+  "end": 569.219,
+  "speaker": "Unknown",
+  "en": "We're using a tiny data set instead of fine web, and training an eval that only takes a few minutes.",
+  "zh": "我们用一个微型数据集代替 fine web,训练加评估只需要几分钟。"
+ },
+ {
+  "seg": 83,
+  "start": 569.679,
+  "end": 571.7,
+  "speaker": "Unknown",
+  "en": "So you'll actually be able to get a loop going.",
+  "zh": "所以你真的能把一个循环跑起来。"
+ },
+ {
+  "seg": 84,
+  "start": 572.46,
+  "end": 574.861,
+  "speaker": "Unknown",
+  "en": "And see several real steps live.",
+  "zh": "并现场看到几个真实的步骤。"
+ },
+ {
+  "seg": 85,
+  "start": 578.002,
+  "end": 582.404,
+  "speaker": "Unknown",
+  "en": "So before I get to the instructions on the next slide, just a little bit of orientation.",
+  "zh": "在我讲下一张幻灯片上的操作说明之前，先简单做一个定位介绍。"
+ },
+ {
+  "seg": 86,
+  "start": 582.424,
+  "end": 586.505,
+  "speaker": "Unknown",
+  "en": "You're gonna run auto research yourself on MiniParameterGolf.",
+  "zh": "你们要自己在 MiniParameterGolf 上运行 auto research。"
+ },
+ {
+  "seg": 87,
+  "start": 587.146,
+  "end": 590.107,
+  "speaker": "Unknown",
+  "en": "You're gonna sign up for two platforms if you haven't already.",
+  "zh": "如果你还没注册，你需要注册两个平台。"
+ },
+ {
+  "seg": 88,
+  "start": 590.747,
+  "end": 593.568,
+  "speaker": "Unknown",
+  "en": "One is WeCo, our auto research agent that runs a search.",
+  "zh": "一个是 WeCo,我们的 auto research 智能体，负责运行搜索。"
+ },
+ {
+  "seg": 89,
+  "start": 594.028,
+  "end": 598.39,
+  "speaker": "Unknown",
+  "en": "And the other is Modal, the compute your experiments, train and evaluate on.",
+  "zh": "另一个是 Modal,你的实验在其中训练和评估的计算平台。"
+ },
+ {
+  "seg": 90,
+  "start": 598.89,
+  "end": 600.291,
+  "speaker": "Unknown",
+  "en": "Free credits, thank you, Modal.",
+  "zh": "免费额度，谢谢你，Modal。"
+ },
+ {
+  "seg": 91,
+  "start": 601.612,
+  "end": 609.359,
+  "speaker": "Unknown",
+  "en": "Then you will clone our parameter golf repo and hand it to your coding agent, tell it to kick off a run, it handles the setup, and it will start the loop.",
+  "zh": "然后你会克隆我们的 parameter golf 仓库，把它交给你的编码智能体，让它启动一次运行，它负责环境搭建，并开始跑循环。"
+ },
+ {
+  "seg": 92,
+  "start": 610.4,
+  "end": 618.488,
+  "speaker": "Unknown",
+  "en": "Once it's going and it's running in the background, you can kick it off, and we will check back in in around 15 or 20 minutes to take you inside the details.",
+  "zh": "一旦它跑起来、在后台运行，你就可以启动它，我们会在大约 15 到 20 分钟后回来带你们深入细节。"
+ },
+ {
+  "seg": 93,
+  "start": 622.742,
+  "end": 623.563,
+  "speaker": "Unknown",
+  "en": "Instructions are here.",
+  "zh": "操作说明在这里。"
+ },
+ {
+  "seg": 94,
+  "start": 624.484,
+  "end": 630.008,
+  "speaker": "Unknown",
+  "en": "Sign up for WeCo on dashboard.weco.ai, modal for modal.com-signup.",
+  "zh": "在 dashboard.weco.ai 注册 WeCo,在 modal.com-signup 注册 Modal。"
+ },
+ {
+  "seg": 95,
+  "start": 630.889,
+  "end": 632.691,
+  "speaker": "Unknown",
+  "en": "There's a code to claim your modal credits.",
+  "zh": "有一个兑换 Modal 额度的码。"
+ },
+ {
+  "seg": 96,
+  "start": 633.792,
+  "end": 638.996,
+  "speaker": "Unknown",
+  "en": "If you already have a modal account, you can go directly to modal.com slash credits and enter your code there.",
+  "zh": "如果你已经有 Modal 账号，可以直接去 modal.com slash credits 输入你的码。"
+ },
+ {
+  "seg": 97,
+  "start": 640.658,
+  "end": 649.906,
+  "speaker": "Unknown",
+  "en": "And once you're done with those two steps, clone the repo shown here and tell your agent to set up MiniPG from the readme and kick off a run.",
+  "zh": "完成这两步后，克隆这里展示的仓库，告诉你的智能体按照 readme 搭建 MiniPG 并启动一次运行。"
+ },
+ {
+  "seg": 98,
+  "start": 650.892,
+  "end": 660.327,
+  "speaker": "Unknown",
+  "en": "If you run into any issues or have any questions, feel free to scan the QR code and enter it there, and we'll be monitoring that, or raise your hand and we'll come to you.",
+  "zh": "如果你遇到任何问题或有任何疑问，随时扫描二维码并在那里输入，我们会监控那个频道，或者举手，我们会过去找你。"
+ },
+ {
+  "seg": 99,
+  "start": 660.347,
+  "end": 663.311,
+  "speaker": "Unknown",
+  "en": "We'll check back in in around 10, 15 minutes.",
+  "zh": "我们会在大约 10 到 15 分钟后回来。"
+ },
+ {
+  "seg": 100,
+  "start": 664.112,
+  "end": 664.873,
+  "speaker": "Unknown",
+  "en": "Thanks, guys.",
+  "zh": "谢谢各位。"
+ },
+ {
+  "seg": 101,
+  "start": 665.413,
+  "end": 665.633,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 102,
+  "start": 665.813,
+  "end": 667.614,
+  "speaker": "Unknown",
+  "en": "So sorry about the internet problem.",
+  "zh": "对于网络问题非常抱歉。"
+ },
+ {
+  "seg": 103,
+  "start": 667.774,
+  "end": 668.675,
+  "speaker": "Unknown",
+  "en": "I think it's being worked on.",
+  "zh": "我觉得正在处理中。"
+ },
+ {
+  "seg": 104,
+  "start": 668.935,
+  "end": 675.579,
+  "speaker": "Unknown",
+  "en": "But until then, I think it would be good to maybe go through the anatomy of an auto-research run.",
+  "zh": "但在那之前，我觉得可以先过一遍一次 auto-research 运行的结构剖析。"
+ },
+ {
+  "seg": 105,
+  "start": 676.259,
+  "end": 683.264,
+  "speaker": "Unknown",
+  "en": "And we're going to be doing this in the context of WeCo as the auto-research system and MiniPG as the task.",
+  "zh": "我们将以 WeCo 作为 auto-research 系统、MiniPG 作为任务为例来讲。"
+ },
+ {
+  "seg": 106,
+  "start": 683.924,
+  "end": 687.806,
+  "speaker": "Unknown",
+  "en": "But really, this kind of contract that we have here is fairly general.",
+  "zh": "但实际上，我们这里的这种契约是相当通用的。"
+ },
+ {
+  "seg": 107,
+  "start": 688.187,
+  "end": 693.49,
+  "speaker": "Unknown",
+  "en": "Most auto-research systems are going to have you ask very similar questions and think about the same things.",
+  "zh": "大多数 auto-research 系统都会让你问非常相似的问题、思考相同的事情。"
+ },
+ {
+  "seg": 108,
+  "start": 696.465,
+  "end": 698.906,
+  "speaker": "Unknown",
+  "en": "Okay, so the first thing is the source file.",
+  "zh": "好，那么第一件事是源文件。"
+ },
+ {
+  "seg": 109,
+  "start": 699.686,
+  "end": 702.727,
+  "speaker": "Unknown",
+  "en": "This is what the agent actually has to modify.",
+  "zh": "这是智能体实际需要修改的东西。"
+ },
+ {
+  "seg": 110,
+  "start": 703.127,
+  "end": 706.209,
+  "speaker": "Unknown",
+  "en": "This defines the search space and where it can make changes.",
+  "zh": "它定义了搜索空间以及它可以进行更改的地方。"
+ },
+ {
+  "seg": 111,
+  "start": 706.369,
+  "end": 709.63,
+  "speaker": "Unknown",
+  "en": "So this can be a single file, it can be multiple files.",
+  "zh": "它可以是单个文件，也可以是多个文件。"
+ },
+ {
+  "seg": 112,
+  "start": 710.19,
+  "end": 714.051,
+  "speaker": "Unknown",
+  "en": "In the case of Minipg, it's this one file called solution.py.",
+  "zh": "在 Minipg 这个例子里，它是一个叫 solution.py 的文件。"
+ },
+ {
+  "seg": 113,
+  "start": 714.972,
+  "end": 723.475,
+  "speaker": "Unknown",
+  "en": "And solution.py essentially defines the model config and the training dynamics that's gonna go on while the model is training.",
+  "zh": "而 solution.py 本质上定义了模型配置以及模型训练过程中的训练动态。"
+ },
+ {
+  "seg": 114,
+  "start": 726.762,
+  "end": 733.609,
+  "speaker": "Unknown",
+  "en": "And then the second thing, and in my opinion this is probably the most crucial part of an auto-research system, is the evaluation.",
+  "zh": "然后第二件事，在我看来这可能是 auto-research 系统最关键的部分，就是评估。"
+ },
+ {
+  "seg": 115,
+  "start": 734.329,
+  "end": 742.517,
+  "speaker": "Unknown",
+  "en": "And so you want to have a very simple way of allowing your auto-research system to evaluate every solution that it generates.",
+  "zh": "你需要有一种非常简单的方式，让你的 auto-research 系统能够评估它生成的每一个方案。"
+ },
+ {
+  "seg": 116,
+  "start": 744.739,
+  "end": 748.002,
+  "speaker": "Unknown",
+  "en": "And you want to have it output a single scalar metric.",
+  "zh": "而且你要让它输出一个单一的标量指标。"
+ },
+ {
+  "seg": 117,
+  "start": 748.823,
+  "end": 762.036,
+  "speaker": "Unknown",
+  "en": "And you want the eval to be fast, you want it to be cheap, you want it to have low noise, because this essentially leads to your ability to run more steps if you have a fixed budget or a fixed time constraint.",
+  "zh": "你希望评估要快、要便宜、要低噪声，因为这本质上决定了在固定预算或固定时间约束下你能运行更多步数的能力。"
+ },
+ {
+  "seg": 118,
+  "start": 762.977,
+  "end": 772.285,
+  "speaker": "Unknown",
+  "en": "And if there's low noise, then both you as well as the agent are more confident as you're kind of hill climbing on whatever task you're auto-researching on.",
+  "zh": "而且如果噪声低，那么无论是你还是智能体，在你进行任何 auto-research 任务的爬山优化时都会更有信心。"
+ },
+ {
+  "seg": 119,
+  "start": 773.066,
+  "end": 777.552,
+  "speaker": "Unknown",
+  "en": "And so one thing to be aware of, though, is agents love to reward hack.",
+  "zh": "不过有一点需要注意，那就是智能体特别喜欢钻评估的空子(reward hack)。"
+ },
+ {
+  "seg": 120,
+  "start": 778.113,
+  "end": 782.899,
+  "speaker": "Unknown",
+  "en": "So they love to find holes in your evaluation protocol, holes in your benchmark.",
+  "zh": "它们喜欢在你的评估协议里找漏洞，在你的基准测试里找漏洞。"
+ },
+ {
+  "seg": 121,
+  "start": 783.38,
+  "end": 786.905,
+  "speaker": "Unknown",
+  "en": "And so you really want to figure out how to make your eval as robust as possible.",
+  "zh": "所以你真的要好好琢磨怎么让你的评估尽可能稳健。"
+ },
+ {
+  "seg": 122,
+  "start": 790.29,
+  "end": 792.632,
+  "speaker": "Unknown",
+  "en": "The next two things are the metric and the goal.",
+  "zh": "接下来的两样东西是指标和目标。"
+ },
+ {
+  "seg": 123,
+  "start": 793.352,
+  "end": 795.114,
+  "speaker": "Unknown",
+  "en": "So you really want to ask yourself two questions.",
+  "zh": "你真的要问自己两个问题。"
+ },
+ {
+  "seg": 124,
+  "start": 796.034,
+  "end": 797.115,
+  "speaker": "Unknown",
+  "en": "What do I want to improve?",
+  "zh": "我想改进什么？"
+ },
+ {
+  "seg": 125,
+  "start": 797.775,
+  "end": 799.417,
+  "speaker": "Unknown",
+  "en": "And is higher or lower better?",
+  "zh": "是越高越好还是越低越好？"
+ },
+ {
+  "seg": 126,
+  "start": 800.898,
+  "end": 806.182,
+  "speaker": "Unknown",
+  "en": "And in our case for MiniPG, you want to minimize the validation BPP.",
+  "zh": "在 MiniPG 我们的例子里，你要最小化验证集 BPP。"
+ },
+ {
+  "seg": 127,
+  "start": 806.462,
+  "end": 812.026,
+  "speaker": "Unknown",
+  "en": "So you essentially want to find a model that is better at predicting on unseen text.",
+  "zh": "所以你本质上是要找到一个在预测未见过的文本上表现更好的模型。"
+ },
+ {
+  "seg": 128,
+  "start": 815.903,
+  "end": 821.165,
+  "speaker": "Unknown",
+  "en": "The next thing is the number of steps you actually run the auto-research system for.",
+  "zh": "下一件事是你实际运行 auto-research 系统的步数。"
+ },
+ {
+  "seg": 129,
+  "start": 821.185,
+  "end": 828.307,
+  "speaker": "Unknown",
+  "en": "This is a bit tricky because it's difficult to know a priori how many steps you should give your system.",
+  "zh": "这有点棘手，因为很难先验地知道你应该给你的系统多少步。"
+ },
+ {
+  "seg": 130,
+  "start": 828.828,
+  "end": 839.471,
+  "speaker": "Unknown",
+  "en": "We've chosen 20 in this case just because we want to give your agents enough time to kind of explore different ideas and you can see what the agent is actually exploring, what works, what doesn't.",
+  "zh": "我们这次选了 20 步，只是因为我们想给智能体足够的时间去探索不同的想法，你可以看到智能体实际在探索什么，什么有效，什么无效。"
+ },
+ {
+  "seg": 131,
+  "start": 841.172,
+  "end": 846.535,
+  "speaker": "Unknown",
+  "en": "But really, more ideas that gets tried generally leads to more breakthroughs.",
+  "zh": "但实际上，尝试的想法越多，通常就会带来更多突破。"
+ },
+ {
+  "seg": 132,
+  "start": 847.155,
+  "end": 860.342,
+  "speaker": "Unknown",
+  "en": "And so this goes back to what I was saying earlier, where if you have a fast eval or if you have a cheap eval, then when you're under some kind of time constraint or cost constraint, you can run more steps.",
+  "zh": "这又回到我之前说的，如果你有一个快的评估或一个便宜的评估，那么当你在某种时间约束或成本约束下时，你就可以运行更多步。"
+ },
+ {
+  "seg": 133,
+  "start": 861.602,
+  "end": 866.825,
+  "speaker": "Unknown",
+  "en": "And so, again, the eval is always super important to consider.",
+  "zh": "所以再强调一次，评估永远是需要超级认真考虑的。"
+ },
+ {
+  "seg": 134,
+  "start": 870.325,
+  "end": 879.63,
+  "speaker": "Unknown",
+  "en": "All right, so you also want to bound the time for which your eval runs for because a lot of things can go wrong.",
+  "zh": "好，另外你还要给评估的运行时间设一个上限，因为很多事情可能出问题。"
+ },
+ {
+  "seg": 135,
+  "start": 879.81,
+  "end": 887.475,
+  "speaker": "Unknown",
+  "en": "So loops can stall, hardware can fail, sometimes the agent will produce really bad code that causes the entire system to hang.",
+  "zh": "比如循环可能卡住，硬件可能故障，有时智能体会生成非常糟糕的代码导致整个系统挂起。"
+ },
+ {
+  "seg": 136,
+  "start": 888.235,
+  "end": 891.356,
+  "speaker": "Unknown",
+  "en": "And so you want to bound the actual evaluation running.",
+  "zh": "所以你要给实际的评估运行设置一个界限。"
+ },
+ {
+  "seg": 137,
+  "start": 892.776,
+  "end": 895.617,
+  "speaker": "Unknown",
+  "en": "In our case, we set it to be 210 seconds.",
+  "zh": "在我们的例子里，我们把它设为 210 秒。"
+ },
+ {
+  "seg": 138,
+  "start": 895.797,
+  "end": 918.082,
+  "speaker": "Unknown",
+  "en": "And the reason for that is we give 60 seconds for training the model, 60 seconds for testing the model on unseen text, and then 90 seconds, which is a buffer for modal to spin up the GPUs for training, spin it up for the testing, and any other kinds of overheads that exist.",
+  "zh": "原因是我们给模型训练 60 秒，给模型在未见过的文本上测试 60 秒，然后 90 秒是留给 Modal 启动 GPU 用于训练、再启动用于测试的缓冲时间，以及存在的其他各种开销。"
+ },
+ {
+  "seg": 139,
+  "start": 921.763,
+  "end": 927.564,
+  "speaker": "Unknown",
+  "en": "And the last thing is the guidance that you give the agent at the start of your optimization.",
+  "zh": "最后一样东西是你在优化开始时给智能体的引导。"
+ },
+ {
+  "seg": 140,
+  "start": 928.644,
+  "end": 930.644,
+  "speaker": "Unknown",
+  "en": "So this is how you steer the agent from the start.",
+  "zh": "这就是你从一开始引导智能体的方式。"
+ },
+ {
+  "seg": 141,
+  "start": 931.584,
+  "end": 947.407,
+  "speaker": "Unknown",
+  "en": "And you really want to think about it as you've probably run experiments before, you've compounded a bunch of domain expertise and human knowledge, and you might have some ideas about things that work, things that might be interesting to try, and maybe things that don't work.",
+  "zh": "你真的要这样想：你可能以前做过实验，积累了一堆领域专业知识和人类知识，你可能对哪些东西有效、哪些东西可能值得一试、也许哪些东西无效有一些想法。"
+ },
+ {
+  "seg": 142,
+  "start": 948.127,
+  "end": 950.569,
+  "speaker": "Unknown",
+  "en": "And so this is where you can provide that kind of guidance.",
+  "zh": "这就是你可以提供这类引导的地方。"
+ },
+ {
+  "seg": 143,
+  "start": 951.71,
+  "end": 964.882,
+  "speaker": "Unknown",
+  "en": "In the case of WeCo, you can simply point it to a markdown file, have all of your information and context in there, and the agent is able to use this, and it gives the agent the best chance at finding success.",
+  "zh": "以 WeCo 为例，你只需把它指向一个 markdown 文件，把你所有的信息和上下文都放在里面，智能体就能够使用它，这给了智能体最佳的成功机会。"
+ },
+ {
+  "seg": 144,
+  "start": 966.223,
+  "end": 980.715,
+  "speaker": "Unknown",
+  "en": "In the case of MiniPG, this can be some hard constraints or different ideas that seem to work quite well, like focusing on compression, different quantization methods, maybe even weight sharing across different blocks in the model.",
+  "zh": "在 MiniPG 的例子里，这可以是一些硬性约束或一些看起来效果很好的不同想法，比如聚焦压缩、不同的量化方法，甚至可能是模型中不同块之间的权重共享。"
+ },
+ {
+  "seg": 145,
+  "start": 992.321,
+  "end": 999.225,
+  "speaker": "Unknown",
+  "en": "We are just going to demo how to get started on auto research for you considering the internet issues.",
+  "zh": "考虑到网络问题，我们只为大家演示一下如何开始上手 auto research。"
+ },
+ {
+  "seg": 146,
+  "start": 1000.125,
+  "end": 1009.551,
+  "speaker": "Unknown",
+  "en": "Before we get to that, a little bit more about what we think makes production-grade auto research actually production-grade.",
+  "zh": "在讲那个之前，再多说一点我们认为是什么让生产级 auto research 真正是生产级的。"
+ },
+ {
+  "seg": 147,
+  "start": 1011.383,
+  "end": 1012.283,
+  "speaker": "Unknown",
+  "en": "The first is structure.",
+  "zh": "第一个是结构。"
+ },
+ {
+  "seg": 148,
+  "start": 1012.624,
+  "end": 1023.569,
+  "speaker": "Unknown",
+  "en": "So we have a tree-based search where the agent shows you every attempt it's run so that ideas, as Dhruv had mentioned, can sort of compound on each other instead of starting from scratch.",
+  "zh": "我们有一个基于树的搜索，智能体会向你展示它运行过的每一次尝试，这样想法就能像 Dhruv 提到的那样相互叠加，而不是从零开始。"
+ },
+ {
+  "seg": 149,
+  "start": 1024.65,
+  "end": 1026.571,
+  "speaker": "Unknown",
+  "en": "The second is observability.",
+  "zh": "第二个是可观测性。"
+ },
+ {
+  "seg": 150,
+  "start": 1028.151,
+  "end": 1035.754,
+  "speaker": "Unknown",
+  "en": "You can sort of open any attempt, read the exact code change behind its score so you can see why the agent is taking the approach it is.",
+  "zh": "你可以打开任何一次尝试，阅读其分数背后确切的代码改动，这样你就能看到智能体为什么采取它当前的做法。"
+ },
+ {
+  "seg": 151,
+  "start": 1036.475,
+  "end": 1038.195,
+  "speaker": "Unknown",
+  "en": "And the third thing is steerability.",
+  "zh": "第三点是可操控性。"
+ },
+ {
+  "seg": 152,
+  "start": 1038.455,
+  "end": 1040.296,
+  "speaker": "Unknown",
+  "en": "So you have a sense of control.",
+  "zh": "这样你就有了掌控感。"
+ },
+ {
+  "seg": 153,
+  "start": 1040.756,
+  "end": 1047.139,
+  "speaker": "Unknown",
+  "en": "You can inject your own ideas and knowledge while the loop is running and have it try new directions in case it's stuck.",
+  "zh": "你可以在循环运行时注入自己的想法和知识，让它在卡住时尝试新的方向。"
+ },
+ {
+  "seg": 154,
+  "start": 1049.507,
+  "end": 1052.169,
+  "speaker": "Unknown",
+  "en": "A little bit more about the tree-based search.",
+  "zh": "再多讲一点基于树的搜索。"
+ },
+ {
+  "seg": 155,
+  "start": 1052.63,
+  "end": 1063.018,
+  "speaker": "Unknown",
+  "en": "We will shortly demo this on our auto-research dashboard, but tree-based auto-research essentially treats the problem as a structured optimization process over code.",
+  "zh": "我们稍后会在我们的自动研究仪表盘上演示这个，但基于树的自动研究本质上是把这个问题当作一个在代码之上的结构化优化过程。"
+ },
+ {
+  "seg": 156,
+  "start": 1063.899,
+  "end": 1065.02,
+  "speaker": "Unknown",
+  "en": "It starts with the root of the tree.",
+  "zh": "它从树的根节点开始。"
+ },
+ {
+  "seg": 157,
+  "start": 1065.12,
+  "end": 1071.145,
+  "speaker": "Unknown",
+  "en": "As you can see, the score was 0.5, which is just the baseline program and a measured score.",
+  "zh": "如你所见，分数是 0.5,这只是基准程序和一个测量到的分数。"
+ },
+ {
+  "seg": 158,
+  "start": 1071.866,
+  "end": 1077.811,
+  "speaker": "Unknown",
+  "en": "Every node after that root is a modified version of the code run against your eval with a score attached.",
+  "zh": "根节点之后的每个节点都是代码的一个修改版本，针对你的评测运行并附有一个分数。"
+ },
+ {
+  "seg": 159,
+  "start": 1078.451,
+  "end": 1080.792,
+  "speaker": "Unknown",
+  "en": "You can think of this tree as an experiment graph.",
+  "zh": "你可以把这棵树看作一张实验图。"
+ },
+ {
+  "seg": 160,
+  "start": 1081.792,
+  "end": 1084.914,
+  "speaker": "Unknown",
+  "en": "As you can see, the search builds on what works.",
+  "zh": "如你所见，搜索建立在有效的方案之上。"
+ },
+ {
+  "seg": 161,
+  "start": 1084.974,
+  "end": 1087.315,
+  "speaker": "Unknown",
+  "en": "We're finding good candidates and pruning bad ones.",
+  "zh": "我们在寻找好的候选并剪掉坏的。"
+ },
+ {
+  "seg": 162,
+  "start": 1087.455,
+  "end": 1098.98,
+  "speaker": "Unknown",
+  "en": "So when a branch improves the score, it builds on those ideas and goes deeper next, which means that you can inspect the exact changes your auto-research system is making and build off of those.",
+  "zh": "所以当某个分支提升了分数，它就会基于那些想法下一步走得更深，这意味着你可以检查你的自动研究系统正在做的确切改动，并在此基础上继续构建。"
+ },
+ {
+  "seg": 163,
+  "start": 1102.897,
+  "end": 1106.32,
+  "speaker": "Unknown",
+  "en": "So the next idea we talked about was observability.",
+  "zh": "我们谈到的下一个想法是可观测性。"
+ },
+ {
+  "seg": 164,
+  "start": 1107.841,
+  "end": 1114.987,
+  "speaker": "Unknown",
+  "en": "Because you can see every one of the nodes in this tree-based search, you can open any one of them and see exactly what changed.",
+  "zh": "因为你可以看到这棵基于树的搜索中的每一个节点，你可以打开其中任何一个，确切地看到什么发生了变化。"
+ },
+ {
+  "seg": 165,
+  "start": 1115.607,
+  "end": 1121.452,
+  "speaker": "Unknown",
+  "en": "You can see your metric move in real time, correlating the movement to a reason.",
+  "zh": "你可以实时看到你的指标变动，并把变动关联到一个原因。"
+ },
+ {
+  "seg": 166,
+  "start": 1121.632,
+  "end": 1127.677,
+  "speaker": "Unknown",
+  "en": "You can hover over a node, get a summary of what changed, and you can open it and read the exact diff.",
+  "zh": "你可以悬停在某个节点上，得到变更内容的摘要，你也可以打开它并阅读确切的 diff。"
+ },
+ {
+  "seg": 167,
+  "start": 1128.237,
+  "end": 1131.339,
+  "speaker": "Unknown",
+  "en": "So when the metric jumps, you can read the change that caused it.",
+  "zh": "所以当指标跳升时，你可以阅读导致它变化的那次改动。"
+ },
+ {
+  "seg": 168,
+  "start": 1132.42,
+  "end": 1135.902,
+  "speaker": "Unknown",
+  "en": "And typically these runs go for hours across hundreds of experiments.",
+  "zh": "通常这些运行会持续数小时，跨越数百个实验。"
+ },
+ {
+  "seg": 169,
+  "start": 1136.202,
+  "end": 1141.465,
+  "speaker": "Unknown",
+  "en": "So once you can see what it's doing, the next natural step is to be able to change what it does.",
+  "zh": "所以一旦你能看到它在做什么，下一个自然的步骤就是能够改变它做的事情。"
+ },
+ {
+  "seg": 170,
+  "start": 1143.787,
+  "end": 1147.169,
+  "speaker": "Unknown",
+  "en": "This is essentially when you stop watching and start to take over.",
+  "zh": "这本质上就是当你停止旁观、开始接管的时候。"
+ },
+ {
+  "seg": 171,
+  "start": 1148.109,
+  "end": 1159.276,
+  "speaker": "Unknown",
+  "en": "If I have an idea I want to try in plain English, I take the idea, it opens a new branch, and you can see it try this new idea and have new nodes develop and a new curve.",
+  "zh": "如果我有一个想用大白话尝试的想法，我把这个想法提交，它会打开一个新分支，你可以看到它尝试这个新想法，产生新的节点和一条新曲线。"
+ },
+ {
+  "seg": 172,
+  "start": 1160.618,
+  "end": 1164.062,
+  "speaker": "Unknown",
+  "en": "I can also put a budget to each node so it spends compute where I want.",
+  "zh": "更正:[[182]] 它是一种协作，我们引导智能体，我们从周围的人那里汲取想法，而可操控性本质上就是让这个循环成为可能的东西。"
+ },
+ {
+  "seg": 173,
+  "start": 1164.803,
+  "end": 1167.426,
+  "speaker": "Unknown",
+  "en": "And this is the part that made it usable on real problems.",
+  "zh": "而这正是让它能在真实问题上可用的那部分。"
+ },
+ {
+  "seg": 174,
+  "start": 1167.947,
+  "end": 1178.14,
+  "speaker": "Unknown",
+  "en": "Because you might have context and intuition that an agent doesn't, at least for now, we believe it's important to find ways to fold human judgment into the system whenever it's necessary.",
+  "zh": "因为你可能拥有智能体所没有的上下文和直觉——至少目前是这样——我们相信，在必要的时候找到把人类判断融入系统的方法是很重要的。"
+ },
+ {
+  "seg": 175,
+  "start": 1180.491,
+  "end": 1183.752,
+  "speaker": "Unknown",
+  "en": "I want to ground that point, steerability, in something real.",
+  "zh": "我想把这个观点，可操控性，落实到真实的东西上。"
+ },
+ {
+  "seg": 176,
+  "start": 1184.653,
+  "end": 1189.015,
+  "speaker": "Unknown",
+  "en": "Because in parameter golf, steerability was a big part of why we did well.",
+  "zh": "因为在 parameter golf 中，可操控性是我们表现出色的一大原因。"
+ },
+ {
+  "seg": 177,
+  "start": 1190.355,
+  "end": 1192.276,
+  "speaker": "Unknown",
+  "en": "This is an actual breakthrough from the competition.",
+  "zh": "这是来自那场比赛的一个真实突破。"
+ },
+ {
+  "seg": 178,
+  "start": 1193.057,
+  "end": 1196.698,
+  "speaker": "Unknown",
+  "en": "It started with our agent, which is the line in pink.",
+  "zh": "它始于我们的智能体，也就是那条粉色的线。"
+ },
+ {
+  "seg": 179,
+  "start": 1196.918,
+  "end": 1207.223,
+  "speaker": "Unknown",
+  "en": "For five days, from April 15th to April 19th, it kept trying new things, new attention, compression, a richer stack, but the score essentially plateaued.",
+  "zh": "在五天里，从 4 月 15 日到 4 月 19 日，它不断尝试新东西——新的注意力机制、压缩、更丰富的技术栈——但分数基本停滞了。"
+ },
+ {
+  "seg": 180,
+  "start": 1208.281,
+  "end": 1224.052,
+  "speaker": "Unknown",
+  "en": "There was a human in the community that shipped a clever new tokenizer, which is the blue line, and within eight hours of emerging that change, our system picked it up, fused it with the pieces it had already been working on, and shipped the biggest jump in weeks.",
+  "zh": "社区里有一个人类发布了一个聪明的新分词器，也就是那条蓝线，而在那个改动出现后的八小时内，我们的系统就把它吸收了，与它已经在研究的部分融合，并实现了数周以来最大的一次跳升。"
+ },
+ {
+  "seg": 181,
+  "start": 1225.486,
+  "end": 1230.368,
+  "speaker": "Unknown",
+  "en": "Running auto research on something this hard is less of a set it and forget it.",
+  "zh": "在这么难的问题上运行自动研究，不太像是“设置好然后忘掉它”。"
+ },
+ {
+  "seg": 182,
+  "start": 1230.928,
+  "end": 1239.531,
+  "speaker": "Unknown",
+  "en": "It's a collaboration where we steer the agent, we pull in ideas from the people around us, and steerability is essentially what makes that loop possible.",
+  "zh": "这是一种协作，我们引导智能体，从我们周围的人那里汲取想法，而可引导性本质上就是让这个循环成为可能的东西。"
+ },
+ {
+  "seg": 183,
+  "start": 1239.791,
+  "end": 1241.492,
+  "speaker": "Unknown",
+  "en": "It's how real breakthroughs actually happen.",
+  "zh": "真正的突破实际上就是这样发生的。"
+ },
+ {
+  "seg": 184,
+  "start": 1244.984,
+  "end": 1251.892,
+  "speaker": "Unknown",
+  "en": "I'm going to hand it over to Dex and Zhengiao to talk a little bit more about how to get auto research set up.",
+  "zh": "我要交给 Dex 和 Zhengiao,让他们多讲一点如何把自动研究搭建起来。"
+ },
+ {
+  "seg": 185,
+  "start": 1252.312,
+  "end": 1255.917,
+  "speaker": "Unknown",
+  "en": "We'll essentially mimic the process that you guys were trying to do on your laptops.",
+  "zh": "我们基本上会模仿你们在笔记本上试图做的那个过程。"
+ },
+ {
+  "seg": 186,
+  "start": 1256.878,
+  "end": 1258.039,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 187,
+  "start": 1258.419,
+  "end": 1262.184,
+  "speaker": "Unknown",
+  "en": "So what we are going to do here is we just walk you",
+  "zh": "所以我们在这里要做的就是带你"
+ },
+ {
+  "seg": 188,
+  "start": 1263.333,
+  "end": 1268.44,
+  "speaker": "Unknown",
+  "en": "Guys through the high-level idea, like how does it happen?",
+  "zh": "们过一遍高层思路，比如它是怎么发生的？"
+ },
+ {
+  "seg": 189,
+  "start": 1268.6,
+  "end": 1274.948,
+  "speaker": "Unknown",
+  "en": "We just use our mobile hotspot, so we will be freestyling a little bit here.",
+  "zh": "我们用的是手机热点，所以我们会在这里即兴发挥一点。"
+ },
+ {
+  "seg": 190,
+  "start": 1275.949,
+  "end": 1277.091,
+  "speaker": "Unknown",
+  "en": "Hope you don't mind.",
+  "zh": "希望你们不介意。"
+ },
+ {
+  "seg": 191,
+  "start": 1279.053,
+  "end": 1281.416,
+  "speaker": "Unknown",
+  "en": "So, yeah, can you just...",
+  "zh": "那么，是的，能不能你就……"
+ },
+ {
+  "seg": 192,
+  "start": 1282.952,
+  "end": 1290.095,
+  "speaker": "Unknown",
+  "en": "Yeah, okay, maybe we can also walk through the whole doc being fed to Claude.",
+  "zh": "是的，好的，也许我们也可以过一遍喂给 Claude 的整个文档。"
+ },
+ {
+  "seg": 193,
+  "start": 1290.475,
+  "end": 1295.798,
+  "speaker": "Unknown",
+  "en": "Yeah, so basically you can go into the rebel and",
+  "zh": "是的，基本上你可以进入 rebel,然后"
+ },
+ {
+  "seg": 194,
+  "start": 1297.165,
+  "end": 1302.029,
+  "speaker": "Unknown",
+  "en": "Some, like, simple instruction, like, start the wickle run based on the readme.",
+  "zh": "一些简单的指令，比如，基于 readme 启动 wickle run。"
+ },
+ {
+  "seg": 195,
+  "start": 1302.829,
+  "end": 1310.456,
+  "speaker": "Unknown",
+  "en": "And it should be, like, if the internet is good, I think it should start the default wickle run.",
+  "zh": "应该就是，如果网络不错，我想它应该会启动默认的 wickle run。"
+ },
+ {
+  "seg": 196,
+  "start": 1310.656,
+  "end": 1317.101,
+  "speaker": "Unknown",
+  "en": "And we also go over where the, like, how is the wickle command working.",
+  "zh": "我们还会讲一下，比如，wickle 命令是怎么工作的。"
+ },
+ {
+  "seg": 197,
+  "start": 1318.504,
+  "end": 1318.704,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 198,
+  "start": 1318.844,
+  "end": 1321.565,
+  "speaker": "Unknown",
+  "en": "In this case, you have a source file.",
+  "zh": "在这个例子里，你有一个源文件。"
+ },
+ {
+  "seg": 199,
+  "start": 1321.585,
+  "end": 1327.247,
+  "speaker": "Unknown",
+  "en": "The solution is basically the training script of a mini-PG, I assume.",
+  "zh": "我猜这个解决方案基本上就是 mini-PG 的训练脚本。"
+ },
+ {
+  "seg": 200,
+  "start": 1327.727,
+  "end": 1338.03,
+  "speaker": "Unknown",
+  "en": "Like, an eval command is, I think Zhu also mentioned, and this is an additional guidance or prompt that will guide the whole search process.",
+  "zh": "比如说，eval 命令，我记得 Zhu 也提到过，这是一段额外的指导或提示词，它会引导整个搜索过程。"
+ },
+ {
+  "seg": 201,
+  "start": 1338.65,
+  "end": 1340.951,
+  "speaker": "Unknown",
+  "en": "And the metric is a validation BPB.",
+  "zh": "而指标是验证 BPB。"
+ },
+ {
+  "seg": 202,
+  "start": 1341.931,
+  "end": 1343.172,
+  "speaker": "Unknown",
+  "en": "This is like a holdout",
+  "zh": "这就像一个留出集"
+ },
+ {
+  "seg": 203,
+  "start": 1345.678,
+  "end": 1348.579,
+  "speaker": "Unknown",
+  "en": "Loss, like a loss-only holdout set.",
+  "zh": "损失，一个只算损失的留出集。"
+ },
+ {
+  "seg": 204,
+  "start": 1349.58,
+  "end": 1355.763,
+  "speaker": "Unknown",
+  "en": "Go is minimize, and others are just configs we just mentioned.",
+  "zh": "Go 是 minimize，其他的就是我们刚才提到的那些配置。"
+ },
+ {
+  "seg": 205,
+  "start": 1355.783,
+  "end": 1364.427,
+  "speaker": "Unknown",
+  "en": "Oh, sorry, eval command is actually the bash command that you're going to run the...",
+  "zh": "哦，抱歉，eval 命令实际上就是你要运行的 bash 命令，用来……"
+ },
+ {
+  "seg": 206,
+  "start": 1366.482,
+  "end": 1376.327,
+  "speaker": "Unknown",
+  "en": "Run the eval, and eventually it will output a score, like a printer score to the terminal, and it's going to be passed by the agent.",
+  "zh": "运行评估，最终它会输出一个分数，比如打印到终端的分数，然后它会被智能体解析。"
+ },
+ {
+  "seg": 207,
+  "start": 1377.047,
+  "end": 1383.25,
+  "speaker": "Unknown",
+  "en": "And that's the key signal that will drive the whole try and error loops.",
+  "zh": "这就是驱动整个试错循环的关键信号。"
+ },
+ {
+  "seg": 208,
+  "start": 1385.791,
+  "end": 1386.832,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 209,
+  "start": 1386.872,
+  "end": 1388.972,
+  "speaker": "Unknown",
+  "en": "Meanwhile, I can also show the dashboard.",
+  "zh": "同时，我也可以展示一下仪表盘。"
+ },
+ {
+  "seg": 210,
+  "start": 1390.273,
+  "end": 1393.454,
+  "speaker": "Unknown",
+  "en": "So if you go into the Waco dashboard,",
+  "zh": "如果你进入 Waco 仪表盘，"
+ },
+ {
+  "seg": 211,
+  "start": 1395.4,
+  "end": 1416.092,
+  "speaker": "Unknown",
+  "en": "And I think there are, I did some, this is wrong, and you will basically see a lot of things, and after the command, like, auto-booted by the agent, I think then you will see the ramping pop up, and then you can try out the features we provide.",
+  "zh": "你能把仪表盘切换到浅色模式吗？"
+ },
+ {
+  "seg": 212,
+  "start": 1416.112,
+  "end": 1421.035,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 213,
+  "start": 1422.096,
+  "end": 1424.037,
+  "speaker": "Unknown",
+  "en": "Do we have a round just to get started?",
+  "zh": "我们有一个回合可以用来上手吗？"
+ },
+ {
+  "seg": 214,
+  "start": 1425.275,
+  "end": 1426.676,
+  "speaker": "Unknown",
+  "en": "Yeah, I think it's just starting.",
+  "zh": "是的，我想它刚启动。"
+ },
+ {
+  "seg": 215,
+  "start": 1427.656,
+  "end": 1432.679,
+  "speaker": "Unknown",
+  "en": "Okay, still running, saying, yeah, Claude is working.",
+  "zh": "好的，还在运行，说，是的，Claude 正在工作中。"
+ },
+ {
+  "seg": 216,
+  "start": 1442.325,
+  "end": 1445.787,
+  "speaker": "Unknown",
+  "en": "Can you switch to Claude Code?",
+  "zh": "你能切换到 Claude Code 吗？"
+ },
+ {
+  "seg": 217,
+  "start": 1446.007,
+  "end": 1448.328,
+  "speaker": "Unknown",
+  "en": "Question from the audience while you guys are doing that.",
+  "zh": "趁你们在操作，观众有个问题。"
+ },
+ {
+  "seg": 218,
+  "start": 1449.069,
+  "end": 1454.672,
+  "speaker": "Unknown",
+  "en": "One, is it possible to turn up the brightness on the dashboard or switch to light mode?",
+  "zh": "第一，能不能把仪表盘的亮度调高，或者切换到浅色模式？"
+ },
+ {
+  "seg": 219,
+  "start": 1457.878,
+  "end": 1458.558,
+  "speaker": "Unknown",
+  "en": "Sorry, can you?",
+  "zh": "抱歉，你说什么？"
+ },
+ {
+  "seg": 220,
+  "start": 1458.578,
+  "end": 1458.978,
+  "speaker": "Unknown",
+  "en": "I'm right here.",
+  "zh": "我就在这儿。"
+ },
+ {
+  "seg": 221,
+  "start": 1460.338,
+  "end": 1462.239,
+  "speaker": "Unknown",
+  "en": "Can you turn to light mode on the dashboard?",
+  "zh": "你能把仪表盘切换到浅色模式吗?"
+ },
+ {
+  "seg": 222,
+  "start": 1462.259,
+  "end": 1463.059,
+  "speaker": "Unknown",
+  "en": "It's a little hard to see.",
+  "zh": "有点看不清。"
+ },
+ {
+  "seg": 223,
+  "start": 1463.639,
+  "end": 1463.999,
+  "speaker": "Unknown",
+  "en": "I see.",
+  "zh": "我明白了。"
+ },
+ {
+  "seg": 224,
+  "start": 1467.58,
+  "end": 1472.361,
+  "speaker": "Unknown",
+  "en": "Ah, light mode, what, where is it?",
+  "zh": "啊，浅色模式，什么，在哪里？"
+ },
+ {
+  "seg": 225,
+  "start": 1473.081,
+  "end": 1473.501,
+  "speaker": "Unknown",
+  "en": "Is it here?",
+  "zh": "是这里吗？"
+ },
+ {
+  "seg": 226,
+  "start": 1473.841,
+  "end": 1482.043,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 227,
+  "start": 1482.143,
+  "end": 1483.023,
+  "speaker": "Unknown",
+  "en": "Second question is,",
+  "zh": "第二个问题是，"
+ },
+ {
+  "seg": 228,
+  "start": 1485.014,
+  "end": 1486.655,
+  "speaker": "Unknown",
+  "en": "Can autoresearch apply to RL?",
+  "zh": "autoresearch 能应用于 RL 吗？"
+ },
+ {
+  "seg": 229,
+  "start": 1486.975,
+  "end": 1489.896,
+  "speaker": "Unknown",
+  "en": "What is the scalar metric when there are multiple things to optimize?",
+  "zh": "当有多个要优化的东西时，标量指标是什么？"
+ },
+ {
+  "seg": 230,
+  "start": 1491.896,
+  "end": 1492.677,
+  "speaker": "Unknown",
+  "en": "What is it?",
+  "zh": "它是什么？"
+ },
+ {
+  "seg": 231,
+  "start": 1493.617,
+  "end": 1495.457,
+  "speaker": "Unknown",
+  "en": "Can autoresearch apply to RL?",
+  "zh": "autoresearch 能应用于 RL 吗？"
+ },
+ {
+  "seg": 232,
+  "start": 1496.018,
+  "end": 1499.319,
+  "speaker": "Unknown",
+  "en": "What is the scalar metric when there are multiple things to optimize?",
+  "zh": "当有多个要优化的东西时，标量指标是什么？"
+ },
+ {
+  "seg": 233,
+  "start": 1500.579,
+  "end": 1500.879,
+  "speaker": "Unknown",
+  "en": "I see.",
+  "zh": "我明白了。"
+ },
+ {
+  "seg": 234,
+  "start": 1501.359,
+  "end": 1502.22,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 235,
+  "start": 1502.9,
+  "end": 1509.062,
+  "speaker": "Unknown",
+  "en": "It can definitely be applied to RL, like applied to RL training scripts.",
+  "zh": "它绝对可以应用于 RL，比如应用于 RL 训练脚本。"
+ },
+ {
+  "seg": 236,
+  "start": 1510.923,
+  "end": 1511.843,
+  "speaker": "Unknown",
+  "en": "I think there is a",
+  "zh": "我想有一个"
+ },
+ {
+  "seg": 237,
+  "start": 1514.128,
+  "end": 1528.873,
+  "speaker": "Unknown",
+  "en": "derived a project called the SoCoBan Speedrunner that's actually exactly doing it for post-training a current model for playing a game.",
+  "zh": "派生出来的项目叫 SoCoBan Speedrunner，它实际上正是在做这件事，对一个当前模型做后训练来玩一个游戏。"
+ },
+ {
+  "seg": 238,
+  "start": 1529.253,
+  "end": 1537.356,
+  "speaker": "Unknown",
+  "en": "And yeah, in that project, you can apply auto-research to the IR training scripts.",
+  "zh": "是的，在那个项目里，你可以把 auto-research 应用到 IR 训练脚本上。"
+ },
+ {
+  "seg": 239,
+  "start": 1539.736,
+  "end": 1544.106,
+  "speaker": "Unknown",
+  "en": "The second question, you have multiple objectives to optimize for?",
+  "zh": "第二个问题，你有多个要优化的目标？"
+ },
+ {
+  "seg": 240,
+  "start": 1546.775,
+  "end": 1562.803,
+  "speaker": "Unknown",
+  "en": "The idea is you eventually just combine them to a single metric, like you either apply different weights on those different metrics, or you treat some of the metrics as a constraint and optimize for one of them.",
+  "zh": "思路是，你最终把它们合并成一个单一的指标，比如你对不同指标施加不同的权重，或者你把某些指标当作约束，然后优化其中一个。"
+ },
+ {
+  "seg": 241,
+  "start": 1563.364,
+  "end": 1572.389,
+  "speaker": "Unknown",
+  "en": "For example, if you're doing things like fraud detection, you might hold the accuracy and trying to optimize the precision.",
+  "zh": "举例来说，如果你在做欺诈检测之类的事情，你可能会固定准确率，然后尝试优化精确率。"
+ },
+ {
+  "seg": 242,
+  "start": 1574.21,
+  "end": 1583.98,
+  "speaker": "Unknown",
+  "en": "And for parameter goal for exactly, you hold the model size as a constraint and you optimize for the accuracy of the system.",
+  "zh": "而对于参数目标，确切地说，你把模型大小作为约束固定住，然后优化系统的准确率。"
+ },
+ {
+  "seg": 243,
+  "start": 1586.002,
+  "end": 1592.289,
+  "speaker": "Unknown",
+  "en": "Yeah, we can see the agent already generated",
+  "zh": "是的，我们可以看到智能体已经生成了"
+ },
+ {
+  "seg": 244,
+  "start": 1594.446,
+  "end": 1594.946,
+  "speaker": "Unknown",
+  "en": "One node.",
+  "zh": "一个节点。"
+ },
+ {
+  "seg": 245,
+  "start": 1595.266,
+  "end": 1601.071,
+  "speaker": "Unknown",
+  "en": "So the zero node is basically the root node, the baseline solution.",
+  "zh": "所以零号节点基本上就是根节点，即基线方案。"
+ },
+ {
+  "seg": 246,
+  "start": 1601.792,
+  "end": 1608.978,
+  "speaker": "Unknown",
+  "en": "And 3.93 means the validation BPP attached to that solution.",
+  "zh": "而 3.93 表示附加到那个方案上的验证 BPP。"
+ },
+ {
+  "seg": 247,
+  "start": 1609.758,
+  "end": 1615.283,
+  "speaker": "Unknown",
+  "en": "And you can see the recourse auto research already generated one node here.",
+  "zh": "你可以看到 recourse auto research 已经在这里生成了一个节点。"
+ },
+ {
+  "seg": 248,
+  "start": 1618.398,
+  "end": 1628.681,
+  "speaker": "Unknown",
+  "en": "Here we also have a summary of the ideas it's tried and seems like already getting improvement.",
+  "zh": "这里我们还有它尝试过的想法的摘要，看起来已经取得了改进。"
+ },
+ {
+  "seg": 249,
+  "start": 1630.182,
+  "end": 1633.903,
+  "speaker": "Unknown",
+  "en": "Yeah, you can also open the code and see what's actually been changed.",
+  "zh": "是的，你还可以打开代码，看看实际改了什么。"
+ },
+ {
+  "seg": 250,
+  "start": 1638.745,
+  "end": 1638.965,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 251,
+  "start": 1642.006,
+  "end": 1643.286,
+  "speaker": "Unknown",
+  "en": "Do we have the stability?",
+  "zh": "我们有稳定性吗?"
+ },
+ {
+  "seg": 252,
+  "start": 1644.097,
+  "end": 1653.44,
+  "speaker": "Unknown",
+  "en": "Okay, for stability, you can basically tell the agent, for example, say, like, explore the quantization method.",
+  "zh": "好的，关于稳定性，你基本上可以直接告诉智能体，比如说，去探索量化方法。"
+ },
+ {
+  "seg": 253,
+  "start": 1654,
+  "end": 1654.8,
+  "speaker": "Unknown",
+  "en": "Is it connected?",
+  "zh": "连上了吗?"
+ },
+ {
+  "seg": 254,
+  "start": 1656.381,
+  "end": 1657.261,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 255,
+  "start": 1657.701,
+  "end": 1670.085,
+  "speaker": "Unknown",
+  "en": "Quantization method do not change the, not just change the model config, because we don't, like, just want to do the hyperparameter tuning, we also want to try, like, more aggressive method.",
+  "zh": "量化方法不要只改模型配置，因为我们不只是想做超参数调优，我们还想尝试更激进的方法。"
+ },
+ {
+  "seg": 256,
+  "start": 1678.647,
+  "end": 1679.867,
+  "speaker": "Unknown",
+  "en": "I don't think it's connected.",
+  "zh": "我觉得没连上。"
+ },
+ {
+  "seg": 257,
+  "start": 1687.49,
+  "end": 1690.251,
+  "speaker": "Unknown",
+  "en": "I think Claude Code didn't follow the instruction.",
+  "zh": "我觉得 Claude Code 没有遵循指令。"
+ },
+ {
+  "seg": 258,
+  "start": 1697.154,
+  "end": 1704.017,
+  "speaker": "Unknown",
+  "en": "Yeah, basically we also support you bring your Claude Code agent to our dashboard.",
+  "zh": "是的，基本上我们也支持你把你的 Claude Code 智能体接入我们的仪表盘。"
+ },
+ {
+  "seg": 259,
+  "start": 1704.037,
+  "end": 1706.618,
+  "speaker": "Unknown",
+  "en": "We call it a bridged session.",
+  "zh": "我们称之为 bridged session(桥接会话)。"
+ },
+ {
+  "seg": 260,
+  "start": 1708.146,
+  "end": 1719.392,
+  "speaker": "Unknown",
+  "en": "So basically, yeah, you can see the dashboard, the tree structure, the metric, and the Claude Code at the same time.",
+  "zh": "所以基本上，你可以同时看到仪表盘、树状结构、指标和 Claude Code。"
+ },
+ {
+  "seg": 261,
+  "start": 1719.953,
+  "end": 1727.397,
+  "speaker": "Unknown",
+  "en": "And then you can tier Claude Code, okay, this is the direction I want to steer the whole search process to.",
+  "zh": "然后你可以告诉 Claude Code,好，这就是我想要引导整个搜索过程的方向。"
+ },
+ {
+  "seg": 262,
+  "start": 1729.93,
+  "end": 1731.09,
+  "speaker": "Unknown",
+  "en": "Checked in with some of you.",
+  "zh": "和你们中的一些人确认过了。"
+ },
+ {
+  "seg": 263,
+  "start": 1731.11,
+  "end": 1733.451,
+  "speaker": "Unknown",
+  "en": "I think internet might be a little better.",
+  "zh": "我觉得网络可能稍微好一点了。"
+ },
+ {
+  "seg": 264,
+  "start": 1734.291,
+  "end": 1735.651,
+  "speaker": "Unknown",
+  "en": "Some of you guys are using Hotspot.",
+  "zh": "你们有些人在用热点。"
+ },
+ {
+  "seg": 265,
+  "start": 1735.791,
+  "end": 1738.072,
+  "speaker": "Unknown",
+  "en": "I know there's some modal payment issues.",
+  "zh": "我知道有一些 Modal 支付问题。"
+ },
+ {
+  "seg": 266,
+  "start": 1738.712,
+  "end": 1743.633,
+  "speaker": "Unknown",
+  "en": "We're gonna move on to the final part, which is the competition aspect.",
+  "zh": "我们接下来进入最后一部分，也就是比赛环节。"
+ },
+ {
+  "seg": 267,
+  "start": 1743.753,
+  "end": 1755.955,
+  "speaker": "Unknown",
+  "en": "You don't need modal for this, and originally this was designed to be a 30-minute competition, but we will give you guys, until the end of the day, a little bit more on what this is.",
+  "zh": "这个不需要 Modal,原本设计是 30 分钟的比赛，但我们会给你们直到今天结束的时间，稍后再多介绍一点这是什么。"
+ },
+ {
+  "seg": 268,
+  "start": 1759.638,
+  "end": 1760.899,
+  "speaker": "Unknown",
+  "en": "You guys have all played Flappy Bird.",
+  "zh": "你们都玩过 Flappy Bird。"
+ },
+ {
+  "seg": 269,
+  "start": 1762.12,
+  "end": 1763.961,
+  "speaker": "Unknown",
+  "en": "We're gonna do a flappy Weco Cup.",
+  "zh": "我们要做一个 flappy Weco 杯。"
+ },
+ {
+  "seg": 270,
+  "start": 1764.381,
+  "end": 1769.324,
+  "speaker": "Unknown",
+  "en": "So essentially, everyone hopefully has played Flappy Bird.",
+  "zh": "所以本质上，希望每个人都玩过 Flappy Bird。"
+ },
+ {
+  "seg": 271,
+  "start": 1769.885,
+  "end": 1775.008,
+  "speaker": "Unknown",
+  "en": "You tap the flap, you dodge the pipes, and you fly as far as you can.",
+  "zh": "你点击拍翅膀，躲避管道，尽可能飞得远。"
+ },
+ {
+  "seg": 272,
+  "start": 1775.528,
+  "end": 1778.19,
+  "speaker": "Unknown",
+  "en": "And your final score is dependent on how far you fly.",
+  "zh": "你的最终得分取决于你飞了多远。"
+ },
+ {
+  "seg": 273,
+  "start": 1780.454,
+  "end": 1783.216,
+  "speaker": "Unknown",
+  "en": "We have turned this into an auto-research problem.",
+  "zh": "我们把它变成了一个自动研究问题。"
+ },
+ {
+  "seg": 274,
+  "start": 1783.677,
+  "end": 1791.824,
+  "speaker": "Unknown",
+  "en": "So instead of playing it, there's a controller called should flap that decides every frame whether the bird should flap.",
+  "zh": "所以不是由你来玩，而是有一个叫 should flap 的控制器，每一帧决定鸟是否应该拍翅膀。"
+ },
+ {
+  "seg": 275,
+  "start": 1792.865,
+  "end": 1795.627,
+  "speaker": "Unknown",
+  "en": "Your job is to optimize that controller.",
+  "zh": "你的任务就是优化那个控制器。"
+ },
+ {
+  "seg": 276,
+  "start": 1796.588,
+  "end": 1802.153,
+  "speaker": "Unknown",
+  "en": "The metric is the average score, and you want that as high as possible with the highest score winning.",
+  "zh": "指标是平均分，你想让它尽可能高，得分最高的获胜。"
+ },
+ {
+  "seg": 277,
+  "start": 1804.579,
+  "end": 1805.96,
+  "speaker": "Unknown",
+  "en": "With all games, there's a twist.",
+  "zh": "和所有游戏一样，这里有个变化。"
+ },
+ {
+  "seg": 278,
+  "start": 1806.72,
+  "end": 1808.721,
+  "speaker": "Unknown",
+  "en": "We're not just running this on Flappy Bird.",
+  "zh": "我们不只是在 Flappy Bird 上运行。"
+ },
+ {
+  "seg": 279,
+  "start": 1809.242,
+  "end": 1811.383,
+  "speaker": "Unknown",
+  "en": "We're running this across four different worlds.",
+  "zh": "我们在四个不同的世界里运行。"
+ },
+ {
+  "seg": 280,
+  "start": 1812.264,
+  "end": 1815.986,
+  "speaker": "Unknown",
+  "en": "So the first world is Normal, which is a classic game.",
+  "zh": "第一个世界是 Normal(普通)，也就是经典游戏。"
+ },
+ {
+  "seg": 281,
+  "start": 1817.187,
+  "end": 1822.009,
+  "speaker": "Unknown",
+  "en": "The second is Moving Gap, where the pipe gap drifts up and down.",
+  "zh": "第二个是 Moving Gap(移动缺口)，管道缺口会上下漂移。"
+ },
+ {
+  "seg": 282,
+  "start": 1823.911,
+  "end": 1826.152,
+  "speaker": "Unknown",
+  "en": "The third world has Wind pushing the bird around.",
+  "zh": "第三个世界有 Wind(风)，会把鸟吹得四处飘。"
+ },
+ {
+  "seg": 283,
+  "start": 1828.033,
+  "end": 1830.895,
+  "speaker": "Unknown",
+  "en": "And the fourth world is Variable, which mixes all the conditions.",
+  "zh": "第四个世界是 Variable(变化)，混合了所有这些条件。"
+ },
+ {
+  "seg": 284,
+  "start": 1832.541,
+  "end": 1835.905,
+  "speaker": "Unknown",
+  "en": "Your score is the average across all four of these worlds.",
+  "zh": "你的得分是这四个世界的平均分。"
+ },
+ {
+  "seg": 285,
+  "start": 1836.566,
+  "end": 1843.554,
+  "speaker": "Unknown",
+  "en": "So you can't just focus on one, a controller that does well in a normal game but dies in the wind won't win.",
+  "zh": "所以你不能只专注于一个，一个在普通游戏里表现很好但在风里死掉的控制器是赢不了的。"
+ },
+ {
+  "seg": 286,
+  "start": 1844.656,
+  "end": 1851.925,
+  "speaker": "Unknown",
+  "en": "And the leaderboard scores you on a hidden validation set that you never see, so you can't obviously overfit on the public game.",
+  "zh": "排行榜是按一个你永远看不到的隐藏验证集来打分的，所以你显然不能在公开游戏上过拟合。"
+ },
+ {
+  "seg": 287,
+  "start": 1855.328,
+  "end": 1858.592,
+  "speaker": "Unknown",
+  "en": "A few rules, mostly so it's fair and it doesn't break.",
+  "zh": "几条规则，主要是为了保证公平、防止出问题。"
+ },
+ {
+  "seg": 288,
+  "start": 1859.453,
+  "end": 1862.576,
+  "speaker": "Unknown",
+  "en": "You only, and we will share the GitHub repo for this shortly.",
+  "zh": "你只能——我们很快会分享这个的 GitHub 仓库。"
+ },
+ {
+  "seg": 289,
+  "start": 1863.698,
+  "end": 1868.583,
+  "speaker": "Unknown",
+  "en": "You only edit the controller, which is AIController.py.",
+  "zh": "你只能编辑控制器，也就是 AIController.py。"
+ },
+ {
+  "seg": 290,
+  "start": 1868.864,
+  "end": 1873.91,
+  "speaker": "Unknown",
+  "en": "You should keep should flap signature exactly as it is, so you can't touch the game or the evaluator.",
+  "zh": "你必须保持 should flap 的函数签名原样不动，所以你不能碰游戏或评估器。"
+ },
+ {
+  "seg": 291,
+  "start": 1875.396,
+  "end": 1880.198,
+  "speaker": "Unknown",
+  "en": "No imports, external libraries, file I.O., so we're keeping this self-contained.",
+  "zh": "不允许导入、外部库、文件 I/O,所以我们要保持它是自包含的。"
+ },
+ {
+  "seg": 292,
+  "start": 1881.258,
+  "end": 1888.1,
+  "speaker": "Unknown",
+  "en": "And in the spirit of keeping it fair, no parallel compute allowed, so you would be using WeCo for auto-research.",
+  "zh": "为了保持公平，不允许并行计算，所以你要用 WeCo 来做自动研究。"
+ },
+ {
+  "seg": 293,
+  "start": 1889.541,
+  "end": 1895.202,
+  "speaker": "Unknown",
+  "en": "Everyone has defaulted to the same model, Opus 4.8, so it's a level playing field.",
+  "zh": "每个人默认都用同一个模型 Opus 4.8,所以是公平的竞争环境。"
+ },
+ {
+  "seg": 294,
+  "start": 1895.943,
+  "end": 1903.245,
+  "speaker": "Unknown",
+  "en": "And remember, the local score that you see on your laptop isn't going to match the leaderboard because of our hidden test set.",
+  "zh": "记住，你在自己笔记本上看到的本地分数不会和排行榜一致，因为我们的隐藏测试集。"
+ },
+ {
+  "seg": 295,
+  "start": 1906.055,
+  "end": 1906.555,
+  "speaker": "Unknown",
+  "en": "Some tips.",
+  "zh": "一些提示。"
+ },
+ {
+  "seg": 296,
+  "start": 1908.457,
+  "end": 1910.798,
+  "speaker": "Unknown",
+  "en": "You'll get about 50 steps on Weco.",
+  "zh": "你在 Weco 上大约有 50 步。"
+ },
+ {
+  "seg": 297,
+  "start": 1911.939,
+  "end": 1915.221,
+  "speaker": "Unknown",
+  "en": "Actually, this is with the 30-minute time frame, so I guess",
+  "zh": "实际上，这是按 30 分钟的时间框架算的，所以我猜"
+ },
+ {
+  "seg": 298,
+  "start": 1918.495,
+  "end": 1921.197,
+  "speaker": "Unknown",
+  "en": "You can run unlimited steps until the end of the day.",
+  "zh": "你可以不限步数运行直到今天结束。"
+ },
+ {
+  "seg": 299,
+  "start": 1921.217,
+  "end": 1924.118,
+  "speaker": "Unknown",
+  "en": "You can start from the baseline.",
+  "zh": "你可以从基线开始。"
+ },
+ {
+  "seg": 300,
+  "start": 1924.759,
+  "end": 1928.961,
+  "speaker": "Unknown",
+  "en": "The baseline already works, so improve the code rather than rewriting the controller.",
+  "zh": "基线已经能跑通了,所以要改进代码,而不是重写控制器。"
+ },
+ {
+  "seg": 301,
+  "start": 1930.482,
+  "end": 1940.427,
+  "speaker": "Unknown",
+  "en": "Think about making small, focused edits, things like tuning the safety margin, the velocity keyboard, the bottom buffer, adjusting the behavior per world.",
+  "zh": "考虑做小的、聚焦的修改,比如调整安全边际、velocity keyboard、缓冲区,以及针对每个世界调整行为。"
+ },
+ {
+  "seg": 302,
+  "start": 1941.749,
+  "end": 1953.408,
+  "speaker": "Unknown",
+  "en": "And maybe implement some of the features we talked about today, whether it's inspecting nodes that scored well, building on them, bringing in ideas from outside, and trying several directions.",
+  "zh": "也可以实现一些我们今天谈到的功能,比如检查得分高的节点、在它们基础上继续构建、引入外部想法,以及尝试多个方向。"
+ },
+ {
+  "seg": 303,
+  "start": 1957.737,
+  "end": 1960.599,
+  "speaker": "Unknown",
+  "en": "This is the instructions for the game.",
+  "zh": "这是游戏的说明。"
+ },
+ {
+  "seg": 304,
+  "start": 1962.2,
+  "end": 1964.441,
+  "speaker": "Unknown",
+  "en": "By the way, you guys are playing for a Nintendo Switch.",
+  "zh": "顺便说一下,你们玩的是为了一台 Nintendo Switch。"
+ },
+ {
+  "seg": 305,
+  "start": 1965.882,
+  "end": 1976.468,
+  "speaker": "Unknown",
+  "en": "The way that we're gonna determine who wins is for your team name, put in your email, and by the end of the day, the highest score, we will reach out to the person that that is.",
+  "zh": "我们判定谁获胜的方式是:用你们的队伍名,填入你们的邮箱,今天结束时得分最高的那个人,我们会联系他。"
+ },
+ {
+  "seg": 306,
+  "start": 1979.47,
+  "end": 1986.374,
+  "speaker": "Unknown",
+  "en": "In the meantime, we're gonna continue answering questions from our Slido, or please raise your hand if you have any questions.",
+  "zh": "与此同时,我们会继续回答 Slido 上的问题,或者如果有任何问题请举手。"
+ },
+ {
+  "seg": 307,
+  "start": 1987.484,
+  "end": 1989.585,
+  "speaker": "Unknown",
+  "en": "OK, we're just about to wrap up here.",
+  "zh": "好,我们马上就要收尾了。"
+ },
+ {
+  "seg": 308,
+  "start": 1991.206,
+  "end": 1992.567,
+  "speaker": "Unknown",
+  "en": "Scores look like they're coming in.",
+  "zh": "分数看起来正在提交进来。"
+ },
+ {
+  "seg": 309,
+  "start": 1992.587,
+  "end": 2000.811,
+  "speaker": "Unknown",
+  "en": "I don't know who FurNog is, but a little suspicious because there's only one node.",
+  "zh": "我不知道 FurNog 是谁,但有点可疑,因为只有一个节点。"
+ },
+ {
+  "seg": 310,
+  "start": 2001.191,
+  "end": 2006.054,
+  "speaker": "Unknown",
+  "en": "And so we will be inspecting your runs to ensure that there's no cheating going on.",
+  "zh": "所以我们会检查你们的运行记录,确保没有作弊行为。"
+ },
+ {
+  "seg": 311,
+  "start": 2010.136,
+  "end": 2010.657,
+  "speaker": "Unknown",
+  "en": "Nice try.",
+  "zh": "想得美。"
+ },
+ {
+  "seg": 312,
+  "start": 2011.897,
+  "end": 2015.539,
+  "speaker": "Unknown",
+  "en": "We will be opening this competition till midnight tonight.",
+  "zh": "我们会把这个比赛开放到今晚午夜。"
+ },
+ {
+  "seg": 313,
+  "start": 2018.011,
+  "end": 2020.012,
+  "speaker": "Unknown",
+  "en": "We will find a way to get to.",
+  "zh": "我们会想办法联系到你。"
+ },
+ {
+  "seg": 314,
+  "start": 2020.072,
+  "end": 2028.474,
+  "speaker": "Unknown",
+  "en": "You can put in your email, or we also have your emails from the ones that you guys are doing, or you can just contact us on our website.",
+  "zh": "你可以填入你的邮箱,或者我们也有你们一直使用的那几个邮箱,或者你也可以直接在我们的网站上联系我们。"
+ },
+ {
+  "seg": 315,
+  "start": 2028.614,
+  "end": 2033.776,
+  "speaker": "Unknown",
+  "en": "But feel free to keep going at it, and thank you all for coming.",
+  "zh": "不过欢迎继续玩下去,谢谢大家的到来。"
+ }
+]

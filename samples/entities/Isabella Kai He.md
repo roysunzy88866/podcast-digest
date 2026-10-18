@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]]
+[[Julie Yu]] [[Oliver Kharraz]] [[Harrison Chase]] [[Shashir Marotra]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":206,"智能体":1,"harness":68,"沙箱":104,"智能体循环":6,"上下文工程":19,"会话日志追踪":2,"泄露的凭证":5,"可观测性":49}</script>
+<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":206,"智能体":1,"harness":68,"沙箱":104,"智能体循环":6,"上下文工程":19,"会话日志追踪":2,"泄露的凭证":5,"可观测性":50}</script>
 
 <script>
 (function(){

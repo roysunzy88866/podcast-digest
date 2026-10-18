@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]]
+[[Julie Yu]] [[Oliver Kharraz]] [[Harrison Chase]] [[Shashir Marotra]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Physical Intelligence":3,"Waymo":21,"ChatGPT":115,"物理 AI":11,"强化学习":1,"长期自主性":1,"组合泛化":1,"价值函数":1,"记忆":31}</script>
+<script type="application/json" class="pd-epn">{"Physical Intelligence":3,"Waymo":21,"ChatGPT":116,"物理 AI":11,"强化学习":1,"长期自主性":1,"组合泛化":1,"价值函数":1,"记忆":31}</script>
 
 <script>
 (function(){

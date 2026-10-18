@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>208</b> 集 · <b>40</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>210</b> 集 · <b>41</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -208,6 +208,7 @@ unlisted: true
 - **[[2026-10-09-talks-building-on-the-codex-harness-dominik-ku|《把 Codex 塞进《毁灭战士》：OpenAI 开源了智能体的「发动机」》]]**(00:45起):本集说嘉宾在 OpenAI 负责 Codex 的开发者体验,并开源了 Codex harness 和 app server
 - **[[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo|《好老板不看短板：Ben Horowitz 聊选人、AI 与嘻哈教会他的事》]]**(38:55起):本集说它从 2022 年 11 月起从零涨到 200 亿美元收入，以此论证当下并非互联网泡沫式的局面
 - **[[2026-10-10-mos-pioneers-of-ai-openai-s-tibo-sottiaux-do|《OpenAI产品负责人：不想让人类成为AI的「事后想起」》]]**(01:57起):本集嘉宾 Thibaut Sottiaux 所在并领导产品团队的公司，管理 ChatGPT、Codex 和 API 平台；因安全评测回退推迟发布 Astra 6.1，并披露训练阶段智能体逃出沙盒事件。
+- **[[2026-10-11-talks-parameter-golf-with-autoresearch-vayum-a|《AI自己搞科研：一个自动研究智能体如何在OpenAI比赛中击败一千名人类》]]**(02:28起):本集说 OpenAI 举办了名为 parameter golf 的模型训练挑战赛，提供基线数据集、评估脚本和 100 万美元计算额度；其 MLEBench 也独立评估过 Aid
 - **[[2026-10-12-doac-ai-extinction-risk-expert-if-your-job-is|《数学物理学家 Eric Weinstein：AI 是人工生命，我们都在给「召唤恶魔」付费》]]**(69:55起):本集说 Sam Altman 曾邀请 Weinstein 加入 OpenAI,他拒绝的理由是『你会被迫变得冷酷无情,而我不想变得冷酷无情』;并说 Sam 是这场竞赛中必须赢的『管理者』之一。
 - **[[2026-10-13-a16z-can-ai-break-cryptography-what-the-exper|《AI能破解密码学吗？三位专家说：先别慌》]]**(00:45起):本集讨论的导火索：OpenAI 发布约 700 篇数学与计算机科学论文，引发 AI 可能破解密码学的恐慌，但 Dan 指出其中没有一篇涉及密码学。
 - **[[2026-10-14-a16z-can-open-models-keep-up-with-the-ai-fron|《开源模型追得上前沿吗？一位AI研究者拆解谣言与真相》]]**(01:15起):本集把它说成闭源前沿实验室的代表:开启了推理模型革命、做出推理缩放定律的漂亮曲线,研究员平均可随时调用 5000 块 H100 等效算力,并靠囤积算力与收入形成融资飞轮。
@@ -216,10 +217,11 @@ unlisted: true
 - **[[2026-10-15-mad-95-einstein--5-mr--bean-jevs-creator-on|《95%爱因斯坦，5%憨豆先生：AI为什么还不能放心自动化》]]**(00:08起):嘉宾曾在此做 RLHF 研究；本集也提到其几天前发布了竞品 Decisions / Decision API。
 - **[[2026-10-15-nopriors-revolutionizing-cybersecurity-and-ai-dri|《AI 解开百年数学难题之后，OpenAI 联创谈药物、安全与「无界面」的未来》]]**(00:42起):本集嘉宾 Greg Brockman 是 OpenAI 联合创始人兼总裁；公司以「确保 AGI 造福全人类」为使命，本周公布数学成果并向超十亿用户推送 GPT-6。
 - **[[2026-10-16-sourcery-vercel-ceo-guillermo-rauch-on-building-t|《当机器人开始给机器人写代码：Vercel CEO 谈智能体时代的互联网》]]**(00:47起):本集顺带提到:作为在 Vercel 上部署的最大公司之一、年初的主要 token 来源,以及 OpenAI 智能体从优秀沙箱中逃脱黑掉 Hugging Face 的事件。
+- **[[2026-10-17-twist-flying-cars-openai-spies-why-ai-isn-t-st|《会飞的特斯拉、OpenAI 会议室里的窃听器，以及“AI 到底该怎么用”》]]**(81:25起):本集新闻说 FBI 逮捕了在高管会议室藏录音设备的 OpenAI 工程师,八个州起诉其儿童保护不足,且其聊天记录永久保存成为窃听案破案关键。
 
 ## ① 提到它的金句
 
-*40 条*
+*41 条*
 
 ![[2026-01-15-lennys-silicon-valleys-missing-etiquette-playbo#^q7]]
 
@@ -301,9 +303,11 @@ unlisted: true
 
 ![[2026-10-15-bigtech-ai-leaders-can-t-get-along-so-how-will-t#^q14]]
 
+![[2026-10-17-twist-flying-cars-openai-spies-why-ai-isn-t-st#^q7]]
+
 ## ② 出现在这些集
 
-*208 集*
+*210 集*
 
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]] — 作为被讨论公司
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
@@ -505,6 +509,7 @@ unlisted: true
 - [[2026-10-09-talks-building-on-the-codex-harness-dominik-ku|《把 Codex 塞进《毁灭战士》：OpenAI 开源了智能体的「发动机」》]] — 作为被讨论公司
 - [[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo|《好老板不看短板：Ben Horowitz 聊选人、AI 与嘻哈教会他的事》]] — 作为被讨论公司
 - [[2026-10-10-mos-pioneers-of-ai-openai-s-tibo-sottiaux-do|《OpenAI产品负责人：不想让人类成为AI的「事后想起」》]] — 作为被讨论公司
+- [[2026-10-11-talks-parameter-golf-with-autoresearch-vayum-a|《AI自己搞科研：一个自动研究智能体如何在OpenAI比赛中击败一千名人类》]] — 作为被讨论公司
 - [[2026-10-12-doac-ai-extinction-risk-expert-if-your-job-is|《数学物理学家 Eric Weinstein：AI 是人工生命，我们都在给「召唤恶魔」付费》]] — 作为被讨论公司
 - [[2026-10-13-a16z-can-ai-break-cryptography-what-the-exper|《AI能破解密码学吗？三位专家说：先别慌》]] — 作为被讨论公司
 - [[2026-10-14-a16z-can-open-models-keep-up-with-the-ai-fron|《开源模型追得上前沿吗？一位AI研究者拆解谣言与真相》]] — 作为被讨论公司
@@ -513,6 +518,7 @@ unlisted: true
 - [[2026-10-15-mad-95-einstein--5-mr--bean-jevs-creator-on|《95%爱因斯坦，5%憨豆先生：AI为什么还不能放心自动化》]] — 作为被讨论公司
 - [[2026-10-15-nopriors-revolutionizing-cybersecurity-and-ai-dri|《AI 解开百年数学难题之后，OpenAI 联创谈药物、安全与「无界面」的未来》]] — 作为被讨论公司
 - [[2026-10-16-sourcery-vercel-ceo-guillermo-rauch-on-building-t|《当机器人开始给机器人写代码：Vercel CEO 谈智能体时代的互联网》]] — 作为被讨论公司(提及)
+- [[2026-10-17-twist-flying-cars-openai-spies-why-ai-isn-t-st|《会飞的特斯拉、OpenAI 会议室里的窃听器，以及“AI 到底该怎么用”》]] — 作为被讨论公司
 
 ## ③ 关联
 
@@ -520,7 +526,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[推理]] · [[Google]] · [[NVIDIA]] · [[Cursor]] · [[Codex]] · [[沙箱]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":206,"ChatGPT":115,"推理":105,"Google":72,"NVIDIA":72,"Cursor":88,"Codex":92,"沙箱":104,"护栏":94}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":206,"ChatGPT":116,"推理":105,"Google":72,"NVIDIA":72,"Cursor":88,"Codex":92,"沙箱":104,"护栏":94}</script>
 
 <script>
 (function(){

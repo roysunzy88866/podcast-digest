@@ -7,13 +7,14 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Bending Spoons</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Bending Spoons">BE</div><div class="pi"><h1 class="pt">Bending Spoons</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Bending Spoons">BE</div><div class="pi"><h1 class="pt">Bending Spoons</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-09-14-sourcery-inside-bending-spoons-buying-airtable--a|《Bending Spoons：买下 AOL 与 Vimeo 的「收购机器」是怎么炼成的》]]**(00:26起):本集主角:意大利米兰起家的公司,靠收购并深度改造互联网老产品(Vimeo、WeTransfer、AOL、Airtable 等)起家,本集核心叙事是「人才密度 + 精英体制 + 拆掉公司化」这套运营模式,并刚完成上市。
 - **[[2026-09-18-sourcery-bending-spoons-is-eating-silicon-valley|《Bending Spoons：被硅谷误读的「收购机器」，人均 400 万美元收入怎么来的》]]**(00:29起):本集把它说成:总部在米兰、收购 Evernote/AOL/Vimeo 等数字业务并永久持有运营的公司,核心资产是由 50+ 项专有技术组成的共享操作系统,人均收入达 400 万美元。
 - **[[2026-10-08-talks-luca-ferrari-the-operating-system-behind|《收购公司却从不卖出：Bending Spoons 掌门人的人才与运营哲学》]]**(00:47起):本集说它是像私募股权式并购整合公司、但其实是科技平台公司的独特企业：买下数字公司、深度整合进统一平台、从不卖出、永久持有并运营，几个月前 IPO 时股权价值 180 亿美元。
+- **[[2026-10-17-twist-flying-cars-openai-spies-why-ai-isn-t-st|《会飞的特斯拉、OpenAI 会议室里的窃听器，以及“AI 到底该怎么用”》]]**(03:40起):本集说它是与 Superhuman 并列最活跃的收购方,但策略几乎相反:买巅峰已过的产品,延长寿命、榨取额外价值。
 
 ## ① 提到它的金句
 
@@ -27,19 +28,20 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-09-14-sourcery-inside-bending-spoons-buying-airtable--a|《Bending Spoons：买下 AOL 与 Vimeo 的「收购机器」是怎么炼成的》]] — 作为被讨论公司
 - [[2026-09-18-sourcery-bending-spoons-is-eating-silicon-valley|《Bending Spoons：被硅谷误读的「收购机器」，人均 400 万美元收入怎么来的》]] — 作为被讨论公司
 - [[2026-10-08-talks-luca-ferrari-the-operating-system-behind|《收购公司却从不卖出：Bending Spoons 掌门人的人才与运营哲学》]] — 作为被讨论公司
+- [[2026-10-17-twist-flying-cars-openai-spies-why-ai-isn-t-st|《会飞的特斯拉、OpenAI 会议室里的窃听器，以及“AI 到底该怎么用”》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Luca Ferrari]] · [[极致所有权]] · [[AOL]] · [[人才密度]] · [[Vali]] · [[Airtable]] · [[招人]] · [[Grindr]] · [[Evernote]] · [[不懈简化]]
+[[Luca Ferrari]] · [[极致所有权]] · [[AOL]] · [[智能体]] · [[人才密度]] · [[Vali]] · [[Airtable]] · [[招人]] · [[Shashir Marotra]] · [[Grindr]]
 
-<script type="application/json" class="pd-epn">{"Luca Ferrari":3,"极致所有权":3,"AOL":3,"人才密度":5,"Vali":1,"Airtable":5,"招人":5,"Grindr":1,"Evernote":1,"不懈简化":1}</script>
+<script type="application/json" class="pd-epn">{"Luca Ferrari":3,"极致所有权":3,"AOL":3,"智能体":1,"人才密度":5,"Vali":1,"Airtable":5,"招人":5,"Shashir Marotra":1,"Grindr":1}</script>
 
 <script>
 (function(){

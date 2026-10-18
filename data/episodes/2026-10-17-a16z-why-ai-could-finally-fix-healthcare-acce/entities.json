@@ -1,0 +1,531 @@
+{
+  "episode_id": "2026-10-17-a16z-why-ai-could-finally-fix-healthcare-acce",
+  "podcast": "The a16z Show",
+  "date": "2026-10-17",
+  "tags": [
+    "医疗科技",
+    "平台战略",
+    "AI 智能体",
+    "商业模式",
+    "市场平台"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "julie-yu",
+      "type": "person",
+      "role": "host",
+      "name": "Julie Yu",
+      "file": "Julie Yu",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            9.406,
+            20.278
+          ],
+          "quote": "In this episode, A16Z general partner Julie Yu sits down with ZocDoc founder and CEO Oliver Karaz to discuss why healthcare scheduling remains so difficult and how AI could change that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "oliver-kharraz",
+      "type": "person",
+      "role": "cohost",
+      "name": "Oliver Kharraz",
+      "file": "Oliver Kharraz",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "zocdoc",
+      "type": "company",
+      "role": "company",
+      "name": "ZocDoc",
+      "file": "ZocDoc",
+      "primary": true,
+      "how_described": "本集主角:通过打通真实预约交易构建医疗可及性基础设施的平台,数据准确率超 99%,患者通常 3 天内可看上医生,现向 AI 平台和支付方开放其基础设施。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            9.406,
+            20.278
+          ],
+          "quote": "In this episode, A16Z general partner Julie Yu sits down with ZocDoc founder and CEO Oliver Karaz to discuss why healthcare scheduling remains so difficult and how AI could change that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 4,
+          "t": [
+            21.219,
+            31.81
+          ],
+          "quote": "Oliver explains how ZocDoc built the infrastructure to connect patients with doctors across hundreds of scheduling systems and why the company is now making that technology available to AI agents and other platforms.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 5,
+          "t": [
+            32.531,
+            41.857
+          ],
+          "quote": "They also discussed ZocDoc's partnership with Gemini, why no single company should own the front door to healthcare, and how better scheduling can help patients see doctors in days rather than weeks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 7,
+          "t": [
+            51.228,
+            55.17
+          ],
+          "quote": "I am so excited to be here with Oliver Karaz, who is the CEO of ZocDoc.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            67.455,
+            73.038
+          ],
+          "quote": "We probably should have just partnered with each other, but it's been fun to share notes with you as ZocDoc has continued to evolve.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            73.838,
+            80.102
+          ],
+          "quote": "And arguably ZocDoc is one of the few companies in health tech that has truly built like a household iconic name for itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            87.907,
+            93.151
+          ],
+          "quote": "What is ZocDoc today and how has it evolved the most over the last several years that you've been building the business?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            452.552,
+            458.994
+          ],
+          "quote": "The other kind of unique distinction that ZocDoc has relative to a lot of others in this space is the fact that you've always been consumer aligned.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            461.715,
+            472.659
+          ],
+          "quote": "I think consumers do view ZocDoc as a go-to place when they do need a doctor's appointment, as opposed to many companies, including mine, which took much more of a B2B approach and aligned with health systems, provider organizations, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            503.723,
+            505.705
+          ],
+          "quote": "The provider wins, ZocDoc wins.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 137,
+          "t": [
+            732.839,
+            751.579
+          ],
+          "quote": "What's your view and maybe like has anything changed I guess fundamentally about how you view the role of ZocDoc in this era of personal consumer co-pilot agents and also the role that you play on behalf of your provider customers in terms of how they can reconcile like all the inbound that I'm sure they're anticipating getting from all these tools?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            774.011,
+            779.993
+          ],
+          "quote": "But ZocDoc can make it actually actionable so that you can go see a provider.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 164,
+          "t": [
+            891.457,
+            901.446
+          ],
+          "quote": "As you, you know, kind of as the role of ZocDoc goes more towards like that sort of the middleware layer, the utility layer, obviously you lose some of that interaction that might",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1027.225,
+            1034.229
+          ],
+          "quote": "I came out of a meeting where I learned that we have literally tens of thousands of oncology bookings going through ZocDoc in New York City alone.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1045.196,
+            1054.842
+          ],
+          "quote": "And all of that is available on ZocDoc and it's available much sooner than if you got on the phone and played scheduling Tetris with an office manager.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1316.419,
+            1335.49
+          ],
+          "quote": "Yeah, and so one of our classical implementations here is with, for example, Blue Shield of California, where on their own member directory, you can now book directly a doctor's appointment, and that's powered by ZocDoc ultimately.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1530.578,
+            1537.181
+          ],
+          "quote": "A very, very low bar for the doc financial bar for the doctor to come and join ZocDoc.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1679.621,
+            1683.843
+          ],
+          "quote": "However, using ZocDoc, you can see a doctor",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1730.903,
+            1739.686
+          ],
+          "quote": "Now, with ZocDoc, we fill that last-minute capacity, and this is how we can get to the three-day average time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1869.475,
+            1890.884
+          ],
+          "quote": "Obviously keen to see him last minute but found him through ZocDoc and so he got better utilization and these patients got to see him and to my knowledge he's still on the system today because that's obviously the kinds of service that good doctors want to deliver to their patients.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1891.324,
+            1898.927
+          ],
+          "quote": "In terms of who gets to be on ZocDoc, we are more selective than your neighborhood state",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 339,
+          "t": [
+            2007.743,
+            2014.526
+          ],
+          "quote": "And I presume that if you're a startup building in this space and you want access to the ZocDoc APIs, is that something that's readily available on your website?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 344,
+          "t": [
+            2024.491,
+            2028.052
+          ],
+          "quote": "And we look forward to what's coming in the future for ZocDoc.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gemini",
+      "type": "company",
+      "role": "company",
+      "name": "Gemini",
+      "file": "Gemini",
+      "primary": true,
+      "how_described": "本集说 ZocDoc 宣布与 Gemini 达成合作,让用户可以智能体式地通过其平台更高效地找到合适医生并预约。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            32.531,
+            41.857
+          ],
+          "quote": "They also discussed ZocDoc's partnership with Gemini, why no single company should own the front door to healthcare, and how better scheduling can help patients see doctors in days rather than weeks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            722.297,
+            732.319
+          ],
+          "quote": "You guys announced a partnership with Gemini along these lines where agentically people can use your platform to, you know, more efficiently get to the right doctors and book appointments.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            785.814,
+            789.655
+          ],
+          "quote": "Now, AI, as you mentioned, we are partnering with Gemini.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把 AI 智能体视为患者的延伸:ZocDoc 不区分患者和智能体,向两者展示所有可选项,由其自行决定最佳匹配;同时认为'前门'数量正因各类智能体而爆炸式增长。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 172,
+          "t": [
+            939.979,
+            949.423
+          ],
+          "quote": "Obviously, every agent might have their own way to solve that, but they probably gather the preferences or the decision criteria of the patient in some way and then apply it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 173,
+          "t": [
+            949.823,
+            954.806
+          ],
+          "quote": "We really look at that as one thing, the patient and the agent.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "healthcare-access-infrastructure",
+      "type": "concept",
+      "role": "concept",
+      "name": "医疗可及性基础设施 (healthcare access infrastructure)",
+      "file": "医疗可及性基础设施",
+      "primary": true,
+      "how_described": "本集把 ZocDoc 的角色定位为医疗可及性基础设施:不要求每笔预约都发生在 ZocDoc,只需保证患者敲的任何一扇门都能打开;支付方接入后开箱即用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 155,
+          "t": [
+            833.599,
+            837.882
+          ],
+          "quote": "Our role in this is really just that of healthcare access infrastructure, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1377.482,
+            1382.524
+          ],
+          "quote": "They can now plug into our healthcare access infrastructure and it just works out of the box.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1956.257,
+            1971.72
+          ],
+          "quote": "This is why we've opened up our healthcare access infrastructure so that every payer, every AI platform, every consumer platform, review platform, search site, they can connect their patients directly to a doctor and it will work and it will work well.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ehr",
+      "type": "concept",
+      "role": "concept",
+      "name": "EHR",
+      "file": "EHR",
+      "primary": true,
+      "how_described": "本集说美国有数百种 EHR、使用方式千差万别,ZocDoc 花了 20 年做出开箱即用的 175 种以上 EHR 对接,还要解决前台拿便利贴贴显示器这类不录入系统的边角问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            348.701,
+            357.625
+          ],
+          "quote": "The second two problems are related, and you can both extract them from the EHR, but they are very, very difficult to standardize.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 83,
+          "t": [
+            409.026,
+            412.107
+          ],
+          "quote": "And attach that to their monitor instead of going into the EHR.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 86,
+          "t": [
+            417.869,
+            428.812
+          ],
+          "quote": "And it turns out that just one example, there were literally 1,000.1% solutions that we had to figure out to make the EHR integration for scheduling truly accurate.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 88,
+          "t": [
+            436.457,
+            446.745
+          ],
+          "quote": "And as a result, we have now gotten enough information about how EHR is actually used to answer question two and three that you laid out based on a single integration into their EHR.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 111,
+          "t": [
+            563.824,
+            572.73
+          ],
+          "quote": "And then you will sort of take learnings that you would never be able to get from a single EHR because you're focused around the problem the way the patient sees it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1086.312,
+            1096.52
+          ],
+          "quote": "Are there AI tools that they can use to implement some of what used to be these really rigid scheduling rules that were largely baked into the EHR platforms?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1166.759,
+            1181.147
+          ],
+          "quote": "You know, one of the big areas of activity that we see a lot of, which is in some ways like a holy grail, you know, problem set for entrepreneurs is, you know, who will build the sort of next generation AI native, you know, practice management and EHR, you know, platform.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "walled-garden",
+      "type": "concept",
+      "role": "concept",
+      "name": "围墙花园 (walled garden)",
+      "file": "围墙花园",
+      "primary": true,
+      "how_described": "本集说医疗行业普遍存在'拥有前门就拥有患者'的围墙花园思维,Kharraz 认为这是有缺陷的前提:医疗更像城市,患者会按当下需求敲不同的门。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 102,
+          "t": [
+            517.597,
+            522.942
+          ],
+          "quote": "There is a general walled garden preference in healthcare frequently.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "discovery-booking",
+      "type": "concept",
+      "role": "concept",
+      "name": "发现型预约 (discovery booking)",
+      "file": "发现型预约",
+      "primary": true,
+      "how_described": "本集说 ZocDoc 获监管批准的收费模式:患者通过一般搜索找到医生的预约向医生收费;患者本就指定某位医生的预约只做撮合、分文不取。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 248,
+          "t": [
+            1503.227,
+            1515.872
+          ],
+          "quote": "We charge a provider for a discovery booking, meaning a booking where the patient was doing a general search and we connected them to that doctor.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "utilization",
+      "type": "concept",
+      "role": "concept",
+      "name": "利用率 (utilization)",
+      "file": "利用率",
+      "primary": true,
+      "how_described": "本集拿飞机类比:70 年代飞机载客率仅 60%,互联网订票后超 90%;而现实中医生利用率约 70%,ZocDoc 通过回收临时取消产生的最后一刻产能把等待缩短到 3 天,并指出最好的医生往往利用率最低。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 271,
+          "t": [
+            1627.249,
+            1643.542
+          ],
+          "quote": "I'm curious, back in the day at Kairos, we used to measure, you know, things like wait times, you know, distribution of capacity utilization across a group of providers and making sure that, you know, every provider is getting utilized in sort of relatively equal ways, you know, things of that sort.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1826.377,
+            1834.684
+          ],
+          "quote": "tend to have the worst utilization because they frequently treat patients that have very busy lives and cancel on them more often and they don't double book.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1869.475,
+            1890.884
+          ],
+          "quote": "Obviously keen to see him last minute but found him through ZocDoc and so he got better utilization and these patients got to see him and to my knowledge he's still on the system today because that's obviously the kinds of service that good doctors want to deliver to their patients.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -61,7 +61,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ulysses":2,"Guinness":1,"SpaceX":23,"Starlink":4,"US Navy":1,"水下无人机":1,"自主性":11,"海草修复":1,"海底电缆":1,"垂直整合":1}</script>
+<script type="application/json" class="pd-epn">{"Ulysses":2,"Guinness":1,"SpaceX":24,"Starlink":4,"US Navy":1,"水下无人机":1,"自主性":11,"海草修复":1,"海底电缆":1,"垂直整合":1}</script>
 
 <script>
 (function(){

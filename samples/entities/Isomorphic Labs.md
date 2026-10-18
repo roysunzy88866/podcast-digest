@@ -21,7 +21,7 @@ unlisted: true
 
 [[Dr. Wara]] · [[Thrive Capital]] · [[OpenAI]] · [[ChatGPT]] · [[Neuralink]] · [[Fortel]] · [[OpenEvidence]] · [[Cadence]] · [[Oscar Health]] · [[AlphaFold]]
 
-<script type="application/json" class="pd-epn">{"Dr. Wara":1,"Thrive Capital":1,"OpenAI":208,"ChatGPT":115,"Neuralink":4,"Fortel":1,"OpenEvidence":2,"Cadence":2,"Oscar Health":2,"AlphaFold":4}</script>
+<script type="application/json" class="pd-epn">{"Dr. Wara":1,"Thrive Capital":1,"OpenAI":210,"ChatGPT":116,"Neuralink":4,"Fortel":1,"OpenEvidence":2,"Cadence":2,"Oscar Health":2,"AlphaFold":4}</script>
 
 <script>
 (function(){

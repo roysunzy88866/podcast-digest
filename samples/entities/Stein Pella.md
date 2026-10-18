@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]]
+[[Julie Yu]] [[Oliver Kharraz]] [[Harrison Chase]] [[Shashir Marotra]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Olivia Moore":3,"Frederick Rankin":1,"Alex Rampell":4,"Lassie":1,"智能体":1,"人在回路":25,"现有巨头":2,"Robinhood":4,"Superhuman":5,"Stripe":53}</script>
+<script type="application/json" class="pd-epn">{"Olivia Moore":3,"Frederick Rankin":1,"Alex Rampell":4,"Lassie":1,"智能体":1,"人在回路":25,"现有巨头":2,"Robinhood":4,"Superhuman":6,"Stripe":53}</script>
 
 <script>
 (function(){

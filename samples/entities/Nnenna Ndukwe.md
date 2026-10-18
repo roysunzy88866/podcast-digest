@@ -35,7 +35,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]]
+[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Dixing Xu]] [[Vayum Arora]]
 
 </div>
 

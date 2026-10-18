@@ -32,7 +32,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[推理]] · [[Oracle]] · [[护栏]] · [[Anthropic]] · [[NVIDIA]] · [[Databricks]] · [[Microsoft]] · [[Meta]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":208,"推理":105,"Oracle":13,"护栏":94,"Anthropic":206,"NVIDIA":72,"Databricks":26,"Microsoft":34,"Meta":56}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":210,"推理":105,"Oracle":13,"护栏":94,"Anthropic":206,"NVIDIA":72,"Databricks":26,"Microsoft":34,"Meta":56}</script>
 
 <script>
 (function(){

@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Nnenna Ndukwe]] [[James Norman]]
+[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Nnenna Ndukwe]] [[Dixing Xu]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jason Lemkin":2,"Harry Stebbings":22,"Cursor":88,"SpaceX":23,"OpenRouter":15,"Stripe":53,"Anthropic":206,"Workday":5,"Microsoft":34,"Meta":56}</script>
+<script type="application/json" class="pd-epn">{"Jason Lemkin":2,"Harry Stebbings":22,"Cursor":88,"SpaceX":24,"OpenRouter":15,"Stripe":53,"Anthropic":206,"Workday":5,"Microsoft":34,"Meta":56}</script>
 
 <script>
 (function(){

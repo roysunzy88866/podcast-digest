@@ -87,7 +87,7 @@ unlisted: true
 
 [[智能体]] · [[Codex]] · [[Claude Code]] · [[ChatGPT]] · [[Anthropic]] · [[Cursor]] · [[Claude]] · [[harness]] · [[OpenAI]] · [[提示词注入]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Codex":92,"Claude Code":117,"ChatGPT":115,"Anthropic":206,"Cursor":88,"Claude":99,"harness":68,"OpenAI":208,"提示词注入":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Codex":92,"Claude Code":117,"ChatGPT":116,"Anthropic":206,"Cursor":88,"Claude":99,"harness":68,"OpenAI":210,"提示词注入":1}</script>
 
 <script>
 (function(){

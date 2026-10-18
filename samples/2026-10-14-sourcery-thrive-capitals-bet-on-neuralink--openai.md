@@ -250,7 +250,7 @@ AI 调药建议与医生本人决策的一致率达到 98%。用 AI 打电话联
 
 - [[2026-10-15-nopriors-revolutionizing-cybersecurity-and-ai-dri|AI 解开百年数学难题之后，OpenAI 联创谈药物、安全与「无界面」的未来]]<span class="pd-rz">同公司:OpenAI、ChatGPT · 同概念:药物发现 (drug discovery)、AlphaFold</span>
 - [[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux|Codex 负责人亲述:OpenAI 内部如何造编程智能体]]<span class="pd-rz">同公司:ChatGPT、OpenAI · 同概念:推理模型 (reasoning models)</span>
-- [[2025-06-22-lennys-the-quiet-architect-peter-deng|Peter Deng：产品不必是最重要的东西]]<span class="pd-rz">同公司:ChatGPT、OpenAI</span>
+- [[2026-10-17-twist-flying-cars-openai-spies-why-ai-isn-t-st|会飞的特斯拉、OpenAI 会议室里的窃听器，以及“AI 到底该怎么用”]]<span class="pd-rz">同公司:ChatGPT、OpenAI、SpaceX</span>
 
 </div>
 </div>

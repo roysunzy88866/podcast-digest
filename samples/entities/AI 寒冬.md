@@ -33,7 +33,7 @@ unlisted: true
 
 [[ChatGPT]] · [[Lenny]] · [[Matt Turk]] · [[Dr. Fei-Fei Li]] · [[Diogo Almeida]] · [[World Labs]] · [[Jev]] · [[Marble]] · [[TypeSafe]] · [[ImageNet]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":115,"Lenny":69,"Matt Turk":6,"Dr. Fei-Fei Li":1,"Diogo Almeida":4,"World Labs":5,"Jev":8,"Marble":5,"TypeSafe":5,"ImageNet":2}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":116,"Lenny":69,"Matt Turk":6,"Dr. Fei-Fei Li":1,"Diogo Almeida":4,"World Labs":5,"Jev":8,"Marble":5,"TypeSafe":5,"ImageNet":2}</script>
 
 <script>
 (function(){

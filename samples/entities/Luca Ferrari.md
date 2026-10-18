@@ -89,7 +89,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bending Spoons":3,"极致所有权":3,"AOL":3,"人才密度":5,"Vali":1,"Airtable":5,"招人":5,"Grindr":1,"Evernote":1,"不懈简化":1}</script>
+<script type="application/json" class="pd-epn">{"Bending Spoons":4,"极致所有权":3,"AOL":3,"人才密度":5,"Vali":1,"Airtable":5,"招人":5,"Grindr":1,"Evernote":1,"不懈简化":1}</script>
 
 <script>
 (function(){

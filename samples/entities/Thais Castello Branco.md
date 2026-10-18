@@ -51,7 +51,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Taste Labs":1,"垃圾话":10,"智能体":1,"推理时":1,"LLM 当裁判":11,"判断力":7,"探针":4,"Creativity API":1,"brand API":1}</script>
+<script type="application/json" class="pd-epn">{"Taste Labs":1,"垃圾话":11,"智能体":1,"推理时":1,"LLM 当裁判":11,"判断力":7,"探针":4,"Creativity API":1,"brand API":1}</script>
 
 <script>
 (function(){

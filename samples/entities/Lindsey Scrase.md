@@ -31,7 +31,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Checkr]] · [[企业市场]] · [[消费模式]] · [[DRI]] · [[智能体]] · [[生成式 AI]] · [[富矿利基]] · [[交易破坏者]] · [[NRR]] · [[欺诈]]
+[[Checkr]] · [[企业市场]] · [[消费模式]] · [[DRI]] · [[智能体]] · [[生成式 AI]] · [[富矿利基]] · [[交易破坏者]] · [[NRR]] · [[并购]]
 
 ## ④ 也在聊「增长与销售」的人
 
@@ -41,7 +41,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Checkr":1,"企业市场":1,"消费模式":1,"DRI":4,"智能体":1,"生成式 AI":2,"富矿利基":1,"交易破坏者":1,"NRR":4,"欺诈":3}</script>
+<script type="application/json" class="pd-epn">{"Checkr":1,"企业市场":1,"消费模式":1,"DRI":4,"智能体":1,"生成式 AI":2,"富矿利基":1,"交易破坏者":1,"NRR":4,"并购":2}</script>
 
 <script>
 (function(){

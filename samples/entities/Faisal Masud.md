@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]]
+[[Julie Yu]] [[Oliver Kharraz]] [[Harrison Chase]] [[Shashir Marotra]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"HP":1,"Workforce Experience":1,"AI Command Center":1,"智能体":1,"基于结果的付费":4,"垃圾话":10,"人类判断":1,"中期管理":2,"ROI":2,"内部试用":3}</script>
+<script type="application/json" class="pd-epn">{"HP":1,"Workforce Experience":1,"AI Command Center":1,"智能体":1,"基于结果的付费":4,"垃圾话":11,"人类判断":1,"中期管理":2,"ROI":2,"内部试用":3}</script>
 
 <script>
 (function(){

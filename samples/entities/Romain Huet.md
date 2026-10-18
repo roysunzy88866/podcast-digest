@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]]
+[[Julie Yu]] [[Oliver Kharraz]] [[Harrison Chase]] [[Shashir Marotra]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Peter Steinberger":3,"OpenAI":208,"智能体":1,"Codex":92,"循环":10,"协作界面":1,"harness":68,"压缩":4,"委托":1,"持久化上下文":1}</script>
+<script type="application/json" class="pd-epn">{"Peter Steinberger":3,"OpenAI":210,"智能体":1,"Codex":92,"循环":10,"协作界面":1,"harness":68,"压缩":4,"委托":1,"持久化上下文":1}</script>
 
 <script>
 (function(){

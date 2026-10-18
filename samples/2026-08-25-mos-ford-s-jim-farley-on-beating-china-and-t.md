@@ -148,6 +148,7 @@ Farley 以直言著称,他说过「不要再有无聊的产品」。他的解释
 **换个口味**
 
 - [[2026-09-12-twentyvc-20vc-7-predictions-for-how-ai-changes-th|工程师一年前就停写代码：Eight Sleep 创始人的 AI 运营实录]]<span class="pd-rz">同公司:Xiaomi</span>
+- [[2026-10-17-twist-flying-cars-openai-spies-why-ai-isn-t-st|会飞的特斯拉、OpenAI 会议室里的窃听器，以及“AI 到底该怎么用”]]<span class="pd-rz">同公司:Tesla</span>
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|AI 时代产品经理的生存指南]]<span class="pd-rz">同公司:Tesla</span>
 
 </div>

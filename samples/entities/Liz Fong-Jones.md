@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Nnenna Ndukwe]] [[James Norman]]
+[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Nnenna Ndukwe]] [[Dixing Xu]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":10,"Honeycomb":2,"Google":72,"Shopify":19,"Autobot":1,"Anthropic":206,"Claude":99,"代码审查":28,"股权占比":4,"可观测性":49}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":10,"Honeycomb":2,"Google":72,"Shopify":20,"Autobot":1,"Anthropic":206,"Claude":99,"代码审查":28,"股权占比":4,"可观测性":50}</script>
 
 <script>
 (function(){

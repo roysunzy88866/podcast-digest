@@ -27,7 +27,7 @@ unlisted: true
 
 [[Instinct]] · [[智能体]] · [[主动性]] · [[Muse]] · [[ChatGPT]] · [[Noah Shinn]] · [[Anish Acharya]] · [[算力]] · [[David Pawlan]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"Instinct":6,"智能体":1,"主动性":2,"Muse":9,"ChatGPT":115,"Noah Shinn":1,"Anish Acharya":4,"算力":10,"David Pawlan":1,"推理":105}</script>
+<script type="application/json" class="pd-epn">{"Instinct":6,"智能体":1,"主动性":2,"Muse":9,"ChatGPT":116,"Noah Shinn":1,"Anish Acharya":4,"算力":10,"David Pawlan":1,"推理":105}</script>
 
 <script>
 (function(){

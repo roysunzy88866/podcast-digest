@@ -207,6 +207,7 @@ Anders 说这是值得的 <button class="pd-ts" data-t="10:15" data-who="嘉宾"
 
 - [[2026-09-15-knowledge-tobi-l-tke-ai-agents-better-decisions-an|Shopify CEO Toby：一半代码来自聊天群里的 AI 同事]]<span class="pd-rz">同公司:SpaceX</span>
 - [[2026-09-20-lennys-90-minutes-of-unfiltered-product|把团队设计成「恐怖组织」：Snap 首位产品经理的反直觉产品课]]<span class="pd-rz">同公司:SpaceX</span>
+- [[2026-10-17-twist-flying-cars-openai-spies-why-ai-isn-t-st|会飞的特斯拉、OpenAI 会议室里的窃听器，以及“AI 到底该怎么用”]]<span class="pd-rz">同公司:SpaceX</span>
 
 </div>
 </div>

@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]]
+[[Julie Yu]] [[Oliver Kharraz]] [[Harrison Chase]] [[Shashir Marotra]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Metronome":3,"Stripe":53,"Stripe Projects":2,"OpenAI":208,"Anthropic":206,"Lovable":20,"HubSpot":11,"智能体":1,"编码智能体":40,"vibe coding":52}</script>
+<script type="application/json" class="pd-epn">{"Metronome":3,"Stripe":53,"Stripe Projects":2,"OpenAI":210,"Anthropic":206,"Lovable":20,"HubSpot":11,"智能体":1,"编码智能体":40,"vibe coding":52}</script>
 
 <script>
 (function(){

@@ -1,0 +1,1228 @@
+{
+  "episode_id": "2026-10-11-talks-parameter-golf-with-autoresearch-vayum-a",
+  "podcast": "精选演讲",
+  "date": "2026-10-11",
+  "tags": [
+    "自动研究",
+    "智能体",
+    "模型训练",
+    "AI 竞赛",
+    "评估"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "dixing-xu",
+      "type": "person",
+      "role": "guest",
+      "name": "Dixing Xu",
+      "file": "Dixing Xu",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "vayum-arora",
+      "type": "person",
+      "role": "guest",
+      "name": "Vayum Arora",
+      "file": "Vayum Arora",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "zhengyao-jiang",
+      "type": "person",
+      "role": "guest",
+      "name": "Zhengyao Jiang",
+      "file": "Zhengyao Jiang",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "auto-research",
+      "type": "concept",
+      "role": "concept",
+      "name": "自动研究 (auto research)",
+      "file": "自动研究",
+      "primary": true,
+      "how_described": "本集把它说成：一个试错循环——给语言模型代码和一个可重放的评估脚本，它不断尝试想法、用评估打分，保留提分的、丢弃其余的，今年从模型训练扩散到后端工程、提示词与智能体工程、推理加速甚至生产环境",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            39.464,
+            43.029
+          ],
+          "quote": "Junyao will give us a brief background on the basics behind auto research.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 11,
+          "t": [
+            61.61,
+            65.534
+          ],
+          "quote": "Auto-research is basically a loop of a trial and error.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 17,
+          "t": [
+            115.472,
+            132.844
+          ],
+          "quote": "In just a few weeks, the use case of auto research spread from training to everything, like back-end engineering, prompt and agent engineering, speed up model inference, and it also quickly show up in production.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 23,
+          "t": [
+            181.489,
+            186.594
+          ],
+          "quote": "But for auto-research, it's like the agent is running in a loop on its own.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 26,
+          "t": [
+            204.889,
+            213.794
+          ],
+          "quote": "So hopefully this workshop will give you a good starting point to learn about auto research and apply that in your own work.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 32,
+          "t": [
+            239.051,
+            242.374
+          ],
+          "quote": "We'll get you set up and kick off an auto-research run on your laptop.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 33,
+          "t": [
+            243.344,
+            250.763
+          ],
+          "quote": "While your auto research is running in the background, we'll break down the basics of an auto research loop and the pieces that actually shape what an agent does.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 38,
+          "t": [
+            284.433,
+            287.394
+          ],
+          "quote": "So we've been working on auto research for quite some time now.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 75,
+          "t": [
+            510.736,
+            518.861
+          ],
+          "quote": "Cool, so we're actually gonna run auto research on a version of the same parameter golf challenge that Dex just walked you through.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 78,
+          "t": [
+            530.466,
+            542.67
+          ],
+          "quote": "Every single experiment was training a language model on a massive data set, which is fine when the competition is over four weeks, but in a workshop like today, you'd never actually be able to see your auto research run.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 86,
+          "t": [
+            582.424,
+            586.505
+          ],
+          "quote": "You're gonna run auto research yourself on MiniParameterGolf.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 88,
+          "t": [
+            590.747,
+            593.568
+          ],
+          "quote": "One is WeCo, our auto research agent that runs a search.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 104,
+          "t": [
+            668.935,
+            675.579
+          ],
+          "quote": "But until then, I think it would be good to maybe go through the anatomy of an auto-research run.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 105,
+          "t": [
+            676.259,
+            683.264
+          ],
+          "quote": "And we're going to be doing this in the context of WeCo as the auto-research system and MiniPG as the task.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 107,
+          "t": [
+            688.187,
+            693.49
+          ],
+          "quote": "Most auto-research systems are going to have you ask very similar questions and think about the same things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 114,
+          "t": [
+            726.762,
+            733.609
+          ],
+          "quote": "And then the second thing, and in my opinion this is probably the most crucial part of an auto-research system, is the evaluation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 115,
+          "t": [
+            734.329,
+            742.517
+          ],
+          "quote": "And so you want to have a very simple way of allowing your auto-research system to evaluate every solution that it generates.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 128,
+          "t": [
+            815.903,
+            821.165
+          ],
+          "quote": "The next thing is the number of steps you actually run the auto-research system for.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 145,
+          "t": [
+            992.321,
+            999.225
+          ],
+          "quote": "We are just going to demo how to get started on auto research for you considering the internet issues.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 146,
+          "t": [
+            1000.125,
+            1009.551
+          ],
+          "quote": "Before we get to that, a little bit more about what we think makes production-grade auto research actually production-grade.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 155,
+          "t": [
+            1052.63,
+            1063.018
+          ],
+          "quote": "We will shortly demo this on our auto-research dashboard, but tree-based auto-research essentially treats the problem as a structured optimization process over code.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 162,
+          "t": [
+            1087.455,
+            1098.98
+          ],
+          "quote": "So when a branch improves the score, it builds on those ideas and goes deeper next, which means that you can inspect the exact changes your auto-research system is making and build off of those.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1225.486,
+            1230.368
+          ],
+          "quote": "Running auto research on something this hard is less of a set it and forget it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1244.984,
+            1251.892
+          ],
+          "quote": "I'm going to hand it over to Dex and Zhengiao to talk a little bit more about how to get auto research set up.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1529.253,
+            1537.356
+          ],
+          "quote": "And yeah, in that project, you can apply auto-research to the IR training scripts.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1609.758,
+            1615.283
+          ],
+          "quote": "And you can see the recourse auto research already generated one node here.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1780.454,
+            1783.216
+          ],
+          "quote": "We have turned this into an auto-research problem.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1881.258,
+            1888.1
+          ],
+          "quote": "And in the spirit of keeping it fair, no parallel compute allowed, so you would be using WeCo for auto-research.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体说成自动研究循环的执行者：它修改源文件、跑评估、爬山式优化，但特别爱钻评估的空子（reward hack），需要人类引导方向",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            115.472,
+            132.844
+          ],
+          "quote": "In just a few weeks, the use case of auto research spread from training to everything, like back-end engineering, prompt and agent engineering, speed up model inference, and it also quickly show up in production.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 18,
+          "t": [
+            133.765,
+            144.252
+          ],
+          "quote": "For example, it reduced the latency of Shopify's CI, CD pipeline, and it improved the browser use, the company's browser use agent.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 19,
+          "t": [
+            148.003,
+            165.288
+          ],
+          "quote": "In April, our experimental research agent, Aiden, even won OpenAI's hiring challenge called the parameter golf, which we will tell you a bit more soon, and I also have a talk on Wednesday specifically about it.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 21,
+          "t": [
+            173.411,
+            174.711
+          ],
+          "quote": "With a normal coding agent,",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 22,
+          "t": [
+            177.205,
+            180.969
+          ],
+          "quote": "You basically steer agent every single step.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 23,
+          "t": [
+            181.489,
+            186.594
+          ],
+          "quote": "But for auto-research, it's like the agent is running in a loop on its own.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 30,
+          "t": [
+            225.498,
+            236.689
+          ],
+          "quote": "Dex will take you inside Parameter Golf, the challenge that we entered our agent into, what that challenge was actually all about, and how our agent ended up as the most influential contributor.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 33,
+          "t": [
+            243.344,
+            250.763
+          ],
+          "quote": "While your auto research is running in the background, we'll break down the basics of an auto research loop and the pieces that actually shape what an agent does.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 34,
+          "t": [
+            252.842,
+            258.845
+          ],
+          "quote": "And we'll go deeper and do a guided demo where you're able to run, steer, and inspect what your agent is doing live.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 36,
+          "t": [
+            264.589,
+            278.357
+          ],
+          "quote": "You'll take everything that you learned today, point out of research at a game that we've all played before, and go head-to-head to see whose agent can get the highest score with the winner walking away with a really cool prize.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 39,
+          "t": [
+            287.954,
+            295.297
+          ],
+          "quote": "Before WeCo, we released Aid in April 2024, which was an autonomous ML engineering agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 41,
+          "t": [
+            304.08,
+            315.668
+          ],
+          "quote": "When OpenAI built MLEBench, Aid was one of the first agents they evaluated independently, and on that benchmark, it scored about four times the medal rate of the next best agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 42,
+          "t": [
+            317.169,
+            325.095
+          ],
+          "quote": "More recently, as we discussed, we pointed our agent to ParameterGolf, and across more than 1,000 researchers, it became the number one contributor.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 88,
+          "t": [
+            590.747,
+            593.568
+          ],
+          "quote": "One is WeCo, our auto research agent that runs a search.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 91,
+          "t": [
+            601.612,
+            609.359
+          ],
+          "quote": "Then you will clone our parameter golf repo and hand it to your coding agent, tell it to kick off a run, it handles the setup, and it will start the loop.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 97,
+          "t": [
+            640.658,
+            649.906
+          ],
+          "quote": "And once you're done with those two steps, clone the repo shown here and tell your agent to set up MiniPG from the readme and kick off a run.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 109,
+          "t": [
+            699.686,
+            702.727
+          ],
+          "quote": "This is what the agent actually has to modify.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 118,
+          "t": [
+            762.977,
+            772.285
+          ],
+          "quote": "And if there's low noise, then both you as well as the agent are more confident as you're kind of hill climbing on whatever task you're auto-researching on.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 130,
+          "t": [
+            828.828,
+            839.471
+          ],
+          "quote": "We've chosen 20 in this case just because we want to give your agents enough time to kind of explore different ideas and you can see what the agent is actually exploring, what works, what doesn't.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 135,
+          "t": [
+            879.81,
+            887.475
+          ],
+          "quote": "So loops can stall, hardware can fail, sometimes the agent will produce really bad code that causes the entire system to hang.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 139,
+          "t": [
+            921.763,
+            927.564
+          ],
+          "quote": "And the last thing is the guidance that you give the agent at the start of your optimization.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 140,
+          "t": [
+            928.644,
+            930.644
+          ],
+          "quote": "So this is how you steer the agent from the start.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 143,
+          "t": [
+            951.71,
+            964.882
+          ],
+          "quote": "In the case of WeCo, you can simply point it to a markdown file, have all of your information and context in there, and the agent is able to use this, and it gives the agent the best chance at finding success.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 148,
+          "t": [
+            1012.624,
+            1023.569
+          ],
+          "quote": "So we have a tree-based search where the agent shows you every attempt it's run so that ideas, as Dhruv had mentioned, can sort of compound on each other instead of starting from scratch.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 150,
+          "t": [
+            1028.151,
+            1035.754
+          ],
+          "quote": "You can sort of open any attempt, read the exact code change behind its score so you can see why the agent is taking the approach it is.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 174,
+          "t": [
+            1167.947,
+            1178.14
+          ],
+          "quote": "Because you might have context and intuition that an agent doesn't, at least for now, we believe it's important to find ways to fold human judgment into the system whenever it's necessary.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 178,
+          "t": [
+            1193.057,
+            1196.698
+          ],
+          "quote": "It started with our agent, which is the line in pink.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 182,
+          "t": [
+            1230.928,
+            1239.531
+          ],
+          "quote": "It's a collaboration where we steer the agent, we pull in ideas from the people around us, and steerability is essentially what makes that loop possible.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1366.482,
+            1376.327
+          ],
+          "quote": "Run the eval, and eventually it will output a score, like a printer score to the terminal, and it's going to be passed by the agent.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1395.4,
+            1416.092
+          ],
+          "quote": "And I think there are, I did some, this is wrong, and you will basically see a lot of things, and after the command, like, auto-booted by the agent, I think then you will see the ramping pop up, and then you can try out the features we provide.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1586.002,
+            1592.289
+          ],
+          "quote": "Yeah, we can see the agent already generated",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1644.097,
+            1653.44
+          ],
+          "quote": "Okay, for stability, you can basically tell the agent, for example, say, like, explore the quantization method.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1697.154,
+            1704.017
+          ],
+          "quote": "Yeah, basically we also support you bring your Claude Code agent to our dashboard.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "evaluation",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (evaluation)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集说评估是自动研究系统最关键的部分：必须简单、快、便宜、低噪声、输出单一标量指标，还要做得稳健以防智能体钻空子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            66.862,
+            72.543
+          ],
+          "quote": "You give a language model your code and a replayable evaluation script.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 53,
+          "t": [
+            374.138,
+            385.149
+          ],
+          "quote": "OpenAI provided a baseline data set and evaluation scripts so participants can fork the repo, improve the model, and submit their result through GitHub.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            726.762,
+            733.609
+          ],
+          "quote": "And then the second thing, and in my opinion this is probably the most crucial part of an auto-research system, is the evaluation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 120,
+          "t": [
+            778.113,
+            782.899
+          ],
+          "quote": "So they love to find holes in your evaluation protocol, holes in your benchmark.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 136,
+          "t": [
+            888.235,
+            891.356
+          ],
+          "quote": "And so you want to bound the actual evaluation running.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "tree-based-search",
+      "type": "concept",
+      "role": "concept",
+      "name": "基于树的搜索 (tree-based search)",
+      "file": "基于树的搜索",
+      "primary": true,
+      "how_described": "本集说它是生产级自动研究的『结构』：从基线代码根节点出发，每个节点是一次代码修改加得分，好的分支继续深入、坏的剪掉，让想法相互叠加而非从零开始",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 148,
+          "t": [
+            1012.624,
+            1023.569
+          ],
+          "quote": "So we have a tree-based search where the agent shows you every attempt it's run so that ideas, as Dhruv had mentioned, can sort of compound on each other instead of starting from scratch.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 154,
+          "t": [
+            1049.507,
+            1052.169
+          ],
+          "quote": "A little bit more about the tree-based search.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 164,
+          "t": [
+            1107.841,
+            1114.987
+          ],
+          "quote": "Because you can see every one of the nodes in this tree-based search, you can open any one of them and see exactly what changed.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "本集说你可以打开搜索树里任何节点，看到确切的代码 diff、指标为何变动，实时把分数变化关联到原因",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 149,
+          "t": [
+            1024.65,
+            1026.571
+          ],
+          "quote": "The second is observability.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 163,
+          "t": [
+            1102.897,
+            1106.32
+          ],
+          "quote": "So the next idea we talked about was observability.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "steerability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可操控性 (steerability)",
+      "file": "可操控性",
+      "primary": true,
+      "how_described": "本集说它让你在循环运行时用自然语言注入新想法、开新分支、给节点分配算力预算；在 Parameter Golf 中正是它让系统吸收社区新分词器、实现了数周来最大跳升",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 151,
+          "t": [
+            1036.475,
+            1038.195
+          ],
+          "quote": "And the third thing is steerability.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 175,
+          "t": [
+            1180.491,
+            1183.752
+          ],
+          "quote": "I want to ground that point, steerability, in something real.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 176,
+          "t": [
+            1184.653,
+            1189.015
+          ],
+          "quote": "Because in parameter golf, steerability was a big part of why we did well.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 182,
+          "t": [
+            1230.928,
+            1239.531
+          ],
+          "quote": "It's a collaboration where we steer the agent, we pull in ideas from the people around us, and steerability is essentially what makes that loop possible.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "reward-hack",
+      "type": "concept",
+      "role": "concept",
+      "name": "钻评估空子 (reward hack)",
+      "file": "钻评估空子",
+      "primary": false,
+      "how_described": "本集提醒：智能体特别爱在评估协议和基准里找漏洞，所以要把评估做得尽可能稳健",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 119,
+          "t": [
+            773.066,
+            777.552
+          ],
+          "quote": "And so one thing to be aware of, though, is agents love to reward hack.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "weco",
+      "type": "company",
+      "role": "company",
+      "name": "Weco",
+      "file": "Weco",
+      "primary": true,
+      "how_described": "本集讲者所属公司，提供自动研究智能体平台与仪表盘，曾于 2024 年 4 月发布自主 ML 工程智能体 Aid",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            287.954,
+            295.297
+          ],
+          "quote": "Before WeCo, we released Aid in April 2024, which was an autonomous ML engineering agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 88,
+          "t": [
+            590.747,
+            593.568
+          ],
+          "quote": "One is WeCo, our auto research agent that runs a search.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 94,
+          "t": [
+            624.484,
+            630.008
+          ],
+          "quote": "Sign up for WeCo on dashboard.weco.ai, modal for modal.com-signup.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 105,
+          "t": [
+            676.259,
+            683.264
+          ],
+          "quote": "And we're going to be doing this in the context of WeCo as the auto-research system and MiniPG as the task.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 143,
+          "t": [
+            951.71,
+            964.882
+          ],
+          "quote": "In the case of WeCo, you can simply point it to a markdown file, have all of your information and context in there, and the agent is able to use this, and it gives the agent the best chance at finding success.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1762.12,
+            1763.961
+          ],
+          "quote": "We're gonna do a flappy Weco Cup.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1881.258,
+            1888.1
+          ],
+          "quote": "And in the spirit of keeping it fair, no parallel compute allowed, so you would be using WeCo for auto-research.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1908.457,
+            1910.798
+          ],
+          "quote": "You'll get about 50 steps on Weco.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "aiden",
+      "type": "concept",
+      "role": "concept",
+      "name": "Aiden",
+      "file": "Aiden",
+      "primary": true,
+      "how_described": "本集说 Aiden 是 Weco 基于 Claude 和 GPT 系列模型构建的自我改进多智能体系统，自动化了从拉论文、找实现、提想法到提交 PR 的完整研究循环",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            148.003,
+            165.288
+          ],
+          "quote": "In April, our experimental research agent, Aiden, even won OpenAI's hiring challenge called the parameter golf, which we will tell you a bit more soon, and I also have a talk on Wednesday specifically about it.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说 OpenAI 举办了名为 parameter golf 的模型训练挑战赛，提供基线数据集、评估脚本和 100 万美元计算额度；其 MLEBench 也独立评估过 Aid",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            148.003,
+            165.288
+          ],
+          "quote": "In April, our experimental research agent, Aiden, even won OpenAI's hiring challenge called the parameter golf, which we will tell you a bit more soon, and I also have a talk on Wednesday specifically about it.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 41,
+          "t": [
+            304.08,
+            315.668
+          ],
+          "quote": "When OpenAI built MLEBench, Aid was one of the first agents they evaluated independently, and on that benchmark, it scored about four times the medal rate of the next best agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 47,
+          "t": [
+            345.786,
+            349.367
+          ],
+          "quote": "So Paramedic Gov is OpenAI's Model Craft Challenge.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            374.138,
+            385.149
+          ],
+          "quote": "OpenAI provided a baseline data set and evaluation scripts so participants can fork the repo, improve the model, and submit their result through GitHub.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            498.417,
+            504.422
+          ],
+          "quote": "And this wraps up how Aden becomes the number one contributor to the OpenAI's hiring challenge.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "parameter-golf",
+      "type": "concept",
+      "role": "concept",
+      "name": "parameter golf",
+      "file": "parameter golf",
+      "primary": true,
+      "how_described": "本集说它是 OpenAI 的模型训练挑战赛：模型权重加训练代码不超过 16MB、训练限 10 分钟，按验证集 bits per byte 打分；44 天内 1016 名研究者提交 2048 个 PR，仅 47 个合并为纪录",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            148.003,
+            165.288
+          ],
+          "quote": "In April, our experimental research agent, Aiden, even won OpenAI's hiring challenge called the parameter golf, which we will tell you a bit more soon, and I also have a talk on Wednesday specifically about it.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 30,
+          "t": [
+            225.498,
+            236.689
+          ],
+          "quote": "Dex will take you inside Parameter Golf, the challenge that we entered our agent into, what that challenge was actually all about, and how our agent ended up as the most influential contributor.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 75,
+          "t": [
+            510.736,
+            518.861
+          ],
+          "quote": "Cool, so we're actually gonna run auto research on a version of the same parameter golf challenge that Dex just walked you through.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 77,
+          "t": [
+            525.965,
+            530.026
+          ],
+          "quote": "As Dex discussed, the real parameter golf competition was heavy.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 91,
+          "t": [
+            601.612,
+            609.359
+          ],
+          "quote": "Then you will clone our parameter golf repo and hand it to your coding agent, tell it to kick off a run, it handles the setup, and it will start the loop.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 176,
+          "t": [
+            1184.653,
+            1189.015
+          ],
+          "quote": "Because in parameter golf, steerability was a big part of why we did well.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "modal",
+      "type": "company",
+      "role": "company",
+      "name": "Modal",
+      "file": "Modal",
+      "primary": true,
+      "how_described": "本集说 Modal 是工作坊里实验训练与评估所用的计算平台，向参会者提供免费额度",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 89,
+          "t": [
+            594.028,
+            598.39
+          ],
+          "quote": "And the other is Modal, the compute your experiments, train and evaluate on.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 90,
+          "t": [
+            598.89,
+            600.291
+          ],
+          "quote": "Free credits, thank you, Modal.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 94,
+          "t": [
+            624.484,
+            630.008
+          ],
+          "quote": "Sign up for WeCo on dashboard.weco.ai, modal for modal.com-signup.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 95,
+          "t": [
+            630.889,
+            632.691
+          ],
+          "quote": "There's a code to claim your modal credits.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 96,
+          "t": [
+            633.792,
+            638.996
+          ],
+          "quote": "If you already have a modal account, you can go directly to modal.com slash credits and enter your code there.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 138,
+          "t": [
+            895.797,
+            918.082
+          ],
+          "quote": "And the reason for that is we give 60 seconds for training the model, 60 seconds for testing the model on unseen text, and then 90 seconds, which is a buffer for modal to spin up the GPUs for training, spin it up for the testing, and any other kinds of overheads that exist.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1735.791,
+            1738.072
+          ],
+          "quote": "I know there's some modal payment issues.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1743.753,
+            1755.955
+          ],
+          "quote": "You don't need modal for this, and originally this was designed to be a 30-minute competition, but we will give you guys, until the end of the day, a little bit more on what this is.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "flappy-bird",
+      "type": "concept",
+      "role": "concept",
+      "name": "Flappy Bird",
+      "file": "Flappy Bird",
+      "primary": true,
+      "how_described": "本集把它改造成现场自动研究比赛：优化一个每帧决定小鸟是否拍翅膀的 should flap 控制器，按四个世界（普通/移动缺口/风/混合）的平均分排名",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 268,
+          "t": [
+            1759.638,
+            1760.899
+          ],
+          "quote": "You guys have all played Flappy Bird.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1764.381,
+            1769.324
+          ],
+          "quote": "So essentially, everyone hopefully has played Flappy Bird.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1806.72,
+            1808.721
+          ],
+          "quote": "We're not just running this on Flappy Bird.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "shopify",
+      "type": "company",
+      "role": "company",
+      "name": "Shopify",
+      "file": "Shopify",
+      "primary": false,
+      "how_described": "本集举例说自动研究降低了 Shopify 持续集成/交付流水线的延迟",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            133.765,
+            144.252
+          ],
+          "quote": "For example, it reduced the latency of Shopify's CI, CD pipeline, and it improved the browser use, the company's browser use agent.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "rl",
+      "type": "concept",
+      "role": "concept",
+      "name": "RL",
+      "file": "RL",
+      "primary": false,
+      "how_described": "本集观众问答中说自动研究可以应用于 RL 训练脚本，并举了 SoCoBan Speedrunner 后训练模型玩游戏的例子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 228,
+          "t": [
+            1485.014,
+            1486.655
+          ],
+          "quote": "Can autoresearch apply to RL?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1493.617,
+            1495.457
+          ],
+          "quote": "Can autoresearch apply to RL?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1502.9,
+            1509.062
+          ],
+          "quote": "It can definitely be applied to RL, like applied to RL training scripts.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -141,9 +141,9 @@ Qasar 认为，硅谷的许多 CEO 缺乏「品味」<button class="pd-ts" data-
 
 **换个口味**
 
+- [[2026-10-17-twist-flying-cars-openai-spies-why-ai-isn-t-st|会飞的特斯拉、OpenAI 会议室里的窃听器，以及“AI 到底该怎么用”]]<span class="pd-rz">同公司:Tesla、OpenAI · 同概念:ChatGPT、智能体 (agent)</span>
 - [[2026-08-04-yc-waymo-co-ceo-dmitri-dolgov-move-fast-and|Waymo 谈物理 AI 的七条实战教训]]<span class="pd-rz">同公司:Waymo · 同概念:智能体 (agent)、物理 AI (physical AI)</span>
 - [[2026-09-27-lennys-the-grief-loneliness-and-burnout|送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧]]<span class="pd-rz">同公司:Waymo、Facebook、Google、OpenAI · 同概念:智能体 (agent)</span>
-- [[2026-10-06-talks-how-ai-agents-pay-checkout-in-chatgpt-an|当AI替你下单：PayPal 讲解智能体购物里的支付怎么完成]]<span class="pd-rz">同公司:Google、OpenAI · 同概念:ChatGPT、智能体 (agent)</span>
 
 </div>
 </div>

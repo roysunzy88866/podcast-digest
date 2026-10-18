@@ -67,7 +67,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":208,"Anthropic":206,"Google DeepMind":11,"Microsoft":34,"Meta":56,"AGI":29,"超级智能":13,"信念":1,"推理模型":2,"递归自我改进":13}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":210,"Anthropic":206,"Google DeepMind":11,"Microsoft":34,"Meta":56,"AGI":29,"超级智能":13,"信念":1,"推理模型":2,"递归自我改进":13}</script>
 
 <script>
 (function(){

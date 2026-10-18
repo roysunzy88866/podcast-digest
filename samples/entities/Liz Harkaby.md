@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Guillermo Rauch]] [[Kevin Roose]] [[Greg Brockman]] [[Leisha Lee]] [[Nathan Lambert]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Michael Forrester]]
+[[Shashir Marotra]] [[Guillermo Rauch]] [[Kevin Roose]] [[Greg Brockman]] [[Leisha Lee]] [[Nathan Lambert]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Dan Bonnet":1,"Eddie Lazarin":1,"Justin Baylor":1,"OpenAI":208,"A16z Crypto":1,"Coinbase":8,"比特币":2,"密码学":2,"后量子密码学":1,"格密码学":1}</script>
+<script type="application/json" class="pd-epn">{"Dan Bonnet":1,"Eddie Lazarin":1,"Justin Baylor":1,"OpenAI":210,"A16z Crypto":1,"Coinbase":8,"比特币":2,"密码学":2,"后量子密码学":1,"格密码学":1}</script>
 
 <script>
 (function(){

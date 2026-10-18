@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Nnenna Ndukwe]] [[James Norman]]
+[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Nnenna Ndukwe]] [[Dixing Xu]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":206,"智能体":1,"自动模式":4,"沙箱":104,"Claude Code":117,"OpenAI":208,"提示词":3,"Hugging Face":39,"评估":1,"探针":4}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":206,"智能体":1,"自动模式":4,"沙箱":104,"Claude Code":117,"OpenAI":210,"提示词":3,"Hugging Face":39,"评估":1,"探针":4}</script>
 
 <script>
 (function(){

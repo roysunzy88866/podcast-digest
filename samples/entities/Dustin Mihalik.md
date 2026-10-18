@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]]
+[[Julie Yu]] [[Oliver Kharraz]] [[Harrison Chase]] [[Shashir Marotra]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MCP Apps":3,"MCP":100,"Indeed":1,"CareerScout":1,"Claude":99,"ChatGPT":115,"结构化内容":1,"update model context":1}</script>
+<script type="application/json" class="pd-epn">{"MCP Apps":3,"MCP":100,"Indeed":1,"CareerScout":1,"Claude":99,"ChatGPT":116,"结构化内容":1,"update model context":1}</script>
 
 <script>
 (function(){

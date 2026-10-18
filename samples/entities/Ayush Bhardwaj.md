@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]]
+[[Julie Yu]] [[Oliver Kharraz]] [[Harrison Chase]] [[Shashir Marotra]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"应用垂直 AI":1,"专有数据":2,"可观测性":49,"错误分析":2,"基于人类反馈的强化学习":2,"LLM 当裁判":11,"监督微调":2,"基于可验证奖励的强化学习":1,"人在回路":25}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"应用垂直 AI":1,"专有数据":2,"可观测性":50,"错误分析":2,"基于人类反馈的强化学习":2,"LLM 当裁判":11,"监督微调":2,"基于可验证奖励的强化学习":1,"人在回路":25}</script>
 
 <script>
 (function(){
