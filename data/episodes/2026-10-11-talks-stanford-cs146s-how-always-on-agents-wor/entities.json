@@ -1,0 +1,1015 @@
+{
+  "episode_id": "2026-10-11-talks-stanford-cs146s-how-always-on-agents-wor",
+  "podcast": "精选演讲",
+  "date": "2026-10-11",
+  "tags": [
+    "智能体",
+    "AI 基础设施",
+    "上下文工程",
+    "提示词缓存",
+    "AI 安全"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "lee",
+      "type": "person",
+      "role": "host",
+      "name": "Lee",
+      "file": "Lee",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.371,
+            1.732
+          ],
+          "quote": "So, as mentioned, I'm Lee.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "spacex",
+      "type": "company",
+      "role": "concept",
+      "name": "SpaceX",
+      "file": "SpaceX",
+      "primary": true,
+      "how_described": "本集说这是 Lee 现在工作的公司,正在开发常驻智能体产品;机器人替员工开会记笔记在 SpaceX 已越来越常见。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            14.117,
+            20.56
+          ],
+          "quote": "Just as a, you know, fun statement up here, some of the things we'll talk about are in progress we're working on at SpaceX.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            693.662,
+            704.208
+          ],
+          "quote": "It's increasingly common now at SpaceX where we see bots joining meetings for employees where they could make it to the meeting but they want their bot to go and just take notes and come back to them which is kind of funny.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 358,
+          "t": [
+            2266.141,
+            2272.606
+          ],
+          "quote": "One of the principles that we had at Cursor and now at SpaceX is to delete the product.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "concept",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": true,
+      "how_described": "本集说 Lee 曾在 Cursor 工作,并引用了 Cursor 与 SpaceX 共同的一条原则——'删除产品':假设今天的模型是史上最差的,六个月后可能要推倒重建整个界面。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 358,
+          "t": [
+            2266.141,
+            2272.606
+          ],
+          "quote": "One of the principles that we had at Cursor and now at SpaceX is to delete the product.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "grokbot",
+      "type": "company",
+      "role": "concept",
+      "name": "GrokBot",
+      "file": "GrokBot",
+      "primary": true,
+      "how_described": "本集称其为常驻智能体产品(称为 bot),有整套插件系统,其 harness 的最大特点是客户端与服务器之间只有一个通信工具 send to user。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 97,
+          "t": [
+            585.803,
+            589.044
+          ],
+          "quote": "And for example, in GrokBot, there is a whole system of plugins.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1101.226,
+            1109.108
+          ],
+          "quote": "The biggest difference with the GrokBot harness and probably some of the other tools like this on the market is",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2650.722,
+            2658.688
+          ],
+          "quote": "I'm pretty sure there's like open GrokBot on GitHub somewhere where somebody's like, you know, slot forked R code and made a version.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线:常驻在线、主动、持久的智能体,跑在云端、有自己的电脑和记忆、能连续工作数周,像'数字同事'而非聊天机器人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            46.839,
+            53.825
+          ],
+          "quote": "It's very powerful for how to get more out of models and extend it to this new type of agent, which is an always on agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            62.973,
+            64.734
+          ],
+          "quote": "This agent has its own computer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            83.719,
+            94.184
+          ],
+          "quote": "Unlike a harness in the terminal that is responding to every message that you send, this type of always-on agent is more like a colleague where it doesn't always immediately send you a message.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            106.713,
+            113.739
+          ],
+          "quote": "Maybe there was a Slack message or an email or some other type of event that wakes up this agent to go do work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            248.292,
+            255.917
+          ],
+          "quote": "A good example of this is we've kind of moved away from this world of prompting an agent every single day, although we still do that sometimes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            260.18,
+            264.923
+          ],
+          "quote": "So maybe in the before times, it was you would prompt an agent, you would wait, prompt an agent, you would wait.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            270.907,
+            275.13
+          ],
+          "quote": "And now, instead of kind of queuing commands, you can steer the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            339.575,
+            349.924
+          ],
+          "quote": "And this type of always-on agent we're calling a bot, but as you'll notice, there's actually quite a few of these new types of products popping up right now and gaining a lot of traction.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            409.426,
+            416.249
+          ],
+          "quote": "And the reason why a sub-agent is helpful is the model has kind of its working memory of the process that it's on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            428.176,
+            437.62
+          ],
+          "quote": "Where it can go and do work that might be expensive in terms of the tokens it's using or the tools that it's calling and then come back to the main agent and report its updates and I'll have some diagrams of that later.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            606.349,
+            612.392
+          ],
+          "quote": "So let's go a little bit further into the kind of the mind of this always on agent or going behind the scenes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            614.012,
+            617.273
+          ],
+          "quote": "What does it mean for the agent to be always on?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            617.473,
+            626.716
+          ],
+          "quote": "You can kind of read this chart from left to right, but it starts out with the server being asleep and also this computer that the agent can use being asleep.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            631.979,
+            634.941
+          ],
+          "quote": "Decides to make the agent start up, which we'll talk about in a second.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            635.221,
+            640.466
+          ],
+          "quote": "That's basically loading up and booting up all of the state for this agent and it's running on a server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            674.131,
+            675.672
+          ],
+          "quote": "How does the agent get woken up then?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            740.779,
+            744.682
+          ],
+          "quote": "So I talked about how the agent has this computer, this Linux box.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            796.247,
+            799.568
+          ],
+          "quote": "So we talked about kind of the triggers that will wake up the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            817.611,
+            820.272
+          ],
+          "quote": "And then it calls the purple box, which is the agent loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            847.092,
+            856.054
+          ],
+          "quote": "The reason the agent runs on the server is a pretty common practice in computing where you want to have kind of a thin client and a thick server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            859.716,
+            865.417
+          ],
+          "quote": "But for example, a few good reasons for this is let's say you need to push an update to the agent code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            896.049,
+            905.413
+          ],
+          "quote": "If you put the agent loop on the virtual machine, then you can't shut down the virtual machine independently from the agent server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            918.9,
+            925.003
+          ],
+          "quote": "Well, it would be great to be able to rebuild that and not blow away the entire agent loop and have downtime in the application.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            986.46,
+            998.227
+          ],
+          "quote": "And the main difference here is with a job queue, let's say you're kind of going along on steps, you ask your agent to go and do some kind of complicated task, and it's making its way from step one to step two to step three, but then",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            1058.465,
+            1068.373
+          ],
+          "quote": "So if I say, oh, actually, you know, change the date for this event, we actually want that agent loop to stop and my message is going to have priority over everything else that's happening, which kind of makes sense.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1069.274,
+            1086.575
+          ],
+          "quote": "For everybody else you're kind of putting things into the queue in the back of the line and if the agent gets three or four messages very quickly it's able to kind of batch those together so it's just one turn and you can kind of figure out whatever heuristic you want there and then it kind of goes through and does each turn at a time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1132.901,
+            1139.823
+          ],
+          "quote": "There's running shell commands, reading files, but also calling on a cloud agent or recording your screen or doing demos, for example.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1299.736,
+            1306.625
+          ],
+          "quote": "So the easiest one is just what the agent or what the bot already knows based on the conversation history.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1358.102,
+            1367.166
+          ],
+          "quote": "On that computer, so the Linux machine that the agent is able to use, there's kind of three different ways that it can retrieve information from it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1396.968,
+            1400.39
+          ],
+          "quote": "And so your model, your agent needs to have that functionality as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1415.587,
+            1416.788
+          ],
+          "quote": "You have this main agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1421.413,
+            1430.863
+          ],
+          "quote": "And the main agent, you want to keep the conversation as sparse as possible because it now has the ability to go call on all of these different helpers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1433.345,
+            1449.39
+          ],
+          "quote": "And so this is helpful because if you hand it off to a helper to go run a bunch of shell commands or do a lot of expensive tool calls, all of that work that ultimately is ending up in some answer to a question or a task, none of that is bloating the conversation and the context of the main agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1493.9,
+            1499.082
+          ],
+          "quote": "And then the main agent, it is kind of like a coworker where it's managing a to-do list.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1671.823,
+            1688.607
+          ],
+          "quote": "So if you think about when you're working with a coding agent or any agent, most of the tokens used are actually ideally cached tokens because you're sending it a conversation and then you're doing a change, you're adding one more message, and then you're basically resending the entire conversation over again.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1727.365,
+            1746.379
+          ],
+          "quote": "Basically because that main agent in the most ideal sense this is the one you're having this very very very long conversation with that's compacting or compressing so summarizing the context many many times over without you even noticing sometimes which we'll show an example of so you really want to keep that context small.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1770.533,
+            1774.735
+          ],
+          "quote": "Again, so it goes to the sub-agent and it doesn't affect the main agent's context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1971.536,
+            1979.462
+          ],
+          "quote": "When you talk about compaction and what information you choose to include in the agent's memory, I kind of think about it in a few different layers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 328,
+          "t": [
+            2094.973,
+            2098.914
+          ],
+          "quote": "In a certain way, maybe as a chat assistant or as an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 336,
+          "t": [
+            2142.288,
+            2145.891
+          ],
+          "quote": "The main agent you're talking with, you know, ideally you want it to have very low latency.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 340,
+          "t": [
+            2166.873,
+            2172.376
+          ],
+          "quote": "The way that this kind of flywheel works is that let's say your agent gets something wrong.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 356,
+          "t": [
+            2246.464,
+            2253.808
+          ],
+          "quote": "So it's important to be able to train the models how to behave well in a multi-agent system where different bots are talking to each other, for example.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 381,
+          "t": [
+            2431.105,
+            2436.848
+          ],
+          "quote": "What do you do when you need to evaluate an agent that runs for a month, but the models ship every month?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2470.672,
+            2480.395
+          ],
+          "quote": "I think we didn't really talk about it too much, but the heuristics around when the agent is silent or when it kind of bugs you, I don't think that we have it perfect yet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 398,
+          "t": [
+            2538.001,
+            2538.781
+          ],
+          "quote": "You've got the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 406,
+          "t": [
+            2552.767,
+            2567.573
+          ],
+          "quote": "And the reality is this is just kind of the new normal now where every new product is going to have to have some kind of agentic side to it, either integrating or it will become a headless piece of data for another agent to use.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sub-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "子智能体 (sub-agent)",
+      "file": "子智能体",
+      "primary": true,
+      "how_described": "本集说子智能体是带着全新工作记忆的帮手,主智能体把昂贵的活(大量命令、截图)交给它们,只带结果回来,不污染主对话,让产品感觉拥有无限上下文。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            409.426,
+            416.249
+          ],
+          "quote": "And the reason why a sub-agent is helpful is the model has kind of its working memory of the process that it's on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1770.533,
+            1774.735
+          ],
+          "quote": "Again, so it goes to the sub-agent and it doesn't affect the main agent's context.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-window",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文窗口 (context window)",
+      "file": "上下文窗口",
+      "primary": true,
+      "how_described": "本集把上下文窗口比作模型的工作记忆,是有限的 token 上限;塞满工具定义会挤占空间,模型长期工作必须靠压缩来管理它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 196,
+          "t": [
+            1204.75,
+            1209.615
+          ],
+          "quote": "So for any model, there's a context window, which is kind of its working memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1212.738,
+            1220.146
+          ],
+          "quote": "And if you just jam every single tool possible into that context window, you're not going to have a lot of space.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1460.835,
+            1474.025
+          ],
+          "quote": "But there are these tricks and workarounds such that, especially when you train models to get better at this, that it doesn't feel like you're running up against the limits of the context window, and you don't feel a degradation of the model's quality as you get further along that as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1531.402,
+            1538.571
+          ],
+          "quote": "If you have extremely long tool descriptions or schemas, that's going to take up a lot of space in the context window, which is bad for pricing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1776.656,
+            1792.084
+          ],
+          "quote": "And then also in an ideal world you want to kind of be always gardening and trimming and removing unnecessary stuff from this conversation from this context window as you're going both for cost but for also recall and just making sure the model is performing well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1892.837,
+            1904.98
+          ],
+          "quote": "And the key thing is that when you're working over a very long period of time, you essentially have to get very good at compaction or summarization because let's say the model has a 200,000 token context window.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "compaction",
+      "type": "concept",
+      "role": "concept",
+      "name": "压缩 (compaction)",
+      "file": "压缩",
+      "primary": true,
+      "how_described": "本集说对话太长就必须做 compaction(总结),而所有压缩都是有损的,如何摘要不丢关键信息'光它就够写好几个博士论文';并建议趁缓存还热时提前压缩。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            395.076,
+            402.402
+          ],
+          "quote": "And now models can pretty confidently run for hours or days with the right compression and compaction, which we'll talk about in a little bit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1892.837,
+            1904.98
+          ],
+          "quote": "And the key thing is that when you're working over a very long period of time, you essentially have to get very good at compaction or summarization because let's say the model has a 200,000 token context window.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1940.75,
+            1948.439
+          ],
+          "quote": "One trick that we do, which I think is really helpful, is while you're still within the warm cache period, you should probably do the compaction right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1951.941,
+            1959.507
+          ],
+          "quote": "So just go ahead, do the compaction, and now when the user comes back in 30 minutes or whatever, they're starting from this summary.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1971.536,
+            1979.462
+          ],
+          "quote": "When you talk about compaction and what information you choose to include in the agent's memory, I kind of think about it in a few different layers.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt-caching",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词缓存 (prompt caching)",
+      "file": "提示词缓存",
+      "primary": true,
+      "how_described": "本集说大多数 token 理应命中缓存,因为每加一条消息其实是重发整个对话;要把固定内容放开头、保持顺序,别被 A/B 测试打爆缓存,缓存命中的 token 有巨大折扣。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 250,
+          "t": [
+            1519.012,
+            1527.219
+          ],
+          "quote": "I think we'll talk a little bit more about prompt caching here, but ideally you don't add or remove new tools during turns.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1667.402,
+            1668.642
+          ],
+          "quote": "I talked about prompt caching.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "auto-review",
+      "type": "concept",
+      "role": "concept",
+      "name": "自动审查 (auto review)",
+      "file": "自动审查",
+      "primary": true,
+      "how_described": "本集说 auto review 是由另一个 AI 模型检查所有要执行的命令,比疲劳地人工逐条审批更安全;盲测中模型大多数时候查得比人好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            296.941,
+            311.687
+          ],
+          "quote": "And if you say, hey, go send this email, go send this Slack message, there are additional safety checks in place, which a lot of companies are calling auto review, which is essentially a separate AI model that's checking all of the commands that get run.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1607.09,
+            1613.413
+          ],
+          "quote": "Still, you would like it if a model reviews every shell command before it goes, so auto review.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "computer-use",
+      "type": "concept",
+      "role": "concept",
+      "name": "computer use",
+      "file": "computer use",
+      "primary": true,
+      "how_described": "本集说模型可以像人一样在屏幕上点击操作且越来越好,即 computer use,让没有暴露 API 的 SaaS 产品和网站也能被自主使用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            468.688,
+            489.565
+          ],
+          "quote": "They can click around on a screen just like a human would and they're getting increasingly better at doing that, otherwise known as computer use, which basically means that any SaaS product or any website that didn't expose an API or an MCP server can be used headlessly, basically, so autonomously through computer use by these models and these bots.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (evals)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集说智能体出错要转化为评估,团队每天用 evals 找 bug、修 bug、衡量修复效果;并留下难题:跑一个月的智能体遇上每月发版的模型,没法完整评估。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 344,
+          "t": [
+            2189.546,
+            2192.687
+          ],
+          "quote": "You can check and make sure it's actually fixed in the evals and then shift the change.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 346,
+          "t": [
+            2199.255,
+            2202.059
+          ],
+          "quote": "They're finding bugs, they're fixing it, they're measuring it with evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 349,
+          "t": [
+            2210.391,
+            2218.013
+          ],
+          "quote": "And ideally the new models are learning from all of these bugs and these failures and they're kind of climbing on the evals to get better at the things that you care about.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2579.418,
+            2581.478
+          ],
+          "quote": "Payments, identity, evals, observability.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "记忆 (memory)",
+      "file": "记忆",
+      "primary": true,
+      "how_described": "本集说常驻智能体会随时间建立与你协作方式的记忆,存在文件和数据库里,分核心事实、带日期日志、草稿板笔记几层,像大脑一样做'垃圾回收'。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            76.317,
+            82.019
+          ],
+          "quote": "It can understand more about your progress over time and build up a memory of how you work with it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            235.19,
+            247.4
+          ],
+          "quote": "You're starting to have these always-on agents, and they can kind of run ambiently in the background where they have their own computer, they have their own memory, they learn new skills on the job, and they keep working after you go to bed or go do other work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            409.426,
+            416.249
+          ],
+          "quote": "And the reason why a sub-agent is helpful is the model has kind of its working memory of the process that it's on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            419.531,
+            424.034
+          ],
+          "quote": "So it's nice if it can hand off to these helpers that have a fresh set of working memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1204.75,
+            1209.615
+          ],
+          "quote": "So for any model, there's a context window, which is kind of its working memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1480.99,
+            1492.719
+          ],
+          "quote": "So going back to the cues versus workflows thing, that means if it fails, the video helper crashes, something uses up too much memory or something, that can restart and keep going without losing progress along the way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1758.206,
+            1762.208
+          ],
+          "quote": "So this actually works pretty well, which is just like reading a skill or reading a memory, for example.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1971.536,
+            1979.462
+          ],
+          "quote": "When you talk about compaction and what information you choose to include in the agent's memory, I kind of think about it in a few different layers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 386,
+          "t": [
+            2455.078,
+            2457.279
+          ],
+          "quote": "Memory, obviously, we talked about the different algorithms.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2568.534,
+            2578.638
+          ],
+          "quote": "And so we've talked about a lot of these products today, durable workflows, sandboxes, computers in the cloud, memory skills, connecting to other services, doing voice,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "firecracker",
+      "type": "concept",
+      "role": "concept",
+      "name": "firecracker",
+      "file": "firecracker",
+      "primary": true,
+      "how_described": "本集说智能体的 Linux 机器运行在 firecracker 虚拟化技术上,好处是可以随时对机器状态做快照、关机、再启动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 126,
+          "t": [
+            744.722,
+            747.344
+          ],
+          "quote": "This is running a firecracker virtual machine.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "temporal",
+      "type": "concept",
+      "role": "concept",
+      "name": "Temporal",
+      "file": "Temporal",
+      "primary": false,
+      "how_described": "本集说他们用开源工具 Temporal 来实现持久化工作流,失败重试能从断点继续,不必从零重建复杂的分布式系统部件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 176,
+          "t": [
+            1028.565,
+            1037.092
+          ],
+          "quote": "So we use an open source tool called Temporal, which is interesting to look into if you're curious, so that we don't have to rebuild a lot of this very complicated stuff from scratch.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集把它作为开发者用 AI 第一阶段的象征:从 ChatGPT 复制粘贴代码进编辑器。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            164.74,
+            176.11
+          ],
+          "quote": "The first one was copy-pasting code out of ChatGPT and putting it into your editor of choice, which feels like decades ago at this point, but it was really only a few years ago.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "prompt injection",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

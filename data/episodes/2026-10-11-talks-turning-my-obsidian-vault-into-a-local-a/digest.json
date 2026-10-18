@@ -1,0 +1,143 @@
+{
+  "title_zh": "把敏感文档挡在 AI 外面：一套自己云上的“预处理工人”",
+  "tldr": "Superlinked 的 Filip Makraduli 演示了如何用私有云里的开源模型集群，替 Claude Code 处理敏感文档，既省 token 又不泄密。",
+  "digest_md": "Filip Makraduli 在 Superlinked 工作。这场演讲里，他展示了一个自己搭建的系统：日常照常在 Claude Code 里干活，但一碰到涉及隐私、又费 token 的文档任务，就把活儿甩到自己私有云里的开源模型集群上去处理。整个项目开源在 GitHub 上，仓库叫 Superlinked Cy。\n\n## 为什么要这么折腾：隐私和 token 账单\n\n事情从他的 Obsidian 笔记库开始。他用 markdown 文件管理笔记，但很快发现两个绕不开的问题。一是隐私：把文件直接喂给 Claude Code 这类智能体，对很多机构来说是不可接受的。二是成本：处理带扫描件、图片的敏感文档往往要做 OCR，10 页带图的 PDF 塞进去，token 费用会迅速攀升。\n\n他的思路是：**这些重活先在自己控制的私有云里用开源模型预处理，只把干净的、脱敏后的结果交回主智能体**。这样既省了 token，也保留了更好的上下文——不用拿原始数据把上下文窗口塞满 [03:14 Unknown]。\n\n## 为什么用 MCP，而不是写个插件\n\nMCP 可以理解为智能体调用外部工具的标准接口。他没做成装在笔记本电脑上的插件，而是搭了一整个 MCP 服务器，中间一层叫 Psy MCP，背后连着一个带 GPU 的集群 [10:43 Unknown]。\n\n好处是职责分离：**数据存储在 Obsidian 里是容易的部分，真正的瓶颈是推理基础设施**——想规模化跑多个开源模型、想部署到生产环境，事情就难了。而这套集群方案让他可以自己挑选 GPU、配置工作池，清楚知道哪个模型跑在哪张卡上 [09:31 Unknown]。\n\n出于隐私考虑，这套 MCP 是单向的：服务器只暴露工具，不做客户端反向的采样等复杂通信 [13:27 Unknown]。\n\n## 演示：一封含敏感信息的 NDA\n\n他用合成的邮件和合同数据做演示。一份 NDA 里有电话号码、社会安全号这类个人信息。他在 Claude Code 里用自然语言下指令，系统调用私有云里的 OCR 模型把扫描件转成 markdown，再做实体识别和脱敏。结果是：Claude Code 只拿到脱敏后的版本，整个过程在私有云里完成，个人身份信息不会泄露到外部 API [22:40 Unknown]。\n\n工具箱目前包括文档转 markdown、实体抽取、打标签、摘要、问答等，都是开源模型在干活。\n\n## 开源 OCR 模型，质量并不妥协\n\n一个常见顾虑是：==用开源模型是不是要牺牲质量==？他的回答是，至少在 OCR 上完全不是。开源 OCR 模型已经非常好，把这部分工作外包出去，质量上没什么损失 [15:11 Unknown]。\n\n他们的嵌入模型测试也支持这个判断：在 MTEB 任务上评估，**最好的开源模型达到前沿模型 99.8% 的质量，而价格大约低 10 倍** [27:07 Unknown]。\n\n## 真正的竞争力在基础设施\n\n一个关键发现：即使单个模型的推理没优化到极致，**只要整体架构搭得好，端到端的延迟和性能照样能赢** [28:13 Unknown]。\n\n具体做法包括：每个工作节点有自己的批处理器，而不是所有请求挤一个共享队列；模型可以在单张 GPU 上热切换，方便在多个微调模型之间快速测试；支持自动缩容，不用时不烧钱 [23:50 Unknown]。他们还测试了针对德语法律文本微调的 LoRA，成本低、部署快。\n\n团队还在探索模型路由：根据任务难度、甚至根据哪个模型已经在 GPU 上“热着”，动态决定调用哪个——有时候调用一个已在显存里的贵模型，比重新加载一个便宜模型更划算 [34:16 Unknown]。\n\n## 现场有人追问：Claude 会不会偷看原文？\n\n问答环节有个尖锐的问题：Claude 要决定是否调用 MCP，==那它在做决定前会不会已经读了文件==？他坦承这确实可以进一步测试，但目前的测试中，把 MCP 和所有处理都放在私有云里时，没有出现数据泄露。最坏情况下，你可以干脆换掉 Claude Code，用开源智能体框架自己搭一套——预处理层照样有用 [43:38 Unknown]。\n\n集群本身也可以完全自建：仓库里有 Helm charts、Kubernetes 配置，一条 Terraform 命令就能部署，不依赖他们托管的集群 [31:09 Unknown]。\n\n## 本集带走\n\n- 敏感文档可以先在私有云里用开源模型做 OCR 和脱敏，只把干净结果交回 Claude Code 等主智能体，兼顾隐私和 token 成本。\n- 开源模型在 OCR、实体识别这类任务上质量已经接近闭源模型，嵌入模型测试显示约 10 倍的价格优势、99.8% 的质量。\n- 推理基础设施往往是被低估的瓶颈：好的批处理、模型热切换和架构设计能带来端到端的性能提升。\n- 未来方向是在私有云内做模型路由——根据任务和模型“冷热”状态动态选模型，甚至搭建多模型互评的机制。\n- 项目完全开源，Superlinked 提供免费算力申请，也欢迎社区贡献新工具。",
+  "quotes": [
+    {
+      "en": "so you get kind of 10x lower price roughly with very similar quality, so you can see there the kind of The best model we had per task for embedding was 99.8% to kind of the frontier one.",
+      "zh": "所以价格大概低 10 倍左右，而质量非常接近，你可以看到，我们在 embedding 每个任务上最好的模型达到了最前沿模型的 99.8%。",
+      "timestamp": "27:31",
+      "speaker": "Filip Makraduli"
+    },
+    {
+      "en": "So if your infrastructure and architecture is set up well, you basically get the latency improvement and the better performance even if your per model inference is not optimized.",
+      "zh": "所以如果你的基础设施和架构搭建得好，即使你的单模型推理没有优化，你基本上也能获得延迟改进和更好的性能。",
+      "timestamp": "28:18",
+      "speaker": "Filip Makraduli"
+    },
+    {
+      "en": "but it just becomes something that like the models hack and never actually use it. You can never use that as a proper evaluation.",
+      "zh": "它只是变成了模型会钻空子的东西，而从未被真正使用。你永远不能把那个当作一个合适的评估。",
+      "timestamp": "37:08",
+      "speaker": "Filip Makraduli"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "03:14",
+      "speaker": "Unknown",
+      "en": "having smaller artifacts means that you get better context so you kind of limit context loss in a way and you don't like fill out the context with data that can be processed in some way else.",
+      "zh": "产出更小的产物意味着你能获得更好的上下文，这样在某种程度上可以限制上下文丢失，也不会用那些可以用其他方式处理的数据把上下文填满。"
+    },
+    {
+      "timestamp": "05:12",
+      "speaker": "Unknown",
+      "en": "but I'll also mention why actually the inference was the bottleneck when building something like this.",
+      "zh": "但我也会提到，为什么在构建这样的东西时，推理实际上才是瓶颈所在。"
+    },
+    {
+      "timestamp": "09:31",
+      "speaker": "Unknown",
+      "en": "so through SAI you can pick your worker pools, you can pick your GPUs, basically, and understand which models are pinned where, and that flexibility from a cloud perspective was an advantage, and I wanted to keep it that way, and that's why I went with MCP rather than just a skill.",
+      "zh": "所以通过 SAI 你可以选择你的 worker 池，基本上可以选择你的 GPU,并了解哪些模型被固定在哪里，从云的角度来看这种灵活性是一个优势，我想保持这一点，这就是为什么我选择 MCP 而不只是一个技能。"
+    },
+    {
+      "timestamp": "15:11",
+      "speaker": "Unknown",
+      "en": "OCR models especially, the open source models are very good. So you're not compromising in quality by offloading some of the work to open source OCR models.",
+      "zh": "尤其是 OCR 模型，开源模型是非常好的。所以把一部分工作交给开源 OCR 模型并不会在质量上妥协。"
+    },
+    {
+      "timestamp": "15:32",
+      "speaker": "Unknown",
+      "en": "And even in general, open source models are catching up and finding a way to bring them out there, bring them in production is quite useful and quite important.",
+      "zh": "甚至总体而言，开源模型正在迎头赶上，找到把它们带进生产环境的方法是相当有用的，也是相当重要的。"
+    },
+    {
+      "timestamp": "22:32",
+      "speaker": "Unknown",
+      "en": "So the idea is that you preprocess the document through the OCR tool calling thing. You get the token saving cost, the better context management and so on, but you also get the redacted file so personal information is not leaked.",
+      "zh": "所以这个想法是，你通过 OCR 工具调用对文档进行预处理。你得到了 token 成本节省、更好的上下文管理等等，但你还得到了脱敏后的文件，这样个人信息就不会泄露。"
+    },
+    {
+      "timestamp": "23:20",
+      "speaker": "Unknown",
+      "en": "A way that it allows you to have multiple models, have hot swapping of models on different GPUs, have smarter batching so that you can kind of test out multiple models.",
+      "zh": "让你可以拥有多个模型，可以在不同 GPU 上热切换模型，有更智能的批处理，这样你就可以测试多个模型。"
+    },
+    {
+      "timestamp": "25:24",
+      "speaker": "Unknown",
+      "en": "So you might be like, okay, I don't need to waste kind of this more expensive hardware.",
+      "zh": "所以你可能会想，好的，我不需要浪费这种更昂贵的硬件。"
+    },
+    {
+      "timestamp": "27:07",
+      "speaker": "Unknown",
+      "en": "so you get kind of 10x lower price roughly with very similar quality, so you can see there the kind of The best model we had per task for embedding was 99.8% to kind of the frontier one.",
+      "zh": "所以价格大概低 10 倍左右，而质量非常接近，你可以看到，我们在 embedding 每个任务上最好的模型达到了最前沿模型的 99.8%。"
+    },
+    {
+      "timestamp": "28:18",
+      "speaker": "Unknown",
+      "en": "So if your infrastructure and architecture is set up well, you basically get the latency improvement and the better performance even if your per model inference is not optimized.",
+      "zh": "所以如果你的基础设施和架构搭建得好，即使你的单模型推理没有优化，你基本上也能获得延迟改进和更好的性能。"
+    },
+    {
+      "timestamp": "28:33",
+      "speaker": "Unknown",
+      "en": "And we're doing both in our case, but that was a revelation that for production use cases was very helpful to know.",
+      "zh": "在我们的案例中两者我们都在做，但这是一个对生产用例非常有帮助的认识。"
+    },
+    {
+      "timestamp": "30:46",
+      "speaker": "Unknown",
+      "en": "And yeah, there's the token saving aspect, and that's very important, and not sending data to external APIs, and it all runs in your cloud.",
+      "zh": "还有节省 token 的方面，这非常重要，还有不把数据发送到外部 API,这一切都在你的云里运行。"
+    },
+    {
+      "timestamp": "31:26",
+      "speaker": "Unknown",
+      "en": "And this can go beyond just documents so if we look at this idea of having The inference solved as a little box in your whole workflow, it unlocks a lot of opportunities that can go kind of beyond text with other models, looking at transcripts, even graph-based data, generating ontologies and so on by different tool calls, structure generation.",
+      "zh": "而这可以超越文档本身，如果我们看这个想法——把推理作为你整个工作流中的一个小盒子来解决——它会解锁很多机会，可以借助其他模型超越文本，查看转录内容，甚至基于图的数据，通过不同的工具调用生成本体等等，结构化生成。"
+    },
+    {
+      "timestamp": "31:56",
+      "speaker": "Unknown",
+      "en": "There are different opportunities, and one direction that we're exploring as well is model routing within your own private cloud, which is quite powerful, and I think the field is moving a bit in that direction with usually teams exploring This API-based optimization where you have a combination of models working together and the end-to-end performance is better.",
+      "zh": "有不同的机会，我们也在探索的一个方向是你自己私有云内的模型路由，这相当强大，而且我认为这个领域正在朝那个方向移动，通常团队在探索这种基于 API 的优化，你有一组模型协同工作，端到端的性能更好。"
+    },
+    {
+      "timestamp": "34:33",
+      "speaker": "Unknown",
+      "en": "And then in some cases, it would be cheaper to hit a model that's already hot, but more expensive rather than Reloading a model that's cheaper but kind of not already there in your GPU.",
+      "zh": "然后在某些情况下，命中一个已经热的模型会更便宜，即使它更贵，也比重新加载一个更便宜但还没有在你的 GPU 里的模型更划算。"
+    },
+    {
+      "timestamp": "35:06",
+      "speaker": "Unknown",
+      "en": "There is also a potential for doing stuff like judges talking between each other or like the council of models and so on.",
+      "zh": "也有做诸如评审员之间相互交谈、或者像模型议会之类事情的潜力。"
+    },
+    {
+      "timestamp": "37:05",
+      "speaker": "Unknown",
+      "en": "but it just becomes something that like the models hack and never actually use it. You can never use that as a proper evaluation.",
+      "zh": "它只是变成了模型会钻空子的东西，而从未被真正使用。你永远不能把那个当作一个合适的评估。"
+    },
+    {
+      "timestamp": "37:28",
+      "speaker": "Unknown",
+      "en": "And I think the main takeaway for today is that infrastructure and inference is far more important even for this very API friendly or ergonomic designs where you just work with Claude Code and you can kind of offset your sensitive data, your specific tasks in different ways and still the backbone is the inference",
+      "zh": "我认为今天的主要要点是：基础设施和推理远比想象中重要，即使对于这种非常 API 友好、符合人体工学的设计——你只用 Claude Code 工作，可以以不同方式把你的敏感数据、特定任务进行分流——而骨干仍然是推理。"
+    },
+    {
+      "timestamp": "43:49",
+      "speaker": "Unknown",
+      "en": "And in that way, even like you could still save on tokens and get better context, even if like this is Claude Code in my example, but it can be any harness.",
+      "zh": "这样的话，甚至你仍然可以节省 token 并获得更好的上下文，即使比如在我这个例子里是 Claude Code,但它可以是任何 harness。"
+    }
+  ],
+  "voice_script": "今天要讲的人叫 Filip Makraduli，在 Superlinked 工作，做的是检索和 AI 基础设施这一块。这一期聊的问题特别实际：你想用 Claude Code 这类 AI 智能体来处理文档，但文档里有敏感信息，直接喂进去不放心；而且这些活儿还特别烧 token，账单蹭蹭往上涨。Filip 给出的答案是自己搭了一套系统——现在项目完全开源在 GitHub 上，仓库叫 Superlinked Cy。\n\n先说说这事是怎么来的。Filip 平时用 Obsidian 管理笔记，都是 markdown 文件。用着用着就发现两个绕不开的坎儿。第一是隐私，把文件直接丢给 Claude Code 这种智能体，对很多机构来说根本不可接受。第二是成本，带扫描件、带图片的敏感文档往往要做 OCR，也就是把图片里的文字识别出来。十页带图的 PDF 塞进去，token 费用很快就上去了。\n\n那怎么办？Filip 的思路很直接：这些重活先在自己控制的私有云里，用开源模型预处理一遍，只把干净的、脱敏后的结果交回主智能体。这样既省了 token，上下文也更干净——不用拿一堆原始数据把上下文窗口塞满。\n\n接下来一个自然的疑问是，这个东西怎么跟智能体接上？这里先交代一句背景，MCP 可以理解成智能体调用外部工具的标准接口。Filip 没有做成一个装在笔记本电脑上的小插件，而是搭了一整个 MCP 服务器，中间一层叫 Psy MCP，背后连着一个带 GPU 的集群。为什么要这么重？因为数据存 Obsidian 里其实是容易的部分，真正的瓶颈在推理基础设施——你想规模化跑多个开源模型、想部署到生产环境，事情就难了。这套集群方案的好处是自己挑 GPU、自己配工作池，清楚知道哪个模型跑在哪张卡上。出于隐私考虑，这套 MCP 还是单向的，服务器只往外暴露工具，不做反向的复杂通信。\n\n那实际效果怎么样？演示用的是合成的邮件和合同数据。一份 NDA 里有电话号码、社会安全号这类个人信息。在 Claude Code 里用自然语言下指令，系统就调用私有云里的 OCR 模型把扫描件转成 markdown，再做实体识别和脱敏。最后 Claude Code 拿到的只有脱敏后的版本，整个过程都在私有云里完成，个人身份信息不会泄露到外部 API。工具箱目前包括文档转 markdown、实体抽取、打标签、摘要、问答这些，全是开源模型在干活。\n\n说到这儿，你可能会问：用开源模型，是不是得牺牲质量？至少在 OCR 上，答案是完全不是。开源 OCR 模型现在已经非常好，把这部分活儿外包出去，质量上没什么损失。嵌入模型的测试也支持这个判断：在 MTEB 任务上评估，最好的开源模型达到了前沿模型 99.8% 的质量，而价格大概低 10 倍。\n\n更有意思的是，这次实践还挖出一个关键发现：就算单个模型的推理没优化到极致，只要整体架构搭得好，端到端的延迟和性能照样能赢。具体做法比如每个工作节点有自己的批处理器，而不是所有请求挤在一个共享队列里；模型可以在单张 GPU 上热切换，方便在多个微调模型之间快速测试；还支持自动缩容，不用的时候不烧钱。团队还测试了针对德语法律文本微调的 LoRA，成本低、部署快。往后看，他们还在探索模型路由——根据任务难度，甚至根据哪个模型已经在 GPU 上热着，动态决定调用哪个。有时候调用一个已经在显存里的贵模型，反而比重新加载一个便宜模型更划算。\n\n问答环节有个特别尖锐的问题：Claude 要自己决定是否调用 MCP，那它做决定之前，会不会已经把文件读了？Filip 坦承这点确实值得进一步测试，但目前的测试里，把 MCP 和所有处理都放在私有云里，没有出现数据泄露。而且最坏情况下，你干脆可以把 Claude Code 换掉，用开源智能体框架自己搭一套，预处理层照样有用。集群本身也能完全自建，仓库里有 Helm charts 和 Kubernetes 配置，一条 Terraform 命令就能部署，不依赖他们托管的集群。\n\n所以这一集最值得记住的一句话是：如果你的基础设施和架构搭得好，就算单模型推理没有优化，你照样能拿到延迟改进和更好的性能。把敏感文档挡在 AI 外面这件事，靠的不是运气，而是你自己动手搭的那一层。"
+}

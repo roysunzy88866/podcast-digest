@@ -1,0 +1,698 @@
+{
+  "episode_id": "2026-09-07-sourcery-inside-saronics-9-25b-autonomous-boat-fa",
+  "podcast": "Sourcery",
+  "date": "2026-09-07",
+  "tags": [
+    "国防科技",
+    "无人艇",
+    "造船业",
+    "垂直整合",
+    "制造业"
+  ],
+  "categories": [
+    "创业与行业",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "dino-mavrookas",
+      "type": "person",
+      "role": "host",
+      "name": "Dino Mavrookas",
+      "file": "Dino Mavrookas",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "saronic",
+      "type": "company",
+      "role": "company",
+      "name": "Saronic",
+      "file": "Saronic",
+      "primary": true,
+      "how_described": "本集主角:2022 年成立于奥斯汀的无人艇公司,融资 26 亿美元、估值 92.5 亿美元,产品已在霍尔木兹海峡实战使用,并宣布 32 亿美元建 Port Alpha 新船厂",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 154,
+          "t": [
+            648.649,
+            656.53
+          ],
+          "quote": "So for people who don't have full context on Saronic, which I would be very surprised if you don't at this point, many headlines a lot of the time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 155,
+          "t": [
+            657.251,
+            660.872
+          ],
+          "quote": "Can you just share what the magic is behind Saronic?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "corsair",
+      "type": "concept",
+      "role": "concept",
+      "name": "Corsair",
+      "file": "Corsair",
+      "primary": true,
+      "how_described": "本集介绍的主力量产产品:24 英尺无人快艇,续航 1000 海里、载荷 1000 磅,奥斯汀生产线年产能 2000 条,已在霍尔木兹海峡执行战斗搜救与进攻行动",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            64.312,
+            73.697
+          ],
+          "quote": "Yeah, I'll show you around the Corsair production line in a minute, but the real crazy part is we actually just cut over our production line to this facility about a month ago.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 99,
+          "t": [
+            407.168,
+            410.01
+          ],
+          "quote": "So this right here is the main Corsair production line.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 142,
+          "t": [
+            586.953,
+            593.736
+          ],
+          "quote": "And I'll kind of bifurcate the workforce into two segments because for Corsair, a lot of the talent exists.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 208,
+          "t": [
+            895.756,
+            901.361
+          ],
+          "quote": "Okay, so we're nearing the end of the Corsair fleet that's currently in production.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1204.963,
+            1210.425
+          ],
+          "quote": "It's a 52 foot version of Corsair, essentially, which Corsair is 24 feet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1224.809,
+            1229.091
+          ],
+          "quote": "So Corsair goes a thousand nautical miles with a thousand pound payload capacity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1372.283,
+            1377.247
+          ],
+          "quote": "And that's what actually, that iterative process is actually what led us to Corsair.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 369,
+          "t": [
+            1586.58,
+            1588.661
+          ],
+          "quote": "That's why we're actually building Corsair.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1591.502,
+            1598.986
+          ],
+          "quote": "And the realization that we had and why we needed Corsair was really around shipbuilding in general in the first place.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1628.716,
+            1630.658
+          ],
+          "quote": "So we started building Corsair.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1685.208,
+            1689.591
+          ],
+          "quote": "So while we looked at Corsair as saying, okay, how do we deter the Chinese fleet?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "port-alpha",
+      "type": "concept",
+      "role": "concept",
+      "name": "Port Alpha",
+      "file": "Port Alpha",
+      "primary": true,
+      "how_described": "Saronic 宣布在得州布朗斯维尔投资 32 亿美元建的新船厂,初期 800 英亩、15 万总吨产能,相当于把全美造船产能提高 1.5 倍",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.171,
+            5.694
+          ],
+          "quote": "Today an Austin-based company announced they are building a new shipyard called Port Alpha in Brownsville.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 6,
+          "t": [
+            29.204,
+            36.608
+          ],
+          "quote": "Port Alpha will initially support 850-foot ships and will expand up to be able to support 1,200-foot ships.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 30,
+          "t": [
+            136.199,
+            144.504
+          ],
+          "quote": "And then we just announced Port Alpha, which is going to be the largest, most advanced shipyard literally anywhere in the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            338.227,
+            342.908
+          ],
+          "quote": "And then Port Alpha, which I mentioned earlier, that's gonna be based in Brownsville, Texas.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 408,
+          "t": [
+            1718.539,
+            1727.223
+          ],
+          "quote": "So Port Alpha will initially support 850 foot ships and will expand up to be able to support 1200 foot ships.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vertical-integration",
+      "type": "concept",
+      "role": "concept",
+      "name": "垂直整合 (vertical integration)",
+      "file": "垂直整合",
+      "primary": true,
+      "how_described": "本集说 Saronic 的特别之处:自己设计硬件、写软件、自己造船,软硬件协同设计,不会在集成层掉链子(用特斯拉的自动驾驶车类比)",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 56,
+          "t": [
+            245.874,
+            252.363
+          ],
+          "quote": "Because one of the things that we did very, very early on was really, really invest in this concept of vertical integration.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "autonomy",
+      "type": "concept",
+      "role": "concept",
+      "name": "自主系统 (autonomy)",
+      "file": "自主系统",
+      "primary": true,
+      "how_described": "本集反复强调的核心能力:软件与自主性让「造 2000 条船」变成「同时控制 2000 条船」,并让人不用再置身险境执行任务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            184.057,
+            189.922
+          ],
+          "quote": "And a lot of things we're doing around software and autonomy, ship design, shipyard design will enable that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 94,
+          "t": [
+            383.478,
+            392.581
+          ],
+          "quote": "And I remember telling 20 people in that garage in Austin, I'm like, the future of maritime autonomy right now is dependent on what we're building right here in this garage.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 95,
+          "t": [
+            392.961,
+            402.965
+          ],
+          "quote": "And now I just remind them, I'm like, well, it's a much bigger garage and we have many more people, but the future of maritime autonomy is still very much dependent on what we're building right here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 158,
+          "t": [
+            671.25,
+            681.893
+          ],
+          "quote": "Like we could talk about the hardware and how we design the boats and how we design for autonomy and manufacturability, which drives down costs and opens up mission capability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 159,
+          "t": [
+            682.754,
+            689.456
+          ],
+          "quote": "We can talk about the software and the software we're building isn't like any other software for the maritime autonomy market.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 165,
+          "t": [
+            700.345,
+            703.707
+          ],
+          "quote": "And it's software and autonomy that actually enables that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 224,
+          "t": [
+            964.074,
+            968.696
+          ],
+          "quote": "We talked about the software and the autonomy and the importance of it all working together.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1000.228,
+            1010.931
+          ],
+          "quote": "The importance of switching to autonomy, again, to complete the mission, is you're actually able to complete these missions without putting people in risk, without putting people in harm's way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1159.633,
+            1163.595
+          ],
+          "quote": "And that's a big way to speed up development of autonomy, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1416.659,
+            1421.543
+          ],
+          "quote": "They built out the autonomy while we were building out the hardware in parallel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1433.935,
+            1439.443
+          ],
+          "quote": "A lot of our software, a lot of our autonomy translates across all of our platforms.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 432,
+          "t": [
+            1829.238,
+            1841.785
+          ],
+          "quote": "We need to invest in that new capacity to get the shipbuilding industry back to where we need to, but not just building the same ships we've been building for the last hundred years, really building for the future, building for autonomy.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "shipbuilding",
+      "type": "concept",
+      "role": "concept",
+      "name": "美国造船业 (shipbuilding)",
+      "file": "美国造船业",
+      "primary": true,
+      "how_described": "本集说美国正处于造船危机:中国造船能力是美国的 230 比 1,美国只占全球产能 0.1%,并复盘 1981 年取消补贴与 1993 年预算削减如何毁掉行业",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            41.75,
+            45.172
+          ],
+          "quote": "We're gonna bring shipbuilding back in a way that we haven't seen since World War II.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 40,
+          "t": [
+            170.066,
+            177.072
+          ],
+          "quote": "That 1.5Xs, the United States shipbuilding capacity right now, which sits at 100,000 gross tons.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 79,
+          "t": [
+            316.381,
+            319.082
+          ],
+          "quote": "The shipbuilding capacity in that yard was going to zero.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 80,
+          "t": [
+            319.182,
+            323.543
+          ],
+          "quote": "We'll talk a lot about shipbuilding capacity, but we can't afford any shipyards to go to zero.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 146,
+          "t": [
+            606.149,
+            612.736
+          ],
+          "quote": "When you talk about workforce for shipbuilding, that's where the real bottlenecks come in.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1591.502,
+            1598.986
+          ],
+          "quote": "And the realization that we had and why we needed Corsair was really around shipbuilding in general in the first place.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1599.606,
+            1601.507
+          ],
+          "quote": "We're in a shipbuilding crisis here in the US.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 375,
+          "t": [
+            1607.438,
+            1611.181
+          ],
+          "quote": "And we have 0.1% of global shipbuilding capacity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 395,
+          "t": [
+            1672.523,
+            1680.245
+          ],
+          "quote": "And as we looked at the shipping industry, or the shipbuilding industry, it was a lot bigger of a problem.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 399,
+          "t": [
+            1690.631,
+            1693.594
+          ],
+          "quote": "There is a need for the shipbuilding industry in general.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 404,
+          "t": [
+            1707.203,
+            1710.666
+          ],
+          "quote": "We're gonna bring shipbuilding back in a way that we haven't seen since World War II.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 415,
+          "t": [
+            1752.143,
+            1754.564
+          ],
+          "quote": "And we also want to focus on commercial shipbuilding.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 417,
+          "t": [
+            1757.453,
+            1767.615
+          ],
+          "quote": "45 years or so, the very first thing that happened to the U.S. shipbuilding industry was the removal of a commercial shipbuilding subsidy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 422,
+          "t": [
+            1789.68,
+            1796.503
+          ],
+          "quote": "It's kind of a watershed moment, and it certainly was, but it wasn't the first watershed moment for the shipbuilding industry.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 423,
+          "t": [
+            1796.803,
+            1808.688
+          ],
+          "quote": "So it was that first one in 1981, followed by that second one in 1993, where the Navy's budget went down by 41% that just took the shipbuilding industry, turned it upside down.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 432,
+          "t": [
+            1829.238,
+            1841.785
+          ],
+          "quote": "We need to invest in that new capacity to get the shipbuilding industry back to where we need to, but not just building the same ships we've been building for the last hundred years, really building for the future, building for autonomy.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "workforce",
+      "type": "concept",
+      "role": "concept",
+      "name": "劳动力 (workforce)",
+      "file": "劳动力",
+      "primary": true,
+      "how_described": "本集说造船业最大瓶颈是熟练工人要十几年培养;解法是把船设计得更简单、更易制造,「造船是为了重建劳动力」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            305.435,
+            308.418
+          ],
+          "quote": "So closing down, the owners were laying off the workforce.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 82,
+          "t": [
+            326.664,
+            333.405
+          ],
+          "quote": "So we stepped in, we retained the workforce, and we Penexed the workforce in Louisiana, in Franklin, Louisiana, to be specific.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 135,
+          "t": [
+            563.122,
+            568.384
+          ],
+          "quote": "So workforce was actually a critical reason why we selected Austin in the first place.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 142,
+          "t": [
+            586.953,
+            593.736
+          ],
+          "quote": "And I'll kind of bifurcate the workforce into two segments because for Corsair, a lot of the talent exists.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 146,
+          "t": [
+            606.149,
+            612.736
+          ],
+          "quote": "When you talk about workforce for shipbuilding, that's where the real bottlenecks come in.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 153,
+          "t": [
+            639.446,
+            647.568
+          ],
+          "quote": "We're building ships so that we can rebuild the workforce, not saying, oh, the workforce doesn't exist, so we can't build this ship.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 419,
+          "t": [
+            1774.196,
+            1777.456
+          ],
+          "quote": "And with it went supply chain workforce and everything else.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "marauder",
+      "type": "concept",
+      "role": "concept",
+      "name": "Marauder",
+      "file": "Marauder",
+      "primary": false,
+      "how_described": "本集提到在路易斯安那州富兰克林建造的 180 英尺全自主船,面向国防与商业用途",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            130.275,
+            135.679
+          ],
+          "quote": "We're building Marauder, which is a 180-foot fully autonomous ship for defense and commercial.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1428.57,
+            1433.254
+          ],
+          "quote": "It's why we're showing you Mirage today, why we have Marauder out in Franklin is because...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1567.958,
+            1572.883
+          ],
+          "quote": "Did you imagine that you were going to be building ships like Marauder?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "spacex",
+      "type": "company",
+      "role": "company",
+      "name": "SpaceX",
+      "file": "SpaceX",
+      "primary": false,
+      "how_described": "本集提到 Saronic 的制造负责人来自 SpaceX,带来说「构建构建系统的系统」的理念",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 106,
+          "t": [
+            433.908,
+            436.049
+          ],
+          "quote": "Our head of manufacturing came out of SpaceX.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 107,
+          "t": [
+            436.089,
+            446.113
+          ],
+          "quote": "He was at SpaceX for 10 years, and he always talks about building the system that builds the system, but then also very quickly identifying where the system is not working.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tesla",
+      "type": "company",
+      "role": "company",
+      "name": "Tesla",
+      "file": "Tesla",
+      "primary": false,
+      "how_described": "本集用特斯拉做类比:软硬件一起设计,所以它是最难被质疑的自动驾驶车",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 176,
+          "t": [
+            739.629,
+            741.811
+          ],
+          "quote": "I'll use a Tesla analogy here for a second.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 180,
+          "t": [
+            756.469,
+            763.198
+          ],
+          "quote": "It's like I could pull out my phone, turn on the air condition, open the door, call my Tesla to come pick me up and...",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

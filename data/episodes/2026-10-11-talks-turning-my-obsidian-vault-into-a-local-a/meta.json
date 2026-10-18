@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-11-talks-turning-my-obsidian-vault-into-a-local-a",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/Ndp5VaqFrl0.m4a",
+  "duration_sec": 2827.902,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 374,
+  "asr": true,
+  "title_en": "Turning My Obsidian Vault Into a Local AI Engineer — Filip Makraduli, Superlinked",
+  "podcast": "精选演讲",
+  "date": "2026-10-11",
+  "added": "2026-10-19",
+  "added_at": "2026-10-18T17:11:50.895Z",
+  "speaker_map": {
+    "SPEAKER_00": "Filip Makraduli"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Filip Makraduli"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "把敏感文档挡在 AI 外面：一套自己云上的“预处理工人”",
+  "guest_name": "Filip Makraduli",
+  "guest_title": "Superlinked",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

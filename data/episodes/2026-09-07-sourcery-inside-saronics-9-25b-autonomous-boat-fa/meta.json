@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-07-sourcery-inside-saronics-9-25b-autonomous-boat-fa",
+  "audio_mp3": "https://anchor.fm/s/f192713c/podcast/play/125316599/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-7%2F431339394-44100-2-af7d15dffb6b9.mp3",
+  "duration_sec": 1977.732,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 483,
+  "asr": true,
+  "title_en": "Inside Saronic’s $9.25B Autonomous Boat Factory | CEO Dino Mavrookas",
+  "podcast": "Sourcery",
+  "date": "2026-09-07",
+  "cover_official_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/40429063/40429063-1788764856383-d723e2d2a9ff.jpg",
+  "added": "2026-10-19",
+  "added_at": "2026-10-18T18:15:16.793Z",
+  "speaker_map": {
+    "SPEAKER_01": "Dino Mavrookas"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Dino Mavrookas",
+  "cohosts": [],
+  "title_zh": "从车库造无人艇,到再造美国最大船厂",
+  "guest_name": "Dino Mavrookas",
+  "guest_title": "Saronic 创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

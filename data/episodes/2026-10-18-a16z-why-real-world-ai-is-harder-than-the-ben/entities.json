@@ -1,0 +1,383 @@
+{
+  "episode_id": "2026-10-18-a16z-why-real-world-ai-is-harder-than-the-ben",
+  "podcast": "The a16z Show",
+  "date": "2026-10-18",
+  "tags": [
+    "对话式 AI",
+    "可靠性",
+    "语音 AI",
+    "传统机器学习 vs LLM",
+    "关键行业自动化"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "mario-martone",
+      "type": "person",
+      "role": "host",
+      "name": "Mario Martone",
+      "file": "Mario Martone",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            21.047,
+            29.769
+          ],
+          "quote": "In this episode, Elise AI Head of Applied Research Mario Martone joins MTS to explain what it takes to move AI from the lab into essential industries.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            80.145,
+            85.447
+          ],
+          "quote": "Doctor, because you have two PhDs, so you get a double doctor, Mario Martone.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "elise-ai",
+      "type": "company",
+      "role": "company",
+      "name": "Elise AI",
+      "file": "Elise AI",
+      "primary": true,
+      "how_described": "本集介绍它是一家为住房和医疗等关键行业构建对话式 AI 的公司，每月处理约 500 万通电话，团队把学术人才和顶尖工程师混编，用科学方法在大规模真实对话上评估系统。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            21.047,
+            29.769
+          ],
+          "quote": "In this episode, Elise AI Head of Applied Research Mario Martone joins MTS to explain what it takes to move AI from the lab into essential industries.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            50.102,
+            60.426
+          ],
+          "quote": "They get into Elise AI's voice stack, its work fine-tuning open source models, and how the company has automated workflows that can take someone from looking for an apartment to touring it and eventually moving in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            85.487,
+            96.892
+          ],
+          "quote": "He is the Head of Applied Research at Elise AI, a company building conversational AI for essential industries like housing and healthcare, and he has a background in theoretical physics, physicist.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 21,
+          "t": [
+            133.532,
+            140.596
+          ],
+          "quote": "And so I wanted to just start off learning a little bit about you, why that changed, why Elise AI, and what did you take with you?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 52,
+          "t": [
+            279.641,
+            289.89
+          ],
+          "quote": "What's unique about your role, so you do applied research at Elise AI, I think right now, Elise AI's tech stack, it includes predicting renewal risks and it also includes managing voice latency as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 136,
+          "t": [
+            671.893,
+            674.474
+          ],
+          "quote": "It's like, how do you think about this problem at Elise AI?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 192,
+          "t": [
+            917.764,
+            924.771
+          ],
+          "quote": "And so, what are some of the hardest problems you say your team at Elise AI right now, what are some of the hardest problems you guys are working on?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1138.98,
+            1153.488
+          ],
+          "quote": "I think what's unique about Elise AI is vertically down the stack when, especially when it came to housing, because that's where you guys started, you fully went through every single problem, especially, except I guess the robotics physically going into your home, but you'll get there.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集反复讨论 LLM 不是万能锤子：需要确定性（同样输入同样输出）或精确概率的场景 LLM 会失败，续约预测这类任务用传统方法反而更好；同时团队也在不断判断六个月后哪些问题会被 LLM 解决并自动化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            36.39,
+            49.133
+          ],
+          "quote": "Now he applies that same research mindset to production AI, where his team has to decide when to use an LLM, when traditional machine learning is actually better, and how to evaluate systems operating across millions of real-world interactions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            424.511,
+            425.391
+          ],
+          "quote": "Should we throw an LLM?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 105,
+          "t": [
+            522.919,
+            535.07
+          ],
+          "quote": "Like when they're talking about reliability, they talk, okay, if the LLM can take it up to 90% and then we say 90%, that means for like 60 million phone calls per month, per year, it means like an enormous amount of failures that is totally unbearable.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "machine-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "传统机器学习 (machine learning)",
+      "file": "传统机器学习",
+      "primary": true,
+      "how_described": "本集说 Elise AI 因拥有海量数据而大量使用传统机器学习，比如续约风险预测用的是自建的精密神经网络，跟大模型毫无关系；选 LLM、深度神经网络还是简单 ML 模型是团队每天要做的决策。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            36.39,
+            49.133
+          ],
+          "quote": "Now he applies that same research mindset to production AI, where his team has to decide when to use an LLM, when traditional machine learning is actually better, and how to evaluate systems operating across millions of real-world interactions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            97.092,
+            102.094
+          ],
+          "quote": "He now leads a team applying the latest machine learning advancements to real-world problems.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 67,
+          "t": [
+            344.006,
+            360.556
+          ],
+          "quote": "So that's another thing that is unique about the lease is that when you touched upon predicting renewals, we have a mixture of cutting edge AI in the kind of more LLMs frontier base, but we also use a lot of traditional machine learning because we have a ton of data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 83,
+          "t": [
+            427.552,
+            430.333
+          ],
+          "quote": "Should we throw like a very simple machine learning models?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "reliability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可靠性 (reliability)",
+      "file": "可靠性",
+      "primary": true,
+      "how_described": "本集说学术界的 90% 可靠性在每月数百万通电话的现实里意味着无法忍受的失败，产品标准是 99.999%——每多加一个 9 就是要攀登的另一座山。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 105,
+          "t": [
+            522.919,
+            535.07
+          ],
+          "quote": "Like when they're talking about reliability, they talk, okay, if the LLM can take it up to 90% and then we say 90%, that means for like 60 million phone calls per month, per year, it means like an enormous amount of failures that is totally unbearable.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "latency",
+      "type": "concept",
+      "role": "concept",
+      "name": "延迟 (latency)",
+      "file": "延迟",
+      "primary": true,
+      "how_described": "本集说语音 AI 的核心难点之一是延迟：要在一秒半内完成几十次操作且不能有奇怪延迟，既是软件问题也是硬件问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            279.641,
+            289.89
+          ],
+          "quote": "What's unique about your role, so you do applied research at Elise AI, I think right now, Elise AI's tech stack, it includes predicting renewal risks and it also includes managing voice latency as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 127,
+          "t": [
+            624.912,
+            632.515
+          ],
+          "quote": "I wanna talk to you a little bit too about Elisa's AI voice model as well because you specifically have, you're able to manage voice latency.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 129,
+          "t": [
+            639.617,
+            644.979
+          ],
+          "quote": "But one of the big issues with it is this latency issue because it's not just a software problem, it's also hardware.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 133,
+          "t": [
+            661.407,
+            667.55
+          ],
+          "quote": "And for those, you can't have this weird latency between how voice is actually interacting with these consumers.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "fine-tuning",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine-tuning)",
+      "file": "微调",
+      "primary": true,
+      "how_described": "本集说团队过去八个月大力投入微调开源模型，组建研究小组训练自己的模型并交付到生产环境，取得了不可思议的成果。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            50.102,
+            60.426
+          ],
+          "quote": "They get into Elise AI's voice stack, its work fine-tuning open source models, and how the company has automated workflows that can take someone from looking for an apartment to touring it and eventually moving in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            704.414,
+            717.726
+          ],
+          "quote": "And then you are the outward phasing kind of perspective where you have a lot of different providers, different changes like fine-tuning open sources or newer speech-to-text, text-to-speech models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 179,
+          "t": [
+            855.234,
+            862.098
+          ],
+          "quote": "And so the thing was, okay, now we have the possibility that we try really fine-tuning on our end.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集说市场上出现新的语音转文字、文本转语音模型或可微调的开源模型时，团队就用内部基准实验去匹配：哪里最差、新方案能补哪里，就全力投入。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            50.102,
+            60.426
+          ],
+          "quote": "They get into Elise AI's voice stack, its work fine-tuning open source models, and how the company has automated workflows that can take someone from looking for an apartment to touring it and eventually moving in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            848.249,
+            854.793
+          ],
+          "quote": "One of the things that we invested on heavily in the last eight months or so is to try open source models.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "benchmark",
+      "type": "concept",
+      "role": "concept",
+      "name": "基准测试 (benchmark)",
+      "file": "基准测试",
+      "primary": false,
+      "how_described": "本集说外部基准不能信任，看到新模型不看公开基准，直接在自家内部基准上跑实验看真实表现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 154,
+          "t": [
+            760.822,
+            762.084
+          ],
+          "quote": "I don't even look at the benchmark.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "evaluation",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

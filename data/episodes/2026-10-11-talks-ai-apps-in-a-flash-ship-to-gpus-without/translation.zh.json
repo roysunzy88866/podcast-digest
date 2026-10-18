@@ -1,0 +1,1738 @@
+[
+ {
+  "seg": 0,
+  "start": 12.565,
+  "end": 12.725,
+  "speaker": "Unknown",
+  "en": "Hello.",
+  "zh": "你好。"
+ },
+ {
+  "seg": 1,
+  "start": 12.745,
+  "end": 13.726,
+  "speaker": "Unknown",
+  "en": "Good afternoon, everyone.",
+  "zh": "大家下午好。"
+ },
+ {
+  "seg": 2,
+  "start": 14.346,
+  "end": 16.647,
+  "speaker": "Unknown",
+  "en": "I'm Dean Kinyanola from RunPod Flash.",
+  "zh": "我是 RunPod Flash 的 Dean Kinyanola。"
+ },
+ {
+  "seg": 3,
+  "start": 17.587,
+  "end": 24.831,
+  "speaker": "Unknown",
+  "en": "And I want to talk to you about how you might be able to deploy AI applications without Docker.",
+  "zh": "我想和你们谈谈，如何在不使用 Docker 的情况下部署 AI 应用。"
+ },
+ {
+  "seg": 4,
+  "start": 26.352,
+  "end": 30.774,
+  "speaker": "Unknown",
+  "en": "So currently, this is how you deploy a serverless application.",
+  "zh": "目前，这就是你部署无服务器应用的方式。"
+ },
+ {
+  "seg": 5,
+  "start": 31.774,
+  "end": 33.415,
+  "speaker": "Unknown",
+  "en": "Well, especially AI applications.",
+  "zh": "尤其是部署 AI 应用。"
+ },
+ {
+  "seg": 6,
+  "start": 33.975,
+  "end": 35.016,
+  "speaker": "Unknown",
+  "en": "You write code.",
+  "zh": "你写代码。"
+ },
+ {
+  "seg": 7,
+  "start": 36.196,
+  "end": 37.337,
+  "speaker": "Unknown",
+  "en": "You build your Docker file.",
+  "zh": "你构建你的 Docker 文件。"
+ },
+ {
+  "seg": 8,
+  "start": 38.239,
+  "end": 41.081,
+  "speaker": "Unknown",
+  "en": "You run a bunch of commands, Docker build, all that.",
+  "zh": "你运行一堆命令，Docker build 之类的。"
+ },
+ {
+  "seg": 9,
+  "start": 41.742,
+  "end": 43.744,
+  "speaker": "Unknown",
+  "en": "And then you push the image to Docker Hub.",
+  "zh": "然后你把镜像推送到 Docker Hub。"
+ },
+ {
+  "seg": 10,
+  "start": 44.684,
+  "end": 45.525,
+  "speaker": "Unknown",
+  "en": "Then you execute it.",
+  "zh": "然后你执行它。"
+ },
+ {
+  "seg": 11,
+  "start": 46.126,
+  "end": 48.267,
+  "speaker": "Unknown",
+  "en": "Then maybe you'll get what you want.",
+  "zh": "然后也许你会得到你想要的东西。"
+ },
+ {
+  "seg": 12,
+  "start": 48.568,
+  "end": 54.472,
+  "speaker": "Unknown",
+  "en": "If not, you have to change your code again, rebuild it, repush it, execute.",
+  "zh": "如果没有，你就得再次修改代码，重新构建，重新推送，执行。"
+ },
+ {
+  "seg": 13,
+  "start": 56.534,
+  "end": 62.359,
+  "speaker": "Unknown",
+  "en": "In my experience, sometimes this one loop takes about 15 minutes, depending on the changes you're doing.",
+  "zh": "根据我的经验，有时候这一个循环要花大约 15 分钟，取决于你在做的修改。"
+ },
+ {
+  "seg": 14,
+  "start": 63.693,
+  "end": 65.175,
+  "speaker": "Unknown",
+  "en": "So my name is Dean Kinyanola.",
+  "zh": "我叫 Dean Kinyanola。"
+ },
+ {
+  "seg": 15,
+  "start": 65.515,
+  "end": 67.637,
+  "speaker": "Unknown",
+  "en": "I am a staff engineer at RunPod.",
+  "zh": "我是 RunPod 的一名资深工程师。"
+ },
+ {
+  "seg": 16,
+  "start": 68.178,
+  "end": 71.361,
+  "speaker": "Unknown",
+  "en": "I have an entire team that's working on making that easy.",
+  "zh": "我有一个完整的团队在致力于让这件事变简单。"
+ },
+ {
+  "seg": 17,
+  "start": 73.023,
+  "end": 74.225,
+  "speaker": "Unknown",
+  "en": "So why did we build Flash?",
+  "zh": "那么我们为什么要构建 Flash?"
+ },
+ {
+  "seg": 18,
+  "start": 75.364,
+  "end": 78.687,
+  "speaker": "Unknown",
+  "en": "Development iteration loop requires makeover.",
+  "zh": "开发迭代循环需要大改造。"
+ },
+ {
+  "seg": 19,
+  "start": 78.927,
+  "end": 80.208,
+  "speaker": "Unknown",
+  "en": "It's really a hassle.",
+  "zh": "它真的很麻烦。"
+ },
+ {
+  "seg": 20,
+  "start": 80.728,
+  "end": 86.893,
+  "speaker": "Unknown",
+  "en": "A lot of you guys are software engineers or ML engineers who really don't want to deal with all the DevOps.",
+  "zh": "你们当中很多人是软件工程师或 ML 工程师，真的不想去处理所有那些 DevOps。"
+ },
+ {
+  "seg": 21,
+  "start": 87.754,
+  "end": 93.078,
+  "speaker": "Unknown",
+  "en": "So as you're working on your ideas or as you're working on your experiments, you want the results.",
+  "zh": "所以当你在琢磨你的想法，或者在做你的实验时，你想要的是结果。"
+ },
+ {
+  "seg": 22,
+  "start": 93.499,
+  "end": 95.1,
+  "speaker": "Unknown",
+  "en": "So no more need for Docker.",
+  "zh": "所以不再需要 Docker 了。"
+ },
+ {
+  "seg": 23,
+  "start": 95.86,
+  "end": 98.443,
+  "speaker": "Unknown",
+  "en": "Run code like it's local as if you have the GPU.",
+  "zh": "像在本地一样运行代码，就好像你拥有 GPU 一样。"
+ },
+ {
+  "seg": 24,
+  "start": 99.463,
+  "end": 103.787,
+  "speaker": "Unknown",
+  "en": "Test your changes instantly and debug quickly if you need to.",
+  "zh": "即时测试你的修改，需要时快速调试。"
+ },
+ {
+  "seg": 25,
+  "start": 105.863,
+  "end": 108.166,
+  "speaker": "Unknown",
+  "en": "So this is how we're thinking about keeping it simple.",
+  "zh": "这就是我们关于保持简洁的思考方式。"
+ },
+ {
+  "seg": 26,
+  "start": 109.007,
+  "end": 111.31,
+  "speaker": "Unknown",
+  "en": "You write your code, you execute.",
+  "zh": "你写你的代码，你执行。"
+ },
+ {
+  "seg": 27,
+  "start": 112.151,
+  "end": 112.912,
+  "speaker": "Unknown",
+  "en": "You get the results.",
+  "zh": "你得到结果。"
+ },
+ {
+  "seg": 28,
+  "start": 114.213,
+  "end": 117.197,
+  "speaker": "Unknown",
+  "en": "Rewrite your code, execute, you get the results.",
+  "zh": "重写你的代码，执行，你得到结果。"
+ },
+ {
+  "seg": 29,
+  "start": 117.557,
+  "end": 119.239,
+  "speaker": "Unknown",
+  "en": "Of course, there's the deployment part.",
+  "zh": "当然，还有部署的部分。"
+ },
+ {
+  "seg": 30,
+  "start": 119.259,
+  "end": 120.281,
+  "speaker": "Unknown",
+  "en": "I'll talk about that later.",
+  "zh": "我稍后会讲到那个。"
+ },
+ {
+  "seg": 31,
+  "start": 122.623,
+  "end": 125.407,
+  "speaker": "Unknown",
+  "en": "So it's so simple, it feels like it's running locally.",
+  "zh": "它是如此简单，感觉就像在本地运行一样。"
+ },
+ {
+  "seg": 32,
+  "start": 127.187,
+  "end": 128.328,
+  "speaker": "Unknown",
+  "en": "So what are the features that we have?",
+  "zh": "那么我们有哪些特性呢？"
+ },
+ {
+  "seg": 33,
+  "start": 128.708,
+  "end": 130.75,
+  "speaker": "Unknown",
+  "en": "So we are able to build and deploy faster.",
+  "zh": "我们能够更快地构建和部署。"
+ },
+ {
+  "seg": 34,
+  "start": 130.99,
+  "end": 132.912,
+  "speaker": "Unknown",
+  "en": "We optimize the resource utilization.",
+  "zh": "我们优化了资源利用率。"
+ },
+ {
+  "seg": 35,
+  "start": 132.932,
+  "end": 134.753,
+  "speaker": "Unknown",
+  "en": "There's a lot of tricks happening under the hood.",
+  "zh": "底层有很多技巧在运作。"
+ },
+ {
+  "seg": 36,
+  "start": 135.554,
+  "end": 136.435,
+  "speaker": "Unknown",
+  "en": "And it's intuitive.",
+  "zh": "而且它很直观。"
+ },
+ {
+  "seg": 37,
+  "start": 136.495,
+  "end": 137.476,
+  "speaker": "Unknown",
+  "en": "It's just Python code.",
+  "zh": "它就是 Python 代码。"
+ },
+ {
+  "seg": 38,
+  "start": 137.736,
+  "end": 140.799,
+  "speaker": "Unknown",
+  "en": "It's really whatever you can run locally with a GPU.",
+  "zh": "真的，任何你在本地用 GPU 能运行的东西。"
+ },
+ {
+  "seg": 39,
+  "start": 141.299,
+  "end": 142.28,
+  "speaker": "Unknown",
+  "en": "Just do it on the cloud.",
+  "zh": "直接在云端上做就行。"
+ },
+ {
+  "seg": 40,
+  "start": 144.183,
+  "end": 145.604,
+  "speaker": "Unknown",
+  "en": "So what can you do with Flash today?",
+  "zh": "那么今天你能用 Flash 做什么？"
+ },
+ {
+  "seg": 41,
+  "start": 146.365,
+  "end": 147.706,
+  "speaker": "Unknown",
+  "en": "We have serverless endpoints.",
+  "zh": "我们有无服务器端点。"
+ },
+ {
+  "seg": 42,
+  "start": 148.306,
+  "end": 152.129,
+  "speaker": "Unknown",
+  "en": "It's mostly locked on serverless right now, but we're working towards doing it for pods.",
+  "zh": "现在它主要锁定在无服务器上，但我们正在努力让它支持 pods。"
+ },
+ {
+  "seg": 43,
+  "start": 153.09,
+  "end": 156.953,
+  "speaker": "Unknown",
+  "en": "We have queue endpoints for it and load balance endpoints that you can use it for.",
+  "zh": "我们有队列端点和负载均衡端点供你使用。"
+ },
+ {
+  "seg": 44,
+  "start": 157.794,
+  "end": 163.898,
+  "speaker": "Unknown",
+  "en": "Here's the really cool feature that I put in, an endpoint to endpoint communication.",
+  "zh": "这是我加入的一个非常酷的特性，端点到端点的通信。"
+ },
+ {
+  "seg": 45,
+  "start": 164.599,
+  "end": 170.444,
+  "speaker": "Unknown",
+  "en": "Sometimes you're building all these servers, but then you still have to know how to contact each server, right?",
+  "zh": "有时候你在构建所有这些服务器，但你仍然需要知道如何联系每台服务器，对吧？"
+ },
+ {
+  "seg": 46,
+  "start": 171.42,
+  "end": 174.863,
+  "speaker": "Unknown",
+  "en": "You don't have to do that with this because it's just a code talking to another code.",
+  "zh": "用这个你不用那么做，因为这就是一段代码在和另一段代码对话。"
+ },
+ {
+  "seg": 47,
+  "start": 175.323,
+  "end": 178.325,
+  "speaker": "Unknown",
+  "en": "You execute a function and it looks like it's just local.",
+  "zh": "你执行一个函数，它看起来就像是本地的。"
+ },
+ {
+  "seg": 48,
+  "start": 178.365,
+  "end": 182.128,
+  "speaker": "Unknown",
+  "en": "But once you deploy it in different endpoints, it's all talking to each other.",
+  "zh": "但一旦你把它部署到不同的端点上，它们之间就都在互相通信了。"
+ },
+ {
+  "seg": 49,
+  "start": 182.509,
+  "end": 183.709,
+  "speaker": "Unknown",
+  "en": "It's all happening under the hood.",
+  "zh": "这一切都发生在底层。"
+ },
+ {
+  "seg": 50,
+  "start": 184.65,
+  "end": 186.712,
+  "speaker": "Unknown",
+  "en": "We also have network volume attachments.",
+  "zh": "我们还有网络卷挂载。"
+ },
+ {
+  "seg": 51,
+  "start": 187.592,
+  "end": 198.201,
+  "speaker": "Unknown",
+  "en": "We have warm caching in network volume attachments so that if you ever have to scale up with your serverless endpoints, then it has those caches carried over through the network volumes.",
+  "zh": "我们在网络卷挂载中有热缓存，这样如果你需要用无服务器端点扩容时，缓存会通过网络卷延续下去。"
+ },
+ {
+  "seg": 52,
+  "start": 198.921,
+  "end": 202.004,
+  "speaker": "Unknown",
+  "en": "And then the most important part is the live serverless.",
+  "zh": "然后最重要的部分是实时无服务器。"
+ },
+ {
+  "seg": 53,
+  "start": 202.524,
+  "end": 206.908,
+  "speaker": "Unknown",
+  "en": "You are coding and testing as if it's all happening in your local system.",
+  "zh": "你在编码和测试时，就好像这一切都发生在你的本地系统里一样。"
+ },
+ {
+  "seg": 54,
+  "start": 207.548,
+  "end": 212.109,
+  "speaker": "Unknown",
+  "en": "And then, you know, this would just be a toy project if you can't deploy to production, right?",
+  "zh": "然后，你知道的，如果不能部署到生产环境，这就只能算个玩具项目，对吧？"
+ },
+ {
+  "seg": 55,
+  "start": 212.99,
+  "end": 221.012,
+  "speaker": "Unknown",
+  "en": "So you want to deploy to production, so serve the inference, serve all the stuff that you're building, and we're making that possible all through the CLI.",
+  "zh": "所以你想部署到生产环境，想提供推理服务，把你构建的所有东西都服务起来，而我们正在通过 CLI 让这一切成为可能。"
+ },
+ {
+  "seg": 56,
+  "start": 222.552,
+  "end": 223.332,
+  "speaker": "Unknown",
+  "en": "So let's get a demo.",
+  "zh": "那么我们来看个演示。"
+ },
+ {
+  "seg": 57,
+  "start": 224.653,
+  "end": 225.933,
+  "speaker": "Unknown",
+  "en": "Hopefully I can do this with one hand.",
+  "zh": "希望我能用一只手完成这个。"
+ },
+ {
+  "seg": 58,
+  "start": 228.614,
+  "end": 228.894,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 59,
+  "start": 229.872,
+  "end": 236.475,
+  "speaker": "Unknown",
+  "en": "All right, so my demo here shows the rapid iteration and evolution of a function.",
+  "zh": "好，我这边的演示展示的是一个函数的快速迭代和演进。"
+ },
+ {
+  "seg": 60,
+  "start": 236.976,
+  "end": 243.379,
+  "speaker": "Unknown",
+  "en": "So the first function is just talking to Torch, getting what kind of GPU you have.",
+  "zh": "第一个函数只是连接 Torch，查看你有什么样的 GPU。"
+ },
+ {
+  "seg": 61,
+  "start": 244.099,
+  "end": 244.84,
+  "speaker": "Unknown",
+  "en": "So I'll do this live.",
+  "zh": "我来现场演示这个。"
+ },
+ {
+  "seg": 62,
+  "start": 246.201,
+  "end": 249.422,
+  "speaker": "Unknown",
+  "en": "I'll do flash dev.",
+  "zh": "我运行 flash dev。"
+ },
+ {
+  "seg": 63,
+  "start": 250.603,
+  "end": 254.165,
+  "speaker": "Unknown",
+  "en": "And what this does is it launches a fast API localhost.",
+  "zh": "它会启动一个 fast API 的 localhost。"
+ },
+ {
+  "seg": 64,
+  "start": 254.965,
+  "end": 256.346,
+  "speaker": "Unknown",
+  "en": "So you can actually toy around with it.",
+  "zh": "这样你就可以实际把玩它了。"
+ },
+ {
+  "seg": 65,
+  "start": 257.426,
+  "end": 258.447,
+  "speaker": "Unknown",
+  "en": "So now you want to try it out.",
+  "zh": "现在你想试一下。"
+ },
+ {
+  "seg": 66,
+  "start": 259.98,
+  "end": 260.6,
+  "speaker": "Unknown",
+  "en": "Let's try it out.",
+  "zh": "我们来试试。"
+ },
+ {
+  "seg": 67,
+  "start": 261.361,
+  "end": 261.761,
+  "speaker": "Unknown",
+  "en": "Execute.",
+  "zh": "执行。"
+ },
+ {
+  "seg": 68,
+  "start": 263.101,
+  "end": 265.482,
+  "speaker": "Unknown",
+  "en": "So it's provisioning this serverless endpoint.",
+  "zh": "它正在配置这个无服务器端点。"
+ },
+ {
+  "seg": 69,
+  "start": 265.522,
+  "end": 269.864,
+  "speaker": "Unknown",
+  "en": "And if we go to run pod console, refresh this, you'll see this.",
+  "zh": "如果我们打开 run pod 控制台，刷新一下，你会看到这个。"
+ },
+ {
+  "seg": 70,
+  "start": 270.264,
+  "end": 271.024,
+  "speaker": "Unknown",
+  "en": "This is running now.",
+  "zh": "它现在正在运行。"
+ },
+ {
+  "seg": 71,
+  "start": 273.265,
+  "end": 279.187,
+  "speaker": "Unknown",
+  "en": "And as it's loading, let's show the logs so you can actually see it.",
+  "zh": "在它加载的时候，我们展示一下日志，这样你可以实际看到。"
+ },
+ {
+  "seg": 72,
+  "start": 284.95,
+  "end": 285.91,
+  "speaker": "Unknown",
+  "en": "All right, worker is ready.",
+  "zh": "好，worker 已就绪。"
+ },
+ {
+  "seg": 73,
+  "start": 306.8,
+  "end": 307.42,
+  "speaker": "Unknown",
+  "en": "Cold start.",
+  "zh": "冷启动。"
+ },
+ {
+  "seg": 74,
+  "start": 307.82,
+  "end": 310.101,
+  "speaker": "Unknown",
+  "en": "This is common with all serverless platforms.",
+  "zh": "这在所有无服务器平台上都很常见。"
+ },
+ {
+  "seg": 75,
+  "start": 313.28,
+  "end": 313.86,
+  "speaker": "Unknown",
+  "en": "Oh, there it is.",
+  "zh": "哦，出来了。"
+ },
+ {
+  "seg": 76,
+  "start": 314.04,
+  "end": 314.641,
+  "speaker": "Unknown",
+  "en": "So it's running.",
+  "zh": "所以它正在运行。"
+ },
+ {
+  "seg": 77,
+  "start": 315.922,
+  "end": 318.703,
+  "speaker": "Unknown",
+  "en": "We got logs, container logs.",
+  "zh": "我们拿到了日志，容器日志。"
+ },
+ {
+  "seg": 78,
+  "start": 319.183,
+  "end": 323.786,
+  "speaker": "Unknown",
+  "en": "So it's testing all these things, making sure it's all healthy, and it ran the job.",
+  "zh": "它正在测试所有这些东西，确保一切健康，然后运行了任务。"
+ },
+ {
+  "seg": 79,
+  "start": 324.226,
+  "end": 326.588,
+  "speaker": "Unknown",
+  "en": "So now if we go back here, you'll see the result.",
+  "zh": "现在我们回到这里，你会看到结果。"
+ },
+ {
+  "seg": 80,
+  "start": 327.708,
+  "end": 331.83,
+  "speaker": "Unknown",
+  "en": "It ran on an NVIDIA GeForce RTX 4090.",
+  "zh": "它运行在一块 NVIDIA GeForce RTX 4090 上。"
+ },
+ {
+  "seg": 81,
+  "start": 332.351,
+  "end": 334.192,
+  "speaker": "Unknown",
+  "en": "You see all the RAM, GP account.",
+  "zh": "你可以看到所有内存，GP account。"
+ },
+ {
+  "seg": 82,
+  "start": 334.823,
+  "end": 336.183,
+  "speaker": "Unknown",
+  "en": "Now, here's the kicker.",
+  "zh": "现在，重点来了。"
+ },
+ {
+  "seg": 83,
+  "start": 336.703,
+  "end": 341.044,
+  "speaker": "Unknown",
+  "en": "What if I want to change this function and just want to test it?",
+  "zh": "如果我想修改这个函数并且测试一下呢？"
+ },
+ {
+  "seg": 84,
+  "start": 341.684,
+  "end": 344.165,
+  "speaker": "Unknown",
+  "en": "So here's a different iteration of this function.",
+  "zh": "这里是这个函数的另一个迭代版本。"
+ },
+ {
+  "seg": 85,
+  "start": 344.885,
+  "end": 347.946,
+  "speaker": "Unknown",
+  "en": "What we do is we add more code.",
+  "zh": "我们要做的是添加更多代码。"
+ },
+ {
+  "seg": 86,
+  "start": 349.226,
+  "end": 353.147,
+  "speaker": "Unknown",
+  "en": "And this code really just does generation of text.",
+  "zh": "这些代码其实就是做文本生成。"
+ },
+ {
+  "seg": 87,
+  "start": 353.747,
+  "end": 356.507,
+  "speaker": "Unknown",
+  "en": "And I've added some dependencies, the Python dependencies there.",
+  "zh": "我还添加了一些依赖，就是那里的 Python 依赖。"
+ },
+ {
+  "seg": 88,
+  "start": 357.067,
+  "end": 358.948,
+  "speaker": "Unknown",
+  "en": "Oh, actually, let's do this without the",
+  "zh": "哦，其实，我们先不这样做，"
+ },
+ {
+  "seg": 89,
+  "start": 359.933,
+  "end": 361.014,
+  "speaker": "Unknown",
+  "en": "Hugging face token first.",
+  "zh": "先不用 Hugging face token。"
+ },
+ {
+  "seg": 90,
+  "start": 361.854,
+  "end": 362.574,
+  "speaker": "Unknown",
+  "en": "Let's see what's happening.",
+  "zh": "看看发生了什么。"
+ },
+ {
+  "seg": 91,
+  "start": 363.235,
+  "end": 364.675,
+  "speaker": "Unknown",
+  "en": "See it refreshed everything.",
+  "zh": "看到它刷新了一切。"
+ },
+ {
+  "seg": 92,
+  "start": 365.456,
+  "end": 366.256,
+  "speaker": "Unknown",
+  "en": "I refresh this.",
+  "zh": "我刷新一下。"
+ },
+ {
+  "seg": 93,
+  "start": 367.837,
+  "end": 368.477,
+  "speaker": "Unknown",
+  "en": "Test it again.",
+  "zh": "再测试一次。"
+ },
+ {
+  "seg": 94,
+  "start": 371.119,
+  "end": 371.999,
+  "speaker": "Unknown",
+  "en": "What prompt do we need?",
+  "zh": "我们需要什么提示词？"
+ },
+ {
+  "seg": 95,
+  "start": 372.699,
+  "end": 373.88,
+  "speaker": "Unknown",
+  "en": "Let's do string cheese.",
+  "zh": "我们就用 string cheese。"
+ },
+ {
+  "seg": 96,
+  "start": 375.701,
+  "end": 376.301,
+  "speaker": "Unknown",
+  "en": "Is it real?",
+  "zh": "是真的吗？"
+ },
+ {
+  "seg": 97,
+  "start": 379.663,
+  "end": 379.963,
+  "speaker": "Unknown",
+  "en": "Run it.",
+  "zh": "运行。"
+ },
+ {
+  "seg": 98,
+  "start": 382.584,
+  "end": 383.405,
+  "speaker": "Unknown",
+  "en": "You see it again here.",
+  "zh": "你又可以看到这里。"
+ },
+ {
+  "seg": 99,
+  "start": 390.213,
+  "end": 391.614,
+  "speaker": "Unknown",
+  "en": "Container, okay.",
+  "zh": "容器，好的。"
+ },
+ {
+  "seg": 100,
+  "start": 393.756,
+  "end": 394.477,
+  "speaker": "Unknown",
+  "en": "It's coming up.",
+  "zh": "快到了。"
+ },
+ {
+  "seg": 101,
+  "start": 395.758,
+  "end": 400.422,
+  "speaker": "Unknown",
+  "en": "You'll see all the, the logs are simpler here because you're not supposed to be inundated with so much stuff.",
+  "zh": "你会看到所有的,这里的日志更简洁,因为你本来就不该被那么多东西淹没。"
+ },
+ {
+  "seg": 102,
+  "start": 401.403,
+  "end": 406.347,
+  "speaker": "Unknown",
+  "en": "But what it's doing is it's on the fly installing the dependencies.",
+  "zh": "但它正在做的是在运行中即时安装依赖。"
+ },
+ {
+  "seg": 103,
+  "start": 407.288,
+  "end": 412.532,
+  "speaker": "Unknown",
+  "en": "And it even gave me a warning about communicating with the Hugging Face server without the token.",
+  "zh": "它甚至给了我一个警告,说在没有 token 的情况下与 Hugging Face 服务器通信。"
+ },
+ {
+  "seg": 104,
+  "start": 413.773,
+  "end": 414.854,
+  "speaker": "Unknown",
+  "en": "And it should be finished.",
+  "zh": "应该快完成了。"
+ },
+ {
+  "seg": 105,
+  "start": 414.914,
+  "end": 416.575,
+  "speaker": "Unknown",
+  "en": "OK. Now it's finished.",
+  "zh": "好。现在完成了。"
+ },
+ {
+  "seg": 106,
+  "start": 416.595,
+  "end": 417.376,
+  "speaker": "Unknown",
+  "en": "Let's see the result.",
+  "zh": "让我们看看结果。"
+ },
+ {
+  "seg": 107,
+  "start": 418.276,
+  "end": 420.398,
+  "speaker": "Unknown",
+  "en": "I ask, is string cheese real?",
+  "zh": "我问,奶酪条是真的吗?"
+ },
+ {
+  "seg": 108,
+  "start": 421.259,
+  "end": 422.84,
+  "speaker": "Unknown",
+  "en": "I'm sorry, but I cannot provide answers.",
+  "zh": "抱歉,我无法提供答案。"
+ },
+ {
+  "seg": 109,
+  "start": 425.542,
+  "end": 425.982,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好吧。"
+ },
+ {
+  "seg": 110,
+  "start": 426.102,
+  "end": 426.763,
+  "speaker": "Unknown",
+  "en": "That's spicy.",
+  "zh": "这有点离谱。"
+ },
+ {
+  "seg": 111,
+  "start": 428.785,
+  "end": 429.085,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好吧。"
+ },
+ {
+  "seg": 112,
+  "start": 429.325,
+  "end": 430.106,
+  "speaker": "Unknown",
+  "en": "Let's change that up.",
+  "zh": "我们来改一下。"
+ },
+ {
+  "seg": 113,
+  "start": 431.264,
+  "end": 434.345,
+  "speaker": "Unknown",
+  "en": "Let's enable my HF token.",
+  "zh": "很酷,我在用一只手操作。"
+ },
+ {
+  "seg": 114,
+  "start": 435.245,
+  "end": 436.525,
+  "speaker": "Unknown",
+  "en": "That's just changing the code, right?",
+  "zh": "就是改一下代码,对吧?"
+ },
+ {
+  "seg": 115,
+  "start": 437.606,
+  "end": 439.326,
+  "speaker": "Unknown",
+  "en": "Now we release this again.",
+  "zh": "现在我们再次发布。"
+ },
+ {
+  "seg": 116,
+  "start": 439.766,
+  "end": 441.047,
+  "speaker": "Unknown",
+  "en": "Let's change the prompt.",
+  "zh": "改一下 prompt。"
+ },
+ {
+  "seg": 117,
+  "start": 445.648,
+  "end": 446.168,
+  "speaker": "Unknown",
+  "en": "Let's see.",
+  "zh": "让我们看看。"
+ },
+ {
+  "seg": 118,
+  "start": 449.569,
+  "end": 450.369,
+  "speaker": "Unknown",
+  "en": "Who is Batman?",
+  "zh": "蝙蝠侠是谁?"
+ },
+ {
+  "seg": 119,
+  "start": 451.729,
+  "end": 452.609,
+  "speaker": "Unknown",
+  "en": "Let's execute that.",
+  "zh": "让我们执行那个。"
+ },
+ {
+  "seg": 120,
+  "start": 455.19,
+  "end": 455.79,
+  "speaker": "Unknown",
+  "en": "Ready.",
+  "zh": "准备好了。"
+ },
+ {
+  "seg": 121,
+  "start": 456.17,
+  "end": 457.011,
+  "speaker": "Unknown",
+  "en": "All right, let's see.",
+  "zh": "好,让我们看看。"
+ },
+ {
+  "seg": 122,
+  "start": 457.511,
+  "end": 458.351,
+  "speaker": "Unknown",
+  "en": "How's this working here?",
+  "zh": "这里是怎么运作的?"
+ },
+ {
+  "seg": 123,
+  "start": 461.507,
+  "end": 462.988,
+  "speaker": "Unknown",
+  "en": "It's cool, I'm doing this with one hand.",
+  "zh": "很酷，我用一只手就能做这个。"
+ },
+ {
+  "seg": 124,
+  "start": 466.31,
+  "end": 467.151,
+  "speaker": "Unknown",
+  "en": "All right, let's finish.",
+  "zh": "好,让我们完成。"
+ },
+ {
+  "seg": 125,
+  "start": 468.171,
+  "end": 469.152,
+  "speaker": "Unknown",
+  "en": "Now we see the result.",
+  "zh": "现在我们看结果。"
+ },
+ {
+  "seg": 126,
+  "start": 469.873,
+  "end": 471.734,
+  "speaker": "Unknown",
+  "en": "Oh, there you go, Batman's a fictional character.",
+  "zh": "哦,看,蝙蝠侠是一个虚构角色。"
+ },
+ {
+  "seg": 127,
+  "start": 471.754,
+  "end": 473.055,
+  "speaker": "Unknown",
+  "en": "All right, we knew that.",
+  "zh": "好吧,我们早就知道。"
+ },
+ {
+  "seg": 128,
+  "start": 474.435,
+  "end": 479.299,
+  "speaker": "Unknown",
+  "en": "Let's go for something that's more intensive than just generating text.",
+  "zh": "让我们来点比只是生成文本更耗费资源的东西。"
+ },
+ {
+  "seg": 129,
+  "start": 480.94,
+  "end": 485.763,
+  "speaker": "Unknown",
+  "en": "Now we'll do an image generation.",
+  "zh": "现在我们来做图像生成。"
+ },
+ {
+  "seg": 130,
+  "start": 487.404,
+  "end": 487.724,
+  "speaker": "Unknown",
+  "en": "Alright.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 131,
+  "start": 488.785,
+  "end": 489.446,
+  "speaker": "Unknown",
+  "en": "It refreshed.",
+  "zh": "它刷新了。"
+ },
+ {
+  "seg": 132,
+  "start": 490.226,
+  "end": 491.808,
+  "speaker": "Unknown",
+  "en": "Let's refresh this localhost.",
+  "zh": "让我们刷新这个 localhost。"
+ },
+ {
+  "seg": 133,
+  "start": 492.948,
+  "end": 494.309,
+  "speaker": "Unknown",
+  "en": "Now you see generate image.",
+  "zh": "现在你看到 generate image。"
+ },
+ {
+  "seg": 134,
+  "start": 496.171,
+  "end": 499.494,
+  "speaker": "Unknown",
+  "en": "And then, we'll test this out with a prompt.",
+  "zh": "然后,我们用一个 prompt 测试一下。"
+ },
+ {
+  "seg": 135,
+  "start": 500.514,
+  "end": 507.08,
+  "speaker": "Unknown",
+  "en": "Let's create an image of a string cheese Batman.",
+  "zh": "让我们创建一张奶酪条蝙蝠侠的图像。"
+ },
+ {
+  "seg": 136,
+  "start": 509.762,
+  "end": 509.962,
+  "speaker": "Unknown",
+  "en": "Alright.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 137,
+  "start": 511.383,
+  "end": 512.924,
+  "speaker": "Unknown",
+  "en": "This is how creative AI could be.",
+  "zh": "这就是创意 AI 可以达到的程度。"
+ },
+ {
+  "seg": 138,
+  "start": 515.066,
+  "end": 516.327,
+  "speaker": "Unknown",
+  "en": "Let's look at what's happening here.",
+  "zh": "让我们看看这里正在发生什么。"
+ },
+ {
+  "seg": 139,
+  "start": 520.208,
+  "end": 522.609,
+  "speaker": "Unknown",
+  "en": "running logs.",
+  "zh": "运行日志。"
+ },
+ {
+  "seg": 140,
+  "start": 524.629,
+  "end": 526.39,
+  "speaker": "Unknown",
+  "en": "Oh, look at that roll out in progress.",
+  "zh": "哦,看那个 rollout 正在进行中。"
+ },
+ {
+  "seg": 141,
+  "start": 535.533,
+  "end": 535.753,
+  "speaker": "Unknown",
+  "en": "Good.",
+  "zh": "好。"
+ },
+ {
+  "seg": 142,
+  "start": 539.374,
+  "end": 540.535,
+  "speaker": "Unknown",
+  "en": "Oh, I got plenty of time.",
+  "zh": "哦,我时间很充裕。"
+ },
+ {
+  "seg": 143,
+  "start": 547.097,
+  "end": 548.017,
+  "speaker": "Unknown",
+  "en": "That's not it.",
+  "zh": "不是这个。"
+ },
+ {
+  "seg": 144,
+  "start": 548.677,
+  "end": 552.718,
+  "speaker": "Unknown",
+  "en": "Alright, I just had to terminate that because it was running the older version.",
+  "zh": "好吧,我刚才不得不终止那个,因为它在运行旧版本。"
+ },
+ {
+  "seg": 145,
+  "start": 552.738,
+  "end": 554.598,
+  "speaker": "Unknown",
+  "en": "Alright, now it's new.",
+  "zh": "好,现在是新的了。"
+ },
+ {
+  "seg": 146,
+  "start": 555.719,
+  "end": 557.079,
+  "speaker": "Unknown",
+  "en": "I didn't want to wait for that rollout.",
+  "zh": "我不想等那个 rollout。"
+ },
+ {
+  "seg": 147,
+  "start": 560.46,
+  "end": 564.28,
+  "speaker": "Unknown",
+  "en": "I just want to see string cheese Batman.",
+  "zh": "我只想看奶酪条蝙蝠侠。"
+ },
+ {
+  "seg": 148,
+  "start": 564.36,
+  "end": 567.201,
+  "speaker": "Unknown",
+  "en": "Alright, so it responded with a base64.",
+  "zh": "好,所以它返回了一个 base64。"
+ },
+ {
+  "seg": 149,
+  "start": 567.221,
+  "end": 571.242,
+  "speaker": "Unknown",
+  "en": "Okay, let me clean that up before I show that.",
+  "zh": "好的,让我在展示之前清理一下。"
+ },
+ {
+  "seg": 150,
+  "start": 574.943,
+  "end": 575.343,
+  "speaker": "Unknown",
+  "en": "So...",
+  "zh": "那么……"
+ },
+ {
+  "seg": 151,
+  "start": 577.442,
+  "end": 579.924,
+  "speaker": "Unknown",
+  "en": "How you can render this is through the browser.",
+  "zh": "你可以通过浏览器来渲染它。"
+ },
+ {
+  "seg": 152,
+  "start": 587.648,
+  "end": 587.989,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 153,
+  "start": 588.829,
+  "end": 591.07,
+  "speaker": "Unknown",
+  "en": "Let's see what string cheese Batman looks like.",
+  "zh": "让我们看看芝士条蝙蝠侠长什么样。"
+ },
+ {
+  "seg": 154,
+  "start": 593.572,
+  "end": 594.472,
+  "speaker": "Unknown",
+  "en": "That's not string cheese.",
+  "zh": "那不是芝士条。"
+ },
+ {
+  "seg": 155,
+  "start": 595.478,
+  "end": 596.639,
+  "speaker": "Unknown",
+  "en": "But that proves it, right?",
+  "zh": "但这就证明了，对吧？"
+ },
+ {
+  "seg": 156,
+  "start": 597.68,
+  "end": 598.04,
+  "speaker": "Unknown",
+  "en": "It did it.",
+  "zh": "它做到了。"
+ },
+ {
+  "seg": 157,
+  "start": 599.081,
+  "end": 600.662,
+  "speaker": "Unknown",
+  "en": "Now, what if you want to deploy this?",
+  "zh": "现在，如果你想部署这个呢？"
+ },
+ {
+  "seg": 158,
+  "start": 601.462,
+  "end": 602.203,
+  "speaker": "Unknown",
+  "en": "So check this out.",
+  "zh": "看好了。"
+ },
+ {
+  "seg": 159,
+  "start": 602.223,
+  "end": 607.927,
+  "speaker": "Unknown",
+  "en": "When I cancel it, it actually deprovisioned that endpoint, so you don't have to have that lying around.",
+  "zh": "当我取消它时，它实际上已经把那个端点下线了，所以你不用让那个东西一直留在那里。"
+ },
+ {
+  "seg": 160,
+  "start": 609.468,
+  "end": 610.148,
+  "speaker": "Unknown",
+  "en": "See, it's gone now.",
+  "zh": "看，现在它没了。"
+ },
+ {
+  "seg": 161,
+  "start": 611.449,
+  "end": 612.87,
+  "speaker": "Unknown",
+  "en": "Now, what if we want to deploy this?",
+  "zh": "现在，如果我们想部署这个呢？"
+ },
+ {
+  "seg": 162,
+  "start": 613.811,
+  "end": 614.652,
+  "speaker": "Unknown",
+  "en": "So let's deploy that.",
+  "zh": "那我们来部署它。"
+ },
+ {
+  "seg": 163,
+  "start": 618.174,
+  "end": 618.915,
+  "speaker": "Unknown",
+  "en": "Flash Deploy.",
+  "zh": "Flash Deploy。"
+ },
+ {
+  "seg": 164,
+  "start": 620.536,
+  "end": 622.057,
+  "speaker": "Unknown",
+  "en": "That packages up the whole thing.",
+  "zh": "它会把整个东西打包。"
+ },
+ {
+  "seg": 165,
+  "start": 623.538,
+  "end": 625.939,
+  "speaker": "Unknown",
+  "en": "Builds it up, sends it to our servers.",
+  "zh": "构建好，发送到我们的服务器。"
+ },
+ {
+  "seg": 166,
+  "start": 627.239,
+  "end": 628.16,
+  "speaker": "Unknown",
+  "en": "Again, no Docker.",
+  "zh": "再说一次，不用 Docker。"
+ },
+ {
+  "seg": 167,
+  "start": 629.02,
+  "end": 630.16,
+  "speaker": "Unknown",
+  "en": "You're not dealing with Docker here.",
+  "zh": "你在这里不用处理 Docker。"
+ },
+ {
+  "seg": 168,
+  "start": 630.68,
+  "end": 635.962,
+  "speaker": "Unknown",
+  "en": "This is instantaneous packaging of your application, sending it out to our servers, and serving it.",
+  "zh": "这是对你应用程序的即时打包，发送到我们的服务器，然后进行服务。"
+ },
+ {
+  "seg": 169,
+  "start": 638.243,
+  "end": 639.183,
+  "speaker": "Unknown",
+  "en": "Now here's the cool part.",
+  "zh": "现在是最酷的部分。"
+ },
+ {
+  "seg": 170,
+  "start": 639.943,
+  "end": 644.325,
+  "speaker": "Unknown",
+  "en": "Once it's out there, I have prepared this prompt.",
+  "zh": "一旦它部署上去了，我准备好了这个提示词。"
+ },
+ {
+  "seg": 171,
+  "start": 646.846,
+  "end": 650.487,
+  "speaker": "Unknown",
+  "en": "But I just need to change this ID later, because this is going to matter.",
+  "zh": "但我稍后只需要改一下这个 ID，因为这会很重要。"
+ },
+ {
+  "seg": 172,
+  "start": 651.338,
+  "end": 655,
+  "speaker": "Unknown",
+  "en": "Alright, so it's created the archive, built flesh.",
+  "zh": "好的，它创建了归档，构建完成。"
+ },
+ {
+  "seg": 173,
+  "start": 655.68,
+  "end": 658.681,
+  "speaker": "Unknown",
+  "en": "Alright, sending it out, uploaded, deploying.",
+  "zh": "好，发送出去，上传了，正在部署。"
+ },
+ {
+  "seg": 174,
+  "start": 659.742,
+  "end": 660.142,
+  "speaker": "Unknown",
+  "en": "Now it's up.",
+  "zh": "现在它已经上线了。"
+ },
+ {
+  "seg": 175,
+  "start": 661.462,
+  "end": 662.843,
+  "speaker": "Unknown",
+  "en": "Alright, let's see the ID here.",
+  "zh": "好，让我们看一下这里的 ID。"
+ },
+ {
+  "seg": 176,
+  "start": 667.285,
+  "end": 667.745,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 177,
+  "start": 669.466,
+  "end": 672.307,
+  "speaker": "Unknown",
+  "en": "Now let's get this going.",
+  "zh": "现在让我们把它跑起来。"
+ },
+ {
+  "seg": 178,
+  "start": 673.687,
+  "end": 677.109,
+  "speaker": "Unknown",
+  "en": "So my prompt is a cute baby sea otter with a bow tie.",
+  "zh": "我的提示词是一只戴着领结的可爱小海獭。"
+ },
+ {
+  "seg": 179,
+  "start": 679.508,
+  "end": 680.429,
+  "speaker": "Unknown",
+  "en": "Generate that image.",
+  "zh": "生成那张图片。"
+ },
+ {
+  "seg": 180,
+  "start": 682.17,
+  "end": 683.431,
+  "speaker": "Unknown",
+  "en": "Oh yeah, I want to show you where this is.",
+  "zh": "哦对了，我想给你看看这个在哪里。"
+ },
+ {
+  "seg": 181,
+  "start": 684.671,
+  "end": 686.233,
+  "speaker": "Unknown",
+  "en": "Now this is fully servable, right?",
+  "zh": "现在这个是完全可服务的，对吧？"
+ },
+ {
+  "seg": 182,
+  "start": 686.253,
+  "end": 690.335,
+  "speaker": "Unknown",
+  "en": "Like you can have your customers, you know, use your application that uses this backend.",
+  "zh": "就像你可以让你的客户，你知道，使用使用了这个后端的应用程序。"
+ },
+ {
+  "seg": 183,
+  "start": 690.775,
+  "end": 693.017,
+  "speaker": "Unknown",
+  "en": "It no longer lives in my local host.",
+  "zh": "它不再运行在我的本地主机上了。"
+ },
+ {
+  "seg": 184,
+  "start": 693.037,
+  "end": 694.318,
+  "speaker": "Unknown",
+  "en": "This is being hosted.",
+  "zh": "这个是被托管的。"
+ },
+ {
+  "seg": 185,
+  "start": 697.54,
+  "end": 698.801,
+  "speaker": "Unknown",
+  "en": "All right, let's see workers.",
+  "zh": "好，让我们看看 workers。"
+ },
+ {
+  "seg": 186,
+  "start": 700.762,
+  "end": 701.182,
+  "speaker": "Unknown",
+  "en": "Log.",
+  "zh": "日志。"
+ },
+ {
+  "seg": 187,
+  "start": 705.01,
+  "end": 709.811,
+  "speaker": "Unknown",
+  "en": "Okay, when it's done, it should print the output here.",
+  "zh": "好的，等它完成时，它应该会在这里打印输出。"
+ },
+ {
+  "seg": 188,
+  "start": 711.772,
+  "end": 712.412,
+  "speaker": "Unknown",
+  "en": "There we go.",
+  "zh": "好了。"
+ },
+ {
+  "seg": 189,
+  "start": 713.772,
+  "end": 717.373,
+  "speaker": "Unknown",
+  "en": "Alright, let me wrap this so I could pull this up.",
+  "zh": "好，让我把它包起来，这样我就能把它调出来。"
+ },
+ {
+  "seg": 190,
+  "start": 722.855,
+  "end": 725.595,
+  "speaker": "Unknown",
+  "en": "This is crazy doing it in one hand.",
+  "zh": "单手操作这个太疯狂了。"
+ },
+ {
+  "seg": 191,
+  "start": 726.756,
+  "end": 729.616,
+  "speaker": "Unknown",
+  "en": "Alright, let's load up the picture of a sea otter with a bowtie.",
+  "zh": "好，让我们加载那张戴着领结的海獭图片。"
+ },
+ {
+  "seg": 192,
+  "start": 730.977,
+  "end": 732.037,
+  "speaker": "Unknown",
+  "en": "There's no bowtie.",
+  "zh": "没有领结。"
+ },
+ {
+  "seg": 193,
+  "start": 734.13,
+  "end": 736.551,
+  "speaker": "Unknown",
+  "en": "But that's not the point.",
+  "zh": "但那不是重点。"
+ },
+ {
+  "seg": 194,
+  "start": 737.991,
+  "end": 738.692,
+  "speaker": "Unknown",
+  "en": "So you get that.",
+  "zh": "所以你看到这个了。"
+ },
+ {
+  "seg": 195,
+  "start": 739.312,
+  "end": 739.852,
+  "speaker": "Unknown",
+  "en": "That's the demo.",
+  "zh": "这就是演示。"
+ },
+ {
+  "seg": 196,
+  "start": 740.772,
+  "end": 744.754,
+  "speaker": "Unknown",
+  "en": "We had a hackathon yesterday, and I just wanted to present this to you.",
+  "zh": "我们昨天办了一场黑客松，我只是想把这个展示给你们。"
+ },
+ {
+  "seg": 197,
+  "start": 745.154,
+  "end": 747.015,
+  "speaker": "Unknown",
+  "en": "I'm very proud of this guy, Phong Cao.",
+  "zh": "我为这家伙感到非常骄傲，Phong Cao。"
+ },
+ {
+  "seg": 198,
+  "start": 747.595,
+  "end": 750.416,
+  "speaker": "Unknown",
+  "en": "He created a wrapper around our flash.",
+  "zh": "他在我们的 flash 外面做了一个封装。"
+ },
+ {
+  "seg": 199,
+  "start": 751.136,
+  "end": 759.843,
+  "speaker": "Unknown",
+  "en": "That enables you to upload a data sheet of all your experiments, of some specifications, of some models, and run it instantly.",
+  "zh": "让你可以上传一个包含你所有实验的数据表、一些规格说明、一些模型的表格，然后立即运行它。"
+ },
+ {
+  "seg": 200,
+  "start": 760.363,
+  "end": 766.908,
+  "speaker": "Unknown",
+  "en": "And it just fans out, builds out all these endpoints, runs your training, and then reports back to you.",
+  "zh": "然后它就会扇出，构建出所有这些 endpoints，运行你的训练，然后向你报告结果。"
+ },
+ {
+  "seg": 201,
+  "start": 767.949,
+  "end": 771.451,
+  "speaker": "Unknown",
+  "en": "And he did this within three to four hours.",
+  "zh": "他在三到四个小时内就做到了。"
+ },
+ {
+  "seg": 202,
+  "start": 772.472,
+  "end": 775.374,
+  "speaker": "Unknown",
+  "en": "And he had no idea how to do RunPod Flash.",
+  "zh": "而他完全不知道怎么用 RunPod Flash。"
+ },
+ {
+  "seg": 203,
+  "start": 775.874,
+  "end": 778.236,
+  "speaker": "Unknown",
+  "en": "He had to ask me questions if this was even possible.",
+  "zh": "他还得问我这到底可不可能做到。"
+ },
+ {
+  "seg": 204,
+  "start": 778.256,
+  "end": 778.977,
+  "speaker": "Unknown",
+  "en": "I'm like, let's see.",
+  "zh": "我说，试试看吧。"
+ },
+ {
+  "seg": 205,
+  "start": 780.338,
+  "end": 788.083,
+  "speaker": "Unknown",
+  "en": "And he was very surprised when he won yesterday because his project was not even his best one apparently.",
+  "zh": "而且他昨天获胜时非常惊讶，因为据说他的项目甚至不是他最好的一个。"
+ },
+ {
+  "seg": 206,
+  "start": 788.763,
+  "end": 790.324,
+  "speaker": "Unknown",
+  "en": "And he keeps losing to other hackathons.",
+  "zh": "他还在其他黑客松上一直输。"
+ },
+ {
+  "seg": 207,
+  "start": 790.344,
+  "end": 791.885,
+  "speaker": "Unknown",
+  "en": "So just really proud of this guy.",
+  "zh": "所以我真心为这家伙感到骄傲。"
+ },
+ {
+  "seg": 208,
+  "start": 793.615,
+  "end": 795.196,
+  "speaker": "Unknown",
+  "en": "How do you get started with RunPod Flash?",
+  "zh": "你要怎么开始使用 RunPod Flash？"
+ },
+ {
+  "seg": 209,
+  "start": 795.396,
+  "end": 813.206,
+  "speaker": "Unknown",
+  "en": "So you sign up for an account on RunPod, scan that QR code, get some $10 credit now, and all you really have to do is just install it, write your code, log in to have your API key in there, initialize, you'll have some skeleton application if you want.",
+  "zh": "你在 RunPod 上注册一个账号，扫那个二维码，现在可以获得 10 美元的额度，而你真正需要做的就是安装它，写你的代码，登录把你的 API key 放进去，初始化，如果你需要的话还有一些骨架应用程序可以用。"
+ },
+ {
+  "seg": 210,
+  "start": 814.066,
+  "end": 818.027,
+  "speaker": "Unknown",
+  "en": "Flash Dev, the local dev that you have, or Flash Deploy to production.",
+  "zh": "Flash Dev 是你本地的开发环境，或者用 Flash Deploy 部署到生产环境。"
+ },
+ {
+  "seg": 211,
+  "start": 819.128,
+  "end": 820.708,
+  "speaker": "Unknown",
+  "en": "And we have all these URLs.",
+  "zh": "我们有所有这些 URL。"
+ },
+ {
+  "seg": 212,
+  "start": 821.068,
+  "end": 829.671,
+  "speaker": "Unknown",
+  "en": "The best advice I have is visit the RunPod Flash examples on GitHub because we have all these cases and examples that you could kind of refer.",
+  "zh": "我最好的建议是去 GitHub 上看 RunPod Flash 的示例，因为我们有各种案例和示例可以供你参考。"
+ },
+ {
+  "seg": 213,
+  "start": 830.131,
+  "end": 837.273,
+  "speaker": "Unknown",
+  "en": "Or if you like AI coding, just run Cloud Code into that repository and it will learn everything.",
+  "zh": "或者如果你喜欢 AI 编程，直接把 Cloud Code 跑到那个仓库里，它就会学会一切。"
+ },
+ {
+  "seg": 214,
+  "start": 838.534,
+  "end": 840.394,
+  "speaker": "Unknown",
+  "en": "We also have skills if you're into that.",
+  "zh": "如果你喜欢的话，我们还有 skills。"
+ },
+ {
+  "seg": 215,
+  "start": 841.775,
+  "end": 842.855,
+  "speaker": "Unknown",
+  "en": "And that is my presentation.",
+  "zh": "这就是我的演讲。"
+ },
+ {
+  "seg": 216,
+  "start": 846.675,
+  "end": 846.895,
+  "speaker": "Unknown",
+  "en": "Music .",
+  "zh": "音乐。"
+ }
+]

@@ -1,0 +1,137 @@
+{
+  "title_zh": "写完代码直接跑云端显卡：RunPod Flash 说再见 Docker",
+  "tldr": "RunPod 工程师 Dean Quiñanola 演示 Flash，不写 Dockerfile，代码直接部署到云端 GPU。",
+  "digest_md": "写 AI 应用的工程师大多经历过这样的循环：改代码，构建 Docker 镜像，推送到镜像仓库，执行，看结果，不对就再来一遍。RunPod 的一位资深工程师在一场演讲中说，这一圈下来有时要 15 分钟。他所在的团队做了 RunPod Flash，想让这个循环变成：写代码，执行，拿结果。\n\n> 【背景】演讲者是 RunPod 工程师 Dean Quiñanola（原文转写中未能核实其姓名，故正文中仅以「RunPod 的一位资深工程师」指代）。\n\n## 为什么大家恨 Docker 这个环节\n\nDocker 本身是打包和运行软件的工具，但对机器学习工程师来说，它是想法和结果之间的一堵墙。Dean 说，很多软件工程师和机器学习工程师「真的不想处理这些运维工作」，他们只想要实验结果 [01:23 Unknown]。\n\nFlash 的口号是：像本地一样跑代码，就像你手边有一块 GPU。改完立刻测试，需要的话快速调试。\n\n## 演示：从查显卡到生成图片\n\nDean 现场演示了迭代过程。第一条函数只是用 PyTorch 查询当前 GPU 型号。他运行 flash dev 命令，本地起一个服务，执行后云端自动分配了一个无服务器端点，任务跑在一块 NVIDIA GeForce RTX 4090 上。\n\n接着他改代码，加了一个文本生成函数和 Python 依赖。他说这些依赖「是在运行时即时安装的」[06:47 Unknown]。有趣的是，没配 Hugging Face 令牌时，模型对「字符串奶酪是真的吗」的回答是「对不起，我不能提供答案」。加上令牌再跑，蝙蝠侠是谁就得到了正常回答。\n\n最后是图像生成。他输入的提示词是「一根字符串奶酪打扮成的蝙蝠侠」。生成的图其实不像奶酪——他自己也吐槽那不是字符串奶酪——但流程跑通了 [09:53 Unknown]。\n\n## 端点和端点之间能互相调用\n\n功能上，Flash 目前主要面向无服务器端点，也支持队列端点和负载均衡端点。Dean 特别提到一个他亲手做的功能：端点到端点通信。\n\n平时你搭多个服务，得操心它们之间怎么联系。在 Flash 里，「你执行一个函数，看起来就像在本地一样」，但部署到不同端点后，它们在底层自动互通 [02:55 Unknown]。此外还支持网络存储卷挂载，并带热缓存——扩容时缓存能跟着迁移过去。\n\n## 一条命令部署到生产\n\n演示的收尾是正式部署。运行 flash deploy，系统打包整个应用、上传到 RunPod 服务器并开始对外服务，全程不碰 Docker，用他的话说，**这是即时打包你的应用**[10:30 Unknown]。\n\n部署成功后，他用提示词「一只戴领结的可爱小海獭」生成了图片——领结同样没画出来，但服务确实不再跑在他的本地，而是托管在云端，可以接给真实客户用了。另外，取消开发会话时，临时端点会自动注销，不会留着吃钱。\n\n## 黑客松上的意外验证\n\n演讲前一天，RunPod 办了一场黑客松。一位叫 Phong Cao 的参与者给 Flash 包了一层外壳：上传一张记录实验和模型规格的表格，它会自动铺开一堆端点、跑训练、汇报结果。Dean 说，**这东西是在3 到 4 个小时内做出来的** [12:52 Unknown]，而 Phong 之前根本不会用 RunPod Flash，中途还不停来问这能不能做、那能不能做——结果这个项目拿了奖。\n\n## 怎么上手\n\n注册 RunPod 账号，装好工具，写入 API 密钥，初始化就能拿到一个骨架应用。日常就是两条命令：flash dev 做本地开发，flash deploy 上生产。Dean 建议去看 GitHub 上的 RunPod Flash 示例仓库，各种用例都有；喜欢用 AI 写代码的，直接把 Cloud Code 跑到那个仓库里，它会学会一切[13:50 Unknown]。演讲者还提到，如果感兴趣的话，他们还提供了 skills[13:58 Unknown]。\n\n> 【背景】原文转写稿写作「Cloud Code」，实际应指 Anthropic 的 AI 编程工具 Claude Code。\n\n## 本集带走\n\n- 传统流程里改一次代码要重新构建、推送 Docker 镜像，一轮可能花 15 分钟；Flash 想把循环压缩成写代码、执行、拿结果。\n- Python 依赖在运行时即时安装，不需要自己打包镜像。\n- 支持无服务器端点、队列、负载均衡，端点之间可以直接像本地函数一样互相调用。\n- 一条 flash deploy 命令就能把应用部署到生产，供真实客户调用；取消开发会话会自动注销临时端点。\n- 黑客松上有人 3 到 4 小时就在 Flash 上搭出了批量跑训练的工具。",
+  "quotes": [
+    {
+      "en": "And then, you know, this would just be a toy project if you can't deploy to production, right?",
+      "zh": "如果不能部署到生产环境，这就只能算个玩具项目，对吧？",
+      "timestamp": "03:27",
+      "speaker": "Dean Quiñanola"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:56",
+      "speaker": "Unknown",
+      "en": "In my experience, sometimes this one loop takes about 15 minutes, depending on the changes you're doing.",
+      "zh": "根据我的经验，有时候这一个循环要花大约 15 分钟，取决于你在做的修改。"
+    },
+    {
+      "timestamp": "01:20",
+      "speaker": "Unknown",
+      "en": "A lot of you guys are software engineers or ML engineers who really don't want to deal with all the DevOps.",
+      "zh": "你们当中很多人是软件工程师或 ML 工程师，真的不想去处理所有那些 DevOps。"
+    },
+    {
+      "timestamp": "01:27",
+      "speaker": "Unknown",
+      "en": "So as you're working on your ideas or as you're working on your experiments, you want the results.",
+      "zh": "当你在琢磨你的想法、做你的实验时，你想要的是结果。"
+    },
+    {
+      "timestamp": "01:33",
+      "speaker": "Unknown",
+      "en": "So no more need for Docker.",
+      "zh": "所以不再需要 Docker 了。"
+    },
+    {
+      "timestamp": "01:35",
+      "speaker": "Unknown",
+      "en": "Run code like it's local as if you have the GPU.",
+      "zh": "像在本地一样运行代码，就好像你拥有 GPU 一样。"
+    },
+    {
+      "timestamp": "02:07",
+      "speaker": "Unknown",
+      "en": "So we are able to build and deploy faster.",
+      "zh": "我们能够更快地构建和部署。"
+    },
+    {
+      "timestamp": "02:12",
+      "speaker": "Unknown",
+      "en": "There's a lot of tricks happening under the hood.",
+      "zh": "底层有很多技巧在运作。"
+    },
+    {
+      "timestamp": "02:37",
+      "speaker": "Unknown",
+      "en": "Here's the really cool feature that I put in, an endpoint to endpoint communication.",
+      "zh": "这是我加入的一个非常酷的特性：端点到端点的通信。"
+    },
+    {
+      "timestamp": "02:51",
+      "speaker": "Unknown",
+      "en": "You don't have to do that with this because it's just a code talking to another code.",
+      "zh": "用这个你不用那么做，因为这只是一段代码在和另一段代码对话。"
+    },
+    {
+      "timestamp": "03:07",
+      "speaker": "Unknown",
+      "en": "We have warm caching in network volume attachments so that if you ever have to scale up with your serverless endpoints, then it has those caches carried over through the network volumes.",
+      "zh": "我们在网络卷挂载中有热缓存，这样当你需要扩容无服务器端点时，缓存会通过网络卷延续下去。"
+    },
+    {
+      "timestamp": "03:27",
+      "speaker": "Unknown",
+      "en": "And then, you know, this would just be a toy project if you can't deploy to production, right?",
+      "zh": "如果不能部署到生产环境，这就只能算个玩具项目，对吧？"
+    },
+    {
+      "timestamp": "10:27",
+      "speaker": "Unknown",
+      "en": "Again, no Docker.",
+      "zh": "再说一次，不用 Docker。"
+    },
+    {
+      "timestamp": "10:30",
+      "speaker": "Unknown",
+      "en": "This is instantaneous packaging of your application, sending it out to our servers, and serving it.",
+      "zh": "这是对你应用程序的即时打包，发送到我们的服务器，然后进行服务。"
+    },
+    {
+      "timestamp": "11:24",
+      "speaker": "Unknown",
+      "en": "Now this is fully servable, right?",
+      "zh": "现在这个是完全可服务的，对吧？"
+    },
+    {
+      "timestamp": "11:30",
+      "speaker": "Unknown",
+      "en": "It no longer lives in my local host.",
+      "zh": "它不再运行在我的本地主机上了。"
+    },
+    {
+      "timestamp": "12:47",
+      "speaker": "Unknown",
+      "en": "And he did this within three to four hours.",
+      "zh": "他在三到四个小时内就做到了。"
+    },
+    {
+      "timestamp": "12:52",
+      "speaker": "Unknown",
+      "en": "And he had no idea how to do RunPod Flash.",
+      "zh": "而他完全不知道怎么用 RunPod Flash。"
+    },
+    {
+      "timestamp": "12:55",
+      "speaker": "Unknown",
+      "en": "He had to ask me questions if this was even possible.",
+      "zh": "他还得问我这到底可不可能做到。"
+    },
+    {
+      "timestamp": "13:00",
+      "speaker": "Unknown",
+      "en": "And he was very surprised when he won yesterday because his project was not even his best one apparently.",
+      "zh": "他昨天获胜时非常惊讶，因为据说他的项目甚至不是他最好的一个。"
+    },
+    {
+      "timestamp": "13:50",
+      "speaker": "Unknown",
+      "en": "Or if you like AI coding, just run Cloud Code into that repository and it will learn everything.",
+      "zh": "或者如果你喜欢 AI 编程，直接把 Cloud Code 跑到那个仓库里，它就会学会一切。"
+    }
+  ],
+  "voice_script": "今天这一期，聊的是一件写 AI 应用的工程师几乎天天在受的罪，以及有人把它给解决了。\n\n先说人。RunPod 是一家做云端 GPU 的公司，今天的主角是 RunPod 的一位资深工程师，叫 Dean Quiñanola。要聊的问题特别具体：改代码、构建 Docker 镜像、推送到镜像仓库、执行、看结果，不对就再来一遍。Docker 本身是个打包和运行软件的工具，但对机器学习工程师来说，它成了想法和结果之间的一堵墙。Dean 说，很多软件工程师和机器学习工程师，真的不想处理这些运维工作，他们只想要实验结果。而这一圈打包推送下来，有时要 15 分钟。\n\n所以 Dean 所在的团队做了个东西，叫 RunPod Flash。口号是：像本地一样跑代码，就像你手边有一块 GPU。改完立刻测试，需要的话快速调试。整个循环被压缩成三步——写代码，执行，拿结果。\n\n那这东西到底怎么用？Dean 在演讲现场走了一遍完整的流程。\n\n第一步很简单。他写的第一个函数，只是用 PyTorch 查询当前的 GPU 型号。然后运行一个叫 flash dev 的命令，本地起一个服务，执行之后，云端自动分配了一个无服务器端点，任务跑在一块 NVIDIA GeForce RTX 4090 上。也就是说，本地只管写代码，活儿是在云端的显卡上干的。\n\n接着，改代码。加了一个文本生成函数，还加了几个 Python 依赖。这里有个关键点：这些依赖是在运行时即时安装的，你不需要自己打镜像。中间还有个有意思的小插曲——没配 Hugging Face 令牌的时候，模型被问「字符串奶酪是真的吗」，回答是「对不起，我不能提供答案」；加上令牌再跑，问蝙蝠侠是谁，就得到了正常回答。\n\n最后是图像生成。Dean 输入的提示词是「一根字符串奶酪打扮成的蝙蝠侠」。生成的图其实不像奶酪，他自己也吐槽那不是字符串奶酪——但重点是流程跑通了，从改代码到出结果，中间没碰过 Docker。\n\n讲到这里你可能会想：跑一个函数是挺爽，可真实项目往往是多个服务配合，它们之间怎么联系？这正是 Flash 里 Dean 特别得意的一个功能，叫端点到端点通信。平时你搭多个服务，得操心它们之间怎么互相调用。在 Flash 里，你执行一个函数，看起来就像在本地一样，但部署到不同端点之后，它们在底层自动互通。除此之外，还支持网络存储卷挂载，而且带热缓存——扩容的时候，缓存能跟着迁移过去。\n\n好，本地开发说完了，那生产环境呢？毕竟有句话说得实在：如果不能部署到生产环境，这就只能算个玩具项目，对吧？演示的收尾就是正式部署。运行 flash deploy，系统打包整个应用、上传到 RunPod 服务器并开始对外服务，全程不碰 Docker。用 Dean 的话说，这是即时打包你的应用。部署成功之后，他用另一个提示词生成了图片——「一只戴领结的可爱小海獭」。领结同样没画出来，但服务确实不再跑在本地，而是托管在云端，可以接给真实客户用了。还有个贴心的细节：取消开发会话时，临时端点会自动注销，不会留在那儿偷偷吃钱。\n\n这套东西到底好不好用，还有一个意外的验证。演讲前一天，RunPod 办了一场黑客松。一位叫 Phong Cao 的参与者，给 Flash 包了一层外壳：上传一张记录实验和模型规格的表格，它会自动铺开一堆端点、跑训练、汇报结果。而 Phong 之前根本不会用 RunPod Flash，中途还不停来问这能不能做、那能不能做——就这么个项目，3 到 4 个小时就做出来了，最后还拿了奖。一个新手半天时间就能在上边搭出批量跑训练的工具，这大概是比任何演示都有说服力的证明。\n\n如果你想上手，其实不难：注册一个 RunPod 账号，装好工具，写入 API 密钥，初始化之后就能拿到一个骨架应用。日常就是两条命令——flash dev 做本地开发，flash deploy 上生产。Dean 还建议去 GitHub 上的 RunPod Flash 示例仓库看看，各种用例都有；喜欢用 AI 写代码的话，直接把 Claude Code 跑到那个仓库里，它会学会一切。另外，如果感兴趣的话，团队还提供了 skills。\n\n改一次代码不用再等 15 分钟重新打包，写完就能跑在云端显卡上——这就是 RunPod Flash 想给你的东西。用他们的话说，如果连生产环境都部署不了，那一切都只是玩具项目。"
+}

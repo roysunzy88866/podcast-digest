@@ -1,0 +1,1151 @@
+{
+  "episode_id": "2026-10-11-talks-turning-my-obsidian-vault-into-a-local-a",
+  "podcast": "精选演讲",
+  "date": "2026-10-11",
+  "tags": [
+    "AI 基础设施",
+    "隐私",
+    "开源模型",
+    "MCP",
+    "推理基础设施"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "filip-makraduli",
+      "type": "person",
+      "role": "guest",
+      "name": "Filip Makraduli",
+      "file": "Filip Makraduli",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "superlinked",
+      "type": "company",
+      "role": "company",
+      "name": "Superlinked",
+      "file": "Superlinked",
+      "primary": true,
+      "how_described": "本集说 Superlinked 是一个开源的模型推理引擎，既有集群方案也有模型推理方案，演讲者用它搭起整套私有云文档预处理系统",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            125.192,
+            137.458
+          ],
+          "quote": "And I found that the solution was in Superlinked, which is a model inference engine that's open source.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            272.257,
+            276.861
+          ],
+          "quote": "involves Superlinked and Cy, the repo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            287.148,
+            288.75
+          ],
+          "quote": "It's Superlinked Cy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1394.72,
+            1399.744
+          ],
+          "quote": "So Superlinked and the inference engine and the cluster is set up in",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1466.897,
+            1475.859
+          ],
+          "quote": "So both the kind of the MCP work that gets offloaded to Superlinked SI is in your own private cloud.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1569.597,
+            1592.445
+          ],
+          "quote": "And this goes in the direction of kind of what the MCP does and the tool calling aspect where you could build agents and have this inference part offloaded using Superlinked and you can get different bundles of tasks set up, so basically document parsing like I explained or embedding content or",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集里演讲者日常在 Claude Code 里干活，把它作为 MCP 客户端/主智能体，敏感任务被卸载到私有云处理后它只拿到脱敏结果",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            87.308,
+            90.61
+          ],
+          "quote": "So when using agents, when using Claude Code, when using Cowork,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            155.507,
+            163.432
+          ],
+          "quote": "So the first main idea was I wanted to make Claude Code a bit cheaper and save on tokens.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            219.199,
+            234.509
+          ],
+          "quote": "Yes, for certain situations it's fine to paste everything into Claude Code or have that API working there, but what if you could kind of self-host and have your own VPC or your own cloud to pre-process your sensitive documents and then return something back?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            430.781,
+            451.196
+          ],
+          "quote": "So, as I said, the idea was to have this privacy element and have a way to offload, so basically I didn't want to disrupt my normal usage day to day, so I'm just working in Claude Code, and then if there's a specific task that needs to be done on my",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            467.533,
+            485.937
+          ],
+          "quote": "But this was even elevated more by building a whole MCP server that gets called in Claude Code and there's that element of using skills but also having actually a dedicated edge that can actually do the heavy lifting.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            513.467,
+            523.991
+          ],
+          "quote": "So if you pre-process that with good open source OCR models and then return to your main agent's harness or Claude Code or whatever you're using,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            647.692,
+            660.135
+          ],
+          "quote": "There is the MCP client, that's kind of client and host through co-work or Claude Code or whatever you use, and that communicates with the PSY MCP server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            729.816,
+            737.779
+          ],
+          "quote": "You can do this like with any setup that you want, like whether it's Claude Desktop, Claude Code and so on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            778.251,
+            779.352
+          ],
+          "quote": "Claude Code would use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            1081.585,
+            1086.247
+          ],
+          "quote": "I will now do the demo, so I'm going to Claude Code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            1194.408,
+            1198.894
+          ],
+          "quote": "Claude Code doesn't see this stuff or whatever agent you're using.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            1222.156,
+            1228.743
+          ],
+          "quote": "You would need to do this slightly different, but you can totally prompt even Claude Code and so on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 282,
+          "t": [
+            2248.589,
+            2265.092
+          ],
+          "quote": "And I think the main takeaway for today is that infrastructure and inference is far more important even for this very API friendly or ergonomic designs where you just work with Claude Code and you can kind of offset your",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 337,
+          "t": [
+            2629.731,
+            2641.055
+          ],
+          "quote": "And in that way, even like you could still save on tokens and get better context, even if like this is Claude Code in my example, but it can be any harness.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "obsidian",
+      "type": "company",
+      "role": "company",
+      "name": "Obsidian",
+      "file": "Obsidian",
+      "primary": true,
+      "how_described": "本集说它是演讲者的 markdown 笔记库，是整个用例的起点，数据存储在那里，也是隐私顾虑的来源",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            50.031,
+            52.432
+          ],
+          "quote": "So I started with Obsidian.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            322.824,
+            330.291
+          ],
+          "quote": "It was easy to figure out how to store the data, maybe in Obsidian and so on, and have these connections between the data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            367.023,
+            375.908
+          ],
+          "quote": "Here you can see this Obsidian example, so I'll work with kind of some of these things, but you can also try this yourself.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集把它说成智能体调用外部工具的标准接口，相比插件能职责分离、把重活卸载到自己可控的服务器上",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 44,
+          "t": [
+            301.238,
+            307.62
+          ],
+          "quote": "So an MCP integration, which is basically a package that we did, which is this one here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            467.533,
+            485.937
+          ],
+          "quote": "But this was even elevated more by building a whole MCP server that gets called in Claude Code and there's that element of using skills but also having actually a dedicated edge that can actually do the heavy lifting.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            547.239,
+            552.3
+          ],
+          "quote": "So why MCP and not just an API or a plugin?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            571.946,
+            596.766
+          ],
+          "quote": "And everything runs on a server you can control, so through SAI you can pick your worker pools, you can pick your GPUs, basically, and understand which models are pinned where, and that flexibility from a cloud perspective was an advantage, and I wanted to keep it that way, and that's why I went with MCP rather than just a skill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            640.47,
+            642.951
+          ],
+          "quote": "The MCP setup, it has three tiers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            643.971,
+            647.252
+          ],
+          "quote": "So there is, you can see in the middle, the PSY MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            647.692,
+            660.135
+          ],
+          "quote": "There is the MCP client, that's kind of client and host through co-work or Claude Code or whatever you use, and that communicates with the PSY MCP server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            661.418,
+            686.055
+          ],
+          "quote": "And then you have actually SIDEM cluster that has the GPUs and the worker pools that do the work by communicating to the MCP server, and you have different models that are available, and we also have a good queuing mechanism for this GPUs, and I will go more into that a bit later.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            686.936,
+            703.81
+          ],
+          "quote": "And the idea with MCP, as you know, in general is to have like one interface of communicating, especially if we're building more and more tools with this direction of model routing, because the demo and the version that we have now is around tool calling.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            766.709,
+            771.555
+          ],
+          "quote": "So in the MCP standard, that has changed a bit since its inception.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            780.333,
+            798.788
+          ],
+          "quote": "However, in general, there is in kind of the MCP universe, there is a situation where the client can also expose stuff like sampling or elicitation, which kind of makes this a two-way communication, so not like a standard client server setup.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            807.615,
+            818.007
+          ],
+          "quote": "Basically the sci MCP edge only exposes the tools and they can be used, the ones that kind of were initialized in the handshake and that's it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            848.245,
+            852.647
+          ],
+          "quote": "You can do this also locally, so in the MCP universe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1451.617,
+            1457.062
+          ],
+          "quote": "And this is of course the architecture of the MCP solution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1466.897,
+            1475.859
+          ],
+          "quote": "So both the kind of the MCP work that gets offloaded to Superlinked SI is in your own private cloud.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1569.597,
+            1592.445
+          ],
+          "quote": "And this goes in the direction of kind of what the MCP does and the tool calling aspect where you could build agents and have this inference part offloaded using Superlinked and you can get different bundles of tasks set up, so basically document parsing like I explained or embedding content or",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1767.081,
+            1771.522
+          ],
+          "quote": "And this is kind of how the MCP works.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 294,
+          "t": [
+            2366.529,
+            2372.816
+          ],
+          "quote": "basically play with your own version of retrieval through this MCP and so on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 328,
+          "t": [
+            2572.844,
+            2579.766
+          ],
+          "quote": "But I'm saying, if you're in Claude, you're telling you to do something that's ultimately gonna go to an MCP, right, that's a step.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 329,
+          "t": [
+            2579.786,
+            2580.947
+          ],
+          "quote": "Claude had to make the decision to call the MCP.",
+          "speaker": "unknown"
+        },
+        {
+          "seg": 332,
+          "t": [
+            2598.995,
+            2618.122
+          ],
+          "quote": "Definitely that can be kind of tested more and more, but in the test that I've done, like if you host the kind of MCP and everything else is on the virtual private cloud, this seemed to have worked without kind of the data leaking, but I'm sure there can be more guardrails to kind of reinforce this at that,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 362,
+          "t": [
+            2760.537,
+            2762.118
+          ],
+          "quote": "Does the MCP have a file?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ocr",
+      "type": "concept",
+      "role": "concept",
+      "name": "OCR",
+      "file": "OCR",
+      "primary": true,
+      "how_described": "本集反复强调：OCR 是 token 成本攀升的重灾区，而开源 OCR 模型已经非常好，外包出去质量上不妥协",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            179.538,
+            187.266
+          ],
+          "quote": "So that was one thing, especially for document processing, sensitive document processing, where you need to do OCR.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            513.467,
+            523.991
+          ],
+          "quote": "So if you pre-process that with good open source OCR models and then return to your main agent's harness or Claude Code or whatever you're using,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            532.839,
+            537.564
+          ],
+          "quote": "So that's the general idea, especially for OCR, this is apparent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            538.697,
+            546.679
+          ],
+          "quote": "However, there are multiple token saving advantages even beyond OCR.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            896.345,
+            898.628
+          ],
+          "quote": "OCR models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            908.283,
+            911.247
+          ],
+          "quote": "A detail here is that with OCR,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            911.247,
+            915.59
+          ],
+          "quote": "OCR models especially, the open source models are very good.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            915.61,
+            922.675
+          ],
+          "quote": "So you're not compromising in quality by offloading some of the work to open source OCR models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            1200.356,
+            1205.262
+          ],
+          "quote": "And in certain situations, you can get better performances with the OCR stuff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            1260.561,
+            1267.327
+          ],
+          "quote": "So this is in natural language to try to get the OCR models to work, and that's tool to be called.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1313.414,
+            1339.181
+          ],
+          "quote": "Let's say contract before, so this is how it looks, and this is a scan, so I don't know if you can see now, because it's a clean one, but this is, you can see, so it's an image, it's not like text, so it needs OCR probably, and then if we do the after one, this is some",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1352.784,
+            1359.708
+          ],
+          "quote": "So the idea is that you preprocess the document through the OCR tool calling thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1974.918,
+            1987.946
+          ],
+          "quote": "One OCR model, I could say that, okay, for this tool call, I actually want OCR cheap or some other sort of tool call that, depending on the task, adapts to what I'm trying to do.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-source-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source models)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集的核心论点之一：开源模型在 OCR、实体识别、嵌入等任务上已接近前沿模型（嵌入测试达 99.8% 质量而价格低约 10 倍），且能自托管保隐私",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            116.627,
+            124.411
+          ],
+          "quote": "And there was kind of this openness to fine tune, to be very adaptable, to use open source models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            911.247,
+            915.59
+          ],
+          "quote": "OCR models especially, the open source models are very good.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            932.102,
+            939.427
+          ],
+          "quote": "And even in general, open source models are catching up and finding a way to bring them out there, bring them in production is",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说推理基础设施才是真正被低估的瓶颈：好的批处理、模型热切换和架构设计能带来端到端性能提升，即使单模型推理没优化到极致",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            125.192,
+            137.458
+          ],
+          "quote": "And I found that the solution was in Superlinked, which is a model inference engine that's open source.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            137.498,
+            140.84
+          ],
+          "quote": "It has both a cluster and a model inference solution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            312.681,
+            321.664
+          ],
+          "quote": "So this is where most of the talk will be about, but I'll also mention why actually the inference was the bottleneck when building something like this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            336.136,
+            340.48
+          ],
+          "quote": "However, if I wanted to do open source, if I wanted to do open source inference,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            382.089,
+            399.703
+          ],
+          "quote": "We cannot, I cannot give that to you right now live, however, you can go to our website, which is this one, and here you have this apply for inference grant, so you can go there and you'll receive your API key that you can try and",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            487.197,
+            500.688
+          ],
+          "quote": "And you can also benefit from Superlink's inference, which I will talk about later on, kind of how we've done this and what are the advantages of using Superlink's inference engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            979.877,
+            985.741
+          ],
+          "quote": "Still, it will utilize the inference, which is the bigger bottleneck in situations like this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1394.72,
+            1399.744
+          ],
+          "quote": "So Superlinked and the inference engine and the cluster is set up in",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1569.597,
+            1592.445
+          ],
+          "quote": "And this goes in the direction of kind of what the MCP does and the tool calling aspect where you could build agents and have this inference part offloaded using Superlinked and you can get different bundles of tasks set up, so basically document parsing like I explained or embedding content or",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1698.137,
+            1712.888
+          ],
+          "quote": "So if your infrastructure and architecture is set up well, you basically get the latency improvement and the better performance even if your per model inference is not optimized.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1893.073,
+            1914.162
+          ],
+          "quote": "The inference solved as a little box in your whole workflow, it unlocks a lot of opportunities that can go kind of beyond text with other models, looking at transcripts, even graph-based data, generating ontologies and so on by different tool calls, structure generation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 264,
+          "t": [
+            2088.642,
+            2100.485
+          ],
+          "quote": "And I'm just mentioning this stuff just to kind of showcase how powerful inference is and having good model inference set up with all the infrastructure around it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 282,
+          "t": [
+            2248.589,
+            2265.092
+          ],
+          "quote": "And I think the main takeaway for today is that infrastructure and inference is far more important even for this very API friendly or ergonomic designs where you just work with Claude Code and you can kind of offset your",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 283,
+          "t": [
+            2266.892,
+            2281.74
+          ],
+          "quote": "sensitive data, your specific tasks in different ways and still the backbone is the inference and for example I will",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 289,
+          "t": [
+            2310.47,
+            2328.556
+          ],
+          "quote": "We're kind of also revamping this to be more detailed and useful, but basically you can select different output types, different architectures, because in order to optimize the models and the inference, you need to adapt models in different bundles.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 299,
+          "t": [
+            2406.603,
+            2413.667
+          ],
+          "quote": "So having the way of doing both, but being supported by that inference is very cool.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "privacy",
+      "type": "concept",
+      "role": "concept",
+      "name": "隐私 (privacy)",
+      "file": "隐私",
+      "primary": true,
+      "how_described": "本集的主线动机：敏感文档（含 PII）不能直接喂给外部 API，先在私有云里预处理和脱敏，个人信息不泄露",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            39.748,
+            49.651
+          ],
+          "quote": "So it all started from me wanting to build a use case that's around privacy and token costs, basically.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            80.124,
+            87.268
+          ],
+          "quote": "However, I needed to approach this differently because there was a concern around privacy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            245.18,
+            264.171
+          ],
+          "quote": "Privacy and lowering token costs, but also having the chance to test out multiple models, maybe host LoRa's that are very task-specific, because with this very sensitive use cases, usually there is some sort of fine-tuning or adaptation towards that niche use case.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            430.781,
+            451.196
+          ],
+          "quote": "So, as I said, the idea was to have this privacy element and have a way to offload, so basically I didn't want to disrupt my normal usage day to day, so I'm just working in Claude Code, and then if there's a specific task that needs to be done on my",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            621.33,
+            637.255
+          ],
+          "quote": "Also, a lot of the examples here are with PII, so personal identifiable information, and there is a tool that gets called for redacting specific details around documents, which is one of the central use cases of this privacy aspect.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            799.128,
+            805.493
+          ],
+          "quote": "However, in our case, just because this was more of a privacy setup, we do not do this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1385.395,
+            1394.3
+          ],
+          "quote": "So it's not just like the privacy aspect and this looks easy, but the heavy lifting is done by this part.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 323,
+          "t": [
+            2551.734,
+            2555.139
+          ],
+          "quote": "So the concern is around, the question is around privacy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 346,
+          "t": [
+            2684.732,
+            2694.002
+          ],
+          "quote": "So again, the question is kind of like how do we set this up to make sure that the privacy is well preserved, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "model-routing",
+      "type": "concept",
+      "role": "concept",
+      "name": "模型路由 (model routing)",
+      "file": "模型路由",
+      "primary": true,
+      "how_described": "本集说这是正在探索的未来方向：根据任务难度和模型在 GPU 上的冷热状态动态选模型，有时命中已在显存里的热模型比重新加载便宜模型更划算",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 86,
+          "t": [
+            686.936,
+            703.81
+          ],
+          "quote": "And the idea with MCP, as you know, in general is to have like one interface of communicating, especially if we're building more and more tools with this direction of model routing, because the demo and the version that we have now is around tool calling.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            704.05,
+            711.196
+          ],
+          "quote": "However, we're building stuff around model routing and understanding which models to pick for different tasks based on",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1916.203,
+            1935.892
+          ],
+          "quote": "There are different opportunities, and one direction that we're exploring as well is model routing within your own private cloud, which is quite powerful, and I think the field is moving a bit in that direction with usually teams exploring",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 257,
+          "t": [
+            2000.477,
+            2019.754
+          ],
+          "quote": "Because if you already, another powerful aspect on why Psy is really good for this is that if you already have the models warm in your GPU, you can hit them much quicker and get the responses quicker and you can do this model routing based on also the",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": true,
+      "how_described": "本集说私有云集群里可以自己挑 GPU、配置 worker 池、知道哪个模型固定在哪张卡上，还支持单卡上多模型热切换",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 89,
+          "t": [
+            715.471,
+            718.852
+          ],
+          "quote": "And all of these models would be open source and on your GPU.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1550.285,
+            1560.277
+          ],
+          "quote": "Smaller models that can fit into one GPU that are doing named entity recognition or even smaller generation or embeddings and so on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1561.639,
+            1567.586
+          ],
+          "quote": "You can benefit a lot from having multiple models on one GPU being switched around and swapped.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 257,
+          "t": [
+            2000.477,
+            2019.754
+          ],
+          "quote": "Because if you already, another powerful aspect on why Psy is really good for this is that if you already have the models warm in your GPU, you can hit them much quicker and get the responses quicker and you can do this model routing based on also the",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 262,
+          "t": [
+            2073.538,
+            2079.58
+          ],
+          "quote": "Reloading a model that's cheaper but kind of not already there in your GPU.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 277,
+          "t": [
+            2201.356,
+            2222.883
+          ],
+          "quote": "And yeah, basically we don't want to also spend GPU on some models reasoning forever and then nothing happens or also have biased models as judges or kind of optimizing something that then becomes kind of by optimizing something you",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fine-tuning",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine-tuning)",
+      "file": "微调",
+      "primary": true,
+      "how_described": "本集说敏感细分用例通常需要微调适配，他们测试了针对德语法律文本微调的 LoRA，成本低、可快速部署和生产测试",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            245.18,
+            264.171
+          ],
+          "quote": "Privacy and lowering token costs, but also having the chance to test out multiple models, maybe host LoRa's that are very task-specific, because with this very sensitive use cases, usually there is some sort of fine-tuning or adaptation towards that niche use case.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把主智能体（Claude Code 或任意 harness）定位为只接收干净脱敏结果的协调者，重型文档处理由私有云里的工具调用完成",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            513.467,
+            523.991
+          ],
+          "quote": "So if you pre-process that with good open source OCR models and then return to your main agent's harness or Claude Code or whatever you're using,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            1194.408,
+            1198.894
+          ],
+          "quote": "Claude Code doesn't see this stuff or whatever agent you're using.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "batching",
+      "type": "concept",
+      "role": "concept",
+      "name": "批处理 (batching)",
+      "file": "批处理",
+      "primary": false,
+      "how_described": "本集说每个 worker 有自己的批处理器、而非共享队列，这一架构选择带来了端到端的延迟与性能改善",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 194,
+          "t": [
+            1400.664,
+            1414.106
+          ],
+          "quote": "A way that it allows you to have multiple models, have hot swapping of models on different GPUs, have smarter batching so that you can kind of test out multiple models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1430.819,
+            1450.076
+          ],
+          "quote": "A gateway that kind of helps us connect this to different worker pools that each have this batcher per worker so that the batching is done per worker and that gave us better performance instead of just having all the batching up front.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1477.979,
+            1487.581
+          ],
+          "quote": "And this is what gave us the advantage performance-wise, or at least one of the advantages, was the batching technique where if you kind of",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1488.955,
+            1495.416
+          ],
+          "quote": "do the batching without having one shared queue that then each of the workers pull from.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "embedding",
+      "type": "concept",
+      "role": "concept",
+      "name": "嵌入 (embedding)",
+      "file": "嵌入",
+      "primary": false,
+      "how_described": "本集提到他们用 MTEB 任务评估嵌入模型，最好的开源模型达到前沿模型 99.8% 的质量而价格约低 10 倍",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 215,
+          "t": [
+            1569.597,
+            1592.445
+          ],
+          "quote": "And this goes in the direction of kind of what the MCP does and the tool calling aspect where you could build agents and have this inference part offloaded using Superlinked and you can get different bundles of tasks set up, so basically document parsing like I explained or embedding content or",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1627.866,
+            1656.693
+          ],
+          "quote": "as a contribution and in some of our tests we've also seen that due to this infrastructure that I explained we get very good performance around embedding models so we also have generation models but the tests that we have the benchmarks for now are around embedding models so you get kind of 10x lower price roughly",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1663.365,
+            1672.628
+          ],
+          "quote": "The best model we had per task for embedding was 99.8% to kind of the frontier one.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

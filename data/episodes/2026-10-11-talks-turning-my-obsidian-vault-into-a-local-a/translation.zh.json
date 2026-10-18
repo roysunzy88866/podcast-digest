@@ -1,0 +1,2994 @@
+[
+ {
+  "seg": 0,
+  "start": 15.2,
+  "end": 15.82,
+  "speaker": "Unknown",
+  "en": "Hello, hello.",
+  "zh": "大家好,大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 17.141,
+  "end": 18.061,
+  "speaker": "Unknown",
+  "en": "I guess we're starting.",
+  "zh": "我看我们差不多可以开始了。"
+ },
+ {
+  "seg": 2,
+  "start": 18.101,
+  "end": 25.344,
+  "speaker": "Unknown",
+  "en": "I know some of you are still joining in, but I'll go on, and you can jump in at any time.",
+  "zh": "我知道有些人还在加入,但我会继续讲,你们随时可以插话。"
+ },
+ {
+  "seg": 3,
+  "start": 26.904,
+  "end": 37.128,
+  "speaker": "Unknown",
+  "en": "So you might have seen the title of this talk, and what I have on the slide here is slightly different, but I promise it's the same direction and the same",
+  "zh": "你们可能看到了这次演讲的标题,我幻灯片上放的内容稍有不同,但我保证方向是一样的,总体的"
+ },
+ {
+  "seg": 4,
+  "start": 37.968,
+  "end": 38.988,
+  "speaker": "Unknown",
+  "en": "general idea.",
+  "zh": "思路也是一样的。"
+ },
+ {
+  "seg": 5,
+  "start": 39.748,
+  "end": 49.651,
+  "speaker": "Unknown",
+  "en": "So it all started from me wanting to build a use case that's around privacy and token costs, basically.",
+  "zh": "这一切源于我想构建一个围绕隐私和 token 成本的用例,基本上是这样。"
+ },
+ {
+  "seg": 6,
+  "start": 50.031,
+  "end": 52.432,
+  "speaker": "Unknown",
+  "en": "So I started with Obsidian.",
+  "zh": "所以我从 Obsidian 开始。"
+ },
+ {
+  "seg": 7,
+  "start": 52.452,
+  "end": 53.992,
+  "speaker": "Unknown",
+  "en": "I had some markdown files there.",
+  "zh": "我在那里有一些 markdown 文件。"
+ },
+ {
+  "seg": 8,
+  "start": 55.413,
+  "end": 62.574,
+  "speaker": "Unknown",
+  "en": "And as you know, it's like you have this nice graph and it's all good.",
+  "zh": "如你所知,你会有这个漂亮的图谱,一切都很好。"
+ },
+ {
+  "seg": 9,
+  "start": 62.594,
+  "end": 63.555,
+  "speaker": "Unknown",
+  "en": "It looks very nice.",
+  "zh": "看起来非常不错。"
+ },
+ {
+  "seg": 10,
+  "start": 64.795,
+  "end": 72.119,
+  "speaker": "Unknown",
+  "en": "However, I had certain issues beyond just organizing the file.",
+  "zh": "然而,除了整理文件之外,我还遇到了一些问题。"
+ },
+ {
+  "seg": 11,
+  "start": 72.179,
+  "end": 79.443,
+  "speaker": "Unknown",
+  "en": "So a lot of people do this knowledge graphs and so on, and like memory for agents, and that's quite good.",
+  "zh": "很多人会做这种知识图谱之类的,比如给智能体做记忆,这都挺好的。"
+ },
+ {
+  "seg": 12,
+  "start": 80.124,
+  "end": 87.268,
+  "speaker": "Unknown",
+  "en": "However, I needed to approach this differently because there was a concern around privacy.",
+  "zh": "然而,我需要用不同的方式来处理这件事,因为存在隐私方面的顾虑。"
+ },
+ {
+  "seg": 13,
+  "start": 87.308,
+  "end": 90.61,
+  "speaker": "Unknown",
+  "en": "So when using agents, when using Claude Code, when using Cowork,",
+  "zh": "所以在使用智能体、使用 Claude Code、使用 Cowork 的时候,"
+ },
+ {
+  "seg": 14,
+  "start": 91.59,
+  "end": 103.578,
+  "speaker": "Unknown",
+  "en": "You can expose your files, and for some institutions, for some people, this was a requirement that needed to be met.",
+  "zh": "你可能会暴露你的文件,而对某些机构、某些人来说,这是一个必须满足的要求。"
+ },
+ {
+  "seg": 15,
+  "start": 104.379,
+  "end": 115.546,
+  "speaker": "Unknown",
+  "en": "So the goal was to keep things private and self-hosted, but also make them quite usable and friendly so that people could actually do these things.",
+  "zh": "所以目标是把东西保持私密、自托管,但又要做得相当可用和友好,让人们真的能做这些事情。"
+ },
+ {
+  "seg": 16,
+  "start": 116.627,
+  "end": 124.411,
+  "speaker": "Unknown",
+  "en": "And there was kind of this openness to fine tune, to be very adaptable, to use open source models.",
+  "zh": "而且还有一种开放的态度,愿意微调、非常易于适配、使用开源模型。"
+ },
+ {
+  "seg": 17,
+  "start": 125.192,
+  "end": 137.458,
+  "speaker": "Unknown",
+  "en": "And I found that the solution was in Superlinked, which is a model inference engine that's open source.",
+  "zh": "我发现解决方案在 Superlinked,这是一个开源的模型推理引擎。"
+ },
+ {
+  "seg": 18,
+  "start": 137.498,
+  "end": 140.84,
+  "speaker": "Unknown",
+  "en": "It has both a cluster and a model inference solution.",
+  "zh": "它既有集群方案,也有模型推理方案。"
+ },
+ {
+  "seg": 19,
+  "start": 141.661,
+  "end": 143.342,
+  "speaker": "Unknown",
+  "en": "And I will be talking about",
+  "zh": "我今天要讲的"
+ },
+ {
+  "seg": 20,
+  "start": 144.561,
+  "end": 155.027,
+  "speaker": "Unknown",
+  "en": "That's today and how I managed to kind of merge these concepts together and create something that leans on these three things.",
+  "zh": "就是这个,以及我如何把这些概念融合在一起,创造出依托这三个要点的东西。"
+ },
+ {
+  "seg": 21,
+  "start": 155.507,
+  "end": 163.432,
+  "speaker": "Unknown",
+  "en": "So the first main idea was I wanted to make Claude Code a bit cheaper and save on tokens.",
+  "zh": "所以第一个主要想法是,我想让 Claude Code 便宜一点,节省 token。"
+ },
+ {
+  "seg": 22,
+  "start": 163.992,
+  "end": 172.997,
+  "speaker": "Unknown",
+  "en": "So we know how with the release of Fable, initially there was this API-only pricing and that kind of...",
+  "zh": "我们知道,随着 Fable 的发布,最初只有这种仅限 API 的定价,那种……"
+ },
+ {
+  "seg": 23,
+  "start": 174.332,
+  "end": 179.338,
+  "speaker": "Unknown",
+  "en": "Maybe disappointed a few people or the token economics got a bit more attention now.",
+  "zh": "可能让一些人失望了,或者说现在 token 经济学得到了更多关注。"
+ },
+ {
+  "seg": 24,
+  "start": 179.538,
+  "end": 187.266,
+  "speaker": "Unknown",
+  "en": "So that was one thing, especially for document processing, sensitive document processing, where you need to do OCR.",
+  "zh": "这是一方面,尤其是对于文档处理、敏感文档处理,你需要做 OCR。"
+ },
+ {
+  "seg": 25,
+  "start": 187.286,
+  "end": 189.749,
+  "speaker": "Unknown",
+  "en": "There are a lot of scans, images, and stuff like this.",
+  "zh": "有大量的扫描件、图片之类的东西。"
+ },
+ {
+  "seg": 26,
+  "start": 190.41,
+  "end": 193.333,
+  "speaker": "Unknown",
+  "en": "The token costs can ramp up, so I wanted to find a way to",
+  "zh": "token 成本会快速攀升,所以我想找到一种方法来"
+ },
+ {
+  "seg": 27,
+  "start": 194.534,
+  "end": 213.873,
+  "speaker": "Unknown",
+  "en": "Kind of do this but also having smaller artifacts means that you get better context so you kind of limit context loss in a way and you don't like fill out the context with data that can be processed in some way else.",
+  "zh": "做这件事,同时产出更小的产物意味着你能获得更好的上下文,这样在某种程度上可以限制上下文丢失,也不会用那些可以用其他方式处理的数据把上下文填满。"
+ },
+ {
+  "seg": 28,
+  "start": 215.475,
+  "end": 218.037,
+  "speaker": "Unknown",
+  "en": "And I wanted to make this private so",
+  "zh": "而且我想把这件事做得私密,所以"
+ },
+ {
+  "seg": 29,
+  "start": 219.199,
+  "end": 234.509,
+  "speaker": "Unknown",
+  "en": "Yes, for certain situations it's fine to paste everything into Claude Code or have that API working there, but what if you could kind of self-host and have your own VPC or your own cloud to pre-process your sensitive documents and then return something back?",
+  "zh": "是的,在某些情况下,把所有东西粘贴进 Claude Code 或者让 API 在那里工作没问题,但如果你可以自托管,拥有自己的 VPC 或自己的云来预处理你的敏感文档,然后返回一些东西呢?"
+ },
+ {
+  "seg": 30,
+  "start": 235.029,
+  "end": 238.511,
+  "speaker": "Unknown",
+  "en": "So this was another target of mine when building this.",
+  "zh": "这是我构建这个东西时的另一个目标。"
+ },
+ {
+  "seg": 31,
+  "start": 239.812,
+  "end": 242.914,
+  "speaker": "Unknown",
+  "en": "And also I wanted adaptability so it wasn't just",
+  "zh": "而且我还想要可适应性,所以它不只是"
+ },
+ {
+  "seg": 32,
+  "start": 245.18,
+  "end": 264.171,
+  "speaker": "Unknown",
+  "en": "Privacy and lowering token costs, but also having the chance to test out multiple models, maybe host LoRa's that are very task-specific, because with this very sensitive use cases, usually there is some sort of fine-tuning or adaptation towards that niche use case.",
+  "zh": "隐私和降低 token 成本,还要有机会测试多个模型,也许托管非常任务特定的 LoRa,因为在这类非常敏感的用例中,通常会有某种针对那个细分用例的微调或适配。"
+ },
+ {
+  "seg": 33,
+  "start": 264.991,
+  "end": 267.893,
+  "speaker": "Unknown",
+  "en": "So I had to do that as well.",
+  "zh": "所以我也得做到这一点。"
+ },
+ {
+  "seg": 34,
+  "start": 268.913,
+  "end": 270.915,
+  "speaker": "Unknown",
+  "en": "And the setup...",
+  "zh": "而这个环境配置……"
+ },
+ {
+  "seg": 35,
+  "start": 272.257,
+  "end": 276.861,
+  "speaker": "Unknown",
+  "en": "involves Superlinked and Cy, the repo.",
+  "zh": "涉及 Superlinked 和 Cy 这个仓库。"
+ },
+ {
+  "seg": 36,
+  "start": 276.881,
+  "end": 284.987,
+  "speaker": "Unknown",
+  "en": "So you can, for the purpose of today, you can go to the repo, which is fully open source.",
+  "zh": "为了今天的演示,你可以访问这个仓库,它完全开源。"
+ },
+ {
+  "seg": 37,
+  "start": 285.027,
+  "end": 287.048,
+  "speaker": "Unknown",
+  "en": "So you can find it on GitHub.",
+  "zh": "你可以在 GitHub 上找到它。"
+ },
+ {
+  "seg": 38,
+  "start": 287.148,
+  "end": 288.75,
+  "speaker": "Unknown",
+  "en": "It's Superlinked Cy.",
+  "zh": "它是 Superlinked Cy。"
+ },
+ {
+  "seg": 39,
+  "start": 290.371,
+  "end": 291.191,
+  "speaker": "Unknown",
+  "en": "You can, yeah.",
+  "zh": "你可以,是的。"
+ },
+ {
+  "seg": 40,
+  "start": 291.912,
+  "end": 292.592,
+  "speaker": "Unknown",
+  "en": "So this is it.",
+  "zh": "就是这样。"
+ },
+ {
+  "seg": 41,
+  "start": 292.652,
+  "end": 293.453,
+  "speaker": "Unknown",
+  "en": "This is the logo.",
+  "zh": "这是 logo。"
+ },
+ {
+  "seg": 42,
+  "start": 294.094,
+  "end": 298.697,
+  "speaker": "Unknown",
+  "en": "And I'll be talking about an integration that's",
+  "zh": "我要讲的是一个集成,"
+ },
+ {
+  "seg": 43,
+  "start": 300.178,
+  "end": 301.178,
+  "speaker": "Unknown",
+  "en": "Sorry, not here.",
+  "zh": "抱歉,不在这里。"
+ },
+ {
+  "seg": 44,
+  "start": 301.238,
+  "end": 307.62,
+  "speaker": "Unknown",
+  "en": "So an MCP integration, which is basically a package that we did, which is this one here.",
+  "zh": "是一个 MCP 集成,基本上就是我们做的一个包,就是这个。"
+ },
+ {
+  "seg": 45,
+  "start": 308.06,
+  "end": 312.661,
+  "speaker": "Unknown",
+  "en": "So you can also have a look at this sub-directory.",
+  "zh": "你也可以看看这个子目录。"
+ },
+ {
+  "seg": 46,
+  "start": 312.681,
+  "end": 321.664,
+  "speaker": "Unknown",
+  "en": "So this is where most of the talk will be about, but I'll also mention why actually the inference was the bottleneck when building something like this.",
+  "zh": "今天演讲的大部分内容都会围绕这里,但我也会提到为什么在构建这样的东西时,推理实际上是瓶颈所在。"
+ },
+ {
+  "seg": 47,
+  "start": 322.824,
+  "end": 330.291,
+  "speaker": "Unknown",
+  "en": "It was easy to figure out how to store the data, maybe in Obsidian and so on, and have these connections between the data.",
+  "zh": "搞清楚如何存储数据,比如放在 Obsidian 里等等,并在数据之间建立这些连接,是容易的。"
+ },
+ {
+  "seg": 48,
+  "start": 332.313,
+  "end": 334.295,
+  "speaker": "Unknown",
+  "en": "That was the easy part.",
+  "zh": "那是简单的部分。"
+ },
+ {
+  "seg": 49,
+  "start": 334.615,
+  "end": 336.056,
+  "speaker": "Unknown",
+  "en": "I could also use an API.",
+  "zh": "我也可以用 API。"
+ },
+ {
+  "seg": 50,
+  "start": 336.136,
+  "end": 340.48,
+  "speaker": "Unknown",
+  "en": "However, if I wanted to do open source, if I wanted to do open source inference,",
+  "zh": "然而,如果我想做开源,如果我想做开源推理,"
+ },
+ {
+  "seg": 51,
+  "start": 341.546,
+  "end": 355.976,
+  "speaker": "Unknown",
+  "en": "At scale and testing out multiple models, being able to deploy this in production, things got a bit difficult and that's why the infrastructure advantage that Cy offers, the fact that you're able to",
+  "zh": "在大规模下测试多个模型,并能够部署到生产环境中,事情就变得有点困难了,这就是 Cy 所提供的基础设施优势所在,也就是你能够"
+ },
+ {
+  "seg": 52,
+  "start": 357.117,
+  "end": 365.022,
+  "speaker": "Unknown",
+  "en": "kind of deploy both a cluster and the models themselves was a very big advantage in my case.",
+  "zh": "同时部署集群和模型本身,这在我的场景中是一个非常大的优势。"
+ },
+ {
+  "seg": 53,
+  "start": 367.023,
+  "end": 375.908,
+  "speaker": "Unknown",
+  "en": "Here you can see this Obsidian example, so I'll work with kind of some of these things, but you can also try this yourself.",
+  "zh": "这里你可以看到这个 Obsidian 的例子,我会用到其中一些东西,但你也可以自己尝试。"
+ },
+ {
+  "seg": 54,
+  "start": 377.049,
+  "end": 380.411,
+  "speaker": "Unknown",
+  "en": "However, I will be using a managed cluster.",
+  "zh": "不过,我将使用一个托管集群。"
+ },
+ {
+  "seg": 55,
+  "start": 382.089,
+  "end": 399.703,
+  "speaker": "Unknown",
+  "en": "We cannot, I cannot give that to you right now live, however, you can go to our website, which is this one, and here you have this apply for inference grant, so you can go there and you'll receive your API key that you can try and",
+  "zh": "我们现在不能,我现在不能现场把这个给你,但是,你可以访问我们的网站,就是这个,这里有这个申请推理补助金(apply for inference grant)的入口,你可以去那里,你会收到你的 API key,然后你就可以尝试并"
+ },
+ {
+  "seg": 56,
+  "start": 400.504,
+  "end": 401.525,
+  "speaker": "Unknown",
+  "en": "You can do things quicker.",
+  "zh": "更快地完成这些事情。"
+ },
+ {
+  "seg": 57,
+  "start": 401.825,
+  "end": 405.787,
+  "speaker": "Unknown",
+  "en": "If not, you can do things locally, because there is a Docker container and all that.",
+  "zh": "如果不行,你可以在本地做,因为有一个 Docker 容器之类的。"
+ },
+ {
+  "seg": 58,
+  "start": 406.348,
+  "end": 415.454,
+  "speaker": "Unknown",
+  "en": "It will just take a bit slower to do these things, but I'd prefer if you kind of listen to me now and then try things after, but also in parallel if you want.",
+  "zh": "只是这样做会慢一点,但我更希望你先听我讲,然后再去尝试,当然如果你想的话也可以同时进行。"
+ },
+ {
+  "seg": 59,
+  "start": 415.914,
+  "end": 428.582,
+  "speaker": "Unknown",
+  "en": "And we also have this very cool kind of QR codes memorabilia stuff where you can get an even better cluster, as I think, and you can find them here after the talk.",
+  "zh": "我们还有这种很酷的 QR 码纪念品之类的东西,凭它可以获得我认为更好的集群,你可以在演讲结束后在这里找到它们。"
+ },
+ {
+  "seg": 60,
+  "start": 430.781,
+  "end": 451.196,
+  "speaker": "Unknown",
+  "en": "So, as I said, the idea was to have this privacy element and have a way to offload, so basically I didn't want to disrupt my normal usage day to day, so I'm just working in Claude Code, and then if there's a specific task that needs to be done on my",
+  "zh": "所以,正如我所说,这个想法是要有隐私元素,并且有一种方式去卸载(offload),基本上我不想打乱我日常的正常使用,所以我只是在 Claude Code 里工作,然后如果有一个特定任务需要在我的"
+ },
+ {
+  "seg": 61,
+  "start": 452.057,
+  "end": 457.142,
+  "speaker": "Unknown",
+  "en": "Virtual private clouds that needs to be processed, that's sensitive, that costs a lot of tokens.",
+  "zh": "虚拟私有云上处理,它是敏感的,会消耗大量 token,"
+ },
+ {
+  "seg": 62,
+  "start": 457.763,
+  "end": 460.025,
+  "speaker": "Unknown",
+  "en": "I can just offload it and continue my work.",
+  "zh": "我就可以把它卸载出去,然后继续我的工作。"
+ },
+ {
+  "seg": 63,
+  "start": 460.546,
+  "end": 466.612,
+  "speaker": "Unknown",
+  "en": "So the natural direction was to build some sort of skill or plugin.",
+  "zh": "所以自然的方向就是构建某种技能(skill)或插件。"
+ },
+ {
+  "seg": 64,
+  "start": 467.533,
+  "end": 485.937,
+  "speaker": "Unknown",
+  "en": "But this was even elevated more by building a whole MCP server that gets called in Claude Code and there's that element of using skills but also having actually a dedicated edge that can actually do the heavy lifting.",
+  "zh": "但通过构建一整个会被 Claude Code 调用的 MCP 服务器,这一点被进一步提升了,既有使用技能的元素,也有一个真正能干重活的专用边缘节点(edge)。"
+ },
+ {
+  "seg": 65,
+  "start": 487.197,
+  "end": 500.688,
+  "speaker": "Unknown",
+  "en": "And you can also benefit from Superlink's inference, which I will talk about later on, kind of how we've done this and what are the advantages of using Superlink's inference engine.",
+  "zh": "你还可以受益于 Superlink 的推理,我稍后会讲到,即我们是如何做到这一点的,以及使用 Superlink 推理引擎有哪些优势。"
+ },
+ {
+  "seg": 66,
+  "start": 502.423,
+  "end": 512.967,
+  "speaker": "Unknown",
+  "en": "So it saves tokens because, for example, a number would be to have like maybe 10 pages of a PDF that has images, different details in there.",
+  "zh": "所以它能节省 token,因为,举个例子,一个典型的场景是有一个大概 10 页的 PDF,里面有图片和各种细节。"
+ },
+ {
+  "seg": 67,
+  "start": 513.467,
+  "end": 523.991,
+  "speaker": "Unknown",
+  "en": "So if you pre-process that with good open source OCR models and then return to your main agent's harness or Claude Code or whatever you're using,",
+  "zh": "所以如果你用好的开源 OCR 模型对它进行预处理,然后把结果返回给你的主智能体框架(agent harness),或 Claude Code,或你正在使用的任何东西,"
+ },
+ {
+  "seg": 68,
+  "start": 524.691,
+  "end": 532.479,
+  "speaker": "Unknown",
+  "en": "You get the context, but also benefit on the lower token spend and better context and so on.",
+  "zh": "你就得到了上下文,同时还能受益于更低的 token 花费和更好的上下文等等。"
+ },
+ {
+  "seg": 69,
+  "start": 532.839,
+  "end": 537.564,
+  "speaker": "Unknown",
+  "en": "So that's the general idea, especially for OCR, this is apparent.",
+  "zh": "所以这就是总体思路,尤其对于 OCR 来说,这一点很明显。"
+ },
+ {
+  "seg": 70,
+  "start": 538.697,
+  "end": 546.679,
+  "speaker": "Unknown",
+  "en": "However, there are multiple token saving advantages even beyond OCR.",
+  "zh": "然而,即便在 OCR 之外,还有多种节省 token 的优势。"
+ },
+ {
+  "seg": 71,
+  "start": 547.239,
+  "end": 552.3,
+  "speaker": "Unknown",
+  "en": "So why MCP and not just an API or a plugin?",
+  "zh": "那么为什么用 MCP,而不只是一个 API 或插件?"
+ },
+ {
+  "seg": 72,
+  "start": 553.46,
+  "end": 568.163,
+  "speaker": "Unknown",
+  "en": "Because we have a dedicated cluster, it was much better to separate the responsibilities and have this as the backbone to then build more details and more features further on.",
+  "zh": "因为我们有专用集群,把职责分离出来会好得多,并以此作为骨干,之后再去构建更多细节和更多功能,"
+ },
+ {
+  "seg": 73,
+  "start": 568.663,
+  "end": 570.765,
+  "speaker": "Unknown",
+  "en": "which I will also talk about later.",
+  "zh": "这个我稍后也会讲到。"
+ },
+ {
+  "seg": 74,
+  "start": 571.946,
+  "end": 596.766,
+  "speaker": "Unknown",
+  "en": "And everything runs on a server you can control, so through SAI you can pick your worker pools, you can pick your GPUs, basically, and understand which models are pinned where, and that flexibility from a cloud perspective was an advantage, and I wanted to keep it that way, and that's why I went with MCP rather than just a skill.",
+  "zh": "而且一切都运行在一台你可以控制的服务器上,所以通过 SAI 你可以选择你的 worker 池,基本上可以选择你的 GPU,并了解哪些模型被固定(pinned)在哪里,从云的角度来看这种灵活性是一个优势,我想保持这一点,这就是为什么我选择 MCP 而不只是一个技能。"
+ },
+ {
+  "seg": 75,
+  "start": 599.072,
+  "end": 601.554,
+  "speaker": "Unknown",
+  "en": "And it exposes the relevant tools.",
+  "zh": "而且它暴露了相关的工具。"
+ },
+ {
+  "seg": 76,
+  "start": 601.614,
+  "end": 603.896,
+  "speaker": "Unknown",
+  "en": "So this is roughly how it would work.",
+  "zh": "所以它大致是这样工作的。"
+ },
+ {
+  "seg": 77,
+  "start": 604.637,
+  "end": 608.18,
+  "speaker": "Unknown",
+  "en": "If it's just a plugin, it's also on your laptop or on device.",
+  "zh": "如果只是一个插件,它也在你的笔记本电脑上,也就是在设备上。"
+ },
+ {
+  "seg": 78,
+  "start": 608.26,
+  "end": 616.307,
+  "speaker": "Unknown",
+  "en": "In this way, you can kind of offload the same experience, but bring it to the cloud, which is your own cloud, and you can control things there.",
+  "zh": "用这种方式,你可以把同样的体验卸载(offload)出去,但把它带到云端,也就是你自己的云,你可以在那里控制各种东西。"
+ },
+ {
+  "seg": 79,
+  "start": 616.347,
+  "end": 618.689,
+  "speaker": "Unknown",
+  "en": "So it's a much cleaner setup.",
+  "zh": "所以这是一个干净得多的架构。"
+ },
+ {
+  "seg": 80,
+  "start": 621.33,
+  "end": 637.255,
+  "speaker": "Unknown",
+  "en": "Also, a lot of the examples here are with PII, so personal identifiable information, and there is a tool that gets called for redacting specific details around documents, which is one of the central use cases of this privacy aspect.",
+  "zh": "另外,这里的很多例子都涉及 PII,也就是个人可识别信息,有一个工具会被调用,用于对文档中的特定细节进行脱敏(redacting),这是这个隐私方面的核心用例之一。"
+ },
+ {
+  "seg": 81,
+  "start": 638.296,
+  "end": 639.216,
+  "speaker": "Unknown",
+  "en": "And,",
+  "zh": "而且,"
+ },
+ {
+  "seg": 82,
+  "start": 640.47,
+  "end": 642.951,
+  "speaker": "Unknown",
+  "en": "The MCP setup, it has three tiers.",
+  "zh": "这个 MCP 架构有三个层级。"
+ },
+ {
+  "seg": 83,
+  "start": 643.971,
+  "end": 647.252,
+  "speaker": "Unknown",
+  "en": "So there is, you can see in the middle, the PSY MCP.",
+  "zh": "就是,你可以在中间看到,PSY MCP。"
+ },
+ {
+  "seg": 84,
+  "start": 647.692,
+  "end": 660.135,
+  "speaker": "Unknown",
+  "en": "There is the MCP client, that's kind of client and host through co-work or Claude Code or whatever you use, and that communicates with the PSY MCP server.",
+  "zh": "有 MCP 客户端,它通过 co-work 或 Claude Code 或你用的任何东西充当客户端和主机,它与 PSY MCP 服务器通信。"
+ },
+ {
+  "seg": 85,
+  "start": 661.418,
+  "end": 686.055,
+  "speaker": "Unknown",
+  "en": "And then you have actually SIDEM cluster that has the GPUs and the worker pools that do the work by communicating to the MCP server, and you have different models that are available, and we also have a good queuing mechanism for this GPUs, and I will go more into that a bit later.",
+  "zh": "然后你还有 SIDEM 集群,它有 GPU 和 worker 池,通过与 MCP 服务器通信来完成工作,你有各种可用的模型,我们还有一套针对这些 GPU 的不错的排队机制,我稍后会进一步讲这个。"
+ },
+ {
+  "seg": 86,
+  "start": 686.936,
+  "end": 703.81,
+  "speaker": "Unknown",
+  "en": "And the idea with MCP, as you know, in general is to have like one interface of communicating, especially if we're building more and more tools with this direction of model routing, because the demo and the version that we have now is around tool calling.",
+  "zh": "而 MCP 的想法,就像你所知道的,总体上是要有一个统一的通信接口,尤其当我们按照模型路由(model routing)这个方向构建越来越多的工具时,因为我们现在的演示和版本是围绕工具调用(tool calling)的。"
+ },
+ {
+  "seg": 87,
+  "start": 704.05,
+  "end": 711.196,
+  "speaker": "Unknown",
+  "en": "However, we're building stuff around model routing and understanding which models to pick for different tasks based on",
+  "zh": "不过,我们正在围绕模型路由构建东西,即根据"
+ },
+ {
+  "seg": 88,
+  "start": 713.03,
+  "end": 714.711,
+  "speaker": "Unknown",
+  "en": "evals and based on costs.",
+  "zh": "evals 和成本来判断针对不同任务该选择哪些模型。"
+ },
+ {
+  "seg": 89,
+  "start": 715.471,
+  "end": 718.852,
+  "speaker": "Unknown",
+  "en": "And all of these models would be open source and on your GPU.",
+  "zh": "而且所有这些模型都会是开源的,跑在你自己的 GPU 上。"
+ },
+ {
+  "seg": 90,
+  "start": 718.892,
+  "end": 721.893,
+  "speaker": "Unknown",
+  "en": "So there is this important direction as well.",
+  "zh": "所以这也是一个重要的方向。"
+ },
+ {
+  "seg": 91,
+  "start": 722.714,
+  "end": 725.255,
+  "speaker": "Unknown",
+  "en": "So it's a forward thinking approach.",
+  "zh": "所以这是一种有前瞻性的做法。"
+ },
+ {
+  "seg": 92,
+  "start": 726.315,
+  "end": 728.716,
+  "speaker": "Unknown",
+  "en": "And there is the host, the client and the server.",
+  "zh": "这里有主机(host)、客户端(client)和服务器(server)。"
+ },
+ {
+  "seg": 93,
+  "start": 729.816,
+  "end": 737.779,
+  "speaker": "Unknown",
+  "en": "You can do this like with any setup that you want, like whether it's Claude Desktop, Claude Code and so on.",
+  "zh": "你可以用任何你想要的架构来做,比如不管是 Claude Desktop、Claude Code 等等。"
+ },
+ {
+  "seg": 94,
+  "start": 739.775,
+  "end": 744.841,
+  "speaker": "Unknown",
+  "en": "And the communication is kind of done through JSON RPC.",
+  "zh": "而通信大致是通过 JSON RPC 完成的。"
+ },
+ {
+  "seg": 95,
+  "start": 744.861,
+  "end": 758.118,
+  "speaker": "Unknown",
+  "en": "So there are three like response requests and a notification just to kind of initialize this and have this handshake protocol done so that you can authenticate the MCPH and so on.",
+  "zh": "所以有三种类型:响应(response)、请求(request)和一个通知(notification),用来完成初始化,完成这个握手协议,这样你就可以对 MCP 进行身份验证等等。"
+ },
+ {
+  "seg": 96,
+  "start": 759.6,
+  "end": 766.569,
+  "speaker": "Unknown",
+  "en": "And an important detail is that the server exposes different stuff.",
+  "zh": "一个重要的细节是,服务器暴露了不同的东西。"
+ },
+ {
+  "seg": 97,
+  "start": 766.709,
+  "end": 771.555,
+  "speaker": "Unknown",
+  "en": "So in the MCP standard, that has changed a bit since its inception.",
+  "zh": "在 MCP 标准中,这从它诞生以来已经有一些变化了。"
+ },
+ {
+  "seg": 98,
+  "start": 772.677,
+  "end": 776.281,
+  "speaker": "Unknown",
+  "en": "But the main thing is that it exposes tools that then",
+  "zh": "但主要的是,它暴露了工具,然后"
+ },
+ {
+  "seg": 99,
+  "start": 778.251,
+  "end": 779.352,
+  "speaker": "Unknown",
+  "en": "Claude Code would use.",
+  "zh": "Claude Code 会使用这些工具。"
+ },
+ {
+  "seg": 100,
+  "start": 780.333,
+  "end": 798.788,
+  "speaker": "Unknown",
+  "en": "However, in general, there is in kind of the MCP universe, there is a situation where the client can also expose stuff like sampling or elicitation, which kind of makes this a two-way communication, so not like a standard client server setup.",
+  "zh": "不过，总的来说，在 MCP 这个领域里，存在一种情况：客户端也可以暴露诸如采样（sampling）或引导（elicitation）之类的东西，这某种程度上使它成为双向通信，而不像标准的客户端-服务器设置。"
+ },
+ {
+  "seg": 101,
+  "start": 799.128,
+  "end": 805.493,
+  "speaker": "Unknown",
+  "en": "However, in our case, just because this was more of a privacy setup, we do not do this.",
+  "zh": "不过，在我们的案例中，正因为这更多是一种隐私设置，我们不这样做。"
+ },
+ {
+  "seg": 102,
+  "start": 807.615,
+  "end": 818.007,
+  "speaker": "Unknown",
+  "en": "Basically the sci MCP edge only exposes the tools and they can be used, the ones that kind of were initialized in the handshake and that's it.",
+  "zh": "基本上，sci MCP edge 只暴露工具，这些工具可以被使用，也就是在握手中初始化的那些，仅此而已。"
+ },
+ {
+  "seg": 103,
+  "start": 820.35,
+  "end": 825.516,
+  "speaker": "Unknown",
+  "en": "So it only kind of does these responses, it wouldn't do these more complex tasks.",
+  "zh": "所以它只做这类响应，不会做那些更复杂的任务。"
+ },
+ {
+  "seg": 104,
+  "start": 827.172,
+  "end": 828.153,
+  "speaker": "Unknown",
+  "en": "in our case.",
+  "zh": "在我们的案例中。"
+ },
+ {
+  "seg": 105,
+  "start": 829.253,
+  "end": 834.156,
+  "speaker": "Unknown",
+  "en": "And this is the idea that the tools are discovered and you just go from there.",
+  "zh": "这就是工具被发现、然后你从这里开始的理念。"
+ },
+ {
+  "seg": 106,
+  "start": 834.216,
+  "end": 844.221,
+  "speaker": "Unknown",
+  "en": "Basically, you kind of have the tools which give you different abilities and you can run that.",
+  "zh": "基本上，你拥有这些工具，它们给你不同的能力，你就可以运行它们。"
+ },
+ {
+  "seg": 107,
+  "start": 844.802,
+  "end": 846.002,
+  "speaker": "Unknown",
+  "en": "Another detail is that",
+  "zh": "另一个细节是"
+ },
+ {
+  "seg": 108,
+  "start": 848.245,
+  "end": 852.647,
+  "speaker": "Unknown",
+  "en": "You can do this also locally, so in the MCP universe.",
+  "zh": "你也可以在本地做这件事，也就是在 MCP 领域里。"
+ },
+ {
+  "seg": 109,
+  "start": 852.687,
+  "end": 855.868,
+  "speaker": "Unknown",
+  "en": "Again, the standard IO is for local development.",
+  "zh": "再说一次，标准 IO 是用于本地开发的。"
+ },
+ {
+  "seg": 110,
+  "start": 856.448,
+  "end": 861.851,
+  "speaker": "Unknown",
+  "en": "However, we wanted to use the streaming HTTP responses.",
+  "zh": "不过，我们想使用流式 HTTP 响应。"
+ },
+ {
+  "seg": 111,
+  "start": 862.931,
+  "end": 876.077,
+  "speaker": "Unknown",
+  "en": "This was done in the past by two endpoints that did the streaming, and one did the HTTP handshake, but now there is a standard that kind of does this all at once, so that makes things smoother.",
+  "zh": "过去这是由两个端点完成的，一个做流式传输，一个做 HTTP 握手，但现在有了一个一次性完成这一切的标准，这让事情更顺畅。"
+ },
+ {
+  "seg": 112,
+  "start": 877.3,
+  "end": 881.543,
+  "speaker": "Unknown",
+  "en": "And these are the tools that we have, so I'll spend a bit more time on this slide.",
+  "zh": "这些就是我们拥有的工具，所以我会在这个幻灯片上多花一点时间。"
+ },
+ {
+  "seg": 113,
+  "start": 881.983,
+  "end": 889.508,
+  "speaker": "Unknown",
+  "en": "So currently, the kind of setup and the things you can try are around this models.",
+  "zh": "目前，这个设置以及你可以尝试的东西都围绕着这些模型。"
+ },
+ {
+  "seg": 114,
+  "start": 890.168,
+  "end": 895.131,
+  "speaker": "Unknown",
+  "en": "So there is this tool that's like DocsToMarkdown, and that one uses",
+  "zh": "所以有一个工具叫 DocsToMarkdown，它使用"
+ },
+ {
+  "seg": 115,
+  "start": 896.345,
+  "end": 898.628,
+  "speaker": "Unknown",
+  "en": "OCR models.",
+  "zh": "OCR 模型。"
+ },
+ {
+  "seg": 116,
+  "start": 898.889,
+  "end": 901.693,
+  "speaker": "Unknown",
+  "en": "These are the open models that we have currently.",
+  "zh": "这些是我们目前拥有的开源模型。"
+ },
+ {
+  "seg": 117,
+  "start": 902.114,
+  "end": 904.778,
+  "speaker": "Unknown",
+  "en": "So the idea is it saves token costs.",
+  "zh": "所以理念是它能节省 token 成本。"
+ },
+ {
+  "seg": 118,
+  "start": 905.018,
+  "end": 907.682,
+  "speaker": "Unknown",
+  "en": "It uses also a very good open source model.",
+  "zh": "它也使用了一个非常好的开源模型。"
+ },
+ {
+  "seg": 119,
+  "start": 908.283,
+  "end": 911.247,
+  "speaker": "Unknown",
+  "en": "A detail here is that with OCR,",
+  "zh": "这里一个细节是，关于 OCR，"
+ },
+ {
+  "seg": 120,
+  "start": 911.247,
+  "end": 915.59,
+  "speaker": "Unknown",
+  "en": "OCR models especially, the open source models are very good.",
+  "zh": "尤其是 OCR 模型，开源模型是非常好的。"
+ },
+ {
+  "seg": 121,
+  "start": 915.61,
+  "end": 922.675,
+  "speaker": "Unknown",
+  "en": "So you're not compromising in quality by offloading some of the work to open source OCR models.",
+  "zh": "所以把一部分工作交给开源 OCR 模型并不会在质量上妥协。"
+ },
+ {
+  "seg": 122,
+  "start": 923.116,
+  "end": 928.68,
+  "speaker": "Unknown",
+  "en": "So it's not that, oh, I'm using open source, I'm sacrificing something.",
+  "zh": "并不是那种「哦，我用开源的，我牺牲了某些东西」。"
+ },
+ {
+  "seg": 123,
+  "start": 929.18,
+  "end": 931.902,
+  "speaker": "Unknown",
+  "en": "That's not the case at all, especially here.",
+  "zh": "完全不是这样，尤其是在这里。"
+ },
+ {
+  "seg": 124,
+  "start": 932.102,
+  "end": 939.427,
+  "speaker": "Unknown",
+  "en": "And even in general, open source models are catching up and finding a way to bring them out there, bring them in production is",
+  "zh": "甚至总体而言，开源模型正在迎头赶上，找到把它们推向外面、把它们带进生产环境的方法"
+ },
+ {
+  "seg": 125,
+  "start": 940.568,
+  "end": 942.59,
+  "speaker": "Unknown",
+  "en": "quite useful and quite important.",
+  "zh": "是相当有用的，也是相当重要的。"
+ },
+ {
+  "seg": 126,
+  "start": 943.13,
+  "end": 949.916,
+  "speaker": "Unknown",
+  "en": "There is extract entities which would just generate the relevant entities in the docs with different NER models.",
+  "zh": "有 extract entities，它只用不同的 NER 模型生成文档中的相关实体。"
+ },
+ {
+  "seg": 127,
+  "start": 950.576,
+  "end": 953.559,
+  "speaker": "Unknown",
+  "en": "There are different tools around captioning and tagging.",
+  "zh": "有各种围绕字幕生成和打标签的工具。"
+ },
+ {
+  "seg": 128,
+  "start": 954.605,
+  "end": 977.507,
+  "speaker": "Unknown",
+  "en": "There is also a capability around structure generation, summarization, question answering, and the good thing is also this is open source, so you can also do a PR and add a different tool there right now, and that would be something that we can make it as a part of this.",
+  "zh": "还有围绕结构生成、摘要、问答的能力，而且好消息是这也是开源的，所以你现在也可以提交一个 PR，在那里添加一个不同的工具，那会成为它的一部分。"
+ },
+ {
+  "seg": 129,
+  "start": 979.877,
+  "end": 985.741,
+  "speaker": "Unknown",
+  "en": "Still, it will utilize the inference, which is the bigger bottleneck in situations like this.",
+  "zh": "不过，它仍然会用到推理，在这种情况下推理是更大的瓶颈。"
+ },
+ {
+  "seg": 130,
+  "start": 988.042,
+  "end": 989.463,
+  "speaker": "Unknown",
+  "en": "And that would be the idea.",
+  "zh": "这就是那个理念。"
+ },
+ {
+  "seg": 131,
+  "start": 989.483,
+  "end": 1001.972,
+  "speaker": "Unknown",
+  "en": "You can kind of clone the repo that I showed before, and you can bring up the cluster locally, but also if you, again, go on the website and request that, you'll receive an API key at some point.",
+  "zh": "你可以克隆我之前展示的那个仓库，在本地把集群跑起来，而且如果你再次去网站上申请，你会在某个时候收到一个 API key。"
+ },
+ {
+  "seg": 132,
+  "start": 1003.305,
+  "end": 1005.569,
+  "speaker": "Unknown",
+  "en": "And this would be kind of the setup.",
+  "zh": "这大概就是那个设置。"
+ },
+ {
+  "seg": 133,
+  "start": 1005.589,
+  "end": 1008.634,
+  "speaker": "Unknown",
+  "en": "You need to get the API key.",
+  "zh": "你需要拿到 API key。"
+ },
+ {
+  "seg": 134,
+  "start": 1008.774,
+  "end": 1013.241,
+  "speaker": "Unknown",
+  "en": "You can also self-host if you're in for the longer term, let's say.",
+  "zh": "如果你是打算长期使用的话，你也可以自己托管。"
+ },
+ {
+  "seg": 135,
+  "start": 1014.023,
+  "end": 1015.645,
+  "speaker": "Unknown",
+  "en": "So it doesn't have to be our cluster.",
+  "zh": "所以它不必是我们的集群。"
+ },
+ {
+  "seg": 136,
+  "start": 1015.665,
+  "end": 1016.647,
+  "speaker": "Unknown",
+  "en": "It can be your cluster.",
+  "zh": "它可以是你的集群。"
+ },
+ {
+  "seg": 137,
+  "start": 1018.83,
+  "end": 1021.912,
+  "speaker": "Unknown",
+  "en": "And you just need to set these things up.",
+  "zh": "你只需要把这些东西设置好。"
+ },
+ {
+  "seg": 138,
+  "start": 1022.032,
+  "end": 1029.258,
+  "speaker": "Unknown",
+  "en": "I'll also be releasing an article that will kind of explain this in a bit more detail.",
+  "zh": "我还会发布一篇文章，会更详细地解释这一点。"
+ },
+ {
+  "seg": 139,
+  "start": 1029.538,
+  "end": 1034.281,
+  "speaker": "Unknown",
+  "en": "And you can go step by step and run this so no rush.",
+  "zh": "你可以一步一步地跟着做并运行它，所以不用着急。"
+ },
+ {
+  "seg": 140,
+  "start": 1035.202,
+  "end": 1040.005,
+  "speaker": "Unknown",
+  "en": "You can enjoy the talk and relax and try things out at your own time in many ways.",
+  "zh": "你可以享受这个演讲、放轻松，并在你自己的时间以多种方式尝试这些东西。"
+ },
+ {
+  "seg": 141,
+  "start": 1040.946,
+  "end": 1049.213,
+  "speaker": "Unknown",
+  "en": "And here we have the repo and also the link to kind of getting the computes and the cluster.",
+  "zh": "这里我们有仓库，还有获取计算资源和集群的链接。"
+ },
+ {
+  "seg": 142,
+  "start": 1049.514,
+  "end": 1055.299,
+  "speaker": "Unknown",
+  "en": "So you can basically request and you get some form that you fill out and then you'll receive the API key.",
+  "zh": "所以你基本上可以申请，你会得到一个表格来填写，然后你会收到 API key。"
+ },
+ {
+  "seg": 143,
+  "start": 1055.759,
+  "end": 1061.144,
+  "speaker": "Unknown",
+  "en": "And this is just the setup that I'll be going through and then trying out",
+  "zh": "这就是我要过一遍然后尝试的设置"
+ },
+ {
+  "seg": 144,
+  "start": 1063.371,
+  "end": 1066.074,
+  "speaker": "Unknown",
+  "en": "And hopefully the demo gods are good.",
+  "zh": "希望演示之神眷顾。"
+ },
+ {
+  "seg": 145,
+  "start": 1066.154,
+  "end": 1071.26,
+  "speaker": "Unknown",
+  "en": "Someone mentioned this as a thing at one of the talks, so I like the idea.",
+  "zh": "有人在其中一个演讲里提到过这个东西，所以我喜欢这个点子。"
+ },
+ {
+  "seg": 146,
+  "start": 1072.041,
+  "end": 1079.149,
+  "speaker": "Unknown",
+  "en": "And yeah, this is kind of just the setup, which I have kind of done to an extent.",
+  "zh": "是的，这基本就是这个设置，我已经在某种程度上做好了。"
+ },
+ {
+  "seg": 147,
+  "start": 1081.585,
+  "end": 1086.247,
+  "speaker": "Unknown",
+  "en": "I will now do the demo, so I'm going to Claude Code.",
+  "zh": "我现在要做演示了，所以我要打开 Claude Code。"
+ },
+ {
+  "seg": 148,
+  "start": 1086.407,
+  "end": 1092.831,
+  "speaker": "Unknown",
+  "en": "I am in the relevant packages directory, so I can say, okay, can you...",
+  "zh": "我在相关的 packages 目录里，所以我可以说，好，你能不能……"
+ },
+ {
+  "seg": 149,
+  "start": 1093.651,
+  "end": 1103.036,
+  "speaker": "Unknown",
+  "en": "So I have basically just a set of files that are in an inbox folder, so I'll just...",
+  "zh": "所以我基本上只是在 inbox 文件夹里有一组文件，所以我就……"
+ },
+ {
+  "seg": 150,
+  "start": 1103.776,
+  "end": 1104.476,
+  "speaker": "Unknown",
+  "en": "Show you here.",
+  "zh": "给你们看一下。"
+ },
+ {
+  "seg": 151,
+  "start": 1104.576,
+  "end": 1111.499,
+  "speaker": "Unknown",
+  "en": "So for example, this is the graph and it's like inbox and you have different, imagine these are different emails.",
+  "zh": "举个例子，这是图，它就像收件箱，你有不同的——想象这些是不同的邮件。"
+ },
+ {
+  "seg": 152,
+  "start": 1111.519,
+  "end": 1114.66,
+  "speaker": "Unknown",
+  "en": "So this is all synthetic data, but relevant data.",
+  "zh": "所以这些都是合成数据，但是是相关的数据。"
+ },
+ {
+  "seg": 153,
+  "start": 1114.68,
+  "end": 1126.405,
+  "speaker": "Unknown",
+  "en": "I'm not using the real data that inspired this project, but obviously these are stuff like, okay, there are some emails about an invoice and",
+  "zh": "我没有用启发这个项目的真实数据，但显然这些是类似的东西，比如，有一些关于发票的邮件，"
+ },
+ {
+  "seg": 154,
+  "start": 1128.518,
+  "end": 1133.299,
+  "speaker": "Unknown",
+  "en": "Some sensitive information all over and you can just go through this.",
+  "zh": "到处都有敏感信息，你可以直接浏览这些。"
+ },
+ {
+  "seg": 155,
+  "start": 1133.459,
+  "end": 1140.962,
+  "speaker": "Unknown",
+  "en": "There is some NDA that would have like phone number and social security number, for example.",
+  "zh": "比如有一份 NDA，里面有电话号码和社会安全号码。"
+ },
+ {
+  "seg": 156,
+  "start": 1142.162,
+  "end": 1143.482,
+  "speaker": "Unknown",
+  "en": "So that's how the data looks.",
+  "zh": "这就是数据的样子。"
+ },
+ {
+  "seg": 157,
+  "start": 1146.497,
+  "end": 1158.385,
+  "speaker": "Unknown",
+  "en": "For example, here you can go and maybe say, can you redact the data from the NDA document?",
+  "zh": "比如，这里你可以去说，你能不能把 NDA 文档里的数据做脱敏处理？"
+ },
+ {
+  "seg": 158,
+  "start": 1159.286,
+  "end": 1159.986,
+  "speaker": "Unknown",
+  "en": "Something like that.",
+  "zh": "类似这样的东西。"
+ },
+ {
+  "seg": 159,
+  "start": 1162.528,
+  "end": 1164.47,
+  "speaker": "Unknown",
+  "en": "Cool, we get free credits.",
+  "zh": "好了，我们拿到了免费额度。"
+ },
+ {
+  "seg": 160,
+  "start": 1165.07,
+  "end": 1169.933,
+  "speaker": "Unknown",
+  "en": "So the way things look, one example is this.",
+  "zh": "整体的样子，一个例子是这样的。"
+ },
+ {
+  "seg": 161,
+  "start": 1170.073,
+  "end": 1173.256,
+  "speaker": "Unknown",
+  "en": "So this is some of the stuff I tried before.",
+  "zh": "这是我之前试过的一些东西。"
+ },
+ {
+  "seg": 162,
+  "start": 1175.027,
+  "end": 1190.003,
+  "speaker": "Unknown",
+  "en": "This is the NDA, and then you get this kind of redacted document that extracts the relevant details, but obviously there is only email and person, and the entities are masked.",
+  "zh": "这是 NDA，然后你会得到这种脱敏后的文档，它提取了相关细节，但显然这里只有电子邮件和人名，实体都被遮蔽了。"
+ },
+ {
+  "seg": 163,
+  "start": 1190.384,
+  "end": 1193.247,
+  "speaker": "Unknown",
+  "en": "And all of this is done on your VPC.",
+  "zh": "而这一切都是在你的 VPC 上完成的。"
+ },
+ {
+  "seg": 164,
+  "start": 1194.408,
+  "end": 1198.894,
+  "speaker": "Unknown",
+  "en": "Claude Code doesn't see this stuff or whatever agent you're using.",
+  "zh": "Claude Code 看不到这些东西，或者你用的任何智能体都看不到。"
+ },
+ {
+  "seg": 165,
+  "start": 1200.356,
+  "end": 1205.262,
+  "speaker": "Unknown",
+  "en": "And in certain situations, you can get better performances with the OCR stuff.",
+  "zh": "而且在某些情况下，用 OCR 的东西可以获得更好的性能。"
+ },
+ {
+  "seg": 166,
+  "start": 1210.265,
+  "end": 1214.289,
+  "speaker": "Unknown",
+  "en": "So for example, you can see here successfully loaded skill.",
+  "zh": "比如，你可以看到这里成功加载了 skill。"
+ },
+ {
+  "seg": 167,
+  "start": 1215.01,
+  "end": 1216.471,
+  "speaker": "Unknown",
+  "en": "I found the NDA document.",
+  "zh": "我找到了 NDA 文档。"
+ },
+ {
+  "seg": 168,
+  "start": 1216.831,
+  "end": 1219.033,
+  "speaker": "Unknown",
+  "en": "So here I've set up the cluster.",
+  "zh": "这里我已经搭好了集群。"
+ },
+ {
+  "seg": 169,
+  "start": 1219.054,
+  "end": 1221.496,
+  "speaker": "Unknown",
+  "en": "So I just input the endpoint and the API key.",
+  "zh": "我只是输入了 endpoint 和 API key。"
+ },
+ {
+  "seg": 170,
+  "start": 1222.156,
+  "end": 1228.743,
+  "speaker": "Unknown",
+  "en": "You would need to do this slightly different, but you can totally prompt even Claude Code and so on.",
+  "zh": "你需要做的会稍有不同，但你完全可以对 Claude Code 等进行提示。"
+ },
+ {
+  "seg": 171,
+  "start": 1228.983,
+  "end": 1232.366,
+  "speaker": "Unknown",
+  "en": "And here we get, okay, the file.",
+  "zh": "然后这里我们得到，好，这个文件"
+ },
+ {
+  "seg": 172,
+  "start": 1233.167,
+  "end": 1239.612,
+  "speaker": "Unknown",
+  "en": "contains the freshly redacted output, redacted 10 spans from this to this.",
+  "zh": "包含刚完成的脱敏输出，从这个到这个脱敏了 10 个 span。"
+ },
+ {
+  "seg": 173,
+  "start": 1241.694,
+  "end": 1244.416,
+  "speaker": "Unknown",
+  "en": "And these are kind of the label counts.",
+  "zh": "这些是标签计数。"
+ },
+ {
+  "seg": 174,
+  "start": 1244.717,
+  "end": 1246.158,
+  "speaker": "Unknown",
+  "en": "It gives us some info there.",
+  "zh": "它给了我们一些信息。"
+ },
+ {
+  "seg": 175,
+  "start": 1247.339,
+  "end": 1256.466,
+  "speaker": "Unknown",
+  "en": "And maybe we can do something like, okay, can you preprocess the scans and also",
+  "zh": "然后也许我们可以做点类似的事情，比如，你能不能预处理这些扫描件，同时"
+ },
+ {
+  "seg": 176,
+  "start": 1257.798,
+  "end": 1260.5,
+  "speaker": "Unknown",
+  "en": "Redact them to try to see.",
+  "zh": "对它们做脱敏，试着看看。"
+ },
+ {
+  "seg": 177,
+  "start": 1260.561,
+  "end": 1267.327,
+  "speaker": "Unknown",
+  "en": "So this is in natural language to try to get the OCR models to work, and that's tool to be called.",
+  "zh": "这是用自然语言去让 OCR 模型工作，也就是要调用的工具。"
+ },
+ {
+  "seg": 178,
+  "start": 1267.627,
+  "end": 1270.61,
+  "speaker": "Unknown",
+  "en": "So you can also configure the tool calling and all that.",
+  "zh": "所以你也可以配置工具调用之类的。"
+ },
+ {
+  "seg": 179,
+  "start": 1272.091,
+  "end": 1283.121,
+  "speaker": "Unknown",
+  "en": "And also there is this status line here that counts the token saved, but I need to also update this a bit to kind of do it properly, but that's also part of the...",
+  "zh": "这里还有这个状态栏，统计省下的 token，不过我还需要再更新一下才能做得更规范，但这也是……"
+ },
+ {
+  "seg": 180,
+  "start": 1284.697,
+  "end": 1288.279,
+  "speaker": "Unknown",
+  "en": "kind of advantage that you can actually see you're saving on token costs.",
+  "zh": "某种优势之一，你可以实际看到自己在节省 token 成本。"
+ },
+ {
+  "seg": 181,
+  "start": 1289.599,
+  "end": 1294.102,
+  "speaker": "Unknown",
+  "en": "So I'll preprocess the thing to markdown, then redact it.",
+  "zh": "所以我会先把这东西预处理成 markdown，然后做脱敏。"
+ },
+ {
+  "seg": 182,
+  "start": 1295.702,
+  "end": 1297.543,
+  "speaker": "Unknown",
+  "en": "And it's working.",
+  "zh": "它正在运行。"
+ },
+ {
+  "seg": 183,
+  "start": 1298.464,
+  "end": 1309.709,
+  "speaker": "Unknown",
+  "en": "And for example, we can see, I'll just show you some of the files just so that I don't like go through all the stuff all the time.",
+  "zh": "比如我们可以看到，我只给你们展示一些文件，这样我就不用每次都把所有东西都过一遍了。"
+ },
+ {
+  "seg": 184,
+  "start": 1310.449,
+  "end": 1311.01,
+  "speaker": "Unknown",
+  "en": "There is this,",
+  "zh": "有这个，"
+ },
+ {
+  "seg": 185,
+  "start": 1313.414,
+  "end": 1339.181,
+  "speaker": "Unknown",
+  "en": "Let's say contract before, so this is how it looks, and this is a scan, so I don't know if you can see now, because it's a clean one, but this is, you can see, so it's an image, it's not like text, so it needs OCR probably, and then if we do the after one, this is some",
+  "zh": "比如这是脱敏前的合同，它长这样，这是一份扫描件，我不知道你们现在能不能看清，因为这是一份干净的，但你可以看到，它是一张图片，不是文本，所以很可能需要 OCR，然后如果我们看脱敏后的那份，这是一个"
+ },
+ {
+  "seg": 186,
+  "start": 1341.178,
+  "end": 1349.983,
+  "speaker": "Unknown",
+  "en": "You can see Markdown file here that's extracting this stuff but also redacting them.",
+  "zh": "你可以看到这里的 Markdown 文件，它既提取了这些内容，也对它们做了脱敏。"
+ },
+ {
+  "seg": 187,
+  "start": 1350.043,
+  "end": 1352.384,
+  "speaker": "Unknown",
+  "en": "So, whoops, cursor.",
+  "zh": "那么，哎，光标。"
+ },
+ {
+  "seg": 188,
+  "start": 1352.784,
+  "end": 1359.708,
+  "speaker": "Unknown",
+  "en": "So the idea is that you preprocess the document through the OCR tool calling thing.",
+  "zh": "所以这个想法是，你通过 OCR 工具调用对文档进行预处理。"
+ },
+ {
+  "seg": 189,
+  "start": 1360.288,
+  "end": 1369.933,
+  "speaker": "Unknown",
+  "en": "You get the token saving cost, the better context management and so on, but you also get the redacted file so personal information is not leaked.",
+  "zh": "你得到了 token 成本节省、更好的上下文管理等等，但你还得到了脱敏后的文件，这样个人信息就不会泄露。"
+ },
+ {
+  "seg": 190,
+  "start": 1371.366,
+  "end": 1376.509,
+  "speaker": "Unknown",
+  "en": "And this is also getting done in the meantime.",
+  "zh": "而与此同时这些也在同步进行。"
+ },
+ {
+  "seg": 191,
+  "start": 1378.891,
+  "end": 1385.375,
+  "speaker": "Unknown",
+  "en": "So that's the idea from kind of a functional perspective, but a lot of things are happening in the background.",
+  "zh": "所以这就是从功能角度出发的想法,但背后有很多事情在发生。"
+ },
+ {
+  "seg": 192,
+  "start": 1385.395,
+  "end": 1394.3,
+  "speaker": "Unknown",
+  "en": "So it's not just like the privacy aspect and this looks easy, but the heavy lifting is done by this part.",
+  "zh": "所以这不仅仅是隐私层面和看起来简单，繁重的工作是由这一部分完成的。"
+ },
+ {
+  "seg": 193,
+  "start": 1394.72,
+  "end": 1399.744,
+  "speaker": "Unknown",
+  "en": "So Superlinked and the inference engine and the cluster is set up in",
+  "zh": "Superlinked 和推理引擎以及集群的搭建方式，"
+ },
+ {
+  "seg": 194,
+  "start": 1400.664,
+  "end": 1414.106,
+  "speaker": "Unknown",
+  "en": "A way that it allows you to have multiple models, have hot swapping of models on different GPUs, have smarter batching so that you can kind of test out multiple models.",
+  "zh": "让你可以拥有多个模型，可以在不同 GPU 上热切换模型，有更智能的批处理，这样你就可以测试多个模型。"
+ },
+ {
+  "seg": 195,
+  "start": 1414.166,
+  "end": 1427.769,
+  "speaker": "Unknown",
+  "en": "For example, if you have five LoRa's fine-tuned to different sub-areas of your work, you can kind of hot swap between them and test out which one is the best even.",
+  "zh": "比如，如果你有五个针对你工作不同子领域微调的 LoRA，你可以在它们之间热切换，甚至测试出哪个最好。"
+ },
+ {
+  "seg": 196,
+  "start": 1428.429,
+  "end": 1429.089,
+  "speaker": "Unknown",
+  "en": "So we have",
+  "zh": "所以我们有"
+ },
+ {
+  "seg": 197,
+  "start": 1430.819,
+  "end": 1450.076,
+  "speaker": "Unknown",
+  "en": "A gateway that kind of helps us connect this to different worker pools that each have this batcher per worker so that the batching is done per worker and that gave us better performance instead of just having all the batching up front.",
+  "zh": "一个网关，它帮助我们把它连接到不同的 worker 池，每个 worker 池里每个 worker 都有自己的批处理器，这样批处理是按 worker 进行的，这比把所有批处理都放在前面给我们带来了更好的性能。"
+ },
+ {
+  "seg": 198,
+  "start": 1451.617,
+  "end": 1457.062,
+  "speaker": "Unknown",
+  "en": "And this is of course the architecture of the MCP solution.",
+  "zh": "这当然就是 MCP 方案的架构。"
+ },
+ {
+  "seg": 199,
+  "start": 1458.415,
+  "end": 1461.616,
+  "speaker": "Unknown",
+  "en": "So how it works with SI.",
+  "zh": "那么它是如何与 SI 配合工作的。"
+ },
+ {
+  "seg": 200,
+  "start": 1461.656,
+  "end": 1466.857,
+  "speaker": "Unknown",
+  "en": "So you can see this part on the right is in your VPC.",
+  "zh": "所以你可以看到右边这部分在你的 VPC 里。"
+ },
+ {
+  "seg": 201,
+  "start": 1466.897,
+  "end": 1475.859,
+  "speaker": "Unknown",
+  "en": "So both the kind of the MCP work that gets offloaded to Superlinked SI is in your own private cloud.",
+  "zh": "所以这类被卸载到 Superlinked SI 的 MCP 工作都在你自己的私有云里。"
+ },
+ {
+  "seg": 202,
+  "start": 1477.979,
+  "end": 1487.581,
+  "speaker": "Unknown",
+  "en": "And this is what gave us the advantage performance-wise, or at least one of the advantages, was the batching technique where if you kind of",
+  "zh": "而这在性能上给了我们优势，或者至少是优势之一，那就是批处理技术，如果你"
+ },
+ {
+  "seg": 203,
+  "start": 1488.955,
+  "end": 1495.416,
+  "speaker": "Unknown",
+  "en": "do the batching without having one shared queue that then each of the workers pull from.",
+  "zh": "在做批处理时没有一个共享队列让每个 worker 从中拉取。"
+ },
+ {
+  "seg": 204,
+  "start": 1497.397,
+  "end": 1511.319,
+  "speaker": "Unknown",
+  "en": "In our testing and in general performance was lower so we were able to kind of do this setup and have an end-to-end improvement on latency and performance even with different models.",
+  "zh": "在我们的测试中，总体来说性能会更低，所以我们能够做这种配置，即使使用不同的模型，也能在端到端的延迟和性能上获得提升。"
+ },
+ {
+  "seg": 205,
+  "start": 1512.099,
+  "end": 1515.72,
+  "speaker": "Unknown",
+  "en": "And the idea is that you also want different worker pools because",
+  "zh": "而且这个想法是，你也想要不同的 worker 池，因为"
+ },
+ {
+  "seg": 206,
+  "start": 1516.32,
+  "end": 1524.782,
+  "speaker": "Unknown",
+  "en": "For example, at some point, you might want to try a heavier model, but also have another one that can totally run really well on an L4 spot instance.",
+  "zh": "比如说，在某些时候，你可能想尝试一个更重的模型，但同时也有另一个模型可以完全在 L4 spot 实例上运行得很好。"
+ },
+ {
+  "seg": 207,
+  "start": 1524.802,
+  "end": 1532.125,
+  "speaker": "Unknown",
+  "en": "So you might be like, okay, I don't need to waste kind of this more expensive hardware.",
+  "zh": "所以你可能会想，好的，我不需要浪费这种更昂贵的硬件。"
+ },
+ {
+  "seg": 208,
+  "start": 1532.845,
+  "end": 1536.286,
+  "speaker": "Unknown",
+  "en": "And also we have auto-scaling, so this can kind of",
+  "zh": "而且我们还有自动扩缩容，所以这可以"
+ },
+ {
+  "seg": 209,
+  "start": 1537.538,
+  "end": 1540.061,
+  "speaker": "Unknown",
+  "en": "come down when not used and so on.",
+  "zh": "在不用的时候降下来等等。"
+ },
+ {
+  "seg": 210,
+  "start": 1540.481,
+  "end": 1542.803,
+  "speaker": "Unknown",
+  "en": "So that's the setup.",
+  "zh": "所以这就是这套配置。"
+ },
+ {
+  "seg": 211,
+  "start": 1543.484,
+  "end": 1545.686,
+  "speaker": "Unknown",
+  "en": "And there is the hot swapping of models.",
+  "zh": "还有模型的热替换。"
+ },
+ {
+  "seg": 212,
+  "start": 1546.107,
+  "end": 1548.929,
+  "speaker": "Unknown",
+  "en": "So especially around",
+  "zh": "尤其是围绕"
+ },
+ {
+  "seg": 213,
+  "start": 1550.285,
+  "end": 1560.277,
+  "speaker": "Unknown",
+  "en": "Smaller models that can fit into one GPU that are doing named entity recognition or even smaller generation or embeddings and so on.",
+  "zh": "能装进单个 GPU 的小模型，做命名实体识别或者更小的生成任务或 embeddings 之类的。"
+ },
+ {
+  "seg": 214,
+  "start": 1561.639,
+  "end": 1567.586,
+  "speaker": "Unknown",
+  "en": "You can benefit a lot from having multiple models on one GPU being switched around and swapped.",
+  "zh": "你可以从在一个 GPU 上放置多个模型并进行切换和交换中获得很大收益。"
+ },
+ {
+  "seg": 215,
+  "start": 1569.597,
+  "end": 1592.445,
+  "speaker": "Unknown",
+  "en": "And this goes in the direction of kind of what the MCP does and the tool calling aspect where you could build agents and have this inference part offloaded using Superlinked and you can get different bundles of tasks set up, so basically document parsing like I explained or embedding content or",
+  "zh": "而这就朝着 MCP 所做的事情和工具调用的方向走，你可以构建智能体，并把这部分推理用 Superlinked 卸载出去，你可以设置不同的任务捆绑包，基本上就像我解释过的文档解析，或者对内容做 embedding,或者"
+ },
+ {
+  "seg": 216,
+  "start": 1593.165,
+  "end": 1600.55,
+  "speaker": "Unknown",
+  "en": "Writing code with some generation models or extracting images or captions from data and so on.",
+  "zh": "用一些生成模型写代码，或者从数据中提取图片或字幕等等。"
+ },
+ {
+  "seg": 217,
+  "start": 1601.51,
+  "end": 1606.453,
+  "speaker": "Unknown",
+  "en": "Or even like guardrails and structure generation stuff for policy checking and so on.",
+  "zh": "甚至像护栏和结构化生成之类的东西，用于策略检查等等。"
+ },
+ {
+  "seg": 218,
+  "start": 1606.493,
+  "end": 1608.094,
+  "speaker": "Unknown",
+  "en": "So I'd be also happy for you.",
+  "zh": "所以我也很乐意见到你。"
+ },
+ {
+  "seg": 219,
+  "start": 1608.475,
+  "end": 1611.156,
+  "speaker": "Unknown",
+  "en": "So you get more credits if you...",
+  "zh": "如果你……你会得到更多积分。"
+ },
+ {
+  "seg": 220,
+  "start": 1612.897,
+  "end": 1614.438,
+  "speaker": "Unknown",
+  "en": "Kind of build a project and so on.",
+  "zh": "比如构建一个项目之类的。"
+ },
+ {
+  "seg": 221,
+  "start": 1614.458,
+  "end": 1626.966,
+  "speaker": "Unknown",
+  "en": "So if you contribute a tool that is maybe around content guarding or policy checking or whatever you find useful, we'd love to kind of have that.",
+  "zh": "所以如果你贡献一个工具，可能是围绕内容守护或策略检查，或者任何你觉得有用的东西，我们很乐意拥有它。"
+ },
+ {
+  "seg": 222,
+  "start": 1627.866,
+  "end": 1656.693,
+  "speaker": "Unknown",
+  "en": "as a contribution and in some of our tests we've also seen that due to this infrastructure that I explained we get very good performance around embedding models so we also have generation models but the tests that we have the benchmarks for now are around embedding models so you get kind of 10x lower price roughly",
+  "zh": "作为一个贡献，在我们的一些测试中，我们还看到，由于我解释的这套基础设施，我们在 embedding 模型上获得了非常好的性能，所以我们也有生成模型，但我们目前有基准测试的测试是围绕 embedding 模型的，所以价格大概低 10 倍左右"
+ },
+ {
+  "seg": 223,
+  "start": 1658.477,
+  "end": 1662.056,
+  "speaker": "Unknown",
+  "en": "with very similar quality, so you can see there the kind of",
+  "zh": "而质量非常接近，所以你可以在那里看到"
+ },
+ {
+  "seg": 224,
+  "start": 1663.365,
+  "end": 1672.628,
+  "speaker": "Unknown",
+  "en": "The best model we had per task for embedding was 99.8% to kind of the frontier one.",
+  "zh": "我们在 embedding 每个任务上最好的模型达到了最前沿模型的 99.8%。"
+ },
+ {
+  "seg": 225,
+  "start": 1673.368,
+  "end": 1677.069,
+  "speaker": "Unknown",
+  "en": "And we evaluated this using MTAP tasks.",
+  "zh": "我们是用 MTAP 任务来评估的。"
+ },
+ {
+  "seg": 226,
+  "start": 1677.709,
+  "end": 1680.17,
+  "speaker": "Unknown",
+  "en": "So yeah, that's the case.",
+  "zh": "所以是的，情况就是这样。"
+ },
+ {
+  "seg": 227,
+  "start": 1680.19,
+  "end": 1683.831,
+  "speaker": "Unknown",
+  "en": "We'll have more benchmarks and details around this soon as well.",
+  "zh": "我们很快也会有更多关于这方面的基准测试和细节。"
+ },
+ {
+  "seg": 228,
+  "start": 1684.411,
+  "end": 1692.413,
+  "speaker": "Unknown",
+  "en": "But the point of this is that sometimes, especially in production use cases and with certain loads,",
+  "zh": "但这里的重点是，有时候，尤其是在生产用例和某些负载下，"
+ },
+ {
+  "seg": 229,
+  "start": 1693.353,
+  "end": 1698.117,
+  "speaker": "Unknown",
+  "en": "You get the advantage through the end-to-end improvements.",
+  "zh": "你是通过端到端的改进获得优势的。"
+ },
+ {
+  "seg": 230,
+  "start": 1698.137,
+  "end": 1712.888,
+  "speaker": "Unknown",
+  "en": "So if your infrastructure and architecture is set up well, you basically get the latency improvement and the better performance even if your per model inference is not optimized.",
+  "zh": "所以如果你的基础设施和架构搭建得好，即使你的单模型推理没有优化，你基本上也能获得延迟改进和更好的性能。"
+ },
+ {
+  "seg": 231,
+  "start": 1713.289,
+  "end": 1720.995,
+  "speaker": "Unknown",
+  "en": "And we're doing both in our case, but that was a revelation that for production use cases was very helpful to know.",
+  "zh": "在我们的案例中两者我们都在做，但这是一个对生产用例非常有帮助的认识。"
+ },
+ {
+  "seg": 232,
+  "start": 1723.072,
+  "end": 1736.735,
+  "speaker": "Unknown",
+  "en": "And on the example around Loras, we've seen that you could kind of test out Loras fairly quickly and fine-tune them, so we're exploring work on that area.",
+  "zh": "而在 Loras 的例子上，我们看到你可以相当快速地测试 Loras 并对它们进行微调，所以我们正在探索那个领域的工作。"
+ },
+ {
+  "seg": 233,
+  "start": 1737.255,
+  "end": 1747.417,
+  "speaker": "Unknown",
+  "en": "So some of the colleagues worked on this German language-specific Loras that were fine-tuned and they were fairly cheap, so having a way to",
+  "zh": "一些同事做了这些针对德语语言的 Loras 微调，它们相当便宜，所以有一种方式可以"
+ },
+ {
+  "seg": 234,
+  "start": 1748.657,
+  "end": 1766.081,
+  "speaker": "Unknown",
+  "en": "Do multiple LORAs and test them out in production and deploy them quickly seem to be quite useful and improved performance in this very, let's say, niche use cases like German legal language, let's say.",
+  "zh": "做多个 LORA、在生产中测试并快速部署它们，似乎相当有用，并且在一些非常，比如说，小众的用例中提升了性能，比如德语法律语言。"
+ },
+ {
+  "seg": 235,
+  "start": 1767.081,
+  "end": 1771.522,
+  "speaker": "Unknown",
+  "en": "And this is kind of how the MCP works.",
+  "zh": "这大概就是 MCP 的工作方式。"
+ },
+ {
+  "seg": 236,
+  "start": 1772.903,
+  "end": 1774.463,
+  "speaker": "Unknown",
+  "en": "I mentioned a bit around this.",
+  "zh": "我提到过一点相关内容。"
+ },
+ {
+  "seg": 237,
+  "start": 1776.717,
+  "end": 1801.048,
+  "speaker": "Unknown",
+  "en": "And there are some failure modes that are already there, but again, this is working and it's well, but there are so many more things to do and I'm kind of very happy to have your input and PRs and even just like comments so you can add me on LinkedIn and all that and I'm happy to chat always.",
+  "zh": "已经存在一些失败模式，但同样，这是可以工作的，而且工作得不错，但还有很多事情要做，我非常乐意听到你的意见和 PR,甚至只是评论，你可以在 LinkedIn 上加我，我一直很乐意聊天。"
+ },
+ {
+  "seg": 238,
+  "start": 1802.691,
+  "end": 1812.276,
+  "speaker": "Unknown",
+  "en": "And that's the idea that the same kind of MCPH handles every document job so you can do question answering, pulling facts, reading documents.",
+  "zh": "而这个想法是同一个 MCPH 处理每个文档任务，所以你可以做问答、提取事实、阅读文档。"
+ },
+ {
+  "seg": 239,
+  "start": 1813.477,
+  "end": 1815.198,
+  "speaker": "Unknown",
+  "en": "So yeah, this should also",
+  "zh": "所以是的，这应该也能"
+ },
+ {
+  "seg": 240,
+  "start": 1818.463,
+  "end": 1839.537,
+  "speaker": "Unknown",
+  "en": "Work, and there is different, again, labels, extract it, and so on, and you can try this, like, this, I think, moved the number, but again, you can test this live and test out different tools with kind of your own demo data, and",
+  "zh": "工作，而且同样有不同的标签、extract it 等等，你可以试试这个，比如，这个，我想，数字变动了，但同样，你可以实时测试，用你自己的演示数据测试不同的工具，而且"
+ },
+ {
+  "seg": 241,
+  "start": 1841.535,
+  "end": 1844.557,
+  "speaker": "Unknown",
+  "en": "I've explained this to a certain point on what it does now.",
+  "zh": "我已经在一定程度上解释了它现在做什么。"
+ },
+ {
+  "seg": 242,
+  "start": 1846.678,
+  "end": 1859.407,
+  "speaker": "Unknown",
+  "en": "And yeah, there's the token saving aspect, and that's very important, and not sending data to external APIs, and it all runs in your cloud.",
+  "zh": "还有节省 token 的方面，这非常重要，还有不把数据发送到外部 API,这一切都在你的云里运行。"
+ },
+ {
+  "seg": 243,
+  "start": 1859.867,
+  "end": 1868.212,
+  "speaker": "Unknown",
+  "en": "And there is a lot of stuff to do kind of in the future, but the operational capability is still there, so we have the",
+  "zh": "未来还有很多事情要做，但运维能力仍然在那里，所以我们有"
+ },
+ {
+  "seg": 244,
+  "start": 1869.353,
+  "end": 1884.946,
+  "speaker": "Unknown",
+  "en": "Helm charts and the Kubernetes cluster and you can use also Terraform apply to deploy the cluster which is also open source so it's not hidden like kind of just the code is open source but we have basically everything.",
+  "zh": "Helm charts 和 Kubernetes 集群，你也可以用 Terraform apply 来部署集群，这同样是开源的，所以它不是隐藏的，不只是代码开源，而是我们基本上把一切都开源了。"
+ },
+ {
+  "seg": 245,
+  "start": 1886.428,
+  "end": 1892.212,
+  "speaker": "Unknown",
+  "en": "And this can go beyond just documents so if we look at this idea of having",
+  "zh": "而这可以超越文档本身，所以如果我们看这个想法——"
+ },
+ {
+  "seg": 246,
+  "start": 1893.073,
+  "end": 1914.162,
+  "speaker": "Unknown",
+  "en": "The inference solved as a little box in your whole workflow, it unlocks a lot of opportunities that can go kind of beyond text with other models, looking at transcripts, even graph-based data, generating ontologies and so on by different tool calls, structure generation.",
+  "zh": "把推理作为你整个工作流中的一个小盒子来解决——它会解锁很多机会，可以借助其他模型超越文本，查看转录内容，甚至基于图的数据，通过不同的工具调用生成本体等等，结构化生成。"
+ },
+ {
+  "seg": 247,
+  "start": 1916.203,
+  "end": 1935.892,
+  "speaker": "Unknown",
+  "en": "There are different opportunities, and one direction that we're exploring as well is model routing within your own private cloud, which is quite powerful, and I think the field is moving a bit in that direction with usually teams exploring",
+  "zh": "有不同的机会，我们也在探索的一个方向是你自己私有云内的模型路由，这相当强大，而且我认为这个领域正在朝那个方向移动，通常团队在探索"
+ },
+ {
+  "seg": 248,
+  "start": 1938.093,
+  "end": 1946.303,
+  "speaker": "Unknown",
+  "en": "This API-based optimization where you have a combination of models working together and the end-to-end performance is better.",
+  "zh": "这种基于 API 的优化，你有一组模型协同工作，端到端的性能更好。"
+ },
+ {
+  "seg": 249,
+  "start": 1948.045,
+  "end": 1951.128,
+  "speaker": "Unknown",
+  "en": "And there is an option to do something similar in this way.",
+  "zh": "而且有一种选项可以用这种方式做类似的事情。"
+ },
+ {
+  "seg": 250,
+  "start": 1952.403,
+  "end": 1955.045,
+  "speaker": "Unknown",
+  "en": "However, this is more like a future roadmap idea.",
+  "zh": "不过，这更像是一个未来路线图的想法。"
+ },
+ {
+  "seg": 251,
+  "start": 1955.085,
+  "end": 1962.37,
+  "speaker": "Unknown",
+  "en": "So this is currently not built in, but the idea is to also pick the models based on the task.",
+  "zh": "所以目前还没有内置，但想法是也要根据任务来选择模型。"
+ },
+ {
+  "seg": 252,
+  "start": 1962.43,
+  "end": 1971.736,
+  "speaker": "Unknown",
+  "en": "So the tool calling will not be tied just to the tool itself, but you could also understand which model to pick for the underlying tool.",
+  "zh": "这样工具调用就不只是绑定在工具本身上，你还可以理解该为底层工具选择哪个模型。"
+ },
+ {
+  "seg": 253,
+  "start": 1971.816,
+  "end": 1973.618,
+  "speaker": "Unknown",
+  "en": "So if I've only set up",
+  "zh": "所以如果我只设置了"
+ },
+ {
+  "seg": 254,
+  "start": 1974.918,
+  "end": 1987.946,
+  "speaker": "Unknown",
+  "en": "One OCR model, I could say that, okay, for this tool call, I actually want OCR cheap or some other sort of tool call that, depending on the task, adapts to what I'm trying to do.",
+  "zh": "一个 OCR 模型，我可以说，好吧，对于这个工具调用，我实际上想要 OCR cheap 或其他某种工具调用，根据任务来适应我正在尝试做的事情。"
+ },
+ {
+  "seg": 255,
+  "start": 1988.646,
+  "end": 1992.228,
+  "speaker": "Unknown",
+  "en": "And that's a powerful direction.",
+  "zh": "这是一个强大的方向。"
+ },
+ {
+  "seg": 256,
+  "start": 1993.429,
+  "end": 1998.812,
+  "speaker": "Unknown",
+  "en": "And there's also playing around with intent and there's this mixture of agents approach.",
+  "zh": "还有在意图上做文章，以及这种智能体混合的方法。"
+ },
+ {
+  "seg": 257,
+  "start": 2000.477,
+  "end": 2019.754,
+  "speaker": "Unknown",
+  "en": "Because if you already, another powerful aspect on why Psy is really good for this is that if you already have the models warm in your GPU, you can hit them much quicker and get the responses quicker and you can do this model routing based on also the",
+  "zh": "错误，应为[[274]]续。然而，我们在评估方面也很强，会在做这些之前尝试测试模型。"
+ },
+ {
+  "seg": 258,
+  "start": 2021.115,
+  "end": 2046.065,
+  "speaker": "Unknown",
+  "en": "the how hot the model is or how kind of what was evicted last what wasn't so there is a lot of options also playing around this card of latency and trying to figure out what are the best models not just from a general perspective but from an infrastructure perspective and doing this is quite useful and",
+  "zh": "模型有多热，或者哪个最近被逐出了、哪个没有，所以在延迟这张牌上有很多可玩的选项，试图找出最好的模型——不仅是从一般角度来看，而是从基础设施角度来看——这样做是相当有用的，而且"
+ },
+ {
+  "seg": 259,
+  "start": 2047.977,
+  "end": 2054.683,
+  "speaker": "Unknown",
+  "en": "I think a lot of stuff will be done in this way kind of fairly soon.",
+  "zh": "我认为很多这样的东西很快就会以这种方式完成。"
+ },
+ {
+  "seg": 260,
+  "start": 2056.144,
+  "end": 2064.291,
+  "speaker": "Unknown",
+  "en": "And yeah, this is the idea that you can kind of estimate per model to find which models are warm.",
+  "zh": "是的，这就是你可以按模型进行估计、找出哪些模型是热的想法。"
+ },
+ {
+  "seg": 261,
+  "start": 2065.311,
+  "end": 2072.717,
+  "speaker": "Unknown",
+  "en": "And then in some cases, it would be cheaper to hit a model that's already hot, but more expensive rather than",
+  "zh": "然后在某些情况下，命中一个已经热的模型会更便宜，即使更贵，也比"
+ },
+ {
+  "seg": 262,
+  "start": 2073.538,
+  "end": 2079.58,
+  "speaker": "Unknown",
+  "en": "Reloading a model that's cheaper but kind of not already there in your GPU.",
+  "zh": "重新加载一个更便宜但还没有在你的 GPU 里的模型更划算。"
+ },
+ {
+  "seg": 263,
+  "start": 2079.6,
+  "end": 2086.921,
+  "speaker": "Unknown",
+  "en": "So this logic can be set up as well to optimize costs and usage beyond the tool level.",
+  "zh": "所以也可以设置这种逻辑来在工具层面之外优化成本和使用。"
+ },
+ {
+  "seg": 264,
+  "start": 2088.642,
+  "end": 2100.485,
+  "speaker": "Unknown",
+  "en": "And I'm just mentioning this stuff just to kind of showcase how powerful inference is and having good model inference set up with all the infrastructure around it.",
+  "zh": "我提这些只是为了展示推理有多强大，以及配备周围所有基础设施的良好模型推理设置"
+ },
+ {
+  "seg": 265,
+  "start": 2101.305,
+  "end": 2105.048,
+  "speaker": "Unknown",
+  "en": "can actually unlock a lot of use cases.",
+  "zh": "实际上可以解锁很多用例。"
+ },
+ {
+  "seg": 266,
+  "start": 2106.248,
+  "end": 2116.235,
+  "speaker": "Unknown",
+  "en": "There is also a potential for doing stuff like judges talking between each other or like the council of models and so on.",
+  "zh": "也有做诸如评审员之间相互交谈、或者像模型议会之类事情的潜力。"
+ },
+ {
+  "seg": 267,
+  "start": 2116.575,
+  "end": 2129.965,
+  "speaker": "Unknown",
+  "en": "Again, this is more of a future roadmap, but this is a direction that also is an option for things like this where, okay, if you want to include some maybe reasoning tool calls or",
+  "zh": "再说一次，这更像是一个未来路线图，但这也是这类事情的一个可选方向，比如，好吧，如果你想包含一些也许是推理类的工具调用，或者"
+ },
+ {
+  "seg": 268,
+  "start": 2130.845,
+  "end": 2136.49,
+  "speaker": "Unknown",
+  "en": "adjust the response based on difficulty of tasks, which models are called.",
+  "zh": "根据任务的难度调整调用哪些模型来调整响应。"
+ },
+ {
+  "seg": 269,
+  "start": 2136.53,
+  "end": 2145.798,
+  "speaker": "Unknown",
+  "en": "For example, an issue I had when building this was that for one of the summarizing tools, I had a model that had",
+  "zh": "举个例子，我在构建这个时遇到的一个问题是，对于其中一个总结工具，我用的模型有"
+ },
+ {
+  "seg": 270,
+  "start": 2148.38,
+  "end": 2149.161,
+  "speaker": "Unknown",
+  "en": "Thinking tokens.",
+  "zh": "思考 token。"
+ },
+ {
+  "seg": 271,
+  "start": 2149.241,
+  "end": 2157.067,
+  "speaker": "Unknown",
+  "en": "So basically the summarization was either very short or it didn't happen because everything was done on the thinking side.",
+  "zh": "所以基本上总结要么非常短，要么根本没有发生，因为所有内容都在思考那边完成了。"
+ },
+ {
+  "seg": 272,
+  "start": 2157.107,
+  "end": 2164.052,
+  "speaker": "Unknown",
+  "en": "So you have to also kind of keep in mind what models you use and whether you toggle the thinking tokens or not.",
+  "zh": "所以你还必须记住你使用什么模型，以及是否开启思考 token。"
+ },
+ {
+  "seg": 273,
+  "start": 2165.693,
+  "end": 2176.562,
+  "speaker": "Unknown",
+  "en": "But sometimes reasoning can be beneficial and it's useful to have a way to do that quickly from an infrastructure side.",
+  "zh": "但有时候推理可能是有益的，从基础设施这边快速做到这一点是很有用的。"
+ },
+ {
+  "seg": 274,
+  "start": 2178.758,
+  "end": 2187.925,
+  "speaker": "Unknown",
+  "en": "And of course, there are some kind of downsides to having a router or a council and so on.",
+  "zh": "当然，拥有一个路由器或议会之类也有一些缺点。"
+ },
+ {
+  "seg": 275,
+  "start": 2188.386,
+  "end": 2195.672,
+  "speaker": "Unknown",
+  "en": "However, we're also very strong on evals and trying to test models before doing this.",
+  "zh": "不过，我们在评估方面也很强，会在做这件事之前先测试模型。"
+ },
+ {
+  "seg": 276,
+  "start": 2195.732,
+  "end": 2199.535,
+  "speaker": "Unknown",
+  "en": "So there are different ideas here that can be done.",
+  "zh": "所以这里有一些不同的、可以做的想法。"
+ },
+ {
+  "seg": 277,
+  "start": 2201.356,
+  "end": 2222.883,
+  "speaker": "Unknown",
+  "en": "And yeah, basically we don't want to also spend GPU on some models reasoning forever and then nothing happens or also have biased models as judges or kind of optimizing something that then becomes kind of by optimizing something you",
+  "zh": "是的，基本上我们也不想把 GPU 花在某些模型上无限推理然后什么结果都没有，或者让有偏见的模型当评审员，或者去优化某种东西，结果通过优化那个东西"
+ },
+ {
+  "seg": 278,
+  "start": 2225.36,
+  "end": 2234.995,
+  "speaker": "Unknown",
+  "en": "kind of escape from making it as a real target, but it just becomes something that like the models hack and never actually use it.",
+  "zh": "反而偏离了把它作为真正的目标，它只是变成了模型会钻空子的东西，而从未被真正使用。"
+ },
+ {
+  "seg": 279,
+  "start": 2235.396,
+  "end": 2237.459,
+  "speaker": "Unknown",
+  "en": "You can never use that as a proper evaluation.",
+  "zh": "你永远不能把那个当作一个合适的评估。"
+ },
+ {
+  "seg": 280,
+  "start": 2239.987,
+  "end": 2243.348,
+  "speaker": "Unknown",
+  "en": "And you can look at our repo.",
+  "zh": "你可以看我们的仓库。"
+ },
+ {
+  "seg": 281,
+  "start": 2243.368,
+  "end": 2247.228,
+  "speaker": "Unknown",
+  "en": "So this is the kind of the QR code if you haven't yet.",
+  "zh": "如果你还没扫的话，这是二维码。"
+ },
+ {
+  "seg": 282,
+  "start": 2248.589,
+  "end": 2265.092,
+  "speaker": "Unknown",
+  "en": "And I think the main takeaway for today is that infrastructure and inference is far more important even for this very API friendly or ergonomic designs where you just work with Claude Code and you can kind of offset your",
+  "zh": "我认为今天的主要要点是：基础设施和推理远比想象中重要，即使对于这种非常 API 友好或符合人体工学的设计——你只用 Claude Code 工作，你可以以不同方式把你的"
+ },
+ {
+  "seg": 283,
+  "start": 2266.892,
+  "end": 2281.74,
+  "speaker": "Unknown",
+  "en": "sensitive data, your specific tasks in different ways and still the backbone is the inference and for example I will",
+  "zh": "敏感数据、你的特定任务进行分流，而骨干仍然是推理，例如我会"
+ },
+ {
+  "seg": 284,
+  "start": 2283.76,
+  "end": 2284.68,
+  "speaker": "Unknown",
+  "en": "Go here again.",
+  "zh": "再次回到这里。"
+ },
+ {
+  "seg": 285,
+  "start": 2284.74,
+  "end": 2287.161,
+  "speaker": "Unknown",
+  "en": "So this will be published as well.",
+  "zh": "所以这个也会被发布。"
+ },
+ {
+  "seg": 286,
+  "start": 2287.481,
+  "end": 2300.366,
+  "speaker": "Unknown",
+  "en": "And you can also find what files are supported, where the LoRa aspect fits, what are the troubleshooting guides, and so on.",
+  "zh": "你还可以找到支持哪些文件、LoRa 方面如何适配、故障排除指南是什么，等等。"
+ },
+ {
+  "seg": 287,
+  "start": 2300.926,
+  "end": 2307.689,
+  "speaker": "Unknown",
+  "en": "And also the most important thing is ask for your API keys and so on.",
+  "zh": "另外最重要的是索取你的 API 密钥等等。"
+ },
+ {
+  "seg": 288,
+  "start": 2307.769,
+  "end": 2309.91,
+  "speaker": "Unknown",
+  "en": "We also have a full model catalog",
+  "zh": "我们还有一个完整的模型目录"
+ },
+ {
+  "seg": 289,
+  "start": 2310.47,
+  "end": 2328.556,
+  "speaker": "Unknown",
+  "en": "We're kind of also revamping this to be more detailed and useful, but basically you can select different output types, different architectures, because in order to optimize the models and the inference, you need to adapt models in different bundles.",
+  "zh": "我们也在把它改造得更详细、更有用，但基本上你可以选择不同的输出类型、不同的架构，因为为了优化模型和推理，你需要把模型打包成不同的 bundle。"
+ },
+ {
+  "seg": 290,
+  "start": 2329.136,
+  "end": 2337.782,
+  "speaker": "Unknown",
+  "en": "So you need to kind of all models maybe implement attention differently so you cannot run them and run the forward pass in the same way.",
+  "zh": "所以也许所有模型都以不同方式实现注意力机制，因此你无法以同样的方式运行它们、运行前向传播。"
+ },
+ {
+  "seg": 291,
+  "start": 2338.142,
+  "end": 2350.089,
+  "speaker": "Unknown",
+  "en": "So you need to have different model runtimes for different model families so that this works and there are a lot of details around this and you can see that models are tagged based on like whether they do",
+  "zh": "所以你需要为不同的模型家族准备不同的模型运行时，这样才能工作，围绕这个有很多细节，你可以看到模型是根据比如它们是否做"
+ },
+ {
+  "seg": 292,
+  "start": 2351.31,
+  "end": 2361.959,
+  "speaker": "Unknown",
+  "en": "Encoding or scoring, so you can also use scoring models that do like re-ranking, basically, even in this use case of the tool calls.",
+  "zh": "编码还是打分来打标签的，所以你也可以使用做重排序之类事情的打分模型，基本上，即使在这个工具调用的用例中也可以。"
+ },
+ {
+  "seg": 293,
+  "start": 2363.18,
+  "end": 2365.442,
+  "speaker": "Unknown",
+  "en": "And the advantage there is that you can...",
+  "zh": "而那里的优势在于你可以……"
+ },
+ {
+  "seg": 294,
+  "start": 2366.529,
+  "end": 2372.816,
+  "speaker": "Unknown",
+  "en": "basically play with your own version of retrieval through this MCP and so on.",
+  "zh": "基本上通过这个 MCP 等玩你自己的检索版本。"
+ },
+ {
+  "seg": 295,
+  "start": 2372.836,
+  "end": 2382.227,
+  "speaker": "Unknown",
+  "en": "And I would really love if you could kind of contribute to this or give us ideas on how to kind of set this up and",
+  "zh": "而且我真的非常希望你能为此做出贡献，或者给我们关于如何搭建这个的想法，"
+ },
+ {
+  "seg": 296,
+  "start": 2383.948,
+  "end": 2388.29,
+  "speaker": "Unknown",
+  "en": "Builds more stuff on top that people find useful.",
+  "zh": "在其之上构建更多人们觉得有用的东西。"
+ },
+ {
+  "seg": 297,
+  "start": 2389.39,
+  "end": 2397.893,
+  "speaker": "Unknown",
+  "en": "We did a hackathon in London with Tech Europe and DeepMind recently where a lot of people kind of tested this out and were",
+  "zh": "错误重复。所以既能做这两方面，又有那个推理作为支撑，是非常酷的。"
+ },
+ {
+  "seg": 298,
+  "start": 2399.259,
+  "end": 2406.523,
+  "speaker": "Unknown",
+  "en": "I'm very kind of happy to work both on the retrieval and reranking side, but also generation.",
+  "zh": "都非常乐意既做检索和重排序方面，也做生成方面。"
+ },
+ {
+  "seg": 299,
+  "start": 2406.603,
+  "end": 2413.667,
+  "speaker": "Unknown",
+  "en": "So having the way of doing both, but being supported by that inference is very cool.",
+  "zh": "所以能够两者兼做，同时还有这种推理能力的支持，是非常酷的。"
+ },
+ {
+  "seg": 300,
+  "start": 2414.108,
+  "end": 2422.853,
+  "speaker": "Unknown",
+  "en": "And again, I encourage you to take this free kind of cluster infrastructure credits that you can use.",
+  "zh": "再说一次,我鼓励你去领取这些可以使用的免费集群基础设施额度。"
+ },
+ {
+  "seg": 301,
+  "start": 2423.453,
+  "end": 2425.834,
+  "speaker": "Unknown",
+  "en": "And we also have a lot of examples",
+  "zh": "我们还有很多示例"
+ },
+ {
+  "seg": 302,
+  "start": 2428.666,
+  "end": 2431.247,
+  "speaker": "Unknown",
+  "en": "Full kind of docs that you can have a look at.",
+  "zh": "以及完整的文档供你查看。"
+ },
+ {
+  "seg": 303,
+  "start": 2433.428,
+  "end": 2439.35,
+  "speaker": "Unknown",
+  "en": "Basically a quick start and then different model versions and how you can also look at how you can migrate.",
+  "zh": "基本上有一个快速入门,然后是不同的 model 版本,以及你如何查看迁移的方法。"
+ },
+ {
+  "seg": 304,
+  "start": 2439.39,
+  "end": 2447.434,
+  "speaker": "Unknown",
+  "en": "For example, if you have some workflow done with like OpenAI API, then you're like, okay, cool, I want to test this thing out quickly.",
+  "zh": "比如说,如果你已经用 OpenAI API 做好了一些工作流,然后你想:好,我想快速测试一下这个东西。"
+ },
+ {
+  "seg": 305,
+  "start": 2447.734,
+  "end": 2448.314,
+  "speaker": "Unknown",
+  "en": "What can I do?",
+  "zh": "我能做什么?"
+ },
+ {
+  "seg": 306,
+  "start": 2449.014,
+  "end": 2449.635,
+  "speaker": "Unknown",
+  "en": "You have those.",
+  "zh": "你也有那些。"
+ },
+ {
+  "seg": 307,
+  "start": 2451.278,
+  "end": 2452.079,
+  "speaker": "Unknown",
+  "en": "options as well.",
+  "zh": "选项。"
+ },
+ {
+  "seg": 308,
+  "start": 2452.959,
+  "end": 2455.501,
+  "speaker": "Unknown",
+  "en": "And this is the repo.",
+  "zh": "这是这个仓库。"
+ },
+ {
+  "seg": 309,
+  "start": 2455.521,
+  "end": 2457.943,
+  "speaker": "Unknown",
+  "en": "So again, this is the package.",
+  "zh": "再说一次,这是这个包。"
+ },
+ {
+  "seg": 310,
+  "start": 2459.204,
+  "end": 2467.009,
+  "speaker": "Unknown",
+  "en": "And here you have kind of what it exposes and how the credentials are set up.",
+  "zh": "这里你可以看到它暴露了什么,以及凭证是如何设置的。"
+ },
+ {
+  "seg": 311,
+  "start": 2467.049,
+  "end": 2468.71,
+  "speaker": "Unknown",
+  "en": "So the readme",
+  "zh": "所以这个 readme"
+ },
+ {
+  "seg": 312,
+  "start": 2469.611,
+  "end": 2473.773,
+  "speaker": "Unknown",
+  "en": "Here can be checked out.",
+  "zh": "可以在这里查看。"
+ },
+ {
+  "seg": 313,
+  "start": 2473.873,
+  "end": 2475.214,
+  "speaker": "Unknown",
+  "en": "This is the example.",
+  "zh": "这是示例。"
+ },
+ {
+  "seg": 314,
+  "start": 2475.234,
+  "end": 2481.057,
+  "speaker": "Unknown",
+  "en": "So if you contribute with examples and have something more here, that would be very useful.",
+  "zh": "所以如果你贡献示例,在这里添加更多内容,那会非常有用。"
+ },
+ {
+  "seg": 315,
+  "start": 2482.538,
+  "end": 2489.882,
+  "speaker": "Unknown",
+  "en": "And this is where you apply for the credits that",
+  "zh": "这里是你申请额度的入口,"
+ },
+ {
+  "seg": 316,
+  "start": 2492.278,
+  "end": 2495.259,
+  "speaker": "Unknown",
+  "en": "help you to build things and try things out.",
+  "zh": "这些额度能帮助你构建东西、尝试东西。"
+ },
+ {
+  "seg": 317,
+  "start": 2495.739,
+  "end": 2502.742,
+  "speaker": "Unknown",
+  "en": "This was very popular at the Hackathon, so very kind of happy for you to try this out.",
+  "zh": "这在 Hackathon 上非常受欢迎,所以非常欢迎你们来尝试。"
+ },
+ {
+  "seg": 318,
+  "start": 2503.262,
+  "end": 2510.924,
+  "speaker": "Unknown",
+  "en": "And I think since we're slowly approaching the end, I can take some questions as well.",
+  "zh": "我想既然我们慢慢接近尾声了,我也可以回答一些问题。"
+ },
+ {
+  "seg": 319,
+  "start": 2512.738,
+  "end": 2519.845,
+  "speaker": "Unknown",
+  "en": "You'll just kind of speak and I'll restate and reiterate the question because of the recording.",
+  "zh": "你们直接说,因为要录音,我会复述和重述一下问题。"
+ },
+ {
+  "seg": 320,
+  "start": 2520.606,
+  "end": 2530.516,
+  "speaker": "Unknown",
+  "en": "So yeah, I'm happy to answer a few things and we can also play around with this more if you have some query that you want to try.",
+  "zh": "是的,我很乐意回答一些问题,如果你有什么想试的查询,我们也可以多玩玩这个。"
+ },
+ {
+  "seg": 321,
+  "start": 2530.536,
+  "end": 2531.257,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 322,
+  "start": 2549.511,
+  "end": 2551.714,
+  "speaker": "Unknown",
+  "en": "So it wouldn't do that basically.",
+  "zh": "所以它基本上不会那么做。"
+ },
+ {
+  "seg": 323,
+  "start": 2551.734,
+  "end": 2555.139,
+  "speaker": "Unknown",
+  "en": "So the concern is around, the question is around privacy.",
+  "zh": "所以顾虑在于,这个问题是关于隐私的。"
+ },
+ {
+  "seg": 324,
+  "start": 2555.559,
+  "end": 2556.961,
+  "speaker": "Unknown",
+  "en": "So basically you just,",
+  "zh": "所以基本上你只是,"
+ },
+ {
+  "seg": 325,
+  "start": 2558.02,
+  "end": 2565.322,
+  "speaker": "Unknown",
+  "en": "Claude would just get the redacted version of the document, so it wouldn't get the full document that you're inputting there.",
+  "zh": "Claude 只会拿到文档脱敏后的版本,而不是你输入的完整文档。"
+ },
+ {
+  "seg": 326,
+  "start": 2565.822,
+  "end": 2571.544,
+  "speaker": "Unknown",
+  "en": "So that's kind of the setup that we have currently, so it would only see that side of things.",
+  "zh": "所以这就是我们目前的设置,它只会看到那一侧的内容。"
+ },
+ {
+  "seg": 327,
+  "start": 2571.564,
+  "end": 2572.824,
+  "speaker": "Unknown",
+  "en": "Yeah?",
+  "zh": "是吗?"
+ },
+ {
+  "seg": 328,
+  "start": 2572.844,
+  "end": 2579.766,
+  "speaker": "Unknown",
+  "en": "But I'm saying, if you're in Claude, you're telling you to do something that's ultimately gonna go to an MCP, right, that's a step.",
+  "zh": "但我是说,如果你在 Claude 里,你让它做某件最终要交给 MCP 去做的事,对吧,那是一个步骤。"
+ },
+ {
+  "seg": 329,
+  "start": 2579.786,
+  "end": 2580.947,
+  "speaker": "Unknown",
+  "en": "Claude had to make the decision to call the MCP.",
+  "zh": "Claude 必须做出调用 MCP 的决定。"
+ },
+ {
+  "seg": 330,
+  "start": 2580.967,
+  "end": 2586.008,
+  "speaker": "Unknown",
+  "en": "At some point, it could have read the data on the file.",
+  "zh": "在某个时刻,它可能已经读取了文件里的数据。"
+ },
+ {
+  "seg": 331,
+  "start": 2589.351,
+  "end": 2598.655,
+  "speaker": "Unknown",
+  "en": "Yeah, so, I mean, this can be kind of evaluated like whether this happens, like whether Claude does this kind of off-rails situation.",
+  "zh": "是的,我的意思是,这可以评估一下是否会发生这种情况,比如 Claude 是否会出现这种脱轨的情况。"
+ },
+ {
+  "seg": 332,
+  "start": 2598.995,
+  "end": 2618.122,
+  "speaker": "Unknown",
+  "en": "Definitely that can be kind of tested more and more, but in the test that I've done, like if you host the kind of MCP and everything else is on the virtual private cloud, this seemed to have worked without kind of the data leaking, but I'm sure there can be more guardrails to kind of reinforce this at that,",
+  "zh": "当然这可以做越来越多的测试,但在我做过的测试中,比如如果你托管 MCP,其他所有东西都在虚拟私有云上,这似乎没有发生数据泄露,但我确信可以有更多护栏来加强这一点,"
+ },
+ {
+  "seg": 333,
+  "start": 2618.482,
+  "end": 2619.242,
+  "speaker": "Unknown",
+  "en": "Initial stage.",
+  "zh": "在初始阶段。"
+ },
+ {
+  "seg": 334,
+  "start": 2619.603,
+  "end": 2626.326,
+  "speaker": "Unknown",
+  "en": "Or in the worst case, even you could say, okay, I'm concerned I can build my own harness and use an open source.",
+  "zh": "或者最坏的情况下,甚至你可以说,好吧,我有顾虑,我可以构建自己的 harness 并使用开源的。"
+ },
+ {
+  "seg": 335,
+  "start": 2626.687,
+  "end": 2627.107,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 336,
+  "start": 2628.19,
+  "end": 2629.47,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah, yeah.",
+  "zh": "是的,是的,是的。"
+ },
+ {
+  "seg": 337,
+  "start": 2629.731,
+  "end": 2641.055,
+  "speaker": "Unknown",
+  "en": "And in that way, even like you could still save on tokens and get better context, even if like this is Claude Code in my example, but it can be any harness.",
+  "zh": "这样的话,甚至你仍然可以节省 token 并获得更好的上下文,即使比如在我这个例子里是 Claude Code,但它可以是任何 harness。"
+ },
+ {
+  "seg": 338,
+  "start": 2641.535,
+  "end": 2648.757,
+  "speaker": "Unknown",
+  "en": "If you implement the tool calling well, I think this can be done, but happy to get a contribution around this as well.",
+  "zh": "如果你把工具调用实现得好,我认为这是可以做到的,也很乐意在这个方面收到贡献。"
+ },
+ {
+  "seg": 339,
+  "start": 2649.998,
+  "end": 2652.979,
+  "speaker": "Unknown",
+  "en": "Could be very useful to have this like preprocessing layer as well.",
+  "zh": "有这样一个预处理层也会非常有用。"
+ },
+ {
+  "seg": 340,
+  "start": 2653.579,
+  "end": 2656.24,
+  "speaker": "Unknown",
+  "en": "Yeah, another, yeah.",
+  "zh": "是的,另一个,是的。"
+ },
+ {
+  "seg": 341,
+  "start": 2658.859,
+  "end": 2659.139,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 342,
+  "start": 2659.219,
+  "end": 2659.519,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 343,
+  "start": 2659.579,
+  "end": 2659.859,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 344,
+  "start": 2659.959,
+  "end": 2660.34,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 345,
+  "start": 2660.4,
+  "end": 2660.8,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 346,
+  "start": 2684.732,
+  "end": 2694.002,
+  "speaker": "Unknown",
+  "en": "So again, the question is kind of like how do we set this up to make sure that the privacy is well preserved, right?",
+  "zh": "所以再次说明,这个问题基本上是我们如何设置这个系统,以确保隐私得到很好的保护,对吧?"
+ },
+ {
+  "seg": 347,
+  "start": 2696.765,
+  "end": 2700.449,
+  "speaker": "Unknown",
+  "en": "So on the side of things?",
+  "zh": "所以在这一侧?"
+ },
+ {
+  "seg": 348,
+  "start": 2704.205,
+  "end": 2710.896,
+  "speaker": "Unknown",
+  "en": "So the cluster in this case is like what we have, but that can be your own cluster.",
+  "zh": "这里的集群是我们现有的,但那可以是你自己的集群。"
+ },
+ {
+  "seg": 349,
+  "start": 2710.956,
+  "end": 2714.401,
+  "speaker": "Unknown",
+  "en": "So through the repo, you can set up your own cluster in your own",
+  "zh": "所以通过这个仓库,你可以在你自己的环境里搭建你自己的集群。"
+ },
+ {
+  "seg": 350,
+  "start": 2716.862,
+  "end": 2717.482,
+  "speaker": "Unknown",
+  "en": "Yes, exactly.",
+  "zh": "是的，没错。"
+ },
+ {
+  "seg": 351,
+  "start": 2717.582,
+  "end": 2717.742,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 352,
+  "start": 2717.782,
+  "end": 2720.143,
+  "speaker": "Unknown",
+  "en": "So you can configure the cluster in any way you want.",
+  "zh": "所以你可以按任意方式配置集群。"
+ },
+ {
+  "seg": 353,
+  "start": 2720.443,
+  "end": 2726.644,
+  "speaker": "Unknown",
+  "en": "I'm just using a managed cluster that we have for the purpose of the demo and the example.",
+  "zh": "我只是使用了我们为演示和示例目的而准备的一个托管集群。"
+ },
+ {
+  "seg": 354,
+  "start": 2726.724,
+  "end": 2729.525,
+  "speaker": "Unknown",
+  "en": "And we use that, for example, for hackathons and so on.",
+  "zh": "所以差不多就是这样的，是的。"
+ },
+ {
+  "seg": 355,
+  "start": 2729.545,
+  "end": 2731.345,
+  "speaker": "Unknown",
+  "en": "So we host the hardware.",
+  "zh": "所以硬件由我们来托管。"
+ },
+ {
+  "seg": 356,
+  "start": 2731.825,
+  "end": 2734.205,
+  "speaker": "Unknown",
+  "en": "But you can totally do this yourself.",
+  "zh": "但你完全可以自己来做这件事。"
+ },
+ {
+  "seg": 357,
+  "start": 2734.265,
+  "end": 2735.826,
+  "speaker": "Unknown",
+  "en": "So it's self-hosted.",
+  "zh": "也就是自托管。"
+ },
+ {
+  "seg": 358,
+  "start": 2736.146,
+  "end": 2743.387,
+  "speaker": "Unknown",
+  "en": "And as I said, in the repo, you have the ability to do Terraform apply and have all the infrastructure set up.",
+  "zh": "正如我所说，在仓库里，你可以执行 Terraform apply，把所有基础设施都搭建起来。"
+ },
+ {
+  "seg": 359,
+  "start": 2743.427,
+  "end": 2746.168,
+  "speaker": "Unknown",
+  "en": "And if you have the GPUs and so on, you basically",
+  "zh": "如果你有 GPU 之类的，你基本上"
+ },
+ {
+  "seg": 360,
+  "start": 2747.569,
+  "end": 2750.931,
+  "speaker": "Unknown",
+  "en": "Yeah, have that set up and it's totally your own.",
+  "zh": "对，把它搭建好，那就完全是你自己的了。"
+ },
+ {
+  "seg": 361,
+  "start": 2756.294,
+  "end": 2756.915,
+  "speaker": "Unknown",
+  "en": "Sorry, again?",
+  "zh": "不好意思，再说一遍？"
+ },
+ {
+  "seg": 362,
+  "start": 2760.537,
+  "end": 2762.118,
+  "speaker": "Unknown",
+  "en": "Does the MCP have a file?",
+  "zh": "MCP 有文件吗？"
+ },
+ {
+  "seg": 363,
+  "start": 2764.8,
+  "end": 2772.385,
+  "speaker": "Unknown",
+  "en": "So it just sends it to the main worker and there the file is processed.",
+  "zh": "所以它只是把它发送给主 worker，然后文件在那里被处理。"
+ },
+ {
+  "seg": 364,
+  "start": 2772.726,
+  "end": 2774.747,
+  "speaker": "Unknown",
+  "en": "So kind of there is that, yeah.",
+  "zh": "是的,差不多就是这样。"
+ },
+ {
+  "seg": 365,
+  "start": 2783.963,
+  "end": 2792.829,
+  "speaker": "Unknown",
+  "en": "And yet you can, again, I think at the entrance, there is the free compute that you can get to try out.",
+  "zh": "再次说明，我想在入口处，有免费算力可以让你试用。"
+ },
+ {
+  "seg": 366,
+  "start": 2794.129,
+  "end": 2797.151,
+  "speaker": "Unknown",
+  "en": "Again, if you want to self-host, you can still self-host.",
+  "zh": "再次强调，如果你想自托管，你仍然可以自托管。"
+ },
+ {
+  "seg": 367,
+  "start": 2797.371,
+  "end": 2801.194,
+  "speaker": "Unknown",
+  "en": "It's not strict in that sense.",
+  "zh": "在这个意义上它并不严格。"
+ },
+ {
+  "seg": 368,
+  "start": 2801.234,
+  "end": 2803.956,
+  "speaker": "Unknown",
+  "en": "We just do this so that things can go quicker.",
+  "zh": "我们这样做只是为了让事情进展得更快。"
+ },
+ {
+  "seg": 369,
+  "start": 2805.076,
+  "end": 2811.24,
+  "speaker": "Unknown",
+  "en": "But again, you don't have to do it in a way that you use our cluster.",
+  "zh": "但再说一次，你不必以使用我们集群的方式来做。"
+ },
+ {
+  "seg": 370,
+  "start": 2811.28,
+  "end": 2812.301,
+  "speaker": "Unknown",
+  "en": "You can self-host.",
+  "zh": "你可以自托管。"
+ },
+ {
+  "seg": 371,
+  "start": 2817.378,
+  "end": 2821.34,
+  "speaker": "Unknown",
+  "en": "And yeah, also you can kind of add me on LinkedIn again.",
+  "zh": "另外，你还可以在 LinkedIn 上加我。"
+ },
+ {
+  "seg": 372,
+  "start": 2821.6,
+  "end": 2822.5,
+  "speaker": "Unknown",
+  "en": "We can chat there.",
+  "zh": "我们可以在那里聊。"
+ },
+ {
+  "seg": 373,
+  "start": 2823.22,
+  "end": 2827.902,
+  "speaker": "Unknown",
+  "en": "And thank you for attending.",
+  "zh": "感谢各位的参与。"
+ }
+]

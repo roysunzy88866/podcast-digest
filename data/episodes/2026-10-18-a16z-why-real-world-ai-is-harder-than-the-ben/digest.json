@@ -1,0 +1,191 @@
+{
+  "title_zh": "从弦理论到帮人租房：一位物理学家眼中的AI落地有多难",
+  "tldr": "前理论物理学家、Elise AI 应用研究负责人 Mario Martone 讲述如何把AI搬进住房和医疗这些不容出错的行业。",
+  "digest_md": "Mario Martone 花了 15 年研究黑洞和弦理论，如今是 Elise AI 的应用研究负责人。这家公司做的是住房和医疗行业的对话式AI。让他意外的是，现在面对的问题，可能比研究宇宙还复杂。\n\n## 为什么90%的准确率在论文里好看，在现实里是灾难？\n\n学术界谈可靠性，常说做到90%就够了。但 Elise AI 每月处理约 500 万通电话，一年约 6000 万通。90% 意味着海量的失败，而每一通电话背后都是某个人的住房或医疗问题 [08:42 Unknown]。\n\n「我们会被投诉淹没，还有对人们生活的影响。」所以这里的标准是：每多一个9，就多爬一座山 [08:32 Unknown]。\n\nElise AI 的做法是把顶尖学术人才和顶尖工程师混在一个团队里，用科学方法去评估系统——每天数百万次对话里AI做的决定，能不能被系统地理解其影响。小规模测试时，五六段对话看起来都不错；到百万级规模，不同方法的差距才真正显现 [10:04 Unknown]。\n\n## 为什么不是所有问题都该扔给大模型？\n\n很多新入行的人只有一把锤子：大语言模型。Mario 承认这些模型看起来很聪明，但深挖下去，有些场景并不合适——比如需要确定性的场景（同样的输入必须得到同样的输出），大模型会失败；需要精确概率的场景，大模型也很难做好 [07:36 Unknown]。\n\n他的团队每天要做的决定是：这个问题该扔给大模型、深度神经网络，还是一个非常简单的传统机器学习模型？比如预测租户续约风险，Elise AI 用的是自建的精密神经网络，跟大模型毫无关系——因为他们有海量数据，传统方法反而是更好的答案 [06:09 Unknown]。\n\n判断标准有两条：一，什么方案影响最大；二，什么方案能以最快速度逼近最优结果 [07:55 Unknown]。\n\n## 语音AI难在哪：一秒半之内干完几十件事\n\nElise AI 做语音做了3年，起步时技术根本不成熟。语音的难点在于，一秒半之内要完成几十次运算，不能有奇怪的延迟 [05:25 Unknown]。\n\n好消息是，整套语音技术栈是他们完全自建的，每个环节都清楚瓶颈在哪。市场上出现新的语音转文字、文字转语音模型，或者开源模型可以微调了，他们就去匹配：哪里最差、新方案能补哪里，就全力投入 [12:03 Unknown]。\n\n他们还搭了一条实验闭环：有人在 Slack 上说看到某个新模型，不用看公开的基准测试，直接在内部基准上跑一遍，看真实表现。「那些外部基准你是不能信任的。」[12:45 Unknown]\n\n## 租房可以全自动，修水管还差一步\n\n两个已经全自动化的完整流程：\n\n一是租房。从你在网站上看到心仪的公寓，到预约看房、AI 发给你门锁密码、你自己开门进屋、AI 给你讲解房子——全程不需要人介入，可以一路走到搬进去 [17:39 Unknown]。\n\n二是租户报修。AI 能判断问题是否需要立刻处理，自动建工单、找供应商、打电话——最后一步仍需要一个真人上门拧螺丝。这一环为什么不能自动化？因为需要机器人，大模型干不了体力活。Mario 猜也许一两年后能补上 [18:25 Unknown]。\n\n公司现在只有几百人，却每天自动化处理 100 万通电话和几十万封邮件短信。难点在于：10 个人的团队如何每天搞清楚这些无人监督的对话质量如何 [16:56 Unknown]。\n\n## 下一仗：让保障性住房更便宜\n\n医疗已占美国GDP的40%，够忙一阵子了。Elise AI 的下一个大押注是降低保障性住房的运营成本 [20:16 Unknown]。\n\n这个领域在 Mario 看来几乎完全没有技术投入，基本不自动化，但影响最大——它关系到最脆弱的那部分人群。如果能把成本显著降下来，租客的生活会立刻改善。\n\n## 本集带走\n\n- 学术论文里90%的准确率，放大到每月500万通电话就是灾难；现实产品对可靠性的要求是每多一个9都要拼一次。\n- 大语言模型不是万能锤子：需要确定性或精确概率的场景，传统机器学习往往更好。选对工具本身就是核心工作。\n- 自建全栈的好处是你确切知道瓶颈在哪；评估新模型别信公开基准，用自己的数据内部跑实验。\n- 租房流程已经可以端到端全自动（含自助看房），报修只剩最后一步真人上门。\n- 保障性住房是下一个大押注：几乎零技术渗透，但对社会最脆弱人群影响最直接。",
+  "quotes": [
+    {
+      "en": "An AI system that works 90% of the time might look impressive in a research paper, but when you're handling millions of conversations about people's housing and healthcare, that remaining 10% becomes an enormous problem.",
+      "zh": "一个 90% 情况下都能正常工作的 AI 系统，在研究论文里可能看起来很惊艳，但当你要处理数百万条关于人们住房和医疗的对话时，剩下那 10% 就会成为一个巨大的问题。",
+      "timestamp": "00:09",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "But the easy question of like, the people who are able to like really think deeply about the problems can be very creative, can constantly kind of come up with new ideas, have a huge edge because AI is like a new field every day.",
+      "zh": "但一个简单的道理是，那些能够真正深入思考问题的人可以非常有创造力，能源源不断想出新点子，他们拥有巨大优势，因为 AI 就像一个每天都在更新的新领域。",
+      "timestamp": "03:01",
+      "speaker": "Mario Martone"
+    },
+    {
+      "en": "So we actually, the decisions that the LLMs make for Elise, for our products, they're not just like some random things that appears on the screen, but like drive impacts on people's life.",
+      "zh": "所以实际上，LLM 为 Elise、为我们的产品做出的决策，并不只是屏幕上出现的某些随机的玩意儿，而是会对人们的生活产生切实的影响。",
+      "timestamp": "04:20",
+      "speaker": "Mario Martone"
+    },
+    {
+      "en": "Even if it's 99% accurate, that's not good enough. It has to be 99.999.",
+      "zh": "即使达到 99% 的准确率，那也不够好。必须是 99.999。",
+      "timestamp": "08:26",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "en": "Like when they're talking about reliability, they talk, okay, if the LLM can take it up to 90% and then we say 90%, that means for like 60 million phone calls per month, per year, it means like an enormous amount of failures that is totally unbearable.",
+      "zh": "比如当他们谈论可靠性时说，好吧，如果 LLM 能提升到 90%，那 90% 就意味着，比如每年 6000 万通电话中会有数量惊人的失败，这是完全无法忍受的。",
+      "timestamp": "08:42",
+      "speaker": "Mario Martone"
+    },
+    {
+      "en": "If you just like try it at small scale, like five or six conversations, all look quite good. But at scale, when you get to the millions, then you see that different methods diverge significantly.",
+      "zh": "如果你只是小规模尝试，比如五六次对话，看起来都相当不错。但到了大规模，当你达到数百万次时，你就会看到不同方法显著分化。",
+      "timestamp": "09:58",
+      "speaker": "Mario Martone"
+    },
+    {
+      "en": "I don't really have to believe it. I don't even look at the benchmark.",
+      "zh": "我并不需要去相信它。我甚至都不看那个公开基准测试。",
+      "timestamp": "12:38",
+      "speaker": "Mario Martone"
+    },
+    {
+      "en": "Like how do you get an insight that really changed things? Like if it was easy, everybody would have it.",
+      "zh": "你怎么获得一个真正改变局面的洞见？如果它容易的话，每个人都会有。",
+      "timestamp": "13:52",
+      "speaker": "Mario Martone"
+    },
+    {
+      "en": "And because we have the background of being able to generate ideas independently and you know that you've tackled one of the hardest questions that are out there, you're not scared of like tackling yourself.",
+      "zh": "因为我们有独立产生想法的背景，并且你知道自己已经攻克过外面最难的问题之一，你就不会害怕亲自去攻克难题。",
+      "timestamp": "14:27",
+      "speaker": "Mario Martone"
+    },
+    {
+      "en": "The amount of tech depth that is currently in the industry is nearly nonexistent.",
+      "zh": "目前这个行业里的技术深度几乎不存在。",
+      "timestamp": "20:47",
+      "speaker": "Mario Martone"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:09",
+      "speaker": "Mario Martone",
+      "en": "An AI system that works 90% of the time might look impressive in a research paper, but when you're handling millions of conversations about people's housing and healthcare, that remaining 10% becomes an enormous problem.",
+      "zh": "一个 90% 情况下都能正常工作的 AI 系统，在研究论文里可能看起来很惊艳，但当你要处理数百万条关于人们住房和医疗的对话时，剩下那 10% 就会成为一个巨大的问题。"
+    },
+    {
+      "timestamp": "00:00",
+      "speaker": "Mario Martone",
+      "en": "I did not expect that, but even after coming from shrink theory, I would say the complexity of the problem of working now is probably higher now than it was before.",
+      "zh": "我没想到这一点，但即使是从弦理论走过来，我还是要说，现在工作的这个问题复杂度可能比以前更高。"
+    },
+    {
+      "timestamp": "03:01",
+      "speaker": "Mario Martone",
+      "en": "But the easy question of like, the people who are able to like really think deeply about the problems can be very creative, can constantly kind of come up with new ideas, have a huge edge because AI is like a new field every day.",
+      "zh": "但一个简单的道理是，那些能够真正深入思考问题的人可以非常有创造力，能源源不断想出新点子，他们拥有巨大优势，因为 AI 就像一个每天都在更新的新领域。"
+    },
+    {
+      "timestamp": "04:20",
+      "speaker": "Mario Martone",
+      "en": "So we actually, the decisions that the LLMs make for Elise, for our products, they're not just like some random things that appears on the screen, but like drive impacts on people's life.",
+      "zh": "所以实际上，LLM 为 Elise、为我们的产品做出的决策，并不只是屏幕上出现的某些随机的玩意儿，而是会对人们的生活产生切实的影响。"
+    },
+    {
+      "timestamp": "05:25",
+      "speaker": "Mario Martone",
+      "en": "Like you're talking about doing tens, not hundreds of operations in a span of like a second and a half.",
+      "zh": "就是说你要在大约一秒半的时间里做几十次，不是上百次操作。"
+    },
+    {
+      "timestamp": "06:00",
+      "speaker": "Mario Martone",
+      "en": "And so for that, LLMs are not really the answer.",
+      "zh": "而对于那个问题，LLM 并不是真正的答案。"
+    },
+    {
+      "timestamp": "06:09",
+      "speaker": "Mario Martone",
+      "en": "So for example, the predictions of renewals that we're using really elaborate kind of neural network that we built in the house, but they have nothing to do with LLMs.",
+      "zh": "比如说，我们做的续租预测，用的是我们内部搭建的非常精细的神经网络，但它们和 LLM 毫无关系。"
+    },
+    {
+      "timestamp": "07:17",
+      "speaker": "Mario Martone",
+      "en": "Many people who have joined AI very recently, they just do have one solution for everything, LLMs, right?",
+      "zh": "很多最近才加入 AI 领域的人，他们对所有问题只有一个解决方案，就是 LLM，对吧？"
+    },
+    {
+      "timestamp": "07:46",
+      "speaker": "Mario Martone",
+      "en": "And probabilities is also something that the LLMs have really hard time to elaborate.",
+      "zh": "而概率也是 LLM 很难处理好的东西。"
+    },
+    {
+      "timestamp": "08:26",
+      "speaker": "主持人",
+      "en": "Even if it's 99% accurate, that's not good enough. It has to be 99.999.",
+      "zh": "即使达到 99% 的准确率，那也不够好。必须是 99.999。"
+    },
+    {
+      "timestamp": "08:42",
+      "speaker": "Mario Martone",
+      "en": "Like when they're talking about reliability, they talk, okay, if the LLM can take it up to 90% and then we say 90%, that means for like 60 million phone calls per month, per year, it means like an enormous amount of failures that is totally unbearable.",
+      "zh": "比如当他们谈论可靠性时说，好吧，如果 LLM 能提升到 90%，那 90% 就意味着，比如每年 6000 万通电话中会有数量惊人的失败，这是完全无法忍受的。"
+    },
+    {
+      "timestamp": "08:55",
+      "speaker": "Mario Martone",
+      "en": "So you can really see the difference between people who are like thinking about this problem theoretically and people who actually pay the consequences of those mistakes, us, right?",
+      "zh": "所以你能真正看到，在理论上思考这个问题的人，和实际承受这些错误后果的人——也就是我们——之间的差异。"
+    },
+    {
+      "timestamp": "09:58",
+      "speaker": "Mario Martone",
+      "en": "If you just like try it at small scale, like five or six conversations, all look quite good. But at scale, when you get to the millions, then you see that different methods diverge significantly.",
+      "zh": "如果你只是小规模尝试，比如五六次对话，看起来都相当不错。但到了大规模，当你达到数百万次时，你就会看到不同方法显著分化。"
+    },
+    {
+      "timestamp": "12:40",
+      "speaker": "Mario Martone",
+      "en": "I don't really have to believe it. I don't even look at the benchmark.",
+      "zh": "我并不需要去相信它。我甚至都不看那个公开基准测试。"
+    },
+    {
+      "timestamp": "13:55",
+      "speaker": "Mario Martone",
+      "en": "Like how do you get an insight that really changed things? Like if it was easy, everybody would have it.",
+      "zh": "你怎么获得一个真正改变局面的洞见？如果它容易的话，每个人都会有。"
+    },
+    {
+      "timestamp": "14:27",
+      "speaker": "Mario Martone",
+      "en": "And because we have the background of being able to generate ideas independently and you know that you've tackled one of the hardest questions that are out there, you're not scared of like tackling yourself.",
+      "zh": "因为我们有独立产生想法的背景，并且你知道自己已经攻克过外面最难的问题之一，你就不会害怕亲自去攻克难题。"
+    },
+    {
+      "timestamp": "15:32",
+      "speaker": "Mario Martone",
+      "en": "So now one of the very legitimate question is, six months from now, what problems will be solvable with LLMs that are not solvable now?",
+      "zh": "所以现在一个非常合理的问题是：六个月后，有哪些现在是 LLM 解决不了、届时能解决的问题？"
+    },
+    {
+      "timestamp": "17:00",
+      "speaker": "Mario Martone",
+      "en": "These are not like some random thing. These actually impact people's life. There's consequential changes that happen if we make a mistake.",
+      "zh": "这些不是什么随随便便的事情。这些真的影响人们的生活。如果我们犯错，会发生有重大后果的变化。"
+    },
+    {
+      "timestamp": "19:31",
+      "speaker": "Mario Martone",
+      "en": "It's like 40% of the GDP in the U.S.",
+      "zh": "它差不多占美国 GDP 的 40%。"
+    },
+    {
+      "timestamp": "20:47",
+      "speaker": "Mario Martone",
+      "en": "The amount of tech depth that is currently in the industry is nearly nonexistent.",
+      "zh": "目前这个行业里的技术深度几乎不存在。"
+    }
+  ],
+  "voice_script": "今天要讲的人，叫 Mario Martone。这个人有点意思：花了15年研究黑洞和弦理论，是个正儿八经的理论物理学家。但现在，他是 Elise AI 的应用研究负责人，这家公司做的事情听起来一点都不宇宙——帮人租房、管医疗的对话式AI。可偏偏是他觉得，现在面对的问题，可能比研究宇宙还复杂。今天这一期，就聊一件事：把AI搬进住房和医疗这种不容出错的行业，到底有多难，难在哪儿。\n\n先说一个最扎眼的数字。学术论文界谈可靠性，一般说做到90%就够了，挺好看的。但你把这个数字放到现实里试试。Elise AI 每个月处理大约500万通电话，一年就是6000万通。90%的准确率意味着什么？意味着海量的失败。而每一通失败的电话背后，都是某个活生生的人的住房问题或者医疗问题。用 Mario 的话说，这些AI做的决定，不是屏幕上冒出来的什么随机玩意儿，是会对人们的生活产生切实影响的。所以在这种行业里，99%都不够好，必须是99.999。每多一个9，就得多爬一座山。\n\n那怎么办？Elise AI 的做法挺特别：把顶尖学术人才和顶尖工程师混在一个团队里，用科学方法去评估系统。也就是说，每天几百万次对话里AI做的每一个决定，都要能被系统地理解它的影响。这里有个很关键的经验：如果你只是小规模测试，五六段对话，看起来都相当不错。但到了百万级的规模，不同方法的差距才真正显现出来。小样骗人，大数见真章。\n\n好，说到这里，你可能会觉得：这些大模型这么聪明，是不是什么问题都扔给它就完了？恰恰不是。Mario 说，很多新入行的人手里只有一把锤子，就是大语言模型。这些模型看起来确实很聪明，但你深挖下去会发现，有些场景它根本不合适。比如需要确定性的场景——同样的输入必须得到同样的输出，大模型做不到；需要精确概率的场景，大模型也很难做好。\n\n所以他们团队每天要做的决定其实是：这个问题，该扔给大模型，该给深度神经网络，还是该给一个非常简单的传统机器学习模型？举个例子，预测租户续约风险，Elise AI 用的是自建的精密神经网络，跟大模型半点关系没有。为什么？因为他们手里有海量数据，这种情况下传统方法反而是更好的答案。判断标准就两条：一，什么方案影响最大；二，什么方案能以最快速度逼近最优结果。选对工具，本身就是核心工作。\n\n再往下，语音AI是另一个硬仗。他们做语音做了3年，起步的时候技术根本不成熟。难点在哪？在于一秒半之内，系统要完成几十次运算，还不能有奇怪的延迟——你打电话跟AI说话，它要是卡两秒，你立马就挂了。他们能扛住这一关，靠的是整套语音技术栈完全自建。自建的好处是，每个环节的瓶颈在哪儿，他们一清二楚。所以市场上只要出现新的语音转文字、文字转语音的模型，或者有开源模型可以微调了，他们就去匹配：哪里最差、新方案能补哪里，就全力投入哪里。\n\n顺带说一个很实用的做法。他们内部搭了一条实验闭环：有人在 Slack 上说看到某个新模型，不用去看公开的基准测试，直接在公司内部基准上跑一遍，看真实表现。为什么这么干？因为用他们自己的话说——那些外部基准，你是不能信任的。\n\n那这套东西落地是什么样？现在有两个流程已经完全自动化了。第一个是租房：你在网站上看到心仪的公寓，预约看房，AI把门锁密码发给你，你自己开门进屋，AI给你讲解房子——全程不需要人介入，可以一路走到搬进去。第二个是租户报修：AI能判断这个问题要不要立刻处理，自动建工单、找供应商、打电话。但最后一步，还得一个真人上门拧螺丝。为什么这一环自动化不了？因为需要机器人，大模型干不了体力活。Mario 猜，也许一两年后能补上。\n\n支撑这一切的公司，只有几百人，每天自动化处理100万通电话，外加几十万封邮件和短信。难点也就出来了：10个人的团队，怎么每天搞清楚这么多无人监督的对话质量到底如何。这还是那个老问题的放大版。\n\n最后说说接下来要打的一仗。医疗已经占美国GDP的40%，够他们忙一阵子了。但下一个大押注，是降低保障性住房的运营成本。这个领域在 Mario 眼里，几乎完全没有技术投入，基本不自动化。但恰恰因为它影响最大——它关系到社会里最脆弱的那部分人。如果能把这些成本显著降下来，租客的生活会立刻改善。\n\n回头看这一期讲的事，其实就是一句话：一个90%都能正常工作的AI系统，在论文里可能很惊艳，但当你处理的是数百万条关于人们住房和医疗的对话时，剩下那10%就是天大的问题。这也是为什么这个从弦理论转行过来的人会觉得，现在的问题比宇宙还难。"
+}
