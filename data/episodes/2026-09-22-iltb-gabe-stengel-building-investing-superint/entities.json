@@ -1,0 +1,728 @@
+{
+  "episode_id": "2026-09-22-iltb-gabe-stengel-building-investing-superint",
+  "podcast": "Invest Like the Best",
+  "date": "2026-09-22",
+  "tags": [
+    "垂直 AI",
+    "智能体",
+    "金融科技",
+    "创业与融资",
+    "AI 产品方法"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "gabe-stengel",
+      "type": "person",
+      "role": "host",
+      "name": "Gabe Stengel",
+      "file": "Gabe Stengel",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "rogo",
+      "type": "company",
+      "role": "company",
+      "name": "Rogo",
+      "file": "Rogo",
+      "primary": true,
+      "how_described": "本集主角:Gabe Stengel 创立的、专为金融机构和投行打造的 AI 平台,目标是做「投资界的超级智能」,核心用户是撮合交易的银行家和投资人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            28.596,
+            36.68
+          ],
+          "quote": "Rogo is the AI platform purpose-built for financial institutions, serving tens of thousands of bankers and investors at hundreds of leading firms worldwide.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 5,
+          "t": [
+            37.22,
+            41.302
+          ],
+          "quote": "Rogo's AI agents autonomously execute large chunk of your firm's workflows.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 7,
+          "t": [
+            49.365,
+            59.311
+          ],
+          "quote": "Every action feeds Rogo Intelligence, the firm's context layer, turning years of deal experience into a secure, governed institutional memory that makes each new transaction stronger than the last.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 8,
+          "t": [
+            59.892,
+            62.713
+          ],
+          "quote": "To learn more, visit rogo.com slash invest.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 31,
+          "t": [
+            194.454,
+            203.22
+          ],
+          "quote": "If you think about the couple increases in capability that we've seen just from the raw models, could you do the same thing for the eras of Rogo and its product?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 35,
+          "t": [
+            210.386,
+            213.828
+          ],
+          "quote": "I actually tried starting Rogo two times before we got started.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 43,
+          "t": [
+            243.926,
+            248.169
+          ],
+          "quote": "And so all the early days of Rogo, it was clear how kind of magical it was.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 105,
+          "t": [
+            581.704,
+            591.712
+          ],
+          "quote": "But then Rogo is actually in a lot of the behind the scenes systems of these firms, because when you're working on a deal, it's not just important for the human beings working on it, but you need to update your CRM.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 160,
+          "t": [
+            923.971,
+            930.234
+          ],
+          "quote": "Like if Rogo puts out some really useful output, I wanna learn about each component part of the system that leads to that output.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 162,
+          "t": [
+            939.378,
+            946.581
+          ],
+          "quote": "And these are both questions, one that I'm curious about your specific business for, but I also think that there will be some business like Rogo built in basically every vertical.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 165,
+          "t": [
+            960.586,
+            964.328
+          ],
+          "quote": "The early days of Rogo was kind of this Rube Goldberg contraption where like you had",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1262.798,
+            1282.087
+          ],
+          "quote": "But if I force you to become an investor and your only goal is to invest in rogo-like businesses, like one of these businesses that's, let's say, a vertical application that's wiring up the capabilities of AI to an industry, what features would you look for that would get you the most excited, either in the industry or in the founder, builder, and their approach, based on what you've learned?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1512.354,
+            1515.455
+          ],
+          "quote": "I'm curious how people buy Rogo, what kind of category you would put it in?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 400,
+          "t": [
+            2216.376,
+            2220.1
+          ],
+          "quote": "First off, every internal conversation that happens at Rogo is recorded.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2336.423,
+            2341.247
+          ],
+          "quote": "What is the pitch to them to come work at Rogo versus go somewhere else that's exciting right now?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2345.911,
+            2352.115
+          ],
+          "quote": "But my pitch for Rogo today for Talon is AI is going to completely transform the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 507,
+          "t": [
+            2761.435,
+            2763.276
+          ],
+          "quote": "Rogo is built by finance professionals.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2768.218,
+            2771.5
+          ],
+          "quote": "Check them out at rogo.com slash invest.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 606,
+          "t": [
+            3211.187,
+            3213.73
+          ],
+          "quote": "Do you want to do everything you guys said in Rogo?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 688,
+          "t": [
+            3654.411,
+            3664.337
+          ],
+          "quote": "Like what that you've learned about building a company like this in this era where everything feels like a jump ball, like it feels like there's going to be a Rogo or a Harvey or whatever for every place that there can be?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 736,
+          "t": [
+            3940.673,
+            3941.254
+          ],
+          "quote": "Rogo does.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 738,
+          "t": [
+            3947.402,
+            3949.765
+          ],
+          "quote": "Check them out at rogo.ai slash invest.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集把它说成:Rogo 要竞争的大实验室,正忙着从 1000 亿冲向 1 万亿营收,没空去做金融垂直里合规数据室这类路边「1 分钱」生意;其 token 消耗商业模式让 Rogo 的支出指数级增长。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 184,
+          "t": [
+            1051.377,
+            1061.043
+          ],
+          "quote": "I'm sure your favorite question is, how do you ultimately compete with Anthropic and OpenAI who view finance as a big, one of the few categories that like you see them talking about and thinking about?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1112.39,
+            1121.3
+          ],
+          "quote": "That for Anthropic would kind of be like stopping on the side of the road to pick up a penny because they're on the pathway of trying to go from 100 billion in revenue to a trillion in revenue.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1179.081,
+            1182.682
+          ],
+          "quote": "And I don't think OpenAI or Anthropic will ever want to build a data room business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1555.687,
+            1564.573
+          ],
+          "quote": "I look at how hard it was for Anthropic to sell to us very easy, and the amount that we pay them has risen exponentially without a human in the loop because it's a token consumption model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2171.914,
+            2180.2
+          ],
+          "quote": "Like, how do you think about being able to grow at the right rate when you don't have the anthropic cognition, API usage growth?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 689,
+          "t": [
+            3665.077,
+            3671.183
+          ],
+          "quote": "Especially where the last mile wiring is hard and it's not just going to be Anthropic, it's one company to rule them all, or OpenAI.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集把它说成:与 Anthropic 并列的、Rogo 需要垂直差异化来竞争的大实验室,本集断言它不会去做数据室这类脏活。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            63.614,
+            67.016
+          ],
+          "quote": "OpenAI, Cursor, Anthric, and Vercel all have something in common.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1051.377,
+            1061.043
+          ],
+          "quote": "I'm sure your favorite question is, how do you ultimately compete with Anthropic and OpenAI who view finance as a big, one of the few categories that like you see them talking about and thinking about?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1179.081,
+            1182.682
+          ],
+          "quote": "And I don't think OpenAI or Anthropic will ever want to build a data room business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1203.611,
+            1210.438
+          ],
+          "quote": "Think about the fundamental difference between Claude Code when it came out and Claude Cowork versus OpenAI and ChatGPT.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2772.833,
+            2779.78
+          ],
+          "quote": "The best AI and software companies from OpenAI to Cursor to Perplexity use WorkOS to become enterprise ready overnight, not in months.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 689,
+          "t": [
+            3665.077,
+            3671.183
+          ],
+          "quote": "Especially where the last mile wiring is hard and it's not just going to be Anthropic, it's one company to rule them all, or OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 730,
+          "t": [
+            3910.258,
+            3916.961
+          ],
+          "quote": "The best AI and software companies from OpenAI to Cursor to Perplexity use WorkOS to become enterprise-ready overnight, not in months.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "bloomberg",
+      "type": "company",
+      "role": "company",
+      "name": "Bloomberg",
+      "file": "Bloomberg",
+      "primary": true,
+      "how_described": "本集把它说成:Rogo 战略的参照对象——用一点数据敲门、在其上构建分析与工作流、再提供交易所与沟通平台(Bloomberg Messenger),Rogo 想做智能体版的同样路径。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 168,
+          "t": [
+            970.355,
+            975.141
+          ],
+          "quote": "Now, how do I feed those tickers into an API called, you know, Bloomberg or Faxit or some internal data set?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1531.707,
+            1537.993
+          ],
+          "quote": "They think of us in a similar category to Bloomberg, to FactSet, to CapitalIQ, to PitchBook.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1803.978,
+            1806.42
+          ],
+          "quote": "It's actually a very similar strategy to Bloomberg strategy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1806.721,
+            1824.195
+          ],
+          "quote": "Bloomberg strategy was, I'm gonna omit a lot of details here, but offer a little bit of data again in the door, build all the analytics and workflows on top that someone would need, and then provide the exchange and the communication platform where you can actually transact in a bunch of asset classes that before it was pretty opaque, Bloomberg Messenger.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1843.119,
+            1854.422
+          ],
+          "quote": "And the difference between what I need to build and Bloomberg Messenger is I don't need to build the communication channel for humans to transact, I need to build the communication channel for the agents to transact across these businesses, across these investment firms.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 542,
+          "t": [
+            2885.49,
+            2897.919
+          ],
+          "quote": "I think people underappreciated the TAM in finance, which was silly, but it's partly because I think SF has less intuition for finance because they didn't fund Ion Group or Bloomberg or SMP or FactSet or PitchBook, Morningstar, and so on.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "harvey",
+      "type": "company",
+      "role": "company",
+      "name": "Harvey",
+      "file": "Harvey",
+      "primary": false,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 150,
+          "t": [
+            848.636,
+            857.259
+          ],
+          "quote": "Customers report a 526% return on investment and more than 16,000 companies use Vanta, including Ramp, Harvey, and Snowflake.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2537.227,
+            2555.777
+          ],
+          "quote": "And, you know, I'll call someone like Winston at Harvey and Winston's ability to just not worry about the hundred flesh wounds that are inflicted on him at any given time and just think about the kind of end state goal of where he's going to be three years from now and the only two things that matter to get there is pretty amazing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 537,
+          "t": [
+            2873.502,
+            2875.022
+          ],
+          "quote": "It's basically just Harvey for finance.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 688,
+          "t": [
+            3654.411,
+            3664.337
+          ],
+          "quote": "Like what that you've learned about building a company like this in this era where everything feels like a jump ball, like it feels like there's going to be a Rogo or a Harvey or whatever for every place that there can be?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集的主线概念:从万个人格辩论 24 小时只交出一个投资想法,到代表私募股权公司谈判交易的智能体,Rogo 的核心智能体系统被团队不断推倒重建。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 253,
+          "t": [
+            1436.723,
+            1451.455
+          ],
+          "quote": "So it's if you have 100 conversations with a single agent, how does it make sure that it's actually remembering the right things and compacting its memory into an amount of tokens that it can use every time and it has enough coherence and context on who you are and what you care about?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1484.185,
+            1498.108
+          ],
+          "quote": "And so being able to take all of that memory, all those interactions, and actually lodge it into the mental model or brain of that agent so that it can be persistent, so that it can actually maintain context over the course of a bunch of interactions, that's something that the models are not great at today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1854.862,
+            1874.238
+          ],
+          "quote": "And so if you think about what is the actual infrastructure that needs to get built, I mean, think about what is the system that would allow a large private equity firm to feel comfortable having an agent negotiate a deal on its behalf, correspond with all the third party consultants in the transaction, the people doing the QAV, the legal advisors and so on.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "挽具 (harness)",
+      "file": "挽具",
+      "primary": true,
+      "how_described": "本集说它比模型和数据更关键:把模型套上工具、流程和系统的那层工程,Claude Code 与 ChatGPT 模型相似但 harness 高下决定了成功;Rogo 像 Levchin 重写账本一样每年重建自己的 harness。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 206,
+          "t": [
+            1195.724,
+            1203.051
+          ],
+          "quote": "I asked about data and models, but actually it sounds like harness or infrastructure is probably the most important of the three.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1210.758,
+            1213.922
+          ],
+          "quote": "The models were actually fairly similar, but the harness...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1226.115,
+            1229.8
+          ],
+          "quote": "And it just shows that the way that you harness these models is so, so important.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1350.302,
+            1354.944
+          ],
+          "quote": "And so we can constantly take the models as they're released and harness them for finance.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1414.033,
+            1418.854
+          ],
+          "quote": "And so we do that same exact thing for our harness and the core agentic system.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "compaction",
+      "type": "concept",
+      "role": "concept",
+      "name": "记忆压缩 (compaction)",
+      "file": "记忆压缩",
+      "primary": true,
+      "how_described": "本集说它是模型目前做不到、但一旦做到会改变产品性质的事:智能体与你有 100 次对话后如何记住对的东西、把记忆压缩进可用的 token 量并保持连贯上下文——多智能体场景下问题指数级放大。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 252,
+          "t": [
+            1435.522,
+            1436.223
+          ],
+          "quote": "Compaction.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1468.522,
+            1483.905
+          ],
+          "quote": "As soon as these are actually things that consort with a lot of colleagues or in a Slack channel with 100 people, have to work across an entire company, now the compaction problem just scaled exponentially because it's having conversations with 100 different people and needs to be able to coordinate across those things.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "auditability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可审计性 (auditability)",
+      "file": "可审计性",
+      "primary": true,
+      "how_described": "本集提出「可审计比准确更重要」:只要能看到答案的假设与数据来源,即使偶尔出错用户仍敢用;在受监管的资本市场里,解释不了决策来龙去脉就行不通。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            370.146,
+            386.933
+          ],
+          "quote": "Doing these workflows anyway except sending it to an analyst and sending it to our AI analyst over email and then returning that markup in 20 minutes as opposed to two days and at the same time alert the junior analyst on the deal what's happening and show them the full auditability of all the little markups that were made in case they want to weigh in.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1132.338,
+            1145.862
+          ],
+          "quote": "I mean, think about if you are ingesting MNPI because you are working on transactions or you're working on deals that have an effect on the market, the compliance requirements you have just in the auditability or what you can flag and how it",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "token-consumption",
+      "type": "concept",
+      "role": "concept",
+      "name": "token 消耗 (token consumption)",
+      "file": "token 消耗",
+      "primary": true,
+      "how_described": "本集用它区分两类 AI 软件生意:Anthropic 式 token 消耗模式可无人销售指数增长,而 Rogo 这类企业软件仍要按席位、靠人卖;Stengel 想直接跳到按成果收费。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 278,
+          "t": [
+            1555.687,
+            1564.573
+          ],
+          "quote": "I look at how hard it was for Anthropic to sell to us very easy, and the amount that we pay them has risen exponentially without a human in the loop because it's a token consumption model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1564.893,
+            1571.137
+          ],
+          "quote": "There's a lot of industries where riding the coattails of token consumption isn't going to work for enterprise sales, and we're one of those.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1588.001,
+            1598.023
+          ],
+          "quote": "And then there are the token brokers, the token consumption businesses, where you're selling in the parts of enterprise where they're used to buying usage-based tools, Cursor, Factory, Claude Code, and others.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cognition",
+      "type": "company",
+      "role": "company",
+      "name": "Cognition",
+      "file": "Cognition",
+      "primary": false,
+      "how_described": "本集顺带提到它:「记得 Devin 吗,现在它已经很好了」——作为应用型 AI 公司产品先烂后好的例子,以及增速极快的 token 类业务参照。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            173.15,
+            182.761
+          ],
+          "quote": "There's been many companies on this trajectory where the product was, Cognition is very famous for like literally their ads now say, remember Devin, like it's good now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1501.97,
+            1507.652
+          ],
+          "quote": "So we've got companies like a Cognition or a Cursor or something that can grow unbelievably quickly.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2171.914,
+            2180.2
+          ],
+          "quote": "Like, how do you think about being able to grow at the right rate when you don't have the anthropic cognition, API usage growth?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

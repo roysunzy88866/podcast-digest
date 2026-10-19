@@ -1,0 +1,1010 @@
+{
+  "episode_id": "2026-10-11-talks-build-with-perception-agents-emile-baize",
+  "podcast": "精选演讲",
+  "date": "2026-10-11",
+  "tags": [
+    "感知智能体",
+    "计算机使用",
+    "前端开发",
+    "AI 编程",
+    "开源工具"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "emile-baizel",
+      "type": "person",
+      "role": "guest",
+      "name": "Emile Baizel",
+      "file": "Emile Baizel",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "amazon-agi-lab",
+      "type": "company",
+      "role": "company",
+      "name": "Amazon AGI Lab",
+      "file": "Amazon AGI Lab",
+      "primary": true,
+      "how_described": "本集说它是 Amazon 内结合初创速度与 Amazon 规模的前沿研究与产品团队，专注构建能在多环境中感知、推理、行动的知识工作智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            19.2,
+            23.083
+          ],
+          "quote": "I lead a team of solutions architects within Amazon AGI Lab.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 9,
+          "t": [
+            58.468,
+            73.455
+          ],
+          "quote": "I'll be giving a quick overview of the Amazon AGI Lab and talking about the first product that we shipped last year, Amazon Nova Act, and then we'll get into perception agents, and that's what the focus of today's workshop is, and then we'll get into the workshop.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "amazon-nova-act",
+      "type": "company",
+      "role": "company",
+      "name": "Amazon Nova Act",
+      "file": "Amazon Nova Act",
+      "primary": true,
+      "how_described": "本集说它是实验室去年发布的第一个产品，一个一等公民的 AWS 服务，开发者用自然语言驱动浏览器完成表单填写、搜索提取、购物和 QA 等工作流",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            58.468,
+            73.455
+          ],
+          "quote": "I'll be giving a quick overview of the Amazon AGI Lab and talking about the first product that we shipped last year, Amazon Nova Act, and then we'll get into perception agents, and that's what the focus of today's workshop is, and then we'll get into the workshop.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 36,
+          "t": [
+            222.599,
+            223.68
+          ],
+          "quote": "So Amazon Nova Act.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "perception-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "感知智能体 (perception agents)",
+      "file": "感知智能体",
+      "primary": true,
+      "how_described": "本集主题：智能体不只是点击屏幕上的元素，还要像人一样真正理解屏幕上看到的东西，环境跨越浏览器、手机和桌面屏幕",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            12.994,
+            16.838
+          ],
+          "quote": "Hello, everyone, and thank you for coming to our workshop, Building with Perception Agents.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 9,
+          "t": [
+            58.468,
+            73.455
+          ],
+          "quote": "I'll be giving a quick overview of the Amazon AGI Lab and talking about the first product that we shipped last year, Amazon Nova Act, and then we'll get into perception agents, and that's what the focus of today's workshop is, and then we'll get into the workshop.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 53,
+          "t": [
+            337.451,
+            341.733
+          ],
+          "quote": "Now, looking ahead, and the topic of today's workshop is perception agents.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 54,
+          "t": [
+            343.069,
+            346.51
+          ],
+          "quote": "Now, why do we feel there's a need for perception agents?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 166,
+          "t": [
+            1115.206,
+            1121.753
+          ],
+          "quote": "You can type in, it's available on GitHub, so you can type in Perception Agents Workshop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 445,
+          "t": [
+            2734.148,
+            2739.351
+          ],
+          "quote": "How would you go and integrate the perception agents into your",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "computer-use",
+      "type": "concept",
+      "role": "concept",
+      "name": "计算机使用 (computer use)",
+      "file": "计算机使用",
+      "primary": true,
+      "how_described": "本集说它是智能体在电脑屏幕上执行动作的方式——看到蓝色按钮就去点，是自动化的前一半，但智能体还需理解屏幕内容",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            173.197,
+            177.621
+          ],
+          "quote": "So mobile devices and also computer use is the other one.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 51,
+          "t": [
+            309.457,
+            315.52
+          ],
+          "quote": "And then behind the scenes, we have a custom computer use model, which is doing all of the inference there.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 55,
+          "t": [
+            346.55,
+            355.474
+          ],
+          "quote": "So, for those of you who are not familiar with the term of computer use, that's basically the way for an agent to take an action on a computer screen, right?",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "visual-annotation",
+      "type": "concept",
+      "role": "concept",
+      "name": "视觉标注 (visual annotation)",
+      "file": "视觉标注",
+      "primary": true,
+      "how_described": "本集说它是一个开源的 Chrome 扩展原语：在任意网页上圈选、点选或钉图钉并描述改动，导出 JSON 和提示词交给编码智能体，纯确定性、不绑定模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 72,
+          "t": [
+            473.447,
+            475.068
+          ],
+          "quote": "The first is visual annotation.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "visual-verification",
+      "type": "concept",
+      "role": "concept",
+      "name": "视觉验证 (visual verification)",
+      "file": "视觉验证",
+      "primary": true,
+      "how_described": "本集说它是第二个开源原语（skill）：对照设计规范和 Gherkin 用户流程文件自动检查网站是否合规并生成报告，首次运行会先爬取网站自动生成流程描述",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 79,
+          "t": [
+            505.663,
+            509.846
+          ],
+          "quote": "The second part, the second primitive which we've launched is visual verification.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 83,
+          "t": [
+            528.918,
+            541.122
+          ],
+          "quote": "And so you can have visual verification, this skill, run by your coding agent against these design artifacts that you have, against these Gherkin files, and make sure that your site is adhering to those.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 90,
+          "t": [
+            585.217,
+            598.085
+          ],
+          "quote": "So as he mentioned, we are going to be doing hands-on workshop, but hands-on on whatever we release, the UI and the visual annotator and the visual verification.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            824.395,
+            827.597
+          ],
+          "quote": "Primitive that we launched is the visual verification skill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            838.304,
+            846.169
+          ],
+          "quote": "As Emi mentioned, these are these design files against which you will be running your visual verification against.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "coding-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "编码智能体 (coding agent)",
+      "file": "编码智能体",
+      "primary": true,
+      "how_described": "本集说标注导出的 JSON 和提示词交给编码智能体去自动改代码，已测试支持 Claude Code 和 Kiro，改完自动跑验证",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            482.115,
+            494.643
+          ],
+          "quote": "And when you're done with that, you click Export, and it exports out a JSON file with all the changes that you want and a prompt, which you can give to your coding agent along with that JSON file to say, hey, go and make these changes and do that.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 83,
+          "t": [
+            528.918,
+            541.122
+          ],
+          "quote": "And so you can have visual verification, this skill, run by your coding agent against these design artifacts that you have, against these Gherkin files, and make sure that your site is adhering to those.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 109,
+          "t": [
+            739.384,
+            754.648
+          ],
+          "quote": "Now think about if you had the ability to take their feedback directly and pass it to the coding agent without your supervision and just like once the changes have been done that's when you interfere and say oh this looks good, all the changes have been incorporated.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1279.523,
+            1286.007
+          ],
+          "quote": "So if you don't have any coding agent, you can install Kero and start playing around with it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1523.284,
+            1532.546
+          ],
+          "quote": "If you want your coding agent to automatically apply the changes from the extension, you need a bridge because there's no bridge between them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1533.166,
+            1537.827
+          ],
+          "quote": "How would the extension send the prompt to the coding agent?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1542.728,
+            1550.452
+          ],
+          "quote": "That will automatically take the annotations and give prompted to the coding agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1732.679,
+            1736.041
+          ],
+          "quote": "So in the background, it's gonna open up your coding agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集整体思路：智能体应是队友而非黑箱，要理解目标并分享思路；客户引言称只有 50% 时间能工作的智能体等于完全不能用，可靠性靠模拟环境中的强化学习训练",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            125.751,
+            135.719
+          ],
+          "quote": "And when we say teammates, we really want an agent that can understand what our goal is, our objective is, and can share how they're thinking about achieving that goal.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 26,
+          "t": [
+            158.004,
+            163.889
+          ],
+          "quote": "And so for us, because it's a perception-based agent, the environment spans multiple devices.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 27,
+          "t": [
+            164.289,
+            172.877
+          ],
+          "quote": "So we started with browsers last year, but you can imagine any visual screen is an environment for our agent to carry out knowledge work in.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 30,
+          "t": [
+            181.315,
+            186.058
+          ],
+          "quote": "And we have a great customer quote that said, if my agent works 50% of the time, it doesn't work at all.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 31,
+          "t": [
+            186.198,
+            196.286
+          ],
+          "quote": "And that's because you're either not going to run it at all, or if you do run it, you're going to end up debugging it and spending all this time, and you're going to basically do away with all the gains that you're getting from that agent.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 49,
+          "t": [
+            299.072,
+            303.214
+          ],
+          "quote": "So it's a very easy way to see everything which your agent has done.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 55,
+          "t": [
+            346.55,
+            355.474
+          ],
+          "quote": "So, for those of you who are not familiar with the term of computer use, that's basically the way for an agent to take an action on a computer screen, right?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 56,
+          "t": [
+            355.514,
+            360.196
+          ],
+          "quote": "So you see a blue button in the right corner, and you tell your agent, hey, go click this blue button over here.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 59,
+          "t": [
+            365.198,
+            370.56
+          ],
+          "quote": "But we feel that there's another half of that, which is the agent actually understanding what it's seeing on the screen itself.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 61,
+          "t": [
+            378.571,
+            382.657
+          ],
+          "quote": "And we really want this agent to be able to understand screen just like a human would, right?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 68,
+          "t": [
+            439.655,
+            450.98
+          ],
+          "quote": "So rather than typing up paragraphs for what you want the agent to do on this screen and describing the screen, you can just point, click, and describe changes that you want.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 70,
+          "t": [
+            457.483,
+            459.744
+          ],
+          "quote": "And then you just have the agent go and do that.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 71,
+          "t": [
+            463.457,
+            472.486
+          ],
+          "quote": "And to start with, we've open sourced two perception agent primitives, and you're gonna be using these in depth in the workshop today.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 74,
+          "t": [
+            482.115,
+            494.643
+          ],
+          "quote": "And when you're done with that, you click Export, and it exports out a JSON file with all the changes that you want and a prompt, which you can give to your coding agent along with that JSON file to say, hey, go and make these changes and do that.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 83,
+          "t": [
+            528.918,
+            541.122
+          ],
+          "quote": "And so you can have visual verification, this skill, run by your coding agent against these design artifacts that you have, against these Gherkin files, and make sure that your site is adhering to those.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 109,
+          "t": [
+            739.384,
+            754.648
+          ],
+          "quote": "Now think about if you had the ability to take their feedback directly and pass it to the coding agent without your supervision and just like once the changes have been done that's when you interfere and say oh this looks good, all the changes have been incorporated.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            757.61,
+            766.958
+          ],
+          "quote": "Maybe a few hours, you just start, collect the feedback, send it to your agent, and go for a coffee, break, come back, and all the changes have been merged.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            790.932,
+            808.456
+          ],
+          "quote": "And once you have your annotations, you can download these and send it to your team who needs to make the changes, or even if it's you who's making the changes, then we provide an AI-friendly prompt that you can send it to your agent, and it's going to change automatically.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            808.536,
+            811.277
+          ],
+          "quote": "Well, you have to instruct the agent to change the code base.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1279.523,
+            1286.007
+          ],
+          "quote": "So if you don't have any coding agent, you can install Kero and start playing around with it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1518.382,
+            1522.123
+          ],
+          "quote": "We have your agent, AI agent running.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1523.284,
+            1532.546
+          ],
+          "quote": "If you want your coding agent to automatically apply the changes from the extension, you need a bridge because there's no bridge between them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1533.166,
+            1537.827
+          ],
+          "quote": "How would the extension send the prompt to the coding agent?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1537.867,
+            1541.568
+          ],
+          "quote": "So for that, we have built something called agent bridge.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1542.728,
+            1550.452
+          ],
+          "quote": "That will automatically take the annotations and give prompted to the coding agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1732.679,
+            1736.041
+          ],
+          "quote": "So in the background, it's gonna open up your coding agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1740.564,
+            1753.612
+          ],
+          "quote": "So if you are trying cursor or codex, the agent bridge is something that you would have to edit so that it can accept these apply changes button, like requests.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1947.013,
+            1951.934
+          ],
+          "quote": "And then, automatically, your perception agent is able to modify the website.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1992.002,
+            2000.389
+          ],
+          "quote": "After the AI agent that is running B is able to give you suggestion about whatever conversation you had.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 302,
+          "t": [
+            2001.17,
+            2009.016
+          ],
+          "quote": "So what I did is like integrating with this agent, B agent, with the reception agent that we had for the workshop.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 314,
+          "t": [
+            2059.482,
+            2063.103
+          ],
+          "quote": "Listening from big conversation and applying that to the perception agent.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 324,
+          "t": [
+            2093.313,
+            2097.678
+          ],
+          "quote": "And here is gonna be the normal flow of the Perception Agent Workshop.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2769.213,
+            2781.935
+          ],
+          "quote": "So we would use the annotation feature of the perception agent to then send that description either through Sidekick through our own agent we have running to make improvements, but then to close that loop of development.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 525,
+          "t": [
+            3214.121,
+            3221.323
+          ],
+          "quote": "The last one is build a Canvas app where a human perception agent work on a UI design together in real time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 531,
+          "t": [
+            3260.16,
+            3270.163
+          ],
+          "quote": "The first, the most important thing of this workshop you can all imagine is the way human and agent collaboration is happening is changing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 533,
+          "t": [
+            3279.126,
+            3283.967
+          ],
+          "quote": "And this is what a step next to building perception agent is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 538,
+          "t": [
+            3295.998,
+            3305.063
+          ],
+          "quote": "And also we have a blog post by our team that you can look it up explaining what we are thinking about perception agent at large.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "强化学习 (reinforcement learning)",
+      "file": "强化学习",
+      "primary": false,
+      "how_described": "本集说团队花大量时间在模拟环境中用强化学习构建和训练模型，训练素材来自外部客户和 Amazon 内部做知识工作的团队",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            196.846,
+            203.031
+          ],
+          "quote": "And so we spend a lot of time building and training our models in simulated environments for reinforcement learning.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "type": "concept",
+      "role": "concept",
+      "name": "B 可穿戴设备 (B)",
+      "file": "B 可穿戴设备",
+      "primary": true,
+      "how_described": "本集说 B 是 Amazon 一款带麦克风和 AI 助手的可穿戴设备，听对话时指示灯亮、对话存在私有云上，现场演示把它的对话记录接入感知智能体，开会聊几句网页就改好了",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 151,
+          "t": [
+            985.804,
+            994.035
+          ],
+          "quote": "We have certain contests at the end, and thank you, the B team, for sponsoring the prizes for the event.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            1036.994,
+            1049.884
+          ],
+          "quote": "Maybe some you want to try and wire it up with B and see how you would probably wire it with any other form of feedback that you would essentially get from your team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            1063.168,
+            1068.469
+          ],
+          "quote": "Come in front, come at the stage, show your use case, demo your use case, and you'll get a B device.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            1097.491,
+            1102.675
+          ],
+          "quote": "And the top three ideas will get a B device, and I think we also have one for",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1397.485,
+            1407.89
+          ],
+          "quote": "But before that, we will have the B team, Giovanni, in some time to present.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1960.625,
+            1963.007
+          ],
+          "quote": "So B is a device we have in Amazon.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1964.528,
+            1967.03
+          ],
+          "quote": "It's like in some B.computer website.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1992.002,
+            2000.389
+          ],
+          "quote": "After the AI agent that is running B is able to give you suggestion about whatever conversation you had.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 302,
+          "t": [
+            2001.17,
+            2009.016
+          ],
+          "quote": "So what I did is like integrating with this agent, B agent, with the reception agent that we had for the workshop.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 309,
+          "t": [
+            2026.799,
+            2028.16
+          ],
+          "quote": "So first of all, yes, you have to have a B.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 315,
+          "t": [
+            2063.623,
+            2065.344
+          ],
+          "quote": "Then you just enable your B device.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 321,
+          "t": [
+            2083.009,
+            2087.51
+          ],
+          "quote": "Here you can see the response API, the API response coming from the B.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 331,
+          "t": [
+            2129.278,
+            2140.803
+          ],
+          "quote": "And you can, after you install the CLI and you log it in with a B account, with a test device, with a test account, you just click on the bottom button, the button at the bottom.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 333,
+          "t": [
+            2144.539,
+            2149.563
+          ],
+          "quote": "But otherwise, if you want to test the B device, we can just use mine.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 338,
+          "t": [
+            2169.458,
+            2173.922
+          ],
+          "quote": "The B devices are also our prizes for the challenge.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 341,
+          "t": [
+            2182.229,
+            2185.412
+          ],
+          "quote": "So yeah, let me know if you want to integrate B and I'm here for you.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 373,
+          "t": [
+            2401.015,
+            2410.764
+          ],
+          "quote": "Yeah, so I'm still building a test harness to actually be able to show this because the default B account has a sample conversation that isn't relevant to the thing.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 374,
+          "t": [
+            2410.784,
+            2415.028
+          ],
+          "quote": "So this is just something trying to bring the B to life.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2554.638,
+            2560.2
+          ],
+          "quote": "So naturally, being late, being a Wharton grad, I went and asked if I could have a free B device.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 418,
+          "t": [
+            2583.791,
+            2585.893
+          ],
+          "quote": "So this is a natural use case for the B device.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2683.752,
+            2690.595
+          ],
+          "quote": "So how we imagine this to work with the B device, as Giovanni informed me, there's an MCP, would be,",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2790.917,
+            2795.738
+          ],
+          "quote": "Thank you so much for coming up and demoing and here, as Pop promised, a B device.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2844.938,
+            2858.345
+          ],
+          "quote": "All right, so I was kind of looking at the proxy for the B and trying to figure out how are we getting the information from the CLI.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "human-in-the-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "人机协同介入 (human in the loop)",
+      "file": "人机协同介入",
+      "primary": false,
+      "how_described": "本集说 Nova Act 在需要人审批（如报销单）或卡住时把人叫进来，并作为服务的一项能力提供",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            234.639,
+            251.633
+          ],
+          "quote": "So using natural language, you can drive a browser workflow to populate a browser, navigate, search with it, fill out forms, and call a human in the loop if you need a human for a expense report approval or if you get stuck or other things like that.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 52,
+          "t": [
+            316.14,
+            335.93
+          ],
+          "quote": "This year we launched an MCP server as well as a skill, and you're gonna be using those in the workshop, and that's for your agents to be able to use Nova Act very easily, and then we've got human in the loop and tool use, and we also have a playground, so if you go to the Nova Act homepage, it's a no-code way to just see Nova Act in action there.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "mcp-server",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP 服务器 (MCP server)",
+      "file": "MCP 服务器",
+      "primary": false,
+      "how_described": "本集说今年为 Nova Act 推出了 MCP server 和 skill，让其他智能体能方便调用 Nova Act",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            316.14,
+            335.93
+          ],
+          "quote": "This year we launched an MCP server as well as a skill, and you're gonna be using those in the workshop, and that's for your agents to be able to use Nova Act very easily, and then we've got human in the loop and tool use, and we also have a playground, so if you go to the Nova Act homepage, it's a no-code way to just see Nova Act in action there.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 183,
+          "t": [
+            1214.045,
+            1218.027
+          ],
+          "quote": "You have the Nova Act SDK and the Nova Act MCP server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1254.956,
+            1260.602
+          ],
+          "quote": "You need to have a Mac OS or a Linux, too, because no Act MCP server runs on Mac OS and Linux.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

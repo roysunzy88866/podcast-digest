@@ -1,0 +1,579 @@
+{
+  "episode_id": "2026-08-20-nopriors-from-restoring-sight-to-reimagining-the",
+  "podcast": "No Priors",
+  "date": "2026-08-20",
+  "tags": [
+    "脑机接口",
+    "神经科学",
+    "医疗设备",
+    "AI 与大脑",
+    "创业与行业"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "max-hodak",
+      "type": "person",
+      "role": "guest",
+      "name": "Max Hodak",
+      "file": "Max Hodak",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            58.682,
+            63.885
+          ],
+          "quote": "Today, I'm here with Max Hodak, the founder and CEO of Science, formerly of Neuralink.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "type": "company",
+      "role": "company",
+      "name": "Science",
+      "file": "Science",
+      "primary": true,
+      "how_described": "Max Hodak 创办的医疗设备公司，主要产品是视网膜假体 Prima，刚获得欧洲上市批准，让因感光细胞死亡而失明的患者恢复成形视觉",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            58.682,
+            63.885
+          ],
+          "quote": "Today, I'm here with Max Hodak, the founder and CEO of Science, formerly of Neuralink.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 21,
+          "t": [
+            87.481,
+            95.843
+          ],
+          "quote": "So for anyone who is not familiar with science, can you just describe a little bit about why you start the company, leaving Neuralink, what the mission is?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 23,
+          "t": [
+            99.364,
+            107.866
+          ],
+          "quote": "But I think if the mission of lowercase s science is to use a differentiated understanding of the universe to improve the human condition, I mean, that's the mission of uppercase s science.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1054.039,
+            1065.607
+          ],
+          "quote": "Do you study consciousness at science in a like a sequential way or directly explicitly today when you talk about the operators that are part of it, let's say?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1237.133,
+            1244.26
+          ],
+          "quote": "That to me was one of the first clues like when I really saw that and we use that practically like we use that constructively at science like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1345.616,
+            1357.246
+          ],
+          "quote": "I want to talk a little bit about the future and maybe the very short and then the medium timescale for science, short of changing the boundary of who we are.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1653.892,
+            1668.466
+          ],
+          "quote": "For people who are interested in working at or investing in science, if you are successful, what will be the change to the human experience 20 years from now besides you not worrying about your pancreas as much?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "neuralink",
+      "type": "company",
+      "role": "company",
+      "name": "Neuralink",
+      "file": "Neuralink",
+      "primary": false,
+      "how_described": "Hodak 曾任总裁的公司，本集作为其背景被提及（离开 Neuralink 后创办 Science）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            58.682,
+            63.885
+          ],
+          "quote": "Today, I'm here with Max Hodak, the founder and CEO of Science, formerly of Neuralink.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 21,
+          "t": [
+            87.481,
+            95.843
+          ],
+          "quote": "So for anyone who is not familiar with science, can you just describe a little bit about why you start the company, leaving Neuralink, what the mission is?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "pixium",
+      "type": "company",
+      "role": "company",
+      "name": "Pixium",
+      "file": "Pixium",
+      "primary": true,
+      "how_described": "法国公司，拥有当时最先进的视网膜电刺激技术，Science 在 2022 年底看中并在几年后将其收购",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            294.406,
+            299.47
+          ],
+          "quote": "And there was a company in France called Pixium that back in late 2022",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "secondsight",
+      "type": "company",
+      "role": "company",
+      "name": "SecondSight",
+      "file": "SecondSight",
+      "primary": false,
+      "how_described": "十年前做过另一种视网膜假体的公司，病人只能看到光斑，每位患者收费约 15 万美元，作为定价先例被提及",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 304,
+          "t": [
+            1416.95,
+            1425.358
+          ],
+          "quote": "I mean, SecondSight, 10 years ago, they, so there's a company about a decade ago that had a retinal prosthesis that works differently than ours does.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "bci",
+      "type": "concept",
+      "role": "concept",
+      "name": "BCI",
+      "file": "BCI",
+      "primary": true,
+      "how_described": "本集把 BCI 视为一个像制药一样的宽泛类别，Hodak 认为它比运动解码宽泛得多，视网膜假体也算 BCI，且 AI 进展让这个领域重新火热",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            345.755,
+            353.144
+          ],
+          "quote": "I think most people think of anything in the BCI field as, you know, a moonshot project that may or may not pan out 10 years from now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 146,
+          "t": [
+            666.688,
+            677.133
+          ],
+          "quote": "Both in the sense that BCI has this broader interpretation than motor decoding, as well as like, is a retinal prosthesis a BCI?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            729.772,
+            740.197
+          ],
+          "quote": "When you describe different types of BCI products and missions, I think you have a really good way of explaining it that is, you know, on a spectrum.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 159,
+          "t": [
+            740.457,
+            745.699
+          ],
+          "quote": "Can you talk about just the landscape of what devices and approaches people are working on in BCI today?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 160,
+          "t": [
+            745.719,
+            749.741
+          ],
+          "quote": "Yeah, I mean, I think BCI is a category, kind of like how pharma is a category.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            749.761,
+            753.202
+          ],
+          "quote": "I think sometimes I'll talk to VCs and like, oh, we have a BCI bet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            773.228,
+            784.131
+          ],
+          "quote": "And similarly, I think on one end of the spectrum, you've got silent speech devices that may be BCI in a greater or lesser degree, like maybe they're recording a neural signal like EEG.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1189.467,
+            1209.181
+          ],
+          "quote": "You are of the view that it makes sense that there is this increased interest, this surge of investor interest and founder and engineer interest in BCI as a field given the progress of AI model research because the representations actually should be shared or they empirically seem to be.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 368,
+          "t": [
+            1744.042,
+            1755.568
+          ],
+          "quote": "The simplest premise for a company in the BCI domain today is like you can in some way invasively, non-invasively talk to an AI model in like a high bandwidth way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1763.232,
+            1771.416
+          ],
+          "quote": "I think this idea that there's the stuff that's just this kind of preformed in your brain that if you could access it through BCI, it would be faster is probably not the case.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1868.637,
+            1877.665
+          ],
+          "quote": "Both of these are potentially BCI problems or products, but very different types of companies that will build them, just as I think you have a huge range of drug companies.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "retinal-prosthesis",
+      "type": "concept",
+      "role": "concept",
+      "name": "视网膜假体 (retinal prosthesis)",
+      "file": "视网膜假体",
+      "primary": true,
+      "how_described": "Science 的主要产品方向：植入视网膜下方的芯片配合带激光投影仪的眼镜，绕过坏死的感光细胞直接刺激视网膜，把视觉信号送回大脑，被称为「眼睛版的人工耳蜗」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            28.197,
+            29.337
+          ],
+          "quote": "The retinal prosthesis right now",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            116.89,
+            118.851
+          ],
+          "quote": "Our main product is a retinal prosthesis.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            132.376,
+            136.478
+          ],
+          "quote": "And our goal is to build things like that, including our primal retinal prosthesis.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            519.041,
+            523.447
+          ],
+          "quote": "The retinal prosthesis right now I think is a great proof of concept that we're on the right track.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            666.688,
+            677.133
+          ],
+          "quote": "Both in the sense that BCI has this broader interpretation than motor decoding, as well as like, is a retinal prosthesis a BCI?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1416.95,
+            1425.358
+          ],
+          "quote": "I mean, SecondSight, 10 years ago, they, so there's a company about a decade ago that had a retinal prosthesis that works differently than ours does.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "brain-is-a-computer",
+      "type": "concept",
+      "role": "concept",
+      "name": "大脑就是一台计算机 (brain is a computer)",
+      "file": "大脑就是一台计算机",
+      "primary": true,
+      "how_described": "Hodak 的核心观点：大脑不是隐喻意义上的计算机，而是「非常字面、明明白白地就是一台计算机」；把大脑当计算机直接接入电信号，效果常立竿见影，而药物研发靠生物学随机试错",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 89,
+          "t": [
+            454.244,
+            459.888
+          ],
+          "quote": "On the other hand, the brain is a computer, and when you deal with the brain as a computer, you get these things to work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            587.991,
+            588.811
+          ],
+          "quote": "The brain is a computer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 126,
+          "t": [
+            595.657,
+            598.923
+          ],
+          "quote": "Well, if you want to make people angry, you should tell the internet that the brain is a computer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "platonic-representation-hypothesis",
+      "type": "concept",
+      "role": "concept",
+      "name": "柏拉图表征假说 (platonic representation hypothesis)",
+      "file": "柏拉图表征假说",
+      "primary": true,
+      "how_described": "本集说大型 AI 模型内部表征概念的数学几何结构，与大脑表征概念的部位非常相似；Science 实际能把动物神经记录与 AI 模型内部表征对齐，Hodak 认为这像一条物理定律",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 260,
+          "t": [
+            1209.381,
+            1213.263
+          ],
+          "quote": "Yeah, I mean, this is the idea called the platonic representation hypothesis.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "substrate-independence",
+      "type": "concept",
+      "role": "concept",
+      "name": "基质独立 (substrate independence)",
+      "file": "基质独立",
+      "primary": true,
+      "how_described": "Hodak 的长期目标：让大脑不再依赖脆弱的身体，既能对抗疾病和衰老（升级替换自身部件），也是人类适应太空探索的前提——保存自己与改造自己是同一个项目",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            64.125,
+            77.293
+          ],
+          "quote": "We talk about Prima, the implant that helps people who have gone blind see again, which just got regulatory approval in Europe, their quest to sustain the human experience and substrate independence for the brain.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1150.229,
+            1156.191
+          ],
+          "quote": "I mean, at that point where you achieve substrate independence, you can take that almost anywhere you want, which is why that's really, really interesting.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1738.502,
+            1740.503
+          ],
+          "quote": "Swappable parts and substrate independence.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1741.623,
+            1742.444
+          ],
+          "quote": "Substrate independence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 395,
+          "t": [
+            1858.349,
+            1863.854
+          ],
+          "quote": "generating vision or generating hearing or achieving substrate independence.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "connectomics",
+      "type": "concept",
+      "role": "concept",
+      "name": "连接组学 (connectomics)",
+      "file": "连接组学",
+      "primary": false,
+      "how_described": "被提为实现基质独立缺失的一大块：离人类连接组还远，但小鼠连接组已不遥远，将对理解大脑运作有极大帮助",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 253,
+          "t": [
+            1156.611,
+            1159.531
+          ],
+          "quote": "One of the big missing pieces here is connectomics.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gene-therapy",
+      "type": "concept",
+      "role": "concept",
+      "name": "基因疗法 (gene therapy)",
+      "file": "基因疗法",
+      "primary": false,
+      "how_described": "Science 自主开发了最先进的视网膜基因疗法，明年可能进入人体试验；另提到一款效果有限、每只眼报销近 50 万美元的基因疗法作为定价先例",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            274.327,
+            277.972
+          ],
+          "quote": "We developed an in-house gene therapy that affected the retin in one direction.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            281.895,
+            294.386
+          ],
+          "quote": "And what we ended up doing is we developed indigenously a state-of-the-art gene therapy, which is probably going to humans next year, as well as we found the state-of-the-art out there in the world of people electrically stimulating the retina.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            766.347,
+            770.988
+          ],
+          "quote": "Maybe you've got a degrader and maybe you've got a gene therapy and maybe you've got something else like because they're...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1457.356,
+            1466.559
+          ],
+          "quote": "There's a gene therapy that is only relevant in the first place for about 5% of patients in one narrow indication, and it really doesn't work that well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cognitive-bottleneck",
+      "type": "concept",
+      "role": "concept",
+      "name": "认知瓶颈 (cognitive bottleneck)",
+      "file": "认知瓶颈",
+      "primary": true,
+      "how_described": "本集提到大脑约每秒 10 比特的信息处理瓶颈，有多条独立证据，Hodak 据此认为绕过手和嘴的「意念打字」未必能突破它，所以不做大脑键盘产品",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 378,
+          "t": [
+            1786.124,
+            1790.365
+          ],
+          "quote": "And so there's this 10-bit per second kind of famous cognitive bottleneck.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1809.776,
+            1813.876
+          ],
+          "quote": "So there's some deeply evolved cognitive bottleneck about that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

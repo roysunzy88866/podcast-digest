@@ -1,0 +1,161 @@
+{
+  "title_zh": "会“看”屏幕的智能体：Amazon AGI Lab 的工作坊讲了什么",
+  "tldr": "Amazon AGI Lab 的 Emile Baizel 和 Shruti Arora 开设工作坊，展示并让听众上手体验两个开源的“感知智能体”工具。",
+  "digest_md": "如果智能体会点按钮，但它其实“看不懂”屏幕，那它只完成了自动化的一半。这是 Amazon AGI Lab 团队的核心判断。在这场工作坊上，Emile Baizel（解决方案架构团队负责人）和 Shruti Arora（解决方案架构师）先讲了背景，再带大家实际动手：用 Chrome 扩展在网页上圈圈点点，让编码智能体自动改代码、自动验证结果。\n\n## 智能体为什么必须“看懂”屏幕？\n\n“计算机使用”（computer use）是让智能体在屏幕上执行动作——看到右下角有个蓝色按钮，就点它。这很强大，但 Emile 指出还有另一半：智能体要真正理解它在屏幕上看到的东西，而不是把屏幕当成一块随便点按的盲板 [05:46 Unknown]。\n\n他举了个例子：给你看一个 90 年代末的 Yahoo 邮箱界面，你从没用过，却多半能摸索着发出一封邮件——因为人类积累了成千上万小时使用屏幕的经验，凭直觉就知道怎么操作。他们想让人工智能体达到同样的水平 [06:24 Unknown]。\n\n还有个现实好处：大量知识工作者的日常，就是在使用一堆根本没有应用程序接口的软件界面。这些工作之所以还需要人来做，正是因为没有接口可调。智能体如果能像人一样“看”屏幕，就能接手这些工作 [06:58 Unknown]。\n\n## 客户的那句话：50% 的成功率等于零\n\n介绍实验室时，Emile 转述了一位客户的话：「**如果我的智能体只有 50% 的时间能正常工作，那它就等于完全不能用**」[03:06 Unknown]。原因很简单：要么你干脆不用它，要么你得不停去调试，把省下的时间又全赔进去。\n\n所以可靠性是他们的第三个重点。团队在模拟环境里做强化学习来训练模型，训练素材来自外部客户和 Amazon 内部大量做知识工作的团队。\n\n他们对智能体的整体思路有两条：一是把智能体当“队友”而不是黑箱——它要理解你的目标，还能说出自己打算怎么完成；二是感知，环境不限于浏览器，还包括手机和桌面电脑的各种屏幕。\n\n## 先补课：去年的产品 Nova Act\n\n去年他们发布了第一个产品 Amazon Nova Act，一项正式的 AWS 服务。开发者用自然语言就能驱动浏览器完成工作流：打开网页、导航、搜索、填表单，遇到卡壳或需要人审批（比如报销单）时把人叫进来 [03:44 Unknown]。\n\n主要用途有四类：批量填表单（不用为每个网站写提示词或脚本）、搜索并提取数据、购物，以及质量测试。今年他们又加上了 MCP 服务器和技能（skill），让其他智能体也能方便地调用 Nova Act，还提供一个无需写代码的演练场。\n\n## 两个开源工具：标注 + 验证\n\n工作坊的主角是两个已开源的“感知智能体”基础工具。\n\n第一个叫视觉标注（visual annotation）。它是一个 Chrome 扩展：你在任意网页上圈选、点选元素或像在地图上钉图钉一样做标记，写下想改什么，点导出就得到一个 JSON 文件和一段提示词，交给你的编码智能体去执行。Shruti 强调，**这个工具本身不做任何推理，纯确定性输出，不绑定任何模型** [08:17 Unknown]。\n\n第二个叫视觉验证（visual verification）。你把网站该遵守的设计规范、颜色、字体，以及登录、结账这类用户流程写成描述文件，技能就能代替人去逐项检查网站是否合规，并生成报告。第一次运行时，它还会先爬一遍网站，自动生成这些流程描述 [14:29 Unknown]。\n\n## 前端工程师的痛点：几周变几小时\n\nShruti 让大家代入一个场景：你是前端工程师，按设计团队的 Figma 稿做一个网页，本来要四五周。做到第三四周，把代码分享给同事看，对方说“这不对劲，标题不该是红色的”，反馈散落在 Slack 和共享文档里，你逐条消化、改代码，一来一回又是好几天 [10:11 Unknown]。\n\n有了这两个工具，流程变成：同事在网页上直接标注“标题改小”“按钮太大”，点一下按钮，**标注自动传给编码智能体改代码，改完自动跑视觉验证、出报告**。你只需要收集反馈、发给智能体，然后去喝杯咖啡，回来时所有改动已经合并 [12:37 Unknown]。\n\n现场演示中确实如此：在扩展里点“应用更改”，后台会启动编码智能体（已测试支持 Claude Code 和 Kiro），日志里能看到模型在想什么、在看屏幕哪一块，最后生成验证报告 [29:30 Unknown]。\n\n## 会议室里聊两句，网页就改好了\n\nAmazon 的 Giovanni 带来了更进一步的玩法：把可穿戴设备 B 接入这套流程。B 是 Amazon 的一款带麦克风和人工智能助手的可穿戴设备，正在聆听时有指示灯提示，对话存在私有云上 [32:53 Unknown]。\n\n他的组合是：戴着 B 开设计会议，随口说“标题颜色改成红色”“表情符号从大脑换成机器人”，B 的对话记录通过命令行工具传给感知智能体，几分钟后网页真的改好了，还自动跑完验证 [34:25 Unknown]。\n\n## 台下的即兴创意\n\n工作坊留了时间让观众上台演示。有人现场让智能体把播客页面改成复古红白机风格、加上鸭子笑话，再走完整个验证流程，确认改动真的生效，赢得一台 B 设备 [37:55 Unknown]。在一家金融公司工作的观众提出，可以用录屏加日志的工具代替 B 作为反馈入口，让非技术同事直接描述“这块应该挪到哪”，智能体照做 [48:07 Unknown]。还有沃顿商学院的观众想把 B 接入自己的任务管理系统，会议想法自动进收件箱、更新策略 [44:43 Unknown]。\n\n## 本集带走\n\n- Amazon AGI Lab 认为智能体不该只会点屏幕，还要像人一样理解屏幕内容，因为大量知识工作使用的软件根本没有应用程序接口。\n- 两个开源工具已可用：视觉标注（Chrome 扩展，在网页上圈点描述改动，导出给编码智能体执行）和视觉验证（自动检查网站是否符合设计规范和用户流程）。\n- 客户的原话是：智能体只有 50% 可靠就等于不能用，团队为此在模拟环境中做强化学习训练。\n- 前端改反馈的流程可以从几天压缩到几小时：标注 → 智能体改代码 → 自动验证出报告，人只需最后看一眼。\n- 可穿戴设备 B 被接入了整套流程，开会时随口聊的设计意见，几分钟后自动变成网页上的真实改动。",
+  "quotes": [
+    {
+      "en": "So we really think about building agents that are teammates much more than just a black box.",
+      "zh": "我们真正想构建的智能体是队友，而不仅仅是一个黑盒。",
+      "timestamp": "02:00",
+      "speaker": "Emile Baizel"
+    },
+    {
+      "en": "And we have a great customer quote that said, if my agent works 50% of the time, it doesn't work at all.",
+      "zh": "我们有一条很棒的客户引言说：如果我的智能体只有 50% 的时间能正常工作，那它就完全不能用。",
+      "timestamp": "03:01",
+      "speaker": "Emile Baizel"
+    },
+    {
+      "en": "But we feel that there's another half of that, which is the agent actually understanding what it's seeing on the screen itself.",
+      "zh": "但我们觉得还有另外一半，那就是智能体真正理解它在屏幕上看到的东西本身。",
+      "timestamp": "06:05",
+      "speaker": "Emile Baizel"
+    },
+    {
+      "en": "You would probably be able to figure out how to send an email from that even though you've never used that client before because we've got this collective understanding of thousands and thousands of hours of using these screens that we kind of intuitively understand how to use these things and that's really where we're trying to get to with these agents.",
+      "zh": "即使你从未用过那个客户端，你也很可能能弄清楚怎么从那里发邮件，因为我们积累了成千上万小时使用这些屏幕的集体经验，凭直觉就知道怎么用这些东西——而这正是我们希望这些智能体达到的目标。",
+      "timestamp": "06:33",
+      "speaker": "Emile Baizel"
+    },
+    {
+      "en": "So if you think about a lot of knowledge work, it's a lot of humans using screens that just don't have APIs, and that's why there are people who are doing these things.",
+      "zh": "如果你想想很多知识工作，那其实是很多人在使用那些根本没有 API 的屏幕，这就是为什么还需要人来做这些事情。",
+      "timestamp": "06:58",
+      "speaker": "Emile Baizel"
+    },
+    {
+      "en": "So we started with browsers last year, but you can imagine any visual screen is an environment for our agent to carry out knowledge work in.",
+      "zh": "我们去年从浏览器开始，但你可以想象，任何可视化的屏幕都是我们智能体开展知识工作的环境。",
+      "timestamp": "02:44",
+      "speaker": "Emile Baizel"
+    },
+    {
+      "en": "But the bottleneck right now is product design of building something that users can understand exactly what to do.",
+      "zh": "但现在的瓶颈是产品设计，也就是打造一个用户能明确知道该做什么的东西。",
+      "timestamp": "46:01",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "02:00",
+      "speaker": "Unknown",
+      "en": "So we really think about building agents that are teammates much more than just a black box.",
+      "zh": "我们真正想构建的智能体是队友，而不仅仅是一个黑盒。"
+    },
+    {
+      "timestamp": "03:01",
+      "speaker": "Unknown",
+      "en": "And we have a great customer quote that said, if my agent works 50% of the time, it doesn't work at all.",
+      "zh": "我们有一条很棒的客户引言说：如果我的智能体只有 50% 的时间能正常工作，那它就完全不能用。"
+    },
+    {
+      "timestamp": "03:06",
+      "speaker": "Unknown",
+      "en": "And that's because you're either not going to run it at all, or if you do run it, you're going to end up debugging it and spending all this time, and you're going to basically do away with all the gains that you're getting from that agent.",
+      "zh": "这是因为你要么根本不会去运行它，要么就算运行了，你最终也会陷入调试、花掉大量时间，基本上把这个智能体带来的所有收益都抵消掉。"
+    },
+    {
+      "timestamp": "06:05",
+      "speaker": "Unknown",
+      "en": "But we feel that there's another half of that, which is the agent actually understanding what it's seeing on the screen itself.",
+      "zh": "但我们觉得还有另外一半，那就是智能体真正理解它在屏幕上看到的东西本身。"
+    },
+    {
+      "timestamp": "06:24",
+      "speaker": "Unknown",
+      "en": "You would probably be able to figure out how to send an email from that even though you've never used that client before because we've got this collective understanding of thousands and thousands of hours of using these screens that we kind of intuitively understand how to use these things and that's really where we're trying to get to with these agents.",
+      "zh": "即使你从未用过那个客户端，你也很可能能弄清楚怎么从那里发邮件，因为我们积累了成千上万小时使用这些屏幕的集体经验，凭直觉就知道怎么用这些东西——而这正是我们希望这些智能体达到的目标。"
+    },
+    {
+      "timestamp": "06:54",
+      "speaker": "Unknown",
+      "en": "And the second one is these agents don't require APIs in order to work.",
+      "zh": "第二点是，这些智能体不需要 API 就能工作。"
+    },
+    {
+      "timestamp": "06:58",
+      "speaker": "Unknown",
+      "en": "So if you think about a lot of knowledge work, it's a lot of humans using screens that just don't have APIs, and that's why there are people who are doing these things.",
+      "zh": "如果你想想很多知识工作，那其实是很多人在使用那些根本没有 API 的屏幕，这就是为什么还需要人来做这些事情。"
+    },
+    {
+      "timestamp": "07:19",
+      "speaker": "Unknown",
+      "en": "So rather than typing up paragraphs for what you want the agent to do on this screen and describing the screen, you can just point, click, and describe changes that you want.",
+      "zh": "这样一来，你不用打一大段文字来描述你想让智能体在这个屏幕上做什么，你只需要指向、点击并描述你想要的更改。"
+    },
+    {
+      "timestamp": "08:14",
+      "speaker": "Unknown",
+      "en": "So important to note, this has nothing to do with inference.",
+      "zh": "需要特别注意的是，这与推理完全无关。"
+    },
+    {
+      "timestamp": "01:17",
+      "speaker": "Unknown",
+      "en": "So we are a frontier research and product team that combines startup speed with the scale and the resources of Amazon.",
+      "zh": "我们是一个前沿研究与产品团队，结合了初创公司的速度和 Amazon 的规模与资源。"
+    },
+    {
+      "timestamp": "02:44",
+      "speaker": "Unknown",
+      "en": "So we started with browsers last year, but you can imagine any visual screen is an environment for our agent to carry out knowledge work in.",
+      "zh": "我们去年从浏览器开始，但你可以想象，任何可视化的屏幕都是我们智能体开展知识工作的环境。"
+    },
+    {
+      "timestamp": "12:19",
+      "speaker": "Unknown",
+      "en": "Now think about if you had the ability to take their feedback directly and pass it to the coding agent without your supervision and just like once the changes have been done that's when you interfere and say oh this looks good, all the changes have been incorporated.",
+      "zh": "现在想一想，如果你能把他们的反馈直接传给编码智能体而不需要你的监督，只在修改完成后你才介入说，哦，这看起来不错，所有修改都已经采纳了。"
+    },
+    {
+      "timestamp": "32:27",
+      "speaker": "Unknown",
+      "en": "And then, automatically, your perception agent is able to modify the website.",
+      "zh": "然后，自动地，你的感知智能体就能够修改这个网站。"
+    },
+    {
+      "timestamp": "54:20",
+      "speaker": "Unknown",
+      "en": "The first, the most important thing of this workshop you can all imagine is the way human and agent collaboration is happening is changing.",
+      "zh": "第一，你们都能想到，这场工作坊最重要的就是人类与智能体协作的方式正在发生变化。"
+    },
+    {
+      "timestamp": "54:31",
+      "speaker": "Unknown",
+      "en": "So we need tools that will make the visual piece of how the human and agents are collaborating.",
+      "zh": "所以我们需要工具来呈现人类与智能体协作的可视化部分。"
+    },
+    {
+      "timestamp": "46:01",
+      "speaker": "Unknown",
+      "en": "But the bottleneck right now is product design of building something that users can understand exactly what to do.",
+      "zh": "但现在的瓶颈是产品设计，也就是打造一个用户能明确知道该做什么的东西。"
+    },
+    {
+      "timestamp": "43:09",
+      "speaker": "Unknown",
+      "en": "Emphasis on internal because there is no design.",
+      "zh": "强调一下「内部」，因为它完全没有设计。"
+    },
+    {
+      "timestamp": "04:19",
+      "speaker": "Unknown",
+      "en": "So if you have to do that at scale across a large number of different websites and you don't want to write a prompt for each single website or write like a deterministic script for each single site, you can use Nova Act for that.",
+      "zh": "如果你需要在大量不同的网站上大规模地做这件事，而你又不想为每个网站单独写一个提示词或确定性的脚本，你可以用 Nova Act 来做。"
+    }
+  ],
+  "voice_script": "今天这期，咱们聊一场 Amazon AGI Lab 的工作坊。主讲的是两位做解决方案架构的人，Emile Baizel 和 Shruti Arora。这场工作坊干了两件事：先讲清楚一个判断，再让在场的人亲手玩起来。这个判断说起来一句话——如果智能体会点按钮，但其实“看不懂”屏幕，那它只完成了自动化的一半。围绕这个判断，他们还展示了两个已经开源的工具。咱们一样一样来。\n\n先说背景。现在很火的一个方向叫“计算机使用”，说白了，就是让智能体在屏幕上执行动作：看到右下角有个蓝色按钮，就去点它。这确实很强，但 Emile 说，这只是事情的一半。另一半是什么？是智能体要真正理解它在屏幕上看到的东西，而不是把屏幕当成一块随便点按的盲板。\n\n打了个比方：给你看一个九十年代末的 Yahoo 邮箱界面，你从没用过，但多半能摸索着发出一封邮件。为什么？因为人类积累了成千上万小时使用屏幕的经验，凭直觉就知道怎么操作。用原话说，这正是他们希望这些智能体达到的目标。\n\n那为什么这事值得做？这里有个很现实的原因。大量知识工作者的日常，就是在用一堆根本没有 API 的软件界面。什么叫 API？就是程序之间互相调用的接口。这些工作之所以还需要人来做，正是因为没有接口可调。智能体如果能像人一样“看”屏幕，就能接手这些活儿。\n\n不过要让智能体真的顶用，还有一个绕不过去的坎：可靠性。介绍实验室的时候，Emile 转述了一位客户的话，说得特别狠——如果我的智能体只有 50% 的时间能正常工作，那它就完全不能用。你想，要么你干脆不用它，要么你得不停地去调试，把省下来的时间又全赔进去。所以团队在模拟环境里做强化学习来训练模型，训练素材来自外部客户和 Amazon 内部大量做知识工作的团队。他们对智能体的整体思路有两条：一是把智能体当“队友”而不是黑箱，它要理解你的目标，还能说出自己打算怎么完成；二是感知，环境不限于浏览器，手机和桌面电脑的各种屏幕都算。\n\n这套思路去年其实已经有了一个落地产品，叫 Amazon Nova Act，是一项正式的 AWS 服务。开发者用自然语言就能驱动浏览器完成工作流：打开网页、导航、搜索、填表单，遇到卡壳或者需要人审批的事，比如报销单，就把人叫进来。主要用途有四类：批量填表单、搜索并提取数据、购物，还有质量测试。今年又加上了 MCP 服务器和技能，让别的智能体也能方便地调用它。\n\n交代完背景，就轮到这场工作坊真正的主角了——两个已经开源的工具。这两个工具是干什么的，又跟前头说的“看懂屏幕”有什么关系？简单讲，一个管“说清楚要改什么”，一个管“检查改得对不对”。\n\n第一个叫视觉标注，是一个 Chrome 扩展。你在任意网页上圈选元素、点选、或者像在地图上钉图钉一样做标记，写下想改什么，点一下导出，就得到一个 JSON 文件和一段提示词，交给你的编码智能体去执行。这里有个细节 Shruti 特意强调：这个工具本身不做任何推理，纯确定性输出，也不绑定任何模型。\n\n第二个叫视觉验证。你把网站该遵守的设计规范、颜色、字体，还有登录、结账这类用户流程写成描述文件，它就能代替人去逐项检查网站合不合规，并生成报告。更贴心的是，第一次运行的时候，它会先爬一遍网站，自动帮你生成这些流程描述。\n\n那这两个工具凑在一起能干什么？Shruti 让大家代入一个前端工程师的场景：你按设计团队给的稿子做网页，本来要四五周。做到第三四周，把代码给同事看，对方说“这不对劲，标题不该是红色的”，反馈散落在 Slack 和共享文档里，你逐条消化、改代码，一来一回又是好几天。\n\n有了这套工具，流程就变成：同事直接在网页上标注“标题改小”“按钮太大”，点一下按钮，标注自动传给编码智能体改代码，改完自动跑视觉验证、出报告。你只需要收集反馈、发给智能体，然后去喝杯咖啡，回来时所有改动已经合并。现场演示确实如此：在扩展里点“应用更改”，后台会启动编码智能体，已经测试过支持 Claude Code 和 Kiro，日志里能看到模型在想什么、在看屏幕哪一块，最后生成验证报告。\n\n还有更进一步的玩法。Amazon 的 Giovanni 把一款带麦克风和人工智能助手的可穿戴设备 B 接进了这套流程，对话存在私有云上，聆听时会有指示灯提示。组合起来是这样的：戴着 B 开设计会议，随口说一句“标题颜色改成红色”“表情符号从大脑换成机器人”，B 的对话记录通过命令行工具传给感知智能体，几分钟后，网页真的改好了，验证也自动跑完。会议室里聊两句，网页就改好了。\n\n现场观众的反应也很热烈。有人当场让智能体把播客页面改成复古红白机风格、加上鸭子笑话，再走完整个验证流程确认改动生效，赢了一台 B 设备。一位金融公司的观众提出，可以用录屏加日志的工具代替 B 作为反馈入口，让不懂技术的同事也能直接说“这块应该挪到哪”。还有沃顿商学院的观众想把 B 接进自己的任务管理系统，让会议里的想法自动进收件箱。\n\n回头看，这一集的核心其实就一句话：智能体不该只会点屏幕，还要像人一样理解屏幕上的内容，因为大量知识工作用的软件根本没有 API。去年他们从浏览器开始，但按他们的说法，任何可视化的屏幕，都可以是智能体开展知识工作的环境。而我们真正想构建的智能体，是队友，而不仅仅是一个黑盒。"
+}

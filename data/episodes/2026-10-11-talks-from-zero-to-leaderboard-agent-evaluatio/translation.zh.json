@@ -1,0 +1,6458 @@
+[
+ {
+  "seg": 0,
+  "start": 12.997,
+  "end": 18.701,
+  "speaker": "Unknown",
+  "en": "Before we get started, if you want to follow along, though this is a practical workshop, so I see a lot of notebooks out there, great.",
+  "zh": "在我们开始之前,如果你想跟着一起做——虽然这是一个实操工作坊,我看到外面有很多 notebook,很好。"
+ },
+ {
+  "seg": 1,
+  "start": 19.982,
+  "end": 27.046,
+  "speaker": "Unknown",
+  "en": "If you want to follow along exactly as I'm going, you should have a Won't Be account, a Wets and Biases account.",
+  "zh": "如果你想完全按照我的流程来跟做,你应该有一个 Won't Be 账号,一个 Wets and Biases 账号。"
+ },
+ {
+  "seg": 2,
+  "start": 27.146,
+  "end": 29.548,
+  "speaker": "Unknown",
+  "en": "If you don't have one, you can register and get a free one.",
+  "zh": "如果你没有,你可以注册并免费获得一个。"
+ },
+ {
+  "seg": 3,
+  "start": 30.689,
+  "end": 35.371,
+  "speaker": "Unknown",
+  "en": "And we also give you inference credits, so you can do an evaluation that way.",
+  "zh": "我们还会给你推理额度,这样你就可以用这种方式做评估。"
+ },
+ {
+  "seg": 4,
+  "start": 35.451,
+  "end": 37.232,
+  "speaker": "Unknown",
+  "en": "And sandbox access is also included.",
+  "zh": "沙箱访问权限也包含在内。"
+ },
+ {
+  "seg": 5,
+  "start": 38.092,
+  "end": 44.974,
+  "speaker": "Unknown",
+  "en": "And if you want to use something else like OpenRouter, you can do that as well, or even a different provider, whatever you want to use.",
+  "zh": "如果你想用别的东西,比如 OpenRouter,你也可以那么做,或者甚至用不同的提供商,随你想用什么。"
+ },
+ {
+  "seg": 6,
+  "start": 45.535,
+  "end": 48.256,
+  "speaker": "Unknown",
+  "en": "I will just use this as an example in the workshop.",
+  "zh": "我只是在工作坊里拿它当个例子。"
+ },
+ {
+  "seg": 7,
+  "start": 48.776,
+  "end": 53.678,
+  "speaker": "Unknown",
+  "en": "And if you have an AI agent, you can just tell it, change something, and make it work with my setup.",
+  "zh": "如果你有一个 AI 智能体,你只要告诉它,改一下某些东西,让它适配我的环境就行。"
+ },
+ {
+  "seg": 8,
+  "start": 55.078,
+  "end": 56.839,
+  "speaker": "Unknown",
+  "en": "So let's go.",
+  "zh": "那我们开始吧。"
+ },
+ {
+  "seg": 9,
+  "start": 58.144,
+  "end": 58.785,
+  "speaker": "Unknown",
+  "en": "Quick about me.",
+  "zh": "简单介绍一下我自己。"
+ },
+ {
+  "seg": 10,
+  "start": 59.165,
+  "end": 60.126,
+  "speaker": "Unknown",
+  "en": "I'm Wolfram Ravenwolf.",
+  "zh": "我是 Wolfram Ravenwolf。"
+ },
+ {
+  "seg": 11,
+  "start": 60.786,
+  "end": 66.611,
+  "speaker": "Unknown",
+  "en": "And my slogan is, I evaluate models for breakfast, build agents at night, and preach AI all day long.",
+  "zh": "我的口号是,我早上评估模型,晚上构建智能体,整天布道 AI。"
+ },
+ {
+  "seg": 12,
+  "start": 67.151,
+  "end": 74.477,
+  "speaker": "Unknown",
+  "en": "I do that as an AI evangelist at CoreWeave, and I'm also a co-host on ThirstAI, the podcast.",
+  "zh": "我在 CoreWeave 担任 AI 布道者来做这件事,而且我也是 ThirstAI 播客的联合主持人。"
+ },
+ {
+  "seg": 13,
+  "start": 75.198,
+  "end": 76.119,
+  "speaker": "Unknown",
+  "en": "Alex is also here.",
+  "zh": "Alex 也在这里。"
+ },
+ {
+  "seg": 14,
+  "start": 76.139,
+  "end": 77.78,
+  "speaker": "Unknown",
+  "en": "He is the main guy.",
+  "zh": "他是主要负责人。"
+ },
+ {
+  "seg": 15,
+  "start": 78.44,
+  "end": 81.543,
+  "speaker": "Unknown",
+  "en": "And if you have technical issues during the workshop, you can contact him.",
+  "zh": "如果你在工作坊期间遇到技术问题,可以联系他。"
+ },
+ {
+  "seg": 16,
+  "start": 81.583,
+  "end": 84.285,
+  "speaker": "Unknown",
+  "en": "He will help you out so we don't get interrupted.",
+  "zh": "他会帮你解决,这样我们就不会被中断。"
+ },
+ {
+  "seg": 17,
+  "start": 84.986,
+  "end": 85.806,
+  "speaker": "Unknown",
+  "en": "But he's your man.",
+  "zh": "他就是你要找的人。"
+ },
+ {
+  "seg": 18,
+  "start": 86.876,
+  "end": 87.796,
+  "speaker": "Unknown",
+  "en": "Thanks, Alex, for the help.",
+  "zh": "谢谢 Alex 的帮助。"
+ },
+ {
+  "seg": 19,
+  "start": 88.737,
+  "end": 90.798,
+  "speaker": "Unknown",
+  "en": "And yeah, you can follow me on X on LinkedIn.",
+  "zh": "对,你可以在 X 和 LinkedIn 上关注我。"
+ },
+ {
+  "seg": 20,
+  "start": 91.018,
+  "end": 93.119,
+  "speaker": "Unknown",
+  "en": "And WolfBench is wolfbench.ai.",
+  "zh": "WolfBench 是 wolfbench.ai。"
+ },
+ {
+  "seg": 21,
+  "start": 93.78,
+  "end": 94.5,
+  "speaker": "Unknown",
+  "en": "Easy to remember.",
+  "zh": "很好记。"
+ },
+ {
+  "seg": 22,
+  "start": 95.701,
+  "end": 97.581,
+  "speaker": "Unknown",
+  "en": "But this workshop isn't just about WolfBench.",
+  "zh": "但这个工作坊不只是关于 WolfBench。"
+ },
+ {
+  "seg": 23,
+  "start": 97.802,
+  "end": 99.322,
+  "speaker": "Unknown",
+  "en": "It's why and how I built it.",
+  "zh": "而是我为什么以及如何构建它的。"
+ },
+ {
+  "seg": 24,
+  "start": 99.743,
+  "end": 104.225,
+  "speaker": "Unknown",
+  "en": "So you can stand up your own model and agent evil from zero to leaderboard.",
+  "zh": "这样你就能从零到排行榜搭建起你自己的模型和智能体评估(evil)。"
+ },
+ {
+  "seg": 25,
+  "start": 105.726,
+  "end": 110.248,
+  "speaker": "Unknown",
+  "en": "Yeah, my backstory, basically, I started as a little child, loved AI from the beginning.",
+  "zh": "是的,我的背景故事,基本上,我从小时候开始,从一开始就喜欢 AI。"
+ },
+ {
+  "seg": 26,
+  "start": 110.548,
+  "end": 114.15,
+  "speaker": "Unknown",
+  "en": "Then when ChatGPT happened, I decided I want to focus my career on this.",
+  "zh": "后来当 ChatGPT 出现时,我决定要把我的职业重心放在这上面。"
+ },
+ {
+  "seg": 27,
+  "start": 115.291,
+  "end": 128.44,
+  "speaker": "Unknown",
+  "en": "If anyone knows the good old times in local Lama when the bloke was quantizing models, I was testing the models, so I started that way, was asked a lot about helping with inference and stuff, so I became a consultant.",
+  "zh": "如果有人知道 local Lama 那段美好旧时光,当时那个家伙在量化模型,我是在测试这些模型,所以我是那样起步的,经常有人找我帮忙处理推理之类的事情,于是我成为了一名顾问。"
+ },
+ {
+  "seg": 28,
+  "start": 129.221,
+  "end": 136.526,
+  "speaker": "Unknown",
+  "en": "And, yeah, last year I went full in in a German AI startup, and this year I joined CoreWeave.",
+  "zh": "然后,去年我全身心投入了一家德国 AI 创业公司,今年我加入了 CoreWeave。"
+ },
+ {
+  "seg": 29,
+  "start": 137.647,
+  "end": 140.469,
+  "speaker": "Unknown",
+  "en": "And I've been on the podcast for a long time, right, Alex?",
+  "zh": "而且我上这个播客已经很久了,对吧,Alex?"
+ },
+ {
+  "seg": 30,
+  "start": 142.195,
+  "end": 143.916,
+  "speaker": "Unknown",
+  "en": "So, but this is about you.",
+  "zh": "不过,今天是关于你们的。"
+ },
+ {
+  "seg": 31,
+  "start": 144.356,
+  "end": 147.298,
+  "speaker": "Unknown",
+  "en": "So, the workshop, who you are and why you are here.",
+  "zh": "所以,这个工作坊,你们是谁,为什么在这里。"
+ },
+ {
+  "seg": 32,
+  "start": 147.338,
+  "end": 153.341,
+  "speaker": "Unknown",
+  "en": "I think there are different kinds of people, and I'm interested in which category you think you belong to.",
+  "zh": "我想这里有不同类型的人,我很好奇你们觉得自己属于哪一类。"
+ },
+ {
+  "seg": 33,
+  "start": 153.781,
+  "end": 155.382,
+  "speaker": "Unknown",
+  "en": "So, for instance, the agent builders.",
+  "zh": "比如,智能体构建者。"
+ },
+ {
+  "seg": 34,
+  "start": 155.422,
+  "end": 158.583,
+  "speaker": "Unknown",
+  "en": "Are people building agents here that want to evaluate their agents?",
+  "zh": "这里有人在构建智能体并想评估他们的智能体吗?"
+ },
+ {
+  "seg": 35,
+  "start": 160.244,
+  "end": 163.626,
+  "speaker": "Unknown",
+  "en": "Someone here, someone here, a couple.",
+  "zh": "有人在这里,有人在那里,几个。"
+ },
+ {
+  "seg": 36,
+  "start": 163.646,
+  "end": 169.989,
+  "speaker": "Unknown",
+  "en": "And evil newcomers, any people who want to do meaningful evaluations but have no idea what they are doing yet and want to learn this?",
+  "zh": "还有评估(evil)新手,有没有人想做有意义的评估但还完全不知道该怎么做,并且想学这个的?"
+ },
+ {
+  "seg": 37,
+  "start": 171.805,
+  "end": 172.545,
+  "speaker": "Unknown",
+  "en": "OK, those are more.",
+  "zh": "好,这类人更多。"
+ },
+ {
+  "seg": 38,
+  "start": 173.265,
+  "end": 174.445,
+  "speaker": "Unknown",
+  "en": "And model evaluators.",
+  "zh": "还有模型评估者。"
+ },
+ {
+  "seg": 39,
+  "start": 174.486,
+  "end": 177.106,
+  "speaker": "Unknown",
+  "en": "Who is interested in which model and agent should I trust?",
+  "zh": "谁对「我该信任哪个模型和智能体」这个问题感兴趣?"
+ },
+ {
+  "seg": 40,
+  "start": 177.166,
+  "end": 178.366,
+  "speaker": "Unknown",
+  "en": "Which is the one I want to use?",
+  "zh": "哪个才是我想用的那个?"
+ },
+ {
+  "seg": 41,
+  "start": 178.466,
+  "end": 180.907,
+  "speaker": "Unknown",
+  "en": "Anyone interested in that specifically?",
+  "zh": "有人特别对这个感兴趣吗?"
+ },
+ {
+  "seg": 42,
+  "start": 180.967,
+  "end": 182.267,
+  "speaker": "Unknown",
+  "en": "Over there and over there.",
+  "zh": "在那边和那边。"
+ },
+ {
+  "seg": 43,
+  "start": 182.347,
+  "end": 182.607,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 44,
+  "start": 183.547,
+  "end": 188.208,
+  "speaker": "Unknown",
+  "en": "Platform and evil leads, the people who want to do comparable and reproducible evaluations.",
+  "zh": "还有平台与评估(evil)负责人,那些想做可比较、可复现评估的人。"
+ },
+ {
+  "seg": 45,
+  "start": 189.008,
+  "end": 189.448,
+  "speaker": "Unknown",
+  "en": "Someone here?",
+  "zh": "这里有人吗?"
+ },
+ {
+  "seg": 46,
+  "start": 189.868,
+  "end": 190.629,
+  "speaker": "Unknown",
+  "en": "Oh, a couple here.",
+  "zh": "哦,这里有几个。"
+ },
+ {
+  "seg": 47,
+  "start": 190.949,
+  "end": 191.169,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 48,
+  "start": 191.769,
+  "end": 192.509,
+  "speaker": "Unknown",
+  "en": "Trace debuggers.",
+  "zh": "还有轨迹调试者。"
+ },
+ {
+  "seg": 49,
+  "start": 192.649,
+  "end": 198.23,
+  "speaker": "Unknown",
+  "en": "Those are the people who are looking at the actual traces and trying to find out what went wrong on how to improve this.",
+  "zh": "这些人是查看实际轨迹,试图找出哪里出了问题以及如何改进的。"
+ },
+ {
+  "seg": 50,
+  "start": 199.081,
+  "end": 199.502,
+  "speaker": "Unknown",
+  "en": "Over here.",
+  "zh": "在这边。"
+ },
+ {
+  "seg": 51,
+  "start": 199.662,
+  "end": 199.903,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 52,
+  "start": 200.564,
+  "end": 201.185,
+  "speaker": "Unknown",
+  "en": "And skeptics.",
+  "zh": "还有怀疑者。"
+ },
+ {
+  "seg": 53,
+  "start": 202.066,
+  "end": 204.811,
+  "speaker": "Unknown",
+  "en": "Who does not trust the leaderboards?",
+  "zh": "谁不信任排行榜？"
+ },
+ {
+  "seg": 54,
+  "start": 205.552,
+  "end": 207.015,
+  "speaker": "Unknown",
+  "en": "Now, every hand should go up, right?",
+  "zh": "现在，每只手都应该举起来，对吧？"
+ },
+ {
+  "seg": 55,
+  "start": 208.197,
+  "end": 210.16,
+  "speaker": "Unknown",
+  "en": "But why is that, and how can we change that?",
+  "zh": "但为什么会这样，我们又该如何改变这一点呢？"
+ },
+ {
+  "seg": 56,
+  "start": 210.561,
+  "end": 212.705,
+  "speaker": "Unknown",
+  "en": "And that is part of what we are talking about.",
+  "zh": "这就是我们正在讨论的一部分内容。"
+ },
+ {
+  "seg": 57,
+  "start": 213.438,
+  "end": 214.439,
+  "speaker": "Unknown",
+  "en": "And how you can build your own.",
+  "zh": "以及你如何构建自己的评测。"
+ },
+ {
+  "seg": 58,
+  "start": 214.9,
+  "end": 220.968,
+  "speaker": "Unknown",
+  "en": "But first, my guiding principles are mindset is greater than skill set, greater than tool set.",
+  "zh": "但首先，我的指导原则是：思维方式大于技能组合，技能组合大于工具组合。"
+ },
+ {
+  "seg": 59,
+  "start": 221.229,
+  "end": 223.912,
+  "speaker": "Unknown",
+  "en": "So the tool set is what we are using, and that changes in AI.",
+  "zh": "工具组合是我们正在使用的东西，而在 AI 领域它会变。"
+ },
+ {
+  "seg": 60,
+  "start": 223.992,
+  "end": 226.235,
+  "speaker": "Unknown",
+  "en": "It changes almost every week, every month.",
+  "zh": "它几乎每周、每月都在变。"
+ },
+ {
+  "seg": 61,
+  "start": 226.696,
+  "end": 229.84,
+  "speaker": "Unknown",
+  "en": "Something new comes out, and it changes all the time.",
+  "zh": "总有新东西出来，它一直在变。"
+ },
+ {
+  "seg": 62,
+  "start": 230.601,
+  "end": 233.103,
+  "speaker": "Unknown",
+  "en": "So skill set is how we are using the tools that we have.",
+  "zh": "所以技能组合是我们如何使用手头的工具。"
+ },
+ {
+  "seg": 63,
+  "start": 233.463,
+  "end": 235.004,
+  "speaker": "Unknown",
+  "en": "That applies to different tools.",
+  "zh": "这可以适用于不同的工具。"
+ },
+ {
+  "seg": 64,
+  "start": 235.424,
+  "end": 239.967,
+  "speaker": "Unknown",
+  "en": "So if you have a great skill, you know how to use the tools, you can switch to other tools.",
+  "zh": "所以如果你有很强的技能，知道如何使用工具，你就可以切换到其他工具。"
+ },
+ {
+  "seg": 65,
+  "start": 240.347,
+  "end": 244.71,
+  "speaker": "Unknown",
+  "en": "But the mindset is the most important thing, because that is the hardest to change or to improve.",
+  "zh": "但思维方式是最重要的东西，因为那是最难改变或提升的。"
+ },
+ {
+  "seg": 66,
+  "start": 245.27,
+  "end": 249.332,
+  "speaker": "Unknown",
+  "en": "And for evaluation specifically, that is why we benchmark and what to watch out for.",
+  "zh": "具体到评测来说，这就是我们为什么要做基准测试，以及要警惕什么。"
+ },
+ {
+  "seg": 67,
+  "start": 250.033,
+  "end": 252.454,
+  "speaker": "Unknown",
+  "en": "And skill set is just how to use the tools.",
+  "zh": "技能组合就是如何使用工具。"
+ },
+ {
+  "seg": 68,
+  "start": 252.514,
+  "end": 258.898,
+  "speaker": "Unknown",
+  "en": "And tool sets, I will show you a couple of tool sets, and you can build your own that way, like I did with WolfBench.",
+  "zh": "至于工具组合，我会给你们展示几个工具组合，你们可以照着构建自己的，就像我用 WolfBench 做的那样。"
+ },
+ {
+  "seg": 69,
+  "start": 260.882,
+  "end": 265.463,
+  "speaker": "Unknown",
+  "en": "And the premise is one score is not enough because performance is a distribution, not a point.",
+  "zh": "前提是：单一分数是不够的，因为性能是一个分布，而不是一个点。"
+ },
+ {
+  "seg": 70,
+  "start": 265.863,
+  "end": 277.545,
+  "speaker": "Unknown",
+  "en": "The thing I just liked about the leaderboards and a lot of evaluations I have seen is you see some nice bars, and you see some numbers, and it's an average, an aggregate, and it doesn't really tell you very much.",
+  "zh": "我之所以不太喜欢那些排行榜，以及我见过的很多评测，是因为你看到一些漂亮的柱状图，看到一些数字，那是一个平均值，一个汇总，它并不能真正告诉你太多东西。"
+ },
+ {
+  "seg": 71,
+  "start": 278.346,
+  "end": 283.647,
+  "speaker": "Unknown",
+  "en": "And that's why people always say, or often say, I don't trust this, and I have a different experience.",
+  "zh": "这就是为什么人们总是说，或者经常说：我不相信这个，我的体验不一样。"
+ },
+ {
+  "seg": 72,
+  "start": 284.327,
+  "end": 289.828,
+  "speaker": "Unknown",
+  "en": "And there are things hidden behind the numbers that we can find out and look at because",
+  "zh": "而数字背后隐藏着一些东西，我们可以发现并去查看，因为"
+ },
+ {
+  "seg": 73,
+  "start": 290.808,
+  "end": 292.249,
+  "speaker": "Unknown",
+  "en": "Is it really a good model?",
+  "zh": "它真的是一个好模型吗？"
+ },
+ {
+  "seg": 74,
+  "start": 292.269,
+  "end": 293.35,
+  "speaker": "Unknown",
+  "en": "Does it have a lucky run?",
+  "zh": "它是不是运气好跑出的一次结果？"
+ },
+ {
+  "seg": 75,
+  "start": 293.37,
+  "end": 294.45,
+  "speaker": "Unknown",
+  "en": "What are the hidden trade-offs?",
+  "zh": "有哪些隐藏的权衡？"
+ },
+ {
+  "seg": 76,
+  "start": 294.79,
+  "end": 295.771,
+  "speaker": "Unknown",
+  "en": "Stuff like that.",
+  "zh": "诸如此类。"
+ },
+ {
+  "seg": 77,
+  "start": 296.531,
+  "end": 301.214,
+  "speaker": "Unknown",
+  "en": "And that's why I built WolfBench, because I wanted to know which models can I use with which agents.",
+  "zh": "这就是我构建 WolfBench 的原因，因为我想知道我可以在哪些智能体中使用哪些模型。"
+ },
+ {
+  "seg": 78,
+  "start": 301.774,
+  "end": 303.135,
+  "speaker": "Unknown",
+  "en": "The agent changed over time.",
+  "zh": "智能体随时间在变。"
+ },
+ {
+  "seg": 79,
+  "start": 303.275,
+  "end": 304.576,
+  "speaker": "Unknown",
+  "en": "In January, it was OpenClaw.",
+  "zh": "一月份，是 OpenClaw。"
+ },
+ {
+  "seg": 80,
+  "start": 304.596,
+  "end": 305.897,
+  "speaker": "Unknown",
+  "en": "In February, it was Hermes agent.",
+  "zh": "二月份，是 Hermes agent。"
+ },
+ {
+  "seg": 81,
+  "start": 306.497,
+  "end": 308.438,
+  "speaker": "Unknown",
+  "en": "And I'm using a lot of codecs now.",
+  "zh": "而我现在用很多 codecs。"
+ },
+ {
+  "seg": 82,
+  "start": 308.478,
+  "end": 309.499,
+  "speaker": "Unknown",
+  "en": "It was Claude Code before.",
+  "zh": "之前用的是 Claude Code。"
+ },
+ {
+  "seg": 83,
+  "start": 309.839,
+  "end": 312.861,
+  "speaker": "Unknown",
+  "en": "And I still want to know which models work the best with which settings.",
+  "zh": "我仍然想知道哪些模型在哪些设置下效果最好。"
+ },
+ {
+  "seg": 84,
+  "start": 313.87,
+  "end": 321.035,
+  "speaker": "Unknown",
+  "en": "And, yeah, like I said, most evaluation results collapse it to just one score, and most leaderboards rank the models.",
+  "zh": "而且，是的，就像我说的，大多数评测结果都把它压缩成仅仅一个分数，大多数排行榜对模型进行排名。"
+ },
+ {
+  "seg": 85,
+  "start": 321.055,
+  "end": 323.697,
+  "speaker": "Unknown",
+  "en": "You don't even see the agentic systems behind it.",
+  "zh": "你甚至看不到它背后的智能体系统。"
+ },
+ {
+  "seg": 86,
+  "start": 324.557,
+  "end": 331.022,
+  "speaker": "Unknown",
+  "en": "Or, yeah, different version settings, even if you even see what settings they have used for this.",
+  "zh": "或者，是的，不同的版本设置，你甚至看不到他们为此使用了什么设置。"
+ },
+ {
+  "seg": 87,
+  "start": 331.422,
+  "end": 338.147,
+  "speaker": "Unknown",
+  "en": "And they vary a lot, so you see some scores and somebody else reports the same benchmark, but they use different settings, so can you really compare them?",
+  "zh": "而且它们差异很大，所以你看到某个分数，而另一个人报告了同样的基准测试，但他们使用了不同的设置，那你真的能比较它们吗？"
+ },
+ {
+  "seg": 88,
+  "start": 339.325,
+  "end": 342.407,
+  "speaker": "Unknown",
+  "en": "And is there a way to inspect the results those people got?",
+  "zh": "有没有办法查看那些人得到的结果？"
+ },
+ {
+  "seg": 89,
+  "start": 343.007,
+  "end": 344.128,
+  "speaker": "Unknown",
+  "en": "So WolfBinge is a framework.",
+  "zh": "所以 WolfBinge 是一个框架。"
+ },
+ {
+  "seg": 90,
+  "start": 344.228,
+  "end": 346.169,
+  "speaker": "Unknown",
+  "en": "It has charts, dashboards, leaderboard.",
+  "zh": "它有图表、仪表盘、排行榜。"
+ },
+ {
+  "seg": 91,
+  "start": 346.269,
+  "end": 347.27,
+  "speaker": "Unknown",
+  "en": "It's open source, by the way.",
+  "zh": "顺便说一下，它是开源的。"
+ },
+ {
+  "seg": 92,
+  "start": 347.89,
+  "end": 351.813,
+  "speaker": "Unknown",
+  "en": "And there's also a methodology, and that is what I want to talk about most.",
+  "zh": "还有一套方法论，这是我最想讲的。"
+ },
+ {
+  "seg": 93,
+  "start": 351.893,
+  "end": 354.415,
+  "speaker": "Unknown",
+  "en": "So you can use that methodology with your own tools.",
+  "zh": "这样你就可以用你自己的工具来使用那套方法论。"
+ },
+ {
+  "seg": 94,
+  "start": 355.255,
+  "end": 362.977,
+  "speaker": "Unknown",
+  "en": "And for WolfBench, one thing that is applicable to all the benchmarks is you have to decide which metrics are interested to you.",
+  "zh": "而对于 WolfBench，有一点适用于所有基准测试：你必须决定哪些指标是你感兴趣的。"
+ },
+ {
+  "seg": 95,
+  "start": 363.438,
+  "end": 365.038,
+  "speaker": "Unknown",
+  "en": "Do you want to look at an average?",
+  "zh": "你想看平均值吗？"
+ },
+ {
+  "seg": 96,
+  "start": 365.158,
+  "end": 367.239,
+  "speaker": "Unknown",
+  "en": "Do you want to look at the worst and best scores?",
+  "zh": "你想看最差和最好的分数吗？"
+ },
+ {
+  "seg": 97,
+  "start": 367.659,
+  "end": 372.32,
+  "speaker": "Unknown",
+  "en": "Do you want to look at how many percent of the benchmarks it can solve at all?",
+  "zh": "你想看它究竟能解出基准测试的百分之多少？"
+ },
+ {
+  "seg": 98,
+  "start": 372.88,
+  "end": 374.821,
+  "speaker": "Unknown",
+  "en": "And how much does it consistently?",
+  "zh": "又能稳定地解出多少？"
+ },
+ {
+  "seg": 99,
+  "start": 375.501,
+  "end": 376.201,
+  "speaker": "Unknown",
+  "en": "And also cost.",
+  "zh": "还有成本。"
+ },
+ {
+  "seg": 100,
+  "start": 376.501,
+  "end": 379.062,
+  "speaker": "Unknown",
+  "en": "That is also something that not everybody takes into account.",
+  "zh": "这也是不是每个人都会考虑的事情。"
+ },
+ {
+  "seg": 101,
+  "start": 379.082,
+  "end": 380.263,
+  "speaker": "Unknown",
+  "en": "How many tokens has it burned?",
+  "zh": "它烧掉了多少 token?"
+ },
+ {
+  "seg": 102,
+  "start": 380.643,
+  "end": 381.563,
+  "speaker": "Unknown",
+  "en": "How much did it cost?",
+  "zh": "花了多少钱?"
+ },
+ {
+  "seg": 103,
+  "start": 382.164,
+  "end": 389.403,
+  "speaker": "Unknown",
+  "en": "And it can happen that a cheaper and faster model takes longer and costs more than one of the bigger models because it just uses so many tokens.",
+  "zh": "而且有可能出现这种情况：一个更便宜、更快的模型反而耗时更长、花费更多，比某个更大的模型还多，因为它就是用了太多 token。"
+ },
+ {
+  "seg": 104,
+  "start": 390.747,
+  "end": 402.915,
+  "speaker": "Unknown",
+  "en": "Also very important are uniform conditions, so you have the same setup every time, because if you change just the variable, one of the many that are there, and we will look at a bunch of those, if you change it, it is basically a new benchmark now.",
+  "zh": "同样非常重要的是统一条件，也就是每次都用相同的设置，因为如果你只改变变量——那里有很多变量，我们会看其中的一堆——你只要改了其中一个，这基本上就变成了一个新基准。"
+ },
+ {
+  "seg": 105,
+  "start": 403.576,
+  "end": 408.079,
+  "speaker": "Unknown",
+  "en": "And also multi-agent, if you want to do different agents, which ones do you look at?",
+  "zh": "还有 multi-agent(多智能体)，如果你想做不同的智能体，你该看哪些？"
+ },
+ {
+  "seg": 106,
+  "start": 408.539,
+  "end": 409.92,
+  "speaker": "Unknown",
+  "en": "And always do multiple runs.",
+  "zh": "而且永远要做多次运行。"
+ },
+ {
+  "seg": 107,
+  "start": 409.96,
+  "end": 411.901,
+  "speaker": "Unknown",
+  "en": "A single run is benchmark lottery.",
+  "zh": "单次运行就是基准彩票。"
+ },
+ {
+  "seg": 108,
+  "start": 412.382,
+  "end": 417.105,
+  "speaker": "Unknown",
+  "en": "It is a random result, and it is just a ballpark number, so you have to do multiple runs.",
+  "zh": "它是一个随机结果，只是一个大致的数字，所以你必须做多次运行。"
+ },
+ {
+  "seg": 109,
+  "start": 417.625,
+  "end": 420.047,
+  "speaker": "Unknown",
+  "en": "I do five with WolfBitch, but you could do more",
+  "zh": "我用 WolfBitch 做五次，但你可以做更多"
+ },
+ {
+  "seg": 110,
+  "start": 421.202,
+  "end": 422.242,
+  "speaker": "Unknown",
+  "en": "If you have the money, of course.",
+  "zh": "当然，前提是你有这个钱。"
+ },
+ {
+  "seg": 111,
+  "start": 422.282,
+  "end": 423.943,
+  "speaker": "Unknown",
+  "en": "It's always a tradeoff.",
+  "zh": "这总是一种权衡。"
+ },
+ {
+  "seg": 112,
+  "start": 424.023,
+  "end": 429.445,
+  "speaker": "Unknown",
+  "en": "Transparency is also super important to me because I publish all the results, and people can look at that.",
+  "zh": "透明度对我也非常重要，因为我发布所有结果，人们可以去查看。"
+ },
+ {
+  "seg": 113,
+  "start": 429.485,
+  "end": 433.686,
+  "speaker": "Unknown",
+  "en": "So I don't just show a score and say, this is why this is my number one model, number two model.",
+  "zh": "所以我不是只展示一个分数然后说，这就是为什么这是我的第一名模型、第二名模型。"
+ },
+ {
+  "seg": 114,
+  "start": 434.187,
+  "end": 441.809,
+  "speaker": "Unknown",
+  "en": "I upload everything, and you can inspect it and check it out and have your agent check it out, which makes a lot of sense with all the data we have collected.",
+  "zh": "我把所有东西都上传，你可以检查它、查看它，让你的智能体去查看它，这对于我们收集的所有数据来说是非常合理的做法。"
+ },
+ {
+  "seg": 115,
+  "start": 442.73,
+  "end": 446.371,
+  "speaker": "Unknown",
+  "en": "So basically get the thinking right, and then the tools become interchangeable.",
+  "zh": "所以基本上是把思考做对，然后工具就变得可以互换。"
+ },
+ {
+  "seg": 116,
+  "start": 447.43,
+  "end": 452.233,
+  "speaker": "Unknown",
+  "en": "And the most important thing I think that people need to realize is you're not ranking a model.",
+  "zh": "而我认为人们需要意识到的最重要的一点是：你排名的不是一个模型。"
+ },
+ {
+  "seg": 117,
+  "start": 452.674,
+  "end": 455.015,
+  "speaker": "Unknown",
+  "en": "If you are benchmarking a model, it's this model.",
+  "zh": "如果你在给一个模型做基准测试，它指的是这个模型。"
+ },
+ {
+  "seg": 118,
+  "start": 455.095,
+  "end": 457.877,
+  "speaker": "Unknown",
+  "en": "But you are actually benchmarking a specific configuration.",
+  "zh": "但你实际上是在对一种特定配置做基准测试。"
+ },
+ {
+  "seg": 119,
+  "start": 458.317,
+  "end": 459.358,
+  "speaker": "Unknown",
+  "en": "So you use a data set.",
+  "zh": "所以你使用一个数据集。"
+ },
+ {
+  "seg": 120,
+  "start": 459.578,
+  "end": 461.56,
+  "speaker": "Unknown",
+  "en": "And if you change the data set, it's a new benchmark.",
+  "zh": "而如果你换了数据集，那就是一个新基准。"
+ },
+ {
+  "seg": 121,
+  "start": 461.88,
+  "end": 462.58,
+  "speaker": "Unknown",
+  "en": "You have the model.",
+  "zh": "你有模型。"
+ },
+ {
+  "seg": 122,
+  "start": 462.76,
+  "end": 467.744,
+  "speaker": "Unknown",
+  "en": "And behind the model, you have the inference engine and whatever is happening on the endpoint that you often can't control.",
+  "zh": "而在模型背后，你有推理引擎，还有端点上发生的种种事情，这些往往是你控制不了的。"
+ },
+ {
+  "seg": 123,
+  "start": 468.364,
+  "end": 471.886,
+  "speaker": "Unknown",
+  "en": "But if they do an update for the inference software, it can change the results again.",
+  "zh": "但如果他们对推理软件做了一次更新，结果可能会再次改变。"
+ },
+ {
+  "seg": 124,
+  "start": 471.987,
+  "end": 473.648,
+  "speaker": "Unknown",
+  "en": "And you have no way to actually see that.",
+  "zh": "而你实际上没有办法看到这一点。"
+ },
+ {
+  "seg": 125,
+  "start": 474.288,
+  "end": 475.929,
+  "speaker": "Unknown",
+  "en": "Unless it's your own inference on your own system.",
+  "zh": "除非推理是在你自己的系统上由你自己运行的。"
+ },
+ {
+  "seg": 126,
+  "start": 476.549,
+  "end": 477.21,
+  "speaker": "Unknown",
+  "en": "Ancient harness.",
+  "zh": "Ancient harness(古老的测试框架)。"
+ },
+ {
+  "seg": 127,
+  "start": 477.53,
+  "end": 484.753,
+  "speaker": "Unknown",
+  "en": "Also, the ancient harness, if I test plot code or codex, it is a different version if I test it next week and I do the update.",
+  "zh": "还有，ancient harness(古老的测试框架)，如果我测试 plot code 或 codex，如果我下周再测试并且做了更新，它就是不同的版本了。"
+ },
+ {
+  "seg": 128,
+  "start": 484.773,
+  "end": 487.395,
+  "speaker": "Unknown",
+  "en": "So that is also important to keep in mind.",
+  "zh": "所以这一点也要记在心里。"
+ },
+ {
+  "seg": 129,
+  "start": 488.275,
+  "end": 490.096,
+  "speaker": "Unknown",
+  "en": "And the same thing with the sandbox.",
+  "zh": "沙箱也是同样的道理。"
+ },
+ {
+  "seg": 130,
+  "start": 490.156,
+  "end": 496.059,
+  "speaker": "Unknown",
+  "en": "Even if you are using a sandbox provider and they change something in their back end, you may not even notice and it could have an effect.",
+  "zh": "即使你在使用一个沙箱提供商，而他们在后端改了什么东西，你可能根本不会注意到，但它可能产生影响。"
+ },
+ {
+  "seg": 131,
+  "start": 496.879,
+  "end": 498.38,
+  "speaker": "Unknown",
+  "en": "And all the settings you choose yourself.",
+  "zh": "还有所有你自己选择的设置。"
+ },
+ {
+  "seg": 132,
+  "start": 498.86,
+  "end": 501.061,
+  "speaker": "Unknown",
+  "en": "So change any part and it's a different experiment.",
+  "zh": "所以改变任何一部分，它就是一个不同的实验。"
+ },
+ {
+  "seg": 133,
+  "start": 501.101,
+  "end": 502.142,
+  "speaker": "Unknown",
+  "en": "You have to keep that in mind.",
+  "zh": "你必须把这一点记在心里。"
+ },
+ {
+  "seg": 134,
+  "start": 503.926,
+  "end": 505.027,
+  "speaker": "Unknown",
+  "en": "Okay, here's a glossary.",
+  "zh": "好的，这里有一个术语表。"
+ },
+ {
+  "seg": 135,
+  "start": 505.167,
+  "end": 507.949,
+  "speaker": "Unknown",
+  "en": "You will get the presentation, so I'm not going through all of this.",
+  "zh": "你们会拿到演示文稿，所以我不打算把这里全部过一遍。"
+ },
+ {
+  "seg": 136,
+  "start": 508.39,
+  "end": 513.173,
+  "speaker": "Unknown",
+  "en": "Most of you are very familiar with this, and I will explain whatever is needed at the moment.",
+  "zh": "你们大多数人对此非常熟悉，需要的时候我会做解释。"
+ },
+ {
+  "seg": 137,
+  "start": 514.274,
+  "end": 523.32,
+  "speaker": "Unknown",
+  "en": "So we are looking at a specific tool set because it's a practical workshop, and this is one way to build it, not the only way, and I will show you the different ways, and you can pick your own stuff.",
+  "zh": "我们要看的是一套特定的工具集，因为这是一个实操工作坊，而这是构建它的一种方式，不是唯一的方式，我会给你展示不同的方式，你可以挑选你自己的东西。"
+ },
+ {
+  "seg": 138,
+  "start": 523.34,
+  "end": 530.826,
+  "speaker": "Unknown",
+  "en": "So to follow along, you should have your laptop and your terminal, Python, UV, and Git are recommended.",
+  "zh": "所以要跟着做，你应该有你的笔记本电脑和你的终端，推荐安装 Python、UV 和 Git。"
+ },
+ {
+  "seg": 139,
+  "start": 531.542,
+  "end": 532.642,
+  "speaker": "Unknown",
+  "en": "We have files to download.",
+  "zh": "我们有文件可以下载。"
+ },
+ {
+  "seg": 140,
+  "start": 532.662,
+  "end": 536.564,
+  "speaker": "Unknown",
+  "en": "So if you are not following, you can download the results and import them and use the tool set anyway.",
+  "zh": "所以如果你没有跟着做，你可以下载结果并导入，照样使用这套工具集。"
+ },
+ {
+  "seg": 141,
+  "start": 537.144,
+  "end": 538.964,
+  "speaker": "Unknown",
+  "en": "So you don't have to follow along everything.",
+  "zh": "所以你不必事事都跟着做。"
+ },
+ {
+  "seg": 142,
+  "start": 539.064,
+  "end": 541.845,
+  "speaker": "Unknown",
+  "en": "But if you want to, you can do it and use your own results that way.",
+  "zh": "但如果你想的话，你可以这么做，并且那样使用你自己的结果。"
+ },
+ {
+  "seg": 143,
+  "start": 543.126,
+  "end": 544.466,
+  "speaker": "Unknown",
+  "en": "Yeah, you should have the Wi-Fi.",
+  "zh": "对了，你们应该能连上 Wi-Fi。"
+ },
+ {
+  "seg": 144,
+  "start": 544.846,
+  "end": 546.347,
+  "speaker": "Unknown",
+  "en": "And the API key is optional.",
+  "zh": "而 API key 是可选的。"
+ },
+ {
+  "seg": 145,
+  "start": 546.407,
+  "end": 547.267,
+  "speaker": "Unknown",
+  "en": "I showed it in the beginning.",
+  "zh": "我在开头展示过。"
+ },
+ {
+  "seg": 146,
+  "start": 547.287,
+  "end": 549.087,
+  "speaker": "Unknown",
+  "en": "I will show it in a minute again.",
+  "zh": "我待会儿会再展示一次。"
+ },
+ {
+  "seg": 147,
+  "start": 549.728,
+  "end": 550.808,
+  "speaker": "Unknown",
+  "en": "So you can get this.",
+  "zh": "所以你们可以得到它。"
+ },
+ {
+  "seg": 148,
+  "start": 551.971,
+  "end": 555.053,
+  "speaker": "Unknown",
+  "en": "So here, again, take a screenshot, scan the QR code.",
+  "zh": "那么，这里，再截一次图，扫一下二维码。"
+ },
+ {
+  "seg": 149,
+  "start": 555.513,
+  "end": 562.677,
+  "speaker": "Unknown",
+  "en": "This is where you get to a form where you can get free inference credits for the duration of the AI engineer conference.",
+  "zh": "这会让你进入一个表单，在 AI engineer 大会期间你可以在那里获得免费的推理额度。"
+ },
+ {
+  "seg": 150,
+  "start": 563.438,
+  "end": 566.3,
+  "speaker": "Unknown",
+  "en": "And to do that, you need a free WOND-B account.",
+  "zh": "为此，你需要一个免费的 WOND-B 账户。"
+ },
+ {
+  "seg": 151,
+  "start": 566.36,
+  "end": 569.401,
+  "speaker": "Unknown",
+  "en": "You can sign up if you don't already have one.",
+  "zh": "如果你还没有，可以注册一个。"
+ },
+ {
+  "seg": 152,
+  "start": 569.642,
+  "end": 570.842,
+  "speaker": "Unknown",
+  "en": "Who has an account already?",
+  "zh": "谁已经有账户了？"
+ },
+ {
+  "seg": 153,
+  "start": 570.862,
+  "end": 572.603,
+  "speaker": "Unknown",
+  "en": "Does anyone here use WOND-B?",
+  "zh": "这里有谁在用 WOND-B 吗？"
+ },
+ {
+  "seg": 154,
+  "start": 574.124,
+  "end": 574.685,
+  "speaker": "Unknown",
+  "en": "Bunch of people.",
+  "zh": "一大堆人。"
+ },
+ {
+  "seg": 155,
+  "start": 574.805,
+  "end": 575.025,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 156,
+  "start": 576.412,
+  "end": 591.923,
+  "speaker": "Unknown",
+  "en": "OK, and also the sandboxes, I'm using the core serverless sandboxes in your offering where you have an isolated box for each task, which is super important because otherwise you would change your own system with every evaluation run and then it would be even more random.",
+  "zh": "OK,还有沙箱，我用的是你们产品里的核心无服务器沙箱，也就是每个任务都有一个隔离的箱子，这一点超级重要，否则每次评估运行都会改动你自己的系统，那样随机性就更大了。"
+ },
+ {
+  "seg": 157,
+  "start": 593.479,
+  "end": 595.341,
+  "speaker": "Unknown",
+  "en": "OK, we are looking at six swappable layers.",
+  "zh": "OK,我们看的是六个可替换的层。"
+ },
+ {
+  "seg": 158,
+  "start": 595.441,
+  "end": 596.702,
+  "speaker": "Unknown",
+  "en": "And we'll choose each one.",
+  "zh": "我们会逐个选择。"
+ },
+ {
+  "seg": 159,
+  "start": 596.742,
+  "end": 597.622,
+  "speaker": "Unknown",
+  "en": "And you can do the same.",
+  "zh": "你们也可以照做。"
+ },
+ {
+  "seg": 160,
+  "start": 597.683,
+  "end": 601.886,
+  "speaker": "Unknown",
+  "en": "So this is the skill set, how to do it, and the mindset in the background.",
+  "zh": "这就是技能集，即怎么做，以及背后的心态。"
+ },
+ {
+  "seg": 161,
+  "start": 602.386,
+  "end": 605.629,
+  "speaker": "Unknown",
+  "en": "And now we choose the different tools for this toolkit that we are building.",
+  "zh": "现在我们为正在构建的这个工具箱挑选不同的工具。"
+ },
+ {
+  "seg": 162,
+  "start": 606.169,
+  "end": 608.431,
+  "speaker": "Unknown",
+  "en": "So we need a benchmark, which is a data set.",
+  "zh": "我们需要一个基准，也就是一个数据集。"
+ },
+ {
+  "seg": 163,
+  "start": 608.912,
+  "end": 612.775,
+  "speaker": "Unknown",
+  "en": "We need an evaluation harness to run the data set and the evaluation.",
+  "zh": "我们需要一个评估框架来运行数据集和评估。"
+ },
+ {
+  "seg": 164,
+  "start": 613.545,
+  "end": 618.472,
+  "speaker": "Unknown",
+  "en": "Yeah, to orchestrate all of this and to run it in sandboxes so it doesn't run in your system.",
+  "zh": "对，用来统筹这一切，并在沙箱中运行，这样它就不会跑在你的系统里。"
+ },
+ {
+  "seg": 165,
+  "start": 619.593,
+  "end": 625.681,
+  "speaker": "Unknown",
+  "en": "And also, we need an agent harness, which agent do we want to use, and the model and service.",
+  "zh": "我们还需要一个智能体框架，即我们想用哪个智能体，以及模型和服务。"
+ },
+ {
+  "seg": 166,
+  "start": 626.437,
+  "end": 629.158,
+  "speaker": "Unknown",
+  "en": "That is, of course, usually the thing that people are most interested in.",
+  "zh": "这当然通常是人们最感兴趣的东西。"
+ },
+ {
+  "seg": 167,
+  "start": 629.459,
+  "end": 630.379,
+  "speaker": "Unknown",
+  "en": "How does this model do?",
+  "zh": "这个模型表现怎么样？"
+ },
+ {
+  "seg": 168,
+  "start": 631.56,
+  "end": 633.781,
+  "speaker": "Unknown",
+  "en": "And the thing is, you are not just using a model.",
+  "zh": "但问题是，你用的不只是一个模型。"
+ },
+ {
+  "seg": 169,
+  "start": 633.801,
+  "end": 635.202,
+  "speaker": "Unknown",
+  "en": "You are always using an endpoint.",
+  "zh": "你始终是在用一个端点。"
+ },
+ {
+  "seg": 170,
+  "start": 635.662,
+  "end": 637.123,
+  "speaker": "Unknown",
+  "en": "It's always on a provider.",
+  "zh": "它总是运行在某个提供商上。"
+ },
+ {
+  "seg": 171,
+  "start": 637.163,
+  "end": 639.864,
+  "speaker": "Unknown",
+  "en": "If it's OpenRouter, they are routing to other providers.",
+  "zh": "如果是 OpenRouter,它们会路由到其他提供商。"
+ },
+ {
+  "seg": 172,
+  "start": 640.344,
+  "end": 640.885,
+  "speaker": "Unknown",
+  "en": "There are a lot.",
+  "zh": "有很多家。"
+ },
+ {
+  "seg": 173,
+  "start": 641.145,
+  "end": 647.208,
+  "speaker": "Unknown",
+  "en": "And if it's OpenAI or Google or XAI, whatever it is, they have their own setup.",
+  "zh": "如果是 OpenAI 或 Google 或 XAI,不管是谁，它们都有自己的一套设置。"
+ },
+ {
+  "seg": 174,
+  "start": 647.388,
+  "end": 649.429,
+  "speaker": "Unknown",
+  "en": "And you are also evaluating that in a way.",
+  "zh": "而你在某种程度上也在评估那个。"
+ },
+ {
+  "seg": 175,
+  "start": 649.769,
+  "end": 650.93,
+  "speaker": "Unknown",
+  "en": "And all the settings you can choose.",
+  "zh": "还包括所有你可以选择的设置。"
+ },
+ {
+  "seg": 176,
+  "start": 652.188,
+  "end": 654.47,
+  "speaker": "Unknown",
+  "en": "So the first thing is, which benchmark do we use?",
+  "zh": "那么第一件事是，我们用哪个基准？"
+ },
+ {
+  "seg": 177,
+  "start": 654.791,
+  "end": 656.072,
+  "speaker": "Unknown",
+  "en": "You can start with the benchmark.",
+  "zh": "你可以从基准开始。"
+ },
+ {
+  "seg": 178,
+  "start": 656.132,
+  "end": 662.058,
+  "speaker": "Unknown",
+  "en": "I did it that way because I wanted to test agentic use with different harnesses, so I decided I want a benchmark that does that.",
+  "zh": "我就是这么做的，因为我想用不同的框架测试智能体使用，所以我决定要一个能做这件事的基准。"
+ },
+ {
+  "seg": 179,
+  "start": 662.419,
+  "end": 669.626,
+  "speaker": "Unknown",
+  "en": "So I looked at all the benchmarks that have been used by the Frontier Labs, and I saw TerminalBench was on pretty much everyone.",
+  "zh": "于是我查看了所有前沿实验室用过的基准，我看到 TerminalBench 几乎人人都在用。"
+ },
+ {
+  "seg": 180,
+  "start": 670.046,
+  "end": 671.127,
+  "speaker": "Unknown",
+  "en": "And it's an agentic benchmark.",
+  "zh": "而且它是一个智能体基准。"
+ },
+ {
+  "seg": 181,
+  "start": 671.167,
+  "end": 672.869,
+  "speaker": "Unknown",
+  "en": "It's not a coding benchmark, not just.",
+  "zh": "它不是编码基准，也不只是。"
+ },
+ {
+  "seg": 182,
+  "start": 673.87,
+  "end": 685.847,
+  "speaker": "Unknown",
+  "en": "agentic benchmark where there are tasks like fix the Git repository, track a password, repair a database, stuff you would ask your agent in normal use, as an example.",
+  "zh": "一个智能体基准，里面有诸如修复 Git 仓库、追踪密码、修复数据库之类的任务，就是你在正常使用中会问你的智能体的那种事，举个例子。"
+ },
+ {
+  "seg": 183,
+  "start": 686.572,
+  "end": 688.013,
+  "speaker": "Unknown",
+  "en": "And that's why I picked Terminal Bench.",
+  "zh": "这就是我选 Terminal Bench 的原因。"
+ },
+ {
+  "seg": 184,
+  "start": 688.713,
+  "end": 692.634,
+  "speaker": "Unknown",
+  "en": "But you could, if you are interested in multilingual stuff, MMLU is one thing.",
+  "zh": "但如果你对多语言的内容感兴趣，MMLU 是一个选择。"
+ },
+ {
+  "seg": 185,
+  "start": 692.814,
+  "end": 696.236,
+  "speaker": "Unknown",
+  "en": "Or if you are interested in multimodal stuff, MMU Pro is something.",
+  "zh": "或者如果你对多模态的内容感兴趣，MMU Pro 是一个选择。"
+ },
+ {
+  "seg": 186,
+  "start": 696.676,
+  "end": 701.478,
+  "speaker": "Unknown",
+  "en": "If you are interested in GUI agent use, then you would pick a different benchmark.",
+  "zh": "如果你对 GUI 智能体使用感兴趣，那你会选一个不同的基准。"
+ },
+ {
+  "seg": 187,
+  "start": 702.078,
+  "end": 706.1,
+  "speaker": "Unknown",
+  "en": "If you are interested in mathematics, coding, whatever it is, there's a benchmark for it.",
+  "zh": "如果你对数学、编码或其他任何东西感兴趣，都有一个对应的基准。"
+ },
+ {
+  "seg": 188,
+  "start": 706.26,
+  "end": 711.542,
+  "speaker": "Unknown",
+  "en": "And the thing is, find the benchmark that is most interesting to you and that is comparable.",
+  "zh": "关键是，找到对你来说最有趣、且可比较的基准。"
+ },
+ {
+  "seg": 189,
+  "start": 712.142,
+  "end": 713.462,
+  "speaker": "Unknown",
+  "en": "You could also make your own, of course.",
+  "zh": "当然，你也可以自己做。"
+ },
+ {
+  "seg": 190,
+  "start": 713.722,
+  "end": 714.963,
+  "speaker": "Unknown",
+  "en": "You can make your own data set.",
+  "zh": "你可以做自己专用的数据集。"
+ },
+ {
+  "seg": 191,
+  "start": 715.886,
+  "end": 720.848,
+  "speaker": "Unknown",
+  "en": "And regarding TerminalBench, that is agentic, so that's why I chose it to benchmark agents.",
+  "zh": "至于 TerminalBench,它是智能体式的，所以我选它来给智能体做基准。"
+ },
+ {
+  "seg": 192,
+  "start": 721.428,
+  "end": 725.709,
+  "speaker": "Unknown",
+  "en": "There are versions 2.0 and 2.1, and 3.0 is in the making right now.",
+  "zh": "有 2.0 和 2.1 版本，3.0 正在制作中。"
+ },
+ {
+  "seg": 193,
+  "start": 726.329,
+  "end": 729.65,
+  "speaker": "Unknown",
+  "en": "I chose 2.0 because 2.1 wasn't available when I started.",
+  "zh": "我选了 2.0,因为我开始的时候 2.1 还没发布。"
+ },
+ {
+  "seg": 194,
+  "start": 730.43,
+  "end": 733.231,
+  "speaker": "Unknown",
+  "en": "If you are starting now, choose the latest version, 2.1.",
+  "zh": "如果你现在开始，选最新版本 2.1。"
+ },
+ {
+  "seg": 195,
+  "start": 733.511,
+  "end": 735.212,
+  "speaker": "Unknown",
+  "en": "But I'm using 2.0 because",
+  "zh": "但我用的是 2.0,因为"
+ },
+ {
+  "seg": 196,
+  "start": 736.052,
+  "end": 740.015,
+  "speaker": "Unknown",
+  "en": "So choosing a new version would be a new benchmark, and I could not compare the scores anymore.",
+  "zh": "换一个新版本就等于换了一个新基准，我就没法再比较分数了。"
+ },
+ {
+  "seg": 197,
+  "start": 740.816,
+  "end": 746.92,
+  "speaker": "Unknown",
+  "en": "It actually fixes only 28 of the 89 tests, but it would be a different benchmark for all the models.",
+  "zh": "它实际上只修复了 89 个测试中的 28 个，但对所有模型来说它会是一个不同的基准。"
+ },
+ {
+  "seg": 198,
+  "start": 746.96,
+  "end": 748.842,
+  "speaker": "Unknown",
+  "en": "I would have to retest everything I already did.",
+  "zh": "我就得把我已经做过的所有测试全部重跑。"
+ },
+ {
+  "seg": 199,
+  "start": 749.622,
+  "end": 755.927,
+  "speaker": "Unknown",
+  "en": "And I did a lot and never enough, but I did a lot, so I don't want to make a new version of WolfBench right now.",
+  "zh": "而我做了很多测试，永远也不够多，但我做了很多，所以我现在不想给 WolfBench 换新版本。"
+ },
+ {
+  "seg": 200,
+  "start": 756.568,
+  "end": 763.633,
+  "speaker": "Unknown",
+  "en": "I will do that at a later point, maybe with 3.0, or if a big new jump in capabilities happens and we need a different benchmark.",
+  "zh": "我会在之后做这件事，也许在 3.0 的时候，或者当能力出现大的跳跃、我们需要一个不同的基准测试时再做。"
+ },
+ {
+  "seg": 201,
+  "start": 764.765,
+  "end": 766.626,
+  "speaker": "Unknown",
+  "en": "Evaluation harness.",
+  "zh": "评估框架。"
+ },
+ {
+  "seg": 202,
+  "start": 767.146,
+  "end": 770.828,
+  "speaker": "Unknown",
+  "en": "You have chosen which benchmark you want to use, which data set to use.",
+  "zh": "你已经选好了想用的基准测试、想用的数据集。"
+ },
+ {
+  "seg": 203,
+  "start": 771.068,
+  "end": 773.63,
+  "speaker": "Unknown",
+  "en": "Now you need something to actually run the evaluation.",
+  "zh": "现在你需要一个真正去运行评估的东西。"
+ },
+ {
+  "seg": 204,
+  "start": 774.09,
+  "end": 777.312,
+  "speaker": "Unknown",
+  "en": "And Harbor is the default framework that is for terminal bench.",
+  "zh": "而 Harbor 是 terminal bench 的默认框架。"
+ },
+ {
+  "seg": 205,
+  "start": 777.332,
+  "end": 777.852,
+  "speaker": "Unknown",
+  "en": "There are others.",
+  "zh": "还有其他的框架。"
+ },
+ {
+  "seg": 206,
+  "start": 777.952,
+  "end": 785.116,
+  "speaker": "Unknown",
+  "en": "Inspect is a great framework by the UK AI Security Institute, which has a lot of different benchmarks you can use.",
+  "zh": "Inspect 是英国 AI 安全研究所出品的一个很棒的框架，它有很多不同的基准测试可以用。"
+ },
+ {
+  "seg": 207,
+  "start": 785.156,
+  "end": 786.137,
+  "speaker": "Unknown",
+  "en": "It's also very popular.",
+  "zh": "它也非常流行。"
+ },
+ {
+  "seg": 208,
+  "start": 786.677,
+  "end": 790.039,
+  "speaker": "Unknown",
+  "en": "The LM evaluation harness, I used that years ago, so it's been around forever.",
+  "zh": "LM evaluation harness，我多年前用过，所以它已经存在很久了。"
+ },
+ {
+  "seg": 209,
+  "start": 790.659,
+  "end": 792.4,
+  "speaker": "Unknown",
+  "en": "And OpenAI has their own stuff.",
+  "zh": "还有 OpenAI 也有他们自己的东西。"
+ },
+ {
+  "seg": 210,
+  "start": 792.6,
+  "end": 793.821,
+  "speaker": "Unknown",
+  "en": "You can build your own runner.",
+  "zh": "你可以构建自己的运行器。"
+ },
+ {
+  "seg": 211,
+  "start": 794.615,
+  "end": 795.495,
+  "speaker": "Unknown",
+  "en": "Or one of the others.",
+  "zh": "或者用其他某一个。"
+ },
+ {
+  "seg": 212,
+  "start": 795.855,
+  "end": 796.796,
+  "speaker": "Unknown",
+  "en": "You pick what you want.",
+  "zh": "你想用哪个就选哪个。"
+ },
+ {
+  "seg": 213,
+  "start": 797.136,
+  "end": 802.738,
+  "speaker": "Unknown",
+  "en": "Some people start with picking their runner, and then they pick one of the benchmarks it supports.",
+  "zh": "有些人从挑选运行器开始，然后再从它支持的基准测试里挑一个。"
+ },
+ {
+  "seg": 214,
+  "start": 802.778,
+  "end": 804.358,
+  "speaker": "Unknown",
+  "en": "That is also a valid way.",
+  "zh": "那也是一种有效的方式。"
+ },
+ {
+  "seg": 215,
+  "start": 805.898,
+  "end": 808.899,
+  "speaker": "Unknown",
+  "en": "And now for the first practical step, let's install Harbor.",
+  "zh": "现在进行第一个实操步骤，我们来安装 Harbor。"
+ },
+ {
+  "seg": 216,
+  "start": 808.939,
+  "end": 811.46,
+  "speaker": "Unknown",
+  "en": "In this case, I'm using the current version.",
+  "zh": "在这里，我用的是当前版本。"
+ },
+ {
+  "seg": 217,
+  "start": 811.52,
+  "end": 812.48,
+  "speaker": "Unknown",
+  "en": "It was current yesterday.",
+  "zh": "它昨天还是当前版本。"
+ },
+ {
+  "seg": 218,
+  "start": 812.52,
+  "end": 813.841,
+  "speaker": "Unknown",
+  "en": "I'm not sure if it's current right now.",
+  "zh": "我不确定现在还是不是。"
+ },
+ {
+  "seg": 219,
+  "start": 813.901,
+  "end": 814.681,
+  "speaker": "Unknown",
+  "en": "It changes a lot.",
+  "zh": "它变化很大。"
+ },
+ {
+  "seg": 220,
+  "start": 815.001,
+  "end": 817.562,
+  "speaker": "Unknown",
+  "en": "But I pin it to the version.",
+  "zh": "但我把它固定在某个版本上。"
+ },
+ {
+  "seg": 221,
+  "start": 817.942,
+  "end": 820.463,
+  "speaker": "Unknown",
+  "en": "And I highly recommend people stick to one version.",
+  "zh": "我强烈建议大家锁定一个版本。"
+ },
+ {
+  "seg": 222,
+  "start": 821.143,
+  "end": 831.751,
+  "speaker": "Unknown",
+  "en": "Because any time you change one of the variables, if it has an effect on the evaluation, and many have, then yeah, you are changing already a variable and the comparability is suffering.",
+  "zh": "因为任何时候你改变其中一个变量，如果它对评估有影响——很多都有影响——那么是的，你已经在改变一个变量了，可比性就会受损。"
+ },
+ {
+  "seg": 223,
+  "start": 832.551,
+  "end": 835.814,
+  "speaker": "Unknown",
+  "en": "Even if it has a bug, you are at least testing all the models with the same bug.",
+  "zh": "即使它有 bug，你至少是在用同一个 bug 测试所有模型。"
+ },
+ {
+  "seg": 224,
+  "start": 836.801,
+  "end": 840.043,
+  "speaker": "Unknown",
+  "en": "But it's wishful thinking, of course, because sometimes you have to update.",
+  "zh": "但这当然是空想，因为有时你必须更新。"
+ },
+ {
+  "seg": 225,
+  "start": 840.143,
+  "end": 847.769,
+  "speaker": "Unknown",
+  "en": "If a new version of the harness, of the evaluation harness, supports a different agent or provider, then you may be forced to update.",
+  "zh": "如果这个框架、这个评估框架的新版本支持了不同的智能体或提供商，那你可能就被迫要更新了。"
+ },
+ {
+  "seg": 226,
+  "start": 848.209,
+  "end": 855.975,
+  "speaker": "Unknown",
+  "en": "What I recommend for the people who are really serious about this, forks the repository, maintain your own fork and just backport whatever you need.",
+  "zh": "对于真正认真对待这件事的人，我建议 fork 这个仓库，维护你自己的 fork，只把需要的东西 backport 回来。"
+ },
+ {
+  "seg": 227,
+  "start": 857.536,
+  "end": 858.737,
+  "speaker": "Unknown",
+  "en": "And if you install it,",
+  "zh": "如果你安装它，"
+ },
+ {
+  "seg": 228,
+  "start": 860.339,
+  "end": 869.538,
+  "speaker": "Unknown",
+  "en": "If there's a line break missing, it's UV tool install harbor, so it's installing in a UV environment, so it doesn't affect your system, and you can cleanly uninstall it again, then you should have this version.",
+  "zh": "如果缺了一个换行，命令是 UV tool install harbor，它安装在 UV 环境里，所以不会影响你的系统，而且你可以干净地卸载它，然后你应该就有这个版本了。"
+ },
+ {
+  "seg": 229,
+  "start": 871.158,
+  "end": 873.9,
+  "speaker": "Unknown",
+  "en": "The next step, agents need a sandbox.",
+  "zh": "下一步，智能体需要一个沙箱。"
+ },
+ {
+  "seg": 230,
+  "start": 873.98,
+  "end": 881.205,
+  "speaker": "Unknown",
+  "en": "Because if you just run it locally on your own system, the second agent running, it would find a system that has already been changed.",
+  "zh": "因为如果你直接在自己的系统上本地运行，第二个智能体运行时，它会发现一个已经被改动过的系统。"
+ },
+ {
+  "seg": 231,
+  "start": 881.765,
+  "end": 883.226,
+  "speaker": "Unknown",
+  "en": "And it would interfere with your system.",
+  "zh": "而且它会干扰你的系统。"
+ },
+ {
+  "seg": 232,
+  "start": 883.246,
+  "end": 884.387,
+  "speaker": "Unknown",
+  "en": "So I would not recommend that.",
+  "zh": "所以我不建议那样做。"
+ },
+ {
+  "seg": 233,
+  "start": 884.447,
+  "end": 885.287,
+  "speaker": "Unknown",
+  "en": "You can use Docker.",
+  "zh": "你可以用 Docker。"
+ },
+ {
+  "seg": 234,
+  "start": 885.528,
+  "end": 886.908,
+  "speaker": "Unknown",
+  "en": "That is very common.",
+  "zh": "那很常见。"
+ },
+ {
+  "seg": 235,
+  "start": 887.449,
+  "end": 891.031,
+  "speaker": "Unknown",
+  "en": "But it's very hard to parallelize that, depending on what system you are using.",
+  "zh": "但是很难把它并行化，取决于你用的是什么系统。"
+ },
+ {
+  "seg": 236,
+  "start": 891.552,
+  "end": 892.872,
+  "speaker": "Unknown",
+  "en": "So you need a lot of resources.",
+  "zh": "所以你需要大量资源。"
+ },
+ {
+  "seg": 237,
+  "start": 892.912,
+  "end": 894.914,
+  "speaker": "Unknown",
+  "en": "So that's why there are cloud providers.",
+  "zh": "这就是为什么有云提供商。"
+ },
+ {
+  "seg": 238,
+  "start": 895.514,
+  "end": 897.676,
+  "speaker": "Unknown",
+  "en": "And I have to give a big shout out to Daytona.",
+  "zh": "我必须大力感谢 Daytona。"
+ },
+ {
+  "seg": 239,
+  "start": 897.936,
+  "end": 902.098,
+  "speaker": "Unknown",
+  "en": "They supported me in the beginning before CoreWeave had their own sandboxes, and I wanted to start with this.",
+  "zh": "在 CoreWeave 还没有自己的沙箱、而我想要开始做这件事的时候，他们一开始就支持了我。"
+ },
+ {
+  "seg": 240,
+  "start": 902.619,
+  "end": 904.18,
+  "speaker": "Unknown",
+  "en": "So they really supported me a lot.",
+  "zh": "所以他们真的给了我很大支持。"
+ },
+ {
+  "seg": 241,
+  "start": 904.84,
+  "end": 908.823,
+  "speaker": "Unknown",
+  "en": "And I've done a lot of the evaluations I have with Daytona.",
+  "zh": "我做过的很多评估就是用 Daytona 做的。"
+ },
+ {
+  "seg": 242,
+  "start": 909.123,
+  "end": 911.305,
+  "speaker": "Unknown",
+  "en": "Now we have our own offerings, so I'm dogfooding it.",
+  "zh": "现在我们有了自己的产品，所以我在 dogfooding。"
+ },
+ {
+  "seg": 243,
+  "start": 911.505,
+  "end": 915.467,
+  "speaker": "Unknown",
+  "en": "And that's why there are two options here that I recommend.",
+  "zh": "这就是为什么这里有两个我推荐的选项。"
+ },
+ {
+  "seg": 244,
+  "start": 915.928,
+  "end": 918.769,
+  "speaker": "Unknown",
+  "en": "The CoreWeave sandboxes are for those using the Kubernetes service.",
+  "zh": "CoreWeave 沙箱面向使用 Kubernetes 服务的用户。"
+ },
+ {
+  "seg": 245,
+  "start": 919.41,
+  "end": 922.612,
+  "speaker": "Unknown",
+  "en": "And the golden one here is the CoreWeave serverless sandboxes.",
+  "zh": "而这里最好的那个是 CoreWeave 无服务器沙箱。"
+ },
+ {
+  "seg": 246,
+  "start": 922.632,
+  "end": 923.973,
+  "speaker": "Unknown",
+  "en": "You just need your WendB account.",
+  "zh": "你只需要你的 WendB 账号。"
+ },
+ {
+  "seg": 247,
+  "start": 929.122,
+  "end": 929.662,
+  "speaker": "Unknown",
+  "en": "Ah, okay.",
+  "zh": "啊，好的。"
+ },
+ {
+  "seg": 248,
+  "start": 929.722,
+  "end": 937.065,
+  "speaker": "Unknown",
+  "en": "We also have a, can you, I turned off Slack, so it's not shared here.",
+  "zh": "我们还有一个，你能不能——我关掉了 Slack，所以这里没有共享。"
+ },
+ {
+  "seg": 249,
+  "start": 938.046,
+  "end": 941.787,
+  "speaker": "Unknown",
+  "en": "If anyone wants to get the PDF right away, just go to Alex.",
+  "zh": "如果有人想马上拿到 PDF，直接去 Alex。"
+ },
+ {
+  "seg": 250,
+  "start": 941.827,
+  "end": 943.748,
+  "speaker": "Unknown",
+  "en": "This is probably the easiest way right now.",
+  "zh": "这可能是目前最简单的方法了。"
+ },
+ {
+  "seg": 251,
+  "start": 945.914,
+  "end": 946.174,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 252,
+  "start": 946.615,
+  "end": 950.118,
+  "speaker": "Unknown",
+  "en": "So after you've installed this, Harbor is installed.",
+  "zh": "所以在你安装完之后，Harbor 就安装好了。"
+ },
+ {
+  "seg": 253,
+  "start": 950.158,
+  "end": 952.44,
+  "speaker": "Unknown",
+  "en": "Now we need a sandbox client that is part of Harbor.",
+  "zh": "现在我们需要一个沙箱客户端，它是 Harbor 的一部分。"
+ },
+ {
+  "seg": 254,
+  "start": 952.921,
+  "end": 955.744,
+  "speaker": "Unknown",
+  "en": "And in this case, there's a couple of things.",
+  "zh": "在这个例子里，有几件事要做。"
+ },
+ {
+  "seg": 255,
+  "start": 957.505,
+  "end": 960.008,
+  "speaker": "Unknown",
+  "en": "Here's the QR code for the presentation.",
+  "zh": "这是本次演讲的二维码。"
+ },
+ {
+  "seg": 256,
+  "start": 968.122,
+  "end": 968.322,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 257,
+  "start": 969.103,
+  "end": 969.804,
+  "speaker": "Unknown",
+  "en": "Good.",
+  "zh": "它更像是向实际模型模拟一个 CLI 环境，它发送按键，然后智能体执行它们。"
+ },
+ {
+  "seg": 258,
+  "start": 970.444,
+  "end": 977.311,
+  "speaker": "Unknown",
+  "en": "UvTool install harbor in square brackets installs a provider to use the sandboxes, and you don't have to do anything.",
+  "zh": "UvTool install harbor 加方括号会安装一个使用沙箱的 provider，你不需要做任何事。"
+ },
+ {
+  "seg": 259,
+  "start": 978.152,
+  "end": 980.535,
+  "speaker": "Unknown",
+  "en": "Once it's installed, you just have to have your API key.",
+  "zh": "一旦安装完成，你只需要有你的 API key。"
+ },
+ {
+  "seg": 260,
+  "start": 982.021,
+  "end": 985.322,
+  "speaker": "Unknown",
+  "en": "And you configure this in a YAML file.",
+  "zh": "而且你可以在一个 YAML 文件里配置它。"
+ },
+ {
+  "seg": 261,
+  "start": 985.422,
+  "end": 986.743,
+  "speaker": "Unknown",
+  "en": "And here is just the next step.",
+  "zh": "这里只是下一步。"
+ },
+ {
+  "seg": 262,
+  "start": 986.763,
+  "end": 987.863,
+  "speaker": "Unknown",
+  "en": "You don't have to copy this.",
+  "zh": "你不需要复制这个。"
+ },
+ {
+  "seg": 263,
+  "start": 988.303,
+  "end": 995.045,
+  "speaker": "Unknown",
+  "en": "There is a link and an easy URL you can just enter with the full configuration, a couple of slides ahead.",
+  "zh": "再过几页幻灯片，会有一个链接和一个简单的 URL，你可以直接输入完整的配置。"
+ },
+ {
+  "seg": 264,
+  "start": 995.506,
+  "end": 997.746,
+  "speaker": "Unknown",
+  "en": "So, just so you this is just so you see it.",
+  "zh": "所以，这只是让你们看到它。"
+ },
+ {
+  "seg": 265,
+  "start": 998.087,
+  "end": 1005.089,
+  "speaker": "Unknown",
+  "en": "But if you are following along, you should just type the uv tool install command to install the harbor won't be provided if you are using this.",
+  "zh": "但如果你在跟着操作，你应该只输入 uv tool install 命令来安装 harbor，如果你用这个的话不会被提供。"
+ },
+ {
+  "seg": 266,
+  "start": 1007.15,
+  "end": 1007.93,
+  "speaker": "Unknown",
+  "en": "Let's continue.",
+  "zh": "我们继续。"
+ },
+ {
+  "seg": 267,
+  "start": 1008.949,
+  "end": 1009.95,
+  "speaker": "Unknown",
+  "en": "Next step, agent.",
+  "zh": "下一步，智能体。"
+ },
+ {
+  "seg": 268,
+  "start": 1010.271,
+  "end": 1016.198,
+  "speaker": "Unknown",
+  "en": "This is the most fun part for me because there are so many agents and I want to test how does this agent do with this model.",
+  "zh": "这对我来说是最有趣的部分，因为有太多智能体了，我想测试这个智能体用这个模型表现如何。"
+ },
+ {
+  "seg": 269,
+  "start": 1016.898,
+  "end": 1019.502,
+  "speaker": "Unknown",
+  "en": "And here's a list of some of the agents.",
+  "zh": "这里是一些智能体的列表。"
+ },
+ {
+  "seg": 270,
+  "start": 1019.982,
+  "end": 1024.167,
+  "speaker": "Unknown",
+  "en": "These are all the agents, and there are even more, that are supported by the Harbor Framework.",
+  "zh": "这些是 Harbor Framework 支持的所有智能体，甚至还有更多。"
+ },
+ {
+  "seg": 271,
+  "start": 1025.128,
+  "end": 1029.97,
+  "speaker": "Unknown",
+  "en": "We have Cursor, we have Claude, we have Klein, we have Codex, OpenClaw Hermes agent.",
+  "zh": "我们有 Cursor，有 Claude，有 Klein，有 Codex，OpenClaw Hermes 智能体。"
+ },
+ {
+  "seg": 272,
+  "start": 1031.65,
+  "end": 1036.452,
+  "speaker": "Unknown",
+  "en": "And Terminus 2 is the default agent for the terminal bench and harbor framework.",
+  "zh": "而 Terminus 2 是 terminal bench 和 harbor framework 的默认智能体。"
+ },
+ {
+  "seg": 273,
+  "start": 1037.012,
+  "end": 1038.733,
+  "speaker": "Unknown",
+  "en": "And this is not a real agent.",
+  "zh": "这不是一个真正的智能体。"
+ },
+ {
+  "seg": 274,
+  "start": 1038.753,
+  "end": 1040.974,
+  "speaker": "Unknown",
+  "en": "You can't use it for your coding stuff, or you shouldn't.",
+  "zh": "你不能把它用于你的编码工作，或者说不应该。"
+ },
+ {
+  "seg": 275,
+  "start": 1041.494,
+  "end": 1048.136,
+  "speaker": "Unknown",
+  "en": "It's more like simulating CLI environment to the actual model, and it sends keystrokes, and the agent executes them.",
+  "zh": "这更像是给实际模型模拟一个 CLI 环境，它发送按键，智能体执行它们。"
+ },
+ {
+  "seg": 276,
+  "start": 1048.757,
+  "end": 1049.657,
+  "speaker": "Unknown",
+  "en": "It's one way to do this.",
+  "zh": "这是做这件事的一种方式。"
+ },
+ {
+  "seg": 277,
+  "start": 1050.367,
+  "end": 1059.555,
+  "speaker": "Unknown",
+  "en": "So a simple agent, which is a default if you are seeing terminal bench scores somewhere and nobody said it's tested with a different agent, that is the agent they used.",
+  "zh": "所以一个简单的智能体，如果你在某处看到 terminal bench 分数而没人说它是用不同智能体测试的，这就是他们用的智能体。"
+ },
+ {
+  "seg": 278,
+  "start": 1061.316,
+  "end": 1063.398,
+  "speaker": "Unknown",
+  "en": "And then which model do you want to test?",
+  "zh": "然后你想测试哪个模型？"
+ },
+ {
+  "seg": 279,
+  "start": 1063.438,
+  "end": 1066.2,
+  "speaker": "Unknown",
+  "en": "You have to pick a model and you have to pick a provider.",
+  "zh": "你必须选一个模型，还要选一个 provider。"
+ },
+ {
+  "seg": 280,
+  "start": 1066.26,
+  "end": 1069.563,
+  "speaker": "Unknown",
+  "en": "If you are using GPT 5.5, you will be using OpenAI.",
+  "zh": "如果你用的是 GPT 5.5，你会用 OpenAI。"
+ },
+ {
+  "seg": 281,
+  "start": 1070.023,
+  "end": 1071.905,
+  "speaker": "Unknown",
+  "en": "If you are using Claude, Fable.",
+  "zh": "如果你用的是 Claude，Fable。"
+ },
+ {
+  "seg": 282,
+  "start": 1072.78,
+  "end": 1076.782,
+  "speaker": "Unknown",
+  "en": "Lucky if you are to use it, then you will be using Anthropic.",
+  "zh": "Lucky 如果你用它的话，那你会用 Anthropic。"
+ },
+ {
+  "seg": 283,
+  "start": 1077.562,
+  "end": 1080.283,
+  "speaker": "Unknown",
+  "en": "Also, Google also provides some of the Anthropic models.",
+  "zh": "另外，Google 也提供了一些 Anthropic 的模型。"
+ },
+ {
+  "seg": 284,
+  "start": 1081.104,
+  "end": 1083.044,
+  "speaker": "Unknown",
+  "en": "And these are just some of those.",
+  "zh": "这些只是其中一部分。"
+ },
+ {
+  "seg": 285,
+  "start": 1083.705,
+  "end": 1090.648,
+  "speaker": "Unknown",
+  "en": "OpenRouter provides almost all of them, probably all of them, even with DDR enabled, so you are not sending any data.",
+  "zh": "OpenRouter 几乎提供所有模型，可能全部都提供，甚至开启了 DDR，这样你就不会发送任何数据。"
+ },
+ {
+  "seg": 286,
+  "start": 1091.608,
+  "end": 1093.31,
+  "speaker": "Unknown",
+  "en": "To the model vendors.",
+  "zh": "给模型供应商。"
+ },
+ {
+  "seg": 287,
+  "start": 1094.03,
+  "end": 1099.314,
+  "speaker": "Unknown",
+  "en": "And we also have our own inference where you also get a selection of open source models.",
+  "zh": "我们也有自己的推理服务，在那里你也可以选择一些开源模型。"
+ },
+ {
+  "seg": 288,
+  "start": 1099.735,
+  "end": 1109.763,
+  "speaker": "Unknown",
+  "en": "And in this case, what I wanted to test is GLM 5.2, which was the latest model I tested and also the best open source model, open rates model.",
+  "zh": "而在这个例子里，我想测试的是 GLM 5.2，这是我测试过的最新模型，也是最好的开源模型，open rates 模型。"
+ },
+ {
+  "seg": 289,
+  "start": 1110.784,
+  "end": 1113.166,
+  "speaker": "Unknown",
+  "en": "So I just picked this for the demonstration.",
+  "zh": "所以我就选了它来做演示。"
+ },
+ {
+  "seg": 290,
+  "start": 1113.186,
+  "end": 1114.647,
+  "speaker": "Unknown",
+  "en": "You could choose any other, of course.",
+  "zh": "当然，你可以选择任何其他的。"
+ },
+ {
+  "seg": 291,
+  "start": 1116.673,
+  "end": 1118.173,
+  "speaker": "Unknown",
+  "en": "And now the thing is the settings.",
+  "zh": "现在就是设置了。"
+ },
+ {
+  "seg": 292,
+  "start": 1118.213,
+  "end": 1119.294,
+  "speaker": "Unknown",
+  "en": "There are a lot of settings.",
+  "zh": "有很多设置项。"
+ },
+ {
+  "seg": 293,
+  "start": 1119.434,
+  "end": 1122.235,
+  "speaker": "Unknown",
+  "en": "Some are very familiar to people, some maybe not as much.",
+  "zh": "有些对人们来说很熟悉，有些可能不那么熟悉。"
+ },
+ {
+  "seg": 294,
+  "start": 1122.295,
+  "end": 1128.197,
+  "speaker": "Unknown",
+  "en": "So the context window size is also very important because you always see this model has this context window size.",
+  "zh": "所以上下文窗口大小也非常重要，因为你总是看到这个模型有这个上下文窗口大小。"
+ },
+ {
+  "seg": 295,
+  "start": 1128.257,
+  "end": 1136.799,
+  "speaker": "Unknown",
+  "en": "But every provider has the, yeah, some providers choose to deliver a different size, a smaller size for performance options, performance reasons.",
+  "zh": "但每个 provider 都有，是的，一些 provider 出于性能选项、性能原因，选择提供不同的大小，一个更小的大小。"
+ },
+ {
+  "seg": 296,
+  "start": 1137.259,
+  "end": 1141.961,
+  "speaker": "Unknown",
+  "en": "Like our own inference also doesn't offer the full 1 million of GLM 5.2, only 256K.",
+  "zh": "比如我们自己的推理服务也不提供 GLM 5.2 完整的 100 万，只有 256K。"
+ },
+ {
+  "seg": 297,
+  "start": 1145.582,
+  "end": 1148.043,
+  "speaker": "Unknown",
+  "en": "But that way we can serve it faster.",
+  "zh": "但这样我们可以更快地提供服务。"
+ },
+ {
+  "seg": 298,
+  "start": 1148.903,
+  "end": 1154.864,
+  "speaker": "Unknown",
+  "en": "And the quality of the model degrades after a certain amount of tokens.",
+  "zh": "而且模型的质量在一定数量的 token 之后会下降。"
+ },
+ {
+  "seg": 299,
+  "start": 1154.884,
+  "end": 1160.105,
+  "speaker": "Unknown",
+  "en": "So basically half context is already very much noticeable.",
+  "zh": "所以基本上超过一半上下文就已经非常明显了。"
+ },
+ {
+  "seg": 300,
+  "start": 1160.506,
+  "end": 1164.246,
+  "speaker": "Unknown",
+  "en": "And the thing is, it costs a lot if you always go to the million and then you're compact.",
+  "zh": "问题是，如果你总是用满一百万然后再压缩，成本会很高。"
+ },
+ {
+  "seg": 301,
+  "start": 1164.266,
+  "end": 1171.328,
+  "speaker": "Unknown",
+  "en": "So I personally think 256K, that's why I recommended it to our inference team to use this in that situation.",
+  "zh": "所以我个人认为 256K，这就是为什么我推荐我们的推理团队在这种情况下使用它。"
+ },
+ {
+  "seg": 302,
+  "start": 1172.148,
+  "end": 1173.509,
+  "speaker": "Unknown",
+  "en": "I also use the same with Codex.",
+  "zh": "我在 Codex 上也用同样的设置。"
+ },
+ {
+  "seg": 303,
+  "start": 1175.509,
+  "end": 1179.851,
+  "speaker": "Unknown",
+  "en": "Basically, right now, that gives you the best quality and the best price performance and speed.",
+  "zh": "基本上，现在这能给你最好的质量、最佳的价格性能比和速度。"
+ },
+ {
+  "seg": 304,
+  "start": 1180.751,
+  "end": 1181.892,
+  "speaker": "Unknown",
+  "en": "Thinking and reasoning efforts.",
+  "zh": "思考和推理努力程度。"
+ },
+ {
+  "seg": 305,
+  "start": 1181.912,
+  "end": 1196.418,
+  "speaker": "Unknown",
+  "en": "This is a big factor, and I have done different evaluations with different thinking modes, and they really have a big effect on the model and sometimes a very surprising effect where if you raise the thinking, it goes down, but I will tell about this when we get to the slide.",
+  "zh": "这是一个很大的因素，我用不同的思考模式做过不同的评估，它们对模型确实有很大的影响，有时影响非常出人意料——如果你提高思考程度，结果反而下降，不过这个等我讲到那一页幻灯片时再说。"
+ },
+ {
+  "seg": 306,
+  "start": 1196.858,
+  "end": 1197.759,
+  "speaker": "Unknown",
+  "en": "So, system prompt.",
+  "zh": "那么，系统提示词。"
+ },
+ {
+  "seg": 307,
+  "start": 1198.399,
+  "end": 1205.062,
+  "speaker": "Unknown",
+  "en": "You don't always have the ability to change the system prompt or even inspect it, but it is a very important factor.",
+  "zh": "你并不总是有能力更改系统提示词，甚至无法查看它，但它是一个非常重要的因素。"
+ },
+ {
+  "seg": 308,
+  "start": 1205.382,
+  "end": 1211.225,
+  "speaker": "Unknown",
+  "en": "And if you think about an agent like OpenClone or Hermes agent, you have the sole MD where you can put a lot of instructions.",
+  "zh": "如果你想想像 OpenClone 或 Hermes agent 这样的智能体，你有 sole MD，可以在里面放很多指令。"
+ },
+ {
+  "seg": 309,
+  "start": 1211.605,
+  "end": 1214.027,
+  "speaker": "Unknown",
+  "en": "And now imagine you are using this with the benchmark.",
+  "zh": "现在想象一下你在跑基准测试时使用它。"
+ },
+ {
+  "seg": 310,
+  "start": 1214.647,
+  "end": 1224.652,
+  "speaker": "Unknown",
+  "en": "And if you give the instruction your helpful assistant, it will be very different if you give it an instruction it is an autonomous agent doing stuff.",
+  "zh": "如果你给的指令是“你是有帮助的助手”，和你给它一个指令说它是一个自主做事的智能体，结果会非常不同。"
+ },
+ {
+  "seg": 311,
+  "start": 1224.912,
+  "end": 1227.093,
+  "speaker": "Unknown",
+  "en": "I have seen results where the model",
+  "zh": "我见过这样的结果，模型"
+ },
+ {
+  "seg": 312,
+  "start": 1227.953,
+  "end": 1233.74,
+  "speaker": "Unknown",
+  "en": "Or the benchmark delivered a bad result because the model tried to ask the user, but there was no user and it didn't know.",
+  "zh": "或者说基准测试得到了糟糕的结果，因为模型试图询问用户，但并没有用户，它也不知道这一点。"
+ },
+ {
+  "seg": 313,
+  "start": 1234.1,
+  "end": 1239.886,
+  "speaker": "Unknown",
+  "en": "So if I change the system prompt and tell it you can't ask the user, it would behave differently and it would get a better score, I'm pretty sure.",
+  "zh": "所以如果我修改系统提示词，告诉它你不能询问用户，它的行为就会不同，我相当确定它会得到更好的分数。"
+ },
+ {
+  "seg": 314,
+  "start": 1240.467,
+  "end": 1243.911,
+  "speaker": "Unknown",
+  "en": "And that would be completely changing what I'm testing.",
+  "zh": "而那就完全改变了我正在测试的东西。"
+ },
+ {
+  "seg": 315,
+  "start": 1244.411,
+  "end": 1246.192,
+  "speaker": "Unknown",
+  "en": "So there are so many variables here.",
+  "zh": "所以这里有太多变量。"
+ },
+ {
+  "seg": 316,
+  "start": 1246.753,
+  "end": 1247.653,
+  "speaker": "Unknown",
+  "en": "Also, tool config.",
+  "zh": "还有，工具配置。"
+ },
+ {
+  "seg": 317,
+  "start": 1247.713,
+  "end": 1255.999,
+  "speaker": "Unknown",
+  "en": "If you give the agent web access, I've seen where a model went out and looked up the solution for the benchmark, because Terminal Bench is a public benchmark.",
+  "zh": "如果你给智能体联网权限，我见过一个模型跑出去查了那个基准测试的答案，因为 Terminal Bench 是一个公开的基准测试。"
+ },
+ {
+  "seg": 318,
+  "start": 1256.62,
+  "end": 1260.262,
+  "speaker": "Unknown",
+  "en": "And you have to look in the traces to see what happened here.",
+  "zh": "你必须去查看轨迹才能发现这里发生了什么。"
+ },
+ {
+  "seg": 319,
+  "start": 1260.583,
+  "end": 1261.783,
+  "speaker": "Unknown",
+  "en": "It's not even a bad thing.",
+  "zh": "这甚至不是一件坏事。"
+ },
+ {
+  "seg": 320,
+  "start": 1261.863,
+  "end": 1263.885,
+  "speaker": "Unknown",
+  "en": "If you want an agent, it should be smart.",
+  "zh": "如果你想要一个智能体，它就应该聪明。"
+ },
+ {
+  "seg": 321,
+  "start": 1264.465,
+  "end": 1269.389,
+  "speaker": "Unknown",
+  "en": "And if there's a solution for the problem, why should I try to think of it if there is a published solution?",
+  "zh": "而且如果问题有现成的解法，既然有公开的解法，我为什么还要费劲自己去想呢？"
+ },
+ {
+  "seg": 322,
+  "start": 1269.429,
+  "end": 1273.672,
+  "speaker": "Unknown",
+  "en": "So it depends what you really want to measure and if you want to give it access or not.",
+  "zh": "所以这取决于你真正想测量的是什么，以及你是否想给它访问权限。"
+ },
+ {
+  "seg": 323,
+  "start": 1274.232,
+  "end": 1277.255,
+  "speaker": "Unknown",
+  "en": "And not all of those do that, or not every time.",
+  "zh": "而且并不是所有的模型都会那么做，也不是每次都会。"
+ },
+ {
+  "seg": 324,
+  "start": 1278.156,
+  "end": 1279.597,
+  "speaker": "Unknown",
+  "en": "Sandbox resources, also a thing.",
+  "zh": "沙箱资源，也是一个因素。"
+ },
+ {
+  "seg": 325,
+  "start": 1279.617,
+  "end": 1288.625,
+  "speaker": "Unknown",
+  "en": "If you give it less CPU or memory, it may run out or it may be slower, so it takes longer to do something or even crash, and then you get a bad result.",
+  "zh": "如果你给它的 CPU 或内存更少，它可能会耗尽资源，或者运行更慢，所以做某件事需要更长时间，甚至崩溃，然后你就会得到一个糟糕的结果。"
+ },
+ {
+  "seg": 326,
+  "start": 1288.645,
+  "end": 1289.706,
+  "speaker": "Unknown",
+  "en": "And it's not the model's fault.",
+  "zh": "而这不是模型的错。"
+ },
+ {
+  "seg": 327,
+  "start": 1289.726,
+  "end": 1292.168,
+  "speaker": "Unknown",
+  "en": "It's because of the sandbox configuration.",
+  "zh": "是沙箱配置的原因。"
+ },
+ {
+  "seg": 328,
+  "start": 1292.188,
+  "end": 1292.949,
+  "speaker": "Unknown",
+  "en": "Task timeout.",
+  "zh": "任务超时。"
+ },
+ {
+  "seg": 329,
+  "start": 1293.309,
+  "end": 1294.73,
+  "speaker": "Unknown",
+  "en": "Every task gets a timeout.",
+  "zh": "每个任务都有一个超时时间。"
+ },
+ {
+  "seg": 330,
+  "start": 1295.011,
+  "end": 1299.274,
+  "speaker": "Unknown",
+  "en": "By default, they range from, I think, five minutes, 15 minutes to over three hours.",
+  "zh": "默认情况下，我记得范围从五分钟、十五分钟到三个多小时不等。"
+ },
+ {
+  "seg": 331,
+  "start": 1300.335,
+  "end": 1303.859,
+  "speaker": "Unknown",
+  "en": "One is three hours something and another one is two hours or so.",
+  "zh": "有一个是三小时多一点，另一个是两小时左右。"
+ },
+ {
+  "seg": 332,
+  "start": 1304.66,
+  "end": 1308.245,
+  "speaker": "Unknown",
+  "en": "And that means you have to decide how much time you want to invest.",
+  "zh": "这意味着你必须决定你想投入多少时间。"
+ },
+ {
+  "seg": 333,
+  "start": 1308.545,
+  "end": 1313.991,
+  "speaker": "Unknown",
+  "en": "When I started with WolfBench, I gave every task a fixed two hours because I didn't want to",
+  "zh": "当我开始跑 WolfBench 时，我给每个任务固定了两个小时，因为我不想"
+ },
+ {
+  "seg": 334,
+  "start": 1315.593,
+  "end": 1324.297,
+  "speaker": "Unknown",
+  "en": "Basically handicap open rates models which are often running on less powerful inference endpoints than the big SOTA frontier lab models.",
+  "zh": "基本上是想让开放权重模型吃亏，它们通常运行在不如大型 SOTA 前沿实验室模型那么强大的推理端点上。"
+ },
+ {
+  "seg": 335,
+  "start": 1325.098,
+  "end": 1331.201,
+  "speaker": "Unknown",
+  "en": "So if you are running DeepSeq on a local system, it's usually not as fast as GPT on open AI systems.",
+  "zh": "所以如果你在本地系统上运行 DeepSeq，通常不如 OpenAI 系统上的 GPT 快。"
+ },
+ {
+  "seg": 336,
+  "start": 1331.621,
+  "end": 1334.803,
+  "speaker": "Unknown",
+  "en": "And that would skew the score if you don't give it unlimited time.",
+  "zh": "如果你不给它无限的时间，那会使分数产生偏差。"
+ },
+ {
+  "seg": 337,
+  "start": 1335.123,
+  "end": 1337.184,
+  "speaker": "Unknown",
+  "en": "But I noticed when I was going with two hours that",
+  "zh": "但我注意到当我用两小时的时候，"
+ },
+ {
+  "seg": 338,
+  "start": 1338.164,
+  "end": 1343.188,
+  "speaker": "Unknown",
+  "en": "If the model can't do the task, it sometimes just goes in circles and tries and tries and tries and fails and fails and fails.",
+  "zh": "如果模型做不了这个任务，它有时就会原地打转，试了又试又试，失败了又失败又失败。"
+ },
+ {
+  "seg": 339,
+  "start": 1343.509,
+  "end": 1354.958,
+  "speaker": "Unknown",
+  "en": "So it was very expensive and took a long time because if I do two hours per task and there are 89 tasks and I parallelize them, depending on how much concurrency I'm using, which is the next point, it takes so long.",
+  "zh": "所以这非常昂贵而且耗时很长，因为如果我每个任务跑两小时，一共有 89 个任务，我再并行化它们，根据我使用的并发量——这是下一点——会花非常长的时间。"
+ },
+ {
+  "seg": 340,
+  "start": 1355.518,
+  "end": 1361.243,
+  "speaker": "Unknown",
+  "en": "It takes so long and it costs so much and you don't get a result because it just can't do the task.",
+  "zh": "耗时很长，花费很多，而你还得不到结果，因为它就是做不了这个任务。"
+ },
+ {
+  "seg": 341,
+  "start": 1361.283,
+  "end": 1363.284,
+  "speaker": "Unknown",
+  "en": "So I noticed one hour is a good mark.",
+  "zh": "所以我发现一小时是一个合适的界限。"
+ },
+ {
+  "seg": 342,
+  "start": 1364.305,
+  "end": 1368.508,
+  "speaker": "Unknown",
+  "en": "If you use the default terminal bench, the test duration varies.",
+  "zh": "如果你用默认的 Terminal Bench，测试时长是各不相同的。"
+ },
+ {
+  "seg": 343,
+  "start": 1369.188,
+  "end": 1370.669,
+  "speaker": "Unknown",
+  "en": "Concurrency, that is what I meant.",
+  "zh": "并发，这就是我刚才想说的。"
+ },
+ {
+  "seg": 344,
+  "start": 1371.45,
+  "end": 1376.273,
+  "speaker": "Unknown",
+  "en": "You don't want to wait 98, 89 hours, or even twice the amount of time.",
+  "zh": "你不会想等 98、89 个小时，甚至是两倍的时间。"
+ },
+ {
+  "seg": 345,
+  "start": 1376.693,
+  "end": 1381.396,
+  "speaker": "Unknown",
+  "en": "You want to do concurrency, so you have multiple trials happening at the same time.",
+  "zh": "你想用并发，这样就有多个试验同时进行。"
+ },
+ {
+  "seg": 346,
+  "start": 1381.776,
+  "end": 1384.278,
+  "speaker": "Unknown",
+  "en": "But then you have to decide, how high can I go?",
+  "zh": "但那样你就得决定，我能开到多高？"
+ },
+ {
+  "seg": 347,
+  "start": 1384.978,
+  "end": 1389.439,
+  "speaker": "Unknown",
+  "en": "If I go concurrency 89, I can do all the 89 tests of TerminalBench at once.",
+  "zh": "如果我把并发设为 89，我可以一次性跑完 TerminalBench 的全部 89 个测试。"
+ },
+ {
+  "seg": 348,
+  "start": 1390.099,
+  "end": 1398.481,
+  "speaker": "Unknown",
+  "en": "But if my inference endpoint is not fast enough and I get rate-limited, then I will get batch scores or even no scores at the end.",
+  "zh": "但如果我的推理端点不够快，我被限流了，那我最后得到的会是残缺的分数，甚至完全没有分数。"
+ },
+ {
+  "seg": 349,
+  "start": 1398.821,
+  "end": 1399.881,
+  "speaker": "Unknown",
+  "en": "The same with the sandboxes.",
+  "zh": "沙箱也是一样。"
+ },
+ {
+  "seg": 350,
+  "start": 1399.941,
+  "end": 1401.881,
+  "speaker": "Unknown",
+  "en": "If I have a sandbox provider, I get resources.",
+  "zh": "如果我有一个沙箱提供商，我会获得资源。"
+ },
+ {
+  "seg": 351,
+  "start": 1401.941,
+  "end": 1408.683,
+  "speaker": "Unknown",
+  "en": "And if I use eight gigabytes per sandbox, it sums up quickly, and maybe you get over the limit you are allowed.",
+  "zh": "如果我每个沙箱用 8 GB,加起来很快，可能就会超出你被允许的限额。"
+ },
+ {
+  "seg": 352,
+  "start": 1409.743,
+  "end": 1411.845,
+  "speaker": "Unknown",
+  "en": "Retry policy, how often to retry something?",
+  "zh": "重试策略，多久重试一次某件事？"
+ },
+ {
+  "seg": 353,
+  "start": 1411.885,
+  "end": 1417.851,
+  "speaker": "Unknown",
+  "en": "That is also something, if I don't retry a task and it fails because the sandbox crashed, I get a bad score for the model.",
+  "zh": "这也是个问题，如果我不重试某个任务，而它因为沙箱崩溃而失败了，模型的得分就会很差。"
+ },
+ {
+  "seg": 354,
+  "start": 1418.371,
+  "end": 1419.873,
+  "speaker": "Unknown",
+  "en": "But it wasn't the model's fault.",
+  "zh": "但那不是模型的错。"
+ },
+ {
+  "seg": 355,
+  "start": 1419.893,
+  "end": 1423.616,
+  "speaker": "Unknown",
+  "en": "So there are errors that you should retry, and there are errors you should not retry.",
+  "zh": "所以有些错误你应该重试，有些错误你不应该重试。"
+ },
+ {
+  "seg": 356,
+  "start": 1423.937,
+  "end": 1430.183,
+  "speaker": "Unknown",
+  "en": "Like if the model causes a crash on its own by doing something stupid, that is actually a fail you want to measure.",
+  "zh": "比如如果模型自己因为做了什么蠢事导致崩溃，那其实是你想测量的一次失败。"
+ },
+ {
+  "seg": 357,
+  "start": 1431.353,
+  "end": 1433.935,
+  "speaker": "Unknown",
+  "en": "Temperature, the usual stuff.",
+  "zh": "Temperature(温度)，那些常规的东西。"
+ },
+ {
+  "seg": 358,
+  "start": 1434.336,
+  "end": 1438.399,
+  "speaker": "Unknown",
+  "en": "That is a difficult thing for a benchmark because which temperature do you use?",
+  "zh": "对一个基准测试来说这是件难事，因为该用哪个 temperature?"
+ },
+ {
+  "seg": 359,
+  "start": 1438.88,
+  "end": 1442.623,
+  "speaker": "Unknown",
+  "en": "Some model providers, they give you the recommended temperature to use with their model.",
+  "zh": "有些模型提供商，会给你推荐配合他们模型使用的 temperature。"
+ },
+ {
+  "seg": 360,
+  "start": 1442.763,
+  "end": 1443.303,
+  "speaker": "Unknown",
+  "en": "Some don't.",
+  "zh": "有些不给。"
+ },
+ {
+  "seg": 361,
+  "start": 1443.924,
+  "end": 1445.986,
+  "speaker": "Unknown",
+  "en": "And some agents have a default.",
+  "zh": "有些智能体有默认值。"
+ },
+ {
+  "seg": 362,
+  "start": 1446.046,
+  "end": 1448.428,
+  "speaker": "Unknown",
+  "en": "Some agents decide based on the model.",
+  "zh": "有些智能体根据模型来决定。"
+ },
+ {
+  "seg": 363,
+  "start": 1449.008,
+  "end": 1451.952,
+  "speaker": "Unknown",
+  "en": "And there are so many combinations that you have to decide.",
+  "zh": "而组合非常多，你必须做出决定。"
+ },
+ {
+  "seg": 364,
+  "start": 1451.972,
+  "end": 1453.534,
+  "speaker": "Unknown",
+  "en": "Do you want to look for every model?",
+  "zh": "你要为每个模型都去查吗？"
+ },
+ {
+  "seg": 365,
+  "start": 1453.654,
+  "end": 1454.815,
+  "speaker": "Unknown",
+  "en": "What is a recommended one?",
+  "zh": "查推荐的是哪个？"
+ },
+ {
+  "seg": 366,
+  "start": 1455.196,
+  "end": 1456.777,
+  "speaker": "Unknown",
+  "en": "If there is none, which do you use?",
+  "zh": "如果没有推荐，你又用哪个？"
+ },
+ {
+  "seg": 367,
+  "start": 1457.118,
+  "end": 1461.763,
+  "speaker": "Unknown",
+  "en": "How do you make sure that people who are doing the same benchmark are using the same setting you chose?",
+  "zh": "你如何确保做同一个基准测试的人用的设置和你选的一样？"
+ },
+ {
+  "seg": 368,
+  "start": 1461.984,
+  "end": 1462.564,
+  "speaker": "Unknown",
+  "en": "It's difficult.",
+  "zh": "这很难。"
+ },
+ {
+  "seg": 369,
+  "start": 1463.595,
+  "end": 1464.576,
+  "speaker": "Unknown",
+  "en": "And TopP as well.",
+  "zh": "TopP 也是。"
+ },
+ {
+  "seg": 370,
+  "start": 1464.656,
+  "end": 1466.477,
+  "speaker": "Unknown",
+  "en": "Do you use 0.95?",
+  "zh": "你用 0.95 吗？"
+ },
+ {
+  "seg": 371,
+  "start": 1466.637,
+  "end": 1468.038,
+  "speaker": "Unknown",
+  "en": "Or do you use 1?",
+  "zh": "还是用 1?"
+ },
+ {
+  "seg": 372,
+  "start": 1468.158,
+  "end": 1470.14,
+  "speaker": "Unknown",
+  "en": "Or do you use any other value?",
+  "zh": "还是用其他任何值？"
+ },
+ {
+  "seg": 373,
+  "start": 1470.32,
+  "end": 1472.241,
+  "speaker": "Unknown",
+  "en": "It's just one setting, and there are so many others.",
+  "zh": "这只是一个设置，还有很多其他的。"
+ },
+ {
+  "seg": 374,
+  "start": 1472.882,
+  "end": 1473.803,
+  "speaker": "Unknown",
+  "en": "And max new tokens.",
+  "zh": "还有 max new tokens(最大新 token 数)。"
+ },
+ {
+  "seg": 375,
+  "start": 1473.823,
+  "end": 1475.864,
+  "speaker": "Unknown",
+  "en": "How many tokens is the model allowed to generate?",
+  "zh": "允许模型生成多少个 token?"
+ },
+ {
+  "seg": 376,
+  "start": 1476.164,
+  "end": 1480.407,
+  "speaker": "Unknown",
+  "en": "You have to decide on this, because there are recommendations by the providers.",
+  "zh": "你必须就此做出决定，因为提供商有推荐。"
+ },
+ {
+  "seg": 377,
+  "start": 1480.427,
+  "end": 1482.249,
+  "speaker": "Unknown",
+  "en": "There are limitations by the hosters.",
+  "zh": "托管方也有限制。"
+ },
+ {
+  "seg": 378,
+  "start": 1484.15,
+  "end": 1486.952,
+  "speaker": "Unknown",
+  "en": "You have to choose something, and usually you have to configure it.",
+  "zh": "你必须选择一个值，而且通常你必须去配置它。"
+ },
+ {
+  "seg": 379,
+  "start": 1487.413,
+  "end": 1490.795,
+  "speaker": "Unknown",
+  "en": "And if you can, you can also set a seed, so the randomness is reduced.",
+  "zh": "如果可以的话，你还可以设置一个 seed(种子)，这样随机性就减少了。"
+ },
+ {
+  "seg": 380,
+  "start": 1491.956,
+  "end": 1495.798,
+  "speaker": "Unknown",
+  "en": "When I started benchmarking, I used temperature zero, so there was less randomness.",
+  "zh": "我开始做基准测试的时候，用的是 temperature 零，这样随机性更少。"
+ },
+ {
+  "seg": 381,
+  "start": 1495.818,
+  "end": 1504.605,
+  "speaker": "Unknown",
+  "en": "There was never no randomness, and I've seen things as small as a traffic driver update to change the actual results I got, even if everything was deterministic.",
+  "zh": "但从来都不是完全没有随机性，我见过小到一次 traffic driver 更新都会改变我得到的实际结果，即使一切都是确定性的。"
+ },
+ {
+  "seg": 382,
+  "start": 1505.165,
+  "end": 1505.966,
+  "speaker": "Unknown",
+  "en": "Oh, it looked like that.",
+  "zh": "哦，看起来是那样的。"
+ },
+ {
+  "seg": 383,
+  "start": 1506.026,
+  "end": 1514.592,
+  "speaker": "Unknown",
+  "en": "Because we have floating point, rounding errors, we have performance optimization, so many effects that change the result even if you use a temperature zero.",
+  "zh": "因为我们有浮点数舍入误差，我们有性能优化，这么多效应都会改变结果，即使你用的是 temperature 零。"
+ },
+ {
+  "seg": 384,
+  "start": 1514.832,
+  "end": 1522.457,
+  "speaker": "Unknown",
+  "en": "And nowadays when the model is recommending temperature one, then you should not set zero, of course, otherwise you would be going against the recommendation.",
+  "zh": "而如今当模型推荐 temperature 一的时候，你当然不应该设成零，否则你就违背了推荐。"
+ },
+ {
+  "seg": 385,
+  "start": 1522.838,
+  "end": 1524.059,
+  "speaker": "Unknown",
+  "en": "In that case, you could set a seed.",
+  "zh": "那种情况下，你可以设置一个 seed。"
+ },
+ {
+  "seg": 386,
+  "start": 1524.479,
+  "end": 1527.321,
+  "speaker": "Unknown",
+  "en": "But even if you choose a seed like 42, it's very popular.",
+  "zh": "但即使你选一个像 42 这样非常流行的 seed,"
+ },
+ {
+  "seg": 387,
+  "start": 1527.821,
+  "end": 1528.202,
+  "speaker": "Unknown",
+  "en": "You know why.",
+  "zh": "你知道为什么的。"
+ },
+ {
+  "seg": 388,
+  "start": 1529.002,
+  "end": 1535.077,
+  "speaker": "Unknown",
+  "en": "And the thing is some model maybe have more luck with that seed and others have less luck with that seed.",
+  "zh": "问题是，有些模型用那个 seed 可能运气更好，另一些模型用那个 seed 运气更差。"
+ },
+ {
+  "seg": 389,
+  "start": 1535.819,
+  "end": 1537.122,
+  "speaker": "Unknown",
+  "en": "It's all choices you have to make.",
+  "zh": "这些全都是你必须做出的选择。"
+ },
+ {
+  "seg": 390,
+  "start": 1538.554,
+  "end": 1546.541,
+  "speaker": "Unknown",
+  "en": "Now, for this choice, which inference we want to use, I have on the left side the normal inference, Corvive Serverless inference.",
+  "zh": "现在，关于用哪个推理的选择，我在左边放的是常规推理，Corvive 无服务器推理。"
+ },
+ {
+  "seg": 391,
+  "start": 1546.941,
+  "end": 1555.208,
+  "speaker": "Unknown",
+  "en": "If you want to follow along and you want to use OpenRouter because you didn't go through getting your own key here, you could use OpenRouter as well.",
+  "zh": "如果你想跟着做，而且你想用 OpenRouter,因为你没有走在这里获取自己 key 的流程，你也可以用 OpenRouter。"
+ },
+ {
+  "seg": 392,
+  "start": 1555.969,
+  "end": 1560.152,
+  "speaker": "Unknown",
+  "en": "In either case, you just use an end file and put in the variable at the bottom here.",
+  "zh": "无论是哪种情况，你只需要用一个 end 文件，把变量放在下面的这里。"
+ },
+ {
+  "seg": 393,
+  "start": 1560.613,
+  "end": 1566.037,
+  "speaker": "Unknown",
+  "en": "You just put the variable, the key in the end file, and then we will use that with the agent.",
+  "zh": "你只要把变量、key 放进 end 文件，然后我们就会在智能体里使用它。"
+ },
+ {
+  "seg": 394,
+  "start": 1568.521,
+  "end": 1575.123,
+  "speaker": "Unknown",
+  "en": "If you use OpenRouter, you have to set some special settings to use our provider, the monthly provider.",
+  "zh": "如果你用 OpenRouter,你必须设置一些特殊设置才能用我们的提供商，monthly 提供商。"
+ },
+ {
+  "seg": 395,
+  "start": 1575.463,
+  "end": 1578.324,
+  "speaker": "Unknown",
+  "en": "This is very important if you are using OpenRouter and benchmarking a model.",
+  "zh": "如果你用 OpenRouter 来给模型做基准测试，这一点非常重要。"
+ },
+ {
+  "seg": 396,
+  "start": 1578.624,
+  "end": 1581.785,
+  "speaker": "Unknown",
+  "en": "There are so many providers, and by default, you get one of these.",
+  "zh": "那里有非常多的提供商，默认情况下，你会拿到其中之一。"
+ },
+ {
+  "seg": 397,
+  "start": 1581.865,
+  "end": 1583.545,
+  "speaker": "Unknown",
+  "en": "They decide which is the best at the moment.",
+  "zh": "由他们决定当前哪个是最好的。"
+ },
+ {
+  "seg": 398,
+  "start": 1583.845,
+  "end": 1591.287,
+  "speaker": "Unknown",
+  "en": "So if you are running a single benchmark run with 89 tasks, you may get half the task with this provider and half the task with the other provider.",
+  "zh": "所以如果你跑一次包含 89 个任务的基准测试，你可能一半的任务用的是这个提供商，另一半的任务用的是另一个提供商。"
+ },
+ {
+  "seg": 399,
+  "start": 1591.567,
+  "end": 1594.908,
+  "speaker": "Unknown",
+  "en": "So you definitely have to set which one you want to use.",
+  "zh": "所以你绝对必须设置你想用哪一个。"
+ },
+ {
+  "seg": 400,
+  "start": 1596.718,
+  "end": 1603,
+  "speaker": "Unknown",
+  "en": "And after all this, you have chosen one part for each of the six layers we went through.",
+  "zh": "在讲了这一切之后，你为我们讲过的六层中的每一层都选择了其中一个部分。"
+ },
+ {
+  "seg": 401,
+  "start": 1603.04,
+  "end": 1605.521,
+  "speaker": "Unknown",
+  "en": "We have chosen terminal bench for our evaluation.",
+  "zh": "我们选择了 terminal bench 作为我们的评估。"
+ },
+ {
+  "seg": 402,
+  "start": 1605.541,
+  "end": 1608.242,
+  "speaker": "Unknown",
+  "en": "We have chosen harbor and a specific version of that.",
+  "zh": "我们选择了 harbor 以及它的一个特定版本。"
+ },
+ {
+  "seg": 403,
+  "start": 1608.642,
+  "end": 1610.302,
+  "speaker": "Unknown",
+  "en": "We have chosen our sandboxes.",
+  "zh": "我们选择了我们的沙箱。"
+ },
+ {
+  "seg": 404,
+  "start": 1610.382,
+  "end": 1615.604,
+  "speaker": "Unknown",
+  "en": "We have chosen terminus 2 as the agent, GLM 5.2, and we have specific settings.",
+  "zh": "我们选择了 terminus 2 作为智能体，GLM 5.2，而且我们有具体的设置。"
+ },
+ {
+  "seg": 405,
+  "start": 1616.424,
+  "end": 1619.045,
+  "speaker": "Unknown",
+  "en": "If you are doing evaluation, you will do the same.",
+  "zh": "如果你做评估，你也会做同样的事。"
+ },
+ {
+  "seg": 406,
+  "start": 1619.745,
+  "end": 1625.327,
+  "speaker": "Unknown",
+  "en": "Whatever framework you use, whatever model you use, you have to make choices, and you should be very clear what you are using.",
+  "zh": "无论你用什么框架，用什么模型，你都必须做出选择，而且你应该非常清楚你用的是什么。"
+ },
+ {
+  "seg": 407,
+  "start": 1626.088,
+  "end": 1631.628,
+  "speaker": "Unknown",
+  "en": "This is important when you are publishing your results so others know what you have actually used and measured.",
+  "zh": "当你发布结果时这一点很重要，这样别人才知道你实际用的是什么、测量的是什么。"
+ },
+ {
+  "seg": 408,
+  "start": 1632.66,
+  "end": 1634.422,
+  "speaker": "Unknown",
+  "en": "So here is another QR code.",
+  "zh": "所以这里是另一个二维码。"
+ },
+ {
+  "seg": 409,
+  "start": 1634.802,
+  "end": 1636.483,
+  "speaker": "Unknown",
+  "en": "This gives you the full configuration.",
+  "zh": "它给你完整的配置。"
+ },
+ {
+  "seg": 410,
+  "start": 1636.503,
+  "end": 1638.445,
+  "speaker": "Unknown",
+  "en": "So you don't have to copy stuff from the slides.",
+  "zh": "这样你就不必从幻灯片上抄东西了。"
+ },
+ {
+  "seg": 411,
+  "start": 1638.805,
+  "end": 1640.947,
+  "speaker": "Unknown",
+  "en": "And here, the formatting has been messed up a little.",
+  "zh": "而且这里的排版有点乱。"
+ },
+ {
+  "seg": 412,
+  "start": 1641.147,
+  "end": 1641.608,
+  "speaker": "Unknown",
+  "en": "Excuse this.",
+  "zh": "请见谅。"
+ },
+ {
+  "seg": 413,
+  "start": 1643.269,
+  "end": 1647.513,
+  "speaker": "Unknown",
+  "en": "If you download this configuration, I will show you in the next slide how to run it.",
+  "zh": "如果你下载这个配置，我会在下一张幻灯片里向你展示如何运行它。"
+ },
+ {
+  "seg": 414,
+  "start": 1647.633,
+  "end": 1651.816,
+  "speaker": "Unknown",
+  "en": "And it will take about five minutes to actually get the results in this case.",
+  "zh": "在这个例子里，实际拿到结果大约需要五分钟。"
+ },
+ {
+  "seg": 415,
+  "start": 1652.437,
+  "end": 1653.638,
+  "speaker": "Unknown",
+  "en": "And I will also do the same.",
+  "zh": "我自己也会做同样的事。"
+ },
+ {
+  "seg": 416,
+  "start": 1654.138,
+  "end": 1658.262,
+  "speaker": "Unknown",
+  "en": "So if you want to download the config, here's the QR code.",
+  "zh": "所以如果你想下载配置，这是二维码。"
+ },
+ {
+  "seg": 417,
+  "start": 1659.764,
+  "end": 1660.904,
+  "speaker": "Unknown",
+  "en": "And I will go to the next one.",
+  "zh": "我会去下一张。"
+ },
+ {
+  "seg": 418,
+  "start": 1661.325,
+  "end": 1664.286,
+  "speaker": "Unknown",
+  "en": "So let me just not just show it, but actually run it.",
+  "zh": "所以让我不只是展示它，而是真正运行它。"
+ },
+ {
+  "seg": 419,
+  "start": 1664.306,
+  "end": 1665.606,
+  "speaker": "Unknown",
+  "en": "So take a look at this.",
+  "zh": "所以看看这个。"
+ },
+ {
+  "seg": 420,
+  "start": 1665.927,
+  "end": 1671.569,
+  "speaker": "Unknown",
+  "en": "What we are doing, we are sourcing the end file to get the API key we defined two slides back.",
+  "zh": "我们在做的，是 source 那个 env 文件来获取我们两张幻灯片之前定义的 API 密钥。"
+ },
+ {
+  "seg": 421,
+  "start": 1672.089,
+  "end": 1677.231,
+  "speaker": "Unknown",
+  "en": "And then we are running it with the uvrunharborrunconfig command and giving it the configuration.",
+  "zh": "然后我们用 uvrunharborrunconfig 命令运行它，并给它配置。"
+ },
+ {
+  "seg": 422,
+  "start": 1677.371,
+  "end": 1678.612,
+  "speaker": "Unknown",
+  "en": "You download it or create it.",
+  "zh": "你下载它或者创建它。"
+ },
+ {
+  "seg": 423,
+  "start": 1679.532,
+  "end": 1682.573,
+  "speaker": "Unknown",
+  "en": "And then we can actually get the results.",
+  "zh": "然后我们就能实际拿到结果。"
+ },
+ {
+  "seg": 424,
+  "start": 1683.034,
+  "end": 1685.935,
+  "speaker": "Unknown",
+  "en": "I will do this right now in the shell.",
+  "zh": "我现在就在 shell 里做这个。"
+ },
+ {
+  "seg": 425,
+  "start": 1686.973,
+  "end": 1691.616,
+  "speaker": "Unknown",
+  "en": "So the first thing, installing the harbor framework, executing the command.",
+  "zh": "首先第一件事，安装 harbor 框架，执行命令。"
+ },
+ {
+  "seg": 426,
+  "start": 1692.016,
+  "end": 1692.877,
+  "speaker": "Unknown",
+  "en": "I will zoom in a bit.",
+  "zh": "我会放大一点。"
+ },
+ {
+  "seg": 427,
+  "start": 1697.68,
+  "end": 1702.844,
+  "speaker": "Unknown",
+  "en": "So if my Wi-Fi is working the way it should, it's full.",
+  "zh": "所以如果我的 Wi-Fi 按它该有的方式工作，它是满格的。"
+ },
+ {
+  "seg": 428,
+  "start": 1704.465,
+  "end": 1705.886,
+  "speaker": "Unknown",
+  "en": "OK. We are letting this run.",
+  "zh": "好。我们让这个跑着。"
+ },
+ {
+  "seg": 429,
+  "start": 1706.506,
+  "end": 1708.828,
+  "speaker": "Unknown",
+  "en": "I will go back in a minute.",
+  "zh": "我一分钟后回来。"
+ },
+ {
+  "seg": 430,
+  "start": 1709.968,
+  "end": 1712.43,
+  "speaker": "Unknown",
+  "en": "So continuing with the presentation.",
+  "zh": "所以继续演示。"
+ },
+ {
+  "seg": 431,
+  "start": 1713.747,
+  "end": 1717.93,
+  "speaker": "Unknown",
+  "en": "So we are running the thing, and it will do just one test.",
+  "zh": "我们在运行这个东西，它只会做一个测试。"
+ },
+ {
+  "seg": 432,
+  "start": 1718.41,
+  "end": 1720.491,
+  "speaker": "Unknown",
+  "en": "I didn't want to use 89 tests for this.",
+  "zh": "我不想为这个用 89 个测试。"
+ },
+ {
+  "seg": 433,
+  "start": 1720.692,
+  "end": 1723.093,
+  "speaker": "Unknown",
+  "en": "Otherwise, we would be sitting an hour over time.",
+  "zh": "否则我们会超时一个小时。"
+ },
+ {
+  "seg": 434,
+  "start": 1723.513,
+  "end": 1726.295,
+  "speaker": "Unknown",
+  "en": "And that is only the time I give every test.",
+  "zh": "而那还只是我给每个测试的时间。"
+ },
+ {
+  "seg": 435,
+  "start": 1726.355,
+  "end": 1728.877,
+  "speaker": "Unknown",
+  "en": "So afterwards, the ratifier has to run and check if it's correct.",
+  "zh": "所以之后，ratifier 还要运行并检查它是否正确。"
+ },
+ {
+  "seg": 436,
+  "start": 1729.317,
+  "end": 1730.478,
+  "speaker": "Unknown",
+  "en": "That takes also some time.",
+  "zh": "那也需要一些时间。"
+ },
+ {
+  "seg": 437,
+  "start": 1730.538,
+  "end": 1731.739,
+  "speaker": "Unknown",
+  "en": "So it takes even longer.",
+  "zh": "所以会花更长时间。"
+ },
+ {
+  "seg": 438,
+  "start": 1732.319,
+  "end": 1738.869,
+  "speaker": "Unknown",
+  "en": "But Harbour pulls the tasks, the TerminalBench 2.0 data set, it uses that from the configuration.",
+  "zh": "但 Harbour 会拉取任务，也就是 TerminalBench 2.0 数据集，它从配置里使用它。"
+ },
+ {
+  "seg": 439,
+  "start": 1739.69,
+  "end": 1747.642,
+  "speaker": "Unknown",
+  "en": "So this is the part where it has TerminalBench version 2.0 in the config.",
+  "zh": "所以这就是配置里有 TerminalBench 版本 2.0 的部分。"
+ },
+ {
+  "seg": 440,
+  "start": 1748.242,
+  "end": 1750.983,
+  "speaker": "Unknown",
+  "en": "Then it starts the sandboxes using a provider we are using.",
+  "zh": "然后它使用我们在用的一个提供商来启动沙箱。"
+ },
+ {
+  "seg": 441,
+  "start": 1751.303,
+  "end": 1755.524,
+  "speaker": "Unknown",
+  "en": "So it creates a sandbox per task, depending on the concurrency, how many it uses.",
+  "zh": "所以它会为每个任务创建一个沙箱，取决于并发数，用多少个。"
+ },
+ {
+  "seg": 442,
+  "start": 1755.984,
+  "end": 1757.084,
+  "speaker": "Unknown",
+  "en": "Then it runs the agent.",
+  "zh": "然后它运行智能体。"
+ },
+ {
+  "seg": 443,
+  "start": 1757.104,
+  "end": 1766.286,
+  "speaker": "Unknown",
+  "en": "It actually goes in the sandbox, installs the agent, and executes the task, gives it a user prompt, basically saying, here, that is what you have to do.",
+  "zh": "它实际进入沙箱，安装智能体，并执行任务，给它一个用户提示词，基本上是说，喏，这就是你要做的事。"
+ },
+ {
+  "seg": 444,
+  "start": 1766.346,
+  "end": 1767.126,
+  "speaker": "Unknown",
+  "en": "The agent does it.",
+  "zh": "智能体把它做完。"
+ },
+ {
+  "seg": 445,
+  "start": 1767.707,
+  "end": 1773.608,
+  "speaker": "Unknown",
+  "en": "And afterwards, it collects the results from the sandbox before it is destroyed.",
+  "zh": "之后，它在沙箱被销毁之前从中收集结果。"
+ },
+ {
+  "seg": 446,
+  "start": 1774.798,
+  "end": 1775.978,
+  "speaker": "Unknown",
+  "en": "And it gets the trajectories.",
+  "zh": "然后它拿到轨迹。"
+ },
+ {
+  "seg": 447,
+  "start": 1776.038,
+  "end": 1777.259,
+  "speaker": "Unknown",
+  "en": "Really, what is the agent doing?",
+  "zh": "说真的，智能体在做什么？"
+ },
+ {
+  "seg": 448,
+  "start": 1777.279,
+  "end": 1778.779,
+  "speaker": "Unknown",
+  "en": "You get a lot of information that way.",
+  "zh": "这样你能得到很多信息。"
+ },
+ {
+  "seg": 449,
+  "start": 1779.559,
+  "end": 1782.22,
+  "speaker": "Unknown",
+  "en": "And this small task, it's one of the smallest.",
+  "zh": "而这个小任务，它是最小的任务之一。"
+ },
+ {
+  "seg": 450,
+  "start": 1782.3,
+  "end": 1789.182,
+  "speaker": "Unknown",
+  "en": "It's just a Git repository where something has been lost, and it should be find it in the Git tree and restore it.",
+  "zh": "这只是一个丢失了某些内容的 Git 仓库，应该在 Git 树里找到它并恢复。"
+ },
+ {
+  "seg": 451,
+  "start": 1789.922,
+  "end": 1791.582,
+  "speaker": "Unknown",
+  "en": "This takes about three to five minutes.",
+  "zh": "这大约需要三到五分钟。"
+ },
+ {
+  "seg": 452,
+  "start": 1791.642,
+  "end": 1793.743,
+  "speaker": "Unknown",
+  "en": "Let's see how far we are here.",
+  "zh": "让我们看看我们到这里进展如何。"
+ },
+ {
+  "seg": 453,
+  "start": 1793.863,
+  "end": 1794.703,
+  "speaker": "Unknown",
+  "en": "It's installed now.",
+  "zh": "现在已经安装好了。"
+ },
+ {
+  "seg": 454,
+  "start": 1795.465,
+  "end": 1799.007,
+  "speaker": "Unknown",
+  "en": "Then we install our want-be client.",
+  "zh": "然后我们安装我们的想成为客户端的东西。"
+ },
+ {
+  "seg": 455,
+  "start": 1799.807,
+  "end": 1805.75,
+  "speaker": "Unknown",
+  "en": "And the next step, in this case, I'm just getting my API key from the 1Password.",
+  "zh": "而下一步，在这个例子里，我只是从 1Password 获取我的 API key。"
+ },
+ {
+  "seg": 456,
+  "start": 1811.393,
+  "end": 1813.634,
+  "speaker": "Unknown",
+  "en": "And then I'm writing the configuration here.",
+  "zh": "然后我在这里写配置。"
+ },
+ {
+  "seg": 457,
+  "start": 1814.434,
+  "end": 1815.735,
+  "speaker": "Unknown",
+  "en": "This is the one you can download.",
+  "zh": "这是你可以下载的那个。"
+ },
+ {
+  "seg": 458,
+  "start": 1815.755,
+  "end": 1818.416,
+  "speaker": "Unknown",
+  "en": "I'm just cutting it into a file.",
+  "zh": "我只是把它剪切到一个文件里。"
+ },
+ {
+  "seg": 459,
+  "start": 1821.618,
+  "end": 1823.319,
+  "speaker": "Unknown",
+  "en": "And loading the end file.",
+  "zh": "然后加载这个 end 文件。"
+ },
+ {
+  "seg": 460,
+  "start": 1823.339,
+  "end": 1825.82,
+  "speaker": "Unknown",
+  "en": "Now the API key is in my environment variables.",
+  "zh": "现在 API key 已经在我的环境变量里了。"
+ },
+ {
+  "seg": 461,
+  "start": 1826.38,
+  "end": 1830.862,
+  "speaker": "Unknown",
+  "en": "And I will just, this is a run command, one, the evaluation.",
+  "zh": "然后我就只是，这是一个 run 命令，第一，这个评估。"
+ },
+ {
+  "seg": 462,
+  "start": 1831.062,
+  "end": 1836.384,
+  "speaker": "Unknown",
+  "en": "So now it's starting to go out, start the sandboxes, install the agent, run it.",
+  "zh": "所以现在它开始往外走，启动沙箱，安装智能体，运行它。"
+ },
+ {
+  "seg": 463,
+  "start": 1837.425,
+  "end": 1838.625,
+  "speaker": "Unknown",
+  "en": "And this is all happening here.",
+  "zh": "这一切都发生在这里。"
+ },
+ {
+  "seg": 464,
+  "start": 1841.766,
+  "end": 1845.228,
+  "speaker": "Unknown",
+  "en": "And while it's doing that, I will go back to the presentation.",
+  "zh": "在它做这件事的同时，我会回到演示文稿。"
+ },
+ {
+  "seg": 465,
+  "start": 1848.531,
+  "end": 1849.051,
+  "speaker": "Unknown",
+  "en": "Next part.",
+  "zh": "下一部分。"
+ },
+ {
+  "seg": 466,
+  "start": 1850.232,
+  "end": 1852.153,
+  "speaker": "Unknown",
+  "en": "Run is evidence, not only is core.",
+  "zh": "Run 是证据，不仅仅是 core。"
+ },
+ {
+  "seg": 467,
+  "start": 1852.253,
+  "end": 1853.653,
+  "speaker": "Unknown",
+  "en": "The formatting is totally messed up here.",
+  "zh": "这里的排版完全乱了。"
+ },
+ {
+  "seg": 468,
+  "start": 1853.673,
+  "end": 1856.074,
+  "speaker": "Unknown",
+  "en": "I will fix the presentation and we will upload it.",
+  "zh": "我会修好演示文稿然后上传它。"
+ },
+ {
+  "seg": 469,
+  "start": 1856.595,
+  "end": 1861.497,
+  "speaker": "Unknown",
+  "en": "This is just the directory of what is in the evaluation folder.",
+  "zh": "这只是 evaluation 文件夹里的内容的目录。"
+ },
+ {
+  "seg": 470,
+  "start": 1861.517,
+  "end": 1864.098,
+  "speaker": "Unknown",
+  "en": "We can create this live as soon as it's done.",
+  "zh": "等它完成之后我们就可以现场创建这个。"
+ },
+ {
+  "seg": 471,
+  "start": 1864.118,
+  "end": 1867.94,
+  "speaker": "Unknown",
+  "en": "Of course, it will take about five minutes should it take right now.",
+  "zh": "当然，它现在大约需要五分钟才对。"
+ },
+ {
+  "seg": 472,
+  "start": 1867.98,
+  "end": 1870.701,
+  "speaker": "Unknown",
+  "en": "It's starting the environment, which is creating the sandboxes.",
+  "zh": "它正在启动环境，也就是在创建沙箱。"
+ },
+ {
+  "seg": 473,
+  "start": 1871.921,
+  "end": 1873.102,
+  "speaker": "Unknown",
+  "en": "So, just letting it run.",
+  "zh": "所以，就让它跑着吧。"
+ },
+ {
+  "seg": 474,
+  "start": 1874.442,
+  "end": 1875.423,
+  "speaker": "Unknown",
+  "en": "This is too early.",
+  "zh": "现在还太早。"
+ },
+ {
+  "seg": 475,
+  "start": 1878.765,
+  "end": 1883.409,
+  "speaker": "Unknown",
+  "en": "And when we have that, we get one task and it is scored.",
+  "zh": "而当我们有了那个之后，我们会得到一个任务，然后它被打分。"
+ },
+ {
+  "seg": 476,
+  "start": 1884.31,
+  "end": 1885.951,
+  "speaker": "Unknown",
+  "en": "It gets a score of one or zero.",
+  "zh": "它会得到一分或零分。"
+ },
+ {
+  "seg": 477,
+  "start": 1885.971,
+  "end": 1887.573,
+  "speaker": "Unknown",
+  "en": "Did it succeed or did it fail?",
+  "zh": "它是成功了还是失败了？"
+ },
+ {
+  "seg": 478,
+  "start": 1887.853,
+  "end": 1899.543,
+  "speaker": "Unknown",
+  "en": "If you do that for the 89 tasks, you get an amount, how many tasks it did, and then you do that over five runs, for instance, and then you get a percentage and you know how many percent of terminal bench did the model get.",
+  "zh": "如果你对 89 个任务都这样做，你会得到一个数量，它完成了多少任务，然后比如你做五次 run，然后你会得到一个百分比，你就知道模型在 terminal bench 上拿到了百分之多少。"
+ },
+ {
+  "seg": 479,
+  "start": 1899.843,
+  "end": 1902.025,
+  "speaker": "Unknown",
+  "en": "And that is usually the score that the labs report.",
+  "zh": "而这通常就是各个实验室报告的分数。"
+ },
+ {
+  "seg": 480,
+  "start": 1902.685,
+  "end": 1905.548,
+  "speaker": "Unknown",
+  "en": "Most people just report the average across five runs.",
+  "zh": "大多数人只是报告五次 run 的平均值。"
+ },
+ {
+  "seg": 481,
+  "start": 1907.468,
+  "end": 1910.009,
+  "speaker": "Unknown",
+  "en": "And this is the installation of the WolfBench Toolkit.",
+  "zh": "而这是 WolfBench Toolkit 的安装。"
+ },
+ {
+  "seg": 482,
+  "start": 1910.489,
+  "end": 1916.15,
+  "speaker": "Unknown",
+  "en": "What we have done before, it was all the Haber framework and TerminalBench, and this is what I programmed, what I created.",
+  "zh": "我们之前做的，全是 Haber 框架和 TerminalBench，而这个是我编程的、我创建的。"
+ },
+ {
+  "seg": 483,
+  "start": 1916.55,
+  "end": 1925.793,
+  "speaker": "Unknown",
+  "en": "The WolfBench Toolkit is a way to work with this data, because otherwise you now have a couple of files and you have some score, but how do you analyze it?",
+  "zh": "WolfBench Toolkit 是一种处理这些数据的方式，因为不然的话你现在就有了一些文件和一些分数，但你要怎么分析它呢？"
+ },
+ {
+  "seg": 484,
+  "start": 1926.113,
+  "end": 1931.674,
+  "speaker": "Unknown",
+  "en": "So this is a collector, what WolfBench does, and it's best if I show it when I open the program.",
+  "zh": "所以这是一个收集器，这就是 WolfBench 做的事，最好是我打开程序给你看。"
+ },
+ {
+  "seg": 485,
+  "start": 1933.254,
+  "end": 1935.095,
+  "speaker": "Unknown",
+  "en": "So let me go back here.",
+  "zh": "那么让我回到这里。"
+ },
+ {
+  "seg": 486,
+  "start": 1936.275,
+  "end": 1939.338,
+  "speaker": "Unknown",
+  "en": "While this is happening, I will just start it in a new shell.",
+  "zh": "趁这个在跑的时候，我就在一个新的 shell 里启动它。"
+ },
+ {
+  "seg": 487,
+  "start": 1943.121,
+  "end": 1945.182,
+  "speaker": "Unknown",
+  "en": "And we just clone it and go in there.",
+  "zh": "我们只是 clone 它然后进去。"
+ },
+ {
+  "seg": 488,
+  "start": 1946.303,
+  "end": 1947.985,
+  "speaker": "Unknown",
+  "en": "So it's open source Apache 2 license.",
+  "zh": "所以它是开源的 Apache 2 许可证。"
+ },
+ {
+  "seg": 489,
+  "start": 1948.745,
+  "end": 1950.387,
+  "speaker": "Unknown",
+  "en": "You can use it for your own projects.",
+  "zh": "你可以把它用在你们自己的项目里。"
+ },
+ {
+  "seg": 490,
+  "start": 1950.787,
+  "end": 1956.151,
+  "speaker": "Unknown",
+  "en": "Of course, you have to adapt it if you are using something else in TerminalBench, but it's easy to adapt nowadays.",
+  "zh": "当然，如果你在 TerminalBench 里用的是别的东西，你就得改编一下，但现在改编起来很容易。"
+ },
+ {
+  "seg": 491,
+  "start": 1956.472,
+  "end": 1957.232,
+  "speaker": "Unknown",
+  "en": "Just tell your agent.",
+  "zh": "只要告诉你的智能体就行。"
+ },
+ {
+  "seg": 492,
+  "start": 1958.673,
+  "end": 1961.556,
+  "speaker": "Unknown",
+  "en": "Quick question, who's using agents for stuff like that?",
+  "zh": "快问一下，有多少人在用智能体做这类事情？"
+ },
+ {
+  "seg": 493,
+  "start": 1964.088,
+  "end": 1964.708,
+  "speaker": "Unknown",
+  "en": "Not everybody?",
+  "zh": "不是所有人？"
+ },
+ {
+  "seg": 494,
+  "start": 1965.468,
+  "end": 1966.149,
+  "speaker": "Unknown",
+  "en": "Oh, I'm surprised.",
+  "zh": "哦，我很惊讶。"
+ },
+ {
+  "seg": 495,
+  "start": 1966.969,
+  "end": 1975.011,
+  "speaker": "Unknown",
+  "en": "I still see a lot of notebooks, by the way, because some people now just pull out their phone, take a screenshot, and say, OK, agent, go.",
+  "zh": "顺便说一句，我仍然看到很多笔记本，因为现在有些人只是掏出手机，截个屏，然后说：好了，智能体，上。"
+ },
+ {
+  "seg": 496,
+  "start": 1975.051,
+  "end": 1976.772,
+  "speaker": "Unknown",
+  "en": "Do whatever he is showing on the stage.",
+  "zh": "去做他在台上展示的东西。"
+ },
+ {
+  "seg": 497,
+  "start": 1978.532,
+  "end": 1978.873,
+  "speaker": "Unknown",
+  "en": "Next year.",
+  "zh": "明年。"
+ },
+ {
+  "seg": 498,
+  "start": 1980.473,
+  "end": 1981.873,
+  "speaker": "Unknown",
+  "en": "OK, so it's downloading.",
+  "zh": "好，它在下载了。"
+ },
+ {
+  "seg": 499,
+  "start": 1982.494,
+  "end": 1986.515,
+  "speaker": "Unknown",
+  "en": "And I'm also downloading all the results I did with all the runs I did so far.",
+  "zh": "而且我也在下载到目前为止我做的所有 run 的全部结果。"
+ },
+ {
+  "seg": 500,
+  "start": 1987.575,
+  "end": 1991.076,
+  "speaker": "Unknown",
+  "en": "So quick spoiler, I did 430 runs right now across",
+  "zh": "所以先剧透一下，我目前跑了 430 次"
+ },
+ {
+  "seg": 501,
+  "start": 1996.143,
+  "end": 1996.743,
+  "speaker": "Unknown",
+  "en": "Where is it?",
+  "zh": "在哪里？"
+ },
+ {
+  "seg": 502,
+  "start": 1997.764,
+  "end": 2000.804,
+  "speaker": "Unknown",
+  "en": "It was 130 runs.",
+  "zh": "之前是 130 次。"
+ },
+ {
+  "seg": 503,
+  "start": 2002.504,
+  "end": 2005.765,
+  "speaker": "Unknown",
+  "en": "But anyway, here are the agents I tested so far.",
+  "zh": "但不管怎样，这是我到目前为止测试过的智能体。"
+ },
+ {
+  "seg": 504,
+  "start": 2006.445,
+  "end": 2009.946,
+  "speaker": "Unknown",
+  "en": "Claude Code, Hermes Agent, OpenClock Cursor, Codex, Klein is not published yet.",
+  "zh": "Claude Code、Hermes Agent、OpenClock Cursor、Codex，Klein 还没发布。"
+ },
+ {
+  "seg": 505,
+  "start": 2010.446,
+  "end": 2011.286,
+  "speaker": "Unknown",
+  "en": "That is on my list.",
+  "zh": "那在我的清单上。"
+ },
+ {
+  "seg": 506,
+  "start": 2011.426,
+  "end": 2012.966,
+  "speaker": "Unknown",
+  "en": "And some other agents.",
+  "zh": "还有一些其他的智能体。"
+ },
+ {
+  "seg": 507,
+  "start": 2013.146,
+  "end": 2016.547,
+  "speaker": "Unknown",
+  "en": "If you are making an agent, contact me if you want to appear as well.",
+  "zh": "如果你在做智能体，想出现在这里的话请联系我。"
+ },
+ {
+  "seg": 508,
+  "start": 2016.947,
+  "end": 2021.028,
+  "speaker": "Unknown",
+  "en": "And some models I tested, many on those, W and B, that was on our own inference.",
+  "zh": "还有我测试过的一些模型，很多在上面，W and B，那是跑在我们自己的推理上的。"
+ },
+ {
+  "seg": 509,
+  "start": 2022.303,
+  "end": 2028.144,
+  "speaker": "Unknown",
+  "en": "So the final cost was unfortunately not as high as it is displayed, almost 40K here.",
+  "zh": "所以最终成本不幸没有显示的那么高，这里将近 4 万。"
+ },
+ {
+  "seg": 510,
+  "start": 2028.865,
+  "end": 2034.266,
+  "speaker": "Unknown",
+  "en": "So some of this is on our own inference, but I just use the prices that have been published.",
+  "zh": "所以其中一部分是在我们自己的推理上跑的，但我只是用已公布的价格。"
+ },
+ {
+  "seg": 511,
+  "start": 2034.926,
+  "end": 2036.707,
+  "speaker": "Unknown",
+  "en": "So let's see where we are here.",
+  "zh": "那么我们来看看我们到这里了。"
+ },
+ {
+  "seg": 512,
+  "start": 2037.027,
+  "end": 2037.787,
+  "speaker": "Unknown",
+  "en": "It's downloaded.",
+  "zh": "它已下载。"
+ },
+ {
+  "seg": 513,
+  "start": 2038.747,
+  "end": 2041.348,
+  "speaker": "Unknown",
+  "en": "So the 13 megabytes, those are the results.",
+  "zh": "这 13 兆字节，就是结果。"
+ },
+ {
+  "seg": 514,
+  "start": 2041.488,
+  "end": 2046.029,
+  "speaker": "Unknown",
+  "en": "If you want to see all the trajectories, those have been uploaded to Weave, and you can just inspect them.",
+  "zh": "如果你想看所有的轨迹，它们已上传到 Weave，你可以直接查看。"
+ },
+ {
+  "seg": 515,
+  "start": 2046.069,
+  "end": 2049.59,
+  "speaker": "Unknown",
+  "en": "You don't have to download gigabytes of data.",
+  "zh": "你不用下载几个 G 的数据。"
+ },
+ {
+  "seg": 516,
+  "start": 2050.828,
+  "end": 2054.432,
+  "speaker": "Unknown",
+  "en": "Now, if you want to use WolfBench, you can set some variables.",
+  "zh": "现在，如果你想使用 WolfBench，你可以设置一些变量。"
+ },
+ {
+  "seg": 517,
+  "start": 2054.472,
+  "end": 2055.993,
+  "speaker": "Unknown",
+  "en": "So it is also an uploader.",
+  "zh": "所以它也是一个上传器。"
+ },
+ {
+  "seg": 518,
+  "start": 2056.033,
+  "end": 2057.695,
+  "speaker": "Unknown",
+  "en": "But I will show you if I just start it.",
+  "zh": "但如果我直接启动它，我会展示给你看。"
+ },
+ {
+  "seg": 519,
+  "start": 2059.857,
+  "end": 2067.104,
+  "speaker": "Unknown",
+  "en": "And this uses a Marimo notebook to provide a dashboard, an easy way to handle all the evaluation data.",
+  "zh": "这使用一个 Marimo notebook 来提供一个仪表盘，一个处理所有评估数据的简单方式。"
+ },
+ {
+  "seg": 520,
+  "start": 2068.193,
+  "end": 2069.754,
+  "speaker": "Unknown",
+  "en": "So any moment now.",
+  "zh": "马上就好。"
+ },
+ {
+  "seg": 521,
+  "start": 2070.634,
+  "end": 2071.054,
+  "speaker": "Unknown",
+  "en": "There it is.",
+  "zh": "在那儿。"
+ },
+ {
+  "seg": 522,
+  "start": 2071.774,
+  "end": 2072.675,
+  "speaker": "Unknown",
+  "en": "So this is a dashboard.",
+  "zh": "所以这是一个仪表盘。"
+ },
+ {
+  "seg": 523,
+  "start": 2072.695,
+  "end": 2075.796,
+  "speaker": "Unknown",
+  "en": "You can enter your information, where you want to upload the traces.",
+  "zh": "你可以输入你的信息，你想把轨迹上传到哪里。"
+ },
+ {
+  "seg": 524,
+  "start": 2075.856,
+  "end": 2079.497,
+  "speaker": "Unknown",
+  "en": "If you have the Weave stuff, then you can discover VMs.",
+  "zh": "如果你有 Weave 的东西，你就可以发现 VM。"
+ },
+ {
+  "seg": 525,
+  "start": 2079.557,
+  "end": 2083.738,
+  "speaker": "Unknown",
+  "en": "If you are using or Hetzner, it will find all your VMs on there.",
+  "zh": "如果你使用的是或 Hetzner，它会找到你上面所有的 VM。"
+ },
+ {
+  "seg": 526,
+  "start": 2084.078,
+  "end": 2086.819,
+  "speaker": "Unknown",
+  "en": "And you can filter which VM names are evaluation VMs.",
+  "zh": "然后你可以筛选哪些 VM 名称是评估 VM。"
+ },
+ {
+  "seg": 527,
+  "start": 2087.459,
+  "end": 2090.721,
+  "speaker": "Unknown",
+  "en": "Because I don't run the Harbor framework on my own laptop usually.",
+  "zh": "因为我通常不在自己的笔记本上跑 Harbor 框架。"
+ },
+ {
+  "seg": 528,
+  "start": 2090.781,
+  "end": 2091.801,
+  "speaker": "Unknown",
+  "en": "I run it in a VM.",
+  "zh": "我在 VM 里跑。"
+ },
+ {
+  "seg": 529,
+  "start": 2092.161,
+  "end": 2097.463,
+  "speaker": "Unknown",
+  "en": "So I can turn off my laptop or my Wi-Fi doesn't go off and the connection to the sandboxes fails.",
+  "zh": "这样我就可以关掉笔记本，或者我的 Wi-Fi 不会断、到沙箱的连接不会失败。"
+ },
+ {
+  "seg": 530,
+  "start": 2098.143,
+  "end": 2100.086,
+  "speaker": "Unknown",
+  "en": "Because that could also affect something.",
+  "zh": "因为那也可能影响某些东西。"
+ },
+ {
+  "seg": 531,
+  "start": 2101.167,
+  "end": 2105.994,
+  "speaker": "Unknown",
+  "en": "In this case, everything is local as soon as I download the stuff which I did.",
+  "zh": "在这个情况下，一旦我下载了东西(我下载了)，一切都在本地。"
+ },
+ {
+  "seg": 532,
+  "start": 2106.314,
+  "end": 2110.38,
+  "speaker": "Unknown",
+  "en": "So I can just scan my local directory and it will find all the run data I already did.",
+  "zh": "所以我可以直接扫描我的本地目录，它会找到我已经做过的所有运行数据。"
+ },
+ {
+  "seg": 533,
+  "start": 2110.941,
+  "end": 2111.842,
+  "speaker": "Unknown",
+  "en": "So here are the 443 unique runs.",
+  "zh": "这里是 443 次唯一运行。"
+ },
+ {
+  "seg": 534,
+  "start": 2114.537,
+  "end": 2121.239,
+  "speaker": "Unknown",
+  "en": "And it shows you here a filter, so every run that has a score is measured.",
+  "zh": "这里它给你一个筛选器，每一次有分数的运行都被计量。"
+ },
+ {
+  "seg": 535,
+  "start": 2121.719,
+  "end": 2123.039,
+  "speaker": "Unknown",
+  "en": "It has to have all the tests.",
+  "zh": "它必须跑完所有测试。"
+ },
+ {
+  "seg": 536,
+  "start": 2123.099,
+  "end": 2126.04,
+  "speaker": "Unknown",
+  "en": "If some tests have not been run, it's not a valid run.",
+  "zh": "如果有些测试没跑，那就不是一次有效运行。"
+ },
+ {
+  "seg": 537,
+  "start": 2126.1,
+  "end": 2127.24,
+  "speaker": "Unknown",
+  "en": "It was just a test run.",
+  "zh": "那只是一次测试运行。"
+ },
+ {
+  "seg": 538,
+  "start": 2127.6,
+  "end": 2129.181,
+  "speaker": "Unknown",
+  "en": "It shouldn't have too many errors or timeouts.",
+  "zh": "它不应有太多错误或超时。"
+ },
+ {
+  "seg": 539,
+  "start": 2129.721,
+  "end": 2133.822,
+  "speaker": "Unknown",
+  "en": "And then I get a list of all of this stuff, and I can choose which models I want to create",
+  "zh": "然后我得到所有这些东西的列表，我可以选哪些模型"
+ },
+ {
+  "seg": 540,
+  "start": 2134.602,
+  "end": 2136.845,
+  "speaker": "Unknown",
+  "en": "a nice chart for.",
+  "zh": "我想为它生成一个漂亮的图表。"
+ },
+ {
+  "seg": 541,
+  "start": 2137.205,
+  "end": 2138.727,
+  "speaker": "Unknown",
+  "en": "In this case, I will just use all of them.",
+  "zh": "在这个情况下，我会直接用全部。"
+ },
+ {
+  "seg": 542,
+  "start": 2139.187,
+  "end": 2148.197,
+  "speaker": "Unknown",
+  "en": "Then you can also just change the names of the models and sometimes you also have to change the thinking because the parameter you give can be changed by the agent.",
+  "zh": "然后你也可以直接改模型的名字，有时候你还必须改 thinking，因为你给的参数可能会被智能体改掉。"
+ },
+ {
+  "seg": 543,
+  "start": 2149.175,
+  "end": 2159.681,
+  "speaker": "Unknown",
+  "en": "Like if you are using a thinking extra high or if you want to use a thinking max mode and your agent doesn't support it, maybe it is called a different way.",
+  "zh": "比如如果你用 thinking extra high，或者你想用 thinking max 模式而你的智能体不支持，也许它叫别的名字。"
+ },
+ {
+  "seg": 544,
+  "start": 2160.302,
+  "end": 2164.704,
+  "speaker": "Unknown",
+  "en": "And then you have to change it so it's really reflecting what has been used actually.",
+  "zh": "然后你就必须改它，这样它才真正反映实际用的是什么。"
+ },
+ {
+  "seg": 545,
+  "start": 2165.965,
+  "end": 2171.168,
+  "speaker": "Unknown",
+  "en": "Now, after all this is done, I can just create my results file.",
+  "zh": "现在，这一切做完之后，我就可以直接创建我的结果文件。"
+ },
+ {
+  "seg": 546,
+  "start": 2171.568,
+  "end": 2173.269,
+  "speaker": "Unknown",
+  "en": "You can upload to Weave here if you have the key.",
+  "zh": "如果你有密钥，你可以在这里上传到 Weave。"
+ },
+ {
+  "seg": 547,
+  "start": 2173.349,
+  "end": 2176.231,
+  "speaker": "Unknown",
+  "en": "I do not have that key, so I right now don't have the button.",
+  "zh": "我没有那个密钥，所以我现在没有那个按钮。"
+ },
+ {
+  "seg": 548,
+  "start": 2177.023,
+  "end": 2178.765,
+  "speaker": "Unknown",
+  "en": "Now I create a save file.",
+  "zh": "现在我创建一个保存文件。"
+ },
+ {
+  "seg": 549,
+  "start": 2179.065,
+  "end": 2181.889,
+  "speaker": "Unknown",
+  "en": "And this is one JSON file that contains all the results.",
+  "zh": "这是一个包含所有结果的 JSON 文件。"
+ },
+ {
+  "seg": 550,
+  "start": 2181.929,
+  "end": 2183.19,
+  "speaker": "Unknown",
+  "en": "You can share that with other people.",
+  "zh": "你可以把这个分享给其他人。"
+ },
+ {
+  "seg": 551,
+  "start": 2183.931,
+  "end": 2188.276,
+  "speaker": "Unknown",
+  "en": "And in the end, I generate a chart, which is an artifact I generate.",
+  "zh": "最后，我生成一个图表，这是我生成的一个工件(artifact)。"
+ },
+ {
+  "seg": 552,
+  "start": 2188.556,
+  "end": 2191.379,
+  "speaker": "Unknown",
+  "en": "So now, from all the results I did, I get a new chart.",
+  "zh": "所以现在，从我做的所有结果中，我得到一张新图表。"
+ },
+ {
+  "seg": 553,
+  "start": 2192.12,
+  "end": 2194.643,
+  "speaker": "Unknown",
+  "en": "And this is the same that I then in the next step.",
+  "zh": "这和我接下来做的是一样的。"
+ },
+ {
+  "seg": 554,
+  "start": 2194.823,
+  "end": 2196.025,
+  "speaker": "Unknown",
+  "en": "I have an uploader as well.",
+  "zh": "我还有一个上传器(uploader)。"
+ },
+ {
+  "seg": 555,
+  "start": 2196.834,
+  "end": 2201.155,
+  "speaker": "Unknown",
+  "en": "After the chart is generated, I just upload it to wolfbench.ai, and it's updated.",
+  "zh": "图表生成之后，我只需把它上传到 wolfbench.ai，它就更新了。"
+ },
+ {
+  "seg": 556,
+  "start": 2201.815,
+  "end": 2207.616,
+  "speaker": "Unknown",
+  "en": "If I activate this option, it replaces the index HTML, and it is online immediately.",
+  "zh": "如果我激活这个选项，它会替换 index HTML，然后立即上线。"
+ },
+ {
+  "seg": 557,
+  "start": 2210.077,
+  "end": 2211.597,
+  "speaker": "Unknown",
+  "en": "So, going back to the present.",
+  "zh": "那么，回到演示。"
+ },
+ {
+  "seg": 558,
+  "start": 2211.657,
+  "end": 2214.237,
+  "speaker": "Unknown",
+  "en": "Oh, let's just check how far the benchmark run.",
+  "zh": "哦，我们来看看基准测试跑到哪了。"
+ },
+ {
+  "seg": 559,
+  "start": 2214.357,
+  "end": 2214.898,
+  "speaker": "Unknown",
+  "en": "Oh, it's done.",
+  "zh": "哦，它跑完了。"
+ },
+ {
+  "seg": 560,
+  "start": 2215.098,
+  "end": 2215.918,
+  "speaker": "Unknown",
+  "en": "See, it's done.",
+  "zh": "看，跑完了。"
+ },
+ {
+  "seg": 561,
+  "start": 2216.058,
+  "end": 2218.218,
+  "speaker": "Unknown",
+  "en": "Trials 1, mean score 1.0.",
+  "zh": "Trials 1，平均分 1.0。"
+ },
+ {
+  "seg": 562,
+  "start": 2218.238,
+  "end": 2220.139,
+  "speaker": "Unknown",
+  "en": "So, it had one task.",
+  "zh": "所以它有一个任务。"
+ },
+ {
+  "seg": 563,
+  "start": 2220.379,
+  "end": 2221.779,
+  "speaker": "Unknown",
+  "en": "It solved the task, so it worked.",
+  "zh": "它解决了这个任务，所以它成功了。"
+ },
+ {
+  "seg": 564,
+  "start": 2224.155,
+  "end": 2226.577,
+  "speaker": "Unknown",
+  "en": "It finished, and it fixed the Git repository.",
+  "zh": "它完成了，并且它修复了这个 Git 仓库。"
+ },
+ {
+  "seg": 565,
+  "start": 2227.457,
+  "end": 2235.062,
+  "speaker": "Unknown",
+  "en": "And this task is now in my directory, and I could import it, but it's not a full run, so it is not displayed by default.",
+  "zh": "而且这个任务现在在我的目录里，我可以导入它，但由于它不是完整运行，所以默认不会显示。"
+ },
+ {
+  "seg": 566,
+  "start": 2236.423,
+  "end": 2241.606,
+  "speaker": "Unknown",
+  "en": "And once we have done that and uploaded this, we can look at what WolfBench provides.",
+  "zh": "一旦我们完成这一步并上传了它，我们就可以看看 WolfBench 提供了什么。"
+ },
+ {
+  "seg": 567,
+  "start": 2241.886,
+  "end": 2243.387,
+  "speaker": "Unknown",
+  "en": "This is also the mindset thing again.",
+  "zh": "这又是心态问题。"
+ },
+ {
+  "seg": 568,
+  "start": 2243.427,
+  "end": 2244.848,
+  "speaker": "Unknown",
+  "en": "What do we want to look at?",
+  "zh": "我们想看什么？"
+ },
+ {
+  "seg": 569,
+  "start": 2247.61,
+  "end": 2250.332,
+  "speaker": "Unknown",
+  "en": "And in this case, this is what we just did.",
+  "zh": "在这个例子里，这就是我们刚才做的事情。"
+ },
+ {
+  "seg": 570,
+  "start": 2251.172,
+  "end": 2252.113,
+  "speaker": "Unknown",
+  "en": "I showed you the dashboard.",
+  "zh": "我给你们看了仪表盘。"
+ },
+ {
+  "seg": 571,
+  "start": 2253.24,
+  "end": 2263.008,
+  "speaker": "Unknown",
+  "en": "And now we have to take a look at the leaderboard and what it means, because the leaderboard itself, whatever it generates, it is not just an answer.",
+  "zh": "现在我们得看看排行榜以及它的含义，因为排行榜本身，不管它生成什么，它不只是一个答案。"
+ },
+ {
+  "seg": 572,
+  "start": 2263.068,
+  "end": 2267.251,
+  "speaker": "Unknown",
+  "en": "It helps you to find a better question, like, what are you looking at?",
+  "zh": "它帮你找到更好的问题，比如，你在看什么？"
+ },
+ {
+  "seg": 573,
+  "start": 2267.291,
+  "end": 2271.094,
+  "speaker": "Unknown",
+  "en": "Do you care about the capability of a model or the reliability of a model?",
+  "zh": "你关心的是一个模型的能力，还是一个模型的可靠性？"
+ },
+ {
+  "seg": 574,
+  "start": 2271.634,
+  "end": 2275.457,
+  "speaker": "Unknown",
+  "en": "And I will show you what that means by going to wolfbench.ai.",
+  "zh": "我将通过打开 wolfbench.ai 来向你们展示这意味着什么。"
+ },
+ {
+  "seg": 575,
+  "start": 2275.477,
+  "end": 2276.118,
+  "speaker": "Unknown",
+  "en": "And the thing is,",
+  "zh": "而问题是，"
+ },
+ {
+  "seg": 576,
+  "start": 2282.441,
+  "end": 2284.222,
+  "speaker": "Unknown",
+  "en": "I will just make it a little smaller.",
+  "zh": "我把它缩小一点。"
+ },
+ {
+  "seg": 577,
+  "start": 2285.282,
+  "end": 2288.283,
+  "speaker": "Unknown",
+  "en": "So they are sorted from left to right, and I have all of the information here.",
+  "zh": "所以它们是从左到右排序的，我在这里可以看到所有信息。"
+ },
+ {
+  "seg": 578,
+  "start": 2288.723,
+  "end": 2293.584,
+  "speaker": "Unknown",
+  "en": "Most benchmarks you look at, they just show the Terminus 2 score, and they only show the average.",
+  "zh": "你看到的大多数基准测试，它们只显示 Terminus 2 分数，而且只显示平均值。"
+ },
+ {
+  "seg": 579,
+  "start": 2293.624,
+  "end": 2301.606,
+  "speaker": "Unknown",
+  "en": "So this is an interactive page, which is used not only to display results, but to create charts that you can then copy and paste and put somewhere else.",
+  "zh": "所以这是一个交互式页面，它不仅用来展示结果，还用来创建图表，然后你可以复制粘贴放到别的地方。"
+ },
+ {
+  "seg": 580,
+  "start": 2301.966,
+  "end": 2306.108,
+  "speaker": "Unknown",
+  "en": "There's a screenshot symbol, so I can show stuff on X, for instance.",
+  "zh": "有一个截图符号，比如我可以在 X 上展示内容。"
+ },
+ {
+  "seg": 581,
+  "start": 2306.128,
+  "end": 2308.848,
+  "speaker": "Unknown",
+  "en": "So if I want to show how did this model do, I can just mark it.",
+  "zh": "所以如果我想展示这个模型表现如何，我只需标记它。"
+ },
+ {
+  "seg": 582,
+  "start": 2309.188,
+  "end": 2310.709,
+  "speaker": "Unknown",
+  "en": "I can remove some of the bars.",
+  "zh": "我可以移除一些条形。"
+ },
+ {
+  "seg": 583,
+  "start": 2311.469,
+  "end": 2314.032,
+  "speaker": "Unknown",
+  "en": "I'll reorder the bars so it's interactive.",
+  "zh": "我可以重新排列条形的顺序，所以它是交互式的。"
+ },
+ {
+  "seg": 584,
+  "start": 2314.212,
+  "end": 2316.295,
+  "speaker": "Unknown",
+  "en": "So I can create my report that way.",
+  "zh": "这样我就能创建我的报告。"
+ },
+ {
+  "seg": 585,
+  "start": 2317.256,
+  "end": 2319.778,
+  "speaker": "Unknown",
+  "en": "And it also has it in the URL.",
+  "zh": "而且它也保存在 URL 里。"
+ },
+ {
+  "seg": 586,
+  "start": 2319.999,
+  "end": 2326.486,
+  "speaker": "Unknown",
+  "en": "So everybody can, if you give the URL to this, they see the same thing you had on your screen.",
+  "zh": "所以每个人，只要你把这个 URL 给他们，他们看到的就和你屏幕上的一样。"
+ },
+ {
+  "seg": 587,
+  "start": 2327.187,
+  "end": 2328.188,
+  "speaker": "Unknown",
+  "en": "So I'm switching over here.",
+  "zh": "所以我切换到这里。"
+ },
+ {
+  "seg": 588,
+  "start": 2332.332,
+  "end": 2340.355,
+  "speaker": "Unknown",
+  "en": "And it looks a bit overwhelming sometimes because there are so many information on the same bar.",
+  "zh": "它有时候看起来有点让人眼花缭乱，因为同一个条形上有太多信息。"
+ },
+ {
+  "seg": 589,
+  "start": 2340.895,
+  "end": 2343.976,
+  "speaker": "Unknown",
+  "en": "Like I said, you can filter to different information to make it a simple bar.",
+  "zh": "就像我说的，你可以筛选不同的信息，让它变成一个简单的条形。"
+ },
+ {
+  "seg": 590,
+  "start": 2344.236,
+  "end": 2354.319,
+  "speaker": "Unknown",
+  "en": "But I like to see this because the darker part at the bottom, that percentage is how many percent of the whole benchmark has a model solved in every run of the five runs I did.",
+  "zh": "但我喜欢看这个，因为底部颜色更深的部分，那个百分比是模型的每次运行(在我做的五次运行中)解决了整个基准测试的百分之多少。"
+ },
+ {
+  "seg": 591,
+  "start": 2354.64,
+  "end": 2356.3,
+  "speaker": "Unknown",
+  "en": "So that is what I call consistency.",
+  "zh": "所以这就是我所说的一致性。"
+ },
+ {
+  "seg": 592,
+  "start": 2356.66,
+  "end": 2361.642,
+  "speaker": "Unknown",
+  "en": "This model and this agent, they have solved the task, 60% of the whole benchmark,",
+  "zh": "这个模型和这个智能体，它们解决了整个基准测试的 60%，"
+ },
+ {
+  "seg": 593,
+  "start": 2362.182,
+  "end": 2362.864,
+  "speaker": "Unknown",
+  "en": "every time.",
+  "zh": "每一次都是。"
+ },
+ {
+  "seg": 594,
+  "start": 2363.505,
+  "end": 2371.603,
+  "speaker": "Unknown",
+  "en": "And this means if that is a very high score, the model is very reliable because if it solves the test, you can expect it to solve the test all the time.",
+  "zh": "这意味着，如果这是一个非常高的分数，那么这个模型是非常可靠的，因为如果它解决了测试，你可以预期它一直都能解决测试。"
+ },
+ {
+  "seg": 595,
+  "start": 2372.429,
+  "end": 2377.093,
+  "speaker": "Unknown",
+  "en": "While the yellow score is the average, the one score that usually is reported.",
+  "zh": "而黄色分数是平均值，也就是通常被报告的那个单一分数。"
+ },
+ {
+  "seg": 596,
+  "start": 2377.614,
+  "end": 2382.878,
+  "speaker": "Unknown",
+  "en": "And the up and down arrows around it, those are the best and the worst scores in one of the five runs.",
+  "zh": "而它周围的上下箭头，那是五次运行中其中一次的最高分和最低分。"
+ },
+ {
+  "seg": 597,
+  "start": 2383.439,
+  "end": 2386.841,
+  "speaker": "Unknown",
+  "en": "So if those are very close to each other, then there's not a high variance.",
+  "zh": "所以如果它们彼此非常接近，那么方差就不高。"
+ },
+ {
+  "seg": 598,
+  "start": 2387.322,
+  "end": 2389.003,
+  "speaker": "Unknown",
+  "en": "So you can expect the same score.",
+  "zh": "所以你可以预期得到相同的分数。"
+ },
+ {
+  "seg": 599,
+  "start": 2389.264,
+  "end": 2393.267,
+  "speaker": "Unknown",
+  "en": "If they are very far apart, like we see here, from 79% to 60%, that means there's a lot of variance.",
+  "zh": "如果它们相差很远，就像我们在这里看到的，从 79% 到 60%，那就意味着方差很大。"
+ },
+ {
+  "seg": 600,
+  "start": 2396.91,
+  "end": 2401.495,
+  "speaker": "Unknown",
+  "en": "And that is a sign that the model, there's a lot of randomness involved here.",
+  "zh": "而这表明这个模型,这里涉及很多随机性。"
+ },
+ {
+  "seg": 601,
+  "start": 2401.815,
+  "end": 2404.517,
+  "speaker": "Unknown",
+  "en": "You can't really trust it to execute the task.",
+  "zh": "你不能真正信任它去执行任务。"
+ },
+ {
+  "seg": 602,
+  "start": 2404.798,
+  "end": 2407.721,
+  "speaker": "Unknown",
+  "en": "Even if it has a high score, it's a bit random if it does it.",
+  "zh": "即使它分数很高,它做不做得成还是有点随机的。"
+ },
+ {
+  "seg": 603,
+  "start": 2408.081,
+  "end": 2410.503,
+  "speaker": "Unknown",
+  "en": "And the highest mark, the star, that is the ceiling.",
+  "zh": "而最高标记,星星,那是天花板。"
+ },
+ {
+  "seg": 604,
+  "start": 2410.783,
+  "end": 2413.947,
+  "speaker": "Unknown",
+  "en": "How many percent of the benchmark has it solved at all?",
+  "zh": "它在基准测试上总共解出了多少百分比?"
+ },
+ {
+  "seg": 605,
+  "start": 2414.127,
+  "end": 2414.727,
+  "speaker": "Unknown",
+  "en": "At least once.",
+  "zh": "至少一次。"
+ },
+ {
+  "seg": 606,
+  "start": 2415.608,
+  "end": 2416.848,
+  "speaker": "Unknown",
+  "en": "The amount of tasks.",
+  "zh": "任务的数量。"
+ },
+ {
+  "seg": 607,
+  "start": 2417.348,
+  "end": 2428.811,
+  "speaker": "Unknown",
+  "en": "That tells you how, yeah, in an ideal case, that would be the score the model should get all the time if it's perfect and always doing it, although that would also be an indicator that it is probably Benchmax for this.",
+  "zh": "这告诉你,是的,理想情况下,如果模型完美且每次都做到,那应该就是它一直能拿到的分数,不过那也会是一个迹象,说明它很可能是为这个基准刷分了(Benchmax)。"
+ },
+ {
+  "seg": 608,
+  "start": 2429.271,
+  "end": 2431.132,
+  "speaker": "Unknown",
+  "en": "But it shows you how far it can go.",
+  "zh": "但它展示了它能达到多远。"
+ },
+ {
+  "seg": 609,
+  "start": 2431.572,
+  "end": 2438.773,
+  "speaker": "Unknown",
+  "en": "So what you want is a very, very high ceiling, a very stable average, and a very high solid base.",
+  "zh": "所以你想要的是非常非常高的天花板,非常稳定的平均分,以及非常高的扎实底线。"
+ },
+ {
+  "seg": 610,
+  "start": 2439.294,
+  "end": 2444.915,
+  "speaker": "Unknown",
+  "en": "And if a model has the same score and they are almost the same, you can still see that the solid base",
+  "zh": "如果一个模型分数相同,而且它们几乎一样,你仍然可以看到扎实底线"
+ },
+ {
+  "seg": 611,
+  "start": 2445.635,
+  "end": 2446.355,
+  "speaker": "Unknown",
+  "en": "It's different.",
+  "zh": "是不同的。"
+ },
+ {
+  "seg": 612,
+  "start": 2446.435,
+  "end": 2449.517,
+  "speaker": "Unknown",
+  "en": "And then in that case, I would pick one that has a higher solid base.",
+  "zh": "而在这种情况下,我会选扎实底线更高的那个。"
+ },
+ {
+  "seg": 613,
+  "start": 2450.417,
+  "end": 2452.698,
+  "speaker": "Unknown",
+  "en": "Like here, it's 73% to 74%.",
+  "zh": "比如这里是 73% 对 74%。"
+ },
+ {
+  "seg": 614,
+  "start": 2453.278,
+  "end": 2454.098,
+  "speaker": "Unknown",
+  "en": "It's almost the same.",
+  "zh": "几乎一样。"
+ },
+ {
+  "seg": 615,
+  "start": 2454.678,
+  "end": 2458.22,
+  "speaker": "Unknown",
+  "en": "If you just look at the average score, it's almost exactly the same thing.",
+  "zh": "如果只看平均分,几乎完全是同一回事。"
+ },
+ {
+  "seg": 616,
+  "start": 2458.5,
+  "end": 2460.901,
+  "speaker": "Unknown",
+  "en": "Could be Ryan's, just Ryan's.",
+  "zh": "可能是 Ryan 的,只是 Ryan 的。"
+ },
+ {
+  "seg": 617,
+  "start": 2461.221,
+  "end": 2463.182,
+  "speaker": "Unknown",
+  "en": "But this is a bigger difference.",
+  "zh": "但这个差异更大。"
+ },
+ {
+  "seg": 618,
+  "start": 2463.222,
+  "end": 2464.342,
+  "speaker": "Unknown",
+  "en": "It's 6% points.",
+  "zh": "是 6 个百分点。"
+ },
+ {
+  "seg": 619,
+  "start": 2464.462,
+  "end": 2466.583,
+  "speaker": "Unknown",
+  "en": "And that is a noticeable gap.",
+  "zh": "这是一个明显的差距。"
+ },
+ {
+  "seg": 620,
+  "start": 2466.603,
+  "end": 2471.365,
+  "speaker": "Unknown",
+  "en": "So you see the extra high thinking is better than the medium thinking, as we expected.",
+  "zh": "所以你可以看到超高思考比中等思考更好,正如我们预期的那样。"
+ },
+ {
+  "seg": 621,
+  "start": 2472.085,
+  "end": 2476.131,
+  "speaker": "Unknown",
+  "en": "But if we are looking at, that is also very interesting.",
+  "zh": "但如果我们看,这也很有意思。"
+ },
+ {
+  "seg": 622,
+  "start": 2476.151,
+  "end": 2477.473,
+  "speaker": "Unknown",
+  "en": "I will show it in the presentation.",
+  "zh": "我会在演示文稿里展示它。"
+ },
+ {
+  "seg": 623,
+  "start": 2477.493,
+  "end": 2479.436,
+  "speaker": "Unknown",
+  "en": "Let me switch to the presentation.",
+  "zh": "让我切换到演示文稿。"
+ },
+ {
+  "seg": 624,
+  "start": 2480.98,
+  "end": 2483.642,
+  "speaker": "Unknown",
+  "en": "Well, these were the different ways to imagine the model.",
+  "zh": "好的,这些是设想模型的不同方式。"
+ },
+ {
+  "seg": 625,
+  "start": 2483.942,
+  "end": 2485.023,
+  "speaker": "Unknown",
+  "en": "Ah, risk and cost tolerance.",
+  "zh": "啊,风险和成本容忍度。"
+ },
+ {
+  "seg": 626,
+  "start": 2485.063,
+  "end": 2493.169,
+  "speaker": "Unknown",
+  "en": "I have to show you this, because this is something, if you look at the second best model on my evaluation, it was Gemini 3.5 Flash.",
+  "zh": "我必须给你看这个,因为如果你看我的评测中第二好的模型,它是 Gemini 3.5 Flash。"
+ },
+ {
+  "seg": 627,
+  "start": 2493.709,
+  "end": 2497.852,
+  "speaker": "Unknown",
+  "en": "So this model, a Flash model, is almost as good as GBT 5.5.",
+  "zh": "所以这个模型,一个 Flash 模型,几乎和 GBT 5.5 一样好。"
+ },
+ {
+  "seg": 628,
+  "start": 2498.292,
+  "end": 2498.873,
+  "speaker": "Unknown",
+  "en": "So what gives?",
+  "zh": "那是怎么回事?"
+ },
+ {
+  "seg": 629,
+  "start": 2499.373,
+  "end": 2504.137,
+  "speaker": "Unknown",
+  "en": "If I just look at terminus, so we don't have so many bars, and I can also say I just want to compare these two.",
+  "zh": "如果我只看 terminus,这样柱子就不会太多,我也可以说我只想比较这两个。"
+ },
+ {
+  "seg": 630,
+  "start": 2505.461,
+  "end": 2507.723,
+  "speaker": "Unknown",
+  "en": "And yeah, it's a great model, Gemini 3.5 Flash.",
+  "zh": "是的,它是一个很棒的模型,Gemini 3.5 Flash。"
+ },
+ {
+  "seg": 631,
+  "start": 2508.084,
+  "end": 2514.431,
+  "speaker": "Unknown",
+  "en": "But if I look at how did it achieve that, I have a 3D view, which shows you how many tokens it used to achieve that.",
+  "zh": "但如果我观察它是如何做到的,我有一个 3D 视图,显示它用了多少 token 来达成这个成绩。"
+ },
+ {
+  "seg": 632,
+  "start": 2515.031,
+  "end": 2521.678,
+  "speaker": "Unknown",
+  "en": "And it has been billions of tokens to get that score, while GBT 5.5 used much less.",
+  "zh": "而它用了数十亿 token 才拿到那个分数,而 GBT 5.5 用得少得多。"
+ },
+ {
+  "seg": 633,
+  "start": 2522.519,
+  "end": 2523.2,
+  "speaker": "Unknown",
+  "en": "Let me zoom in.",
+  "zh": "让我放大。"
+ },
+ {
+  "seg": 634,
+  "start": 2526.343,
+  "end": 2533.633,
+  "speaker": "Unknown",
+  "en": "So 136 million tokens for GBT 5.5 compared to 1.65 billion tokens for Gemini 3.5 Flash.",
+  "zh": "所以 GBT 5.5 是 1.36 亿 token,而 Gemini 3.5 Flash 是 16.5 亿 token。"
+ },
+ {
+  "seg": 635,
+  "start": 2534.495,
+  "end": 2540.463,
+  "speaker": "Unknown",
+  "en": "And the thing is, if we also look at the price, which is another 3D view, this is a cost.",
+  "zh": "而且问题是,如果我们还看价格,那是另一个 3D 视图,这是成本。"
+ },
+ {
+  "seg": 636,
+  "start": 2541.144,
+  "end": 2542.306,
+  "speaker": "Unknown",
+  "en": "And I can even",
+  "zh": "我甚至可以"
+ },
+ {
+  "seg": 637,
+  "start": 2542.846,
+  "end": 2544.147,
+  "speaker": "Unknown",
+  "en": "Show both at the same time.",
+  "zh": "同时显示两者。"
+ },
+ {
+  "seg": 638,
+  "start": 2544.187,
+  "end": 2545.227,
+  "speaker": "Unknown",
+  "en": "The cost is now a shadow.",
+  "zh": "成本现在是一个阴影。"
+ },
+ {
+  "seg": 639,
+  "start": 2545.707,
+  "end": 2547.648,
+  "speaker": "Unknown",
+  "en": "You see that the cost is over here.",
+  "zh": "你可以看到成本在这边。"
+ },
+ {
+  "seg": 640,
+  "start": 2547.688,
+  "end": 2549.949,
+  "speaker": "Unknown",
+  "en": "It's overlapped because it used so many tokens.",
+  "zh": "它被重叠了,因为它用了太多 token。"
+ },
+ {
+  "seg": 641,
+  "start": 2550.429,
+  "end": 2560.474,
+  "speaker": "Unknown",
+  "en": "But this shows that Gemini 3.5 flash is very close to GBT 5.5, but it used so many tokens that it costs even more than GBT 5.5 would have cost.",
+  "zh": "但这表明 Gemini 3.5 Flash 非常接近 GBT 5.5,但它用了那么多 token,以至于它的成本甚至比 GBT 5.5 的成本还高。"
+ },
+ {
+  "seg": 642,
+  "start": 2560.514,
+  "end": 2561.694,
+  "speaker": "Unknown",
+  "en": "So it costs, in this case, $620.",
+  "zh": "所以在这个例子中,它花费 620 美元。"
+ },
+ {
+  "seg": 643,
+  "start": 2563.815,
+  "end": 2565.576,
+  "speaker": "Unknown",
+  "en": "Compared to 497.",
+  "zh": "相比 497 美元。"
+ },
+ {
+  "seg": 644,
+  "start": 2565.616,
+  "end": 2567.576,
+  "speaker": "Unknown",
+  "en": "So 500 to over 600.",
+  "zh": "所以是 500 对 600 多。"
+ },
+ {
+  "seg": 645,
+  "start": 2568.117,
+  "end": 2571.338,
+  "speaker": "Unknown",
+  "en": "So it's not that you have to think about this.",
+  "zh": "所以并不是说你必须考虑这个问题。"
+ },
+ {
+  "seg": 646,
+  "start": 2571.378,
+  "end": 2573.378,
+  "speaker": "Unknown",
+  "en": "Do you want to use a fast and cheap model?",
+  "zh": "你想用一个快而便宜的模型吗?"
+ },
+ {
+  "seg": 647,
+  "start": 2574.239,
+  "end": 2576.94,
+  "speaker": "Unknown",
+  "en": "But you have to compare, is it really faster and cheaper?",
+  "zh": "但你必须比较,它真的更快更便宜吗?"
+ },
+ {
+  "seg": 648,
+  "start": 2577.22,
+  "end": 2579.18,
+  "speaker": "Unknown",
+  "en": "Because all those tokens also take time.",
+  "zh": "因为所有那些 token 也需要时间。"
+ },
+ {
+  "seg": 649,
+  "start": 2579.681,
+  "end": 2580.381,
+  "speaker": "Unknown",
+  "en": "That is one thing.",
+  "zh": "这是一方面。"
+ },
+ {
+  "seg": 650,
+  "start": 2582.301,
+  "end": 2583.682,
+  "speaker": "Unknown",
+  "en": "Going back to the presentation.",
+  "zh": "回到演示文稿。"
+ },
+ {
+  "seg": 651,
+  "start": 2585.501,
+  "end": 2587.544,
+  "speaker": "Unknown",
+  "en": "And it's a decision surface.",
+  "zh": "这是一个决策面。"
+ },
+ {
+  "seg": 652,
+  "start": 2587.564,
+  "end": 2588.565,
+  "speaker": "Unknown",
+  "en": "It's not just a chart.",
+  "zh": "它不只是一张图表。"
+ },
+ {
+  "seg": 653,
+  "start": 2588.945,
+  "end": 2592.189,
+  "speaker": "Unknown",
+  "en": "So you load your snapshot, and you can add your own.",
+  "zh": "所以你加载你的快照，然后你可以添加你自己的。"
+ },
+ {
+  "seg": 654,
+  "start": 2592.209,
+  "end": 2594.772,
+  "speaker": "Unknown",
+  "en": "If you did it and you execute the code, you would see them.",
+  "zh": "如果你这么做了并执行代码，你就会看到它们。"
+ },
+ {
+  "seg": 655,
+  "start": 2595.333,
+  "end": 2598.697,
+  "speaker": "Unknown",
+  "en": "And then you can filter, like I showed you, different metrics and models.",
+  "zh": "然后你可以像我在前面展示的那样，筛选不同的指标和模型。"
+ },
+ {
+  "seg": 656,
+  "start": 2599.137,
+  "end": 2601.039,
+  "speaker": "Unknown",
+  "en": "You can reorder the bars and export your own.",
+  "zh": "你可以重新排列柱条顺序并导出你自己的。"
+ },
+ {
+  "seg": 657,
+  "start": 2602.081,
+  "end": 2607.587,
+  "speaker": "Unknown",
+  "en": "And then you can show this and make a social post about this or write an article, whatever you do.",
+  "zh": "然后你可以展示这个，就这个发一条社交媒体帖子或者写一篇文章，随你做什么。"
+ },
+ {
+  "seg": 658,
+  "start": 2608.648,
+  "end": 2609.289,
+  "speaker": "Unknown",
+  "en": "You can do this.",
+  "zh": "你可以做到这些。"
+ },
+ {
+  "seg": 659,
+  "start": 2609.749,
+  "end": 2613.213,
+  "speaker": "Unknown",
+  "en": "In this case, I was looking at which is the best model on this benchmark.",
+  "zh": "在这个例子里，我在看哪个是在这个基准测试上最好的模型。"
+ },
+ {
+  "seg": 660,
+  "start": 2613.633,
+  "end": 2618.158,
+  "speaker": "Unknown",
+  "en": "So my number one right now is GBT 5.5 with Codex.",
+  "zh": "所以我现在排第一的是 GBT 5.5 配 Codex。"
+ },
+ {
+  "seg": 661,
+  "start": 2618.318,
+  "end": 2624.945,
+  "speaker": "Unknown",
+  "en": "It is even better than Fable because if you are asking what happened to Fable, that is also very interesting to take a look at.",
+  "zh": "它甚至比 Fable 更好，因为如果你问 Fable 怎么了，那也是非常值得一看的。"
+ },
+ {
+  "seg": 662,
+  "start": 2625.51,
+  "end": 2629.133,
+  "speaker": "Unknown",
+  "en": "If I put Fable in here, it had 13 refusals.",
+  "zh": "如果我把 Fable 放进来，它有 13 次拒绝。"
+ },
+ {
+  "seg": 663,
+  "start": 2629.173,
+  "end": 2630.034,
+  "speaker": "Unknown",
+  "en": "So it refused.",
+  "zh": "所以它拒绝了。"
+ },
+ {
+  "seg": 664,
+  "start": 2630.394,
+  "end": 2633.537,
+  "speaker": "Unknown",
+  "en": "And if you take a look at the cost, it goes so far.",
+  "zh": "而且如果你看一下成本，它能到那么高。"
+ },
+ {
+  "seg": 665,
+  "start": 2634.678,
+  "end": 2636.519,
+  "speaker": "Unknown",
+  "en": "It was my most expensive benchmark.",
+  "zh": "它是我最贵的基准测试。"
+ },
+ {
+  "seg": 666,
+  "start": 2636.879,
+  "end": 2637.56,
+  "speaker": "Unknown",
+  "en": "Don't tell anyone.",
+  "zh": "别告诉任何人。"
+ },
+ {
+  "seg": 667,
+  "start": 2638.461,
+  "end": 2641.563,
+  "speaker": "Unknown",
+  "en": "Because it cost $11,000 just to test Fable.",
+  "zh": "因为光是测试 Fable 就花了 11,000 美元。"
+ },
+ {
+  "seg": 668,
+  "start": 2641.623,
+  "end": 2644.105,
+  "speaker": "Unknown",
+  "en": "And it failed because it refused so many tests.",
+  "zh": "而且它失败了，因为它拒绝了这么多测试。"
+ },
+ {
+  "seg": 669,
+  "start": 2644.125,
+  "end": 2644.365,
+  "speaker": "Unknown",
+  "en": "Whoops.",
+  "zh": "哎呀。"
+ },
+ {
+  "seg": 670,
+  "start": 2645.61,
+  "end": 2648.873,
+  "speaker": "Unknown",
+  "en": "And that is also something, of course, you have to decide.",
+  "zh": "当然，这也是你必须要做决定的事情。"
+ },
+ {
+  "seg": 671,
+  "start": 2649.454,
+  "end": 2651.876,
+  "speaker": "Unknown",
+  "en": "That is when people say, oh, I don't trust this benchmark.",
+  "zh": "这就是当人们说，哦，我不信任这个基准测试。"
+ },
+ {
+  "seg": 672,
+  "start": 2652.017,
+  "end": 2653.138,
+  "speaker": "Unknown",
+  "en": "This model is in the first place.",
+  "zh": "这个模型排第一。"
+ },
+ {
+  "seg": 673,
+  "start": 2653.918,
+  "end": 2655.44,
+  "speaker": "Unknown",
+  "en": "Look at what happened here.",
+  "zh": "看看这里发生了什么。"
+ },
+ {
+  "seg": 674,
+  "start": 2656.001,
+  "end": 2660.245,
+  "speaker": "Unknown",
+  "en": "And the benchmark has to be transparent so you can look at the traces and see what has happened.",
+  "zh": "而基准测试必须透明，这样你才能查看轨迹、看看发生了什么。"
+ },
+ {
+  "seg": 675,
+  "start": 2660.305,
+  "end": 2661.926,
+  "speaker": "Unknown",
+  "en": "Then it makes sense suddenly.",
+  "zh": "然后它突然就说得通了。"
+ },
+ {
+  "seg": 676,
+  "start": 2663.233,
+  "end": 2663.473,
+  "speaker": "Unknown",
+  "en": "OK.",
+  "zh": "好。"
+ },
+ {
+  "seg": 677,
+  "start": 2664.214,
+  "end": 2664.674,
+  "speaker": "Unknown",
+  "en": "Going back.",
+  "zh": "回去。"
+ },
+ {
+  "seg": 678,
+  "start": 2665.194,
+  "end": 2668.636,
+  "speaker": "Unknown",
+  "en": "And yeah, like I said, the best model was Codex with GPT 5.5.",
+  "zh": "是的，就像我说的，最好的模型是 Codex 配 GPT 5.5。"
+ },
+ {
+  "seg": 679,
+  "start": 2668.956,
+  "end": 2672.459,
+  "speaker": "Unknown",
+  "en": "But as you can see, it was pretty, very expensive.",
+  "zh": "但如你所见，它相当，非常贵。"
+ },
+ {
+  "seg": 680,
+  "start": 2673.219,
+  "end": 2673.779,
+  "speaker": "Unknown",
+  "en": "Let's zoom in.",
+  "zh": "我们放大看。"
+ },
+ {
+  "seg": 681,
+  "start": 2674.3,
+  "end": 2675.801,
+  "speaker": "Unknown",
+  "en": "It cost almost $1,000.",
+  "zh": "它花了将近 1,000 美元。"
+ },
+ {
+  "seg": 682,
+  "start": 2676.481,
+  "end": 2679.223,
+  "speaker": "Unknown",
+  "en": "While Cursor, with the same model,",
+  "zh": "而 Cursor，用同一个模型，"
+ },
+ {
+  "seg": 683,
+  "start": 2680.134,
+  "end": 2682.195,
+  "speaker": "Unknown",
+  "en": "Cost only 282.",
+  "zh": "只花了 282。"
+ },
+ {
+  "seg": 684,
+  "start": 2682.596,
+  "end": 2685.498,
+  "speaker": "Unknown",
+  "en": "So that was very cheap compared to the other one.",
+  "zh": "所以相比另一个，这非常便宜。"
+ },
+ {
+  "seg": 685,
+  "start": 2686.318,
+  "end": 2688.079,
+  "speaker": "Unknown",
+  "en": "And it used a little less tokens here.",
+  "zh": "而且它在这里用的 token 也少一点。"
+ },
+ {
+  "seg": 686,
+  "start": 2688.86,
+  "end": 2693.903,
+  "speaker": "Unknown",
+  "en": "But yeah, you could say, OK, this is the best combination.",
+  "zh": "不过是的，你可以说，好，这是最好的组合。"
+ },
+ {
+  "seg": 687,
+  "start": 2693.923,
+  "end": 2698.807,
+  "speaker": "Unknown",
+  "en": "But maybe the other one is, from a price and performance perspective, the better one.",
+  "zh": "但也许从价格和性能的角度看，另一个才是更好的那个。"
+ },
+ {
+  "seg": 688,
+  "start": 2700.027,
+  "end": 2701.768,
+  "speaker": "Unknown",
+  "en": "And Terminus also had the highest ceiling.",
+  "zh": "而 Terminus 也拥有最高的上限。"
+ },
+ {
+  "seg": 689,
+  "start": 2702.329,
+  "end": 2705.971,
+  "speaker": "Unknown",
+  "en": "But if the scores are very close to each other, that could be right.",
+  "zh": "但如果分数彼此非常接近，那有可能是对的。"
+ },
+ {
+  "seg": 690,
+  "start": 2705.991,
+  "end": 2709.774,
+  "speaker": "Unknown",
+  "en": "So you would have to do 10 runs or even more to be very sure.",
+  "zh": "所以你得跑 10 次甚至更多次才能非常确定。"
+ },
+ {
+  "seg": 691,
+  "start": 2709.834,
+  "end": 2715.098,
+  "speaker": "Unknown",
+  "en": "But you have to make a choice sometime and pick one and go with it.",
+  "zh": "但你总得在某个时候做出选择，挑一个，然后用下去。"
+ },
+ {
+  "seg": 692,
+  "start": 2716.98,
+  "end": 2723.885,
+  "speaker": "Unknown",
+  "en": "This was also the thing that I just showed, Gemini 3.5 flash compared to GBD 5.5, lower score, bigger bill.",
+  "zh": "这也是我刚才展示的那个情况，Gemini 3.5 flash 对比 GBD 5.5，分数更低，账单更大。"
+ },
+ {
+  "seg": 693,
+  "start": 2724.185,
+  "end": 2726.687,
+  "speaker": "Unknown",
+  "en": "So in that case, it would make more sense to use the other model.",
+  "zh": "所以在那种情况下，用另一个模型会更有意义。"
+ },
+ {
+  "seg": 694,
+  "start": 2728.292,
+  "end": 2730.893,
+  "speaker": "Unknown",
+  "en": "And this was also super interesting and surprised me a lot.",
+  "zh": "而这个也非常有意思，让我大吃一惊。"
+ },
+ {
+  "seg": 695,
+  "start": 2731.293,
+  "end": 2739.255,
+  "speaker": "Unknown",
+  "en": "When I tested Opus 4.6 at the time, I raised the thinking to max, and the score decreased.",
+  "zh": "我当时测试 Opus 4.6 时，我把思考调到最大，分数反而下降了。"
+ },
+ {
+  "seg": 696,
+  "start": 2739.635,
+  "end": 2740.555,
+  "speaker": "Unknown",
+  "en": "It really got worse.",
+  "zh": "它真的变差了。"
+ },
+ {
+  "seg": 697,
+  "start": 2740.595,
+  "end": 2745.876,
+  "speaker": "Unknown",
+  "en": "And I did the same with Claude Code, because I used as well, and there I saw the same effect.",
+  "zh": "我用 Claude Code 也做了同样的事，因为我也用了它，在那里我看到了同样的效果。"
+ },
+ {
+  "seg": 698,
+  "start": 2746.156,
+  "end": 2754.178,
+  "speaker": "Unknown",
+  "en": "When I do that with GBT, if I increase from thinking off to extra high or from medium to extra high, if I raise the thinking level, the model gets smarter, as you would expect.",
+  "zh": "当我用 GBT 这么做时，如果我从思考关闭调到超高，或者从中等调到超高，如果我提高思考等级，模型会变得更聪明，正如你所期望的那样。"
+ },
+ {
+  "seg": 699,
+  "start": 2754.518,
+  "end": 2757.159,
+  "speaker": "Unknown",
+  "en": "So why did it get worse with Opus?",
+  "zh": "那为什么用 Opus 反而变差了？"
+ },
+ {
+  "seg": 700,
+  "start": 2757.719,
+  "end": 2759.04,
+  "speaker": "Unknown",
+  "en": "That was surprising to me.",
+  "zh": "这让我很惊讶。"
+ },
+ {
+  "seg": 701,
+  "start": 2759.1,
+  "end": 2763.882,
+  "speaker": "Unknown",
+  "en": "And the difference, if you look at the traces, is that you see the model, it thinks too much.",
+  "zh": "而差异，如果你看轨迹的话，是你看到这个模型，它思考得太多了。"
+ },
+ {
+  "seg": 702,
+  "start": 2764.142,
+  "end": 2765.003,
+  "speaker": "Unknown",
+  "en": "It's overthinking.",
+  "zh": "它在过度思考。"
+ },
+ {
+  "seg": 703,
+  "start": 2765.683,
+  "end": 2767.624,
+  "speaker": "Unknown",
+  "en": "And that means I give it one hour.",
+  "zh": "这意味着我给它一个小时。"
+ },
+ {
+  "seg": 704,
+  "start": 2767.944,
+  "end": 2774.488,
+  "speaker": "Unknown",
+  "en": "And if the model thinks for a minute or two and then decides, I want to execute this command, and the command doesn't exist on the machine yet,",
+  "zh": "而如果这个模型思考了一两分钟，然后决定，我要执行这条命令，而这条命令在机器上还不存在，"
+ },
+ {
+  "seg": 705,
+  "start": 2775.088,
+  "end": 2778.592,
+  "speaker": "Unknown",
+  "en": "Then it thinks another two or three minutes, and how do I install this?",
+  "zh": "那么它又会思考两三分钟，我要怎么安装这个？"
+ },
+ {
+  "seg": 706,
+  "start": 2778.892,
+  "end": 2785.62,
+  "speaker": "Unknown",
+  "en": "While an agent that is not even thinking, it's just doing stuff, so the first impulse is I run this command, get an error message.",
+  "zh": "而一个甚至不思考的智能体，它就是在干活，所以第一反应是我运行这条命令，得到一个错误信息。"
+ },
+ {
+  "seg": 707,
+  "start": 2785.7,
+  "end": 2786.921,
+  "speaker": "Unknown",
+  "en": "I run this command, get an error message.",
+  "zh": "我运行这条命令，得到一个错误信息。"
+ },
+ {
+  "seg": 708,
+  "start": 2786.941,
+  "end": 2792.307,
+  "speaker": "Unknown",
+  "en": "I install it, get an error message, fix it, and it gets more turns, so it can do more.",
+  "zh": "我安装它，得到一个错误信息，修复它，而且它得到更多的轮次，所以它能做更多的事。"
+ },
+ {
+  "seg": 709,
+  "start": 2792.847,
+  "end": 2798.99,
+  "speaker": "Unknown",
+  "en": "That is the difference between thinking for an hour and not doing anything or just trying, trying, trying, trial and error.",
+  "zh": "这就是思考一个小时却什么都没做，和只是不断尝试、尝试、尝试、试错的区别。"
+ },
+ {
+  "seg": 710,
+  "start": 2799.431,
+  "end": 2805.434,
+  "speaker": "Unknown",
+  "en": "And the interesting stuff is that the GBT models, they are, by default, they appeared not as smart as Opus.",
+  "zh": "而有趣的是，那些 GBT 模型，它们默认情况下，看起来不像 Opus 那么聪明。"
+ },
+ {
+  "seg": 711,
+  "start": 2805.514,
+  "end": 2811.677,
+  "speaker": "Unknown",
+  "en": "Opus is very capable out of the box, even with thinking of it already got a great score, if you compare that here.",
+  "zh": "Opus 开箱即用就非常强，即使带着思考它也已经拿到了很高的分数，如果你在这里对比的话。"
+ },
+ {
+  "seg": 712,
+  "start": 2812.217,
+  "end": 2817.86,
+  "speaker": "Unknown",
+  "en": "It is already with off better than medium here on GBT 5.5.",
+  "zh": "它在这里已经比 GBT 5.5 上的 medium 更好了。"
+ },
+ {
+  "seg": 713,
+  "start": 2819.261,
+  "end": 2820.983,
+  "speaker": "Unknown",
+  "en": "And even the solid base was higher, though.",
+  "zh": "而且连基础分数也更高。"
+ },
+ {
+  "seg": 714,
+  "start": 2821.264,
+  "end": 2823.687,
+  "speaker": "Unknown",
+  "en": "It did more tests in everyone.",
+  "zh": "它在每一次里都做了更多测试。"
+ },
+ {
+  "seg": 715,
+  "start": 2825.047,
+  "end": 2827.389,
+  "speaker": "Unknown",
+  "en": "Yeah, so that is stuff you have to look at.",
+  "zh": "是的，所以这些是你必须去看的东西。"
+ },
+ {
+  "seg": 716,
+  "start": 2827.469,
+  "end": 2831.271,
+  "speaker": "Unknown",
+  "en": "And if it's surprising, take a look at the traces to find out what is happening here.",
+  "zh": "如果它令人惊讶，那就去看看轨迹，弄清楚这里发生了什么。"
+ },
+ {
+  "seg": 717,
+  "start": 2831.631,
+  "end": 2832.512,
+  "speaker": "Unknown",
+  "en": "Model overthinking.",
+  "zh": "模型过度思考。"
+ },
+ {
+  "seg": 718,
+  "start": 2833.332,
+  "end": 2839.416,
+  "speaker": "Unknown",
+  "en": "I also saw the same with Fable, by the way, where the model was very smart, and it seemed to know it was so smart.",
+  "zh": "顺便说一句，我在 Fable 上也看到了同样的事情，那个模型非常聪明，而且它似乎知道自己很聪明。 [[709→]] 所以它做的事情是决定朝这个方向走。"
+ },
+ {
+  "seg": 719,
+  "start": 2839.737,
+  "end": 2842.879,
+  "speaker": "Unknown",
+  "en": "So what it did is it decided to go this direction.",
+  "zh": "所以它做的就是决定往这个方向走。"
+ },
+ {
+  "seg": 720,
+  "start": 2842.899,
+  "end": 2846.261,
+  "speaker": "Unknown",
+  "en": "And even if the benchmark said it should be done that way, it said, no, I know better.",
+  "zh": "即使基准测试说它应该按那种方式做，它说，不，我更懂。"
+ },
+ {
+  "seg": 721,
+  "start": 2846.281,
+  "end": 2847.181,
+  "speaker": "Unknown",
+  "en": "I will do it my way.",
+  "zh": "我要按我自己的方式做。"
+ },
+ {
+  "seg": 722,
+  "start": 2847.502,
+  "end": 2851.004,
+  "speaker": "Unknown",
+  "en": "And then the verifier at the end, it ran, tested, and failed.",
+  "zh": "然后最后的验证器，它运行了、测试了，然后失败了。"
+ },
+ {
+  "seg": 723,
+  "start": 2851.264,
+  "end": 2851.824,
+  "speaker": "Unknown",
+  "en": "So the model",
+  "zh": "所以这个模型"
+ },
+ {
+  "seg": 724,
+  "start": 2852.805,
+  "end": 2855.148,
+  "speaker": "Unknown",
+  "en": "It was too smart for its own good in some cases.",
+  "zh": "在某些情况下，它聪明反被聪明误。"
+ },
+ {
+  "seg": 725,
+  "start": 2856.95,
+  "end": 2859.632,
+  "speaker": "Unknown",
+  "en": "And this is also an important feature I have to show you.",
+  "zh": "这也是我必须给你们展示的一个重要功能。"
+ },
+ {
+  "seg": 726,
+  "start": 2860.033,
+  "end": 2861.775,
+  "speaker": "Unknown",
+  "en": "A bar is a claim, a trace is evidence.",
+  "zh": "一根柱子是一个主张，一条轨迹是证据。"
+ },
+ {
+  "seg": 727,
+  "start": 2861.795,
+  "end": 2863.416,
+  "speaker": "Unknown",
+  "en": "I'm talking about traces all the time.",
+  "zh": "我一直在谈论轨迹。"
+ },
+ {
+  "seg": 728,
+  "start": 2863.757,
+  "end": 2866.76,
+  "speaker": "Unknown",
+  "en": "So we have the bar, which is what we see on Wolf Bench.",
+  "zh": "所以我们有柱子，也就是我们在 Wolf Bench 上看到的东西。"
+ },
+ {
+  "seg": 729,
+  "start": 2867.341,
+  "end": 2868.642,
+  "speaker": "Unknown",
+  "en": "You have the nice bars.",
+  "zh": "你有这些漂亮的柱子。"
+ },
+ {
+  "seg": 730,
+  "start": 2868.942,
+  "end": 2873.007,
+  "speaker": "Unknown",
+  "en": "And the thing is, you can click any of the bars, any of these.",
+  "zh": "而关键是，你可以点击任何一根柱子，任何一根。"
+ },
+ {
+  "seg": 731,
+  "start": 2873.267,
+  "end": 2874.048,
+  "speaker": "Unknown",
+  "en": "You just click it.",
+  "zh": "你只需点击它。"
+ },
+ {
+  "seg": 732,
+  "start": 2875.148,
+  "end": 2881.653,
+  "speaker": "Unknown",
+  "en": "And you get taken to our VauntBees page, where we have Weave, which allows you to inspect all the traces.",
+  "zh": "然后你会被带到我们的 VauntBees 页面，在那里我们有 Weave，它让你可以检查所有的轨迹。"
+ },
+ {
+  "seg": 733,
+  "start": 2881.693,
+  "end": 2883.274,
+  "speaker": "Unknown",
+  "en": "In this case, I just clicked one bar.",
+  "zh": "在这个例子里，我只是点击了一根柱子。"
+ },
+ {
+  "seg": 734,
+  "start": 2883.854,
+  "end": 2887.497,
+  "speaker": "Unknown",
+  "en": "And I'm seeing all the five runs that composed that score.",
+  "zh": "然后我看到了构成那个分数的全部五次运行。"
+ },
+ {
+  "seg": 735,
+  "start": 2888.017,
+  "end": 2890.959,
+  "speaker": "Unknown",
+  "en": "And I can now pick any of the runs, go in here.",
+  "zh": "而我现在可以挑选任何一次运行，进入这里。"
+ },
+ {
+  "seg": 736,
+  "start": 2891.94,
+  "end": 2894.622,
+  "speaker": "Unknown",
+  "en": "And this I should remove.",
+  "zh": "而这个我应该移除掉。"
+ },
+ {
+  "seg": 737,
+  "start": 2896.363,
+  "end": 2897.143,
+  "speaker": "Unknown",
+  "en": "I'll show this later.",
+  "zh": "我稍后会展示这个。"
+ },
+ {
+  "seg": 738,
+  "start": 2898.985,
+  "end": 2899.365,
+  "speaker": "Unknown",
+  "en": "Go away.",
+  "zh": "走开。"
+ },
+ {
+  "seg": 739,
+  "start": 2900.637,
+  "end": 2901.898,
+  "speaker": "Unknown",
+  "en": "So we have 89 calls.",
+  "zh": "所以我们有 89 个调用。"
+ },
+ {
+  "seg": 740,
+  "start": 2901.999,
+  "end": 2904.882,
+  "speaker": "Unknown",
+  "en": "That are the 89 tasks that I have been doing.",
+  "zh": "那就是我一直在做的 89 个任务。"
+ },
+ {
+  "seg": 741,
+  "start": 2905.282,
+  "end": 2907.004,
+  "speaker": "Unknown",
+  "en": "And you can see all of the traces here.",
+  "zh": "而你可以在这里看到所有的轨迹。"
+ },
+ {
+  "seg": 742,
+  "start": 2907.565,
+  "end": 2908.826,
+  "speaker": "Unknown",
+  "en": "It's a lot, so it's loading a bit.",
+  "zh": "数量很多，所以它加载得稍微有点慢。"
+ },
+ {
+  "seg": 743,
+  "start": 2909.327,
+  "end": 2910.989,
+  "speaker": "Unknown",
+  "en": "And then you can go into any of these.",
+  "zh": "然后你可以进入其中任何一个。"
+ },
+ {
+  "seg": 744,
+  "start": 2912.64,
+  "end": 2913.901,
+  "speaker": "Unknown",
+  "en": "And you see the task name.",
+  "zh": "而你会看到任务名称。"
+ },
+ {
+  "seg": 745,
+  "start": 2914.081,
+  "end": 2915.441,
+  "speaker": "Unknown",
+  "en": "And you see the reward.",
+  "zh": "而你会看到奖励。"
+ },
+ {
+  "seg": 746,
+  "start": 2915.461,
+  "end": 2916.522,
+  "speaker": "Unknown",
+  "en": "Did it succeed or not?",
+  "zh": "它成功了没有？"
+ },
+ {
+  "seg": 747,
+  "start": 2916.922,
+  "end": 2917.822,
+  "speaker": "Unknown",
+  "en": "And you see all the steps.",
+  "zh": "而你会看到所有的步骤。"
+ },
+ {
+  "seg": 748,
+  "start": 2917.862,
+  "end": 2922.164,
+  "speaker": "Unknown",
+  "en": "You see the initial requests, the user message that says, you are an assistant.",
+  "zh": "你会看到初始请求，那条用户消息写着，你是一个助手。"
+ },
+ {
+  "seg": 749,
+  "start": 2922.204,
+  "end": 2923.604,
+  "speaker": "Unknown",
+  "en": "You are tasked to do this.",
+  "zh": "你的任务是做这件事。"
+ },
+ {
+  "seg": 750,
+  "start": 2924.085,
+  "end": 2929.226,
+  "speaker": "Unknown",
+  "en": "Then you see what the LLM did as a first command, what analysis it did, and what it wants to do.",
+  "zh": "然后你可以看到 LLM 作为第一步指令做了什么、做了什么分析、以及它想做什么。"
+ },
+ {
+  "seg": 751,
+  "start": 2929.727,
+  "end": 2932.488,
+  "speaker": "Unknown",
+  "en": "And then the command it sends, and so on.",
+  "zh": "然后是它发送的指令，等等。"
+ },
+ {
+  "seg": 752,
+  "start": 2933.208,
+  "end": 2936.97,
+  "speaker": "Unknown",
+  "en": "And you can really inspect all of this, what has happened, and look at it.",
+  "zh": "你可以真正检查所有这些发生的事情，并查看它。"
+ },
+ {
+  "seg": 753,
+  "start": 2937.39,
+  "end": 2939.531,
+  "speaker": "Unknown",
+  "en": "Or use your agent and have this done.",
+  "zh": "或者使用你的智能体来完成这些。"
+ },
+ {
+  "seg": 754,
+  "start": 2939.872,
+  "end": 2943.193,
+  "speaker": "Unknown",
+  "en": "And we have a new feature, which is also an agent built into the platform.",
+  "zh": "我们有一个新功能，也是内置在平台里的一个智能体。"
+ },
+ {
+  "seg": 755,
+  "start": 2943.674,
+  "end": 2947.375,
+  "speaker": "Unknown",
+  "en": "So you have an agent inside of Weave, and you can just tell it to do this.",
+  "zh": "所以你在 Weave 里有一个智能体，你可以直接让它去做这件事。"
+ },
+ {
+  "seg": 756,
+  "start": 2947.396,
+  "end": 2949.637,
+  "speaker": "Unknown",
+  "en": "There's a talk about this by my colleague.",
+  "zh": "我的一位同事有一个关于这个的演讲。"
+ },
+ {
+  "seg": 757,
+  "start": 2950.448,
+  "end": 2952.291,
+  "speaker": "Unknown",
+  "en": "Tim Sweeney is doing it on July 1.",
+  "zh": "Tim Sweeney 会在 7 月 1 日进行这个演讲。"
+ },
+ {
+  "seg": 758,
+  "start": 2953.052,
+  "end": 2953.914,
+  "speaker": "Unknown",
+  "en": "There you can check it out.",
+  "zh": "你可以去看看。"
+ },
+ {
+  "seg": 759,
+  "start": 2954.335,
+  "end": 2958.401,
+  "speaker": "Unknown",
+  "en": "I use agents a lot because reading all the traces takes a long time.",
+  "zh": "我经常使用智能体，因为阅读所有的追踪记录需要很长时间。"
+ },
+ {
+  "seg": 760,
+  "start": 2958.922,
+  "end": 2963.009,
+  "speaker": "Unknown",
+  "en": "And if the agent gives you a link to Weave and you see that it's true what it says, that is also very good.",
+  "zh": "如果智能体给你一个指向 Weave 的链接，而你可以看到它说的是真的，那也非常好。"
+ },
+ {
+  "seg": 761,
+  "start": 2964.252,
+  "end": 2968.295,
+  "speaker": "Unknown",
+  "en": "So to recap, there are so many variables relevant to benchmarks.",
+  "zh": "所以回顾一下，与基准测试相关的变量非常多。"
+ },
+ {
+  "seg": 762,
+  "start": 2968.495,
+  "end": 2974.039,
+  "speaker": "Unknown",
+  "en": "You have the benchmark version, the agent version, the model service and route.",
+  "zh": "你有基准测试版本、智能体版本、模型服务和路由。"
+ },
+ {
+  "seg": 763,
+  "start": 2974.42,
+  "end": 2979.363,
+  "speaker": "Unknown",
+  "en": "Even updates to the inference endpoint can change the results and the settings.",
+  "zh": "即使是推理端点的更新也可能改变结果和设置。"
+ },
+ {
+  "seg": 764,
+  "start": 2980.084,
+  "end": 2985.288,
+  "speaker": "Unknown",
+  "en": "Sandbox resources, like I said, if the agent runs out of resources, it will fail.",
+  "zh": "沙箱资源，就像我说的，如果智能体耗尽了资源，它就会失败。"
+ },
+ {
+  "seg": 765,
+  "start": 2985.728,
+  "end": 2988.81,
+  "speaker": "Unknown",
+  "en": "And then you get a bad score for the model, although it wasn't the model's fault.",
+  "zh": "然后你会给这个模型打一个低分，尽管这不是模型的错。"
+ },
+ {
+  "seg": 766,
+  "start": 2989.431,
+  "end": 2990.412,
+  "speaker": "Unknown",
+  "en": "Sampling, temperature.",
+  "zh": "采样、温度。"
+ },
+ {
+  "seg": 767,
+  "start": 2991.152,
+  "end": 2994.776,
+  "speaker": "Unknown",
+  "en": "All things we discussed, thinking defaults, like maximum not being higher.",
+  "zh": "我们讨论过的所有事情，思考默认设置，比如最大值不够高的问题。"
+ },
+ {
+  "seg": 768,
+  "start": 2995.397,
+  "end": 2999.782,
+  "speaker": "Unknown",
+  "en": "If it thinks too long and a smaller, faster agent reaction could work better.",
+  "zh": "如果它思考太久，而一个更小、更快的智能体反应可能效果更好。"
+ },
+ {
+  "seg": 769,
+  "start": 3000.443,
+  "end": 3002.305,
+  "speaker": "Unknown",
+  "en": "Timeout policy, retry policy.",
+  "zh": "超时策略、重试策略。"
+ },
+ {
+  "seg": 770,
+  "start": 3002.625,
+  "end": 3006.029,
+  "speaker": "Unknown",
+  "en": "If you don't retry and there has been infrastructure error, you would get a bad score.",
+  "zh": "如果你不重试，而发生了基础设施错误，你就会得到一个糟糕的分数。"
+ },
+ {
+  "seg": 771,
+  "start": 3006.049,
+  "end": 3011.415,
+  "speaker": "Unknown",
+  "en": "So after every run, I go through all of the errors and mistakes and check, have there been inference issues?",
+  "zh": "所以每次运行之后，我会检查所有的错误和失误，看看是否有推理问题？"
+ },
+ {
+  "seg": 772,
+  "start": 3011.755,
+  "end": 3023.121,
+  "speaker": "Unknown",
+  "en": "You can find that out if there are repeated characters or if prompt template tokens leak into the actual response, then you know there's a tokenizer issue, an inference server issue.",
+  "zh": "你可以通过是否有重复字符，或者提示词模板的 token 泄漏到实际响应中来判断，那么你就知道这是分词器的问题、推理服务器的问题。"
+ },
+ {
+  "seg": 773,
+  "start": 3023.621,
+  "end": 3025.702,
+  "speaker": "Unknown",
+  "en": "And especially with new models, that is a big thing.",
+  "zh": "尤其是对于新模型，这是个大问题。"
+ },
+ {
+  "seg": 774,
+  "start": 3025.982,
+  "end": 3028.023,
+  "speaker": "Unknown",
+  "en": "If you are benchmarking models as they come out,",
+  "zh": "如果你在模型刚发布时就对它们进行基准测试，"
+ },
+ {
+  "seg": 775,
+  "start": 3028.423,
+  "end": 3032.646,
+  "speaker": "Unknown",
+  "en": "They are so new that the inference engine maybe has not the best support yet.",
+  "zh": "它们太新了，以至于推理引擎可能还没有最好的支持。"
+ },
+ {
+  "seg": 776,
+  "start": 3032.706,
+  "end": 3036.169,
+  "speaker": "Unknown",
+  "en": "So I have done evaluations where the new model wasn't that great.",
+  "zh": "所以我做过一些评估，新模型表现得没那么好。"
+ },
+ {
+  "seg": 777,
+  "start": 3036.309,
+  "end": 3037.61,
+  "speaker": "Unknown",
+  "en": "A week later, I did the same.",
+  "zh": "一周后，我做了同样的事。"
+ },
+ {
+  "seg": 778,
+  "start": 3037.73,
+  "end": 3038.631,
+  "speaker": "Unknown",
+  "en": "Everything was the same.",
+  "zh": "一切都一样。"
+ },
+ {
+  "seg": 779,
+  "start": 3038.951,
+  "end": 3041.753,
+  "speaker": "Unknown",
+  "en": "And it was better because the inference engine has been improved.",
+  "zh": "但结果更好了，因为推理引擎得到了改进。"
+ },
+ {
+  "seg": 780,
+  "start": 3042.614,
+  "end": 3043.695,
+  "speaker": "Unknown",
+  "en": "That is also part of this.",
+  "zh": "这也是其中的一部分。"
+ },
+ {
+  "seg": 781,
+  "start": 3044.763,
+  "end": 3045.684,
+  "speaker": "Unknown",
+  "en": "So use the method.",
+  "zh": "所以使用这个方法。"
+ },
+ {
+  "seg": 782,
+  "start": 3045.884,
+  "end": 3046.945,
+  "speaker": "Unknown",
+  "en": "Bring your own everything.",
+  "zh": "自带一切。"
+ },
+ {
+  "seg": 783,
+  "start": 3047.346,
+  "end": 3048.387,
+  "speaker": "Unknown",
+  "en": "You have the building blocks.",
+  "zh": "你手里有这些构建模块。"
+ },
+ {
+  "seg": 784,
+  "start": 3048.487,
+  "end": 3049.528,
+  "speaker": "Unknown",
+  "en": "Check out the presentation.",
+  "zh": "看看这个演示。"
+ },
+ {
+  "seg": 785,
+  "start": 3049.809,
+  "end": 3053.993,
+  "speaker": "Unknown",
+  "en": "Think about what you want to do, which evaluation to use, which agent to use, which model to test.",
+  "zh": "想想你想做什么，用哪个评估、用哪个智能体、测试哪个模型。"
+ },
+ {
+  "seg": 786,
+  "start": 3054.874,
+  "end": 3066.447,
+  "speaker": "Unknown",
+  "en": "You have the mindset now to know what to look out for and apply this to make leaderboards and charts and evaluations that are more reliable than if you just run something and publish a score.",
+  "zh": "你现在已经有了知道该注意什么的心态，并运用它来制作比只是运行一下然后发布一个分数更可靠排行榜、图表和评估。"
+ },
+ {
+  "seg": 787,
+  "start": 3067.501,
+  "end": 3070.164,
+  "speaker": "Unknown",
+  "en": "So run your own reproducible benchmark configurations.",
+  "zh": "所以运行你自己的可复现的基准测试配置。"
+ },
+ {
+  "seg": 788,
+  "start": 3070.585,
+  "end": 3071.386,
+  "speaker": "Unknown",
+  "en": "Share the results.",
+  "zh": "分享结果。"
+ },
+ {
+  "seg": 789,
+  "start": 3072.106,
+  "end": 3074.069,
+  "speaker": "Unknown",
+  "en": "If you want to work with WolfBench, contact me.",
+  "zh": "如果你想和 WolfBench 合作，联系我。"
+ },
+ {
+  "seg": 790,
+  "start": 3074.109,
+  "end": 3076.612,
+  "speaker": "Unknown",
+  "en": "If you want to run some models, that would be great.",
+  "zh": "如果你想运行一些模型，那就太好了。"
+ },
+ {
+  "seg": 791,
+  "start": 3076.792,
+  "end": 3080.376,
+  "speaker": "Unknown",
+  "en": "We could collaborate and publish the results so I don't have to run everything.",
+  "zh": "我们可以合作并发布结果，这样我就不用自己运行所有的东西了。"
+ },
+ {
+  "seg": 792,
+  "start": 3081.317,
+  "end": 3084.481,
+  "speaker": "Unknown",
+  "en": "And if you want to make an off spin, that's also great.",
+  "zh": "如果你想做一个分支项目，那也很棒。"
+ },
+ {
+  "seg": 793,
+  "start": 3085.826,
+  "end": 3087.407,
+  "speaker": "Unknown",
+  "en": "Use another framework, whatever you want.",
+  "zh": "用另一个框架，随你便。"
+ },
+ {
+  "seg": 794,
+  "start": 3088.127,
+  "end": 3092.809,
+  "speaker": "Unknown",
+  "en": "And if you are building models or agents, feel free to contact me so I can benchmark them.",
+  "zh": "如果你在构建模型或智能体，欢迎联系我，这样我可以对它们进行基准测试。"
+ },
+ {
+  "seg": 795,
+  "start": 3092.869,
+  "end": 3097.751,
+  "speaker": "Unknown",
+  "en": "I've worked with some of the agent creators already and will publish results soon.",
+  "zh": "我已经和一些智能体创作者合作过了，很快会发布结果。"
+ },
+ {
+  "seg": 796,
+  "start": 3098.772,
+  "end": 3101.113,
+  "speaker": "Unknown",
+  "en": "Yeah, that's basically the end of the presentation.",
+  "zh": "是的，这基本上就是演讲的结尾了。"
+ },
+ {
+  "seg": 797,
+  "start": 3101.313,
+  "end": 3103.274,
+  "speaker": "Unknown",
+  "en": "I hope you could get something out of it.",
+  "zh": "我希望你能从中有所收获。"
+ },
+ {
+  "seg": 798,
+  "start": 3103.894,
+  "end": 3105.935,
+  "speaker": "Unknown",
+  "en": "And if you have some questions, now is the time.",
+  "zh": "如果你有什么问题，现在是时候了。"
+ },
+ {
+  "seg": 799,
+  "start": 3106.055,
+  "end": 3107.836,
+  "speaker": "Unknown",
+  "en": "Otherwise, you can catch me at the booth.",
+  "zh": "否则，你可以在展位找到我。"
+ },
+ {
+  "seg": 800,
+  "start": 3108.496,
+  "end": 3110.497,
+  "speaker": "Unknown",
+  "en": "And a big shout-out to Alex for the help.",
+  "zh": "感谢 Alex 的帮助。"
+ },
+ {
+  "seg": 801,
+  "start": 3110.877,
+  "end": 3112.898,
+  "speaker": "Unknown",
+  "en": "The podcast, Thursday AI, it's every Thursday.",
+  "zh": "这个播客,Thursday AI,每周四都有。"
+ },
+ {
+  "seg": 802,
+  "start": 3113.898,
+  "end": 3114.839,
+  "speaker": "Unknown",
+  "en": "And in the morning,",
+  "zh": "在早上,"
+ },
+ {
+  "seg": 803,
+  "start": 3116.022,
+  "end": 3118.764,
+  "speaker": "Unknown",
+  "en": "It's the time zone.",
+  "zh": "是时区的问题。"
+ },
+ {
+  "seg": 804,
+  "start": 3118.784,
+  "end": 3121.947,
+  "speaker": "Unknown",
+  "en": "8.30 Pacific time.",
+  "zh": "太平洋时间 8 点 30 分。"
+ },
+ {
+  "seg": 805,
+  "start": 3123.228,
+  "end": 3129.433,
+  "speaker": "Unknown",
+  "en": "Every week, because it's so hard to keep track of what's happening, and it's hard for us as well, so we are forced to do it, so we can report it to you.",
+  "zh": "每周一次,因为要跟上正在发生的事情实在太难了,对我们来说也很难,所以我们被迫去做这件事,这样才能向你们报道。"
+ },
+ {
+  "seg": 806,
+  "start": 3130.594,
+  "end": 3131.314,
+  "speaker": "Unknown",
+  "en": "Okay, thank you.",
+  "zh": "好的,谢谢。"
+ }
+]

@@ -1,0 +1,185 @@
+{
+  "title_zh": "一个分数不够：AI 模型排行榜为什么不可信，以及怎么自己做一个",
+  "tldr": "Wolfram Ravenwolf 讲了怎么从零搭建可复现的 AI 智能体评测，以及排行榜上的一个数字到底藏了多少坑。",
+  "digest_md": "Wolfram Ravenwolf 的自我介绍很直接：早上评测模型，晚上搭智能体，全天宣传 AI。他在 CoreWeave 做 AI 布道师，也是播客 ThirstAI 的联合主播。这场工作坊的核心观点是：市面上的模型排行榜大多不可信，但他会告诉你为什么，以及怎么自己搭一个可信的。\n\n## 为什么一个平均分说明不了任何事\n\n他的出发点很朴素：想知道哪个模型配哪个智能体最好用。但智能体一直在换——一月是 OpenClaw，二月是 Hermes agent，现在又常用 Codex。所以需要一个稳定的评测方法。\n\n问题在于，大多数排行榜只给一个平均分。他反复强调一句话：「**性能是一个分布，不是一个点**」[04:24 Unknown]。平均分背后藏着东西：是模型真的好，还是碰上了一次走运的运行？有什么隐藏的代价？这就是为什么很多人看着排行榜说「我不信，我的体验不是这样」。\n\n他做的 WolfBench 是一个开源框架（Apache 2 协议），有图表、仪表盘和排行榜，但他更想讲的是方法论本身——你可以拿去配自己的工具。\n\n## 你评测的不是模型，是一整套配置\n\n这是全场最重要的一个认知转变。你以为在给模型打分，实际上你测的是一个特定组合：数据集、模型、推理引擎、智能体框架、沙盒环境，加上你自己选的所有设置。**改掉其中任何一项，就等于换了一个新测试** [07:32 Unknown]。\n\n连你控制不了的部分都会掺一脚：推理服务商悄悄更新后端，结果就变了；沙盒供应商改了配置，你可能根本察觉不到。所以两个团队报告同一个基准测试、数字却差很多，一点都不奇怪——设置不同，根本没法比。\n\n他的建议是：条件必须统一，每次跑的设置完全一样；而且一定要跑多次。「单次运行就是基准彩票」[06:51 Unknown]，他每次跑 5 遍。\n\n## 变量比你想的多得多\n\n光设置就能列一长串。上下文窗口：模型标称 100 万，供应商可能只给 256K，因为到一定长度后质量会明显下降，而且全程用满窗口又贵又慢。系统提示词：说「你是一个乐于助人的助手」和说「你是一个自主行动的智能体」，结果完全不同——他见过模型想问用户问题，可测试环境里根本没有用户。\n\n工具配置也很微妙。TerminalBench 是公开基准，他见过模型直接联网搜到了现成答案。这算作弊吗？他说未必——一个聪明的智能体找到公开解决方案为什么要自己从头想？但这取决于你想测什么 [20:56 Unknown]。\n\n还有任务超时。他一开始给每个任务 2 小时，结果发现模型做不出来时会原地打转，反复失败，烧掉大量时间和钱。后来改成 1 小时。并发数、重试策略、温度、随机种子……每一项都是要拍板的选择。\n\n## 一个分数拆成四层看\n\nWolfBench 排行榜上每根柱子其实是四个数字叠起来的。最底下深色的部分，他叫一致性：5 次运行里每次都做出来的任务占多少。这个数字高，说明模型可靠。\n\n黄色是平均分，就是别家排行榜通常报的那个数。上下箭头是 5 次运行里的最好和最差成绩，两者离得远就说明方差大、随机性高——分数再高也不敢把任务交给它。最上面的星号是天花板：至少做出来过一次的任务比例。\n\n两个模型平均分几乎一样时，他会选一致性更高的那个——差 6 个百分点就是明显的差距了 [40:53 Unknown]。\n\n## 便宜模型可能更贵：一个真实的反例\n\n排行榜上第二名是 Gemini 3.5 Flash，分数逼近第一名 GPT 5.5。看起来是个便宜又快的模型占了便宜？\n\n切到三维视图就露馅了。GPT 5.5 用了 1.36 亿个 token，Gemini 3.5 Flash 用了 16.5 亿个。算成钱：620 美元对 497 美元 [42:42 Unknown]。**所谓的便宜模型反而更贵**，而且那么多 token 也拖慢速度。所以他提醒：别想当然觉得小模型省钱，得实际比一比。\n\n最贵的翻车是 Fable。测它花了 11000 美元，成绩却不好——因为模型拒绝执行了 13 项任务。而它拒绝的部分原因是太聪明了：明明基准测试规定了做法，它偏说我知道更好的办法，最后一验证，失败 [47:19 Unknown]。\n\n## 思考太多反而考砸\n\n还有一个反直觉的发现。他把 Opus 4.6 的思考档位调到最高，分数反而下降了；在 Claude Code 里也复现了同样现象。而 GPT 系列提高思考档位，分数如预期上升。\n\n翻轨迹记录找到了原因：**模型在过度思考**。给它 1 小时，它思考两分钟决定执行一个命令，发现命令不存在，再思考三分钟怎么装。而一个不开思考的智能体直接试错：跑命令、报错、修、再跑——反而完成了更多任务 [46:04 Unknown]。想一小时不如动手试一小时。\n\n## 柱子是主张，轨迹才是证据\n\n他对透明度的执着体现在一个功能上：排行榜上任何一根柱子都可以点击，直接跳转到 Weave 页面，看到组成这个分数的全部 5 次运行的完整轨迹——89 项任务，每一步模型发了什么命令、怎么分析的，全部可查 [47:40 Unknown]。\n\n这不是装饰。他自己每次跑完都要检查所有错误：如果响应里出现重复字符，或者提示词模板的 token 泄漏进了回答，那说明是推理引擎的问题，不是模型的锅。他测过刚发布的新模型，第一轮成绩平平，一周后原样重跑变好了——因为推理引擎的适配优化跟上了。\n\n所以下次看到一个排行榜，先问一句：==能看轨迹吗==？\n\n## 本集带走\n\n- 你评测的从来不是模型本身，而是模型+智能体+沙盒+全部设置的一整套配置，动一个变量就是新测试。\n- 性能是分布不是点：看一致性（每次都做对的比例）、最好最差成绩的方差和天花板，别只看平均分。\n- 便宜模型不一定省钱：Gemini 3.5 Flash 分数接近 GPT 5.5，但烧了多得多的 token，总花费反而更高。\n- 思考档位拉满可能考砸：模型过度思考、原地打转，不如快速试错的智能体完成的任务多。\n- 单次运行是基准彩票，至少跑 5 遍；发布结果时把全部轨迹公开，让别人能验证你的数字。",
+  "quotes": [
+    {
+      "en": "But first, my guiding principles are mindset is greater than skill set, greater than tool set.",
+      "zh": "但首先，我的指导原则是：思维方式大于技能组合，技能组合大于工具组合。",
+      "timestamp": "03:34",
+      "speaker": "Wolfram Ravenwolf"
+    },
+    {
+      "en": "And the premise is one score is not enough because performance is a distribution, not a point.",
+      "zh": "前提是：单一分数是不够的，因为性能是一个分布，而不是一个点。",
+      "timestamp": "04:20",
+      "speaker": "Wolfram Ravenwolf"
+    },
+    {
+      "en": "And it can happen that a cheaper and faster model takes longer and costs more than one of the bigger models because it just uses so many tokens.",
+      "zh": "而且有可能出现这种情况：一个更便宜、更快的模型反而耗时更长、花费更多，比某个更大的模型还多，因为它就是用了太多 token。",
+      "timestamp": "06:22",
+      "speaker": "Wolfram Ravenwolf"
+    },
+    {
+      "en": "A single run is benchmark lottery.",
+      "zh": "单次运行就是基准彩票。",
+      "timestamp": "06:49",
+      "speaker": "Wolfram Ravenwolf"
+    },
+    {
+      "en": "So basically get the thinking right, and then the tools become interchangeable.",
+      "zh": "所以基本上是把思考做对，然后工具就变得可以互换。",
+      "timestamp": "07:22",
+      "speaker": "Wolfram Ravenwolf"
+    },
+    {
+      "en": "Even if it has a bug, you are at least testing all the models with the same bug.",
+      "zh": "即使它有 bug，你至少是在用同一个 bug 测试所有模型。",
+      "timestamp": "13:52",
+      "speaker": "Wolfram Ravenwolf"
+    },
+    {
+      "en": "If you give the agent web access, I've seen where a model went out and looked up the solution for the benchmark, because Terminal Bench is a public benchmark.",
+      "zh": "如果你给智能体联网权限，我见过一个模型跑出去查了那个基准测试的答案，因为 Terminal Bench 是一个公开的基准测试。",
+      "timestamp": "20:47",
+      "speaker": "Wolfram Ravenwolf"
+    },
+    {
+      "en": "When I tested Opus 4.6 at the time, I raised the thinking to max, and the score decreased.",
+      "zh": "我当时测试 Opus 4.6 时，我把思考调到最大，分数反而下降了。",
+      "timestamp": "45:31",
+      "speaker": "Wolfram Ravenwolf"
+    },
+    {
+      "en": "A bar is a claim, a trace is evidence.",
+      "zh": "一根柱子是一个主张，一条轨迹是证据。",
+      "timestamp": "47:40",
+      "speaker": "Wolfram Ravenwolf"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "03:34",
+      "speaker": "Unknown",
+      "en": "But first, my guiding principles are mindset is greater than skill set, greater than tool set.",
+      "zh": "但首先，我的指导原则是：思维方式大于技能组合，技能组合大于工具组合。"
+    },
+    {
+      "timestamp": "04:20",
+      "speaker": "Unknown",
+      "en": "And the premise is one score is not enough because performance is a distribution, not a point.",
+      "zh": "前提是：单一分数是不够的，因为性能是一个分布，而不是一个点。"
+    },
+    {
+      "timestamp": "06:22",
+      "speaker": "Unknown",
+      "en": "And it can happen that a cheaper and faster model takes longer and costs more than one of the bigger models because it just uses so many tokens.",
+      "zh": "而且有可能出现这种情况：一个更便宜、更快的模型反而耗时更长、花费更多，比某个更大的模型还多，因为它就是用了太多 token。"
+    },
+    {
+      "timestamp": "06:48",
+      "speaker": "Unknown",
+      "en": "And always do multiple runs.",
+      "zh": "而且永远要做多次运行。"
+    },
+    {
+      "timestamp": "06:49",
+      "speaker": "Unknown",
+      "en": "A single run is benchmark lottery.",
+      "zh": "单次运行就是基准彩票。"
+    },
+    {
+      "timestamp": "07:22",
+      "speaker": "Unknown",
+      "en": "So basically get the thinking right, and then the tools become interchangeable.",
+      "zh": "所以基本上是把思考做对，然后工具就变得可以互换。"
+    },
+    {
+      "timestamp": "07:27",
+      "speaker": "Unknown",
+      "en": "And the most important thing I think that people need to realize is you're not ranking a model.",
+      "zh": "而我认为人们需要意识到的最重要的一点是：你排名的不是一个模型。"
+    },
+    {
+      "timestamp": "08:18",
+      "speaker": "Unknown",
+      "en": "So change any part and it's a different experiment.",
+      "zh": "所以改变任何一部分，它就是一个不同的实验。"
+    },
+    {
+      "timestamp": "13:52",
+      "speaker": "Unknown",
+      "en": "Even if it has a bug, you are at least testing all the models with the same bug.",
+      "zh": "即使它有 bug，你至少是在用同一个 bug 测试所有模型。"
+    },
+    {
+      "timestamp": "14:33",
+      "speaker": "Unknown",
+      "en": "Because if you just run it locally on your own system, the second agent running, it would find a system that has already been changed.",
+      "zh": "因为如果你直接在自己的系统上本地运行，第二个智能体运行时，它会发现一个已经被改动过的系统。"
+    },
+    {
+      "timestamp": "20:34",
+      "speaker": "Unknown",
+      "en": "So if I change the system prompt and tell it you can't ask the user, it would behave differently and it would get a better score, I'm pretty sure.",
+      "zh": "所以如果我修改系统提示词，告诉它你不能询问用户，它的行为就会不同，我相当确定它会得到更好的分数。"
+    },
+    {
+      "timestamp": "20:47",
+      "speaker": "Unknown",
+      "en": "If you give the agent web access, I've seen where a model went out and looked up the solution for the benchmark, because Terminal Bench is a public benchmark.",
+      "zh": "如果你给智能体联网权限，我见过一个模型跑出去查了那个基准测试的答案，因为 Terminal Bench 是一个公开的基准测试。"
+    },
+    {
+      "timestamp": "21:01",
+      "speaker": "Unknown",
+      "en": "If you want an agent, it should be smart.",
+      "zh": "如果你想要一个智能体，它就应该聪明。"
+    },
+    {
+      "timestamp": "24:55",
+      "speaker": "Unknown",
+      "en": "There was never no randomness, and I've seen things as small as a traffic driver update to change the actual results I got, even if everything was deterministic.",
+      "zh": "但从来都不是完全没有随机性，我见过小到一次 traffic driver 更新都会改变我得到的实际结果，即使一切都是确定性的。"
+    },
+    {
+      "timestamp": "37:43",
+      "speaker": "Unknown",
+      "en": "It helps you to find a better question, like, what are you looking at?",
+      "zh": "它帮你找到更好的问题，比如，你在看什么？"
+    },
+    {
+      "timestamp": "41:03",
+      "speaker": "Unknown",
+      "en": "It's 6% points.",
+      "zh": "是 6 个百分点。"
+    },
+    {
+      "timestamp": "42:48",
+      "speaker": "Unknown",
+      "en": "So it's not that you have to think about this.",
+      "zh": "所以并不是说你必须考虑这个问题。"
+    },
+    {
+      "timestamp": "43:58",
+      "speaker": "Unknown",
+      "en": "Because it cost $11,000 just to test Fable.",
+      "zh": "因为光是测试 Fable 就花了 11,000 美元。"
+    },
+    {
+      "timestamp": "45:31",
+      "speaker": "Unknown",
+      "en": "When I tested Opus 4.6 at the time, I raised the thinking to max, and the score decreased.",
+      "zh": "我当时测试 Opus 4.6 时，我把思考调到最大，分数反而下降了。"
+    },
+    {
+      "timestamp": "47:40",
+      "speaker": "Unknown",
+      "en": "A bar is a claim, a trace is evidence.",
+      "zh": "一根柱子是一个主张，一条轨迹是证据。"
+    }
+  ],
+  "voice_script": "今天聊一个你可能也遇到过的事：AI 模型排行榜上的分数，看着挺唬人，实际一用完全不是那回事。为什么一个数字能骗这么多人？自己能不能搭一个可信的评测？这期嘉宾是 Wolfram Ravenwolf，在 CoreWeave 做 AI 布道师，也是播客 ThirstAI 的联合主播。按自己的说法，就是早上评测模型，晚上搭智能体，全天宣传 AI。这场工作坊要讲的，就是怎么从零搭一套可复现的智能体评测。\n\n出发点其实很朴素：就是想知道哪个模型配哪个智能体最好用。但智能体一直在换，一月用这个，二月用那个，评测对象老在动，所以得有一个稳定的方法。问题在于，市面上的排行榜大多只给一个平均分。Wolfram 反复强调一句话：性能是一个分布，不是一个点。平均分背后藏着太多东西——是真本事，还是碰上了一次走运的运行？这也是为什么很多人看着排行榜直摇头，说我的体验根本不是这样。\n\n于是有了 WolfBench，一个开源的评测框架，带图表、仪表盘和排行榜。不过今天更值得讲的，是方法论本身——你可以拿去配自己的工具。\n\n那方法的核心是什么？这里有个全场最重要的认知转变：你以为在给模型打分，实际上你测的是一整套配置——数据集、模型、推理引擎、智能体框架、沙盒环境，加上你自己选的所有设置。改掉其中任何一项，就等于换了一个新测试。更麻烦的是，连你控制不了的部分都会掺一脚：推理服务商悄悄更新后端，结果就变了；沙盒供应商改了配置，你可能根本察觉不到。所以两个团队跑同一个基准、数字差一大截，一点都不奇怪——设置不同，根本没法比。建议就两条：条件必须统一，每次跑的设置完全一样；而且一定要跑多次。按 Wolfram 的原话，单次运行就是基准彩票，所以每次都跑五遍。\n\n你可能会觉得，设置统一不就行了？光设置就能列一长串。比如上下文窗口，模型标称一百万，供应商可能只给 256K，因为太长质量会掉，而且用满窗口又贵又慢。再比如系统提示词，说你是乐于助人的助手，和说你是自主行动的智能体，结果完全不同——见过模型想向用户提问，可测试环境里根本没有用户。工具配置也很微妙：有个公开基准叫 TerminalBench，模型直接联网搜到了现成答案。这算作弊吗？Wolfram 说未必，一个聪明的智能体找到公开解决方案，为什么要自己从头想？但这取决于你想测什么。还有任务超时——一开始给每个任务两小时，结果模型做不出来就原地打转，烧掉大量时间和钱，后来改成一小时。并发、重试、温度、随机种子，每一项都是要拍板的选择。\n\n那分数到底该怎么看？WolfBench 排行榜上每根柱子，其实是四个数字叠起来的。最底下那层叫一致性：五次运行里每次都做出来的任务占多少，这个高就说明可靠。黄色那层是平均分，也就是别家排行榜通常报的那个数。上下箭头是最好和最差成绩，两者离得远，说明方差大、随机性高——分数再高也不敢把任务交给它。最上面的星号是天花板：至少做成过一次的任务比例。所以两个模型平均分几乎一样时，Wolfram 会选一致性更高的那个——差六个百分点就是明显的差距了。\n\n这套拆法马上能抓出排行榜的坑。排行榜第二名是个便宜的模型 Gemini 3.5 Flash，分数逼近第一名 GPT 5.5，看起来是便宜又快占了便宜？切到三维视图就露馅了：GPT 5.5 用了一亿三千六百万个 token，Gemini 3.5 Flash 用了十六亿五千万个。算成钱，六百二十美元对四百九十七美元。所谓的便宜模型反而更贵，而且海量 token 也拖慢了速度。所以别想当然觉得小模型省钱，得实际比一比。更贵的翻车是 Fable，测它花了一万一千美元，成绩还不好——因为它拒绝执行了十三项任务，而拒绝的部分原因恰恰是太聪明：基准规定了做法，它偏说我有更好的办法，一验证，失败。\n\n还有一个更反直觉的发现。把 Opus 4.6 的思考档位调到最高，分数反而降了；在 Claude Code 里也复现了同样的现象。而 GPT 系列提高思考档位，分数如预期上升。翻轨迹记录才找到原因：模型在过度思考。给它一小时，它花两分钟思考、决定执行一个命令，发现命令不存在，再花三分钟思考怎么装。而一个不开思考的智能体直接试错：跑命令、报错、修、再跑——反而完成了更多任务。想一小时，不如动手试一小时。\n\n这就引出整个方法论的底座：透明度。WolfBench 的排行榜上，任何一根柱子都可以点击，直接跳到 Weave 页面，看到组成这个分数的全部五次运行的完整轨迹——八十九项任务，每一步模型发了什么命令、怎么分析的，全部可查。这不是装饰。Wolfram 自己每次跑完都要检查所有错误：如果响应里出现重复字符，或者提示词模板的 token 泄漏进了回答，那是推理引擎的问题，不是模型的锅。甚至测过刚发布的新模型，第一轮成绩平平，一周后原样重跑反而变好了——因为推理引擎的适配优化跟上了。所以数字必须配上轨迹，才配叫证据。\n\n下次再看到一个排行榜，先别急着看排名，先问一句：能看轨迹吗？记住 Wolfram 那句话：性能是一个分布，不是一个点——单次运行，就是基准彩票。"
+}

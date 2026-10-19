@@ -1,0 +1,2664 @@
+{
+  "episode_id": "2026-10-11-talks-agent-speedrun-elizabeth-fuentes-leone-s",
+  "podcast": "精选演讲",
+  "date": "2026-10-11",
+  "tags": [
+    "智能体",
+    "AI 编程",
+    "AWS",
+    "AI 基础设施",
+    "工作坊"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "sandhya-subramani",
+      "type": "person",
+      "role": "guest",
+      "name": "Sandhya Subramani",
+      "file": "Sandhya Subramani",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "elizabeth-fuentes-leone",
+      "type": "person",
+      "role": "guest",
+      "name": "Elizabeth Fuentes Leone",
+      "file": "Elizabeth Fuentes Leone",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体拆解为『模型—工具—循环』：LLM 读用户问题、决定调用哪个工具、拿到结果再决定继续或回答，配系统提示词和工具不到 60 行代码就能跑通一个客服智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            37.247,
+            46.449
+          ],
+          "quote": "Right from ideating an agent, building it, adding a lot of customization, and then deploying it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 4,
+          "t": [
+            46.949,
+            50.63
+          ],
+          "quote": "So, we want to start with the simplest form of an agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 15,
+          "t": [
+            82.875,
+            91.056
+          ],
+          "quote": "Transagents is an open source agent harness, which means you can bring your own LLM.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 16,
+          "t": [
+            91.437,
+            99.438
+          ],
+          "quote": "You can use any LLM provider, model provider, and you can build an agent harness around it, and you can control it end to end.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 34,
+          "t": [
+            161.475,
+            169.599
+          ],
+          "quote": "And because in this workshop you are going to put this agent that we are going to build in production, we are going to use AgentCore.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 37,
+          "t": [
+            179.465,
+            183.186
+          ],
+          "quote": "So inside Agent Core, we have Agent Core Runtime.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 38,
+          "t": [
+            183.606,
+            188.427
+          ],
+          "quote": "That is the runtime, the container, where you are going to put this agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 41,
+          "t": [
+            196.57,
+            204.752
+          ],
+          "quote": "You can put this authentic application inside the runtime, the container, and you are going to deploy this agent in one single life on the CLI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 53,
+          "t": [
+            259.44,
+            267.722
+          ],
+          "quote": "You are going to able to see all of that inside the agent code observability inside CloudWatch in AWS.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 54,
+          "t": [
+            268.582,
+            271.063
+          ],
+          "quote": "And we have agent code gateway.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 56,
+          "t": [
+            278.184,
+            289.267
+          ],
+          "quote": "So you can put all these tools of this MCP behind agent code gateway, and agent code is going to deliver like a API or API is not a word.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 62,
+          "t": [
+            308.763,
+            314.144
+          ],
+          "quote": "So it helps you to deliver the best tool for your agent loop.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 63,
+          "t": [
+            315.044,
+            322.686
+          ],
+          "quote": "And we have agent code memory because when we create an agent, we have short-term memory.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 68,
+          "t": [
+            333.988,
+            336.588
+          ],
+          "quote": "So you can create an agent code memory",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 69,
+          "t": [
+            337.008,
+            342.894
+          ],
+          "quote": "So when you create agent code memory, you are going to have a semantic memory too.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 70,
+          "t": [
+            343.234,
+            347.819
+          ],
+          "quote": "So agent code mills for you, mills in three different types of memory.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 73,
+          "t": [
+            357.328,
+            367.038
+          ],
+          "quote": "So every time that you retrieve your agent loop, you can retrieve this memory inside the agent called memory that is completely built in.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 78,
+          "t": [
+            392.378,
+            398.063
+          ],
+          "quote": "So every time that you retrieve the information for this agent, you are going to have your custom memory.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 80,
+          "t": [
+            400.244,
+            401.906
+          ],
+          "quote": "And a bunch of more agent code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 82,
+          "t": [
+            404.368,
+            408.652
+          ],
+          "quote": "And in this workshop, you are going to deploy your agent in agent code runtime.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 84,
+          "t": [
+            411.034,
+            418.72
+          ],
+          "quote": "And yeah, so agent code runtime have give you all that you can put your code and deploy it into production.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 94,
+          "t": [
+            461.284,
+            463.605
+          ],
+          "quote": "We're going to be starting with a basic agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 95,
+          "t": [
+            463.725,
+            465.865
+          ],
+          "quote": "What is an agent loop?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 97,
+          "t": [
+            470.067,
+            475.188
+          ],
+          "quote": "And some ideas, deeper dive ideas about what actually makes a good agent, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 99,
+          "t": [
+            481.09,
+            485.754
+          ],
+          "quote": "Session management, and she's going to be covering how to actually deploy to agent core.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 196,
+          "t": [
+            877.15,
+            884.058
+          ],
+          "quote": "But if you want to get started with the code, click on this over here, the agent speedrun idea to code, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 227,
+          "t": [
+            983.699,
+            991.964
+          ],
+          "quote": "Today, we're building a customer service agent and we're building that using strands agent, which is an agent harness framework.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 228,
+          "t": [
+            992.464,
+            997.387
+          ],
+          "quote": "And how that works is it's basically using an agent with the loop.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1027.628,
+            1033.19
+          ],
+          "quote": "Call the model here, define the model, and then under agent, you just have to specify model and your model name.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1053.235,
+            1055.577
+          ],
+          "quote": "A simple customer service agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1056.438,
+            1073.853
+          ],
+          "quote": "And what makes the agent powerful is the agentic reasoning loop, which means when the user asks a question and says, hey, I have this trouble, I have this problem, the agent receives that input, the agent gets invoked,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1074.293,
+            1080.939
+          ],
+          "quote": "The agent calls the LLM and the LLM then reads the question and calls a tool.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1081.259,
+            1095.091
+          ],
+          "quote": "So we want to define a set of tools because tools are the way by which we give an agent agency to execute a function because LLMs are mostly just going to be predicting the next token.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1112.634,
+            1124.16
+          ],
+          "quote": "And that can be written inside of a tool, and that tool can be given, the agent can be given access to that tool, and the agent decides when to use that tool.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1124.48,
+            1136.967
+          ],
+          "quote": "And the agent can have access to a bunch of different tools, and the agent will figure out, it will rely on the LLM, the LLM's capability, the LLM's reasoning capability to figure out which tool to use.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1137.447,
+            1145.329
+          ],
+          "quote": "And call the tool, run the tool's response, and potentially, again, you know, the agent loop can get completed, and then it would send the response.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1145.67,
+            1156.613
+          ],
+          "quote": "Now, another amazing thing about using an agent harness is because you can support a bunch of different models, you can swap out whichever model you want without really having to change the system prompt.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1273.819,
+            1282.485
+          ],
+          "quote": "And after that, what we do, and this is our initial code for creating tools, now what we do to create an agent, we just need two basic things.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1309.37,
+            1311.532
+          ],
+          "quote": "So, you will call the agent method.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1312.373,
+            1322.643
+          ],
+          "quote": "Write the three tools that we've just defined, and then create the system prompt which says, you are a customer service agent, and these are your guidelines.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1331.771,
+            1335.435
+          ],
+          "quote": "So in the system prompt, you tell the agent, like you tell the",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1341.302,
+            1345.547
+          ],
+          "quote": "So that's how your LLM and your agent understands what needs to be done with it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1346.448,
+            1353.996
+          ],
+          "quote": "So here, now, when we run this agent, we just say, hi, I'm customer so-and-so, can you check my recent orders?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1379.401,
+            1386.207
+          ],
+          "quote": "Because a lot of times one of the problems we have is my agent is doing things and I have no insight into what it's doing.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1388.81,
+            1390.952
+          ],
+          "quote": "So let's inspect that agent loop.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1405.323,
+            1407.765
+          ],
+          "quote": "Now, we can look at the agent messages.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1408.586,
+            1409.467
+          ],
+          "quote": "Agent.message.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1447.274,
+            1451.995
+          ],
+          "quote": "You can also run your multi-turn conversations where you have an extended chat with your agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1529.791,
+            1531.772
+          ],
+          "quote": "So that's basic agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1538.571,
+            1540.533
+          ],
+          "quote": "How do we make this agent better?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1577.181,
+            1590.587
+          ],
+          "quote": "So what you can do is, in this entire process where from the time your agent is just getting invoked, it's doing its own tool calls and it's getting responses and sending it out, we want to be able to control it, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1590.967,
+            1594.069
+          ],
+          "quote": "Right from the time that the agent is being invoked,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 435,
+          "t": [
+            1861.807,
+            1867.814
+          ],
+          "quote": "So when your agent starts to go haywire and we all worry about, oh my god, is my agent going to take over everything, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 450,
+          "t": [
+            1906.957,
+            1911.519
+          ],
+          "quote": "So you can put code inside your agent loop.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2008.866,
+            2019.395
+          ],
+          "quote": "Let's add skills and let's find a way to steer your agent and your LLM and get them to respond in a fashion that we wanted to respond in.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2061.253,
+            2065.959
+          ],
+          "quote": "I saw that in the example with the hook, it kept running the agent, but it just blocked the tool call.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2066.039,
+            2070.885
+          ],
+          "quote": "How do we stop the agent so that it doesn't go into infinite loop and keep looping?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2071.425,
+            2078.086
+          ],
+          "quote": "So as we're defining our hooks, we can define the hook in such a way to even end the agent's turn if we wanted to.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 501,
+          "t": [
+            2125.446,
+            2133.092
+          ],
+          "quote": "But they could be asking a bunch of different questions that the agent may just not have access or the knowledge to answer.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 507,
+          "t": [
+            2157.5,
+            2174.312
+          ],
+          "quote": "And this is a way by which, so here what it would do is when we add agent skills, it would first go look up the skills folder and read all of the skills, see which one actually makes sense, and then it would use those skills.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 529,
+          "t": [
+            2280.883,
+            2287.929
+          ],
+          "quote": "So these are instructions that we give to the agent beforehand, and we write this based on what we want the agent to do.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 550,
+          "t": [
+            2411.719,
+            2417.023
+          ],
+          "quote": "So for that, we do something called Steering, which helps the agent",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 551,
+          "t": [
+            2417.463,
+            2424.567
+          ],
+          "quote": "which helps the agent to steer itself in the direction that we want it to by giving it a buddy agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 553,
+          "t": [
+            2426.067,
+            2436.032
+          ],
+          "quote": "Think of it as like pair partnering, like pair programming or pair partnering, where as it's generating an output, the buddy agent looks at what's being generated.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 554,
+          "t": [
+            2436.553,
+            2440.875
+          ],
+          "quote": "And then that buddy agent can then tell it, hey, no, this is not what you're supposed to do.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 556,
+          "t": [
+            2443.636,
+            2452.121
+          ],
+          "quote": "So, your buddy agent is sort of checking and correcting and course-correcting, and then the response you want is the response that you're actually happy with.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2463.047,
+            2471.603
+          ],
+          "quote": "Now, I'm going to do this quickly because I want Ellie to talk about deployment, which is how you can actually make sure your agent is helpful and useful.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 564,
+          "t": [
+            2485.788,
+            2499.902
+          ],
+          "quote": "You can invoke it before LLM, while LLM is being invocated, before tool call, after tool call, very similar to hooks, except at that hook point, now you're also adding another agent over there that can do a quick check.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 570,
+          "t": [
+            2523.313,
+            2527.934
+          ],
+          "quote": "So now you have more control over what your agent is generating.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 573,
+          "t": [
+            2549.111,
+            2559.179
+          ],
+          "quote": "Check the strands agent documentation, the details are going to be in there, but also in the workshop mentioned over here, you will see all of the details.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 577,
+          "t": [
+            2570.243,
+            2575.085
+          ],
+          "quote": "This can also be another agent that has a hardcoded function in it that works.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 580,
+          "t": [
+            2585.49,
+            2588.371
+          ],
+          "quote": "So then you create a steering agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 582,
+          "t": [
+            2591.792,
+            2596.014
+          ],
+          "quote": "So now you create a steering agent and you create the guardrail.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 587,
+          "t": [
+            2614.681,
+            2617.902
+          ],
+          "quote": "So this is the second type of steering agent that we've created.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 589,
+          "t": [
+            2622.405,
+            2627.308
+          ],
+          "quote": "Apart from agent skills, we just call these two different handlers that we've established.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 595,
+          "t": [
+            2666.125,
+            2675.192
+          ],
+          "quote": "It's not just calling the lookup customer and get order history, but it's also, we see that it's evaluating the agent response.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 597,
+          "t": [
+            2685.119,
+            2693.725
+          ],
+          "quote": "You can say with full confidence that your model, that your agent is most likely going to be responding in the way that you want to.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 607,
+          "t": [
+            2741.423,
+            2747.724
+          ],
+          "quote": "But if you want to steer the agent to block more than five people, you can create rules.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 608,
+          "t": [
+            2748.084,
+            2759.366
+          ],
+          "quote": "So every time that the agent is receiving more than five bookings, he's going to say, hmm, if I receive six, I can steer the booking for two rooms.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 609,
+          "t": [
+            2759.786,
+            2764.087
+          ],
+          "quote": "So you can create rules for that using the agent control library.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 620,
+          "t": [
+            2813.483,
+            2816.164
+          ],
+          "quote": "But you can do that using an agent called memory without the framework.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 630,
+          "t": [
+            2861.662,
+            2863.624
+          ],
+          "quote": "We are going to take this agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 631,
+          "t": [
+            2864.084,
+            2869.069
+          ],
+          "quote": "Then we are going to send this agent, this agent code, to our runtime on AWS.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 632,
+          "t": [
+            2869.409,
+            2872.672
+          ],
+          "quote": "And the agent code is going to deploy this code inside a container.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 633,
+          "t": [
+            2873.373,
+            2878.335
+          ],
+          "quote": "But we are not going to handle that because agent code is going to do that for us.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 638,
+          "t": [
+            2888.52,
+            2899.726
+          ],
+          "quote": "When you build a genetic application and you want to put that code inside the agent code runtime, the only difference that you have to do for your agent is put this decorator.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 640,
+          "t": [
+            2901.807,
+            2912.051
+          ],
+          "quote": "So the MPP entry point is the only difference between your agent running in your notebook or your computer and between production.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 642,
+          "t": [
+            2918.873,
+            2922.714
+          ],
+          "quote": "Ah, everything behind the MPP entry point is the agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 651,
+          "t": [
+            2962.227,
+            2966.809
+          ],
+          "quote": "In this environment, you are going to be able to deploy the agent and everything.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 652,
+          "t": [
+            2967.469,
+            2974.352
+          ],
+          "quote": "But if you are running this locally, you are going to be able to test the agent before to put it in AWS.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 675,
+          "t": [
+            3044.263,
+            3053.891
+          ],
+          "quote": "If you don't have that, you are not going to see the identical servability inside your agent because CloudWatch is not going to receive the information.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 696,
+          "t": [
+            3136.577,
+            3137.979
+          ],
+          "quote": "I'm going to create an agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 698,
+          "t": [
+            3141.701,
+            3144.644
+          ],
+          "quote": "If you choose agent, it's going to be a simple agent for you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 700,
+          "t": [
+            3148.046,
+            3154.831
+          ],
+          "quote": "And it's going to create environment, everything that I need to put this agent that I already have inside this container.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 715,
+          "t": [
+            3182.154,
+            3192.882
+          ],
+          "quote": "When I put agent add, it's going to create the container that I need, but I already have this agent here in my computer because I wanted to show you something.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 716,
+          "t": [
+            3193.322,
+            3199.946
+          ],
+          "quote": "The same agent that Sandy just showed you, this customer agent, I have the repo here in my computer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 719,
+          "t": [
+            3206.751,
+            3208.032
+          ],
+          "quote": "You can use agent core.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 720,
+          "t": [
+            3210.113,
+            3216.3
+          ],
+          "quote": "DevAgentCore, Dev, to test the agent locally.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 723,
+          "t": [
+            3227.191,
+            3232.794
+          ],
+          "quote": "But if you are running this locally in your computer, you can have this environment to test the agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 724,
+          "t": [
+            3232.854,
+            3234.355
+          ],
+          "quote": "So this is the same agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 727,
+          "t": [
+            3239.418,
+            3244.401
+          ],
+          "quote": "If you want to explore what's happening inside your agent, you can do that locally.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 743,
+          "t": [
+            3293.269,
+            3297.011
+          ],
+          "quote": "So what I want, I want an agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 788,
+          "t": [
+            3451.137,
+            3452.858
+          ],
+          "quote": "And you can test the agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 790,
+          "t": [
+            3453.978,
+            3455.359
+          ],
+          "quote": "I can test the agent right away.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 791,
+          "t": [
+            3455.819,
+            3457.52
+          ],
+          "quote": "So I can invoke this agent here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 793,
+          "t": [
+            3465.725,
+            3470.247
+          ],
+          "quote": "Inside the repo, you can find how to invoke this agent using Boto3.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 794,
+          "t": [
+            3470.967,
+            3474.649
+          ],
+          "quote": "So the only thing that you need is the ARN for this agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 799,
+          "t": [
+            3480.314,
+            3481.294
+          ],
+          "quote": "It's in working the agent.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "tool",
+      "type": "concept",
+      "role": "concept",
+      "name": "工具 (tool)",
+      "file": "工具",
+      "primary": true,
+      "how_described": "本集说工具是『赋予智能体主观能动性去执行函数的方式』——LLM 只在预测下一个词，工具是让它接地到数据库等真相来源的门，由智能体自己决定何时调用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            252.958,
+            256.079
+          ],
+          "quote": "What tool is using this engine?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 62,
+          "t": [
+            308.763,
+            314.144
+          ],
+          "quote": "So it helps you to deliver the best tool for your agent loop.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1074.293,
+            1080.939
+          ],
+          "quote": "The agent calls the LLM and the LLM then reads the question and calls a tool.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1112.634,
+            1124.16
+          ],
+          "quote": "And that can be written inside of a tool, and that tool can be given, the agent can be given access to that tool, and the agent decides when to use that tool.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1124.48,
+            1136.967
+          ],
+          "quote": "And the agent can have access to a bunch of different tools, and the agent will figure out, it will rely on the LLM, the LLM's capability, the LLM's reasoning capability to figure out which tool to use.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1137.447,
+            1145.329
+          ],
+          "quote": "And call the tool, run the tool's response, and potentially, again, you know, the agent loop can get completed, and then it would send the response.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1229.703,
+            1240.247
+          ],
+          "quote": "Tools can be written, it can be a functional code, but it can also be like an NLP type of a tool that you can have generated.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1240.267,
+            1246.009
+          ],
+          "quote": "The way to define a tool is by using the atToolDecorator function and you write a code.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1246.349,
+            1252.511
+          ],
+          "quote": "So here we've got a simple tool that's doing a lookup on customers, that's just doing a get.customerID.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1252.971,
+            1256.212
+          ],
+          "quote": "Then we've got another tool that's just doing getOrderHistory.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1256.612,
+            1259.797
+          ],
+          "quote": "The third tool we've got is process refund, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1267.307,
+            1269.129
+          ],
+          "quote": "They all just have the add tool decorator.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1322.823,
+            1331.491
+          ],
+          "quote": "Always verify customer using, look up customer before taking action, use tool data to answer questions, don't ask the customer for info you already have.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1360.51,
+            1361.671
+          ],
+          "quote": "So it's invoking tool one.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1364.152,
+            1366.773
+          ],
+          "quote": "Then it's calling tool two, which is get order history.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1393.974,
+            1404.922
+          ],
+          "quote": "And as we saw in the previous diagram, the user sends in a message, goes to the LLM, the LLM does the tool call, we get a tool result, and finally, we get a response.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1421.019,
+            1422.821
+          ],
+          "quote": "Then this is the tool call one.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1423.101,
+            1423.962
+          ],
+          "quote": "Tool call two.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1577.181,
+            1590.587
+          ],
+          "quote": "So what you can do is, in this entire process where from the time your agent is just getting invoked, it's doing its own tool calls and it's getting responses and sending it out, we want to be able to control it, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 368,
+          "t": [
+            1595.51,
+            1603.557
+          ],
+          "quote": "Before the tool is being called or maybe once the tool is being called and then it gets a response, we want to be able to have a lot of control over it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1644.177,
+            1647.479
+          ],
+          "quote": "You can do it after the LLM call, before the tool call.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1651.942,
+            1656.365
+          ],
+          "quote": "And then you can even do it after tool execution before it sends the response.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 399,
+          "t": [
+            1718.415,
+            1723.279
+          ],
+          "quote": "So in our case, we want to do it before invocation and also before tool call.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 413,
+          "t": [
+            1773.041,
+            1776.283
+          ],
+          "quote": "And then we want another callback, which is before tool call event.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 426,
+          "t": [
+            1832.26,
+            1838.926
+          ],
+          "quote": "It's calling these two, and it's saying, okay, tool call one, tool call two, here's a summary of your events, this is what's happened.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2061.253,
+            2065.959
+          ],
+          "quote": "I saw that in the example with the hook, it kept running the agent, but it just blocked the tool call.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 491,
+          "t": [
+            2088.788,
+            2091.428
+          ],
+          "quote": "So what it's doing is it's trying to invoke the tool.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2091.448,
+            2096.389
+          ],
+          "quote": "In this case, because we said before tool invocation, it just kept attempting to do it and kept stopping.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 536,
+          "t": [
+            2323.496,
+            2332.562
+          ],
+          "quote": "And when this runs and someone says, I'd like a refund for my wireless headphones, it's actually calling the skills as a tool.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 564,
+          "t": [
+            2485.788,
+            2499.902
+          ],
+          "quote": "You can invoke it before LLM, while LLM is being invocated, before tool call, after tool call, very similar to hooks, except at that hook point, now you're also adding another agent over there that can do a quick check.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 567,
+          "t": [
+            2509.029,
+            2511.389
+          ],
+          "quote": "So then you can do a tool call and then you can do this.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "strands-agents",
+      "type": "company",
+      "role": "concept",
+      "name": "strands agents",
+      "file": "strands agents",
+      "primary": true,
+      "how_described": "本集介绍它是 AWS 构建并维护的开源智能体框架（agentic harness）：不绑定任何模型，可接 Bedrock、OpenAI、Llama、Hugging Face 或自托管模型，内置护栏和可观测性，支持 MCP 和 A2A。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 230,
+          "t": [
+            1005.012,
+            1026.848
+          ],
+          "quote": "Because this works natively with Amazon, we have a bedrock hosted model, but you can have, so if you go to strands agents over here, this is the strands agents, and you look at model providers, you can use any of your favorite model providers, you can use your Llama, and if you want to host it locally, and this shows you how to do it, all you have to do is",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1662.808,
+            1666.971
+          ],
+          "quote": "If we go to strands agents, this will show you all the different ways you can enforce hooks.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "agentcore",
+      "type": "company",
+      "role": "concept",
+      "name": "AgentCore",
+      "file": "AgentCore",
+      "primary": true,
+      "how_described": "本集把它说成 AWS 专门用于把智能体送上生产环境的服务：加一个入口点装饰器、一条 CLI 命令即自动建容器、配权限、生成 CDK 基础设施代码，并内置会话、记忆与智能体级可观测性，约 5 分钟从零上线。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            161.475,
+            169.599
+          ],
+          "quote": "And because in this workshop you are going to put this agent that we are going to build in production, we are going to use AgentCore.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 35,
+          "t": [
+            170.02,
+            173.442
+          ],
+          "quote": "And AgentCore is a service, Amazon Metro AgentCore.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 662,
+          "t": [
+            3005.751,
+            3008.952
+          ],
+          "quote": "So you can see all the service that AgentCore have.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "aws",
+      "type": "company",
+      "role": "concept",
+      "name": "AWS",
+      "file": "AWS",
+      "primary": true,
+      "how_described": "本集两位讲师来自 AWS，全程在 AWS 环境上做工作坊：Strands Agents 由 AWS 构建维护，AgentCore 跑在 AWS 上、提供企业级安全并自动扩缩。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            58.711,
+            61.692
+          ],
+          "quote": "And this was actually built by AWS.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 20,
+          "t": [
+            105.54,
+            110.241
+          ],
+          "quote": "So there's community supporting this on GitHub, and AWS maintains this.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 28,
+          "t": [
+            127.516,
+            134.141
+          ],
+          "quote": "It works natively in production with AWS, but you can bring any model you want and you can run it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 53,
+          "t": [
+            259.44,
+            267.722
+          ],
+          "quote": "You are going to able to see all of that inside the agent code observability inside CloudWatch in AWS.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 85,
+          "t": [
+            419.121,
+            423.885
+          ],
+          "quote": "You have the enterprise-grade security, of course, because it's running on AWS.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 87,
+          "t": [
+            426.567,
+            437.393
+          ],
+          "quote": "Of course, if you are doing a good deployment, if you don't share your keys, everything, because it's inside AWS, and we don't use your data to train models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 116,
+          "t": [
+            554.873,
+            557.534
+          ],
+          "quote": "You don't have to create your own AWS account.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 628,
+          "t": [
+            2853.074,
+            2856.117
+          ],
+          "quote": "We are going to use the AWS CLI through the terminal.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 631,
+          "t": [
+            2864.084,
+            2869.069
+          ],
+          "quote": "Then we are going to send this agent, this agent code, to our runtime on AWS.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 652,
+          "t": [
+            2967.469,
+            2974.352
+          ],
+          "quote": "But if you are running this locally, you are going to be able to test the agent before to put it in AWS.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 657,
+          "t": [
+            2987.557,
+            2988.839
+          ],
+          "quote": "AWS console.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 680,
+          "t": [
+            3078.404,
+            3080.325
+          ],
+          "quote": "The AWS OpenTelemetry Distro.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 683,
+          "t": [
+            3094.033,
+            3099.196
+          ],
+          "quote": "For the strands, you don't need to do anything because a strand is built in for AWS, so everything is built in.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 728,
+          "t": [
+            3246.222,
+            3253.445
+          ],
+          "quote": "Because I'm using Amazon Bedrock as a model provider, I'm using my AWS credential.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 729,
+          "t": [
+            3253.785,
+            3257.907
+          ],
+          "quote": "And to use Amazon Bedrock, ANCOR, you need AWS credential.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 765,
+          "t": [
+            3352.538,
+            3376.324
+          ],
+          "quote": "One minute to deploy, one minute to put these things in production inside AWS, so it's running, it's going to validate, it's going to check my credentials, so if you're familiar with AWS, when you build everything inside AWS, you need to create the AM, you need to create policy, permissions, you need to allow the service to connect with other service, you need to do a lot of things inside.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 821,
+          "t": [
+            3550.392,
+            3554.533
+          ],
+          "quote": "If you are lucky, because our few are about 20 credits for AWS.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "hooks",
+      "type": "concept",
+      "role": "concept",
+      "name": "钩子 (hooks)",
+      "file": "钩子",
+      "primary": true,
+      "how_described": "本集说 hooks 是在智能体循环各节点插入确定性代码的机制——提示词只是概率性建议，钩子能做硬性规定：现场演示了限速钩子（每次请求最多 3 次工具调用）和拦截信用卡号等敏感信息的钩子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 98,
+          "t": [
+            475.208,
+            480.21
+          ],
+          "quote": "So talk about hooks, talk about skills, stirrings, and then Ellie's going to be talking about",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1551.122,
+            1553.384
+          ],
+          "quote": "Let me introduce you to what we call hooks.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1554.445,
+            1558.128
+          ],
+          "quote": "Now, hooks are amazing because let me first open that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1563.34,
+            1564.925
+          ],
+          "quote": "Now, hooks are.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1662.808,
+            1666.971
+          ],
+          "quote": "If we go to strands agents, this will show you all the different ways you can enforce hooks.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 386,
+          "t": [
+            1674.216,
+            1677.418
+          ],
+          "quote": "So, in hooks, what are we doing here?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 398,
+          "t": [
+            1708.807,
+            1718.035
+          ],
+          "quote": "Now, we want to import strands.hooks, and we want to import hook provider, hook registry, and where we want to call these hooks.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 423,
+          "t": [
+            1822.153,
+            1824.954
+          ],
+          "quote": "One extra line that we added is the hooks.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 436,
+          "t": [
+            1868.434,
+            1870.557
+          ],
+          "quote": "It won't because we have something called hooks.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 444,
+          "t": [
+            1882.087,
+            1883.888
+          ],
+          "quote": "I would like to add something to the hooks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 465,
+          "t": [
+            1976.079,
+            1982.424
+          ],
+          "quote": "And again, if you want to do multi-turn conversations, go to chat.py in the second module with hooks enabled.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 467,
+          "t": [
+            1984.305,
+            1988.068
+          ],
+          "quote": "And you can play around, add different hooks at different places, see what works.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 470,
+          "t": [
+            1995.835,
+            1997.036
+          ],
+          "quote": "So hooks are amazing.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 471,
+          "t": [
+            1997.096,
+            2002.02
+          ],
+          "quote": "And we want to have hooks as we're writing good, building good agentic systems.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2027.101,
+            2028.663
+          ],
+          "quote": "Everyone good with the idea of hooks?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2071.425,
+            2078.086
+          ],
+          "quote": "So as we're defining our hooks, we can define the hook in such a way to even end the agent's turn if we wanted to.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 562,
+          "t": [
+            2478.581,
+            2481.784
+          ],
+          "quote": "Now, steering handlers works the same way as hooks.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 564,
+          "t": [
+            2485.788,
+            2499.902
+          ],
+          "quote": "You can invoke it before LLM, while LLM is being invocated, before tool call, after tool call, very similar to hooks, except at that hook point, now you're also adding another agent over there that can do a quick check.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 604,
+          "t": [
+            2724.215,
+            2732.259
+          ],
+          "quote": "For example, I have a demo where this is a travel engine, so you can use hooks to block numbers.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能 (skills)",
+      "file": "技能",
+      "primary": true,
+      "how_described": "本集说 skills 是放在技能文件夹里的 Markdown 知识文件（如处理退款、订单追踪、账户排查），智能体先浏览再按需调用相关技能当工具，避免把所有信息塞进系统提示词浪费 token。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 98,
+          "t": [
+            475.208,
+            480.21
+          ],
+          "quote": "So talk about hooks, talk about skills, stirrings, and then Ellie's going to be talking about",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2007.204,
+            2008.465
+          ],
+          "quote": "Let's add skills.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2008.866,
+            2019.395
+          ],
+          "quote": "Let's add skills and let's find a way to steer your agent and your LLM and get them to respond in a fashion that we wanted to respond in.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2118.465,
+            2119.646
+          ],
+          "quote": "So, skills and stirring.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 504,
+          "t": [
+            2137.355,
+            2148.258
+          ],
+          "quote": "We create what's called a skills folder, a skills file, which contains potentially all of your information on your ground truth, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 507,
+          "t": [
+            2157.5,
+            2174.312
+          ],
+          "quote": "And this is a way by which, so here what it would do is when we add agent skills, it would first go look up the skills folder and read all of the skills, see which one actually makes sense, and then it would use those skills.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 508,
+          "t": [
+            2175.893,
+            2185.44
+          ],
+          "quote": "Let me get to stirring in just a bit, but skills is a way by which we can give our, let me go to the third one, third module.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2196.455,
+            2201.816
+          ],
+          "quote": "So first thing is when we create skills, now we've got three types of skills that we've created.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 516,
+          "t": [
+            2218.241,
+            2222.863
+          ],
+          "quote": "So, here, we are creating these different skills plugins.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 518,
+          "t": [
+            2225.965,
+            2230.707
+          ],
+          "quote": "So, when I open the skills folder here, we can look at sample skills.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 519,
+          "t": [
+            2231.047,
+            2235.45
+          ],
+          "quote": "So, this is just a markdown file on skills for account troubleshooting, which is",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 530,
+          "t": [
+            2288.569,
+            2295.936
+          ],
+          "quote": "And so we create these different skills files, markdown files, and when we run it,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 533,
+          "t": [
+            2308.724,
+            2311.386
+          ],
+          "quote": "And this has access to all of the skills plugins.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 534,
+          "t": [
+            2311.687,
+            2315.49
+          ],
+          "quote": "And the skills plugin points to the skills folder here.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 535,
+          "t": [
+            2316.271,
+            2322.475
+          ],
+          "quote": "So now it's going to invoke whichever skills it needs for that specific type of question that's being asked.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 536,
+          "t": [
+            2323.496,
+            2332.562
+          ],
+          "quote": "And when this runs and someone says, I'd like a refund for my wireless headphones, it's actually calling the skills as a tool.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 539,
+          "t": [
+            2354.847,
+            2360.071
+          ],
+          "quote": "Now, this is skills, but how many, this is something that I've generally faced, right, with steering.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 589,
+          "t": [
+            2622.405,
+            2627.308
+          ],
+          "quote": "Apart from agent skills, we just call these two different handlers that we've established.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 625,
+          "t": [
+            2837.765,
+            2844.51
+          ],
+          "quote": "So we have the customer service tools, and we have the skills, we have everything here.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "steering",
+      "type": "concept",
+      "role": "concept",
+      "name": "转向 (steering)",
+      "file": "转向",
+      "primary": true,
+      "how_described": "本集把 steering 说成给主智能体配一个『伙伴智能体』，像结对编程一样边生成边检查纠偏：可管退款流程顺序、管语气（不过度承诺、不怪客户），handler 可以是硬编码函数也可以是另一个模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 475,
+          "t": [
+            2019.635,
+            2021.396
+          ],
+          "quote": "And so steering is, I love steering.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 476,
+          "t": [
+            2021.416,
+            2022.117
+          ],
+          "quote": "Steering is awesome.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2023.138,
+            2024.339
+          ],
+          "quote": "So let's get to steering.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 539,
+          "t": [
+            2354.847,
+            2360.071
+          ],
+          "quote": "Now, this is skills, but how many, this is something that I've generally faced, right, with steering.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 550,
+          "t": [
+            2411.719,
+            2417.023
+          ],
+          "quote": "So for that, we do something called Steering, which helps the agent",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 558,
+          "t": [
+            2459.565,
+            2462.507
+          ],
+          "quote": "You want it a certain way, and steering can help you do that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 561,
+          "t": [
+            2475.718,
+            2478.06
+          ],
+          "quote": "Quick idea of steering handlers.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 562,
+          "t": [
+            2478.581,
+            2481.784
+          ],
+          "quote": "Now, steering handlers works the same way as hooks.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 571,
+          "t": [
+            2529.875,
+            2535.52
+          ],
+          "quote": "If we go back to steering, okay, so again, what do we want?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 572,
+          "t": [
+            2535.64,
+            2548.03
+          ],
+          "quote": "We want to import the steerings, we want to import steerings over here, and from here, again, the steering handler, and these are all the different places that we're doing it at, and you can do it in different ways.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 580,
+          "t": [
+            2585.49,
+            2588.371
+          ],
+          "quote": "So then you create a steering agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 581,
+          "t": [
+            2588.911,
+            2591.432
+          ],
+          "quote": "And then this is all for steering, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 582,
+          "t": [
+            2591.792,
+            2596.014
+          ],
+          "quote": "So now you create a steering agent and you create the guardrail.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 587,
+          "t": [
+            2614.681,
+            2617.902
+          ],
+          "quote": "So this is the second type of steering agent that we've created.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 591,
+          "t": [
+            2631.591,
+            2651.723
+          ],
+          "quote": "So we can say steer after model if we wanted to do, and we can tell it what to do in this case, but over here, we can also tell it, we can also do steering data.get, we can create a ledger for it, and we can choose to enable them at whichever part of the flow, the agentic flow we wanted to do.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 592,
+          "t": [
+            2652.263,
+            2658.172
+          ],
+          "quote": "And so at the end, all we need to do is give it access to these two steering handlers.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 601,
+          "t": [
+            2705.762,
+            2708.746
+          ],
+          "quote": "I would like to add something to the steering part.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 603,
+          "t": [
+            2719.513,
+            2723.875
+          ],
+          "quote": "With AgentControl, you can create rules to the steering.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 611,
+          "t": [
+            2768.368,
+            2772.913
+          ],
+          "quote": "So you can create a database for all your rules for steering the agents.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集把钩子和转向 handler 都说成启用护栏的方式：『这是启用护栏的一个非常好的方式』，转向护栏被比作另一种 guardrail，用于保证输出格式和语气符合要求。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            134.922,
+            137.384
+          ],
+          "quote": "It's also got guardrails and observability built in.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 469,
+          "t": [
+            1992.592,
+            1995.815
+          ],
+          "quote": "This is a really good way of enabling guardrails, right?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "本集强调 AgentCore 内置的是『智能体层面的可观测性』——不是看内存占用，而是花了多少 token、调了哪些工具、循环内部发生了什么，可在 CloudWatch 仪表盘里查看。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            134.922,
+            137.384
+          ],
+          "quote": "It's also got guardrails and observability built in.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 45,
+          "t": [
+            225.948,
+            228.69
+          ],
+          "quote": "And you have observability built in too.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 47,
+          "t": [
+            231.352,
+            238.714
+          ],
+          "quote": "You install this code, put this code inside this container, and you are going to have memory and observability.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 48,
+          "t": [
+            238.874,
+            246.316
+          ],
+          "quote": "And when I say observability, it's not observability about the RAM or what is the behavior for this container.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 49,
+          "t": [
+            246.376,
+            248.457
+          ],
+          "quote": "It's about agentic observability.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 53,
+          "t": [
+            259.44,
+            267.722
+          ],
+          "quote": "You are going to able to see all of that inside the agent code observability inside CloudWatch in AWS.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 653,
+          "t": [
+            2974.412,
+            2979.334
+          ],
+          "quote": "It's something that you have to do to have the built-in observability.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 664,
+          "t": [
+            3013.154,
+            3018.097
+          ],
+          "quote": "Runtime, gateway, memory, and observability is just right here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 677,
+          "t": [
+            3058.815,
+            3066.879
+          ],
+          "quote": "Install, put inside the requirement, the observability library that I have the observability requirements.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 684,
+          "t": [
+            3099.596,
+            3104.238
+          ],
+          "quote": "But the observability works for other frameworks, but you need to do some modification.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 807,
+          "t": [
+            3500.164,
+            3505.747
+          ],
+          "quote": "And to see the observability, you can go to the runtime.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 808,
+          "t": [
+            3508.224,
+            3510.405
+          ],
+          "quote": "And here you have the observability dashboard.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集说 LLM 大多数时候只是在预测下一个 token，是概率性的——提示词只是建议，所以要靠工具接真实数据、靠钩子做确定性控制。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            82.875,
+            91.056
+          ],
+          "quote": "Transagents is an open source agent harness, which means you can bring your own LLM.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 16,
+          "t": [
+            91.437,
+            99.438
+          ],
+          "quote": "You can use any LLM provider, model provider, and you can build an agent harness around it, and you can control it end to end.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 229,
+          "t": [
+            998.007,
+            1004.772
+          ],
+          "quote": "So the user sends in their input and their context, and then you have an LLM which you can provide, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1074.293,
+            1080.939
+          ],
+          "quote": "The agent calls the LLM and the LLM then reads the question and calls a tool.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1097.213,
+            1100.358
+          ],
+          "quote": "The LLM's base knowledge of what the answer is.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1124.48,
+            1136.967
+          ],
+          "quote": "And the agent can have access to a bunch of different tools, and the agent will figure out, it will rely on the LLM, the LLM's capability, the LLM's reasoning capability to figure out which tool to use.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1285.287,
+            1288.709
+          ],
+          "quote": "The second is your LLM, your model.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1336.456,
+            1340.961
+          ],
+          "quote": "LLM, how to use the tools that it's got access to and what to do with it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1341.302,
+            1345.547
+          ],
+          "quote": "So that's how your LLM and your agent understands what needs to be done with it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1393.974,
+            1404.922
+          ],
+          "quote": "And as we saw in the previous diagram, the user sends in a message, goes to the LLM, the LLM does the tool call, we get a tool result, and finally, we get a response.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1644.177,
+            1647.479
+          ],
+          "quote": "You can do it after the LLM call, before the tool call.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 403,
+          "t": [
+            1735.805,
+            1745.769
+          ],
+          "quote": "In case you have an LLM that's just going crazy and that's continuously invoking your tools, that's going to cost you a lot of tokens and you know it's not working right.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 445,
+          "t": [
+            1884.388,
+            1891.811
+          ],
+          "quote": "Sometimes, you know, hook is better because when you're using an LLM with some tools, the LLM are probabilistic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2008.866,
+            2019.395
+          ],
+          "quote": "Let's add skills and let's find a way to steer your agent and your LLM and get them to respond in a fashion that we wanted to respond in.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2096.489,
+            2099.93
+          ],
+          "quote": "And the LLM still continue to run the loop until the end.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 564,
+          "t": [
+            2485.788,
+            2499.902
+          ],
+          "quote": "You can invoke it before LLM, while LLM is being invocated, before tool call, after tool call, very similar to hooks, except at that hook point, now you're also adding another agent over there that can do a quick check.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "multi-turn-conversations",
+      "type": "concept",
+      "role": "concept",
+      "name": "多轮对话 (multi-turn conversations)",
+      "file": "多轮对话",
+      "primary": false,
+      "how_described": "本集提到除单轮对话外，可用 chat.py 启用多轮对话，与智能体进行延伸聊天。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 330,
+          "t": [
+            1441.732,
+            1445.153
+          ],
+          "quote": "But what we can do is we can also have multi-turn conversations.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1447.274,
+            1451.995
+          ],
+          "quote": "You can also run your multi-turn conversations where you have an extended chat with your agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1512.583,
+            1514.644
+          ],
+          "quote": "And you can have multi-turn conversations with it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1517.245,
+            1526.209
+          ],
+          "quote": "So you can continue to have multi-turn conversations with it, the exact same underlying code, exact same tools, and it's just able to talk to you.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 465,
+          "t": [
+            1976.079,
+            1982.424
+          ],
+          "quote": "And again, if you want to do multi-turn conversations, go to chat.py in the second module with hooks enabled.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "agentcontrol",
+      "type": "concept",
+      "role": "concept",
+      "name": "AgentControl",
+      "file": "AgentControl",
+      "primary": false,
+      "how_described": "Ellie 介绍的开源库：可把转向规则存在数据库里，改规则只需改数据库、不用改智能体代码，例：订房超 5 人时自动转向成订两间。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 602,
+          "t": [
+            2711.169,
+            2719.113
+          ],
+          "quote": "There is an open source library that is called AgentControl that you can add to a strand, and it's there in the documentation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 603,
+          "t": [
+            2719.513,
+            2723.875
+          ],
+          "quote": "With AgentControl, you can create rules to the steering.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "记忆 (memory)",
+      "file": "记忆",
+      "primary": false,
+      "how_described": "本集说会话内是短期记忆（15 分钟到 8 小时），要长期记忆可用 AgentCore memory 服务，自动建好三种类型的记忆存储，连向量数据库都不用自己搭。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            231.352,
+            238.714
+          ],
+          "quote": "You install this code, put this code inside this container, and you are going to have memory and observability.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 63,
+          "t": [
+            315.044,
+            322.686
+          ],
+          "quote": "And we have agent code memory because when we create an agent, we have short-term memory.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 64,
+          "t": [
+            322.946,
+            325.026
+          ],
+          "quote": "The short-term memory is built in the wrong time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 66,
+          "t": [
+            326.386,
+            329.887
+          ],
+          "quote": "But what happens when you want a long-term memory?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 67,
+          "t": [
+            330.267,
+            333.567
+          ],
+          "quote": "You know, a memory that can last more than eight hours.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 68,
+          "t": [
+            333.988,
+            336.588
+          ],
+          "quote": "So you can create an agent code memory",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 69,
+          "t": [
+            337.008,
+            342.894
+          ],
+          "quote": "So when you create agent code memory, you are going to have a semantic memory too.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 70,
+          "t": [
+            343.234,
+            347.819
+          ],
+          "quote": "So agent code mills for you, mills in three different types of memory.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 71,
+          "t": [
+            348.299,
+            352.123
+          ],
+          "quote": "So you are going to have like, I don't remember the name of the memory, but you have",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 73,
+          "t": [
+            357.328,
+            367.038
+          ],
+          "quote": "So every time that you retrieve your agent loop, you can retrieve this memory inside the agent called memory that is completely built in.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 75,
+          "t": [
+            373.544,
+            377.967
+          ],
+          "quote": "You only have to say, hey, ANCOR, I want ANCOR memory.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 76,
+          "t": [
+            377.987,
+            387.875
+          ],
+          "quote": "So it's deployed for you the memory, the three different types of memory, custom memory, and you can create your own custom memory.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 77,
+          "t": [
+            387.955,
+            392.358
+          ],
+          "quote": "You can put your custom prompt to build your own memory.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 78,
+          "t": [
+            392.378,
+            398.063
+          ],
+          "quote": "So every time that you retrieve the information for this agent, you are going to have your custom memory.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 619,
+          "t": [
+            2803.077,
+            2813.463
+          ],
+          "quote": "So here we have the session manager, but I am going to show you that session manager is when you want to save the memory using a framework.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 620,
+          "t": [
+            2813.483,
+            2816.164
+          ],
+          "quote": "But you can do that using an agent called memory without the framework.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 634,
+          "t": [
+            2878.756,
+            2881.717
+          ],
+          "quote": "And we are going to have memory too without doing anything.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 664,
+          "t": [
+            3013.154,
+            3018.097
+          ],
+          "quote": "Runtime, gateway, memory, and observability is just right here.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

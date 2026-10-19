@@ -1,0 +1,4362 @@
+[
+ {
+  "seg": 0,
+  "start": 12.994,
+  "end": 16.838,
+  "speaker": "Unknown",
+  "en": "Hello, everyone, and thank you for coming to our workshop, Building with Perception Agents.",
+  "zh": "大家好，感谢各位来参加我们的工作坊「Building with Perception Agents(构建感知智能体)」。"
+ },
+ {
+  "seg": 1,
+  "start": 17.919,
+  "end": 18.879,
+  "speaker": "Unknown",
+  "en": "My name is Emil Bazel.",
+  "zh": "我叫 Emil Bazel。"
+ },
+ {
+  "seg": 2,
+  "start": 19.2,
+  "end": 23.083,
+  "speaker": "Unknown",
+  "en": "I lead a team of solutions architects within Amazon AGI Lab.",
+  "zh": "我在 Amazon AGI Lab 内部领导一个解决方案架构师团队。"
+ },
+ {
+  "seg": 3,
+  "start": 23.924,
+  "end": 25.465,
+  "speaker": "Unknown",
+  "en": "And our team is focused on two things.",
+  "zh": "我们团队专注于两件事。"
+ },
+ {
+  "seg": 4,
+  "start": 25.686,
+  "end": 32.032,
+  "speaker": "Unknown",
+  "en": "The first is working with some of our earliest adopter customers who want to work with some of our early models and products.",
+  "zh": "第一是与一些最早期的采用者客户合作，他们想使用我们的一些早期模型和产品，"
+ },
+ {
+  "seg": 5,
+  "start": 32.592,
+  "end": 33.853,
+  "speaker": "Unknown",
+  "en": "to help them get into production.",
+  "zh": "帮助他们进入生产环境。"
+ },
+ {
+  "seg": 6,
+  "start": 34.174,
+  "end": 47.306,
+  "speaker": "Unknown",
+  "en": "And the second part is closing the feedback loop from our customer engagements, building evals for our research team to train our models on, and bringing product and engineering feedback to those teams as well.",
+  "zh": "第二部分是打通客户合作的反馈闭环，为我们的研究团队构建评测（evals）以用于训练模型，同时也把产品和工程方面的反馈带给那些团队。"
+ },
+ {
+  "seg": 7,
+  "start": 48.287,
+  "end": 53.853,
+  "speaker": "Unknown",
+  "en": "And I'm joined by one of our stellar solutions architects, Shruti Arora, who's gonna be running the workshop today.",
+  "zh": "和我一起来的还有我们一位非常出色的解决方案架构师 Shruti Arora，她今天将主持这个工作坊。"
+ },
+ {
+  "seg": 8,
+  "start": 56.347,
+  "end": 58.248,
+  "speaker": "Unknown",
+  "en": "Just a bit about what we're gonna be talking about today.",
+  "zh": "简单介绍一下我们今天要讲的内容。"
+ },
+ {
+  "seg": 9,
+  "start": 58.468,
+  "end": 73.455,
+  "speaker": "Unknown",
+  "en": "I'll be giving a quick overview of the Amazon AGI Lab and talking about the first product that we shipped last year, Amazon Nova Act, and then we'll get into perception agents, and that's what the focus of today's workshop is, and then we'll get into the workshop.",
+  "zh": "我会先快速概述一下 Amazon AGI Lab，谈谈我们去年发布的第一个产品 Amazon Nova Act，然后进入感知智能体——这是今天工作坊的重点——之后我们就进入工作坊环节。"
+ },
+ {
+  "seg": 10,
+  "start": 76.663,
+  "end": 77.543,
+  "speaker": "Unknown",
+  "en": "So a bit about the lab.",
+  "zh": "先简单介绍一下这个实验室。"
+ },
+ {
+  "seg": 11,
+  "start": 77.643,
+  "end": 86.847,
+  "speaker": "Unknown",
+  "en": "So we are a frontier research and product team that combines startup speed with the scale and the resources of Amazon.",
+  "zh": "我们是一个前沿研究与产品团队，结合了初创公司的速度和 Amazon 的规模与资源。"
+ },
+ {
+  "seg": 12,
+  "start": 87.567,
+  "end": 97.531,
+  "speaker": "Unknown",
+  "en": "And we are really focused on building knowledge work agents that can perceive, reason, and act in a variety of different environments to complete real-world tasks.",
+  "zh": "我们真正专注于构建知识工作智能体，它们能够在各种不同的环境中感知、推理和行动，以完成真实世界的任务。"
+ },
+ {
+  "seg": 13,
+  "start": 99.152,
+  "end": 101.716,
+  "speaker": "Unknown",
+  "en": "Our offices are in San Francisco and Boston.",
+  "zh": "我们的办公室在旧金山和波士顿。"
+ },
+ {
+  "seg": 14,
+  "start": 101.896,
+  "end": 104.439,
+  "speaker": "Unknown",
+  "en": "We've got a few other talks going on throughout the week.",
+  "zh": "本周我们还有一些其他的演讲在进行。"
+ },
+ {
+  "seg": 15,
+  "start": 104.579,
+  "end": 110.928,
+  "speaker": "Unknown",
+  "en": "We have a booth at the Expo, so stop by to collect some swag, meet some folks from the team, and hear some of the talks there.",
+  "zh": "我们在 Expo 有一个展位，欢迎过来领取一些纪念品，认识团队的一些成员，听听那里的一些演讲。"
+ },
+ {
+  "seg": 16,
+  "start": 112.95,
+  "end": 116.115,
+  "speaker": "Unknown",
+  "en": "So I want to share a bit about our approach and how we think about agents.",
+  "zh": "接下来我想分享一点我们的方法，以及我们如何看待智能体。"
+ },
+ {
+  "seg": 17,
+  "start": 118.165,
+  "end": 119.126,
+  "speaker": "Unknown",
+  "en": "Across three different ways.",
+  "zh": "从三个不同的方面来讲。"
+ },
+ {
+  "seg": 18,
+  "start": 119.166,
+  "end": 120.627,
+  "speaker": "Unknown",
+  "en": "So the first is around collaboration.",
+  "zh": "第一个是关于协作。"
+ },
+ {
+  "seg": 19,
+  "start": 120.667,
+  "end": 125.691,
+  "speaker": "Unknown",
+  "en": "So we really think about building agents that are teammates much more than just a black box.",
+  "zh": "我们真正想构建的智能体是队友，而不仅仅是一个黑盒。"
+ },
+ {
+  "seg": 20,
+  "start": 125.751,
+  "end": 135.719,
+  "speaker": "Unknown",
+  "en": "And when we say teammates, we really want an agent that can understand what our goal is, our objective is, and can share how they're thinking about achieving that goal.",
+  "zh": "当我们说队友时，我们是希望智能体能够理解我们的目标、我们的目的是什么，并且能够分享它是如何思考去实现那个目标的。"
+ },
+ {
+  "seg": 21,
+  "start": 137.281,
+  "end": 139.342,
+  "speaker": "Unknown",
+  "en": "And then...",
+  "zh": "然后……"
+ },
+ {
+  "seg": 22,
+  "start": 140.842,
+  "end": 145.288,
+  "speaker": "Unknown",
+  "en": "Grounding all of that in actual customer use cases.",
+  "zh": "把所有这些都锚定在实际的客户用例上。"
+ },
+ {
+  "seg": 23,
+  "start": 145.448,
+  "end": 151.896,
+  "speaker": "Unknown",
+  "en": "And so we work very, very closely with a large number of customers to really help ground all the work that we're doing with agents.",
+  "zh": "所以我们与大量客户非常非常紧密地合作，真正让我们在智能体方面所做的全部工作都有现实依据。"
+ },
+ {
+  "seg": 24,
+  "start": 152.898,
+  "end": 154.94,
+  "speaker": "Unknown",
+  "en": "And the second is around perception.",
+  "zh": "第二个是关于感知。"
+ },
+ {
+  "seg": 25,
+  "start": 155.2,
+  "end": 157.624,
+  "speaker": "Unknown",
+  "en": "So agents need to understand their environment.",
+  "zh": "智能体需要理解它们的环境。"
+ },
+ {
+  "seg": 26,
+  "start": 158.004,
+  "end": 163.889,
+  "speaker": "Unknown",
+  "en": "And so for us, because it's a perception-based agent, the environment spans multiple devices.",
+  "zh": "对我们来说，因为这是基于感知的智能体，环境跨越多种设备。"
+ },
+ {
+  "seg": 27,
+  "start": 164.289,
+  "end": 172.877,
+  "speaker": "Unknown",
+  "en": "So we started with browsers last year, but you can imagine any visual screen is an environment for our agent to carry out knowledge work in.",
+  "zh": "我们去年从浏览器开始，但你可以想象，任何可视化的屏幕都是我们智能体开展知识工作的环境。"
+ },
+ {
+  "seg": 28,
+  "start": 173.197,
+  "end": 177.621,
+  "speaker": "Unknown",
+  "en": "So mobile devices and also computer use is the other one.",
+  "zh": "所以移动设备，另外还有计算机使用（computer use）是另一个。"
+ },
+ {
+  "seg": 29,
+  "start": 179.353,
+  "end": 181.295,
+  "speaker": "Unknown",
+  "en": "And the third one is reliability.",
+  "zh": "第三个是可靠性。"
+ },
+ {
+  "seg": 30,
+  "start": 181.315,
+  "end": 186.058,
+  "speaker": "Unknown",
+  "en": "And we have a great customer quote that said, if my agent works 50% of the time, it doesn't work at all.",
+  "zh": "我们有一条很棒的客户引言说：如果我的智能体只有 50% 的时间能正常工作，那它就完全不能用。"
+ },
+ {
+  "seg": 31,
+  "start": 186.198,
+  "end": 196.286,
+  "speaker": "Unknown",
+  "en": "And that's because you're either not going to run it at all, or if you do run it, you're going to end up debugging it and spending all this time, and you're going to basically do away with all the gains that you're getting from that agent.",
+  "zh": "这是因为你要么根本不会去运行它，要么如果你运行了，你最终会陷入调试并花费所有这些时间，而你基本上会把从这个智能体获得的所有收益都抵消掉。"
+ },
+ {
+  "seg": 32,
+  "start": 196.846,
+  "end": 203.031,
+  "speaker": "Unknown",
+  "en": "And so we spend a lot of time building and training our models in simulated environments for reinforcement learning.",
+  "zh": "因此，我们花费大量时间在模拟环境中构建和训练我们的模型，用于强化学习。"
+ },
+ {
+  "seg": 33,
+  "start": 203.951,
+  "end": 215.176,
+  "speaker": "Unknown",
+  "en": "And again, a lot of those are based on real-world use cases, which we get from not only our external customers, but a lot of internal Amazon teams that are carrying out a lot of knowledge work.",
+  "zh": "同样，其中很多都是基于真实世界的用例，这些用例不仅来自我们的外部客户，也来自许多正在进行大量知识工作的 Amazon 内部团队。"
+ },
+ {
+  "seg": 34,
+  "start": 218.277,
+  "end": 218.477,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好。"
+ },
+ {
+  "seg": 35,
+  "start": 218.618,
+  "end": 222.379,
+  "speaker": "Unknown",
+  "en": "So with that backdrop, I want to talk about the first product that we shipped last year.",
+  "zh": "有了这个背景，我想谈谈我们去年发布的第一个产品。"
+ },
+ {
+  "seg": 36,
+  "start": 222.599,
+  "end": 223.68,
+  "speaker": "Unknown",
+  "en": "So Amazon Nova Act.",
+  "zh": "那就是 Amazon Nova Act。"
+ },
+ {
+  "seg": 37,
+  "start": 224.891,
+  "end": 233.858,
+  "speaker": "Unknown",
+  "en": "is a first-class AWS service that allows developers to build and run reliable browser-based workflows at scale.",
+  "zh": "它是一个一等公民的 AWS 服务，允许开发者大规模地构建和运行可靠的基于浏览器的工作流。"
+ },
+ {
+  "seg": 38,
+  "start": 234.639,
+  "end": 251.633,
+  "speaker": "Unknown",
+  "en": "So using natural language, you can drive a browser workflow to populate a browser, navigate, search with it, fill out forms, and call a human in the loop if you need a human for a expense report approval or if you get stuck or other things like that.",
+  "zh": "通过使用自然语言，你可以驱动一个浏览器工作流去操作浏览器、导航、用它进行搜索、填写表单，并且在需要人来处理费用报告审批，或者卡住了或其他类似情况时，调用人类介入（human in the loop）。"
+ },
+ {
+  "seg": 39,
+  "start": 253.572,
+  "end": 257.674,
+  "speaker": "Unknown",
+  "en": "And there's kind of four primary use cases which we've seen customers adopt this for.",
+  "zh": "我们看到客户采用它主要有四类用例。"
+ },
+ {
+  "seg": 40,
+  "start": 257.694,
+  "end": 258.875,
+  "speaker": "Unknown",
+  "en": "The first is form filling.",
+  "zh": "第一类是表单填写。"
+ },
+ {
+  "seg": 41,
+  "start": 259.815,
+  "end": 273.121,
+  "speaker": "Unknown",
+  "en": "So if you have to do that at scale across a large number of different websites and you don't want to write a prompt for each single website or write like a deterministic script for each single site, you can use Nova Act for that.",
+  "zh": "如果你需要在大量不同的网站上大规模地做这件事，而你又不想为每个单独的网站写一个提示词，或者为每个单独的站点写一个确定性的脚本，你可以用 Nova Act 来做这件事。"
+ },
+ {
+  "seg": 42,
+  "start": 274.482,
+  "end": 279.544,
+  "speaker": "Unknown",
+  "en": "Search and extract if you want to do research and get data from a lot of different websites.",
+  "zh": "搜索和提取，如果你想进行研究并从很多不同的网站获取数据。"
+ },
+ {
+  "seg": 43,
+  "start": 279.804,
+  "end": 280.805,
+  "speaker": "Unknown",
+  "en": "Shopping and QA.",
+  "zh": "购物和 QA。"
+ },
+ {
+  "seg": 44,
+  "start": 282.626,
+  "end": 284.228,
+  "speaker": "Unknown",
+  "en": "So a bit more on what we launched.",
+  "zh": "再多说一点我们发布了什么。"
+ },
+ {
+  "seg": 45,
+  "start": 287.227,
+  "end": 288.228,
+  "speaker": "Unknown",
+  "en": "Let me just get through all these.",
+  "zh": "让我把这些都过一遍。"
+ },
+ {
+  "seg": 46,
+  "start": 288.928,
+  "end": 291.129,
+  "speaker": "Unknown",
+  "en": "So it's a first-class AWS service.",
+  "zh": "它是一个一等公民的 AWS 服务。"
+ },
+ {
+  "seg": 47,
+  "start": 291.209,
+  "end": 295.491,
+  "speaker": "Unknown",
+  "en": "So if you go into the AWS console, type in Nova Act, you will see Nova Act there.",
+  "zh": "所以如果你进入 AWS 控制台，输入 Nova Act，你会在那里看到 Nova Act。"
+ },
+ {
+  "seg": 48,
+  "start": 295.871,
+  "end": 299.052,
+  "speaker": "Unknown",
+  "en": "And from the console itself, you can see all of the trajectory.",
+  "zh": "从控制台本身，你可以看到所有的轨迹（trajectory）。"
+ },
+ {
+  "seg": 49,
+  "start": 299.072,
+  "end": 303.214,
+  "speaker": "Unknown",
+  "en": "So it's a very easy way to see everything which your agent has done.",
+  "zh": "所以这是一种非常简单的方式，可以看到你的智能体做过的一切事情。"
+ },
+ {
+  "seg": 50,
+  "start": 303.795,
+  "end": 308.917,
+  "speaker": "Unknown",
+  "en": "The bounding boxes around all the elements which it's looking at, and it's trying to take actions on there.",
+  "zh": "它所看到的各个元素周围的边界框，然后它尝试对这些元素执行操作。"
+ },
+ {
+  "seg": 51,
+  "start": 309.457,
+  "end": 315.52,
+  "speaker": "Unknown",
+  "en": "And then behind the scenes, we have a custom computer use model, which is doing all of the inference there.",
+  "zh": "而在幕后，我们有一个定制的 computer use 模型，在那里进行所有的推理。"
+ },
+ {
+  "seg": 52,
+  "start": 316.14,
+  "end": 335.93,
+  "speaker": "Unknown",
+  "en": "This year we launched an MCP server as well as a skill, and you're gonna be using those in the workshop, and that's for your agents to be able to use Nova Act very easily, and then we've got human in the loop and tool use, and we also have a playground, so if you go to the Nova Act homepage, it's a no-code way to just see Nova Act in action there.",
+  "zh": "今年我们还推出了一个 MCP server 和一个 skill，你们在 workshop 中会用到它们，这是为了让你们的智能体能够非常轻松地使用 Nova Act，然后我们还有 human in the loop 和 tool use，我们还有一个 playground，所以如果你去 Nova Act 的主页，那是一种无代码的方式，可以直接看到 Nova Act 的实际运行。"
+ },
+ {
+  "seg": 53,
+  "start": 337.451,
+  "end": 341.733,
+  "speaker": "Unknown",
+  "en": "Now, looking ahead, and the topic of today's workshop is perception agents.",
+  "zh": "现在，展望未来，今天 workshop 的主题是 perception agents。"
+ },
+ {
+  "seg": 54,
+  "start": 343.069,
+  "end": 346.51,
+  "speaker": "Unknown",
+  "en": "Now, why do we feel there's a need for perception agents?",
+  "zh": "那么，为什么我们觉得需要 perception agents 呢？"
+ },
+ {
+  "seg": 55,
+  "start": 346.55,
+  "end": 355.474,
+  "speaker": "Unknown",
+  "en": "So, for those of you who are not familiar with the term of computer use, that's basically the way for an agent to take an action on a computer screen, right?",
+  "zh": "对于那些不熟悉 computer use 这个术语的人来说，那基本上就是智能体在电脑屏幕上执行操作的方式，对吧？"
+ },
+ {
+  "seg": 56,
+  "start": 355.514,
+  "end": 360.196,
+  "speaker": "Unknown",
+  "en": "So you see a blue button in the right corner, and you tell your agent, hey, go click this blue button over here.",
+  "zh": "比如你在右角看到一个蓝色按钮，你告诉你的智能体，嘿，去点击那个蓝色按钮。"
+ },
+ {
+  "seg": 57,
+  "start": 360.676,
+  "end": 361.916,
+  "speaker": "Unknown",
+  "en": "Very important, very powerful.",
+  "zh": "这非常重要，非常强大。"
+ },
+ {
+  "seg": 58,
+  "start": 361.956,
+  "end": 364.838,
+  "speaker": "Unknown",
+  "en": "It's very important for automating workflows.",
+  "zh": "它对自动化工作流来说非常重要。"
+ },
+ {
+  "seg": 59,
+  "start": 365.198,
+  "end": 370.56,
+  "speaker": "Unknown",
+  "en": "But we feel that there's another half of that, which is the agent actually understanding what it's seeing on the screen itself.",
+  "zh": "但我们觉得还有另外一半，那就是智能体真正理解它在屏幕上看到的东西本身。"
+ },
+ {
+  "seg": 60,
+  "start": 371.06,
+  "end": 378.11,
+  "speaker": "Unknown",
+  "en": "Not just using that as a sort of blind screen that it can just go and click on elements there.",
+  "zh": "而不仅仅是把它当作一个盲目的屏幕，只是去点击上面的元素。"
+ },
+ {
+  "seg": 61,
+  "start": 378.571,
+  "end": 382.657,
+  "speaker": "Unknown",
+  "en": "And we really want this agent to be able to understand screen just like a human would, right?",
+  "zh": "我们真心希望这个智能体能够像人类一样理解屏幕，对吧？"
+ },
+ {
+  "seg": 62,
+  "start": 382.697,
+  "end": 383.337,
+  "speaker": "Unknown",
+  "en": "So if I...",
+  "zh": "所以如果我……"
+ },
+ {
+  "seg": 63,
+  "start": 384.83,
+  "end": 411.725,
+  "speaker": "Unknown",
+  "en": "Showed someone an email client from like the late 90s that was like a Yahoo email client or Hotmail client or something which you've never seen before, you would probably be able to figure out how to send an email from that even though you've never used that client before because we've got this collective understanding of thousands and thousands of hours of using these screens that we kind of intuitively understand how to use these things and that's really where we're trying to get to with these agents.",
+  "zh": "给某人看一个像 90 年代末的电子邮件客户端，比如 Yahoo 邮件客户端或 Hotmail 客户端之类的你从未见过的东西，你很可能也能弄清楚如何从那里发送电子邮件，即使你以前从未用过那个客户端，因为我们积累了成千上万小时使用这些屏幕的集体理解，我们凭直觉就知道如何使用这些东西，而这正是我们希望通过这些智能体达到的目标。"
+ },
+ {
+  "seg": 64,
+  "start": 414.167,
+  "end": 418.488,
+  "speaker": "Unknown",
+  "en": "And the second one is these agents don't require APIs in order to work.",
+  "zh": "第二点是，这些智能体不需要 API 就能工作。"
+ },
+ {
+  "seg": 65,
+  "start": 418.508,
+  "end": 427.47,
+  "speaker": "Unknown",
+  "en": "So if you think about a lot of knowledge work, it's a lot of humans using screens that just don't have APIs, and that's why there are people who are doing these things.",
+  "zh": "如果你想想很多知识工作，那其实是很多人在使用那些根本没有 API 的屏幕，这就是为什么需要人来做这些事情。"
+ },
+ {
+  "seg": 66,
+  "start": 427.61,
+  "end": 433.172,
+  "speaker": "Unknown",
+  "en": "And we want these agents to be able to carry out the same work across a variety of sites as well.",
+  "zh": "我们希望这些智能体能够在各种不同的网站上执行同样的工作。"
+ },
+ {
+  "seg": 67,
+  "start": 434.172,
+  "end": 439.615,
+  "speaker": "Unknown",
+  "en": "And we want the models to see the screens the same way that we do because that really facilitates the collaboration, right?",
+  "zh": "我们希望这些模型像我们一样看到屏幕，因为这真正促进了协作，对吧？"
+ },
+ {
+  "seg": 68,
+  "start": 439.655,
+  "end": 450.98,
+  "speaker": "Unknown",
+  "en": "So rather than typing up paragraphs for what you want the agent to do on this screen and describing the screen, you can just point, click, and describe changes that you want.",
+  "zh": "这样一来，你不用打一大段文字来描述你想让智能体在这个屏幕上做什么、描述这个屏幕，你只需要指向、点击并描述你想要的更改。"
+ },
+ {
+  "seg": 69,
+  "start": 451.02,
+  "end": 457.343,
+  "speaker": "Unknown",
+  "en": "And that's what you're going to do in the workshop today is you're going to click on a couple elements and say, hey, I want to change the background to red, and that's it.",
+  "zh": "这就是你们今天在 workshop 中要做的事情，你们会点击几个元素，然后说，嘿，我想把背景改成红色，就这样。"
+ },
+ {
+  "seg": 70,
+  "start": 457.483,
+  "end": 459.744,
+  "speaker": "Unknown",
+  "en": "And then you just have the agent go and do that.",
+  "zh": "然后你只需让智能体去完成它。"
+ },
+ {
+  "seg": 71,
+  "start": 463.457,
+  "end": 472.486,
+  "speaker": "Unknown",
+  "en": "And to start with, we've open sourced two perception agent primitives, and you're gonna be using these in depth in the workshop today.",
+  "zh": "首先，我们已经开源了两个 perception agent 原语，你们今天会在 workshop 中深入使用它们。"
+ },
+ {
+  "seg": 72,
+  "start": 473.447,
+  "end": 475.068,
+  "speaker": "Unknown",
+  "en": "The first is visual annotation.",
+  "zh": "第一个是 visual annotation。"
+ },
+ {
+  "seg": 73,
+  "start": 475.309,
+  "end": 481.474,
+  "speaker": "Unknown",
+  "en": "And so what this lets you do is, on any webpage, you can point, click, and just describe changes that you wanna make.",
+  "zh": "它能让你做的是，在任何网页上，你可以指向、点击，然后描述你想要做的更改。"
+ },
+ {
+  "seg": 74,
+  "start": 482.115,
+  "end": 494.643,
+  "speaker": "Unknown",
+  "en": "And when you're done with that, you click Export, and it exports out a JSON file with all the changes that you want and a prompt, which you can give to your coding agent along with that JSON file to say, hey, go and make these changes and do that.",
+  "zh": "完成之后，你点击 Export，它会导出一个 JSON 文件，包含你想要的所有更改以及一个 prompt，你可以把这个 JSON 文件连同 prompt 一起交给你的 coding agent，说，嘿，去做这些更改。"
+ },
+ {
+  "seg": 75,
+  "start": 494.944,
+  "end": 497.926,
+  "speaker": "Unknown",
+  "en": "So important to note, this has nothing to do with inference.",
+  "zh": "需要特别注意的是，这与推理完全无关。"
+ },
+ {
+  "seg": 76,
+  "start": 497.946,
+  "end": 499.246,
+  "speaker": "Unknown",
+  "en": "This is purely deterministic.",
+  "zh": "这纯粹是确定性的。"
+ },
+ {
+  "seg": 77,
+  "start": 499.707,
+  "end": 501.548,
+  "speaker": "Unknown",
+  "en": "It just outputs JSON.",
+  "zh": "它只输出 JSON。"
+ },
+ {
+  "seg": 78,
+  "start": 501.988,
+  "end": 504.35,
+  "speaker": "Unknown",
+  "en": "It's not tied to any model or anything else like that.",
+  "zh": "它不依赖于任何模型或其他类似的东西。"
+ },
+ {
+  "seg": 79,
+  "start": 505.663,
+  "end": 509.846,
+  "speaker": "Unknown",
+  "en": "The second part, the second primitive which we've launched is visual verification.",
+  "zh": "第二部分，我们推出的第二个原语是 visual verification。"
+ },
+ {
+  "seg": 80,
+  "start": 510.746,
+  "end": 518.631,
+  "speaker": "Unknown",
+  "en": "And if you think about a site that you have, you've got certain CSS styles and designs which you want your site to adhere to.",
+  "zh": "如果你想想你拥有的一个网站，你有一些特定的 CSS 样式和设计，你希望你的网站遵循它们。"
+ },
+ {
+  "seg": 81,
+  "start": 519.372,
+  "end": 521.994,
+  "speaker": "Unknown",
+  "en": "You've got different workflows which you want your site to support.",
+  "zh": "你有一些不同的工作流，你希望你的网站支持它们。"
+ },
+ {
+  "seg": 82,
+  "start": 522.034,
+  "end": 527.998,
+  "speaker": "Unknown",
+  "en": "Maybe you have like a checkout flow or a login flow or something else, and you can describe those as Gherkin files.",
+  "zh": "也许你有一个 checkout 流程或登录流程之类的，你可以把它们描述成 Gherkin 文件。"
+ },
+ {
+  "seg": 83,
+  "start": 528.918,
+  "end": 541.122,
+  "speaker": "Unknown",
+  "en": "And so you can have visual verification, this skill, run by your coding agent against these design artifacts that you have, against these Gherkin files, and make sure that your site is adhering to those.",
+  "zh": "这样你就可以让 visual verification 这个 skill 由你的 coding agent 运行，对照你拥有的这些设计产物、这些 Gherkin 文件，确保你的网站遵循它们。"
+ },
+ {
+  "seg": 84,
+  "start": 541.322,
+  "end": 544.923,
+  "speaker": "Unknown",
+  "en": "And again, this is something which you're going to use in the workshop today.",
+  "zh": "再说一次，这也是你们今天会在 workshop 中用到的东西。"
+ },
+ {
+  "seg": 85,
+  "start": 544.943,
+  "end": 551.205,
+  "speaker": "Unknown",
+  "en": "And again, these are all open source, available today, and yeah, that's what we're going to do in the workshop.",
+  "zh": "再说一次，这些都是开源的，今天就可以使用，是的，这就是我们在 workshop 中要做的事情。"
+ },
+ {
+  "seg": 86,
+  "start": 552.407,
+  "end": 564.337,
+  "speaker": "Unknown",
+  "en": "So I think at this point I've spoken enough and I am going to hand it off to Shruti who is gonna kick us off on the workshop.",
+  "zh": "所以我觉得到这里我已经说得够多了，我现在把它交给 Shruti，她将带领我们开始 workshop。"
+ },
+ {
+  "seg": 87,
+  "start": 564.458,
+  "end": 569.062,
+  "speaker": "Unknown",
+  "en": "All right, can you all hear me okay?",
+  "zh": "好了，大家都能听清我说话吗？"
+ },
+ {
+  "seg": 88,
+  "start": 569.986,
+  "end": 571.667,
+  "speaker": "Unknown",
+  "en": "Okay, welcome.",
+  "zh": "好的，欢迎。"
+ },
+ {
+  "seg": 89,
+  "start": 572.567,
+  "end": 583.331,
+  "speaker": "Unknown",
+  "en": "Thanks, Amil, for that wonderful introduction to our Amazon AGI Labs and the products that we launched, we released earlier in May this year.",
+  "zh": "感谢 Amil 对我们的 Amazon AGI Labs 以及我们今年 5 月早些时候发布的产品所做的精彩介绍。"
+ },
+ {
+  "seg": 90,
+  "start": 585.217,
+  "end": 598.085,
+  "speaker": "Unknown",
+  "en": "So as he mentioned, we are going to be doing hands-on workshop, but hands-on on whatever we release, the UI and the visual annotator and the visual verification.",
+  "zh": "正如他所说，我们将要进行动手 workshop，动手实践我们发布的东西，UI、visual annotator 和 visual verification。"
+ },
+ {
+  "seg": 91,
+  "start": 599.906,
+  "end": 608.111,
+  "speaker": "Unknown",
+  "en": "I have a short demo here, but before we dive into the demo, I just want all of you to step into this role play here.",
+  "zh": "我这里有一个简短的 demo，但在深入 demo 之前，我只是想让大家先代入这个角色扮演。"
+ },
+ {
+  "seg": 92,
+  "start": 609.032,
+  "end": 610.072,
+  "speaker": "Unknown",
+  "en": "Just bear with me.",
+  "zh": "请稍等我一下。"
+ },
+ {
+  "seg": 93,
+  "start": 611.573,
+  "end": 617.699,
+  "speaker": "Unknown",
+  "en": "So imagine you are a front-end engineer and you are building a web application.",
+  "zh": "想象你是一名前端工程师，你正在构建一个 web 应用。"
+ },
+ {
+  "seg": 94,
+  "start": 618.339,
+  "end": 623.504,
+  "speaker": "Unknown",
+  "en": "You have a design team and you are taking inspirations.",
+  "zh": "你有一个设计团队，你在从中获取灵感。"
+ },
+ {
+  "seg": 95,
+  "start": 623.524,
+  "end": 627.007,
+  "speaker": "Unknown",
+  "en": "They have this Figma files that you are building against.",
+  "zh": "他们有这些 Figma 文件，你是参照它们来构建的。"
+ },
+ {
+  "seg": 96,
+  "start": 627.428,
+  "end": 636.396,
+  "speaker": "Unknown",
+  "en": "You are also collaborating with a sister team that they want to put in a piece of their information on the web page that you are building.",
+  "zh": "你还在和一个姐妹团队协作，他们想在你们正在构建的网页上放入他们的一块信息。"
+ },
+ {
+  "seg": 97,
+  "start": 637.417,
+  "end": 649.352,
+  "speaker": "Unknown",
+  "en": "So if you are, if you think about it, that you have the designs, you'd probably take like four to five weeks to like build the designs and build everything code base and actually build that website.",
+  "zh": "所以如果你想一想，你拿到了设计稿，你可能需要大概四到五周的时间来构建设计、构建整个代码库，并真正把那个网站建出来。"
+ },
+ {
+  "seg": 98,
+  "start": 650.642,
+  "end": 665.431,
+  "speaker": "Unknown",
+  "en": "Now, in the third week or fourth week around that time of your building process, you actually think, oh, maybe I should go back and verify if this looks fine, if everything looks okay with the rest of the team, and you are constantly collaborating, right?",
+  "zh": "现在，到了第三周或第四周左右，也就是你构建过程的那个时间点，你实际上会想，哦，也许我应该回头验证一下这个看起来是否没问题，和团队其他人确认一切是否正常，而且你们是在不断协作的，对吧？"
+ },
+ {
+  "seg": 99,
+  "start": 665.511,
+  "end": 672.335,
+  "speaker": "Unknown",
+  "en": "So you are checking if the work that you have done is something that is what you want to ship.",
+  "zh": "所以你是在检查你所完成的工作是否就是你想发布的东西。"
+ },
+ {
+  "seg": 100,
+  "start": 673.675,
+  "end": 691.687,
+  "speaker": "Unknown",
+  "en": "So you send your code base to, you share the GitHub or however you are doing your GitLab or whatever you have your code in and they run there, this web server locally and they open up the website and they say, oh, this feels off.",
+  "zh": "所以你把你的代码库发给,你分享 GitHub 或者不管你是用 GitLab 还是把代码放在哪里,他们在那里本地运行这个 web 服务器,他们打开网站然后说,哦,这感觉不对。"
+ },
+ {
+  "seg": 101,
+  "start": 691.727,
+  "end": 694.029,
+  "speaker": "Unknown",
+  "en": "The heading should be probably not.",
+  "zh": "标题应该可能不要。"
+ },
+ {
+  "seg": 102,
+  "start": 694.689,
+  "end": 697.831,
+  "speaker": "Unknown",
+  "en": "In red, I want to switch it back to something.",
+  "zh": "红色,我想换回某种颜色。"
+ },
+ {
+  "seg": 103,
+  "start": 698.572,
+  "end": 700.233,
+  "speaker": "Unknown",
+  "en": "And they provide these feedbacks.",
+  "zh": "然后他们提供这些反馈。"
+ },
+ {
+  "seg": 104,
+  "start": 700.553,
+  "end": 706.297,
+  "speaker": "Unknown",
+  "en": "Probably they will do it in a Slack message or in a shared doc, for example.",
+  "zh": "很可能他们会通过一条 Slack 消息或者一个共享文档来提供,比如。"
+ },
+ {
+  "seg": 105,
+  "start": 707.097,
+  "end": 722.268,
+  "speaker": "Unknown",
+  "en": "And then once you get those feedback on your website, you would then go over one of them, you'll disagree, agree to some of them, come to a middle ground and finalize, this is the feedback you want to incorporate.",
+  "zh": "然后一旦你在你的网站上收到这些反馈,你就会逐条过一遍,你会不同意一些、同意一些,折中一下然后确定下来,这就是你想要采纳的反馈。"
+ },
+ {
+  "seg": 106,
+  "start": 723.772,
+  "end": 727.641,
+  "speaker": "Unknown",
+  "en": "You have to go through all of them and one by one and then start making the changes.",
+  "zh": "你必须把所有反馈一条一条过一遍,然后开始做修改。"
+ },
+ {
+  "seg": 107,
+  "start": 728.784,
+  "end": 731.811,
+  "speaker": "Unknown",
+  "en": "Now with coding agents, I guess it will take maybe over...",
+  "zh": "现在有了编码智能体,我想这可能需要大概……"
+ },
+ {
+  "seg": 108,
+  "start": 732.962,
+  "end": 738.624,
+  "speaker": "Unknown",
+  "en": "Which used to take maybe a week or it can reduce to maybe a few days.",
+  "zh": "这原本可能要花一周,现在可以缩减到大概几天。"
+ },
+ {
+  "seg": 109,
+  "start": 739.384,
+  "end": 754.648,
+  "speaker": "Unknown",
+  "en": "Now think about if you had the ability to take their feedback directly and pass it to the coding agent without your supervision and just like once the changes have been done that's when you interfere and say oh this looks good, all the changes have been incorporated.",
+  "zh": "现在想一想,如果你有能力把他们的反馈直接传给编码智能体而不需要你的监督,就像修改完成之后你才介入说,哦,这看起来不错,所有修改都已经采纳了。"
+ },
+ {
+  "seg": 110,
+  "start": 755.408,
+  "end": 757.009,
+  "speaker": "Unknown",
+  "en": "How would that reduce the time?",
+  "zh": "不用担心,我们对此也有解决方案。"
+ },
+ {
+  "seg": 111,
+  "start": 757.61,
+  "end": 766.958,
+  "speaker": "Unknown",
+  "en": "Maybe a few hours, you just start, collect the feedback, send it to your agent, and go for a coffee, break, come back, and all the changes have been merged.",
+  "zh": "可能几个小时,你只要开始、收集反馈、发给你的智能体,然后去喝杯咖啡、休息一下,回来之后所有修改都已经合并了。"
+ },
+ {
+  "seg": 112,
+  "start": 768.179,
+  "end": 771.162,
+  "speaker": "Unknown",
+  "en": "So this is exactly what Emil was mentioning.",
+  "zh": "所以这正是 Emil 刚才提到的。"
+ },
+ {
+  "seg": 113,
+  "start": 772.934,
+  "end": 777.318,
+  "speaker": "Unknown",
+  "en": "that we have a Chrome extension that we are calling as visual annotator.",
+  "zh": "我们有一个 Chrome 扩展,我们称之为 visual annotator。"
+ },
+ {
+  "seg": 114,
+  "start": 778.599,
+  "end": 780.121,
+  "speaker": "Unknown",
+  "en": "There are three ways to annotate.",
+  "zh": "有三种标注方式。"
+ },
+ {
+  "seg": 115,
+  "start": 780.141,
+  "end": 790.332,
+  "speaker": "Unknown",
+  "en": "You can see here, it's either you draw on the page or you pick the element or you drop a pin as you would drop a pin on a Google map, say, and provide your annotations.",
+  "zh": "你可以在这里看到,要么你在页面上画,要么你选取元素,要么你放一个图钉,就像你在 Google 地图上放图钉那样,然后提供你的标注。"
+ },
+ {
+  "seg": 116,
+  "start": 790.932,
+  "end": 808.456,
+  "speaker": "Unknown",
+  "en": "And once you have your annotations, you can download these and send it to your team who needs to make the changes, or even if it's you who's making the changes, then we provide an AI-friendly prompt that you can send it to your agent, and it's going to change automatically.",
+  "zh": "而一旦你有了标注,你可以下载它们并发送给需要做修改的团队,或者即使是你自己在做修改,我们也会提供一个 AI 友好的提示词,你可以发给你的智能体,它会自动修改。"
+ },
+ {
+  "seg": 117,
+  "start": 808.536,
+  "end": 811.277,
+  "speaker": "Unknown",
+  "en": "Well, you have to instruct the agent to change the code base.",
+  "zh": "嗯,你得指示智能体去修改代码库。"
+ },
+ {
+  "seg": 118,
+  "start": 813.658,
+  "end": 815.978,
+  "speaker": "Unknown",
+  "en": "So this was the visual annotator.",
+  "zh": "这就是 visual annotator。"
+ },
+ {
+  "seg": 119,
+  "start": 816.719,
+  "end": 817.299,
+  "speaker": "Unknown",
+  "en": "The next...",
+  "zh": "下一个……"
+ },
+ {
+  "seg": 120,
+  "start": 820.101,
+  "end": 822.052,
+  "speaker": "Unknown",
+  "en": "Oh, the next",
+  "zh": "哦,下一个"
+ },
+ {
+  "seg": 121,
+  "start": 824.395,
+  "end": 827.597,
+  "speaker": "Unknown",
+  "en": "Primitive that we launched is the visual verification skill.",
+  "zh": "我们发布的原语是 visual verification skill。"
+ },
+ {
+  "seg": 122,
+  "start": 828.017,
+  "end": 834.262,
+  "speaker": "Unknown",
+  "en": "And when I say skill, it is actually a skill that you can install on Claude or Kiro Power.",
+  "zh": "当我说 skill 的时候,它实际上是一个你可以安装在 Claude 或 Kiro Power 上的 skill。"
+ },
+ {
+  "seg": 123,
+  "start": 835.082,
+  "end": 838.244,
+  "speaker": "Unknown",
+  "en": "And you would see these verifications.",
+  "zh": "然后你会看到这些验证。"
+ },
+ {
+  "seg": 124,
+  "start": 838.304,
+  "end": 846.169,
+  "speaker": "Unknown",
+  "en": "As Emi mentioned, these are these design files against which you will be running your visual verification against.",
+  "zh": "正如 Emi 提到的,这些是设计文件,你将针对它们运行你的视觉验证。"
+ },
+ {
+  "seg": 125,
+  "start": 846.79,
+  "end": 849.071,
+  "speaker": "Unknown",
+  "en": "Does the design colors look fine?",
+  "zh": "设计的颜色看起来没问题吗?"
+ },
+ {
+  "seg": 126,
+  "start": 849.211,
+  "end": 851.413,
+  "speaker": "Unknown",
+  "en": "Is the font size right?",
+  "zh": "字号对吗?"
+ },
+ {
+  "seg": 127,
+  "start": 851.533,
+  "end": 852.654,
+  "speaker": "Unknown",
+  "en": "Is the user flow right?",
+  "zh": "用户流程对吗?"
+ },
+ {
+  "seg": 128,
+  "start": 853.334,
+  "end": 860.979,
+  "speaker": "Unknown",
+  "en": "But one thing that will come to your mind, like these design specs, these flows, how are these generated?",
+  "zh": "但你会想到一件事,比如这些设计规范、这些流程,它们是怎么生成的?"
+ },
+ {
+  "seg": 129,
+  "start": 861.039,
+  "end": 862.78,
+  "speaker": "Unknown",
+  "en": "How are you gonna build that?",
+  "zh": "你要怎么构建它们?"
+ },
+ {
+  "seg": 130,
+  "start": 863.26,
+  "end": 866.062,
+  "speaker": "Unknown",
+  "en": "It's not to worry, we have a solution for that as well.",
+  "zh": "不用担心，我们对此也有一个解决方案。"
+ },
+ {
+  "seg": 131,
+  "start": 866.582,
+  "end": 868.964,
+  "speaker": "Unknown",
+  "en": "When you run UI verification for the first time,",
+  "zh": "当你第一次运行 UI 验证时,"
+ },
+ {
+  "seg": 132,
+  "start": 869.944,
+  "end": 898.5,
+  "speaker": "Unknown",
+  "en": "There will be a deep one-level surface crawl that will be done by the UI verification tool on your website to go and check what are the links, what are the content, and based on that, it's going to create these user flows that are in terms of syntax that the UI verification is going to use when it's going to run the verification next.",
+  "zh": "UI 验证工具会对你的网站进行一次深度一层的表面爬取,去检查有哪些链接、有哪些内容,并基于此创建这些用户流程,它们采用 UI 验证在下次运行验证时将要使用的语法。"
+ },
+ {
+  "seg": 133,
+  "start": 899.585,
+  "end": 902.667,
+  "speaker": "Unknown",
+  "en": "So let me just play that, play the demo here.",
+  "zh": "那么让我来播放一下,播放这里的演示。"
+ },
+ {
+  "seg": 134,
+  "start": 904.109,
+  "end": 912.455,
+  "speaker": "Unknown",
+  "en": "So you can see you just call the tool, it's going to go through the design docs, specs, and the user flows.",
+  "zh": "你可以看到你只要调用这个工具,它就会浏览设计文档、规范和用户流程。"
+ },
+ {
+  "seg": 135,
+  "start": 913.756,
+  "end": 921.362,
+  "speaker": "Unknown",
+  "en": "Go through it, it's going to open up the browser, run through the user flows, and then generate a report.",
+  "zh": "过一遍,它会打开浏览器,运行用户流程,然后生成一份报告。"
+ },
+ {
+  "seg": 136,
+  "start": 923.008,
+  "end": 927.99,
+  "speaker": "Unknown",
+  "en": "So these are the two tools that you will get hands-on in this workshop.",
+  "zh": "这就是这个工作坊中你将上手实操的两个工具。"
+ },
+ {
+  "seg": 137,
+  "start": 929.85,
+  "end": 934.992,
+  "speaker": "Unknown",
+  "en": "So I'm gonna jump to what we have, how the workshop has been laid out as of now.",
+  "zh": "那么我要跳到我们现有的内容,也就是目前工作坊是如何安排的。"
+ },
+ {
+  "seg": 138,
+  "start": 935.632,
+  "end": 937.913,
+  "speaker": "Unknown",
+  "en": "First, as I mentioned, two hands-on.",
+  "zh": "首先,正如我提到的,两个实操环节。"
+ },
+ {
+  "seg": 139,
+  "start": 938.453,
+  "end": 942.994,
+  "speaker": "Unknown",
+  "en": "The second thing that's what we are trying to do is these are the two primitives, of course.",
+  "zh": "第二件我们想做的事情是,当然,这是两个原语。"
+ },
+ {
+  "seg": 140,
+  "start": 943.674,
+  "end": 946.175,
+  "speaker": "Unknown",
+  "en": "Perception is not just these two primitives.",
+  "zh": "感知不只是这两个原语。"
+ },
+ {
+  "seg": 141,
+  "start": 947.176,
+  "end": 951.077,
+  "speaker": "Unknown",
+  "en": "How would you wire these two primitives up for a particular use case?",
+  "zh": "你要如何把这两个原语为一个特定用例连接起来?"
+ },
+ {
+  "seg": 142,
+  "start": 951.962,
+  "end": 956.244,
+  "speaker": "Unknown",
+  "en": "There is a scenario that has been given in the workshop.",
+  "zh": "工作坊里给出了一个场景。"
+ },
+ {
+  "seg": 143,
+  "start": 956.584,
+  "end": 962.227,
+  "speaker": "Unknown",
+  "en": "We are trying to make this fun, so please try it out yourself.",
+  "zh": "我们想让它变得有趣,所以请你自己试一试。"
+ },
+ {
+  "seg": 144,
+  "start": 963.067,
+  "end": 964.067,
+  "speaker": "Unknown",
+  "en": "It's like a game day.",
+  "zh": "就像一个游戏日。"
+ },
+ {
+  "seg": 145,
+  "start": 964.448,
+  "end": 969.69,
+  "speaker": "Unknown",
+  "en": "You would see there are certain hints to solve the problem, what the problem is, what the end goal is.",
+  "zh": "你会看到有一些解决提示,问题是什么,最终目标是什么。"
+ },
+ {
+  "seg": 146,
+  "start": 970.11,
+  "end": 971.711,
+  "speaker": "Unknown",
+  "en": "So everything is laid out in the workshop.",
+  "zh": "所以一切都安排在工作坊里了。"
+ },
+ {
+  "seg": 147,
+  "start": 972.211,
+  "end": 972.931,
+  "speaker": "Unknown",
+  "en": "It's a GitHub link.",
+  "zh": "这是一个 GitHub 链接。"
+ },
+ {
+  "seg": 148,
+  "start": 972.951,
+  "end": 974.772,
+  "speaker": "Unknown",
+  "en": "We will share that with you in a bit.",
+  "zh": "我们稍后会分享给你。"
+ },
+ {
+  "seg": 149,
+  "start": 975.673,
+  "end": 978.414,
+  "speaker": "Unknown",
+  "en": "So how will you basically wire these two things up?",
+  "zh": "那么你基本上要如何把这两样东西连接起来呢?"
+ },
+ {
+  "seg": 150,
+  "start": 979.475,
+  "end": 985.543,
+  "speaker": "Unknown",
+  "en": "The next thing we have are sponsors for the prizes.",
+  "zh": "接下来我们有奖品赞助商。"
+ },
+ {
+  "seg": 151,
+  "start": 985.804,
+  "end": 994.035,
+  "speaker": "Unknown",
+  "en": "We have certain contests at the end, and thank you, the B team, for sponsoring the prizes for the event.",
+  "zh": "我们在最后会有一些比赛，感谢 B 团队为这次活动赞助奖品。"
+ },
+ {
+  "seg": 152,
+  "start": 996.218,
+  "end": 1013.847,
+  "speaker": "Unknown",
+  "en": "And we will have a way how you can, instead of typing or annotating on the screen, what are some other ways, cool ways of making sure that there are some annotations that you want to do or feedback that you want to provide about a web page or designs?",
+  "zh": "我们会有一种方式，除了在屏幕上打字或做标注之外，还有哪些其他很酷的方式，可以确保你能对网页或设计做一些你想做的标注或提供你想提供的反馈？"
+ },
+ {
+  "seg": 153,
+  "start": 1014.947,
+  "end": 1020.87,
+  "speaker": "Unknown",
+  "en": "So the team will show you how you can do that beyond just typing in your feedback.",
+  "zh": "团队会向你展示如何在只是输入反馈之外做到这一点。"
+ },
+ {
+  "seg": 154,
+  "start": 1022.283,
+  "end": 1030.529,
+  "speaker": "Unknown",
+  "en": "Finally, there are, well, before that, we have, after you finish the workshop, we also have like three different options for bonus challenge.",
+  "zh": "最后，还有，呃，在那之前，我们在你完成工作坊之后，还有大约三个不同的附加挑战选项。"
+ },
+ {
+  "seg": 155,
+  "start": 1030.549,
+  "end": 1036.914,
+  "speaker": "Unknown",
+  "en": "We will have plenty of time for you to try out these tools in a particular use case that you want to.",
+  "zh": "我们会有充足的时间让你在你想要的特定用例中尝试这些工具。"
+ },
+ {
+  "seg": 156,
+  "start": 1036.994,
+  "end": 1049.884,
+  "speaker": "Unknown",
+  "en": "Maybe some you want to try and wire it up with B and see how you would probably wire it with any other form of feedback that you would essentially get from your team.",
+  "zh": "也许你想尝试把它和 B 连起来，看看你会怎么把它和你从团队那里实质上获得的任何其他形式的反馈连接起来。"
+ },
+ {
+  "seg": 157,
+  "start": 1051.025,
+  "end": 1059.207,
+  "speaker": "Unknown",
+  "en": "Or if you think that, hey, this is really cool, I want to build something that I want to show to my team on Monday, like the following Monday.",
+  "zh": "或者如果你觉得，嘿，这真的很酷，我想做一个东西，想在周一，就是下一个周一，展示给我的团队。"
+ },
+ {
+  "seg": 158,
+  "start": 1059.647,
+  "end": 1062.868,
+  "speaker": "Unknown",
+  "en": "So go for it and show if you're brave enough.",
+  "zh": "那就去做吧，如果你够勇敢的话就来展示。"
+ },
+ {
+  "seg": 159,
+  "start": 1063.168,
+  "end": 1068.469,
+  "speaker": "Unknown",
+  "en": "Come in front, come at the stage, show your use case, demo your use case, and you'll get a B device.",
+  "zh": "走到前面，走上舞台，展示你的用例，演示你的用例，你就会得到一台 B 设备。"
+ },
+ {
+  "seg": 160,
+  "start": 1070.009,
+  "end": 1073.53,
+  "speaker": "Unknown",
+  "en": "The final part is we are going to do a little fun exercise.",
+  "zh": "最后一部分是我们要做一个小小的趣味练习。"
+ },
+ {
+  "seg": 161,
+  "start": 1074.415,
+  "end": 1086.263,
+  "speaker": "Unknown",
+  "en": "Where once you have a good understanding of these two primitives, you can think of multiple ways of how you would use it on your day-to-day.",
+  "zh": "一旦你对这两个原语有了很好的理解，你就可以想出多种在日常生活中使用它的方式。"
+ },
+ {
+  "seg": 162,
+  "start": 1087.004,
+  "end": 1096.991,
+  "speaker": "Unknown",
+  "en": "And you will submit these ideas of like, hey, I think this will be really cool for me to use this, and we will have people vote for these ideas.",
+  "zh": "然后你会提交这些想法，比如，嘿，我觉得用这个对我来说会很酷，然后我们会让人们为这些想法投票。"
+ },
+ {
+  "seg": 163,
+  "start": 1097.491,
+  "end": 1102.675,
+  "speaker": "Unknown",
+  "en": "And the top three ideas will get a B device, and I think we also have one for",
+  "zh": "排名前三的想法会得到一台 B 设备，我想我们还有一台给"
+ },
+ {
+  "seg": 164,
+  "start": 1105.597,
+  "end": 1110.102,
+  "speaker": "Unknown",
+  "en": "So with that, I'm gonna jump into the workshop.",
+  "zh": "那么有了这些，我要进入工作坊了。"
+ },
+ {
+  "seg": 165,
+  "start": 1110.862,
+  "end": 1113.805,
+  "speaker": "Unknown",
+  "en": "This is the link for the workshop.",
+  "zh": "这是工作坊的链接。"
+ },
+ {
+  "seg": 166,
+  "start": 1115.206,
+  "end": 1121.753,
+  "speaker": "Unknown",
+  "en": "You can type in, it's available on GitHub, so you can type in Perception Agents Workshop.",
+  "zh": "你可以输入，它在 GitHub 上有，所以你可以输入 Perception Agents Workshop。"
+ },
+ {
+  "seg": 167,
+  "start": 1121.993,
+  "end": 1124.616,
+  "speaker": "Unknown",
+  "en": "You will probably get the first GitHub link.",
+  "zh": "你应该会得到第一个 GitHub 链接。"
+ },
+ {
+  "seg": 168,
+  "start": 1127.06,
+  "end": 1133.942,
+  "speaker": "Unknown",
+  "en": "In the workshop, we also need you to use a Nova Act API key.",
+  "zh": "在工作坊中，我们还需要你使用一个 Nova Act API 密钥。"
+ },
+ {
+  "seg": 169,
+  "start": 1135.042,
+  "end": 1141.144,
+  "speaker": "Unknown",
+  "en": "So there is a piece where in the workshop we have obscuted the first three letters.",
+  "zh": "所以工作坊中有一处我们遮住了前三字母。"
+ },
+ {
+  "seg": 170,
+  "start": 1142.045,
+  "end": 1143.925,
+  "speaker": "Unknown",
+  "en": "So that is on the screen here.",
+  "zh": "它就在这里的屏幕上。"
+ },
+ {
+  "seg": 171,
+  "start": 1144.405,
+  "end": 1153.268,
+  "speaker": "Unknown",
+  "en": "So you can copy-paste these three letters, A, C, E, that stands for ACE, and you're good to go with the Nova Act API key.",
+  "zh": "你可以复制粘贴这三个字母，A、C、E,代表 ACE,然后你就可以正常使用 Nova Act API 密钥了。"
+ },
+ {
+  "seg": 172,
+  "start": 1157.233,
+  "end": 1163.635,
+  "speaker": "Unknown",
+  "en": "So let me just pause this.",
+  "zh": "让我先暂停一下这个。"
+ },
+ {
+  "seg": 173,
+  "start": 1164.335,
+  "end": 1172.917,
+  "speaker": "Unknown",
+  "en": "So in the workshop, the readme will point you to the workshop.md file, and here is the scenario that I was talking about.",
+  "zh": "在工作坊中，readme 会指向 workshop.md 文件，这里就是我刚才说的那个场景。"
+ },
+ {
+  "seg": 174,
+  "start": 1173.477,
+  "end": 1174.597,
+  "speaker": "Unknown",
+  "en": "I'm gonna read it out from here.",
+  "zh": "我从这里读出来。"
+ },
+ {
+  "seg": 175,
+  "start": 1174.697,
+  "end": 1180.459,
+  "speaker": "Unknown",
+  "en": "You are a front-end developer preparing to ship a landing page for a podcast.",
+  "zh": "你是一名前端开发者，正准备上线一个播客的落地页。"
+ },
+ {
+  "seg": 176,
+  "start": 1180.499,
+  "end": 1185.24,
+  "speaker": "Unknown",
+  "en": "Yesterday, you demoed the page to a few peers, and they provided some feedback.",
+  "zh": "昨天，你向几位同事演示了这个页面，他们提供了一些反馈。"
+ },
+ {
+  "seg": 177,
+  "start": 1186.1,
+  "end": 1188.082,
+  "speaker": "Unknown",
+  "en": "The hero title feels too big.",
+  "zh": "Hero 标题感觉太大了。"
+ },
+ {
+  "seg": 178,
+  "start": 1188.683,
+  "end": 1191.386,
+  "speaker": "Unknown",
+  "en": "The accent color doesn't pop up the way it should.",
+  "zh": "强调色没有像它应该的那样突出。"
+ },
+ {
+  "seg": 179,
+  "start": 1191.746,
+  "end": 1197.513,
+  "speaker": "Unknown",
+  "en": "Some buttons are oversized and a few small things that you are slightly just off.",
+  "zh": "有些按钮尺寸过大，还有一些小地方稍微有点不对劲。"
+ },
+ {
+  "seg": 180,
+  "start": 1198.153,
+  "end": 1205.762,
+  "speaker": "Unknown",
+  "en": "So you are on board with those feedback and today you come in fresh and are ready to incorporate those changes.",
+  "zh": "所以你接受了那些反馈，今天你精神饱满地来了，准备好把这些修改纳入进去。"
+ },
+ {
+  "seg": 181,
+  "start": 1207.301,
+  "end": 1209.242,
+  "speaker": "Unknown",
+  "en": "So what do you have at your disposal?",
+  "zh": "那你手头有什么可用的东西呢？"
+ },
+ {
+  "seg": 182,
+  "start": 1209.822,
+  "end": 1213.565,
+  "speaker": "Unknown",
+  "en": "The Nova Actroom extension, the UI verification skill.",
+  "zh": "Nova Actroom 扩展，UI 验证技能。"
+ },
+ {
+  "seg": 183,
+  "start": 1214.045,
+  "end": 1218.027,
+  "speaker": "Unknown",
+  "en": "You have the Nova Act SDK and the Nova Act MCP server.",
+  "zh": "你有 Nova Act SDK 和 Nova Act MCP 服务器。"
+ },
+ {
+  "seg": 184,
+  "start": 1218.107,
+  "end": 1228.013,
+  "speaker": "Unknown",
+  "en": "These are the tools that you have at your disposal to basically implement the solution where you would essentially build",
+  "zh": "这些就是你手头可用的工具，来基本上实现这个解决方案，你会实质上构建"
+ },
+ {
+  "seg": 185,
+  "start": 1229.393,
+  "end": 1231.795,
+  "speaker": "Unknown",
+  "en": "Build this entire loop by itself.",
+  "zh": "自行构建这整个循环。"
+ },
+ {
+  "seg": 186,
+  "start": 1232.315,
+  "end": 1241.323,
+  "speaker": "Unknown",
+  "en": "You just annotate and automatically you would just hit a button in the Chrome extension and all the changes will be applied.",
+  "zh": "你只需要做标注，然后自动地，你只需在 Chrome 扩展里按一个按钮，所有修改就会被应用。"
+ },
+ {
+  "seg": 187,
+  "start": 1242.203,
+  "end": 1246.207,
+  "speaker": "Unknown",
+  "en": "The UI verification will run and you'll have a report by the end of it.",
+  "zh": "UI 验证会运行，最后你会得到一份报告。"
+ },
+ {
+  "seg": 188,
+  "start": 1248.869,
+  "end": 1252.411,
+  "speaker": "Unknown",
+  "en": "So this is the challenge and there are a few prerequisites.",
+  "zh": "所以这就是挑战，还有一些前置条件。"
+ },
+ {
+  "seg": 189,
+  "start": 1254.956,
+  "end": 1260.602,
+  "speaker": "Unknown",
+  "en": "You need to have a Mac OS or a Linux, too, because no Act MCP server runs on Mac OS and Linux.",
+  "zh": "你需要有 Mac OS 或 Linux,因为 no Act MCP 服务器在 Mac OS 和 Linux 上运行。"
+ },
+ {
+  "seg": 190,
+  "start": 1261.443,
+  "end": 1263.286,
+  "speaker": "Unknown",
+  "en": "You should have Node.js installed.",
+  "zh": "你应该安装了 Node.js。"
+ },
+ {
+  "seg": 191,
+  "start": 1263.326,
+  "end": 1264.447,
+  "speaker": "Unknown",
+  "en": "If not, you can install them.",
+  "zh": "如果没有，你可以安装它们。"
+ },
+ {
+  "seg": 192,
+  "start": 1265.268,
+  "end": 1270.735,
+  "speaker": "Unknown",
+  "en": "NPM, Python, Git, Chrome browser to basically test it out because it's a Chrome extension.",
+  "zh": "NPM、Python、Git、Chrome 浏览器来基本测试一下，因为它是一个 Chrome 扩展。"
+ },
+ {
+  "seg": 193,
+  "start": 1271.335,
+  "end": 1273.518,
+  "speaker": "Unknown",
+  "en": "And then an AI coding.",
+  "zh": "然后是一个 AI 编程(工具)。"
+ },
+ {
+  "seg": 194,
+  "start": 1275.24,
+  "end": 1277.781,
+  "speaker": "Unknown",
+  "en": "So if you have Claude, that works great.",
+  "zh": "如果你有 Claude,那非常好用。"
+ },
+ {
+  "seg": 195,
+  "start": 1277.962,
+  "end": 1279.503,
+  "speaker": "Unknown",
+  "en": "We also have Kero integration.",
+  "zh": "我们还有 Kero 集成。"
+ },
+ {
+  "seg": 196,
+  "start": 1279.523,
+  "end": 1286.007,
+  "speaker": "Unknown",
+  "en": "So if you don't have any coding agent, you can install Kero and start playing around with it.",
+  "zh": "所以如果你没有任何编程智能体，你可以安装 Kero 并开始把玩它。"
+ },
+ {
+  "seg": 197,
+  "start": 1287.788,
+  "end": 1292.972,
+  "speaker": "Unknown",
+  "en": "And lastly, we have the UV, that's the UVX, that's basically to install.",
+  "zh": "最后，我们有 UV,就是 UVX,那基本上是用来安装的。"
+ },
+ {
+  "seg": 198,
+  "start": 1292.992,
+  "end": 1299.336,
+  "speaker": "Unknown",
+  "en": "If you don't want to install UV or UVX, then please raise your hand and we can help you install using PIP.",
+  "zh": "如果你不想安装 UV 或 UVX,那请举手，我们可以帮你用 PIP 安装。"
+ },
+ {
+  "seg": 199,
+  "start": 1302.243,
+  "end": 1303.724,
+  "speaker": "Unknown",
+  "en": "So that's that.",
+  "zh": "就是这样。"
+ },
+ {
+  "seg": 200,
+  "start": 1304.884,
+  "end": 1310.246,
+  "speaker": "Unknown",
+  "en": "And the workshop is laid out for, I think the setup should be about five to seven minutes.",
+  "zh": "工作坊的安排,我想这个环境搭建应该需要五到七分钟。"
+ },
+ {
+  "seg": 201,
+  "start": 1311.346,
+  "end": 1314.688,
+  "speaker": "Unknown",
+  "en": "Then you can start playing around with those skills.",
+  "zh": "然后你就可以开始试用那些 skills 了。"
+ },
+ {
+  "seg": 202,
+  "start": 1315.088,
+  "end": 1321.27,
+  "speaker": "Unknown",
+  "en": "It gets a good understanding of how would you use the Chrome extension, how would you use the UI verification skill.",
+  "zh": "它能让你很好地理解你会怎么使用 Chrome 扩展,你会怎么使用 UI 验证 skill。"
+ },
+ {
+  "seg": 203,
+  "start": 1321.59,
+  "end": 1323.051,
+  "speaker": "Unknown",
+  "en": "That's what has been explained here.",
+  "zh": "这就是这里所解释的内容。"
+ },
+ {
+  "seg": 204,
+  "start": 1324.091,
+  "end": 1326.292,
+  "speaker": "Unknown",
+  "en": "To solve the challenge, you have",
+  "zh": "要解决这个挑战,你有"
+ },
+ {
+  "seg": 205,
+  "start": 1328.253,
+  "end": 1335.817,
+  "speaker": "Unknown",
+  "en": "About 15 minutes in, if you want to go the route, like I want to go step by step, and I'm just gonna go scroll down real quick.",
+  "zh": "大约 15 分钟,如果你想走这条路,比如说我想一步一步来,我先快速往下滚动一下。"
+ },
+ {
+  "seg": 206,
+  "start": 1336.618,
+  "end": 1337.879,
+  "speaker": "Unknown",
+  "en": "Yeah, so choose your path.",
+  "zh": "对,选择你的路线。"
+ },
+ {
+  "seg": 207,
+  "start": 1338.219,
+  "end": 1341.061,
+  "speaker": "Unknown",
+  "en": "I have this workshop designed in two levels.",
+  "zh": "我把这个工作坊设计成了两个等级。"
+ },
+ {
+  "seg": 208,
+  "start": 1342.682,
+  "end": 1344.543,
+  "speaker": "Unknown",
+  "en": "You remember I said like I want you to have fun.",
+  "zh": "你记得我说过我想让你们玩得开心。"
+ },
+ {
+  "seg": 209,
+  "start": 1345.163,
+  "end": 1348.345,
+  "speaker": "Unknown",
+  "en": "So two levels, if you wanna go for a challenge, go for the medium route.",
+  "zh": "所以两个等级,如果你想挑战,就选 medium 路线。"
+ },
+ {
+  "seg": 210,
+  "start": 1348.865,
+  "end": 1350.867,
+  "speaker": "Unknown",
+  "en": "If you feel that, ah, I'm just gonna like...",
+  "zh": "如果你觉得,啊,我就只是想……"
+ },
+ {
+  "seg": 211,
+  "start": 1352.107,
+  "end": 1354.408,
+  "speaker": "Unknown",
+  "en": "Follow the instructions and get the workshop done.",
+  "zh": "按照说明把工作坊做完。"
+ },
+ {
+  "seg": 212,
+  "start": 1355.109,
+  "end": 1355.829,
+  "speaker": "Unknown",
+  "en": "Feel good about it.",
+  "zh": "对此感觉良好。"
+ },
+ {
+  "seg": 213,
+  "start": 1356.169,
+  "end": 1364.973,
+  "speaker": "Unknown",
+  "en": "So yeah, we have an easy mode where you have exact instruction, what should be done, and you will have these two primitives wired up by the end of the hands-on.",
+  "zh": "所以我们有一个简单模式,里面有确切说明、该做什么,到动手环节结束时你会把这两个原语连接好。"
+ },
+ {
+  "seg": 214,
+  "start": 1367.306,
+  "end": 1373.367,
+  "speaker": "Unknown",
+  "en": "So 15 minutes we are expecting the easy path and then 30 to 35 minutes for the medium.",
+  "zh": "简单路径我们预计 15 分钟,medium 则是 30 到 35 分钟。"
+ },
+ {
+  "seg": 215,
+  "start": 1373.928,
+  "end": 1389.631,
+  "speaker": "Unknown",
+  "en": "Once we have allocated the 15 minutes time, I will come up and show you where you would like essentially add your code so that you can wire these two primitives up and you can see the entire thing come into live in action.",
+  "zh": "等 15 分钟时间到了,我会走上来给你看你在哪里本质上要添加你的代码,这样你就能把这两个原语连接起来,并看到整个东西活生生地运行起来。"
+ },
+ {
+  "seg": 216,
+  "start": 1392.282,
+  "end": 1394.183,
+  "speaker": "Unknown",
+  "en": "And we also have a bonus challenge.",
+  "zh": "我们还有一个附加挑战。"
+ },
+ {
+  "seg": 217,
+  "start": 1394.223,
+  "end": 1396.644,
+  "speaker": "Unknown",
+  "en": "If you finish early, you can start with a bonus challenge.",
+  "zh": "如果你提前完成,可以开始做附加挑战。"
+ },
+ {
+  "seg": 218,
+  "start": 1397.485,
+  "end": 1407.89,
+  "speaker": "Unknown",
+  "en": "But before that, we will have the B team, Giovanni, in some time to present.",
+  "zh": "但在那之前,我们稍后会请 B 团队的 Giovanni 来做展示。"
+ },
+ {
+  "seg": 219,
+  "start": 1408.03,
+  "end": 1408.89,
+  "speaker": "Unknown",
+  "en": "Yeah, sure thing.",
+  "zh": "对,没问题。"
+ },
+ {
+  "seg": 220,
+  "start": 1417.622,
+  "end": 1437.538,
+  "speaker": "Unknown",
+  "en": "It said that there were some default clients that are always supported and included like Codex and Claude Code but then below that there are these additional skills and one of them is also Claude Code so I'm just curious like are there two different things going on there or are those the same?",
+  "zh": "上面说有一些默认始终被支持和包含的客户端,比如 Codex 和 Claude Code,但在那下面还有一些额外的 skills,其中一个也是 Claude Code,所以我很好奇,那里是有两个不同的东西,还是它们是同一个?"
+ },
+ {
+  "seg": 221,
+  "start": 1438.498,
+  "end": 1440.3,
+  "speaker": "Unknown",
+  "en": "The fact that there are two different Claude Codes",
+  "zh": "事实上确实有两个不同的 Claude Code"
+ },
+ {
+  "seg": 222,
+  "start": 1441.719,
+  "end": 1442.96,
+  "speaker": "Unknown",
+  "en": "Yeah, so there are two skills.",
+  "zh": "对,有两个 skill。"
+ },
+ {
+  "seg": 223,
+  "start": 1443.04,
+  "end": 1445.181,
+  "speaker": "Unknown",
+  "en": "One is the Nova Act skill.",
+  "zh": "一个是 Nova Act skill。"
+ },
+ {
+  "seg": 224,
+  "start": 1445.621,
+  "end": 1447.662,
+  "speaker": "Unknown",
+  "en": "One is the Nova UI verification skill.",
+  "zh": "一个是 Nova UI 验证 skill。"
+ },
+ {
+  "seg": 225,
+  "start": 1447.762,
+  "end": 1449.884,
+  "speaker": "Unknown",
+  "en": "So that's why you must be seeing both of them, yeah.",
+  "zh": "所以这就是为什么你会同时看到这两个,对。"
+ },
+ {
+  "seg": 226,
+  "start": 1453.866,
+  "end": 1457.468,
+  "speaker": "Unknown",
+  "en": "So I'm gonna give you the time here to",
+  "zh": "那我现在给你们这个时间来"
+ },
+ {
+  "seg": 227,
+  "start": 1460.501,
+  "end": 1461.702,
+  "speaker": "Unknown",
+  "en": "I'm gonna bring up the slide back.",
+  "zh": "我把幻灯片切回来。"
+ },
+ {
+  "seg": 228,
+  "start": 1461.722,
+  "end": 1464.024,
+  "speaker": "Unknown",
+  "en": "I'm gonna ask Emile to pop up here.",
+  "zh": "我让 Emile 弹出来。"
+ },
+ {
+  "seg": 229,
+  "start": 1464.104,
+  "end": 1469.048,
+  "speaker": "Unknown",
+  "en": "Slide back on the GitHub repo and so that you have the API key handy if you have to change.",
+  "zh": "幻灯片切回 GitHub 仓库,这样你要改的话手边就有 API key。"
+ },
+ {
+  "seg": 230,
+  "start": 1469.568,
+  "end": 1472.971,
+  "speaker": "Unknown",
+  "en": "Feel free to raise your hand if you have any questions.",
+  "zh": "如果你有任何问题,随时举手。"
+ },
+ {
+  "seg": 231,
+  "start": 1473.491,
+  "end": 1477.554,
+  "speaker": "Unknown",
+  "en": "We have our great, awesome team supporting the workshop.",
+  "zh": "我们有我们很棒、很厉害的团队在支持这个工作坊。"
+ },
+ {
+  "seg": 232,
+  "start": 1477.794,
+  "end": 1479.776,
+  "speaker": "Unknown",
+  "en": "There you find them, see them waving.",
+  "zh": "你能找到他们,看到他们在挥手。"
+ },
+ {
+  "seg": 233,
+  "start": 1480.276,
+  "end": 1486.281,
+  "speaker": "Unknown",
+  "en": "So reach out to either of us and we will pop by you to help.",
+  "zh": "所以来找我们任何一位,我们会走到你身边帮忙。"
+ },
+ {
+  "seg": 234,
+  "start": 1487.542,
+  "end": 1487.902,
+  "speaker": "Unknown",
+  "en": "Have fun.",
+  "zh": "玩得开心。"
+ },
+ {
+  "seg": 235,
+  "start": 1490.109,
+  "end": 1499.698,
+  "speaker": "Unknown",
+  "en": "Okay, I'm just gonna try to walk through the solution so that, okay.",
+  "zh": "好,我接下来要试着走一遍解决方案,好。"
+ },
+ {
+  "seg": 236,
+  "start": 1510.028,
+  "end": 1510.308,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 237,
+  "start": 1512.401,
+  "end": 1515.102,
+  "speaker": "Unknown",
+  "en": "So this is the step-by-step instructions.",
+  "zh": "这是逐步的说明。"
+ },
+ {
+  "seg": 238,
+  "start": 1515.122,
+  "end": 1517.782,
+  "speaker": "Unknown",
+  "en": "You can see that we have the Groom extension.",
+  "zh": "你可以看到我们有 Groom 扩展。"
+ },
+ {
+  "seg": 239,
+  "start": 1518.382,
+  "end": 1522.123,
+  "speaker": "Unknown",
+  "en": "We have your agent, AI agent running.",
+  "zh": "我们有你的智能体、AI 智能体在运行。"
+ },
+ {
+  "seg": 240,
+  "start": 1523.284,
+  "end": 1532.546,
+  "speaker": "Unknown",
+  "en": "If you want your coding agent to automatically apply the changes from the extension, you need a bridge because there's no bridge between them.",
+  "zh": "如果你想让你的编码智能体自动应用来自扩展的更改,你需要一个桥接器,因为它们之间没有桥接器。"
+ },
+ {
+  "seg": 241,
+  "start": 1533.166,
+  "end": 1537.827,
+  "speaker": "Unknown",
+  "en": "How would the extension send the prompt to the coding agent?",
+  "zh": "扩展要怎么把 prompt 发给编码智能体呢?"
+ },
+ {
+  "seg": 242,
+  "start": 1537.867,
+  "end": 1541.568,
+  "speaker": "Unknown",
+  "en": "So for that, we have built something called agent bridge.",
+  "zh": "所以为此,我们构建了一个叫 agent bridge 的东西。"
+ },
+ {
+  "seg": 243,
+  "start": 1542.728,
+  "end": 1550.452,
+  "speaker": "Unknown",
+  "en": "That will automatically take the annotations and give prompted to the coding agent.",
+  "zh": "它会自动获取这些标注,把 prompt 给到编码智能体。"
+ },
+ {
+  "seg": 244,
+  "start": 1551.072,
+  "end": 1555.854,
+  "speaker": "Unknown",
+  "en": "That's where it will start applying those changes and then running the UI verification scan.",
+  "zh": "那里就是它开始应用那些更改、然后运行 UI 验证扫描的地方。"
+ },
+ {
+  "seg": 245,
+  "start": 1558.824,
+  "end": 1575.128,
+  "speaker": "Unknown",
+  "en": "Essentially, in the extension, you don't have the Apply Changes button in the primitive mode, but for this workshop, we have built this Apply Changes button in the Chrome extension.",
+  "zh": "本质上,在扩展的原语模式里你没有 Apply Changes 按钮,但在这个工作坊里,我们在 Chrome 扩展里构建了这个 Apply Changes 按钮。"
+ },
+ {
+  "seg": 246,
+  "start": 1576.048,
+  "end": 1577.668,
+  "speaker": "Unknown",
+  "en": "I'll walk you through that in a bit.",
+  "zh": "我稍后会带你过一遍。"
+ },
+ {
+  "seg": 247,
+  "start": 1578.969,
+  "end": 1585.45,
+  "speaker": "Unknown",
+  "en": "So for this entire thing to work, you need to make changes in two files.",
+  "zh": "要让这整个东西运作起来,你需要在两个文件里做修改。"
+ },
+ {
+  "seg": 248,
+  "start": 1586.23,
+  "end": 1587.831,
+  "speaker": "Unknown",
+  "en": "The first file is...",
+  "zh": "第一个文件是……"
+ },
+ {
+  "seg": 249,
+  "start": 1590.172,
+  "end": 1602.243,
+  "speaker": "Unknown",
+  "en": "the manifest.json file in the Chrome extension where you essentially add this line for the host permissions to start accepting requests from the local host.",
+  "zh": "Chrome 扩展里的 manifest.json 文件,你本质上是添加这一行 host permissions,开始接受来自本地主机的请求。"
+ },
+ {
+  "seg": 250,
+  "start": 1603.404,
+  "end": 1608.889,
+  "speaker": "Unknown",
+  "en": "And then you add this piece of code, it's a huge,",
+  "zh": "然后你加上这段代码，它是一大段，"
+ },
+ {
+  "seg": 251,
+  "start": 1609.79,
+  "end": 1611.35,
+  "speaker": "Unknown",
+  "en": "Like piece of chunk of code here.",
+  "zh": "就是这里的一块代码。"
+ },
+ {
+  "seg": 252,
+  "start": 1612.471,
+  "end": 1636.598,
+  "speaker": "Unknown",
+  "en": "And you can, what this part does in the extension is creates and apply, changes button, wires up with the extension, makes the UI verification run in using the Nova SDK instead of the skill and starts, generates a report that you can click on and then view the report.",
+  "zh": "然后你可以，这部分在扩展里做的是创建并应用更改按钮，把它和扩展连接起来，让 UI 验证改用 Nova SDK 而不是技能来运行，并开始生成一份报告，你可以点击它然后查看报告。"
+ },
+ {
+  "seg": 253,
+  "start": 1640.071,
+  "end": 1666.525,
+  "speaker": "Unknown",
+  "en": "So this piece of code goes in this file that is the, let's see, content.js in the extension, and it needs to be added around like line 261 between this append child export button just before, and I think I have hashed, there's a comment there, add code here in that file, and that's where you would like paste the score.",
+  "zh": "哦不，是 [[265]] 如我之前所说，它已经在 Claude Code 和 Kira 上测试过了。"
+ },
+ {
+  "seg": 254,
+  "start": 1668.455,
+  "end": 1679.024,
+  "speaker": "Unknown",
+  "en": "So once you have that running, now you would see this Apply Change button here in the extension.",
+  "zh": "所以一旦你把它跑起来，现在你就能在扩展里看到这个“应用更改”按钮。"
+ },
+ {
+  "seg": 255,
+  "start": 1682.026,
+  "end": 1687.011,
+  "speaker": "Unknown",
+  "en": "I think Emil was testing this so he changed this to like FIFA World Cup, why not?",
+  "zh": "我记得 Emil 在测试这个，所以他把它改成了 FIFA 世界杯，为什么不呢？"
+ },
+ {
+  "seg": 256,
+  "start": 1688.992,
+  "end": 1696.879,
+  "speaker": "Unknown",
+  "en": "So I'm gonna select one of these and I'm gonna refresh the extension again.",
+  "zh": "所以我要选其中一个，然后再次刷新扩展。"
+ },
+ {
+  "seg": 257,
+  "start": 1700.313,
+  "end": 1702.995,
+  "speaker": "Unknown",
+  "en": "Let's see.",
+  "zh": "看看。"
+ },
+ {
+  "seg": 258,
+  "start": 1705.337,
+  "end": 1706.698,
+  "speaker": "Unknown",
+  "en": "Annotate current page.",
+  "zh": "标注当前页面。"
+ },
+ {
+  "seg": 259,
+  "start": 1708.639,
+  "end": 1711.321,
+  "speaker": "Unknown",
+  "en": "I'm gonna try to change the published date.",
+  "zh": "我要试着改一下发布日期。"
+ },
+ {
+  "seg": 260,
+  "start": 1714.364,
+  "end": 1721.889,
+  "speaker": "Unknown",
+  "en": "Change to today's June 29th.",
+  "zh": "改成今天，6 月 29 日。"
+ },
+ {
+  "seg": 261,
+  "start": 1722.69,
+  "end": 1722.99,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 262,
+  "start": 1724.131,
+  "end": 1725.192,
+  "speaker": "Unknown",
+  "en": "And save it.",
+  "zh": "然后保存。"
+ },
+ {
+  "seg": 263,
+  "start": 1726.855,
+  "end": 1732.019,
+  "speaker": "Unknown",
+  "en": "And this is the extension, apply changes.",
+  "zh": "这就是扩展，应用更改。"
+ },
+ {
+  "seg": 264,
+  "start": 1732.679,
+  "end": 1736.041,
+  "speaker": "Unknown",
+  "en": "So in the background, it's gonna open up your coding agent.",
+  "zh": "所以在后台，它会打开你的编码智能体。"
+ },
+ {
+  "seg": 265,
+  "start": 1736.822,
+  "end": 1739.904,
+  "speaker": "Unknown",
+  "en": "It's been tested on Claude Code and Kira, as I mentioned.",
+  "zh": "正如我提到的,它已经在 Claude Code 和 Kira 上测试过了。"
+ },
+ {
+  "seg": 266,
+  "start": 1740.564,
+  "end": 1753.612,
+  "speaker": "Unknown",
+  "en": "So if you are trying cursor or codex, the agent bridge is something that you would have to edit so that it can accept these apply changes button, like requests.",
+  "zh": "所以如果你要用 cursor 或 codex，你就得自己改一下 agent bridge，让它能接受这些“应用更改”按钮之类的请求。"
+ },
+ {
+  "seg": 267,
+  "start": 1756.627,
+  "end": 1763.751,
+  "speaker": "Unknown",
+  "en": "So in a bit, we'll start applying the changes, and you will see certain logs that pop up as well in the repository.",
+  "zh": "稍等片刻，它就会开始应用更改，你还会看到某些日志在代码仓库里弹出。"
+ },
+ {
+  "seg": 268,
+  "start": 1765.211,
+  "end": 1769.934,
+  "speaker": "Unknown",
+  "en": "That is the key, the CLI's logs, as well as, and the verification runs.",
+  "zh": "那是关键，是 CLI 的日志，以及验证运行。"
+ },
+ {
+  "seg": 269,
+  "start": 1770.114,
+  "end": 1780.239,
+  "speaker": "Unknown",
+  "en": "Nova Act has these logs that gives you exactly what the model was thinking and what part of the screen it was trying to make a decision on.",
+  "zh": "Nova Act 有这些日志，能告诉你模型确切在想什么，以及它当时在试图对屏幕的哪个部分做决策。"
+ },
+ {
+  "seg": 270,
+  "start": 1781.039,
+  "end": 1786.142,
+  "speaker": "Unknown",
+  "en": "And you can see that the button to change to run verification now, so it's running the verification step.",
+  "zh": "你可以看到那个改为运行验证的按钮，所以它现在正在运行验证步骤。"
+ },
+ {
+  "seg": 271,
+  "start": 1788.62,
+  "end": 1791.261,
+  "speaker": "Unknown",
+  "en": "And in a bit, it'll also generate a report that you can see.",
+  "zh": "稍后它还会生成一份报告供你查看。"
+ },
+ {
+  "seg": 272,
+  "start": 1791.781,
+  "end": 1802.825,
+  "speaker": "Unknown",
+  "en": "So this is where you basically apply the changes and go grab a lunch or break and then come back and just see the verification report once you're back.",
+  "zh": "所以基本上这就是你应用更改然后去吃个午饭或休息一下，回来后只需查看验证报告。"
+ },
+ {
+  "seg": 273,
+  "start": 1805.326,
+  "end": 1814.829,
+  "speaker": "Unknown",
+  "en": "Gonna give it a minute because it's going to go through all the design flows, all the user flows, and then generate a report so it takes a bit of time.",
+  "zh": "要给它一点时间，因为它要遍历所有的设计流程、所有的用户流程，然后生成报告，所以需要一点时间。"
+ },
+ {
+  "seg": 274,
+  "start": 1819.527,
+  "end": 1821.529,
+  "speaker": "Unknown",
+  "en": "Let's see if I can pull up the repo.",
+  "zh": "看看我能不能把代码仓库调出来。"
+ },
+ {
+  "seg": 275,
+  "start": 1821.549,
+  "end": 1825.995,
+  "speaker": "Unknown",
+  "en": "Oh, shoot.",
+  "zh": "哦，糟糕。"
+ },
+ {
+  "seg": 276,
+  "start": 1895.43,
+  "end": 1898.493,
+  "speaker": "Unknown",
+  "en": "I think the WiFi is super slow, so let's get back with it.",
+  "zh": "我觉得 WiFi 超级慢，我们稍后再回来看它。"
+ },
+ {
+  "seg": 277,
+  "start": 1901.172,
+  "end": 1919.167,
+  "speaker": "Unknown",
+  "en": "But I think maybe in the meantime I can have Giovanni come over on the stage and show you a cool way to annotate your web pages instead of just going and typing stuff on the web page that you're working on.",
+  "zh": "不过我想，趁这个时间，我可以请 Giovanni 上台，给你展示一种很酷的方式来标注你的网页，而不是直接在你在做的网页上打字。"
+ },
+ {
+  "seg": 278,
+  "start": 1919.927,
+  "end": 1920.307,
+  "speaker": "Unknown",
+  "en": "Hello.",
+  "zh": "你好。"
+ },
+ {
+  "seg": 279,
+  "start": 1920.648,
+  "end": 1921.268,
+  "speaker": "Unknown",
+  "en": "Oh, the Prime.",
+  "zh": "哦，Prime。"
+ },
+ {
+  "seg": 280,
+  "start": 1922.709,
+  "end": 1924.931,
+  "speaker": "Unknown",
+  "en": "Can we have...",
+  "zh": "我们能看一下……"
+ },
+ {
+  "seg": 281,
+  "start": 1927.153,
+  "end": 1927.934,
+  "speaker": "Unknown",
+  "en": "The slides, yes.",
+  "zh": "幻灯片，好的。"
+ },
+ {
+  "seg": 282,
+  "start": 1931.428,
+  "end": 1931.728,
+  "speaker": "Unknown",
+  "en": "Hello.",
+  "zh": "你好。"
+ },
+ {
+  "seg": 283,
+  "start": 1931.748,
+  "end": 1935.309,
+  "speaker": "Unknown",
+  "en": "Hi, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 284,
+  "start": 1935.329,
+  "end": 1935.869,
+  "speaker": "Unknown",
+  "en": "I'm Giovanni.",
+  "zh": "我是 Giovanni。"
+ },
+ {
+  "seg": 285,
+  "start": 1936.009,
+  "end": 1946.473,
+  "speaker": "Unknown",
+  "en": "And I was thinking to imagine you are in your design meeting just talking about the design modification that you want to do to that website.",
+  "zh": "我在想，请想象你在设计会议中，正在讨论你想对那个网站做的设计修改。"
+ },
+ {
+  "seg": 286,
+  "start": 1947.013,
+  "end": 1951.934,
+  "speaker": "Unknown",
+  "en": "And then, automatically, your perception agent is able to modify the website.",
+  "zh": "然后，自动地，你的感知智能体就能够修改这个网站。"
+ },
+ {
+  "seg": 287,
+  "start": 1952.515,
+  "end": 1954.435,
+  "speaker": "Unknown",
+  "en": "This is something that you can do right now with a workshop.",
+  "zh": "这是你现在就可以用 workshop 做到的事情。"
+ },
+ {
+  "seg": 288,
+  "start": 1955.576,
+  "end": 1957.056,
+  "speaker": "Unknown",
+  "en": "And this, why?",
+  "zh": "还有这个，为什么？"
+ },
+ {
+  "seg": 289,
+  "start": 1957.196,
+  "end": 1957.456,
+  "speaker": "Unknown",
+  "en": "How?",
+  "zh": "怎么做？"
+ },
+ {
+  "seg": 290,
+  "start": 1957.836,
+  "end": 1959.577,
+  "speaker": "Unknown",
+  "en": "Using the BeWearable devices.",
+  "zh": "使用 Be 可穿戴设备。"
+ },
+ {
+  "seg": 291,
+  "start": 1960.625,
+  "end": 1963.007,
+  "speaker": "Unknown",
+  "en": "So B is a device we have in Amazon.",
+  "zh": "B 是我们在 Amazon 有的一种设备。"
+ },
+ {
+  "seg": 292,
+  "start": 1963.987,
+  "end": 1964.508,
+  "speaker": "Unknown",
+  "en": "You can buy it.",
+  "zh": "你可以买它。"
+ },
+ {
+  "seg": 293,
+  "start": 1964.528,
+  "end": 1967.03,
+  "speaker": "Unknown",
+  "en": "It's like in some B.computer website.",
+  "zh": "好像是在某个 B.computer 网站上。"
+ },
+ {
+  "seg": 294,
+  "start": 1968.07,
+  "end": 1970.472,
+  "speaker": "Unknown",
+  "en": "It's a wearable with your AI assistant.",
+  "zh": "它是一个带有你 AI 助手的可穿戴设备。"
+ },
+ {
+  "seg": 295,
+  "start": 1970.712,
+  "end": 1973.134,
+  "speaker": "Unknown",
+  "en": "So it just has a microphone.",
+  "zh": "所以它只有一个麦克风。"
+ },
+ {
+  "seg": 296,
+  "start": 1973.795,
+  "end": 1976.877,
+  "speaker": "Unknown",
+  "en": "So you can activate this with the button.",
+  "zh": "你可以用按钮激活它。"
+ },
+ {
+  "seg": 297,
+  "start": 1977.477,
+  "end": 1979.939,
+  "speaker": "Unknown",
+  "en": "And then it's going to listen for your conversation.",
+  "zh": "然后它就会听你的对话。"
+ },
+ {
+  "seg": 298,
+  "start": 1979.959,
+  "end": 1980.559,
+  "speaker": "Unknown",
+  "en": "No worries.",
+  "zh": "别担心。"
+ },
+ {
+  "seg": 299,
+  "start": 1980.579,
+  "end": 1981.4,
+  "speaker": "Unknown",
+  "en": "There is a LID.",
+  "zh": "有一个盖子。"
+ },
+ {
+  "seg": 300,
+  "start": 1984.436,
+  "end": 1990.401,
+  "speaker": "Unknown",
+  "en": "That will be on if it's listening to your conversation, and all your conversation on your private cloud.",
+  "zh": "如果它在听你们的对话，而且你们所有的对话都在你们的私有云上，那它就会开启。"
+ },
+ {
+  "seg": 301,
+  "start": 1992.002,
+  "end": 2000.389,
+  "speaker": "Unknown",
+  "en": "After the AI agent that is running B is able to give you suggestion about whatever conversation you had.",
+  "zh": "之后，正在运行的 AI 智能体 B 就能就你们进行的任何对话给你建议。"
+ },
+ {
+  "seg": 302,
+  "start": 2001.17,
+  "end": 2009.016,
+  "speaker": "Unknown",
+  "en": "So what I did is like integrating with this agent, B agent, with the reception agent that we had for the workshop.",
+  "zh": "所以我所做的就是把这个智能体，也就是 B 智能体，与我们为这个工作坊准备的接待智能体做了集成。"
+ },
+ {
+  "seg": 303,
+  "start": 2009.116,
+  "end": 2010.417,
+  "speaker": "Unknown",
+  "en": "So getting the input.",
+  "zh": "也就是获取输入。"
+ },
+ {
+  "seg": 304,
+  "start": 2011.487,
+  "end": 2014.95,
+  "speaker": "Unknown",
+  "en": "listening from a design conversation.",
+  "zh": "从设计对话中监听。"
+ },
+ {
+  "seg": 305,
+  "start": 2016.891,
+  "end": 2018.412,
+  "speaker": "Unknown",
+  "en": "I don't see the video.",
+  "zh": "我看不到视频。"
+ },
+ {
+  "seg": 306,
+  "start": 2020.374,
+  "end": 2021.074,
+  "speaker": "Unknown",
+  "en": "This one, yeah.",
+  "zh": "是这个，对。"
+ },
+ {
+  "seg": 307,
+  "start": 2021.575,
+  "end": 2021.935,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 308,
+  "start": 2024.117,
+  "end": 2026.018,
+  "speaker": "Unknown",
+  "en": "You can achieve this with three simple steps.",
+  "zh": "你可以通过三个简单的步骤实现这个。"
+ },
+ {
+  "seg": 309,
+  "start": 2026.799,
+  "end": 2028.16,
+  "speaker": "Unknown",
+  "en": "So first of all, yes, you have to have a B.",
+  "zh": "首先，是的，你得有一个 B。"
+ },
+ {
+  "seg": 310,
+  "start": 2029.175,
+  "end": 2038.277,
+  "speaker": "Unknown",
+  "en": "And the one with me that you can use here now, or we can have a test account that you can use to get the conversation, a simulated conversation.",
+  "zh": "用我身上这个，你现在就可以用，或者我们可以有一个测试账号，你可以用它来获取一段对话，一段模拟的对话。"
+ },
+ {
+  "seg": 311,
+  "start": 2038.817,
+  "end": 2040.438,
+  "speaker": "Unknown",
+  "en": "Then you need to install the BCLI.",
+  "zh": "然后你需要安装 BCLI。"
+ },
+ {
+  "seg": 312,
+  "start": 2041.358,
+  "end": 2050.56,
+  "speaker": "Unknown",
+  "en": "It's a CLI that is going to allow you to get the data for your conversation, and it's in the workshop, the instruction to download the BCLI by just an NPM command.",
+  "zh": "它是一个 CLI,能让你获取对话的数据，工作坊里有通过一条 NPM 命令下载 BCLI 的说明。"
+ },
+ {
+  "seg": 313,
+  "start": 2051.66,
+  "end": 2058.482,
+  "speaker": "Unknown",
+  "en": "Then you start the server of the workshop, and then you start the bridge.",
+  "zh": "然后你启动工作坊的服务器，再启动 bridge。"
+ },
+ {
+  "seg": 314,
+  "start": 2059.482,
+  "end": 2063.103,
+  "speaker": "Unknown",
+  "en": "Listening from big conversation and applying that to the perception agent.",
+  "zh": "监听 B 的对话，并将其应用到 Perception 智能体上。"
+ },
+ {
+  "seg": 315,
+  "start": 2063.623,
+  "end": 2065.344,
+  "speaker": "Unknown",
+  "en": "Then you just enable your B device.",
+  "zh": "然后你只需启用你的 B 设备。"
+ },
+ {
+  "seg": 316,
+  "start": 2065.904,
+  "end": 2066.984,
+  "speaker": "Unknown",
+  "en": "The LED is on.",
+  "zh": "LED 灯亮起。"
+ },
+ {
+  "seg": 317,
+  "start": 2067.404,
+  "end": 2070.785,
+  "speaker": "Unknown",
+  "en": "You say something like, oh, I want to change the title color to red.",
+  "zh": "你说一些类似的话，哦，我想把标题颜色改成红色。"
+ },
+ {
+  "seg": 318,
+  "start": 2071.085,
+  "end": 2073.586,
+  "speaker": "Unknown",
+  "en": "I want to change the emoji instead of a brain emoji.",
+  "zh": "我想换掉这个表情符号，不要大脑表情符号。"
+ },
+ {
+  "seg": 319,
+  "start": 2073.606,
+  "end": 2074.666,
+  "speaker": "Unknown",
+  "en": "I want a robot emoji.",
+  "zh": "我要一个机器人表情符号。"
+ },
+ {
+  "seg": 320,
+  "start": 2075.346,
+  "end": 2082.028,
+  "speaker": "Unknown",
+  "en": "And on the right side, you will see your conversation, your transcript of the conversation, and even the most important points.",
+  "zh": "然后在右侧，你会看到你的对话、对话的转录，甚至最重要的要点。"
+ },
+ {
+  "seg": 321,
+  "start": 2083.009,
+  "end": 2087.51,
+  "speaker": "Unknown",
+  "en": "Here you can see the response API, the API response coming from the B.",
+  "zh": "在这里你可以看到响应 API,也就是来自 B 的 API 响应。"
+ },
+ {
+  "seg": 322,
+  "start": 2088.548,
+  "end": 2089.809,
+  "speaker": "Unknown",
+  "en": "You can open the panel and check.",
+  "zh": "你可以打开面板查看。"
+ },
+ {
+  "seg": 323,
+  "start": 2090.73,
+  "end": 2092.452,
+  "speaker": "Unknown",
+  "en": "And then you can just select Apply.",
+  "zh": "然后你只需选择 Apply。"
+ },
+ {
+  "seg": 324,
+  "start": 2093.313,
+  "end": 2097.678,
+  "speaker": "Unknown",
+  "en": "And here is gonna be the normal flow of the Perception Agent Workshop.",
+  "zh": "接下来就是 Perception 智能体工作坊的正常流程。"
+ },
+ {
+  "seg": 325,
+  "start": 2097.718,
+  "end": 2101.262,
+  "speaker": "Unknown",
+  "en": "So it's gonna change the color, the color that you just said.",
+  "zh": "所以它会改变颜色，改成你刚才说的那个颜色。"
+ },
+ {
+  "seg": 326,
+  "start": 2101.282,
+  "end": 2102.864,
+  "speaker": "Unknown",
+  "en": "It's gonna change the emoji.",
+  "zh": "它会改变表情符号。"
+ },
+ {
+  "seg": 327,
+  "start": 2104.185,
+  "end": 2110.372,
+  "speaker": "Unknown",
+  "en": "And after the modification of the website are applied,",
+  "zh": "而且在对网站的修改被应用之后，"
+ },
+ {
+  "seg": 328,
+  "start": 2112.051,
+  "end": 2115.432,
+  "speaker": "Unknown",
+  "en": "It's gonna run even for you automatically the verification phase on NOVACT.",
+  "zh": "它甚至会自动为你运行 NOVACT 上的验证阶段。"
+ },
+ {
+  "seg": 329,
+  "start": 2116.773,
+  "end": 2123.516,
+  "speaker": "Unknown",
+  "en": "So we have a test account that you can use with preloaded conversation, preloaded design conversation.",
+  "zh": "所以我们有一个测试账号可以使用，里面预载了对话，预载了设计对话。"
+ },
+ {
+  "seg": 330,
+  "start": 2123.556,
+  "end": 2128.078,
+  "speaker": "Unknown",
+  "en": "It's like just talking about, oh, we change the color, we change emojis, something like that.",
+  "zh": "内容大概就是在说，哦，我们改一下颜色，换一下表情符号之类的。"
+ },
+ {
+  "seg": 331,
+  "start": 2129.278,
+  "end": 2140.803,
+  "speaker": "Unknown",
+  "en": "And you can, after you install the CLI and you log it in with a B account, with a test device, with a test account, you just click on the bottom button, the button at the bottom.",
+  "zh": "而且在你安装了 CLI 并用 B 账号、测试设备、测试账号登录之后，你只需点击底部按钮，页面底部的那个按钮。"
+ },
+ {
+  "seg": 332,
+  "start": 2142.077,
+  "end": 2143.738,
+  "speaker": "Unknown",
+  "en": "This is the verification page that you can check.",
+  "zh": "这是验证页面，你可以查看一下。"
+ },
+ {
+  "seg": 333,
+  "start": 2144.539,
+  "end": 2149.563,
+  "speaker": "Unknown",
+  "en": "But otherwise, if you want to test the B device, we can just use mine.",
+  "zh": "不过，如果你想测试 B 设备，我们可以直接用我的。"
+ },
+ {
+  "seg": 334,
+  "start": 2149.583,
+  "end": 2151.344,
+  "speaker": "Unknown",
+  "en": "I will show you around if you want it.",
+  "zh": "如果你想要的话，我可以带你体验一下。"
+ },
+ {
+  "seg": 335,
+  "start": 2151.364,
+  "end": 2161.472,
+  "speaker": "Unknown",
+  "en": "We can actually have a conversation about the design, and you can see that it's actually applying this after two or three minutes of elaborating the conversation.",
+  "zh": "我们实际上可以进行一场关于设计的对话，你会看到在大约两三分钟处理完对话之后，它确实把修改应用了。"
+ },
+ {
+  "seg": 336,
+  "start": 2161.492,
+  "end": 2163.834,
+  "speaker": "Unknown",
+  "en": "The Wi-Fi is a little bit slow, so that's why I didn't do the live demo.",
+  "zh": "这里的 Wi-Fi 有点慢，所以我没有做现场演示。"
+ },
+ {
+  "seg": 337,
+  "start": 2165.115,
+  "end": 2168.477,
+  "speaker": "Unknown",
+  "en": "And then in the end, there is the verification report that you can check.",
+  "zh": "最后，还有验证报告供你查看。"
+ },
+ {
+  "seg": 338,
+  "start": 2169.458,
+  "end": 2173.922,
+  "speaker": "Unknown",
+  "en": "The B devices are also our prizes for the challenge.",
+  "zh": "B 设备也是我们这次挑战赛的奖品。"
+ },
+ {
+  "seg": 339,
+  "start": 2173.982,
+  "end": 2176.724,
+  "speaker": "Unknown",
+  "en": "So yeah, you're going to have one if you win the challenge.",
+  "zh": "所以，如果你赢了挑战赛，你就能得到一台。"
+ },
+ {
+  "seg": 340,
+  "start": 2177.025,
+  "end": 2180.247,
+  "speaker": "Unknown",
+  "en": "And we also are at the booth today and all the week.",
+  "zh": "而且我们今天乃至整周都在展位。"
+ },
+ {
+  "seg": 341,
+  "start": 2182.229,
+  "end": 2185.412,
+  "speaker": "Unknown",
+  "en": "So yeah, let me know if you want to integrate B and I'm here for you.",
+  "zh": "所以，如果你想集成 B,告诉我，我在这里等你。"
+ },
+ {
+  "seg": 342,
+  "start": 2186.878,
+  "end": 2202.961,
+  "speaker": "Unknown",
+  "en": "So PDevice, if you want to come up on the stage, we have 10 minutes for you to explore these two primitives, think of an idea that you want to probably use it, and if you want to come up, you'll get one of these devices.",
+  "zh": "那么 PDevice,如果你想上台的话，我们有 10 分钟时间让你们探索这两个原语，想一个你可能想用它的点子，如果你愿意上台，你就能得到这样一台设备。"
+ },
+ {
+  "seg": 343,
+  "start": 2205.342,
+  "end": 2210.583,
+  "speaker": "Unknown",
+  "en": "So yeah, just get creative, I guess.",
+  "zh": "所以，发挥创意就行，我想。"
+ },
+ {
+  "seg": 344,
+  "start": 2212.296,
+  "end": 2212.857,
+  "speaker": "Unknown",
+  "en": "Hey, everyone.",
+  "zh": "嘿，各位。"
+ },
+ {
+  "seg": 345,
+  "start": 2213.337,
+  "end": 2218.943,
+  "speaker": "Unknown",
+  "en": "I have Jed with me who built something really cool and he would like to show it to everyone.",
+  "zh": "我带了 Jed 一起，他做了一个非常酷的东西，他想展示给大家看。"
+ },
+ {
+  "seg": 346,
+  "start": 2219.323,
+  "end": 2220.624,
+  "speaker": "Unknown",
+  "en": "Jed, come up on the stage.",
+  "zh": "Jed,上台来吧。"
+ },
+ {
+  "seg": 347,
+  "start": 2222.807,
+  "end": 2223.167,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 348,
+  "start": 2224.448,
+  "end": 2225.289,
+  "speaker": "Unknown",
+  "en": "Jed, oh.",
+  "zh": "Jed,哦。"
+ },
+ {
+  "seg": 349,
+  "start": 2225.349,
+  "end": 2225.83,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 350,
+  "start": 2225.93,
+  "end": 2226.35,
+  "speaker": "Unknown",
+  "en": "What am I doing?",
+  "zh": "我在干什么?"
+ },
+ {
+  "seg": 351,
+  "start": 2226.37,
+  "end": 2226.811,
+  "speaker": "Unknown",
+  "en": "Where am I going?",
+  "zh": "我要去哪里?"
+ },
+ {
+  "seg": 352,
+  "start": 2227.151,
+  "end": 2228.673,
+  "speaker": "Unknown",
+  "en": "Oh, I called Jed, but yeah.",
+  "zh": "哦,我打电话给 Jed 了,不过好吧。"
+ },
+ {
+  "seg": 353,
+  "start": 2228.793,
+  "end": 2230.014,
+  "speaker": "Unknown",
+  "en": "Oh, my name is Jeff, so I thought.",
+  "zh": "哦,我叫 Jeff,所以我以为。"
+ },
+ {
+  "seg": 354,
+  "start": 2230.054,
+  "end": 2231.175,
+  "speaker": "Unknown",
+  "en": "You are, sorry.",
+  "zh": "是的,抱歉。"
+ },
+ {
+  "seg": 355,
+  "start": 2232.196,
+  "end": 2235.84,
+  "speaker": "Unknown",
+  "en": "I'll have Jeffrey next to show something cool as well.",
+  "zh": "接下来让 Jeffrey 也展示一些很酷的东西。"
+ },
+ {
+  "seg": 356,
+  "start": 2237.462,
+  "end": 2250.808,
+  "speaker": "Unknown",
+  "en": "All right, this was just goofy, but there's actually an interesting little funnel here is with this annotators going through and... Oh, you can't see it.",
+  "zh": "好的,这只是个搞笑的东西,但其实这里有一个有趣的小漏斗,就是这个标注员正在走……哦,你看不到。"
+ },
+ {
+  "seg": 357,
+  "start": 2253.709,
+  "end": 2255.209,
+  "speaker": "Unknown",
+  "en": "Change it to a duck podcast.",
+  "zh": "换成一个鸭子播客。"
+ },
+ {
+  "seg": 358,
+  "start": 2260.912,
+  "end": 2261.392,
+  "speaker": "Unknown",
+  "en": "There we go.",
+  "zh": "好了。"
+ },
+ {
+  "seg": 359,
+  "start": 2264.061,
+  "end": 2274.109,
+  "speaker": "Unknown",
+  "en": "So just asked it to turn it retro NES, do some duck jokes, and went back and did the verification funnel.",
+  "zh": "所以只是让它变成复古 NES 风格,加点鸭子笑话,然后回去走了那个验证漏斗。"
+ },
+ {
+  "seg": 360,
+  "start": 2275.409,
+  "end": 2298.132,
+  "speaker": "Unknown",
+  "en": "It's probably, that's what I was telling them, it's probably really interesting to me here is to watch this, this great AI said, I made it a duck, you know, I made a duck icon, but often, as everyone here likely knows, is you don't actually see that happen, but then it went through and did the,",
+  "zh": "可能……这就是我刚才跟他们说的,这里对我来说最有意思的就是看这个,这个了不起的 AI 说,我把它做成鸭子了,你知道,我做了个鸭子图标,但通常,在座各位可能都知道,你实际上看不到那个过程,但接着它就继续去做了,"
+ },
+ {
+  "seg": 361,
+  "start": 2298.82,
+  "end": 2303.324,
+  "speaker": "Unknown",
+  "en": "The entire verification funnel came back with the reports saying, yep, it's done.",
+  "zh": "整个验证漏斗跑完,带回了报告说,是的,做完了。"
+ },
+ {
+  "seg": 362,
+  "start": 2303.604,
+  "end": 2304.004,
+  "speaker": "Unknown",
+  "en": "I did it.",
+  "zh": "我做了。"
+ },
+ {
+  "seg": 363,
+  "start": 2304.224,
+  "end": 2304.925,
+  "speaker": "Unknown",
+  "en": "I actually did it.",
+  "zh": "我真的做了。"
+ },
+ {
+  "seg": 364,
+  "start": 2305.205,
+  "end": 2306.246,
+  "speaker": "Unknown",
+  "en": "So that was cool.",
+  "zh": "所以那挺酷的。"
+ },
+ {
+  "seg": 365,
+  "start": 2309.929,
+  "end": 2314.352,
+  "speaker": "Unknown",
+  "en": "Oh, yeah.",
+  "zh": "哦,对了。"
+ },
+ {
+  "seg": 366,
+  "start": 2314.372,
+  "end": 2320.837,
+  "speaker": "Unknown",
+  "en": "I had to just ask it to do some jokes, which I'm pretty bad at.",
+  "zh": "我只是让它讲点笑话,因为我不太擅长讲笑话。"
+ },
+ {
+  "seg": 367,
+  "start": 2321.778,
+  "end": 2325.981,
+  "speaker": "Unknown",
+  "en": "There you go.",
+  "zh": "给你。"
+ },
+ {
+  "seg": 368,
+  "start": 2333.117,
+  "end": 2336.899,
+  "speaker": "Unknown",
+  "en": "Oh, because you came up with a cool demo.",
+  "zh": "哦,因为你搞出了一个很酷的演示。"
+ },
+ {
+  "seg": 369,
+  "start": 2337.219,
+  "end": 2338.42,
+  "speaker": "Unknown",
+  "en": "Would you have to step?",
+  "zh": "你要不要上台?"
+ },
+ {
+  "seg": 370,
+  "start": 2341.461,
+  "end": 2343.202,
+  "speaker": "Unknown",
+  "en": "As promised, you win this.",
+  "zh": "如约所承诺,你赢了这个。"
+ },
+ {
+  "seg": 371,
+  "start": 2343.383,
+  "end": 2345.003,
+  "speaker": "Unknown",
+  "en": "Pay device.",
+  "zh": "付费设备。"
+ },
+ {
+  "seg": 372,
+  "start": 2350.486,
+  "end": 2355.429,
+  "speaker": "Unknown",
+  "en": "Up next, we have Jeffrey, who wants to come and present what he did.",
+  "zh": "下一位是 Jeffrey,他想来展示他做的东西。"
+ },
+ {
+  "seg": 373,
+  "start": 2401.015,
+  "end": 2410.764,
+  "speaker": "Unknown",
+  "en": "Yeah, so I'm still building a test harness to actually be able to show this because the default B account has a sample conversation that isn't relevant to the thing.",
+  "zh": "是的,我还在构建一个测试工具来真正展示这个,因为默认的 B 账户有一个示例对话,但和这个东西不相关。"
+ },
+ {
+  "seg": 374,
+  "start": 2410.784,
+  "end": 2415.028,
+  "speaker": "Unknown",
+  "en": "So this is just something trying to bring the B to life.",
+  "zh": "所以这只是个尝试让 B 活起来的东西。"
+ },
+ {
+  "seg": 375,
+  "start": 2415.068,
+  "end": 2416.209,
+  "speaker": "Unknown",
+  "en": "So the idea was to have",
+  "zh": "所以想法是"
+ },
+ {
+  "seg": 376,
+  "start": 2417.13,
+  "end": 2430.344,
+  "speaker": "Unknown",
+  "en": "Access the BCLI and collect the summary of a conversation which was a discussion of backlog features that would be added to a repo that you're working on, right?",
+  "zh": "访问 BCLI 并收集一个对话的摘要,这个对话是关于要加到你正在开发的仓库里的积压功能的讨论,对吧?"
+ },
+ {
+  "seg": 377,
+  "start": 2430.364,
+  "end": 2435.39,
+  "speaker": "Unknown",
+  "en": "So you're working on a specific GitHub repository that's cloned and then",
+  "zh": "所以你在一个特定的已克隆的 GitHub 仓库上工作,然后"
+ },
+ {
+  "seg": 378,
+  "start": 2437.367,
+  "end": 2443.392,
+  "speaker": "Unknown",
+  "en": "What's going to happen is your conversation is going to be used in context with all the code that's there.",
+  "zh": "接下来会发生的是,你的对话会被用来结合那里所有的代码作为上下文。"
+ },
+ {
+  "seg": 379,
+  "start": 2443.412,
+  "end": 2450.658,
+  "speaker": "Unknown",
+  "en": "It's going to build a backlog based on the summary, and it's going to use the Atlassian MCP to put that into JIRA.",
+  "zh": "它会基于这个摘要构建一个积压列表,并使用 Atlassian MCP 把它放进 JIRA。"
+ },
+ {
+  "seg": 380,
+  "start": 2450.858,
+  "end": 2454.381,
+  "speaker": "Unknown",
+  "en": "So that's the idea here.",
+  "zh": "所以这就是这里的想法。"
+ },
+ {
+  "seg": 381,
+  "start": 2454.441,
+  "end": 2462.747,
+  "speaker": "Unknown",
+  "en": "And so the key thing that I'm just building right now in the background is the test harness to insert a new conversation that's relevant to the repo.",
+  "zh": "而我现在正在后台构建的关键东西就是测试工具,用来插入一个和这个仓库相关的新对话。"
+ },
+ {
+  "seg": 382,
+  "start": 2462.767,
+  "end": 2463.248,
+  "speaker": "Unknown",
+  "en": "So that's it.",
+  "zh": "就是这样。"
+ },
+ {
+  "seg": 383,
+  "start": 2467.007,
+  "end": 2468.007,
+  "speaker": "Unknown",
+  "en": "Pretty simple and yeah.",
+  "zh": "很简单,嗯。"
+ },
+ {
+  "seg": 384,
+  "start": 2469.628,
+  "end": 2470.608,
+  "speaker": "Unknown",
+  "en": "Anyway.",
+  "zh": "总之。"
+ },
+ {
+  "seg": 385,
+  "start": 2470.628,
+  "end": 2471.468,
+  "speaker": "Unknown",
+  "en": "That's awesome.",
+  "zh": "那太棒了。"
+ },
+ {
+  "seg": 386,
+  "start": 2472.428,
+  "end": 2473.449,
+  "speaker": "Unknown",
+  "en": "Thank you so much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 387,
+  "start": 2473.469,
+  "end": 2473.629,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 388,
+  "start": 2473.649,
+  "end": 2473.949,
+  "speaker": "Unknown",
+  "en": "Thanks.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 389,
+  "start": 2473.989,
+  "end": 2476.47,
+  "speaker": "Unknown",
+  "en": "Thanks.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 390,
+  "start": 2476.55,
+  "end": 2476.75,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 391,
+  "start": 2477.19,
+  "end": 2477.75,
+  "speaker": "Unknown",
+  "en": "Thanks so much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 392,
+  "start": 2477.77,
+  "end": 2479.37,
+  "speaker": "Unknown",
+  "en": "So here you have your device.",
+  "zh": "好,这是你的设备。"
+ },
+ {
+  "seg": 393,
+  "start": 2479.39,
+  "end": 2481.931,
+  "speaker": "Unknown",
+  "en": "I know you wanted to go and get it, but you won it.",
+  "zh": "我知道你本来想去拿的,但你赢了它。"
+ },
+ {
+  "seg": 394,
+  "start": 2481.951,
+  "end": 2482.691,
+  "speaker": "Unknown",
+  "en": "Thank you very much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 395,
+  "start": 2490.013,
+  "end": 2493.114,
+  "speaker": "Unknown",
+  "en": "So you have a question?",
+  "zh": "那么你有个问题?"
+ },
+ {
+  "seg": 396,
+  "start": 2497.645,
+  "end": 2499.707,
+  "speaker": "Unknown",
+  "en": "Ryan, who's gonna present next.",
+  "zh": "Ryan,接下来要展示的人。"
+ },
+ {
+  "seg": 397,
+  "start": 2503.75,
+  "end": 2505.732,
+  "speaker": "Unknown",
+  "en": "Hello everyone, excited to be here.",
+  "zh": "大家好,很高兴来到这里。"
+ },
+ {
+  "seg": 398,
+  "start": 2505.752,
+  "end": 2515.501,
+  "speaker": "Unknown",
+  "en": "Let's see, start mirroring.",
+  "zh": "我看看,开始投屏。"
+ },
+ {
+  "seg": 399,
+  "start": 2516.422,
+  "end": 2521.506,
+  "speaker": "Unknown",
+  "en": "So I was late to this session because the other session ended at three.",
+  "zh": "我来这个会议迟到了,因为另一个会议三点才结束。"
+ },
+ {
+  "seg": 400,
+  "start": 2522.387,
+  "end": 2524.209,
+  "speaker": "Unknown",
+  "en": "So I came up to",
+  "zh": "所以我走上前"
+ },
+ {
+  "seg": 401,
+  "start": 2526.778,
+  "end": 2529.72,
+  "speaker": "Unknown",
+  "en": "Giovanni, let me shift the key right here.",
+  "zh": "Giovanni，让我把调到这里。"
+ },
+ {
+  "seg": 402,
+  "start": 2532.542,
+  "end": 2533.343,
+  "speaker": "Unknown",
+  "en": "Oh, perfect.",
+  "zh": "哦，完美。"
+ },
+ {
+  "seg": 403,
+  "start": 2533.763,
+  "end": 2534.103,
+  "speaker": "Unknown",
+  "en": "That's fine.",
+  "zh": "没关系。"
+ },
+ {
+  "seg": 404,
+  "start": 2534.924,
+  "end": 2535.704,
+  "speaker": "Unknown",
+  "en": "So I came to Giovanni.",
+  "zh": "所以我找到 Giovanni。"
+ },
+ {
+  "seg": 405,
+  "start": 2536.145,
+  "end": 2538.066,
+  "speaker": "Unknown",
+  "en": "I'm currently wearing a bee hat.",
+  "zh": "我现在戴着一顶蜜蜂帽。"
+ },
+ {
+  "seg": 406,
+  "start": 2538.907,
+  "end": 2541.589,
+  "speaker": "Unknown",
+  "en": "I currently attend Wharton Business School.",
+  "zh": "我目前在沃顿商学院就读。"
+ },
+ {
+  "seg": 407,
+  "start": 2542.349,
+  "end": 2544.03,
+  "speaker": "Unknown",
+  "en": "My cluster's mascot is a bee.",
+  "zh": "（从捕捉一个想法，到和我的联合创始人讨论，再到更新一个项目仓库。"
+ },
+ {
+  "seg": 408,
+  "start": 2544.371,
+  "end": 2547.593,
+  "speaker": "Unknown",
+  "en": "I am one of three people who care that the mascot's a bee.",
+  "zh": "我是关心吉祥物是蜜蜂的三个人之一。"
+ },
+ {
+  "seg": 409,
+  "start": 2548.714,
+  "end": 2553.838,
+  "speaker": "Unknown",
+  "en": "So you can imagine my excitement when I came to this conference and saw we were presenting about a bee device.",
+  "zh": "所以你可以想象，当我来到这个大会，看到我们要展示一款蜜蜂设备时，我有多兴奋。"
+ },
+ {
+  "seg": 410,
+  "start": 2554.638,
+  "end": 2560.2,
+  "speaker": "Unknown",
+  "en": "So naturally, being late, being a Wharton grad, I went and asked if I could have a free B device.",
+  "zh": "所以很自然地，作为一个迟到者、一个沃顿毕业生，我走过去问能不能免费领一台蜜蜂设备。"
+ },
+ {
+  "seg": 411,
+  "start": 2560.881,
+  "end": 2563.062,
+  "speaker": "Unknown",
+  "en": "Giovanni said you have an idea to share.",
+  "zh": "Giovanni 说你得分享一个点子。"
+ },
+ {
+  "seg": 412,
+  "start": 2563.602,
+  "end": 2567.303,
+  "speaker": "Unknown",
+  "en": "So I'm currently working at an AI upskilling startup.",
+  "zh": "所以我目前在一家 AI 技能提升初创公司工作。"
+ },
+ {
+  "seg": 413,
+  "start": 2568.184,
+  "end": 2569.364,
+  "speaker": "Unknown",
+  "en": "I am not a huge fan of linear.",
+  "zh": "我不是 Linear 的忠实粉丝。"
+ },
+ {
+  "seg": 414,
+  "start": 2569.965,
+  "end": 2571.565,
+  "speaker": "Unknown",
+  "en": "Apologies to anyone who works at linear.",
+  "zh": "向在 Linear 工作的各位道歉。"
+ },
+ {
+  "seg": 415,
+  "start": 2572.706,
+  "end": 2575.087,
+  "speaker": "Unknown",
+  "en": "I just need a better way of understanding",
+  "zh": "我只是需要一个更好的方式来理解"
+ },
+ {
+  "seg": 416,
+  "start": 2576.184,
+  "end": 2578.546,
+  "speaker": "Unknown",
+  "en": "What should I be doing any time during the day?",
+  "zh": "一天中的任何时间我该做什么？"
+ },
+ {
+  "seg": 417,
+  "start": 2578.606,
+  "end": 2583.27,
+  "speaker": "Unknown",
+  "en": "Going from capturing an idea, discussing with my co-founder, and then updating a project repository.",
+  "zh": "从捕捉一个想法,和我的联合创始人讨论,然后更新一个项目仓库。"
+ },
+ {
+  "seg": 418,
+  "start": 2583.791,
+  "end": 2585.893,
+  "speaker": "Unknown",
+  "en": "So this is a natural use case for the B device.",
+  "zh": "所以这是蜜蜂设备的一个自然用例。"
+ },
+ {
+  "seg": 419,
+  "start": 2586.573,
+  "end": 2588.815,
+  "speaker": "Unknown",
+  "en": "So we have an internal tool called Sidekick.",
+  "zh": "所以我们有一个叫 Sidekick 的内部工具。"
+ },
+ {
+  "seg": 420,
+  "start": 2589.516,
+  "end": 2593.059,
+  "speaker": "Unknown",
+  "en": "Emphasis on internal because there is no design.",
+  "zh": "强调一下「内部」，因为它完全没有设计。"
+ },
+ {
+  "seg": 421,
+  "start": 2594.52,
+  "end": 2600.886,
+  "speaker": "Unknown",
+  "en": "In my co-founder's defense, he did tell me to tell Claude to make it look pretty, no mistakes, and this is the best it did.",
+  "zh": "为我的联合创始人辩护一下，他确实让我告诉 Claude 把它做得好看点、别出错，这就是它做到的最好程度。"
+ },
+ {
+  "seg": 422,
+  "start": 2604.029,
+  "end": 2608.293,
+  "speaker": "Unknown",
+  "en": "But how it works is we have a joint inbox.",
+  "zh": "但它的工作方式是我们有一个共享收件箱。"
+ },
+ {
+  "seg": 423,
+  "start": 2608.993,
+  "end": 2611.736,
+  "speaker": "Unknown",
+  "en": "You can ignore the GoTouchCrash SF.",
+  "zh": "你可以忽略那个 GoTouchCrash SF。"
+ },
+ {
+  "seg": 424,
+  "start": 2611.896,
+  "end": 2614.898,
+  "speaker": "Unknown",
+  "en": "I just see all these billboards and it gets me concerned.",
+  "zh": "我到处看到这些广告牌，这让我很担心。"
+ },
+ {
+  "seg": 425,
+  "start": 2615.599,
+  "end": 2619.802,
+  "speaker": "Unknown",
+  "en": "That we send emails jointly to capture at sidekick.aussian.org.",
+  "zh": "我们通过 capture@sidekick.aussian.org 联合发送邮件。"
+ },
+ {
+  "seg": 426,
+  "start": 2621.159,
+  "end": 2632.423,
+  "speaker": "Unknown",
+  "en": "And these are all the different inputs we have, thoughts throughout the week, newsletters, I don't know if anyone here subscribes to an AI newsletter, see something interesting, we send an inbox.",
+  "zh": "这些是我们拥有的所有不同输入，一周中的各种想法、新闻通讯，我不知道在座有没有人订阅 AI 新闻通讯，看到有意思的东西，我们就发到收件箱。"
+ },
+ {
+  "seg": 427,
+  "start": 2633.323,
+  "end": 2642.406,
+  "speaker": "Unknown",
+  "en": "And we were big believers in getting things done, which was a mode for knowledge workers, organizing their projects, tasks developed by David Allen in 2010.",
+  "zh": "而且我们是「把事情做完」的坚定信奉者，那是 2010 年由 David Allen 开发的、为知识工作者组织项目和任务的一种方法。"
+ },
+ {
+  "seg": 428,
+  "start": 2643.486,
+  "end": 2646.067,
+  "speaker": "Unknown",
+  "en": "And, oh, if the Wi-Fi works, you can be able to see it.",
+  "zh": "还有，哦，如果 Wi-Fi 能用的话，你们就能看到它。"
+ },
+ {
+  "seg": 429,
+  "start": 2649.103,
+  "end": 2651.043,
+  "speaker": "Unknown",
+  "en": "Sorry, that did just work off the screen.",
+  "zh": "抱歉，它刚好滑出屏幕了。"
+ },
+ {
+  "seg": 430,
+  "start": 2653.064,
+  "end": 2653.484,
+  "speaker": "Unknown",
+  "en": "One second.",
+  "zh": "稍等一下。"
+ },
+ {
+  "seg": 431,
+  "start": 2653.964,
+  "end": 2662.748,
+  "speaker": "Unknown",
+  "en": "So the Get Anything Done tree shows all the projects, and under each project it has the strategy, has what the...",
+  "zh": "这个「把任何事情做完」树展示了所有项目，每个项目下面有策略、有完成的样子、任务、下一个任务、参考资料，我们还建了一个 MCP，这样我们可以坐着和 Claude 聊、做策略讨论，嘿，这就是我们在这个项目上的想法，你觉得我们应该做什么？"
+ },
+ {
+  "seg": 432,
+  "start": 2664.046,
+  "end": 2676.45,
+  "speaker": "Unknown",
+  "en": "Completion looks like, tax, next test, references, and we've built an MCP so we can sit and talk to Claude and strategize on, hey, this is what we're thinking on this project, what do you think we should be doing?",
+  "zh": "这一切都是为了解决这样一个需求：开完会之后继续工作时，比如，我现在该做什么才能和我的最终战略挂钩？"
+ },
+ {
+  "seg": 433,
+  "start": 2677.25,
+  "end": 2683.172,
+  "speaker": "Unknown",
+  "en": "All to solve the need of when you're working after you have a meeting of like, what should I be doing right now to tie to my ultimate strategy?",
+  "zh": "所以我们设想它与蜜蜂设备的配合方式，正如 Giovanni 告诉我的，那里有一个 MCP，将会是，"
+ },
+ {
+  "seg": 434,
+  "start": 2683.752,
+  "end": 2690.595,
+  "speaker": "Unknown",
+  "en": "So how we imagine this to work with the B device, as Giovanni informed me, there's an MCP, would be,",
+  "zh": "捕捉不同的会议或不同的想法，把它发送到我们的 Capture 收件箱，然后用它来更新我们的战略。"
+ },
+ {
+  "seg": 435,
+  "start": 2691.715,
+  "end": 2698.12,
+  "speaker": "Unknown",
+  "en": "Capture different meetings or different ideas, have it sent to our Capture inbox, and then use that to update our strategy.",
+  "zh": "捕捉不同的会议或不同的想法,把它发送到我们的 Capture 收件箱,然后用它来更新我们的策略。"
+ },
+ {
+  "seg": 436,
+  "start": 2699.06,
+  "end": 2703.904,
+  "speaker": "Unknown",
+  "en": "I wish this was loading because, let me see, oh, that's why.",
+  "zh": "我希望这个能加载出来，因为，让我看看，哦，原来是这样。"
+ },
+ {
+  "seg": 437,
+  "start": 2703.924,
+  "end": 2707.126,
+  "speaker": "Unknown",
+  "en": "I think my phone's, see that worked.",
+  "zh": "我觉得我的手机……看，成功了。"
+ },
+ {
+  "seg": 438,
+  "start": 2710.834,
+  "end": 2711.074,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 439,
+  "start": 2712.275,
+  "end": 2715.597,
+  "speaker": "Unknown",
+  "en": "I'm now 0 for 11 for live demos.",
+  "zh": "我现在的现场演示战绩是 0 比 11。"
+ },
+ {
+  "seg": 440,
+  "start": 2715.877,
+  "end": 2719.139,
+  "speaker": "Unknown",
+  "en": "But that is my concept of the bee device.",
+  "zh": "但这就是我对蜜蜂设备的概念。"
+ },
+ {
+  "seg": 441,
+  "start": 2719.179,
+  "end": 2724.122,
+  "speaker": "Unknown",
+  "en": "I'm looking forward to using it and sharing on LinkedIn how much I love the bees.",
+  "zh": "我很期待使用它，并在 LinkedIn 上分享我有多爱这些蜜蜂。"
+ },
+ {
+  "seg": 442,
+  "start": 2724.702,
+  "end": 2725.103,
+  "speaker": "Unknown",
+  "en": "Go bees.",
+  "zh": "蜜蜂加油。"
+ },
+ {
+  "seg": 443,
+  "start": 2726.023,
+  "end": 2726.483,
+  "speaker": "Unknown",
+  "en": "Buzz, buzz.",
+  "zh": "嗡嗡，嗡嗡。"
+ },
+ {
+  "seg": 444,
+  "start": 2728.585,
+  "end": 2728.905,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 445,
+  "start": 2734.148,
+  "end": 2739.351,
+  "speaker": "Unknown",
+  "en": "How would you go and integrate the perception agents into your",
+  "zh": "你会怎么把感知智能体集成到你的"
+ },
+ {
+  "seg": 446,
+  "start": 2741.258,
+  "end": 2742.919,
+  "speaker": "Unknown",
+  "en": "Oh, actually, I have an answer for that too.",
+  "zh": "哦，其实，这个我也有答案。"
+ },
+ {
+  "seg": 447,
+  "start": 2742.939,
+  "end": 2743.219,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 448,
+  "start": 2743.819,
+  "end": 2755.206,
+  "speaker": "Unknown",
+  "en": "So as I've actually emailed myself and Sidekick to discuss later, my co-founder is we developed a lot of product offerings, such as Sidekick, different tools for learning.",
+  "zh": "就像我其实已经给自己和 Sidekick 发了邮件稍后讨论，我的联合创始人，我们开发了很多产品，比如 Sidekick、各种学习工具。"
+ },
+ {
+  "seg": 449,
+  "start": 2756.086,
+  "end": 2761.089,
+  "speaker": "Unknown",
+  "en": "The whole mission of making sure everyone knows how to adjust to the upcoming workforce displacement.",
+  "zh": "整个使命就是确保每个人都知道如何应对即将到来的劳动力置换。"
+ },
+ {
+  "seg": 450,
+  "start": 2761.789,
+  "end": 2768.553,
+  "speaker": "Unknown",
+  "en": "But the bottleneck right now is product design of building something that users can understand exactly what to do.",
+  "zh": "但现在的瓶颈是产品设计，也就是打造一个用户能明确知道该做什么的东西。"
+ },
+ {
+  "seg": 451,
+  "start": 2769.213,
+  "end": 2781.935,
+  "speaker": "Unknown",
+  "en": "So we would use the annotation feature of the perception agent to then send that description either through Sidekick through our own agent we have running to make improvements, but then to close that loop of development.",
+  "zh": "所以我们会用感知智能体的标注功能，把那个描述通过 Sidekick 或我们自己运行中的智能体发送出去做改进，然后闭合开发的循环。"
+ },
+ {
+  "seg": 452,
+  "start": 2782.575,
+  "end": 2788.817,
+  "speaker": "Unknown",
+  "en": "So if AGI would love to sponsor ASEAN, I will give you my card and we can talk later.",
+  "zh": "所以如果 AGI 想赞助 ASEAN，我会把我的名片给你，我们稍后可以聊。"
+ },
+ {
+  "seg": 453,
+  "start": 2788.957,
+  "end": 2789.837,
+  "speaker": "Unknown",
+  "en": "So thank you.",
+  "zh": "谢谢大家。"
+ },
+ {
+  "seg": 454,
+  "start": 2790.437,
+  "end": 2790.837,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 455,
+  "start": 2790.917,
+  "end": 2795.738,
+  "speaker": "Unknown",
+  "en": "Thank you so much for coming up and demoing and here, as Pop promised, a B device.",
+  "zh": "非常感谢你上台来做演示，正如 Pop 承诺的，一台 B 设备。"
+ },
+ {
+  "seg": 456,
+  "start": 2795.998,
+  "end": 2796.278,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 457,
+  "start": 2796.298,
+  "end": 2796.698,
+  "speaker": "Unknown",
+  "en": "Appreciate it.",
+  "zh": "很感激。"
+ },
+ {
+  "seg": 458,
+  "start": 2800.042,
+  "end": 2810.928,
+  "speaker": "Unknown",
+  "en": "So as we are wrapping this up, we are gonna put up a survey on the screen.",
+  "zh": "那么在我们收尾的时候，我们会在屏幕上放一份调查问卷。"
+ },
+ {
+  "seg": 459,
+  "start": 2811.948,
+  "end": 2817.011,
+  "speaker": "Unknown",
+  "en": "It's something that we, yes?",
+  "zh": "这是我们……，嗯？"
+ },
+ {
+  "seg": 460,
+  "start": 2819.692,
+  "end": 2820.773,
+  "speaker": "Unknown",
+  "en": "Oh, okay.",
+  "zh": "哦，好的。"
+ },
+ {
+  "seg": 461,
+  "start": 2821.973,
+  "end": 2826.516,
+  "speaker": "Unknown",
+  "en": "Okay, there's Jonathan who wants to present as well.",
+  "zh": "好的，Jonathan 也想做演示。"
+ },
+ {
+  "seg": 462,
+  "start": 2831.81,
+  "end": 2838.154,
+  "speaker": "Unknown",
+  "en": "So mine's more of like a concept that I didn't have time to build everything, but I'll just kind of walk through it.",
+  "zh": "我的更多是一个概念，我没时间把所有东西都做出来，但我大致过一遍。"
+ },
+ {
+  "seg": 463,
+  "start": 2844.938,
+  "end": 2858.345,
+  "speaker": "Unknown",
+  "en": "All right, so I was kind of looking at the proxy for the B and trying to figure out how are we getting the information from the CLI.",
+  "zh": "好的，我在看 B 的代理，想弄清楚我们是怎么从 CLI 获取信息的。"
+ },
+ {
+  "seg": 464,
+  "start": 2859.306,
+  "end": 2859.906,
+  "speaker": "Unknown",
+  "en": "Oh, it's not.",
+  "zh": "哦，不行。"
+ },
+ {
+  "seg": 465,
+  "start": 2861.626,
+  "end": 2862.227,
+  "speaker": "Unknown",
+  "en": "It's not sharing.",
+  "zh": "没有共享。"
+ },
+ {
+  "seg": 466,
+  "start": 2862.347,
+  "end": 2862.747,
+  "speaker": "Unknown",
+  "en": "Oh, there we go.",
+  "zh": "哦，好了。"
+ },
+ {
+  "seg": 467,
+  "start": 2862.847,
+  "end": 2863.067,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 468,
+  "start": 2863.648,
+  "end": 2869.353,
+  "speaker": "Unknown",
+  "en": "So I was trying to figure out how the proxy actually works and how we're getting information from the bee.",
+  "zh": "所以我一直想弄清楚这个代理到底是怎么工作的，我们是怎么从 bee 获取信息的。"
+ },
+ {
+  "seg": 469,
+  "start": 2870.174,
+  "end": 2876.439,
+  "speaker": "Unknown",
+  "en": "And besides just doing transcripts, transcription, could you pull different data from different sources?",
+  "zh": "除了做转写之外，能不能从不同的来源拉取不同的数据？"
+ },
+ {
+  "seg": 470,
+  "start": 2876.5,
+  "end": 2879.102,
+  "speaker": "Unknown",
+  "en": "Could you pull it from an IoT device for whatever reason?",
+  "zh": "能不能出于某种原因从一个 IoT 设备拉取？"
+ },
+ {
+  "seg": 471,
+  "start": 2880.663,
+  "end": 2886.811,
+  "speaker": "Unknown",
+  "en": "And what I started to come up with is at the company I'm at, which is a finance company, we have a lot of non-technical people.",
+  "zh": "我开始想出来的东西是这样的：在我所在的公司，是一家金融公司，我们有很多非技术人员。"
+ },
+ {
+  "seg": 472,
+  "start": 2887.812,
+  "end": 2895.002,
+  "speaker": "Unknown",
+  "en": "And not only do we have to get our criteria in, but we also have a lot of UI, UX that",
+  "zh": "我们不仅要把我们的标准录入进去，还有很多 UI、UX"
+ },
+ {
+  "seg": 473,
+  "start": 2895.987,
+  "end": 2902.408,
+  "speaker": "Unknown",
+  "en": "We have to try and capture, and we don't always get it in the best details for acceptance criteria.",
+  "zh": "我们必须努力捕捉，但我们并不总能以最好的细节拿到验收标准。"
+ },
+ {
+  "seg": 474,
+  "start": 2903.208,
+  "end": 2915.291,
+  "speaker": "Unknown",
+  "en": "So I've been pushing the team to use Jam MCP, which basically allows you to do a recording, captures all the console logs, captures the network requests, and then feed that information.",
+  "zh": "所以我一直在推动团队使用 Jam MCP，它基本上可以让你做一个录制，捕捉所有的控制台日志，捕捉网络请求，然后把这些信息喂进去。"
+ },
+ {
+  "seg": 475,
+  "start": 2915.991,
+  "end": 2920.152,
+  "speaker": "Unknown",
+  "en": "We also have a built-in AI harness so we can pipe this information to it.",
+  "zh": "我们还有一个内置的 AI 测试框架，我们可以把这些信息管道输送给它。"
+ },
+ {
+  "seg": 476,
+  "start": 2921.255,
+  "end": 2940.34,
+  "speaker": "Unknown",
+  "en": "So really the architecture kind of looks like this, where very similar to the CLI, you could actually take the Jam MCP, pipe that information into the proxy, have the LLM go out to Nova, and then actually take the UI implementation.",
+  "zh": "所以整体架构大致是这样的，和 CLI 非常类似，你实际上可以把 Jam MCP 的信息通过管道输入到代理里，让 LLM 去连接 Nova，然后实际处理 UI 实现。"
+ },
+ {
+  "seg": 477,
+  "start": 2940.36,
+  "end": 2944.301,
+  "speaker": "Unknown",
+  "en": "So if you're saying things like, oh, I wish this would say,",
+  "zh": "所以如果你在说类似的话，比如，哦，我希望这个能显示成，"
+ },
+ {
+  "seg": 478,
+  "start": 2947.359,
+  "end": 2956.084,
+  "speaker": "Unknown",
+  "en": "This investor schedule needs to go like this, or this score should be a research level score and be in a different location.",
+  "zh": "这个投资者日程表需要像这样排列，或者这个分数应该是研究级别的分数，并且放在不同的位置。"
+ },
+ {
+  "seg": 479,
+  "start": 2957.045,
+  "end": 2965.19,
+  "speaker": "Unknown",
+  "en": "We'd be able to actually pull that information from the MCP, send it over to Nova, and actually make the changes on the AI harness that is running locally.",
+  "zh": "我们就能实际从 MCP 拉取那些信息，发送给 Nova，然后在本地运行的 AI 测试框架上实际做出修改。"
+ },
+ {
+  "seg": 480,
+  "start": 2965.41,
+  "end": 2969.173,
+  "speaker": "Unknown",
+  "en": "So you could do the proxy the same way, but through a different device.",
+  "zh": "所以你可以用同样的方式使用代理，只是通过一个不同的设备。"
+ },
+ {
+  "seg": 481,
+  "start": 2971.448,
+  "end": 2972.348,
+  "speaker": "Unknown",
+  "en": "Did some initial tests.",
+  "zh": "做了一些初步测试。"
+ },
+ {
+  "seg": 482,
+  "start": 2972.648,
+  "end": 2980.531,
+  "speaker": "Unknown",
+  "en": "It looks like it works even through just some mocking, but wasn't able with the Wi-Fi to get the fig or the GM MCP up and running.",
+  "zh": "看起来即使只是通过一些模拟也能工作，但受限于 Wi-Fi，没能把 fig 或 GM MCP 跑起来。"
+ },
+ {
+  "seg": 483,
+  "start": 2981.311,
+  "end": 2983.051,
+  "speaker": "Unknown",
+  "en": "But that'll be the test when I get home.",
+  "zh": "不过那会是我回家后的测试。"
+ },
+ {
+  "seg": 484,
+  "start": 2984.032,
+  "end": 2984.232,
+  "speaker": "Unknown",
+  "en": "Thanks.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 485,
+  "start": 2985.212,
+  "end": 2995.134,
+  "speaker": "Unknown",
+  "en": "Thank you so much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 486,
+  "start": 2995.375,
+  "end": 2996.735,
+  "speaker": "Unknown",
+  "en": "And here you go.",
+  "zh": "给，这是你的。"
+ },
+ {
+  "seg": 487,
+  "start": 2998.998,
+  "end": 3006.523,
+  "speaker": "Unknown",
+  "en": "So right now we have 15 more minutes that will close the workshop.",
+  "zh": "那么现在我们还有 15 分钟就会结束这个工作坊。"
+ },
+ {
+  "seg": 488,
+  "start": 3007.524,
+  "end": 3010.927,
+  "speaker": "Unknown",
+  "en": "We will put up a QR code on screen.",
+  "zh": "我们会在屏幕上放一个二维码。"
+ },
+ {
+  "seg": 489,
+  "start": 3012.528,
+  "end": 3023.296,
+  "speaker": "Unknown",
+  "en": "If you feel that you have a great idea and you don't want to come up and talk to us about it, you can submit these ideas here and we'll do a",
+  "zh": "如果你觉得你有一个很棒的想法，但不想上台来跟我们讲，你可以在这里提交这些想法，我们会做一个——"
+ },
+ {
+  "seg": 490,
+  "start": 3026.65,
+  "end": 3033.312,
+  "speaker": "Unknown",
+  "en": "We will vote on those ideas and the top three ideas will get a TB device.",
+  "zh": "我们会对这些想法进行投票，得票前三的想法会获得一台 TB 设备。"
+ },
+ {
+  "seg": 491,
+  "start": 3033.652,
+  "end": 3041.375,
+  "speaker": "Unknown",
+  "en": "So if you have an idea, please put it in the poll.",
+  "zh": "所以如果你有想法，请把它放进投票里。"
+ },
+ {
+  "seg": 492,
+  "start": 3043.556,
+  "end": 3045.196,
+  "speaker": "Unknown",
+  "en": "Just give me a second.",
+  "zh": "给我一秒钟。"
+ },
+ {
+  "seg": 493,
+  "start": 3047.737,
+  "end": 3048.117,
+  "speaker": "Unknown",
+  "en": "There you go.",
+  "zh": "好了。"
+ },
+ {
+  "seg": 494,
+  "start": 3048.297,
+  "end": 3049.038,
+  "speaker": "Unknown",
+  "en": "You guys see that?",
+  "zh": "你们能看到吗？"
+ },
+ {
+  "seg": 495,
+  "start": 3049.178,
+  "end": 3049.398,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "能。"
+ },
+ {
+  "seg": 496,
+  "start": 3053.059,
+  "end": 3055.44,
+  "speaker": "Unknown",
+  "en": "So we want them to scan the QR code and enter",
+  "zh": "所以我们要他们扫这个二维码，然后输入"
+ },
+ {
+  "seg": 497,
+  "start": 3057.703,
+  "end": 3059.545,
+  "speaker": "Unknown",
+  "en": "An innovative idea using what we've learned today.",
+  "zh": "一个运用今天所学内容的创新想法。"
+ },
+ {
+  "seg": 498,
+  "start": 3059.645,
+  "end": 3066.331,
+  "speaker": "Unknown",
+  "en": "What would you use this perception be all the things that you saw today, all the things you played around with today?",
+  "zh": "你会用这个感知 bee、以及你今天看到的所有东西、你今天玩过的所有东西来做什么？"
+ },
+ {
+  "seg": 499,
+  "start": 3067.292,
+  "end": 3075.66,
+  "speaker": "Unknown",
+  "en": "What do you think would be a good use case for you that will help you make your life easier on an everyday basis?",
+  "zh": "你认为什么样的用例对你来说是好的，能帮你在日常生活中让日子更轻松？"
+ },
+ {
+  "seg": 500,
+  "start": 3079.303,
+  "end": 3081.004,
+  "speaker": "Unknown",
+  "en": "We saw a bunch of ideas.",
+  "zh": "我们看到了很多想法。"
+ },
+ {
+  "seg": 501,
+  "start": 3082.377,
+  "end": 3090.765,
+  "speaker": "Unknown",
+  "en": "Now, and if you think you had one, you're feeling a little shy, there's a chance to win another device.",
+  "zh": "现在，如果你觉得自己有想法但有点害羞，还有机会再赢一台设备。"
+ },
+ {
+  "seg": 502,
+  "start": 3090.785,
+  "end": 3095.269,
+  "speaker": "Unknown",
+  "en": "So what do you think, five minutes and then we'll?",
+  "zh": "你们觉得呢，五分钟然后我们就？"
+ },
+ {
+  "seg": 503,
+  "start": 3095.67,
+  "end": 3097.432,
+  "speaker": "Unknown",
+  "en": "Five minutes and then we will, yep.",
+  "zh": "五分钟然后我们就，好的。"
+ },
+ {
+  "seg": 504,
+  "start": 3098.032,
+  "end": 3098.232,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好。"
+ },
+ {
+  "seg": 505,
+  "start": 3109.447,
+  "end": 3112.31,
+  "speaker": "Unknown",
+  "en": "Okay, I stopped the poll now.",
+  "zh": "好，我现在停止投票了。"
+ },
+ {
+  "seg": 506,
+  "start": 3113.551,
+  "end": 3115.813,
+  "speaker": "Unknown",
+  "en": "So all of them, great ideas.",
+  "zh": "所有这些，都是很棒的想法。"
+ },
+ {
+  "seg": 507,
+  "start": 3116.453,
+  "end": 3120.437,
+  "speaker": "Unknown",
+  "en": "I was reading through them and I was discussing with the mail, they're like so hard to pick.",
+  "zh": "我看了一遍，和 mail 讨论的时候，他们说太难选了。"
+ },
+ {
+  "seg": 508,
+  "start": 3121.958,
+  "end": 3123.54,
+  "speaker": "Unknown",
+  "en": "Isn't it a mail?",
+  "zh": "是不是叫 mail？"
+ },
+ {
+  "seg": 509,
+  "start": 3124.26,
+  "end": 3135.17,
+  "speaker": "Unknown",
+  "en": "So we have the one with Pixel Judge.",
+  "zh": "所以我们有 Pixel Judge 这个。"
+ },
+ {
+  "seg": 510,
+  "start": 3137.11,
+  "end": 3139.11,
+  "speaker": "Unknown",
+  "en": "Can someone raise their hand who submitted that idea?",
+  "zh": "提交这个想法的人能举手吗？"
+ },
+ {
+  "seg": 511,
+  "start": 3142.871,
+  "end": 3143.211,
+  "speaker": "Unknown",
+  "en": "No one?",
+  "zh": "没有人吗？"
+ },
+ {
+  "seg": 512,
+  "start": 3145.292,
+  "end": 3145.972,
+  "speaker": "Unknown",
+  "en": "Pixel judge?",
+  "zh": "Pixel Judge？"
+ },
+ {
+  "seg": 513,
+  "start": 3149.232,
+  "end": 3149.592,
+  "speaker": "Unknown",
+  "en": "What's that?",
+  "zh": "那是什么？"
+ },
+ {
+  "seg": 514,
+  "start": 3153.313,
+  "end": 3153.733,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 515,
+  "start": 3155.533,
+  "end": 3161.255,
+  "speaker": "Unknown",
+  "en": "The next one was the agenting end-to-end testing for a product.",
+  "zh": "下一个是做产品端到端测试的智能体。"
+ },
+ {
+  "seg": 516,
+  "start": 3161.595,
+  "end": 3161.755,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 517,
+  "start": 3162.635,
+  "end": 3163.255,
+  "speaker": "Unknown",
+  "en": "Come on up here.",
+  "zh": "上来吧。"
+ },
+ {
+  "seg": 518,
+  "start": 3168.869,
+  "end": 3171.611,
+  "speaker": "Unknown",
+  "en": "I'm very excited to use this.",
+  "zh": "我很期待使用这个。"
+ },
+ {
+  "seg": 519,
+  "start": 3171.631,
+  "end": 3172.731,
+  "speaker": "Unknown",
+  "en": "Yeah, awesome.",
+  "zh": "对，太好了。"
+ },
+ {
+  "seg": 520,
+  "start": 3172.811,
+  "end": 3175.473,
+  "speaker": "Unknown",
+  "en": "Awesome to hear that.",
+  "zh": "很高兴听到这个。"
+ },
+ {
+  "seg": 521,
+  "start": 3176.814,
+  "end": 3177.294,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 522,
+  "start": 3181.076,
+  "end": 3188.3,
+  "speaker": "Unknown",
+  "en": "The reframe a life thinking canvas for brainstorming and planning.",
+  "zh": "用于头脑风暴和规划的重新构思人生的思维画布。"
+ },
+ {
+  "seg": 523,
+  "start": 3190.722,
+  "end": 3191.302,
+  "speaker": "Unknown",
+  "en": "Come on up here.",
+  "zh": "上来吧。"
+ },
+ {
+  "seg": 524,
+  "start": 3199.838,
+  "end": 3212.101,
+  "speaker": "Unknown",
+  "en": "So we had decided we'll give away three, and one was not claimed, so we did actually circle down to four.",
+  "zh": "我们本来决定发三台，有一台没人认领，所以我们实际上圈定到了四个。"
+ },
+ {
+  "seg": 525,
+  "start": 3214.121,
+  "end": 3221.323,
+  "speaker": "Unknown",
+  "en": "The last one is build a Canvas app where a human perception agent work on a UI design together in real time.",
+  "zh": "最后一个是构建一个 Canvas 应用，让人类和感知智能体在实时协作完成 UI 设计。"
+ },
+ {
+  "seg": 526,
+  "start": 3222.923,
+  "end": 3223.564,
+  "speaker": "Unknown",
+  "en": "Come on up here.",
+  "zh": "上来吧。"
+ },
+ {
+  "seg": 527,
+  "start": 3228.525,
+  "end": 3229.445,
+  "speaker": "Unknown",
+  "en": "Thank you, everyone.",
+  "zh": "感谢大家。"
+ },
+ {
+  "seg": 528,
+  "start": 3233.023,
+  "end": 3236.505,
+  "speaker": "Unknown",
+  "en": "A huge round of applause for all the winners here.",
+  "zh": "为这里所有的获奖者送上热烈的掌声。"
+ },
+ {
+  "seg": 529,
+  "start": 3252.432,
+  "end": 3256.894,
+  "speaker": "Unknown",
+  "en": "Okay, so I just want to wrap the session up with something",
+  "zh": "好，我只想用一些东西来为这场会议收尾"
+ },
+ {
+  "seg": 530,
+  "start": 3258.36,
+  "end": 3259.36,
+  "speaker": "Unknown",
+  "en": "Like a key takeaway.",
+  "zh": "比如一个关键要点。"
+ },
+ {
+  "seg": 531,
+  "start": 3260.16,
+  "end": 3270.163,
+  "speaker": "Unknown",
+  "en": "The first, the most important thing of this workshop you can all imagine is the way human and agent collaboration is happening is changing.",
+  "zh": "第一，你们都能想到，这场工作坊最重要的就是人类与智能体协作的方式正在发生变化。"
+ },
+ {
+  "seg": 532,
+  "start": 3271.043,
+  "end": 3279.026,
+  "speaker": "Unknown",
+  "en": "So we need tools that will make the visual piece of how the human and agents are collaborating.",
+  "zh": "所以我们需要工具来呈现人类与智能体协作的可视化部分。"
+ },
+ {
+  "seg": 533,
+  "start": 3279.126,
+  "end": 3283.967,
+  "speaker": "Unknown",
+  "en": "And this is what a step next to building perception agent is.",
+  "zh": "而这正是构建感知智能体旁边的下一步。"
+ },
+ {
+  "seg": 534,
+  "start": 3285.153,
+  "end": 3291.316,
+  "speaker": "Unknown",
+  "en": "So you can get started with Nova Act if you haven't already looked at the GitHub repo.",
+  "zh": "所以如果你还没看过 GitHub 仓库，可以开始使用 Nova Act。"
+ },
+ {
+  "seg": 535,
+  "start": 3291.416,
+  "end": 3292.196,
+  "speaker": "Unknown",
+  "en": "It's available.",
+  "zh": "它已经可用了。"
+ },
+ {
+  "seg": 536,
+  "start": 3292.216,
+  "end": 3294.077,
+  "speaker": "Unknown",
+  "en": "You can scan this QR code.",
+  "zh": "你可以扫描这个二维码。"
+ },
+ {
+  "seg": 537,
+  "start": 3294.498,
+  "end": 3295.378,
+  "speaker": "Unknown",
+  "en": "It's an SDK.",
+  "zh": "它是一个 SDK。"
+ },
+ {
+  "seg": 538,
+  "start": 3295.998,
+  "end": 3305.063,
+  "speaker": "Unknown",
+  "en": "And also we have a blog post by our team that you can look it up explaining what we are thinking about perception agent at large.",
+  "zh": "另外我们团队还有一篇博客文章，你可以去查一下，它解释了我们关于感知智能体整体上的思考。"
+ },
+ {
+  "seg": 539,
+  "start": 3306.884,
+  "end": 3309.505,
+  "speaker": "Unknown",
+  "en": "So with that, thank you everyone.",
+  "zh": "那么，感谢大家。"
+ },
+ {
+  "seg": 540,
+  "start": 3309.665,
+  "end": 3313.347,
+  "speaker": "Unknown",
+  "en": "And we also have a feedback QR code up.",
+  "zh": "我们还有一个反馈二维码在上面。"
+ },
+ {
+  "seg": 541,
+  "start": 3313.507,
+  "end": 3322.231,
+  "speaker": "Unknown",
+  "en": "If you think you like this session, you like Emil, you like me, you like Giovanni here who presented, please leave us a feedback.",
+  "zh": "如果你觉得喜欢这场会议，喜欢 Emil，喜欢我，喜欢在这里演讲的 Giovanni，请给我们留下反馈。"
+ },
+ {
+  "seg": 542,
+  "start": 3322.251,
+  "end": 3324.332,
+  "speaker": "Unknown",
+  "en": "We appreciate all your presence here.",
+  "zh": "我们非常感谢各位的到来。"
+ },
+ {
+  "seg": 543,
+  "start": 3324.372,
+  "end": 3325.073,
+  "speaker": "Unknown",
+  "en": "Thank you so much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 544,
+  "start": 3332.611,
+  "end": 3333.352,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

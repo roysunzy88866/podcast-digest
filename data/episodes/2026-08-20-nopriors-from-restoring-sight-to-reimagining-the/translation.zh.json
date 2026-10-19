@@ -1,0 +1,3226 @@
+[
+ {
+  "seg": 0,
+  "start": 0.051,
+  "end": 3.172,
+  "speaker": "Unknown",
+  "en": "The brain very literally, very clearly, plainly is a computer.",
+  "zh": "大脑从字面上、非常清楚、直白地说，就是一台计算机。"
+ },
+ {
+  "seg": 1,
+  "start": 3.332,
+  "end": 9.393,
+  "speaker": "Unknown",
+  "en": "You can solve computational problems by arranging matter in a certain way and then taking your hands off and pressing go.",
+  "zh": "你可以通过以某种方式排列物质来解决计算问题，然后把手拿开，按下“开始”。"
+ },
+ {
+  "seg": 2,
+  "start": 9.673,
+  "end": 11.453,
+  "speaker": "Unknown",
+  "en": "We talk about being a brain in a vat.",
+  "zh": "我们谈论做缸中之脑。"
+ },
+ {
+  "seg": 3,
+  "start": 11.553,
+  "end": 12.494,
+  "speaker": "Unknown",
+  "en": "That's what the skull is.",
+  "zh": "颅骨就是那个缸。"
+ },
+ {
+  "seg": 4,
+  "start": 13.094,
+  "end": 20.475,
+  "speaker": "Unknown",
+  "en": "The brain is connected to the environment through a small number of wires, the cranial and spinal nerves, these little cables that carry your interaction with the world.",
+  "zh": "大脑通过少量导线与环境相连，即脑神经和脊神经，这些小电缆承载着你与世界的交互。"
+ },
+ {
+  "seg": 5,
+  "start": 20.655,
+  "end": 26.656,
+  "speaker": "Unknown",
+  "en": "If you can get the visual signal, auditory signal, balance, motor, in and out of the brain, that is an end in itself.",
+  "zh": "如果你能让视觉信号、听觉信号、平衡觉、运动信号进出大脑，这本身就是目的。"
+ },
+ {
+  "seg": 6,
+  "start": 26.736,
+  "end": 28.017,
+  "speaker": "Unknown",
+  "en": "That is the central object.",
+  "zh": "那才是核心对象。"
+ },
+ {
+  "seg": 7,
+  "start": 28.197,
+  "end": 29.337,
+  "speaker": "Unknown",
+  "en": "The retinal prosthesis right now",
+  "zh": "视网膜假体现在"
+ },
+ {
+  "seg": 8,
+  "start": 29.837,
+  "end": 32.298,
+  "speaker": "Unknown",
+  "en": "I think is a great proof of concept that we're on the right track.",
+  "zh": "我认为是一个很好的概念验证，证明我们走在正确的轨道上。"
+ },
+ {
+  "seg": 9,
+  "start": 32.579,
+  "end": 38.342,
+  "speaker": "Unknown",
+  "en": "Nobody had previously ever been able to restore a form vision image in the mind's eye of a blind patient in this way.",
+  "zh": "以前从来没有人能够以这种方式在盲人患者的心灵之眼中恢复某种形式的视觉图像。"
+ },
+ {
+  "seg": 10,
+  "start": 38.362,
+  "end": 40.783,
+  "speaker": "Unknown",
+  "en": "We need to add depth of grayscale.",
+  "zh": "我们需要增加灰度深度。"
+ },
+ {
+  "seg": 11,
+  "start": 41.003,
+  "end": 43.965,
+  "speaker": "Unknown",
+  "en": "We think we could see a path to get at least red and green.",
+  "zh": "我们认为可以看到一条实现至少红色和绿色的路径。"
+ },
+ {
+  "seg": 12,
+  "start": 44.105,
+  "end": 48.908,
+  "speaker": "Unknown",
+  "en": "And so there's ways that we can compound upon this path through an engineering process to make a product that's better and better.",
+  "zh": "因此，有很多方法可以通过工程流程在这条路径上不断叠加，做出越来越好的产品。"
+ },
+ {
+  "seg": 13,
+  "start": 56.16,
+  "end": 56.8,
+  "speaker": "Unknown",
+  "en": "Hi, listeners.",
+  "zh": "听众们，大家好。"
+ },
+ {
+  "seg": 14,
+  "start": 57.041,
+  "end": 58.401,
+  "speaker": "Unknown",
+  "en": "Welcome back to No Priors.",
+  "zh": "欢迎回到 No Priors。"
+ },
+ {
+  "seg": 15,
+  "start": 58.682,
+  "end": 63.885,
+  "speaker": "Unknown",
+  "en": "Today, I'm here with Max Hodak, the founder and CEO of Science, formerly of Neuralink.",
+  "zh": "今天和我一起的是 Max Hodak,他是 Science 的创始人兼 CEO,此前曾任职于 Neuralink。"
+ },
+ {
+  "seg": 16,
+  "start": 64.125,
+  "end": 77.293,
+  "speaker": "Unknown",
+  "en": "We talk about Prima, the implant that helps people who have gone blind see again, which just got regulatory approval in Europe, their quest to sustain the human experience and substrate independence for the brain.",
+  "zh": "我们会聊到 Prima,这个帮助失明者重见光明的植入物，它刚刚获得了欧洲的监管批准；还会聊到他们延续人类体验和大脑基质独立性的探索。"
+ },
+ {
+  "seg": 17,
+  "start": 77.513,
+  "end": 83.136,
+  "speaker": "Unknown",
+  "en": "We also talk about alignable representations between AI models and the future of neuroscience.",
+  "zh": "我们还会聊到 AI 模型之间的可对齐表征，以及神经科学的未来。"
+ },
+ {
+  "seg": 18,
+  "start": 83.736,
+  "end": 84.417,
+  "speaker": "Unknown",
+  "en": "Welcome, Max.",
+  "zh": "欢迎，Max。"
+ },
+ {
+  "seg": 19,
+  "start": 85.36,
+  "end": 86.5,
+  "speaker": "Unknown",
+  "en": "Max, thanks so much for doing this.",
+  "zh": "Max,非常感谢你来做这期节目。"
+ },
+ {
+  "seg": 20,
+  "start": 86.6,
+  "end": 87.201,
+  "speaker": "Unknown",
+  "en": "Thanks for having me.",
+  "zh": "谢谢你们的邀请。"
+ },
+ {
+  "seg": 21,
+  "start": 87.481,
+  "end": 95.843,
+  "speaker": "Unknown",
+  "en": "So for anyone who is not familiar with science, can you just describe a little bit about why you start the company, leaving Neuralink, what the mission is?",
+  "zh": "那么对于还不熟悉 Science 的听众，你能简单介绍一下你为什么创立这家公司、离开 Neuralink,以及使命是什么吗？"
+ },
+ {
+  "seg": 22,
+  "start": 96.243,
+  "end": 98.404,
+  "speaker": "Unknown",
+  "en": "Fundamentally, we're a medical device company.",
+  "zh": "从根本上说，我们是一家医疗设备公司。"
+ },
+ {
+  "seg": 23,
+  "start": 99.364,
+  "end": 107.866,
+  "speaker": "Unknown",
+  "en": "But I think if the mission of lowercase s science is to use a differentiated understanding of the universe to improve the human condition, I mean, that's the mission of uppercase s science.",
+  "zh": "但我认为，如果小写 s 的 science(科学)的使命是利用对宇宙的差异化理解来改善人类境况，我的意思是，那就是大写 S 的 Science 的使命。"
+ },
+ {
+  "seg": 24,
+  "start": 107.886,
+  "end": 108.347,
+  "speaker": "Unknown",
+  "en": "That's what we do.",
+  "zh": "这就是我们所做的。"
+ },
+ {
+  "seg": 25,
+  "start": 110.147,
+  "end": 116.27,
+  "speaker": "Unknown",
+  "en": "It's specifically an understanding of how to work with the brain to get big effect sizes that you don't get in medicine often.",
+  "zh": "具体来说，就是理解如何与大脑协作，以获得医学中不常见的大效应量。"
+ },
+ {
+  "seg": 26,
+  "start": 116.89,
+  "end": 118.851,
+  "speaker": "Unknown",
+  "en": "Our main product is a retinal prosthesis.",
+  "zh": "我们的主要产品是视网膜假体。"
+ },
+ {
+  "seg": 27,
+  "start": 118.871,
+  "end": 120.931,
+  "speaker": "Unknown",
+  "en": "You can think of it like a cochlear implant for the eye.",
+  "zh": "你可以把它想象成眼睛的人工耳蜗。"
+ },
+ {
+  "seg": 28,
+  "start": 122.112,
+  "end": 125.133,
+  "speaker": "Unknown",
+  "en": "Cochlear implants are some of the biggest impacts in all of medicine.",
+  "zh": "人工耳蜗是整个医学领域影响最大的成果之一。"
+ },
+ {
+  "seg": 29,
+  "start": 125.153,
+  "end": 131.816,
+  "speaker": "Unknown",
+  "en": "I mean, if you've ever seen a video of a newborn turning it on for the first time, it's striking.",
+  "zh": "我的意思是，如果你看过新生儿第一次开机时的视频，那是非常震撼的。"
+ },
+ {
+  "seg": 30,
+  "start": 132.376,
+  "end": 136.478,
+  "speaker": "Unknown",
+  "en": "And our goal is to build things like that, including our primal retinal prosthesis.",
+  "zh": "我们的目标就是打造这样的产品，包括我们的 prima 视网膜假体。"
+ },
+ {
+  "seg": 31,
+  "start": 136.9,
+  "end": 141.422,
+  "speaker": "Unknown",
+  "en": "And for people who are not familiar with that, it's a chip that is inserted with glasses.",
+  "zh": "对于不熟悉它的人，这是一块随眼镜一起植入的芯片。"
+ },
+ {
+  "seg": 32,
+  "start": 141.442,
+  "end": 148.606,
+  "speaker": "Unknown",
+  "en": "So it's a tiny chip that's implanted under the retina in the back of the eye for patients that have gone blind due to loss of the light-sensitive cells in the eye.",
+  "zh": "它是一块植入视网膜下方、位于眼球后部的微小芯片，适用于因眼球中感光细胞丧失而失明的患者。"
+ },
+ {
+  "seg": 33,
+  "start": 148.626,
+  "end": 156.95,
+  "speaker": "Unknown",
+  "en": "So specifically, this is diseases like macular degeneration, which our clinical trial was done, and we're about to do studies in retinitis pigmentosa and Stargardt and a couple other diseases.",
+  "zh": "具体来说，就是像黄斑变性这样的疾病，我们的临床试验就是针对它做的，我们即将开展针对视网膜色素变性、Stargardt 病和其他几种疾病的研究。"
+ },
+ {
+  "seg": 34,
+  "start": 157.67,
+  "end": 161.671,
+  "speaker": "Unknown",
+  "en": "It's a chip that sits under the retina and then converts it.",
+  "zh": "它是一块位于视网膜下方的芯片，然后进行转换。"
+ },
+ {
+  "seg": 35,
+  "start": 161.731,
+  "end": 173.055,
+  "speaker": "Unknown",
+  "en": "The patient wears glasses that have a laser projector that projects an image onto the implant that then stimulates the retina to bypass the dead rods and cones and stimulate the retina directly to get a visual signal back into the brain.",
+  "zh": "患者佩戴的眼镜上有一个激光投影仪，将图像投影到植入物上，植入物再刺激视网膜，绕过死亡的视杆细胞和视锥细胞，直接刺激视网膜，把视觉信号重新送回大脑。"
+ },
+ {
+  "seg": 36,
+  "start": 173.687,
+  "end": 183.681,
+  "speaker": "Unknown",
+  "en": "How did you go from, we should have like a nick invasively in the brain to this particular form factor as the first premise?",
+  "zh": "你是如何从“我们应该在大脑中非侵入式地放置一个 nick”走到这个特定形态作为首要前提的？"
+ },
+ {
+  "seg": 37,
+  "start": 184.122,
+  "end": 186.345,
+  "speaker": "Unknown",
+  "en": "So when we started the company, we had a couple ideas.",
+  "zh": "我们创立公司的时候，有几个想法。"
+ },
+ {
+  "seg": 38,
+  "start": 189.405,
+  "end": 204.15,
+  "speaker": "Unknown",
+  "en": "One of the ideas was the bio-hybrid neural interface direction, where instead of placing metal wires into the brain or genetically modifying the brain, what we do is we engraft in living neurons that grow in and form new biological connections.",
+  "zh": "其中一个想法是生物混合神经接口方向，不是把金属导线放入大脑或对大脑进行基因改造，而是移植活体神经元，让它们长入并形成新的生物连接。"
+ },
+ {
+  "seg": 39,
+  "start": 205.153,
+  "end": 206.414,
+  "speaker": "Unknown",
+  "en": "That's a big research project.",
+  "zh": "那是一个大型研究项目。"
+ },
+ {
+  "seg": 40,
+  "start": 206.554,
+  "end": 211.598,
+  "speaker": "Unknown",
+  "en": "It's very exciting research, but also needed to be paired with another near-term business.",
+  "zh": "这是非常令人兴奋的研究，但也需要与另一个近期业务相配套。"
+ },
+ {
+  "seg": 41,
+  "start": 211.618,
+  "end": 213.639,
+  "speaker": "Unknown",
+  "en": "And we asked ourselves, like, what was the most valuable thing we could do?",
+  "zh": "我们问自己，我们能做的最有价值的事情是什么？"
+ },
+ {
+  "seg": 42,
+  "start": 213.66,
+  "end": 220.525,
+  "speaker": "Unknown",
+  "en": "And we thought that we could restore vision to the blind with the resources available to us and where the state of the field was in early 2021.",
+  "zh": "我们认为，凭借我们可获得的资源以及 2021 年初该领域的发展状况，我们可以让盲人恢复视力。"
+ },
+ {
+  "seg": 43,
+  "start": 221.465,
+  "end": 222.806,
+  "speaker": "Unknown",
+  "en": "And so if you want to do that,",
+  "zh": "所以如果你想做到这一点，"
+ },
+ {
+  "seg": 44,
+  "start": 223.587,
+  "end": 226.15,
+  "speaker": "Unknown",
+  "en": "We have to start from this understanding of like, how does the brain get vision?",
+  "zh": "我们必须从这样一个理解出发：大脑是如何获得视觉的？"
+ },
+ {
+  "seg": 45,
+  "start": 226.19,
+  "end": 227.271,
+  "speaker": "Unknown",
+  "en": "What is vision in the brain?",
+  "zh": "大脑中的视觉是什么？"
+ },
+ {
+  "seg": 46,
+  "start": 227.871,
+  "end": 232.977,
+  "speaker": "Unknown",
+  "en": "And you could look at the retina, which is obviously how vision gets into the brain, the first place it's created.",
+  "zh": "你可以看视网膜，它显然是视觉进入大脑的途径，是视觉最初被创造的地方。"
+ },
+ {
+  "seg": 47,
+  "start": 232.997,
+  "end": 242.406,
+  "speaker": "Unknown",
+  "en": "The first stop of the optic nerve into the brain is a structure called the lateral geniculate nucleus and the thalamus, so that you could think, oh, we'll stimulate the LGN.",
+  "zh": "视神经进入大脑的第一站是一个叫做外侧膝状体核的结构，位于丘脑中，所以你可能会想，哦，我们可以刺激 LGN。"
+ },
+ {
+  "seg": 48,
+  "start": 243.367,
+  "end": 245.388,
+  "speaker": "Unknown",
+  "en": "And then the connection from there is visual cortex.",
+  "zh": "然后从那里连接的是视觉皮层。"
+ },
+ {
+  "seg": 49,
+  "start": 245.928,
+  "end": 248.709,
+  "speaker": "Unknown",
+  "en": "It's half a billion cells up at the back of the brain.",
+  "zh": "它在大脑后部有五亿个细胞。"
+ },
+ {
+  "seg": 50,
+  "start": 248.849,
+  "end": 255.231,
+  "speaker": "Unknown",
+  "en": "And so if you want to restore vision, you can think, I can go into the retina, I can go in through the thalamus, or I can go in through V1.",
+  "zh": "所以如果你想恢复视觉，你可以想，我可以进入视网膜，我可以穿过丘脑进入，或者我可以进入 V1。"
+ },
+ {
+  "seg": 51,
+  "start": 255.751,
+  "end": 262.433,
+  "speaker": "Unknown",
+  "en": "There's a bunch of scientific, technical reasons that lead you to think if you have an optic nerve, you want to be in the retina.",
+  "zh": "有一堆科学上、技术上的理由让你认为，如果你有视神经，你就应该待在视网膜。"
+ },
+ {
+  "seg": 52,
+  "start": 263.033,
+  "end": 265.416,
+  "speaker": "Unknown",
+  "en": "And from there, you have a choice of do you stimulate?",
+  "zh": "从那里开始，你面临一个选择：你要不要刺激？"
+ },
+ {
+  "seg": 53,
+  "start": 265.456,
+  "end": 268.76,
+  "speaker": "Unknown",
+  "en": "There's two types of cells and there's a couple of different ways you could stimulate them.",
+  "zh": "有两种类型的细胞，而且有几种不同的方式可以刺激它们。"
+ },
+ {
+  "seg": 54,
+  "start": 269.341,
+  "end": 273.626,
+  "speaker": "Unknown",
+  "en": "And so we explored kind of all variants of that early on.",
+  "zh": "所以我们早期探索了几乎所有这些变体。"
+ },
+ {
+  "seg": 55,
+  "start": 274.327,
+  "end": 277.972,
+  "speaker": "Unknown",
+  "en": "We developed an in-house gene therapy that affected the retin in one direction.",
+  "zh": "我们开发了一个内部的基因疗法，它在一个方向上影响 retina。"
+ },
+ {
+  "seg": 56,
+  "start": 278.332,
+  "end": 280.154,
+  "speaker": "Unknown",
+  "en": "We did a survey of electrical stimulators.",
+  "zh": "我们调研了电刺激器。"
+ },
+ {
+  "seg": 57,
+  "start": 280.174,
+  "end": 281.175,
+  "speaker": "Unknown",
+  "en": "We looked at ultrasound.",
+  "zh": "我们研究了超声波。"
+ },
+ {
+  "seg": 58,
+  "start": 281.895,
+  "end": 294.386,
+  "speaker": "Unknown",
+  "en": "And what we ended up doing is we developed indigenously a state-of-the-art gene therapy, which is probably going to humans next year, as well as we found the state-of-the-art out there in the world of people electrically stimulating the retina.",
+  "zh": "而我们最终做的是，我们自主开发了一种最先进的基因疗法，它大概明年就会进入人体试验，同时我们也找到了世界上在电刺激视网膜领域最先进的技术。"
+ },
+ {
+  "seg": 59,
+  "start": 294.406,
+  "end": 299.47,
+  "speaker": "Unknown",
+  "en": "And there was a company in France called Pixium that back in late 2022",
+  "zh": "当时在法国有一家叫 Pixium 的公司，在 2022 年底"
+ },
+ {
+  "seg": 60,
+  "start": 301.792,
+  "end": 303.073,
+  "speaker": "Unknown",
+  "en": "had by far the state of the artwork.",
+  "zh": "拥有迄今为止最先进的技术。"
+ },
+ {
+  "seg": 61,
+  "start": 303.153,
+  "end": 309.039,
+  "speaker": "Unknown",
+  "en": "It was originally developed by an inventor at Stanford and then licensed to this small French company, and they were in the middle of clinical trials.",
+  "zh": "它最初由斯坦福的一位发明家开发，然后授权给了这家法国小公司，当时他们正处于临床试验的中期。"
+ },
+ {
+  "seg": 62,
+  "start": 310.04,
+  "end": 319.889,
+  "speaker": "Unknown",
+  "en": "And we got to know them over the course of a couple of years, and then we're in a position to acquire them when we saw something that I think kind of nobody else really saw at the time.",
+  "zh": "我们在几年的过程中逐渐熟悉了他们，然后当我们看到了一件我认为当时几乎没人真正看到的东西时，我们处于能够收购他们的位置。"
+ },
+ {
+  "seg": 63,
+  "start": 320.57,
+  "end": 324.033,
+  "speaker": "Unknown",
+  "en": "And that, I mean, that deal has turned out to be great.",
+  "zh": "而那笔交易，我是说，事实证明非常成功。"
+ },
+ {
+  "seg": 64,
+  "start": 324.422,
+  "end": 329.106,
+  "speaker": "Unknown",
+  "en": "Can you talk about the recent CE designation regulatory approval you got?",
+  "zh": "你能谈谈你们最近获得的 CE 认定监管批准吗？"
+ },
+ {
+  "seg": 65,
+  "start": 329.266,
+  "end": 333.99,
+  "speaker": "Unknown",
+  "en": "Yeah, so it took us about two years for post-acquisition to get it to the place where this was possible.",
+  "zh": "是的，收购之后我们花了大约两年时间才把它推进到可以实现这一步的程度。"
+ },
+ {
+  "seg": 66,
+  "start": 334.03,
+  "end": 339.294,
+  "speaker": "Unknown",
+  "en": "But we just, in July, got marketing approval in Europe for Prima to start commercially selling it there.",
+  "zh": "但我们刚刚在 7 月获得了欧洲的上市批准，Prima 可以开始在那里进行商业销售。"
+ },
+ {
+  "seg": 67,
+  "start": 339.314,
+  "end": 341.195,
+  "speaker": "Unknown",
+  "en": "And so that's a major milestone.",
+  "zh": "所以这是一个重大里程碑。"
+ },
+ {
+  "seg": 68,
+  "start": 341.215,
+  "end": 342.977,
+  "speaker": "Unknown",
+  "en": "That means it's really commercially available.",
+  "zh": "这意味着它真正可以商业化了。"
+ },
+ {
+  "seg": 69,
+  "start": 342.997,
+  "end": 344.638,
+  "speaker": "Unknown",
+  "en": "The first sales will happen in the coming weeks.",
+  "zh": "首批销售将在接下来的几周内发生。"
+ },
+ {
+  "seg": 70,
+  "start": 345.134,
+  "end": 345.735,
+  "speaker": "Unknown",
+  "en": "That's amazing.",
+  "zh": "那太了不起了。"
+ },
+ {
+  "seg": 71,
+  "start": 345.755,
+  "end": 353.144,
+  "speaker": "Unknown",
+  "en": "I think most people think of anything in the BCI field as, you know, a moonshot project that may or may not pan out 10 years from now.",
+  "zh": "我想大多数人认为 BCI 领域的任何事情都是，你知道，一个登月项目，十年后可能成也可能不成。"
+ },
+ {
+  "seg": 72,
+  "start": 353.324,
+  "end": 355.287,
+  "speaker": "Unknown",
+  "en": "Well, I mean, people forget that the moonshot worked.",
+  "zh": "嗯，我是说，人们忘了登月计划是成功的。"
+ },
+ {
+  "seg": 73,
+  "start": 355.567,
+  "end": 358.131,
+  "speaker": "Unknown",
+  "en": "Like we went, we left like boot prints on the moon.",
+  "zh": "就像我们，我们在月球上留下了脚印。"
+ },
+ {
+  "seg": 74,
+  "start": 358.771,
+  "end": 360.634,
+  "speaker": "Unknown",
+  "en": "And so this comparison, I mean, I think that there's,",
+  "zh": "所以这个类比，我是说，我认为，"
+ },
+ {
+  "seg": 75,
+  "start": 361.835,
+  "end": 369.059,
+  "speaker": "Unknown",
+  "en": "It has gotten used in Silicon Valley to mean these things that have extremely long odds and are unlikely to work, and therefore, we can vaporize a bunch of investor money just fine.",
+  "zh": "它在硅谷已经被用来指那些胜率极低、不太可能成功的事情，因此，我们可以理所当然地烧掉一大堆投资人的钱。"
+ },
+ {
+  "seg": 76,
+  "start": 369.239,
+  "end": 372.521,
+  "speaker": "Unknown",
+  "en": "It's like, when we went to the moon, we did it.",
+  "zh": "但事实是，当我们去月球的时候，我们做到了。"
+ },
+ {
+  "seg": 77,
+  "start": 372.741,
+  "end": 376.423,
+  "speaker": "Unknown",
+  "en": "Historically, the success rate of moonshots is higher than I think people give them credit for.",
+  "zh": "从历史上看，登月式项目的成功率比人们认为的要高。"
+ },
+ {
+  "seg": 78,
+  "start": 376.443,
+  "end": 380.925,
+  "speaker": "Unknown",
+  "en": "One of the most important things is having a real business here, and this is the start of that.",
+  "zh": "其中最重要的事情之一就是在这里拥有一个真正的生意，而这正是它的开始。"
+ },
+ {
+  "seg": 79,
+  "start": 381.385,
+  "end": 397.248,
+  "speaker": "Unknown",
+  "en": "Can I ask how you when you were exploring both different signaling pathways and form factors and just conditions to go attack or how you thought about scope of timeline and engineering cost and risk?",
+  "zh": "我能问一下，当你们在探索不同的信号通路和形态因子以及攻击的条件时，你们是如何考虑时间线、工程成本和风险的范围的？"
+ },
+ {
+  "seg": 80,
+  "start": 397.348,
+  "end": 403.389,
+  "speaker": "Unknown",
+  "en": "Were you just looking for like the like big enough to be useful and feasible in some period of time?",
+  "zh": "你们是不是只是在寻找那种，比如，足够大到有用、并且在某段时间内可行的东西？"
+ },
+ {
+  "seg": 81,
+  "start": 403.449,
+  "end": 406.05,
+  "speaker": "Unknown",
+  "en": "Or how did you think about funding the project and how long it could take?",
+  "zh": "还是如何考虑项目的资金投入以及它可能需要多长时间？"
+ },
+ {
+  "seg": 82,
+  "start": 406.748,
+  "end": 409.45,
+  "speaker": "Unknown",
+  "en": "So there's three elements to our pipeline.",
+  "zh": "我们的管线有三个要素。"
+ },
+ {
+  "seg": 83,
+  "start": 409.711,
+  "end": 419.939,
+  "speaker": "Unknown",
+  "en": "The first is our work in vision, second is our bio-hybrid neural interfaces, and the third is our work in a different area of medicine, perfusion, a program called VESSEL.",
+  "zh": "第一个是我们在视觉方面的工作，第二个是我们的生物混合神经接口，第三个是我们在另一个医学领域的工作，灌注，一个叫 VESSEL 的项目。"
+ },
+ {
+  "seg": 84,
+  "start": 420.599,
+  "end": 428.946,
+  "speaker": "Unknown",
+  "en": "These three things together form kind of the minimum set of things that I think if they're successful in the time scale of 10 to 15 years could",
+  "zh": "这三件事合在一起构成了我认为的最小集合，如果它们在 10 到 15 年的时间尺度上成功，可以"
+ },
+ {
+  "seg": 85,
+  "start": 429.967,
+  "end": 433.63,
+  "speaker": "Unknown",
+  "en": "Really drive, I think, a significant revolution in medicine broadly.",
+  "zh": "真正推动，我认为，整个医学领域的重大革命。"
+ },
+ {
+  "seg": 86,
+  "start": 434.21,
+  "end": 444.078,
+  "speaker": "Unknown",
+  "en": "People have spent huge amounts of time and money looking for drugs to restore vision or to restore hearing or to stop Parkinson's or to help paralyzed people move again.",
+  "zh": "人们花了大量的时间和金钱去寻找能恢复视觉或恢复听力或阻止帕金森病或帮助瘫痪者重新行动的药物。"
+ },
+ {
+  "seg": 87,
+  "start": 447.161,
+  "end": 450.722,
+  "speaker": "Unknown",
+  "en": "The biology and the molecular detail required to make a drug has been very difficult.",
+  "zh": "制造药物所需的生物学和分子层面的细节一直非常困难。"
+ },
+ {
+  "seg": 88,
+  "start": 450.803,
+  "end": 453.444,
+  "speaker": "Unknown",
+  "en": "Humanity just isn't that good at that, to be totally honest.",
+  "zh": "说实话，人类在这方面并不那么擅长。"
+ },
+ {
+  "seg": 89,
+  "start": 454.244,
+  "end": 459.888,
+  "speaker": "Unknown",
+  "en": "On the other hand, the brain is a computer, and when you deal with the brain as a computer, you get these things to work.",
+  "zh": "另一方面，大脑是一台计算机，而当你把大脑当作计算机来处理时，你就能让这些东西工作起来。"
+ },
+ {
+  "seg": 90,
+  "start": 460.348,
+  "end": 467.352,
+  "speaker": "Unknown",
+  "en": "It's just, again, you don't see demonstration, you don't see things in medicine like a cochlear implant being turned on or a deep brain stimulator being turned on.",
+  "zh": "只不过，再说一次，你看不到演示，你在医学中看不到像人工耳蜗被打开或者深部脑刺激器被打开这样的事情。"
+ },
+ {
+  "seg": 91,
+  "start": 467.572,
+  "end": 470.994,
+  "speaker": "Unknown",
+  "en": "I mean, you can implant a quadriplegic patient in motor cortex.",
+  "zh": "我是说，你可以在一位四肢瘫痪患者的运动皮层植入电极。"
+ },
+ {
+  "seg": 92,
+  "start": 472.355,
+  "end": 474.016,
+  "speaker": "Unknown",
+  "en": "And have them playing video games in like an hour.",
+  "zh": "然后让他们在一小时内就开始玩视频游戏。"
+ },
+ {
+  "seg": 93,
+  "start": 474.696,
+  "end": 477.838,
+  "speaker": "Unknown",
+  "en": "You just don't really see things like this in most drugs.",
+  "zh": "你在大多数药物中真的看不到这样的事情。"
+ },
+ {
+  "seg": 94,
+  "start": 479.239,
+  "end": 484.523,
+  "speaker": "Unknown",
+  "en": "And so there's this- In small molecule, random walk, sifting in nature.",
+  "zh": "所以有这种—— 在小分子里，随机游走，在自然界里筛选。"
+ },
+ {
+  "seg": 95,
+  "start": 484.723,
+  "end": 485.003,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 96,
+  "start": 485.083,
+  "end": 487.825,
+  "speaker": "Unknown",
+  "en": "I mean, small molecules especially are super hard.",
+  "zh": "我是说，小分子尤其难。"
+ },
+ {
+  "seg": 97,
+  "start": 487.945,
+  "end": 490.707,
+  "speaker": "Unknown",
+  "en": "I mean, you can do some super highly engineered-",
+  "zh": "我是说，你可以做一些高度工程化的——"
+ },
+ {
+  "seg": 98,
+  "start": 490.987,
+  "end": 496.033,
+  "speaker": "Unknown",
+  "en": "It's a patient-specific CAR-T and instead you get like a giant immune overreaction.",
+  "zh": "那是患者特异性的 CAR-T，结果你却得到一场巨大的免疫过激反应。"
+ },
+ {
+  "seg": 99,
+  "start": 496.374,
+  "end": 500.318,
+  "speaker": "Unknown",
+  "en": "It's like if I put electrodes in M1, you will probably be using a computer in an hour.",
+  "zh": "这就像如果我把电极放进 M1，你可能一小时内就在用电脑了。"
+ },
+ {
+  "seg": 100,
+  "start": 501.82,
+  "end": 505.164,
+  "speaker": "Unknown",
+  "en": "And so it's just it's easier, it's more amenable to biology in many ways.",
+  "zh": "所以它就是更容易，在很多方面更符合生物学的规律。"
+ },
+ {
+  "seg": 101,
+  "start": 505.224,
+  "end": 508.007,
+  "speaker": "Unknown",
+  "en": "You can do drug discovery for a decade, run a clinical trial.",
+  "zh": "你可以做十年的药物研发，然后跑一个临床试验。"
+ },
+ {
+  "seg": 102,
+  "start": 508.788,
+  "end": 509.95,
+  "speaker": "Unknown",
+  "en": "You're going to turn over a card.",
+  "zh": "你要翻开一张牌。"
+ },
+ {
+  "seg": 103,
+  "start": 510.05,
+  "end": 510.991,
+  "speaker": "Unknown",
+  "en": "The answer might be no.",
+  "zh": "答案可能是否定的。"
+ },
+ {
+  "seg": 104,
+  "start": 511.271,
+  "end": 513.394,
+  "speaker": "Unknown",
+  "en": "And then everybody goes home.",
+  "zh": "然后所有人就都回家了。"
+ },
+ {
+  "seg": 105,
+  "start": 513.895,
+  "end": 517.84,
+  "speaker": "Unknown",
+  "en": "Whereas here, we have a clear sense of how to make the thing better.",
+  "zh": "而在这里，我们对如何把东西做得更好有清晰的认识。"
+ },
+ {
+  "seg": 106,
+  "start": 519.041,
+  "end": 523.447,
+  "speaker": "Unknown",
+  "en": "The retinal prosthesis right now I think is a great proof of concept that we're on the right track.",
+  "zh": "视网膜假体现在我认为是一个很好的概念验证，证明我们走在正确的轨道上。"
+ },
+ {
+  "seg": 107,
+  "start": 524.218,
+  "end": 530.279,
+  "speaker": "Unknown",
+  "en": "Nobody had previously ever been able to restore a form vision image in the mind's eye of a blind patient in this way.",
+  "zh": "以前从来没有人能够以这种方式在盲人的心目中恢复一种视觉图像。"
+ },
+ {
+  "seg": 108,
+  "start": 530.859,
+  "end": 533.22,
+  "speaker": "Unknown",
+  "en": "But at the same time, it's a small field of view.",
+  "zh": "但与此同时，它的视野很小。"
+ },
+ {
+  "seg": 109,
+  "start": 533.24,
+  "end": 534.38,
+  "speaker": "Unknown",
+  "en": "It's like looking through a straw.",
+  "zh": "就像透过一根吸管看东西。"
+ },
+ {
+  "seg": 110,
+  "start": 534.72,
+  "end": 535.76,
+  "speaker": "Unknown",
+  "en": "It's only black and white.",
+  "zh": "而且只有黑白的。"
+ },
+ {
+  "seg": 111,
+  "start": 537.141,
+  "end": 539.421,
+  "speaker": "Unknown",
+  "en": "We need to add depth of grayscale.",
+  "zh": "我们需要增加灰度的深度。"
+ },
+ {
+  "seg": 112,
+  "start": 539.641,
+  "end": 542.622,
+  "speaker": "Unknown",
+  "en": "We see a path to get at least red and green.",
+  "zh": "我们看到了一条能实现至少红色和绿色的路径。"
+ },
+ {
+  "seg": 113,
+  "start": 542.702,
+  "end": 543.702,
+  "speaker": "Unknown",
+  "en": "Blue is a little bit trickier.",
+  "zh": "蓝色则稍微棘手一些。"
+ },
+ {
+  "seg": 114,
+  "start": 544.102,
+  "end": 548.923,
+  "speaker": "Unknown",
+  "en": "And so there's ways that we can compound upon this path through an engineering process to make a product that's better and better.",
+  "zh": "所以我们可以通过一个工程过程在这条路径上不断叠加，做出一个越来越好的产品。"
+ },
+ {
+  "seg": 115,
+  "start": 549.4,
+  "end": 555.585,
+  "speaker": "Unknown",
+  "en": "Can you talk a little bit about what you saw in the clinical trial in terms of variation between patients or what the ceiling was so far?",
+  "zh": "你能谈一谈在临床试验中你看到的患者之间的差异，或者到目前为止的上限是什么吗？"
+ },
+ {
+  "seg": 116,
+  "start": 555.806,
+  "end": 561.731,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, in the clinical trial, I mean, the main thing was just the existence proof of like that success was a possible outcome, right?",
+  "zh": "是的，我是说，在临床试验中，我的意思是，最主要的事情就是存在性证明，就像成功是一个可能的结果，对吧？"
+ },
+ {
+  "seg": 117,
+  "start": 561.771,
+  "end": 567.556,
+  "speaker": "Unknown",
+  "en": "Like that we had patients filling in Sudoku puzzles or crossword puzzles.",
+  "zh": "就像我们有患者在填数独题目或者填字游戏。"
+ },
+ {
+  "seg": 118,
+  "start": 568.757,
+  "end": 570.598,
+  "speaker": "Unknown",
+  "en": "There were patients that were reading books.",
+  "zh": "有患者在读书。"
+ },
+ {
+  "seg": 119,
+  "start": 570.718,
+  "end": 576.202,
+  "speaker": "Unknown",
+  "en": "And so I saw some of these patients, some of these videos, met with one of the patients, talked to the surgeons.",
+  "zh": "所以我见到了一些这样的患者，看了一些这些视频，和其中一位患者会面，和外科医生交谈过。"
+ },
+ {
+  "seg": 120,
+  "start": 577.483,
+  "end": 579.745,
+  "speaker": "Unknown",
+  "en": "I mean, this is one of those things that seems too good to be true.",
+  "zh": "我的意思是，这是那种看起来好得不真实的事情之一。"
+ },
+ {
+  "seg": 121,
+  "start": 579.765,
+  "end": 583.187,
+  "speaker": "Unknown",
+  "en": "How do clinicians react to all of this?",
+  "zh": "临床医生们对这一切是如何反应的？"
+ },
+ {
+  "seg": 122,
+  "start": 584.188,
+  "end": 587.951,
+  "speaker": "Unknown",
+  "en": "Would the people that you work with say at the beginning, like, yes, Max is right.",
+  "zh": "和你共事的人一开始会不会说，是的，Max 是对的。"
+ },
+ {
+  "seg": 123,
+  "start": 587.991,
+  "end": 588.811,
+  "speaker": "Unknown",
+  "en": "The brain is a computer.",
+  "zh": "大脑是一台计算机。"
+ },
+ {
+  "seg": 124,
+  "start": 588.831,
+  "end": 589.892,
+  "speaker": "Unknown",
+  "en": "This should definitely work.",
+  "zh": "这肯定能行。"
+ },
+ {
+  "seg": 125,
+  "start": 589.932,
+  "end": 595.396,
+  "speaker": "Unknown",
+  "en": "It should work at a higher likelihood and better rate of progression than our random walk in biological understanding.",
+  "zh": "它应该以更高的可能性和更好的进展速度取得成效，胜过我们在生物学理解上的随机游走。"
+ },
+ {
+  "seg": 126,
+  "start": 595.657,
+  "end": 598.923,
+  "speaker": "Unknown",
+  "en": "Well, if you want to make people angry, you should tell the internet that the brain is a computer.",
+  "zh": "嗯，如果你想惹人生气，你应该告诉互联网大脑是一台计算机。"
+ },
+ {
+  "seg": 127,
+  "start": 598.943,
+  "end": 600.866,
+  "speaker": "Unknown",
+  "en": "OK. We're going to start by doing that.",
+  "zh": "好。我们就先从这么做起。"
+ },
+ {
+  "seg": 128,
+  "start": 600.946,
+  "end": 601.667,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 129,
+  "start": 601.687,
+  "end": 602.729,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是。"
+ },
+ {
+  "seg": 130,
+  "start": 602.809,
+  "end": 607.157,
+  "speaker": "Unknown",
+  "en": "That kind of starts you off in a defensive place.",
+  "zh": "那会让你一开始就处于一种防御的姿态。"
+ },
+ {
+  "seg": 131,
+  "start": 607.337,
+  "end": 608.239,
+  "speaker": "Unknown",
+  "en": "Why don't people like that?",
+  "zh": "为什么人们不喜欢这种说法？"
+ },
+ {
+  "seg": 132,
+  "start": 609.255,
+  "end": 611.896,
+  "speaker": "Unknown",
+  "en": "I don't know, this is one of those things, this just feels like bike-shedding to me.",
+  "zh": "我不知道，这是那种事之一，这对我来说感觉就像自行车棚效应（bike-shedding）。"
+ },
+ {
+  "seg": 133,
+  "start": 611.916,
+  "end": 618.998,
+  "speaker": "Unknown",
+  "en": "I mean, to me, I don't mean that metaphorically, like the brain very literally, very clearly, plainly is a computer in my understanding of the world.",
+  "zh": "我是说，对我来说，我不是打比方，在我看来，大脑非常字面地、非常清楚地、明明白白地就是一台计算机。"
+ },
+ {
+  "seg": 134,
+  "start": 619.378,
+  "end": 621.978,
+  "speaker": "Unknown",
+  "en": "I also view the universe generally as a computer.",
+  "zh": "我也把整个宇宙大体上看作一台计算机。"
+ },
+ {
+  "seg": 135,
+  "start": 622.599,
+  "end": 630.741,
+  "speaker": "Unknown",
+  "en": "Like we can solve, like you can solve computational problems by arranging matter in a certain way and then like taking your hands off and letting and pressing go.",
+  "zh": "就像我们可以，就像你可以通过把物质以某种方式排列来求解计算问题，然后就像撒手不管，按下开始。"
+ },
+ {
+  "seg": 136,
+  "start": 631.361,
+  "end": 637.503,
+  "speaker": "Unknown",
+  "en": "And so the fact that like that unfolds in time to solve some computational problem, I think of that as a computer, the brain's the same thing.",
+  "zh": "所以它随时间展开去求解某个计算问题这个事实，我把它视为一台计算机，大脑也是同样的东西。"
+ },
+ {
+  "seg": 137,
+  "start": 639.203,
+  "end": 642.766,
+  "speaker": "Unknown",
+  "en": "And that I don't think there's necessarily- That's a broader definition of computer than I had before.",
+  "zh": "而且我不认为 necessarily——这比我之前对计算机的定义要宽泛。"
+ },
+ {
+  "seg": 138,
+  "start": 642.807,
+  "end": 643.547,
+  "speaker": "Unknown",
+  "en": "A deeper point there.",
+  "zh": "那里有一个更深层的观点。"
+ },
+ {
+  "seg": 139,
+  "start": 643.727,
+  "end": 644.068,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是。"
+ },
+ {
+  "seg": 140,
+  "start": 644.488,
+  "end": 644.628,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是。"
+ },
+ {
+  "seg": 141,
+  "start": 644.668,
+  "end": 646.71,
+  "speaker": "Unknown",
+  "en": "I mean, there's nothing special about transistors.",
+  "zh": "我的意思是，晶体管并没有什么特别的。"
+ },
+ {
+  "seg": 142,
+  "start": 646.75,
+  "end": 651.254,
+  "speaker": "Unknown",
+  "en": "I mean, we understand computers in this idealized way as like a Turing machine.",
+  "zh": "我的意思是，我们以一种理想化的方式理解计算机，就像一台图灵机。"
+ },
+ {
+  "seg": 143,
+  "start": 651.274,
+  "end": 652.676,
+  "speaker": "Unknown",
+  "en": "That's an abstract computer.",
+  "zh": "那是一台抽象的计算机。"
+ },
+ {
+  "seg": 144,
+  "start": 653.476,
+  "end": 660.703,
+  "speaker": "Unknown",
+  "en": "It's just you're going from state to state in ways that are subject to laws that mean that the transformations are interesting and meaningful.",
+  "zh": "只不过你是在以一种受定律约束的方式从一个状态转移到另一个状态，这些定律使得这些变换是有趣且有意义的。"
+ },
+ {
+  "seg": 145,
+  "start": 660.963,
+  "end": 663.466,
+  "speaker": "Unknown",
+  "en": "But no, I think this was fairly contrarian.",
+  "zh": "但不，我认为这是相当反主流的。"
+ },
+ {
+  "seg": 146,
+  "start": 666.688,
+  "end": 677.133,
+  "speaker": "Unknown",
+  "en": "Both in the sense that BCI has this broader interpretation than motor decoding, as well as like, is a retinal prosthesis a BCI?",
+  "zh": "一方面是 BCI 有比运动解码更宽泛的解释，另一方面是，视网膜假体算不算 BCI？"
+ },
+ {
+  "seg": 147,
+  "start": 677.593,
+  "end": 679.754,
+  "speaker": "Unknown",
+  "en": "That's also kind of this minor definitional question.",
+  "zh": "这也算是一个次要的定义问题。"
+ },
+ {
+  "seg": 148,
+  "start": 679.774,
+  "end": 688.418,
+  "speaker": "Unknown",
+  "en": "But if you think that it is, then that kind of opens up this interpretation of a lot of areas of medicine that could be accessible to it that other people weren't really thinking about.",
+  "zh": "但如果你认为它是，那就在某种程度上开启了这样一种解读：许多医学领域都可以被它触及，而其他人并没有真正在思考这些。"
+ },
+ {
+  "seg": 149,
+  "start": 688.958,
+  "end": 693.482,
+  "speaker": "Unknown",
+  "en": "I mean, clearly there was interest in looking into this.",
+  "zh": "我的意思是，显然当时是有兴趣深入研究这个的。"
+ },
+ {
+  "seg": 150,
+  "start": 693.622,
+  "end": 695.003,
+  "speaker": "Unknown",
+  "en": "It wasn't that contrarian.",
+  "zh": "这并不算特别反主流。"
+ },
+ {
+  "seg": 151,
+  "start": 695.383,
+  "end": 696.144,
+  "speaker": "Unknown",
+  "en": "It's a different approach.",
+  "zh": "这是一种不同的方法。"
+ },
+ {
+  "seg": 152,
+  "start": 696.164,
+  "end": 699.326,
+  "speaker": "Unknown",
+  "en": "And I think we come from a different culture than a lot of the conventional biotech industry.",
+  "zh": "而且我认为,我们的文化背景和很多传统生物科技行业不一样。"
+ },
+ {
+  "seg": 153,
+  "start": 699.887,
+  "end": 704.571,
+  "speaker": "Unknown",
+  "en": "There's always been kind of an East Coast, West Coast divide in biotech, especially.",
+  "zh": "生物科技领域一直存在某种东海岸与西海岸的分野,尤其如此。"
+ },
+ {
+  "seg": 154,
+  "start": 706.392,
+  "end": 709.573,
+  "speaker": "Unknown",
+  "en": "And we are more of a tech company than a conventional biotech company.",
+  "zh": "我们更像一家科技公司,而不是一家传统生物科技公司。"
+ },
+ {
+  "seg": 155,
+  "start": 710.314,
+  "end": 718.257,
+  "speaker": "Unknown",
+  "en": "And our device view of a lot of historical biology problems makes us even more of a tech company by biotech standards.",
+  "zh": "我们对许多历史遗留生物学问题的「设备视角」,按生物科技的标准让我们更像一家科技公司。"
+ },
+ {
+  "seg": 156,
+  "start": 719.037,
+  "end": 723.199,
+  "speaker": "Unknown",
+  "en": "So we mostly raised from tech investors, not that much from biotech investors.",
+  "zh": "所以我们主要是从科技投资人那里融资,从生物科技投资人那里融得不多。"
+ },
+ {
+  "seg": 157,
+  "start": 723.399,
+  "end": 728.881,
+  "speaker": "Unknown",
+  "en": "In fact, there's only one VC that I sought out at all at the Series A that I went to go pitch, which was Bob Nelson, who's a biotech investor.",
+  "zh": "事实上,在 A 轮,我主动去找着去 pitch 的风投只有一家,那就是 Bob Nelson,他是一位生物科技投资人。"
+ },
+ {
+  "seg": 158,
+  "start": 729.772,
+  "end": 740.197,
+  "speaker": "Unknown",
+  "en": "When you describe different types of BCI products and missions, I think you have a really good way of explaining it that is, you know, on a spectrum.",
+  "zh": "当你描述不同类型的 BCI 产品和使命时,我觉得你有一个很好的解释方式,就是,你知道,用一条光谱来讲。"
+ },
+ {
+  "seg": 159,
+  "start": 740.457,
+  "end": 745.699,
+  "speaker": "Unknown",
+  "en": "Can you talk about just the landscape of what devices and approaches people are working on in BCI today?",
+  "zh": "你能谈谈今天人们在 BCI 领域正在研究的设备和方法的整体图景吗?"
+ },
+ {
+  "seg": 160,
+  "start": 745.719,
+  "end": 749.741,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, I think BCI is a category, kind of like how pharma is a category.",
+  "zh": "好的,我是说,我认为 BCI 是一个类别,有点像制药是一个类别。"
+ },
+ {
+  "seg": 161,
+  "start": 749.761,
+  "end": 753.202,
+  "speaker": "Unknown",
+  "en": "I think sometimes I'll talk to VCs and like, oh, we have a BCI bet.",
+  "zh": "我有时会和风投聊,他们会说,哦,我们有一个 BCI 方向的押注。"
+ },
+ {
+  "seg": 162,
+  "start": 753.582,
+  "end": 754.503,
+  "speaker": "Unknown",
+  "en": "Like, do you have a drug bet?",
+  "zh": "就好比,你有一个「药物」方向的押注吗?"
+ },
+ {
+  "seg": 163,
+  "start": 754.623,
+  "end": 755.783,
+  "speaker": "Unknown",
+  "en": "You made one bet on drugs.",
+  "zh": "你在药物上押了一个注。"
+ },
+ {
+  "seg": 164,
+  "start": 755.923,
+  "end": 757.804,
+  "speaker": "Unknown",
+  "en": "Like, that's how you think about the category.",
+  "zh": "就是,你是这样看待这个类别的。"
+ },
+ {
+  "seg": 165,
+  "start": 759.705,
+  "end": 763.926,
+  "speaker": "Unknown",
+  "en": "Versus thinking about it like in, you know, NeuroDigen and Parkinson's or a specific condition.",
+  "zh": "而不是像那样去思考,你知道,在 NeuroDigen 和帕金森病或某个特定病症上的押注。"
+ },
+ {
+  "seg": 166,
+  "start": 763.946,
+  "end": 766.327,
+  "speaker": "Unknown",
+  "en": "Yeah, or maybe even different bets within NeuroDigen.",
+  "zh": "是的,或者甚至是在 NeuroDigen 内部不同方向上的押注。"
+ },
+ {
+  "seg": 167,
+  "start": 766.347,
+  "end": 770.988,
+  "speaker": "Unknown",
+  "en": "Maybe you've got a degrader and maybe you've got a gene therapy and maybe you've got something else like because they're...",
+  "zh": "也许你有一个降解剂,也许你有一个基因疗法,也许你还有别的东西,因为它们……"
+ },
+ {
+  "seg": 168,
+  "start": 771.408,
+  "end": 772.228,
+  "speaker": "Unknown",
+  "en": "Different hypotheses.",
+  "zh": "假设不同。"
+ },
+ {
+  "seg": 169,
+  "start": 772.268,
+  "end": 772.608,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "对。"
+ },
+ {
+  "seg": 170,
+  "start": 773.228,
+  "end": 784.131,
+  "speaker": "Unknown",
+  "en": "And similarly, I think on one end of the spectrum, you've got silent speech devices that may be BCI in a greater or lesser degree, like maybe they're recording a neural signal like EEG.",
+  "zh": "类似地,我认为在光谱的一端,你有静默语音设备,它们在或大或小的程度上可能算是 BCI,比如也许它们在记录神经信号,像 EEG。"
+ },
+ {
+  "seg": 171,
+  "start": 784.571,
+  "end": 788.952,
+  "speaker": "Unknown",
+  "en": "Maybe they're using something just like radar through the face, which I know, like I know is an idea out there.",
+  "zh": "也许它们在用某种像是透过脸部雷达的东西,我知道,我知道这是一个已有的想法。"
+ },
+ {
+  "seg": 172,
+  "start": 790.332,
+  "end": 793.314,
+  "speaker": "Unknown",
+  "en": "But these are all basically hand substitutes.",
+  "zh": "但这些基本上都是手的替代品。"
+ },
+ {
+  "seg": 173,
+  "start": 793.834,
+  "end": 795.635,
+  "speaker": "Unknown",
+  "en": "And on the one hand, hands are great.",
+  "zh": "一方面,手很棒。"
+ },
+ {
+  "seg": 174,
+  "start": 796.856,
+  "end": 797.856,
+  "speaker": "Unknown",
+  "en": "On the two hands, hands are great.",
+  "zh": "另一方面(两只手),手很棒。"
+ },
+ {
+  "seg": 175,
+  "start": 799.317,
+  "end": 800.037,
+  "speaker": "Unknown",
+  "en": "They work really well.",
+  "zh": "它们非常好用。"
+ },
+ {
+  "seg": 176,
+  "start": 800.137,
+  "end": 801.338,
+  "speaker": "Unknown",
+  "en": "You don't need to think...",
+  "zh": "你不需要去想……"
+ },
+ {
+  "seg": 177,
+  "start": 801.698,
+  "end": 807.861,
+  "speaker": "Unknown",
+  "en": "I'll talk to teams that say like, oh, well, it'd be really nice if to go to your next thing, you didn't have to open the Uber app and call an Uber.",
+  "zh": "我会和一些团队聊,他们说,哦,如果去往下一件事的时候,你不用打开 Uber 应用叫一辆 Uber,那会非常好。"
+ },
+ {
+  "seg": 178,
+  "start": 807.881,
+  "end": 809.182,
+  "speaker": "Unknown",
+  "en": "You just thought of it and it was there.",
+  "zh": "你只是想到了它,然后它就在那儿了。"
+ },
+ {
+  "seg": 179,
+  "start": 810.002,
+  "end": 812.765,
+  "speaker": "Unknown",
+  "en": "You probably want to communicate really unambiguously with the Uber app.",
+  "zh": "但你可能想和 Uber 应用进行非常明确无歧义的沟通。"
+ },
+ {
+  "seg": 180,
+  "start": 812.805,
+  "end": 821.532,
+  "speaker": "Unknown",
+  "en": "It'd be pretty annoying if they just start like spontaneously getting notifications during meetings that like, oh, it thought that you were thinking about an Uber, therefore decided to summon two for you.",
+  "zh": "如果它们只是开始在会议中自发地收到通知,比如,哦,它认为你在想 Uber,于是决定帮你叫了两辆,那会相当烦人。"
+ },
+ {
+  "seg": 181,
+  "start": 821.712,
+  "end": 823.674,
+  "speaker": "Unknown",
+  "en": "And so you'll probably want these to be pretty explicit.",
+  "zh": "所以你很可能希望这些交互是相当明确的。"
+ },
+ {
+  "seg": 182,
+  "start": 823.694,
+  "end": 828.818,
+  "speaker": "Unknown",
+  "en": "And to the degree that that is a volitional intent, like you already don't need to do a lot to get your hands to do things.",
+  "zh": "而既然那是一种自主意志的意图,你本来就不需要做很多事情就能让你的手去做事。"
+ },
+ {
+  "seg": 183,
+  "start": 829.999,
+  "end": 831.681,
+  "speaker": "Unknown",
+  "en": "Now, could you have extra hands?",
+  "zh": "那么,你能拥有额外的手吗?"
+ },
+ {
+  "seg": 184,
+  "start": 831.741,
+  "end": 832.962,
+  "speaker": "Unknown",
+  "en": "Extra hands famously useful.",
+  "zh": "额外的手出了名地有用。"
+ },
+ {
+  "seg": 185,
+  "start": 833.903,
+  "end": 836.965,
+  "speaker": "Unknown",
+  "en": "And so having some easier way to communicate might",
+  "zh": "所以拥有某种更容易的沟通方式可能"
+ },
+ {
+  "seg": 186,
+  "start": 837.766,
+  "end": 838.807,
+  "speaker": "Unknown",
+  "en": "It might be useful.",
+  "zh": "可能是有用的。"
+ },
+ {
+  "seg": 187,
+  "start": 839.427,
+  "end": 852.755,
+  "speaker": "Unknown",
+  "en": "That is kind of outside of the scope of things I spend a lot of time thinking about because if you can, if you get vision, hearing, balance, and a kilobit per second of motor control, you're halfway to the matrix.",
+  "zh": "但那大概超出我花大量时间思考的范围了,因为如果你能获得视觉、听觉、平衡感,以及每秒一千比特的运动控制,你就已经走到《黑客帝国》的一半了。"
+ },
+ {
+  "seg": 188,
+  "start": 853.415,
+  "end": 857.277,
+  "speaker": "Unknown",
+  "en": "And this takes you into some like really trippy reinterpretations of medicine.",
+  "zh": "而这会把你带入对医学的一些非常迷幻的重新诠释。"
+ },
+ {
+  "seg": 189,
+  "start": 857.717,
+  "end": 858.958,
+  "speaker": "Unknown",
+  "en": "And that's the stuff that we work on.",
+  "zh": "那就是我们做的东西。"
+ },
+ {
+  "seg": 190,
+  "start": 858.978,
+  "end": 865.242,
+  "speaker": "Unknown",
+  "en": "I think other people will do things like speech to text and AI communication.",
+  "zh": "我想其他人会去做像语音转文字和 AI 沟通这样的事情。"
+ },
+ {
+  "seg": 191,
+  "start": 866.142,
+  "end": 871.202,
+  "speaker": "Unknown",
+  "en": "There is a distinction so there's there's a let me come back to your broader question a second but",
+  "zh": "这里有一个区别,所以……让我回到你那个更宏观的问题,但是"
+ },
+ {
+  "seg": 192,
+  "start": 872.309,
+  "end": 880.335,
+  "speaker": "Unknown",
+  "en": "There's some point where you go from communicating with a thing to redrawing the border around your brain.",
+  "zh": "存在某个节点,你会从「与某个东西沟通」跨越到「重新划定你大脑的边界」。"
+ },
+ {
+  "seg": 193,
+  "start": 881.116,
+  "end": 885.539,
+  "speaker": "Unknown",
+  "en": "And we don't have a great sense of exactly where that transition is yet, but there's a sense that there is one.",
+  "zh": "我们还没有很好的把握去确切知道那个转变在哪里,但有一种感觉是确实存在这样一个转变。"
+ },
+ {
+  "seg": 194,
+  "start": 885.58,
+  "end": 894.166,
+  "speaker": "Unknown",
+  "en": "The way that you use the two hemispheres of your brain as one integrated bound thing is different than the way that you talk to another person.",
+  "zh": "你把大脑两个半球当作一个整合的、有边界的整体来使用的方式,和你与另一个人交谈的方式是不同的。"
+ },
+ {
+  "seg": 195,
+  "start": 894.847,
+  "end": 896.968,
+  "speaker": "Unknown",
+  "en": "And it's not just that there's...",
+  "zh": "而且不只是存在……"
+ },
+ {
+  "seg": 196,
+  "start": 897.789,
+  "end": 901.152,
+  "speaker": "Unknown",
+  "en": "Correlation because like all communication is about creating correlations between brains.",
+  "zh": "相关性,因为所有沟通本质上都是在创造大脑之间的相关性。"
+ },
+ {
+  "seg": 197,
+  "start": 901.192,
+  "end": 910.26,
+  "speaker": "Unknown",
+  "en": "When we speak, there's big correlations that are being driven between our brains because there's I mean, all all communications is like premised on that.",
+  "zh": "当我们说话时,我们的大脑之间正在产生巨大的相关性,因为,我是说,所有沟通都是以这个为前提的。"
+ },
+ {
+  "seg": 198,
+  "start": 910.32,
+  "end": 920.69,
+  "speaker": "Unknown",
+  "en": "If we didn't pre-share a language or some common education, like some sense of math, then we wouldn't be able to communicate those concepts because there's some there's some thing that's lit up in my brain.",
+  "zh": "如果我们没有预先共享一种语言或某种共同教育,比如对数学的某种共识,那我们就无法沟通那些概念,因为存在……我的大脑里有什么东西被点亮了。"
+ },
+ {
+  "seg": 199,
+  "start": 920.71,
+  "end": 922.051,
+  "speaker": "Unknown",
+  "en": "I can serialize that to language.",
+  "zh": "我可以把它序列化为语言。"
+ },
+ {
+  "seg": 200,
+  "start": 922.371,
+  "end": 925.012,
+  "speaker": "Unknown",
+  "en": "I can send that to you that lights up the same pre-shared concept spaces.",
+  "zh": "我可以把那个发给你,它会点亮相同的预共享概念空间。"
+ },
+ {
+  "seg": 201,
+  "start": 925.672,
+  "end": 936.457,
+  "speaker": "Unknown",
+  "en": "And so there's one mode where you've pre-shared some structure between the two brains, whether this is an AI model or a biological brain, and then you're communicating over that channel.",
+  "zh": "所以有一种模式是,你已经在两个大脑之间预共享了一些结构,无论这是一个 AI 模型还是生物大脑,然后你们通过那个通道进行交流。"
+ },
+ {
+  "seg": 202,
+  "start": 936.517,
+  "end": 938.658,
+  "speaker": "Unknown",
+  "en": "The other is you've added some new structural capability.",
+  "zh": "另一种是你添加了一些新的结构能力。"
+ },
+ {
+  "seg": 203,
+  "start": 939.058,
+  "end": 944.461,
+  "speaker": "Unknown",
+  "en": "I think figuring out where that transition happens is a really compelling area of research for us.",
+  "zh": "我认为弄清楚那个转变发生在哪里,对我们来说是一个非常引人入胜的研究领域。"
+ },
+ {
+  "seg": 204,
+  "start": 945.152,
+  "end": 949.833,
+  "speaker": "Unknown",
+  "en": "What are you most personally interested in in terms of exploring that boundary yourself?",
+  "zh": "在你自己探索那个边界方面,你个人最感兴趣的是什么?"
+ },
+ {
+  "seg": 205,
+  "start": 950.533,
+  "end": 950.713,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 206,
+  "start": 950.913,
+  "end": 954.594,
+  "speaker": "Unknown",
+  "en": "Well, I mean, that is, like, what is you is a really central question here.",
+  "zh": "嗯,我是说,那,就像,“什么是你”是这里的一个非常核心的问题。"
+ },
+ {
+  "seg": 207,
+  "start": 954.614,
+  "end": 959.516,
+  "speaker": "Unknown",
+  "en": "Like, if the end of the artificial intelligence quest is- I don't really care.",
+  "zh": "就像,如果人工智能探索的终点是——我真的不在乎。"
+ },
+ {
+  "seg": 208,
+  "start": 959.536,
+  "end": 965.157,
+  "speaker": "Unknown",
+  "en": "What if I just want my brain to be a better computer or a richer one in terms of understanding other people's experiences?",
+  "zh": "如果我只是想让我自己的大脑成为一台更好的计算机,或者在理解他人体验方面成为一台更丰富的计算机呢?"
+ },
+ {
+  "seg": 209,
+  "start": 965.697,
+  "end": 968.699,
+  "speaker": "Unknown",
+  "en": "I mean, I think that you still, there is an important question here.",
+  "zh": "我是说,我觉得你仍然,这里有一个重要的问题。"
+ },
+ {
+  "seg": 210,
+  "start": 968.719,
+  "end": 977.443,
+  "speaker": "Unknown",
+  "en": "So if I just like scanned your brain into a computer and there is a software simulation of you, is that, does that count as you?",
+  "zh": "那么,如果我就像把你的大脑扫描进一台计算机,并且存在一个你的软件模拟,那,那算作你吗?"
+ },
+ {
+  "seg": 211,
+  "start": 978.478,
+  "end": 980.519,
+  "speaker": "Unknown",
+  "en": "Would that make you feel better about dying of cancer?",
+  "zh": "那会让你对死于癌症这件事感觉好受一些吗?"
+ },
+ {
+  "seg": 212,
+  "start": 980.559,
+  "end": 985.021,
+  "speaker": "Unknown",
+  "en": "If you were diagnosed with lung cancer and they said, okay, well, we'll scan you into a computer.",
+  "zh": "如果你被诊断出肺癌,然后他们说,好吧,我们会把你扫描进一台计算机。"
+ },
+ {
+  "seg": 213,
+  "start": 985.561,
+  "end": 987.942,
+  "speaker": "Unknown",
+  "en": "So imagine that we did it non-destructively.",
+  "zh": "所以想象一下我们以非破坏性的方式做到了这一点。"
+ },
+ {
+  "seg": 214,
+  "start": 987.962,
+  "end": 992.324,
+  "speaker": "Unknown",
+  "en": "So you are still there, but then you're talking to this off a replica of you.",
+  "zh": "所以你还在那里,但然后你在和这个 off 的你的复制品交谈。"
+ },
+ {
+  "seg": 215,
+  "start": 993.125,
+  "end": 996.947,
+  "speaker": "Unknown",
+  "en": "And then you're like, okay, I'm going to go to hospice, but this thing will keep doing my venture investing job.",
+  "zh": "然后你说,好吧,我要去临终关怀了,但这个东西会继续做我的风险投资工作。"
+ },
+ {
+  "seg": 216,
+  "start": 997.627,
+  "end": 999.448,
+  "speaker": "Unknown",
+  "en": "Does that make you feel better that much?",
+  "zh": "那会让你感觉好受那么多吗?"
+ },
+ {
+  "seg": 217,
+  "start": 1001.105,
+  "end": 1004.767,
+  "speaker": "Unknown",
+  "en": "Well, I think on this question, have you ever been under general anesthesia?",
+  "zh": "嗯,我想在这个问题上,你经历过全身麻醉吗?"
+ },
+ {
+  "seg": 218,
+  "start": 1005.047,
+  "end": 1006.108,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "经历过。"
+ },
+ {
+  "seg": 219,
+  "start": 1006.168,
+  "end": 1007.588,
+  "speaker": "Unknown",
+  "en": "And that produces a break there.",
+  "zh": "那会产生一个中断。"
+ },
+ {
+  "seg": 220,
+  "start": 1007.628,
+  "end": 1010.57,
+  "speaker": "Unknown",
+  "en": "And this is the type of thing that you have to explain about, why does that feel different?",
+  "zh": "而这就是你必须解释的那类事情,为什么那感觉不同?"
+ },
+ {
+  "seg": 221,
+  "start": 1010.75,
+  "end": 1012.311,
+  "speaker": "Unknown",
+  "en": "Because I think it does feel different.",
+  "zh": "因为我认为它确实感觉不同。"
+ },
+ {
+  "seg": 222,
+  "start": 1012.371,
+  "end": 1016.953,
+  "speaker": "Unknown",
+  "en": "I think that people are reticent to undergo general anesthesia, but they do it and they survive and they realize it's fine.",
+  "zh": "我认为人们不太愿意接受全身麻醉,但他们做了,而且他们活下来了,他们意识到没事。"
+ },
+ {
+  "seg": 223,
+  "start": 1017.634,
+  "end": 1022.736,
+  "speaker": "Unknown",
+  "en": "And then there's, if I could make a copy of you and you can talk to that copy and you're like, okay, I will go away now.",
+  "zh": "而还有,如果我能复制一个你,你可以和那个复制品交谈,然后你说,好吧,我现在可以消失了。"
+ },
+ {
+  "seg": 224,
+  "start": 1022.756,
+  "end": 1025.698,
+  "speaker": "Unknown",
+  "en": "I just don't think that many people are going to be like, this is it.",
+  "zh": "我只是不认为会有很多人说,这就是我。"
+ },
+ {
+  "seg": 225,
+  "start": 1027.627,
+  "end": 1029.088,
+  "speaker": "Unknown",
+  "en": "And so you have to answer why it's different.",
+  "zh": "所以你必须回答为什么它不同。"
+ },
+ {
+  "seg": 226,
+  "start": 1029.668,
+  "end": 1040.332,
+  "speaker": "Unknown",
+  "en": "There's an asymmetry in the, so you've got like some of the operators that actually change things in physics are like a creation or annihilation operator.",
+  "zh": "这里存在一种不对称,比如物理学中真正改变事物的一些算子,比如产生或湮灭算子。"
+ },
+ {
+  "seg": 227,
+  "start": 1040.352,
+  "end": 1041.553,
+  "speaker": "Unknown",
+  "en": "And we get these in life, right?",
+  "zh": "而我们在生活中也会遇到这些,对吧?"
+ },
+ {
+  "seg": 228,
+  "start": 1041.573,
+  "end": 1045.054,
+  "speaker": "Unknown",
+  "en": "You can create a new life or a new mind or a new soul.",
+  "zh": "你可以创造一个新的生命、一个新的心智或一个新的灵魂。"
+ },
+ {
+  "seg": 229,
+  "start": 1045.794,
+  "end": 1050.016,
+  "speaker": "Unknown",
+  "en": "And then there are times when they can be annihilated, they can get destroyed.",
+  "zh": "然后也会有它们被湮灭、被摧毁的时刻。"
+ },
+ {
+  "seg": 230,
+  "start": 1050.696,
+  "end": 1053.377,
+  "speaker": "Unknown",
+  "en": "And then there's ways that they kind of change while intact.",
+  "zh": "然后还有它们在保持完整的同时发生某种改变的方式。"
+ },
+ {
+  "seg": 231,
+  "start": 1054.039,
+  "end": 1065.607,
+  "speaker": "Unknown",
+  "en": "Do you study consciousness at science in a like a sequential way or directly explicitly today when you talk about the operators that are part of it, let's say?",
+  "zh": "当你谈到作为其中一部分的算子时,你今天是以一种类似顺序的方式,还是直接明确地研究意识科学?"
+ },
+ {
+  "seg": 232,
+  "start": 1065.727,
+  "end": 1071.131,
+  "speaker": "Unknown",
+  "en": "So your conscious moment is a you're experiencing a bunch of things in parallel.",
+  "zh": "所以你的意识时刻是,你正在并行体验一大堆事物。"
+ },
+ {
+  "seg": 233,
+  "start": 1071.371,
+  "end": 1075.994,
+  "speaker": "Unknown",
+  "en": "So you're seeing things and you're hearing things and you're feeling things and you're smelling things.",
+  "zh": "所以你在看东西,你在听东西,你在感觉东西,你在闻东西。"
+ },
+ {
+  "seg": 234,
+  "start": 1076.034,
+  "end": 1078.916,
+  "speaker": "Unknown",
+  "en": "And these things happened just simultaneously together.",
+  "zh": "而这些事情是同时一起发生的。"
+ },
+ {
+  "seg": 235,
+  "start": 1080.737,
+  "end": 1090.965,
+  "speaker": "Unknown",
+  "en": "They are kind of different elements of the experience and we want to understand how does the brain construct each of those and how does it cause them to be perceived together to the exclusion of other things.",
+  "zh": "它们是体验中某种不同的元素,我们想理解大脑是如何构建其中每一个的,以及它如何使它们被共同感知到,而排除其他事物。"
+ },
+ {
+  "seg": 236,
+  "start": 1091.005,
+  "end": 1094.508,
+  "speaker": "Unknown",
+  "en": "Like you have your vision and your hearing, you never get my vision and your hearing.",
+  "zh": "就像你有你的视觉和你的听觉,你永远不会得到我的视觉和你的听觉。"
+ },
+ {
+  "seg": 237,
+  "start": 1095.72,
+  "end": 1103.851,
+  "speaker": "Unknown",
+  "en": "And I think you kind of have this like you might think like that sounds like really obvious, like it's in my brain, it's not in your brain, but we need some more fundamental explanation for really how that partitioning happens.",
+  "zh": "而我认为你会有这种,你可能觉得这听起来非常明显,比如它在我的大脑里,不在你的大脑里,但我们需要一些更根本的解释来真正说明这种划分是如何发生的。"
+ },
+ {
+  "seg": 238,
+  "start": 1104.031,
+  "end": 1106.153,
+  "speaker": "Unknown",
+  "en": "OK, so you think that's a foundational component?",
+  "zh": "好,所以你认为那是一个基础性的组成部分?"
+ },
+ {
+  "seg": 239,
+  "start": 1106.514,
+  "end": 1106.714,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 240,
+  "start": 1107.095,
+  "end": 1111.26,
+  "speaker": "Unknown",
+  "en": "And so and yeah, so I'm in the camp that like continuity is greatly important.",
+  "zh": "所以,是的,所以我属于认为连续性极其重要的阵营。"
+ },
+ {
+  "seg": 241,
+  "start": 1111.78,
+  "end": 1112.101,
+  "speaker": "Unknown",
+  "en": "And so.",
+  "zh": "然后。"
+ },
+ {
+  "seg": 242,
+  "start": 1113.182,
+  "end": 1119.523,
+  "speaker": "Unknown",
+  "en": "People will accept significant drift in their identity over time, as long as they have continuity.",
+  "zh": "只要他们拥有连续性,人们会接受他们的身份随时间发生显著的漂移。"
+ },
+ {
+  "seg": 243,
+  "start": 1120.123,
+  "end": 1128.465,
+  "speaker": "Unknown",
+  "en": "But if you preserve the sense of identity, like you have a software simulation that answers exactly like you would now, but it's not phenomenally continuous, that is less satisfying.",
+  "zh": "但如果你保留了身份感,比如你有一个软件模拟,它现在回答起来和你完全一样,但它在现象上不是连续的,那就没那么令人满意了。"
+ },
+ {
+  "seg": 244,
+  "start": 1128.525,
+  "end": 1129.725,
+  "speaker": "Unknown",
+  "en": "Yeah, that's an interesting trade.",
+  "zh": "是的,这是一个有趣的取舍。"
+ },
+ {
+  "seg": 245,
+  "start": 1129.805,
+  "end": 1133.566,
+  "speaker": "Unknown",
+  "en": "I think I would take dramatic morph, but continuous experience.",
+  "zh": "我想我会选择剧烈的形态变化,但保持连续的体验。"
+ },
+ {
+  "seg": 246,
+  "start": 1133.766,
+  "end": 1133.986,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 247,
+  "start": 1134.006,
+  "end": 1136.527,
+  "speaker": "Unknown",
+  "en": "I don't know if I'd take like significantly degraded IQ.",
+  "zh": "我不知道我是否会接受比如显著降低的 IQ。"
+ },
+ {
+  "seg": 248,
+  "start": 1136.727,
+  "end": 1137.747,
+  "speaker": "Unknown",
+  "en": "Laura Deming asked me this.",
+  "zh": "Laura Deming 问过我这个。"
+ },
+ {
+  "seg": 249,
+  "start": 1138.447,
+  "end": 1142.188,
+  "speaker": "Unknown",
+  "en": "It's like life with provable characteristics is a thing we've never seen before.",
+  "zh": "就像,带有可证明特征的生命是我们从未见过的事物。"
+ },
+ {
+  "seg": 250,
+  "start": 1142.668,
+  "end": 1144.348,
+  "speaker": "Unknown",
+  "en": "And it might be transient.",
+  "zh": "而且它可能是暂时的。"
+ },
+ {
+  "seg": 251,
+  "start": 1144.368,
+  "end": 1150.169,
+  "speaker": "Unknown",
+  "en": "You'd probably accept a graded IQ for some period of time if it then got backfilled some number of weeks later and then you got some...",
+  "zh": "如果几周后会被补回来，然后你得到了一些……你可能会接受一段时间的低配版 IQ,"
+ },
+ {
+  "seg": 252,
+  "start": 1150.229,
+  "end": 1156.191,
+  "speaker": "Unknown",
+  "en": "I mean, at that point where you achieve substrate independence, you can take that almost anywhere you want, which is why that's really, really interesting.",
+  "zh": "我的意思是，一旦你实现了基底独立性，你几乎可以把它带到任何你想去的地方，这正是它非常、非常有趣的原因。"
+ },
+ {
+  "seg": 253,
+  "start": 1156.611,
+  "end": 1159.531,
+  "speaker": "Unknown",
+  "en": "One of the big missing pieces here is connectomics.",
+  "zh": "这里缺失的一大块是连接组学。"
+ },
+ {
+  "seg": 254,
+  "start": 1160.231,
+  "end": 1161.612,
+  "speaker": "Unknown",
+  "en": "That is getting pretty close, I think.",
+  "zh": "我认为那已经相当接近了。"
+ },
+ {
+  "seg": 255,
+  "start": 1163.912,
+  "end": 1170.856,
+  "speaker": "Unknown",
+  "en": "In terms of to the point where the project could be done, we're still relatively far from a human connectome, but I think we're not that far from a mouse connectome.",
+  "zh": "就项目能完成而言，我们离人类连接组还比较远，但我认为我们离小鼠连接组没那么远。"
+ },
+ {
+  "seg": 256,
+  "start": 1171.316,
+  "end": 1177.839,
+  "speaker": "Unknown",
+  "en": "That would be enormously useful for facilitating this research and understanding about how all this works.",
+  "zh": "那将对促进这项研究以及理解这一切如何运作有极大的帮助。"
+ },
+ {
+  "seg": 257,
+  "start": 1178.56,
+  "end": 1183.382,
+  "speaker": "Unknown",
+  "en": "We need to understand even really basic questions like, what is the overall architecture of the brain?",
+  "zh": "我们需要理解一些甚至非常基础的问题，比如，大脑的整体架构是什么？"
+ },
+ {
+  "seg": 258,
+  "start": 1184.303,
+  "end": 1188.745,
+  "speaker": "Unknown",
+  "en": "We have some answer for, but I don't know that it's a really, really detailed one at this point.",
+  "zh": "我们有一些答案，但我不知道在这一点上它是否是一个非常、非常详细的答案。"
+ },
+ {
+  "seg": 259,
+  "start": 1189.467,
+  "end": 1209.181,
+  "speaker": "Unknown",
+  "en": "You are of the view that it makes sense that there is this increased interest, this surge of investor interest and founder and engineer interest in BCI as a field given the progress of AI model research because the representations actually should be shared or they empirically seem to be.",
+  "zh": "你的观点是，鉴于 AI 模型研究的进展，因为表征实际上应该被共享，或者从经验上看似乎确实如此，所以人们对 BCI 这一领域的兴趣增加、投资者兴趣以及创始人和工程师兴趣的激增是说得通的。"
+ },
+ {
+  "seg": 260,
+  "start": 1209.381,
+  "end": 1213.263,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, this is the idea called the platonic representation hypothesis.",
+  "zh": "是的，我的意思是，这就是所谓的柏拉图表征假说。"
+ },
+ {
+  "seg": 261,
+  "start": 1213.423,
+  "end": 1214.483,
+  "speaker": "Unknown",
+  "en": "And this is really interesting.",
+  "zh": "这真的非常有趣。"
+ },
+ {
+  "seg": 262,
+  "start": 1214.583,
+  "end": 1220.646,
+  "speaker": "Unknown",
+  "en": "It is controversial in the community, but I mean, from where I sit, there's clearly something real happening.",
+  "zh": "它在社区里是有争议的，但我的意思是，从我的位置看，显然有某种真实的事情在发生。"
+ },
+ {
+  "seg": 263,
+  "start": 1221.126,
+  "end": 1226.528,
+  "speaker": "Unknown",
+  "en": "So when you look inside these big AI models, the mathematical objects that you see look a lot like the things that you see in neuroscience.",
+  "zh": "所以当你观察这些大型 AI 模型的内部时，你看到的数学对象看起来很像你在神经科学中看到的东西。"
+ },
+ {
+  "seg": 264,
+  "start": 1227.069,
+  "end": 1236.553,
+  "speaker": "Unknown",
+  "en": "So if you look at how do these AI models represent, just like represent concepts, then you look at the parts of the brain that represent concepts, you see these, you see very similar geometry.",
+  "zh": "所以如果你看这些 AI 模型是如何表征概念的，然后你看大脑中表征概念的那些部分，你会看到这些，你会看到非常相似的几何结构。"
+ },
+ {
+  "seg": 265,
+  "start": 1237.133,
+  "end": 1244.26,
+  "speaker": "Unknown",
+  "en": "That to me was one of the first clues like when I really saw that and we use that practically like we use that constructively at science like that.",
+  "zh": "对我来说，那是最早的线索之一，就像当我真正看到那个的时候，而且我们实际上在科学上建设性地使用那个，就像那样使用。"
+ },
+ {
+  "seg": 266,
+  "start": 1244.32,
+  "end": 1252.107,
+  "speaker": "Unknown",
+  "en": "We know that that is that is true because we can get alignments between animal brain neural recordings and AI model internal representations.",
+  "zh": "我们知道那是真的，因为我们可以在动物大脑神经记录和 AI 模型内部表征之间获得对齐。"
+ },
+ {
+  "seg": 267,
+  "start": 1253.568,
+  "end": 1258.53,
+  "speaker": "Unknown",
+  "en": "That was a big clue to me that the AI was on the right track and this was not a gimmick and not hitting a wall.",
+  "zh": "那对我来说是一个重大线索，说明 AI 走在正确的轨道上，这不是一个噱头，也没有撞墙。"
+ },
+ {
+  "seg": 268,
+  "start": 1258.63,
+  "end": 1261.392,
+  "speaker": "Unknown",
+  "en": "There was something deeper that's true here.",
+  "zh": "这里有一些更深层的真实的东西。"
+ },
+ {
+  "seg": 269,
+  "start": 1262.352,
+  "end": 1267.274,
+  "speaker": "Unknown",
+  "en": "There's some fact about the universe where these things, as they're learning, are grabbing onto some true underlying data manifold.",
+  "zh": "宇宙中有某种事实，即这些事物在学习时，正抓取某种真实的底层数据流形。"
+ },
+ {
+  "seg": 270,
+  "start": 1267.534,
+  "end": 1269.135,
+  "speaker": "Unknown",
+  "en": "I mean, it feels like a law of physics.",
+  "zh": "我的意思是，这感觉像是一条物理定律。"
+ },
+ {
+  "seg": 271,
+  "start": 1269.195,
+  "end": 1272.677,
+  "speaker": "Unknown",
+  "en": "If you apply enough compute to matter, you get this thing that looks like intelligence.",
+  "zh": "如果你对物质施加足够的算力，你就会得到这个看起来像智能的东西。"
+ },
+ {
+  "seg": 272,
+  "start": 1273.543,
+  "end": 1274.804,
+  "speaker": "Unknown",
+  "en": "Why do you think that's controversial?",
+  "zh": "你为什么认为这是有争议的？"
+ },
+ {
+  "seg": 273,
+  "start": 1275.304,
+  "end": 1277.066,
+  "speaker": "Unknown",
+  "en": "Or why is it in the field?",
+  "zh": "或者为什么它在这个领域里有争议？"
+ },
+ {
+  "seg": 274,
+  "start": 1277.686,
+  "end": 1281.649,
+  "speaker": "Unknown",
+  "en": "There's some faction of people that kind of don't want this to be true for reasons that are not totally clear to me.",
+  "zh": "有一部分人不太希望这是真的，其原因我不太清楚。"
+ },
+ {
+  "seg": 275,
+  "start": 1282.89,
+  "end": 1284.091,
+  "speaker": "Unknown",
+  "en": "It is also not clear.",
+  "zh": "这也不清楚。"
+ },
+ {
+  "seg": 276,
+  "start": 1285.072,
+  "end": 1289.755,
+  "speaker": "Unknown",
+  "en": "We don't completely don't really understand fully understand the whatever phenomenon is happening here.",
+  "zh": "我们并不完全、并没有真正完全理解这里发生的whatever现象。"
+ },
+ {
+  "seg": 277,
+  "start": 1290.135,
+  "end": 1296.08,
+  "speaker": "Unknown",
+  "en": "It's unclear if the structure is global or if it's local in some sense that like there's",
+  "zh": "目前还不清楚这种结构是全局的还是某种意义上的局部的，就像"
+ },
+ {
+  "seg": 278,
+  "start": 1297.505,
+  "end": 1306.869,
+  "speaker": "Unknown",
+  "en": "You can recover relational structures between ideas, but it might be that this works locally, where disconnected things might be placed.",
+  "zh": "你可以恢复想法之间的关系结构，但它可能只在局部起作用，而断开连接的东西可能被放置在……"
+ },
+ {
+  "seg": 279,
+  "start": 1307.79,
+  "end": 1318.735,
+  "speaker": "Unknown",
+  "en": "This gets fairly technical quickly, but there's a bunch of stuff that we just don't know, and I think this creates space for people to wonder, is this giving us this fundamental?",
+  "zh": "这很快会变得相当技术性，但有很多东西我们就是不知道，我认为这给人们留下了空间去怀疑，这是否给了我们这个根本性的东西？"
+ },
+ {
+  "seg": 280,
+  "start": 1319.894,
+  "end": 1322.737,
+  "speaker": "Unknown",
+  "en": "Of like a hint, as it might seem, I think that it is.",
+  "zh": "就像它看起来那样的一个提示，我认为是的。"
+ },
+ {
+  "seg": 281,
+  "start": 1323.157,
+  "end": 1329.002,
+  "speaker": "Unknown",
+  "en": "What do you think are the most fertile ways to study neuroscience today, if your set of beliefs is true?",
+  "zh": "如果你的这整套信念是真的，你认为今天研究神经科学最有成效的方式是什么？"
+ },
+ {
+  "seg": 282,
+  "start": 1329.122,
+  "end": 1329.323,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 283,
+  "start": 1329.523,
+  "end": 1331.745,
+  "speaker": "Unknown",
+  "en": "Well, I mean, ironically, it's probably working on AI.",
+  "zh": "嗯，我的意思是，讽刺的是，很可能是去做 AI。"
+ },
+ {
+  "seg": 284,
+  "start": 1331.945,
+  "end": 1338.171,
+  "speaker": "Unknown",
+  "en": "Yeah, I have a couple of neuroscience friends at OpenAI Anthropic who it's like, we would joke, like, oh, you left neuroscience.",
+  "zh": "是的，我有几个在 OpenAI、Anthropic 的神经科学朋友，我们会开玩笑说，哦，你离开神经科学了。"
+ },
+ {
+  "seg": 285,
+  "start": 1338.191,
+  "end": 1339.071,
+  "speaker": "Unknown",
+  "en": "Like, no, no, no.",
+  "zh": "比如，不不不。"
+ },
+ {
+  "seg": 286,
+  "start": 1339.272,
+  "end": 1341.353,
+  "speaker": "Unknown",
+  "en": "It is just way easier to do neuroscience on the models.",
+  "zh": "在这些模型上做神经科学要容易得多。"
+ },
+ {
+  "seg": 287,
+  "start": 1342.054,
+  "end": 1345.157,
+  "speaker": "Unknown",
+  "en": "But the degree to which it is neuroscience is fascinating.",
+  "zh": "但它在多大程度上就是神经科学，这很迷人。"
+ },
+ {
+  "seg": 288,
+  "start": 1345.616,
+  "end": 1357.246,
+  "speaker": "Unknown",
+  "en": "I want to talk a little bit about the future and maybe the very short and then the medium timescale for science, short of changing the boundary of who we are.",
+  "zh": "我想稍微谈谈未来，也许先是科学在很短的时间尺度、然后是中等时间尺度上的未来，暂且不谈改变我们是谁的边界。"
+ },
+ {
+  "seg": 289,
+  "start": 1357.326,
+  "end": 1364.672,
+  "speaker": "Unknown",
+  "en": "So what does it look like to commercialize the first program for you?",
+  "zh": "那么对你来说，将第一个项目商业化是什么样子？"
+ },
+ {
+  "seg": 290,
+  "start": 1364.752,
+  "end": 1368.395,
+  "speaker": "Unknown",
+  "en": "You said that there need to be $100 million run rate businesses in this field.",
+  "zh": "你说过这个领域需要有 1 亿美元运行率(annual run rate)的业务。"
+ },
+ {
+  "seg": 291,
+  "start": 1368.435,
+  "end": 1369.076,
+  "speaker": "Unknown",
+  "en": "How do you get there?",
+  "zh": "你怎么走到那一步？"
+ },
+ {
+  "seg": 292,
+  "start": 1369.516,
+  "end": 1372.979,
+  "speaker": "Unknown",
+  "en": "Yeah, well, I mean, becoming profitable or at least have like",
+  "zh": "是的，我的意思是，实现盈利，或者至少"
+ },
+ {
+  "seg": 293,
+  "start": 1373.88,
+  "end": 1376.702,
+  "speaker": "Unknown",
+  "en": "Having the ability to do this forever is a super high priority.",
+  "zh": "拥有永远做这件事的能力，是一个超级高优先级。"
+ },
+ {
+  "seg": 294,
+  "start": 1377.182,
+  "end": 1380.404,
+  "speaker": "Unknown",
+  "en": "Restoring vision to the blind is a pretty good business if you can actually do that.",
+  "zh": "让盲人重见光明是一门相当好的生意，如果你真的能做到的话。"
+ },
+ {
+  "seg": 295,
+  "start": 1380.645,
+  "end": 1384.207,
+  "speaker": "Unknown",
+  "en": "Especially since almost everyone has the problem as an age-related problem.",
+  "zh": "尤其是几乎每个人都有这个问题，因为它是一个与年龄相关的问题。"
+ },
+ {
+  "seg": 296,
+  "start": 1384.747,
+  "end": 1388.87,
+  "speaker": "Unknown",
+  "en": "Yeah, so AMD, it's like 1 in 2 have some early stage by 80.",
+  "zh": "是的，比如 AMD(黄斑变性)，到 80 岁大约二分之一的人有某种早期阶段。"
+ },
+ {
+  "seg": 297,
+  "start": 1389.391,
+  "end": 1393.834,
+  "speaker": "Unknown",
+  "en": "It's like 1 in 10, 85 that actually have it.",
+  "zh": "85 岁时大约十分之一的人真正患有它。"
+ },
+ {
+  "seg": 298,
+  "start": 1393.854,
+  "end": 1400.978,
+  "speaker": "Unknown",
+  "en": "It is definitely a major issue, and not just vision, but these topics in general affect everybody.",
+  "zh": "这绝对是一个重大问题，而且不只是视力，这些课题总体上影响每一个人。"
+ },
+ {
+  "seg": 299,
+  "start": 1401.319,
+  "end": 1402.539,
+  "speaker": "Unknown",
+  "en": "We don't have",
+  "zh": "我们没有"
+ },
+ {
+  "seg": 300,
+  "start": 1403.84,
+  "end": 1404.943,
+  "speaker": "Unknown",
+  "en": "Firm pricing yet.",
+  "zh": "定价还没确定。"
+ },
+ {
+  "seg": 301,
+  "start": 1405.223,
+  "end": 1410.834,
+  "speaker": "Unknown",
+  "en": "This is a thing that we are being a little cautious about how we talk about publicly because we aren't totally sure yet.",
+  "zh": "这是我们公开谈论时比较谨慎的事情，因为我们还不完全确定。"
+ },
+ {
+  "seg": 302,
+  "start": 1410.854,
+  "end": 1414.081,
+  "speaker": "Unknown",
+  "en": "But the precedents for vision are all",
+  "zh": "但视力方面的先例都是"
+ },
+ {
+  "seg": 303,
+  "start": 1415.228,
+  "end": 1416.91,
+  "speaker": "Unknown",
+  "en": "I mean, I think we could say they're expensive.",
+  "zh": "我是说，我觉得可以说它们很昂贵。"
+ },
+ {
+  "seg": 304,
+  "start": 1416.95,
+  "end": 1425.358,
+  "speaker": "Unknown",
+  "en": "I mean, SecondSight, 10 years ago, they, so there's a company about a decade ago that had a retinal prosthesis that works differently than ours does.",
+  "zh": "我是说，SecondSight,十年前，大约十年前有一家公司做了一种视网膜假体，它的工作原理和我们的不同。"
+ },
+ {
+  "seg": 305,
+  "start": 1425.398,
+  "end": 1431.924,
+  "speaker": "Unknown",
+  "en": "It did not get the type of performance that Prima does, but was briefly approved because, again, there's really nothing for these patients.",
+  "zh": "它没有达到 Prima 那样的性能，但曾被短暂批准过，因为，再说了，这些患者真的没有任何其他选择。"
+ },
+ {
+  "seg": 306,
+  "start": 1431.944,
+  "end": 1434.666,
+  "speaker": "Unknown",
+  "en": "There's always been a lot of enthusiasm for anything that could possibly help them.",
+  "zh": "对于任何可能帮助他们的东西，一直都存在很大的热情。"
+ },
+ {
+  "seg": 307,
+  "start": 1435.547,
+  "end": 1440.009,
+  "speaker": "Unknown",
+  "en": "They didn't get what we call form vision.",
+  "zh": "他们没有得到我们所说的成形视觉。"
+ },
+ {
+  "seg": 308,
+  "start": 1440.049,
+  "end": 1445.271,
+  "speaker": "Unknown",
+  "en": "They didn't get a coherent face or paragraph that your eyes could scan over.",
+  "zh": "他们没有得到一张连贯的脸或一段你的眼睛可以扫视的段落。"
+ },
+ {
+  "seg": 309,
+  "start": 1445.632,
+  "end": 1450.294,
+  "speaker": "Unknown",
+  "en": "They got these flashes of light that patients could look at and think about assembling into what they meant.",
+  "zh": "他们得到的是这些闪光的亮点，患者可以看着它们并思考如何把它们拼装成其含义。"
+ },
+ {
+  "seg": 310,
+  "start": 1451.794,
+  "end": 1456.596,
+  "speaker": "Unknown",
+  "en": "They got paid about $150,000 per patient in the mid-2010s.",
+  "zh": "在 2010 年代中期，他们每位患者获得了大约 15 万美元的支付。"
+ },
+ {
+  "seg": 311,
+  "start": 1457.356,
+  "end": 1466.559,
+  "speaker": "Unknown",
+  "en": "There's a gene therapy that is only relevant in the first place for about 5% of patients in one narrow indication, and it really doesn't work that well.",
+  "zh": "有一种基因疗法，它本来就只对某一狭窄适应症中大约 5% 的患者相关，而且效果真的不太好。"
+ },
+ {
+  "seg": 312,
+  "start": 1466.579,
+  "end": 1468.54,
+  "speaker": "Unknown",
+  "en": "It gets 0.1 lines of improvement.",
+  "zh": "它只能带来 0.1 行的改善。"
+ },
+ {
+  "seg": 313,
+  "start": 1468.56,
+  "end": 1471.181,
+  "speaker": "Unknown",
+  "en": "It kind of slows the rate of degeneration for some patients.",
+  "zh": "它对某些患者来说只是某种程度上减缓了退化的速度。"
+ },
+ {
+  "seg": 314,
+  "start": 1472.301,
+  "end": 1474.942,
+  "speaker": "Unknown",
+  "en": "That reimburses at almost half a million dollars per eye.",
+  "zh": "而它的报销价格接近每只眼睛 50 万美元。"
+ },
+ {
+  "seg": 315,
+  "start": 1475.782,
+  "end": 1482.768,
+  "speaker": "Unknown",
+  "en": "And so there's, I mean, some of this is a function of just how expensive it is to develop these therapies and how high the failure rate has been historically.",
+  "zh": "所以，我是说，其中一部分原因就是开发这些疗法的成本有多高，以及历史上失败率有多高。"
+ },
+ {
+  "seg": 316,
+  "start": 1482.788,
+  "end": 1491.215,
+  "speaker": "Unknown",
+  "en": "And then some of it is that there's just, it is, I mean, vision's a very dominant sense for us.",
+  "zh": "而另一部分原因是，就是，我是说，视力对我们来说是一种非常占主导地位的感官。"
+ },
+ {
+  "seg": 317,
+  "start": 1491.816,
+  "end": 1497.54,
+  "speaker": "Unknown",
+  "en": "If you lose that, that's totally debilitating and restoring it is very important, even just like minimal vision.",
+  "zh": "如果你失去了它，那是完全使人丧失能力的，而恢复它非常重要，哪怕只是最低限度的视力。"
+ },
+ {
+  "seg": 318,
+  "start": 1498.668,
+  "end": 1501.629,
+  "speaker": "Unknown",
+  "en": "So the TAM will grow over time.",
+  "zh": "所以 TAM 会随着时间增长。"
+ },
+ {
+  "seg": 319,
+  "start": 1501.67,
+  "end": 1506.332,
+  "speaker": "Unknown",
+  "en": "For this first version, it's on the scale of like hundreds of thousands of patients in the US and Europe.",
+  "zh": "对于这第一个版本，在美国和欧洲的规模大约是几十万名患者。"
+ },
+ {
+  "seg": 320,
+  "start": 1506.492,
+  "end": 1509.934,
+  "speaker": "Unknown",
+  "en": "So for the current version of FREMA, it's probably hundreds of thousands of patients.",
+  "zh": "所以对于当前版本的 FREMA,大概是几十万名患者。"
+ },
+ {
+  "seg": 321,
+  "start": 1510.414,
+  "end": 1516.677,
+  "speaker": "Unknown",
+  "en": "And then the next version, which is going into animal studies now, will be in humans hopefully next year, should expand that to millions.",
+  "zh": "而下一个版本，现在正进入动物实验，希望明年进入人体试验，应该会把这个数字扩大到数百万。"
+ },
+ {
+  "seg": 322,
+  "start": 1517.589,
+  "end": 1527.66,
+  "speaker": "Unknown",
+  "en": "You said something that surprised me as a intermediate point between vision and, you know, fully understanding consciousness.",
+  "zh": "作为视力和，你知道，完全理解意识之间的一个中间点，你说了一些让我惊讶的话。"
+ },
+ {
+  "seg": 323,
+  "start": 1527.86,
+  "end": 1533.006,
+  "speaker": "Unknown",
+  "en": "How does oncology or other, like, how do other indications fit into the picture in terms of what you might work on?",
+  "zh": "肿瘤学或其他，比如，其他适应症在你们可能研究的方向中是如何 fit into 这个图景的？"
+ },
+ {
+  "seg": 324,
+  "start": 1533.326,
+  "end": 1537.888,
+  "speaker": "Unknown",
+  "en": "I mean, the thing that makes you, the only organ that you can't even in principle transplant is the brain.",
+  "zh": "我是说，让你成为你的那个器官，唯一一个连原则上都无法移植的器官，就是大脑。"
+ },
+ {
+  "seg": 325,
+  "start": 1538.668,
+  "end": 1544.17,
+  "speaker": "Unknown",
+  "en": "The heart, the pancreas, the liver, the lungs, as far as I'm concerned, they're really support characters.",
+  "zh": "心脏、胰腺、肝脏、肺，在我看来，它们真的只是配角。"
+ },
+ {
+  "seg": 326,
+  "start": 1544.53,
+  "end": 1547.791,
+  "speaker": "Unknown",
+  "en": "They're there to keep the brain activity interesting and going.",
+  "zh": "它们的存在是为了让大脑活动保持有趣并进行下去。"
+ },
+ {
+  "seg": 327,
+  "start": 1549.492,
+  "end": 1563.475,
+  "speaker": "Unknown",
+  "en": "I think we're going to get to a point where because the biology is so difficult, I mean, you've got this alien nanotechnology that is around us, that we are completely surrounding us, that we are completely dependent on, that we understand still very poorly.",
+  "zh": "我认为我们会到达这样一个点：因为生物学如此困难，我是说，你面对这种外星般的纳米技术，它围绕着我们，完全包围着我们，我们完全依赖于它，而我们对它的理解仍然非常贫乏。"
+ },
+ {
+  "seg": 328,
+  "start": 1563.935,
+  "end": 1573.318,
+  "speaker": "Unknown",
+  "en": "Instead of needing to solve that, are there ways where we can accomplish the same fundamental goals using a toolbox that humanity is much more advanced in?",
+  "zh": "与其非要解决那个问题，有没有一些方法可以让我们用一个人类远为先进的工具箱来实现同样的根本目标？"
+ },
+ {
+  "seg": 329,
+  "start": 1573.798,
+  "end": 1577.779,
+  "speaker": "Unknown",
+  "en": "And so I'm going to be ultimately fairly disappointed if I'm murdered by my pancreas.",
+  "zh": "所以，如果我最终是被我的胰腺谋杀的，我会相当失望。"
+ },
+ {
+  "seg": 330,
+  "start": 1579.579,
+  "end": 1580.8,
+  "speaker": "Unknown",
+  "en": "I think that's the worldview.",
+  "zh": "我认为这就是那个世界观。"
+ },
+ {
+  "seg": 331,
+  "start": 1580.84,
+  "end": 1582.341,
+  "speaker": "Unknown",
+  "en": "It's that the thing that matters is the brain.",
+  "zh": "就是，重要的东西是大脑。"
+ },
+ {
+  "seg": 332,
+  "start": 1582.461,
+  "end": 1584.283,
+  "speaker": "Unknown",
+  "en": "The brain is the computer that gives us this.",
+  "zh": "大脑是给我们这一切的计算机。"
+ },
+ {
+  "seg": 333,
+  "start": 1585.003,
+  "end": 1594.71,
+  "speaker": "Unknown",
+  "en": "We talk about being a brain in a vat or these upload thought experiments, but that's what the skull is.",
+  "zh": "我们谈论缸中之脑或这些上传思想实验，但颅骨就是那个缸。"
+ },
+ {
+  "seg": 334,
+  "start": 1595.331,
+  "end": 1599.494,
+  "speaker": "Unknown",
+  "en": "The brain is connected to the environment through a small number of wires, the cranial and spinal nerves.",
+  "zh": "大脑通过少量的导线与外部环境相连，即脑神经和脊神经。"
+ },
+ {
+  "seg": 335,
+  "start": 1599.974,
+  "end": 1604.037,
+  "speaker": "Unknown",
+  "en": "The optic nerve is nerve two, vestibular cochlear nerve that carries hearing imbalance is nerve eight.",
+  "zh": "视神经是第二对神经，负责听觉和平衡的前庭耳蜗神经是第八对。"
+ },
+ {
+  "seg": 336,
+  "start": 1604.057,
+  "end": 1605.879,
+  "speaker": "Unknown",
+  "en": "You've got these little cables that carry",
+  "zh": "你有这些小线缆承载着"
+ },
+ {
+  "seg": 337,
+  "start": 1606.799,
+  "end": 1611.102,
+  "speaker": "Unknown",
+  "en": "Your interaction with the world, that world is generated by the brain.",
+  "zh": "你与世界的互动，而那个世界是由大脑生成的。"
+ },
+ {
+  "seg": 338,
+  "start": 1611.783,
+  "end": 1622.49,
+  "speaker": "Unknown",
+  "en": "And so if you can get the visual signal, auditory signal, balance motor, somatosensory motor in and out of the brain, that is an end in itself.",
+  "zh": "所以，如果你能让视觉信号、听觉信号、平衡运动、躯体感觉运动的信号进出大脑，这本身就是目的。"
+ },
+ {
+  "seg": 339,
+  "start": 1622.55,
+  "end": 1623.831,
+  "speaker": "Unknown",
+  "en": "That is the central object.",
+  "zh": "那才是核心对象。"
+ },
+ {
+  "seg": 340,
+  "start": 1624.172,
+  "end": 1624.412,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 341,
+  "start": 1624.892,
+  "end": 1653.137,
+  "speaker": "Unknown",
+  "en": "And through a mix of the BCIs that allow you to kind of change the thing that it's interacting with and our perfusion medicine program, we think that there's ways to significantly improve not just lifespan, but healthspan and kind of create a better quality of life for many patients in ways that I think will feel kind of like a lateral move rather than just solving many of the things that people have seen on the horizon.",
+  "zh": "通过将允许你某种程度上改变它所交互对象脑机接口和我们的灌注医学项目相结合，我们认为有一些方法可以显著改善的不仅是寿命，还有健康寿命，并为许多患者创造更好的生活质量，其方式我觉得会感觉更像是一种横向移动，而不是直接解决人们已经在地平线上看到的那些问题。"
+ },
+ {
+  "seg": 342,
+  "start": 1653.892,
+  "end": 1668.466,
+  "speaker": "Unknown",
+  "en": "For people who are interested in working at or investing in science, if you are successful, what will be the change to the human experience 20 years from now besides you not worrying about your pancreas as much?",
+  "zh": "对于那些有兴趣在科学领域工作或投资的人来说，如果你们成功了，20 年后人类体验会发生什么变化，除了你不用那么担心你的胰腺之外？"
+ },
+ {
+  "seg": 343,
+  "start": 1668.706,
+  "end": 1669.647,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, that's it.",
+  "zh": "是的，我是说，就是这样。"
+ },
+ {
+  "seg": 344,
+  "start": 1669.667,
+  "end": 1670.168,
+  "speaker": "Unknown",
+  "en": "There's the...",
+  "zh": "还有那……"
+ },
+ {
+  "seg": 345,
+  "start": 1673.062,
+  "end": 1675.984,
+  "speaker": "Unknown",
+  "en": "There's a fragility that we all live...",
+  "zh": "有一种脆弱性，我们都生活在……"
+ },
+ {
+  "seg": 346,
+  "start": 1676.004,
+  "end": 1679.207,
+  "speaker": "Unknown",
+  "en": "There's this jeopardy that we all live under as part of the human condition.",
+  "zh": "作为人类处境的一部分，我们都生活在这样一种危险之中。"
+ },
+ {
+  "seg": 347,
+  "start": 1680.068,
+  "end": 1684.571,
+  "speaker": "Unknown",
+  "en": "And I think that if we're successful, what will happen is that sense of jeopardy will fade.",
+  "zh": "而我认为，如果我们成功了，将会发生的是那种危险感会消退。"
+ },
+ {
+  "seg": 348,
+  "start": 1685.352,
+  "end": 1687.333,
+  "speaker": "Unknown",
+  "en": "We will just become much less fragile.",
+  "zh": "我们会变得远没有那么脆弱。"
+ },
+ {
+  "seg": 349,
+  "start": 1688.254,
+  "end": 1691.316,
+  "speaker": "Unknown",
+  "en": "We will have the ability to upgrade and replace parts of ourselves.",
+  "zh": "我们将拥有升级和替换自身部件的能力。"
+ },
+ {
+  "seg": 350,
+  "start": 1691.837,
+  "end": 1693.458,
+  "speaker": "Unknown",
+  "en": "So neurodegeneration, we don't know about.",
+  "zh": "所以神经退行性疾病,我们还不知道。"
+ },
+ {
+  "seg": 351,
+  "start": 1693.478,
+  "end": 1695.46,
+  "speaker": "Unknown",
+  "en": "That one still seems... That's still difficult.",
+  "zh": "那个仍然显得……那仍然是困难的。"
+ },
+ {
+  "seg": 352,
+  "start": 1695.48,
+  "end": 1697.421,
+  "speaker": "Unknown",
+  "en": "That still needs real investment.",
+  "zh": "那仍然需要真正的投入。"
+ },
+ {
+  "seg": 353,
+  "start": 1697.881,
+  "end": 1702.285,
+  "speaker": "Unknown",
+  "en": "The two leading causes of death, though, are cardiovascular disease and cancer, not metastasized to the brain.",
+  "zh": "不过,两大主要死因是心血管疾病和癌症,还没转移到脑部的。"
+ },
+ {
+  "seg": 354,
+  "start": 1702.785,
+  "end": 1707.807,
+  "speaker": "Unknown",
+  "en": "And I think both of those are going to be really attackable through this type of work.",
+  "zh": "而且我认为这两者都将通过这类工作变得真正可以被攻克的。"
+ },
+ {
+  "seg": 355,
+  "start": 1708.508,
+  "end": 1716.852,
+  "speaker": "Unknown",
+  "en": "The other extreme is if we are serious about exploring the universe and going to the stars, we are going to have to adapt ourselves to that environment.",
+  "zh": "另一个极端是,如果我们认真对待探索宇宙、前往星辰这件事,我们将不得不让自身去适应那个环境。"
+ },
+ {
+  "seg": 356,
+  "start": 1716.872,
+  "end": 1719.073,
+  "speaker": "Unknown",
+  "en": "We're not going to export Earth with us everywhere we go.",
+  "zh": "我们不可能走到哪儿都把地球随身带着。"
+ },
+ {
+  "seg": 357,
+  "start": 1719.893,
+  "end": 1723.715,
+  "speaker": "Unknown",
+  "en": "And these bodies are great, but they're designed for this planet.",
+  "zh": "这些身体很棒,但它们是为这个星球设计的。"
+ },
+ {
+  "seg": 358,
+  "start": 1723.735,
+  "end": 1728.617,
+  "speaker": "Unknown",
+  "en": "And adapting ourselves to the hard vacuum of space is definitely going to be",
+  "zh": "而让自身适应太空的硬真空环境肯定会是——"
+ },
+ {
+  "seg": 359,
+  "start": 1730.598,
+  "end": 1732.179,
+  "speaker": "Unknown",
+  "en": "I think the thing that we want to do in the long run.",
+  "zh": "我认为这是我们长远想要做的事情。"
+ },
+ {
+  "seg": 360,
+  "start": 1732.719,
+  "end": 1733.94,
+  "speaker": "Unknown",
+  "en": "And ultimately, those are the same.",
+  "zh": "而归根结底,这两者是一样的。"
+ },
+ {
+  "seg": 361,
+  "start": 1733.98,
+  "end": 1734.86,
+  "speaker": "Unknown",
+  "en": "Those are the same project.",
+  "zh": "它们是同一个项目。"
+ },
+ {
+  "seg": 362,
+  "start": 1735.52,
+  "end": 1738.362,
+  "speaker": "Unknown",
+  "en": "Being able to preserve yourself and being able to adapt.",
+  "zh": "能够保存自己,并且能够适应。"
+ },
+ {
+  "seg": 363,
+  "start": 1738.502,
+  "end": 1740.503,
+  "speaker": "Unknown",
+  "en": "Swappable parts and substrate independence.",
+  "zh": "可替换的部件和基质独立性。"
+ },
+ {
+  "seg": 364,
+  "start": 1740.523,
+  "end": 1740.763,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 365,
+  "start": 1740.903,
+  "end": 1741.063,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 366,
+  "start": 1741.623,
+  "end": 1742.444,
+  "speaker": "Unknown",
+  "en": "Substrate independence.",
+  "zh": "基质独立性。"
+ },
+ {
+  "seg": 367,
+  "start": 1742.484,
+  "end": 1743.204,
+  "speaker": "Unknown",
+  "en": "I'll use that phrase.",
+  "zh": "我要用这个说法。"
+ },
+ {
+  "seg": 368,
+  "start": 1744.042,
+  "end": 1755.568,
+  "speaker": "Unknown",
+  "en": "The simplest premise for a company in the BCI domain today is like you can in some way invasively, non-invasively talk to an AI model in like a high bandwidth way.",
+  "zh": "如今在 BCI 领域,一家公司最简单的立论前提就是:你可以以某种方式,侵入式或非侵入式地,以高带宽的方式与一个 AI 模型对话。"
+ },
+ {
+  "seg": 369,
+  "start": 1756.068,
+  "end": 1757.809,
+  "speaker": "Unknown",
+  "en": "That is not your focus of interest.",
+  "zh": "那不是你们关注的焦点。"
+ },
+ {
+  "seg": 370,
+  "start": 1757.929,
+  "end": 1758.169,
+  "speaker": "Unknown",
+  "en": "Why?",
+  "zh": "为什么?"
+ },
+ {
+  "seg": 371,
+  "start": 1758.569,
+  "end": 1758.77,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "嗯。"
+ },
+ {
+  "seg": 372,
+  "start": 1759.13,
+  "end": 1762.992,
+  "speaker": "Unknown",
+  "en": "Well, I mean, first of all, I think that talking or writing is thinking.",
+  "zh": "好吧,我的意思是,首先,我认为说话或写作就是思考。"
+ },
+ {
+  "seg": 373,
+  "start": 1763.232,
+  "end": 1771.416,
+  "speaker": "Unknown",
+  "en": "I think this idea that there's the stuff that's just this kind of preformed in your brain that if you could access it through BCI, it would be faster is probably not the case.",
+  "zh": "我认为那种想法——就是那种在你脑中已经预先成形、如果你能通过 BCI 访问它就会更快的东西——很可能并非如此。"
+ },
+ {
+  "seg": 374,
+  "start": 1771.676,
+  "end": 1774.259,
+  "speaker": "Unknown",
+  "en": "You don't think there's some special latent state that's not language?",
+  "zh": "你不认为存在某种不是语言的特殊潜在状态吗?"
+ },
+ {
+  "seg": 375,
+  "start": 1774.72,
+  "end": 1778.144,
+  "speaker": "Unknown",
+  "en": "No, I think that it feels like...",
+  "zh": "不,我觉得它感觉起来是……"
+ },
+ {
+  "seg": 376,
+  "start": 1779.443,
+  "end": 1784.024,
+  "speaker": "Unknown",
+  "en": "It'll feel like it's fully formed, but until you really sit down and try to write it out, it isn't really.",
+  "zh": "它会感觉是已经完全成形的,但直到你真正坐下来试着把它写出来之前,它其实并不是。"
+ },
+ {
+  "seg": 377,
+  "start": 1784.084,
+  "end": 1785.604,
+  "speaker": "Unknown",
+  "en": "And I think that feeling is misleading.",
+  "zh": "而且我认为那种感觉是误导性的。"
+ },
+ {
+  "seg": 378,
+  "start": 1786.124,
+  "end": 1790.365,
+  "speaker": "Unknown",
+  "en": "And so there's this 10-bit per second kind of famous cognitive bottleneck.",
+  "zh": "于是就有了这个著名的每秒 10 比特的认知瓶颈。"
+ },
+ {
+  "seg": 379,
+  "start": 1790.525,
+  "end": 1793.726,
+  "speaker": "Unknown",
+  "en": "There's this observation that the brain seems to process information.",
+  "zh": "有这样一个观察:大脑似乎处理信息时——"
+ },
+ {
+  "seg": 380,
+  "start": 1794.586,
+  "end": 1795.926,
+  "speaker": "Unknown",
+  "en": "There's a bunch of ways you can triangulate this.",
+  "zh": "有很多方法可以对这一点进行三角验证。"
+ },
+ {
+  "seg": 381,
+  "start": 1795.946,
+  "end": 1802.307,
+  "speaker": "Unknown",
+  "en": "You can put somebody with a perfect memory on a helicopter ride over Manhattan, ask them to draw what they saw, and then you look at all the details.",
+  "zh": "你可以让一个拥有完美记忆力的人乘直升机飞越曼哈顿上空,让他画出看到的东西,然后你去看所有的细节。"
+ },
+ {
+  "seg": 382,
+  "start": 1802.347,
+  "end": 1804.848,
+  "speaker": "Unknown",
+  "en": "It works to about 10 bits per second over a course of an hour or two.",
+  "zh": "在一到两个小时的过程中,它大致是每秒 10 比特。"
+ },
+ {
+  "seg": 383,
+  "start": 1805.915,
+  "end": 1809.196,
+  "speaker": "Unknown",
+  "en": "There's a bunch of different independent lines of evidence for this.",
+  "zh": "关于这一点有一系列不同的独立证据。"
+ },
+ {
+  "seg": 384,
+  "start": 1809.776,
+  "end": 1813.876,
+  "speaker": "Unknown",
+  "en": "So there's some deeply evolved cognitive bottleneck about that.",
+  "zh": "所以这里存在某种深度演化出来的认知瓶颈。"
+ },
+ {
+  "seg": 385,
+  "start": 1813.896,
+  "end": 1815.457,
+  "speaker": "Unknown",
+  "en": "And I think that this kind of rolls up through language.",
+  "zh": "而我认为这一瓶颈通过语言一路贯穿下来。"
+ },
+ {
+  "seg": 386,
+  "start": 1815.977,
+  "end": 1826.919,
+  "speaker": "Unknown",
+  "en": "But even if you take that, it probably would be nice to be able to walk down the street with a cap on and ask questions to my AI through monologue.",
+  "zh": "但即便如此,能戴着某种头戴设备走在街上、通过内心独白向我的 AI 提问,大概也很不错。"
+ },
+ {
+  "seg": 387,
+  "start": 1826.939,
+  "end": 1827.839,
+  "speaker": "Unknown",
+  "en": "That might be possible.",
+  "zh": "那有可能是可行的。"
+ },
+ {
+  "seg": 388,
+  "start": 1828.259,
+  "end": 1832.44,
+  "speaker": "Unknown",
+  "en": "There's probably some combination of EEG and MEG that might be capable of this.",
+  "zh": "EEG 和 MEG 的某种组合可能有能力做到这一点。"
+ },
+ {
+  "seg": 389,
+  "start": 1834.22,
+  "end": 1836.442,
+  "speaker": "Unknown",
+  "en": "That is still just like a different type of product.",
+  "zh": "但那仍然只是一种不同类型的产品。"
+ },
+ {
+  "seg": 390,
+  "start": 1836.962,
+  "end": 1838.243,
+  "speaker": "Unknown",
+  "en": "That is not the thing we are trying.",
+  "zh": "那不是我们正在尝试的事情。"
+ },
+ {
+  "seg": 391,
+  "start": 1838.263,
+  "end": 1841.505,
+  "speaker": "Unknown",
+  "en": "Like a brain keyboard is, it might be valuable.",
+  "zh": "像一个大脑键盘这样的东西,它可能是有价值的。"
+ },
+ {
+  "seg": 392,
+  "start": 1841.705,
+  "end": 1850.191,
+  "speaker": "Unknown",
+  "en": "It might turn out to be like AR glasses where it's just, our attention was already fully 100% occupied and putting it on the face didn't really change that.",
+  "zh": "它可能会变成类似 AR 眼镜那样的东西——我们的注意力本来就已经 100% 完全被占据了,把它放到脸上并没有真正改变这一点。"
+ },
+ {
+  "seg": 393,
+  "start": 1850.231,
+  "end": 1851.932,
+  "speaker": "Unknown",
+  "en": "We were already consuming all of the available time.",
+  "zh": "我们本来就已经在消耗所有可用的时间了。"
+ },
+ {
+  "seg": 394,
+  "start": 1852.572,
+  "end": 1857.356,
+  "speaker": "Unknown",
+  "en": "But at the other end of that spectrum are things like",
+  "zh": "但在那个光谱的另一端,是一些像"
+ },
+ {
+  "seg": 395,
+  "start": 1858.349,
+  "end": 1863.854,
+  "speaker": "Unknown",
+  "en": "generating vision or generating hearing or achieving substrate independence.",
+  "zh": "生成视觉、生成听觉或实现基质独立性这样的事情。"
+ },
+ {
+  "seg": 396,
+  "start": 1864.274,
+  "end": 1867.677,
+  "speaker": "Unknown",
+  "en": "Those are the things that we are focused on, not brain keyboard.",
+  "zh": "那些才是我们专注于的事情,而不是大脑键盘。"
+ },
+ {
+  "seg": 397,
+  "start": 1868.637,
+  "end": 1877.665,
+  "speaker": "Unknown",
+  "en": "Both of these are potentially BCI problems or products, but very different types of companies that will build them, just as I think you have a huge range of drug companies.",
+  "zh": "这两者都可能是 BCI 问题或产品,但将会构建它们的公司是非常不同类型的,就像我认为制药公司有着巨大的跨度一样。"
+ },
+ {
+  "seg": 398,
+  "start": 1880.773,
+  "end": 1882.914,
+  "speaker": "Unknown",
+  "en": "Find us on Twitter at NoPriorsPod.",
+  "zh": "在 Twitter 上找我们:NoPriorsPod。"
+ },
+ {
+  "seg": 399,
+  "start": 1883.354,
+  "end": 1885.855,
+  "speaker": "Unknown",
+  "en": "Subscribe to our YouTube channel if you want to see our faces.",
+  "zh": "如果你想看到我们的脸,请订阅我们的 YouTube 频道。"
+ },
+ {
+  "seg": 400,
+  "start": 1886.375,
+  "end": 1889.857,
+  "speaker": "Unknown",
+  "en": "Follow the show on Apple Podcasts, Spotify, or wherever you listen.",
+  "zh": "在 Apple Podcasts、Spotify 或任何你收听播客的平台上关注本节目。"
+ },
+ {
+  "seg": 401,
+  "start": 1890.077,
+  "end": 1891.698,
+  "speaker": "Unknown",
+  "en": "That way you get a new episode every week.",
+  "zh": "这样你每周都能收到新的一集。"
+ },
+ {
+  "seg": 402,
+  "start": 1892.198,
+  "end": 1896.58,
+  "speaker": "Unknown",
+  "en": "And sign up for emails or find transcripts for every episode at no-priors.com.",
+  "zh": "并在 no-priors.com 注册邮件或查找每一集的文字稿。"
+ }
+]

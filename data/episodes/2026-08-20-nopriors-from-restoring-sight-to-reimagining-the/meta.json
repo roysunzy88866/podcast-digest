@@ -1,0 +1,27 @@
+{
+  "id": "2026-08-20-nopriors-from-restoring-sight-to-reimagining-the",
+  "audio_mp3": "https://traffic.megaphone.fm/PDP1497116966.mp3",
+  "duration_sec": 1896.58,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 403,
+  "asr": true,
+  "title_en": "From Restoring Sight to Reimagining the Brain, with Max Hodak",
+  "podcast": "No Priors",
+  "date": "2026-08-20",
+  "cover_official_url": "https://megaphone.imgix.net/podcasts/8ec6281a-9c1a-11f1-b9ab-fb1fa4061363/image/6c9c9d77fea402413689d77ccbaa8d48.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+  "added": "2026-10-19",
+  "added_at": "2026-10-18T23:50:07.012Z",
+  "speaker_map": {
+    "SPEAKER_00": "Max Hodak"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Max Hodak"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "让盲人重新看见：Max Hodak 为什么说大脑就是一台计算机",
+  "guest_name": "Max Hodak",
+  "guest_title": "Science 创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

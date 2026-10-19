@@ -1,0 +1,239 @@
+{
+  "title_zh": "40 家机构拒绝过他，现在他要重塑整个资本市场",
+  "tldr": "Rogo 创始人 Gabe Stengel 做客 Invest Like the Best，讲 AI 如何一步步吃掉金融行业的核心工作。",
+  "digest_md": "Gabe Stengel 是 Rogo 的创始人。这家公司做的是给投行和投资机构的 AI 平台——用他自己的话说，就是想造出投资界的超级智能。他曾在投行做过几年并购业务，后来押注 AI 会彻底改造金融行业。在这期和 Patrick O'Shaughnessy 的对谈里，他讲了模型进化如何让产品从根本没法用变成魔法，也讲了自己被 40 家投资机构连续拒绝的经历。\n\n## AI 产品为什么先难用后魔法？\n\nRogo 不是一次就做成的。Stengel 在高中和大学时各尝试过一次，用的都是旧式 AI 技术，全都失败了。真正的起点是 GPT-3 发布、ChatGPT 问世之前。\n\n但即便如此，早期产品依然很糟。他坦言，真正可用的转折点有 2 个：一是 o1 Pro 模型出现后，至少当搜索工具够可靠了，你可以让它算一家公司过去 12 个季度的财务指标，不用烦到宁愿自己做；二是 Opus 4.5 出现后，模型基本上能完成初级投行人员的所有工作——只要你给对指令和上下文 [04:16 Stengel]。\n\n他由此得出一个观察：**很多应用型 AI 公司都有先发劣势**——你判断对了终局，但模型还没到那一步，用户试一下就说这是垃圾。而如果你真的看对了方向，等模型追上来，产品会突然变得像魔法。\n\n## 最酷的玩法：一万个人格辩论 24 小时，只给你一个想法\n\n被问到最前沿的能力，Stengel 描绘了一个画面：想象一只对冲基金的每位基金经理手下有 10000 个智能体，它们互相讨论、读研报、争论，24 小时辩论之后，只交出一个投资想法。\n\n为什么只有金融玩得起这种烧钱打法？因为投资者愿意为一个好想法付 5 万美元——很少有别的领域，愿意为单一洞察烧这么多算力 [07:07 Stengel]。\n\n他认为**现在的瓶颈根本不是智能**。模型已经比他认识的任何人都聪明，难的是管道工程：怎么把模型接到你的数据、你的投资逻辑、你的工作方式上。\n\n## 谁在用？交易撮合者，而不是炒股的\n\n一个反直觉的事实：虽然公开股票市场数据最全、看似最适合 AI，但 Rogo 的核心用户是做交易的人——买卖公司、撮合并购的那批人。他们用 Rogo 准备数据库资料室、拆解尽职调查材料、跑完从接触到交割的全流程。\n\nStengel 说，待在撮合交易这个垂直领域有挖不完的深度，因为私人市场全靠人来协调和标准化，AI 有大量脏活可干；而公开市场的基础设施早就建好了 [11:11 Stengel]。这对所有想在垂直行业做 AI 的创业者是个启示：**去找那些管道还没建的行业**。\n\n小细节决定成败。一个例子：让投行的董事总经理把要改的幻灯片用邮件发过来——这正是他们习惯的工作方式——AI 分析师 20 分钟内返回修改稿，而不是分析师花两天。那位十年没登录过电脑、只用 iPad 批注的高管，就这样自然地用上了 AI。\n\n## 怎么和 OpenAI、Anthropic 竞争？\n\nStengel 的答案是：造垂直的东西，造那些大实验室永远不会造的东西。金融是一堆细分领域的集合，各有各的数据、监管、合规要求。他把这些生意比作 Anthropic 眼中的路边的 1 分钱——他们正忙着从 1000 亿美元冲向 1 万亿美元营收，没空去建一个合规数据库资料室业务 [18:32 Stengel]。\n\n他强调，**最关键的不是模型本身，而是挽具（harness）**——把模型套上工具、流程和系统的那层工程。Claude Code 和 ChatGPT 背后的模型其实差不多，但用法设计的天差地别决定了各自的成功。他的团队不断推倒重建核心的智能体系统，就像每年重写账本技术那样。\n\n> 【背景】此处原稿疑似提及 Max Levchin 在 Affirm 每年重写账本技术的做法；该专名未出现在本段原文转写稿中，已从正文移出。\n\n## 被拒绝 40 次是什么滋味\n\n融 A 轮时，早期投资人 David Tisch 把他介绍给 40 家顶级机构——Sequoia、Kleiner、Benchmark，他全见了。每家都经历了从见面对谈到请他过周末的全流程，然后全部拒绝。他形容这就像被 40 个女朋友分手[47:10 Stengel]。\n\n他复盘了 3 个原因：硅谷对金融市场的规模没直觉；产品当时确实很差，投资人自己试用一半时间是错的；以及没人相信他能搞定。最后一位投资人一个月后投了进来，理由是：这就是金融版的 Harvey，为什么不做？\n\n## 什么样的公司会被淘汰？\n\nStengel 认为金融行业正迎来久违的创新者的窘境：过去 10 到 20 年这个行业过得太舒服，而现在，一批 AI 原生的投资机构、投行将要攻击传统玩家的商业模式 [51:52 Stengel]。\n\n他给传统机构的建议是：如果你知道今天公司 90% 的价值在人身上，而 10 年后最好的机构 90% 的价值会在软件、数据和系统里，你会怎么做？答案是**尽快把最好的人脑子里的隐性知识，装进自己拥有并自主运营的系统里**。\n\n在他自己公司，内部有个叫 Shrek 的公司大脑：所有对话被记录进这个系统，任何新人都能调出三周前一位从未谋面的亚太同事的客户谈话。每个月他还公布各部门 AI 工具使用率的排名，垫底者会得到一顶 printed 出来的笨学生帽贴在办公室——是玩笑，但新员工真的会害怕。\n\n## 本集带走\n\n- 应用型 AI 公司常有先发劣势：看对了终局但模型没跟上，产品会先烂后魔法，关键是不放弃对终局的判断。\n- 垂直 AI 的护城河在大实验室不愿造的脏活里：合规、管道、行业专属工作流——金融尤其如此。\n- 比起准确性，可审计性更重要：能看清每个结论的来龙去脉，用户才敢信任并使用。\n- 模型能力已经超前，瓶颈是上下文和管道工程；而记忆压缩——智能体如何长期记住你——仍是未解难题。\n- 金融行业的创新者窘境已经到来：人才和知识若不尽快沉淀进自有系统，机构将输给 AI 原生的挑战者。",
+  "quotes": [
+    {
+      "en": "I think figuring out how to apply AI into the investment life cycle is the biggest challenge over the next five years for every great investor.",
+      "zh": "我认为，弄清楚如何把 AI 应用于投资生命周期，是未来五年每一个伟大投资者面临的最大挑战。",
+      "timestamp": "02:45",
+      "speaker": "Gabe Stengel"
+    },
+    {
+      "en": "I mean, I think there was a first mover's disadvantage for a lot of applied AI companies because you thought you knew where the world was going and you wanted to build a product for it, but the models weren't quite there.",
+      "zh": "我是说，我认为对很多应用型 AI 公司来说，存在一种先发者的劣势，因为你以为你知道世界正走向何方，并想为它打造一个产品，但模型还没到那个程度。",
+      "timestamp": "04:49",
+      "speaker": "Gabe Stengel"
+    },
+    {
+      "en": "For us, we saw that too, but now what we've seen is, well, if you were right about the end state and where the models were going and you were building towards that, when they get there, it's magical.",
+      "zh": "对我们来说，我们也看到了这一点，但现在我们所看到的是，如果你对最终状态、对模型的发展方向判断正确，并且一直在朝那个方向构建，那么当模型到达那里时，就是魔法般的体验。",
+      "timestamp": "05:03",
+      "speaker": "Gabe Stengel"
+    },
+    {
+      "en": "Imagine if every PM at a hedge fund had 10,000 agents that were just kind of fraternizing, talking about ideas, reading through the notes, pontificating, and then at the end of 24 hours of debate, just gave you one idea.",
+      "zh": "想象一下，如果一家对冲基金的每一位 PM 都拥有一万个智能体，它们只是互相交流、讨论想法、阅读笔记、高谈阔论，然后在 24 小时的辩论结束后，只给你一个想法。",
+      "timestamp": "07:01",
+      "speaker": "Gabe Stengel"
+    },
+    {
+      "en": "And the reason you're able to do that is because investors are happy to pay $50,000 for one really good idea, whereas there's very few other domains where you can expand that many tokens just for one simple insight.",
+      "zh": "而你之所以能做到这一点，是因为投资者乐意为一个好想法支付 5 万美元，而在很少有其他领域里，你可以为了一个简单的洞见消耗那么多 token。",
+      "timestamp": "07:14",
+      "speaker": "Gabe Stengel"
+    },
+    {
+      "en": "What we're seeing right now, though, is that the models are smarter than anyone I know, anyone I spend time with, and it's plumbing.",
+      "zh": "不过我们现在看到的是，模型比我认识的任何人都聪明，而关键在于管道。",
+      "timestamp": "07:25",
+      "speaker": "Gabe Stengel"
+    },
+    {
+      "en": "So one takeaway from that would be a lot of the opportunity to build an AI business in a vertical is somewhere where there's lots of plumbing that's not yet built.",
+      "zh": "所以其中一个收获是，在一个垂直领域构建 AI 业务的很多机会，存在于那些还没有建立大量管道系统的地方。",
+      "timestamp": "11:59",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "en": "I think it's actually more important to be auditable than it is to be accurate.",
+      "zh": "我认为实际上可审计比准确更重要。",
+      "timestamp": "34:41",
+      "speaker": "Gabe Stengel"
+    },
+    {
+      "en": "I mean, you want to build things that are perpendicular to what they want to build.",
+      "zh": "我是说，你要构建与它们想构建的东西垂直的东西。",
+      "timestamp": "17:46",
+      "speaker": "Gabe Stengel"
+    },
+    {
+      "en": "That for Anthropic would kind of be like stopping on the side of the road to pick up a penny because they're on the pathway of trying to go from 100 billion in revenue to a trillion in revenue.",
+      "zh": "那对 Anthropic 来说有点像在路边停下来捡一枚硬币，因为它们正走在试图从 1000 亿收入迈向 1 万亿收入的道路上。",
+      "timestamp": "18:32",
+      "speaker": "Gabe Stengel"
+    },
+    {
+      "en": "There's a lot of industries where riding the coattails of token consumption isn't going to work for enterprise sales, and we're one of those.",
+      "zh": "有很多行业，搭 token 消耗的顺风车在企业销售上行不通，我们就是其中之一。",
+      "timestamp": "26:04",
+      "speaker": "Gabe Stengel"
+    },
+    {
+      "en": "The reality is, is we are 1% of the way into our product roadmap.",
+      "zh": "现实是，我们只走了产品路线图的 1%。",
+      "timestamp": "27:53",
+      "speaker": "Gabe Stengel"
+    },
+    {
+      "en": "I think it'll take five minutes for KKR to figure out, can I sell this portfolio company to another sponsor? Not five months.",
+      "zh": "我认为 KKR 搞清楚「我能不能把这个投资组合公司卖给另一个赞助商」只需要五分钟，而不是五个月。",
+      "timestamp": "29:19",
+      "speaker": "Gabe Stengel"
+    },
+    {
+      "en": "Well, now if you have a banker that can be a deal team of one, well, maybe you can enter parts of the market that before just made no sense.",
+      "zh": "那么，现在如果你有一个银行家可以成为一人交易团队，那么也许你可以进入那些以前完全没有意义的市场部分。",
+      "timestamp": "33:45",
+      "speaker": "Gabe Stengel"
+    },
+    {
+      "en": "The answer was no. And the reason it wasn't aggressive enough is because I was being soft.",
+      "zh": "答案是不够。而它之所以不够进取，是因为我心软了。",
+      "timestamp": "44:48",
+      "speaker": "Gabe Stengel"
+    },
+    {
+      "en": "It's fine if it gets 30% more likelihood that I fail, if the odds that I become a $100 billion company also increase by 20%.",
+      "zh": "如果我失败的可能性增加 30% 没关系，只要我成为一家千亿美元公司的几率也增加 20%。",
+      "timestamp": "45:04",
+      "speaker": "Gabe Stengel"
+    },
+    {
+      "en": "And in 10 years, the world's best investment firms, best banks will have 90% of their enterprise value, not in people, but in software and data and systems.",
+      "zh": "而在十年后，世界上最好的投资公司、最好的银行将有 90% 的企业价值不是在人身上，而是在软件、数据和系统上。",
+      "timestamp": "55:12",
+      "speaker": "Gabe Stengel"
+    },
+    {
+      "en": "But the businesses that do it are gonna become black holes for talent and capital and brand.",
+      "zh": "但做到这一点的企业会成为人才、资本和品牌黑洞。",
+      "timestamp": "61:21",
+      "speaker": "Gabe Stengel"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "02:45",
+      "speaker": "Unknown",
+      "en": "I think figuring out how to apply AI into the investment life cycle is the biggest challenge over the next five years for every great investor.",
+      "zh": "我认为，弄清楚如何把 AI 应用于投资生命周期，是未来五年每一个伟大投资者面临的最大挑战。"
+    },
+    {
+      "timestamp": "04:49",
+      "speaker": "Unknown",
+      "en": "I mean, I think there was a first mover's disadvantage for a lot of applied AI companies because you thought you knew where the world was going and you wanted to build a product for it, but the models weren't quite there.",
+      "zh": "我是说，我认为对很多应用型 AI 公司来说，存在一种先发者的劣势，因为你以为你知道世界正走向何方，并想为它打造一个产品，但模型还没到那个程度。"
+    },
+    {
+      "timestamp": "05:03",
+      "speaker": "Unknown",
+      "en": "For us, we saw that too, but now what we've seen is, well, if you were right about the end state and where the models were going and you were building towards that, when they get there, it's magical.",
+      "zh": "对我们来说，我们也看到了这一点，但现在我们所看到的是，如果你对最终状态、对模型的发展方向判断正确，并且一直在朝那个方向构建，那么当模型到达那里时，就是魔法般的体验。"
+    },
+    {
+      "timestamp": "07:01",
+      "speaker": "Unknown",
+      "en": "Imagine if every PM at a hedge fund had 10,000 agents that were just kind of fraternizing, talking about ideas, reading through the notes, pontificating, and then at the end of 24 hours of debate, just gave you one idea.",
+      "zh": "想象一下，如果一家对冲基金的每一位 PM 都拥有一万个智能体，它们只是互相交流、讨论想法、阅读笔记、高谈阔论，然后在 24 小时的辩论结束后，只给你一个想法。"
+    },
+    {
+      "timestamp": "07:14",
+      "speaker": "Unknown",
+      "en": "And the reason you're able to do that is because investors are happy to pay $50,000 for one really good idea, whereas there's very few other domains where you can expand that many tokens just for one simple insight.",
+      "zh": "而你之所以能做到这一点，是因为投资者乐意为一个好想法支付 5 万美元，而在很少有其他领域里，你可以为了一个简单的洞见消耗那么多 token。"
+    },
+    {
+      "timestamp": "07:25",
+      "speaker": "Unknown",
+      "en": "What we're seeing right now, though, is that the models are smarter than anyone I know, anyone I spend time with, and it's plumbing.",
+      "zh": "不过我们现在看到的是，模型比我认识的任何人都聪明，而关键在于管道。"
+    },
+    {
+      "timestamp": "11:59",
+      "speaker": "Unknown",
+      "en": "So one takeaway from that would be a lot of the opportunity to build an AI business in a vertical is somewhere where there's lots of plumbing that's not yet built.",
+      "zh": "所以其中一个收获是，在一个垂直领域构建 AI 业务的很多机会，存在于那些还没有建立大量管道系统的地方。"
+    },
+    {
+      "timestamp": "13:41",
+      "speaker": "Unknown",
+      "en": "I think it's actually more important to be auditable than it is to be accurate.",
+      "zh": "我认为实际上可审计比准确更重要。"
+    },
+    {
+      "timestamp": "17:46",
+      "speaker": "Unknown",
+      "en": "I mean, you want to build things that are perpendicular to what they want to build.",
+      "zh": "我是说，你要构建与它们想构建的东西垂直的东西。"
+    },
+    {
+      "timestamp": "18:32",
+      "speaker": "Unknown",
+      "en": "That for Anthropic would kind of be like stopping on the side of the road to pick up a penny because they're on the pathway of trying to go from 100 billion in revenue to a trillion in revenue.",
+      "zh": "那对 Anthropic 来说有点像在路边停下来捡一枚硬币，因为它们正走在试图从 1000 亿收入迈向 1 万亿收入的道路上。"
+    },
+    {
+      "timestamp": "20:26",
+      "speaker": "Unknown",
+      "en": "And it just shows that the way that you harness these models is so, so important.",
+      "zh": "这恰恰说明你驾驭这些模型的方式是如此、如此重要。"
+    },
+    {
+      "timestamp": "26:04",
+      "speaker": "Unknown",
+      "en": "There's a lot of industries where riding the coattails of token consumption isn't going to work for enterprise sales, and we're one of those.",
+      "zh": "有很多行业，搭 token 消耗的顺风车在企业销售上行不通，我们就是其中之一。"
+    },
+    {
+      "timestamp": "26:46",
+      "speaker": "Unknown",
+      "en": "I think that every business needs to go through two different pricing revolutions.",
+      "zh": "我认为每项业务都需要经历两次不同的定价革命。"
+    },
+    {
+      "timestamp": "27:53",
+      "speaker": "Unknown",
+      "en": "The reality is, is we are 1% of the way into our product roadmap.",
+      "zh": "现实是，我们只走了产品路线图的 1%。"
+    },
+    {
+      "timestamp": "29:19",
+      "speaker": "Unknown",
+      "en": "I think it'll take five minutes for KKR to figure out, can I sell this portfolio company to another sponsor? Not five months.",
+      "zh": "我认为 KKR 搞清楚「我能不能把这个投资组合公司卖给另一个赞助商」只需要五分钟，而不是五个月。"
+    },
+    {
+      "timestamp": "33:45",
+      "speaker": "Unknown",
+      "en": "Well, now if you have a banker that can be a deal team of one, well, maybe you can enter parts of the market that before just made no sense.",
+      "zh": "那么，现在如果你有一个银行家可以成为一人交易团队，那么也许你可以进入那些以前完全没有意义的市场部分。"
+    },
+    {
+      "timestamp": "44:48",
+      "speaker": "Unknown",
+      "en": "The answer was no. And the reason it wasn't aggressive enough is because I was being soft.",
+      "zh": "答案是不够。而它之所以不够进取，是因为我心软了。"
+    },
+    {
+      "timestamp": "45:04",
+      "speaker": "Unknown",
+      "en": "It's fine if it gets 30% more likelihood that I fail, if the odds that I become a $100 billion company also increase by 20%.",
+      "zh": "如果我失败的可能性增加 30% 没关系，只要我成为一家千亿美元公司的几率也增加 20%。"
+    },
+    {
+      "timestamp": "55:12",
+      "speaker": "Unknown",
+      "en": "And in 10 years, the world's best investment firms, best banks will have 90% of their enterprise value, not in people, but in software and data and systems.",
+      "zh": "而在十年后，世界上最好的投资公司、最好的银行将有 90% 的企业价值不是在人身上，而是在软件、数据和系统上。"
+    },
+    {
+      "timestamp": "61:21",
+      "speaker": "Unknown",
+      "en": "But the businesses that do it are gonna become black holes for talent and capital and brand.",
+      "zh": "但做到这一点的企业会成为人才、资本和品牌黑洞。"
+    }
+  ],
+  "voice_script": "今天这期节目，主人公叫 Gabe Stengel，是 Rogo 的创始人。这家公司做的事，是给投行和投资机构搭 AI 平台——按自己的说法，就是想造出投资界的超级智能。这个人有资格讲这个话题：在投行做过几年并购业务，后来押注 AI 会彻底改造金融行业。这一期对谈里，要聊的就是一件事——AI 是怎么一步一步吃掉金融行业核心工作的，以及一个创业者在这种浪潮里到底该怎么活。\n\n先说来龙去脉。Rogo 不是一次做成的。高中和大学时各试过一次，用的都是旧式 AI 技术，全失败了。真正的起点是 GPT-3 发布、ChatGPT 问世之前。但就算踩上了这个节点，早期产品依然很糟。转折点有两个：一个是 o1 Pro 模型出现之后，产品至少当个搜索工具够可靠了——让它算一家公司过去 12 个季度的财务指标，不用烦到宁愿自己做；第二个是 Opus 4.5 出来之后，模型基本能完成初级投行人员的全部工作，前提是你给对指令和上下文。\n\n由此得出一个观察，也是这期最值得记的话之一：很多应用型 AI 公司，存在先发者的劣势——你以为你知道世界正走向何方，也为它打造了产品，但模型还没到那一步，用户试一下就说这是垃圾。而如果你对终局判断正确，一直朝那个方向构建，等模型追上来，产品就是魔法般的体验。这句话对任何做 AI 应用的人，都是定心丸。\n\n那模型已经这么强了，瓶颈还在哪？答案是：根本不在智能。模型已经比自己认识的任何人都聪明，难的是管道工程——怎么把模型接到你的数据、你的投资逻辑、你的工作方式上。有一个画面能说明模型有多强：想象一家对冲基金，每位基金经理手下有一万个智能体，互相交流、读研报、争论，24 小时辩论之后，只交出一个投资想法。为什么只有金融玩得起这种烧钱打法？因为投资者乐意为一个好想法付 5 万美元——很少有别的领域，愿意为一个洞见消耗这么多算力。\n\n接下来一个反直觉的事实。按理说，公开股票市场数据最全、最适合 AI，可 Rogo 的核心用户却是撮合交易的人——买卖公司、做并购的那批人，用平台准备数据库资料室、拆解尽调材料、跑完从接触到交割的全流程。为什么留在这个领域？因为私人市场全靠人来协调和标准化，AI 有大量脏活可干；而公开市场的基础设施早就建好了。对所有想做垂直行业 AI 的创业者，这是个启示：去找那些管道还没建的行业。细节也决定成败——让投行的董事总经理把要改的幻灯片用邮件发过来，这正是人家习惯的工作方式，AI 分析师 20 分钟返回修改稿，而不是分析师花两天。那位十年没登录过电脑、只用 iPad 批注的高管，就这样自然用上了 AI。\n\n那怎么和 OpenAI、Anthropic 竞争？答案是：造垂直的东西，造大实验室永远不会造的东西。金融是一堆细分领域的集合，各有各的数据、监管、合规要求。这些生意在 Anthropic 眼里，就是路边的一分钱——人家正忙着从 1000 亿美元冲向 1 万亿美元营收，没空去建一个合规数据库资料室业务。最关键的不是模型本身，而是挽具——把模型套上工具、流程和系统的那层工程。Claude Code 和 ChatGPT 背后的模型其实差不多，但用法设计的天差地别，决定了各自的成败。团队也在不断推倒重建核心的智能体系统。\n\n说到创业的艰难，必须讲讲被拒绝 40 次的经历。融 A 轮时，早期投资人 David Tisch 把介绍给 40 家顶级机构——Sequoia、Kleiner、Benchmark，全见了，每家都走完了从对谈到请过去过周末的全流程，然后全部拒绝。形容那种感觉，就像被 40 个女朋友分手。复盘下来三个原因：硅谷对金融市场的规模没直觉；产品当时确实很差，投资人自己试用一半时间是错的；以及没人相信能搞定这件事。最后一位投资人一个月后投了进来，理由很简单：这就是金融版的 Harvey，为什么不做？\n\n最后聊聊谁会被淘汰。金融行业正迎来久违的创新者的窘境：过去 10 到 20 年这个行业过得太舒服，而现在，一批 AI 原生的投资机构和投行，要去攻击传统玩家的商业模式了。给传统机构的建议是这样的：如果你知道今天公司 90% 的价值在人身上，而 10 年后最好的机构 90% 的价值会在软件、数据和系统里，你会怎么做？答案是，尽快把最好的人脑子里的隐性知识，装进自己拥有并自主运营的系统里。自己公司内部就有个叫 Shrek 的公司大脑，所有对话都记录进这个系统，任何新人都能调出三周前一位从未谋面的亚太同事的客户谈话。每个月还公布各部门 AI 工具使用率的排名，垫底的人会得到一顶打印出来的笨学生帽贴在办公室——是玩笑，但新员工真的会怕。\n\n用一句话收尾，也是这期最想留给你的判断：弄清楚如何把 AI 应用于投资生命周期，是未来五年每一个伟大投资者面临的最大挑战。"
+}

@@ -1,0 +1,137 @@
+{
+  "title_zh": "60 行代码搭一个智能体，再花 5 分钟送上生产环境",
+  "tldr": "AWS 的 Sandhya Subramani 和 Elizabeth Fuentes Leone 现场演示：从零搭一个客服智能体，加上护栏和记忆，一条命令部署上线。",
+  "digest_md": "这是一场动手工作坊的实录。两位 AWS 的工程师 Sandy 和 Ellie，**带着现场约 250 名参与者，用一个下午走完了一条完整的路**：想一个智能体、把它写出来、加上各种控制和护栏，最后部署到 AWS 的生产环境里。整个过程用的工具是 Strands Agents（一个开源的智能体框架）和 Amazon Bedrock AgentCore。她们讲得非常具体，值得每个对智能体感兴趣的人看看。\n\n## 智能体的核心：一个不断循环的“想—做—答”\n\nSandy 先拆解了智能体到底是怎么工作的。用户发来一个问题，大语言模型读一遍，决定该调用哪个工具，拿到工具的结果，再决定是继续调用还是直接回答。这个循环转完，答案才发出去。\n\n==工具为什么重要==？因为大语言模型本质上只是在预测下一个词。你不想让它凭“感觉”回答客服问题，而是让它去查数据库、查订单记录。工具就是那扇通向真实数据的门，智能体自己决定什么时候开哪扇门 [18:01 Unknown]。\n\n现场搭建的客服智能体有 3 个工具：查客户、查订单历史、处理退款。配上系统提示词和模型，整个智能体不到 60 行代码。\n\n## 换模型不用改架构\n\nStrands Agents 是个开源的“智能体框架”，AWS 维护，但完全开放。它的一个特点是不绑定任何模型：你可以用 Bedrock 上的模型，也可以接 OpenAI、Llama、Hugging Face，甚至自己部署的模型。\n\nSandy 特别提到，这意味着你可以用同一套代码、同一个系统提示词，去对比不同模型的表现。换模型不用改架构，这在实际开发中省很多事 [19:16 Unknown]。\n\n## 钩子：给失控的智能体踩刹车\n\n大语言模型是概率性的——提示词只是“建议”，它不保证照做。==那怎么加硬性规定==？答案是 hooks（钩子）：在智能体运行的各个环节，插入你自己写的确定性代码。\n\n现场演示了一个限速钩子：一次用户请求最多允许调用 3 次工具。如果模型“发疯”不停调工具，钩子直接拦截。把上限改成 2 测试，可以看到工具调用被逐次拦下 [30:56 Unknown]。\n\nEllie 补充了更实用的场景：比如可以在调用前拦截用户输入里的信用卡号这类敏感信息，让模型根本收不到这些数据——既保安全，又不浪费令牌。\n\n## 技能文件夹：该用哪套知识，智能体自己挑\n\n系统提示词塞太多内容，既贵又乱。做法是把知识拆成一个个“技能”文件——比如“如何处理退款”“如何跟踪订单”“账户故障排查常见问题”——放在一个技能文件夹里，用 Markdown 写。\n\n智能体收到问题后，先看一遍有哪些技能，挑出相关的那个当作工具来调用。这样上下文只在需要时加载，系统提示词保持精简 [36:15 Unknown]。演示里用户说“我想退无线耳机”，智能体自动调用了退款技能。\n\n## 转向：配一个搭档智能体盯着它\n\n模型经常“话多”，或者不按要求格式输出。Steering（转向）的思路很有意思：给主智能体配一个搭档智能体，像结对编程一样，边生成边检查。\n\n搭档可以是写死的规则函数，也可以是另一个模型。演示里设了两条护栏：一条管退款流程的顺序，一条管语气——不许过度承诺、不许给具体时间保证、不许怪客户、要体谅客户的不满 [41:23 Unknown]。\n\nEllie 还介绍了开源库 AgentControl：可以把这些规则存在数据库里。改规则只需改数据库，不用改智能体的代码。她举了个例子：一个订房智能体，单间限住 5 人，来了 6 个人时不直接拒绝，而是自动改成订两间。\n\n## 部署：一个装饰器，一条命令，5 分钟上线\n\nEllie 接管了后半场，主题是“怎么让智能体真正有用”——也就是部署。\n\nAgentCore 是 AWS 专门用来把智能体送上生产环境的服务。从本地代码到生产，唯一需要改的是加一个装饰器标出入口点。然后一条部署命令，剩下的交给 AgentCore：它自动创建容器、配置权限、生成基础设施代码。Ellie 强调，平时在 AWS 上部署要手动创建角色、策略、权限，这里全部自动处理 [56:19 Unknown]。**她从零到智能体上线，用时约 5 分钟**。\n\n部署后还自带两样东西：\n\n- 会话与记忆：每个会话跑在独立容器里，短则 15 分钟、长则 8 小时。要长期记忆，用 AgentCore 的记忆服务，它会自动建好三类记忆的存储，连向量数据库都不用自己搭 [05:37 Unknown]。\n- 可观测性：不是看内存占用那种，而是智能体层面的——花了多少令牌、调了哪些工具、循环内部发生了什么，都能在 CloudWatch 里看到 [04:09 Unknown]。\n\n## 本集带走\n\n- 智能体的核心是“模型—工具—循环”：模型负责推理决策，工具连接真实数据，循环把两者串起来，60 行代码就能跑通。\n- 提示词是概率性的建议，钩子（hooks）是确定性的代码——安全、限速、拦截敏感信息这类硬规则，要用钩子做。\n- 技能文件夹让智能体按需加载知识，避免把所有信息塞进系统提示词浪费令牌。\n- 转向（steering）用搭档智能体实时纠偏，保证输出格式和语气符合要求。\n- 从代码到生产可以很快：加一个装饰器、跑一条部署命令，权限、容器、可观测性、记忆全部自动配好。",
+  "quotes": [
+    {
+      "en": "You know, it's only about the probability to give you an answer. So when you use a hook, you can be more deterministic. So you can put code inside your agent loop.",
+      "zh": "你知道，它只是关于给你一个答案的概率。所以当你用钩子的时候，你可以更具确定性。你可以把代码放进你的智能体循环里。",
+      "timestamp": "31:39",
+      "speaker": "Elizabeth Fuentes Leone"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "18:01",
+      "speaker": "Unknown",
+      "en": "So we want to define a set of tools because tools are the way by which we give an agent agency to execute a function because LLMs are mostly just going to be predicting the next token.",
+      "zh": "所以我们要定义一组工具，因为工具是我们赋予智能体能动性去执行函数的方式，因为 LLM 大多数时候只是在预测下一个 token。"
+    },
+    {
+      "timestamp": "18:20",
+      "speaker": "Unknown",
+      "en": "You want to ground it to a source of truth, to a source of information.",
+      "zh": "你想把它接地到一个真相来源、一个信息来源上。"
+    },
+    {
+      "timestamp": "19:05",
+      "speaker": "Unknown",
+      "en": "Now, another amazing thing about using an agent harness is because you can support a bunch of different models, you can swap out whichever model you want without really having to change the system prompt.",
+      "zh": "使用智能体 harness 的另一个美妙之处是，因为你可以支持一堆不同的模型，你可以随意换掉任何你想要的模型，而不必真正更改系统提示词。"
+    },
+    {
+      "timestamp": "19:28",
+      "speaker": "Unknown",
+      "en": "So you can even compare your models, different models' performances against the same boilerplate code.",
+      "zh": "所以你甚至可以在同一套样板代码下比较不同模型的表现。"
+    },
+    {
+      "timestamp": "28:47",
+      "speaker": "Unknown",
+      "en": "In case you have an LLM that's just going crazy and that's continuously invoking your tools, that's going to cost you a lot of tokens and you know it's not working right.",
+      "zh": "如果你的 LLM 发了疯一样，持续不断地调用你的工具，那会消耗大量 token，你知道这样是不对的。"
+    },
+    {
+      "timestamp": "31:01",
+      "speaker": "Unknown",
+      "en": "So when your agent starts to go haywire and we all worry about, oh my god, is my agent going to take over everything, right? It won't because we have something called hooks.",
+      "zh": "所以当你的智能体开始失控，我们都担心，天哪，我的智能体会不会接管一切，对吧？它不会的，因为我们有叫钩子的东西。"
+    },
+    {
+      "timestamp": "31:39",
+      "speaker": "Unknown",
+      "en": "You know, it's only about the probability to give you an answer. So when you use a hook, you can be more deterministic. So you can put code inside your agent loop.",
+      "zh": "你知道，它只是关于给你一个答案的概率。所以当你用钩子的时候，你可以更具确定性。你可以把代码放进你的智能体循环里。"
+    },
+    {
+      "timestamp": "32:24",
+      "speaker": "Unknown",
+      "en": "The model never is going to receive that information, so you block the call so you don't waste tokens. So you don't have to invoke the model again.",
+      "zh": "模型永远不会收到那个信息，所以你拦截了调用，这样你就不浪费 token。你不必再次调用模型。"
+    },
+    {
+      "timestamp": "37:16",
+      "speaker": "Unknown",
+      "en": "Giving it context, additional context, because in your system prompt, you don't want to overflow it with all of the amount of information you have, because those are also considered input tokens, and those can get wasted unnecessarily needlessly.",
+      "zh": "给它上下文、额外的上下文，因为在你的系统提示词里，你不想让它被你拥有的全部信息量淹没，因为那些也被算作输入 token，可能会被不必要地、无谓地浪费掉。"
+    },
+    {
+      "timestamp": "38:58",
+      "speaker": "Unknown",
+      "en": "So it's becoming more and more deterministic, it's got a natural order that it flows, and you can invoke the context only at the time that it's required, and it's not, you're not overflowing your system prompt with a lot of tokens every single time.",
+      "zh": "所以它变得越来越确定性，它有一个自然的流程顺序，你可以只在需要时才调用上下文，而且不用每次都用大量 token 淹没你的系统提示词。"
+    },
+    {
+      "timestamp": "39:43",
+      "speaker": "Unknown",
+      "en": "But they also generally tend to talk too much and generate a lot of tokens and they, you know, just free flowing.",
+      "zh": "但它们通常也倾向于说太多话、生成大量 token，而且你知道的，就是自由发挥。"
+    },
+    {
+      "timestamp": "40:03",
+      "speaker": "Unknown",
+      "en": "We want to be able to catch that deterministically and ensure that it's doing it in a deterministic way.",
+      "zh": "我们想要能够确定性地捕捉到这一点，并确保它以确定性的方式做到。"
+    },
+    {
+      "timestamp": "40:43",
+      "speaker": "Unknown",
+      "en": "So, your buddy agent is sort of checking and correcting and course-correcting, and then the response you want is the response that you're actually happy with.",
+      "zh": "所以，你的伙伴智能体是在进行检查、纠正和航向修正，然后你得到的响应就是你真正满意的响应。"
+    },
+    {
+      "timestamp": "40:52",
+      "speaker": "Unknown",
+      "en": "When you're deploying your code into production, there is no room for error in, like, format structure. You want it a certain way, and steering can help you do that.",
+      "zh": "当你把代码部署到生产环境时，在格式结构上是没有任何出错余地的。你想让它以某种特定的方式呈现，而 steering 可以帮你做到这一点。"
+    },
+    {
+      "timestamp": "44:45",
+      "speaker": "Unknown",
+      "en": "You can say with full confidence that your model, that your agent is most likely going to be responding in the way that you want to. Because we're establishing all of those control features.",
+      "zh": "你可以满怀信心地说，你的模型、你的智能体很有可能会按照你想要的方式做出响应。因为我们建立了所有这些控制特性。"
+    },
+    {
+      "timestamp": "46:25",
+      "speaker": "Unknown",
+      "en": "So you only have to change the rules in the database. You don't have to change the code for the agents.",
+      "zh": "这样你只需要修改数据库里的规则。你不需要修改智能体的代码。"
+    },
+    {
+      "timestamp": "48:21",
+      "speaker": "Unknown",
+      "en": "So the MPP entry point is the only difference between your agent running in your notebook or your computer and between production.",
+      "zh": "所以 MPP 入口点是你的智能体跑在 notebook 或自己电脑上与跑在生产环境之间的唯一区别。"
+    },
+    {
+      "timestamp": "56:17",
+      "speaker": "Unknown",
+      "en": "And in core, it's handled everything for me. So I don't need to create the policy. I don't need to create permissions. I don't need to create anything.",
+      "zh": "而在 core 里，这一切都替我处理好了。所以我不需要创建策略，不需要创建权限，什么都不需要创建。"
+    },
+    {
+      "timestamp": "07:06",
+      "speaker": "Unknown",
+      "en": "Of course, if you are doing a good deployment, if you don't share your keys, everything, because it's inside AWS, and we don't use your data to train models.",
+      "zh": "当然，前提是你做了一个好的部署，如果你不分享你的密钥什么的，因为它在 AWS 内部，而且我们不会用你的数据来训练模型。"
+    },
+    {
+      "timestamp": "34:31",
+      "speaker": "Unknown",
+      "en": "So as we're defining our hooks, we can define the hook in such a way to even end the agent's turn if we wanted to.",
+      "zh": "所以在我们定义钩子时，我们可以把钩子定义成，如果需要的话，甚至可以结束智能体的这一轮。"
+    }
+  ],
+  "voice_script": "今天带你听一场特别接地气的直播：AWS 的两位工程师，Sandy 和 Ellie，在一个工作坊现场，带着大约两百五十名参与者，用一个下午，从零开始搭了一个客服智能体，加上各种护栏和记忆，最后部署到生产环境。整个流程走完，代码不到六十行，部署只花了五分钟。这期就给你讲清楚，这件事到底是怎么一步步做成的。\n\n先把最核心的事交代清楚：智能体到底是怎么工作的。其实它的内核就是一个不断循环的流程。用户发来一个问题，大语言模型先读一遍，决定该调用哪个工具，拿到工具返回的结果，再决定是继续调用下一个工具，还是直接回答。这个循环转完，答案才发出去。\n\n那工具为什么这么重要？因为大语言模型本质上只是在预测下一个词。你不想让它凭感觉回答客户的退款问题，而是让它去真正查数据库、查订单记录。工具就是那扇通向真实数据的门，智能体自己决定什么时候开哪扇门。现场的客服智能体配了三个工具：查客户、查订单历史、处理退款。配上系统提示词和模型，整个智能体不到六十行代码。\n\n写代码用的是 Strands Agents，一个 AWS 维护的开源智能体框架。它有个很实用的特点：不绑定任何模型。你可以用 Bedrock 上的模型，也可以接 OpenAI、Llama、Hugging Face，甚至自己部署的模型。这意味着什么？你可以用同一套代码、同一个系统提示词，去对比不同模型的表现。换模型不用改架构，实际开发里能省很多事。\n\n好，智能体能跑了，但问题来了。大语言模型是概率性的，提示词只是建议，它不保证照做。那怎么给它加硬性规定？答案是钩子，英文叫 hooks。说白了，就是在智能体运行的各个环节，插入你自己写的确定性代码。现场演示了一个限速钩子：一次用户请求最多允许三次工具调用，如果模型发疯一样不停调工具，钩子直接拦截。把上限改成两次测试，就能看到工具调用被逐次拦下。还有更实用的场景，比如在调用之前，拦截用户输入里的信用卡号这类敏感信息，让模型根本收不到这些数据，既保安全，又不浪费令牌。\n\n限速和安全解决了，下一个问题是知识管理。系统提示词要是塞太多内容，又贵又乱。她们的做法是把知识拆成一个个技能文件，比如如何处理退款、如何跟踪订单、账户故障排查常见问题，全用 Markdown 写，放在一个技能文件夹里。智能体收到问题后，先看一遍有哪些技能，挑出相关的那个当工具来调用。这样上下文只在需要时加载，系统提示词保持精简。演示里用户说我想退无线耳机，智能体就自动调用了退款技能。\n\n再往深一层，模型经常话多，或者不按要求格式输出，光靠技能还不够。于是有了转向这个思路：给主智能体配一个搭档智能体，像结对编程一样，边生成边检查。搭档可以是写死的规则函数，也可以是另一个模型。现场设了两条护栏，一条管退款流程的顺序，一条管语气，不许过度承诺，不许给具体时间保证，不许怪客户，要体谅客户的不满。这些规则还可以存在数据库里，改规则只需改数据库，不用动智能体的代码。\n\n智能体搭好了、管住了，最后一步是上线。这是 Ellie 负责的部分，用的是 Amazon Bedrock AgentCore，一个专门把智能体送上生产环境的服务。从本地代码到生产，唯一需要改的是加一个装饰器标出入口点，然后跑一条部署命令，剩下的全交给 AgentCore：自动创建容器、配置权限、生成基础设施代码。平时在 AWS 上部署，要手动创建角色、策略、权限，这里全部自动处理。从零到上线，用时大概五分钟。部署完还自带两样东西：一是会话和记忆，每个会话跑在独立容器里，短则十五分钟，长则八小时，要长期记忆还有专门的记忆服务，连向量数据库都不用自己搭；二是可观测性，不是看内存占用那种，而是智能体层面的，花了多少令牌、调了哪些工具、循环内部发生了什么，都能在 CloudWatch 里看到。\n\n回头看这整个过程，其实就是一条完整的路径：六十行代码搭起一个模型、工具加循环的核心，用钩子做确定性的控制，用技能文件夹按需加载知识，用搭档智能体实时纠偏，最后加一个装饰器、跑一条命令就上了生产。 Sandy 那句话说得很到位：模型只是关于给你一个答案的概率，所以当你用钩子的时候，你可以更具确定性。想让智能体真正可靠，概率的部分交给模型，确定的部分交给代码。"
+}

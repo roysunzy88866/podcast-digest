@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-11-talks-build-with-perception-agents-emile-baize",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/ZGzthw4BZiA.m4a",
+  "duration_sec": 3333.352,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 545,
+  "asr": true,
+  "title_en": "Build with Perception Agents — Emile Baizel & Shruti Arora, Amazon AGI Lab",
+  "podcast": "精选演讲",
+  "date": "2026-10-11",
+  "added": "2026-10-19",
+  "added_at": "2026-10-18T22:33:58.001Z",
+  "speaker_map": {
+    "SPEAKER_05": "Emile Baizel"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Emile Baizel"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "会“看”屏幕的智能体：Amazon AGI Lab 的工作坊讲了什么",
+  "guest_name": "Emile Baizel",
+  "guest_title": "解决方案架构团队负责人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}
