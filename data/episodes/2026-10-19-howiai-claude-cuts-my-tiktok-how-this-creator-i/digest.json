@@ -1,0 +1,173 @@
+{
+  "title_zh": "让AI替我剪TikTok:一位创作者的自动化剪辑术",
+  "tldr": "TikTok创作者Brooke Lacey在How I AI播客演示如何用Claude Code自动剪短视频，从跳剪到字幕全程不碰剪辑软件。",
+  "digest_md": "Brooke Lacey在TikTok上有超过20万粉丝，做过软件开发，自己还做了个教人学AI的应用。她在节目里现场演示了一件事：对着终端说一句话，Claude就把一段5分钟的原始素材，剪成了一条节奏精准的15秒竖屏短视频——没有时间线，没有工程文件，没打开任何剪辑软件。\n\n## 为什么短视频剪辑这么累人？\n\nBrooke做视频内容很多年，2020年上TikTok。她说短视频的灵魂在于跳剪（jump cut）——在话语之间快速切换画面，喜剧效果全靠切在“非常精确的那一刻”才成立 [03:19 Brooke]。\n\n她试过教剪辑师按她的方式剪，但从没成功过。她的风格依赖真实的表情、语气和停顿，别人剪不出那个味道，所以她只能自己来，一条视频要耗掉好几个小时。因为太累，她一度停更了近一年。\n\n转机是她为自己的应用拍广告素材：她对着手机连讲了25到30分钟，中间不停机，说错了就口头喊一句“cut that out”（把这段剪掉）。然后她把视频隔空传到MacBook，丢给Claude Code，“看看你有什么本事”。\n\n## 文件在电脑里，AI直接操作电脑\n\nClaude做的事说出来很朴素：它没有把视频上传到任何地方，只是调用电脑上现成的工具——FFmpeg、Whisper、Python，在本地处理文件 [07:31 Brooke]。\n\n结果让它自己讲，大概四步：\n\n- 先检测哪里有人声、哪里是静音，再用Whisper算出每个词的精确时间。剪辑点必须落在词尾音一结束的地方——人说话时，那个音实际结束得比你自己感觉的更早。\n- 逐帧追踪她的脸，画面裁切跟着人走，每个剪辑点还标了景别：全景、中景、特写。\n- 生成的剪辑清单就是一个文本文件，每行写起点、终点、景别。“文件即整个剪辑”——这也是她学到的一个概念，剪辑本质上可以写成文字 [13:26 Brooke]。\n- 最后自动加字幕：一次一个词，白字黑边，每个词停到下一个词出现为止。这个细节她没教，Claude自己判断的。成品441帧、每秒30帧，音画零毫秒偏差。\n\n同一条素材，因为整个剪辑是一份文本，跑同一个命令就能直接输出15秒、30秒、60秒和横屏版本。\n\n## 它还会“听懂”你拍摄时的自言自语\n\n最让她震惊的是，Claude听到了她在拍摄时对自己说的“cut that out”，真的把那些段落剪掉了；还主动告诉她：有几句话你重复说了几遍，“我选了节奏最好的那一遍” [08:18 Brooke]。\n\n她说过去6个月里，这种让她“瘫倒在地板上”的震撼已经发生过15、16次。\n\n## 拿自己的TikTok当教材，让AI学会你的风格\n\n她做的另一件事更有意思：把整个TikTok作品库下载后存进Google Drive（TikTok的算法防护严格，没法直接抓取），再让Claude配合浏览器去读每条视频下的评论 [20:42 Claire]。\n\n这样能干两件事。一是挖评论找新选题——比如有人评论“医院会不会开始用AI做账单和编码”，她就可以直接用视频回复这条评论。二是让Claude真正理解她的表达方式：她指出视频里“我干技术25年，从没这么为人害怕”之后那声轻笑，那就是她抓人注意力的hook，“你听到我 voice 里的节奏了吗？”——Claude听懂了，学会了 [22:35 Brooke]。\n\n主持人Claire Vo总结得贴切：别人常问“==怎么让Claude用我的口吻写邮件==”，她这是这个问题的加强版——怎么让Claude把自己整个人编码进去，包括hook的打法、节奏、笑话、剪辑点和故事的高潮设计。\n\n## 一个人的媒体公司，一周发一次就够\n\nBrooke现在一周只发一次视频。她几年前积累的内容还在被反复转发，粉丝基础撑得住。她接下来的重点是直播，以及在用这套流程给自己的应用做TikTok广告——她只需要告诉Claude“这是条广告”，风格就自动切换 [27:45 Brooke]。\n\n节目最后她还提到自己用Claude搭了一套个人“操作系统”：带记忆通道、读写权限的管理体系，管她的多个产品和整个生活。Claude出错时，她的提示词是：“回到我们最初的方式，理解那些指令，再做一遍”，并让它回报主系统全局修正。\n\n她也呼吁更多资深从业者上这些平台分享经验——她1994年上大学，教授在计算机导论课上跳着喊“一切都会来得飞快”，她亲眼见证了从那以后的一切，所以这次AI浪潮一来，她立刻就跳了进来：“水温正好。” [30:35 Brooke]\n\n## 本集带走\n\n- Claude Code只调用本地现成工具（FFmpeg、Whisper、Python），不上传文件就能完成专业级短视频剪辑。\n- “剪辑即文本”：整条剪辑是一份带起止时间和景别的清单，同一素材一键产出多时长、多画幅版本。\n- 把自己的作品库和评论区喂给AI，它既能挖新选题，也能学会你的hook、节奏和幽默感。\n- 拍摄时口头喊“这段剪掉”，AI能听懂并执行，还会自动挑出重复内容里节奏最好的一版。\n- 先懂行再自动化：Brooke多年剪辑经验是前提，她是在“指挥Claude像她自己那样剪”。",
+  "quotes": [
+    {
+      "en": "This is probably the 15th or 16th time in the last six months that I literally like fell to the floor.",
+      "zh": "这大概是过去六个月里我第 15 次还是 16 次真的直接瘫倒在地了。",
+      "timestamp": "01:05",
+      "speaker": "Brooke Lacey"
+    },
+    {
+      "en": "I need to do my own videos because what do you know, UGC content doesn't do as well as this face.",
+      "zh": "我得做自己的视频，因为你知道吗，UGC 内容的效果比不上这张脸。",
+      "timestamp": "06:09",
+      "speaker": "Brooke Lacey"
+    },
+    {
+      "en": "No timeline, no project file, no editor. And because the whole edit is a text file, the same command makes the 30 and 60 and the landscape versions from the same take.",
+      "zh": "没有时间线，没有项目文件，没有剪辑师。而且因为整个剪辑就是一个文本文件，同一条命令可以从同一条素材生成 30 帧、60 帧和横版版本。",
+      "timestamp": "15:15",
+      "speaker": "Brooke Lacey"
+    },
+    {
+      "en": "And what people don't understand is that can all run with existing tools and files on your computer really well.",
+      "zh": "而人们不理解的是，这一切都可以用你电脑上现有的工具和文件跑得很好。",
+      "timestamp": "16:50",
+      "speaker": "Claire Vo"
+    },
+    {
+      "en": "I don't have to post very often because I think once you have done the work over a number of years and you do get to the hundreds of thousands of followers, your stuff just kind of keeps getting regurgitated.",
+      "zh": "我不需要发布得很频繁，因为我觉得一旦你多年来下了功夫、粉丝达到几十万，你的内容就会不断地被反复传播。",
+      "timestamp": "26:44",
+      "speaker": "Brooke Lacey"
+    },
+    {
+      "en": "We need that combination of like wizened experience and YOLO energy, especially in AI.",
+      "zh": "我们需要那种兼具老练经验和 YOLO 精神的组合，尤其是在 AI 领域。",
+      "timestamp": "28:48",
+      "speaker": "Claire Vo"
+    },
+    {
+      "en": "Everyone's worried about AI. Well, back then we were worried about toasters.",
+      "zh": "现在人人都在担心 AI。而当年我们担心的是烤面包机。",
+      "timestamp": "31:19",
+      "speaker": "Brooke Lacey"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:41",
+      "speaker": "Brooke Lacey",
+      "en": "There was a really well-clipped vertical short-form video, perfect TikTok cadence, and you did it with no hands.",
+      "zh": "那是一条剪得非常好的竖屏短视频，完美的 TikTok 节奏，而且你全程没动一下手。"
+    },
+    {
+      "timestamp": "01:05",
+      "speaker": "Brooke Lacey",
+      "en": "This is probably the 15th or 16th time in the last six months that I literally like fell to the floor.",
+      "zh": "这大概是过去六个月里我第 15 次还是 16 次真的直接瘫倒在地了。"
+    },
+    {
+      "timestamp": "04:13",
+      "speaker": "Brooke Lacey",
+      "en": "But it's not funny unless you are jumped at the very exact moment.",
+      "zh": "但如果你没有在非常精确的时刻跳切，它就不好笑。"
+    },
+    {
+      "timestamp": "04:38",
+      "speaker": "Brooke Lacey",
+      "en": "So I've just always done it myself. And it would take hours out of my day.",
+      "zh": "所以我一直都是自己做的。而这会占掉我每天好几个小时。"
+    },
+    {
+      "timestamp": "06:09",
+      "speaker": "Brooke Lacey",
+      "en": "I need to do my own videos because what do you know, UGC content doesn't do as well as this face.",
+      "zh": "我得做自己的视频，因为你知道吗，UGC 内容的效果比不上这张脸。"
+    },
+    {
+      "timestamp": "07:31",
+      "speaker": "Brooke Lacey",
+      "en": "Okay, so TLDR is that it just used the boring tools that are already on our computers. FFmpeg, Whisper, Python.",
+      "zh": "长话短说，它只是用了我们电脑上已有的那些无聊工具：FFmpeg、Whisper、Python。"
+    },
+    {
+      "timestamp": "07:47",
+      "speaker": "Brooke Lacey",
+      "en": "If I could like get the gif of Zoolander, I say it all the time. Like the files in the computer, it doesn't upload anywhere.",
+      "zh": "我经常说 Zoolander 的那句台词：文件就在电脑里，它不会上传到任何地方。"
+    },
+    {
+      "timestamp": "08:44",
+      "speaker": "Brooke Lacey",
+      "en": "And what just happened is Claude descended upon our videos and cut them.",
+      "zh": "而刚才发生的就是 Claude 降临到我们的视频上并把它们剪了。"
+    },
+    {
+      "timestamp": "12:03",
+      "speaker": "Brooke Lacey",
+      "en": "Word timing from whisper sharpens each edge because neither alone can place a cut cleanly.",
+      "zh": "Whisper 的词级时间戳把每个切点磨得更精确，因为单靠任何一个都无法干净地定位切点。"
+    },
+    {
+      "timestamp": "13:15",
+      "speaker": "Brooke Lacey",
+      "en": "That file is the whole edit.",
+      "zh": "那个文件就是整个剪辑。"
+    },
+    {
+      "timestamp": "14:48",
+      "speaker": "Brooke Lacey",
+      "en": "He decided that those captions need, people don't realize that's how captions are generated, is that the word has to stay there until the next sentence.",
+      "zh": "是它自己决定了那些字幕需要——人们没意识到字幕就是这么生成的——那个词必须一直留在那里，直到下一句话出现。"
+    },
+    {
+      "timestamp": "15:15",
+      "speaker": "Brooke Lacey",
+      "en": "No timeline, no project file, no editor. And because the whole edit is a text file, the same command makes the 30 and 60 and the landscape versions from the same take.",
+      "zh": "没有时间线，没有项目文件，没有剪辑师。而且因为整个剪辑就是一个文本文件，同一条命令可以从同一条素材生成 30 帧、60 帧和横版版本。"
+    },
+    {
+      "timestamp": "16:50",
+      "speaker": "Brooke Lacey",
+      "en": "And what people don't understand is that can all run with existing tools and files on your computer really well.",
+      "zh": "而人们不理解的是，这一切都可以用你电脑上现有的工具和文件跑得很好。"
+    },
+    {
+      "timestamp": "18:07",
+      "speaker": "Brooke Lacey",
+      "en": "Their algorithm, their backend software, their backend whatever is so precise that you can't scrape it.",
+      "zh": "TikTok 的算法、他们的后端软件、他们的后端什么的都太精确了，你没法爬取。"
+    },
+    {
+      "timestamp": "22:41",
+      "speaker": "Brooke Lacey",
+      "en": "Because that is how a hook works for me, is that I'm trying to get people's attention that way.",
+      "zh": "因为钩子对我来说就是这样起作用的，我就是想用那种方式抓住人们的注意力。"
+    },
+    {
+      "timestamp": "24:40",
+      "speaker": "Brooke Lacey",
+      "en": "That is not something you can script.",
+      "zh": "那种东西是没法写进脚本里的。"
+    },
+    {
+      "timestamp": "26:44",
+      "speaker": "Brooke Lacey",
+      "en": "I don't have to post very often because I think once you have done the work over a number of years and you do get to the hundreds of thousands of followers, your stuff just kind of keeps getting regurgitated.",
+      "zh": "我不需要发布得很频繁，因为我觉得一旦你多年来下了功夫、粉丝达到几十万，你的内容就会不断地被反复传播。"
+    },
+    {
+      "timestamp": "28:48",
+      "speaker": "Brooke Lacey",
+      "en": "We need that combination of like wizened experience and YOLO energy, especially in AI.",
+      "zh": "我们需要那种兼具老练经验和 YOLO 精神的组合，尤其是在 AI 领域。"
+    },
+    {
+      "timestamp": "31:20",
+      "speaker": "Brooke Lacey",
+      "en": "Everyone's worried about AI. Well, back then we were worried about toasters.",
+      "zh": "现在人人都在担心 AI。而当年我们担心的是烤面包机。"
+    },
+    {
+      "timestamp": "34:20",
+      "speaker": "Brooke Lacey",
+      "en": "But it's this entire operating system just for my business and my life.",
+      "zh": "但这是一整套专为我的业务和生活构建的操作系统。"
+    }
+  ],
+  "voice_script": "今天这一集，主角叫Brooke Lacey。你可能刷到过她——TikTok上超过二十万粉丝的创作者，做过软件开发，自己还做了个教人学AI的应用。她要聊的问题特别具体：短视频剪辑太累了，累到她一度停更了将近一年。而她在节目里现场演示了一件事：对着终端说一句话，AI就把一段五分钟的原始素材，剪成了一条节奏精准的十五秒竖屏短视频。全程没有打开任何剪辑软件。\n\n为什么剪辑这么累？先得交代个背景。Brooke做视频很多年，2020年上的TikTok。她说短视频的灵魂在于跳剪，也就是在话语之间快速切换画面。喜剧效果全靠切在非常精确的那一刻才成立，早一点晚一点都不行。她试过教剪辑师按她的方式剪，但从没成功过——她的风格依赖真实的表情、语气和停顿，别人剪不出那个味道。所以只能自己来，一条视频耗掉好几个小时。太累了，于是停更了近一年。\n\n转机出现在她为自己的应用拍广告素材的时候。她对着手机连讲了二三十分钟，中间不停机，说错了就口头喊一句：cut that out，把这段剪掉。然后她把视频传到MacBook上，丢给Claude Code，就一句话：看看你有什么本事。\n\n结果做出来的事，说出来其实很朴素。Claude没有把视频上传到任何地方，它只是调用电脑上现成的工具——FFmpeg、Whisper，还有Python，在本地处理文件。这一点很关键，人们不理解的是，这一切都可以用你电脑上现有的工具和文件跑得很好。\n\n那具体是怎么剪的呢？大概四步。第一步，先检测哪里有人声、哪里是静音，再用Whisper算出每个词的精确时间。为什么要把时间算得这么细？因为剪辑点必须落在词尾音一结束的地方——人说话的时候，那个音实际结束得比你自己的感觉更早。第二步，逐帧追踪她的脸，画面裁切跟着人走，每个剪辑点还标了景别，全景、中景、特写。第三步，把这些整理成一份剪辑清单。注意，这份清单就是一个文本文件，每行写起点、终点、景别。Brooke从这里学到一个概念，叫\"文件即整个剪辑\"——剪辑这件事，本质上可以写成文字。第四步，自动加字幕。一次一个词，白字黑边，每个词停到下一个词出现为止。这个细节她没教过，是Claude自己判断的。成品441帧、每秒30帧，音画零毫秒偏差。\n\n这里就引出一个特别实用的好处。因为整个剪辑是一份文本，跑同一个命令，就能从同一条素材直接输出十五秒、三十秒、六十秒和横屏版本。没有时间线，没有工程文件，没有剪辑师。\n\n不过最让她震惊的，还不是剪得准。是Claude听到了她拍摄时对自己喊的那些\"cut that out\"，真的把那些段落剪掉了。不仅如此，还主动告诉她：有几句话你重复说了几遍，我选了节奏最好的那一遍。Brooke的原话是，这大概是过去六个月里她第十五次还是第十六次，真的直接瘫倒在地了。\n\n那话说回来，剪得准只是技术，风格怎么学？她做的另一件事更有意思。她把整个TikTok作品库下载下来，存进了Google Drive——TikTok的算法防护严格，没法直接抓取，所以得手动。然后让Claude配合浏览器，去读每条视频底下的评论。这样能干两件事。第一，挖评论找新选题。比如有人评论说，医院会不会开始用AI做账单和编码，她就可以直接拍一条视频回复这条评论。第二，也是更根本的，让Claude真正理解她的表达方式。她指着视频里一处细节说：这句\"我干技术二十五年，从没这么为人害怕\"之后，有那一声轻笑——那就是她抓人注意力的hook。她问Claude：你听到我声音里的节奏了吗？Claude听懂了，也学会了。\n\n主持人在这里总结得特别贴切。别人常问，怎么让Claude用我的口吻写邮件。Brooke干的是这个问题的加强版——怎么让Claude把自己整个人编码进去，包括hook的打法、节奏、笑话、剪辑点和故事的高潮设计。\n\n那这么一来，产出方式也变了。Brooke现在一周只发一次视频就够了。她不需要发得很频繁，因为几年下的功夫、几十万的粉丝，会让内容不断被反复传播。她接下来的重点是直播，以及用这套流程给自己的应用做TikTok广告——她只需要告诉Claude\"这是条广告\"，风格就自动切换。节目最后她还提到，自己用Claude搭了一套个人操作系统，带记忆通道、读写权限，管她的多个产品和整个生活。Claude出错的时候，她的提示词是：回到我们最初的方式，理解那些指令，再做一遍。\n\n她1994年上大学，教授在计算机导论课上跳着喊：一切都会来得飞快。她亲眼见证了从那以后的一切，所以这次AI浪潮一来，立刻就跳了进来。用她自己的话说，水温正好。\n\n这集最值得记住的，其实是一句话：先懂行，再自动化。Brooke多年剪辑经验是前提，她不是让AI随便剪，而是在指挥Claude像她自己那样剪——而这一切，用你电脑上已有的工具就跑得起来。"
+}

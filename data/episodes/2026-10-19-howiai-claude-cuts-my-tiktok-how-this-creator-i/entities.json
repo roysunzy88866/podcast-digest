@@ -1,0 +1,538 @@
+{
+  "episode_id": "2026-10-19-howiai-claude-cuts-my-tiktok-how-this-creator-i",
+  "podcast": "How I AI",
+  "date": "2026-10-19",
+  "tags": [
+    "AI 编程",
+    "Claude Code",
+    "内容创作",
+    "短视频剪辑",
+    "个人工作流"
+  ],
+  "categories": [
+    "AI 编程",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "claire-vo",
+      "type": "person",
+      "role": "host",
+      "name": "Claire Vo",
+      "file": "Claire Vo",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            78.705,
+            83.628
+          ],
+          "quote": "I'm Claire Vo, product leader and AI obsessive here on a mission to help you build better with these new tools.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "brooke-lacey",
+      "type": "person",
+      "role": "cohost",
+      "name": "Brooke Lacey",
+      "file": "Brooke Lacey",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            84.089,
+            90.773
+          ],
+          "quote": "Today we have Brooke Lacey and she is going to walk us through her Claude Code for video editing flow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1502.359,
+            1517.554
+          ],
+          "quote": "And obviously it can't—I mean, obviously my facial expressions are my facial expressions, but I truly believe that, like, we're going to be reality dealers at some point because people are going to know that there's no way that you can create an avatar of Brooke Lacey with the facial expressions.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集主线：Brooke 在终端里用 Claude Code 直接操作本地电脑，调用 FFmpeg、Whisper、Python 等现成工具，不上传文件就完成专业级短视频剪辑、选题挖掘和脚本创作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            2.613,
+            9.137
+          ],
+          "quote": "You figured out a way to use Claude Code to encode editing that really fits the form, which is short form content.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            84.089,
+            90.773
+          ],
+          "quote": "Today we have Brooke Lacey and she is going to walk us through her Claude Code for video editing flow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            168.893,
+            183.456
+          ],
+          "quote": "And so we're going to talk about why I got you on this podcast, which is you have a Claude Code, video editing, social empire building stack that I need to steal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            197.051,
+            202.293
+          ],
+          "quote": "And I loved when I saw you posting about your system, about how Claude Code helps you produce",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1220.368,
+            1241.879
+          ],
+          "quote": "Okay, yeah, so just to walk people through if they're not watching, I think what is happening here is you went on your phone and you downloaded all your tiki-tiki videos and you put them in Google Drive and you said, here are all my TikTok videos in a Google Drive, that way Claude Code can access Google Drive and actually pull down any one video.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1293.712,
+            1300.616
+          ],
+          "quote": "So the prompt that's happening with Claude Code is go and read those.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 354,
+          "t": [
+            1542.691,
+            1551.718
+          ],
+          "quote": "You figured out a way to use Claude Code to encode editing that really fits the form, which is short form content.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ffmpeg",
+      "type": "concept",
+      "role": "concept",
+      "name": "FFmpeg",
+      "file": "FFmpeg",
+      "primary": false,
+      "how_described": "本集说 Claude Code 只是用了电脑上已有的'无聊工具'之一，用它处理视频文件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 105,
+          "t": [
+            457.853,
+            460.796
+          ],
+          "quote": "FFmpeg, Whisper, Python.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "whisper",
+      "type": "concept",
+      "role": "concept",
+      "name": "Whisper",
+      "file": "Whisper",
+      "primary": false,
+      "how_described": "本集说 Claude 用 Whisper 算出每个词的精确时间戳，让剪辑点刚好落在词尾音结束的地方。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 105,
+          "t": [
+            457.853,
+            460.796
+          ],
+          "quote": "FFmpeg, Whisper, Python.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 183,
+          "t": [
+            723.069,
+            729.07
+          ],
+          "quote": "Word timing from whisper sharpens each edge because neither alone can place a cut cleanly.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 184,
+          "t": [
+            729.91,
+            736.92
+          ],
+          "quote": "So the word timing from the tool whisper sharpens each edge.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "python",
+      "type": "concept",
+      "role": "concept",
+      "name": "Python",
+      "file": "Python",
+      "primary": false,
+      "how_described": "本集提到 Claude Code 在本地调用的现成工具之一，处理文件、跑剪辑流程。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 105,
+          "t": [
+            457.853,
+            460.796
+          ],
+          "quote": "FFmpeg, Whisper, Python.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 129,
+          "t": [
+            551.155,
+            557.298
+          ],
+          "quote": "We will make your markdown in Python files feel like the most exciting thing you have seen on the face of yours.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tiktok",
+      "type": "company",
+      "role": "company",
+      "name": "TikTok",
+      "file": "TikTok",
+      "primary": true,
+      "how_described": "本集说 Brooke 在 TikTok 有超 20 万粉丝；她把整个作品库下载存到 Google Drive，再让 Claude 配合浏览器读评论找选题；并正试用 TikTok 广告推广自己的应用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            41.468,
+            49.355
+          ],
+          "quote": "There was a really well-clipped vertical short-form video, perfect TikTok cadence, and you did it with no hands.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            91.273,
+            103
+          ],
+          "quote": "She has over 200,000 followers on TikTok and she's figured out how to get Claude to edit her videos to be funny and have the right jump cuts, create scripts for new content, and generally understand",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            187.407,
+            192.089
+          ],
+          "quote": "A little while ago, I was on my way to being a big deal on TikTok, and then a girl gets tired.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            232.036,
+            236.481
+          ],
+          "quote": "The short form was kind of a big deal when I got on TikTok in 2020.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 63,
+          "t": [
+            285.437,
+            293.143
+          ],
+          "quote": "Just to make one video, even though my videos on TikTok, you know, we were talking about earlier, if you go look at the, it's just my face.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 64,
+          "t": [
+            293.623,
+            295.765
+          ],
+          "quote": "My entire TikTok feed is my face.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 163,
+          "t": [
+            657.226,
+            658.848
+          ],
+          "quote": "Perfect TikTok cadence.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 231,
+          "t": [
+            969.977,
+            977.161
+          ],
+          "quote": "I also just have to empathize as a TikTok girly, do you know how often I'm sitting in CapCut being like, cut it right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1004.657,
+            1006.759
+          ],
+          "quote": "When you're on TikTok.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1028.79,
+            1033.011
+          ],
+          "quote": "So show us how you use your existing TikTok corpus to actually learn how to do this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1081.488,
+            1086.391
+          ],
+          "quote": "So the thing with TikTok, first of all, on a technical level is that",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1114.917,
+            1120.182
+          ],
+          "quote": "Okay, let's show them the TikTok corpus.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1220.368,
+            1241.879
+          ],
+          "quote": "Okay, yeah, so just to walk people through if they're not watching, I think what is happening here is you went on your phone and you downloaded all your tiki-tiki videos and you put them in Google Drive and you said, here are all my TikTok videos in a Google Drive, that way Claude Code can access Google Drive and actually pull down any one video.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1242.46,
+            1246.402
+          ],
+          "quote": "Then separately, you said TikTok's open.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1247.989,
+            1252.453
+          ],
+          "quote": "Go look at TikTok and read the comments for this particular video.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1551.738,
+            1558.984
+          ],
+          "quote": "You had to do a little human loop in terms of downloading your full TikTok corpus to a cloud location, which was Google Drive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1649.49,
+            1655.037
+          ],
+          "quote": "Like I'm gonna try to do some, just figure out if TikTok ads work for my products.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1691.62,
+            1697.126
+          ],
+          "quote": "And you will see Chief Product Officer on TikTok rise the ranks yet again.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1705.6,
+            1709.783
+          ],
+          "quote": "You and I are, we're elders on TikTok.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 502,
+          "t": [
+            2109.655,
+            2111.416
+          ],
+          "quote": "TikTok is definitely my biggest audience.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "google-drive",
+      "type": "company",
+      "role": "company",
+      "name": "Google Drive",
+      "file": "Google Drive",
+      "primary": false,
+      "how_described": "本集说因 TikTok 防抓取，Brooke 把全部视频上传到 Google Drive，让 Claude Code 能访问并读取。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 256,
+          "t": [
+            1120.902,
+            1142.12
+          ],
+          "quote": "I am logged in and use the video in the Google Drive like you did before so that you can read the comments and use those comments to put together new content",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1203.842,
+            1212.845
+          ],
+          "quote": "Go and look at this particular video, which, by the way, I had to download on my phone and upload to the Google Drive because he can't download it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1220.368,
+            1241.879
+          ],
+          "quote": "Okay, yeah, so just to walk people through if they're not watching, I think what is happening here is you went on your phone and you downloaded all your tiki-tiki videos and you put them in Google Drive and you said, here are all my TikTok videos in a Google Drive, that way Claude Code can access Google Drive and actually pull down any one video.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1254.135,
+            1257.818
+          ],
+          "quote": "Pair it with the download of the video that's up in Google Drive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1551.738,
+            1558.984
+          ],
+          "quote": "You had to do a little human loop in terms of downloading your full TikTok corpus to a cloud location, which was Google Drive.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "the-edit-is-text",
+      "type": "concept",
+      "role": "concept",
+      "name": "剪辑即文本 (the edit is text)",
+      "file": "剪辑即文本",
+      "primary": true,
+      "how_described": "本集说 Claude 反复告诉她'那个文件就是整个剪辑'——剪辑清单是一份带起点、终点、景别的文本文件，同一条命令就能输出多时长多画幅版本。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 199,
+          "t": [
+            800.323,
+            805.647
+          ],
+          "quote": "In video editing, I didn't actually know this, but I was telling my friend, there's a thing called the edit is text.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "terminal",
+      "type": "concept",
+      "role": "concept",
+      "name": "终端 (terminal)",
+      "file": "终端",
+      "primary": false,
+      "how_described": "本集说 Brooke 所有事情都在终端里做，因为她觉得它对一切事物的访问权限大得多。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            49.535,
+            52.397
+          ],
+          "quote": "So literally, I do everything in the terminal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            567.057,
+            570.659
+          ],
+          "quote": "Okay, so literally I do everything in the terminal.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "jump cut",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

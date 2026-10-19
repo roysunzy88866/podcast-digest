@@ -1,0 +1,28 @@
+{
+  "id": "2026-10-19-howiai-claude-cuts-my-tiktok-how-this-creator-i",
+  "audio_mp3": "https://anchor.fm/s/1035b1568/podcast/play/127474001/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-14%2F434170806-44100-2-ca7b5b8f77a88.mp3",
+  "duration_sec": 2190.559,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 526,
+  "asr": true,
+  "title_en": "“Claude cuts my TikTok”: How this creator is scaling video with AI | Brooke Lacey",
+  "podcast": "How I AI",
+  "date": "2026-10-19",
+  "cover_official_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43412682/43412682-1792193825838-40c67f85a24ed.jpg",
+  "added": "2026-10-19",
+  "added_at": "2026-10-19T12:47:07.417Z",
+  "speaker_map": {
+    "SPEAKER_00": "Claire Vo",
+    "SPEAKER_01": "Brooke Lacey"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Claire Vo",
+  "cohosts": [
+    "Brooke Lacey"
+  ],
+  "title_zh": "让AI替我剪TikTok:一位创作者的自动化剪辑术",
+  "guest_name": "Brooke Lacey",
+  "guest_title": "TikTok创作者",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

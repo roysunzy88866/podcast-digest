@@ -1,0 +1,1517 @@
+{
+  "episode_id": "2026-10-19-grit-the-20-year-bet-to-make-fusion-energy-wo",
+  "podcast": "Grit",
+  "date": "2026-10-19",
+  "tags": [
+    "增长与销售",
+    "GTM",
+    "创业教训",
+    "核聚变",
+    "企业文化"
+  ],
+  "categories": [
+    "增长与销售",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "jeff-lawson",
+      "type": "person",
+      "role": "host",
+      "name": "Jeff Lawson",
+      "file": "Jeff Lawson",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            69.129,
+            75.489
+          ],
+          "quote": "Today on the show, I am talking with Jeff Lawson, formerly the co-founder and CEO of Twilio and now",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "twilio",
+      "type": "company",
+      "role": "company",
+      "name": "Twilio",
+      "file": "Twilio",
+      "primary": true,
+      "how_described": "本集主线：Jeff Lawson 花 16 年把这家开发者 API 公司做成年收入 40 亿美元以上的上市公司；上市那年只有 7 个背指标的销售，后来 6 个月招了近 100 名销售补分发短板",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            69.129,
+            75.489
+          ],
+          "quote": "Today on the show, I am talking with Jeff Lawson, formerly the co-founder and CEO of Twilio and now",
+          "speaker": ""
+        },
+        {
+          "seg": 14,
+          "t": [
+            75.489,
+            80.809
+          ],
+          "quote": "co-founder and CEO of Inertia. Jeff spent 16 years building Twilio from a startup founded during the",
+          "speaker": ""
+        },
+        {
+          "seg": 17,
+          "t": [
+            91.449,
+            96.169
+          ],
+          "quote": "years of Twilio walking away from the company he built, becoming a beginner again, and why he's",
+          "speaker": ""
+        },
+        {
+          "seg": 59,
+          "t": [
+            308.57,
+            314.009
+          ],
+          "quote": "different personality. Uh, in fact, you know, we hired folks at, at Twilio in the early days, they",
+          "speaker": ""
+        },
+        {
+          "seg": 62,
+          "t": [
+            325.85,
+            332.409
+          ],
+          "quote": "took Twilio from incorporation to product market fit? And I'm curious if",
+          "speaker": ""
+        },
+        {
+          "seg": 68,
+          "t": [
+            359.019,
+            364.619
+          ],
+          "quote": "Twilio. So when I started Twilio, I had only done consumer products before. This was my first sort",
+          "speaker": ""
+        },
+        {
+          "seg": 87,
+          "t": [
+            460.269,
+            465.709
+          ],
+          "quote": "building things with Twilio that were useful to themselves as developers and to the companies",
+          "speaker": ""
+        },
+        {
+          "seg": 88,
+          "t": [
+            465.709,
+            472.639
+          ],
+          "quote": "they worked for. And so you could argue that Twilio didn't really go through this period of",
+          "speaker": ""
+        },
+        {
+          "seg": 101,
+          "t": [
+            536.929,
+            543.769
+          ],
+          "quote": "sparse office. So maybe 2010. Um, in the very early days of Twilio, I was under the",
+          "speaker": ""
+        },
+        {
+          "seg": 110,
+          "t": [
+            581.05,
+            584.859
+          ],
+          "quote": "doing, you know, all the customer service for, for Twilio. So we'd, you know, be in in Zendesk,",
+          "speaker": ""
+        },
+        {
+          "seg": 112,
+          "t": [
+            589.979,
+            595.659
+          ],
+          "quote": "at Intuit, and the product manager said, hey, one of our developers built this amazing thing on Twilio.",
+          "speaker": ""
+        },
+        {
+          "seg": 122,
+          "t": [
+            639.219,
+            645.909
+          ],
+          "quote": "to use Twilio. This is so cool. And I kind of I think I was just doing sales though, you know, and",
+          "speaker": ""
+        },
+        {
+          "seg": 158,
+          "t": [
+            832.969,
+            839.769
+          ],
+          "quote": "people who Twilio didn't call back when they reached out to us. And then the last data",
+          "speaker": ""
+        },
+        {
+          "seg": 162,
+          "t": [
+            854.49,
+            858.369
+          ],
+          "quote": "General Motors is on the phone and says, you know, we want to use Twilio for this use case and the",
+          "speaker": ""
+        },
+        {
+          "seg": 164,
+          "t": [
+            863.929,
+            869.209
+          ],
+          "quote": "on the phone like, yes. Oh thank you for calling Twilio. Right. Like. And they're like, yeah, we want",
+          "speaker": ""
+        },
+        {
+          "seg": 165,
+          "t": [
+            869.21,
+            872.729
+          ],
+          "quote": "to build whatever it is on Twilio. And they're like, oh, that's amazing. Well let us know how it",
+          "speaker": ""
+        },
+        {
+          "seg": 238,
+          "t": [
+            1222.91,
+            1228.68
+          ],
+          "quote": "want some security features. Great. Go build those. But don't be like Twilio. Did you say? Oh, okay, well,",
+          "speaker": ""
+        },
+        {
+          "seg": 241,
+          "t": [
+            1236.68,
+            1241.039
+          ],
+          "quote": "products that are under distributed. Um, and at that point in time, Twilio. And we were pretty",
+          "speaker": ""
+        },
+        {
+          "seg": 288,
+          "t": [
+            1506.4,
+            1510.318
+          ],
+          "quote": "And I would love for, have Twilio have gotten into, because we were a company very accustomed to",
+          "speaker": ""
+        },
+        {
+          "seg": 292,
+          "t": [
+            1526.17,
+            1530.569
+          ],
+          "quote": "into your business model. That's a really hard thing to do. And Twilio already had this business",
+          "speaker": ""
+        },
+        {
+          "seg": 423,
+          "t": [
+            2263.639,
+            2270.519
+          ],
+          "quote": "bought The Onion, so you left Twilio in 2024? Yep. After 20. Years. Uh, 16. Years, 16",
+          "speaker": ""
+        },
+        {
+          "seg": 492,
+          "t": [
+            2643.989,
+            2648.949
+          ],
+          "quote": "this for energy. And, you know, at the time that I was still running Twilio and I was like, oh my God,",
+          "speaker": ""
+        },
+        {
+          "seg": 568,
+          "t": [
+            3027.33,
+            3033.569
+          ],
+          "quote": "is. Might be different. This one might be different than enterprise software. When you left Twilio, I",
+          "speaker": ""
+        },
+        {
+          "seg": 572,
+          "t": [
+            3052.259,
+            3058.819
+          ],
+          "quote": "Twilio. You know, we'd spend some time together. You know, like, was the plan to, like, kick it a little",
+          "speaker": ""
+        },
+        {
+          "seg": 575,
+          "t": [
+            3071.699,
+            3078.499
+          ],
+          "quote": "year after, uh, you know, I left Twilio. One of the things I did, I built a car. Um, and I just, I",
+          "speaker": ""
+        },
+        {
+          "seg": 589,
+          "t": [
+            3145.669,
+            3152.629
+          ],
+          "quote": "espoused at Twilio. Um. I don't know if you call them values or not, but I think that is like",
+          "speaker": ""
+        },
+        {
+          "seg": 636,
+          "t": [
+            3389.669,
+            3395.229
+          ],
+          "quote": "example, uh, you know, at Twilio, one of our values was wear the customer's shoes. And so what you",
+          "speaker": ""
+        },
+        {
+          "seg": 647,
+          "t": [
+            3445.56,
+            3451.679
+          ],
+          "quote": "think about it. And so at Twilio, we called it no shenanigans because pretty sure, you know, when",
+          "speaker": ""
+        },
+        {
+          "seg": 706,
+          "t": [
+            3755.93,
+            3761.369
+          ],
+          "quote": "our universe. Okay. Those are symbols. So at Twilio, we had. Wear the customer's shoes was one of our",
+          "speaker": ""
+        },
+        {
+          "seg": 729,
+          "t": [
+            3882.029,
+            3886.789
+          ],
+          "quote": "up with these rituals. So Twilio, we valued building. Our customers were software developers.",
+          "speaker": ""
+        },
+        {
+          "seg": 730,
+          "t": [
+            3886.789,
+            3893.469
+          ],
+          "quote": "We had a ritual, which was we had red track jackets with the Twilio logo on them. It were only",
+          "speaker": ""
+        },
+        {
+          "seg": 733,
+          "t": [
+            3904.229,
+            3911.19
+          ],
+          "quote": "track jacket. Good job. You would earn it, and you earned it by writing an app on Twilio.",
+          "speaker": ""
+        },
+        {
+          "seg": 735,
+          "t": [
+            3916.72,
+            3921.878
+          ],
+          "quote": "Everybody was expected to write an app on Twilio, and we taught people how to code, and we gave them",
+          "speaker": ""
+        },
+        {
+          "seg": 737,
+          "t": [
+            3925.88,
+            3930.879
+          ],
+          "quote": "Twilio tribe. You had to understand what our product did and writing code. It got easier and",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "inertia",
+      "type": "company",
+      "role": "company",
+      "name": "Inertia",
+      "file": "Inertia",
+      "primary": true,
+      "how_described": "Lawson 离开 Twilio 后创办的聚变能源公司，联合创始人是 NIF 首席设计师 Annie Kritcher 和 Mike Dunne；拿到 4.5 亿美元承诺资本，要把唯一实现过点火的技术路线工程化、供应链化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            75.489,
+            80.809
+          ],
+          "quote": "co-founder and CEO of Inertia. Jeff spent 16 years building Twilio from a startup founded during the",
+          "speaker": ""
+        },
+        {
+          "seg": 527,
+          "t": [
+            2821.18,
+            2827.1
+          ],
+          "quote": "company is called Inertia. Who's we? Uh, so myself, Annie, the lead designer of the NIF experiment, uh,",
+          "speaker": ""
+        },
+        {
+          "seg": 613,
+          "t": [
+            3271.939,
+            3277.339
+          ],
+          "quote": "up with? I think there is such a thing as doing it too early. So for example, at Inertia, we've been",
+          "speaker": ""
+        },
+        {
+          "seg": 625,
+          "t": [
+            3332.11,
+            3336.789
+          ],
+          "quote": "actually at Inertia, because we recently crossed that 50 mark. And the question you're",
+          "speaker": ""
+        },
+        {
+          "seg": 652,
+          "t": [
+            3472.839,
+            3477.119
+          ],
+          "quote": "by the way, a value that I am pulling forward into Inertia. In fact, that was one of my sort of",
+          "speaker": ""
+        },
+        {
+          "seg": 746,
+          "t": [
+            3975.689,
+            3982.329
+          ],
+          "quote": "off for it. So. Thank you. Um, are you hiring? Yeah. Yeah. We're hiring, uh, a lot of roles at Inertia. So",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "the-onion",
+      "type": "company",
+      "role": "company",
+      "name": "The Onion",
+      "file": "The Onion",
+      "primary": true,
+      "how_described": "Lawson 从私募股权手里买下的讽刺媒体，当时正陷入裁员死亡螺旋；他撤掉垃圾广告让收入归零、改推 99 美元/年会员制并恢复纸质版，两年后收入超过收购前 5 倍",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 421,
+          "t": [
+            2254.84,
+            2258.919
+          ],
+          "quote": "to start my next company. I was perfectly content. I bought The Onion, but was perfectly content",
+          "speaker": ""
+        },
+        {
+          "seg": 423,
+          "t": [
+            2263.639,
+            2270.519
+          ],
+          "quote": "bought The Onion, so you left Twilio in 2024? Yep. After 20. Years. Uh, 16. Years, 16",
+          "speaker": ""
+        },
+        {
+          "seg": 425,
+          "t": [
+            2277.49,
+            2284.409
+          ],
+          "quote": "Okay. Yeah. Then you buy The Onion. You were not looking. We brought back, by the way. So The",
+          "speaker": ""
+        },
+        {
+          "seg": 440,
+          "t": [
+            2357.419,
+            2362.779
+          ],
+          "quote": "uh, if you pay $99 a year, we brought back the print edition of The Onion. We will mail it to",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "product-market-fit",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品市场契合 (product market fit)",
+      "file": "产品市场契合",
+      "primary": true,
+      "how_described": "本集反复讨论：Twilio 上线当天开发者就刷卡注册，可以说很早就有了 PMF；一旦有了 PMF，公司几乎必然是分发受限而非产品受限",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            119.86,
+            126.22
+          ],
+          "quote": "function, taking for granted how rare it is to have product market fit.",
+          "speaker": ""
+        },
+        {
+          "seg": 25,
+          "t": [
+            138.179,
+            143.86
+          ],
+          "quote": "talk about go to market. There's a set of folks that come in before you have product market fit,",
+          "speaker": ""
+        },
+        {
+          "seg": 37,
+          "t": [
+            201.509,
+            206.149
+          ],
+          "quote": "playbook. So then post product market fit, you now have the playbook in your hand and start hiring.",
+          "speaker": ""
+        },
+        {
+          "seg": 40,
+          "t": [
+            214.11,
+            219.63
+          ],
+          "quote": "market fit. Because the people who've spent their whole career in post product market fit always",
+          "speaker": ""
+        },
+        {
+          "seg": 47,
+          "t": [
+            248.199,
+            255.12
+          ],
+          "quote": "appreciate how uncommon it is to actually find product market fit when you tend",
+          "speaker": ""
+        },
+        {
+          "seg": 53,
+          "t": [
+            278.679,
+            283.64
+          ],
+          "quote": "some product market fit and they're scaling. So just numerically, the number of salespeople that",
+          "speaker": ""
+        },
+        {
+          "seg": 62,
+          "t": [
+            325.85,
+            332.409
+          ],
+          "quote": "took Twilio from incorporation to product market fit? And I'm curious if",
+          "speaker": ""
+        },
+        {
+          "seg": 65,
+          "t": [
+            343.049,
+            347.29
+          ],
+          "quote": "I have product market fit or not? But I'm curious, like. Maybe you should. Maybe that should be what",
+          "speaker": ""
+        },
+        {
+          "seg": 79,
+          "t": [
+            416.67,
+            421.109
+          ],
+          "quote": "thinking about, do I have product market fit? Am I running a go to market? Like, I didn't even know",
+          "speaker": ""
+        },
+        {
+          "seg": 85,
+          "t": [
+            449.349,
+            455.269
+          ],
+          "quote": "when I think back to like, when did we get product market fit? Well, very early on, I'm saying the day",
+          "speaker": ""
+        },
+        {
+          "seg": 89,
+          "t": [
+            472.679,
+            476.359
+          ],
+          "quote": "like, don't have product market fit, don't have it, don't have it, are we did one magical thing and",
+          "speaker": ""
+        },
+        {
+          "seg": 90,
+          "t": [
+            476.359,
+            482.519
+          ],
+          "quote": "now we have product market fit. I think the bigger question is like, when did we make this transition,",
+          "speaker": ""
+        },
+        {
+          "seg": 92,
+          "t": [
+            490.04,
+            495.279
+          ],
+          "quote": "say that's when we found product market fit. Uh, when we were able to convert those developers",
+          "speaker": ""
+        },
+        {
+          "seg": 224,
+          "t": [
+            1161.219,
+            1165.899
+          ],
+          "quote": "are distribution, not product constrained? Okay, so seed stage when you don't have product market fit.",
+          "speaker": ""
+        },
+        {
+          "seg": 228,
+          "t": [
+            1179.27,
+            1184.029
+          ],
+          "quote": "product market fit, you are almost certainly distribution constraint because you're in the",
+          "speaker": ""
+        },
+        {
+          "seg": 274,
+          "t": [
+            1423.109,
+            1429.109
+          ],
+          "quote": "100 billion or something like. I mean, like, what is bonkers? I mean, talk about product market fit,",
+          "speaker": ""
+        },
+        {
+          "seg": 297,
+          "t": [
+            1547.05,
+            1551.889
+          ],
+          "quote": "well. But back to the point. Like, what is it? It's just ultimate product market fit for in some ways",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "go-to-market",
+      "type": "concept",
+      "role": "concept",
+      "name": "进入市场策略 (go to market)",
+      "file": "进入市场策略",
+      "primary": true,
+      "how_described": "Lawson 承认创办 Twilio 时连这个词都要谷歌，他的核心忠告是：不要在不理解自己的 go to market 之前上市",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            138.179,
+            143.86
+          ],
+          "quote": "talk about go to market. There's a set of folks that come in before you have product market fit,",
+          "speaker": ""
+        },
+        {
+          "seg": 30,
+          "t": [
+            164.619,
+            171.619
+          ],
+          "quote": "go to market folks is to a close. Some sales get some revenue coming in. But really it is to",
+          "speaker": ""
+        },
+        {
+          "seg": 57,
+          "t": [
+            298.289,
+            302.849
+          ],
+          "quote": "know about how to sell this product. But you as a, you know, go to market person in the early days,",
+          "speaker": ""
+        },
+        {
+          "seg": 74,
+          "t": [
+            389.859,
+            395.059
+          ],
+          "quote": "run a go to market for developers. And so come back to me when you figured out more about how to",
+          "speaker": ""
+        },
+        {
+          "seg": 75,
+          "t": [
+            395.059,
+            399.699
+          ],
+          "quote": "run the go to market here. And I kind of, like, made my notes. Okay, I got to go figure out the go to",
+          "speaker": ""
+        },
+        {
+          "seg": 77,
+          "t": [
+            405.579,
+            411.15
+          ],
+          "quote": "home and googled. What does go to market mean, right? I literally had no idea what I did. I didn't",
+          "speaker": ""
+        },
+        {
+          "seg": 78,
+          "t": [
+            411.15,
+            416.67
+          ],
+          "quote": "know what I didn't know about how to run a B2B go to market. And so in the early days, we were not",
+          "speaker": ""
+        },
+        {
+          "seg": 79,
+          "t": [
+            416.67,
+            421.109
+          ],
+          "quote": "thinking about, do I have product market fit? Am I running a go to market? Like, I didn't even know",
+          "speaker": ""
+        },
+        {
+          "seg": 91,
+          "t": [
+            483.16,
+            490.04
+          ],
+          "quote": "um, from purely developer to more of a traditional B2B go to market motion? Because you might",
+          "speaker": ""
+        },
+        {
+          "seg": 131,
+          "t": [
+            685.109,
+            691.429
+          ],
+          "quote": "complete moron. Like, I did not learn the lesson of go to market, you know, at that point, because we",
+          "speaker": ""
+        },
+        {
+          "seg": 132,
+          "t": [
+            691.429,
+            697.149
+          ],
+          "quote": "did hire salespeople. But I'm going to tell you a terrifying story for any, uh, go to market person.",
+          "speaker": ""
+        },
+        {
+          "seg": 136,
+          "t": [
+            717.509,
+            723.39
+          ],
+          "quote": "my COO, to help me scale out, go to market. And, you know, he agreed. He started and I think January of",
+          "speaker": ""
+        },
+        {
+          "seg": 190,
+          "t": [
+            989.749,
+            996.039
+          ],
+          "quote": "Street. Look at this really light touch. Go to market motion we have. And so you know we saw it",
+          "speaker": ""
+        },
+        {
+          "seg": 254,
+          "t": [
+            1310.889,
+            1317.209
+          ],
+          "quote": "about go to market in sales or anything like that. We had such a strong expansion rate. So DBNE was",
+          "speaker": ""
+        },
+        {
+          "seg": 265,
+          "t": [
+            1366.819,
+            1373.539
+          ],
+          "quote": "Don't go public without understanding your go to market? This is my lesson for",
+          "speaker": ""
+        },
+        {
+          "seg": 267,
+          "t": [
+            1378.18,
+            1384.3
+          ],
+          "quote": "understanding your go to market. What do you think of these companies that I'm sure you're tracking?",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "distribution-constrained",
+      "type": "concept",
+      "role": "concept",
+      "name": "分发受限 (distribution constrained)",
+      "file": "分发受限",
+      "primary": true,
+      "how_described": "George 提出的框架：任何公司要么产品受限、要么分发受限；几乎所有找到 PMF 的创业公司都是分发受限的，产品出身的创始人却总想再做新产品",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 197,
+          "t": [
+            1025.079,
+            1031.319
+          ],
+          "quote": "company is either product constrained or distribution constrained. Okay. So if you're",
+          "speaker": ""
+        },
+        {
+          "seg": 202,
+          "t": [
+            1051.249,
+            1056.609
+          ],
+          "quote": "product in your distribution constrained, then the thing you should focus on as a company is how do",
+          "speaker": ""
+        },
+        {
+          "seg": 215,
+          "t": [
+            1116.22,
+            1122.9
+          ],
+          "quote": "way. Very few startups are. Almost every startup is distribution constrained. And so while we were",
+          "speaker": ""
+        },
+        {
+          "seg": 231,
+          "t": [
+            1192.03,
+            1195.909
+          ],
+          "quote": "moment, you are not product constrained, you are distribution constrained. And the thing the CEO",
+          "speaker": ""
+        },
+        {
+          "seg": 233,
+          "t": [
+            1199.869,
+            1204.509
+          ],
+          "quote": "we're not distribution constrained anymore. Hiring salespeople, scaling, marketing, building maybe a",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "dollar-based-net-expansion",
+      "type": "concept",
+      "role": "concept",
+      "name": "净收入扩张率 (dollar based net expansion)",
+      "file": "净收入扩张率",
+      "primary": true,
+      "how_described": "本集说 Twilio 发明了这个指标（DBNE），IPO 时达 140%，老客户自动多花钱推动增长；但它是奢侈也是诅咒，2017 年放缓后公司被迫仓促学习赢新客户和交叉销售",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 255,
+          "t": [
+            1317.21,
+            1323.81
+          ],
+          "quote": "the metric that we used, which I think we invented dollar based net expansion. Uh, was I think at the",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "sales",
+      "type": "concept",
+      "role": "concept",
+      "name": "销售 (sales)",
+      "file": "销售",
+      "primary": true,
+      "how_described": "本集主线教训：Lawson 曾坚信开发者产品不需要销售，直到替 Intuit 产品经理打了一通电话才意识到那就是销售；上市时全公司只有 7 个背指标的销售",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            154.3,
+            158.339
+          ],
+          "quote": "think of business development as essentially creative sales, sales where there's no playbook.",
+          "speaker": ""
+        },
+        {
+          "seg": 30,
+          "t": [
+            164.619,
+            171.619
+          ],
+          "quote": "go to market folks is to a close. Some sales get some revenue coming in. But really it is to",
+          "speaker": ""
+        },
+        {
+          "seg": 36,
+          "t": [
+            196.589,
+            201.509
+          ],
+          "quote": "market fit. Trying to find the playbook but really be creative in your sales to then write the",
+          "speaker": ""
+        },
+        {
+          "seg": 38,
+          "t": [
+            206.509,
+            210.47
+          ],
+          "quote": "You know sales after sales after sales and just scaling out that function. And so I think that's",
+          "speaker": ""
+        },
+        {
+          "seg": 50,
+          "t": [
+            265.68,
+            270.279
+          ],
+          "quote": "salespeople to begin with or sales leaders to begin with, those are the companies who've already",
+          "speaker": ""
+        },
+        {
+          "seg": 122,
+          "t": [
+            639.219,
+            645.909
+          ],
+          "quote": "to use Twilio. This is so cool. And I kind of I think I was just doing sales though, you know, and",
+          "speaker": ""
+        },
+        {
+          "seg": 123,
+          "t": [
+            645.909,
+            651.029
+          ],
+          "quote": "I kind of had this slow realization of like, oh, yeah, that's what a sales person would do. And",
+          "speaker": ""
+        },
+        {
+          "seg": 146,
+          "t": [
+            765.679,
+            771.879
+          ],
+          "quote": "carrying quota. You know, we've got sales engineers and BDRs and all these people, but the actual",
+          "speaker": ""
+        },
+        {
+          "seg": 153,
+          "t": [
+            804.559,
+            808.76
+          ],
+          "quote": "of sales reps is. I'm pretty sure it's not seven. Given our opportunity and the size of the",
+          "speaker": ""
+        },
+        {
+          "seg": 156,
+          "t": [
+            820.969,
+            826.409
+          ],
+          "quote": "the way, a Wall Street analyst just wrote a report where they spoke to one of the prior sales",
+          "speaker": ""
+        },
+        {
+          "seg": 174,
+          "t": [
+            906.219,
+            912.379
+          ],
+          "quote": "hired like almost 100 sales reps. It was bonkers. We we like did this blitz and absolutely it was",
+          "speaker": ""
+        },
+        {
+          "seg": 188,
+          "t": [
+            978.429,
+            985.029
+          ],
+          "quote": "actually still didn't understand quite enough about the B2B sales motion because we were",
+          "speaker": ""
+        },
+        {
+          "seg": 189,
+          "t": [
+            985.03,
+            989.749
+          ],
+          "quote": "succeeding with developers inbound light touch. And in fact, that was our sales pitch to Wall",
+          "speaker": ""
+        },
+        {
+          "seg": 192,
+          "t": [
+            1000.079,
+            1004.679
+          ],
+          "quote": "know, you got Atlassian out there who was saying, oh, sales is for suckers, right? Like, you know, all that",
+          "speaker": ""
+        },
+        {
+          "seg": 194,
+          "t": [
+            1009.799,
+            1014.519
+          ],
+          "quote": "sales team. Yeah. Um, and so what were we doing? You know, really focusing on product. But the",
+          "speaker": ""
+        },
+        {
+          "seg": 200,
+          "t": [
+            1041,
+            1045.359
+          ],
+          "quote": "Right. You've got, you know, 1% penetration of your market. And if you had more marketing or sales or",
+          "speaker": ""
+        },
+        {
+          "seg": 203,
+          "t": [
+            1056.609,
+            1060.449
+          ],
+          "quote": "you solve that problem? You know, more distribution, more sales reps, more marketing, getting out there.",
+          "speaker": ""
+        },
+        {
+          "seg": 206,
+          "t": [
+            1072.73,
+            1077.489
+          ],
+          "quote": "all these customers and all these sales reps, and they've already bought all the stuff you have. And",
+          "speaker": ""
+        },
+        {
+          "seg": 220,
+          "t": [
+            1141.66,
+            1145.619
+          ],
+          "quote": "all those heads back and said, nope, those are all sales heads now. And all the supporting",
+          "speaker": ""
+        },
+        {
+          "seg": 221,
+          "t": [
+            1145.619,
+            1149.619
+          ],
+          "quote": "infrastructure you need for for growing the sales team because we literally, you know, pivoted from",
+          "speaker": ""
+        },
+        {
+          "seg": 254,
+          "t": [
+            1310.889,
+            1317.209
+          ],
+          "quote": "about go to market in sales or anything like that. We had such a strong expansion rate. So DBNE was",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "headcount-budgets",
+      "type": "concept",
+      "role": "concept",
+      "name": "人员编制预算 (headcount budgets)",
+      "file": "人员编制预算",
+      "primary": true,
+      "how_described": "Lawson 解释这一代 AI 公司增长疯狂的关键：它们动用的不是软件预算而是远大于其的人员编制预算——AI 拦下 80-90% 客服请求意味着客户可以直接少招人",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0,
+            3.92
+          ],
+          "quote": "People are not tapping into software budgets, they're tapping into headcount budgets. You know,",
+          "speaker": ""
+        },
+        {
+          "seg": 339,
+          "t": [
+            1791.25,
+            1796.208
+          ],
+          "quote": "people are not tapping into software budgets. They're tapping into headcount budgets, which are",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "fusion",
+      "type": "concept",
+      "role": "concept",
+      "name": "核聚变 (fusion)",
+      "file": "核聚变",
+      "primary": true,
+      "how_described": "本集后半主线：聚变是给太阳供能的过程、能源的圣杯，但直到 2022 年 NIF 才第一次实现点火；Lawson 押注把这条唯一被验证的路线商业化，目标 2030 年前后动工建十亿瓦级电站",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            86.41,
+            91.449
+          ],
+          "quote": "Onion and then started over in an entirely new field fusion energy. We talk about the hardest",
+          "speaker": ""
+        },
+        {
+          "seg": 18,
+          "t": [
+            96.169,
+            101.41
+          ],
+          "quote": "betting his next chapter on fusion. Enjoy. Can I ask you the question I was going to ask you? Yeah,",
+          "speaker": ""
+        },
+        {
+          "seg": 374,
+          "t": [
+            1989.169,
+            1993.889
+          ],
+          "quote": "started a fusion energy company instead of a, you know, AI company. You did put your money",
+          "speaker": ""
+        },
+        {
+          "seg": 409,
+          "t": [
+            2186.669,
+            2191.869
+          ],
+          "quote": "that's where something like fusion energy, which is a long shot, but if it works, will change the",
+          "speaker": ""
+        },
+        {
+          "seg": 420,
+          "t": [
+            2249.239,
+            2254.839
+          ],
+          "quote": "to for that success. How did you land on fusion energy? Total accident. I mean, I wasn't looking",
+          "speaker": ""
+        },
+        {
+          "seg": 461,
+          "t": [
+            2465.959,
+            2470.359
+          ],
+          "quote": "energy and, you know, fission, which is the power plants, you know, we have today, but also fusion,",
+          "speaker": ""
+        },
+        {
+          "seg": 463,
+          "t": [
+            2474.919,
+            2480.879
+          ],
+          "quote": "like uranium, plutonium and bizarre things like that. Uh, fusion is taking light atoms,",
+          "speaker": ""
+        },
+        {
+          "seg": 472,
+          "t": [
+            2531.009,
+            2536.969
+          ],
+          "quote": "you can spend a ton of energy to create this high energy plasma. And you get a few a few fusion",
+          "speaker": ""
+        },
+        {
+          "seg": 489,
+          "t": [
+            2627.429,
+            2633.029
+          ],
+          "quote": "like, Holy crap. Maybe fusion energy, which I always thought was a thing of science fiction, right?",
+          "speaker": ""
+        },
+        {
+          "seg": 495,
+          "t": [
+            2657.47,
+            2661.508
+          ],
+          "quote": "what's going on in that world of fusion, because I would certainly expect that after having reached",
+          "speaker": ""
+        },
+        {
+          "seg": 507,
+          "t": [
+            2720.519,
+            2727.359
+          ],
+          "quote": "billions of dollars of investor money going into the fusion space already into approaches that",
+          "speaker": ""
+        },
+        {
+          "seg": 509,
+          "t": [
+            2733.8,
+            2738.159
+          ],
+          "quote": "hundreds of fusion machines have been built over the decades. Each time they think, oh my God, like,",
+          "speaker": ""
+        },
+        {
+          "seg": 512,
+          "t": [
+            2745.249,
+            2750.409
+          ],
+          "quote": "know, we learned a few things and and so we asked ourselves this question. If we want to see fusion",
+          "speaker": ""
+        },
+        {
+          "seg": 524,
+          "t": [
+            2807.379,
+            2811.82
+          ],
+          "quote": "produce these fusion targets, and in doing so, bringing the cost to this whole operation from",
+          "speaker": ""
+        },
+        {
+          "seg": 537,
+          "t": [
+            2872.11,
+            2878.148
+          ],
+          "quote": "spinout to happen. So we, uh, we cut multiple deals with them. First, I licensed all the IP for fusion.",
+          "speaker": ""
+        },
+        {
+          "seg": 541,
+          "t": [
+            2897.47,
+            2902.949
+          ],
+          "quote": "fusion target design using the same models that they use to design the current experiment. Uh,",
+          "speaker": ""
+        },
+        {
+          "seg": 577,
+          "t": [
+            3082.54,
+            3086.019
+          ],
+          "quote": "like, you know, I really am. I'm thinking about starting this fusion energy company, which would",
+          "speaker": ""
+        },
+        {
+          "seg": 584,
+          "t": [
+            3119.07,
+            3125.709
+          ],
+          "quote": "woodworking these days. Um, or or companies or software products or fusion energy. Like,",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "values",
+      "type": "concept",
+      "role": "concept",
+      "name": "价值观 (values)",
+      "file": "价值观",
+      "primary": true,
+      "how_described": "Lawson 区分文化与价值观：价值观是给文化的云装上把手，用来在冲突时裁决争论；写不出反面的价值观不值得写，让价值观活起来靠符号、仪式和英雄",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            25.4,
+            30.36
+          ],
+          "quote": "values in corporate history. We move fast and break things. The assumption is, if I break things,",
+          "speaker": ""
+        },
+        {
+          "seg": 588,
+          "t": [
+            3139.469,
+            3145.069
+          ],
+          "quote": "mind? There's one thing I actually really want to talk to you about, which is the values that you",
+          "speaker": ""
+        },
+        {
+          "seg": 589,
+          "t": [
+            3145.669,
+            3152.629
+          ],
+          "quote": "espoused at Twilio. Um. I don't know if you call them values or not, but I think that is like",
+          "speaker": ""
+        },
+        {
+          "seg": 590,
+          "t": [
+            3152.629,
+            3159.199
+          ],
+          "quote": "one of the most underrated things that you did. I don't know why, but those values",
+          "speaker": ""
+        },
+        {
+          "seg": 600,
+          "t": [
+            3210.56,
+            3216.369
+          ],
+          "quote": "second is values. So culture, that's what you feel every day when you go to work. How do I feel? Am I",
+          "speaker": ""
+        },
+        {
+          "seg": 603,
+          "t": [
+            3223.53,
+            3230.209
+          ],
+          "quote": "culture is a feeling you have when you go to work every day. Values are words that you create to",
+          "speaker": ""
+        },
+        {
+          "seg": 606,
+          "t": [
+            3240.81,
+            3245.129
+          ],
+          "quote": "values. You put a handle on it and you can steer that that cloud in the direction you want it to",
+          "speaker": ""
+        },
+        {
+          "seg": 612,
+          "t": [
+            3268.25,
+            3271.939
+          ],
+          "quote": "culture versus values. So then the question is, okay, what are the words that you're going to come",
+          "speaker": ""
+        },
+        {
+          "seg": 614,
+          "t": [
+            3277.379,
+            3284.299
+          ],
+          "quote": "operating for less than a year. We still have not articulated the values of the company, but it's a",
+          "speaker": ""
+        },
+        {
+          "seg": 615,
+          "t": [
+            3284.299,
+            3288.74
+          ],
+          "quote": "very active conversation. But we've not declared these are values y. I actually think it's very",
+          "speaker": ""
+        },
+        {
+          "seg": 628,
+          "t": [
+            3350.709,
+            3356.949
+          ],
+          "quote": "When the path forward is unclear. Those are the things that are most important in your values. So",
+          "speaker": ""
+        },
+        {
+          "seg": 629,
+          "t": [
+            3356.949,
+            3362.029
+          ],
+          "quote": "a lot of people think about values as like, oh, we want to have fun together. Of course, everyone",
+          "speaker": ""
+        },
+        {
+          "seg": 633,
+          "t": [
+            3375.669,
+            3381.269
+          ],
+          "quote": "the values is to describe how do we deal with the hard parts of building the company, which usually",
+          "speaker": ""
+        },
+        {
+          "seg": 636,
+          "t": [
+            3389.669,
+            3395.229
+          ],
+          "quote": "example, uh, you know, at Twilio, one of our values was wear the customer's shoes. And so what you",
+          "speaker": ""
+        },
+        {
+          "seg": 637,
+          "t": [
+            3395.229,
+            3399.949
+          ],
+          "quote": "want when you write down these values, you want people to be able to use them to settle arguments.",
+          "speaker": ""
+        },
+        {
+          "seg": 640,
+          "t": [
+            3408.71,
+            3415.029
+          ],
+          "quote": "and come to the right answer. And that's the thing. So those are the values. And you want to write",
+          "speaker": ""
+        },
+        {
+          "seg": 657,
+          "t": [
+            3494.64,
+            3499.918
+          ],
+          "quote": "opposite of one of the values, like you cannot make the argument that the opposite of this thing",
+          "speaker": ""
+        },
+        {
+          "seg": 660,
+          "t": [
+            3509.169,
+            3514.049
+          ],
+          "quote": "of their values. If the answer is no, then you can ask yourself, well then, do we really have to say",
+          "speaker": ""
+        },
+        {
+          "seg": 664,
+          "t": [
+            3529.73,
+            3535.289
+          ],
+          "quote": "yes, you do have to say it. In fact, I think one of the best values. And, you know, look, I don't love a",
+          "speaker": ""
+        },
+        {
+          "seg": 665,
+          "t": [
+            3535.289,
+            3541.37
+          ],
+          "quote": "lot of the culture of of what Facebook's become, but one of the best values that Mark ever put out",
+          "speaker": ""
+        },
+        {
+          "seg": 666,
+          "t": [
+            3541.37,
+            3546.649
+          ],
+          "quote": "there, one of the most brilliant values in corporate history is move fast and break things.",
+          "speaker": ""
+        },
+        {
+          "seg": 673,
+          "t": [
+            3579.539,
+            3585.739
+          ],
+          "quote": "the signal to noise on that is huge. So then the last thing that I think about with values and I",
+          "speaker": ""
+        },
+        {
+          "seg": 702,
+          "t": [
+            3730.12,
+            3735.679
+          ],
+          "quote": "that this group values and others don't. So let's look at, you know, sports teams. You know a symbol",
+          "speaker": ""
+        },
+        {
+          "seg": 707,
+          "t": [
+            3761.37,
+            3767.569
+          ],
+          "quote": "values. The symbol of that were literal customers shoes hanging on the wall of our office,",
+          "speaker": ""
+        },
+        {
+          "seg": 739,
+          "t": [
+            3935.959,
+            3941.559
+          ],
+          "quote": "we want people who are up to that challenge. One of our values was live the spirit of challenge. We",
+          "speaker": ""
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "National Ignition Facility",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

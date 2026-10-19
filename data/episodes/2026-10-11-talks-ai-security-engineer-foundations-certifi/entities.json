@@ -1,0 +1,1817 @@
+{
+  "episode_id": "2026-10-11-talks-ai-security-engineer-foundations-certifi",
+  "podcast": "精选演讲",
+  "date": "2026-10-11",
+  "tags": [
+    "AI 安全",
+    "提示词注入",
+    "氛围编程",
+    "供应链攻击",
+    "智能体"
+  ],
+  "categories": [
+    "AI 安全",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "javier-garza",
+      "type": "person",
+      "role": "guest",
+      "name": "Javier Garza",
+      "file": "Javier Garza",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "snyk",
+      "type": "company",
+      "role": "company",
+      "name": "Snyk",
+      "file": "Snyk",
+      "primary": true,
+      "how_described": "本集说 Snyk 是一家面向开发者的安全公司，专注开发者安全，现在重点做 AI 安全，嘉宾是它的开发者布道师；它扫描了上万个智能体技能并发现有 367 个含恶意代码",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            153.852,
+            156.574
+          ],
+          "quote": "But in a short, you know, I'm a developer advocate at Snyk.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            157.255,
+            164.1
+          ],
+          "quote": "If you guys don't know Snyk, it's a security company, you know, that for developers, we are specialized in developer security.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 539,
+          "t": [
+            3243.073,
+            3254.78
+          ],
+          "quote": "So my recommendation is it doesn't matter how many GitHub stars some project has, you know, don't trust it, you know, just run some kind of security scan, and Snyk has a free one that you can use.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prompt injection)",
+      "file": "提示词注入",
+      "primary": true,
+      "how_described": "本集说它是 OWASP LLM 十大风险之首：直接或间接操纵 LLM 做不该做的事，防御靠净化输入、好的系统提示词和高风险操作需人工确认",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 72,
+          "t": [
+            354.73,
+            362.093
+          ],
+          "quote": "Prompt injection, sensitive information disclosure, supply chain, data and model poisoning, improper output handling, and so on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            365.774,
+            369.816
+          ],
+          "quote": "So let's start with prompt injection, which is the number one that we have this year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            371.076,
+            373.517
+          ],
+          "quote": "So how many of you know about prompt injection?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            418.758,
+            425.303
+          ],
+          "quote": "Basically, you have here a prompt, and then there are different levels where you can practice prompt injection attacks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            496.349,
+            500.97
+          ],
+          "quote": "But this is something that we call direct prompt injection.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            991.46,
+            1003.829
+          ],
+          "quote": "In that way, you know, it cannot save data into the database, like an SQL injection, in this case a prompt injection, and also it cannot send other information because the agent doesn't have access to more information.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 534,
+          "t": [
+            3218.442,
+            3224.029
+          ],
+          "quote": "And you have the different things here, like direct prompt injection, indirect prompt injection, and so on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 563,
+          "t": [
+            3428.255,
+            3436.862
+          ],
+          "quote": "You can do adversarial inputs and prompt injection just to ensure that you enumerate everything.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 575,
+          "t": [
+            3554.942,
+            3565.531
+          ],
+          "quote": "The student assistant chatbot that we use for training purposes where we tell people here's a chatbot, you know, see if you can do a prompt injection into it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体是你交互的工具（如 Claude、Cursor），LLM 是它的大脑，MCP 工具增强它的能力；给智能体的权限要最小化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            125.205,
+            134.568
+          ],
+          "quote": "Then we'll do addressing shadow AI, AI thread modeling, securing agent skills and MCP, securing by coding and AI rate teaming.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            501.57,
+            508.811
+          ],
+          "quote": "Basically, you just manipulate the system prompt that the agent has to do something that it's not supposed to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            626.082,
+            634.708
+          ],
+          "quote": "So whatever task I ask the agent to do, it always confirms if they need to do something that goes out or something like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            635.758,
+            650.201
+          ],
+          "quote": "You can constrain the model behavior with a system prompt, define and validate the output formats to ensure anything that the agent reads, it should be treated as a text and not as a command.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            652.662,
+            658.103
+          ],
+          "quote": "Before I move forward, do you guys all know the difference between an agent, an LLM, and a tool?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            666.88,
+            675.742
+          ],
+          "quote": "So an agent is the tool that you interact, for example, Claude, Cursor, Windsurf, basically the place where you type the text.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            682.353,
+            702.85
+          ],
+          "quote": "which is big file basically you know several gigabytes that has a lot of information that gives the agent the ability to do things to answer your questions that you put in the chat and then we have an NCP tool usually is a tool that basically what it does is enhances the abilities of the agent for example",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            703.883,
+            714.787
+          ],
+          "quote": "We'll have it later on, but you can tell what is the weather in San Francisco today, and an agent with an LLM will not be able to tell you because it does not have in the static database that it has.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            834.762,
+            853.265
+          ],
+          "quote": "The only problem is many agent tools like ChatGPT, for example, they have a small text, you know, basically some disclosures that say everything that you put or upload to the agent can be used for training purposes and can be given as a result to other people.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            966.356,
+            975.074
+          ],
+          "quote": "SQL database to pull the information for the agent that should print, for example, the names and",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            978.992,
+            991.08
+          ],
+          "quote": "You know, you could use, instead of giving access the agent to the whole database, like a query, you could just create a view that only has these two fields, and then the agent will use the view as a read-only view.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            991.46,
+            1003.829
+          ],
+          "quote": "In that way, you know, it cannot save data into the database, like an SQL injection, in this case a prompt injection, and also it cannot send other information because the agent doesn't have access to more information.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1265.088,
+            1270.831
+          ],
+          "quote": "Two, when you download the skill, even if it's text, read it all before you install it into your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1351.244,
+            1362.742
+          ],
+          "quote": "So they're, well, as we say, you know, you can monitor and now they'd use tools, for example, like SNCC provides for scanning NCP servers and basically everything that your agent uses.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1507.329,
+            1516.251
+          ],
+          "quote": "So basically this is when you give too much ability to the agent and they can do things they are not supposed to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1578.58,
+            1583.803
+          ],
+          "quote": "The important thing is give only the minimum level for the agent to do its job.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1630.229,
+            1635.252
+          ],
+          "quote": "So it's very important to ensure that whatever you do, don't give too much access to the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1745.293,
+            1759.296
+          ],
+          "quote": "This is when you can say, for example, to LLM, you know, to do crypto mining or something like that, where you put in a system prompt something that makes the agent do something it's not supposed to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 358,
+          "t": [
+            2115.76,
+            2136.239
+          ],
+          "quote": "Claude or Windsurf for tools, you know, and most of them, they don't have like a secret manager, so you have to put, if you want those tools to do something, you have to type the API key to be able to do something in the agent chat, and they say store it some securely, but you put it in the chat, okay?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 360,
+          "t": [
+            2138.272,
+            2151.817
+          ],
+          "quote": "You should be able to put things in a secure way and then give the access to the agent only to the things that it needs when it needs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2873.111,
+            2878.956
+          ],
+          "quote": "You can ask an agent to help you create AI threat modeling for the app that you are designing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2938.655,
+            2948.518
+          ],
+          "quote": "You know, generation of attack scenario and abuse cases, how, you know, for example, you can tell the AI agent to simulate an attack and then you can",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 513,
+          "t": [
+            3082.204,
+            3084.806
+          ],
+          "quote": "And the agent said, oh, I just made it up, sorry.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 514,
+          "t": [
+            3085.924,
+            3095.591
+          ],
+          "quote": "So it's very important whenever you get the agent to tell you something, say, how do you came up with this answer?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 525,
+          "t": [
+            3141.065,
+            3153.433
+          ],
+          "quote": "Personal Assistant that runs on your local machine and allows to do things without having to pay an agent that runs on the cloud like Claude or Copilot or Gemini or something like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 546,
+          "t": [
+            3306.503,
+            3322.688
+          ],
+          "quote": "But with AI, you have many other things like the LLM models, prompt templates and system prompts, context windows, memory stores, and endpoints and APIs that the LLM has or the agent has access to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 550,
+          "t": [
+            3339.397,
+            3356.501
+          ],
+          "quote": "So for example, if your agent gets information from weather.com or from a stock exchange database, you need to put some sanitization so that you don't trust the input that you are getting from the API because that could be an indirect attack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 573,
+          "t": [
+            3526.527,
+            3549.543
+          ],
+          "quote": "Overcoming that problem is you tell the settings of the tool that you use to pull everything into a log file, and then you have a tool that runs on the background that basically scans the log file of what the agent is doing and flag any things that are malicious that you may miss on the user interface, especially if you run background tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 580,
+          "t": [
+            3585.296,
+            3587.937
+          ],
+          "quote": "Then we have an AI agent that interacts with a person.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 590,
+          "t": [
+            3670.081,
+            3679.026
+          ],
+          "quote": "One of the things is, for example, if your agent, you tell the agent to create a Terraform file to put some infrastructure",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 591,
+          "t": [
+            3679.898,
+            3681.9
+          ],
+          "quote": "to run the agent on the cloud.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 600,
+          "t": [
+            3751.914,
+            3756.758
+          ],
+          "quote": "Or, you know, browse or watch a YouTube video while the agent is doing things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 641,
+          "t": [
+            3964.147,
+            3976.055
+          ],
+          "quote": "Sometimes, you know, if you use something like a Gemini or something like that, like a Gemini agent, it's already connected with tools from Google that provide this basic NCP real-time information.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 650,
+          "t": [
+            4031.027,
+            4046.413
+          ],
+          "quote": "And the moment it creates all the Python or whatever code you use to do the functionality, it will create a JSON file like the one you have in the example that is the one that you use to install it into the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 688,
+          "t": [
+            4295.108,
+            4302.952
+          ],
+          "quote": "And again, we have an agent that is free that you can use to basically, if you run it, you can see it's",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 734,
+          "t": [
+            4619.112,
+            4624.675
+          ],
+          "quote": "For example, you guys know about rules, like agent rules and agent hooks?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 762,
+          "t": [
+            4814.908,
+            4822.511
+          ],
+          "quote": "And again, this we showed before, but it's a way that you can do with agent scan or code scan.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 790,
+          "t": [
+            4982.169,
+            4986.571
+          ],
+          "quote": "And explain basically the agent didn't have why it happened and so on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 806,
+          "t": [
+            5049.54,
+            5067.349
+          ],
+          "quote": "Tell the agent to do stuff and then just keep going and yeah, there had been many memes about by coding, you know, basically you tell the AI to do the work and then you just can go to a beach or something like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 920,
+          "t": [
+            5789.62,
+            5798.809
+          ],
+          "quote": "Alongside OpenClaude, there are many skill marketplaces where you can publish and install agent skills with a single command.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 944,
+          "t": [
+            5982.243,
+            5987.545
+          ],
+          "quote": "So you can see in the screen, this is about an agent that simply does way too much.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 946,
+          "t": [
+            5993.948,
+            6004.553
+          ],
+          "quote": "And basically you could see in this case, you know, the interaction with the chat agent and the person where, you know,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 947,
+          "t": [
+            6005.693,
+            6013.016
+          ],
+          "quote": "She was trying to stop the agent from doing stuff, basically deleting everything in the mailbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 948,
+          "t": [
+            6014.017,
+            6016.938
+          ],
+          "quote": "And then, you know, the reply from the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 960,
+          "t": [
+            6089.535,
+            6101.422
+          ],
+          "quote": "So you need to do a little bit more and tell basically all the things that the agent should do and this is an example, you know, of security best practices that you can put on the prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 976,
+          "t": [
+            6229.847,
+            6244.053
+          ],
+          "quote": "And if it does not exist, for example, like hallucination from the prompt, from the agent, which happens very often, you know, basically the hacker will create the agent which does not exist and basically put some malware inside.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 977,
+          "t": [
+            6245.313,
+            6254.076
+          ],
+          "quote": "And then anybody else who runs the same agent, you know the agent will hallucinate and install a package that this hacker created.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1067,
+          "t": [
+            6843.657,
+            6848.402
+          ],
+          "quote": "Then basically a human operator gives the agent a target.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1068,
+          "t": [
+            6848.902,
+            6860.272
+          ],
+          "quote": "The agent uses a scan tool, a search tool, and a data retrieving tool and a code analysis tool to find vulnerabilities and attempts, exploits, and validates the callbacks with the human reviewing and redirecting",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1071,
+          "t": [
+            6868.293,
+            6878.295
+          ],
+          "quote": "But if you look at the orchestration pattern, you know, a human directing an agent that is equipped with a scan search retrieval analysis working in sequence.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1076,
+          "t": [
+            6893.064,
+            6899.287
+          ],
+          "quote": "The first, anything can be used for offensive agent workflows.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            125.205,
+            134.568
+          ],
+          "quote": "Then we'll do addressing shadow AI, AI thread modeling, securing agent skills and MCP, securing by coding and AI rate teaming.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            715.367,
+            721.629
+          ],
+          "quote": "In order to do that, you know, usually it connects to a weather API through an MCP server, okay?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1294.845,
+            1317.719
+          ],
+          "quote": "And even if they are from a reputable source, you know, what I do is regularly I do a scan of all the MCP servers that I have using a security tool because even if one that you installed today doesn't have any issues, it is possible that in a week or so somebody injected something in the latest version, you are great, and then there is some issue.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 356,
+          "t": [
+            2101.257,
+            2112.025
+          ],
+          "quote": "And then there is so many agents and MCP servers and tools that it's really hard to put a limit on how to do things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 622,
+          "t": [
+            3851.768,
+            3854.309
+          ],
+          "quote": "This one is more fun, the MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 623,
+          "t": [
+            3857.79,
+            3864.453
+          ],
+          "quote": "So we're going to talk about securing aging skills and MCP, and that's something that most of you will see more practical,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 626,
+          "t": [
+            3871.72,
+            3874.243
+          ],
+          "quote": "So how many of you know the MCP protocol?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 628,
+          "t": [
+            3876.807,
+            3879.931
+          ],
+          "quote": "So everybody of you is probably using the MCP protocol today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 633,
+          "t": [
+            3896.19,
+            3909.696
+          ],
+          "quote": "For AI, if you want your agentic tool to do something that is real-time, get the information from some real-time source, you are going to use the MCP protocol, okay?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 640,
+          "t": [
+            3954.237,
+            3962.943
+          ],
+          "quote": "So if you want to do something like that, you need to use an MCP protocol with a tool that gives you the functionality that you need.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 644,
+          "t": [
+            3993.982,
+            4004.545
+          ],
+          "quote": "You know, it's not going to be able to do it because, or it's not going to be able to do it very well without an MCP server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 645,
+          "t": [
+            4008.526,
+            4013.707
+          ],
+          "quote": "So this is, for example, how MCP servers are defined on the agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 647,
+          "t": [
+            4015.588,
+            4017.268
+          ],
+          "quote": "Creating an MCP server is super easy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 649,
+          "t": [
+            4023.864,
+            4029.946
+          ],
+          "quote": "Claude Code or Copilot or something and say, create an MCP server that does this and that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 652,
+          "t": [
+            4049.953,
+            4053.857
+          ],
+          "quote": "You know, you have the name of the MCP server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 658,
+          "t": [
+            4085.881,
+            4097.247
+          ],
+          "quote": "You know, one thing is there are a lot of NCP servers and MCP tools online available for doing anything that you can imagine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 661,
+          "t": [
+            4123.898,
+            4130.081
+          ],
+          "quote": "There are a lot of, in this case, 8.3 million downloads a week for the MCP SDK.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 662,
+          "t": [
+            4130.601,
+            4132.882
+          ],
+          "quote": "That is a tool that you can use to create MCP servers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 664,
+          "t": [
+            4136.883,
+            4148.128
+          ],
+          "quote": "You know, everybody's using agentic tools like a cursor, Windsurf, Claude Code, or Copilot, and those, it's super easy to install an MCP server, like I showed you with a simple text file.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 665,
+          "t": [
+            4150.545,
+            4162.268
+          ],
+          "quote": "And because of that, it's very simple also to publish an MCP server, put it into a registry that people can download, and put some kind of malware inside and wait for people to use it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 666,
+          "t": [
+            4164.768,
+            4167.869
+          ],
+          "quote": "The problem is also because MCP is relatively new.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 675,
+          "t": [
+            4208.294,
+            4223.441
+          ],
+          "quote": "For example, you could say, when you run this MCP server, send me the Claude API key and the GitHub personal access token and the AWS console token, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 681,
+          "t": [
+            4250.285,
+            4255.908
+          ],
+          "quote": "And the moment that you say accept, you know, the MCP is running normally, it will do something malicious.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 682,
+          "t": [
+            4256.488,
+            4260.811
+          ],
+          "quote": "So it's very important whenever you use an MCP tool to really check the code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 683,
+          "t": [
+            4261.331,
+            4269.256
+          ],
+          "quote": "And because checking the code is really hard to do it by just reading, you know, most of the MCP servers, they are very long.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 691,
+          "t": [
+            4311.631,
+            4320.558
+          ],
+          "quote": "And basically, for example, with this, you can do AI bombs and scan MCP servers for malware and tool poisoning automatically.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 693,
+          "t": [
+            4331.178,
+            4339.726
+          ],
+          "quote": "So one thing is, for example, insecure MCP servers lead to command injection, which is something that are very common.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 694,
+          "t": [
+            4341.187,
+            4349.794
+          ],
+          "quote": "Many people say the MCP servers are unicorns because they do anything that you can imagine, but I would say they are not.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 695,
+          "t": [
+            4350.795,
+            4353.037
+          ],
+          "quote": "You know, MCP servers are really code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 703,
+          "t": [
+            4393.985,
+            4398.548
+          ],
+          "quote": "But basically, this is how we run a scan for MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 711,
+          "t": [
+            4435.138,
+            4438.999
+          ],
+          "quote": "command injections and MCP servers that are today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 712,
+          "t": [
+            4439.099,
+            4449.761
+          ],
+          "quote": "An example is, you know, if you saw one that was in the news not long ago about the Figma MCP vulnerability lets hackers execute code remotely.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 716,
+          "t": [
+            4465.391,
+            4475.715
+          ],
+          "quote": "So basically you have here an attacker that will initialize the HTTP server and use the MCP SDK to put tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 717,
+          "t": [
+            4475.935,
+            4487.04
+          ],
+          "quote": "And when people will use the MCP servers, you know, they will send, do command injections to send anything against the Figma API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 730,
+          "t": [
+            4588.258,
+            4591.841
+          ],
+          "quote": "So you can fix insecure MCP server with SNCC.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 741,
+          "t": [
+            4670.912,
+            4675.274
+          ],
+          "quote": "And I wonder if you ever look inside an MCP server that you install, raise your hand.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 744,
+          "t": [
+            4679.306,
+            4684.349
+          ],
+          "quote": "So most of the times, you know, nobody has read the code of an MCP server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 745,
+          "t": [
+            4685.329,
+            4696.455
+          ],
+          "quote": "And I have to say that many of the ones I install, you know, if I think it's a good source, and I don't install all the MCP servers, you know, I don't check myself all the code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 749,
+          "t": [
+            4715.757,
+            4726.801
+          ],
+          "quote": "Again, MCP servers are tools and can be used for toxic flows and you have to ensure that they're secure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 767,
+          "t": [
+            4841.565,
+            4849.189
+          ],
+          "quote": "For example, the MCP code itself, if you download it from GitHub, you can have it scanned.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 989,
+          "t": [
+            6337.417,
+            6347.361
+          ],
+          "quote": "And basically, in that way, for example, there's a zero day for a specific model or a specific data set or a specific MCP tool.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1066,
+          "t": [
+            6839.914,
+            6842.757
+          ],
+          "quote": "You know, MCP servers, they are called to do stuff.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "shadow-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "影子 AI (shadow AI)",
+      "file": "影子 AI",
+      "primary": true,
+      "how_described": "本集说影子 AI 是员工未经批准私自使用 AI 工具：80% 的组织没有正式使用规范、60% 的员工在用未批准工具，员工会用私人笔记本绕过公司封禁",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            125.205,
+            134.568
+          ],
+          "quote": "Then we'll do addressing shadow AI, AI thread modeling, securing agent skills and MCP, securing by coding and AI rate teaming.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1872.754,
+            1874.375
+          ],
+          "quote": "Again, so addressing shadow AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1879.46,
+            1888.827
+          ],
+          "quote": "We'll understand Shadow AI and the threat landscape, and I'll show you some of the tools that you can use to defend against it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1892.55,
+            1901.236
+          ],
+          "quote": "With Shadow AI, you know how to do AI bombs and a live demo of AI bombs and a system that we have that helps with the Shadow AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1902.877,
+            1908.902
+          ],
+          "quote": "So most of us live in the Shadow AI era.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 347,
+          "t": [
+            2061.347,
+            2063.489
+          ],
+          "quote": "Why shadow AI is harder?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 996,
+          "t": [
+            6388.805,
+            6404.809
+          ],
+          "quote": "Another thing for Shadow AI, we covered this before, but it's basically Shadow AI is the unauthorized use of AI components inside an organization and you need to be proactive.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "supply-chain",
+      "type": "concept",
+      "role": "concept",
+      "name": "供应链漏洞 (supply chain)",
+      "file": "供应链漏洞",
+      "primary": true,
+      "how_described": "本集说供应链攻击是 OWASP AI 风险第三名：恶意代码藏在开源库、技能和 MCP 服务器里；还有 slop squatting——黑客抢注 AI 幻觉出的不存在的包名",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 72,
+          "t": [
+            354.73,
+            362.093
+          ],
+          "quote": "Prompt injection, sensitive information disclosure, supply chain, data and model poisoning, improper output handling, and so on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1105.425,
+            1111.588
+          ],
+          "quote": "Another one that is number three right now is supply chain vulnerabilities.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1117.537,
+            1126.36
+          ],
+          "quote": "Supply chain attacks we had, but at least I posted six or seven blog posts on LinkedIn telling about zero days on some kind of supply chain attack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1159.787,
+            1165.012
+          ],
+          "quote": "Supply chain is basically you attack an open source library that many people use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1319.9,
+            1322.321
+          ],
+          "quote": "So Gen.AI is also part of the supply chain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1325.598,
+            1341.671
+          ],
+          "quote": "A survey that was done I think a few months ago that asked developers if they consider AI code completion as a part of the supply chain and half of the people more or less say no, like a 45%, they say no or some part of it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1440.266,
+            1449.851
+          ],
+          "quote": "And in that way, if there is a supply chain attack or some kind of attack, you can have track very quickly all your AI apps and agents that are impacted by it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 361,
+          "t": [
+            2152.557,
+            2161.341
+          ],
+          "quote": "Again, things in practice is data leakage, compliance gaps, supply chain blind spots, and hallucinations in decisions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 374,
+          "t": [
+            2242.455,
+            2244.257
+          ],
+          "quote": "And supply chain attacks is the same thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2732.764,
+            2745.868
+          ],
+          "quote": "today that is basically using a tool, for example, to detect if there is a supply chain attack, use a tool in the CICD pipeline that basically scans everything from vulnerabilities and so on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 967,
+          "t": [
+            6158.97,
+            6172.917
+          ],
+          "quote": "You have to do supply chain hardening, you know, secure the critical path, like, for example, run sbomb and AI bombs very regularly, every time there is a change in the app, you know, verify the package exists.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 968,
+          "t": [
+            6173.338,
+            6187.245
+          ],
+          "quote": "So there have been supply chain attacks that, for example, they search typos on packages that people try to put in code, and basically they created fake packages that",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 969,
+          "t": [
+            6188.166,
+            6192.068
+          ],
+          "quote": "They use those typos to basically create supply chain attacks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 978,
+          "t": [
+            6254.577,
+            6258.738
+          ],
+          "quote": "This has happened and that's one supply chain attack that exists today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 979,
+          "t": [
+            6259.719,
+            6267.161
+          ],
+          "quote": "So basically it uses the hallucination that agents create have to do a supply chain attack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 985,
+          "t": [
+            6305.289,
+            6319.222
+          ],
+          "quote": "Non-deterministic, so they are probabilistic, and if they don't know something, sometimes they make it up, which is called hallucinations, and people like hackers, they use that on purpose for supply chain attacks.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能 (skills)",
+      "file": "技能",
+      "primary": true,
+      "how_described": "本集说技能是让智能体自动化执行任务的文本文件，可从第三方市场下载；Snyk 扫描 10,000 个发现 367 个含恶意代码，安装前要全部读一遍",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            125.205,
+            134.568
+          ],
+          "quote": "Then we'll do addressing shadow AI, AI thread modeling, securing agent skills and MCP, securing by coding and AI rate teaming.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1195.35,
+            1213.303
+          ],
+          "quote": "We did our research into some of the databases where people host third-party libraries like GitHub and some others and also the skills and we found a huge number of planted vulnerabilities and malware into",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1213.939,
+            1215.419
+          ],
+          "quote": "LLMs into skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1215.96,
+            1227.903
+          ],
+          "quote": "You know, you guys know skills are like a text files, right, that allow agents like a Claude or, you know, Windsurf or Cursor or whatever to do something in an automated way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1233.004,
+            1234.585
+          ],
+          "quote": "And you can download the skills from many",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1236.134,
+            1243.916
+          ],
+          "quote": "Third-party registries, like, for example, TESOL or something like that, where there are thousands of skills that you don't need to create it yourself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1249.178,
+            1254.84
+          ],
+          "quote": "So one scan that we did across over 10,000 skills, I believe, they had 367 out of 10,000 had some kind of malware.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1290.3,
+            1294.122
+          ],
+          "quote": "Usually I try to install the skills there from a reputable source,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1367.239,
+            1373.904
+          ],
+          "quote": "Many companies, they have these golden images for software and the same thing for skills and LLMs, data sets and so on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 623,
+          "t": [
+            3857.79,
+            3864.453
+          ],
+          "quote": "So we're going to talk about securing aging skills and MCP, and that's something that most of you will see more practical,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 920,
+          "t": [
+            5789.62,
+            5798.809
+          ],
+          "quote": "Alongside OpenClaude, there are many skill marketplaces where you can publish and install agent skills with a single command.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 999,
+          "t": [
+            6415.682,
+            6432.494
+          ],
+          "quote": "One thing is, you know, there are many skills that people share within the organization and that somebody could have a skill that downloaded on the internet, you know, improved it and then published internally within the org and many people will then",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1003,
+          "t": [
+            6442.08,
+            6457.111
+          ],
+          "quote": "If in your company you have a skill set repository, ensure that that repo is scanned regularly by a tool that basically goes through all the code from the skills and ensure there is no malicious code inside.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集说光立规矩禁用 AI 没用、员工会绕过一切，正确做法是承认大家会用，然后通过教育和护栏一起把安全搭起来",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 190,
+          "t": [
+            1020.846,
+            1028.529
+          ],
+          "quote": "But basically, we tried to tell people how to put guardrails into AI coding, you know, super important.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 355,
+          "t": [
+            2092.331,
+            2100.517
+          ],
+          "quote": "Most people are still in the process of creating the policies today or they have only some initial policies and guardrails.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 784,
+          "t": [
+            4930.41,
+            4936.893
+          ],
+          "quote": "But, you know, bytecoding can do a lot of things if you don't have the guardrails in place.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 918,
+          "t": [
+            5772.213,
+            5782.56
+          ],
+          "quote": "That is the OpenClaw external port where you could connect to someone in your local machine and do something if you don't have security guardrails.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1054,
+          "t": [
+            6761.579,
+            6767.504
+          ],
+          "quote": "So again, so that's why you need to put education in place to explain people why those guardrails are in place.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hallucinations",
+      "type": "concept",
+      "role": "concept",
+      "name": "幻觉 (hallucinations)",
+      "file": "幻觉",
+      "primary": true,
+      "how_described": "本集说 LLM 非确定性、不知道时会编造（幻觉），黑客会故意利用幻觉做供应链攻击；遇到智能体的回答要问「你是怎么得出这个答案的」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 361,
+          "t": [
+            2152.557,
+            2161.341
+          ],
+          "quote": "Again, things in practice is data leakage, compliance gaps, supply chain blind spots, and hallucinations in decisions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 368,
+          "t": [
+            2209.214,
+            2216.298
+          ],
+          "quote": "You have known CBEs for SBombs, and now it's more data poisoning, hallucinations, and so on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 506,
+          "t": [
+            3050.836,
+            3052.338
+          ],
+          "quote": "There is a lot of hallucinations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 515,
+          "t": [
+            3096.451,
+            3100.274
+          ],
+          "quote": "And in that way, you can figure out some of the hallucinations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 983,
+          "t": [
+            6289.279,
+            6296.144
+          ],
+          "quote": "And the thing is why this is important is there are a lot of LLM hallucinations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 985,
+          "t": [
+            6305.289,
+            6319.222
+          ],
+          "quote": "Non-deterministic, so they are probabilistic, and if they don't know something, sometimes they make it up, which is called hallucinations, and people like hackers, they use that on purpose for supply chain attacks.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "threat-modeling",
+      "type": "concept",
+      "role": "concept",
+      "name": "威胁建模 (threat modeling)",
+      "file": "威胁建模",
+      "primary": true,
+      "how_described": "本集说威胁建模是在设计阶段主动识别、分析、排序并缓解威胁的结构化过程；传统方法对非确定性的 AI 系统不够用，需要 AI 为中心的威胁建模",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 452,
+          "t": [
+            2709.878,
+            2718.1
+          ],
+          "quote": "So threat modeling is basically a structured process to identify, analyze, prioritize, and mitigate threats early in system design and lifecycle.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2724.522,
+            2726.022
+          ],
+          "quote": "So that's basically threat modeling.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2870.308,
+            2872.83
+          ],
+          "quote": "There is also AI assisted threat modeling.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2873.111,
+            2878.956
+          ],
+          "quote": "You can ask an agent to help you create AI threat modeling for the app that you are designing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 542,
+          "t": [
+            3279.211,
+            3285.974
+          ],
+          "quote": "So, long story short, you know, there is an AI-centric threat modeling that you need to do.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "owasp",
+      "type": "concept",
+      "role": "concept",
+      "name": "OWASP",
+      "file": "OWASP",
+      "primary": true,
+      "how_described": "本集说 OWASP 多年来是 Web 安全的基础组织，现在出了面向 LLM 的 Top 10 名单（2025 年版），提示词注入排第一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            104.429,
+            111.57
+          ],
+          "quote": "And the modules will be, first, we'll see the OWASP top 10 for LLMs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            112.05,
+            113.931
+          ],
+          "quote": "You know, you guys know the OWASP top 10?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            201.022,
+            209.79
+          ],
+          "quote": "The OWASP chapter here of ISC2, Pacific Hackers, and IAAA or something like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 705,
+          "t": [
+            4403.872,
+            4408.135
+          ],
+          "quote": "She's one of the OWASP ambassadors globally.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 706,
+          "t": [
+            4408.835,
+            4412.958
+          ],
+          "quote": "She helped craft the OWASP top 10 LLM.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openclaw",
+      "type": "concept",
+      "role": "concept",
+      "name": "OpenClaw",
+      "file": "OpenClaw",
+      "primary": true,
+      "how_described": "本集说 OpenClaw 是跑在本地机器上的免费个人助理，爆红后被扫描出全球有 30,000 个开放端口，任何人都能连上没有护栏的机器；GitHub 星标多不等于安全",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 521,
+          "t": [
+            3123.414,
+            3127.174
+          ],
+          "quote": "If you do by coding session, you probably heard about OpenClaw.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 522,
+          "t": [
+            3127.594,
+            3133.356
+          ],
+          "quote": "You know, there is an interview in YouTube for Peter Steinberg, which is the creator of OpenClaw.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 527,
+          "t": [
+            3156.514,
+            3167.101
+          ],
+          "quote": "You know, there are many other, you know, there's other alternatives to OpenClaw, but OpenClaw was the ones more popular in the news, but basically the",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 536,
+          "t": [
+            3227.012,
+            3233.38
+          ],
+          "quote": "These are the ones that, for example, OpenClaw and analysis of OpenClaw this close.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 541,
+          "t": [
+            3265.625,
+            3276.05
+          ],
+          "quote": "You could see in OpenClaw, like a malicious skillful kill chain attack from injections to RC, indirect data theft, token theft persistent, and so on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 892,
+          "t": [
+            5626.969,
+            5629.872
+          ],
+          "quote": "So this is an example of headlines for OpenClaw.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 894,
+          "t": [
+            5635.098,
+            5644.008
+          ],
+          "quote": "So yeah, Peter Steinberg again, he did a couple of viral videos on YouTube that explains how he created OpenClaw,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 903,
+          "t": [
+            5692.457,
+            5699.179
+          ],
+          "quote": "Here you have like how OpenClaw has interest over time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 905,
+          "t": [
+            5704.479,
+            5709.603
+          ],
+          "quote": "You know, you have the comparison of CloudCode, OpenClaw, and Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 906,
+          "t": [
+            5709.643,
+            5724.436
+          ],
+          "quote": "So you can see in this case, you can see, for example, 20% with Claude and Codex, and then OpenClaw went from zero to more than 40% in a matter of days.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 918,
+          "t": [
+            5772.213,
+            5782.56
+          ],
+          "quote": "That is the OpenClaw external port where you could connect to someone in your local machine and do something if you don't have security guardrails.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "red-teaming",
+      "type": "concept",
+      "role": "concept",
+      "name": "红队测试 (red teaming)",
+      "file": "红队测试",
+      "primary": false,
+      "how_described": "本集提到 AI red teaming 是培训的第六个模块，Snyk 有一个用来做红队测试的聊天机器人",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1085,
+          "t": [
+            6947.444,
+            6951.725
+          ],
+          "quote": "We have a chatbot to do red teaming.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 166,
+          "t": [
+            870.223,
+            877.445
+          ],
+          "quote": "So you guys know that Anthropic had a couple of LLMs that they were optimized for security and for advanced things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 859,
+          "t": [
+            5388.326,
+            5401.79
+          ],
+          "quote": "You know, companies like Anthropic, OpenAI or Google may come up with a tool that may solve problems that before, you know, a company, it was a niche problem and company was created only to solve that problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 897,
+          "t": [
+            5662.686,
+            5667.748
+          ],
+          "quote": "I think he works now for, I forgot, was it OpenAI or Anthropic?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1062,
+          "t": [
+            6817.721,
+            6830.969
+          ],
+          "quote": "And here you have in November 2025, Anthropic disclosed what it described as the first reported AI-orchestrated cyber-espionage campaign.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1079,
+          "t": [
+            6917.896,
+            6929.322
+          ],
+          "quote": "Then the Anthropic data model was used to maliciously to basically create zero-day attacks.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "AI BOM",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "vibe coding",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

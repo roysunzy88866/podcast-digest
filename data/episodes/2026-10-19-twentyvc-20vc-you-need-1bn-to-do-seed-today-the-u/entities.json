@@ -1,0 +1,851 @@
+{
+  "episode_id": "2026-10-19-twentyvc-20vc-you-need-1bn-to-do-seed-today-the-u",
+  "podcast": "The Twenty Minute VC",
+  "date": "2026-10-19",
+  "tags": [
+    "风险投资",
+    "AI 超级周期",
+    "前沿模型",
+    "高估值投资",
+    "创业与行业"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "sameer-dholakia",
+      "type": "person",
+      "role": "host",
+      "name": "Sameer Dholakia",
+      "file": "Sameer Dholakia",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "bessemer-venture-partners",
+      "type": "company",
+      "role": "company",
+      "name": "Bessemer Venture Partners",
+      "file": "Bessemer Venture Partners",
+      "primary": true,
+      "how_described": "本集说它是一家老牌风投机构，刚募了 57.5 亿美元（40 亿成长基金 + 17.5 亿种子早期基金），文化强调赋能有信念的合伙人，是 Samir 的东家。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            27.066,
+            35.077
+          ],
+          "quote": "That is how much Bessemer Venture Partners just raised across their two new funds, a $4 billion fund and a $1.75 billion seed fund.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说 Bessemer 在其 D 轮（投前 150 亿美元）进场，是公司史上支持票最低的交易；逻辑是用云计算类比，认为前沿模型市场会集中到少数几家，而 Anthropic 是 AWS 阵营剩下的那张牌。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 108,
+          "t": [
+            458.81,
+            462.372
+          ],
+          "quote": "So if we actually go through the stack then, you did Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            494.084,
+            499.105
+          ],
+          "quote": "And Matt called up his buddy, Byron, and said, hey, we're looking to build the syndicate here for this startup named Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 144,
+          "t": [
+            589.326,
+            595.408
+          ],
+          "quote": "And they had just invested a very sizable amount of money into Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 145,
+          "t": [
+            595.448,
+            606.971
+          ],
+          "quote": "And by the way, at the time, it was very non-obvious that, you know, Anthropic at the time was one of, I don't know, there were probably half a dozen or more other labs that were trying to also build intelligence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 182,
+          "t": [
+            744.536,
+            750.459
+          ],
+          "quote": "And that is why we're investors in both on Anthropic and in Fireworks and the closed tokens and the open tokens.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 241,
+          "t": [
+            955.877,
+            964.022
+          ],
+          "quote": "By the time that we then looked at that first round of Anthropic, OpenAI had gone from like 40 million to about, I want to say, I'd have to go back and look at the numbers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 250,
+          "t": [
+            986.576,
+            988.157
+          ],
+          "quote": "And that was when Anthropic came along.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1069.382,
+            1075.869
+          ],
+          "quote": "When we invested in Anthropic in that $15 billion round, I think they were at $100 million, like 150 times current ARR.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 536,
+          "t": [
+            2176.469,
+            2177.429
+          ],
+          "quote": "The name was Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1070,
+          "t": [
+            4043.458,
+            4051.483
+          ],
+          "quote": "You know, you look at some of the investments that he has led and made, not the least of which was a billion-dollar check into Anthropic in the $60 billion round.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说 Samir 错过了 300 亿美元估值的 OpenAI，低估了 ChatGPT 后收入从 4000 万涨到十几亿的爆发，称之为这份工作最 humbling 的错误之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 139,
+          "t": [
+            573.433,
+            576.778
+          ],
+          "quote": "And you went across them and you're like, okay, Microsoft, yep, they partnered with OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 229,
+          "t": [
+            919.663,
+            928.953
+          ],
+          "quote": "I got brought OpenAI at $30 billion, and to my stupidity, I said, oh my god, if this is $100 billion, I just 3X it, not including dilution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            940.263,
+            943.887
+          ],
+          "quote": "So you remember that, that OpenAI opportunity that I also passed on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 240,
+          "t": [
+            951.173,
+            955.497
+          ],
+          "quote": "And then in that intervening time, that little OpenAI went from 40 million",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 241,
+          "t": [
+            955.877,
+            964.022
+          ],
+          "quote": "By the time that we then looked at that first round of Anthropic, OpenAI had gone from like 40 million to about, I want to say, I'd have to go back and look at the numbers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 252,
+          "t": [
+            990.818,
+            1005.164
+          ],
+          "quote": "To your point, our imaginations were capped at a certain, even if it got to 100 billion, and now obviously you could see the growth potential of how big this market could be because of what OpenAI had done in calendar 23.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fireworks",
+      "type": "company",
+      "role": "company",
+      "name": "Fireworks",
+      "file": "Fireworks",
+      "primary": true,
+      "how_described": "本集说它是 Samir 主导投资的 AI 基础设施公司，与开源/开放 token 经济相关，他认为它会在竞争中赢，并把 Lynn 和 George Hu 的组合当作它的多头论据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            45.886,
+            51.648
+          ],
+          "quote": "He led investments in Lagora and Fireworks, 220VC companies as well, which is awesome to work with them on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            678.487,
+            682.428
+          ],
+          "quote": "We're both big investors in fireworks, and so we both believe in open models too.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            744.536,
+            750.459
+          ],
+          "quote": "And that is why we're investors in both on Anthropic and in Fireworks and the closed tokens and the open tokens.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 185,
+          "t": [
+            760.663,
+            766.907
+          ],
+          "quote": "I think that once that Chinese model is hosted by fireworks, it's no longer a Chinese model first.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1400.405,
+            1404.426
+          ],
+          "quote": "When we look at a fireworks, I think base 10 and modal will do well too.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1404.446,
+            1406.826
+          ],
+          "quote": "I think fireworks will win, which is why my money is there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 553,
+          "t": [
+            2206.408,
+            2229.275
+          ],
+          "quote": "I will concede, Harry, that there is a arbitrary distinction cutoff line somewhere, but I will tell you qualitatively, there is a big difference between investing in a company that is in there in the 20 to 40 million of revenue range or is between, you know, call it, I don't know, half a billion to a billion dollar valuation versus I'm coming into a fireworks at 15 billion.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 561,
+          "t": [
+            2244.874,
+            2247.418
+          ],
+          "quote": "And actually, I think if you look at, say, a fireworks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 587,
+          "t": [
+            2357.298,
+            2359.019
+          ],
+          "quote": "But no, no, but like, Fireworks is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 772,
+          "t": [
+            2948.632,
+            2950.053
+          ],
+          "quote": "We've mentioned fireworks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 907,
+          "t": [
+            3443.286,
+            3446.789
+          ],
+          "quote": "Can you paint – one of my favorite companies, period, is fireworks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 937,
+          "t": [
+            3534.846,
+            3537.748
+          ],
+          "quote": "And so when he's joining Lin and Fireworks...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 999,
+          "t": [
+            3809.803,
+            3812.444
+          ],
+          "quote": "I think we both did fireworks at like a 15 price.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1081,
+          "t": [
+            4090.064,
+            4098.647
+          ],
+          "quote": "It's a big part of the reason we're investing as much as we are behind fall and fireworks, both fall on the gen media side and the infrastructure side there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1084,
+          "t": [
+            4103.268,
+            4105.629
+          ],
+          "quote": "And fireworks, obviously, we talked a lot about those two.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "legora",
+      "type": "company",
+      "role": "company",
+      "name": "Legora",
+      "file": "Legora",
+      "primary": true,
+      "how_described": "本集说它是 AI 法律公司，Samir 在 ARR 2000 万时以 18 亿美元估值领投，投后收入从 2000 万涨到 2 亿；他用 1 万亿美元法律服务支出来论证其市场空间。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 771,
+          "t": [
+            2947.591,
+            2948.612
+          ],
+          "quote": "We've mentioned Legora.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "waymo",
+      "type": "company",
+      "role": "company",
+      "name": "Waymo",
+      "file": "Waymo",
+      "primary": true,
+      "how_described": "本集说 Bessemer 向 Waymo 投了近 2 亿美元；Samir 认为除了网约车，它还能以订阅司机的方式进入家用车、卡车和物流，会是万亿美元级生意。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1090,
+          "t": [
+            4120.514,
+            4123.515
+          ],
+          "quote": "Like we invested nearly $200 million into Waymo.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1109,
+          "t": [
+            4184.149,
+            4191.356
+          ],
+          "quote": "I'm personally looking at the autonomy, you know, we did Waymo, but now you're like, okay, what about autonomy in construction?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1114,
+          "t": [
+            4197.442,
+            4201.967
+          ],
+          "quote": "You do Waymo at $1.15 and Uber has a market cap of $1.20, $1.25.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1120,
+          "t": [
+            4214.862,
+            4224.254
+          ],
+          "quote": "If I could have bought that car with an option to have a Waymo driver on it and pay them a subscription every single month on that car or any car that we bought as a family.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1124,
+          "t": [
+            4231.3,
+            4235.183
+          ],
+          "quote": "I think Waymo has the opportunity to do that for every other OEM on the planet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1135,
+          "t": [
+            4257.413,
+            4268.717
+          ],
+          "quote": "But when you take that same technology and capability and apply it to personal car ownership and then apply it to trucking and then apply it to logistics, Waymo is going to be an extraordinary, I think, a trillion dollar business.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sendgrid",
+      "type": "company",
+      "role": "company",
+      "name": "SendGrid",
+      "file": "SendGrid",
+      "primary": true,
+      "how_described": "本集说它是 Samir 曾领导的公司，四个 H 的文化（Happy, Hungry, Humble, Honest）是他谈团队与文化的核心案例，后来被 Twilio 收购。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 342,
+          "t": [
+            1385.11,
+            1390.315
+          ],
+          "quote": "Dude, when you were building, you know, SendGrid, you know, no offense, there weren't that many competitors.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1449.876,
+            1457.218
+          ],
+          "quote": "Like in our day, SendGrid and Twilio were the API building blocks to plug into your application to go send communications.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 623,
+          "t": [
+            2481.959,
+            2492.37
+          ],
+          "quote": "It came from when I was leading and serving at SendGrid, and I have just always believed, like, building businesses, the hardest thing to do is to align masses of humans.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 666,
+          "t": [
+            2608.839,
+            2611.6
+          ],
+          "quote": "I always said that, and I loved SendGrid, our culture.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 668,
+          "t": [
+            2612.42,
+            2617.602
+          ],
+          "quote": "I think our teammates, if you could go track down any gridder out there and say, hey, did you enjoy working at SendGrid?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 681,
+          "t": [
+            2647.057,
+            2648.017
+          ],
+          "quote": "That was SendGrid's value.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 697,
+          "t": [
+            2683.283,
+            2685.885
+          ],
+          "quote": "Like when I was leading SendGrid, we flew the entire company",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 759,
+          "t": [
+            2892.743,
+            2901.264
+          ],
+          "quote": "And by the way, I'll just say on the happiness one, by the way, at SendGrid, our happiness, I did find at SendGrid, I had to write down, what do we mean by each of these four H's?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 761,
+          "t": [
+            2904.825,
+            2912.25
+          ],
+          "quote": "Employees to be happy, but that's not what I meant by the happy age at SendGrid was, I want people who are going to see the world and our business as half full.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 849,
+          "t": [
+            3232.509,
+            3236.25
+          ],
+          "quote": "I always used to say at SendGrid, I said, we need to be IPO worthy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 925,
+          "t": [
+            3496.008,
+            3500.789
+          ],
+          "quote": "Twilio, he was deeply involved in the diligence to when we were doing the Twilio SendGrid acquisition.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1020,
+          "t": [
+            3884.93,
+            3886.691
+          ],
+          "quote": "So we have this room full of SendGrid employees.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1022,
+          "t": [
+            3892.194,
+            3895.896
+          ],
+          "quote": "And he says, you know, I just want to welcome all you SendGrid employees that are here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1024,
+          "t": [
+            3897.137,
+            3899.758
+          ],
+          "quote": "SendGrid management, so great to have you all.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1059,
+          "t": [
+            4005.582,
+            4012.505
+          ],
+          "quote": "We were, you know, led the seed and I think in B and Twilio, led the series B in SendGrid.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "twilio",
+      "type": "company",
+      "role": "company",
+      "name": "Twilio",
+      "file": "Twilio",
+      "primary": true,
+      "how_described": "本集说 Samir 是 Twilio 高管，SendGrid 与 Twilio 曾是开发者通信 API 的两块积木，一旦开发者形成共识就『游戏结束』——他用它论证资本与市场选赢家的飞轮。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 91,
+          "t": [
+            391.505,
+            393.487
+          ],
+          "quote": "I wasn't, I was in between Twilio.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1449.876,
+            1457.218
+          ],
+          "quote": "Like in our day, SendGrid and Twilio were the API building blocks to plug into your application to go send communications.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 925,
+          "t": [
+            3496.008,
+            3500.789
+          ],
+          "quote": "Twilio, he was deeply involved in the diligence to when we were doing the Twilio SendGrid acquisition.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1059,
+          "t": [
+            4005.582,
+            4012.505
+          ],
+          "quote": "We were, you know, led the seed and I think in B and Twilio, led the series B in SendGrid.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mistral",
+      "type": "company",
+      "role": "company",
+      "name": "Mistral",
+      "file": "Mistral",
+      "primary": true,
+      "how_described": "本集说 Bessemer 正在投资 Mistral，作为欧洲主权模型论点的例子：政府与受监管行业的某些用例会让主权模型买家更放心。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 951,
+          "t": [
+            3597.39,
+            3603.697
+          ],
+          "quote": "We're invested in Sarvam in India, and we are investing in Mistral right now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 962,
+          "t": [
+            3650.014,
+            3668.298
+          ],
+          "quote": "In the case of Mistral, look, at the end of the day, if you're trying to determine whatever, my military strategy for fill in the blank, there are certain use cases where if it's a government use case or a regulated industry or whatever, that having it be a sovereign model is probably going to feel more comfortable to that buyer.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "frontier-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿模型 (frontier models)",
+      "file": "前沿模型",
+      "primary": true,
+      "how_described": "本集把它说成训练极度烧钱、市场必然向少数玩家集中的前沿智能供应商，并讨论了针对它的看空理由与开源模型的冲击。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 165,
+          "t": [
+            663.78,
+            672.924
+          ],
+          "quote": "When we look at concerns today, one concern is the cost of intelligence shifts to open source because it's simply too expensive in frontier models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            846.26,
+            850.846
+          ],
+          "quote": "If you were to present a bear case for frontier models, what would it be?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open models)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集把它说成不会让前沿供应商商业模式贬值的力量：市场规模大到无需精确预测闭源与开源 token 的比例；Samir 说自己 12 个月前低估了开放 token 经济的体量。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 167,
+          "t": [
+            678.487,
+            682.428
+          ],
+          "quote": "We're both big investors in fireworks, and so we both believe in open models too.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            682.789,
+            687.711
+          ],
+          "quote": "To what extent do open models not deprecate the business model for the majority of frontier providers?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            885.739,
+            894.386
+          ],
+          "quote": "The majority of people on the pod come on and say we'll see 99% of token traffic flow through open models, but we'll see 99% of dollars flow through closed models.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "capital-is-a-moat",
+      "type": "concept",
+      "role": "concept",
+      "name": "资本护城河 (capital is a moat)",
+      "file": "资本护城河",
+      "primary": true,
+      "how_described": "本集把它说成 Samir 的核心论断：『我绝对相信资本是护城河』——巨额融资带来扩张速度、品牌、人才与自我强化的飞轮，但它是必要而非充分条件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            15.358,
+            17.259
+          ],
+          "quote": "I absolutely believe capital is a moat.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1442.514,
+            1444.435
+          ],
+          "quote": "I absolutely believe capital is a moat.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1497.929,
+            1504.175
+          ],
+          "quote": "To your point that if capital is a moat, excessive amounts in short amounts of time give inherent advantages.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 375,
+          "t": [
+            1507.998,
+            1514.142
+          ],
+          "quote": "Yes, because I believe everything you said, which is the capital is a moat and it is a signal to the market.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "robotics",
+      "type": "concept",
+      "role": "concept",
+      "name": "机器人 (robotics)",
+      "file": "机器人",
+      "primary": true,
+      "how_described": "本集说它是 Samir 最兴奋的方向之一，认为具身机器人当前相当于生成式 AI 的 2021 年，会比多数人预期更快到来。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 431,
+          "t": [
+            1736.221,
+            1743.928
+          ],
+          "quote": "If you're like, hey, I don't need to invest in, I don't know, something that requires hardware, robotics, or I don't want to invest in something that's like training a model for compute or",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1089,
+          "t": [
+            4115.312,
+            4120.474
+          ],
+          "quote": "One is I'm wildly fired up about all things robotics and embodied AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1094,
+          "t": [
+            4136.301,
+            4140.905
+          ],
+          "quote": "And I think we're probably in the equivalent in embodied robotics in that sense.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1103,
+          "t": [
+            4164.881,
+            4167.102
+          ],
+          "quote": "And how do you see the data market for robotics?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1104,
+          "t": [
+            4167.482,
+            4173.845
+          ],
+          "quote": "We are not yet that I know of or that I can think of offhand, but I know that we have spent a lot of time around robotics.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}
