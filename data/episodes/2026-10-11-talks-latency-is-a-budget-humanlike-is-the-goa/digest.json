@@ -1,0 +1,203 @@
+{
+  "title_zh": "语音智能体的关键不是快，而是像人：LiveKit 关于延迟与人性的演讲",
+  "tldr": "LiveKit 的 Jesse Hall 讲了为什么更快的模型救不了语音智能体，以及怎样让 AI 打电话时真正像个真人。",
+  "digest_md": "你有没有给药店、航空公司或者 4S 店打过电话，接电话的是个 AI？你说着说着插了一句话，它就乱了套。行业里大多数人的解法是更快——更快的模型、更低的延迟。Jesse Hall 在这场演讲里说：这是错的方向。延迟是一个预算，而目标完全是另一回事：让语音智能体尽可能像人。\n\n## 为什么榜单第一名救不了语音智能体\n\nHall 是 LiveKit 的人。LiveKit 是开源的实时框架和基础设施，OpenAI 的 ChatGPT 语音模式背后用的就是它。LiveKit 不自己造语音识别、大语言模型或语音合成模型，各家模型都能插进它的体系，「我们在这场比赛里没有自己的马，我们只是看它们跑了很多次」[14:32 Unknown]。\n\n语音智能体通常是 3 个模型串成一条流水线：语音转文字、大语言模型、文字转语音。问题在于，==怎么选模型==？排行榜帮不了你。**榜单测的是单个模型，而你交付的是一整条流水线**。比如你想订 3 号的预约，语音识别听成了 30 号——从那一刻起，语言模型再聪明，也是在自信满满地订错日子，错误会一路往下流，下面的层毫无察觉 [04:36 Unknown]。\n\n而且榜单的分数来自安静房间里的干净音频，你的用户是在车里开着免提、后座还有孩子。Hall 给这起了个名字：榜单陷阱。\n\n## 你测量的延迟，和用户听到的延迟不是一回事\n\n即使选好了模型，你很可能还在量错东西。语音合成服务商报告的是首字节时间，仪表盘上很好看，但字节不是声音。他们实测过一些主流服务商，开头先送出几百毫秒的静音，最坏的情况有四分之三秒的纯静音。**用户听到的是首个声音的时间，不是首字节** [06:05 Unknown]。\n\n语言模型也一样。首个 token 时间是文本指标，但语音合成不能对一个 token 开口，它需要一整句话。所以 token 流得最快的模型，不一定是先把第一句话说完的模型。\n\n还有榜单完全忽略的一点：真正的智能体不只要聊天，还要干活——查订单、查空房、订房间。一个工具调用可能花 2 秒、10 秒甚至 40 秒以上，没有任何模型选型能藏住 40 秒。人类前台会怎么做？她不会僵住，她会说「稍等，我查一下您的账户」。她一边干活一边听。这才是我们要的人类行为。\n\n## 核心技巧：让工具调用和对话不再共用一条线\n\n那智能体能不能一边干活一边继续说话？可以。Hall 展示了全场唯一一段代码：一个普通的工具函数，只多了一行——第一次更新就把麦克风交还给智能体，让它继续在后台干活 [08:02 Unknown]。整个诀窍就是：**对话和工具不再共用一个线程**。\n\n接着他放了一段演示：智能体帮人订酒店，用户中途打断它、又把日期从 10 月改到 12 月，智能体照常接住，对话没有一次尴尬的停顿。Hall 强调，这不是某一个模型好，而是基础设施、框架和模型作为一个系统好——这是任何单模型榜单都看不见的。\n\n## 该说话和不该说话，人靠语调，机器也要靠音频\n\n榜单漏掉的另一个维度：什么时候该开口，什么时候该闭嘴。人类协商轮到谁说话只需要几百毫秒，主要靠语调。等完整文字稿回来再判断的流水线，天生就晚了。LiveKit 做了一个直接基于音频的轮次检测器，听的是语音的节奏、音高和语调。他们公布的数字：在同样的延迟预算下，最好的替代方案 9.9% 的时候会打断用户，他们的方案是 4.5%，评测工具全部开源，你可以拿自己的数据跑一遍 [10:40 Unknown]。\n\n## 延迟预算到底是多少？\n\n从用户说完最后一个字，到智能体发出第一个声音，这个窗口是固定大小的。接近 600 毫秒，才开始真正像人 [11:48 Unknown]。\n\n所以正确的问题从来不是我能做多快，而是「在这个窗口里，我能塞进一个多像人的智能体」。在预算之内，剩下的钱应该花在模型质量上，而不是花在不重要的速度上。\n\n## 换一种测评：别测零件，测整场对话\n\n回到最初的问题==我该选什么模型==——这个问题本身就没法回答。于是 LiveKit 造了他们希望存在的东西：一个端到端的基准测试。他们拿一个完整能用的智能体——就是刚才那段酒店前台，有真实后端、真的能下单——让几百个模拟用户打电话给它。模拟器会打断、会含糊说话、会中途改主意。评分不看感觉，看结果：正确的订单有没有落进数据库、用户有没有被切断、名字和日期对不对、有没有编造工具调用或泄露个人信息 [12:52 Unknown]。\n\n光看任务完成率还不够，因为完成率可以被猜出来。他们额外惩罚那些完成分数看不见的问题：问了不必要的问题，或者两步能干完的事用了十步。然后换掉技术栈：同一个智能体、同一批场景、逐字节相同的输入，只换模型。有多少种智能体，就有多少种基准——这个基准属于你自己，可以拿去测你的智能体。全部开源：方法论、评测集、智能体本身。\n\n演讲结尾还预告了一个模型：在 LiveKit 推理服务上、专为生产环境语音智能体调优的 Gemma 系列模型，通过语音评测的比例 88%，约 380 毫秒开始说话，比下一个模型快两倍多 [15:00 Unknown]。\n\n## 本集带走\n\n- 榜单测的是模型，你交付的是一整条流水线，照榜单选模型会掉进陷阱。\n- 量「用户听到第一个声音的时间」，别量首字节或首 token。\n- 超过一秒的操作应该异步化，让对话永不停止——对话和工具不共用一个线程。\n- 测整场对话的结果，别测零件，并且上线后持续测。",
+  "quotes": [
+    {
+      "en": "One that knows the difference between you finishing your thought and you still thinking.",
+      "zh": "一个能分辨你说完了一个想法和你还在思考的智能体。",
+      "timestamp": "01:40",
+      "speaker": "Jesse Hall"
+    },
+    {
+      "en": "The leaderboards can't help you. The vendors definitely can't help you.",
+      "zh": "排行榜帮不了你，供应商肯定帮不了你。",
+      "timestamp": "02:04",
+      "speaker": "Jesse Hall"
+    },
+    {
+      "en": "Leaderboards score components, but you are shipping a cascade, a pipeline,",
+      "zh": "排行榜给组件打分，但你上线的是一个级联，一条流水线。",
+      "timestamp": "04:06",
+      "speaker": "Jesse Hall"
+    },
+    {
+      "en": "So those leaderboards never met your users.",
+      "zh": "所以那些排行榜从来没有见过你的用户。",
+      "timestamp": "04:49",
+      "speaker": "Jesse Hall"
+    },
+    {
+      "en": "This measured latency versus perceived latency. So what your dashboard says versus what your user hears.",
+      "zh": "就是测量延迟与感知延迟，你的仪表盘说的与你的用户听到的。",
+      "timestamp": "06:09",
+      "speaker": "Jesse Hall"
+    },
+    {
+      "en": "The dashboard says it's really fast, but your ears say it's slow.",
+      "zh": "仪表盘说它非常快，但你的耳朵说它很慢。",
+      "timestamp": "06:17",
+      "speaker": "Jesse Hall"
+    },
+    {
+      "en": "A model that streams tokens the fastest is not necessarily the model that finishes a sentence first.",
+      "zh": "一个最快流式输出 token 的模型，不一定是先说完一整句话的模型。",
+      "timestamp": "06:47",
+      "speaker": "Jesse Hall"
+    },
+    {
+      "en": "2 seconds, 10, 40 or more seconds, and no model choice is going to be able to hide a 40 or more second latency.",
+      "zh": "2 秒、10 秒、40 秒甚至更久，任何模型选择都无法掩盖 40 秒甚至更久的延迟。",
+      "timestamp": "07:18",
+      "speaker": "Jesse Hall"
+    },
+    {
+      "en": "So this is, again, not one model being good. This is an entire system being good.",
+      "zh": "所以这再一次，不是一个模型表现好，而是整个系统表现好。",
+      "timestamp": "09:49",
+      "speaker": "Jesse Hall"
+    },
+    {
+      "en": "And so the question is never how fast can I go, but what is the most human-like agent that I can fit inside this window?",
+      "zh": "所以问题从来不是我能跑多快，而是我能在这个窗口里塞进的最像真人的智能体是什么？",
+      "timestamp": "11:54",
+      "speaker": "Jesse Hall"
+    },
+    {
+      "en": "A voice agent isn't a chat bot with a speaker stacked onto it.",
+      "zh": "语音智能体不是一个装上扬声器的聊天机器人。",
+      "timestamp": "15:33",
+      "speaker": "Jesse Hall"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "01:22",
+      "speaker": "Unknown",
+      "en": "But that is the wrong answer.",
+      "zh": "但那是错误的答案。"
+    },
+    {
+      "timestamp": "01:40",
+      "speaker": "Unknown",
+      "en": "One that knows the difference between you finishing your thought and you still thinking.",
+      "zh": "一个能分辨你说完了一个想法和你还在思考的智能体。"
+    },
+    {
+      "timestamp": "01:49",
+      "speaker": "Unknown",
+      "en": "And so speed alone can get you none of that.",
+      "zh": "所以仅有速度得不到这些。"
+    },
+    {
+      "timestamp": "02:06",
+      "speaker": "Unknown",
+      "en": "The leaderboards can't help you. The vendors definitely can't help you.",
+      "zh": "排行榜帮不了你，供应商肯定帮不了你。"
+    },
+    {
+      "timestamp": "04:06",
+      "speaker": "Unknown",
+      "en": "Leaderboards score components, but you are shipping a cascade, a pipeline,",
+      "zh": "排行榜给组件打分，但你上线的是一个级联，一条流水线。"
+    },
+    {
+      "timestamp": "04:31",
+      "speaker": "Unknown",
+      "en": "And so those leaderboard scores, they came from clean audio in a quiet room.",
+      "zh": "所以那些排行榜的分数，它们来自安静房间里的干净音频。"
+    },
+    {
+      "timestamp": "04:49",
+      "speaker": "Unknown",
+      "en": "So those leaderboards never met your users.",
+      "zh": "所以那些排行榜从来没有见过你的用户。"
+    },
+    {
+      "timestamp": "05:09",
+      "speaker": "Unknown",
+      "en": "But the real question is, which stack should I ship?",
+      "zh": "但真正的问题是，我该上线哪一套技术栈？"
+    },
+    {
+      "timestamp": "05:42",
+      "speaker": "Unknown",
+      "en": "But bytes are not sound.",
+      "zh": "但字节不是声音。"
+    },
+    {
+      "timestamp": "06:13",
+      "speaker": "Unknown",
+      "en": "This measured latency versus perceived latency. So what your dashboard says versus what your user hears.",
+      "zh": "就是测量延迟与感知延迟，你的仪表盘说的与你的用户听到的。"
+    },
+    {
+      "timestamp": "06:17",
+      "speaker": "Unknown",
+      "en": "The dashboard says it's really fast, but your ears say it's slow.",
+      "zh": "仪表盘说它非常快，但你的耳朵说它很慢。"
+    },
+    {
+      "timestamp": "06:47",
+      "speaker": "Unknown",
+      "en": "A model that streams tokens the fastest is not necessarily the model that finishes a sentence first.",
+      "zh": "一个最快流式输出 token 的模型，不一定是先说完一整句话的模型。"
+    },
+    {
+      "timestamp": "07:18",
+      "speaker": "Unknown",
+      "en": "2 seconds, 10, 40 or more seconds, and no model choice is going to be able to hide a 40 or more second latency.",
+      "zh": "2 秒、10 秒、40 秒甚至更久，任何模型选择都无法掩盖 40 秒甚至更久的延迟。"
+    },
+    {
+      "timestamp": "07:39",
+      "speaker": "Unknown",
+      "en": "They buy time. And they listen while they keep working.",
+      "zh": "他们争取时间，而且一边继续工作一边听。"
+    },
+    {
+      "timestamp": "08:10",
+      "speaker": "Unknown",
+      "en": "And that's the whole trick. The conversation and the tool stop sharing a thread.",
+      "zh": "而这就是全部的诀窍：对话和工具不再共享一个线程。"
+    },
+    {
+      "timestamp": "09:49",
+      "speaker": "Unknown",
+      "en": "So this is, again, not one model being good. This is an entire system being good.",
+      "zh": "所以这再一次，不是一个模型表现好，而是整个系统表现好。"
+    },
+    {
+      "timestamp": "11:48",
+      "speaker": "Unknown",
+      "en": "If you can get closer to 600 milliseconds, then it starts to feel really human.",
+      "zh": "如果能接近 600 毫秒，那它就开始感觉非常像真人了。"
+    },
+    {
+      "timestamp": "11:54",
+      "speaker": "Unknown",
+      "en": "And so the question is never how fast can I go, but what is the most human-like agent that I can fit inside this window?",
+      "zh": "所以问题从来不是我能跑多快，而是我能在这个窗口里塞进的最像真人的智能体是什么？"
+    },
+    {
+      "timestamp": "13:14",
+      "speaker": "Unknown",
+      "en": "And then completion alone isn't enough because completion can actually be gameable, right?",
+      "zh": "而且光看完成度是不够的，因为完成度其实是可以钻空子的，对吧？"
+    },
+    {
+      "timestamp": "15:33",
+      "speaker": "Unknown",
+      "en": "A voice agent isn't a chat bot with a speaker stacked onto it.",
+      "zh": "语音智能体不是一个装上扬声器的聊天机器人。"
+    },
+    {
+      "timestamp": "15:46",
+      "speaker": "Unknown",
+      "en": "The moment that you treat it that way, every decision is going to get clearer, the budget, the metrics, the models, and the bar that you test against.",
+      "zh": "当你以这种方式对待它的那一刻，每一个决策都会变得更清晰——预算、指标、模型，以及你测试所依据的标准。"
+    }
+  ],
+  "voice_script": "你给药店、航空公司或者四S店打过电话吗？接电话的是个AI。你正常说着话，中途插一句，它就乱了套。这期咱们聊的就是这件事：语音智能体到底卡在哪儿。主讲人叫Jesse Hall,来自LiveKit。LiveKit是个开源的实时框架，OpenAI的ChatGPT语音模式背后用的就是它。有意思的是，LiveKit自己不造语音识别、大语言模型，也不造语音合成的模型，各家模型都能插进它的体系。用Hall的话说，我们在这场比赛里没有自己的马，只是看它们跑了很多次。所以他讲的不是推销哪一家，而是一个行业都在犯的方向性错误：大家觉得，语音智能体不像人，是因为不够快，用更快的模型、压更低的延迟就行了。Hall说，这个方向是错的。延迟其实是个预算，真正的目标是另一回事——让语音智能体尽可能像人。\n\n为什么说追求快是错的？咱们从他最常被问到的问题说起：我该选什么模型？很多团队的第一反应是去看排行榜，挑个分最高的。Hall说，排行榜在这儿帮不了你。因为榜单测的是单个模型，而你交付的，是一整条流水线。语音智能体通常是三个模型串起来：先把语音转成文字，中间过大语言模型，最后再把文字转成语音合成出来。这三层是一环扣一环的。举个例子：你想订三号的预约，结果语音识别听成了三十号。从那一刻起，后面那个语言模型再聪明，也是在自信满满地订错日子——错误会一路往下流，下面的层毫无察觉。这就是Hall说的榜单陷阱。而且榜单的分数，是拿安静房间里的干净音频测出来的。可你的用户呢？是在车里开着免提，后座还有孩子在吵。那些排行榜，从来没见过你的用户。\n\n好，就算模型选对了，你以为自己已经很快了，还有一个坑：你量错了东西。供应商报告延迟，用的是首字节时间，仪表盘上确实好看。但字节不是声音啊。LiveKit拿主流服务商实际测过，有些开头会先送出几百毫秒的静音，最坏的情况，有四分之三秒的纯静音。仪表盘说它非常快，可你的耳朵说它很慢。用户听到的，是第一个声音出来的时间，不是首字节。语言模型这边也一样。首token时间是个文本指标，可语音合成不能对一个token开口，它得等一整句话。所以token流得最快的模型，不一定是先把第一句话说出口的。\n\n说到这儿，还有一个更大的坑，是榜单完全不管的：真正的智能体不光要聊天，还得干活——查订单、查空房、订房间。这种工具调用，可能花两秒、十秒，甚至四十秒以上。四十秒，你选什么模型都藏不住。这时候想想人类前台会怎么做。她不会僵在那儿，她会说，稍等我查一下您的账户——一边干活，一边继续听你说话。我们要的，就是这种行为。\n\n那机器能不能也这样，一边干活一边说话？可以。Hall在台上展示了全场唯一一段代码：一个普通的工具函数，只多了一行——第一次更新就把麦克风交还给智能体，让它继续在后台干活。整个诀窍就一句话：对话和工具，不再共用一个线程。他们现场放了一段演示：智能体帮人订酒店，用户中途打断它，还把日期从十月改成十二月，智能体照单全收，全程没有一次尴尬的停顿。Hall特别强调，这不是某一个模型有多好，而是基础设施、框架和模型作为一个系统好——这种好，任何单模型榜单都看不见。\n\n说到像人，还有个维度你可能想不到：什么时候该开口，什么时候该闭嘴。人类协商谁说话，只需要几百毫秒，主要靠语调。要是等完整文字稿回来再判断，那流水线天生就慢了。所以LiveKit做了一个直接基于音频的轮次检测器，听的是语音的节奏、音高和语调——能分辨你说完了一个想法，还是还在思考。他们公布的数字是：同样的延迟预算下，最好的替代方案有百分之九点九的概率打断用户，他们的方案是百分之四点五。评测工具全部开源，你可以拿自己的数据跑一遍。\n\n那延迟预算到底是多少？从用户说完最后一个字，到智能体发出第一个声音，这个窗口是固定大小的。接近六百毫秒，才开始真正像人。所以正确的问题从来不是我能做多快，而是——在这个窗口里，我能塞进一个多像人的智能体。预算之内，剩下的钱应该花在模型质量上，而不是花在不重要的速度上。\n\n最后回到最初那个问题：我该选什么模型。Hall说，这个问题本身就没法回答，所以LiveKit造了一个他们希望存在的东西：一个端到端的基准测试。他们拿一个完整能用的智能体，就是刚才那个酒店前台，有真实后端，真的能下单——让几百个模拟用户打电话给它。模拟器会打断、会含糊、会中途改主意。评分不看感觉，看结果：订单有没有正确落进数据库，用户有没有被切断，名字日期对不对，有没有编造工具调用或者泄露个人信息。光看任务完成率还不够，因为完成率是可以靠猜的。所以他们额外惩罚那些看不见的毛病：问了不必要的问题，两步能干完的事用了十步。然后换技术栈：同一个智能体、同一批场景、逐字节相同的输入，只换模型。整套东西全部开源，方法论、评测集、智能体本身，你可以拿去测自己的。演讲结尾，他们还预告了一个模型：专为生产环境语音智能体调优的Gemma系列，跑这个语音评测的比例是百分之八十八，约三百八十毫秒开始说话，比下一个最快的模型快两倍多。\n\n把这一集带走的东西总结成一句：排行榜给组件打分，但你上线的是一个级联，一条流水线。所以，别再问模型多快了，问你的智能体，听起来像不像人。"
+}

@@ -1,0 +1,3458 @@
+[
+ {
+  "seg": 0,
+  "start": 14.525,
+  "end": 22.752,
+  "speaker": "Unknown",
+  "en": "So I'm here from Codex's Deployment Engineering team and I want to quickly say a few things to introduce the amazing folks at Sonar as well as Killian.",
+  "zh": "我来自 Codex 的部署工程团队,我想快速说几句话,介绍一下 Sonar 的优秀成员们以及 Killian。"
+ },
+ {
+  "seg": 1,
+  "start": 23.773,
+  "end": 30.378,
+  "speaker": "Unknown",
+  "en": "So I'm gonna skip some of the agent basics I typically talk about because I get the feeling that this audience knows what they're doing when it comes into that.",
+  "zh": "我会跳过一些我通常谈论的智能体基础知识,因为我感觉这个听众群体在这方面是懂行的。"
+ },
+ {
+  "seg": 2,
+  "start": 30.398,
+  "end": 36.063,
+  "speaker": "Unknown",
+  "en": "We're gonna dive right into the harder questions like what does it mean for an agent to complete a task?",
+  "zh": "我们要直接深入那些更难的问题,比如智能体完成一个任务意味着什么?"
+ },
+ {
+  "seg": 3,
+  "start": 36.303,
+  "end": 37.624,
+  "speaker": "Unknown",
+  "en": "What are trust boundaries?",
+  "zh": "什么是信任边界?"
+ },
+ {
+  "seg": 4,
+  "start": 38.725,
+  "end": 42.607,
+  "speaker": "Unknown",
+  "en": "And we have three kind of spicy claims that we want to present as well.",
+  "zh": "我们还有三个相当有争议的观点想提出。"
+ },
+ {
+  "seg": 5,
+  "start": 43.308,
+  "end": 46.35,
+  "speaker": "Unknown",
+  "en": "One is done, means a task is completed with evidence.",
+  "zh": "第一是“完成”意味着一个任务带着证据被完成。"
+ },
+ {
+  "seg": 6,
+  "start": 46.87,
+  "end": 49.391,
+  "speaker": "Unknown",
+  "en": "Two is that containment is not correctness.",
+  "zh": "第二是隔离不等于正确性。"
+ },
+ {
+  "seg": 7,
+  "start": 49.912,
+  "end": 52.933,
+  "speaker": "Unknown",
+  "en": "And three is that the feedback contract belongs inside the loop.",
+  "zh": "第三是反馈契约应该属于循环内部。"
+ },
+ {
+  "seg": 8,
+  "start": 53.434,
+  "end": 57.396,
+  "speaker": "Unknown",
+  "en": "So when we have an agent loop, it tends to follow a few predictable patterns.",
+  "zh": "所以当我们有一个智能体循环时,它往往遵循几个可预测的模式。"
+ },
+ {
+  "seg": 9,
+  "start": 57.776,
+  "end": 59.477,
+  "speaker": "Unknown",
+  "en": "We tend to have this model action.",
+  "zh": "我们通常有这个模型动作。"
+ },
+ {
+  "seg": 10,
+  "start": 59.917,
+  "end": 62.639,
+  "speaker": "Unknown",
+  "en": "We have the execution that is governed by the model.",
+  "zh": "我们有由模型治理的执行。"
+ },
+ {
+  "seg": 11,
+  "start": 63.159,
+  "end": 69.463,
+  "speaker": "Unknown",
+  "en": "We observe the changes, whether that be logs or results, output or otherwise, and we continue updating the plan.",
+  "zh": "我们观察变更,无论是日志还是结果、输出或其他东西,然后我们继续更新计划。"
+ },
+ {
+  "seg": 12,
+  "start": 69.643,
+  "end": 72.044,
+  "speaker": "Unknown",
+  "en": "That's sort of like the overarching agent loop that we follow.",
+  "zh": "这大致就是我们遵循的整体智能体循环。"
+ },
+ {
+  "seg": 13,
+  "start": 72.685,
+  "end": 83.991,
+  "speaker": "Unknown",
+  "en": "And then with each individual task, we have an outcome, we have invariance, we have a generally defined scope for what we're working on, and of course, we also have acceptance criteria as well.",
+  "zh": "然后对于每个单独的任务,我们有一个结果,我们有不变量,我们对正在处理的东西有一个大致定义的范围,当然,我们也有验收标准。"
+ },
+ {
+  "seg": 14,
+  "start": 85.432,
+  "end": 91.414,
+  "speaker": "Unknown",
+  "en": "So the definition of done for us, typically it's a reviewable diff, some tool evidence, that type of thing.",
+  "zh": "所以对我们来说,完成的定义通常是一个可审查的 diff,一些工具证据,诸如此类的东西。"
+ },
+ {
+  "seg": 15,
+  "start": 91.554,
+  "end": 93.534,
+  "speaker": "Unknown",
+  "en": "It doesn't mean just saying fixed.",
+  "zh": "它不只是意味着说“修复了”。"
+ },
+ {
+  "seg": 16,
+  "start": 93.594,
+  "end": 99.295,
+  "speaker": "Unknown",
+  "en": "It actually means saying fixed and providing the evidence supporting this fact.",
+  "zh": "它实际上意味着说“修复了”并提供支持这一事实的证据。"
+ },
+ {
+  "seg": 17,
+  "start": 99.775,
+  "end": 106.697,
+  "speaker": "Unknown",
+  "en": "Cheaper implementations tend to shift the bottleneck to specification and verification, and that's really not what we're wanting to do.",
+  "zh": "更便宜的实现往往会把瓶颈转移到规范和验证上,而这真的不是我们想做的。"
+ },
+ {
+  "seg": 18,
+  "start": 107.717,
+  "end": 114.539,
+  "speaker": "Unknown",
+  "en": "There's this idea of correlated failure as well, and there's typically a couple of common failure modes at coding agents.",
+  "zh": "还有相关性故障这个概念,编码智能体通常有几种常见的故障模式。"
+ },
+ {
+  "seg": 19,
+  "start": 115.52,
+  "end": 133.416,
+  "speaker": "Unknown",
+  "en": "It tends to fall back to incomplete context, or maybe there's a local fix that violates some global invariants that we have, or better yet, the generated tests that we actually do to verify results in the same issues just being propagated through.",
+  "zh": "它往往回退到不完整的上下文,或者也许有一个局部修复违反了我们拥有的某些全局不变量,或者更进一步,我们实际用来验证结果的生成的测试本身导致了同样的问题被继续传播。"
+ },
+ {
+  "seg": 20,
+  "start": 133.436,
+  "end": 139.482,
+  "speaker": "Unknown",
+  "en": "So self-critique is useful, but it's not an independent oracle, and we often tend to find that",
+  "zh": "所以自我批判是有用的,但它不是一个独立的 oracle,我们经常发现"
+ },
+ {
+  "seg": 21,
+  "start": 140.082,
+  "end": 144.926,
+  "speaker": "Unknown",
+  "en": "Some of the results of the agent and the verifier tend to be orthogonal to each other.",
+  "zh": "智能体和验证器的一些结果往往是彼此正交的。"
+ },
+ {
+  "seg": 22,
+  "start": 145.106,
+  "end": 149.429,
+  "speaker": "Unknown",
+  "en": "You can't determine whether a task is done without looking at both parts of it.",
+  "zh": "你无法在不查看两部分的情况下确定一个任务是否完成。"
+ },
+ {
+  "seg": 23,
+  "start": 150.129,
+  "end": 155.713,
+  "speaker": "Unknown",
+  "en": "So you typically want to almost seek out disconfirming evidence of a task being completed.",
+  "zh": "所以你通常想要几乎主动去寻找任务已完成的反证。"
+ },
+ {
+  "seg": 24,
+  "start": 157.415,
+  "end": 158.796,
+  "speaker": "Unknown",
+  "en": "According to the compiler, is it done?",
+  "zh": "根据编译器,它完成了吗?"
+ },
+ {
+  "seg": 25,
+  "start": 158.816,
+  "end": 161.998,
+  "speaker": "Unknown",
+  "en": "According to the tests, analysis, so on and so forth, is it done?",
+  "zh": "根据测试、分析等等,它完成了吗?"
+ },
+ {
+  "seg": 26,
+  "start": 162.719,
+  "end": 166.761,
+  "speaker": "Unknown",
+  "en": "And you can't really replace human review in the entire cycle as well.",
+  "zh": "而且你在整个周期中也无法真正取代人工审查。"
+ },
+ {
+  "seg": 27,
+  "start": 168.263,
+  "end": 172.906,
+  "speaker": "Unknown",
+  "en": "The next point I wanted to quickly hit on is containment doesn't equal correctness.",
+  "zh": "我想快速讲到的下一个点是隔离不等于正确性。"
+ },
+ {
+  "seg": 28,
+  "start": 173.607,
+  "end": 177.61,
+  "speaker": "Unknown",
+  "en": "We have the execution layer, which typically defines what an agent can do, right?",
+  "zh": "我们有执行层,它通常定义智能体能做什么,对吧?"
+ },
+ {
+  "seg": 29,
+  "start": 177.67,
+  "end": 179.511,
+  "speaker": "Unknown",
+  "en": "What tools does it have access to?",
+  "zh": "它可以访问哪些工具?"
+ },
+ {
+  "seg": 30,
+  "start": 180.292,
+  "end": 183.154,
+  "speaker": "Unknown",
+  "en": "What scope does it have purview over?",
+  "zh": "它对什么范围有管辖权?"
+ },
+ {
+  "seg": 31,
+  "start": 183.334,
+  "end": 184.795,
+  "speaker": "Unknown",
+  "en": "What approvals does it need to act?",
+  "zh": "它需要什么批准才能行动?"
+ },
+ {
+  "seg": 32,
+  "start": 185.316,
+  "end": 186.437,
+  "speaker": "Unknown",
+  "en": "And then we have the...",
+  "zh": "然后我们有……"
+ },
+ {
+  "seg": 33,
+  "start": 187.845,
+  "end": 193.771,
+  "speaker": "Unknown",
+  "en": "With this execution layer, we have the artifact layer, and this is really where the results are evaluated.",
+  "zh": "有了这个执行层,我们有工件层,而这正是结果被评估的地方。"
+ },
+ {
+  "seg": 34,
+  "start": 194.352,
+  "end": 195.493,
+  "speaker": "Unknown",
+  "en": "Is the result acceptable?",
+  "zh": "结果是否可接受?"
+ },
+ {
+  "seg": 35,
+  "start": 196.233,
+  "end": 197.515,
+  "speaker": "Unknown",
+  "en": "What tests were produced?",
+  "zh": "产生了哪些测试?"
+ },
+ {
+  "seg": 36,
+  "start": 197.615,
+  "end": 198.796,
+  "speaker": "Unknown",
+  "en": "What analyses?",
+  "zh": "哪些分析?"
+ },
+ {
+  "seg": 37,
+  "start": 198.916,
+  "end": 199.677,
+  "speaker": "Unknown",
+  "en": "What policy?",
+  "zh": "什么策略?"
+ },
+ {
+  "seg": 38,
+  "start": 200.177,
+  "end": 201.479,
+  "speaker": "Unknown",
+  "en": "Even what intent is there?",
+  "zh": "甚至有什么意图?"
+ },
+ {
+  "seg": 39,
+  "start": 202.8,
+  "end": 208.926,
+  "speaker": "Unknown",
+  "en": "So a sandbox can contain a write, but it can't prove that a query is safe.",
+  "zh": "所以一个沙箱可以容纳一次写入,但它无法证明一个查询是安全的。"
+ },
+ {
+  "seg": 40,
+  "start": 211.128,
+  "end": 223.441,
+  "speaker": "Unknown",
+  "en": "What I'm trying to get at is that no Oracle is proof and that you want to layer controls with different boundaries, sort of this defense in depth, these multi-layers of guardrails, that's sort of the overall idea.",
+  "zh": "我想说的是,没有任何 oracle 是证明,你需要用不同的边界来分层控制,有点像纵深防御,这些多层护栏,这大致是整体思路。"
+ },
+ {
+  "seg": 41,
+  "start": 224.081,
+  "end": 232.951,
+  "speaker": "Unknown",
+  "en": "And the great part about that is that you as a human, you own the intent, you own the exceptions, and of course, you own the decision whether to ship it or not.",
+  "zh": "而这样做的好处是,作为人类,你拥有意图,你拥有例外情况,当然,你也拥有是否发布的决定权。"
+ },
+ {
+  "seg": 42,
+  "start": 234.482,
+  "end": 235.703,
+  "speaker": "Unknown",
+  "en": "So this is one last thing.",
+  "zh": "所以这是最后一件事。"
+ },
+ {
+  "seg": 43,
+  "start": 236.504,
+  "end": 240.126,
+  "speaker": "Unknown",
+  "en": "There's a feedback contract that we tend to advise as well.",
+  "zh": "还有一个我们通常会建议的反馈契约。"
+ },
+ {
+  "seg": 44,
+  "start": 241.027,
+  "end": 247.151,
+  "speaker": "Unknown",
+  "en": "Typically, those come with skills, which, of course, are procedures as to how to accomplish a particular task.",
+  "zh": "通常,它们伴随着 skills,skills 当然是关于如何完成特定任务的流程。"
+ },
+ {
+  "seg": 45,
+  "start": 248.051,
+  "end": 250.513,
+  "speaker": "Unknown",
+  "en": "MCPs contain structured tools and context.",
+  "zh": "MCP 包含结构化的工具和上下文。"
+ },
+ {
+  "seg": 46,
+  "start": 251.154,
+  "end": 258.359,
+  "speaker": "Unknown",
+  "en": "And, of course, we are able to provide lifecycle checks with hooks, really good for finding out if you have hard-coded secrets or that kind of thing as well.",
+  "zh": "当然,我们能够通过 hooks 提供生命周期检查,对于发现你是否有硬编码的密钥或类似的东西非常有用。"
+ },
+ {
+  "seg": 47,
+  "start": 259.539,
+  "end": 270.85,
+  "speaker": "Unknown",
+  "en": "So with this, you want to create this full CI and human review process that should ultimately be the core of what the human's role is within this.",
+  "zh": "有了这个,你想创建这个完整的 CI 和人工审查流程,它最终应该是人类在其中的角色的核心。"
+ },
+ {
+  "seg": 48,
+  "start": 270.89,
+  "end": 278.658,
+  "speaker": "Unknown",
+  "en": "So anyways, what you want to evaluate when you are creating this sort of agentic process is a few things.",
+  "zh": "所以总之,当你创建这种智能体式流程时,你想评估的是几件事。"
+ },
+ {
+  "seg": 49,
+  "start": 278.778,
+  "end": 279.839,
+  "speaker": "Unknown",
+  "en": "What's the boundary?",
+  "zh": "边界是什么?"
+ },
+ {
+  "seg": 50,
+  "start": 280.259,
+  "end": 285.18,
+  "speaker": "Unknown",
+  "en": "For example, are you able to intercept secrets before model input, for example?",
+  "zh": "比如，你能在模型输入之前拦截密钥吗？"
+ },
+ {
+  "seg": 51,
+  "start": 286.301,
+  "end": 288.702,
+  "speaker": "Unknown",
+  "en": "How is the project grounded?",
+  "zh": "这个项目是如何被论证的？"
+ },
+ {
+  "seg": 52,
+  "start": 288.722,
+  "end": 295.143,
+  "speaker": "Unknown",
+  "en": "Do you have any concrete rules or locations or vulnerability paths that you are able to provide?",
+  "zh": "你是否能够提供任何具体的规则、位置或漏洞路径？"
+ },
+ {
+  "seg": 53,
+  "start": 295.864,
+  "end": 296.744,
+  "speaker": "Unknown",
+  "en": "What is the scope?",
+  "zh": "范围是什么？"
+ },
+ {
+  "seg": 54,
+  "start": 296.884,
+  "end": 299.505,
+  "speaker": "Unknown",
+  "en": "Are parameters binding while preserving behavior?",
+  "zh": "参数在绑定的时候是否保持了行为？"
+ },
+ {
+  "seg": 55,
+  "start": 300.405,
+  "end": 301.326,
+  "speaker": "Unknown",
+  "en": "These are things to check for.",
+  "zh": "这些都是需要检查的事项。"
+ },
+ {
+  "seg": 56,
+  "start": 301.826,
+  "end": 308.79,
+  "speaker": "Unknown",
+  "en": "And of course, you have to constantly run your rechecks, assert that the agents are not the terminal state.",
+  "zh": "当然，你必须持续运行你的复查，断言智能体不是终态。"
+ },
+ {
+  "seg": 57,
+  "start": 309.87,
+  "end": 312.872,
+  "speaker": "Unknown",
+  "en": "So anyways, enough yapping from my end of things.",
+  "zh": "总之，我这边就废话到这里了。"
+ },
+ {
+  "seg": 58,
+  "start": 313.532,
+  "end": 316.414,
+  "speaker": "Unknown",
+  "en": "If there's three points that you take away from me, it's that",
+  "zh": "如果你们从我这里带走三点，那就是"
+ },
+ {
+  "seg": 59,
+  "start": 317.134,
+  "end": 319.395,
+  "speaker": "Unknown",
+  "en": "Done means a task is complete with evidence.",
+  "zh": "完成意味着一个任务带着证据被完成。"
+ },
+ {
+  "seg": 60,
+  "start": 319.936,
+  "end": 322.917,
+  "speaker": "Unknown",
+  "en": "Two is that containment is not correctness.",
+  "zh": "第二，围堵不等于正确性。"
+ },
+ {
+  "seg": 61,
+  "start": 323.398,
+  "end": 331.422,
+  "speaker": "Unknown",
+  "en": "And three is that the feedback contract belongs inside the loop so that you can fully take advantage of the capabilities that your agents, such as Codex, provide.",
+  "zh": "第三，反馈契约应该放在循环之内，这样你才能充分利用你的智能体(比如 Codex)所提供的能力。"
+ },
+ {
+  "seg": 62,
+  "start": 332.963,
+  "end": 336.365,
+  "speaker": "Unknown",
+  "en": "So, Killian, let's make that loop complete, why don't we?",
+  "zh": "那么，Killian,咱们就把那个循环补完吧，怎么样？"
+ },
+ {
+  "seg": 63,
+  "start": 338.386,
+  "end": 339.907,
+  "speaker": "Unknown",
+  "en": "That's about all for Mind of Things.",
+  "zh": "Mind of Things 的部分大概就到这里。"
+ },
+ {
+  "seg": 64,
+  "start": 339.927,
+  "end": 344.09,
+  "speaker": "Unknown",
+  "en": "Thank you so much for giving me the opportunity to give this introduction.",
+  "zh": "非常感谢你们给我这个机会做这个介绍。"
+ },
+ {
+  "seg": 65,
+  "start": 346.011,
+  "end": 346.351,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢大家。"
+ },
+ {
+  "seg": 66,
+  "start": 350.288,
+  "end": 356.493,
+  "speaker": "Unknown",
+  "en": "If you can take a look at this and scan it and follow through, it would be very helpful.",
+  "zh": "如果你们能看一下这个、扫一遍并跟进下去，会非常有帮助。"
+ },
+ {
+  "seg": 67,
+  "start": 356.513,
+  "end": 357.693,
+  "speaker": "Unknown",
+  "en": "There are a few prerequisites.",
+  "zh": "有几个前提条件。"
+ },
+ {
+  "seg": 68,
+  "start": 358.954,
+  "end": 360.355,
+  "speaker": "Unknown",
+  "en": "Again, I am Kilian.",
+  "zh": "再说一次，我是 Kilian。"
+ },
+ {
+  "seg": 69,
+  "start": 360.516,
+  "end": 363.057,
+  "speaker": "Unknown",
+  "en": "I am a developer content engineer at Sonar.",
+  "zh": "我是 Sonar 的一名开发者内容工程师。"
+ },
+ {
+  "seg": 70,
+  "start": 364.539,
+  "end": 370.063,
+  "speaker": "Unknown",
+  "en": "So thank you very much again, OpenAI and Tony for giving us a little intro into all of this.",
+  "zh": "所以再次非常感谢 OpenAI 和 Tony 给了我们这一切的一个小介绍。"
+ },
+ {
+  "seg": 71,
+  "start": 371.424,
+  "end": 373.365,
+  "speaker": "Unknown",
+  "en": "Codex is a very powerful tool.",
+  "zh": "Codex 是一个非常强大的工具。"
+ },
+ {
+  "seg": 72,
+  "start": 373.965,
+  "end": 376.067,
+  "speaker": "Unknown",
+  "en": "I use it all the time, I found it very helpful.",
+  "zh": "我一直在用它，我发现它非常有帮助。"
+ },
+ {
+  "seg": 73,
+  "start": 376.667,
+  "end": 388.796,
+  "speaker": "Unknown",
+  "en": "It has a fast CLI, it has a pretty smart sandbox system, and the hook system that it has as well integrates really well with tools like SonarCube, like I'd like to hop into today.",
+  "zh": "它有一个快速的 CLI,有一个相当智能的沙箱系统，而且它自带的钩子(hook)系统与像 SonarCube 这样的工具集成得非常好，这也是我今天想要切入的内容。"
+ },
+ {
+  "seg": 74,
+  "start": 391.278,
+  "end": 397.222,
+  "speaker": "Unknown",
+  "en": "So, wiring your team for agentic development with SonarCube and OpenAI.",
+  "zh": "所以，就是用 SonarCube 和 OpenAI 为你的团队装备智能体化开发。"
+ },
+ {
+  "seg": 75,
+  "start": 400.313,
+  "end": 409.505,
+  "speaker": "Unknown",
+  "en": "The question I want to pose today is how do we make sure that the code and the output generated by agents like Codex is verified, that it's safe?",
+  "zh": "我今天想要提出的问题是：我们如何确保像 Codex 这样的智能体生成的代码和输出被验证过、是安全的？"
+ },
+ {
+  "seg": 76,
+  "start": 410.186,
+  "end": 414.212,
+  "speaker": "Unknown",
+  "en": "At Sauner, we have this idea of the agent-centric development cycle.",
+  "zh": "在 Sauner,我们有这样一个理念：以智能体为中心的开发周期。"
+ },
+ {
+  "seg": 77,
+  "start": 415.632,
+  "end": 421.741,
+  "speaker": "Unknown",
+  "en": "We did some research in the past year or so, and we surveyed over 1,000 developers.",
+  "zh": "我们在过去一年左右做了一些研究，调查了一千多名开发者。"
+ },
+ {
+  "seg": 78,
+  "start": 422.322,
+  "end": 429.252,
+  "speaker": "Unknown",
+  "en": "And we found that 42% of committed code is either AI-generated or AI-assisted.",
+  "zh": "我们发现 42% 的已提交代码要么是 AI 生成的，要么是 AI 辅助的。"
+ },
+ {
+  "seg": 79,
+  "start": 430.465,
+  "end": 435.85,
+  "speaker": "Unknown",
+  "en": "But 96% of developers do not fully trust it, right?",
+  "zh": "但是 96% 的开发者并不完全信任它，对吧？"
+ },
+ {
+  "seg": 80,
+  "start": 436.15,
+  "end": 440.314,
+  "speaker": "Unknown",
+  "en": "So the vast majority of people do not just think, hey, this is safe right off the bat.",
+  "zh": "所以绝大多数人并不是想：“嘿，这个一开始就是安全的。”"
+ },
+ {
+  "seg": 81,
+  "start": 441.034,
+  "end": 446.419,
+  "speaker": "Unknown",
+  "en": "Less than half of them say that they fully verify the code before they push and merge it into the code base.",
+  "zh": "其中只有不到一半的人说，他们在推送并合并进代码库之前会完全验证这些代码。"
+ },
+ {
+  "seg": 82,
+  "start": 447.039,
+  "end": 448.12,
+  "speaker": "Unknown",
+  "en": "There's a bit of tension there.",
+  "zh": "这里有一点张力。"
+ },
+ {
+  "seg": 83,
+  "start": 448.621,
+  "end": 449.462,
+  "speaker": "Unknown",
+  "en": "No one trusts it.",
+  "zh": "没有人信任它。"
+ },
+ {
+  "seg": 84,
+  "start": 450.042,
+  "end": 453.105,
+  "speaker": "Unknown",
+  "en": "A bunch of untrusted code is getting into the code base.",
+  "zh": "一大堆不被信任的代码正在进入代码库。"
+ },
+ {
+  "seg": 85,
+  "start": 455.14,
+  "end": 460.544,
+  "speaker": "Unknown",
+  "en": "The reason being is that the bottleneck used to be code generation, right?",
+  "zh": "原因在于，瓶颈过去是代码生成，对吧？"
+ },
+ {
+  "seg": 86,
+  "start": 460.644,
+  "end": 465.569,
+  "speaker": "Unknown",
+  "en": "How can we create what we're trying to do to achieve the desired outcome?",
+  "zh": "我们怎样才能创造出我们想要做的东西以达到期望的结果？"
+ },
+ {
+  "seg": 87,
+  "start": 466.129,
+  "end": 469.772,
+  "speaker": "Unknown",
+  "en": "How do we actually write the code for an application that we're trying to build?",
+  "zh": "我们究竟如何为我们想要构建的应用编写代码？"
+ },
+ {
+  "seg": 88,
+  "start": 471.013,
+  "end": 478.639,
+  "speaker": "Unknown",
+  "en": "With AI agents, that has for the most part been solved with them either doing it themselves or with the assistance of AI agents.",
+  "zh": "有了 AI 智能体，这在很大程度上已经被解决了——要么它们自己做，要么在 AI 智能体的辅助下完成。"
+ },
+ {
+  "seg": 89,
+  "start": 478.94,
+  "end": 482.262,
+  "speaker": "Unknown",
+  "en": "So the bottleneck has shifted now from just code generation",
+  "zh": "所以瓶颈现在已经从单纯的代码生成"
+ },
+ {
+  "seg": 90,
+  "start": 483.023,
+  "end": 484.764,
+  "speaker": "Unknown",
+  "en": "to code verification, right?",
+  "zh": "转移到了代码验证，对吧？"
+ },
+ {
+  "seg": 91,
+  "start": 484.864,
+  "end": 493.849,
+  "speaker": "Unknown",
+  "en": "We have a massive amount of code being generated, but now it is up to the human limitation of, hey, how do I make sure that this is safe?",
+  "zh": "我们有海量的代码正在被生成，但现在这受制于人类的极限：“嘿，我如何确保这是安全的？”"
+ },
+ {
+  "seg": 92,
+  "start": 494.309,
+  "end": 503.655,
+  "speaker": "Unknown",
+  "en": "What help and what tools can I get to verify that this is not gonna nuke my code base or nuke my customers and create all sorts of bad issues going on?",
+  "zh": "我能获得什么帮助、什么工具，来验证这不会把我的代码库炸掉、不会把我的客户炸掉、不会制造出各种糟糕的问题？"
+ },
+ {
+  "seg": 93,
+  "start": 504.971,
+  "end": 509.913,
+  "speaker": "Unknown",
+  "en": "So we have four steps in the ACDC, the agent-centric development cycle.",
+  "zh": "所以在 ACDC,也就是以智能体为中心的开发周期中，我们有四个步骤。"
+ },
+ {
+  "seg": 94,
+  "start": 510.613,
+  "end": 513.594,
+  "speaker": "Unknown",
+  "en": "One of them is not necessarily from Sonar.",
+  "zh": "其中一个并不一定来自 Sonar。"
+ },
+ {
+  "seg": 95,
+  "start": 513.614,
+  "end": 514.394,
+  "speaker": "Unknown",
+  "en": "That is generate.",
+  "zh": "那就是生成(generate)。"
+ },
+ {
+  "seg": 96,
+  "start": 514.454,
+  "end": 518.635,
+  "speaker": "Unknown",
+  "en": "That is whatever coding tool you're using, codex, anything else.",
+  "zh": "那就是无论你用什么编码工具，Codex 还是其他任何东西。"
+ },
+ {
+  "seg": 97,
+  "start": 519.556,
+  "end": 520.916,
+  "speaker": "Unknown",
+  "en": "That is the generate step.",
+  "zh": "那就是生成这一步。"
+ },
+ {
+  "seg": 98,
+  "start": 520.956,
+  "end": 523.817,
+  "speaker": "Unknown",
+  "en": "But Sonar owns guide, verify, and solve.",
+  "zh": "但 Sonar 负责引导(guide)、验证(verify)和解决(solve)。"
+ },
+ {
+  "seg": 99,
+  "start": 524.417,
+  "end": 537.946,
+  "speaker": "Unknown",
+  "en": "What guide is is we inject the agent with proper context, and that includes your project guidelines, any rules, any specific architecture to make sure that it has high-quality context before it even starts building anything.",
+  "zh": "所谓引导，就是我们向智能体注入合适的上下文，这包括你的项目指南、任何规则、任何特定的架构，以确保它在开始构建任何东西之前就拥有高质量的上下文。"
+ },
+ {
+  "seg": 100,
+  "start": 538.726,
+  "end": 545.591,
+  "speaker": "Unknown",
+  "en": "We found that this reduces token cost overall, and at enterprise scale, that, I mean, saves a lot of money in the long term.",
+  "zh": "我们发现这总体上降低了 token 成本,在企业规模下,我是说,长期来看能省很多钱。"
+ },
+ {
+  "seg": 101,
+  "start": 546.341,
+  "end": 555.223,
+  "speaker": "Unknown",
+  "en": "Verify is as soon as it's done creating whatever task you've assigned to a generated code, we want to make sure that no issues are being introduced.",
+  "zh": "Verify 就是,一旦它完成了你分配的任何任务、生成了代码,我们要确保没有引入任何问题。"
+ },
+ {
+  "seg": 102,
+  "start": 555.343,
+  "end": 560.064,
+  "speaker": "Unknown",
+  "en": "So no security issues, code quality issues, maintainability, anything like that.",
+  "zh": "也就是没有安全问题、代码质量问题、可维护性问题,诸如此类。"
+ },
+ {
+  "seg": 103,
+  "start": 560.084,
+  "end": 562.545,
+  "speaker": "Unknown",
+  "en": "None of that needs to be pushed out to production code.",
+  "zh": "这些都不应该被推到生产代码里去。"
+ },
+ {
+  "seg": 104,
+  "start": 563.045,
+  "end": 568.746,
+  "speaker": "Unknown",
+  "en": "And then solve is, okay, we have detected there's an issue, right?",
+  "zh": "然后 solve 就是,好,我们检测到了一个问题,对吧?"
+ },
+ {
+  "seg": 105,
+  "start": 568.786,
+  "end": 572.827,
+  "speaker": "Unknown",
+  "en": "There's some sort of injection vulnerability or whatever that's going on.",
+  "zh": "可能是某种注入漏洞或者其他什么问题。"
+ },
+ {
+  "seg": 106,
+  "start": 573.167,
+  "end": 575.688,
+  "speaker": "Unknown",
+  "en": "We need to remediate that quickly.",
+  "zh": "我们需要尽快修复它,"
+ },
+ {
+  "seg": 107,
+  "start": 576.569,
+  "end": 583.411,
+  "speaker": "Unknown",
+  "en": "and as efficiently as possible so that we can kind of have this iterative coding system right there.",
+  "zh": "并且以尽可能高的效率,这样我们就能拥有这种迭代式的编码系统。"
+ },
+ {
+  "seg": 108,
+  "start": 584.412,
+  "end": 591.756,
+  "speaker": "Unknown",
+  "en": "And the last slide I'm gonna show before we hop into the actual activity is the concept of the inner loop and the outer loop of verification.",
+  "zh": "在我们进入实际操作之前,我要展示的最后一张幻灯片是验证的内循环和外循环的概念。"
+ },
+ {
+  "seg": 109,
+  "start": 592.336,
+  "end": 597.218,
+  "speaker": "Unknown",
+  "en": "Outer loop is your traditional CI system that you have set up, right?",
+  "zh": "外循环就是你已经搭建好的传统 CI 系统,对吧?"
+ },
+ {
+  "seg": 110,
+  "start": 597.318,
+  "end": 604.902,
+  "speaker": "Unknown",
+  "en": "So you write code, you push it to GitHub, GitLab, whatever you use, the pipeline runs and something may fail, right?",
+  "zh": "也就是你写代码,推送到 GitHub、GitLab 或者你用的任何平台,流水线运行,然后某些东西可能失败,对吧?"
+ },
+ {
+  "seg": 111,
+  "start": 604.922,
+  "end": 610.225,
+  "speaker": "Unknown",
+  "en": "Your tests or a scan or SonarCube may fail and you go back to the IDE",
+  "zh": "你的测试、一次扫描或者 SonarCube 可能失败,然后你回到 IDE"
+ },
+ {
+  "seg": 112,
+  "start": 611.205,
+  "end": 614.347,
+  "speaker": "Unknown",
+  "en": "And then you try and fix it, and then you push it, and then it fails again.",
+  "zh": "然后你尝试修复它,再推送,然后又失败了。"
+ },
+ {
+  "seg": 113,
+  "start": 614.847,
+  "end": 619.53,
+  "speaker": "Unknown",
+  "en": "This has been the bane of my existence, the bane of many developers' existences.",
+  "zh": "这一直是我的噩梦,也是很多开发者的噩梦。"
+ },
+ {
+  "seg": 114,
+  "start": 620.09,
+  "end": 625.273,
+  "speaker": "Unknown",
+  "en": "So we want to save time by shifting left to the inner loop, and that's the IDE.",
+  "zh": "所以我们想通过向左转移到内循环来节省时间,内循环就是 IDE。"
+ },
+ {
+  "seg": 115,
+  "start": 625.853,
+  "end": 634.578,
+  "speaker": "Unknown",
+  "en": "So that's as soon as we are done generating code, we want to verify that it is correct within the IDE without having to push it out.",
+  "zh": "也就是说,一旦我们完成代码生成,我们想在 IDE 内部就验证它是正确的,而不需要推出去。"
+ },
+ {
+  "seg": 116,
+  "start": 636.239,
+  "end": 637.419,
+  "speaker": "Unknown",
+  "en": "This saves a lot of time.",
+  "zh": "这能节省大量时间。"
+ },
+ {
+  "seg": 117,
+  "start": 638.36,
+  "end": 639.8,
+  "speaker": "Unknown",
+  "en": "I mean, especially",
+  "zh": "我是说,尤其是"
+ },
+ {
+  "seg": 118,
+  "start": 641.166,
+  "end": 651.881,
+  "speaker": "Unknown",
+  "en": "You know, being able to automatically verify all this stuff, time is money at enterprises and your engineers save a lot of money on therapy bills as well without that frustration.",
+  "zh": "你知道的,能够自动验证所有这些东西,在企业里时间就是金钱,而且没有那种挫败感,你的工程师们也能省下不少治疗费。"
+ },
+ {
+  "seg": 119,
+  "start": 654.332,
+  "end": 654.672,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好了。"
+ },
+ {
+  "seg": 120,
+  "start": 655.153,
+  "end": 660.176,
+  "speaker": "Unknown",
+  "en": "That is the last slide I really want to focus on before hopping into the terminal.",
+  "zh": "这就是我真正想重点讲的最后一张幻灯片,之后就进入终端。"
+ },
+ {
+  "seg": 121,
+  "start": 661.277,
+  "end": 664.459,
+  "speaker": "Unknown",
+  "en": "A few quick things I want to touch base on.",
+  "zh": "有几件事我想快速提一下。"
+ },
+ {
+  "seg": 122,
+  "start": 664.839,
+  "end": 667.781,
+  "speaker": "Unknown",
+  "en": "Before that, you're going to see two tools that I'm going to talk about.",
+  "zh": "在那之前,你们会看到两个我要讲的工具。"
+ },
+ {
+  "seg": 123,
+  "start": 668.242,
+  "end": 678.849,
+  "speaker": "Unknown",
+  "en": "Our tool for context, our tool called context augmentation is what we're going to use for the guide stage, and our tool for agentic analysis you're going to see in the verify stage.",
+  "zh": "我们用于上下文的工具,也就是叫 context augmentation 的工具,将用于 guide 阶段,而我们用于智能体分析的工具,你们会在 verify 阶段看到。"
+ },
+ {
+  "seg": 124,
+  "start": 679.129,
+  "end": 680.09,
+  "speaker": "Unknown",
+  "en": "We'll come back to those later.",
+  "zh": "我们稍后会回到这些内容。"
+ },
+ {
+  "seg": 125,
+  "start": 682.191,
+  "end": 690.564,
+  "speaker": "Unknown",
+  "en": "And the big takeaway as well that I want everyone to keep focusing on is this bottleneck has shifted from code generation to code verification.",
+  "zh": "还有我想让每个人都持续关注的一个核心要点是,这个瓶颈已经从代码生成转移到了代码验证。"
+ },
+ {
+  "seg": 126,
+  "start": 693.613,
+  "end": 704.122,
+  "speaker": "Unknown",
+  "en": "Before we hop in as well, everyone should have Docker running if you're able to on your computer and just quick show of thumbs just so I have an idea of people who have been able to follow along with the prerequisites so far.",
+  "zh": "在我们开始之前,如果条件允许的话,每个人都应该在电脑上运行着 Docker,请快速举个手,好让我了解一下到目前为止有多少人能跟上前置要求。"
+ },
+ {
+  "seg": 127,
+  "start": 704.742,
+  "end": 709.486,
+  "speaker": "Unknown",
+  "en": "Thumbs up if you got Docker running and are kind of primed, ready to go.",
+  "zh": "如果你已经运行了 Docker 并且准备就绪,请举手。"
+ },
+ {
+  "seg": 128,
+  "start": 709.786,
+  "end": 711.387,
+  "speaker": "Unknown",
+  "en": "Hop into the terminal and follow along.",
+  "zh": "进入终端,跟着一起操作。"
+ },
+ {
+  "seg": 129,
+  "start": 712.317,
+  "end": 712.597,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 130,
+  "start": 713.058,
+  "end": 713.338,
+  "speaker": "Unknown",
+  "en": "A few.",
+  "zh": "有几个人。"
+ },
+ {
+  "seg": 131,
+  "start": 713.898,
+  "end": 714.279,
+  "speaker": "Unknown",
+  "en": "Perfect.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 132,
+  "start": 714.779,
+  "end": 715.1,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 133,
+  "start": 716.781,
+  "end": 718.683,
+  "speaker": "Unknown",
+  "en": "If not, again, this repo is available.",
+  "zh": "如果没有的话,再说一次,这个仓库是公开可用的。"
+ },
+ {
+  "seg": 134,
+  "start": 718.743,
+  "end": 721.125,
+  "speaker": "Unknown",
+  "en": "You can follow through with this on your own time.",
+  "zh": "你可以在自己的时间里跟着做。"
+ },
+ {
+  "seg": 135,
+  "start": 722.786,
+  "end": 724.168,
+  "speaker": "Unknown",
+  "en": "You will have all of this information.",
+  "zh": "所有这些信息你都会有。"
+ },
+ {
+  "seg": 136,
+  "start": 724.188,
+  "end": 726.189,
+  "speaker": "Unknown",
+  "en": "So let me pop out of this real quick.",
+  "zh": "那么让我快速切出这个画面。"
+ },
+ {
+  "seg": 137,
+  "start": 727.15,
+  "end": 728.471,
+  "speaker": "Unknown",
+  "en": "I only have limited view.",
+  "zh": "我的视野有限,"
+ },
+ {
+  "seg": 138,
+  "start": 729.152,
+  "end": 732.835,
+  "speaker": "Unknown",
+  "en": "Cutting the top part of my screen up, but should be good to go.",
+  "zh": "屏幕顶部被切掉了一部分,不过应该没问题。"
+ },
+ {
+  "seg": 139,
+  "start": 733.135,
+  "end": 733.396,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 140,
+  "start": 734.609,
+  "end": 739.214,
+  "speaker": "Unknown",
+  "en": "So the first thing that we are going to do is we are going to run this script called ApplySonar.",
+  "zh": "那么我们要做的第一件事是,我们要运行这个叫 ApplySonar 的脚本。"
+ },
+ {
+  "seg": 141,
+  "start": 739.935,
+  "end": 742.417,
+  "speaker": "Unknown",
+  "en": "This is just the repo that I cloned locally.",
+  "zh": "这只是我在本地克隆的仓库。"
+ },
+ {
+  "seg": 142,
+  "start": 743.058,
+  "end": 744.9,
+  "speaker": "Unknown",
+  "en": "This is going to require a bash terminal.",
+  "zh": "这需要一个 bash 终端。"
+ },
+ {
+  "seg": 143,
+  "start": 744.96,
+  "end": 747.582,
+  "speaker": "Unknown",
+  "en": "So if you're on Windows, you can use Git Bash or something like that.",
+  "zh": "所以如果你在 Windows 上,你可以使用 Git Bash 之类的工具。"
+ },
+ {
+  "seg": 144,
+  "start": 749.765,
+  "end": 751.626,
+  "speaker": "Unknown",
+  "en": "So I'm going to go ahead and type that in.",
+  "zh": "那我要继续把它输入进去。"
+ },
+ {
+  "seg": 145,
+  "start": 751.807,
+  "end": 755.811,
+  "speaker": "Unknown",
+  "en": "That is ApplySonar.",
+  "zh": "那就是.ApplySonar。"
+ },
+ {
+  "seg": 146,
+  "start": 758.09,
+  "end": 760.571,
+  "speaker": "Unknown",
+  "en": "All right, and this is going to do a few things.",
+  "zh": "好了,这会做几件事。"
+ },
+ {
+  "seg": 147,
+  "start": 761.092,
+  "end": 763.253,
+  "speaker": "Unknown",
+  "en": "This is a personal tool that I built.",
+  "zh": "这是我构建的一个个人工具。"
+ },
+ {
+  "seg": 148,
+  "start": 763.373,
+  "end": 765.334,
+  "speaker": "Unknown",
+  "en": "It is not an official Sonar product.",
+  "zh": "它不是 Sonar 的官方产品。"
+ },
+ {
+  "seg": 149,
+  "start": 767.135,
+  "end": 771.877,
+  "speaker": "Unknown",
+  "en": "It is just a shortcut, so we're not spending 10 minutes clicking through a UI or anything like that.",
+  "zh": "它只是一个快捷方式,这样我们就不用花 10 分钟在 UI 里点点点之类的。"
+ },
+ {
+  "seg": 150,
+  "start": 772.958,
+  "end": 776.5,
+  "speaker": "Unknown",
+  "en": "Let me make sure my Wi-Fi is going all right, okay.",
+  "zh": "让我确认一下我的 Wi-Fi 还正常，好的。"
+ },
+ {
+  "seg": 151,
+  "start": 780.371,
+  "end": 782.453,
+  "speaker": "Unknown",
+  "en": "Running through a little bit of computer slowness up here.",
+  "zh": "我这边电脑有点慢。"
+ },
+ {
+  "seg": 152,
+  "start": 784.015,
+  "end": 787.339,
+  "speaker": "Unknown",
+  "en": "But this will create a SonarCube Cloud project for you.",
+  "zh": "但这会为你创建一个 SonarCube Cloud 项目。"
+ },
+ {
+  "seg": 153,
+  "start": 788.22,
+  "end": 789.461,
+  "speaker": "Unknown",
+  "en": "Runs the first scan for you.",
+  "zh": "会为你运行第一次扫描。"
+ },
+ {
+  "seg": 154,
+  "start": 789.481,
+  "end": 792.785,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 155,
+  "start": 793.746,
+  "end": 793.986,
+  "speaker": "Unknown",
+  "en": "You.",
+  "zh": "你。"
+ },
+ {
+  "seg": 156,
+  "start": 795.648,
+  "end": 796.809,
+  "speaker": "Unknown",
+  "en": "And it will off me in.",
+  "zh": "然后它会替我登入。"
+ },
+ {
+  "seg": 157,
+  "start": 796.829,
+  "end": 798.351,
+  "speaker": "Unknown",
+  "en": "Sort of just pop open the browser.",
+  "zh": "差不多就是自动打开浏览器。"
+ },
+ {
+  "seg": 158,
+  "start": 801.684,
+  "end": 810.311,
+  "speaker": "Unknown",
+  "en": "This will install a few related SonarCube tools for you, like our CLI and anything else that we're gonna need to run our plugin with Codex on top of.",
+  "zh": "这会为你安装几个相关的 SonarCube 工具，比如我们的 CLI，以及我们要在上面运行插件和 Codex 所需要的其他东西。"
+ },
+ {
+  "seg": 159,
+  "start": 816.015,
+  "end": 816.435,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 160,
+  "start": 818.577,
+  "end": 823.801,
+  "speaker": "Unknown",
+  "en": "Bear with me as it looks like I'm bumping into just a little bit of Wi-Fi slowness in here, but shouldn't be a big issue.",
+  "zh": "请稍等，看起来这里的 Wi-Fi 有点慢，但应该不是大问题。"
+ },
+ {
+  "seg": 161,
+  "start": 824.922,
+  "end": 827.384,
+  "speaker": "Unknown",
+  "en": "So that has been successful.",
+  "zh": "所以那已经成功了。"
+ },
+ {
+  "seg": 162,
+  "start": 831.845,
+  "end": 840.515,
+  "speaker": "Unknown",
+  "en": "You're gonna wanna put in the org that you want, so the org that was created for you when you made an account.",
+  "zh": "你需要填入你想要的 org，也就是你创建账户时为你生成的那个 org。"
+ },
+ {
+  "seg": 163,
+  "start": 846.241,
+  "end": 846.822,
+  "speaker": "Unknown",
+  "en": "And that'll run.",
+  "zh": "然后它就会运行。"
+ },
+ {
+  "seg": 164,
+  "start": 848.492,
+  "end": 854.334,
+  "speaker": "Unknown",
+  "en": "This right here, just to talk about the project, this is a tiny Python project, nothing complicated.",
+  "zh": "就这里的这个，简单说一下这个项目，这是一个很小的 Python 项目，没什么复杂的。"
+ },
+ {
+  "seg": 165,
+  "start": 854.694,
+  "end": 861.236,
+  "speaker": "Unknown",
+  "en": "There's like four files, less than 200 lines total, and I have planted four vulnerabilities in there.",
+  "zh": "大概四个文件，总共不到 200 行，我在里面埋了四个漏洞。"
+ },
+ {
+  "seg": 166,
+  "start": 861.436,
+  "end": 866.818,
+  "speaker": "Unknown",
+  "en": "Three of them are security vulnerabilities, and one of them is a code smell.",
+  "zh": "其中三个是安全漏洞，还有一个是代码坏味道。"
+ },
+ {
+  "seg": 167,
+  "start": 867.438,
+  "end": 874.541,
+  "speaker": "Unknown",
+  "en": "And when this script gets done running, then we're gonna hop into the dashboard and make sure that we can see stuff up there.",
+  "zh": "等这个脚本跑完，我们就会进入 dashboard，确认能在上面看到东西。"
+ },
+ {
+  "seg": 168,
+  "start": 877.202,
+  "end": 877.542,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 169,
+  "start": 879.926,
+  "end": 883.308,
+  "speaker": "Unknown",
+  "en": "Normally, I think there's a lot of people trying to access this Wi-Fi.",
+  "zh": "通常，我想现在有很多人在连这个 Wi-Fi。"
+ },
+ {
+  "seg": 170,
+  "start": 884.089,
+  "end": 887.631,
+  "speaker": "Unknown",
+  "en": "I have not seen this take longer than a minute on my own personal Wi-Fi.",
+  "zh": "我在我自己的 Wi-Fi 上没见过这个超过一分钟。"
+ },
+ {
+  "seg": 171,
+  "start": 887.671,
+  "end": 893.174,
+  "speaker": "Unknown",
+  "en": "So if you're following along at home, don't think you'll have to be sitting around like this for a little while.",
+  "zh": "所以如果你在家跟着做，别以为你要像这样干坐一会儿。"
+ },
+ {
+  "seg": 172,
+  "start": 893.955,
+  "end": 894.195,
+  "speaker": "Unknown",
+  "en": "Whoops.",
+  "zh": "哎呀。"
+ },
+ {
+  "seg": 173,
+  "start": 901.819,
+  "end": 907.783,
+  "speaker": "Unknown",
+  "en": "So I am, you know what, I may have actually forgot to export my token, which is a step in the repo real quick.",
+  "zh": "所以我，你知道吗，我可能真的忘了导出我的 token，这是 repo 里的一个步骤，我马上弄一下。"
+ },
+ {
+  "seg": 174,
+  "start": 910.302,
+  "end": 911.703,
+  "speaker": "Unknown",
+  "en": "This should be in your shell.",
+  "zh": "这个应该在你的 shell 里。"
+ },
+ {
+  "seg": 175,
+  "start": 912.303,
+  "end": 921.167,
+  "speaker": "Unknown",
+  "en": "I'm gonna pull out my disconnect real quick just for a second so I don't expose my Sonar token to a room full of a bunch of people, and then I'll pop right back in.",
+  "zh": "我先快速把断开连接拉出来一下，免得把我的 Sonar token 暴露给满屋子的人，然后我马上连回来。"
+ },
+ {
+  "seg": 176,
+  "start": 928.15,
+  "end": 931.292,
+  "speaker": "Unknown",
+  "en": "So there should be some steps in the repository.",
+  "zh": "所以 repository 里应该有一些步骤说明。"
+ },
+ {
+  "seg": 177,
+  "start": 931.432,
+  "end": 933.133,
+  "speaker": "Unknown",
+  "en": "You will navigate through the dashboard.",
+  "zh": "你会在 dashboard 里导航。"
+ },
+ {
+  "seg": 178,
+  "start": 933.153,
+  "end": 935.854,
+  "speaker": "Unknown",
+  "en": "I think it's under administration within SonarCube Cloud.",
+  "zh": "我记得是在 SonarCube Cloud 的 administration 下面。"
+ },
+ {
+  "seg": 179,
+  "start": 948.085,
+  "end": 949.166,
+  "speaker": "Unknown",
+  "en": "All right, re-mirror.",
+  "zh": "好，重新镜像。"
+ },
+ {
+  "seg": 180,
+  "start": 955.61,
+  "end": 957.871,
+  "speaker": "Unknown",
+  "en": "All right, so this will run.",
+  "zh": "好，这样它就会运行了。"
+ },
+ {
+  "seg": 181,
+  "start": 959.413,
+  "end": 961.234,
+  "speaker": "Unknown",
+  "en": "A few things I want to talk about as well.",
+  "zh": "另外还有几件事我想讲一下。"
+ },
+ {
+  "seg": 182,
+  "start": 961.374,
+  "end": 966.397,
+  "speaker": "Unknown",
+  "en": "So we are going to see a SQL injection issue that pops in.",
+  "zh": "我们会看到一个 SQL 注入问题弹出来。"
+ },
+ {
+  "seg": 183,
+  "start": 966.597,
+  "end": 967.318,
+  "speaker": "Unknown",
+  "en": "Okay, awesome.",
+  "zh": "好，很棒。"
+ },
+ {
+  "seg": 184,
+  "start": 967.678,
+  "end": 968.719,
+  "speaker": "Unknown",
+  "en": "This looks like it's working now.",
+  "zh": "看起来现在能用了。"
+ },
+ {
+  "seg": 185,
+  "start": 969.619,
+  "end": 974.803,
+  "speaker": "Unknown",
+  "en": "So it'll go through and it'll automatically create everything for me in the dashboard.",
+  "zh": "它会自动在 dashboard 里为我创建所有东西。"
+ },
+ {
+  "seg": 186,
+  "start": 976.067,
+  "end": 980.953,
+  "speaker": "Unknown",
+  "en": "The security rating that it will come up with is going to be E. This is the very lowest.",
+  "zh": "它给出的安全评级会是 E，这是最低的。"
+ },
+ {
+  "seg": 187,
+  "start": 981.414,
+  "end": 989.425,
+  "speaker": "Unknown",
+  "en": "We have baked in some security issues and SonarCube immediately detects these and says, hey, this is no good.",
+  "zh": "我们在里面埋了一些安全问题，SonarCube 立刻检测到这些并说，嘿，这不行。"
+ },
+ {
+  "seg": 188,
+  "start": 991.153,
+  "end": 996.737,
+  "speaker": "Unknown",
+  "en": "The next thing that I'm gonna dig into as soon as this gets loaded is just walk through a couple issues.",
+  "zh": "等这个加载完，我接下来要深入看的就是过一遍几个问题。"
+ },
+ {
+  "seg": 189,
+  "start": 997.358,
+  "end": 1001.181,
+  "speaker": "Unknown",
+  "en": "One of them is going to be an OpenAI API key.",
+  "zh": "其中一个是 OpenAI API key。"
+ },
+ {
+  "seg": 190,
+  "start": 1001.701,
+  "end": 1003.823,
+  "speaker": "Unknown",
+  "en": "Very relevant if people are using Codex.",
+  "zh": "如果大家在用 Codex，这非常相关。"
+ },
+ {
+  "seg": 191,
+  "start": 1004.404,
+  "end": 1005.024,
+  "speaker": "Unknown",
+  "en": "I have done this.",
+  "zh": "我就干过这种事。"
+ },
+ {
+  "seg": 192,
+  "start": 1005.044,
+  "end": 1007.826,
+  "speaker": "Unknown",
+  "en": "It's actually right here in the code base.",
+  "zh": "它其实就在代码库里这里。"
+ },
+ {
+  "seg": 193,
+  "start": 1008.407,
+  "end": 1013.091,
+  "speaker": "Unknown",
+  "en": "Oops, someone forgot to use an ENV file or pass this in as a variable.",
+  "zh": "哎呀，有人忘了用 ENV 文件或者把它作为变量传入。"
+ },
+ {
+  "seg": 194,
+  "start": 1014.958,
+  "end": 1029.065,
+  "speaker": "Unknown",
+  "en": "This happens all the time, and a lot of times what happens is people accidentally push these into production code, and the average remediation time for a secret in a public repository is 90 days right now.",
+  "zh": "这种事经常发生，很多时候人们不小心把这些推到了生产代码里，而现在，公开 repository 里一个密钥的平均修复时间是 90 天。"
+ },
+ {
+  "seg": 195,
+  "start": 1029.665,
+  "end": 1031.286,
+  "speaker": "Unknown",
+  "en": "That is crazy.",
+  "zh": "这太疯狂了。"
+ },
+ {
+  "seg": 196,
+  "start": 1031.386,
+  "end": 1036.748,
+  "speaker": "Unknown",
+  "en": "Your token is just sitting out there for all the world to see, all the bots to scrape for 90 days.",
+  "zh": "你的 token 就那么摆在那里，全世界都看得见，所有爬虫都能抓，长达 90 天。"
+ },
+ {
+  "seg": 197,
+  "start": 1037.329,
+  "end": 1041.571,
+  "speaker": "Unknown",
+  "en": "We want to prevent this as much as possible, and we have a couple tools for that here.",
+  "zh": "我们想尽可能防止这种情况，我们这里有几个工具可以做到。"
+ },
+ {
+  "seg": 198,
+  "start": 1043.599,
+  "end": 1050.847,
+  "speaker": "Unknown",
+  "en": "Another issue that I'm gonna highlight for y'all here in a second is there is a SQL injection vulnerability.",
+  "zh": "我马上要着重讲的另一个问题是，这里有一个 SQL 注入漏洞。"
+ },
+ {
+  "seg": 199,
+  "start": 1051.668,
+  "end": 1056.553,
+  "speaker": "Unknown",
+  "en": "And if anyone who was just perusing through this code is a security whiz, you may have noticed it.",
+  "zh": "如果刚才有浏览过这段代码的人是安全高手，你可能已经注意到了。"
+ },
+ {
+  "seg": 200,
+  "start": 1057.314,
+  "end": 1061.719,
+  "speaker": "Unknown",
+  "en": "But right here in this database.py file,",
+  "zh": "但就在这个 database.py 文件里,"
+ },
+ {
+  "seg": 201,
+  "start": 1063.37,
+  "end": 1073.5,
+  "speaker": "Unknown",
+  "en": "I am passing in a query from here directly into an F string that is being cursor executed.",
+  "zh": "我把来自这里的查询直接传入了一个被 cursor 执行的 F 字符串中。"
+ },
+ {
+  "seg": 202,
+  "start": 1073.84,
+  "end": 1076.363,
+  "speaker": "Unknown",
+  "en": "So the argument is going straight into the string.",
+  "zh": "所以参数是直接进入字符串的。"
+ },
+ {
+  "seg": 203,
+  "start": 1077.464,
+  "end": 1087.194,
+  "speaker": "Unknown",
+  "en": "That is bad news bears, especially because this function search task is being given an argument from sys.argv.",
+  "zh": "那可是糟糕透顶的事,尤其是因为这个 search task 函数的参数来自 sys.argv。"
+ },
+ {
+  "seg": 204,
+  "start": 1088.438,
+  "end": 1094.642,
+  "speaker": "Unknown",
+  "en": "That means that anybody who controls sys.orgv gets to control your database, right?",
+  "zh": "这意味着任何控制了 sys.orgv 的人都能控制你的数据库,对吧?"
+ },
+ {
+  "seg": 205,
+  "start": 1095.062,
+  "end": 1095.983,
+  "speaker": "Unknown",
+  "en": "This is really bad.",
+  "zh": "这真的非常糟糕。"
+ },
+ {
+  "seg": 206,
+  "start": 1096.523,
+  "end": 1102.247,
+  "speaker": "Unknown",
+  "en": "SonarCube is able to detect this and will let you know, hey, here is the data flow that we're detecting.",
+  "zh": "SonarCube 能够检测到这一点,并会告诉你,嘿,这就是我们检测到的数据流。"
+ },
+ {
+  "seg": 207,
+  "start": 1102.887,
+  "end": 1111.353,
+  "speaker": "Unknown",
+  "en": "It's using symbolic execution and taint analysis to identify the data flow and trace it as it moves through your application.",
+  "zh": "它使用符号执行和污点分析来识别数据流,并在其流经你的应用程序时进行追踪。"
+ },
+ {
+  "seg": 208,
+  "start": 1114.26,
+  "end": 1117.509,
+  "speaker": "Unknown",
+  "en": "There's gonna be a few things that we do as soon as this is set up.",
+  "zh": "一旦设置完成,我们会马上做几件事。"
+ },
+ {
+  "seg": 209,
+  "start": 1118.352,
+  "end": 1119.254,
+  "speaker": "Unknown",
+  "en": "One of them is...",
+  "zh": "其中之一是……"
+ },
+ {
+  "seg": 210,
+  "start": 1121.704,
+  "end": 1125.626,
+  "speaker": "Unknown",
+  "en": "Installing the SonarCube Codex Marketplace.",
+  "zh": "安装 SonarCube Codex Marketplace。"
+ },
+ {
+  "seg": 211,
+  "start": 1126.426,
+  "end": 1128.347,
+  "speaker": "Unknown",
+  "en": "Another one is wiring that to your project.",
+  "zh": "另一件是把它接入你的项目。"
+ },
+ {
+  "seg": 212,
+  "start": 1128.787,
+  "end": 1136.19,
+  "speaker": "Unknown",
+  "en": "And then another one is making sure that everything is connected in the plugin.",
+  "zh": "然后还有一件是确保插件中一切都已连接好。"
+ },
+ {
+  "seg": 213,
+  "start": 1136.851,
+  "end": 1138.632,
+  "speaker": "Unknown",
+  "en": "So this is almost done here.",
+  "zh": "所以这里差不多快完成了。"
+ },
+ {
+  "seg": 214,
+  "start": 1139.392,
+  "end": 1142.093,
+  "speaker": "Unknown",
+  "en": "Apologize for that short wait, folks.",
+  "zh": "各位,为这点短暂的等待道歉。"
+ },
+ {
+  "seg": 215,
+  "start": 1143.033,
+  "end": 1150.977,
+  "speaker": "Unknown",
+  "en": "And if you are running this yourself, hopefully it is either finished so far or almost done.",
+  "zh": "如果你们自己在运行这个,希望它要么已经完成了,要么快完成了。"
+ },
+ {
+  "seg": 216,
+  "start": 1152.627,
+  "end": 1161.47,
+  "speaker": "Unknown",
+  "en": "This will be done momentarily, but the three tools that I'm gonna focus on today are the secrets detection hook that we offer.",
+  "zh": "这马上就好,但我今天要重点讲的是三个工具:第一个是我们提供的密钥检测钩子。"
+ },
+ {
+  "seg": 217,
+  "start": 1162.291,
+  "end": 1171.314,
+  "speaker": "Unknown",
+  "en": "We also have a list issues tool through Codex, and that allows you to see any of the issues from SonarCube within the terminal.",
+  "zh": "我们还有通过 Codex 的 list issues 工具,它让你可以在终端里查看来自 SonarCube 的任何问题。"
+ },
+ {
+  "seg": 218,
+  "start": 1171.694,
+  "end": 1179.157,
+  "speaker": "Unknown",
+  "en": "And then the third one is being able to find and fix issues from those listed issues that we pull in in the plugin itself.",
+  "zh": "然后第三个是能够从我们拉进插件本身的那些已列出的问题中发现并修复问题。"
+ },
+ {
+  "seg": 219,
+  "start": 1182.269,
+  "end": 1184.63,
+  "speaker": "Unknown",
+  "en": "Any questions so far from anyone?",
+  "zh": "到目前为止有人有问题吗?"
+ },
+ {
+  "seg": 220,
+  "start": 1184.93,
+  "end": 1190.171,
+  "speaker": "Unknown",
+  "en": "If you have questions, by the way, if your setup's not working, we have our lovely team from Sonar over there.",
+  "zh": "顺便说一下,如果你有问题,如果你的环境设置不工作,那边有我们可爱的 Sonar 团队。"
+ },
+ {
+  "seg": 221,
+  "start": 1190.191,
+  "end": 1191.352,
+  "speaker": "Unknown",
+  "en": "They're gonna wave high real quick.",
+  "zh": "他们马上会挥挥手。"
+ },
+ {
+  "seg": 222,
+  "start": 1192.312,
+  "end": 1199.174,
+  "speaker": "Unknown",
+  "en": "If you raise your hand and bump into anything, they are more than happy to come over and talk to you and help you through everything.",
+  "zh": "如果你举手并且遇到了任何问题,他们非常乐意过来和你交流,帮你解决一切。"
+ },
+ {
+  "seg": 223,
+  "start": 1204.015,
+  "end": 1204.355,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 224,
+  "start": 1206.056,
+  "end": 1207.096,
+  "speaker": "Unknown",
+  "en": "Analysis complete.",
+  "zh": "分析完成。"
+ },
+ {
+  "seg": 225,
+  "start": 1208.196,
+  "end": 1211.177,
+  "speaker": "Unknown",
+  "en": "And I can go ahead and click into my dashboard.",
+  "zh": "我可以继续点击进入我的仪表板。"
+ },
+ {
+  "seg": 226,
+  "start": 1217.116,
+  "end": 1217.616,
+  "speaker": "Unknown",
+  "en": "Open that up.",
+  "zh": "打开它。"
+ },
+ {
+  "seg": 227,
+  "start": 1220.238,
+  "end": 1228.101,
+  "speaker": "Unknown",
+  "en": "Like I said, this is going to be our SonarCube Cloud Dashboard that shows you all of the issues that it's detected within your project.",
+  "zh": "就像我说的,这将是我们的 SonarCube Cloud 仪表板,它会显示它在你的项目中检测到的所有问题。"
+ },
+ {
+  "seg": 228,
+  "start": 1231.263,
+  "end": 1238.406,
+  "speaker": "Unknown",
+  "en": "And if you've had any issues with Wi-Fi or being able to install any of the prerequisites, again, no problem.",
+  "zh": "如果你遇到了任何 Wi-Fi 问题,或者无法安装任何前置依赖,再说一次,没关系。"
+ },
+ {
+  "seg": 229,
+  "start": 1238.766,
+  "end": 1241.528,
+  "speaker": "Unknown",
+  "en": "This repo that you scanned the QR code for.",
+  "zh": "就是你扫二维码打开的那个仓库。"
+ },
+ {
+  "seg": 230,
+  "start": 1244.909,
+  "end": 1245.71,
+  "speaker": "Unknown",
+  "en": "Just reload that.",
+  "zh": "重新加载一下就好。"
+ },
+ {
+  "seg": 231,
+  "start": 1247.505,
+  "end": 1249.527,
+  "speaker": "Unknown",
+  "en": "That repo is going to be up for you.",
+  "zh": "那个仓库会为你开放着。"
+ },
+ {
+  "seg": 232,
+  "start": 1260.176,
+  "end": 1260.496,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 233,
+  "start": 1261.777,
+  "end": 1262.738,
+  "speaker": "Unknown",
+  "en": "So here's the dashboard.",
+  "zh": "这就是仪表板。"
+ },
+ {
+  "seg": 234,
+  "start": 1263.519,
+  "end": 1264.96,
+  "speaker": "Unknown",
+  "en": "And I'm not gonna spend too much time here.",
+  "zh": "我不会在这里花太多时间。"
+ },
+ {
+  "seg": 235,
+  "start": 1266.662,
+  "end": 1272.387,
+  "speaker": "Unknown",
+  "en": "But we can see here that the security rating is E. There are those three security issues.",
+  "zh": "但我们可以看到安全评级是 E。有三处安全问题。"
+ },
+ {
+  "seg": 236,
+  "start": 1272.427,
+  "end": 1273.368,
+  "speaker": "Unknown",
+  "en": "There are four total.",
+  "zh": "总共有四处。"
+ },
+ {
+  "seg": 237,
+  "start": 1273.868,
+  "end": 1274.589,
+  "speaker": "Unknown",
+  "en": "If I click on this,",
+  "zh": "如果我点击这个,"
+ },
+ {
+  "seg": 238,
+  "start": 1275.801,
+  "end": 1284.949,
+  "speaker": "Unknown",
+  "en": "We can see here is that OpenAI API key that was able to detect that's here, just plain text in the source code.",
+  "zh": "我们可以看到,这就是那个 OpenAI API 密钥,它检测到了它就在这里,以纯文本形式存在于源代码中。"
+ },
+ {
+  "seg": 239,
+  "start": 1285.67,
+  "end": 1291.635,
+  "speaker": "Unknown",
+  "en": "And if I go back, the other one I want to focus on is this SQL injection vulnerability right here.",
+  "zh": "如果我返回,我想重点讲的另一个是这里的这个 SQL 注入漏洞。"
+ },
+ {
+  "seg": 240,
+  "start": 1292.055,
+  "end": 1296.179,
+  "speaker": "Unknown",
+  "en": "This is the one I talked to y'all with the sys.argv issue.",
+  "zh": "这就是我跟大家讲的那个 sys.argv 问题。"
+ },
+ {
+  "seg": 241,
+  "start": 1296.879,
+  "end": 1300.663,
+  "speaker": "Unknown",
+  "en": "And this is taint analysis tracing the data flow from the source here",
+  "zh": "这是污点分析,追踪从这里源头开始的数据流,"
+ },
+ {
+  "seg": 242,
+  "start": 1302.2,
+  "end": 1306.061,
+  "speaker": "Unknown",
+  "en": "All the way through different files and functions into the sync right here.",
+  "zh": "一路穿过不同的文件和函数,直到这里的汇聚点。"
+ },
+ {
+  "seg": 243,
+  "start": 1306.981,
+  "end": 1307.741,
+  "speaker": "Unknown",
+  "en": "Very, very helpful.",
+  "zh": "非常非常有帮助。"
+ },
+ {
+  "seg": 244,
+  "start": 1309.102,
+  "end": 1309.362,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 245,
+  "start": 1310.522,
+  "end": 1315.063,
+  "speaker": "Unknown",
+  "en": "Popping back over to the terminal.",
+  "zh": "切回终端。"
+ },
+ {
+  "seg": 246,
+  "start": 1316.023,
+  "end": 1320.264,
+  "speaker": "Unknown",
+  "en": "Let me hop over to my handy dandy command clipboard that I have here.",
+  "zh": "让我切到我这里这个顺手好用的命令剪贴板。"
+ },
+ {
+  "seg": 247,
+  "start": 1320.944,
+  "end": 1324.825,
+  "speaker": "Unknown",
+  "en": "I'm going to do codex plugin marketplace add.",
+  "zh": "我要执行 codex plugin marketplace add。"
+ },
+ {
+  "seg": 248,
+  "start": 1325.745,
+  "end": 1329.346,
+  "speaker": "Unknown",
+  "en": "And what that's gonna do is that's just going to add the SonarCube marketplace here.",
+  "zh": "这样做的效果就是把 SonarCube marketplace 添加到这里。"
+ },
+ {
+  "seg": 249,
+  "start": 1333.265,
+  "end": 1340.227,
+  "speaker": "Unknown",
+  "en": "And this, as soon as that's in, we're going to hop into Codex itself.",
+  "zh": "而这个一旦添加好,我们就要进入 Codex 本身了。"
+ },
+ {
+  "seg": 250,
+  "start": 1340.667,
+  "end": 1345.648,
+  "speaker": "Unknown",
+  "en": "We will see the SonarCube plugin available, and we'll be able to select that.",
+  "zh": "我们会看到 SonarCube 插件可用，然后我们就能选中它。"
+ },
+ {
+  "seg": 251,
+  "start": 1347.808,
+  "end": 1348.889,
+  "speaker": "Unknown",
+  "en": "So give that a few seconds.",
+  "zh": "所以等它几秒钟。"
+ },
+ {
+  "seg": 252,
+  "start": 1350.369,
+  "end": 1356.49,
+  "speaker": "Unknown",
+  "en": "Appreciate all of y'all folks being able to bear with me as I bump into just minor connectivity slowness.",
+  "zh": "感谢各位能忍受我遇到的一些轻微的连接缓慢。"
+ },
+ {
+  "seg": 253,
+  "start": 1358.111,
+  "end": 1362.992,
+  "speaker": "Unknown",
+  "en": "Again, in your normal agentic workflows, I'm sure things will be moving much faster for you.",
+  "zh": "再说一次，在你们正常的智能体工作流中，我相信 things 会跑得快得多。"
+ },
+ {
+  "seg": 254,
+  "start": 1365.559,
+  "end": 1365.939,
+  "speaker": "Unknown",
+  "en": "Perfect.",
+  "zh": "完美。"
+ },
+ {
+  "seg": 255,
+  "start": 1366.5,
+  "end": 1367.581,
+  "speaker": "Unknown",
+  "en": "I'm going to pop open Codex.",
+  "zh": "我要打开 Codex。"
+ },
+ {
+  "seg": 256,
+  "start": 1369.102,
+  "end": 1369.362,
+  "speaker": "Unknown",
+  "en": "Sweet.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 257,
+  "start": 1370.383,
+  "end": 1377.149,
+  "speaker": "Unknown",
+  "en": "And I'm going to do slash plugins and then just search for SonarCube and install it.",
+  "zh": "然后我要执行 slash plugins，接着搜索 SonarCube 并安装它。"
+ },
+ {
+  "seg": 258,
+  "start": 1377.209,
+  "end": 1387.598,
+  "speaker": "Unknown",
+  "en": "So that is get the marketplace, run it, slash plugins invocation and then type in SonarCube and that is installed.",
+  "zh": "也就是获取 marketplace，运行它，slash plugins 调用，然后输入 SonarCube，这样就安装好了。"
+ },
+ {
+  "seg": 259,
+  "start": 1392.208,
+  "end": 1396.349,
+  "speaker": "Unknown",
+  "en": "I'm gonna exit out of this so that it can reload and so I can just run a couple more commands.",
+  "zh": "我要退出这个界面，让它重新加载，这样我就可以再运行几个命令。"
+ },
+ {
+  "seg": 260,
+  "start": 1399.43,
+  "end": 1405.852,
+  "speaker": "Unknown",
+  "en": "I'm going to say sonar, auth, login.",
+  "zh": "我要输入 sonar, auth, login。"
+ },
+ {
+  "seg": 261,
+  "start": 1407.953,
+  "end": 1417.656,
+  "speaker": "Unknown",
+  "en": "That's just gonna authenticate the CLI, which will allow us to use a lot of the capabilities that the plugin is built off of.",
+  "zh": "这只会对 CLI 进行身份验证，让我们能够使用该插件所基于的许多能力。"
+ },
+ {
+  "seg": 262,
+  "start": 1421.54,
+  "end": 1430.131,
+  "speaker": "Unknown",
+  "en": "After that, we're gonna get to finally the final wiring step, which is just Sonar Integrate Codex as soon as this gets off for us.",
+  "zh": "在那之后，我们终于到了最后的接线步骤，也就是 Sonar Integrate Codex，等这个跑起来就行。"
+ },
+ {
+  "seg": 263,
+  "start": 1432.034,
+  "end": 1432.294,
+  "speaker": "Unknown",
+  "en": "Yep.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 264,
+  "start": 1433.356,
+  "end": 1433.816,
+  "speaker": "Unknown",
+  "en": "Allow that.",
+  "zh": "允许它。"
+ },
+ {
+  "seg": 265,
+  "start": 1434.577,
+  "end": 1434.918,
+  "speaker": "Unknown",
+  "en": "Perfect.",
+  "zh": "完美。"
+ },
+ {
+  "seg": 266,
+  "start": 1441.722,
+  "end": 1452.226,
+  "speaker": "Unknown",
+  "en": "So that will take hopefully not too, too much longer, a couple seconds, get that updated, and then we'll write, do this integrate codex command here.",
+  "zh": "所以希望这不会花太、太久，几秒钟，让它更新好，然后我们就会写、执行这里的 integrate codex 命令。"
+ },
+ {
+  "seg": 267,
+  "start": 1466.912,
+  "end": 1468.913,
+  "speaker": "Unknown",
+  "en": "Oh, it looks like it's running into some more",
+  "zh": "哦，看起来它又遇到了一些"
+ },
+ {
+  "seg": 268,
+  "start": 1472.587,
+  "end": 1473.007,
+  "speaker": "Unknown",
+  "en": "Try that.",
+  "zh": "试试那个。"
+ },
+ {
+  "seg": 269,
+  "start": 1473.027,
+  "end": 1486.058,
+  "speaker": "Unknown",
+  "en": "Looks like for some reason the Sonar token which is exported is getting lost.",
+  "zh": "看起来不知道为什么导出的 Sonar token 丢失了。"
+ },
+ {
+  "seg": 270,
+  "start": 1490.842,
+  "end": 1492.163,
+  "speaker": "Unknown",
+  "en": "Pop back in for you all real quick.",
+  "zh": "很快回来给你们看一下。"
+ },
+ {
+  "seg": 271,
+  "start": 1501.612,
+  "end": 1503.393,
+  "speaker": "Unknown",
+  "en": "See if you can't see my screen again.",
+  "zh": "看看你们能不能再看到我的屏幕。"
+ },
+ {
+  "seg": 272,
+  "start": 1507.755,
+  "end": 1508.156,
+  "speaker": "Unknown",
+  "en": "Perfect.",
+  "zh": "完美。"
+ },
+ {
+  "seg": 273,
+  "start": 1511.077,
+  "end": 1514.86,
+  "speaker": "Unknown",
+  "en": "I'm gonna go to the clipboard and pull this back over.",
+  "zh": "我要去剪贴板把这个拉回来。"
+ },
+ {
+  "seg": 274,
+  "start": 1521.883,
+  "end": 1525.405,
+  "speaker": "Unknown",
+  "en": "All right, so what this is gonna do is a few different things.",
+  "zh": "好的，这会做几件不同的事情。"
+ },
+ {
+  "seg": 275,
+  "start": 1525.425,
+  "end": 1527.647,
+  "speaker": "Unknown",
+  "en": "This is going to get you your Seekers Detection Hook.",
+  "zh": "这会给你你的 Seekers Detection Hook。"
+ },
+ {
+  "seg": 276,
+  "start": 1528.504,
+  "end": 1541.951,
+  "speaker": "Unknown",
+  "en": "This is going to get you your agent's MD directive to use all the SonarCube skills, and this is going to give you other skills and the MCP config as well.",
+  "zh": "这会给你 agents MD 指令来使用所有 SonarCube 技能，这还会给你其他技能以及 MCP 配置。"
+ },
+ {
+  "seg": 277,
+  "start": 1545.553,
+  "end": 1546.113,
+  "speaker": "Unknown",
+  "en": "It's perfect.",
+  "zh": "完美。"
+ },
+ {
+  "seg": 278,
+  "start": 1546.393,
+  "end": 1553.757,
+  "speaker": "Unknown",
+  "en": "This is just gonna go on a little bit longer, and then everything will be fully wired up to use the SonarCube Codex plugin.",
+  "zh": "这只会再跑一会儿，然后一切就会完全接线好，可以使用 SonarCube Codex 插件了。"
+ },
+ {
+  "seg": 279,
+  "start": 1556.888,
+  "end": 1558.609,
+  "speaker": "Unknown",
+  "en": "Quick time check, okay, we should be good.",
+  "zh": "快速时间检查，好，我们应该没问题了。"
+ },
+ {
+  "seg": 280,
+  "start": 1562.25,
+  "end": 1569.272,
+  "speaker": "Unknown",
+  "en": "So for me, this is going to install two extra things that some of you who are using the free account may not see.",
+  "zh": "对我来说，这会额外安装两个东西，你们中一些使用免费账户的人可能看不到。"
+ },
+ {
+  "seg": 281,
+  "start": 1569.712,
+  "end": 1573.693,
+  "speaker": "Unknown",
+  "en": "That is context augmentation, and that is agentic analysis.",
+  "zh": "那就是上下文增强，以及智能体分析。"
+ },
+ {
+  "seg": 282,
+  "start": 1575.044,
+  "end": 1581.653,
+  "speaker": "Unknown",
+  "en": "Agentic analysis is a hook that fires instantly after any edit that the agent does.",
+  "zh": "智能体分析是一个 hook，会在智能体做的任何编辑之后立即触发。"
+ },
+ {
+  "seg": 283,
+  "start": 1582.133,
+  "end": 1592.486,
+  "speaker": "Unknown",
+  "en": "So if you tell it to write a file or modify any file, it will automatically execute and that runs server-side analysis on the code that was just written.",
+  "zh": "所以如果你让它写一个文件或修改任何文件，它会自动执行，并对刚写的代码运行服务端分析。"
+ },
+ {
+  "seg": 284,
+  "start": 1593.692,
+  "end": 1607.194,
+  "speaker": "Unknown",
+  "en": "What context augmentation does is it detects, hey, when it's about to do something, when Codex is about to perform a task, then it will feed it with the guidelines and relevant architecture and other information like that.",
+  "zh": "上下文增强的作用是检测，嘿，当它即将做某事、当 Codex 即将执行任务时，它会把指南、相关架构和其他类似信息喂给它。"
+ },
+ {
+  "seg": 285,
+  "start": 1607.554,
+  "end": 1610.955,
+  "speaker": "Unknown",
+  "en": "Okay, we are finally rocking and rolling here, folks.",
+  "zh": "好了，各位，我们终于跑起来了。"
+ },
+ {
+  "seg": 286,
+  "start": 1611.335,
+  "end": 1616.036,
+  "speaker": "Unknown",
+  "en": "We have a few things that were added, specifically some hooks in here.",
+  "zh": "我们添加了一些东西，特别是这里面的一些 hooks。"
+ },
+ {
+  "seg": 287,
+  "start": 1616.356,
+  "end": 1621.837,
+  "speaker": "Unknown",
+  "en": "There are some skills under the hood as well, and I'm going to copy this real quick.",
+  "zh": "底下还有一些技能，我要快速复制这个。"
+ },
+ {
+  "seg": 288,
+  "start": 1623.389,
+  "end": 1633.895,
+  "speaker": "Unknown",
+  "en": "So I'm gonna pop open Codex, trust all of these hooks, thank you sandbox, and the MCP server is getting booted up with SonarCube.",
+  "zh": "我要打开 Codex，信任所有这些 hooks，谢谢沙箱，MCP 服务器正在随 SonarCube 一起启动。"
+ },
+ {
+  "seg": 289,
+  "start": 1633.915,
+  "end": 1639.137,
+  "speaker": "Unknown",
+  "en": "What I'm going to do is I'm going to say, hey, can you push a commit using my token?",
+  "zh": "我要做的是说，嘿，你能用我的 token 推送一个 commit 吗？"
+ },
+ {
+  "seg": 290,
+  "start": 1640.478,
+  "end": 1647.562,
+  "speaker": "Unknown",
+  "en": "This is a fake secret that the plugin suggests that you try with immediately.",
+  "zh": "这是插件建议你立即尝试的一个假密钥。"
+ },
+ {
+  "seg": 291,
+  "start": 1648.543,
+  "end": 1648.963,
+  "speaker": "Unknown",
+  "en": "Say sure.",
+  "zh": "说确定。"
+ },
+ {
+  "seg": 292,
+  "start": 1652.093,
+  "end": 1654.714,
+  "speaker": "Unknown",
+  "en": "So you can see instantly this was blocked.",
+  "zh": "所以你可以立刻看到，这被阻止了。"
+ },
+ {
+  "seg": 293,
+  "start": 1655.595,
+  "end": 1658.876,
+  "speaker": "Unknown",
+  "en": "No secrets were leaked into the LL1 context.",
+  "zh": "没有任何密钥泄露到 LL1 上下文中。"
+ },
+ {
+  "seg": 294,
+  "start": 1659.196,
+  "end": 1661.897,
+  "speaker": "Unknown",
+  "en": "Nothing is being stored in any logs or anything like that.",
+  "zh": "没有任何东西被存储到任何日志或类似的地方。"
+ },
+ {
+  "seg": 295,
+  "start": 1662.478,
+  "end": 1668,
+  "speaker": "Unknown",
+  "en": "As well, if you ask it to read a file with a secret in it, it will not do it.",
+  "zh": "同样，如果你让它读取一个含有密钥的文件，它不会去做。"
+ },
+ {
+  "seg": 296,
+  "start": 1668.16,
+  "end": 1668.82,
+  "speaker": "Unknown",
+  "en": "It will be blocked.",
+  "zh": "它会被阻止。"
+ },
+ {
+  "seg": 297,
+  "start": 1668.96,
+  "end": 1676.644,
+  "speaker": "Unknown",
+  "en": "Codex never gets to look at any of your secrets or anything like that that are being leaked into your context.",
+  "zh": "Codex 永远无法看到你的任何密钥或任何泄露到你上下文中的东西。"
+ },
+ {
+  "seg": 298,
+  "start": 1677.104,
+  "end": 1678.405,
+  "speaker": "Unknown",
+  "en": "This is super important.",
+  "zh": "这超级重要。"
+ },
+ {
+  "seg": 299,
+  "start": 1678.705,
+  "end": 1679.745,
+  "speaker": "Unknown",
+  "en": "People do it all the time.",
+  "zh": "人们一直在这么干。"
+ },
+ {
+  "seg": 300,
+  "start": 1680.065,
+  "end": 1681.366,
+  "speaker": "Unknown",
+  "en": "We all know what to do.",
+  "zh": "我们都知道该怎么做。"
+ },
+ {
+  "seg": 301,
+  "start": 1681.826,
+  "end": 1682.027,
+  "speaker": "Unknown",
+  "en": "Yes?",
+  "zh": "好的?"
+ },
+ {
+  "seg": 302,
+  "start": 1682.047,
+  "end": 1688.321,
+  "speaker": "Unknown",
+  "en": "Is there a chance that the products will write a script to read the file?",
+  "zh": "有没有可能这些产品会写一个脚本来读取文件?"
+ },
+ {
+  "seg": 303,
+  "start": 1688.341,
+  "end": 1689.744,
+  "speaker": "Unknown",
+  "en": "Write a script to read the file?",
+  "zh": "写一个脚本来读取文件?"
+ },
+ {
+  "seg": 304,
+  "start": 1691.047,
+  "end": 1691.287,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 305,
+  "start": 1693.93,
+  "end": 1694.83,
+  "speaker": "Unknown",
+  "en": "That's possible.",
+  "zh": "那是可能的。"
+ },
+ {
+  "seg": 306,
+  "start": 1696.091,
+  "end": 1699.292,
+  "speaker": "Unknown",
+  "en": "This mainly works on the tool use, right?",
+  "zh": "这主要依赖于工具使用，对吧?"
+ },
+ {
+  "seg": 307,
+  "start": 1699.352,
+  "end": 1704.034,
+  "speaker": "Unknown",
+  "en": "It's a hook that's invoked on the user prompt submit tool.",
+  "zh": "它是一个在用户提交提示词时被调用的钩子。"
+ },
+ {
+  "seg": 308,
+  "start": 1704.474,
+  "end": 1709.076,
+  "speaker": "Unknown",
+  "en": "So if that is bypassed, then it is possible that that hook may not be invoked.",
+  "zh": "所以如果那被绕过了，那么这个钩子有可能不会被调用。"
+ },
+ {
+  "seg": 309,
+  "start": 1709.237,
+  "end": 1722.102,
+  "speaker": "Unknown",
+  "en": "But for basic usage of Codex and its tools and prompting it and things like that, if you leak any secrets into the prompt or if there's anything, it will detect that.",
+  "zh": "但对于 Codex 及其工具的基本使用，比如给它提示词之类的，如果你在提示词里泄露了任何密钥，或者有任何东西，它都会检测到。"
+ },
+ {
+  "seg": 310,
+  "start": 1723.136,
+  "end": 1725.623,
+  "speaker": "Unknown",
+  "en": "Looks like we're having a little bit of internet connectivity right here.",
+  "zh": "看起来我们这里的网络连接出了一点问题。"
+ },
+ {
+  "seg": 311,
+  "start": 1726.787,
+  "end": 1730.418,
+  "speaker": "Unknown",
+  "en": "I'm gonna relaunch up that MCP server real quick.",
+  "zh": "我要快速重启一下那个 MCP server。"
+ },
+ {
+  "seg": 312,
+  "start": 1740.221,
+  "end": 1752.552,
+  "speaker": "Unknown",
+  "en": "And so what the MCP server is going to allow us to do is to use the skills that allow us to interact between Codex and the SonarCube Cloud dashboard that we saw earlier.",
+  "zh": "这个 MCP server 能让我们做的是使用那些技能，实现 Codex 和我们之前看到的 SonarCube Cloud 仪表盘之间的交互。"
+ },
+ {
+  "seg": 313,
+  "start": 1753.132,
+  "end": 1762.08,
+  "speaker": "Unknown",
+  "en": "For instance, if we were to say, hey, list all of the issues in my project, it's able to fetch that and return information to us.",
+  "zh": "举例来说，如果我们说，嘿，列出我项目里的所有问题，它能够获取并返回信息给我们。"
+ },
+ {
+  "seg": 314,
+  "start": 1762.44,
+  "end": 1767.565,
+  "speaker": "Unknown",
+  "en": "I'm just gonna go ahead and exit out of this real quick and open it back up.",
+  "zh": "我先快速退出这个，然后重新打开。"
+ },
+ {
+  "seg": 315,
+  "start": 1775.062,
+  "end": 1778.425,
+  "speaker": "Unknown",
+  "en": "And get that SonarCube MCP server booted right back up.",
+  "zh": "把那个 SonarCube MCP server 重新启动起来。"
+ },
+ {
+  "seg": 316,
+  "start": 1785.432,
+  "end": 1785.632,
+  "speaker": "Unknown",
+  "en": "Yes?",
+  "zh": "好的?"
+ },
+ {
+  "seg": 317,
+  "start": 1802.932,
+  "end": 1803.833,
+  "speaker": "Unknown",
+  "en": "I am very sorry.",
+  "zh": "非常抱歉。"
+ },
+ {
+  "seg": 318,
+  "start": 1803.893,
+  "end": 1804.714,
+  "speaker": "Unknown",
+  "en": "It's hard for me to hear.",
+  "zh": "我很难听清。"
+ },
+ {
+  "seg": 319,
+  "start": 1804.734,
+  "end": 1806.677,
+  "speaker": "Unknown",
+  "en": "Would you mind walking up or speaking a little louder?",
+  "zh": "您介意走近一点或者说得大声一点吗?"
+ },
+ {
+  "seg": 320,
+  "start": 1806.697,
+  "end": 1806.797,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 321,
+  "start": 1830.397,
+  "end": 1838.162,
+  "speaker": "Unknown",
+  "en": "Running this on my own, the apply sonar script that gets us all provisioned, for me, never takes longer than a minute if I'm running it on my own.",
+  "zh": "我自己单独运行这个帮我们完成全部配置的 apply sonar 脚本时，从来不会超过一分钟。"
+ },
+ {
+  "seg": 322,
+  "start": 1839.082,
+  "end": 1845.006,
+  "speaker": "Unknown",
+  "en": "Everything else, the MCP, is about as long as any other MCP that it takes, assuming normal connectivity.",
+  "zh": "其他所有东西，比如 MCP，耗时和任何其他 MCP 差不多，前提是网络连接正常。"
+ },
+ {
+  "seg": 323,
+  "start": 1845.726,
+  "end": 1852.731,
+  "speaker": "Unknown",
+  "en": "I'm doing my best to work with the connectivity here, but outside of that, I would say there's no extra",
+  "zh": "我正在尽力应对这里的网络状况，但除此之外，我想说这些没有任何额外"
+ },
+ {
+  "seg": 324,
+  "start": 1853.611,
+  "end": 1860.68,
+  "speaker": "Unknown",
+  "en": "overhead that any of these really apply for, or any of these add to a normal developer workflow.",
+  "zh": "开销，这些东西没有一个会给正常的开发者工作流增加负担。"
+ },
+ {
+  "seg": 325,
+  "start": 1864.425,
+  "end": 1868.05,
+  "speaker": "Unknown",
+  "en": "So I'm gonna double check that that MCP is up and running real quick.",
+  "zh": "所以我要快速确认一下那个 MCP 是否已经启动并运行。"
+ },
+ {
+  "seg": 326,
+  "start": 1874.078,
+  "end": 1891.574,
+  "speaker": "Unknown",
+  "en": "And like I said, what the MCP does is allows you to have access to all of the tools to where any time you ask it to do something related to Sonar, like the issues in your project, it automatically detects what's going on and will invoke any of those relevant skills.",
+  "zh": "就像我说的，这个 MCP 的作用是让你能访问所有工具，这样每当你让它做与 Sonar 相关的事情时，比如你项目里的问题，它会自动检测情况并调用任何相关的技能。"
+ },
+ {
+  "seg": 327,
+  "start": 1892.515,
+  "end": 1897.219,
+  "speaker": "Unknown",
+  "en": "One of those skills is context augmentation, which is knowing that, okay,",
+  "zh": "其中一个技能是上下文增强，也就是知道，好吧，"
+ },
+ {
+  "seg": 328,
+  "start": 1899.025,
+  "end": 1908.989,
+  "speaker": "Unknown",
+  "en": "We have the SonarCube tools, but our network does not seem to be populating the MCP with any of that.",
+  "zh": "我们有 SonarCube 工具，但我们的网络似乎没有把任何东西填充到 MCP 里。"
+ },
+ {
+  "seg": 329,
+  "start": 1909.169,
+  "end": 1910.989,
+  "speaker": "Unknown",
+  "en": "Let me see if it'll work with us regardless.",
+  "zh": "让我看看不管怎样它能不能正常工作。"
+ },
+ {
+  "seg": 330,
+  "start": 1911.009,
+  "end": 1916.952,
+  "speaker": "Unknown",
+  "en": "Let me say list the issues in my project.",
+  "zh": "让我说：列出我项目里的问题。"
+ },
+ {
+  "seg": 331,
+  "start": 1922.454,
+  "end": 1923.714,
+  "speaker": "Unknown",
+  "en": "Any other questions so far?",
+  "zh": "目前还有其他问题吗?"
+ },
+ {
+  "seg": 332,
+  "start": 1923.734,
+  "end": 1925.655,
+  "speaker": "Unknown",
+  "en": "I figure I might as well take a few while we're waiting.",
+  "zh": "我想趁等待的时候可以多回答几个。"
+ },
+ {
+  "seg": 333,
+  "start": 1925.675,
+  "end": 1925.935,
+  "speaker": "Unknown",
+  "en": "Yes?",
+  "zh": "好的?"
+ },
+ {
+  "seg": 334,
+  "start": 1930.807,
+  "end": 1935.611,
+  "speaker": "Unknown",
+  "en": "Yeah, so the CLI actually only sets up the configuration.",
+  "zh": "是这样，CLI 实际上只负责设置配置。"
+ },
+ {
+  "seg": 335,
+  "start": 1935.631,
+  "end": 1938.033,
+  "speaker": "Unknown",
+  "en": "The MCP runs within Docker.",
+  "zh": "MCP 运行在 Docker 里。"
+ },
+ {
+  "seg": 336,
+  "start": 1938.893,
+  "end": 1953.885,
+  "speaker": "Unknown",
+  "en": "So it will sometimes go through the MCP if it's using any of the skills that it has there, but for the most part, this plugin and everything just sets up the configuration and then invokes skills through there.",
+  "zh": "所以如果它用到了那里的技能，有时会通过 MCP，但在大多数情况下，这个插件和所有东西只是设置好配置，然后通过那里调用技能。"
+ },
+ {
+  "seg": 337,
+  "start": 1957.677,
+  "end": 1961.479,
+  "speaker": "Unknown",
+  "en": "The CLI helps you provision and set up the MCP and everything like that.",
+  "zh": "CLI 帮你配置和搭建 MCP 以及诸如此类的东西。"
+ },
+ {
+  "seg": 338,
+  "start": 1961.899,
+  "end": 1966.861,
+  "speaker": "Unknown",
+  "en": "And then there are commands that you're able to invoke through the MCP with the CLI.",
+  "zh": "然后还有一些你可以通过 CLI 在 MCP 里调用的命令。"
+ },
+ {
+  "seg": 339,
+  "start": 1967.101,
+  "end": 1968.381,
+  "speaker": "Unknown",
+  "en": "And I want to clarify the difference.",
+  "zh": "我想澄清一下它们的区别。"
+ },
+ {
+  "seg": 340,
+  "start": 1968.401,
+  "end": 1971.023,
+  "speaker": "Unknown",
+  "en": "There's a CLI that this plugin lives on top of.",
+  "zh": "这个插件是构建在一个 CLI 之上的。"
+ },
+ {
+  "seg": 341,
+  "start": 1971.423,
+  "end": 1978.606,
+  "speaker": "Unknown",
+  "en": "So there are certain things where you could say, hey, execute this task for me.",
+  "zh": "所以有些情况下你可以说，嘿，帮我执行这个任务。"
+ },
+ {
+  "seg": 342,
+  "start": 1979.166,
+  "end": 1984.588,
+  "speaker": "Unknown",
+  "en": "And it may route it through an MCP skill or through a CLI command.",
+  "zh": "它可能会通过一个 MCP 技能或一个 CLI 命令来路由。"
+ },
+ {
+  "seg": 343,
+  "start": 1986.967,
+  "end": 1989.248,
+  "speaker": "Unknown",
+  "en": "Okay, so it looks like we have the MCP.",
+  "zh": "好，看起来 MCP 已经启动了。"
+ },
+ {
+  "seg": 344,
+  "start": 1989.548,
+  "end": 1993.791,
+  "speaker": "Unknown",
+  "en": "It's just running very slow because of network because it was able to detect that for us.",
+  "zh": "只是因为网络原因运行得很慢，因为它成功为我们检测到了情况。"
+ },
+ {
+  "seg": 345,
+  "start": 1994.191,
+  "end": 1998.013,
+  "speaker": "Unknown",
+  "en": "So in our list issue skill as well as this context augmentation skill.",
+  "zh": "所以在我们的列出问题技能以及这个上下文增强技能里。"
+ },
+ {
+  "seg": 346,
+  "start": 2000.574,
+  "end": 2004.797,
+  "speaker": "Unknown",
+  "en": "We can also see that, hey, even when it's looking at its skills,",
+  "zh": "我们还能看到，嘿，即便它在查看自己的技能时，"
+ },
+ {
+  "seg": 347,
+  "start": 2005.797,
+  "end": 2018.008,
+  "speaker": "Unknown",
+  "en": "We are running the secret scan and making sure that there are no API keys, nothing like that leaked in when it takes a look at any of its files, including its own skill files.",
+  "zh": "我们也在运行密钥扫描，确保没有 API 密钥或类似的东西泄露进去，当它查看任何文件时，包括它自己的技能文件。"
+ },
+ {
+  "seg": 348,
+  "start": 2020.19,
+  "end": 2020.49,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 349,
+  "start": 2023.377,
+  "end": 2023.897,
+  "speaker": "Unknown",
+  "en": "We're valid.",
+  "zh": "我们验证通过了。"
+ },
+ {
+  "seg": 350,
+  "start": 2024.437,
+  "end": 2025.418,
+  "speaker": "Unknown",
+  "en": "It's looking through all of these.",
+  "zh": "它正在查看所有这些。"
+ },
+ {
+  "seg": 351,
+  "start": 2025.838,
+  "end": 2035.321,
+  "speaker": "Unknown",
+  "en": "And again, running into network connectivity here, this should all happen in a normal agentic workflow much quicker than that.",
+  "zh": "再说一次，这里遇到了网络连接问题，这在正常的智能体工作流程中应该会快得多。"
+ },
+ {
+  "seg": 352,
+  "start": 2036.741,
+  "end": 2041.263,
+  "speaker": "Unknown",
+  "en": "Any other questions I can take while we wait for this to boot up a little bit?",
+  "zh": "在等待它启动的这段时间，还有其他问题我可以回答吗？"
+ },
+ {
+  "seg": 353,
+  "start": 2048.085,
+  "end": 2049.025,
+  "speaker": "Unknown",
+  "en": "Enterprise is the server?",
+  "zh": "这里就是我之前提到的阻塞级别的那个秘密块，但我今天想要突出并修复的是这个 S8702。"
+ },
+ {
+  "seg": 354,
+  "start": 2051.005,
+  "end": 2051.725,
+  "speaker": "Unknown",
+  "en": "Yeah, absolutely.",
+  "zh": "是的，当然。"
+ },
+ {
+  "seg": 355,
+  "start": 2051.765,
+  "end": 2059.989,
+  "speaker": "Unknown",
+  "en": "This is available across any levels of SonarCube use, be that cloud, be that server, be that enterprise, be that the free tier.",
+  "zh": "这适用于任何层级的 SonarCube 使用，无论是云端，还是服务器，还是企业版，还是免费层。"
+ },
+ {
+  "seg": 356,
+  "start": 2061.089,
+  "end": 2062.79,
+  "speaker": "Unknown",
+  "en": "Everybody should have access to this.",
+  "zh": "每个人都应该能使用这个。"
+ },
+ {
+  "seg": 357,
+  "start": 2062.89,
+  "end": 2072.814,
+  "speaker": "Unknown",
+  "en": "Now, the limitation there is context augmentation and agentic analysis are two tools that we do not offer on the free tier.",
+  "zh": "不过，那里的限制是，上下文增强和智能体分析这两个工具我们在免费层上是不提供的。"
+ },
+ {
+  "seg": 358,
+  "start": 2074.554,
+  "end": 2078.496,
+  "speaker": "Unknown",
+  "en": "But if you have those entitlements in your org, then you'll be able to use those tools.",
+  "zh": "但如果你的组织拥有这些授权，你就可以使用这些工具。"
+ },
+ {
+  "seg": 359,
+  "start": 2081.869,
+  "end": 2082.249,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 360,
+  "start": 2085.711,
+  "end": 2092.553,
+  "speaker": "Unknown",
+  "en": "So we were able to see that we can get those same issues that we saw on the dashboard now available in the CLI.",
+  "zh": "所以我们能够看到，我们之前在仪表板上看到的那些相同问题，现在可以在 CLI 中使用了。"
+ },
+ {
+  "seg": 361,
+  "start": 2093.594,
+  "end": 2100.537,
+  "speaker": "Unknown",
+  "en": "Imagine that this took 15 seconds and that the engineer has a fully connected Wi-Fi connection.",
+  "zh": "想象一下这花了 15 秒，而且工程师有一个连接良好的 Wi-Fi 连接。"
+ },
+ {
+  "seg": 362,
+  "start": 2101.917,
+  "end": 2105.879,
+  "speaker": "Unknown",
+  "en": "They will have this available very quickly within their IDE.",
+  "zh": "他们会非常快地在 IDE 中获得这些信息。"
+ },
+ {
+  "seg": 363,
+  "start": 2107.508,
+  "end": 2118.737,
+  "speaker": "Unknown",
+  "en": "Here is the secret block, blocker severity that I mentioned earlier, but the one that I wanna highlight and get fixed today is this S8702.",
+  "zh": "这就是我之前提到的那个秘密区块,严重级别为 blocker,但我今天想重点强调并修复的是这个 S8702。"
+ },
+ {
+  "seg": 364,
+  "start": 2119.097,
+  "end": 2123.481,
+  "speaker": "Unknown",
+  "en": "This is a rule that we wrote specifically for AI agentic workflows.",
+  "zh": "这是我们专门为 AI 智能体工作流程编写的一条规则。"
+ },
+ {
+  "seg": 365,
+  "start": 2123.881,
+  "end": 2129.926,
+  "speaker": "Unknown",
+  "en": "We do not want AI coding agents to write code that other agents are able to exploit.",
+  "zh": "我们不希望 AI 编码智能体编写出能被其他智能体利用的代码。"
+ },
+ {
+  "seg": 366,
+  "start": 2130.406,
+  "end": 2134.33,
+  "speaker": "Unknown",
+  "en": "That is the sys.argvflow that I described a little bit earlier.",
+  "zh": "那就是我前面描述的 sys.argvflow。"
+ },
+ {
+  "seg": 367,
+  "start": 2134.97,
+  "end": 2142.597,
+  "speaker": "Unknown",
+  "en": "Again, anybody who has access to sys.argv will be able to have control over your database.",
+  "zh": "再说一次，任何能访问 sys.argv 的人都可以控制你的数据库。"
+ },
+ {
+  "seg": 368,
+  "start": 2143.077,
+  "end": 2143.938,
+  "speaker": "Unknown",
+  "en": "We wanna prevent this.",
+  "zh": "我们想防止这一点。"
+ },
+ {
+  "seg": 369,
+  "start": 2143.998,
+  "end": 2150.965,
+  "speaker": "Unknown",
+  "en": "So I'm just gonna tell Codex, I'm gonna say, hey, fix s8702.",
+  "zh": "所以我要告诉 Codex，我会说，嘿，修复 s8702。"
+ },
+ {
+  "seg": 370,
+  "start": 2151.385,
+  "end": 2155.529,
+  "speaker": "Unknown",
+  "en": "That's gonna run, and again,",
+  "zh": "这会运行起来，再说一次，"
+ },
+ {
+  "seg": 371,
+  "start": 2156.834,
+  "end": 2162.775,
+  "speaker": "Unknown",
+  "en": "All of these issues, you can instantly pull them to your terminal and ask Codex to fix it.",
+  "zh": "所有这些问题，你都可以立即拉到你的终端，让 Codex 去修复。"
+ },
+ {
+  "seg": 372,
+  "start": 2163.675,
+  "end": 2177.998,
+  "speaker": "Unknown",
+  "en": "There is gonna be something that is different on my machine versus anybody following along, is that as you'll see, as soon as code is edited and changed here, the post-tool use hook for agentic analysis will run.",
+  "zh": "我的机器和任何跟着操作的人的机器之间会有一些不同的地方，那就是你会看到，只要代码在这里被编辑和更改，智能体分析的工具使用后钩子就会运行。"
+ },
+ {
+  "seg": 373,
+  "start": 2179.059,
+  "end": 2184.64,
+  "speaker": "Unknown",
+  "en": "What that does is if there were any new vulnerabilities introduced in the fix,",
+  "zh": "它的作用是，如果修复中引入了任何新的漏洞，"
+ },
+ {
+  "seg": 374,
+  "start": 2185.784,
+  "end": 2188.246,
+  "speaker": "Unknown",
+  "en": "SonarCube will scan it server-side.",
+  "zh": "SonarCube 会在服务器端扫描它。"
+ },
+ {
+  "seg": 375,
+  "start": 2188.767,
+  "end": 2191.77,
+  "speaker": "Unknown",
+  "en": "If you do not have agentic analysis, that is totally fine.",
+  "zh": "如果你没有智能体分析，那也完全没问题。"
+ },
+ {
+  "seg": 376,
+  "start": 2192.13,
+  "end": 2201.659,
+  "speaker": "Unknown",
+  "en": "You can just scan your code during your next CI push or anything like that, but regardless, it will get verified.",
+  "zh": "你可以在下一次 CI 推送之类的时机扫描你的代码，但无论如何，它都会得到验证。"
+ },
+ {
+  "seg": 377,
+  "start": 2202.26,
+  "end": 2209.887,
+  "speaker": "Unknown",
+  "en": "Using agentic analysis just closes that loop and gives you automatic feedback to know that, hey, I have not introduced any more issues.",
+  "zh": "使用智能体分析只是闭合了这个循环，给你自动反馈，让你知道，嘿，我没有引入更多问题。"
+ },
+ {
+  "seg": 378,
+  "start": 2211.228,
+  "end": 2225.662,
+  "speaker": "Unknown",
+  "en": "I don't know about y'all, but I have been in coding sessions sometimes where I'm like, hey, fix this issue, and then three more kind of pop up, and I'm trying to fix those, and it's like trying to conquer a hydra where they just kind of propagate out.",
+  "zh": "我不知道你们怎么样，但我在编码会话中有时会遇到这种情况，我说，嘿，修复这个问题，然后又冒出来三个，我试图修复那些，就像试图征服九头蛇一样，它们不断繁殖蔓延。"
+ },
+ {
+  "seg": 379,
+  "start": 2226.082,
+  "end": 2231.828,
+  "speaker": "Unknown",
+  "en": "Using this automatically verifies that you're not causing any new vulnerabilities to come about.",
+  "zh": "使用这个会自动验证你没有导致任何新漏洞的产生。"
+ },
+ {
+  "seg": 380,
+  "start": 2233.082,
+  "end": 2233.362,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "很棒。"
+ },
+ {
+  "seg": 381,
+  "start": 2233.842,
+  "end": 2235.683,
+  "speaker": "Unknown",
+  "en": "So we were able to fix this.",
+  "zh": "所以我们能够修复这个问题。"
+ },
+ {
+  "seg": 382,
+  "start": 2235.964,
+  "end": 2237.544,
+  "speaker": "Unknown",
+  "en": "We get a parameterized query.",
+  "zh": "我们得到了一个参数化查询。"
+ },
+ {
+  "seg": 383,
+  "start": 2238.185,
+  "end": 2238.645,
+  "speaker": "Unknown",
+  "en": "Wonderful.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 384,
+  "start": 2239.746,
+  "end": 2242.347,
+  "speaker": "Unknown",
+  "en": "And this post-tool-use hook completes.",
+  "zh": "这个工具使用后钩子完成了。"
+ },
+ {
+  "seg": 385,
+  "start": 2243.307,
+  "end": 2247.189,
+  "speaker": "Unknown",
+  "en": "What it lets you know is it lets you know there is an issue in the file.",
+  "zh": "它让你知道的是，它让你知道这个文件里有一个问题。"
+ },
+ {
+  "seg": 386,
+  "start": 2247.77,
+  "end": 2250.651,
+  "speaker": "Unknown",
+  "en": "However, that existed beforehand.",
+  "zh": "不过，那是之前就存在的。"
+ },
+ {
+  "seg": 387,
+  "start": 2250.931,
+  "end": 2253.733,
+  "speaker": "Unknown",
+  "en": "That was one of the issues that I had already prebaked in here.",
+  "zh": "那是我预先埋在里面的其中一个问题。"
+ },
+ {
+  "seg": 388,
+  "start": 2253.993,
+  "end": 2257.835,
+  "speaker": "Unknown",
+  "en": "So it's not going to try and solve everything else in your file for you.",
+  "zh": "所以它不会试图替你解决文件里的其他所有问题。"
+ },
+ {
+  "seg": 389,
+  "start": 2258.395,
+  "end": 2270.324,
+  "speaker": "Unknown",
+  "en": "It is smart, and it just realizes that, hey, whatever was in the code that we changed, we're gonna analyze that and make sure that there are no new issues introduced from that code.",
+  "zh": "它很聪明，它只是意识到，嘿，无论我们更改的代码里有什么，我们都会分析它，并确保那些代码没有引入新问题。"
+ },
+ {
+  "seg": 390,
+  "start": 2271.305,
+  "end": 2272.586,
+  "speaker": "Unknown",
+  "en": "So, wonderful.",
+  "zh": "所以，很棒。"
+ },
+ {
+  "seg": 391,
+  "start": 2274.107,
+  "end": 2278.13,
+  "speaker": "Unknown",
+  "en": "It reanalyzed that code inline and verified that it passed",
+  "zh": "它在线重新分析了那段代码并验证它通过了"
+ },
+ {
+  "seg": 392,
+  "start": 2279.971,
+  "end": 2284.133,
+  "speaker": "Unknown",
+  "en": "And we no longer report S8702.",
+  "zh": "我们不再报告 S8702。"
+ },
+ {
+  "seg": 393,
+  "start": 2284.713,
+  "end": 2295.077,
+  "speaker": "Unknown",
+  "en": "So we are able to find and fix and automatically verify new code as it comes into our workspace.",
+  "zh": "所以我们能够在进入工作区时发现、修复并自动验证新代码。"
+ },
+ {
+  "seg": 394,
+  "start": 2296.658,
+  "end": 2296.998,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 395,
+  "start": 2299.192,
+  "end": 2306,
+  "speaker": "Unknown",
+  "en": "So I wanna leave a little bit of time for questions at the end, so I'm just gonna move through to this last piece here.",
+  "zh": "我想在最后留一点时间提问，所以我直接讲最后这一部分。"
+ },
+ {
+  "seg": 396,
+  "start": 2306.641,
+  "end": 2310.926,
+  "speaker": "Unknown",
+  "en": "And this is adding a new function.",
+  "zh": "这是添加一个新函数。"
+ },
+ {
+  "seg": 397,
+  "start": 2312.163,
+  "end": 2314.885,
+  "speaker": "Unknown",
+  "en": "Delete a task by ID to database.py.",
+  "zh": "在 database.py 中按 ID 删除任务。"
+ },
+ {
+  "seg": 398,
+  "start": 2315.365,
+  "end": 2320.908,
+  "speaker": "Unknown",
+  "en": "And this, when asking it to come up with new code, it will use context augmentation.",
+  "zh": "还有，当让它编写新代码时，它会使用上下文增强。"
+ },
+ {
+  "seg": 399,
+  "start": 2321.488,
+  "end": 2329.472,
+  "speaker": "Unknown",
+  "en": "As I mentioned earlier, this fetches relevant context rules architecture from your project and feeds that into the agent.",
+  "zh": "正如我前面提到的，这会从你的项目中获取相关的上下文规则架构，并将其输入给智能体。"
+ },
+ {
+  "seg": 400,
+  "start": 2330.072,
+  "end": 2332.954,
+  "speaker": "Unknown",
+  "en": "Now, I have no idea how long this may take to work.",
+  "zh": "现在，我不知道这需要多长时间才能跑完。"
+ },
+ {
+  "seg": 401,
+  "start": 2333.154,
+  "end": 2338.597,
+  "speaker": "Unknown",
+  "en": "I imagine within less than a few minutes, normally, it's seconds.",
+  "zh": "我预计通常不到几分钟，一般是几秒钟。"
+ },
+ {
+  "seg": 402,
+  "start": 2341.129,
+  "end": 2348.693,
+  "speaker": "Unknown",
+  "en": "However, what I want you to realize as well is that using this is the full cycle all within the terminal.",
+  "zh": "不过，我还想让大家意识到的是，使用这个功能，整个循环都是在终端内完成的。"
+ },
+ {
+  "seg": 403,
+  "start": 2349.053,
+  "end": 2352.455,
+  "speaker": "Unknown",
+  "en": "As we are guiding the agent, oh look, it finishes very quickly.",
+  "zh": "我们在引导智能体的时候，哦，看，它很快就完成了。"
+ },
+ {
+  "seg": 404,
+  "start": 2352.975,
+  "end": 2353.575,
+  "speaker": "Unknown",
+  "en": "Very well done.",
+  "zh": "做得非常好。"
+ },
+ {
+  "seg": 405,
+  "start": 2355.036,
+  "end": 2362.76,
+  "speaker": "Unknown",
+  "en": "As we get relevant context, we get this to be fixed.",
+  "zh": "随着我们提供相关上下文，问题得到了修复。"
+ },
+ {
+  "seg": 406,
+  "start": 2364.18,
+  "end": 2368.702,
+  "speaker": "Unknown",
+  "en": "Or implemented in this case when we're asking it to implement a new feature.",
+  "zh": "或者说在这个例子里是实现了功能，因为我们让它实现一个新特性。"
+ },
+ {
+  "seg": 407,
+  "start": 2369.263,
+  "end": 2381.329,
+  "speaker": "Unknown",
+  "en": "It gets verified from the agentic analysis hook and if there were any issues in there, they would be flagged and Codex would continue to iterate until it is remediated.",
+  "zh": "它会通过智能体分析钩子得到验证，如果里面有任何问题，会被标记出来，Codex 会继续迭代直到问题被解决。"
+ },
+ {
+  "seg": 408,
+  "start": 2381.709,
+  "end": 2387.011,
+  "speaker": "Unknown",
+  "en": "So that's how we're getting that guide, verify, and solve methodology in here.",
+  "zh": "这就是我们在其中实现「引导、验证、解决」方法论的方式。"
+ },
+ {
+  "seg": 409,
+  "start": 2387.832,
+  "end": 2388.032,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 410,
+  "start": 2389.517,
+  "end": 2391.178,
+  "speaker": "Unknown",
+  "en": "I'm not gonna spend any more time in the terminal.",
+  "zh": "我不会再在终端上花更多时间了。"
+ },
+ {
+  "seg": 411,
+  "start": 2392.358,
+  "end": 2396.68,
+  "speaker": "Unknown",
+  "en": "This, again, is available for you to work on at your own leisure.",
+  "zh": "再说一次，这个仓库可供你们在空闲时自行操作。"
+ },
+ {
+  "seg": 412,
+  "start": 2397.28,
+  "end": 2403.242,
+  "speaker": "Unknown",
+  "en": "There's a couple more things in there that you can do, like go ahead and track down some of the remaining issues.",
+  "zh": "里面还有一些事情可以做，比如继续追查一些剩余的问题。"
+ },
+ {
+  "seg": 413,
+  "start": 2404.723,
+  "end": 2410.505,
+  "speaker": "Unknown",
+  "en": "If your org has entitlement for context augmentation and energetic analysis, using that a little bit.",
+  "zh": "如果你的组织有上下文增强和智能体分析的权限，可以稍微用一用。"
+ },
+ {
+  "seg": 414,
+  "start": 2413.294,
+  "end": 2417.436,
+  "speaker": "Unknown",
+  "en": "But we are able to see that secrets get blocked, right?",
+  "zh": "但我们已经能看到密钥会被拦截，对吧？"
+ },
+ {
+  "seg": 415,
+  "start": 2417.477,
+  "end": 2426.802,
+  "speaker": "Unknown",
+  "en": "We can do find and fix on issues that exist, and then new tasks that we're having it do have a much stricter verification layer wrapped around it.",
+  "zh": "我们可以对已存在的问题进行查找和修复，然后让它执行的新任务都会被包裹上一层严格得多的验证层。"
+ },
+ {
+  "seg": 416,
+  "start": 2427.543,
+  "end": 2433.006,
+  "speaker": "Unknown",
+  "en": "And thank you very much for wading through some of the network connectivity issues with this.",
+  "zh": "非常感谢大家陪我一起熬过了这些网络连接问题。"
+ },
+ {
+  "seg": 417,
+  "start": 2435.793,
+  "end": 2439.197,
+  "speaker": "Unknown",
+  "en": "I want to say that we at Sonar have a booth downstairs.",
+  "zh": "我想说的是，我们 Sonar 在楼下有个展位。"
+ },
+ {
+  "seg": 418,
+  "start": 2439.277,
+  "end": 2442.34,
+  "speaker": "Unknown",
+  "en": "I would love to come and talk to any of you guys.",
+  "zh": "我很乐意过来和在座的任何一位聊聊。"
+ },
+ {
+  "seg": 419,
+  "start": 2442.36,
+  "end": 2447.025,
+  "speaker": "Unknown",
+  "en": "I would love to chat about either AI-related coding or anything outside of that.",
+  "zh": "无论聊 AI 相关的编程，还是这之外任何话题，我都很乐意。"
+ },
+ {
+  "seg": 420,
+  "start": 2447.766,
+  "end": 2450.669,
+  "speaker": "Unknown",
+  "en": "Feel more than free to come out and say hi to us.",
+  "zh": "非常欢迎大家过来和我们打个招呼。"
+ },
+ {
+  "seg": 421,
+  "start": 2450.729,
+  "end": 2451.85,
+  "speaker": "Unknown",
+  "en": "We have Swag.",
+  "zh": "我们有周边礼品。"
+ },
+ {
+  "seg": 422,
+  "start": 2451.95,
+  "end": 2453.031,
+  "speaker": "Unknown",
+  "en": "We have Guitar Hero.",
+  "zh": "我们有 Guitar Hero。"
+ },
+ {
+  "seg": 423,
+  "start": 2453.512,
+  "end": 2456.275,
+  "speaker": "Unknown",
+  "en": "We are having a party down there.",
+  "zh": "我们在那边正在办派对。"
+ },
+ {
+  "seg": 424,
+  "start": 2458.372,
+  "end": 2468.717,
+  "speaker": "Unknown",
+  "en": "Our community that we have, our Sonar community, I believe it's community.sonarsource.com is a great resource if you get stuck working through the repo at all in your own time.",
+  "zh": "我们的社区，我们的 Sonar 社区，我记得是 community.sonarsource.com，如果你们在空闲时间处理这个仓库时卡住了，它是一个很好的资源。"
+ },
+ {
+  "seg": 425,
+  "start": 2469.778,
+  "end": 2478.662,
+  "speaker": "Unknown",
+  "en": "That is where our engineers who build the product are able to answer questions and help people along who run into issues.",
+  "zh": "在那里，构建产品的工程师们可以回答问题，帮助遇到问题的人。"
+ },
+ {
+  "seg": 426,
+  "start": 2479.579,
+  "end": 2484.223,
+  "speaker": "Unknown",
+  "en": "But thank you very much for listening and working along with me.",
+  "zh": "非常感谢大家聆听并跟着我一起操作。"
+ },
+ {
+  "seg": 427,
+  "start": 2484.904,
+  "end": 2490.69,
+  "speaker": "Unknown",
+  "en": "And if you guys have any questions, feel free to come up or raise your hand, and we can work through that.",
+  "zh": "如果你们有任何问题，欢迎过来或举手，我们可以一起解决。"
+ },
+ {
+  "seg": 428,
+  "start": 2491.15,
+  "end": 2492.852,
+  "speaker": "Unknown",
+  "en": "Again, thank you very much for coming.",
+  "zh": "再次非常感谢大家的到来。"
+ },
+ {
+  "seg": 429,
+  "start": 2493.072,
+  "end": 2498.197,
+  "speaker": "Unknown",
+  "en": "My name is Killian with Solanar, and I hope to see you down at the booth.",
+  "zh": "我叫 Killian，来自 Solanar，希望能在展位见到你们。"
+ },
+ {
+  "seg": 430,
+  "start": 2498.617,
+  "end": 2499.098,
+  "speaker": "Unknown",
+  "en": "Appreciate it.",
+  "zh": "感谢。"
+ },
+ {
+  "seg": 431,
+  "start": 2502.875,
+  "end": 2503.337,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

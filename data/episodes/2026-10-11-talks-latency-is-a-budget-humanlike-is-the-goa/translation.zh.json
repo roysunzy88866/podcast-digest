@@ -1,0 +1,1898 @@
+[
+ {
+  "seg": 0,
+  "start": 12.629,
+  "end": 13.737,
+  "speaker": "Unknown",
+  "en": "All right, let's get started.",
+  "zh": "好的，我们开始吧。"
+ },
+ {
+  "seg": 1,
+  "start": 14.946,
+  "end": 15.207,
+  "speaker": "Unknown",
+  "en": "So,",
+  "zh": "那么，"
+ },
+ {
+  "seg": 2,
+  "start": 16.621,
+  "end": 22.286,
+  "speaker": "Unknown",
+  "en": "Most of the agents that we build today, they do their work in the background, right?",
+  "zh": "我们今天构建的大多数智能体，它们在后台工作，对吧？"
+ },
+ {
+  "seg": 3,
+  "start": 22.786,
+  "end": 23.967,
+  "speaker": "Unknown",
+  "en": "They write code for us.",
+  "zh": "它们为我们写代码。"
+ },
+ {
+  "seg": 4,
+  "start": 24.387,
+  "end": 25.888,
+  "speaker": "Unknown",
+  "en": "They do research.",
+  "zh": "它们做研究。"
+ },
+ {
+  "seg": 5,
+  "start": 25.908,
+  "end": 26.829,
+  "speaker": "Unknown",
+  "en": "You give them a task.",
+  "zh": "你给它们一个任务。"
+ },
+ {
+  "seg": 6,
+  "start": 26.889,
+  "end": 27.63,
+  "speaker": "Unknown",
+  "en": "You walk away.",
+  "zh": "你走开。"
+ },
+ {
+  "seg": 7,
+  "start": 27.69,
+  "end": 28.41,
+  "speaker": "Unknown",
+  "en": "You come back.",
+  "zh": "你回来。"
+ },
+ {
+  "seg": 8,
+  "start": 28.771,
+  "end": 35.956,
+  "speaker": "Unknown",
+  "en": "And so nobody really cares if a background agent takes an extra 10 seconds or even 10 minutes, right?",
+  "zh": "所以没人在乎一个后台智能体多花 10 秒甚至 10 分钟，对吧？"
+ },
+ {
+  "seg": 9,
+  "start": 35.976,
+  "end": 36.577,
+  "speaker": "Unknown",
+  "en": "We're used to that.",
+  "zh": "我们已经习惯了。"
+ },
+ {
+  "seg": 10,
+  "start": 37.177,
+  "end": 42.802,
+  "speaker": "Unknown",
+  "en": "But at some point in this past year, you've probably talked to another kind of agent.",
+  "zh": "但在过去一年的某个时候，你可能和另一种智能体交谈过。"
+ },
+ {
+  "seg": 11,
+  "start": 43.462,
+  "end": 45.564,
+  "speaker": "Unknown",
+  "en": "A real-time agent.",
+  "zh": "一个实时智能体。"
+ },
+ {
+  "seg": 12,
+  "start": 45.604,
+  "end": 49.447,
+  "speaker": "Unknown",
+  "en": "Maybe it was a pharmacy refill, maybe at an airline.",
+  "zh": "也许是药房续药，也许是航空公司。"
+ },
+ {
+  "seg": 13,
+  "start": 50.388,
+  "end": 56.474,
+  "speaker": "Unknown",
+  "en": "I talked to one the other day when I called a car dealership, and so something happened on that call.",
+  "zh": "前几天我给一家汽车经销商打电话时和智能体聊过，所以那通电话里发生了一些事。"
+ },
+ {
+  "seg": 14,
+  "start": 56.914,
+  "end": 59.576,
+  "speaker": "Unknown",
+  "en": "You probably did the most human thing possible.",
+  "zh": "你很可能做了最有人味儿的事情。"
+ },
+ {
+  "seg": 15,
+  "start": 60.177,
+  "end": 67.764,
+  "speaker": "Unknown",
+  "en": "You talked over that AI, and that voice agent fell apart, and it just didn't feel natural, did it?",
+  "zh": "你打断了那个 AI 说话，那个语音智能体就崩溃了，感觉就是不自然，对吧？"
+ },
+ {
+  "seg": 16,
+  "start": 68.444,
+  "end": 74.889,
+  "speaker": "Unknown",
+  "en": "And so if you ask anybody in this industry, you're probably gonna get a very similar answer of how to fix that.",
+  "zh": "所以如果你问这个行业里的任何人，你很可能会得到一个非常相似的、如何解决这个问题的答案。"
+ },
+ {
+  "seg": 17,
+  "start": 75.389,
+  "end": 81.014,
+  "speaker": "Unknown",
+  "en": "It's gonna be speed, faster models, lower latency, shave off another 100 milliseconds.",
+  "zh": "那就是速度，更快的模型，更低的延迟，再削减 100 毫秒。"
+ },
+ {
+  "seg": 18,
+  "start": 82.015,
+  "end": 83.576,
+  "speaker": "Unknown",
+  "en": "But that is the wrong answer.",
+  "zh": "但那是错误的答案。"
+ },
+ {
+  "seg": 19,
+  "start": 84.376,
+  "end": 91.662,
+  "speaker": "Unknown",
+  "en": "And so latency, it is a budget, and I'll tell you exactly what that budget is, but the goal is something else entirely.",
+  "zh": "延迟，它是一个预算，我会确切地告诉你这个预算是什么，但目标完全是另一回事。"
+ },
+ {
+  "seg": 20,
+  "start": 91.702,
+  "end": 96.266,
+  "speaker": "Unknown",
+  "en": "The goal is the voice AI being as human-like as possible.",
+  "zh": "目标是让语音 AI 尽可能像人。"
+ },
+ {
+  "seg": 21,
+  "start": 97.347,
+  "end": 99.909,
+  "speaker": "Unknown",
+  "en": "An agent that listens while it talks.",
+  "zh": "一个边说话边倾听的智能体。"
+ },
+ {
+  "seg": 22,
+  "start": 100.79,
+  "end": 105.215,
+  "speaker": "Unknown",
+  "en": "One that knows the difference between you finishing your thought and you still thinking.",
+  "zh": "一个能分辨你说完了一个想法和你还在思考的智能体。"
+ },
+ {
+  "seg": 23,
+  "start": 106.256,
+  "end": 108.619,
+  "speaker": "Unknown",
+  "en": "One that rolls with it when you change your mind.",
+  "zh": "一个在你改变主意时能随机应变的智能体。"
+ },
+ {
+  "seg": 24,
+  "start": 109.42,
+  "end": 111.923,
+  "speaker": "Unknown",
+  "en": "And so speed alone can get you none of that.",
+  "zh": "所以仅有速度得不到这些。"
+ },
+ {
+  "seg": 25,
+  "start": 111.963,
+  "end": 116.808,
+  "speaker": "Unknown",
+  "en": "What gets you there is which models you pick and how you configure your pipeline.",
+  "zh": "能让你达到目标的是你选择哪些模型以及你如何配置你的管线。"
+ },
+ {
+  "seg": 26,
+  "start": 117.329,
+  "end": 117.889,
+  "speaker": "Unknown",
+  "en": "And so that's",
+  "zh": "所以那就是"
+ },
+ {
+  "seg": 27,
+  "start": 118.59,
+  "end": 120.411,
+  "speaker": "Unknown",
+  "en": "The first problem that we're going to encounter.",
+  "zh": "我们将要遇到的第一个问题。"
+ },
+ {
+  "seg": 28,
+  "start": 120.491,
+  "end": 124.112,
+  "speaker": "Unknown",
+  "en": "No one tells you how to pick the right models.",
+  "zh": "没有人告诉你如何挑选合适的模型。"
+ },
+ {
+  "seg": 29,
+  "start": 124.653,
+  "end": 126.433,
+  "speaker": "Unknown",
+  "en": "The leaderboards can't help you.",
+  "zh": "排行榜帮不了你。"
+ },
+ {
+  "seg": 30,
+  "start": 126.674,
+  "end": 128.254,
+  "speaker": "Unknown",
+  "en": "The vendors definitely can't help you.",
+  "zh": "供应商肯定帮不了你。"
+ },
+ {
+  "seg": 31,
+  "start": 128.674,
+  "end": 131.196,
+  "speaker": "Unknown",
+  "en": "So let's talk about how we're going to fix that issue.",
+  "zh": "那么我们来谈谈我们将如何解决这个问题。"
+ },
+ {
+  "seg": 32,
+  "start": 132.156,
+  "end": 138.619,
+  "speaker": "Unknown",
+  "en": "So a show of hands quickly, who here has ever built a voice agent and shipped it to real users?",
+  "zh": "快速举手统计一下，这里有谁曾经构建过语音智能体并把它交付给真实用户？"
+ },
+ {
+  "seg": 33,
+  "start": 139.839,
+  "end": 140.64,
+  "speaker": "Unknown",
+  "en": "Okay, all right.",
+  "zh": "好，好的。"
+ },
+ {
+  "seg": 34,
+  "start": 141.44,
+  "end": 147.923,
+  "speaker": "Unknown",
+  "en": "Some of you have experienced and you know the challenges that you'll face when deploying a real-time agent.",
+  "zh": "你们中有些人经历过，并且知道部署一个实时智能体时将要面对的挑战。"
+ },
+ {
+  "seg": 35,
+  "start": 148.858,
+  "end": 155.141,
+  "speaker": "Unknown",
+  "en": "Another show of hands, who here has used ChatGPT's advanced voice mode to talk with ChatGPT?",
+  "zh": "再举一次手，这里有谁用过 ChatGPT 的高级语音模式和 ChatGPT 聊过天？"
+ },
+ {
+  "seg": 36,
+  "start": 156.001,
+  "end": 157.902,
+  "speaker": "Unknown",
+  "en": "Yeah, many of us have used that, right?",
+  "zh": "是的，我们很多人都用过，对吧？"
+ },
+ {
+  "seg": 37,
+  "start": 158.282,
+  "end": 162.044,
+  "speaker": "Unknown",
+  "en": "So OpenAI actually chose LiveKit to power that.",
+  "zh": "所以 OpenAI 实际上选择了 LiveKit 来驱动那个。"
+ },
+ {
+  "seg": 38,
+  "start": 162.805,
+  "end": 173.95,
+  "speaker": "Unknown",
+  "en": "LiveKit is the open source, real-time framework and infrastructure for the most human-like voice agents possible, agents that can hear, see,",
+  "zh": "LiveKit 是开源的、为尽可能像人的语音智能体打造的实时框架和基础设施，这些智能体能够听、看，"
+ },
+ {
+  "seg": 39,
+  "start": 174.43,
+  "end": 176.774,
+  "speaker": "Unknown",
+  "en": "And speak with the person on the other end.",
+  "zh": "并与另一端的人交谈。"
+ },
+ {
+  "seg": 40,
+  "start": 177.495,
+  "end": 182.222,
+  "speaker": "Unknown",
+  "en": "So not just voice, but also video, data, and even physical AI.",
+  "zh": "所以不仅仅是语音，还有视频、数据，甚至实体 AI。"
+ },
+ {
+  "seg": 41,
+  "start": 182.703,
+  "end": 188.391,
+  "speaker": "Unknown",
+  "en": "But because voice is challenging, we're going to actually focus on voice during this talk.",
+  "zh": "但因为语音很有挑战性，我们这次演讲实际上会专注于语音。"
+ },
+ {
+  "seg": 42,
+  "start": 189.132,
+  "end": 194.455,
+  "speaker": "Unknown",
+  "en": "And so what we're going to look at is voice agents.",
+  "zh": "所以我们要看的是语音智能体。"
+ },
+ {
+  "seg": 43,
+  "start": 194.495,
+  "end": 200.518,
+  "speaker": "Unknown",
+  "en": "They basically have three models that work together as one system.",
+  "zh": "它们基本上有三个模型作为一个系统协同工作。"
+ },
+ {
+  "seg": 44,
+  "start": 200.558,
+  "end": 204.92,
+  "speaker": "Unknown",
+  "en": "So your speech-to-text, your LLM, and then your text-to-speech.",
+  "zh": "就是你的语音转文本、你的 LLM，以及你的文本转语音。"
+ },
+ {
+  "seg": 45,
+  "start": 205.3,
+  "end": 206.281,
+  "speaker": "Unknown",
+  "en": "So three slots.",
+  "zh": "三个槽位。"
+ },
+ {
+  "seg": 46,
+  "start": 206.79,
+  "end": 210.394,
+  "speaker": "Unknown",
+  "en": "Now, I do have to acknowledge that there are real-time models as well.",
+  "zh": "现在，我确实要承认还有实时模型。"
+ },
+ {
+  "seg": 47,
+  "start": 210.534,
+  "end": 213.877,
+  "speaker": "Unknown",
+  "en": "And real-time models, they are a newer concept.",
+  "zh": "而实时模型，它们是一个较新的概念。"
+ },
+ {
+  "seg": 48,
+  "start": 214.098,
+  "end": 217.761,
+  "speaker": "Unknown",
+  "en": "They're getting better and better, but they're not right for every use case.",
+  "zh": "它们越来越好，但它们并非适合每一个用例。"
+ },
+ {
+  "seg": 49,
+  "start": 217.941,
+  "end": 227.671,
+  "speaker": "Unknown",
+  "en": "And just the fact that there are real-time models even adds more complexity to our problem of trying to figure out which model is best for our voice pipeline.",
+  "zh": "而仅仅是有实时模型存在这一点，就给我们试图弄清楚哪个模型最适合我们语音管线的问题增加了更多复杂性。"
+ },
+ {
+  "seg": 50,
+  "start": 228.332,
+  "end": 230.393,
+  "speaker": "Unknown",
+  "en": "So here is what you have to choose from.",
+  "zh": "以下就是你可以选择的范围。"
+ },
+ {
+  "seg": 51,
+  "start": 231.153,
+  "end": 239.696,
+  "speaker": "Unknown",
+  "en": "Hundreds of models, dozens of providers, and show of hands here, who has picked a model just because they saw it at the top of a leaderboard?",
+  "zh": "数百个模型，数十个供应商，举个手看看，谁曾经仅仅因为看到某个模型排在排行榜第一就选了它？"
+ },
+ {
+  "seg": 52,
+  "start": 240.596,
+  "end": 241.856,
+  "speaker": "Unknown",
+  "en": "Yeah, most of us.",
+  "zh": "是的，我们大多数人都是。"
+ },
+ {
+  "seg": 53,
+  "start": 242.817,
+  "end": 245.678,
+  "speaker": "Unknown",
+  "en": "But here's why that doesn't work for real-time agents.",
+  "zh": "但这就是为什么对实时智能体来说那行不通。"
+ },
+ {
+  "seg": 54,
+  "start": 246.118,
+  "end": 253.02,
+  "speaker": "Unknown",
+  "en": "Leaderboards score components, but you are shipping a cascade, a pipeline,",
+  "zh": "排行榜给组件打分，但你上线的是一个级联，一条流水线，"
+ },
+ {
+  "seg": 55,
+  "start": 254.478,
+  "end": 258.623,
+  "speaker": "Unknown",
+  "en": "So let's say that your caller wants to book an appointment on Tuesday the 3rd.",
+  "zh": "比如说，你的来电者想预约 3 号周二。"
+ },
+ {
+  "seg": 56,
+  "start": 259.183,
+  "end": 262.607,
+  "speaker": "Unknown",
+  "en": "Your speech to text hears Tuesday the 30th.",
+  "zh": "你的语音转文本听成了 30 号周二。"
+ },
+ {
+  "seg": 57,
+  "start": 263.328,
+  "end": 270.716,
+  "speaker": "Unknown",
+  "en": "And so from that moment on, it doesn't matter how smart your language model is, it's now confidently booking the wrong day.",
+  "zh": "所以从那一刻起，你的语言模型再聪明也没用，它现在正信心满满地预约错误的日子。"
+ },
+ {
+  "seg": 58,
+  "start": 271.056,
+  "end": 275.821,
+  "speaker": "Unknown",
+  "en": "And every error flows downhill from there and the layers below it have no idea.",
+  "zh": "每一个错误都会从那里向下传递，而它下面的层毫不知情。"
+ },
+ {
+  "seg": 59,
+  "start": 276.686,
+  "end": 281.888,
+  "speaker": "Unknown",
+  "en": "And so those leaderboard scores, they came from clean audio in a quiet room.",
+  "zh": "所以那些排行榜的分数，它们来自安静房间里的干净音频。"
+ },
+ {
+  "seg": 60,
+  "start": 282.728,
+  "end": 288.57,
+  "speaker": "Unknown",
+  "en": "But your callers, they're calling on a speakerphone in traffic with kids in the backseat.",
+  "zh": "但你的来电者，他们是在开车时用免提打电话，后座还坐着孩子。"
+ },
+ {
+  "seg": 61,
+  "start": 289.271,
+  "end": 291.711,
+  "speaker": "Unknown",
+  "en": "So those leaderboards never met your users.",
+  "zh": "所以那些排行榜从来没有见过你的用户。"
+ },
+ {
+  "seg": 62,
+  "start": 292.572,
+  "end": 295.133,
+  "speaker": "Unknown",
+  "en": "And there's a name for this, the leaderboard trap.",
+  "zh": "这有个名字，叫排行榜陷阱。"
+ },
+ {
+  "seg": 63,
+  "start": 295.513,
+  "end": 297.974,
+  "speaker": "Unknown",
+  "en": "So the score measures the model.",
+  "zh": "分数衡量的是模型。"
+ },
+ {
+  "seg": 64,
+  "start": 298.534,
+  "end": 300.935,
+  "speaker": "Unknown",
+  "en": "But again, you're shipping a conversation.",
+  "zh": "但再说一遍，你上线的是一段对话。"
+ },
+ {
+  "seg": 65,
+  "start": 301.815,
+  "end": 308.617,
+  "speaker": "Unknown",
+  "en": "But everyone building voice agents, they're asking, you know, what is the best speech-to-text model, LLM, TTS?",
+  "zh": "但每个构建语音智能体的人都在问，你知道的，什么是最好的语音转文本模型、LLM、TTS?"
+ },
+ {
+  "seg": 66,
+  "start": 309.257,
+  "end": 313.519,
+  "speaker": "Unknown",
+  "en": "But the real question is, which stack should I ship?",
+  "zh": "但真正的问题是，我该上线哪一套技术栈？"
+ },
+ {
+  "seg": 67,
+  "start": 314.379,
+  "end": 316.88,
+  "speaker": "Unknown",
+  "en": "So these are two completely different questions.",
+  "zh": "所以这是两个完全不同的问题。"
+ },
+ {
+  "seg": 68,
+  "start": 317.34,
+  "end": 319.881,
+  "speaker": "Unknown",
+  "en": "And only one of them has a leaderboard.",
+  "zh": "而且只有其中一个有排行榜。"
+ },
+ {
+  "seg": 69,
+  "start": 320.661,
+  "end": 321.322,
+  "speaker": "Unknown",
+  "en": "Until today.",
+  "zh": "直到今天。"
+ },
+ {
+  "seg": 70,
+  "start": 321.782,
+  "end": 323.603,
+  "speaker": "Unknown",
+  "en": "We're going to talk about that more in a bit.",
+  "zh": "我们稍后会更多地讨论这个。"
+ },
+ {
+  "seg": 71,
+  "start": 324.364,
+  "end": 325.865,
+  "speaker": "Unknown",
+  "en": "So let's say you fall into this trap.",
+  "zh": "那么假设你掉进了这个陷阱。"
+ },
+ {
+  "seg": 72,
+  "start": 326.165,
+  "end": 328.106,
+  "speaker": "Unknown",
+  "en": "You pick your models based on the leaderboard.",
+  "zh": "你根据排行榜挑选模型。"
+ },
+ {
+  "seg": 73,
+  "start": 328.446,
+  "end": 330.068,
+  "speaker": "Unknown",
+  "en": "And now you start measuring things.",
+  "zh": "然后你开始测量各种指标。"
+ },
+ {
+  "seg": 74,
+  "start": 330.408,
+  "end": 331.529,
+  "speaker": "Unknown",
+  "en": "This is the next problem.",
+  "zh": "这是下一个问题。"
+ },
+ {
+  "seg": 75,
+  "start": 332.089,
+  "end": 334.471,
+  "speaker": "Unknown",
+  "en": "You're probably measuring the wrong thing.",
+  "zh": "你很可能在测量错误的东西。"
+ },
+ {
+  "seg": 76,
+  "start": 334.971,
+  "end": 339.474,
+  "speaker": "Unknown",
+  "en": "You see, your TTS provider reports time to first byte.",
+  "zh": "你看，你的 TTS 供应商报告的是首字节时间。"
+ },
+ {
+  "seg": 77,
+  "start": 340.034,
+  "end": 341.936,
+  "speaker": "Unknown",
+  "en": "And that looks great on the dashboard.",
+  "zh": "这在仪表盘上看起来很棒。"
+ },
+ {
+  "seg": 78,
+  "start": 342.656,
+  "end": 344.637,
+  "speaker": "Unknown",
+  "en": "But bytes are not sound.",
+  "zh": "但字节不是声音。"
+ },
+ {
+  "seg": 79,
+  "start": 345.498,
+  "end": 359.767,
+  "speaker": "Unknown",
+  "en": "And so we've measured popular providers that are actually shipping hundreds of milliseconds of silence at the beginning of their audio, and in the worst case, up to three quarters of a second of nothing but silence before that first audio comes in.",
+  "zh": "所以我们测量过一些流行的供应商，它们实际在音频开头输出了数百毫秒的静音，最坏的情况下，在第一段音频到来之前有多达四分之三秒的纯静音。"
+ },
+ {
+  "seg": 80,
+  "start": 361.095,
+  "end": 365.339,
+  "speaker": "Unknown",
+  "en": "So time to first audio is actually what your caller hears.",
+  "zh": "所以首音频时间才是你的来电者实际听到的。"
+ },
+ {
+  "seg": 81,
+  "start": 365.879,
+  "end": 369.022,
+  "speaker": "Unknown",
+  "en": "And so this is the distinction that this entire talk hangs on.",
+  "zh": "而这就是整场演讲所依赖的关键区别。"
+ },
+ {
+  "seg": 82,
+  "start": 369.502,
+  "end": 373.185,
+  "speaker": "Unknown",
+  "en": "This measured latency versus perceived latency.",
+  "zh": "就是测量延迟与感知延迟。"
+ },
+ {
+  "seg": 83,
+  "start": 373.646,
+  "end": 376.708,
+  "speaker": "Unknown",
+  "en": "So what your dashboard says versus what your user hears.",
+  "zh": "就是你的仪表盘说的与你的用户听到的。"
+ },
+ {
+  "seg": 84,
+  "start": 377.229,
+  "end": 380.452,
+  "speaker": "Unknown",
+  "en": "The dashboard says it's really fast, but your ears say it's slow.",
+  "zh": "仪表盘说它非常快，但你的耳朵说它很慢。"
+ },
+ {
+  "seg": 85,
+  "start": 381.692,
+  "end": 383.212,
+  "speaker": "Unknown",
+  "en": "Same story for language models.",
+  "zh": "语言模型也是同样的情况。"
+ },
+ {
+  "seg": 86,
+  "start": 383.873,
+  "end": 387.754,
+  "speaker": "Unknown",
+  "en": "Time to first token is a text metric.",
+  "zh": "首token时间是文本指标。"
+ },
+ {
+  "seg": 87,
+  "start": 387.814,
+  "end": 392.035,
+  "speaker": "Unknown",
+  "en": "So your TTS can't start speaking, though, on a token, right?",
+  "zh": "但是你的 TTS 无法开始朗读一个 token,对吧？"
+ },
+ {
+  "seg": 88,
+  "start": 392.435,
+  "end": 394.156,
+  "speaker": "Unknown",
+  "en": "So it needs an entire sentence.",
+  "zh": "它需要一整句话。"
+ },
+ {
+  "seg": 89,
+  "start": 394.636,
+  "end": 401.618,
+  "speaker": "Unknown",
+  "en": "So that number matters for voice because it needs the entire first sentence.",
+  "zh": "所以那个数字对语音很重要，因为它需要完整的第一句话。"
+ },
+ {
+  "seg": 90,
+  "start": 401.738,
+  "end": 405.019,
+  "speaker": "Unknown",
+  "en": "But the model ranks differently on that.",
+  "zh": "但模型在那个指标上的排名是不同的。"
+ },
+ {
+  "seg": 91,
+  "start": 405.419,
+  "end": 406.46,
+  "speaker": "Unknown",
+  "en": "So a model that streams",
+  "zh": "所以一个流式输出"
+ },
+ {
+  "seg": 92,
+  "start": 407.94,
+  "end": 414.123,
+  "speaker": "Unknown",
+  "en": "A model that streams tokens the fastest is not necessarily the model that finishes a sentence first.",
+  "zh": "一个最快流式输出 token 的模型，不一定是先说完一整句话的模型。"
+ },
+ {
+  "seg": 93,
+  "start": 416.023,
+  "end": 430.734,
+  "speaker": "Unknown",
+  "en": "Now if you, let's say you do measure all of this perfectly, there's another part of the conversation that, the benchmarking that gets completely ignored, and that is that a real agent doesn't just chat, it needs to do things, right?",
+  "zh": "现在，假设你确实完美地测量了所有这些，对话中还有另一个部分，基准测试中完全被忽略的部分，那就是真正的智能体不只是聊天，它需要做事，对吧？"
+ },
+ {
+  "seg": 94,
+  "start": 430.754,
+  "end": 435.358,
+  "speaker": "Unknown",
+  "en": "It has to look up orders, check availability, book rooms, right?",
+  "zh": "它必须查询订单、检查可用性、预订房间，对吧？"
+ },
+ {
+  "seg": 95,
+  "start": 435.418,
+  "end": 437.779,
+  "speaker": "Unknown",
+  "en": "And so a tool is going to take time.",
+  "zh": "而一个工具是要花时间的。"
+ },
+ {
+  "seg": 96,
+  "start": 438.6,
+  "end": 447.158,
+  "speaker": "Unknown",
+  "en": "2 seconds, 10, 40 or more seconds, and no model choice is going to be able to hide a 40 or more second latency.",
+  "zh": "2 秒、10 秒、40 秒甚至更久，任何模型选择都无法掩盖 40 秒甚至更久的延迟。"
+ },
+ {
+  "seg": 97,
+  "start": 448.227,
+  "end": 451.508,
+  "speaker": "Unknown",
+  "en": "So think about what a human receptionist would do here.",
+  "zh": "所以想想一个人类前台接待员在这里会怎么做。"
+ },
+ {
+  "seg": 98,
+  "start": 452.108,
+  "end": 455.809,
+  "speaker": "Unknown",
+  "en": "They don't freeze while the booking system loads, right?",
+  "zh": "他们不会在预订系统加载时僵住，对吧？"
+ },
+ {
+  "seg": 99,
+  "start": 455.849,
+  "end": 457.149,
+  "speaker": "Unknown",
+  "en": "They say, give me a sec.",
+  "zh": "他们会说，稍等一下。"
+ },
+ {
+  "seg": 100,
+  "start": 457.549,
+  "end": 459.689,
+  "speaker": "Unknown",
+  "en": "I'm looking up your account, right?",
+  "zh": "我在查你的账户,对吧?"
+ },
+ {
+  "seg": 101,
+  "start": 459.709,
+  "end": 460.47,
+  "speaker": "Unknown",
+  "en": "They buy time.",
+  "zh": "他们争取时间。"
+ },
+ {
+  "seg": 102,
+  "start": 461.15,
+  "end": 463.21,
+  "speaker": "Unknown",
+  "en": "And they listen while they keep working.",
+  "zh": "他们一边继续工作,一边听。"
+ },
+ {
+  "seg": 103,
+  "start": 463.99,
+  "end": 467.471,
+  "speaker": "Unknown",
+  "en": "And that is that human-like behavior that we're looking for.",
+  "zh": "而这正是我们寻找的那种类人行为。"
+ },
+ {
+  "seg": 104,
+  "start": 467.551,
+  "end": 472.372,
+  "speaker": "Unknown",
+  "en": "So why can't an agent just keep talking and do things asynchronously?",
+  "zh": "那么为什么一个智能体不能就是持续说话并异步地做事情呢?"
+ },
+ {
+  "seg": 105,
+  "start": 473.209,
+  "end": 473.789,
+  "speaker": "Unknown",
+  "en": "Well, it can.",
+  "zh": "嗯,它可以。"
+ },
+ {
+  "seg": 106,
+  "start": 474.57,
+  "end": 475.531,
+  "speaker": "Unknown",
+  "en": "And here's the shape of that.",
+  "zh": "这就是那个形态。"
+ },
+ {
+  "seg": 107,
+  "start": 475.551,
+  "end": 477.152,
+  "speaker": "Unknown",
+  "en": "And this is the only code that you're going to see.",
+  "zh": "而且这是你们唯一会看到的代码。"
+ },
+ {
+  "seg": 108,
+  "start": 477.632,
+  "end": 478.713,
+  "speaker": "Unknown",
+  "en": "But this is a normal tool.",
+  "zh": "但这是一个普通的工具。"
+ },
+ {
+  "seg": 109,
+  "start": 479.354,
+  "end": 482.016,
+  "speaker": "Unknown",
+  "en": "There's just one thing different, and that is this line right here.",
+  "zh": "只有一处不同,就是这里的这一行。"
+ },
+ {
+  "seg": 110,
+  "start": 482.856,
+  "end": 490.042,
+  "speaker": "Unknown",
+  "en": "The first update hands the mic back to the agent while it keeps working in the background.",
+  "zh": "第一次更新把话筒交还给智能体,同时它在后台继续工作。"
+ },
+ {
+  "seg": 111,
+  "start": 490.822,
+  "end": 491.603,
+  "speaker": "Unknown",
+  "en": "And that's the whole trick.",
+  "zh": "而这就是全部的诀窍。"
+ },
+ {
+  "seg": 112,
+  "start": 492.404,
+  "end": 496.487,
+  "speaker": "Unknown",
+  "en": "The conversation and the tool stop sharing a thread.",
+  "zh": "对话和工具不再共享一个线程。"
+ },
+ {
+  "seg": 113,
+  "start": 497.588,
+  "end": 498.969,
+  "speaker": "Unknown",
+  "en": "And so don't take my word for it.",
+  "zh": "所以别光听我说。"
+ },
+ {
+  "seg": 114,
+  "start": 499.709,
+  "end": 500.53,
+  "speaker": "Unknown",
+  "en": "Listen for yourselves.",
+  "zh": "你们自己听吧。"
+ },
+ {
+  "seg": 115,
+  "start": 501.542,
+  "end": 503.102,
+  "speaker": "Unknown",
+  "en": "Thanks for calling the Live Kid Hotel.",
+  "zh": "感谢您致电 Live Kid 酒店。"
+ },
+ {
+  "seg": 116,
+  "start": 503.203,
+  "end": 503.903,
+  "speaker": "Unknown",
+  "en": "How can I help you?",
+  "zh": "我能帮您什么?"
+ },
+ {
+  "seg": 117,
+  "start": 504.143,
+  "end": 504.883,
+  "speaker": "Unknown",
+  "en": "Can I book a room?",
+  "zh": "我能订个房间吗?"
+ },
+ {
+  "seg": 118,
+  "start": 506.504,
+  "end": 506.964,
+  "speaker": "Unknown",
+  "en": "Of course.",
+  "zh": "当然可以。"
+ },
+ {
+  "seg": 119,
+  "start": 507.964,
+  "end": 509.084,
+  "speaker": "Unknown",
+  "en": "What dates are you looking at?",
+  "zh": "您想看什么日期?"
+ },
+ {
+  "seg": 120,
+  "start": 509.484,
+  "end": 510.865,
+  "speaker": "Unknown",
+  "en": "October the 10th through 12th.",
+  "zh": "10 月 10 日到 12 日。"
+ },
+ {
+  "seg": 121,
+  "start": 512.185,
+  "end": 513.426,
+  "speaker": "Unknown",
+  "en": "October 10th to 12th?",
+  "zh": "10 月 10 日到 12 日?"
+ },
+ {
+  "seg": 122,
+  "start": 514.106,
+  "end": 515.106,
+  "speaker": "Unknown",
+  "en": "And for how many guests?",
+  "zh": "几位客人?"
+ },
+ {
+  "seg": 123,
+  "start": 515.606,
+  "end": 515.826,
+  "speaker": "Unknown",
+  "en": "Two.",
+  "zh": "两位。"
+ },
+ {
+  "seg": 124,
+  "start": 518.387,
+  "end": 525.669,
+  "speaker": "Unknown",
+  "en": "I have queen with two beds, king, double queen, a suite, or would you prefer a city or ocean view?",
+  "zh": "我有带两张床的大床房、大床房、双大床房、套房,或者您想要城市景观还是海景?"
+ },
+ {
+  "seg": 125,
+  "start": 526.03,
+  "end": 526.31,
+  "speaker": "Unknown",
+  "en": "Ocean.",
+  "zh": "海景。"
+ },
+ {
+  "seg": 126,
+  "start": 528.09,
+  "end": 529.571,
+  "speaker": "Unknown",
+  "en": "Who should I put the booking under?",
+  "zh": "预订应该登记在谁的名下?"
+ },
+ {
+  "seg": 127,
+  "start": 529.891,
+  "end": 530.551,
+  "speaker": "Unknown",
+  "en": "Jesse Hall.",
+  "zh": "Jesse Hall。"
+ },
+ {
+  "seg": 128,
+  "start": 535.475,
+  "end": 544.423,
+  "speaker": "Unknown",
+  "en": "You're all set for October 10th to 12th in a king room with an ocean view for $582.40 on the card ending in 1-1-1-1.",
+  "zh": "您已订好 10 月 10 日到 12 日,海景大床房,价格 582.40 美元,用尾号 1111 的卡支付。"
+ },
+ {
+  "seg": 129,
+  "start": 544.944,
+  "end": 545.744,
+  "speaker": "Unknown",
+  "en": "Shall I go ahead?",
+  "zh": "我可以继续吗?"
+ },
+ {
+  "seg": 130,
+  "start": 546.465,
+  "end": 551.009,
+  "speaker": "Unknown",
+  "en": "Actually, you know what, I need to change the date to December the 20th through the 24th.",
+  "zh": "其实,你知道吗,我需要把日期改到 12 月 20 日到 24 日。"
+ },
+ {
+  "seg": 131,
+  "start": 552.778,
+  "end": 553.699,
+  "speaker": "Unknown",
+  "en": "December 20th to 24th.",
+  "zh": "12 月 20 日到 24 日。"
+ },
+ {
+  "seg": 132,
+  "start": 553.719,
+  "end": 555.36,
+  "speaker": "Unknown",
+  "en": "That brings the total to $1,164.80 for December 20th to 24th.",
+  "zh": "这样总价就是 12 月 20 日到 24 日共 1,164.80 美元。"
+ },
+ {
+  "seg": 133,
+  "start": 555.38,
+  "end": 555.8,
+  "speaker": "Unknown",
+  "en": "Shall I go ahead?",
+  "zh": "我可以继续吗?"
+ },
+ {
+  "seg": 134,
+  "start": 556,
+  "end": 556.18,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "可以。"
+ },
+ {
+  "seg": 135,
+  "start": 556.22,
+  "end": 556.66,
+  "speaker": "Unknown",
+  "en": "You're all set.",
+  "zh": "您已订好。"
+ },
+ {
+  "seg": 136,
+  "start": 556.781,
+  "end": 556.941,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 137,
+  "start": 568.964,
+  "end": 575.088,
+  "speaker": "Unknown",
+  "en": "We had to speed up some of the parts there because of time, but the agent kept the conversation going.",
+  "zh": "因为时间关系我们加快了其中一些部分,但智能体让对话持续进行了下去。"
+ },
+ {
+  "seg": 138,
+  "start": 575.128,
+  "end": 576.629,
+  "speaker": "Unknown",
+  "en": "There were no awkward pauses.",
+  "zh": "没有尴尬的停顿。"
+ },
+ {
+  "seg": 139,
+  "start": 576.95,
+  "end": 579.691,
+  "speaker": "Unknown",
+  "en": "The caller even interrupted it, and it kept going.",
+  "zh": "来电者甚至打断了它,它仍继续进行。"
+ },
+ {
+  "seg": 140,
+  "start": 580.352,
+  "end": 585.816,
+  "speaker": "Unknown",
+  "en": "And the caller also changed his mind in the middle of things, and the agent just rolled with it, right?",
+  "zh": "而且来电者还在中途改变了主意,智能体就顺势应对了,对吧?"
+ },
+ {
+  "seg": 141,
+  "start": 585.896,
+  "end": 587.597,
+  "speaker": "Unknown",
+  "en": "This is the human-like behavior",
+  "zh": "这就是类人行为,"
+ },
+ {
+  "seg": 142,
+  "start": 587.937,
+  "end": 588.818,
+  "speaker": "Unknown",
+  "en": "that we're looking for.",
+  "zh": "我们所寻找的。"
+ },
+ {
+  "seg": 143,
+  "start": 589.198,
+  "end": 592.141,
+  "speaker": "Unknown",
+  "en": "So this is, again, not one model being good.",
+  "zh": "所以这再一次,不是一个模型表现好。"
+ },
+ {
+  "seg": 144,
+  "start": 592.461,
+  "end": 594.723,
+  "speaker": "Unknown",
+  "en": "This is an entire system being good.",
+  "zh": "这是整个系统表现好。"
+ },
+ {
+  "seg": 145,
+  "start": 594.743,
+  "end": 599.107,
+  "speaker": "Unknown",
+  "en": "This is the infrastructure, the framework, and the models all working together.",
+  "zh": "这是基础设施、框架和模型协同工作。"
+ },
+ {
+  "seg": 146,
+  "start": 599.608,
+  "end": 603.992,
+  "speaker": "Unknown",
+  "en": "And that's exactly what no component or model benchmark can see.",
+  "zh": "而这正是任何单一组件或模型基准测试都看不到的。"
+ },
+ {
+  "seg": 147,
+  "start": 605.577,
+  "end": 613.223,
+  "speaker": "Unknown",
+  "en": "Now there's one more access to this that the leaderboards miss entirely, and this is knowing when to speak and when not to speak.",
+  "zh": "还有一个排行榜完全忽略的维度,那就是知道什么时候该说话、什么时候不该说话。"
+ },
+ {
+  "seg": 148,
+  "start": 613.783,
+  "end": 621.549,
+  "speaker": "Unknown",
+  "en": "So humans negotiate turn-taking in a matter of just a couple of hundred milliseconds, mostly from tone.",
+  "zh": "人类在仅仅几百毫秒内就完成话轮转换的协商,主要靠语调。"
+ },
+ {
+  "seg": 149,
+  "start": 622.469,
+  "end": 627.05,
+  "speaker": "Unknown",
+  "en": "And a pipeline that waits for the entire transcript to come back, it's already late, right?",
+  "zh": "而一个要等整份转写文本返回的流水线,它已经晚了,对吧?"
+ },
+ {
+  "seg": 150,
+  "start": 627.43,
+  "end": 631.291,
+  "speaker": "Unknown",
+  "en": "So we built a turn detector that is based on audio itself.",
+  "zh": "所以我们构建了一个基于音频本身的轮次检测器。"
+ },
+ {
+  "seg": 151,
+  "start": 631.672,
+  "end": 637.433,
+  "speaker": "Unknown",
+  "en": "So it listens to the rhyme, the pitch, the intonation of the speech, of the audio.",
+  "zh": "它会听语音、音频的节奏、音高、语调。"
+ },
+ {
+  "seg": 152,
+  "start": 637.993,
+  "end": 640.474,
+  "speaker": "Unknown",
+  "en": "And then we published the numbers on this.",
+  "zh": "然后我们发布了这方面的数据。"
+ },
+ {
+  "seg": 153,
+  "start": 640.854,
+  "end": 647.036,
+  "speaker": "Unknown",
+  "en": "So at the same latency budget, the best alternative cuts users off 9.9% of the time.",
+  "zh": "在相同的延迟预算下，最好的替代方案有 9.9% 的时间会打断用户。"
+ },
+ {
+  "seg": 154,
+  "start": 649.265,
+  "end": 650.647,
+  "speaker": "Unknown",
+  "en": "Ours is 4.5%.",
+  "zh": "我们的是 4.5%。"
+ },
+ {
+  "seg": 155,
+  "start": 651.688,
+  "end": 654.252,
+  "speaker": "Unknown",
+  "en": "And the eval harness is open source.",
+  "zh": "而且这个评估框架是开源的。"
+ },
+ {
+  "seg": 156,
+  "start": 654.292,
+  "end": 655.173,
+  "speaker": "Unknown",
+  "en": "You don't have to trust me.",
+  "zh": "你不必相信我。"
+ },
+ {
+  "seg": 157,
+  "start": 655.233,
+  "end": 658.598,
+  "speaker": "Unknown",
+  "en": "You can run your own data through this and see what you get.",
+  "zh": "你可以用自己的数据跑一遍，看看结果如何。"
+ },
+ {
+  "seg": 158,
+  "start": 660.285,
+  "end": 661.846,
+  "speaker": "Unknown",
+  "en": "So let's go one level deeper for a minute.",
+  "zh": "那么让我们再深入一层。"
+ },
+ {
+  "seg": 159,
+  "start": 662.226,
+  "end": 668.048,
+  "speaker": "Unknown",
+  "en": "The gap between your caller's last syllable and your agent's first audible byte.",
+  "zh": "就是从来电者的最后一个音节到你的智能体第一个可听见字节之间的间隔。"
+ },
+ {
+  "seg": 160,
+  "start": 668.688,
+  "end": 673.41,
+  "speaker": "Unknown",
+  "en": "So end of turn detection fires from audio before the transcript lands.",
+  "zh": "轮次结束检测在转录文本落地之前就从音频触发了。"
+ },
+ {
+  "seg": 161,
+  "start": 673.95,
+  "end": 677.951,
+  "speaker": "Unknown",
+  "en": "The language model is already running on a provisional transcript.",
+  "zh": "语言模型已经在基于一份临时转录文本运行。"
+ },
+ {
+  "seg": 162,
+  "start": 678.532,
+  "end": 682.013,
+  "speaker": "Unknown",
+  "en": "And if the final words match, then you just saved a half a second.",
+  "zh": "如果最后的词与最终转录一致，那你就省下了半秒。"
+ },
+ {
+  "seg": 163,
+  "start": 682.813,
+  "end": 687.535,
+  "speaker": "Unknown",
+  "en": "And then the TTS starts on the first complete sentence, not the last token.",
+  "zh": "然后 TTS 在第一个完整句子出现时就开始，而不是等到最后一个 token。"
+ },
+ {
+  "seg": 164,
+  "start": 688.318,
+  "end": 694.04,
+  "speaker": "Unknown",
+  "en": "And so the first audible bite is when the human stops waiting.",
+  "zh": "于是，第一个可听见的声音出现之时，就是人类停止等待之时。"
+ },
+ {
+  "seg": 165,
+  "start": 694.681,
+  "end": 700.123,
+  "speaker": "Unknown",
+  "en": "And so every model that you choose, it shows up here in this window, and this window has a fixed size.",
+  "zh": "所以你选择的每一个模型，都会体现在这个窗口里，而这个窗口的大小是固定的。"
+ },
+ {
+  "seg": 166,
+  "start": 700.802,
+  "end": 707.887,
+  "speaker": "Unknown",
+  "en": "If you can stay within a second and a half, end to end, the conversation still holds, but you're right on the edge.",
+  "zh": "如果端到端能控制在一秒半以内，对话仍然能维持，但你已经在边缘了。"
+ },
+ {
+  "seg": 167,
+  "start": 708.268,
+  "end": 713.311,
+  "speaker": "Unknown",
+  "en": "If you can get closer to 600 milliseconds, then it starts to feel really human.",
+  "zh": "如果能接近 600 毫秒，那它就开始感觉非常像真人了。"
+ },
+ {
+  "seg": 168,
+  "start": 714.092,
+  "end": 722.318,
+  "speaker": "Unknown",
+  "en": "And so the question is never how fast can I go, but what is the most human-like agent that I can fit inside this window?",
+  "zh": "所以问题从来不是我能跑多快，而是我能在这个窗口里塞进最像真人的智能体是什么？"
+ },
+ {
+  "seg": 169,
+  "start": 723.019,
+  "end": 727.062,
+  "speaker": "Unknown",
+  "en": "So back to latency as a budget, but human-like is the goal.",
+  "zh": "同一个智能体，同样的场景，但不同的模型。"
+ },
+ {
+  "seg": 170,
+  "start": 728.885,
+  "end": 736.187,
+  "speaker": "Unknown",
+  "en": "So if we add all of this up, the question that we asked at the beginning, what models should I pick, that was never actually answerable.",
+  "zh": "如果我们把这一切加总起来，我们一开始问的那个问题——我该选什么模型——其实从来就是无法回答的。"
+ },
+ {
+  "seg": 171,
+  "start": 736.988,
+  "end": 739.809,
+  "speaker": "Unknown",
+  "en": "And so we built the thing that we wish existed.",
+  "zh": "于是我们构建了我们希望存在的东西。"
+ },
+ {
+  "seg": 172,
+  "start": 740.849,
+  "end": 742.39,
+  "speaker": "Unknown",
+  "en": "Here's how we built the benchmark.",
+  "zh": "这就是我们构建这个基准的方式。"
+ },
+ {
+  "seg": 173,
+  "start": 743.33,
+  "end": 752.353,
+  "speaker": "Unknown",
+  "en": "We take a complete working agent, the first one is that hotel receptionist that you just heard, and it takes real bookings, it has a real back end.",
+  "zh": "我们取一个完整可用的智能体，第一个就是你刚才听到的那位酒店前台，它接收真实的预订，有真实的后端。"
+ },
+ {
+  "seg": 174,
+  "start": 753.13,
+  "end": 754.811,
+  "speaker": "Unknown",
+  "en": "And it's also open source.",
+  "zh": "而且它也是开源的。"
+ },
+ {
+  "seg": 175,
+  "start": 754.871,
+  "end": 755.812,
+  "speaker": "Unknown",
+  "en": "You can look at the repo.",
+  "zh": "你可以查看这个 repo。"
+ },
+ {
+  "seg": 176,
+  "start": 756.212,
+  "end": 760.936,
+  "speaker": "Unknown",
+  "en": "And we run hundreds of simulated callers against it.",
+  "zh": "然后我们对它运行数百个模拟来电者。"
+ },
+ {
+  "seg": 177,
+  "start": 761.516,
+  "end": 762.717,
+  "speaker": "Unknown",
+  "en": "The simulator interrupts.",
+  "zh": "这个模拟器会打断。"
+ },
+ {
+  "seg": 178,
+  "start": 763.117,
+  "end": 763.738,
+  "speaker": "Unknown",
+  "en": "It mumbles.",
+  "zh": "它会咕哝。"
+ },
+ {
+  "seg": 179,
+  "start": 764.198,
+  "end": 766.9,
+  "speaker": "Unknown",
+  "en": "It changes its mind, just like a real caller would.",
+  "zh": "它会改变主意，就像真实的来电者一样。"
+ },
+ {
+  "seg": 180,
+  "start": 767.62,
+  "end": 771.663,
+  "speaker": "Unknown",
+  "en": "And then we don't score it on vibes, but we score outcomes.",
+  "zh": "而且我们不是凭感觉打分，而是给结果打分。"
+ },
+ {
+  "seg": 181,
+  "start": 772.504,
+  "end": 775.066,
+  "speaker": "Unknown",
+  "en": "Define the way that we would define them for a human.",
+  "zh": "按照我们评价真人时那样的方式来定义。"
+ },
+ {
+  "seg": 182,
+  "start": 775.865,
+  "end": 778.647,
+  "speaker": "Unknown",
+  "en": "And so did the right reservation land in the database?",
+  "zh": "比如，正确的预订是否落到了数据库里？"
+ },
+ {
+  "seg": 183,
+  "start": 778.947,
+  "end": 780.208,
+  "speaker": "Unknown",
+  "en": "Did a caller get cut off?",
+  "zh": "来电者有没有被打断？"
+ },
+ {
+  "seg": 184,
+  "start": 780.888,
+  "end": 783.51,
+  "speaker": "Unknown",
+  "en": "Are the names and dates correct?",
+  "zh": "姓名和日期是否正确？"
+ },
+ {
+  "seg": 185,
+  "start": 783.59,
+  "end": 788.233,
+  "speaker": "Unknown",
+  "en": "Were there any invented tool calls or any leaked personal data, right?",
+  "zh": "有没有捏造的工具调用或泄露的个人信息，对吧？"
+ },
+ {
+  "seg": 186,
+  "start": 788.253,
+  "end": 792.616,
+  "speaker": "Unknown",
+  "en": "So we measure all of those things against human equivalent behaviors.",
+  "zh": "所以我们针对人类等效的行为来度量所有这些。"
+ },
+ {
+  "seg": 187,
+  "start": 792.996,
+  "end": 793.597,
+  "speaker": "Unknown",
+  "en": "That's the bar.",
+  "zh": "这就是标准。"
+ },
+ {
+  "seg": 188,
+  "start": 794.917,
+  "end": 801.182,
+  "speaker": "Unknown",
+  "en": "And then completion alone isn't enough because completion can actually be gameable, right?",
+  "zh": "而且光看完成度是不够的，因为完成度其实是可以钻空子的，对吧？"
+ },
+ {
+  "seg": 189,
+  "start": 801.382,
+  "end": 804.844,
+  "speaker": "Unknown",
+  "en": "So a model can kind of guess its way to complete, right?",
+  "zh": "一个模型可以某种程度上靠猜来完成，对吧？"
+ },
+ {
+  "seg": 190,
+  "start": 805.188,
+  "end": 808.794,
+  "speaker": "Unknown",
+  "en": "And so we penalize what a completion score can't see.",
+  "zh": "所以我们会惩罚完成度分数看不到的东西。"
+ },
+ {
+  "seg": 191,
+  "start": 810.157,
+  "end": 812.862,
+  "speaker": "Unknown",
+  "en": "Like if it asks questions that didn't need to be asked.",
+  "zh": "比如它问了本不需要问的问题。"
+ },
+ {
+  "seg": 192,
+  "start": 813.463,
+  "end": 817.25,
+  "speaker": "Unknown",
+  "en": "Or if it takes 10 steps to do something that should have only taken two steps.",
+  "zh": "或者它用 10 步去做本应只需两步的事。"
+ },
+ {
+  "seg": 193,
+  "start": 818.742,
+  "end": 820.303,
+  "speaker": "Unknown",
+  "en": "And then we swap the stack out.",
+  "zh": "然后我们换掉整个技术栈。"
+ },
+ {
+  "seg": 194,
+  "start": 820.743,
+  "end": 824.286,
+  "speaker": "Unknown",
+  "en": "The same agent, the same scenarios, but different models.",
+  "zh": "同样的智能体，同样的场景，但不同的模型。"
+ },
+ {
+  "seg": 195,
+  "start": 824.806,
+  "end": 829.729,
+  "speaker": "Unknown",
+  "en": "And every model sees the exact identical input byte for byte.",
+  "zh": "而且每个模型看到的输入逐字节完全一致。"
+ },
+ {
+  "seg": 196,
+  "start": 829.809,
+  "end": 834.452,
+  "speaker": "Unknown",
+  "en": "But this creates benchmarks against our agent example.",
+  "zh": "但这样就产生了针对我们这个智能体示例的基准。"
+ },
+ {
+  "seg": 197,
+  "start": 835.673,
+  "end": 839.555,
+  "speaker": "Unknown",
+  "en": "There are as many benchmarks as there are agents.",
+  "zh": "有多少个智能体，就有多少个基准。"
+ },
+ {
+  "seg": 198,
+  "start": 840.176,
+  "end": 842.317,
+  "speaker": "Unknown",
+  "en": "So the benchmark is actually yours.",
+  "zh": "所以这个基准其实是你的。"
+ },
+ {
+  "seg": 199,
+  "start": 842.697,
+  "end": 847.981,
+  "speaker": "Unknown",
+  "en": "You can run this exact thing, run your agent through this exact benchmark and get your scores.",
+  "zh": "你可以运行完全同样的东西，把你的智能体跑在这个完全相同的基准上，得到你自己的分数。"
+ },
+ {
+  "seg": 200,
+  "start": 848.741,
+  "end": 851.825,
+  "speaker": "Unknown",
+  "en": "And so this is how you catch surprises.",
+  "zh": "这就是你捕捉意外的方式。"
+ },
+ {
+  "seg": 201,
+  "start": 852.326,
+  "end": 856.412,
+  "speaker": "Unknown",
+  "en": "The whole thing is open source, the methodology, the eval sets, the agent itself.",
+  "zh": "整个东西都是开源的，方法论、评测集、智能体本身。"
+ },
+ {
+  "seg": 202,
+  "start": 856.992,
+  "end": 860.657,
+  "speaker": "Unknown",
+  "en": "You can point the same thing at your agent and let us know how it performs for you.",
+  "zh": "你可以把同样的东西指向你的智能体，让我们知道它在你那里的表现。"
+ },
+ {
+  "seg": 203,
+  "start": 862.077,
+  "end": 867.623,
+  "speaker": "Unknown",
+  "en": "Now here's an important fact about LiveKit is that we don't make STT, LLM, or TTS models.",
+  "zh": "现在说说关于 LiveKit 的一个重要事实：我们不做 STT、LLM 或 TTS 模型。"
+ },
+ {
+  "seg": 204,
+  "start": 868.124,
+  "end": 871.187,
+  "speaker": "Unknown",
+  "en": "Every provider plugs into our stack.",
+  "zh": "每个提供商都接入我们的技术栈。"
+ },
+ {
+  "seg": 205,
+  "start": 871.207,
+  "end": 872.929,
+  "speaker": "Unknown",
+  "en": "So we don't have a horse in this race.",
+  "zh": "所以我们在这场竞赛中没有押注。"
+ },
+ {
+  "seg": 206,
+  "start": 872.949,
+  "end": 874.891,
+  "speaker": "Unknown",
+  "en": "We just watch all of them run a lot.",
+  "zh": "我们只是看着它们所有模型大量运行。"
+ },
+ {
+  "seg": 207,
+  "start": 876.012,
+  "end": 878.235,
+  "speaker": "Unknown",
+  "en": "And so we can confidently pick the winners.",
+  "zh": "所以我们可以自信地挑选赢家。"
+ },
+ {
+  "seg": 208,
+  "start": 879.191,
+  "end": 886.894,
+  "speaker": "Unknown",
+  "en": "And so what you're looking at right here is a sneak peek of the Gemini 4 31B model on LiveKit inference.",
+  "zh": "你现在看到的是 Gemini 4 31B 模型在 LiveKit 推理上的抢先预览。"
+ },
+ {
+  "seg": 209,
+  "start": 887.634,
+  "end": 891.056,
+  "speaker": "Unknown",
+  "en": "But this isn't just an off-the-shelf Gemma 4 31B.",
+  "zh": "但这不只是一个现成的 Gemma 4 31B。"
+ },
+ {
+  "seg": 210,
+  "start": 891.516,
+  "end": 899.839,
+  "speaker": "Unknown",
+  "en": "It's tuned specifically for production voice agents with long prompts, many tools, and tight latency budgets.",
+  "zh": "它专门为生产环境语音智能体调优过，支持长提示词、多工具和严格的延迟预算。"
+ },
+ {
+  "seg": 211,
+  "start": 900.419,
+  "end": 905.281,
+  "speaker": "Unknown",
+  "en": "It passes voice evals at 88%, and it starts speaking in about 380 milliseconds.",
+  "zh": "它以 88% 的分数通过语音评测，并且在大约 380 毫秒内开始说话。"
+ },
+ {
+  "seg": 212,
+  "start": 907.693,
+  "end": 910.714,
+  "speaker": "Unknown",
+  "en": "So that's over two times faster than the next model.",
+  "zh": "这比下一个最快的模型快两倍多。"
+ },
+ {
+  "seg": 213,
+  "start": 911.754,
+  "end": 918.236,
+  "speaker": "Unknown",
+  "en": "Making this the fastest high quality voice LLM available today.",
+  "zh": "使它成为当今可用的最快的高质量语音 LLM。"
+ },
+ {
+  "seg": 214,
+  "start": 918.696,
+  "end": 922.578,
+  "speaker": "Unknown",
+  "en": "And so this is actually going to launch tomorrow on LifeKit inference.",
+  "zh": "这实际上将于明天在 LifeKit 推理上发布。"
+ },
+ {
+  "seg": 215,
+  "start": 923.478,
+  "end": 928.979,
+  "speaker": "Unknown",
+  "en": "So again, our goal is to have the most human-like agents possible while sticking to that latency budget.",
+  "zh": "再说一次，我们的目标是在坚持延迟预算的前提下，打造尽可能像人的智能体。"
+ },
+ {
+  "seg": 216,
+  "start": 930.4,
+  "end": 932.861,
+  "speaker": "Unknown",
+  "en": "So if you remember one thing from this talk, make it this one.",
+  "zh": "如果你从这场演讲中只记住一件事，那就记住这一件。"
+ },
+ {
+  "seg": 217,
+  "start": 933.201,
+  "end": 937.162,
+  "speaker": "Unknown",
+  "en": "A voice agent isn't a chat bot with a speaker stacked onto it.",
+  "zh": "语音智能体不是一个装上扬声器的聊天机器人。"
+ },
+ {
+  "seg": 218,
+  "start": 938.496,
+  "end": 945.939,
+  "speaker": "Unknown",
+  "en": "It's human-like infrastructure, a real-time system that senses and responds the way that a human, a person would.",
+  "zh": "它是类人的基础设施，是一个像人一样感知和响应的实时系统。"
+ },
+ {
+  "seg": 219,
+  "start": 946.579,
+  "end": 953.962,
+  "speaker": "Unknown",
+  "en": "The moment that you treat it that way, every decision is going to get clearer, the budget, the metrics, the models, and the bar that you test against.",
+  "zh": "当你以这种方式对待它的那一刻，每一个决策都会变得更清晰——预算、指标、模型，以及你测试所依据的标准。"
+ },
+ {
+  "seg": 220,
+  "start": 954.862,
+  "end": 955.723,
+  "speaker": "Unknown",
+  "en": "So here's the checklist.",
+  "zh": "这是一份清单。"
+ },
+ {
+  "seg": 221,
+  "start": 955.743,
+  "end": 956.843,
+  "speaker": "Unknown",
+  "en": "You can take a photo of this.",
+  "zh": "你可以给这个拍照。"
+ },
+ {
+  "seg": 222,
+  "start": 957.344,
+  "end": 958.885,
+  "speaker": "Unknown",
+  "en": "Set your latency budget first.",
+  "zh": "首先设定你的延迟预算。"
+ },
+ {
+  "seg": 223,
+  "start": 959.585,
+  "end": 961.547,
+  "speaker": "Unknown",
+  "en": "Measure perceived latency.",
+  "zh": "测量感知延迟。"
+ },
+ {
+  "seg": 224,
+  "start": 962.327,
+  "end": 966.37,
+  "speaker": "Unknown",
+  "en": "Spend whatever budget is left on model quality, not on speed that doesn't matter.",
+  "zh": "把剩余的预算花在模型质量上，而不是花在不重要的速度上。"
+ },
+ {
+  "seg": 225,
+  "start": 967.231,
+  "end": 971.854,
+  "speaker": "Unknown",
+  "en": "And then anything over a second, it should go asynchronously so that the conversation never stops.",
+  "zh": "然后任何超过一秒的内容，都应该异步处理，让对话永不中断。"
+ },
+ {
+  "seg": 226,
+  "start": 973.115,
+  "end": 977.378,
+  "speaker": "Unknown",
+  "en": "And then just test the conversation, not the components.",
+  "zh": "然后直接测试对话本身，而不是各个组件。"
+ },
+ {
+  "seg": 227,
+  "start": 977.839,
+  "end": 979.26,
+  "speaker": "Unknown",
+  "en": "And then keep testing in production.",
+  "zh": "然后在生产环境中持续测试。"
+ },
+ {
+  "seg": 228,
+  "start": 980.407,
+  "end": 981.748,
+  "speaker": "Unknown",
+  "en": "So here's the benchmark.",
+  "zh": "这是基准测试。"
+ },
+ {
+  "seg": 229,
+  "start": 982.649,
+  "end": 983.43,
+  "speaker": "Unknown",
+  "en": "Scan the QR code.",
+  "zh": "扫描二维码。"
+ },
+ {
+  "seg": 230,
+  "start": 983.45,
+  "end": 984.591,
+  "speaker": "Unknown",
+  "en": "You can check out the benchmark.",
+  "zh": "你可以查看这个基准测试。"
+ },
+ {
+  "seg": 231,
+  "start": 984.611,
+  "end": 986.694,
+  "speaker": "Unknown",
+  "en": "You can run this against your own agents.",
+  "zh": "你可以用它来测试你自己的智能体。"
+ },
+ {
+  "seg": 232,
+  "start": 987.354,
+  "end": 996.804,
+  "speaker": "Unknown",
+  "en": "And remember, at some point in the near future, you are going to call a voice agent, and you're going to talk over it, and it's not going to fall apart.",
+  "zh": "记住，在不久的将来的某个时刻，你会打给一个语音智能体，你会打断它说话，而它不会崩溃。"
+ },
+ {
+  "seg": 233,
+  "start": 997.825,
+  "end": 1000.568,
+  "speaker": "Unknown",
+  "en": "It's going to act like a human would in that scenario.",
+  "zh": "它会像人类在那个场景下那样行动。"
+ },
+ {
+  "seg": 234,
+  "start": 1000.908,
+  "end": 1002.31,
+  "speaker": "Unknown",
+  "en": "So go build that.",
+  "zh": "去构建那样的东西吧。"
+ },
+ {
+  "seg": 235,
+  "start": 1002.87,
+  "end": 1003.171,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 236,
+  "start": 1010.575,
+  "end": 1011.278,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

@@ -1,0 +1,620 @@
+{
+  "episode_id": "2026-10-19-pmf-carriers-wouldn-39-t-talk-to-him-so-he-s",
+  "podcast": "The Product Market Fit Show",
+  "date": "2026-10-19",
+  "tags": [
+    "电信行业",
+    "嵌入式移动套餐",
+    "企业销售",
+    "融资叙事",
+    "创业与行业"
+  ],
+  "categories": [
+    "创业与行业",
+    "增长与销售"
+  ],
+  "entities": [
+    {
+      "id": "hermann-frank",
+      "type": "person",
+      "role": "host",
+      "name": "Hermann Frank",
+      "file": "Hermann Frank",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "gigs",
+      "type": "company",
+      "role": "company",
+      "name": "Gigs",
+      "file": "Gigs",
+      "primary": true,
+      "how_described": "本集主线公司：像电信领域的 Stripe，让任何公司都能把手机套餐嵌入自家产品，从儿童智能手表做到 Revolut、Klarna、Cash App，累计融资 9000 万美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            91,
+            123
+          ],
+          "quote": "Excited to have you here, man. So you've got a company called Gigs, which is like the OS for embedded telecoms. So, I mean, the simple way to think about it is anybody building anything can add Gigs into their product and offer, you know, mobile plans to their customers. So we're going to talk a lot about not just how you came up with that, but who is using that, who's the best customer, why they would want to do that and all those sort of things. You know, you raised your first round, I think, in 2021. You've raised $90 million since then. So off to a great start. Let's start with what we always do. For you, what was the product market fit moment? When did you feel like you'd found true product market fit and why?",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 6,
+          "t": [
+            123,
+            259
+          ],
+          "quote": "So we had several product market fit moments. The very first was our first vertical. It was kids' smartwatches at the time. Very serendipitous. Indipitous first customer came through one of our advisors. And it was a great way to, like, find this niche to serve first. They had massive problems with SIM cards, returns of the devices, and monetizing the subscriptions. So we've built a product quite custom to that specific customer vertical. But it allowed us to build the very first version of Gigs and the API and integrations into carriers and paid for our seed in Series A. And we kept just going down the list of customers. And about a year in, we ended up powering most of the players in the market. And it kind of showed us, okay, like, there's definitely something there. And we found a repeatable motion. And then the next time was when we started targeting fintechs, which was our first real, like, consumer primary use case smartphone vertical. And NewBank was the very first customer in the fintech vertical. And then we kept repeating that again and again. We had Klarna and Revolut and so on. And it's, okay, we're winning over 90% of deals. Currently, we have product market fit. Once the services started launching in the last year and earlier this year, revenue skyrocketed. So we kind of understood, okay, we made it again. And now we're going through it the third time with Gigsawork, our enterprise product that we're targeting at enterprises that operate either in one or multiple markets, have a few hundred employees or more. And we allow them to embed the phone plan directly into their IT stack. So when an employee is provisioned on the HRS system and their Slack, Okta, and Gmail's provision, the phone number is provisioned in the same way in real time. And then also disconnected when the employee leaves. And we're in an inasancy of that product, but we're now also seeing a repeatable motion. So we're kind of carefully in the early stages of product market fit a third time. And we have a couple more verticals out of us.",
+          "speaker": "Hermann Frank"
+        },
+        {
+          "seg": 18,
+          "t": [
+            582,
+            591
+          ],
+          "quote": "So it was my co-founder, Dennis and I, and Dennis and I are now co-founders on Gigs. And we had one intern, like a friend that was like helping us.",
+          "speaker": "Hermann Frank"
+        },
+        {
+          "seg": 26,
+          "t": [
+            670,
+            675
+          ],
+          "quote": "Not paid, just users. That's how we came to Gigs when we tried to figure out the paid part.",
+          "speaker": "Hermann Frank"
+        },
+        {
+          "seg": 36,
+          "t": [
+            860,
+            912
+          ],
+          "quote": "Exactly. We would have to do a lot of hard work to produce that outcome. But we understood if we can produce that outcome, the same thing that happened with AWS and hosting and Stripe and payments will happen in telecom. Basically everything that's net new is going to be built on top of that infrastructure. And then you kind of capture all of net new demand in one of the world's largest industries and pretty much all of net new innovation in one of the world's largest industries. And like that prospect for us is like, okay, like you can build a globally dominant horizontal player, like a global network if you start at the API layer and you eat your way down from there. So that's how the idea for GIGS came about.",
+          "speaker": "Hermann Frank"
+        },
+        {
+          "seg": 39,
+          "t": [
+            923,
+            928
+          ],
+          "quote": "Yeah, sorry. I mean, at that point, right? So not the original idea, but like the first version of what GIGS is today.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 40,
+          "t": [
+            928,
+            941
+          ],
+          "quote": "That was the first version of GIGS and that was like what we then started out to do. And we completely put aside the Wi-Fi business and like the cellular network business and focused exclusively on building the API.",
+          "speaker": "Hermann Frank"
+        },
+        {
+          "seg": 48,
+          "t": [
+            1104,
+            1133
+          ],
+          "quote": "So the Gigs idea came like I'd say around mid-2020. Then we spent a couple months like talking to market, understanding, building a real thesis around it. And then we applied to YC like at the end of 2020 and we got into YC for the winter 21 batch. So we January to March we did YC and that's where we started building the product for real. And we launched commercially at the end of 21.",
+          "speaker": "Hermann Frank"
+        },
+        {
+          "seg": 61,
+          "t": [
+            1324,
+            1371
+          ],
+          "quote": "But it's also while it is more forgiving it's also the perfect example of what you kind of mentioned there which is this smaller niche market but that has a very sharp pain point. I mean when you're dealing with 30 to 40% returns your business is not working fundamentally. You'll do anything to you'll try anything frankly to solve that which is different a little bit than kind of where you're going to move to and we're going to talk about that now but you know you become an enabler right? You're like hey I'm a fintech you want to have a new revenue stream you plug Gigs in and you kind of sell this mobile service and the market is much bigger but at least at first I don't know if the pain is as sharp as this smartwatch thing which you needed because probably your product at that point was not at the same level in terms of production and in terms of feature rich and whatever so it was good enough for them maybe not good enough for everybody else but really got you going.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 79,
+          "t": [
+            2123,
+            2126
+          ],
+          "quote": "I like that what would that look like for Gigs",
+          "speaker": "Pablo Srugo"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": true,
+      "how_described": "本集把它说成 Gigs 的叙事模板（『做手机套餐的 Stripe』），并提到不少早期 Stripe 员工因此加入 Gigs。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            758,
+            850
+          ],
+          "quote": "Exactly. So we got gigabits upon gigabits of like free backhaul capacity out of it. And then about a year in, we're like, hey, this is clearly working. Like what are we going to do with it? Like we had plans to scale this to like 10 other markets. And we like tried to figure out how to monetize the best. And the idea was we're only in two neighborhoods. We don't have a desire to like cover the entire city. Like that's where... Like tourists are mostly here. And what we wanted to achieve is that you could buy an eSIM. And when you're within reach of our network, you would roam on our network and we would not pay anything for the traffic. But when you're not, you could roam on the national LTE network. And we were very much expecting to find an API to allow us to provision a device on the network and then tie in ourselves. So basically like a Stripe-like experience and telecoms, if you will. And it didn't exist. And we were very surprised as to why that doesn't exist. So like that kind of let us down a rabbit hole. And we understood that the industry just like was not able to produce this like developer experience, like this horizontal developer experience that we've kind of came to be used in pretty much every other industry, like hosting, payments, right? Like you just have an API for pretty much everything. And once we understood why and like what would happen if we would solve it, we understood, okay, this is the biggest problem we've ever seen.",
+          "speaker": "Hermann Frank"
+        },
+        {
+          "seg": 36,
+          "t": [
+            860,
+            912
+          ],
+          "quote": "Exactly. We would have to do a lot of hard work to produce that outcome. But we understood if we can produce that outcome, the same thing that happened with AWS and hosting and Stripe and payments will happen in telecom. Basically everything that's net new is going to be built on top of that infrastructure. And then you kind of capture all of net new demand in one of the world's largest industries and pretty much all of net new innovation in one of the world's largest industries. And like that prospect for us is like, okay, like you can build a globally dominant horizontal player, like a global network if you start at the API layer and you eat your way down from there. So that's how the idea for GIGS came about.",
+          "speaker": "Hermann Frank"
+        },
+        {
+          "seg": 37,
+          "t": [
+            912,
+            915
+          ],
+          "quote": "So the Stripe for telco was kind of the original idea.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 38,
+          "t": [
+            915,
+            923
+          ],
+          "quote": "Well, the Stripe for telco was what we discovered while building hardware and building Wi-Fi networks.",
+          "speaker": "Hermann Frank"
+        },
+        {
+          "seg": 80,
+          "t": [
+            2126,
+            2206
+          ],
+          "quote": "so we were lucky in the beginning we had Stripe like Stripe was our projection we're building Stripe for phone plans that was the tagline that was the story and that resonated really well and quite early on we had quite a few people from Stripe call on board as team members they were early at Stripe and they saw the same thing this reminds me a lot of Stripe in its early days and they understood what this should be and what this could be the more we progressed the more this became kind of a real story arc and it's like only relatively recently where we said okay we kind of understand the market more now and there is more depth that we can go into where like that started kind of we can now start telling our own story and our own vision of the world but for the longest period we just used another highly successful company that we truly believe is a parallel to what we're building as an example and that allow people that don't understand much about telecom to understand okay yeah if they can make this work the mechanics work a similar way it's a similarly complex industry then they will be able to build a massive company so just use an existing example",
+          "speaker": "Hermann Frank"
+        },
+        {
+          "seg": 84,
+          "t": [
+            2375,
+            2440
+          ],
+          "quote": "I'd say one of the other things that has worked really well for us is hire people who came up with the people working at your target customers we hire a lot of X-stripes the stripe mafia is everywhere they work in pretty much every company want their decision makers there so if you have someone who can go to 30 50 percent of your target list and they are well known and respected and trusted everybody is going to take a call everybody is going to listen and if you're in a competitive process you might have an advantage and trust as well this multi threading multi altitude in combination with having people who came up with the people that you want to work with is why we win as many deals as we do and you the listener will have but if you have a great product and do these things worked really well for us",
+          "speaker": "Hermann Frank"
+        }
+      ]
+    },
+    {
+      "id": "at-t",
+      "type": "company",
+      "role": "company",
+      "name": "AT&T",
+      "file": "AT&T",
+      "primary": true,
+      "how_described": "本集说 Gigs 借聚合商的增长数据敲开运营商大门后，拿到的第一份运营商直签合同就来自 AT&T——世界上最大的运营商之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            941,
+            970
+          ],
+          "quote": "This is what I always find especially challenging when an idea depends on you bringing large enterprises into play as a tiny, you know, little startup with no credibility, no name, you know, relatively no funding. What you need to do is clear. The opportunity is relatively clear. What's the first step? Like how are you going to go and knock on, you know, I don't know who you need to get AT&T, whatever the big, you know, telecos that you need to get to play with you. How do you even approach them? Or is there a step before that step?",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 42,
+          "t": [
+            970,
+            1015
+          ],
+          "quote": "And so when we started telling people that that's what we want to do, like, and we started talking to first investors, we got no's left and right because they didn't talk to their buddy at like AT&T or to telecom and other funds. It's like, yeah, no carrier will ever let them do this, right? Like this is, this is not possible. People have tried and yada, yada. So we kind of had to chew our way through it. Like the way we actually got our first deal done was not even with a carrier because they wouldn't talk to us. So that part was actually true initially. We found an aggregator that was behind on their commitments with the network and we integrated there and we built the first version of the product on that aggregator with terrible economics, right? We didn't make any money on that.",
+          "speaker": "Hermann Frank"
+        },
+        {
+          "seg": 46,
+          "t": [
+            1046,
+            1088
+          ],
+          "quote": "Exactly. We were just able to plug into the same integration that they had and for the first use case we had, it worked fine. Like, it would never work for like what we're doing today but like it worked fine for that kids' smartwatch use case. And then we started onboarding customers there and we went to the network and said like, hey, we build a product like on your network and like here's what it does and here's like where we are. And they saw the growth. Like they were wondering where is the growth coming from this aggregator that was like relatively flat. So that got us into the door to get our very first deal with the carrier. And lucky for us, it was AT&T, one of the largest carriers in the world.",
+          "speaker": "Hermann Frank"
+        },
+        {
+          "seg": 71,
+          "t": [
+            1658,
+            1682
+          ],
+          "quote": "makes a lot of sense and do you find the offering is any different like for example I'm thinking in terms of the credit card that I have from Wealthsimple has no foreign exchange fees or whatever so it becomes a more global credit card which I think is a pretty common offering for these guys are you seeing the same things in plans where you can use it from anywhere in the world or are the terms of the plans pretty similar to what you would get from AT&T T-Mobile directly",
+          "speaker": "Pablo Srugo"
+        }
+      ]
+    },
+    {
+      "id": "revolut",
+      "type": "company",
+      "role": "company",
+      "name": "Revolut",
+      "file": "Revolut",
+      "primary": true,
+      "how_described": "本集说 Gigs 与 Revolut 在英国合作推出了『英国最好的手机套餐』：本地不限流量、欧盟漫游额度、全球漫游和短信包，还能用 Rev 积分付账单。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            123,
+            259
+          ],
+          "quote": "So we had several product market fit moments. The very first was our first vertical. It was kids' smartwatches at the time. Very serendipitous. Indipitous first customer came through one of our advisors. And it was a great way to, like, find this niche to serve first. They had massive problems with SIM cards, returns of the devices, and monetizing the subscriptions. So we've built a product quite custom to that specific customer vertical. But it allowed us to build the very first version of Gigs and the API and integrations into carriers and paid for our seed in Series A. And we kept just going down the list of customers. And about a year in, we ended up powering most of the players in the market. And it kind of showed us, okay, like, there's definitely something there. And we found a repeatable motion. And then the next time was when we started targeting fintechs, which was our first real, like, consumer primary use case smartphone vertical. And NewBank was the very first customer in the fintech vertical. And then we kept repeating that again and again. We had Klarna and Revolut and so on. And it's, okay, we're winning over 90% of deals. Currently, we have product market fit. Once the services started launching in the last year and earlier this year, revenue skyrocketed. So we kind of understood, okay, we made it again. And now we're going through it the third time with Gigsawork, our enterprise product that we're targeting at enterprises that operate either in one or multiple markets, have a few hundred employees or more. And we allow them to embed the phone plan directly into their IT stack. So when an employee is provisioned on the HRS system and their Slack, Okta, and Gmail's provision, the phone number is provisioned in the same way in real time. And then also disconnected when the employee leaves. And we're in an inasancy of that product, but we're now also seeing a repeatable motion. So we're kind of carefully in the early stages of product market fit a third time. And we have a couple more verticals out of us.",
+          "speaker": "Hermann Frank"
+        },
+        {
+          "seg": 70,
+          "t": [
+            1483,
+            1658
+          ],
+          "quote": "yes so fintechs most of like in developed markets they're successful because they've been able to build a user experience that is much better than a traditional bank's user experience they attract a certain type of clientele mostly you know like it's a generational kind of cut right like millennials gen z would much rather prefer to bank on an app that allows it to do things in a couple clicks and really cares about customer experience and they already have KYC these are like the most regulated industries telecom and finance they are your payment methods so you can build the most simple way to activate a subscription psychologically they're very similar like they're both kind of wallet products so you don't leave your house without your wallet without your phone so they're kind of a great psychological from a consumer psychology standpoint fit and then there is a they will become mainstream one they're maturing like the market is maturing like they've grown a lot but like now you see kind of maturing growth curves so they're looking for ways to gain primacy to gain loyalty and to gain additional revenue streams and ideally to create a kind of a portfolio effect right like an ecosystem that benefits their customers maximally and that is a great addition to that ecosystem is the first thing you pay even if you don't have money like people pay their mobile bill before they pay rent it's 12 transactions per year that you have it's a service that you use every second of every day basically and then there is another component carriers never wanted to finance phones they've become reluctant financiers of phones 30 years ago because that was the only way to sell you a subscription and they don't want that business they want to get rid of it banks on the other end they want incremental business lines with their customers so they want that additional loan they want that additional touch point with their customer so ultimately they were not able to do it because they couldn't sell a subscription alongside with the phone now for the first time they can do both they can sell you the phone and the subscription in a bundle they can add other loyalty mechanisms from their ecosystem for cash app for example you get cash app green for free if you are a subscriber like Revolut in the UK you can pay with rev points you can pay your phone bill with rev points now so these make it unique so structurally a bank will be much better position to serve your things to offer you and because for them this is a compounding portfolio product versus a singular touch point that",
+          "speaker": "Hermann Frank"
+        },
+        {
+          "seg": 72,
+          "t": [
+            1682,
+            1762
+          ],
+          "quote": "so most of our customers offer highly competitive to high value phone plans for example the plans we have with Revolut in the UK it's arguably the best phone plan in the UK you have unlimited data in the UK on the best network there you have very generous allowance of roaming data in the EU which the UK typically doesn't have anymore since they exited and you have a quite generous allowance of global roaming as well with the messaging pass and that all comes pre-bundled in a highly affordable price and that's something we were able to structure because we control both the roaming setup we control the local setup and Revolut is then able to plug in their ecosystem to give it more advantages like there's a VPN included and other features as well in the US Cash App has one of the most attractive plans in the US it's the first truly unlimited plan in the US and it's a plan that also has roaming allowances and that's something you can every one of our customers can decide to package anywhere they want depending on what they're trying to do and what they're trying to",
+          "speaker": "Hermann Frank"
+        }
+      ]
+    },
+    {
+      "id": "klarna",
+      "type": "company",
+      "role": "company",
+      "name": "Klarna",
+      "file": "Klarna",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            123,
+            259
+          ],
+          "quote": "So we had several product market fit moments. The very first was our first vertical. It was kids' smartwatches at the time. Very serendipitous. Indipitous first customer came through one of our advisors. And it was a great way to, like, find this niche to serve first. They had massive problems with SIM cards, returns of the devices, and monetizing the subscriptions. So we've built a product quite custom to that specific customer vertical. But it allowed us to build the very first version of Gigs and the API and integrations into carriers and paid for our seed in Series A. And we kept just going down the list of customers. And about a year in, we ended up powering most of the players in the market. And it kind of showed us, okay, like, there's definitely something there. And we found a repeatable motion. And then the next time was when we started targeting fintechs, which was our first real, like, consumer primary use case smartphone vertical. And NewBank was the very first customer in the fintech vertical. And then we kept repeating that again and again. We had Klarna and Revolut and so on. And it's, okay, we're winning over 90% of deals. Currently, we have product market fit. Once the services started launching in the last year and earlier this year, revenue skyrocketed. So we kind of understood, okay, we made it again. And now we're going through it the third time with Gigsawork, our enterprise product that we're targeting at enterprises that operate either in one or multiple markets, have a few hundred employees or more. And we allow them to embed the phone plan directly into their IT stack. So when an employee is provisioned on the HRS system and their Slack, Okta, and Gmail's provision, the phone number is provisioned in the same way in real time. And then also disconnected when the employee leaves. And we're in an inasancy of that product, but we're now also seeing a repeatable motion. So we're kind of carefully in the early stages of product market fit a third time. And we have a couple more verticals out of us.",
+          "speaker": "Hermann Frank"
+        }
+      ]
+    },
+    {
+      "id": "newbank",
+      "type": "company",
+      "role": "company",
+      "name": "NewBank",
+      "file": "NewBank",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            123,
+            259
+          ],
+          "quote": "So we had several product market fit moments. The very first was our first vertical. It was kids' smartwatches at the time. Very serendipitous. Indipitous first customer came through one of our advisors. And it was a great way to, like, find this niche to serve first. They had massive problems with SIM cards, returns of the devices, and monetizing the subscriptions. So we've built a product quite custom to that specific customer vertical. But it allowed us to build the very first version of Gigs and the API and integrations into carriers and paid for our seed in Series A. And we kept just going down the list of customers. And about a year in, we ended up powering most of the players in the market. And it kind of showed us, okay, like, there's definitely something there. And we found a repeatable motion. And then the next time was when we started targeting fintechs, which was our first real, like, consumer primary use case smartphone vertical. And NewBank was the very first customer in the fintech vertical. And then we kept repeating that again and again. We had Klarna and Revolut and so on. And it's, okay, we're winning over 90% of deals. Currently, we have product market fit. Once the services started launching in the last year and earlier this year, revenue skyrocketed. So we kind of understood, okay, we made it again. And now we're going through it the third time with Gigsawork, our enterprise product that we're targeting at enterprises that operate either in one or multiple markets, have a few hundred employees or more. And we allow them to embed the phone plan directly into their IT stack. So when an employee is provisioned on the HRS system and their Slack, Okta, and Gmail's provision, the phone number is provisioned in the same way in real time. And then also disconnected when the employee leaves. And we're in an inasancy of that product, but we're now also seeing a repeatable motion. So we're kind of carefully in the early stages of product market fit a third time. And we have a couple more verticals out of us.",
+          "speaker": "Hermann Frank"
+        }
+      ]
+    },
+    {
+      "id": "cash-app",
+      "type": "company",
+      "role": "company",
+      "name": "Cash App",
+      "file": "Cash App",
+      "primary": true,
+      "how_described": "本集说 Cash App 通过 Gigs 在美国推出了首个真正的不限量手机套餐，订阅用户还免费获得 Cash App Green。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            1483,
+            1658
+          ],
+          "quote": "yes so fintechs most of like in developed markets they're successful because they've been able to build a user experience that is much better than a traditional bank's user experience they attract a certain type of clientele mostly you know like it's a generational kind of cut right like millennials gen z would much rather prefer to bank on an app that allows it to do things in a couple clicks and really cares about customer experience and they already have KYC these are like the most regulated industries telecom and finance they are your payment methods so you can build the most simple way to activate a subscription psychologically they're very similar like they're both kind of wallet products so you don't leave your house without your wallet without your phone so they're kind of a great psychological from a consumer psychology standpoint fit and then there is a they will become mainstream one they're maturing like the market is maturing like they've grown a lot but like now you see kind of maturing growth curves so they're looking for ways to gain primacy to gain loyalty and to gain additional revenue streams and ideally to create a kind of a portfolio effect right like an ecosystem that benefits their customers maximally and that is a great addition to that ecosystem is the first thing you pay even if you don't have money like people pay their mobile bill before they pay rent it's 12 transactions per year that you have it's a service that you use every second of every day basically and then there is another component carriers never wanted to finance phones they've become reluctant financiers of phones 30 years ago because that was the only way to sell you a subscription and they don't want that business they want to get rid of it banks on the other end they want incremental business lines with their customers so they want that additional loan they want that additional touch point with their customer so ultimately they were not able to do it because they couldn't sell a subscription alongside with the phone now for the first time they can do both they can sell you the phone and the subscription in a bundle they can add other loyalty mechanisms from their ecosystem for cash app for example you get cash app green for free if you are a subscriber like Revolut in the UK you can pay with rev points you can pay your phone bill with rev points now so these make it unique so structurally a bank will be much better position to serve your things to offer you and because for them this is a compounding portfolio product versus a singular touch point that",
+          "speaker": "Hermann Frank"
+        },
+        {
+          "seg": 72,
+          "t": [
+            1682,
+            1762
+          ],
+          "quote": "so most of our customers offer highly competitive to high value phone plans for example the plans we have with Revolut in the UK it's arguably the best phone plan in the UK you have unlimited data in the UK on the best network there you have very generous allowance of roaming data in the EU which the UK typically doesn't have anymore since they exited and you have a quite generous allowance of global roaming as well with the messaging pass and that all comes pre-bundled in a highly affordable price and that's something we were able to structure because we control both the roaming setup we control the local setup and Revolut is then able to plug in their ecosystem to give it more advantages like there's a VPN included and other features as well in the US Cash App has one of the most attractive plans in the US it's the first truly unlimited plan in the US and it's a plan that also has roaming allowances and that's something you can every one of our customers can decide to package anywhere they want depending on what they're trying to do and what they're trying to",
+          "speaker": "Hermann Frank"
+        }
+      ]
+    },
+    {
+      "id": "yc",
+      "type": "company",
+      "role": "company",
+      "name": "YC",
+      "file": "YC",
+      "primary": false,
+      "how_described": "本集提到 Gigs 在 2020 年底申请并进入 YC 2021 冬季批次，在那里真正开始构建产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            1104,
+            1133
+          ],
+          "quote": "So the Gigs idea came like I'd say around mid-2020. Then we spent a couple months like talking to market, understanding, building a real thesis around it. And then we applied to YC like at the end of 2020 and we got into YC for the winter 21 batch. So we January to March we did YC and that's where we started building the product for real. And we launched commercially at the end of 21.",
+          "speaker": "Hermann Frank"
+        }
+      ]
+    },
+    {
+      "id": "product-market-fit",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品市场契合 (product market fit)",
+      "file": "产品市场契合",
+      "primary": true,
+      "how_described": "本集核心框架：Hermann 认为它是刻度不是开关，Gigs 经历了儿童手表、fintech、Gigs Work 三次垂直市场契合，创始人总倾向过早宣布达成。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            61,
+            73
+          ],
+          "quote": "That's product market fit. Product market fit. Product market fit. I called it the product market fit question. Product market fit. Product market fit. Product market fit. Product market fit. I mean, the name of the show is product market fit.",
+          "speaker": "Previous Guests"
+        },
+        {
+          "seg": 3,
+          "t": [
+            73,
+            90
+          ],
+          "quote": "Do you think the product market fit show has product market fit? Because if you do, then there's something you just have to do. You have to take out your phone. You have to leave the show five stars. It lets us reach more founders and it lets us get better guests. Thank you. Hermann, welcome to the show, man.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 5,
+          "t": [
+            91,
+            123
+          ],
+          "quote": "Excited to have you here, man. So you've got a company called Gigs, which is like the OS for embedded telecoms. So, I mean, the simple way to think about it is anybody building anything can add Gigs into their product and offer, you know, mobile plans to their customers. So we're going to talk a lot about not just how you came up with that, but who is using that, who's the best customer, why they would want to do that and all those sort of things. You know, you raised your first round, I think, in 2021. You've raised $90 million since then. So off to a great start. Let's start with what we always do. For you, what was the product market fit moment? When did you feel like you'd found true product market fit and why?",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 6,
+          "t": [
+            123,
+            259
+          ],
+          "quote": "So we had several product market fit moments. The very first was our first vertical. It was kids' smartwatches at the time. Very serendipitous. Indipitous first customer came through one of our advisors. And it was a great way to, like, find this niche to serve first. They had massive problems with SIM cards, returns of the devices, and monetizing the subscriptions. So we've built a product quite custom to that specific customer vertical. But it allowed us to build the very first version of Gigs and the API and integrations into carriers and paid for our seed in Series A. And we kept just going down the list of customers. And about a year in, we ended up powering most of the players in the market. And it kind of showed us, okay, like, there's definitely something there. And we found a repeatable motion. And then the next time was when we started targeting fintechs, which was our first real, like, consumer primary use case smartphone vertical. And NewBank was the very first customer in the fintech vertical. And then we kept repeating that again and again. We had Klarna and Revolut and so on. And it's, okay, we're winning over 90% of deals. Currently, we have product market fit. Once the services started launching in the last year and earlier this year, revenue skyrocketed. So we kind of understood, okay, we made it again. And now we're going through it the third time with Gigsawork, our enterprise product that we're targeting at enterprises that operate either in one or multiple markets, have a few hundred employees or more. And we allow them to embed the phone plan directly into their IT stack. So when an employee is provisioned on the HRS system and their Slack, Okta, and Gmail's provision, the phone number is provisioned in the same way in real time. And then also disconnected when the employee leaves. And we're in an inasancy of that product, but we're now also seeing a repeatable motion. So we're kind of carefully in the early stages of product market fit a third time. And we have a couple more verticals out of us.",
+          "speaker": "Hermann Frank"
+        },
+        {
+          "seg": 7,
+          "t": [
+            259,
+            286
+          ],
+          "quote": "It's a recurring theme that I hear a lot when I ask about product market fit. I mean, a lot of people describe it as kind of on the scale versus kind of a switch, right? And I do think there's an element of both a little bit where you kind of tip over at some point. You're like, okay, we have product market fit. But it's also very true that the competitive landscape is changing, the technology is changing, the market's changing. And so you're never done. You always have to kind of rediscover and reattempt product market fit, even with each feature that you launched, you know, each feature can have or not have product market fit.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 8,
+          "t": [
+            286,
+            352
+          ],
+          "quote": "Yes, for sure. I think as founders, we often underestimate and like you kind of want it to be happening. It's this magical moment of like, I have a working company now. But I think the natural inclination of founders is to think that they have reached product market fit way earlier than they actually have. You need to have repeatable sales targeting the same ICP. You need to launch that ICP. You need to retain them, right? And you need to like do that over and over and over again. And so, yes, it's much more of a gradient where like you think you might have it and then you're like repeating the feeling of thinking you might have it. And then at some point when people are actually staying with your product and they're not turned off by it after a couple of weeks or months and you've been able to build a scalable sales motion, then you actually might have it. But in our case, and I think if there's similar companies out there, we just take it by like we have vertical market fit. We don't like we'll never have entire product market fit.",
+          "speaker": "Hermann Frank"
+        }
+      ]
+    },
+    {
+      "id": "founder-led-sales",
+      "type": "concept",
+      "role": "concept",
+      "name": "创始人主导销售 (founder-led sales)",
+      "file": "创始人主导销售",
+      "primary": true,
+      "how_described": "本集最后一条建议：早期没有声誉时只能靠创始人的信念去卖，交出销售后熵增会出现，应在合理范围内比别人劝你放手的时点更久地亲自卖。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            2613,
+            2747
+          ],
+          "quote": "but listen to why you also need to iterate but it's tough it's especially tough getting started and when you don't have reputation when you don't have references it is just you it's going to be your sales craft your conviction you need to believe 100% when you talk people need to hear with every fiber of your being you believe in your product and you will do everything you possibly as a customer because literally your life depends on it so it's a sheer force of will to get past these initial conversations and do not exit sales to relieve the founder like I'm a massive believer in founder led sales and to a point where maybe others telling you you shouldn't be doing this anymore like do it past that point but not like forever but the more you are like the moment we started exiting processes like you see entropy creeping and like no one is going to be as convincing and as quick on their feet as a founder you kind of need to sell a little bit ahead of time and no one has the mandate to do it more than the founder right you know which risk you're willing to take you know how far you're gonna bend reality on that particular sales call and it's on you your employees right your sales well like the very good ones will know how to emulate your bullishness or your your boss but like most people won't and so if you want to achieve the maximum outcomes stay on there as long as you can as long as it makes sense for the business because no one will be a",
+          "speaker": "Hermann Frank"
+        }
+      ]
+    },
+    {
+      "id": "aggregator",
+      "type": "concept",
+      "role": "concept",
+      "name": "聚合商 (aggregator)",
+      "file": "聚合商",
+      "primary": true,
+      "how_described": "本集说聚合商是先与运营商签大合同、再分给运营商懒得服务的小客户的市场参与者，Gigs 靠在其上搭产品并用增长数据把运营商吸引上门。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            970,
+            1015
+          ],
+          "quote": "And so when we started telling people that that's what we want to do, like, and we started talking to first investors, we got no's left and right because they didn't talk to their buddy at like AT&T or to telecom and other funds. It's like, yeah, no carrier will ever let them do this, right? Like this is, this is not possible. People have tried and yada, yada. So we kind of had to chew our way through it. Like the way we actually got our first deal done was not even with a carrier because they wouldn't talk to us. So that part was actually true initially. We found an aggregator that was behind on their commitments with the network and we integrated there and we built the first version of the product on that aggregator with terrible economics, right? We didn't make any money on that.",
+          "speaker": "Hermann Frank"
+        },
+        {
+          "seg": 43,
+          "t": [
+            1015,
+            1019
+          ],
+          "quote": "Dive deep around that. I'm not sure what that means. Who's like, what's the aggregator?",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 46,
+          "t": [
+            1046,
+            1088
+          ],
+          "quote": "Exactly. We were just able to plug into the same integration that they had and for the first use case we had, it worked fine. Like, it would never work for like what we're doing today but like it worked fine for that kids' smartwatch use case. And then we started onboarding customers there and we went to the network and said like, hey, we build a product like on your network and like here's what it does and here's like where we are. And they saw the growth. Like they were wondering where is the growth coming from this aggregator that was like relatively flat. So that got us into the door to get our very first deal with the carrier. And lucky for us, it was AT&T, one of the largest carriers in the world.",
+          "speaker": "Hermann Frank"
+        },
+        {
+          "seg": 47,
+          "t": [
+            1088,
+            1104
+          ],
+          "quote": "Yeah, the big one. Before moving on actually, if you don't mind, let's just dive a little bit deeper on that because you find the aggregator, first of all, just in terms of timelines, like started 2018 with the first idea. When does this kind of strive for telco's idea come and how long are you in this exploratory phase until you discover this aggregator?",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 49,
+          "t": [
+            1133,
+            1134
+          ],
+          "quote": "And when did you land this aggregator?",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 53,
+          "t": [
+            1161,
+            1175
+          ],
+          "quote": "And then how do you so that's the first half which is okay you get this aggregator like finally I have access to some amount of these networks some subset in terms of functionality or whatever. And then the smartwatch market like where does that you know tell me more about that where does that come from?",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 57,
+          "t": [
+            1253,
+            1258
+          ],
+          "quote": "And did you enable this globally like from day one that aggregator was that global coverage that you had or which markets?",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 65,
+          "t": [
+            1413,
+            1416
+          ],
+          "quote": "still on top of the aggregator or now you're going direct",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 66,
+          "t": [
+            1416,
+            1443
+          ],
+          "quote": "that was still on top of the aggregator like it took us actually quite a while like to get the first deal done and to migrate but we kind of improved the aggregator connection meanwhile like we had like very first smartphone use cases on the aggregator still the economics were just terrible and you didn't have like full feature set but it was pretty pretty decent in terms of like the sim card functionality the aggregator feature set was like not very versatile and tell",
+          "speaker": "Hermann Frank"
+        }
+      ]
+    },
+    {
+      "id": "enterprise-sales",
+      "type": "concept",
+      "role": "concept",
+      "name": "企业销售 (enterprise sales)",
+      "file": "企业销售",
+      "primary": true,
+      "how_described": "本集把它说成『与其说是销售术，不如说是政治手腕』：分层对接创始人、C 层、运营团队和开发者，形成 360 度覆盖，是 Gigs 赢下 90% 订单的原因。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            2206,
+            2238
+          ],
+          "quote": "and then jumping to the second kind of tactical piece which is around selling enterprise I mean you're selling some of the largest enterprises in the world I mean a lot of these fintechs are multi building all our companies you had this idea of like enterprise sales is less about salesmanship and more about statesmanship there's a lot of politics that come into play I'm thinking if you could think about a given customer that you closed and you don't have to share who it is so that we can go in a lot of detail and walk me through you know end to end how did you go from that name in a list somewhere of a customer you want to add and you finally closing that customer X amount of months later yeah",
+          "speaker": "Pablo Srugo"
+        }
+      ]
+    },
+    {
+      "id": "kyc",
+      "type": "concept",
+      "role": "concept",
+      "name": "KYC",
+      "file": "KYC",
+      "primary": false,
+      "how_described": "本集解释银行为什么适合卖手机套餐时提到：银行已完成最严格的 KYC，所以激活订阅比谁都简单。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            1483,
+            1658
+          ],
+          "quote": "yes so fintechs most of like in developed markets they're successful because they've been able to build a user experience that is much better than a traditional bank's user experience they attract a certain type of clientele mostly you know like it's a generational kind of cut right like millennials gen z would much rather prefer to bank on an app that allows it to do things in a couple clicks and really cares about customer experience and they already have KYC these are like the most regulated industries telecom and finance they are your payment methods so you can build the most simple way to activate a subscription psychologically they're very similar like they're both kind of wallet products so you don't leave your house without your wallet without your phone so they're kind of a great psychological from a consumer psychology standpoint fit and then there is a they will become mainstream one they're maturing like the market is maturing like they've grown a lot but like now you see kind of maturing growth curves so they're looking for ways to gain primacy to gain loyalty and to gain additional revenue streams and ideally to create a kind of a portfolio effect right like an ecosystem that benefits their customers maximally and that is a great addition to that ecosystem is the first thing you pay even if you don't have money like people pay their mobile bill before they pay rent it's 12 transactions per year that you have it's a service that you use every second of every day basically and then there is another component carriers never wanted to finance phones they've become reluctant financiers of phones 30 years ago because that was the only way to sell you a subscription and they don't want that business they want to get rid of it banks on the other end they want incremental business lines with their customers so they want that additional loan they want that additional touch point with their customer so ultimately they were not able to do it because they couldn't sell a subscription alongside with the phone now for the first time they can do both they can sell you the phone and the subscription in a bundle they can add other loyalty mechanisms from their ecosystem for cash app for example you get cash app green for free if you are a subscriber like Revolut in the UK you can pay with rev points you can pay your phone bill with rev points now so these make it unique so structurally a bank will be much better position to serve your things to offer you and because for them this is a compounding portfolio product versus a singular touch point that",
+          "speaker": "Hermann Frank"
+        }
+      ]
+    },
+    {
+      "id": "esim",
+      "type": "concept",
+      "role": "concept",
+      "name": "eSIM",
+      "file": "eSIM",
+      "primary": false,
+      "how_described": "本集说 Gigs 最初的想法是让用户买一张 eSIM，在自有 Wi-Fi 网络内免费漫游、覆盖外走全国 LTE 网络。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            758,
+            850
+          ],
+          "quote": "Exactly. So we got gigabits upon gigabits of like free backhaul capacity out of it. And then about a year in, we're like, hey, this is clearly working. Like what are we going to do with it? Like we had plans to scale this to like 10 other markets. And we like tried to figure out how to monetize the best. And the idea was we're only in two neighborhoods. We don't have a desire to like cover the entire city. Like that's where... Like tourists are mostly here. And what we wanted to achieve is that you could buy an eSIM. And when you're within reach of our network, you would roam on our network and we would not pay anything for the traffic. But when you're not, you could roam on the national LTE network. And we were very much expecting to find an API to allow us to provision a device on the network and then tie in ourselves. So basically like a Stripe-like experience and telecoms, if you will. And it didn't exist. And we were very surprised as to why that doesn't exist. So like that kind of let us down a rabbit hole. And we understood that the industry just like was not able to produce this like developer experience, like this horizontal developer experience that we've kind of came to be used in pretty much every other industry, like hosting, payments, right? Like you just have an API for pretty much everything. And once we understood why and like what would happen if we would solve it, we understood, okay, this is the biggest problem we've ever seen.",
+          "speaker": "Hermann Frank"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

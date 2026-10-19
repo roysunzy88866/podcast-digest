@@ -303,7 +303,9 @@
     "ZGzthw4BZiA": "2026-10-11-talks-build-with-perception-agents-emile-baize",
     "_naLJOqVOEI": "2026-10-11-talks-same-model-different-speed-why-your-infe",
     "aV_vgUSatqs": "2026-10-11-talks-burn-your-flags-interactive-clis-for-age",
-    "ZyC56eV8sVw": "2026-10-11-talks-ai-security-engineer-foundations-certifi"
+    "ZyC56eV8sVw": "2026-10-11-talks-ai-security-engineer-foundations-certifi",
+    "bI8WyG9YB0I": "2026-10-11-talks-sonarqube-openai-agentic-development-kil",
+    "j4AmIK6OvHc": "2026-10-11-talks-latency-is-a-budget-humanlike-is-the-goa"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
@@ -320,7 +322,8 @@
     "2026-09-15-talks-5-voice-agent-failure-modes-you-ll-hit-i": 1,
     "2026-09-21-lennys-how-warp-ships-2000-prs-a-month-with": 1,
     "2026-10-06-knowledge-charlie-munger-s-interview-with-todd-com": 1,
-    "2026-10-06-ainativedev-legora-cto-why-ai-agents-need-more-than": 1
+    "2026-10-06-ainativedev-legora-cto-why-ai-agents-need-more-than": 1,
+    "2026-10-19-sourcery-apollos-yahoo-playbook--5-years-after-th": 1
   },
   "redoDone": {
     "2026-10-02-nopriors-the-future-of-frontier-model-architectur": "feed 里已找不到",
@@ -621,7 +624,7 @@
   "cutoffs": {
     "lennys": "2026-10-18T12:31:36.000Z",
     "pg": "2026-10-14T22:00:44.000Z",
-    "a16z": "2026-10-18T10:00:00.000Z",
+    "a16z": "2026-10-19T10:00:00.000Z",
     "yc": "2026-09-26T15:10:19.000Z",
     "mad": "2026-10-15T11:30:01.000Z",
     "trainingdata": "2026-10-13T09:00:00.000Z",
@@ -648,7 +651,7 @@
     "eyeonai": "2026-10-16T14:00:00.000Z",
     "indepth": "2026-08-27T11:00:00.000Z",
     "uncapped": "2026-10-01T09:00:00.000Z",
-    "pmf": "2026-10-12T09:00:00.000Z",
+    "pmf": "2026-10-19T09:00:00.000Z",
     "cheekypint": "2026-10-15T11:50:00.000Z",
     "productpodcast": "2026-10-14T19:00:00.000Z",
     "ainativedev": "2026-10-13T12:00:00.000Z",
@@ -1726,6 +1729,24 @@
       "reason": "跨源重复:与库内《20VC: Horizontal vs Vertical Agents: Who Wins | Model Routing: Commodity or Increasing in Value | The Future of the Inference Market | Why Founders Should Take Discounts for Tier 1 Firms with Harrison Chase, LangChain》同题,不重做(先到者留;误杀可删账本条目重放)",
       "title": "20VC: Horizontal vs Vertical Agents: Who Wins | Model Routing: Commodity or Increasing in Value | The Future of the Inference Market | Why Founders Should Take Discounts for Tier 1 Firms with Harrison Chase, LangChain",
       "pubDate": "2026-10-18T22:37:00.000Z"
+    },
+    {
+      "id": "2026-10-19-lennys-claude-cuts-my-tiktok-how-this-creator",
+      "reason": "跨源重复:与库内《“Claude cuts my TikTok”: How this creator is scaling video with AI | Brooke Lacey》同题,不重做(先到者留;误杀可删账本条目重放)",
+      "title": "“Claude cuts my TikTok”: How this creator is scaling video with AI | Brooke Lacey",
+      "pubDate": "2026-10-19T12:04:52.000Z"
+    },
+    {
+      "id": "2026-10-19-a16z-what-happens-when-al-agents-can-spend-yo",
+      "reason": "导读/实体事实层未过(删句兜底删不下,重做一次浓缩后仍未过)",
+      "title": "What Happens When Al Agents Can Spend Your Money?",
+      "pubDate": "2026-10-19T10:00:00.000Z"
+    },
+    {
+      "id": "2026-10-19-sourcery-apollos-yahoo-playbook--5-years-after-th",
+      "reason": "导读/实体事实层未过(删句兜底删不下,重做一次浓缩后仍未过)",
+      "title": "Apollo’s Yahoo Playbook, 5 Years After the $5B Deal",
+      "pubDate": "2026-10-19T10:06:54.000Z"
     }
   ]
 }

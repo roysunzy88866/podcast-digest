@@ -1,0 +1,185 @@
+{
+  "title_zh": "当AI写代码写得飞快，谁来检查它写对了没有？",
+  "tldr": "OpenAI Codex 部署工程师与 Sonar 的 Killian Carlsen-Phelan 讲如何给 AI 编程代理套上验证的缰绳。",
+  "digest_md": "当 AI 代理替你写代码已经不成问题，==真正的问题变成了：你怎么知道它写的是安全的==？这场演讲里，OpenAI 的部署工程团队先给出三条原则，Sonar 的开发者内容工程师 Killian Carlsen-Phelan 再现场演示了如何用 SonarQube 插件把 Codex 的输出管起来。\n\n## 完成必须带着证据\n\nOpenAI 方面的开场人抛出了三条核心主张。第一条：代理说任务完成了，不等于完成了——**完成意味着拿出证据，比如一个可审查的代码改动、能通过编译和测试**，而不是只回一句修好了[01:31 Unknown]。\n\n更麻烦的是关联失败：代理常见的翻车方式，要么是上下文不全，要么是局部修复破坏了全局约束，要么是它自己生成的测试把同样的缺陷又验证了一遍。所以自我检查有用，但不是独立的裁判，要主动去找反证——编译器怎么说？测试怎么说？[02:30 Unknown]\n\n## 沙箱关得住它，但证明不了它对\n\n第二条原则：**限制不等于正确**。沙箱可以限制代理能写什么文件、能用什么工具，但「沙箱能拦住一次写入，却不能证明一条查询是安全的」[03:22 Unknown]。正确做法是层层设防：执行层管它能做什么，产物层管它做出来的东西是否合格，而最终要不要上线，决定权始终在人手里。\n\n第三条：反馈机制要放在循环内部，通过技能（skill）、MCP 工具和钩子（hook）在代理工作的每一步都做检查，比如拦截写死的密钥。\n\n## 瓶颈已经从写代码挪到了查代码\n\nKillian 接棒，给出了 Sonar 的调研数据：超过 1000 名开发者受访，42% 已提交的代码是 AI 生成或辅助的，但 96% 的开发者并不完全信任它——而只有不到一半的人会在合并前完整验证 [07:02 Unknown]。\n\n没人信它，却有大量不被信任的代码进了代码库。原因很简单：**过去写代码是瓶颈，现在 AI 把这一步基本解决了，瓶颈挪到了验证上**。人查不过来，就得靠工具。\n\n## 四步循环：生成、引导、验证、解决\n\nSonar 提出的**以代理为中心的开发循环分四步**：生成（交给 Codex 这类工具）、引导（把项目规范、架构等高质量上下文喂给代理，还能省下不少令牌开销）、验证（代码一写完就查安全和质量问题）、解决（发现问题立刻修复），如此迭代 [08:24 Unknown]。\n\n验证还要分内外两个循环：外循环是传统的 CI 流水线，推送、跑测试、失败、回去改、再推送——Killian 直言这是很多开发者的噩梦。内循环则是把验证左移到编辑器里，代码生成完当场验证，不用来回折腾。\n\n## 一个 90 天才能消失的密钥\n\n演示用的是不到 200 行的 Python 小项目，Killian 在里面埋了 4 个问题。SonarQube 一扫，安全评级直接给了最低的 E。\n\n其中一个问题是把 OpenAI API 密钥明文写在了源代码里——Killian 坦言自己也犯过这种错。他给出一个数字：公开仓库里泄露的密钥，平均要 90 天才会被处理，期间任由爬虫抓取 [17:09 Unknown]。\n\n另一个是 SQL 注入：查询参数从命令行一路传进拼接的字符串。==谁控制了命令行参数，谁就控制了你的数据库==。SonarQube 用污点分析追踪数据从源头到汇点的完整路径，把这类问题揪出来。\n\n## 装上插件之后发生了什么\n\n现场演示里，Codex 装上 SonarQube 插件后有几层防护。密钥检测钩子会在代理试图读取含密钥的文件时直接拦截——密钥既不进模型上下文，也不进日志 [27:35 Unknown]。不过 Killian 也坦率承认，这个钩子挂在工具调用上，如果代理自己写脚本绕过去读文件，理论上可以绕过。\n\n验证分两档：有代理分析功能的话，代理每改一次文件，服务端立刻扫描，确认修复没引入新问题——用 Killian 的话说，免得修一个问题冒出三个，像打九头蛇。免费版没有这个功能，那就等下次 CI 推送时再验。另一项上下文增强则在代理动手前把项目规范和架构喂给它。\n\n针对 AI 时代，Sonar 还专门写了一条规则 S8702：**不让 AI 代理写出会被别的代理利用的代码** [35:19 Unknown]。现场演示让 Codex 修掉这个问题，它给出了参数化查询，扫描通过，闭环完成。\n\n## 本集带走\n\n- 完成的定义是：拿出可验证的证据，而不是代理说一句修好了。\n- 沙箱管得住权限，管不住正确性；验证要分层，最终上线决定权在人。\n- 瓶颈已从代码生成转移到代码验证：42% 的提交代码由 AI 参与生成，但 96% 的开发者不完全信任它。\n- 把验证从 CI 外循环左移到编辑器内循环，能在代码生成后当场发现问题。\n- 对 AI 生成代码要防的不只是漏洞，还有AI 写给 AI 利用的新型攻击面。",
+  "quotes": [
+    {
+      "en": "Cheaper implementations tend to shift the bottleneck to specification and verification, and that's really not what we're wanting to do.",
+      "zh": "更便宜的实现往往会把瓶颈转移到规范和验证上，而这真的不是我们想做的。",
+      "timestamp": "01:39",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "So self-critique is useful, but it's not an independent oracle, and we often tend to find that",
+      "zh": "自我批判是有用的，但它不是一个独立的 oracle,我们经常发现",
+      "timestamp": "02:13",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "So you typically want to almost seek out disconfirming evidence of a task being completed.",
+      "zh": "所以你通常想要几乎主动去寻找任务已完成的反证。",
+      "timestamp": "02:30",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "So a sandbox can contain a write, but it can't prove that a query is safe.",
+      "zh": "所以一个沙箱可以容纳一次写入，但它无法证明一个查询是安全的。",
+      "timestamp": "03:22",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "What I'm trying to get at is that no Oracle is proof and that you want to layer controls with different boundaries, sort of this defense in depth, these multi-layers of guardrails, that's sort of the overall idea.",
+      "zh": "我想说的是，没有任何 oracle 是证明，你需要用不同的边界来分层控制，有点像纵深防御，这些多层护栏，这大致是整体思路。",
+      "timestamp": "03:31",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "And we found that 42% of committed code is either AI-generated or AI-assisted.",
+      "zh": "我们发现 42% 的已提交代码要么是 AI 生成的，要么是 AI 辅助的。",
+      "timestamp": "07:02",
+      "speaker": "Killian Carlsen-Phelan"
+    },
+    {
+      "en": "So the bottleneck has shifted now from just code generation to code verification, right?",
+      "zh": "所以瓶颈现在已经从单纯的代码生成转移到了代码验证，对吧？",
+      "timestamp": "07:58",
+      "speaker": "Killian Carlsen-Phelan"
+    },
+    {
+      "en": "We have a massive amount of code being generated, but now it is up to the human limitation of, hey, how do I make sure that this is safe?",
+      "zh": "我们有海量的代码正在被生成，但现在这受制于人类的极限：“嘿，我如何确保这是安全的？”",
+      "timestamp": "08:04",
+      "speaker": "Killian Carlsen-Phelan"
+    },
+    {
+      "en": "This happens all the time, and a lot of times what happens is people accidentally push these into production code, and the average remediation time for a secret in a public repository is 90 days right now.",
+      "zh": "这种事经常发生，很多时候人们不小心把这些推到了生产代码里，而现在，公开仓库里一个密钥的平均修复时间是 90 天。",
+      "timestamp": "16:54",
+      "speaker": "Killian Carlsen-Phelan"
+    },
+    {
+      "en": "Your token is just sitting out there for all the world to see, all the bots to scrape for 90 days.",
+      "zh": "你的 token 就那么摆在那里，全世界都看得见，所有爬虫都能抓，长达 90 天。",
+      "timestamp": "17:11",
+      "speaker": "Killian Carlsen-Phelan"
+    },
+    {
+      "en": "That means that anybody who controls sys.orgv gets to control your database, right?",
+      "zh": "这意味着任何控制了 sys.argv 的人都能控制你的数据库，对吧？",
+      "timestamp": "18:08",
+      "speaker": "Killian Carlsen-Phelan"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "01:33",
+      "speaker": "Unknown",
+      "en": "It actually means saying fixed and providing the evidence supporting this fact.",
+      "zh": "它实际上意味着说“修复了”并提供支持这一事实的证据。"
+    },
+    {
+      "timestamp": "01:39",
+      "speaker": "Unknown",
+      "en": "Cheaper implementations tend to shift the bottleneck to specification and verification, and that's really not what we're wanting to do.",
+      "zh": "更便宜的实现往往会把瓶颈转移到规范和验证上，而这真的不是我们想做的。"
+    },
+    {
+      "timestamp": "02:13",
+      "speaker": "Unknown",
+      "en": "So self-critique is useful, but it's not an independent oracle, and we often tend to find that",
+      "zh": "自我批判是有用的，但它不是一个独立的 oracle,我们经常发现"
+    },
+    {
+      "timestamp": "02:25",
+      "speaker": "Unknown",
+      "en": "You can't determine whether a task is done without looking at both parts of it.",
+      "zh": "你无法在不查看两部分的情况下确定一个任务是否完成。"
+    },
+    {
+      "timestamp": "02:30",
+      "speaker": "Unknown",
+      "en": "So you typically want to almost seek out disconfirming evidence of a task being completed.",
+      "zh": "所以你通常想要几乎主动去寻找任务已完成的反证。"
+    },
+    {
+      "timestamp": "03:22",
+      "speaker": "Unknown",
+      "en": "So a sandbox can contain a write, but it can't prove that a query is safe.",
+      "zh": "所以一个沙箱可以容纳一次写入，但它无法证明一个查询是安全的。"
+    },
+    {
+      "timestamp": "03:31",
+      "speaker": "Unknown",
+      "en": "What I'm trying to get at is that no Oracle is proof and that you want to layer controls with different boundaries, sort of this defense in depth, these multi-layers of guardrails, that's sort of the overall idea.",
+      "zh": "我想说的是，没有任何 oracle 是证明，你需要用不同的边界来分层控制，有点像纵深防御，这些多层护栏，这大致是整体思路。"
+    },
+    {
+      "timestamp": "07:02",
+      "speaker": "Unknown",
+      "en": "And we found that 42% of committed code is either AI-generated or AI-assisted.",
+      "zh": "我们发现 42% 的已提交代码要么是 AI 生成的，要么是 AI 辅助的。"
+    },
+    {
+      "timestamp": "07:10",
+      "speaker": "Unknown",
+      "en": "But 96% of developers do not fully trust it, right?",
+      "zh": "但是 96% 的开发者并不完全信任它，对吧？"
+    },
+    {
+      "timestamp": "07:58",
+      "speaker": "Unknown",
+      "en": "So the bottleneck has shifted now from just code generation to code verification, right?",
+      "zh": "所以瓶颈现在已经从单纯的代码生成转移到了代码验证，对吧？"
+    },
+    {
+      "timestamp": "08:04",
+      "speaker": "Unknown",
+      "en": "We have a massive amount of code being generated, but now it is up to the human limitation of, hey, how do I make sure that this is safe?",
+      "zh": "我们有海量的代码正在被生成，但现在这受制于人类的极限：“嘿，我如何确保这是安全的？”"
+    },
+    {
+      "timestamp": "16:54",
+      "speaker": "Unknown",
+      "en": "This happens all the time, and a lot of times what happens is people accidentally push these into production code, and the average remediation time for a secret in a public repository is 90 days right now.",
+      "zh": "这种事经常发生，很多时候人们不小心把这些推到了生产代码里，而现在，公开仓库里一个密钥的平均修复时间是 90 天。"
+    },
+    {
+      "timestamp": "17:11",
+      "speaker": "Unknown",
+      "en": "Your token is just sitting out there for all the world to see, all the bots to scrape for 90 days.",
+      "zh": "你的 token 就那么摆在那里，全世界都看得见，所有爬虫都能抓，长达 90 天。"
+    },
+    {
+      "timestamp": "18:08",
+      "speaker": "Unknown",
+      "en": "That means that anybody who controls sys.orgv gets to control your database, right?",
+      "zh": "这意味着任何控制了 sys.argv 的人都能控制你的数据库，对吧？"
+    },
+    {
+      "timestamp": "27:48",
+      "speaker": "Unknown",
+      "en": "Codex never gets to look at any of your secrets or anything like that that are being leaked into your context.",
+      "zh": "Codex 永远无法看到你的任何密钥或任何泄露到你上下文中的东西。"
+    },
+    {
+      "timestamp": "35:23",
+      "speaker": "Unknown",
+      "en": "We do not want AI coding agents to write code that other agents are able to exploit.",
+      "zh": "我们不希望 AI 编码智能体编写出能被其他智能体利用的代码。"
+    },
+    {
+      "timestamp": "36:51",
+      "speaker": "Unknown",
+      "en": "I don't know about y'all, but I have been in coding sessions sometimes where I'm like, hey, fix this issue, and then three more kind of pop up, and I'm trying to fix those, and it's like trying to conquer a hydra where they just kind of propagate out.",
+      "zh": "我不知道你们怎么样，但我在编码会话中有时会遇到这种情况，我说，嘿，修复这个问题，然后又冒出来三个，我试图修复那些，就像试图征服九头蛇一样，它们不断繁殖蔓延。"
+    },
+    {
+      "timestamp": "38:04",
+      "speaker": "Unknown",
+      "en": "So we are able to find and fix and automatically verify new code as it comes into our workspace.",
+      "zh": "所以我们能够在进入工作区时发现、修复并自动验证新代码。"
+    }
+  ],
+  "voice_script": "你有没有想过一个问题：现在的 AI 写代码已经写得又快又好，可它写出来的代码，到底安不安全，谁来负责查？今天这一集，聊的就是这个事。\n\n先说说今天是谁。这期内容来自一场演讲，主角有两方：一边是 OpenAI 的部署工程团队，另一边是代码质量公司 Sonar 的开发者内容工程师 Killian Carlsen-Phelan。两边的视角刚好互补——OpenAI 那边天天看着 AI 编程代理在真实项目里干活，Sonar 那边专门干代码检查这行。他们要回答的，正是刚才那个问题：当 AI 代理替你写代码已经不成问题，真正的问题变成了，你怎么知道它写的是安全的。\n\n那这个问题是怎么来的呢？过去一年，Codex 这类编程代理突然普及，代码生成的速度猛地提上去了。但一个东西产出变快了，检查它的环节跟不上，麻烦就来了。所以 OpenAI 的人一上来就给了三条主张，先说第一条。\n\n第一条说的是“完成”这个词的定义。代理干完活，回你一句“修好了”，这不叫完成。完成意味着拿出证据——一份可以审查的代码改动，能通过编译，能通过测试。为什么非得这么较真？因为代理翻车的方式其实挺有规律的：要么是上下文不全，没看到全部相关信息；要么是修好了一处局部，却破坏了全局的约束；最隐蔽的一种，是它自己生成的测试，把同样的缺陷又验证了一遍——自己出题自己打分，当然全对。所以演讲里有句话说得挺重：自我检查有用，但它不是一个独立的裁判。你需要主动去寻找任务已完成的反证——编译器怎么说？测试怎么说？\n\n接着是第二条原则：限制不等于正确。这话什么意思？现在大家给 AI 代理干活，通常会把关进一个沙箱——限制它能写哪些文件、能用哪些工具。这个做法本身没错，但演讲里有句话说得很准：一个沙箱可以拦住一次写入，但它无法证明一条查询是安全的。换句话说，管得住权限，不等于管得住质量。那正确的做法是什么？是层层设防，有点像纵深防御：执行层管它能做什么，产物层管它做出来的东西合不合格，而最终要不要上线，这个决定权始终握在人手里。没有任何单一的裁判能一锤定音，你得用不同的边界来分层控制。\n\n第三条原则相对具体：反馈机制要放进代理的工作循环内部。通过技能、MCP 工具和钩子，在代理干活的每一步都做检查，比如看到它要写死一个密钥，直接拦下来。\n\n好，OpenAI 的三条原则说完了。那现实里的问题到底有多严重？这就轮到 Sonar 的 Killian 接棒了，先上一组数据。Sonar 调研了超过一千名开发者，结果发现：已经提交的代码里，42% 是 AI 生成或者 AI 辅助的；但与此同时，96% 的开发者并不完全信任这些代码。更矛盾的是，明明不信任，却只有不到一半的人会在合并之前做完整验证。\n\n你看这个组合有多拧巴：没人信它，却有大量不被信任的代码源源不断进了代码库。为什么会这样？原因其实很简单——过去写代码是瓶颈，人写不过来；现在 AI 把这一步基本解决了，瓶颈整个挪到了验证上。人查不过来，怎么办？就得靠工具。\n\n于是 Killian 给出一套具体的做法，叫以代理为中心的开发循环，分四步。第一步是生成，把活交给 Codex 这类工具；第二步是引导，把项目的规范、架构这些高质量上下文提前喂给代理，这样不光代码质量好，还能省下不少令牌开销；第三步是验证，代码一写完就查安全和质量问题；第四步是解决，发现问题立刻修复。这四步滚起来，就是一个不断迭代的循环。\n\n那验证本身放在哪儿做呢？这里还有讲究，分内外两个循环。外循环是传统的 CI 流水线：推送代码、跑测试、失败了、回去改、再推送——Killian 直说，这是很多开发者的噩梦。内循环则是把验证左移到编辑器里，代码生成完当场验证，省得来回折腾。\n\n说了这么多道理，该看真东西了。Killian 现场演示用的项目很小，一个不到两百行的 Python 小项目，里面埋了四个问题。SonarQube 一扫，安全评级直接给了最低的 E。\n\n其中第一个问题，是把 OpenAI 的 API 密钥明文写在了源代码里。Killian 坦言，这种错他自己也犯过。这里有个吓人的数字：公开仓库里泄露的密钥，平均要 90 天才会被处理，这期间，就任由爬虫随便抓取。\n\n另一个问题是经典的 SQL 注入：查询参数从命令行一路传进来，拼进了查询字符串。这意味着什么？谁控制了命令行参数，谁就控制了你的数据库。SonarQube 的办法是用污点分析，追踪数据从源头到汇点的完整路径，把这类问题揪出来。\n\n那把 SonarQube 装进 Codex 之后，到底发生了什么？现场演示里，这个插件给代理加了好几层防护。首先是密钥检测钩子：当代理试图去读一个含密钥的文件时，直接拦截——密钥既不进模型的上下文，也不进日志。不过 Killian 也很坦率，承认这个钩子是挂在工具调用上的，如果代理自己写个脚本绕过去读文件，理论上是可以绕过的。你看，这就回到了刚才 OpenAI 讲的第二条原则：限制不等于正确，没有哪一道防线是万能的。\n\n验证这块分两档。如果用的是带代理分析功能的版本，代理每改一次文件，服务端立刻扫描一遍，确认修复没引入新的问题。用 Killian 的话说，这是免得修一个问题冒出三个，像在打九头蛇。免费版没有这个功能，那就退而求其次，等下次 CI 推送的时候再验。另外还有一项上下文增强，在代理动手之前，就把项目规范和架构喂给它。\n\n最后还有个挺有意思的细节：针对 AI 时代的新情况，Sonar 专门写了一条规则，编号 S8702。这条规则防的不是传统的漏洞，而是一种新的攻击面——不让 AI 代理写出会被别的代理利用的代码。AI 写的代码，被另一个 AI 拿去当武器，这在以前是想象不到的事。现场演示让 Codex 把这个问题修掉，它给出的方案是参数化查询，再一扫描，通过了，整个闭环完成。\n\n回头看，这一集其实就说了一件事：AI 把写代码这个瓶颈解决了，把压力全推给了验证这一头。所以完成不能只听代理一句“修好了”，要拿出可验证的证据；沙箱管得住权限，管不住正确性，验证要分层，上线的决定权始终在人；验证还要尽量从 CI 外循环左移到编辑器内循环，代码一写完就当场查。就像演讲里那句提醒：更便宜的实现，往往会把瓶颈转移到规范和验证上——而这，真的不是我们想做的。"
+}

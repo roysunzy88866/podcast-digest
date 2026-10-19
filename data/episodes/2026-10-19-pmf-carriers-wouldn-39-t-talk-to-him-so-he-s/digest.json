@@ -1,0 +1,203 @@
+{
+  "title_zh": "从儿童手表到 AT&T:他如何拿下 90% 的大客户订单",
+  "tldr": "Gigs 联合创始人 Hermann Frank 讲述如何把“电信行业的 Stripe”从零做起来。",
+  "digest_md": "Hermann Frank 和联合创始人 Dennis 创办了 Gigs——一家让任何公司都能把手机套餐嵌入自家产品的公司。听起来简单，但电信是被巨头垄断了几十年的行业，没人相信一个初创公司能撬动它。这期播客里，他讲了怎么绕过壁垒、怎么找到第一个客户，以及怎么从 AT&T 一路打到 Revolut 和 Klarna。\n\n## 电信行业为什么值得重做一遍\n\n时间回到 2018 年前后。Hermann 想创业，但没想好做什么，只确定一条：**找一个过去 20 年没被互联网改造过的行业**。电信跳了出来。\n\n这个行业有多夸张？他举了个例子：Sam Altman 说要投 7 万亿美元建 AI 基础设施时，所有人都觉得他疯了。但电信行业光是最近 10 年，就投了超过 3 万亿美元在基础设施上 [07:22 Hermann Frank]。\n\n而且这里面的技术被严重高估定价。Nokia、Ericsson、Huawei 卖给运营商的是封闭黑盒系统，价格是标准化硬件的约 100 倍。\n\n## 在公寓里建基站，用免费 Wi-Fi 证明自己\n\n他们给自己定了个规矩：所有硬件必须能在 Amazon 或 Alibaba 上买到，不许定制。然后他们把通常跑在大型数据中心的电信后端，塞进一台英特尔 Mac 电脑，在公寓里搭了两个基站，走过去信号切换正常。\n\n接着他们去柏林的咖啡馆挨家谈：==你们的 Wi-Fi 不安全，我们来装个更好的，还能让顾客在整个街区都能连上==。作为交换，他们免费拿到了网络回传容量。一年下来，超过 100 万用户——大部分是游客。这成了柏林第一大公共 Wi-Fi 网络。\n\n## 想收费时，才发现真正的大问题\n\n问题来了：==怎么向这 100 万用户收钱==？他们想让用户买一张 eSIM，在网络覆盖内免费漫游，覆盖外用国内 LTE 网络。这就需要一个接口，能像 Stripe 处理支付那样处理电信业务。\n\n这个接口不存在。他们钻进兔子洞才明白：整个电信行业根本没有面向开发者的开放体验。而一旦解决这个问题，AWS 之于主机、Stripe 之于支付的故事就会在电信重演——所有新增需求和创新都会建立在这层基础设施上 [14:20 Hermann Frank]。\n\n这就是 Gigs 的起点，大约在 2020 年中。他们扔掉 Wi-Fi 业务，申请进入了创业加速器，后来在 2021 年冬季批次开始。\n\n> 【背景】原文之外的信息：该创业加速器即 Y Combinator(常简称 YC),Gigs 于其 2021 年冬季批次入选。\n\n## 运营商不理他，那就先找个“中间商”\n\n讲故事容易，落地难。他们去见投资人，四处碰壁——投资人问问电信圈的朋友，得到的回答都是：运营商永远不会让你们这么干。\n\n这话一开始是对的，运营商根本不跟他们谈。解决办法是找了一家“聚合商”——这类公司先跟运营商签下大合同，再把容量分给太小、运营商懒得服务的小客户。他们在这家聚合商上搭出了产品第一版，经济账很烂，基本不赚钱 [16:55 Hermann Frank]。\n\n但有意思的是，他们在这条管道上做出了增长。运营商发现这家一直平平的聚合商突然涨了起来，主动来问怎么回事。这一下敲开了门——第一份运营商直签合同，来自 AT&T。\n\n## 第一个客户：被退货逼疯的儿童手表公司\n\n最早的真实客户来自一位顾问的介绍：一家在 Amazon 上卖儿童智能手表的公司。他们的痛点是，手表要用物理 SIM 卡，用户随便插一张，结果被 PIN 码锁住、或运营商把卡锁定只能和手机配合使用、套餐不支持手表——30% 到 40% 的手表被退货，用户以为是手表烂，其实只是 SIM 卡放错了 [19:58 受访嘉宾]。\n\nGigs 的方案：在工厂里就把 SIM 嵌进设备，家长在手机应用里激活设备时，直接订阅服务、付款、秒开通。退货问题解决了，还多了一条订阅收入。\n\n别小看这个市场。今天儿童智能手表给 Gigs 带来中八位数的年收入，年增长约 150%。它不是能撑起千亿公司的业务，但是完美的切入点：**痛得足够狠，又足够宽容，容得下一个还不成熟的产品慢慢打磨**。\n\n## 为什么银行是卖手机套餐的最佳人选\n\n下一个台阶是金融科技公司。第一批客户都是这个领域里的大公司，之后是 Klarna、Revolut、Cash App。==为什么银行该卖手机套餐==？他的逻辑很清晰：\n\n银行已经完成了最严格的身份认证（KYC），激活订阅比谁都简单；手机和钱包在心理上是同类产品，出门都得带。更关键的是结构性错位——运营商 30 年前被迫做手机分期，一直想甩掉这门生意，而银行恰恰想要更多信贷业务和触点 [27:38 之前 Hermann Frank]。现在银行终于能把手机和套餐打包一起卖了。\n\n产品也够狠。Revolut 在英国的套餐被他称为英国最好的手机套餐：本地不限流量、欧盟漫游额度、全球漫游和短信包，价格还很便宜。Cash App 在美国推出了首个真正的无限流量套餐。\n\n## 讲故事的秘诀：借一个别人已经相信的例子\n\n这是个 15 年以上的长线生意，融资必须讲好故事。Hermann 的方法是“双焦”式叙事：3 到 6 到 12 个月的计划要讲得极其细致，同时把长远的终点画出来 [33:30 之前 Hermann Frank]。\n\n他最受启发的两个例子：微软创始人当年直接宣布图形界面就是未来，硬是把结果“说”成了现实；还有一家火箭公司在早期就对外发布了一段火箭发射回收的超逼真视频，多年后真实画面和视频几乎一模一样。**好的讲故事，就是展示最终结果，并让人相信它是真的**。\n\n> 【背景】火箭视频的例子通常指 Elon Musk 与 SpaceX：其在猎鹰 9 号发射回收实现前，就发布过一段高度逼真的火箭回收概念视频，多年后的真实画面与之几乎一致。\n\nGigs 早期最幸运的一点：不需要自己发明叙事。他们就是“做手机套餐的 Stripe”。这个标签让不懂电信的投资人瞬间理解了逻辑，甚至吸引了一批早期 Stripe 员工加入。\n\n## 拿下大企业：靠的不是销售技巧，是“外交”\n\n他把拿下大客户总结为一场多层外交：要说服一家市值几十亿甚至上百亿的公司，你得让创始人或高管层喜欢你，让运营团队喜欢你，让开发者喜欢你 [00:03 Hermann Frank]。\n\n具体做法是分层推进：自己的产品工程团队对接对方的产品工程团队，销售副总裁对接对方产品副总裁，他自己直接联系创始人。不同高度同时覆盖，形成对这家公司的 360 度视野——这是他们能赢下 90% 订单的原因。\n\n另一个关键打法：招从目标客户公司体系里出来的人。他们招了很多前 Stripe 员工，而“Stripe 帮”遍布各家目标客户。一个在圈内受信任的人，能让名单上 30% 到 50% 的目标都愿意接电话 [40:15 之前 Hermann Frank]。\n\n怎么判断一个商机是真是假？尽快让对方把你介绍给公司里更多人。第一，立刻知道这事是不是认真的；第二，顺势建立起更多连接。对方愿意把工程师、市场人员拉进下一通电话，就是好信号——他们没资源浪费。\n\n## 最后一条建议：创始人亲自卖，卖得比别人劝你放手更久\n\n对早期创始人，他的建议是创始人主导销售。没有名气、没有背书的时候，你有的只有信念——客户必须能从你身上每一根纤维里感受到你相信自己的产品 [43:33 Hermann Frank]。\n\n只有创始人知道哪些风险可以承担、现实可以弯到什么程度。一旦开始把销售交出去，你会看到熵增悄悄出现。出色的销售能模仿你的气场，但大多数人做不到。所以在还合理的范围内，尽量自己卖下去。\n\n## 本集带走\n\n- 电信是过去 10 年投了超 3 万亿美元却几乎没被软件改造的行业，机会在 API 层。\n- 进不了大运营商的门，可以先接入聚合商，用增长数据把运营商吸引过来——Gigs 就这样拿到了 AT&T。\n- 第一个市场选痛得最狠的小切口（儿童手表 30–40% 退货率），比一开始追大客户更能打磨产品。\n- 卖给大企业是多层外交：创始人、高管、运营、开发者，每一层都要有人覆盖，这让他们赢下 90% 的订单。\n- 讲愿景可以借力：用别人已经相信的成功公司做类比，直到你有能力讲自己的故事。",
+  "quotes": [
+    {
+      "en": "it's not the business that will grow build a hundred billion dollar company but it was the perfect niche right?",
+      "zh": "它不是那种能成长为千亿美元公司的业务，但它是最完美的利基市场，对吧？",
+      "timestamp": "21:28",
+      "speaker": "Hermann Frank"
+    },
+    {
+      "en": "I think the natural inclination of founders is to think that they have reached product market fit way earlier than they actually have.",
+      "zh": "我认为创始人的自然倾向是认为自己达到产品市场契合的时间比实际的要早得多。",
+      "timestamp": "04:56",
+      "speaker": "Hermann Frank"
+    },
+    {
+      "en": "if you understood anything about hardware, you saw that they're overpricing these like closed loop system that they're selling to telcos by about a factor of a hundred.",
+      "zh": "如果你对硬件有任何了解，你会看到它们把这些卖给电信公司的闭环系统溢价了大约一百倍。",
+      "timestamp": "08:30",
+      "speaker": "Hermann Frank"
+    },
+    {
+      "en": "we understood if we can produce that outcome, the same thing that happened with AWS and hosting and Stripe and payments will happen in telecom.",
+      "zh": "我们明白，如果我们能产出那个结果，发生在 AWS 与托管、Stripe 与支付上的同样事情将会发生在电信领域。",
+      "timestamp": "14:25",
+      "speaker": "Hermann Frank"
+    },
+    {
+      "en": "when you're dealing with 30 to 40% returns your business is not working fundamentally. You'll do anything to you'll try anything frankly to solve that",
+      "zh": "当你面对 30-40% 的退货率时，你的业务从根本上是运转不了的。你会不惜一切，坦白说你会尝试任何办法来解决它。",
+      "timestamp": "22:12",
+      "speaker": "Pablo Srugo"
+    },
+    {
+      "en": "people pay their mobile bill before they pay rent",
+      "zh": "人们在付房租之前先付手机账单。",
+      "timestamp": "26:13",
+      "speaker": "Hermann Frank"
+    },
+    {
+      "en": "once we had the product we knew it's basically a land grab moment in the industry to onboard the largest consumer and enterprise platforms in the world",
+      "zh": "一旦我们有了产品，我们知道这基本上就是行业里的圈地时刻，要把世界上最大的消费级和企业级平台都接上来。",
+      "timestamp": "30:49",
+      "speaker": "Hermann Frank"
+    },
+    {
+      "en": "you need to be able to tell like your 3 6 12 month horizon with like incredible detail and like you need to understand what needs to happen imminently and then you need to paint a much larger arc and vision in the back",
+      "zh": "你需要能够以极其细致的方式讲出你的 3 个月、6 个月、12 个月的地平线，你需要非常清楚迫在眉睫需要发生什么，然后在其背后你还需要描绘一个大得多的弧线和愿景。",
+      "timestamp": "33:04",
+      "speaker": "Hermann Frank"
+    },
+    {
+      "en": "that is what great storytelling is you show the final outcome you show the result and you convince people it's real",
+      "zh": "这就是伟大的叙事：你展示最终的结果，你展示成果，然后你说服人们它是真实的。",
+      "timestamp": "35:14",
+      "speaker": "Hermann Frank"
+    },
+    {
+      "en": "it is more about statesmanship than it is about salesmanship because if you want to land an enterprise customer multi-billion or tens of billions dollars in market cap what you need to do is convince several layers in that organization that it's a great idea to partner with you",
+      "zh": "这更多关乎政治手腕，而不是销售技巧，因为如果你想拿下市值几十亿或数百亿美元的企业客户，你需要说服该组织中的多个层级，让他们相信与你合作是个好主意。",
+      "timestamp": "37:31",
+      "speaker": "Hermann Frank"
+    },
+    {
+      "en": "hire people who came up with the people working at your target customers we hire a lot of X-stripes the stripe mafia is everywhere",
+      "zh": "雇佣那些和你的目标客户员工一起成长起来的人。我们雇佣了很多前 Stripe 员工，Stripe 黑手党无处不在。",
+      "timestamp": "39:41",
+      "speaker": "Hermann Frank"
+    },
+    {
+      "en": "no one is going to be as convincing and as quick on their feet as a founder you kind of need to sell a little bit ahead of time and no one has the mandate to do it more than the founder",
+      "zh": "没有人会像创始人那样有说服力、那样反应敏捷。你多少需要提前一点去销售，而没有人比创始人更有授权去做这件事。",
+      "timestamp": "44:47",
+      "speaker": "Hermann Frank"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "21:13",
+      "speaker": "Hermann Frank",
+      "en": "today it's like a mid-eight digit like AR volume for us. So it's it's not a tiny market.",
+      "zh": "今天这对我们来说大概是八位数中段的 ARR 量级。所以它不是一个小市场。"
+    },
+    {
+      "timestamp": "21:13",
+      "speaker": "Hermann Frank",
+      "en": "it's not the business that will grow build a hundred billion dollar company but it was the perfect niche right?",
+      "zh": "它不是那种能成长为千亿美元公司的业务，但它是最完美的利基市场，对吧？"
+    },
+    {
+      "timestamp": "04:46",
+      "speaker": "Hermann Frank",
+      "en": "I think the natural inclination of founders is to think that they have reached product market fit way earlier than they actually have.",
+      "zh": "我认为创始人的自然倾向是认为自己达到产品市场契合的时间比实际的要早得多。"
+    },
+    {
+      "timestamp": "04:46",
+      "speaker": "Hermann Frank",
+      "en": "You need to have repeatable sales targeting the same ICP. You need to launch that ICP. You need to retain them, right? And you need to like do that over and over and over again.",
+      "zh": "你需要有针对同一个 ICP 的可复制销售。你需要获取那个 ICP。你需要留住他们，对吧？而且你需要一遍又一遍又一遍地这样做。"
+    },
+    {
+      "timestamp": "06:51",
+      "speaker": "Hermann Frank",
+      "en": "But if you look at telecom, just in the last 10 years, and it's a mature industry, they have invested over $3 trillion in infrastructure.",
+      "zh": "但如果你看看电信业，仅仅在过去 10 年，而且它是一个成熟产业，他们在基础设施上投资了超过 3 万亿美元。"
+    },
+    {
+      "timestamp": "08:07",
+      "speaker": "Hermann Frank",
+      "en": "if you understood anything about hardware, you saw that they're overpricing these like closed loop system that they're selling to telcos by about a factor of a hundred.",
+      "zh": "如果你对硬件有任何了解，你会看到它们把这些卖给电信公司的闭环系统溢价了大约一百倍。"
+    },
+    {
+      "timestamp": "13:15",
+      "speaker": "Hermann Frank",
+      "en": "And once we understood why and like what would happen if we would solve it, we understood, okay, this is the biggest problem we've ever seen.",
+      "zh": "一旦我们明白了为什么，以及如果我们解决了它会发生什么，我们就明白了，好吧，这是我们见过的最大的问题。"
+    },
+    {
+      "timestamp": "14:20",
+      "speaker": "Hermann Frank",
+      "en": "we understood if we can produce that outcome, the same thing that happened with AWS and hosting and Stripe and payments will happen in telecom.",
+      "zh": "我们明白，如果我们能产出那个结果，发生在 AWS 与托管、Stripe 与支付上的同样事情将会发生在电信领域。"
+    },
+    {
+      "timestamp": "16:10",
+      "speaker": "Hermann Frank",
+      "en": "we got no's left and right because they didn't talk to their buddy at like AT&T or to telecom and other funds. It's like, yeah, no carrier will ever let them do this, right?",
+      "zh": "我们到处碰壁，因为他们没有和他们像 AT&T 或电信业其他基金里的朋友聊过。就像，是的，没有运营商会让他们这么做，对吧？"
+    },
+    {
+      "timestamp": "17:48",
+      "speaker": "Hermann Frank",
+      "en": "So that got us into the door to get our very first deal with the carrier. And lucky for us, it was AT&T, one of the largest carriers in the world.",
+      "zh": "所以那让我们敲开了门，拿到了我们和运营商的第一笔交易。而且对我们来说幸运的是，那是 AT&T，世界上最大的运营商之一。"
+    },
+    {
+      "timestamp": "22:04",
+      "speaker": "Pablo Srugo",
+      "en": "when you're dealing with 30 to 40% returns your business is not working fundamentally. You'll do anything to you'll try anything frankly to solve that",
+      "zh": "当你面对 30-40% 的退货率时，你的业务从根本上是运转不了的。你会不惜一切，坦白说你会尝试任何办法来解决它。"
+    },
+    {
+      "timestamp": "25:05",
+      "speaker": "Hermann Frank",
+      "en": "it is a service that you use every second of every day basically and then there is another component carriers never wanted to finance phones they've become reluctant financiers of phones 30 years ago",
+      "zh": "这基本上是你每一秒、每一天都在使用的服务。然后还有另一个因素：运营商从来不想为手机提供融资，30 年前它们成了不情愿的手机融资方。"
+    },
+    {
+      "timestamp": "27:05",
+      "speaker": "Hermann Frank",
+      "en": "people pay their mobile bill before they pay rent",
+      "zh": "人们在付房租之前先付手机账单。"
+    },
+    {
+      "timestamp": "31:05",
+      "speaker": "Hermann Frank",
+      "en": "once we had the product we knew it's basically a land grab moment in the industry to onboard the largest consumer and enterprise platforms in the world",
+      "zh": "一旦我们有了产品，我们知道这基本上就是行业里的圈地时刻，要把世界上最大的消费级和企业级平台都接上来。"
+    },
+    {
+      "timestamp": "31:05",
+      "speaker": "Hermann Frank",
+      "en": "distribution means more volume more volume means better pricing more integrations and we can scale with our customers throughout the globe",
+      "zh": "分发意味着更多的量，更多的量意味着更好的定价、更多的集成，而我们可以和客户一起在全球范围内扩张。"
+    },
+    {
+      "timestamp": "33:01",
+      "speaker": "Hermann Frank",
+      "en": "you need to be able to tell like your 3 6 12 month horizon with like incredible detail and like you need to understand what needs to happen imminently and then you need to paint a much larger arc and vision in the back",
+      "zh": "你需要能够以极其细致的方式讲出你的 3 个月、6 个月、12 个月的地平线，你需要非常清楚迫在眉睫需要发生什么，然后在其背后你还需要描绘一个大得多的弧线和愿景。"
+    },
+    {
+      "timestamp": "34:15",
+      "speaker": "Hermann Frank",
+      "en": "that is what great storytelling is you show the final outcome you show the result and you convince people it's real",
+      "zh": "这就是伟大的叙事：你展示最终的结果，你展示成果，然后你说服人们它是真实的。"
+    },
+    {
+      "timestamp": "38:10",
+      "speaker": "Hermann Frank",
+      "en": "it is more about statesmanship than it is about salesmanship because if you want to land an enterprise customer multi-billion or tens of billions dollars in market cap what you need to do is convince several layers in that organization that it's a great idea to partner with you",
+      "zh": "这更多关乎政治手腕，而不是销售技巧，因为如果你想拿下市值几十亿或数百亿美元的企业客户，你需要说服该组织中的多个层级，让他们相信与你合作是个好主意。"
+    },
+    {
+      "timestamp": "40:40",
+      "speaker": "Hermann Frank",
+      "en": "hire people who came up with the people working at your target customers we hire a lot of X-stripes the stripe mafia is everywhere",
+      "zh": "雇佣那些和你的目标客户员工一起成长起来的人。我们雇佣了很多前 Stripe 员工，Stripe 黑手党无处不在。"
+    },
+    {
+      "timestamp": "45:05",
+      "speaker": "Hermann Frank",
+      "en": "no one is going to be as convincing and as quick on their feet as a founder you kind of need to sell a little bit ahead of time and no one has the mandate to do it more than the founder",
+      "zh": "没有人会像创始人那样有说服力、那样反应敏捷。你多少需要提前一点去销售，而没有人比创始人更有授权去做这件事。"
+    }
+  ],
+  "voice_script": "今天这期，咱们聊一个人怎么把电信行业重做了一遍。主角叫 Hermann Frank，是 Gigs 这家公司的联合创始人。Gigs 做的事，说白了就是让任何公司都能把手机套餐嵌进自家的产品里。这话听着简单，可电信是被巨头垄断了几十年的行业，没人相信一个初创公司能撬动它。这期就讲讲，Gigs 是怎么从一间公寓起步，一路拿下 AT&T，再做到 Revolut 和 Klarna 这些大客户的。\n\n故事得从 2018 年前后说起。当时 Hermann 想创业，但没想好做什么，只定了条标准：找一个过去 20 年没被互联网改造过的行业。电信就这么跳了出来。这个行业有多夸张？举个例子，Sam Altman 说要投 7 万亿美元建 AI 基础设施的时候，所有人都觉得他疯了。可电信行业光最近 10 年，就投了超过 3 万亿美元在基础设施上。而且这里面的技术，定价是被严重高估的。Nokia、Ericsson、Huawei 卖给运营商的，是封闭的黑盒系统，价格大概是标准化硬件的一百倍。\n\n那怎么切入呢？两个人的做法挺狠的。他们给自己定了条规矩：所有硬件必须能在 Amazon 或者 Alibaba 上买到，不许定制。然后把通常跑在大型数据中心的电信后端，塞进一台英特尔 Mac 电脑，在公寓里搭了两个基站，人走过去，信号切换正常。接着去柏林的咖啡馆挨家谈：你们的 Wi-Fi 不安全，我们来装个更好的，还能让顾客在整个街区都连得上。作为交换，免费拿到了网络回传容量。一年下来，超过 100 万用户，大部分是游客，成了柏林第一大公共 Wi-Fi 网络。\n\n可到了想收费的时候，才发现真正的大问题。他们想让用户买一张 eSIM，在自家网络里免费漫游，出了覆盖范围就用国内的 LTE 网络。这就需要一个接口，能像 Stripe 处理支付那样处理电信业务。这个接口不存在。钻进这个兔子洞才明白：整个电信行业，根本没有面向开发者的开放体验。而有句话值得记住——如果能解决这个问题，发生在 AWS 和主机、Stripe 和支付上的同样事情，就会在电信领域重演。这就是 Gigs 的起点，大约 2020 年中，后来进了 YC 的 2021 年冬季批次。\n\n不过讲故事容易，落地难。去见投资人，四处碰壁——问问电信圈的朋友，回答都一样：运营商永远不会让你们这么干。这话一开始是对的，运营商根本不谈。解决办法是找了一家聚合商，就是那种先跟运营商签下大合同、再把容量分给小客户的中介。Gigs 在这条管道上搭出了第一版产品，经济账很烂，基本不赚钱。但有意思的是，增长做出来了。运营商发现这家一直平平的聚合商突然涨了起来，主动来问怎么回事。这一下敲开了门，第一份运营商直签合同，来自 AT&T。\n\n而最早的真实客户，来自一位顾问的介绍：一家在 Amazon 上卖儿童智能手表的公司。痛点特别具体——手表要用物理 SIM 卡，用户随便插一张，结果被 PIN 码锁住，或者套餐根本不支持手表，三到四成的手表被退货。用户以为是手表烂，其实只是卡放错了。而当你面对 30% 到 40% 的退货率时，业务从根本上就是运转不了的，你会不惜一切去解决它。Gigs 的方案是在工厂里就把 SIM 嵌进设备，家长在手机应用里激活的时候，直接订阅、付款、秒开通。退货问题解决了，还多了一条订阅收入。今天儿童智能手表给 Gigs 带来中八位数的年收入，年增长约 150%。原话是这么说的：它不是那种能成长为千亿美元公司的业务，但它是最完美的利基市场——痛得足够狠，又足够宽容，容得下一个还不成熟的产品慢慢打磨。\n\n再往上一个台阶，是金融科技公司，Klarna、Revolut、Cash App 都是客户。为什么银行该卖手机套餐？逻辑其实很清晰：银行已经完成了最严格的身份认证，激活订阅比谁都简单；手机和钱包在心理上是同类产品，出门都得带。更关键的是一个结构性错位——运营商 30 年前被迫做手机分期，一直想甩掉这门生意，而银行恰恰想要更多信贷业务和触点。于是 Revolut 在英国推出了被称作英国最好的手机套餐，Cash App 在美国推出了首个真正的无限流量套餐。\n\n后面还有两件事值得说。一是融资时怎么讲故事。方法是“双焦”：3 到 12 个月的计划讲得极其细致，同时把长远终点画出来。微软创始人当年直接宣布图形界面就是未来，硬是把结果“说”成了现实。而 Gigs 更幸运的一点，是不用自己发明叙事——“做手机套餐的 Stripe”这个标签，让不懂电信的投资人瞬间理解了逻辑，甚至吸引了一批早期 Stripe 员工加入。二是拿下大企业的打法，与其说是销售技巧，不如说是外交。要说服一家市值几十亿甚至上百亿的公司，得让创始人喜欢你、让运营团队喜欢你、让开发者喜欢你。自家工程团队对接对方工程团队，销售副总裁对接产品副总裁，创始人直接联系创始人，不同高度同时覆盖，形成对这家公司 360 度的视野——这是他们能赢下 90% 订单的原因。再加上招从目标客户体系里出来的人，比如前 Stripe 员工，一个在圈内受信任的人，能让名单上 30% 到 50% 的目标愿意接电话。\n\n最后，给早期创始人的一条建议：创始人亲自卖，卖得比别人劝你放手更久。没名气、没背书的时候，你有的只有信念，客户必须能从你身上每一根纤维里感受到你相信自己的产品。而且只有创始人知道哪些风险可以承担、现实可以弯到什么程度。出色的销售能模仿你的气场，但大多数人做不到。毕竟就像这个行业最朴素的事实——人们在付房租之前，先付手机账单。这门生意，值得有人从头做一遍。"
+}

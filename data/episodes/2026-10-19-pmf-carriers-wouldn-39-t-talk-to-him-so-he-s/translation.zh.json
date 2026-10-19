@@ -1,0 +1,738 @@
+[
+ {
+  "seg": 0,
+  "start": 0,
+  "end": 3,
+  "speaker": "Pablo Srugo",
+  "en": "Was that even a market? Kids SmartWatch? Was there several companies that faced the same issue?",
+  "zh": "那甚至算是一个市场吗?儿童智能手表?有好几家公司面临同样的问题吗?"
+ },
+ {
+  "seg": 1,
+  "start": 3,
+  "end": 61,
+  "speaker": "Hermann Frank",
+  "en": "Yeah, there's quite a range of companies. And I think today it's like a mid-eight-digit AR volume for us. So it's not a tiny market. If you want to land an enterprise customer, multi-billion or tens of billions of dollars in market cap, what you need to do is you need to convince several layers in that organization that it's a great idea to partner with you. Many times, including the founders or the C-level. You need to get the operating team to like you. You need to get the developers to like you. And ideally, it's not just like one person doing all that. If you want an enterprise deal, you want to find out very quickly if the guy you're talking to is a lone wolf. Is this like exploratory? So the quicker you ask the team you're working with to introduce other participants in the company, first, you find out if this is real and if this is serious. Second, it allows you to build those connections.",
+  "zh": "是的,有相当多的公司。而且我认为今天这对我们来说大约是一个八位数中段的 ARR 规模。所以这不是一个小市场。如果你想拿下一个企业客户,一家市值数十亿或上百亿美元的公司,你需要做的是说服那个组织里的好几层人,让他们相信与你合作是一个好主意。很多时候,这包括创始人或 C 层。你需要让运营团队喜欢你。你需要让开发者喜欢你。而且理想情况下,这不是由一个人包揽所有这些工作。如果你想要一个企业订单,你需要很快弄清楚你正在谈话的那个人是不是一匹独狼。这是不是探索性质的?所以你越快要求你正在合作的团队介绍公司里的其他参与者,第一,你就能弄清楚这是不是真的、是不是认真的。第二,这让你能够建立那些关系。"
+ },
+ {
+  "seg": 2,
+  "start": 61,
+  "end": 73,
+  "speaker": "Previous Guests",
+  "en": "That's product market fit. Product market fit. Product market fit. I called it the product market fit question. Product market fit. Product market fit. Product market fit. Product market fit. I mean, the name of the show is product market fit.",
+  "zh": "那就是产品市场契合。产品市场契合。产品市场契合。我称之为产品市场契合问题。产品市场契合。产品市场契合。产品市场契合。产品市场契合。我是说,这个节目的名字就叫产品市场契合。"
+ },
+ {
+  "seg": 3,
+  "start": 73,
+  "end": 90,
+  "speaker": "Pablo Srugo",
+  "en": "Do you think the product market fit show has product market fit? Because if you do, then there's something you just have to do. You have to take out your phone. You have to leave the show five stars. It lets us reach more founders and it lets us get better guests. Thank you. Hermann, welcome to the show, man.",
+  "zh": "你觉得产品市场契合这个节目有产品市场契合吗?因为如果你觉得有,那么有些事你就必须去做。你必须拿出你的手机。你必须给这个节目打五星。这能让我们触达更多创始人,也能让我们请到更好的嘉宾。谢谢你。Hermann,欢迎来到节目,老兄。"
+ },
+ {
+  "seg": 4,
+  "start": 90,
+  "end": 91,
+  "speaker": "Hermann Frank",
+  "en": "Thanks for having me.",
+  "zh": "谢谢你们邀请我来。"
+ },
+ {
+  "seg": 5,
+  "start": 91,
+  "end": 123,
+  "speaker": "Pablo Srugo",
+  "en": "Excited to have you here, man. So you've got a company called Gigs, which is like the OS for embedded telecoms. So, I mean, the simple way to think about it is anybody building anything can add Gigs into their product and offer, you know, mobile plans to their customers. So we're going to talk a lot about not just how you came up with that, but who is using that, who's the best customer, why they would want to do that and all those sort of things. You know, you raised your first round, I think, in 2021. You've raised $90 million since then. So off to a great start. Let's start with what we always do. For you, what was the product market fit moment? When did you feel like you'd found true product market fit and why?",
+  "zh": "很高兴你能来,老兄。你有一家叫 Gigs 的公司,它就像是嵌入式电信的 OS。所以,我的意思是,最简单的理解方式是,任何在构建任何东西的人都可以把 Gigs 加进他们的产品里,向他们的客户提供,你知道的,移动套餐。所以我们将会聊很多,不只是你是怎么想出这个主意的,还有谁在用它,谁是最佳客户,他们为什么会想这么做,以及所有这类事情。你知道的,你在 2021 年融了第一轮。从那以后你已经融了 9000 万美元。所以开局很不错。让我们从我们一贯的做法开始。对你来说,产品市场契合的时刻是什么时候?你是什么时候感觉到你找到了真正的产品市场契合,为什么?"
+ },
+ {
+  "seg": 6,
+  "start": 123,
+  "end": 259,
+  "speaker": "Hermann Frank",
+  "en": "So we had several product market fit moments. The very first was our first vertical. It was kids' smartwatches at the time. Very serendipitous. Indipitous first customer came through one of our advisors. And it was a great way to, like, find this niche to serve first. They had massive problems with SIM cards, returns of the devices, and monetizing the subscriptions. So we've built a product quite custom to that specific customer vertical. But it allowed us to build the very first version of Gigs and the API and integrations into carriers and paid for our seed in Series A. And we kept just going down the list of customers. And about a year in, we ended up powering most of the players in the market. And it kind of showed us, okay, like, there's definitely something there. And we found a repeatable motion. And then the next time was when we started targeting fintechs, which was our first real, like, consumer primary use case smartphone vertical. And NewBank was the very first customer in the fintech vertical. And then we kept repeating that again and again. We had Klarna and Revolut and so on. And it's, okay, we're winning over 90% of deals. Currently, we have product market fit. Once the services started launching in the last year and earlier this year, revenue skyrocketed. So we kind of understood, okay, we made it again. And now we're going through it the third time with Gigsawork, our enterprise product that we're targeting at enterprises that operate either in one or multiple markets, have a few hundred employees or more. And we allow them to embed the phone plan directly into their IT stack. So when an employee is provisioned on the HRS system and their Slack, Okta, and Gmail's provision, the phone number is provisioned in the same way in real time. And then also disconnected when the employee leaves. And we're in an inasancy of that product, but we're now also seeing a repeatable motion. So we're kind of carefully in the early stages of product market fit a third time. And we have a couple more verticals out of us.",
+  "zh": "我们有好几个产品市场契合的时刻。第一个是我们的第一个垂直领域。当时是儿童智能手表。非常偶然。第一个客户是通过我们的一位顾问找上门的。这是找到第一个要服务的细分市场的一个很好的方式。他们在 SIM 卡、设备退货以及订阅变现方面有巨大的问题。所以我们构建了一个相当定制化的产品,专门针对那个特定的客户垂直领域。但这让我们得以构建 Gigs 的第一个版本、API 以及与运营商的集成,并为我们支付了种子轮和 A 轮。然后我们就沿着客户名单一路做下去。大约一年后,我们最终为市场上大多数玩家提供支持。这有点向我们表明,好吧,这里面肯定有东西。而且我们找到了一个可复制的打法。然后下一次是我们开始瞄准金融科技公司,那是我们第一个真正的、以消费级为首要用例的智能手机垂直领域。而 NewBank 是金融科技垂直领域的第一个客户。然后我们一次又一次地重复这个过程。我们有 Klarna 和 Revolut 等等。然后就是,好吧,我们在 90% 以上的订单中获胜。目前,我们有产品市场契合。一旦服务在去年和今年早些时候开始上线,收入暴涨。所以我们有点明白了,好吧,我们又成功了。而现在我们正在第三次经历这个过程,是和 Gigsawork,我们的企业产品,我们瞄准的是在一个或多个市场运营、拥有几百名或更多员工的企业。我们允许他们把手机套餐直接嵌入到他们的 IT 技术栈中。所以当一名员工在 HR 系统中被配置,他们的 Slack、Okta 和 Gmail 被配置时,电话号码也会以同样的方式实时被配置。然后在员工离职时也会断开连接。而我们正处于那个产品的幼稚期,但我们现在也看到了一个可复制的打法。所以我们算是处在第三次产品市场契合的早期阶段,小心翼翼地。而且我们还有几个垂直领域没有做。"
+ },
+ {
+  "seg": 7,
+  "start": 259,
+  "end": 286,
+  "speaker": "Pablo Srugo",
+  "en": "It's a recurring theme that I hear a lot when I ask about product market fit. I mean, a lot of people describe it as kind of on the scale versus kind of a switch, right? And I do think there's an element of both a little bit where you kind of tip over at some point. You're like, okay, we have product market fit. But it's also very true that the competitive landscape is changing, the technology is changing, the market's changing. And so you're never done. You always have to kind of rediscover and reattempt product market fit, even with each feature that you launched, you know, each feature can have or not have product market fit.",
+  "zh": "这是一个我在询问产品市场契合时经常听到的反复出现的主题。我是说,很多人把它描述成一种刻度而不是一个开关,对吧?而且我确实认为两者都有一点元素,就是你会在某个时刻倾斜过去。你会说,好吧,我们有产品市场契合了。但同样非常真实的是,竞争格局在变化,技术在变化,市场在变化。所以你永远没有完成。你总是必须重新发现、重新尝试产品市场契合,即使是你发布的每一个功能,你知道的,每个功能都可以有或没有产品市场契合。"
+ },
+ {
+  "seg": 8,
+  "start": 286,
+  "end": 352,
+  "speaker": "Hermann Frank",
+  "en": "Yes, for sure. I think as founders, we often underestimate and like you kind of want it to be happening. It's this magical moment of like, I have a working company now. But I think the natural inclination of founders is to think that they have reached product market fit way earlier than they actually have. You need to have repeatable sales targeting the same ICP. You need to launch that ICP. You need to retain them, right? And you need to like do that over and over and over again. And so, yes, it's much more of a gradient where like you think you might have it and then you're like repeating the feeling of thinking you might have it. And then at some point when people are actually staying with your product and they're not turned off by it after a couple of weeks or months and you've been able to build a scalable sales motion, then you actually might have it. But in our case, and I think if there's similar companies out there, we just take it by like we have vertical market fit. We don't like we'll never have entire product market fit.",
+  "zh": "是的,当然。我认为作为创始人,我们经常低估,而且你有点希望它正在发生。这是这样一个神奇的时刻,就像,我现在有一家运转的公司了。但我认为创始人的自然倾向是认为他们比实际更早地达到了产品市场契合。你需要有针对同一个 ICP 的可复制销售。你需要获取那个 ICP。你需要留住他们,对吧?而且你需要一遍又一遍又一遍地这样做。所以,是的,它更像是一个梯度,就像你觉得自己可能有了,然后你重复着觉得自己可能有了的感觉。然后在某个时刻,当人们真正留在你的产品里,他们在几周或几个月后没有被劝退,而且你已经能够建立一个可扩展的销售打法,那么你可能真的有了。但在我们的情况下,而且我认为如果有类似的公司在那里,我们就这样看待它:我们有垂直市场契合。我们不喜欢,我们永远不会有完整的产品市场契合。"
+ },
+ {
+  "seg": 9,
+  "start": 352,
+  "end": 381,
+  "speaker": "Pablo Srugo",
+  "en": "So we're going to talk at the end about selling into enterprise. You're selling to some of them. I mean, you have to partner with the telcos, which are the biggest, slowest types of elephants that you have to go and hunt. And then we're also going to talk about what it takes to craft a vision, especially one that is multifaceted and has many steps to it. And you kind of have to prove along the way and you need to get VCs along for the ride with you. It's not a simple thing to do. So we're going to talk about those two things at the end. But, you know, obviously in the middle, let's kind of go through your story. You had another company, right? Before you started this one?",
+  "zh": "所以我们会在最后谈谈向企业销售。你在向其中一些销售。我的意思是,你必须与电信公司合作,它们是最大、最慢的那种大象,是你必须去狩猎的对象。然后我们也会谈谈打造一个愿景需要什么,尤其是一个多面向、有许多步骤的愿景。而且你必须在这个过程中不断证明,你需要让 VC 们与你同行。这不是一件简单的事。所以我们会在最后谈这两件事。但是,你知道的,显然在中间,让我们来过一遍你的故事。你之前有另一家公司,对吧?在你创办这家之前?"
+ },
+ {
+  "seg": 10,
+  "start": 381,
+  "end": 407,
+  "speaker": "Hermann Frank",
+  "en": "Yes, a company called HyperMesh. We started very originally. I wanted to start my second company. I didn't have a precise idea of what to do. But I knew I wanted to dive into an industry that hasn't seen the utilization that many other industries have seen over the last 20 years. And telecom kind of stood out. It used to be the original tech. In the 90s, every millionaire and billionaire was minted in telecom.",
+  "zh": "是的,一家叫 HyperMesh 的公司。我们开始得很原创。我想创办我的第二家公司。我没有一个精确的想法要做什么。但我知道我想深入一个行业,一个在过去 20 年里没有像许多其他行业那样被充分利用的行业。而电信业脱颖而出。它曾经是最原始的科技。在 90 年代,每一个百万富翁和亿万富翁都是在电信业里铸造出来的。"
+ },
+ {
+  "seg": 11,
+  "start": 407,
+  "end": 411,
+  "speaker": "Pablo Srugo",
+  "en": "I mean, it was like the railroads, then telecom, then AI. But it was the AI of 20 years ago.",
+  "zh": "我是说,就像先是铁路,然后是电信,然后是 AI。但它是 20 年前的 AI。"
+ },
+ {
+  "seg": 12,
+  "start": 411,
+  "end": 442,
+  "speaker": "Hermann Frank",
+  "en": "Yes, and actually when Sam Altman came up with a statement of like, we need to invest $7 trillion into AI infrastructure, people thought he's crazy. But if you look at telecom, just in the last 10 years, and it's a mature industry, they have invested over $3 trillion in infrastructure. So the overall amount invested in telecoms, like in wireless since the 90s, is way higher than what Sam said we need to build global AI infrastructure. So for us, it didn't seem that crazy at all.",
+  "zh": "是的,实际上当 Sam Altman 给出那个声明,就像,我们需要向 AI 基础设施投资 7 万亿美元时,人们觉得他疯了。但如果你看看电信业,仅仅在过去 10 年,而且它是一个成熟产业,他们在基础设施上投资了超过 3 万亿美元。所以自 90 年代以来投资于电信、无线领域的总额,远高于 Sam 所说的我们建设全球 AI 基础设施所需的金额。所以对我们来说,这看起来一点也不疯狂。"
+ },
+ {
+  "seg": 13,
+  "start": 442,
+  "end": 448,
+  "speaker": "Pablo Srugo",
+  "en": "And so, and just tell me a little bit about the original business and maybe just the timeline in terms of when you start thinking about this.",
+  "zh": "那么和我多讲一点原来的业务吧,也许还有时间线,就你什么时候开始思考这件事而言。"
+ },
+ {
+  "seg": 14,
+  "start": 448,
+  "end": 457,
+  "speaker": "Hermann Frank",
+  "en": "Yes. So we kind of settled on telecom and then we decided to look into, okay, what might be reoccurring problems in that industry?",
+  "zh": "是的。我们算是定下了电信业,然后我们决定研究一下,好吧,那个行业可能有哪些反复出现的问题?"
+ },
+ {
+  "seg": 15,
+  "start": 457,
+  "end": 459,
+  "speaker": "Pablo Srugo",
+  "en": "And when was this? Just to kind of get, have that context.",
+  "zh": "那是什么时候?只是为了大概了解一下背景。"
+ },
+ {
+  "seg": 16,
+  "start": 459,
+  "end": 579,
+  "speaker": "Hermann Frank",
+  "en": "Around 2018, 19. Okay. We kind of looked at everything from like, how are networks built? Like, how are they monetized? Like, how does distribution work? And the first thing that we saw is, if you look at the world, like only about half of it was really covered with high-speed wireless. And the rest was not. It was just like massive wireless gaps, entire continents, parts of countries, even in countries like Germany and the US, if you drove like 10 minutes outside of a big city, you did not have high-speed wireless. And so we like looked at, okay, why is this the case? And it's just like, it's a density problem. Like the less dense the population is, the higher the costs are. And there isn't this oligopoly of Nokia, Ericsson, and Huawei at the time, and most of the world, they're still in running, that if you understood anything about hardware, you saw that they're overpricing these like closed loop system that they're selling to telcos by about a factor of a hundred. Because if you put enterprise wireless hardware next to it, like it was about a hundred times cheaper because they were like open standard white label wireless hardware. And we thought, okay, if we can figure out how to build a cellular grade network with this standardized hardware, not this black box closed loop system, we could make deployment much cheaper and therefore make high-speed wireless much more ubiquitous than this. And that's what we did. Like we set ourselves a rule, like you need to be able to order this on Amazon or Alibaba, like no other hardware, nothing custom. And then we developed our own software hardware stack. So we put a real telco backend that usually lives on a big data center into a tiny like Intel Mac computer. And we built in our apartment two cells. And then we walk from one to another and it worked great. Okay, we need a vessel to test this at like higher scale. Like the apartment won't do it.",
+  "zh": "大约 2018、19 年。好的。我们研究了所有事情,比如,网络是怎么建的?比如,它们是怎么变现的?比如,分销是怎么运作的?我们看到的第一件事是,如果你看这个世界,比如只有大约一半真正被高速无线覆盖。其余的没有。就是像巨大的无线空白,整片大陆,国家的部分区域,甚至在德国和美国这样的国家,如果你在大城市外开车 10 分钟,你就没有高速无线。所以我们就像研究,好吧,为什么会这样?而这就像是一个密度问题。人口密度越低,成本就越高。而且当时有诺基亚、爱立信和华为的这种寡头垄断,在世界大部分地区,它们至今仍在运营,如果你对硬件有任何了解,你会看到它们把这些卖给电信公司的闭环系统溢价了大约一百倍。因为如果你把企业级无线硬件放在旁边,比如它便宜了大约一百倍,因为它们是像开放标准的白牌无线硬件。所以我们想,好吧,如果我们能弄清楚如何用这种标准化硬件、而不是这种黑盒闭环系统来构建一个蜂窝级的网络,我们可以让部署便宜得多,从而让高速无线比现在更普及。而这就是我们做的。比如我们给自己定了一条规则,就像你需要能够在 Amazon 或 Alibaba 上订购这些,比如没有其他硬件,没有任何定制。然后我们开发了自己的软硬件技术栈。所以我们把一个通常生活在大型数据中心里的真正的电信后端塞进了一台小小的 Intel Mac 电脑里。而且我们在我们的公寓里建了两个基站。然后我们从一个走到另一个,效果很好。好吧,我们需要一个容器来在更高规模上测试这个。比如公寓不行了。"
+ },
+ {
+  "seg": 17,
+  "start": 579,
+  "end": 582,
+  "speaker": "Pablo Srugo",
+  "en": "And who, when you say we, by the way, who's involved at that point?",
+  "zh": "那么,顺便问一下,当你说我们的时候,那时候都有谁参与?"
+ },
+ {
+  "seg": 18,
+  "start": 582,
+  "end": 591,
+  "speaker": "Hermann Frank",
+  "en": "So it was my co-founder, Dennis and I, and Dennis and I are now co-founders on Gigs. And we had one intern, like a friend that was like helping us.",
+  "zh": "是我的联合创始人 Dennis 和我,而 Dennis 和我现在是 Gigs 的联合创始人。我们还有一个实习生,像一个朋友那样在帮助我们。"
+ },
+ {
+  "seg": 19,
+  "start": 591,
+  "end": 594,
+  "speaker": "Pablo Srugo",
+  "en": "And are both of you like technical types?",
+  "zh": "那你们俩都是技术型的人吗?"
+ },
+ {
+  "seg": 20,
+  "start": 594,
+  "end": 650,
+  "speaker": "Hermann Frank",
+  "en": "I'd say I'm more technical of the both of us. Like Dennis is, without Dennis, like we would not have a company, right? Like we always joke, like we could have a hundred million in the bank and like nobody wouldn't get paid because I'm just terrible at like anything that is administrative and operational. So we complement each other incredibly well. So we then went out and built a Wi-Fi network in Berlin. So we walk from cafe to cafe and then we asked them if we can deploy this Wi-Fi inside of their cafe that basically like put together resembled a cellular grade network. And then you could walk through an entire neighborhood and stay connected on this network. And it worked amazingly well. We had like over a million customers in the first year, mostly tourists that were just like roaming around the city. So we basically became the number one public Wi-Fi network in the city.",
+  "zh": "我会说我是我们俩中更技术的那一个。比如 Dennis,没有 Dennis,我们不会有这家公司,对吧?比如我们总是开玩笑,就像我们可以银行里有一亿,然后没人能拿到工资,因为我简直在 anything 行政和运营的事情上都很糟糕。所以我们互补得非常非常好。所以我们接着出去在柏林建了一个 Wi-Fi 网络。我们从一个咖啡馆走到另一个咖啡馆,然后问他们能否把这个 Wi-Fi 部署在他们的咖啡馆里,基本上拼在一起就构成了一个蜂窝级的网络。然后你可以穿过整个街区并在这个网络上保持连接。它运行得非常好。第一年我们有超过一百万的客户,主要是只是在城市里漫游的游客。所以我们基本上成为了这个城市第一的公共 Wi-Fi 网络。"
+ },
+ {
+  "seg": 21,
+  "start": 650,
+  "end": 651,
+  "speaker": "Pablo Srugo",
+  "en": "Did you fundraise for that?",
+  "zh": "你为那个融过资吗?"
+ },
+ {
+  "seg": 22,
+  "start": 651,
+  "end": 662,
+  "speaker": "Hermann Frank",
+  "en": "I financed it myself at the point. I was like in it for like to find the one big problem and then we once we kind of figure it out and we want to scale, then the idea was to go out and raise.",
+  "zh": "我当时是自己出资的。我当时是为了找出那个大问题,然后一旦我们弄清楚了,我们想规模化,那时的想法才是出去融资。"
+ },
+ {
+  "seg": 23,
+  "start": 662,
+  "end": 663,
+  "speaker": "Pablo Srugo",
+  "en": "How many users do you have?",
+  "zh": "你有多少用户?"
+ },
+ {
+  "seg": 24,
+  "start": 663,
+  "end": 665,
+  "speaker": "Hermann Frank",
+  "en": "We had over a million users after a year.",
+  "zh": "一年后我们有了超过一百万用户。"
+ },
+ {
+  "seg": 25,
+  "start": 665,
+  "end": 670,
+  "speaker": "Pablo Srugo",
+  "en": "Wow. I mean a million is actually, it's a big number of paid consumer users, right? Like how did you...",
+  "zh": "哇。我的意思是,一百万实际上是,这是一个付费消费者用户的大数字,对吧?比如你是怎么……"
+ },
+ {
+  "seg": 26,
+  "start": 670,
+  "end": 675,
+  "speaker": "Hermann Frank",
+  "en": "Not paid, just users. That's how we came to Gigs when we tried to figure out the paid part.",
+  "zh": "不是付费的,只是用户。这就是我们怎么走到 Gigs 的,当我们试图弄清楚付费那部分的时候。"
+ },
+ {
+  "seg": 27,
+  "start": 675,
+  "end": 681,
+  "speaker": "Pablo Srugo",
+  "en": "So you're offering, like you're on Google ads or wherever you are, you're marketing like free roaming for tourists sort of thing.",
+  "zh": "所以你们提供的是,比如你们在 Google 广告或其他什么地方,营销的是类似游客免费漫游的东西。"
+ },
+ {
+  "seg": 28,
+  "start": 681,
+  "end": 694,
+  "speaker": "Hermann Frank",
+  "en": "So you can run any type of spectrum on the antenna, right? So we just ran it on Wi-Fi spectrum and we made it into a Wi-Fi network. So when you were somewhere in the vicinity of one of those...",
+  "zh": "所以你可以在天线上跑任何类型的频谱,对吧?所以我们只是在 Wi-Fi 频谱上跑,并把它做成了一个 Wi-Fi 网络。所以当你在其中一个的附近时……"
+ },
+ {
+  "seg": 29,
+  "start": 694,
+  "end": 697,
+  "speaker": "Pablo Srugo",
+  "en": "Oh, you would just see an open, you'd see an open Wi-Fi.",
+  "zh": "哦,你只会看到一个开放的,你会看到一个开放的 Wi-Fi。"
+ },
+ {
+  "seg": 30,
+  "start": 697,
+  "end": 715,
+  "speaker": "Hermann Frank",
+  "en": "Yeah, we'll see a free Wi-Fi. And once you're in one of the nodes, you're everywhere. And we would have like either flyer at like the cafes that we had these nodes installed in. So we had like free internet basically to backhaul whatever you were consuming. And that was how it spread.",
+  "zh": "是的,我们会看到一个免费 Wi-Fi。而一旦你进入了其中一个节点,你就到处都在网内。而且我们会在安装了这些节点的那些咖啡馆里放传单之类。所以我们基本上有免费互联网来回传你消费的任何东西。这就是它传播的方式。"
+ },
+ {
+  "seg": 31,
+  "start": 715,
+  "end": 723,
+  "speaker": "Pablo Srugo",
+  "en": "What's the cost behind that? Like who's... This is a naive question of somebody who knows very little about telco. Like you're serving this Wi-Fi. What's the cost for you?",
+  "zh": "这背后的成本是什么?比如谁……这是一个对电信知之甚少的人的天真问题。比如你在提供这个 Wi-Fi。你的成本是多少?"
+ },
+ {
+  "seg": 32,
+  "start": 723,
+  "end": 755,
+  "speaker": "Hermann Frank",
+  "en": "So the hardware, the total cost like to per node came out to like a couple hundred bucks. And the other kind of hack that we had was that we used the Wi... Like we went to a cafe and said like, your Wi-Fi is not secure. Let us install this very secure Wi-Fi for those and those and those reasons. And you can offer better Wi-Fi experience to your customers and their Wi-Fi will work in the entire neighborhood. And what we got in return was free internet access. So we had to pay zero for the actual internet, right?",
+  "zh": "硬件方面,每个节点的总成本算下来是几百美元左右。而我们有的另一个小技巧是我们利用了那个 Wi……比如我们去一个咖啡馆说,你的 Wi-Fi 不安全。让我们出于这些那些原因为你们安装这个非常安全的 Wi-Fi。而你可以为你的客户提供更好的 Wi-Fi 体验,而且他们的 Wi-Fi 会在整个街区都能用。而我们得到的回报是免费的网络接入。所以我们为零支付了实际的互联网费用,对吧?"
+ },
+ {
+  "seg": 33,
+  "start": 755,
+  "end": 758,
+  "speaker": "Pablo Srugo",
+  "en": "Right. They're the ones paying... Like you're piggybacking off of their plan.",
+  "zh": "对。付钱的是他们……比如你在搭他们套餐的便车。"
+ },
+ {
+  "seg": 34,
+  "start": 758,
+  "end": 850,
+  "speaker": "Hermann Frank",
+  "en": "Exactly. So we got gigabits upon gigabits of like free backhaul capacity out of it. And then about a year in, we're like, hey, this is clearly working. Like what are we going to do with it? Like we had plans to scale this to like 10 other markets. And we like tried to figure out how to monetize the best. And the idea was we're only in two neighborhoods. We don't have a desire to like cover the entire city. Like that's where... Like tourists are mostly here. And what we wanted to achieve is that you could buy an eSIM. And when you're within reach of our network, you would roam on our network and we would not pay anything for the traffic. But when you're not, you could roam on the national LTE network. And we were very much expecting to find an API to allow us to provision a device on the network and then tie in ourselves. So basically like a Stripe-like experience and telecoms, if you will. And it didn't exist. And we were very surprised as to why that doesn't exist. So like that kind of let us down a rabbit hole. And we understood that the industry just like was not able to produce this like developer experience, like this horizontal developer experience that we've kind of came to be used in pretty much every other industry, like hosting, payments, right? Like you just have an API for pretty much everything. And once we understood why and like what would happen if we would solve it, we understood, okay, this is the biggest problem we've ever seen.",
+  "zh": "正是。所以我们从中获得了堆积如千兆的免费回传容量。然后大约一年后,我们说,嘿,这显然在起作用。比如我们要拿它做什么?比如我们曾计划把它扩展到 10 个左右的其他市场。而且我们试图弄清楚如何最好地变现。想法是我们只在两个街区。我们不想覆盖整个城市。比如那就是……比如游客主要在这里。而我们想要实现的是,你可以买一张 eSIM。当你在我们网络的覆盖范围内时,你会在我们的网络上漫游,而我们不会为流量支付任何费用。但当你不在时,你可以在全国 LTE 网络上漫游。而我们非常期待找到一个 API 来让我们在网络上配置一台设备,然后把自己接入。基本上就像是电信领域的 Stripe 式体验,如果你愿意这么说的话。而它不存在。而且我们非常惊讶于为什么它不存在。所以就像这让我们掉进了兔子洞。而且我们明白这个产业就是无法产出这种开发者体验,这种横向的开发者体验,我们已经几乎在其他每个行业都习惯了的东西,比如托管、支付,对吧?比如你几乎一切都有一套 API。而一旦我们明白了为什么,以及如果我们解决了它会发生什么,我们明白了,好吧,这是我们见过的最大的问题。"
+ },
+ {
+  "seg": 35,
+  "start": 850,
+  "end": 860,
+  "speaker": "Pablo Srugo",
+  "en": "But to be clear then, in order for you to get what you wanted, you needed to go to the telcos and work out an agreement, MSA, partnership, whatever that looks like, one-on-one.",
+  "zh": "但要澄清一下,为了让你得到你想要的,你需要去找电信公司,一对一地谈成一份协议、MSA、合作关系,不管那是什么样子。"
+ },
+ {
+  "seg": 36,
+  "start": 860,
+  "end": 912,
+  "speaker": "Hermann Frank",
+  "en": "Exactly. We would have to do a lot of hard work to produce that outcome. But we understood if we can produce that outcome, the same thing that happened with AWS and hosting and Stripe and payments will happen in telecom. Basically everything that's net new is going to be built on top of that infrastructure. And then you kind of capture all of net new demand in one of the world's largest industries and pretty much all of net new innovation in one of the world's largest industries. And like that prospect for us is like, okay, like you can build a globally dominant horizontal player, like a global network if you start at the API layer and you eat your way down from there. So that's how the idea for GIGS came about.",
+  "zh": "正是。我们本来必须做大量艰苦的工作来产出那个结果。但我们明白,如果我们能产出那个结果,发生在 AWS 与托管、Stripe 与支付上的同样事情将会发生在电信领域。基本上所有全新的东西都将构建在那个基础设施之上。然后你就相当于在一个世界最大的产业里捕获所有的新增需求,以及在一个世界最大的产业里几乎所有的新增创新。而那个前景对我们来说就是,好吧,比如你可以构建一个全球主导的横向玩家,比如一个全球网络,如果你从 API 层开始,然后从那里一路吃下去。这就是 Gigs 这个想法的由来。"
+ },
+ {
+  "seg": 37,
+  "start": 912,
+  "end": 915,
+  "speaker": "Pablo Srugo",
+  "en": "So the Stripe for telco was kind of the original idea.",
+  "zh": "所以电信领域的 Stripe 大算是最初的想法。"
+ },
+ {
+  "seg": 38,
+  "start": 915,
+  "end": 923,
+  "speaker": "Hermann Frank",
+  "en": "Well, the Stripe for telco was what we discovered while building hardware and building Wi-Fi networks.",
+  "zh": "嗯,电信领域的 Stripe 是我们在构建硬件和构建 Wi-Fi 网络时发现的。"
+ },
+ {
+  "seg": 39,
+  "start": 923,
+  "end": 928,
+  "speaker": "Pablo Srugo",
+  "en": "Yeah, sorry. I mean, at that point, right? So not the original idea, but like the first version of what GIGS is today.",
+  "zh": "是的,抱歉。我是说,在那个时候,对吧?所以不是最初的想法,而是像今天 GIGS 的第一个版本。"
+ },
+ {
+  "seg": 40,
+  "start": 928,
+  "end": 941,
+  "speaker": "Hermann Frank",
+  "en": "That was the first version of GIGS and that was like what we then started out to do. And we completely put aside the Wi-Fi business and like the cellular network business and focused exclusively on building the API.",
+  "zh": "那是 GIGS 的第一个版本,也是我们那时开始着手去做的事。而且我们完全把 Wi-Fi 业务和蜂窝网络业务放在一边, exclusively 专注于构建 API。"
+ },
+ {
+  "seg": 41,
+  "start": 941,
+  "end": 970,
+  "speaker": "Pablo Srugo",
+  "en": "This is what I always find especially challenging when an idea depends on you bringing large enterprises into play as a tiny, you know, little startup with no credibility, no name, you know, relatively no funding. What you need to do is clear. The opportunity is relatively clear. What's the first step? Like how are you going to go and knock on, you know, I don't know who you need to get AT&T, whatever the big, you know, telecos that you need to get to play with you. How do you even approach them? Or is there a step before that step?",
+  "zh": "这是当我发现一个想法依赖于你把大型企业拉进来时尤其具有挑战性的地方,作为一个微小的、你知道的、没有信誉、没有名字、相对来说没有资金的小创业公司。你需要做什么是清楚的。机会是相对清楚的。第一步是什么?比如你打算怎么去敲,你知道的,我不知道你需要谁,AT&T,不管你需要哪个大电信公司来和你玩。你怎么接近他们?还是说在那一步之前还有一步?"
+ },
+ {
+  "seg": 42,
+  "start": 970,
+  "end": 1015,
+  "speaker": "Hermann Frank",
+  "en": "And so when we started telling people that that's what we want to do, like, and we started talking to first investors, we got no's left and right because they didn't talk to their buddy at like AT&T or to telecom and other funds. It's like, yeah, no carrier will ever let them do this, right? Like this is, this is not possible. People have tried and yada, yada. So we kind of had to chew our way through it. Like the way we actually got our first deal done was not even with a carrier because they wouldn't talk to us. So that part was actually true initially. We found an aggregator that was behind on their commitments with the network and we integrated there and we built the first version of the product on that aggregator with terrible economics, right? We didn't make any money on that.",
+  "zh": "所以当我们开始告诉人们那就是我们想做的事,而且我们开始和第一批投资者交谈时,我们到处碰壁,因为他们没有和他们像 AT&T 或电信业其他基金里的朋友聊过。就像,是的,没有运营商会让他们这么做,对吧?就像这,这不可能。人们试过,等等等等。所以我们算是不得不硬啃下来。比如我们实际上做成第一笔交易的方式甚至不是和一家运营商,因为他们不愿和我们谈。所以那部分最初确实是事实。我们找到了一个对其网络承诺拖欠的聚合商,我们在那里做了集成,并在那个聚合商上构建了产品的第一个版本,经济模型很糟糕,对吧?我们在那上面没赚到任何钱。"
+ },
+ {
+  "seg": 43,
+  "start": 1015,
+  "end": 1019,
+  "speaker": "Pablo Srugo",
+  "en": "Dive deep around that. I'm not sure what that means. Who's like, what's the aggregator?",
+  "zh": "深入讲讲那个。我不确定那是什么意思。谁是,什么是聚合商?"
+ },
+ {
+  "seg": 44,
+  "start": 1019,
+  "end": 1040,
+  "speaker": "Hermann Frank",
+  "en": "Aggregators are these actors in the marketplace that they get a deal with a carrier and then they find smaller customers to basically split this pool because their customers are too small to get served by the carriers themselves or in our case, too small and slightly undesirable.",
+  "zh": "聚合商是市场中的这些参与者,他们和一家运营商达成协议,然后他们找较小的客户来基本上分这个池,因为他们的客户太小,运营商自己不愿服务,或者在我们的情况下,太小而且有点不受欢迎。"
+ },
+ {
+  "seg": 45,
+  "start": 1040,
+  "end": 1046,
+  "speaker": "Pablo Srugo",
+  "en": "So they had pre-negotiated, let's say, MSAs with several of these telcos already and you kind of just absorbed that.",
+  "zh": "所以他们已经和其中几家电信公司预先谈好了,比方说,MSA,而你算是直接吸收了那个。"
+ },
+ {
+  "seg": 46,
+  "start": 1046,
+  "end": 1088,
+  "speaker": "Hermann Frank",
+  "en": "Exactly. We were just able to plug into the same integration that they had and for the first use case we had, it worked fine. Like, it would never work for like what we're doing today but like it worked fine for that kids' smartwatch use case. And then we started onboarding customers there and we went to the network and said like, hey, we build a product like on your network and like here's what it does and here's like where we are. And they saw the growth. Like they were wondering where is the growth coming from this aggregator that was like relatively flat. So that got us into the door to get our very first deal with the carrier. And lucky for us, it was AT&T, one of the largest carriers in the world.",
+  "zh": "正是。我们只是能够接入他们已有的同一个集成,而对于我们的第一个用例,它运转得还不错。比如它永远不可能用于我们今天做的事情,但对于那个儿童智能手表用例它运转得还不错。然后我们开始在那里接入客户,我们去网络那边说,嘿,我们在你们的网络上构建了一个产品,这是它的功能,这是我们现在的规模。他们看到了增长。比如他们想知道增长是从哪来的,这个相对平淡的聚合商。所以那让我们敲开了门,拿到了我们和运营商的非常第一笔交易。而且对我们来说幸运的是,那是 AT&T,世界上最大的运营商之一。"
+ },
+ {
+  "seg": 47,
+  "start": 1088,
+  "end": 1104,
+  "speaker": "Pablo Srugo",
+  "en": "Yeah, the big one. Before moving on actually, if you don't mind, let's just dive a little bit deeper on that because you find the aggregator, first of all, just in terms of timelines, like started 2018 with the first idea. When does this kind of strive for telco's idea come and how long are you in this exploratory phase until you discover this aggregator?",
+  "zh": "是的,最大的那个。在继续之前,如果你不介意,让我们在那个上面再深入一点,因为你们找到了聚合商,首先,就时间线而言,比如 2018 年有了第一个想法。这个瞄准电信的想法是什么时候来的,你们在这个探索阶段待了多久才发现这个聚合商?"
+ },
+ {
+  "seg": 48,
+  "start": 1104,
+  "end": 1133,
+  "speaker": "Hermann Frank",
+  "en": "So the Gigs idea came like I'd say around mid-2020. Then we spent a couple months like talking to market, understanding, building a real thesis around it. And then we applied to YC like at the end of 2020 and we got into YC for the winter 21 batch. So we January to March we did YC and that's where we started building the product for real. And we launched commercially at the end of 21.",
+  "zh": "Gigs 的想法大约是 2020 年年中,我可以说。然后我们花了几个月的时间做市场访谈、理解、围绕它建立一个真正的论点。然后我们在 2020 年底申请了 YC,而我们进入了 YC 的 21 年冬季批次。所以我们 1 月到 3 月做了 YC,那正是我们开始真正构建产品的地方。而我们在 21 年底商业上线。"
+ },
+ {
+  "seg": 49,
+  "start": 1133,
+  "end": 1134,
+  "speaker": "Pablo Srugo",
+  "en": "And when did you land this aggregator?",
+  "zh": "你们是什么时候拿下这个聚合商的?"
+ },
+ {
+  "seg": 50,
+  "start": 1134,
+  "end": 1136,
+  "speaker": "Hermann Frank",
+  "en": "That was around that time.",
+  "zh": "那大概就是那个时候。"
+ },
+ {
+  "seg": 51,
+  "start": 1136,
+  "end": 1143,
+  "speaker": "Pablo Srugo",
+  "en": "Okay, so you went over a year at like stuck at idea stage effectively because you couldn't really deploy anything.",
+  "zh": "好的，所以你在创意阶段实际上卡了一年多，因为你没法真正部署任何东西。"
+ },
+ {
+  "seg": 52,
+  "start": 1143,
+  "end": 1161,
+  "speaker": "Hermann Frank",
+  "en": "Yeah, there was like a short phase before that where we were like playing around with like Twilio setups and so on but like that was not feasible at all. It's like it's not the same type of product but allowed us to basically sandbox certain parts. But yeah, it was not a product we could have taken like online commercially.",
+  "zh": "是的，在那之前有一小段时间我们在玩 Twilio 之类的配置等等，但那完全不可行。那不是同一类型的产品，但让我们基本上能对某些部分进行沙箱测试。但是的，那不是一个我们可以商业化上线的产品。"
+ },
+ {
+  "seg": 53,
+  "start": 1161,
+  "end": 1175,
+  "speaker": "Pablo Srugo",
+  "en": "And then how do you so that's the first half which is okay you get this aggregator like finally I have access to some amount of these networks some subset in terms of functionality or whatever. And then the smartwatch market like where does that you know tell me more about that where does that come from?",
+  "zh": "那么这是前半部分，就是说，你终于有了一个聚合器，我可以访问这些网络中的一定数量、某些功能子集之类的。那智能手表市场呢，那是从哪来的，跟我说说，这是怎么回事？"
+ },
+ {
+  "seg": 54,
+  "start": 1175,
+  "end": 1194,
+  "speaker": "Hermann Frank",
+  "en": "So yeah, that was like a really random introduction we got from one of our advisors she's like oh yeah I'm on the board of this kid's smartwatch company you should talk to them they're having massive problems with like SIM cards. And what happened is they were selling these watches on Amazon and people would order them and put a random SIM card in.",
+  "zh": "是的，那是一个非常偶然的介绍，来自我们的一位顾问，她说，哦对了，我在一家儿童智能手表公司的董事会，你应该跟他们聊聊，他们在 SIM 卡方面遇到了大问题。事情是他们在 Amazon 上卖这些手表，人们下单后随便放一张 SIM 卡进去。"
+ },
+ {
+  "seg": 55,
+  "start": 1194,
+  "end": 1198,
+  "speaker": "Pablo Srugo",
+  "en": "Like a physical like it had room for a physical SIM for whatever country. Okay.",
+  "zh": "是实体的吗，就是它有放实体 SIM 卡的空间，随便哪个国家的。好的。"
+ },
+ {
+  "seg": 56,
+  "start": 1198,
+  "end": 1253,
+  "speaker": "Hermann Frank",
+  "en": "Physical SIM and then the SIM wouldn't have a pin but the watch would get blocked because of the pin or the carrier locked the SIM to only work with smartphones and then so it wouldn't work with a smartwatch because the plan was not designed for a smartwatch. So all these things would happen and people would think okay this smartwatch sucks but it wasn't the smartwatch it was they put it in the wrong SIM. So they were looking to just launch their own mobile service and what we did is we embedded the SIMs at the factory into the device and when you were activating the device like in the parental app on the phone you could just subscribe to the service. You pay and instantly activated the subscription and it solved all their problems that 30-40% returns on these devices on Amazon. It created a subscription revenue stream and they started growing much faster.",
+  "zh": "实体 SIM 卡，然后 SIM 卡没有 PIN 码，但手表会因为 PIN 码被锁，或者运营商把 SIM 卡锁定只能和智能手机配合使用，所以它就不能和智能手表一起用，因为那个套餐不是为智能手表设计的。这些情况都发生了，人们就会觉得这智能手表真烂，但其实不是智能手表的问题，是他们放错了 SIM 卡。所以他们就想推出自己的移动服务，我们要做的是在工厂里把 SIM 卡嵌入设备，当你在手机上的家长应用里激活设备时，你可以直接订阅这项服务。你付钱，订阅立即激活，这解决了他们的所有问题，之前这些设备在 Amazon 上有 30-40% 的退货率。它创造了订阅收入流，他们开始增长得快多了。"
+ },
+ {
+  "seg": 57,
+  "start": 1253,
+  "end": 1258,
+  "speaker": "Pablo Srugo",
+  "en": "And did you enable this globally like from day one that aggregator was that global coverage that you had or which markets?",
+  "zh": "那你们从第一天起就是全球范围启用这个吗，那个聚合器是你们有全球覆盖，还是哪些市场？"
+ },
+ {
+  "seg": 58,
+  "start": 1258,
+  "end": 1263,
+  "speaker": "Hermann Frank",
+  "en": "That was the US first and then since we have expanded into more markets we've done.",
+  "zh": "首先是美国，之后我们扩展到了更多市场，我们已经做了。"
+ },
+ {
+  "seg": 59,
+  "start": 1263,
+  "end": 1273,
+  "speaker": "Pablo Srugo",
+  "en": "So that's your first kind of customer and then you dive deeper into this. Was that even a market? Like the smart kids smartwatch? Was there several companies that faced the same issue?",
+  "zh": "所以那是你的第一批客户，然后你深入这个领域。那甚至算一个市场吗？比如儿童智能手表？有好几家公司面临同样的问题吗？"
+ },
+ {
+  "seg": 60,
+  "start": 1273,
+  "end": 1324,
+  "speaker": "Hermann Frank",
+  "en": "Yeah, there's quite a range of companies and like I think today it's like a mid-eight digit like AR volume for us. So it's it's not a tiny market. They compound they grow at like 150% AR so like it's yeah it's good business. It's not the business that will grow build a hundred billion dollar company but it was the perfect niche right? Like in Wessi we were also told like you need to find the one group that like needs a product more where you can specialize and that was it and that allows us to build a much more resilient scalable platform that is ready for smartphone use cases right? Where you are powering the primary smartphone subscription of an individual that if there's anything wrong with that subscription for a second you're kind of screwed. And the other case like you had a lot more leeway it was way more forgiving.",
+  "zh": "是的，有相当多的公司，而且我想今天对我们来说大概是八位数中段的 AR 量级。所以它不是一个很小的市场。它们以大约 150% 的 AR 复合增长，所以，是的，这是不错的生意。它不是那种能成长为千亿美元公司的业务，但它是最完美的利基市场，对吧？在 Wessi 我们也被教导说，你需要找到那个更需要产品、你可以专精的群体，就是这个。这让我们得以构建一个更加稳固、可扩展的平台，为智能手机用例做好准备，对吧？在那里你支撑的是一个人的主要智能手机订阅，如果那个订阅哪怕出错一秒，你就有点完蛋了。而另一种情况，你有更多的回旋余地，它宽容得多。"
+ },
+ {
+  "seg": 61,
+  "start": 1324,
+  "end": 1371,
+  "speaker": "Pablo Srugo",
+  "en": "But it's also while it is more forgiving it's also the perfect example of what you kind of mentioned there which is this smaller niche market but that has a very sharp pain point. I mean when you're dealing with 30 to 40% returns your business is not working fundamentally. You'll do anything to you'll try anything frankly to solve that which is different a little bit than kind of where you're going to move to and we're going to talk about that now but you know you become an enabler right? You're like hey I'm a fintech you want to have a new revenue stream you plug Gigs in and you kind of sell this mobile service and the market is much bigger but at least at first I don't know if the pain is as sharp as this smartwatch thing which you needed because probably your product at that point was not at the same level in terms of production and in terms of feature rich and whatever so it was good enough for them maybe not good enough for everybody else but really got you going.",
+  "zh": "但虽然它更宽容，它也正好是你刚才提到的那种情况的完美例子，就是一个更小的利基市场，但有非常尖锐的痛点。我是说，当你面对 30-40% 的退货率时，你的业务从根本上是运转不了的。你会不惜一切，坦白说你会尝试任何办法来解决它。这和你接下来要去的地方有点不同，我们现在就要谈这个，但你知道，你成了一个赋能者，对吧？就像，嘿，我是金融科技公司，你想要新的收入流，你把 Gigs 插进去，你就可以卖这种移动服务，市场大得多，但至少最初，我不知道痛点是否像这个智能手表的事情那么尖锐——而你需要那个，因为在那个时候，你的产品在生产水平上、在功能丰富程度上可能还没达到同样的水平，所以对他们来说足够好了，也许对其他人还不够好，但这真的让你起步了。"
+ },
+ {
+  "seg": 62,
+  "start": 1371,
+  "end": 1372,
+  "speaker": "Hermann Frank",
+  "en": "Yes exactly. You love",
+  "zh": "是的，没错。你喜欢"
+ },
+ {
+  "seg": 63,
+  "start": 1372,
+  "end": 1386,
+  "speaker": "Pablo Srugo",
+  "en": "this show you don't want to miss the next episode why would you? So hit that follow button trust me it's in your own best interest What's the next step like you're kind of end of 21 you launch is this now the time when you go out and you've got some traction so I assume you go out and kind of raise some funding?",
+  "zh": "这个节目，你不会想错过下一集，怎么会想错过呢？所以点一下关注按钮，相信我，这是为你自己好。下一步是什么？你差不多在 21 年底推出，现在是你带着一些增长势头出去融资的时候了吗？我猜你会出去筹集一些资金？"
+ },
+ {
+  "seg": 64,
+  "start": 1386,
+  "end": 1413,
+  "speaker": "Hermann Frank",
+  "en": "Yeah we grew to like a millionaire right like this is pre AI millionaire in three months like which was like quite amazing growth so we raised a serious A on top of that and like that basically buys us the ability to like build the platform we actually set out to build so we keep scaling with kids smart boards and then we started graduating to like feature phones and then smartphones and just like powering a range of device customers",
+  "zh": "是的，我们三个月增长到了百万级用户，对吧，这是 AI 之前的百万用户，这增长相当惊人，所以我们在此基础上又筹集了一轮 A 轮，基本上这为我们买来了构建我们真正想构建的平台的能力，所以我们继续在儿童智能设备上扩展，然后我们开始向功能手机毕业，然后是智能手机，为一系列设备客户提供服务。"
+ },
+ {
+  "seg": 65,
+  "start": 1413,
+  "end": 1416,
+  "speaker": "Pablo Srugo",
+  "en": "still on top of the aggregator or now you're going direct",
+  "zh": "还是基于聚合器，还是现在你直接对接了？"
+ },
+ {
+  "seg": 66,
+  "start": 1416,
+  "end": 1443,
+  "speaker": "Hermann Frank",
+  "en": "that was still on top of the aggregator like it took us actually quite a while like to get the first deal done and to migrate but we kind of improved the aggregator connection meanwhile like we had like very first smartphone use cases on the aggregator still the economics were just terrible and you didn't have like full feature set but it was pretty pretty decent in terms of like the sim card functionality the aggregator feature set was like not very versatile and tell",
+  "zh": "那时还是基于聚合器。实际上我们花了相当长的时间才完成第一笔交易并完成迁移，但与此同时我们改进了聚合器连接，我们最早的一些智能手机用例仍然是在聚合器上，只是经济性非常糟糕，而且没有完整的功能集，但在 SIM 卡功能方面还挺不错的，聚合器的功能集不太灵活，跟我说"
+ },
+ {
+  "seg": 67,
+  "start": 1443,
+  "end": 1451,
+  "speaker": "Pablo Srugo",
+  "en": "me a little bit about the types of customers like once you moved off of smartwatch customers what was the next kind of batch of customers what was their use case",
+  "zh": "一点客户类型吧，一旦你从智能手表客户转移出去，下一批客户是什么，他们的用例是什么？"
+ },
+ {
+  "seg": 68,
+  "start": 1451,
+  "end": 1466,
+  "speaker": "Hermann Frank",
+  "en": "so that's where we started going after once we were quite mature with the smart device customers is where we started targeting fintechs so we launched new bank first that was the very first fintech customer tell me",
+  "zh": "所以当我们在智能设备客户方面相当成熟之后，我们开始瞄准金融科技公司。所以我们首先推出了新银行，那是最早的金融科技客户。多跟我说"
+ },
+ {
+  "seg": 69,
+  "start": 1466,
+  "end": 1483,
+  "speaker": "Pablo Srugo",
+  "en": "a little bit more about the idea like I think about my bank which now I do have one of these neobanks but before I had a traditional bank I'm not buying my mobile plant from them here we have called simple in the US they have a bunch of others in Europe different but what's the thinking from the business level of we're going to get into mobile plants",
+  "zh": "一点这个想法吧，我想想我的银行——我现在确实有一家这类新银行，但之前我是一家传统银行——我不会从他们那里买我的移动套餐。在美国这里我们有一家叫 Simple 的，欧洲也有不少其他的，各不相同，但从业务层面来看，为什么要进军移动套餐领域？"
+ },
+ {
+  "seg": 70,
+  "start": 1483,
+  "end": 1658,
+  "speaker": "Hermann Frank",
+  "en": "yes so fintechs most of like in developed markets they're successful because they've been able to build a user experience that is much better than a traditional bank's user experience they attract a certain type of clientele mostly you know like it's a generational kind of cut right like millennials gen z would much rather prefer to bank on an app that allows it to do things in a couple clicks and really cares about customer experience and they already have KYC these are like the most regulated industries telecom and finance they are your payment methods so you can build the most simple way to activate a subscription psychologically they're very similar like they're both kind of wallet products so you don't leave your house without your wallet without your phone so they're kind of a great psychological from a consumer psychology standpoint fit and then there is a they will become mainstream one they're maturing like the market is maturing like they've grown a lot but like now you see kind of maturing growth curves so they're looking for ways to gain primacy to gain loyalty and to gain additional revenue streams and ideally to create a kind of a portfolio effect right like an ecosystem that benefits their customers maximally and that is a great addition to that ecosystem is the first thing you pay even if you don't have money like people pay their mobile bill before they pay rent it's 12 transactions per year that you have it's a service that you use every second of every day basically and then there is another component carriers never wanted to finance phones they've become reluctant financiers of phones 30 years ago because that was the only way to sell you a subscription and they don't want that business they want to get rid of it banks on the other end they want incremental business lines with their customers so they want that additional loan they want that additional touch point with their customer so ultimately they were not able to do it because they couldn't sell a subscription alongside with the phone now for the first time they can do both they can sell you the phone and the subscription in a bundle they can add other loyalty mechanisms from their ecosystem for cash app for example you get cash app green for free if you are a subscriber like Revolut in the UK you can pay with rev points you can pay your phone bill with rev points now so these make it unique so structurally a bank will be much better position to serve your things to offer you and because for them this is a compounding portfolio product versus a singular touch point that",
+  "zh": "是的，金融科技公司，在发达市场，它们成功是因为它们构建了比传统银行好得多的用户体验。它们吸引某一类型的客群，基本上，你知道，是代际上的划分，对吧？千禧一代和 Z 世代更愿意在一个几 clicks 就能办事的 App 上银行业务，非常在乎客户体验，而且它们已经有 KYC 了。电信和金融是受监管最严格的两个行业。它们是你的支付方式，所以你可以构建最简单的订阅激活方式。从心理层面它们非常相似，它们都是某种钱包产品，你出门不会不带钱包、不带手机，所以从消费者心理学的角度来看它们是非常契合的。然后还有一点，它们会成为主流，它们正在成熟，市场在成熟，它们增长了很多，但现在你看到了趋于成熟的增长曲线，所以它们在寻找获得首要地位、获得忠诚度和获得额外收入流的方式，理想情况下是创建某种组合效应，对吧？一个能最大程度惠及其客户的生态系统。而这是对这个生态系统的绝佳补充：它是你最先支付的东西，哪怕你没钱——人们在付房租之前先付手机账单。它是一年 12 笔交易，基本上是你每一秒、每一天都在使用的服务。然后还有另一个因素：运营商从来不想为手机提供融资，30 年前它们成了不情愿的手机融资方，因为那是卖给你订阅的唯一方式，而它们不想要那个业务，它们想摆脱它。银行呢，恰恰相反，它们想要与客户之间更多的业务线，所以它们想要那笔额外贷款，它们想要与客户之间那个额外触点。所以最终它们没能做到，因为它们无法在卖手机的同时卖订阅。现在它们第一次可以两者都做：它们可以把手机和订阅打包卖给你，它们可以从其生态系统中添加其他忠诚度机制。比如 Cash App，如果你是订阅用户就免费获得 Cash App Green；比如英国的 Revolut，你现在可以用 Rev 积分付手机账单。这些使它独一无二。所以从结构上讲，银行会处于好得多的位置来为你提供这些东西，因为对它们来说这是一个复利的组合产品，而不是单一的触点——"
+ },
+ {
+  "seg": 71,
+  "start": 1658,
+  "end": 1682,
+  "speaker": "Pablo Srugo",
+  "en": "makes a lot of sense and do you find the offering is any different like for example I'm thinking in terms of the credit card that I have from Wealthsimple has no foreign exchange fees or whatever so it becomes a more global credit card which I think is a pretty common offering for these guys are you seeing the same things in plans where you can use it from anywhere in the world or are the terms of the plans pretty similar to what you would get from AT&T T-Mobile directly",
+  "zh": "这很有道理,你觉得这个产品有什么不同吗?比如我在想我持有的 Wealthsimple 信用卡,它没有外汇手续费之类的东西,所以它变成了一张更全球化的信用卡,我觉得这对这些公司来说是相当常见的做法,你在套餐方面有没有看到同样的情况,就是可以在世界任何地方使用的套餐,还是说套餐的条款和你直接从 AT&T、T-Mobile 那里拿到的差不多"
+ },
+ {
+  "seg": 72,
+  "start": 1682,
+  "end": 1762,
+  "speaker": "Hermann Frank",
+  "en": "so most of our customers offer highly competitive to high value phone plans for example the plans we have with Revolut in the UK it's arguably the best phone plan in the UK you have unlimited data in the UK on the best network there you have very generous allowance of roaming data in the EU which the UK typically doesn't have anymore since they exited and you have a quite generous allowance of global roaming as well with the messaging pass and that all comes pre-bundled in a highly affordable price and that's something we were able to structure because we control both the roaming setup we control the local setup and Revolut is then able to plug in their ecosystem to give it more advantages like there's a VPN included and other features as well in the US Cash App has one of the most attractive plans in the US it's the first truly unlimited plan in the US and it's a plan that also has roaming allowances and that's something you can every one of our customers can decide to package anywhere they want depending on what they're trying to do and what they're trying to",
+  "zh": "我们的大多数客户都提供极具竞争力、高价值的手机套餐,比如我们在英国与 Revolut 合作推出的套餐,可以说是英国最好的手机套餐,你在英国当地最好的网络上拥有不限流量数据,你在欧盟有非常慷慨的漫游数据额度——而自从英国退出欧盟后通常已经没有这个了——而且通过 messaging pass 你还有相当慷慨的全球漫游额度,这一切都以非常实惠的价格预先打包在一起,这是我们能够设计出来这样的方案,因为我们同时控制漫游设置和本地设置,而 Revolut 则能够接入他们的生态系统来给它带来更多优势,比如包含一个 VPN 以及其他功能。在美国,Cash App 拥有全美最具吸引力的套餐之一,它是美国第一个真正不限量的套餐,而且这个套餐也带有漫游额度,我们的每一个客户都可以根据自己的目标和想做的事情,自行决定在哪个方面进行打包"
+ },
+ {
+  "seg": 73,
+  "start": 1762,
+  "end": 1822,
+  "speaker": "Pablo Srugo",
+  "en": "amazing I hope well simple brings it to Canada let's jump to the second part here the final part where we go deep and tactical in a couple areas the first one actually is a good segue here is building and crafting a narrative a vision that helps you get customers on board give big partnerships especially with enterprise and it helps you get VCs and investors on board which for something like this there's some companies where it's bootstrap whatever at some point you get big enough where you're going to raise real capital just to get going I think this is a bit more of the latter tell me a little bit about how you went out and crafted the story crafted the vision especially as you're fundraising I'm thinking of the seed round which was in 21 or the series A in 22 especially when things were early and not clearly visible how did you think about the storytelling aspect",
+  "zh": "太棒了,我希望 well simple(Wealthsimple)能把它带到加拿大。让我们进入第二部分,也是最后一部分,我们在几个领域深入探讨战术细节。第一个其实正好是个很好的过渡,那就是构建和打磨一个叙事、一个愿景,帮助你让客户加入,拿到大额合作,尤其是企业级的合作,同时帮助你让 VC 和投资者加入。对于这样的业务——有些公司是自筹资金的, whatever——但到某个阶段,你做得足够大,你就需要筹集真正的资本才能启动。我觉得这个业务更偏后者。跟我讲讲你是如何打磨故事、打磨愿景的,尤其是在融资的时候,我想到了 21 年的种子轮或者 22 年的 A 轮,特别是在一切还很早期、看不清楚的时候,你是怎么考虑讲故事这件事的"
+ },
+ {
+  "seg": 74,
+  "start": 1822,
+  "end": 1918,
+  "speaker": "Hermann Frank",
+  "en": "is built on a 15 plus year trajectory you don't go out and build it in six months and put more money into it to scale sales so we needed to sequence what we want to build because it would be otherwise impossible to do and the very first product we built was the API and then the next step for us was to very heavily go after distribution so once we had the product we knew it's basically a land grab moment in the industry to onboard the largest consumer and enterprise platforms in the world to just seize distribution into tech for telecom and that gives us a very healthy surface we have over a billion people now on the other end of our customers it doesn't mean we have a billion lines it doesn't even mean we are actively visible to a billion people but we have integrations into platforms that have it that allows us to now go and start selling into these user bases way more aggressively that in turn buys us more volume on the networks allows us to build integrate more networks scale into new countries and kind of create this flywheel of distribution means more volume more volume means better pricing more integrations and we can scale with our customers throughout the globe so that is a multi year sequence that we needed to create in order to build a platform that has this type of complexity yeah",
+  "zh": "这是建立在一条 15 年以上的轨迹之上的,你不可能在六个月内把它建出来,然后再砸更多钱去扩大销售。所以我们需要对我们想构建的东西进行排序,否则根本做不成。我们构建的第一个产品是 API,然后我们的下一步是非常大力地进攻分发。所以一旦我们有了产品,我们知道这基本上就是行业里的圈地时刻,要把世界上最大的消费级和企业级平台都接上来,直接抢占 tech for telecom 的分发入口。这给了我们一个非常健康的覆盖面,现在我们有超过 10 亿人处于我们客户的另一端。这并不意味着我们有 10 亿条线路,甚至不意味着我们对 10 亿人是主动可见的,但我们已经接入了一些拥有这种规模的平台,这让我们现在可以更激进地向这些用户群进行销售。这反过来又为我们带来了网络上更多的量,让我们能够接入和整合更多网络、扩展到新的国家,从而形成这样一个飞轮:分发意味着更多的量,更多的量意味着更好的定价、更多的集成,而我们可以和客户一起在全球范围内扩张。所以这就是我们必须设计出的一个多年期的顺序,才能构建出具有这种复杂度的平台。对"
+ },
+ {
+  "seg": 75,
+  "start": 1918,
+  "end": 1981,
+  "speaker": "Pablo Srugo",
+  "en": "so I think that's the high level in terms of what you needed to do imagine I'm a founder I'm thinking about raising a seed raising an A and what I'm struggling with the business is a business it's doing what it's ! what I'm struggling with is creating a narrative and telling it in a way that VCs want to come along for the ride I mean I've met so many founders and I can tell you there is a big delta between you have the founder as the operator and some are great at both but many founders are great at operating they know exactly what to do the business they know how to close customers and then when it's like okay cool go tell a great story they just fumble they can't do it they can't get themselves in the minds of an investor and so on obviously you've been able to raise you've raised over 90 million dollars and like I said I think this is a type of business where you had to tell you have a story that it's a 15 year journey as so I'm curious",
+  "zh": "所以我觉得那就是高层面上你需要做的事情。假设我是一名创始人,我正在考虑融资,融种子轮、融 A 轮,而我在业务上挣扎的地方是——业务就是业务,它在做它该做的事, ! 我挣扎的是如何创造一个叙事,并以一种让 VC 愿意一同上路的方式把它讲出来。我见过很多创始人,我可以告诉你,作为经营者的创始人和(作为讲述者的创始人)之间存在巨大的落差,有些人两者都擅长,但很多创始人非常擅长经营,他们非常清楚自己的业务该做什么,他们知道怎么拿下客户,然后当轮到说\"好,来,去讲一个精彩的故事\"时,他们就搞砸了,他们做不到,他们无法让自己进入投资者的脑海等等。显然你已经成功融资了,你已经融了超过 9000 万美元,而且像我说的,我认为这是那种你必须讲出\"这是一段 15 年的旅程\"这样故事的业务。所以我很好奇"
+ },
+ {
+  "seg": 76,
+  "start": 1981,
+  "end": 2010,
+  "speaker": "Hermann Frank",
+  "en": "big vision like so a good way to explain is like you need to be able to tell like your 3 6 12 month horizon with like incredible detail and like you need to understand what needs to happen imminently and then you need to paint a much larger arc and vision in the back of like what could this be if we do the things right that are just in front of us that's one thing like you kind of need to have this like bifocal type of storytelling and",
+  "zh": "大愿景,比如,一个好的解释方式是:你需要能够以极其细致的方式讲出你的 3 个月、6 个月、12 个月的地平线,你需要非常清楚迫在眉睫需要发生什么,然后在其背后你还需要描绘一个大得多的弧线和愿景,即如果我们把眼前这些事情做对了,这可能成为什么。这是一件事,就是你有点需要具备这种双焦式的叙事方式,而且"
+ },
+ {
+  "seg": 77,
+  "start": 2010,
+  "end": 2016,
+  "speaker": "Pablo Srugo",
+  "en": "what was that second one like if you had to tell me in 30 seconds if everything goes right here's what we become what does that look like",
+  "zh": "第二个是什么?如果你必须用 30 秒告诉我,如果一切顺利,我们会变成什么,那会是什么样子"
+ },
+ {
+  "seg": 78,
+  "start": 2016,
+  "end": 2123,
+  "speaker": "Hermann Frank",
+  "en": "so you basically you imagine like if we execute this to its full ability what is the end state going to be like what is reality going to look like at the end of this journey for me personally there were two events that helped me understand this one was an interview I saw about Microsoft founders back in the day and someone said that the GUI was not a given thing it was debated in the industry if that is going to be the winning interface but the Microsoft founders just went out and just told everyone is going to be so they kind of willed that outcome into reality so it's like this kind of Platonian projection right like you just make the world see how things could be and what they are and ultimately that becomes reality and another one was a couple years ago I was visiting this original SpaceX headquarters and their founding VP of engineering showed me this video of the Falcon 9 launching and being recaptured and he said Elon created this video relatively at the beginning of SpaceX the video looked exactly how the thing looked like on TV when it finally happened and because what he was trying to sell was just so hard to imagine and considered so impossible that he created this ultra realistic version of it to just inspire people that that's what it is and that is what great storytelling is you show the final outcome you show the result and you convince people it's real",
+  "zh": "基本上你要去想象,如果我们把这件事执行到极致,最终状态会是什么样子,这段旅程的终点现实会是什么样子。对我个人而言,有两件事帮助我理解了这一点。一是我当年看过一个关于微软创始人的访谈,有人说 GUI 并不是理所当然的东西,业界当时还在争论它是否会成为胜出的交互界面,但微软创始人就是直接走出去,对所有人宣称一切都会如此,他们有点像是把这个结果用意志力变成了现实。所以这有点像柏拉图式的投影,对吧,你就是让世界看到事情可能的样子、事情应有的样子,而最终那就会成为现实。另一件事是几年前,我参观了 SpaceX 最初的总部,他们的创始工程副总裁给我看了一段猎鹰 9 号(Falcon 9)发射并被回收的视频,他说 Elon 在 SpaceX 很早期的时候相对就制作了这段视频,这段视频看起来和后来真正发生时电视上画面的样子一模一样。因为他要推销的东西太难想象、被认为太不可能了,所以他制作了这个超级逼真的版本,纯粹是为了激励人们相信那就是未来。而这就是伟大的叙事:你展示最终的结果,你展示成果,然后你说服人们它是真实的"
+ },
+ {
+  "seg": 79,
+  "start": 2123,
+  "end": 2126,
+  "speaker": "Pablo Srugo",
+  "en": "I like that what would that look like for Gigs",
+  "zh": "我喜欢这个。那对 Gigs 来说会是什么样子"
+ },
+ {
+  "seg": 80,
+  "start": 2126,
+  "end": 2206,
+  "speaker": "Hermann Frank",
+  "en": "so we were lucky in the beginning we had Stripe like Stripe was our projection we're building Stripe for phone plans that was the tagline that was the story and that resonated really well and quite early on we had quite a few people from Stripe call on board as team members they were early at Stripe and they saw the same thing this reminds me a lot of Stripe in its early days and they understood what this should be and what this could be the more we progressed the more this became kind of a real story arc and it's like only relatively recently where we said okay we kind of understand the market more now and there is more depth that we can go into where like that started kind of we can now start telling our own story and our own vision of the world but for the longest period we just used another highly successful company that we truly believe is a parallel to what we're building as an example and that allow people that don't understand much about telecom to understand okay yeah if they can make this work the mechanics work a similar way it's a similarly complex industry then they will be able to build a massive company so just use an existing example",
+  "zh": "一开始我们很幸运,我们有 Stripe,Stripe 就是我们的投影,\"我们在做手机套餐领域的 Stripe\",那就是我们的口号,那就是我们的故事,而且它的共鸣非常好。很早期的时候就有不少来自 Stripe 的人加入我们的团队,他们曾在 Stripe 的早期,他们看到了同样的东西:这让我想起了早期的 Stripe,他们理解这应该是什么、可以成为什么。我们推进得越多,这就越变成一个真实的故事弧线,直到相对最近我们才说,好吧,我们现在对市场的理解更深了,我们可以往更深处挖掘,我们终于可以开始讲述我们自己的故事、我们自己对这个世界的愿景了。但在相当长的一段时间里,我们只是拿另一家我们真心相信与我们正在构建的东西平行的、极其成功的公司作为范例,这让那些不太懂电信的人能够理解:好,如果他们能做到,其中的机制运作方式是相似的,它是一个同样复杂的行业,那么他们将能够构建一家巨大的公司。所以就是借用一个现成的例子"
+ },
+ {
+  "seg": 81,
+  "start": 2206,
+  "end": 2238,
+  "speaker": "Pablo Srugo",
+  "en": "and then jumping to the second kind of tactical piece which is around selling enterprise I mean you're selling some of the largest enterprises in the world I mean a lot of these fintechs are multi building all our companies you had this idea of like enterprise sales is less about salesmanship and more about statesmanship there's a lot of politics that come into play I'm thinking if you could think about a given customer that you closed and you don't have to share who it is so that we can go in a lot of detail and walk me through you know end to end how did you go from that name in a list somewhere of a customer you want to add and you finally closing that customer X amount of months later yeah",
+  "zh": "然后跳到第二个战术性的部分,也就是关于企业销售。我的意思是,你在向世界上一些最大的企业销售,很多这些金融科技公司都是多(角度)打造我们的公司。你有一个观点,就是企业销售与其说是销售术,不如说是政治家式的行事,其中有很多政治因素在起作用。我在想,你能不能想一个你拿下过的某个客户,你不必说是谁,这样我们就可以深入很多细节,带我端到端地走一遍:你是如何从某个清单上想要拿下的一个客户名字,到若干个月之后终于拿下那个客户的,对吧"
+ },
+ {
+  "seg": 82,
+  "start": 2238,
+  "end": 2343,
+  "speaker": "Hermann Frank",
+  "en": "so I put the team together a couple weeks ago or like a couple months ago and like I walked through like the anatomy of a deal that is typical for us and I said it is more about statesmanship than it is about salesmanship because if you want to land an enterprise customer multi-billion or tens of billions dollars in market cap what you need to do is convince several layers in that organization that it's a great idea to partner with you many times including the founders or the C-level you need to get the operating team to like you you need to get the developers to like you and ideally it's not you just like one person doing all that ideally your team tackles different people from different layers of that company and does their part right like the product engineering teams talk to product engineering teams like our VP of sales talks to their VP of product I reach out to the founder and like we got it covered at different altitudes and that gives us a 360 degree view on the company and is what has allowed us to win 90% of deals in the market that we're in and I think we're probably one of the companies in the world now that works for the largest amount of high profile customers at least where we're launching businesses together it's not like someone's using our dev tool and we can put a logo on the website but it is a real business partnership",
+  "zh": "所以我在几周前，或者说几个月前组建了团队，我讲解了对我们来说典型的一笔交易的结构，我说这更多关乎政治手腕（statesmanship），而不是销售技巧（salesmanship），因为如果你想拿下市值几十亿或数百亿美元的企业客户，你需要说服该组织中的多个层级，让他们相信与你合作是个好主意，很多时候包括创始人或 C 级高管，你需要让运营团队喜欢你，你需要让开发者喜欢你，理想情况下不是你一个人做所有这些事，理想情况下你的团队各自对接那家公司不同层级的不同的人，各司其职，比如产品工程团队对接他们的产品工程团队，我们的销售 VP 对接他们的产品 VP，我去联系创始人，这样我们在不同的高度上都覆盖到位了，这让我们对那家公司有了 360 度的视角，也是这让我们赢得了所在市场 90% 的交易，而且我想我们现在可能是世界上服务于最多知名客户的公司之一了，至少在我们一起推出业务这件事上是，不是有人在用我们的开发工具然后我们能在网站上挂个 logo，而是真正的商业伙伴关系"
+ },
+ {
+  "seg": 83,
+  "start": 2343,
+  "end": 2375,
+  "speaker": "Pablo Srugo",
+  "en": "now you have more of a brand but a few years back when you were still not known and you had a name on there of a bank that you wanted to close how do you look at the org chart of that business and decides who to go after who goes after who cadence etc imagine you're thinking of someone you're talking to a founder who's selling to enterprise has a product maybe has a few customers but they've yet to crack a consistent repeatable enterprise motion",
+  "zh": "现在你有了更多品牌，但几年前你还没有名气，而你名单上有一个你想拿下的银行的名字，你怎么看那家公司的组织架构，决定去攻谁、谁去攻谁、节奏等等，想象一下你在和一位正在销售给企业的创始人交流，他有一个产品，也许有几个客户，但还没有打通一致的、可复制的 enterprise 销售动作"
+ },
+ {
+  "seg": 84,
+  "start": 2375,
+  "end": 2440,
+  "speaker": "Hermann Frank",
+  "en": "I'd say one of the other things that has worked really well for us is hire people who came up with the people working at your target customers we hire a lot of X-stripes the stripe mafia is everywhere they work in pretty much every company want their decision makers there so if you have someone who can go to 30 50 percent of your target list and they are well known and respected and trusted everybody is going to take a call everybody is going to listen and if you're in a competitive process you might have an advantage and trust as well this multi threading multi altitude in combination with having people who came up with the people that you want to work with is why we win as many deals as we do and you the listener will have but if you have a great product and do these things worked really well for us",
+  "zh": "我想另一件对我们非常有效的事情是，雇佣那些和你的目标客户员工一起成长起来的人。我们雇佣了很多前 Stripe 员工，Stripe 黑手党无处不在，他们几乎在每家公司工作，都是那些公司里想要影响决策者的人。所以如果你有某个人能覆盖到你目标名单的 30%、50%，而且他有名、受尊重、被信任，那每个人都会接他的电话，每个人都会听，而且如果你处于竞争性流程中，你可能还有信任上的优势。这种多线对接、多高度，再加上拥有和你想合作的人一起成长起来的员工，就是我们能赢这么多交易的原因。而你，正在收听的听众，如果你有一个好产品并做到这些事情，对我们非常有效"
+ },
+ {
+  "seg": 85,
+  "start": 2440,
+  "end": 2465,
+  "speaker": "Pablo Srugo",
+  "en": "so let's say you split it up you look at different groups that need to be part of it like you said C level the owner the champion the devs etc and then you split it up how do you go after them everybody trying to set up meetings or trying to find what conference is going to speak at and run into them what are some of the specific tactics that you use to have many of these discussions happening either at once or over a series of months two",
+  "zh": "那么假设你把它拆分开来，你看到需要参与进来的不同群体，就像你说的，C 级高管、所有者、champion、开发者等等，然后你把它拆分开，你怎么去攻他们？每个人都试图约会议，还是试图找到他们会出席什么会议然后偶遇他们？你使用哪些具体策略来让很多这样的讨论同时进行，或者在几个月的时间里持续进行？"
+ },
+ {
+  "seg": 86,
+  "start": 2465,
+  "end": 2543,
+  "speaker": "Hermann Frank",
+  "en": "paths mainly one the same argument as before hire the people came up with them so you get your first one or two touch points this way and then if you want to find out very quickly if the guy ! the quicker you ask the team you're working with to introduce other participants in the company first you find out if this is real and if this is serious second it allows you to build those connections and then they introduce it to their engineers they bring their engineers on board or if it's engineering originated they introduce their marketing people their product people and then you put them together that is definitely a very effective way to find it out it's mostly working the network really utilizing the network who knows whom and then working internally for them to open up their own teammates because it's the best sign if someone is open to bring their engineers into the next call bring their marketers into the next call you know there is a lot of good will there and there is real intention to do something because they don't have resources to waste",
+  "zh": "主要是两条路径。一，和之前的论点一样，雇佣那些和他们一起成长起来的人，这样你就有了最初的几个接触点。然后如果你想很快搞清楚这个人（是不是真心的），你越快请与你合作的团队去介绍公司里的其他参与者，第一，你就能搞清楚这是不是真的、是不是认真的；第二，这让你能建立那些连接，然后他们介绍他们的工程师，把他们的工程师拉进来，或者如果是工程侧发起的，他们介绍他们的市场人员、产品人员，然后你把他们拼到一起。这绝对是一个非常有效的验证方式。很大程度上是在经营人脉网络，真正利用人脉网络，谁知道谁，然后在内部推动他们去开放自己的队友，因为如果有人愿意把他们的工程师带进下一次通话、把他们的市场人员带进下一次通话，这是最好的信号，那里有很多善意，而且有真正想做成事情的意图，因为他们没有资源可以浪费"
+ },
+ {
+  "seg": 87,
+  "start": 2543,
+  "end": 2558,
+  "speaker": "Pablo Srugo",
+  "en": "any hacks or tactics like I know people that you know they have dinner series that they'll do and they'll invite these enterprise type customers or they'll say oh I'm just in the area it'd be great to grapple like these classic hacks that people tend to do anything like that that work for you so",
+  "zh": "有什么小技巧或策略吗？比如我认识一些人，他们做晚宴系列（dinner series），邀请这些企业类型的客户，或者会说“哦，我正好在这个区域，很高兴碰个面”，这些人们常做的经典技巧，有没有类似的对你们有效的东西？"
+ },
+ {
+  "seg": 88,
+  "start": 2558,
+  "end": 2601,
+  "speaker": "Hermann Frank",
+  "en": "we just started to do a dinner series so we've now done it in London New York Paris it's relatively new motion for us and we invite a combination of existing customers prospects and people we think might be helpful to everyone from the industry could be an investor could be like a device manufacturer like and we keep them small right we have a couple gigsters at each of those dinners and we invite between 10 and 14 outsiders and that has great feedback so far I would say it's too young for me to tell this has worked wonders on our go-to market perfect",
+  "zh": "我们刚开始做晚宴系列，到现在已经在伦敦、纽约、巴黎做过了。这对我们来说是相对较新的打法。我们邀请的对象是现有客户、潜在客户，以及我们认为可能对所有人都有帮助的行业人士的组合，可能是投资人，可能是设备制造商之类的，我们保持小规模，每场晚宴我们有几位内部人员（gigsters），邀请 10 到 14 位外部人士。到目前为止反馈很好。但我会说它还太年轻，我还不能断定这对我们的 go-to-market 创造了奇迹。很好"
+ },
+ {
+  "seg": 89,
+  "start": 2601,
+  "end": 2613,
+  "speaker": "Pablo Srugo",
+  "en": "well let's stop it there what would be one last piece of advice that you want to share with a founder that is in the early !",
+  "zh": "那我们就在这里停一下。你想分享给一位处于早期阶段的创始人的最后一条建议是什么？"
+ },
+ {
+  "seg": 90,
+  "start": 2613,
+  "end": 2747,
+  "speaker": "Hermann Frank",
+  "en": "but listen to why you also need to iterate but it's tough it's especially tough getting started and when you don't have reputation when you don't have references it is just you it's going to be your sales craft your conviction you need to believe 100% when you talk people need to hear with every fiber of your being you believe in your product and you will do everything you possibly as a customer because literally your life depends on it so it's a sheer force of will to get past these initial conversations and do not exit sales to relieve the founder like I'm a massive believer in founder led sales and to a point where maybe others telling you you shouldn't be doing this anymore like do it past that point but not like forever but the more you are like the moment we started exiting processes like you see entropy creeping and like no one is going to be as convincing and as quick on their feet as a founder you kind of need to sell a little bit ahead of time and no one has the mandate to do it more than the founder right you know which risk you're willing to take you know how far you're gonna bend reality on that particular sales call and it's on you your employees right your sales well like the very good ones will know how to emulate your bullishness or your your boss but like most people won't and so if you want to achieve the maximum outcomes stay on there as long as you can as long as it makes sense for the business because no one will be a",
+  "zh": "但听着，为什么你也需要迭代，但这很艰难。起步阶段尤其艰难，当你没有声誉、没有参考案例时，只有你自己，这将取决于你的销售功力和你的信念，你需要 100% 地相信，当你讲话时，人们需要从你浑身的每一个细胞里听到你相信自己的产品，并且你会作为客户尽一切可能去做，因为字面意义上你的生命取决于此。所以靠纯粹的意志力去闯过这些初期对话，并且不要把销售甩出去去解脱创始人。我是创始人主导销售（founder-led sales）的坚定信仰者，甚至到了也许别人告诉你你不应该再这么做的程度，也要超过那个点继续做，但不是永远做，而是你参与得越多越好。我们开始退出销售流程的那一刻，你就能看到熵在悄悄增长，没有人会像创始人那样有说服力、那样反应敏捷。你多少需要提前一点去销售（sell ahead of time），而没有人比创始人更有授权去做这件事，对吧？你知道你愿意承担哪种风险，你知道在那通特定的销售电话上你要把现实掰弯到什么程度，而且这是你的责任，你的员工对吧，你的销售团队，最好的那些会知道如何模仿你的乐观或你的老板，但大多数人不会。所以如果你想获得最大化的结果，只要对业务合理，就尽可能久地留在销售里，因为没有人会是一个"
+ },
+ {
+  "seg": 91,
+  "start": 2747,
+  "end": 2770.2,
+  "speaker": "Pablo Srugo",
+  "en": "don't let that happen you don't want to live like that it is terrible so do what you need to do tell them about the show send it to them put it on whatsapp put it on slack put it where you need to put it just make sure they know about it and they check it out",
+  "zh": "不要让那种情况发生，你不会想那样生活的，那很糟糕。所以做你需要做的事，告诉他们关于这个节目的事，发给他们，放到 WhatsApp 上，放到 Slack 上，放到任何你需要放的地方，只要确保他们知道它并去看看它"
+ }
+]

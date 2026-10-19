@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-11-talks-latency-is-a-budget-humanlike-is-the-goa",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/j4AmIK6OvHc.m4a",
+  "duration_sec": 1011.278,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 237,
+  "asr": true,
+  "title_en": "Latency Is a Budget. Humanlike Is the Goal. — Jesse Hall, LiveKit",
+  "podcast": "精选演讲",
+  "date": "2026-10-11",
+  "added": "2026-10-20",
+  "added_at": "2026-10-19T20:44:57.698Z",
+  "speaker_map": {
+    "SPEAKER_00": "Jesse Hall"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Jesse Hall"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "语音智能体的关键不是快，而是像人：LiveKit 关于延迟与人性的演讲",
+  "guest_name": "Jesse Hall",
+  "guest_title": "LiveKit",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

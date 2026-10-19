@@ -1,0 +1,656 @@
+{
+  "episode_id": "2026-10-11-talks-latency-is-a-budget-humanlike-is-the-goa",
+  "podcast": "精选演讲",
+  "date": "2026-10-11",
+  "tags": [
+    "语音智能体",
+    "延迟",
+    "模型评测",
+    "LiveKit",
+    "语音 AI 基础设施"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "jesse-hall",
+      "type": "person",
+      "role": "guest",
+      "name": "Jesse Hall",
+      "file": "Jesse Hall",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 127,
+          "t": [
+            529.891,
+            530.551
+          ],
+          "quote": "Jesse Hall.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "livekit",
+      "type": "company",
+      "role": "company",
+      "name": "LiveKit",
+      "file": "LiveKit",
+      "primary": true,
+      "how_described": "本集说 LiveKit 是开源的实时框架和基础设施，OpenAI 选它驱动 ChatGPT 的高级语音模式；它自己不做语音识别、LLM 或 TTS 模型，各家模型都能接入。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            158.282,
+            162.044
+          ],
+          "quote": "So OpenAI actually chose LiveKit to power that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            162.805,
+            173.95
+          ],
+          "quote": "LiveKit is the open source, real-time framework and infrastructure for the most human-like voice agents possible, agents that can hear, see,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            862.077,
+            867.623
+          ],
+          "quote": "Now here's an important fact about LiveKit is that we don't make STT, LLM, or TTS models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            879.191,
+            886.894
+          ],
+          "quote": "And so what you're looking at right here is a sneak peek of the Gemini 4 31B model on LiveKit inference.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提到 OpenAI 选择了 LiveKit 来驱动 ChatGPT 的高级语音模式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            158.282,
+            162.044
+          ],
+          "quote": "So OpenAI actually chose LiveKit to power that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集的核心主题：真正的智能体不只是聊天，还要干活（查订单、订房间），目标是打造尽可能像人的智能体——边说话边倾听、能应对打断和改主意。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            28.771,
+            35.956
+          ],
+          "quote": "And so nobody really cares if a background agent takes an extra 10 seconds or even 10 minutes, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            37.177,
+            42.802
+          ],
+          "quote": "But at some point in this past year, you've probably talked to another kind of agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            43.462,
+            45.564
+          ],
+          "quote": "A real-time agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            60.177,
+            67.764
+          ],
+          "quote": "You talked over that AI, and that voice agent fell apart, and it just didn't feel natural, did it?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            97.347,
+            99.909
+          ],
+          "quote": "An agent that listens while it talks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            132.156,
+            138.619
+          ],
+          "quote": "So a show of hands quickly, who here has ever built a voice agent and shipped it to real users?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            141.44,
+            147.923
+          ],
+          "quote": "Some of you have experienced and you know the challenges that you'll face when deploying a real-time agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            416.023,
+            430.734
+          ],
+          "quote": "Now if you, let's say you do measure all of this perfectly, there's another part of the conversation that, the benchmarking that gets completely ignored, and that is that a real agent doesn't just chat, it needs to do things, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            467.551,
+            472.372
+          ],
+          "quote": "So why can't an agent just keep talking and do things asynchronously?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            482.856,
+            490.042
+          ],
+          "quote": "The first update hands the mic back to the agent while it keeps working in the background.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            568.964,
+            575.088
+          ],
+          "quote": "We had to speed up some of the parts there because of time, but the agent kept the conversation going.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            580.352,
+            585.816
+          ],
+          "quote": "And the caller also changed his mind in the middle of things, and the agent just rolled with it, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            662.226,
+            668.048
+          ],
+          "quote": "The gap between your caller's last syllable and your agent's first audible byte.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            714.092,
+            722.318
+          ],
+          "quote": "And so the question is never how fast can I go, but what is the most human-like agent that I can fit inside this window?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            743.33,
+            752.353
+          ],
+          "quote": "We take a complete working agent, the first one is that hotel receptionist that you just heard, and it takes real bookings, it has a real back end.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            820.743,
+            824.286
+          ],
+          "quote": "The same agent, the same scenarios, but different models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            829.809,
+            834.452
+          ],
+          "quote": "But this creates benchmarks against our agent example.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 199,
+          "t": [
+            842.697,
+            847.981
+          ],
+          "quote": "You can run this exact thing, run your agent through this exact benchmark and get your scores.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            852.326,
+            856.412
+          ],
+          "quote": "The whole thing is open source, the methodology, the eval sets, the agent itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 202,
+          "t": [
+            856.992,
+            860.657
+          ],
+          "quote": "You can point the same thing at your agent and let us know how it performs for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            933.201,
+            937.162
+          ],
+          "quote": "A voice agent isn't a chat bot with a speaker stacked onto it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            987.354,
+            996.804
+          ],
+          "quote": "And remember, at some point in the near future, you are going to call a voice agent, and you're going to talk over it, and it's not going to fall apart.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "voice-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "语音智能体 (voice agent)",
+      "file": "语音智能体",
+      "primary": true,
+      "how_described": "本集说语音智能体是由语音转文本、LLM、文本转语音三个模型串成的一条流水线，你交付的是整段对话而非单个组件，应按类人行为和端到端结果来构建与评测。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            60.177,
+            67.764
+          ],
+          "quote": "You talked over that AI, and that voice agent fell apart, and it just didn't feel natural, did it?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            132.156,
+            138.619
+          ],
+          "quote": "So a show of hands quickly, who here has ever built a voice agent and shipped it to real users?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            933.201,
+            937.162
+          ],
+          "quote": "A voice agent isn't a chat bot with a speaker stacked onto it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            987.354,
+            996.804
+          ],
+          "quote": "And remember, at some point in the near future, you are going to call a voice agent, and you're going to talk over it, and it's not going to fall apart.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "latency",
+      "type": "concept",
+      "role": "concept",
+      "name": "延迟 (latency)",
+      "file": "延迟",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            75.389,
+            81.014
+          ],
+          "quote": "It's gonna be speed, faster models, lower latency, shave off another 100 milliseconds.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            84.376,
+            91.662
+          ],
+          "quote": "And so latency, it is a budget, and I'll tell you exactly what that budget is, but the goal is something else entirely.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            369.502,
+            373.185
+          ],
+          "quote": "This measured latency versus perceived latency.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            438.6,
+            447.158
+          ],
+          "quote": "2 seconds, 10, 40 or more seconds, and no model choice is going to be able to hide a 40 or more second latency.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            640.854,
+            647.036
+          ],
+          "quote": "So at the same latency budget, the best alternative cuts users off 9.9% of the time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            723.019,
+            727.062
+          ],
+          "quote": "So back to latency as a budget, but human-like is the goal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            891.516,
+            899.839
+          ],
+          "quote": "It's tuned specifically for production voice agents with long prompts, many tools, and tight latency budgets.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 215,
+          "t": [
+            923.478,
+            928.979
+          ],
+          "quote": "So again, our goal is to have the most human-like agents possible while sticking to that latency budget.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 222,
+          "t": [
+            957.344,
+            958.885
+          ],
+          "quote": "Set your latency budget first.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            959.585,
+            961.547
+          ],
+          "quote": "Measure perceived latency.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "leaderboard-trap",
+      "type": "concept",
+      "role": "concept",
+      "name": "排行榜陷阱 (leaderboard trap)",
+      "file": "排行榜陷阱",
+      "primary": true,
+      "how_described": "本集说排行榜给单个组件打分、分数来自安静房间的干净音频，但你上线的是一整条流水线、用户在嘈杂环境里打电话——照榜单选模型会掉进这个陷阱。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 62,
+          "t": [
+            292.572,
+            295.133
+          ],
+          "quote": "And there's a name for this, the leaderboard trap.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "benchmark",
+      "type": "concept",
+      "role": "concept",
+      "name": "端到端基准测试 (benchmark)",
+      "file": "端到端基准测试",
+      "primary": true,
+      "how_described": "本集说 LiveKit 构建了端到端的语音基准：用有真实后端的完整智能体接几百个模拟来电者，按结果打分（订单是否落库、有无捏造工具调用），并惩罚可钻空子的多余步骤，全部开源。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 146,
+          "t": [
+            599.608,
+            603.992
+          ],
+          "quote": "And that's exactly what no component or model benchmark can see.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            740.849,
+            742.39
+          ],
+          "quote": "Here's how we built the benchmark.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            840.176,
+            842.317
+          ],
+          "quote": "So the benchmark is actually yours.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 199,
+          "t": [
+            842.697,
+            847.981
+          ],
+          "quote": "You can run this exact thing, run your agent through this exact benchmark and get your scores.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            980.407,
+            981.748
+          ],
+          "quote": "So here's the benchmark.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 230,
+          "t": [
+            983.45,
+            984.591
+          ],
+          "quote": "You can check out the benchmark.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "turn-detector",
+      "type": "concept",
+      "role": "concept",
+      "name": "轮次检测器 (turn detector)",
+      "file": "轮次检测器",
+      "primary": true,
+      "how_described": "本集说 LiveKit 构建了直接基于音频本身的轮次检测器，听语音的节奏、音高和语调来判断何时该说话，在相同延迟预算下打断用户的比例从最好的替代方案的 9.9% 降到 4.5%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 150,
+          "t": [
+            627.43,
+            631.291
+          ],
+          "quote": "So we built a turn detector that is based on audio itself.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "asynchronously",
+      "type": "concept",
+      "role": "concept",
+      "name": "异步工具调用 (asynchronously)",
+      "file": "异步工具调用",
+      "primary": true,
+      "how_described": "本集说让智能体边干活边说话的诀窍是：第一次更新就把话筒交还给智能体、让它在后台继续工作，对话和工具不再共享一个线程，超过一秒的操作都应异步处理。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 104,
+          "t": [
+            467.551,
+            472.372
+          ],
+          "quote": "So why can't an agent just keep talking and do things asynchronously?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            967.231,
+            971.854
+          ],
+          "quote": "And then anything over a second, it should go asynchronously so that the conversation never stops.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": false,
+      "how_described": "本集提到 LiveKit 推理服务，并预告了在其上专为生产语音智能体调优的模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 208,
+          "t": [
+            879.191,
+            886.894
+          ],
+          "quote": "And so what you're looking at right here is a sneak peek of the Gemini 4 31B model on LiveKit inference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            918.696,
+            922.578
+          ],
+          "quote": "And so this is actually going to launch tomorrow on LifeKit inference.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gemma",
+      "type": "concept",
+      "role": "concept",
+      "name": "Gemma",
+      "file": "Gemma",
+      "primary": false,
+      "how_described": "本集预告了在 LiveKit 推理上专为生产语音智能体调优的 Gemma 系列模型：88% 通过语音评测、约 380 毫秒开始说话，比下一个模型快两倍多。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 209,
+          "t": [
+            887.634,
+            891.056
+          ],
+          "quote": "But this isn't just an off-the-shelf Gemma 4 31B.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}
