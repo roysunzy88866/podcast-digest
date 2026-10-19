@@ -1,0 +1,474 @@
+{
+  "episode_id": "2026-10-11-talks-same-model-different-speed-why-your-infe",
+  "podcast": "精选演讲",
+  "date": "2026-10-11",
+  "tags": [
+    "开源模型",
+    "推理基础设施",
+    "智能体",
+    "成本优化",
+    "可靠性"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "yunmo",
+      "type": "person",
+      "role": "host",
+      "name": "Yunmo",
+      "file": "Yunmo",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            17.038,
+            18.059
+          ],
+          "quote": "My name is Yunmo.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "friendly-ai",
+      "type": "company",
+      "role": "company",
+      "name": "Friendly AI",
+      "file": "Friendly AI",
+      "primary": true,
+      "how_described": "本集说它是构建推理引擎的公司，通过推理性能优化，为前沿开放权重模型提供快速且可靠的推理 API。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            18.52,
+            25.326
+          ],
+          "quote": "I'm a founding engineer at Friendly AI, building an inference engine with our team to optimize inference performance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            239.545,
+            242.466
+          ],
+          "quote": "So when you see this, the left side is friendly AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            290.115,
+            293.276
+          ],
+          "quote": "So this is the core of Friendly AI's value.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            297.277,
+            302.279
+          ],
+          "quote": "So Friendly AI is built as a full stack inference engine for Gen AI models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            548.13,
+            551.81
+          ],
+          "quote": "And at Friendly AI, we take a hybrid approach.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            634.475,
+            645.761
+          ],
+          "quote": "And this OpenAI snapshot for GLM 5.1 Pro shows that friendly AI is not only the fast, but it's also highly reliable with over 99.9% uptime.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            725.054,
+            730.835
+          ],
+          "quote": "And in their split test for GLM models, they were especially impressed by friendly AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            734.113,
+            739.976
+          ],
+          "quote": "Friendly AI was over like seven times faster and had a significantly lower error rate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            740.477,
+            744.279
+          ],
+          "quote": "So I believe you can get the same kind of experience with Friendly AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            744.579,
+            759.267
+          ],
+          "quote": "So if you're building your Frontier Openweight models, come try them on Friendly AI and bring your real workload and let us show you what fast and reliable inference can do.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "kilocode",
+      "type": "company",
+      "role": "company",
+      "name": "Kilocode",
+      "file": "Kilocode",
+      "primary": false,
+      "how_described": "本集引用的客户感言：最大的编码智能体平台之一，每周处理数万亿词元，在 GLM 模型的拆分测试中发现 FriendliAI 比其他推理提供商快约 7 倍、错误率显著更低",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 122,
+          "t": [
+            710.592,
+            711.432
+          ],
+          "quote": "It's a Kilocode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            711.932,
+            719.273
+          ],
+          "quote": "So Kilocode is one of the largest coding agent platform processing several trillions of tokens every week.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openweight-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开放权重模型 (openweight models)",
+      "file": "开放权重模型",
+      "primary": true,
+      "how_described": "本集说它们已跨过门槛：GLM 5.2 在编码、推理和智能体基准上与领先专有模型同一梯队竞争，排名甚至高于 Claude Opus 4.8，且同一任务成本低 5.6 倍以上",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            26.267,
+            33.053
+          ],
+          "quote": "So today, I'm going to talk about how we built the fast and reliable inference API for Frontier Openweight models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            54.216,
+            57.438
+          ],
+          "quote": "And then who here mainly use openweight models?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            744.579,
+            759.267
+          ],
+          "quote": "So if you're building your Frontier Openweight models, come try them on Friendly AI and bring your real workload and let us show you what fast and reliable inference can do.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集的核心主线：模型相同、任务相同、只换提供商，同一个任务耗时能差 3 倍——差距来自整个推理技术栈（缓存系统、路由策略、调度器、量化方案、GPU 内核）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            18.52,
+            25.326
+          ],
+          "quote": "I'm a founding engineer at Friendly AI, building an inference engine with our team to optimize inference performance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            26.267,
+            33.053
+          ],
+          "quote": "So today, I'm going to talk about how we built the fast and reliable inference API for Frontier Openweight models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            274.496,
+            277.037
+          ],
+          "quote": "The difference comes from the entire inference stack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            297.277,
+            302.279
+          ],
+          "quote": "So Friendly AI is built as a full stack inference engine for Gen AI models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            302.959,
+            307.761
+          ],
+          "quote": "This matters because fast and reliable inference is not just one optimization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            318.387,
+            327.474
+          ],
+          "quote": "So let me briefly explain how we built that and how we make the inference performance to the cutting-edge level.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            649.326,
+            657.713
+          ],
+          "quote": "So what I want to say is many inference provider out here, of course in this venue as well, they will tell you that they are fast.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            689.566,
+            698.352
+          ],
+          "quote": "And of course, we build our inference service for exactly these production workloads, and we believe that we can give you the best experience.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            719.913,
+            724.394
+          ],
+          "quote": "So they have tested many different inference providers over past years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            731.396,
+            733.536
+          ],
+          "quote": "So compared with many other inference provider,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            744.579,
+            759.267
+          ],
+          "quote": "So if you're building your Frontier Openweight models, come try them on Friendly AI and bring your real workload and let us show you what fast and reliable inference can do.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说现代智能体应用输入很长（动辄超过 10k 词元）而输出短，且 50%-90% 的词元跨请求重复，所以缓存复用对智能体负载尤其关键；智能体也因需要多次模型调用而对可靠性更脆弱",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            168.412,
+            181.715
+          ],
+          "quote": "So GLM 5.2 was more than 5.6 times cheaper for this task, and in agent-style workflows where you need to iterate multiple times, the gap compounds quickly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            227.715,
+            232.998
+          ],
+          "quote": "So here I use the same model, JLAM 5.2, and the same coding agent workflow,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            252.933,
+            254.434
+          ],
+          "quote": "The agent app is the same.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            256.615,
+            259.337
+          ],
+          "quote": "So model developer tools and coding agent,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            328.835,
+            333.478
+          ],
+          "quote": "So in the modern agent applications, inputs are often very long.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            446.755,
+            458.783
+          ],
+          "quote": "So by combining cache-aware routing and hierarchical memory management, we significantly reduce the prefix calls, lower TTFT, and making long-context agent workload much more efficient.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            608.749,
+            613.491
+          ],
+          "quote": "So this becomes even more important for agent workloads.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            614.072,
+            618.274
+          ],
+          "quote": "As you know, agent may need multiple model cores to complete one task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            711.932,
+            719.273
+          ],
+          "quote": "So Kilocode is one of the largest coding agent platform processing several trillions of tokens every week.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "speculative-decoding",
+      "type": "concept",
+      "role": "concept",
+      "name": "投机解码 (speculative decoding)",
+      "file": "投机解码",
+      "primary": true,
+      "how_described": "本集说它提前提出多个候选词元、由目标模型单次验证，被接受的词元等于免费，在不改变输出质量的前提下提速；FriendliAI 采用运行时动态切换的混合策略并让草稿模型随真实流量自我演化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 83,
+          "t": [
+            476.265,
+            479.007
+          ],
+          "quote": "And speculative decoding changes the shape of this problem.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "kvcache",
+      "type": "concept",
+      "role": "concept",
+      "name": "KV 缓存 (KVCache)",
+      "file": "KV 缓存",
+      "primary": true,
+      "how_described": "本集说大部分计算成本在预填充阶段构建 KV 缓存，复用共享前缀可降低 TTFT；它极占内存、长上下文下可能超过模型权重，所以需要缓存感知路由和热/温/冷分级存储",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            393.751,
+            396.893
+          ],
+          "quote": "So in the distributed system, KVCache is not centralized.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            413.061,
+            415.622
+          ],
+          "quote": "So KVCache is extremely memory intensive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            416.022,
+            420.545
+          ],
+          "quote": "For large models and long contacts, KVCache size can exceed model weights.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,155 @@
+{
+  "title_zh": "当AI代理遇上命令行工具：一场「烧掉参数」的实验",
+  "tldr": "PayPal 开发者工具负责人 Mark Lummus 和技术负责人 Navinkumar Patil 办了一场工作坊，让听众改造一个交互式命令行工具，好让 AI 代理能用它点咖啡。",
+  "digest_md": "命令行界面（CLI）是最老的电脑操作方式：不点鼠标，直接敲命令。Mark Lummus 职业生涯开始时，一切都靠命令行——串口连上电脑，打开终端，开始打字。后来图形界面统治了一切，命令行一度像是慢慢死去。但 AI 代理出现了。代理干活的本质，就是不停地调用命令行工具，Claude Code、Codex 这些产品的走红让命令行迎来第二春。而这场工作坊讨论的是一个更具体的问题：交互式命令行工具，人类用着顺手，AI 代理却会用得一团糟。\n\n## 交互式命令行为什么会让代理悄悄失败\n\n交互式命令行指的是那种会向你提问的工具：你运行它，它弹出一个问题，你用方向键选答案，它再根据你的选择问下一个问题。这种设计对人很友好，因为下一个问题可以基于你上一个回答动态变化，安全护栏也内置在一问一答的流程里。\n\n问题在于，代理运行这种工具时会安静地失败。人类看到的是问题菜单，代理看到的是不断重绘的屏幕；运行环境丢失了界面状态，没有报错，没有提示，什么都没有 [02:57 Mark]。这种失败是沉默且不可见的。\n\n## 为什么不能靠加参数解决\n\n常见的修复办法是加命令行参数，把所有可能的答案都变成一个开关。这对简单场景没问题：流程事先已知、一遍跑完、各选项互相独立。但如果答案取决于上下文、取决于实时变化的环境——比如命令行先调一个接口，再根据返回结果决定问什么——**参数就会爆炸式增长，根本没法穷举** [04:03 Mark]。\n\n而且代理不是自动化脚本。自动化脚本什么都不懂，所有决策都是预先定好的；代理会推理、会反问、会重试、会后退，最重要的是能走决策树——只要你给它一棵 [05:19 Mark]。\n\n## 关键洞察：把代理当成无障碍的新读者\n\nMark 给出的框架很妙：我们已经有一套成熟的方法论，叫无障碍设计——让软件对有不同能力的人可用。现在只需把这套方法映射到代理身上：**同一套纪律，换一位读者** [06:01 Mark]。别再假装代理和人类有相同的能力，承认差异，方案自然浮现。\n\n## 工作坊：让代理用命令行点咖啡\n\n实验的主角叫 Barista 9000，一个接咖啡订单的命令行工具，直接交给代理跑必然失败。规则很简单：改这个工具，让代理能用它点咖啡，成绩上传到服务器排行榜。赢家抱走一台 Mac Mini。他们强调，用最前沿的大模型开最高推理档确实能硬闯过去，但真正有趣的挑战是：==能不能让 Haiku 或 Sonnet 这个级别更快更便宜的模型跑通== [16:03 Mark]——毕竟团队现在都得掂量 token 预算。\n\nNavinkumar 随后分享了几个好点子（他特意不叫最佳实践，因为这个领域太新，大家都在摸索）。\n\n## 三个好点子：Tmux、侧信道、上下文注入\n\n第一个是 Tmux。它是一个终端复用工具，能在多个分屏会话里跑程序。让代理配合 Tmux 的 help、send keys、capture pane 这几个命令，就能绕过交互界面去操控工具，跑多个代理时还能各自开会话互不打扰 [26:09 Navinkumar]。\n\n第二个是 IPC 侧信道。他把这个概念讲得很直白：就像给网站加一个接口——网站给人看视觉界面，接口给机器返回结构化数据。命令行也一样：给人看交互菜单，给代理开一条专门的数据通道。比如 `barista-brew --ask` 返回一段机器可读的输入格式，代理拿到就能直接填答案 [30:10 Navinkumar]。\n\n第三个是上下文注入。把环境信息直接喂给代理：比如库存里燕麦奶只剩两加仑，就告诉代理该向用户确认用量、要不要换备选——这类动态场景在纯人类交互里不存在，正是代理的用武之地 [32:22 Navinkumar]。\n\n## 赢家的招数：让代理自己造工具\n\n比赛结果是两位赢家。Bonk 用基于 Claude Agent SDK 的代理，先让代理复用已有的评测技能，自动造出了一个确定性的命令行求解器，再放在 Tmux 里反复轰炸接口，最快一次响应只要约 29 毫秒 [47:31 Bonk]。\n\n另一位 Danny 自称完全不会写代码，只是个氛围编程者：在 VS Code 里开着 Claude Code，把问题描述丢给它，让它自己修，修到 49.98 分，再让它复制一份想办法冲 49.99 分 [49:16 Danny]。这场面本身就说明了很多。\n\n## 命令行工具该给谁设计\n\nMark 对确定性那段点评值得记住：如果命令行工具是给大模型用的，**那它就该是确定性的**——大模型已经是不确定的那一方了，工具应该是一把小而锋利的刀，每次同样输入都给同样输出。别在工具里再造一个代理，然后把工具交给另一个代理，那样没人知道会发生什么 [41:55 Mark]。\n\n> 【背景】Claude Code 和 Codex 是让 AI 代理直接操作命令行完成编程任务的产品；Haiku 和 Sonnet 是 Anthropic 的两个较便宜、较快的模型档位。\n\n## 本集带走\n\n- 交互式命令行对 AI 代理会沉默失败：代理看到的是屏幕重绘，不是问题，且无任何报错。\n- 加参数解决不了动态流程；代理和自动化脚本不同，它能走决策树——前提是你给它一棵。\n- 把代理适配视为无障碍设计的延伸：同一套纪律，换一位新读者。\n- 三个起点：让代理用 Tmux 操控会话、给代理开机器可读的侧信道、用上下文注入喂环境信息。\n- 给代理用的工具应该是确定性的小工具；不确定性的部分交给大模型本身。",
+  "quotes": [
+    {
+      "en": "Flags multiply if you try to create flags that predict all the possible flows.",
+      "zh": "如果你试图创建能预测所有可能流程的 flag，flag 就会成倍增加。",
+      "timestamp": "03:19",
+      "speaker": "Mark Lummus"
+    },
+    {
+      "en": "How might we keep the guardrails and the guidance and stop pretending that agents and humans have the same abilities?",
+      "zh": "我们如何能保留护栏和指引，同时不再假装智能体和人类拥有相同的能力？",
+      "timestamp": "06:23",
+      "speaker": "Mark Lummus"
+    },
+    {
+      "en": "Now help is really important because every AI agent in today's world relies on the help command before it even starts using that command.",
+      "zh": "现在 help 非常重要，因为当今世界的每一个 AI 智能体在开始使用某个命令之前都依赖 help 命令。",
+      "timestamp": "26:25",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "Same prompt with a different brain now.",
+      "zh": "同样的 prompt，换了一个大脑。",
+      "timestamp": "31:43",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "And the reason is that if the CLI is a tool to be used by an LLM, then you absolutely want it to be deterministic.",
+      "zh": "原因是，如果 CLI 是一个要被 LLM 使用的工具，那你绝对希望它是确定性的。",
+      "timestamp": "41:55",
+      "speaker": "Mark Lummus"
+    },
+    {
+      "en": "So you don't want to build an agent into the CLI and then hand that CLI off to another agent because you don't know what you're gonna get.",
+      "zh": "所以你不会想在 CLI 里内置一个智能体，然后把这个 CLI 交给另一个智能体，因为你不知道会得到什么结果。",
+      "timestamp": "42:30",
+      "speaker": "Mark Lummus"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "02:57",
+      "speaker": "Unknown",
+      "en": "And if they don't handle it very well, they'll fail quietly.",
+      "zh": "而如果它们处理得不好，就会静默失败。"
+    },
+    {
+      "timestamp": "03:11",
+      "speaker": "Unknown",
+      "en": "Because the next question can emerge based on what way you answer a previous question.",
+      "zh": "因为下一个问题可以根据你对上一个问题的回答方式而出现。"
+    },
+    {
+      "timestamp": "03:19",
+      "speaker": "Unknown",
+      "en": "Flags multiply if you try to create flags that predict all the possible flows.",
+      "zh": "如果你试图创建能预测所有可能流程的 flag，flag 就会成倍增加。"
+    },
+    {
+      "timestamp": "04:19",
+      "speaker": "Unknown",
+      "en": "The agent sees a redraw loop.",
+      "zh": "智能体看到的是一个重绘循环。"
+    },
+    {
+      "timestamp": "05:19",
+      "speaker": "Unknown",
+      "en": "Now, an agent is not like an automation script.",
+      "zh": "智能体不像自动化脚本。"
+    },
+    {
+      "timestamp": "05:28",
+      "speaker": "Unknown",
+      "en": "All of the decisions are pre-banked up front.",
+      "zh": "所有的决策都是事先预先定好的。"
+    },
+    {
+      "timestamp": "05:46",
+      "speaker": "Unknown",
+      "en": "If you provide one, you can't do that with flags.",
+      "zh": "如果你提供了一棵的话。flag 做不到这一点。"
+    },
+    {
+      "timestamp": "06:01",
+      "speaker": "Unknown",
+      "en": "And so if you map what we do for humans to what we need to do for agents, then the solutions become apparent.",
+      "zh": "如果把我们为人类做的事映射到我们需要为智能体做的事上，那么解决方案就显而易见了。"
+    },
+    {
+      "timestamp": "06:12",
+      "speaker": "Unknown",
+      "en": "It's the same discipline with a new reader.",
+      "zh": "这是同一套纪律，只是换了一个新的阅读者。"
+    },
+    {
+      "timestamp": "06:23",
+      "speaker": "Unknown",
+      "en": "How might we keep the guardrails and the guidance and stop pretending that agents and humans have the same abilities?",
+      "zh": "我们如何能保留护栏和指引，同时不再假装智能体和人类拥有相同的能力？"
+    },
+    {
+      "timestamp": "16:40",
+      "speaker": "Unknown",
+      "en": "And so you don't necessarily wanna waste your high-thinking tokens on running a CLI tool.",
+      "zh": "所以你不一定想把你高思考的 token 浪费在运行一个 CLI 工具上。"
+    },
+    {
+      "timestamp": "26:25",
+      "speaker": "Unknown",
+      "en": "Now help is really important because every AI agent in today's world relies on the help command before it even starts using that command.",
+      "zh": "现在 help 非常重要，因为当今世界的每一个 AI 智能体在开始使用某个命令之前都依赖 help 命令。"
+    },
+    {
+      "timestamp": "29:18",
+      "speaker": "Unknown",
+      "en": "Since we have multiple personalities now, earlier we used to only cater to human beings.",
+      "zh": "既然我们现在有了多种人格，以前我们只服务于人类。"
+    },
+    {
+      "timestamp": "31:43",
+      "speaker": "Unknown",
+      "en": "Same prompt with a different brain now.",
+      "zh": "同样的 prompt，换了一个大脑。"
+    },
+    {
+      "timestamp": "41:55",
+      "speaker": "Unknown",
+      "en": "And the reason is that if the CLI is a tool to be used by an LLM, then you absolutely want it to be deterministic.",
+      "zh": "原因是，如果 CLI 是一个要被 LLM 使用的工具，那你绝对希望它是确定性的。"
+    },
+    {
+      "timestamp": "42:09",
+      "speaker": "Unknown",
+      "en": "The LLM is the non-deterministic player here.",
+      "zh": "LLM 才是这里非确定性的那一方。"
+    },
+    {
+      "timestamp": "42:30",
+      "speaker": "Unknown",
+      "en": "So you don't want to build an agent into the CLI and then hand that CLI off to another agent because you don't know what you're gonna get.",
+      "zh": "所以你不会想在 CLI 里内置一个智能体，然后把这个 CLI 交给另一个智能体，因为你不知道会得到什么结果。"
+    },
+    {
+      "timestamp": "52:01",
+      "speaker": "Unknown",
+      "en": "The predominant idea was let your agent figure it out for you.",
+      "zh": "最主要的想法是让你的智能体替你搞定。"
+    }
+  ],
+  "voice_script": "今天咱们聊一个特别具体的工程问题，主角是两位开发者工具圈的人，Mark Lummus 和 Navinkumar。Mark 的职业生涯就是从命令行开始的——当年串口连上电脑，打开终端，开始打字，一切工作都靠敲命令。而这次，两人办了一场工作坊，讨论的事情听起来有点反直觉：命令行工具是给电脑高手用的，怎么到了 AI 代理手里，反而会用得一团糟？\n\n先把背景垫一下。命令行界面，就是那种不点鼠标、直接敲命令的操作方式，是最老的电脑操作方式。后来图形界面统治了一切，命令行一度像是在慢慢死去。但 AI 代理出现了。代理干活的本质，就是不停地调用命令行工具——Claude Code、Codex 这些让 AI 直接操作命令行写代码的产品一走红，命令行迎来了第二春。\n\n那问题出在哪儿？出在一类特别的工具上，叫交互式命令行。就是你运行它，它弹出一个问题，你用方向键选答案，它再根据你的选择问下一个问题。这种设计对人很友好：下一个问题能根据你上一个回答动态变化，安全护栏也内置在一问一答的流程里。\n\n可代理跑这种工具的时候，会安静地失败。注意这个词，安静。人类看到的是问题菜单，代理看到的却是不断重绘的屏幕；运行环境丢失了界面状态，没有报错，没有提示，什么都没有。失败了，但你根本看不见它失败。\n\n那常见的修复办法行不行？就是加命令行参数，把所有可能的答案都变成一个开关。对简单场景确实没问题：流程事先已知，一遍跑完，各选项互相独立。但如果答案取决于上下文、取决于实时变化的环境——比如命令行先调一个接口，再根据返回结果决定问什么——用 Mark 的话说，如果你试图创建能预测所有可能流程的开关，开关就会成倍增加，根本没法穷举。\n\n这里还有个更根本的区分：代理不是自动化脚本。自动化脚本什么都不懂，所有决策都是预先定好的；代理会推理、会反问、会重试、会后退，最重要的是，它能走决策树——前提是，你给它一棵。\n\n顺着这个思路，Mark 给出了一个很妙的框架。我们其实早就有一套成熟的方法论，叫无障碍设计，就是让软件对有不同能力的人可用。现在只需要把这套方法映射到代理身上：同一套纪律，换一位读者。别再假装代理和人类有相同的能力，承认差异，方案自然就浮现出来了。\n\n于是就有了这场工作坊。实验的主角叫 Barista 9000，一个接咖啡订单的命令行工具，直接交给代理跑必然失败。规则很简单：改这个工具，让代理能用它点咖啡，成绩上传到服务器排行榜，赢家抱走一台 Mac Mini。有个细节很有意思：用最前沿的大模型开最高推理档，确实能硬闯过去，但真正有趣的挑战是——能不能让 Haiku 或者 Sonnet 这个级别更快更便宜的模型跑通？毕竟现在团队都得掂量 token 预算。\n\nNavinkumar 分享了几个好点子。注意，特意不叫最佳实践，因为这个领域太新，大家都在摸索。\n\n第一个是 Tmux。它是一个终端复用工具，能在多个分屏会话里跑程序。让代理配合 Tmux 的 help、send keys、capture pane 这几个命令，就能绕过交互界面直接操控工具；跑多个代理的时候，还能各自开会话，互不打扰。顺带说一句，现在 help 命令特别重要，因为当今世界每一个 AI 代理，在开始使用某个命令之前，都依赖 help。\n\n第二个是 IPC 侧信道。这个概念讲得很直白：就像给网站加一个接口——网站给人看视觉界面，接口给机器返回结构化数据。命令行也一样：给人看交互菜单，给代理开一条专门的数据通道。比如运行 barista-brew 加上 ask 参数，返回一段机器可读的输入格式，代理拿到就能直接填答案。\n\n第三个是上下文注入。把环境信息直接喂给代理：比如库存里燕麦奶只剩两加仑了，就告诉代理该向用户确认用量、要不要换备选。这类动态场景在纯人类的交互里根本不存在，恰恰是代理的用武之地。\n\n比赛结果是两位赢家，而且两个人的路数都值得琢磨。Bonk 用基于 Claude Agent SDK 的代理，先让代理复用已有的评测技能，自动造出了一个确定性的命令行求解器，再放在 Tmux 里反复轰炸接口，最快一次响应只要大约二十九毫秒。另一位 Danny 自称完全不会写代码，只是个氛围编程者：在 VS Code 里开着 Claude Code，把问题描述丢给它，让它自己修，修到四十九点九八分，再让它复制一份想办法冲四十九点九九。同样的提示词，换了一个大脑，这场面本身就说明了很多。\n\n最后说说 Mark 的一段点评，我觉得最值得记住。谈到确定性的时候他说，如果命令行工具是给大模型用的，那你绝对希望它是确定性的——大模型已经是不确定的那一方了，工具应该是一把小而锋利的刀，每次同样的输入都给同样的输出。千万别在工具里内置一个代理，然后把这个工具交给另一个代理，因为你不知道会得到什么结果。\n\n说到底，这一集就讲了一件事：给代理用的工具，不该是人的界面的将就版本，而该是按代理的能力重新设计过的——同一套无障碍的纪律，换了一位新读者。"
+}

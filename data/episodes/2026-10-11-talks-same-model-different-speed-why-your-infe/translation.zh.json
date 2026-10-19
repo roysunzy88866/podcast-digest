@@ -1,0 +1,1066 @@
+[
+ {
+  "seg": 0,
+  "start": 13.375,
+  "end": 13.675,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 1,
+  "start": 13.956,
+  "end": 14.776,
+  "speaker": "Unknown",
+  "en": "Let's get started.",
+  "zh": "我们开始吧。"
+ },
+ {
+  "seg": 2,
+  "start": 14.997,
+  "end": 16.978,
+  "speaker": "Unknown",
+  "en": "So hello, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 3,
+  "start": 17.038,
+  "end": 18.059,
+  "speaker": "Unknown",
+  "en": "My name is Yunmo.",
+  "zh": "我叫 Yunmo。"
+ },
+ {
+  "seg": 4,
+  "start": 18.52,
+  "end": 25.326,
+  "speaker": "Unknown",
+  "en": "I'm a founding engineer at Friendly AI, building an inference engine with our team to optimize inference performance.",
+  "zh": "我是 Friendly AI 的创始工程师，我们团队正在构建一个推理引擎，以优化推理性能。"
+ },
+ {
+  "seg": 5,
+  "start": 26.267,
+  "end": 33.053,
+  "speaker": "Unknown",
+  "en": "So today, I'm going to talk about how we built the fast and reliable inference API for Frontier Openweight models.",
+  "zh": "所以今天，我要讲的是我们如何为前沿开放权重模型构建快速且可靠的推理 API。"
+ },
+ {
+  "seg": 6,
+  "start": 35.155,
+  "end": 36.876,
+  "speaker": "Unknown",
+  "en": "Oh.",
+  "zh": "哦。"
+ },
+ {
+  "seg": 7,
+  "start": 37.917,
+  "end": 38.258,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 8,
+  "start": 39.41,
+  "end": 43.452,
+  "speaker": "Unknown",
+  "en": "Okay, so before we dive in, let's do a quick show of hands.",
+  "zh": "好的，在深入之前，我们先快速举手示意一下。"
+ },
+ {
+  "seg": 9,
+  "start": 44.112,
+  "end": 49.875,
+  "speaker": "Unknown",
+  "en": "So who here uses closed-weight frontier models like GPT or Claude?",
+  "zh": "这里谁在用像 GPT 或 Claude 这样的封闭权重前沿模型？"
+ },
+ {
+  "seg": 10,
+  "start": 51.455,
+  "end": 54.036,
+  "speaker": "Unknown",
+  "en": "Okay, most of you are already using it.",
+  "zh": "好的，你们大多数人已经在用了。"
+ },
+ {
+  "seg": 11,
+  "start": 54.216,
+  "end": 57.438,
+  "speaker": "Unknown",
+  "en": "And then who here mainly use openweight models?",
+  "zh": "那么这里谁主要使用开放权重模型？"
+ },
+ {
+  "seg": 12,
+  "start": 59.868,
+  "end": 63.371,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah, fewer than the closed-weight models.",
+  "zh": "是的，是的，比用封闭权重模型的人少。"
+ },
+ {
+  "seg": 13,
+  "start": 63.772,
+  "end": 72.92,
+  "speaker": "Unknown",
+  "en": "So personally, I recently using a mix-up both these days, but I'm gradually migrating more of my workload to open-weight models.",
+  "zh": "就我个人而言，我最近混用这两种，但我正在逐步把更多工作负载迁移到开放权重模型上。"
+ },
+ {
+  "seg": 14,
+  "start": 73.401,
+  "end": 75.402,
+  "speaker": "Unknown",
+  "en": "The reason is that open-weight models",
+  "zh": "原因是开放权重模型"
+ },
+ {
+  "seg": 15,
+  "start": 76.518,
+  "end": 78.499,
+  "speaker": "Unknown",
+  "en": "have crossed the threshold these days.",
+  "zh": "如今已经跨过了那个门槛。"
+ },
+ {
+  "seg": 16,
+  "start": 78.9,
+  "end": 88.385,
+  "speaker": "Unknown",
+  "en": "For example, in coding, reasoning, and agentic benchmarks, models like GNM 5.2 are competing in the same tier as the leading proprietary models.",
+  "zh": "例如，在编程、推理和智能体基准测试中，像 GNM 5.2 这样的模型正在与领先的专有模型同一梯队竞争。"
+ },
+ {
+  "seg": 17,
+  "start": 88.745,
+  "end": 96.77,
+  "speaker": "Unknown",
+  "en": "So as you can see from this code arena reader board, GNM 5.2 is ranked even higher than Claude Opus 4.8.",
+  "zh": "所以从这个 code arena 排行榜上可以看到，GNM 5.2 的排名甚至高于 Claude Opus 4.8。"
+ },
+ {
+  "seg": 18,
+  "start": 97.631,
+  "end": 101.013,
+  "speaker": "Unknown",
+  "en": "So it is right below the Claude Fable 5.",
+  "zh": "所以它正好位于 Claude Fable 5 之下。"
+ },
+ {
+  "seg": 19,
+  "start": 102.215,
+  "end": 110.863,
+  "speaker": "Unknown",
+  "en": "So similarly, across various coding, terminal, and tool use benchmarks, GLM 5.2 and Minimax M3 shows strong results.",
+  "zh": "同样，在各种编程、终端和工具使用基准测试中，GLM 5.2 和 Minimax M3 都展现出强劲的结果。"
+ },
+ {
+  "seg": 20,
+  "start": 111.263,
+  "end": 116.628,
+  "speaker": "Unknown",
+  "en": "So the question is no longer only whether open-made models are good enough.",
+  "zh": "所以问题不再仅仅是开放权重模型是否足够好。"
+ },
+ {
+  "seg": 21,
+  "start": 117.048,
+  "end": 118.87,
+  "speaker": "Unknown",
+  "en": "For many workloads, now they are.",
+  "zh": "对于许多工作负载来说，现在它们已经足够好了。"
+ },
+ {
+  "seg": 22,
+  "start": 119.41,
+  "end": 124.475,
+  "speaker": "Unknown",
+  "en": "So the next question is, how fast and reliably we can run them in production?",
+  "zh": "那么下一个问题是，我们在生产环境中能以多快、多可靠的方式运行它们？"
+ },
+ {
+  "seg": 23,
+  "start": 125.745,
+  "end": 132.189,
+  "speaker": "Unknown",
+  "en": "So benchmark numbers alone don't really give a clear sense of how well things actually works.",
+  "zh": "所以光看基准测试数字并不能真正让人清楚地了解实际运行效果如何。"
+ },
+ {
+  "seg": 24,
+  "start": 132.769,
+  "end": 138.613,
+  "speaker": "Unknown",
+  "en": "So instead, I ran a simple hands-on experiment to see how these models actually perform.",
+  "zh": "所以我做了一个简单的动手实验，来看看这些模型的实际表现。"
+ },
+ {
+  "seg": 25,
+  "start": 139.153,
+  "end": 146.277,
+  "speaker": "Unknown",
+  "en": "So I asked both GLM 5.2 and Opus 4.8 to build a tower defense game like this.",
+  "zh": "我让 GLM 5.2 和 Opus 4.8 都来构建一个像这样的塔防游戏。"
+ },
+ {
+  "seg": 26,
+  "start": 146.738,
+  "end": 152.101,
+  "speaker": "Unknown",
+  "en": "So as you can see, both models produce working implementation with similar structure and quality.",
+  "zh": "如你所见，两个模型都产出了可运行的实现，结构和质量相似。"
+ },
+ {
+  "seg": 27,
+  "start": 152.441,
+  "end": 153.742,
+  "speaker": "Unknown",
+  "en": "So both one has a map.",
+  "zh": "两个游戏都有地图。"
+ },
+ {
+  "seg": 28,
+  "start": 154.175,
+  "end": 158.319,
+  "speaker": "Unknown",
+  "en": "And the turrets are shooting the enemies within the range.",
+  "zh": "炮塔会射击范围内的敌人。"
+ },
+ {
+  "seg": 29,
+  "start": 158.739,
+  "end": 163.803,
+  "speaker": "Unknown",
+  "en": "So yeah, this looks pretty great considering I made it with a single prompt.",
+  "zh": "是的，考虑到我是用单个提示词做出来的，这看起来相当不错。"
+ },
+ {
+  "seg": 30,
+  "start": 164.644,
+  "end": 166.025,
+  "speaker": "Unknown",
+  "en": "But when we look at a coast,",
+  "zh": "但当我们看成本时，"
+ },
+ {
+  "seg": 31,
+  "start": 166.492,
+  "end": 167.932,
+  "speaker": "Unknown",
+  "en": "The difference becomes very clear.",
+  "zh": "差异就非常明显了。"
+ },
+ {
+  "seg": 32,
+  "start": 168.412,
+  "end": 181.715,
+  "speaker": "Unknown",
+  "en": "So GLM 5.2 was more than 5.6 times cheaper for this task, and in agent-style workflows where you need to iterate multiple times, the gap compounds quickly.",
+  "zh": "GLM 5.2 在这个任务上便宜了 5.6 倍以上，而在需要多次迭代的智能体式工作流中，这个差距会迅速累积。"
+ },
+ {
+  "seg": 33,
+  "start": 182.316,
+  "end": 185.076,
+  "speaker": "Unknown",
+  "en": "So this is not just about model quality anymore.",
+  "zh": "所以这已经不仅仅是模型质量的问题了。"
+ },
+ {
+  "seg": 34,
+  "start": 185.616,
+  "end": 188.257,
+  "speaker": "Unknown",
+  "en": "It is about what you can afford to run at scale.",
+  "zh": "而是你能负担得起在大规模下运行什么。"
+ },
+ {
+  "seg": 35,
+  "start": 189.56,
+  "end": 194.542,
+  "speaker": "Unknown",
+  "en": "So after the modal quality and cost, the next question is provider quality.",
+  "zh": "所以在模型质量和成本之后，下一个问题是提供商质量。"
+ },
+ {
+  "seg": 36,
+  "start": 195.042,
+  "end": 197.923,
+  "speaker": "Unknown",
+  "en": "And provider quality is really about performance.",
+  "zh": "而提供商质量实际上就是性能。"
+ },
+ {
+  "seg": 37,
+  "start": 198.524,
+  "end": 206.207,
+  "speaker": "Unknown",
+  "en": "So even if the modal weights are the same, latency, throughput, and reliability can vary significantly depending on where you run it.",
+  "zh": "即使模型权重相同，延迟、吞吐量和可靠性也会因运行位置的不同而有显著差异。"
+ },
+ {
+  "seg": 38,
+  "start": 207.063,
+  "end": 212.987,
+  "speaker": "Unknown",
+  "en": "So this one has an open router snapshot, which shows that these differences are measurable.",
+  "zh": "这里有一个 Open Router 的快照，显示这些差异是可测量的。"
+ },
+ {
+  "seg": 39,
+  "start": 213.467,
+  "end": 224.353,
+  "speaker": "Unknown",
+  "en": "So if you're building an AI product, you should not only ask which model to use, but you should also ask which providers gives you the best performance, reliability, and pricing.",
+  "zh": "所以如果你在构建 AI 产品，你不仅应该问用哪个模型，还应该问哪个提供商能给你最好的性能、可靠性和定价。"
+ },
+ {
+  "seg": 40,
+  "start": 225.554,
+  "end": 227.355,
+  "speaker": "Unknown",
+  "en": "So I will show you another example.",
+  "zh": "所以我再给你们展示另一个例子。"
+ },
+ {
+  "seg": 41,
+  "start": 227.715,
+  "end": 232.998,
+  "speaker": "Unknown",
+  "en": "So here I use the same model, JLAM 5.2, and the same coding agent workflow,",
+  "zh": "这里我用的是同一个模型 JLAM 5.2，和同样的编程智能体工作流，"
+ },
+ {
+  "seg": 42,
+  "start": 233.661,
+  "end": 239.024,
+  "speaker": "Unknown",
+  "en": "So the task is to build a simple Candy Crush style mobile game, which we call Mortal Crush.",
+  "zh": "任务是构建一个类似 Candy Crush 的简单手机游戏，我们称之为 Mortal Crush。"
+ },
+ {
+  "seg": 43,
+  "start": 239.545,
+  "end": 242.466,
+  "speaker": "Unknown",
+  "en": "So when you see this, the left side is friendly AI.",
+  "zh": "大家看，左边是 Friendly AI。"
+ },
+ {
+  "seg": 44,
+  "start": 242.847,
+  "end": 246.309,
+  "speaker": "Unknown",
+  "en": "It generates the game within two minutes.",
+  "zh": "它在两分钟内生成了游戏。"
+ },
+ {
+  "seg": 45,
+  "start": 246.909,
+  "end": 250.371,
+  "speaker": "Unknown",
+  "en": "Another provider needs more than three minutes.",
+  "zh": "另一个提供商需要三分钟以上。"
+ },
+ {
+  "seg": 46,
+  "start": 251.272,
+  "end": 252.613,
+  "speaker": "Unknown",
+  "en": "So the model is the same.",
+  "zh": "所以模型是同一个。"
+ },
+ {
+  "seg": 47,
+  "start": 252.933,
+  "end": 254.434,
+  "speaker": "Unknown",
+  "en": "The agent app is the same.",
+  "zh": "智能体应用也是同一个。"
+ },
+ {
+  "seg": 48,
+  "start": 254.494,
+  "end": 256.135,
+  "speaker": "Unknown",
+  "en": "But the provider was different.",
+  "zh": "但提供商不同。"
+ },
+ {
+  "seg": 49,
+  "start": 256.615,
+  "end": 259.337,
+  "speaker": "Unknown",
+  "en": "So model developer tools and coding agent,",
+  "zh": "所以模型、开发工具和编程智能体，"
+ },
+ {
+  "seg": 50,
+  "start": 260.013,
+  "end": 263.514,
+  "speaker": "Unknown",
+  "en": "This is the experience that users actually feel.",
+  "zh": "这是用户真正能感受到的体验。"
+ },
+ {
+  "seg": 51,
+  "start": 264.834,
+  "end": 273.836,
+  "speaker": "Unknown",
+  "en": "So from this simple example, we saw that even with the same model and the same task, the experience can feel very different depending on the provider.",
+  "zh": "从这个简单的例子中,我们看到即使是相同的模型和相同的任务,体验也会因提供商不同而感觉非常不同。"
+ },
+ {
+  "seg": 52,
+  "start": 274.496,
+  "end": 277.037,
+  "speaker": "Unknown",
+  "en": "The difference comes from the entire inference stack.",
+  "zh": "这种差异来自整个推理技术栈。"
+ },
+ {
+  "seg": 53,
+  "start": 277.397,
+  "end": 288.86,
+  "speaker": "Unknown",
+  "en": "So the model architecture, cache system, routing policy, scheduler, quantization strategy, GPU corners, all those things come together to shape what the developer actually experiences.",
+  "zh": "模型架构、缓存系统、路由策略、调度器、量化策略、GPU corners,所有这些因素共同塑造了开发者真正体验到的效果。"
+ },
+ {
+  "seg": 54,
+  "start": 290.115,
+  "end": 293.276,
+  "speaker": "Unknown",
+  "en": "So this is the core of Friendly AI's value.",
+  "zh": "这就是 Friendly AI 的核心价值所在。"
+ },
+ {
+  "seg": 55,
+  "start": 293.776,
+  "end": 296.377,
+  "speaker": "Unknown",
+  "en": "So we are not just exposing a model API.",
+  "zh": "所以我们不只是在暴露一个模型 API。"
+ },
+ {
+  "seg": 56,
+  "start": 297.277,
+  "end": 302.279,
+  "speaker": "Unknown",
+  "en": "So Friendly AI is built as a full stack inference engine for Gen AI models.",
+  "zh": "Friendly AI 是作为一个面向 Gen AI 模型的全栈推理引擎来构建的。"
+ },
+ {
+  "seg": 57,
+  "start": 302.959,
+  "end": 307.761,
+  "speaker": "Unknown",
+  "en": "This matters because fast and reliable inference is not just one optimization.",
+  "zh": "这很重要,因为快速且可靠的推理不只是单一的优化。"
+ },
+ {
+  "seg": 58,
+  "start": 308.281,
+  "end": 315.103,
+  "speaker": "Unknown",
+  "en": "It is batching, scheduling, quantization, spec decoding, and corners.",
+  "zh": "它是批处理、调度、量化、投机解码以及 corners 的组合。"
+ },
+ {
+  "seg": 59,
+  "start": 315.804,
+  "end": 317.124,
+  "speaker": "Unknown",
+  "en": "Everything should work together.",
+  "zh": "所有这些必须协同工作。"
+ },
+ {
+  "seg": 60,
+  "start": 318.387,
+  "end": 327.474,
+  "speaker": "Unknown",
+  "en": "So let me briefly explain how we built that and how we make the inference performance to the cutting-edge level.",
+  "zh": "那么让我简要说明一下我们是如何构建这些、以及如何把推理性能做到前沿水平的。"
+ },
+ {
+  "seg": 61,
+  "start": 328.835,
+  "end": 333.478,
+  "speaker": "Unknown",
+  "en": "So in the modern agent applications, inputs are often very long.",
+  "zh": "在现代智能体应用中,输入往往非常长。"
+ },
+ {
+  "seg": 62,
+  "start": 334.038,
+  "end": 338.762,
+  "speaker": "Unknown",
+  "en": "It easily exceeds 10k tokens while outputs are relatively short.",
+  "zh": "输入很容易超过 10k tokens,而输出相对较短。"
+ },
+ {
+  "seg": 63,
+  "start": 339.422,
+  "end": 344.586,
+  "speaker": "Unknown",
+  "en": "And more importantly, a large portion of the inputs are repeated across requests.",
+  "zh": "更重要的是,输入中有很大一部分在不同请求之间是重复的。"
+ },
+ {
+  "seg": 64,
+  "start": 345.593,
+  "end": 352.92,
+  "speaker": "Unknown",
+  "en": "In many real workloads, like 50% to 80% to 90% of the tokens are identical across different requests.",
+  "zh": "在许多真实的工作负载中,大约 50% 到 80% 到 90% 的 tokens 在不同请求之间是完全相同的。"
+ },
+ {
+  "seg": 65,
+  "start": 353.54,
+  "end": 363.589,
+  "speaker": "Unknown",
+  "en": "So from a system perspective, this means most of the compute cost is in the pre-filled stage, where the model processes the entire inputs and build a KB cache.",
+  "zh": "从系统角度看,这意味着大部分计算成本都在 pre-filled 阶段,即模型处理全部输入并构建 KB cache 的阶段。"
+ },
+ {
+  "seg": 66,
+  "start": 364.13,
+  "end": 369.915,
+  "speaker": "Unknown",
+  "en": "So if we recompute this shared prefix every time, you're wasting both latency and GPU cycles.",
+  "zh": "所以如果我们每次都重新计算这个共享前缀,就是在同时浪费延迟和 GPU cycles。"
+ },
+ {
+  "seg": 67,
+  "start": 370.48,
+  "end": 385.507,
+  "speaker": "Unknown",
+  "en": "So when a new recast share a prefix with the previous one, we can reuse those tensor and skip the corresponding preferred computation and directly reduce the TTFT and we can avoid computing large chunk of the input.",
+  "zh": "当一个新的 recast 与之前的请求共享前缀时,我们可以复用那些 tensor,跳过相应的 preferred 计算,从而直接降低 TTFT,并避免对大块输入进行计算。"
+ },
+ {
+  "seg": 68,
+  "start": 385.667,
+  "end": 390.65,
+  "speaker": "Unknown",
+  "en": "But however, making this work at scale requires two key mechanisms.",
+  "zh": "但是,要让这一机制在规模化下工作,需要两个关键机制。"
+ },
+ {
+  "seg": 69,
+  "start": 391.25,
+  "end": 393.071,
+  "speaker": "Unknown",
+  "en": "So first one is cache-aware routing.",
+  "zh": "第一个是 cache-aware routing(缓存感知路由)。"
+ },
+ {
+  "seg": 70,
+  "start": 393.751,
+  "end": 396.893,
+  "speaker": "Unknown",
+  "en": "So in the distributed system, KVCache is not centralized.",
+  "zh": "在分布式系统中,KVCache 不是集中式的。"
+ },
+ {
+  "seg": 71,
+  "start": 397.353,
+  "end": 399.094,
+  "speaker": "Unknown",
+  "en": "It lives on individual replicas.",
+  "zh": "它存在于各个副本上。"
+ },
+ {
+  "seg": 72,
+  "start": 399.634,
+  "end": 406.798,
+  "speaker": "Unknown",
+  "en": "So the router must send incoming requests to the replica that already holds the relevant prefix in its cache.",
+  "zh": "所以路由器必须把进来的请求发送到已经在其缓存中持有相关前缀的副本。"
+ },
+ {
+  "seg": 73,
+  "start": 407.198,
+  "end": 409.759,
+  "speaker": "Unknown",
+  "en": "Otherwise, we lose the benefit of reuse.",
+  "zh": "否则,我们就失去了复用的好处。"
+ },
+ {
+  "seg": 74,
+  "start": 410.359,
+  "end": 412.421,
+  "speaker": "Unknown",
+  "en": "The second thing is cache hierarchy.",
+  "zh": "第二点是缓存层级。"
+ },
+ {
+  "seg": 75,
+  "start": 413.061,
+  "end": 415.622,
+  "speaker": "Unknown",
+  "en": "So KVCache is extremely memory intensive.",
+  "zh": "KVCache 对内存的消耗极其巨大。"
+ },
+ {
+  "seg": 76,
+  "start": 416.022,
+  "end": 420.545,
+  "speaker": "Unknown",
+  "en": "For large models and long contacts, KVCache size can exceed model weights.",
+  "zh": "对于大模型和长 contacts,KVCache 的大小可能超过模型权重。"
+ },
+ {
+  "seg": 77,
+  "start": 421.831,
+  "end": 426.393,
+  "speaker": "Unknown",
+  "en": "And as you know, GPU VRAM is the fastest, but there's also very limited resources.",
+  "zh": "如你所知,GPU VRAM 是最快的,但也是非常有限的资源。"
+ },
+ {
+  "seg": 78,
+  "start": 426.473,
+  "end": 439.518,
+  "speaker": "Unknown",
+  "en": "So we treat cache as a hierarchy, like hot cache stays in GPU memory, worm cache is in CPU RAM, and cordial cache can be offloaded to NVMe or the disk spaces.",
+  "zh": "所以我们把缓存当作层级来处理,比如热缓存放在 GPU 内存中,worm 缓存放在 CPU RAM 中,而 cordial 缓存可以卸载到 NVMe 或磁盘空间上。"
+ },
+ {
+  "seg": 79,
+  "start": 440.018,
+  "end": 446.22,
+  "speaker": "Unknown",
+  "en": "The system dynamically offloads less used blocks and prepares them when they need it.",
+  "zh": "系统会动态地把较少使用的块卸载出去,并在需要时重新载入。"
+ },
+ {
+  "seg": 80,
+  "start": 446.755,
+  "end": 458.783,
+  "speaker": "Unknown",
+  "en": "So by combining cache-aware routing and hierarchical memory management, we significantly reduce the prefix calls, lower TTFT, and making long-context agent workload much more efficient.",
+  "zh": "通过结合 cache-aware routing 和分层内存管理,我们显著减少了 prefix calls,降低了 TTFT,使长上下文智能体工作负载的效率大幅提升。"
+ },
+ {
+  "seg": 81,
+  "start": 460.104,
+  "end": 462.385,
+  "speaker": "Unknown",
+  "en": "So the next thing is interactive speed.",
+  "zh": "接下来是交互式速度。"
+ },
+ {
+  "seg": 82,
+  "start": 462.926,
+  "end": 475.694,
+  "speaker": "Unknown",
+  "en": "So standard autoregressive decoding, it generates one token per forward pass that makes decode inherently a sequencer, and during the decode, the GPU is often underutilized.",
+  "zh": "标准的自回归解码每次前向传播只生成一个 token,这使得 decode 天生是一个 sequencer,而且在 decode 期间,GPU 往往利用率不足。"
+ },
+ {
+  "seg": 83,
+  "start": 476.265,
+  "end": 479.007,
+  "speaker": "Unknown",
+  "en": "And speculative decoding changes the shape of this problem.",
+  "zh": "而投机解码改变这个问题的形态。"
+ },
+ {
+  "seg": 84,
+  "start": 479.488,
+  "end": 485.553,
+  "speaker": "Unknown",
+  "en": "So instead of generating one token and stopping, it proposes multiple candidates' tokens ahead.",
+  "zh": "它不是生成一个 token 就停下来,而是提前提出多个候选 tokens。"
+ },
+ {
+  "seg": 85,
+  "start": 486.133,
+  "end": 493.079,
+  "speaker": "Unknown",
+  "en": "Then the target model validates those candidates in a single pass, and if the tokens are accepted, they are free.",
+  "zh": "然后目标模型在单次前向传播中验证这些候选,如果 tokens 被接受,它们就是免费的。"
+ },
+ {
+  "seg": 86,
+  "start": 494.24,
+  "end": 499.504,
+  "speaker": "Unknown",
+  "en": "So this improves time per output token without changing model's output quality.",
+  "zh": "这改善了每个输出 token 的时间,而且不改变模型的输出质量。"
+ },
+ {
+  "seg": 87,
+  "start": 501.282,
+  "end": 504.064,
+  "speaker": "Unknown",
+  "en": "There are different ways to draft candidates.",
+  "zh": "起草候选 tokens 有不同的方式。"
+ },
+ {
+  "seg": 88,
+  "start": 504.585,
+  "end": 507.507,
+  "speaker": "Unknown",
+  "en": "So one way is model-based speculation.",
+  "zh": "一种是基于模型的投机。"
+ },
+ {
+  "seg": 89,
+  "start": 508.168,
+  "end": 521.278,
+  "speaker": "Unknown",
+  "en": "It uses a small draft model to predict the future tokens, and the benefit of it is it can achieve higher acceptance rate, but the cost is the extra compute.",
+  "zh": "它使用一个小型 draft 模型来预测未来的 tokens,好处是可以达到更高的接受率,但代价是额外的计算。"
+ },
+ {
+  "seg": 90,
+  "start": 522.179,
+  "end": 524.981,
+  "speaker": "Unknown",
+  "en": "And another method is model-free speculation.",
+  "zh": "另一种方法是无模型的投机。"
+ },
+ {
+  "seg": 91,
+  "start": 525.662,
+  "end": 530.846,
+  "speaker": "Unknown",
+  "en": "It uses pattern from a prompt or prior output, so it has lower overhead",
+  "zh": "它利用来自 prompt 或先前输出的模式,因此开销更低"
+ },
+ {
+  "seg": 92,
+  "start": 531.327,
+  "end": 536.128,
+  "speaker": "Unknown",
+  "en": "But it works best only when the output resembles the existing context.",
+  "zh": "但只有当输出与现有上下文相似时才效果最好。"
+ },
+ {
+  "seg": 93,
+  "start": 536.788,
+  "end": 538.928,
+  "speaker": "Unknown",
+  "en": "So the important part is the tradeoff.",
+  "zh": "重要的是其中的权衡。"
+ },
+ {
+  "seg": 94,
+  "start": 539.388,
+  "end": 545.469,
+  "speaker": "Unknown",
+  "en": "So speculation can improve per request latency, but validation as overhead to the batch.",
+  "zh": "投机可以改善每请求延迟,但验证会给 batch 带来开销。"
+ },
+ {
+  "seg": 95,
+  "start": 545.829,
+  "end": 547.59,
+  "speaker": "Unknown",
+  "en": "So the best strategy is not static.",
+  "zh": "所以最佳策略不是静态的。"
+ },
+ {
+  "seg": 96,
+  "start": 548.13,
+  "end": 551.81,
+  "speaker": "Unknown",
+  "en": "And at Friendly AI, we take a hybrid approach.",
+  "zh": "在 Friendly AI,我们采取混合方法。"
+ },
+ {
+  "seg": 97,
+  "start": 552.231,
+  "end": 560.592,
+  "speaker": "Unknown",
+  "en": "So the runtime can dynamically select between model-based and model-free speculation based on the workload and request characteristic.",
+  "zh": "运行时可以根据工作负载和请求特征,在基于模型的投机和无模型的投机之间动态选择。"
+ },
+ {
+  "seg": 98,
+  "start": 561.117,
+  "end": 565.538,
+  "speaker": "Unknown",
+  "en": "So we also think about speculation as something we can improve over time.",
+  "zh": "我们还认为投机是可以随时间不断改进的东西。"
+ },
+ {
+  "seg": 99,
+  "start": 566.178,
+  "end": 572.02,
+  "speaker": "Unknown",
+  "en": "So with self evolving speculation, draft model can adapt based on the real serving traffic.",
+  "zh": "通过自我演化的投机,draft 模型可以根据真实的线上流量进行自适应调整。"
+ },
+ {
+  "seg": 100,
+  "start": 572.56,
+  "end": 580.922,
+  "speaker": "Unknown",
+  "en": "So the speculator continuously improves its prediction of the workload actually running in your production.",
+  "zh": "所以这个投机解码器会持续改进对你生产环境中实际运行负载的预测。"
+ },
+ {
+  "seg": 101,
+  "start": 582.442,
+  "end": 585.523,
+  "speaker": "Unknown",
+  "en": "So the next thing I want to mention is reliability.",
+  "zh": "接下来我想讲的是可靠性。"
+ },
+ {
+  "seg": 102,
+  "start": 586.163,
+  "end": 588.623,
+  "speaker": "Unknown",
+  "en": "So speed alone is not enough.",
+  "zh": "因为光有速度是不够的。"
+ },
+ {
+  "seg": 103,
+  "start": 589.044,
+  "end": 590.824,
+  "speaker": "Unknown",
+  "en": "So production AI application",
+  "zh": "对于生产环境的 AI 应用来说，"
+ },
+ {
+  "seg": 104,
+  "start": 591.78,
+  "end": 593.501,
+  "speaker": "Unknown",
+  "en": "Reliability is part of speed.",
+  "zh": "可靠性本身就是速度的一部分。"
+ },
+ {
+  "seg": 105,
+  "start": 593.901,
+  "end": 608.429,
+  "speaker": "Unknown",
+  "en": "So if an API is fast in average, but frequently hits timeout, like 5XX error, 4 to 9 rate limit, or that kind of failure, the user experiences scoot breaks.",
+  "zh": "如果一个 API 平均速度很快，但频繁碰到超时，比如 5XX 错误、429 限流，或者那类失败，用户感受到的就是 scooter 中断(照原文 scoot breaks 译)。"
+ },
+ {
+  "seg": 106,
+  "start": 608.749,
+  "end": 613.491,
+  "speaker": "Unknown",
+  "en": "So this becomes even more important for agent workloads.",
+  "zh": "所以这对智能体负载来说就更加重要了。"
+ },
+ {
+  "seg": 107,
+  "start": 614.072,
+  "end": 618.274,
+  "speaker": "Unknown",
+  "en": "As you know, agent may need multiple model cores to complete one task.",
+  "zh": "如你所知，一个智能体可能需要多次模型调用(model cores,照原文译)才能完成一个任务。"
+ },
+ {
+  "seg": 108,
+  "start": 618.707,
+  "end": 623.269,
+  "speaker": "Unknown",
+  "en": "And if just one call face in the middle, the entire workflow can be invalidated.",
+  "zh": "而如果中间哪怕只有一次调用失败(face,照原文译)，整个工作流都可能作废。"
+ },
+ {
+  "seg": 109,
+  "start": 624.09,
+  "end": 627.512,
+  "speaker": "Unknown",
+  "en": "So that's why we do not optimize only for the latency or throughput.",
+  "zh": "这就是为什么我们不仅仅针对延迟或吞吐量做优化。"
+ },
+ {
+  "seg": 110,
+  "start": 627.972,
+  "end": 633.995,
+  "speaker": "Unknown",
+  "en": "We optimize the full API experiences, including the error rate, uptime, all those things together.",
+  "zh": "我们优化的是完整的 API 体验，包括错误率、正常运行时间，以及所有这些东西加在一起。"
+ },
+ {
+  "seg": 111,
+  "start": 634.475,
+  "end": 645.761,
+  "speaker": "Unknown",
+  "en": "And this OpenAI snapshot for GLM 5.1 Pro shows that friendly AI is not only the fast, but it's also highly reliable with over 99.9% uptime.",
+  "zh": "而这份 OpenAI snapshot(照原文译)对 GLM 5.1 Pro 的数据显示，Friendly AI 不仅快，而且高度可靠，正常运行时间超过 99.9%。"
+ },
+ {
+  "seg": 112,
+  "start": 649.326,
+  "end": 657.713,
+  "speaker": "Unknown",
+  "en": "So what I want to say is many inference provider out here, of course in this venue as well, they will tell you that they are fast.",
+  "zh": "所以我想说的是，市面上有很多推理提供商，当然这个会场里也有，他们会告诉你他们很快。"
+ },
+ {
+  "seg": 113,
+  "start": 658.074,
+  "end": 664.86,
+  "speaker": "Unknown",
+  "en": "At some point of them, they are, but on certain benchmark, under a certain condition.",
+  "zh": "在某种程度上，他们确实快，但那是在某些基准上、在某些条件下。"
+ },
+ {
+  "seg": 114,
+  "start": 665.28,
+  "end": 670.384,
+  "speaker": "Unknown",
+  "en": "But for your application, the only benchmark that really matters is your own workload.",
+  "zh": "但对你的应用来说，唯一真正重要的基准是你自己的负载。"
+ },
+ {
+  "seg": 115,
+  "start": 670.825,
+  "end": 676.79,
+  "speaker": "Unknown",
+  "en": "So your prompt, your token lengths, your traffic patterns, and your latency expectation.",
+  "zh": "也就是你的 prompt、你的 token 长度、你的流量模式，以及你的延迟预期。"
+ },
+ {
+  "seg": 116,
+  "start": 677.338,
+  "end": 680,
+  "speaker": "Unknown",
+  "en": "So our recommendation is simple.",
+  "zh": "所以我们的建议很简单。"
+ },
+ {
+  "seg": 117,
+  "start": 680.26,
+  "end": 688.986,
+  "speaker": "Unknown",
+  "en": "So please bring your workload to us and test the poor experience with us in terms of speed, reliability, cost, and quality.",
+  "zh": "请把你的负载带过来，和我们测试完整的体验(poor experience,照原文译)，包括速度、可靠性、成本和质量。"
+ },
+ {
+  "seg": 118,
+  "start": 689.566,
+  "end": 698.352,
+  "speaker": "Unknown",
+  "en": "And of course, we build our inference service for exactly these production workloads, and we believe that we can give you the best experience.",
+  "zh": "当然，我们正是为这些生产负载构建我们的推理服务的，我们相信我们能给你最好的体验。"
+ },
+ {
+  "seg": 119,
+  "start": 698.793,
+  "end": 704.457,
+  "speaker": "Unknown",
+  "en": "So we have a boost in this venue, so bring your hardest problem to us, and let's solve it together.",
+  "zh": "我们在这个会场有个展位，把你最难的问题带来，让我们一起解决它。"
+ },
+ {
+  "seg": 120,
+  "start": 705.257,
+  "end": 706.478,
+  "speaker": "Unknown",
+  "en": "So to close,",
+  "zh": "在结束之前，"
+ },
+ {
+  "seg": 121,
+  "start": 706.931,
+  "end": 710.212,
+  "speaker": "Unknown",
+  "en": "I want to share a testimonial from one of our customers.",
+  "zh": "我想分享一位客户的使用感言。"
+ },
+ {
+  "seg": 122,
+  "start": 710.592,
+  "end": 711.432,
+  "speaker": "Unknown",
+  "en": "It's a Kilocode.",
+  "zh": "是 Kilocode。"
+ },
+ {
+  "seg": 123,
+  "start": 711.932,
+  "end": 719.273,
+  "speaker": "Unknown",
+  "en": "So Kilocode is one of the largest coding agent platform processing several trillions of tokens every week.",
+  "zh": "Kilocode 是最大的 coding agent 平台之一，每周处理数万亿 token。"
+ },
+ {
+  "seg": 124,
+  "start": 719.913,
+  "end": 724.394,
+  "speaker": "Unknown",
+  "en": "So they have tested many different inference providers over past years.",
+  "zh": "过去几年里他们测试过许多不同的推理提供商。"
+ },
+ {
+  "seg": 125,
+  "start": 725.054,
+  "end": 730.835,
+  "speaker": "Unknown",
+  "en": "And in their split test for GLM models, they were especially impressed by friendly AI.",
+  "zh": "在他们对 GLM 模型的拆分测试中，他们对 Friendly AI 印象尤其深刻。"
+ },
+ {
+  "seg": 126,
+  "start": 731.396,
+  "end": 733.536,
+  "speaker": "Unknown",
+  "en": "So compared with many other inference provider,",
+  "zh": "与许多其他推理提供商相比，"
+ },
+ {
+  "seg": 127,
+  "start": 734.113,
+  "end": 739.976,
+  "speaker": "Unknown",
+  "en": "Friendly AI was over like seven times faster and had a significantly lower error rate.",
+  "zh": "Friendly AI 快了大约七倍，而且错误率显著更低。"
+ },
+ {
+  "seg": 128,
+  "start": 740.477,
+  "end": 744.279,
+  "speaker": "Unknown",
+  "en": "So I believe you can get the same kind of experience with Friendly AI.",
+  "zh": "所以我相信你在 Friendly AI 上也能获得同样的体验。"
+ },
+ {
+  "seg": 129,
+  "start": 744.579,
+  "end": 759.267,
+  "speaker": "Unknown",
+  "en": "So if you're building your Frontier Openweight models, come try them on Friendly AI and bring your real workload and let us show you what fast and reliable inference can do.",
+  "zh": "如果你在构建你的 Frontier 开放权重模型(Frontier Openweight,照原文译)，来 Friendly AI 上试试，带上你的真实负载，让我们向你展示快速可靠的推理能做什么。"
+ },
+ {
+  "seg": 130,
+  "start": 760.417,
+  "end": 762.159,
+  "speaker": "Unknown",
+  "en": "So this is the end of my talk.",
+  "zh": "我的演讲到此结束。"
+ },
+ {
+  "seg": 131,
+  "start": 762.72,
+  "end": 764.683,
+  "speaker": "Unknown",
+  "en": "And if you have any questions, feel free to ask.",
+  "zh": "如果你有任何问题，欢迎提问。"
+ },
+ {
+  "seg": 132,
+  "start": 765.203,
+  "end": 765.524,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

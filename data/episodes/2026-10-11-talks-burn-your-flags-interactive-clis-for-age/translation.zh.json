@@ -1,0 +1,3802 @@
+[
+ {
+  "seg": 0,
+  "start": 12.907,
+  "end": 13.347,
+  "speaker": "Unknown",
+  "en": "Hi, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 14.468,
+  "end": 14.889,
+  "speaker": "Unknown",
+  "en": "Welcome in.",
+  "zh": "欢迎各位。"
+ },
+ {
+  "seg": 2,
+  "start": 16.29,
+  "end": 17.23,
+  "speaker": "Unknown",
+  "en": "My name is Mark Lummis.",
+  "zh": "我叫 Mark Lummis。"
+ },
+ {
+  "seg": 3,
+  "start": 17.691,
+  "end": 19.372,
+  "speaker": "Unknown",
+  "en": "I'm head of developer tools at PayPal.",
+  "zh": "我是 PayPal 的开发者工具负责人。"
+ },
+ {
+  "seg": 4,
+  "start": 20.133,
+  "end": 21.614,
+  "speaker": "Unknown",
+  "en": "With me, I have Naveen Kumar.",
+  "zh": "和我一起的是 Naveen Kumar。"
+ },
+ {
+  "seg": 5,
+  "start": 22.555,
+  "end": 25.617,
+  "speaker": "Unknown",
+  "en": "He's our tech lead for the developer tools team.",
+  "zh": "他是我们开发者工具团队的技术负责人。"
+ },
+ {
+  "seg": 6,
+  "start": 26.438,
+  "end": 28.94,
+  "speaker": "Unknown",
+  "en": "Today, we're going to talk to you a little bit about CLI.",
+  "zh": "今天，我们要和大家聊一聊 CLI。"
+ },
+ {
+  "seg": 7,
+  "start": 30.941,
+  "end": 39.188,
+  "speaker": "Unknown",
+  "en": "The title of our presentation is meant to be a little provocative, and you'll understand why at the end of the presentation.",
+  "zh": "我们这个演讲的标题有点刻意挑衅的意味，在演讲结束时你们就会明白为什么了。"
+ },
+ {
+  "seg": 8,
+  "start": 43.187,
+  "end": 54.952,
+  "speaker": "Unknown",
+  "en": "So today we're going to talk a little bit about a specific kind of CLI, interactive CLI, and we're going to set up an exercise.",
+  "zh": "所以今天我们要聊一聊一种特殊的 CLI，也就是交互式 CLI，并且我们会设置一个练习。"
+ },
+ {
+  "seg": 9,
+  "start": 56.633,
+  "end": 66.218,
+  "speaker": "Unknown",
+  "en": "And we're going to give you, for those of you who wish to participate, this is a workshop after all, we'll give you a CLI that you can",
+  "zh": "我们会给你们——对于那些希望参与的人来说，毕竟这是一个工作坊——一个 CLI，你们可以"
+ },
+ {
+  "seg": 10,
+  "start": 67.432,
+  "end": 70.614,
+  "speaker": "Unknown",
+  "en": "Make Work Better in an agentic workflow.",
+  "zh": "让它在智能体工作流中工作得更好。"
+ },
+ {
+  "seg": 11,
+  "start": 70.794,
+  "end": 73.915,
+  "speaker": "Unknown",
+  "en": "So that's the purpose of this workshop today.",
+  "zh": "这就是今天这个工作坊的目的。"
+ },
+ {
+  "seg": 12,
+  "start": 73.935,
+  "end": 75.616,
+  "speaker": "Unknown",
+  "en": "So we're going to give you plenty of time.",
+  "zh": "我们会给大家留出充足的时间。"
+ },
+ {
+  "seg": 13,
+  "start": 75.656,
+  "end": 80.118,
+  "speaker": "Unknown",
+  "en": "We'll talk for a few minutes, try to keep the talking to a minimum, and then we'll get you started.",
+  "zh": "我们会先讲几分钟，尽量把讲解压到最少，然后就让你们开始动手。"
+ },
+ {
+  "seg": 14,
+  "start": 84.58,
+  "end": 85.56,
+  "speaker": "Unknown",
+  "en": "Now, it's kind of interesting.",
+  "zh": "说起来挺有意思的。"
+ },
+ {
+  "seg": 15,
+  "start": 86.221,
+  "end": 88.742,
+  "speaker": "Unknown",
+  "en": "I think someone said, what's old is new.",
+  "zh": "我想有人说过，旧的就是新的。"
+ },
+ {
+  "seg": 16,
+  "start": 89.742,
+  "end": 92.844,
+  "speaker": "Unknown",
+  "en": "When I started my career a long time ago, I have gray hair.",
+  "zh": "当我在很久以前开始我的职业生涯时——我都有白头发了——"
+ },
+ {
+  "seg": 17,
+  "start": 94.338,
+  "end": 96.282,
+  "speaker": "Unknown",
+  "en": "Everything was a CLI.",
+  "zh": "一切都是 CLI。"
+ },
+ {
+  "seg": 18,
+  "start": 96.563,
+  "end": 98.967,
+  "speaker": "Unknown",
+  "en": "Everything was a command line interface.",
+  "zh": "一切都是命令行界面。"
+ },
+ {
+  "seg": 19,
+  "start": 99.468,
+  "end": 104.278,
+  "speaker": "Unknown",
+  "en": "Any of you remember working with MS-DOS before we had Microsoft Windows?",
+  "zh": "在微软 Windows 出现之前，还有谁记得用 MS-DOS 干活的？"
+ },
+ {
+  "seg": 20,
+  "start": 105.18,
+  "end": 105.681,
+  "speaker": "Unknown",
+  "en": "There you go.",
+  "zh": "这就说对了。"
+ },
+ {
+  "seg": 21,
+  "start": 106.741,
+  "end": 110.604,
+  "speaker": "Unknown",
+  "en": "My first job out of college, I was designing embedded systems.",
+  "zh": "我大学毕业后的第一份工作，是设计嵌入式系统。"
+ },
+ {
+  "seg": 22,
+  "start": 111.305,
+  "end": 122.654,
+  "speaker": "Unknown",
+  "en": "And so you would connect to a computer over a serial port and you would pull up a VT100 compatible terminal and you would start typing.",
+  "zh": "那时候你要通过串口连接到一台计算机，打开一个 VT100 兼容终端，然后开始打字。"
+ },
+ {
+  "seg": 23,
+  "start": 122.674,
+  "end": 124.295,
+  "speaker": "Unknown",
+  "en": "And that was your CLI.",
+  "zh": "那就是你的 CLI。"
+ },
+ {
+  "seg": 24,
+  "start": 124.315,
+  "end": 128.258,
+  "speaker": "Unknown",
+  "en": "That was the way you interfaced with the computer.",
+  "zh": "那就是你与计算机交互的方式。"
+ },
+ {
+  "seg": 25,
+  "start": 128.638,
+  "end": 134.043,
+  "speaker": "Unknown",
+  "en": "So with today, CLIs have kind of had a resurgence, I guess, you know, with the",
+  "zh": "而到了今天，CLI 差不多又复兴了，你知道的，随着"
+ },
+ {
+  "seg": 26,
+  "start": 134.763,
+  "end": 139.544,
+  "speaker": "Unknown",
+  "en": "Maybe it was Claude Code that really made them much more popular, and now we have Codex.",
+  "zh": "也许是 Claude Code 让它们真正流行起来，而现在我们又有 Codex。"
+ },
+ {
+  "seg": 27,
+  "start": 140.844,
+  "end": 151.746,
+  "speaker": "Unknown",
+  "en": "And so a lot of people are adding CLI tools so that it's easier to access the capabilities that they want to expose to an agent.",
+  "zh": "所以很多人都在添加 CLI 工具，以便更容易地访问他们想要暴露给智能体的能力。"
+ },
+ {
+  "seg": 28,
+  "start": 152.727,
+  "end": 159.848,
+  "speaker": "Unknown",
+  "en": "Now, with interactive CLI, this is why we're here today, what we want to talk about.",
+  "zh": "现在，说到交互式 CLI，这正是我们今天在这里要谈的内容。"
+ },
+ {
+  "seg": 29,
+  "start": 161.496,
+  "end": 165.979,
+  "speaker": "Unknown",
+  "en": "Agents shell out to bash constantly, and that's good.",
+  "zh": "智能体不断地调 bash 执行命令，这是好事。"
+ },
+ {
+  "seg": 30,
+  "start": 167.58,
+  "end": 176.526,
+  "speaker": "Unknown",
+  "en": "But if they run an interactive CLI, that may be bad because not all harnesses handle interaction very well.",
+  "zh": "但如果它们运行一个交互式 CLI，那可能就是坏事了，因为并非所有的 harness 都能很好地处理交互。"
+ },
+ {
+  "seg": 31,
+  "start": 177.326,
+  "end": 180.329,
+  "speaker": "Unknown",
+  "en": "And if they don't handle it very well, they'll fail quietly.",
+  "zh": "而如果它们处理得不好，就会静默失败。"
+ },
+ {
+  "seg": 32,
+  "start": 180.629,
+  "end": 181.149,
+  "speaker": "Unknown",
+  "en": "You won't know.",
+  "zh": "你不会知道发生了什么。"
+ },
+ {
+  "seg": 33,
+  "start": 181.369,
+  "end": 182.45,
+  "speaker": "Unknown",
+  "en": "No errors, no nothing.",
+  "zh": "没有报错，什么都没有。"
+ },
+ {
+  "seg": 34,
+  "start": 185.332,
+  "end": 186.113,
+  "speaker": "Unknown",
+  "en": "But why do we care?",
+  "zh": "但我们为什么要关心这个呢？"
+ },
+ {
+  "seg": 35,
+  "start": 187.934,
+  "end": 189.355,
+  "speaker": "Unknown",
+  "en": "Interactive CLIs are great.",
+  "zh": "交互式 CLI 是很棒的。"
+ },
+ {
+  "seg": 36,
+  "start": 191.042,
+  "end": 197.829,
+  "speaker": "Unknown",
+  "en": "Because the next question can emerge based on what way you answer a previous question.",
+  "zh": "因为下一个问题可以根据你对上一个问题的回答方式而出现。"
+ },
+ {
+  "seg": 37,
+  "start": 199.47,
+  "end": 205.637,
+  "speaker": "Unknown",
+  "en": "Flags multiply if you try to create flags that predict all the possible flows.",
+  "zh": "如果你试图创建能预测所有可能流程的 flag，flag 就会成倍增加。"
+ },
+ {
+  "seg": 38,
+  "start": 207.299,
+  "end": 214.206,
+  "speaker": "Unknown",
+  "en": "The choices are contextual and they can also be responsive to what's happening in an environment.",
+  "zh": "这些选择是上下文相关的，而且它们还可以对环境中正在发生的事情作出响应。"
+ },
+ {
+  "seg": 39,
+  "start": 214.246,
+  "end": 225.537,
+  "speaker": "Unknown",
+  "en": "So if your CLI is calling an API and getting a response and then the question comes up based on what the API returns, that's really, really challenging to handle with flags.",
+  "zh": "所以如果你的 CLI 正在调用一个 API 并得到响应，然后根据 API 返回的内容提出下一个问题，用 flag 来处理这种情形真的、真的非常有挑战性。"
+ },
+ {
+  "seg": 40,
+  "start": 227.339,
+  "end": 231.343,
+  "speaker": "Unknown",
+  "en": "And the guardrails can live in the interactive flow.",
+  "zh": "而且护栏可以存在于交互式流程之中。"
+ },
+ {
+  "seg": 41,
+  "start": 235.919,
+  "end": 237.94,
+  "speaker": "Unknown",
+  "en": "So here's an example.",
+  "zh": "这里有一个例子。"
+ },
+ {
+  "seg": 42,
+  "start": 238.74,
+  "end": 243.662,
+  "speaker": "Unknown",
+  "en": "Over here on the left, we see a sample CLI.",
+  "zh": "在左边这里，我们看到一个示例 CLI。"
+ },
+ {
+  "seg": 43,
+  "start": 243.722,
+  "end": 244.502,
+  "speaker": "Unknown",
+  "en": "It's interactive.",
+  "zh": "它是交互式的。"
+ },
+ {
+  "seg": 44,
+  "start": 245.962,
+  "end": 250.664,
+  "speaker": "Unknown",
+  "en": "The CLI's opened an interactive prompt, an error key prompt.",
+  "zh": "这个 CLI 打开了一个交互式提示，一个方向键提示。"
+ },
+ {
+  "seg": 45,
+  "start": 252.245,
+  "end": 253.225,
+  "speaker": "Unknown",
+  "en": "The human sees it.",
+  "zh": "人类看得到它。"
+ },
+ {
+  "seg": 46,
+  "start": 254.025,
+  "end": 259.167,
+  "speaker": "Unknown",
+  "en": "The human can use the arrow keys, but the agent doesn't see it.",
+  "zh": "人类可以使用方向键，但智能体看不到它。"
+ },
+ {
+  "seg": 47,
+  "start": 259.767,
+  "end": 261.268,
+  "speaker": "Unknown",
+  "en": "The agent sees a redraw loop.",
+  "zh": "智能体看到的是一个重绘循环。"
+ },
+ {
+  "seg": 48,
+  "start": 262.352,
+  "end": 263.093,
+  "speaker": "Unknown",
+  "en": "Not a question.",
+  "zh": "而不是一个问题。"
+ },
+ {
+  "seg": 49,
+  "start": 263.793,
+  "end": 267.095,
+  "speaker": "Unknown",
+  "en": "And the harness loses the UI state.",
+  "zh": "于是 harness 丢失了 UI 状态。"
+ },
+ {
+  "seg": 50,
+  "start": 268.456,
+  "end": 269.657,
+  "speaker": "Unknown",
+  "en": "So here's the failure mode.",
+  "zh": "这就是失败模式。"
+ },
+ {
+  "seg": 51,
+  "start": 269.697,
+  "end": 271.998,
+  "speaker": "Unknown",
+  "en": "It's silent and invisible.",
+  "zh": "它是无声且不可见的。"
+ },
+ {
+  "seg": 52,
+  "start": 275.4,
+  "end": 278.342,
+  "speaker": "Unknown",
+  "en": "So the common fix will just add flags.",
+  "zh": "所以常见的修复方法就是加 flag。"
+ },
+ {
+  "seg": 53,
+  "start": 279.743,
+  "end": 284.806,
+  "speaker": "Unknown",
+  "en": "The flags are fine for simple use cases.",
+  "zh": "flag 对于简单用例来说没问题。"
+ },
+ {
+  "seg": 54,
+  "start": 286.447,
+  "end": 288.088,
+  "speaker": "Unknown",
+  "en": "You know what the flows are up front.",
+  "zh": "你事先知道流程是什么样的。"
+ },
+ {
+  "seg": 55,
+  "start": 291.277,
+  "end": 292.278,
+  "speaker": "Unknown",
+  "en": "It's a single pass.",
+  "zh": "它是单次执行。"
+ },
+ {
+  "seg": 56,
+  "start": 293.639,
+  "end": 296,
+  "speaker": "Unknown",
+  "en": "All the options are independent.",
+  "zh": "所有选项都是相互独立的。"
+ },
+ {
+  "seg": 57,
+  "start": 296.441,
+  "end": 300.403,
+  "speaker": "Unknown",
+  "en": "Great use case for a simple flag.",
+  "zh": "这是简单 flag 的绝佳用例。"
+ },
+ {
+  "seg": 58,
+  "start": 302.425,
+  "end": 313.553,
+  "speaker": "Unknown",
+  "en": "But when the answers change based on the context or they're changing based on reactions to real-time events, that's when it becomes a problem.",
+  "zh": "但当答案会根据上下文变化，或者根据对实时事件的反应而变化时，那就成了问题。"
+ },
+ {
+  "seg": 59,
+  "start": 313.573,
+  "end": 316.355,
+  "speaker": "Unknown",
+  "en": "You really can't use flags for those situations.",
+  "zh": "在那些情况下你真的没法用 flag。"
+ },
+ {
+  "seg": 60,
+  "start": 319.09,
+  "end": 323.473,
+  "speaker": "Unknown",
+  "en": "Now, an agent is not like an automation script.",
+  "zh": "智能体不像自动化脚本。"
+ },
+ {
+  "seg": 61,
+  "start": 324.974,
+  "end": 326.635,
+  "speaker": "Unknown",
+  "en": "An automation script knows nothing.",
+  "zh": "自动化脚本什么都不知道。"
+ },
+ {
+  "seg": 62,
+  "start": 328.256,
+  "end": 330.818,
+  "speaker": "Unknown",
+  "en": "All of the decisions are pre-banked up front.",
+  "zh": "所有的决策都是事先预先定好的。"
+ },
+ {
+  "seg": 63,
+  "start": 332.119,
+  "end": 345.308,
+  "speaker": "Unknown",
+  "en": "The agent can reason, it can react, it can ask, it can retry, it can back up, and most importantly, an agent can walk a decision tree",
+  "zh": "智能体可以推理，可以反应，可以提问，可以重试，可以回退，最重要的是，智能体可以走决策树"
+ },
+ {
+  "seg": 64,
+  "start": 346.76,
+  "end": 349.822,
+  "speaker": "Unknown",
+  "en": "If you provide one, you can't do that with flags.",
+  "zh": "如果你提供了一棵的话。flag 做不到这一点。"
+ },
+ {
+  "seg": 65,
+  "start": 354.025,
+  "end": 358.528,
+  "speaker": "Unknown",
+  "en": "So we already have a model today for what's happening here.",
+  "zh": "所以我们今天已经有了一个模型来解释这里正在发生的事情。"
+ },
+ {
+  "seg": 66,
+  "start": 358.748,
+  "end": 359.889,
+  "speaker": "Unknown",
+  "en": "It's called accessibility.",
+  "zh": "它叫无障碍性。"
+ },
+ {
+  "seg": 67,
+  "start": 361.45,
+  "end": 371.256,
+  "speaker": "Unknown",
+  "en": "And so if you map what we do for humans to what we need to do for agents, then the solutions become apparent.",
+  "zh": "如果把我们为人类做的事映射到我们需要为智能体做的事上，那么解决方案就显而易见了。"
+ },
+ {
+  "seg": 68,
+  "start": 372.237,
+  "end": 374.999,
+  "speaker": "Unknown",
+  "en": "It's the same discipline with a new reader.",
+  "zh": "这是同一套纪律，只是换了一个新的阅读者。"
+ },
+ {
+  "seg": 69,
+  "start": 379.421,
+  "end": 381.522,
+  "speaker": "Unknown",
+  "en": "So here's the challenge.",
+  "zh": "那么这就是挑战。"
+ },
+ {
+  "seg": 70,
+  "start": 383.063,
+  "end": 392.668,
+  "speaker": "Unknown",
+  "en": "How might we keep the guardrails and the guidance and stop pretending that agents and humans have the same abilities?",
+  "zh": "我们如何能保留护栏和指引，同时不再假装智能体和人类拥有相同的能力？"
+ },
+ {
+  "seg": 71,
+  "start": 393.608,
+  "end": 394.809,
+  "speaker": "Unknown",
+  "en": "Now, I'm not gonna answer this question.",
+  "zh": "现在我不会回答这个问题。"
+ },
+ {
+  "seg": 72,
+  "start": 394.829,
+  "end": 396.95,
+  "speaker": "Unknown",
+  "en": "That's the whole purpose of this workshop.",
+  "zh": "这正是这个工作坊的全部目的。"
+ },
+ {
+  "seg": 73,
+  "start": 400.352,
+  "end": 401.412,
+  "speaker": "Unknown",
+  "en": "So here's the challenge.",
+  "zh": "那么这就是挑战。"
+ },
+ {
+  "seg": 74,
+  "start": 402.413,
+  "end": 403.393,
+  "speaker": "Unknown",
+  "en": "We've got a CLI.",
+  "zh": "我们有一个 CLI。"
+ },
+ {
+  "seg": 75,
+  "start": 404.294,
+  "end": 405.974,
+  "speaker": "Unknown",
+  "en": "We call it Barista 9000.",
+  "zh": "我们叫它 Barista 9000。"
+ },
+ {
+  "seg": 76,
+  "start": 405.994,
+  "end": 408.936,
+  "speaker": "Unknown",
+  "en": "It's gonna take coffee orders.",
+  "zh": "它会接咖啡订单。"
+ },
+ {
+  "seg": 77,
+  "start": 411.711,
+  "end": 418.893,
+  "speaker": "Unknown",
+  "en": "And it's going to fail when you try to run it from an agent because it's interactive.",
+  "zh": "而当你试图从智能体里运行它时它会失败，因为它是交互式的。"
+ },
+ {
+  "seg": 78,
+  "start": 423.395,
+  "end": 432.217,
+  "speaker": "Unknown",
+  "en": "And if you choose to participate in the challenge, the winner will win a Mac Mini.",
+  "zh": "如果你选择参加这个挑战，赢家将赢得一台 Mac Mini。"
+ },
+ {
+  "seg": 79,
+  "start": 432.357,
+  "end": 433.618,
+  "speaker": "Unknown",
+  "en": "Walk away with it today.",
+  "zh": "今天就把它带走。"
+ },
+ {
+  "seg": 80,
+  "start": 436.019,
+  "end": 437.079,
+  "speaker": "Unknown",
+  "en": "It's in that bag right there.",
+  "zh": "它就在那个包里。"
+ },
+ {
+  "seg": 81,
+  "start": 440.691,
+  "end": 443.113,
+  "speaker": "Unknown",
+  "en": "That was a challenge in and of itself, getting a Mac Mini.",
+  "zh": "拿到这台 Mac Mini 本身就是一个挑战。"
+ },
+ {
+  "seg": 82,
+  "start": 443.673,
+  "end": 444.894,
+  "speaker": "Unknown",
+  "en": "I'll be straight up.",
+  "zh": "我直说。"
+ },
+ {
+  "seg": 83,
+  "start": 445.515,
+  "end": 445.735,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 84,
+  "start": 446.676,
+  "end": 449.218,
+  "speaker": "Unknown",
+  "en": "Now, simple rules.",
+  "zh": "现在，简单的规则。"
+ },
+ {
+  "seg": 85,
+  "start": 450.739,
+  "end": 453.021,
+  "speaker": "Unknown",
+  "en": "We're going to give you a CLI.",
+  "zh": "我们会给你们一个 CLI。"
+ },
+ {
+  "seg": 86,
+  "start": 455.483,
+  "end": 463.189,
+  "speaker": "Unknown",
+  "en": "You make changes to that CLI, run it through an agent, and it's gonna send some information up to our server,",
+  "zh": "你对那个 CLI 做修改，通过智能体运行它，它会向我们服务器发送一些信息，"
+ },
+ {
+  "seg": 87,
+  "start": 464.876,
+  "end": 467.337,
+  "speaker": "Unknown",
+  "en": "And then it's going to update a leaderboard.",
+  "zh": "然后它会更新一个排行榜。"
+ },
+ {
+  "seg": 88,
+  "start": 467.657,
+  "end": 469.998,
+  "speaker": "Unknown",
+  "en": "And we'll put the leaderboard up in a moment.",
+  "zh": "我们稍后会把排行榜放出来。"
+ },
+ {
+  "seg": 89,
+  "start": 470.018,
+  "end": 475.981,
+  "speaker": "Unknown",
+  "en": "We don't have two inputs, so we're going to change the slide deck out for the leaderboard so you can see it.",
+  "zh": "我们没有两个输入，所以我们会把幻灯片切换成排行榜，这样你们就能看到了。"
+ },
+ {
+  "seg": 90,
+  "start": 477.922,
+  "end": 478.662,
+  "speaker": "Unknown",
+  "en": "Now here's Naveen.",
+  "zh": "现在是 Naveen。"
+ },
+ {
+  "seg": 91,
+  "start": 480.523,
+  "end": 481.563,
+  "speaker": "Unknown",
+  "en": "He's going to talk you through this.",
+  "zh": "他会带你们过一遍这个。"
+ },
+ {
+  "seg": 92,
+  "start": 481.944,
+  "end": 482.404,
+  "speaker": "Unknown",
+  "en": "Thank you, Mark.",
+  "zh": "谢谢你，Mark。"
+ },
+ {
+  "seg": 93,
+  "start": 482.484,
+  "end": 482.724,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 94,
+  "start": 485.685,
+  "end": 485.985,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 95,
+  "start": 487.726,
+  "end": 489.387,
+  "speaker": "Unknown",
+  "en": "Yeah, I think it's an exciting",
+  "zh": "是的，我觉得这对大家来说是一个令人兴奋的"
+ },
+ {
+  "seg": 96,
+  "start": 490.681,
+  "end": 501.433,
+  "speaker": "Unknown",
+  "en": "Assignment for everybody, and this topic is very near and dear to me, but keeping things aside, Mark, are we getting any coffee after we build this?",
+  "zh": "任务，而且这个话题对我来说非常切身相关，不过先把这些放一边，Mark，我们做完这个之后能喝到咖啡吗？"
+ },
+ {
+  "seg": 97,
+  "start": 502.634,
+  "end": 503.155,
+  "speaker": "Unknown",
+  "en": "I hope so.",
+  "zh": "我希望能。"
+ },
+ {
+  "seg": 98,
+  "start": 504.116,
+  "end": 504.956,
+  "speaker": "Unknown",
+  "en": "If we're successful.",
+  "zh": "如果我们成功的话。"
+ },
+ {
+  "seg": 99,
+  "start": 505.097,
+  "end": 505.357,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 100,
+  "start": 506.598,
+  "end": 506.818,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "酷。"
+ },
+ {
+  "seg": 101,
+  "start": 507.78,
+  "end": 512.425,
+  "speaker": "Unknown",
+  "en": "So yeah, let me, before we start into the assignment, I want to take",
+  "zh": "那么，对，在开始这个作业之前，我想带大家"
+ },
+ {
+  "seg": 102,
+  "start": 513.2,
+  "end": 514.501,
+  "speaker": "Unknown",
+  "en": "to a journey, right?",
+  "zh": "走一段旅程，对吧？"
+ },
+ {
+  "seg": 103,
+  "start": 515.382,
+  "end": 519.405,
+  "speaker": "Unknown",
+  "en": "When I started my engineering career, I started to play with IDEs.",
+  "zh": "当我开始我的工程师生涯时，我开始玩 IDE。"
+ },
+ {
+  "seg": 104,
+  "start": 520.146,
+  "end": 524.409,
+  "speaker": "Unknown",
+  "en": "I started to use Eclipse because I was primarily using Java.",
+  "zh": "我开始用 Eclipse，因为我主要用 Java。"
+ },
+ {
+  "seg": 105,
+  "start": 525.691,
+  "end": 530.695,
+  "speaker": "Unknown",
+  "en": "And as time went by, moved on to IntelliJs, JetBrains.",
+  "zh": "随着时间推移，转向了 IntelliJs，JetBrains。"
+ },
+ {
+  "seg": 106,
+  "start": 531.876,
+  "end": 532.536,
+  "speaker": "Unknown",
+  "en": "It was amazing.",
+  "zh": "那太棒了。"
+ },
+ {
+  "seg": 107,
+  "start": 534.038,
+  "end": 538.461,
+  "speaker": "Unknown",
+  "en": "Looking back five or six years behind, things started to evolve.",
+  "zh": "回望五六年前，事情开始演变。"
+ },
+ {
+  "seg": 108,
+  "start": 538.782,
+  "end": 540.223,
+  "speaker": "Unknown",
+  "en": "There were new IDEs in the market.",
+  "zh": "市场上出现了新的 IDE。"
+ },
+ {
+  "seg": 109,
+  "start": 541.323,
+  "end": 547.768,
+  "speaker": "Unknown",
+  "en": "Especially Microsoft VS Code, which gave birth to a lot of other IDs as well.",
+  "zh": "尤其是微软的 VS Code，它还催生了很多其他 IDE。"
+ },
+ {
+  "seg": 110,
+  "start": 551.15,
+  "end": 563.779,
+  "speaker": "Unknown",
+  "en": "So, if you look right now, Microsoft had its own VS Code editor, but later on, new AI IDs started to pop out, like Cursor, Windsurf, to name a few.",
+  "zh": "所以，如果你现在看，微软有自己的 VS Code 编辑器，但后来，新的 AI IDE 开始涌现，比如 Cursor、Windsurf，随便举几个。"
+ },
+ {
+  "seg": 111,
+  "start": 565.3,
+  "end": 568.803,
+  "speaker": "Unknown",
+  "en": "In all these journeys, CLIs were constant, right?",
+  "zh": "在这整个历程中，CLI 是恒定不变的，对吧？"
+ },
+ {
+  "seg": 112,
+  "start": 570.128,
+  "end": 574.751,
+  "speaker": "Unknown",
+  "en": "At some point, I thought, okay, you know, CLIs are having a slow death of their own.",
+  "zh": "有一段时间，我以为，好吧，你知道，CLI 正在慢慢走向消亡。"
+ },
+ {
+  "seg": 113,
+  "start": 575.592,
+  "end": 576.812,
+  "speaker": "Unknown",
+  "en": "Maybe they are not gonna come back.",
+  "zh": "也许它们不会回来了。"
+ },
+ {
+  "seg": 114,
+  "start": 578.473,
+  "end": 589.641,
+  "speaker": "Unknown",
+  "en": "But, you know, I'd actually like to see this hangover movie dialogue that, you know, all the four friends are in the car and they say, hey, we are back.",
+  "zh": "但是，你知道，我其实很喜欢《宿醉》那部电影里的对白，四个朋友都在车里，他们说，嘿，我们回来了。"
+ },
+ {
+  "seg": 115,
+  "start": 590.661,
+  "end": 597.326,
+  "speaker": "Unknown",
+  "en": "Imagine CLIs seeing that to each other and in the world of AI, they are actually back, right?",
+  "zh": "想象一下 CLI 们互相说这句话，而在 AI 的世界里，它们真的回来了，对吧？"
+ },
+ {
+  "seg": 116,
+  "start": 597.566,
+  "end": 599.107,
+  "speaker": "Unknown",
+  "en": "Whoever bought it, yeah, I don't know.",
+  "zh": "谁买账了，是的，我不知道。"
+ },
+ {
+  "seg": 117,
+  "start": 600.048,
+  "end": 603.909,
+  "speaker": "Unknown",
+  "en": "But the whole story is now the CLIs have changed.",
+  "zh": "但整个故事是，现在 CLI 已经改变了。"
+ },
+ {
+  "seg": 118,
+  "start": 604.949,
+  "end": 606.49,
+  "speaker": "Unknown",
+  "en": "And who is responsible for that?",
+  "zh": "而谁对此负责呢？"
+ },
+ {
+  "seg": 119,
+  "start": 607.11,
+  "end": 608.33,
+  "speaker": "Unknown",
+  "en": "Agents, right?",
+  "zh": "智能体，对吧？"
+ },
+ {
+  "seg": 120,
+  "start": 608.91,
+  "end": 618.813,
+  "speaker": "Unknown",
+  "en": "So this workshop is primarily focusing on agents, your CLIs, and this is gonna be a hands-on exercise.",
+  "zh": "所以这个工作坊主要聚焦于智能体、你的 CLI，这将会是一个动手练习。"
+ },
+ {
+  "seg": 121,
+  "start": 619.933,
+  "end": 620.893,
+  "speaker": "Unknown",
+  "en": "There are rules to it.",
+  "zh": "有规则。"
+ },
+ {
+  "seg": 122,
+  "start": 622.034,
+  "end": 623.134,
+  "speaker": "Unknown",
+  "en": "There are no rules to it.",
+  "zh": "没有规则。"
+ },
+ {
+  "seg": 123,
+  "start": 624.162,
+  "end": 629.228,
+  "speaker": "Unknown",
+  "en": "So feel free to hack as much as possible, and you know the prize is here.",
+  "zh": "所以请随意尽可能多地折腾，你知道，奖品就在这里。"
+ },
+ {
+  "seg": 124,
+  "start": 629.248,
+  "end": 635.876,
+  "speaker": "Unknown",
+  "en": "So, yeah, we have, maybe, Vinod, if I can get the laptop.",
+  "zh": "那么，对，我们有，也许，Vinod，我能用一下那台笔记本电脑吗。"
+ },
+ {
+  "seg": 125,
+  "start": 636.677,
+  "end": 637.979,
+  "speaker": "Unknown",
+  "en": "So we have a couple of things.",
+  "zh": "我们有几样东西。"
+ },
+ {
+  "seg": 126,
+  "start": 639.341,
+  "end": 640.402,
+  "speaker": "Unknown",
+  "en": "So we have, yeah.",
+  "zh": "我们有，对。"
+ },
+ {
+  "seg": 127,
+  "start": 641.912,
+  "end": 644.554,
+  "speaker": "Unknown",
+  "en": "So we have the repo which is Paypal Cafe.",
+  "zh": "我们有一个仓库，叫 Paypal Cafe。"
+ },
+ {
+  "seg": 128,
+  "start": 645.474,
+  "end": 648.356,
+  "speaker": "Unknown",
+  "en": "It has the CLI that you can actually download.",
+  "zh": "它有一个 CLI，你可以下载。"
+ },
+ {
+  "seg": 129,
+  "start": 649.156,
+  "end": 650.817,
+  "speaker": "Unknown",
+  "en": "That's the bare bone CLI.",
+  "zh": "那是一个最基础的 CLI。"
+ },
+ {
+  "seg": 130,
+  "start": 651.258,
+  "end": 654.56,
+  "speaker": "Unknown",
+  "en": "Now it's not gonna be that easy for a Mac mini, yeah?",
+  "zh": "现在对 Mac mini 来说不会那么容易，对吧？"
+ },
+ {
+  "seg": 131,
+  "start": 655.58,
+  "end": 666.827,
+  "speaker": "Unknown",
+  "en": "So you will get some initial commands with it, play around with it, register yourself, provide your username, whatever you like, your nicknames, anything.",
+  "zh": "所以你会得到一些初始命令，随便玩玩，注册你自己，提供你的用户名，随便你喜欢什么，你的昵称，任何东西。"
+ },
+ {
+  "seg": 132,
+  "start": 669.249,
+  "end": 671.51,
+  "speaker": "Unknown",
+  "en": "Try to brew a coffee out of it, okay?",
+  "zh": "试着用它煮出一杯咖啡，好吗？"
+ },
+ {
+  "seg": 133,
+  "start": 671.83,
+  "end": 672.69,
+  "speaker": "Unknown",
+  "en": "That's the goal.",
+  "zh": "那就是目标。"
+ },
+ {
+  "seg": 134,
+  "start": 673.49,
+  "end": 687.735,
+  "speaker": "Unknown",
+  "en": "And in this whole exercise, we want you to also be innovative in your approaches, and going forward, it's gonna get interesting with agents using the CLI, so think it from that perspective.",
+  "zh": "而在这整个练习中，我们希望你也能在你的方法上有所创新，往前看，随着智能体开始使用这个 CLI，事情会变得有趣，所以从这个角度来思考。"
+ },
+ {
+  "seg": 135,
+  "start": 689.656,
+  "end": 690.236,
+  "speaker": "Unknown",
+  "en": "I'll change this.",
+  "zh": "我来换一下这个。"
+ },
+ {
+  "seg": 136,
+  "start": 691.456,
+  "end": 693.777,
+  "speaker": "Unknown",
+  "en": "I'll just change my laptops here.",
+  "zh": "我就换一下我的笔记本电脑。"
+ },
+ {
+  "seg": 137,
+  "start": 696.435,
+  "end": 701.637,
+  "speaker": "Unknown",
+  "en": "Now during the session, we're not starting you out with any hints.",
+  "zh": "在这个环节中，我们不会一开始就给你任何提示。"
+ },
+ {
+  "seg": 138,
+  "start": 703.378,
+  "end": 720.065,
+  "speaker": "Unknown",
+  "en": "Once we feel like enough people have gotten the repo installed, can run the CLI as is, then maybe every 15 or 20 minutes, we'll share a good idea.",
+  "zh": "一旦我们觉得足够多的人已经装好了仓库，能原样跑起 CLI，那么大概每 15 或 20 分钟，我们会分享一个好点子。"
+ },
+ {
+  "seg": 139,
+  "start": 721.538,
+  "end": 723.939,
+  "speaker": "Unknown",
+  "en": "Now, I'm not gonna call it a best practice.",
+  "zh": "现在，我不打算称之为最佳实践。"
+ },
+ {
+  "seg": 140,
+  "start": 724.82,
+  "end": 735.186,
+  "speaker": "Unknown",
+  "en": "I'm just gonna call it a good idea because I feel like we're early enough in the journey here where we don't know what the best practices are and we're kind of feeling them out.",
+  "zh": "我只是称之为好点子，因为我觉得我们在这个旅程中还处于足够早期的阶段，我们还不知道最佳实践是什么，我们还在摸索。"
+ },
+ {
+  "seg": 141,
+  "start": 736.227,
+  "end": 738.208,
+  "speaker": "Unknown",
+  "en": "Now, they're good ideas.",
+  "zh": "现在，它们是好点子。"
+ },
+ {
+  "seg": 142,
+  "start": 739.048,
+  "end": 747.233,
+  "speaker": "Unknown",
+  "en": "I'm also hoping that at the end we'll hear some great ideas from you in the audience so we can share.",
+  "zh": "我也希望在最后，我们能听到在座各位的一些很棒的想法，以便我们分享。"
+ },
+ {
+  "seg": 143,
+  "start": 748.214,
+  "end": 749.595,
+  "speaker": "Unknown",
+  "en": "So just keep that in mind.",
+  "zh": "所以记住这一点。"
+ },
+ {
+  "seg": 144,
+  "start": 750.516,
+  "end": 752.156,
+  "speaker": "Unknown",
+  "en": "We're all learning.",
+  "zh": "我们都在学习。"
+ },
+ {
+  "seg": 145,
+  "start": 752.336,
+  "end": 753.096,
+  "speaker": "Unknown",
+  "en": "This is a journey.",
+  "zh": "这是一段旅程。"
+ },
+ {
+  "seg": 146,
+  "start": 754.977,
+  "end": 756.757,
+  "speaker": "Unknown",
+  "en": "We'll come back to that towards the end.",
+  "zh": "在接近尾声时我们会回到这一点。"
+ },
+ {
+  "seg": 147,
+  "start": 773.06,
+  "end": 773.96,
+  "speaker": "Unknown",
+  "en": "Give us a couple of minutes.",
+  "zh": "给我们几分钟时间。"
+ },
+ {
+  "seg": 148,
+  "start": 774.221,
+  "end": 776.761,
+  "speaker": "Unknown",
+  "en": "I think we'll get the technical issues resolved.",
+  "zh": "我想我们会把技术问题解决掉。"
+ },
+ {
+  "seg": 149,
+  "start": 793.287,
+  "end": 796.368,
+  "speaker": "Unknown",
+  "en": "Seems like people are actually using it.",
+  "zh": "看起来大家真的在用它。"
+ },
+ {
+  "seg": 150,
+  "start": 796.428,
+  "end": 799.309,
+  "speaker": "Unknown",
+  "en": "So on the right side, you will actually see Get CLI.",
+  "zh": "所以在右边，你会看到 Get CLI。"
+ },
+ {
+  "seg": 151,
+  "start": 800.069,
+  "end": 806.592,
+  "speaker": "Unknown",
+  "en": "And if you see PayPal Cafe slash rules, that's where you will have all the rules outlined to it.",
+  "zh": "如果你看到 PayPal Cafe slash rules，那里列出了所有的规则。"
+ },
+ {
+  "seg": 152,
+  "start": 808.192,
+  "end": 811.694,
+  "speaker": "Unknown",
+  "en": "Feel free to start working on the CLI till we figure it out.",
+  "zh": "在我们搞清楚之前，你可以先开始做 CLI。"
+ },
+ {
+  "seg": 153,
+  "start": 814.815,
+  "end": 815.275,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 154,
+  "start": 833.612,
+  "end": 834.553,
+  "speaker": "Unknown",
+  "en": "Do we have the URL?",
+  "zh": "我们有 URL 吗？"
+ },
+ {
+  "seg": 155,
+  "start": 837.775,
+  "end": 838.636,
+  "speaker": "Unknown",
+  "en": "Oh, is it that one?",
+  "zh": "哦，是那个吗？"
+ },
+ {
+  "seg": 156,
+  "start": 838.856,
+  "end": 844.72,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 157,
+  "start": 853.426,
+  "end": 854.407,
+  "speaker": "Unknown",
+  "en": "Hey, there you go.",
+  "zh": "嘿，给你。"
+ },
+ {
+  "seg": 158,
+  "start": 854.727,
+  "end": 855.087,
+  "speaker": "Unknown",
+  "en": "Nice.",
+  "zh": "不错。"
+ },
+ {
+  "seg": 159,
+  "start": 860.591,
+  "end": 860.891,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 160,
+  "start": 860.911,
+  "end": 861.312,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 161,
+  "start": 861.372,
+  "end": 862.272,
+  "speaker": "Unknown",
+  "en": "Thank you so much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 162,
+  "start": 862.372,
+  "end": 862.733,
+  "speaker": "Unknown",
+  "en": "Hey.",
+  "zh": "嘿。"
+ },
+ {
+  "seg": 163,
+  "start": 866.633,
+  "end": 866.893,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好。"
+ },
+ {
+  "seg": 164,
+  "start": 868.434,
+  "end": 873.376,
+  "speaker": "Unknown",
+  "en": "So you can see this is, we do see some signings.",
+  "zh": "所以你可以看到，我们确实看到一些 signings。"
+ },
+ {
+  "seg": 165,
+  "start": 874.137,
+  "end": 876.578,
+  "speaker": "Unknown",
+  "en": "Okay, so on the right side you will see Get CLI.",
+  "zh": "好，所以在右边你会看到 Get CLI。"
+ },
+ {
+  "seg": 166,
+  "start": 876.898,
+  "end": 880,
+  "speaker": "Unknown",
+  "en": "You can download that and I hope you guys can see it.",
+  "zh": "你可以下载它，希望大家能看到。"
+ },
+ {
+  "seg": 167,
+  "start": 880.26,
+  "end": 881.441,
+  "speaker": "Unknown",
+  "en": "It's at the bottom right.",
+  "zh": "它在右下角。"
+ },
+ {
+  "seg": 168,
+  "start": 882.461,
+  "end": 883.702,
+  "speaker": "Unknown",
+  "en": "And there are some rules here.",
+  "zh": "这里还有一些规则。"
+ },
+ {
+  "seg": 169,
+  "start": 884.122,
+  "end": 887.764,
+  "speaker": "Unknown",
+  "en": "You can click on these rules and it will pop out some rules.",
+  "zh": "你可以点击这些规则，它会弹出一些规则。"
+ },
+ {
+  "seg": 170,
+  "start": 900.038,
+  "end": 909.246,
+  "speaker": "Unknown",
+  "en": "So we'll probably take around about 25 to 30 minutes, and in between, we'll interrupt with more slides and make it interesting.",
+  "zh": "我们大概会花 25 到 30 分钟，中间我们会穿插更多幻灯片，让内容更有趣。"
+ },
+ {
+  "seg": 171,
+  "start": 912.048,
+  "end": 914.63,
+  "speaker": "Unknown",
+  "en": "Where's the laptop for the other slides?",
+  "zh": "另一套幻灯片的笔记本在哪里？"
+ },
+ {
+  "seg": 172,
+  "start": 914.991,
+  "end": 915.551,
+  "speaker": "Unknown",
+  "en": "Vinod's got it?",
+  "zh": "Vinod 拿着？"
+ },
+ {
+  "seg": 173,
+  "start": 915.671,
+  "end": 921.216,
+  "speaker": "Unknown",
+  "en": "Okay, that's fine.",
+  "zh": "好，没关系。"
+ },
+ {
+  "seg": 174,
+  "start": 921.236,
+  "end": 922.317,
+  "speaker": "Unknown",
+  "en": "And we're here to help.",
+  "zh": "我们在这里提供帮助。"
+ },
+ {
+  "seg": 175,
+  "start": 922.337,
+  "end": 925.019,
+  "speaker": "Unknown",
+  "en": "If you're having trouble, please raise your hand.",
+  "zh": "如果你有问题，请举手。"
+ },
+ {
+  "seg": 176,
+  "start": 925.059,
+  "end": 927.161,
+  "speaker": "Unknown",
+  "en": "We'll try to assist you as best we can.",
+  "zh": "我们会尽力协助你。"
+ },
+ {
+  "seg": 177,
+  "start": 963.633,
+  "end": 973.137,
+  "speaker": "Unknown",
+  "en": "You know, we had a little bit of a debate internally.",
+  "zh": "你知道，我们内部有过一点争论。"
+ },
+ {
+  "seg": 178,
+  "start": 973.797,
+  "end": 975.058,
+  "speaker": "Unknown",
+  "en": "There are some great models out there.",
+  "zh": "现在有很多很棒的模型。"
+ },
+ {
+  "seg": 179,
+  "start": 979.139,
+  "end": 991.965,
+  "speaker": "Unknown",
+  "en": "The interesting thing about this challenge, if you use the highest thinking mode on the bleeding edge LLMs, you can probably brute force your way through this.",
+  "zh": "这个挑战有意思的地方在于，如果你在最前沿的 LLM 上使用最高思考模式，你大概可以用蛮力的方式通过它。"
+ },
+ {
+  "seg": 180,
+  "start": 993.58,
+  "end": 999.865,
+  "speaker": "Unknown",
+  "en": "But I feel like in the current climate, teams are starting to think about their token budget.",
+  "zh": "但我觉得在当前的形势下，团队开始考虑他们的 token 预算。"
+ },
+ {
+  "seg": 181,
+  "start": 1000.946,
+  "end": 1009.934,
+  "speaker": "Unknown",
+  "en": "And so you don't necessarily wanna waste your high-thinking tokens on running a CLI tool.",
+  "zh": "所以你不一定想把你高思考的 token 浪费在运行一个 CLI 工具上。"
+ },
+ {
+  "seg": 182,
+  "start": 1011.035,
+  "end": 1019.222,
+  "speaker": "Unknown",
+  "en": "So the real challenge is can you make Haiku or Sonnet or something at that level",
+  "zh": "所以真正的挑战是，你能不能让 Haiku 或 Sonnet 或那个级别的模型"
+ },
+ {
+  "seg": 183,
+  "start": 1020.843,
+  "end": 1022.364,
+  "speaker": "Unknown",
+  "en": "Run your CLI.",
+  "zh": "运行你的 CLI。"
+ },
+ {
+  "seg": 184,
+  "start": 1023.125,
+  "end": 1024.646,
+  "speaker": "Unknown",
+  "en": "We know you can do it with the highest.",
+  "zh": "我们知道用最高的可以做到。"
+ },
+ {
+  "seg": 185,
+  "start": 1025.186,
+  "end": 1031.151,
+  "speaker": "Unknown",
+  "en": "Can you do it with something that's somewhere in the middle that's faster and cheaper?",
+  "zh": "你能不能用某种处于中间水平、更快更便宜的东西做到？"
+ },
+ {
+  "seg": 186,
+  "start": 1031.932,
+  "end": 1034.874,
+  "speaker": "Unknown",
+  "en": "That's the interesting challenge if you want to take it on.",
+  "zh": "如果你想接受挑战，这就是有趣的地方。"
+ },
+ {
+  "seg": 187,
+  "start": 1036.275,
+  "end": 1037.036,
+  "speaker": "Unknown",
+  "en": "Sounds fun, yeah.",
+  "zh": "听起来挺有趣的，是的。"
+ },
+ {
+  "seg": 188,
+  "start": 1038.036,
+  "end": 1041.359,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 189,
+  "start": 1077.037,
+  "end": 1087.962,
+  "speaker": "Unknown",
+  "en": "Since we are on the coffee topic, Mark, were you aware that San Francisco City has the best bakeries in the entire United States?",
+  "zh": "既然我们在聊咖啡的话题，Mark，你知道吗，旧金山市拥有全美国最好的烘焙店？"
+ },
+ {
+  "seg": 190,
+  "start": 1088.483,
+  "end": 1089.643,
+  "speaker": "Unknown",
+  "en": "Were you aware about that fact?",
+  "zh": "你知道这个事实吗？"
+ },
+ {
+  "seg": 191,
+  "start": 1089.803,
+  "end": 1091.064,
+  "speaker": "Unknown",
+  "en": "I was not aware of that.",
+  "zh": "我不知道。"
+ },
+ {
+  "seg": 192,
+  "start": 1091.664,
+  "end": 1092.124,
+  "speaker": "Unknown",
+  "en": "Go on.",
+  "zh": "继续说。"
+ },
+ {
+  "seg": 193,
+  "start": 1092.324,
+  "end": 1092.845,
+  "speaker": "Unknown",
+  "en": "Go on.",
+  "zh": "继续说。"
+ },
+ {
+  "seg": 194,
+  "start": 1093.265,
+  "end": 1094.265,
+  "speaker": "Unknown",
+  "en": "Tell me more.",
+  "zh": "多告诉我一些。"
+ },
+ {
+  "seg": 195,
+  "start": 1094.606,
+  "end": 1100.348,
+  "speaker": "Unknown",
+  "en": "I have done some bakery crawls around in the city, and they are so fun.",
+  "zh": "我在城里做过一些烘焙店巡游，非常有趣。"
+ },
+ {
+  "seg": 196,
+  "start": 1100.748,
+  "end": 1104.09,
+  "speaker": "Unknown",
+  "en": "You should definitely check out all the amazing bakeries out here.",
+  "zh": "你绝对应该去看看这里所有出色的烘焙店。"
+ },
+ {
+  "seg": 197,
+  "start": 1105.071,
+  "end": 1105.351,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 198,
+  "start": 1107.057,
+  "end": 1107.577,
+  "speaker": "Unknown",
+  "en": "Any favorites?",
+  "zh": "有喜欢的吗？"
+ },
+ {
+  "seg": 199,
+  "start": 1108.538,
+  "end": 1109.438,
+  "speaker": "Unknown",
+  "en": "Butter and crumble.",
+  "zh": "Butter and crumble。"
+ },
+ {
+  "seg": 200,
+  "start": 1110.758,
+  "end": 1111.418,
+  "speaker": "Unknown",
+  "en": "My favorite one.",
+  "zh": "我最喜欢的一个。"
+ },
+ {
+  "seg": 201,
+  "start": 1111.759,
+  "end": 1112.739,
+  "speaker": "Unknown",
+  "en": "Although I couldn't go there.",
+  "zh": "虽然我没法去那里。"
+ },
+ {
+  "seg": 202,
+  "start": 1118.401,
+  "end": 1118.701,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 203,
+  "start": 1121.162,
+  "end": 1127.244,
+  "speaker": "Unknown",
+  "en": "So as of now, we have JGrayCodex at the top.",
+  "zh": "那么截至目前，JGrayCodex 排在第一。"
+ },
+ {
+  "seg": 204,
+  "start": 1127.884,
+  "end": 1131.165,
+  "speaker": "Unknown",
+  "en": "So guys, please catch up with him or her.",
+  "zh": "所以各位，请抓紧赶上他或她。"
+ },
+ {
+  "seg": 205,
+  "start": 1263.522,
+  "end": 1266.73,
+  "speaker": "Unknown",
+  "en": "So with the init command you could actually register your names.",
+  "zh": "通过 init 命令，你们可以注册自己的名字。"
+ },
+ {
+  "seg": 206,
+  "start": 1268.133,
+  "end": 1270.299,
+  "speaker": "Unknown",
+  "en": "I hope some of you have figured that out.",
+  "zh": "我希望你们中的一些人已经弄明白了。"
+ },
+ {
+  "seg": 207,
+  "start": 1487.444,
+  "end": 1489.681,
+  "speaker": "Unknown",
+  "en": "And once I plug it in, I will plug it in.",
+  "zh": "等我把它接上，我会把它接上的。"
+ },
+ {
+  "seg": 208,
+  "start": 1551.963,
+  "end": 1553.164,
+  "speaker": "Unknown",
+  "en": "Go ahead.",
+  "zh": "继续。"
+ },
+ {
+  "seg": 209,
+  "start": 1553.665,
+  "end": 1554.706,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好。"
+ },
+ {
+  "seg": 210,
+  "start": 1555.347,
+  "end": 1557.269,
+  "speaker": "Unknown",
+  "en": "Let's move on to some presentations.",
+  "zh": "我们进入一些演示环节。"
+ },
+ {
+  "seg": 211,
+  "start": 1557.489,
+  "end": 1568.742,
+  "speaker": "Unknown",
+  "en": "Meanwhile, you can start working, I mean, you'll continue working with the CLI that you have, but as a first hint, you know, it's a good idea to start using Tmux.",
+  "zh": "同时，你们可以开始动手了，我是说，你们可以继续使用你们手上的 CLI，但作为第一个提示，你知道的，开始使用 Tmux 是个好主意。"
+ },
+ {
+  "seg": 212,
+  "start": 1569.462,
+  "end": 1571.284,
+  "speaker": "Unknown",
+  "en": "How many of you know about Tmux here?",
+  "zh": "这里有多少人了解 Tmux？"
+ },
+ {
+  "seg": 213,
+  "start": 1572.183,
+  "end": 1575.745,
+  "speaker": "Unknown",
+  "en": "Okay, quite a fair amount of audience out here.",
+  "zh": "好的，这里的观众里有相当多的人了解。"
+ },
+ {
+  "seg": 214,
+  "start": 1575.905,
+  "end": 1584.571,
+  "speaker": "Unknown",
+  "en": "So yeah, in short, start with running Tmux and start by putting help command.",
+  "zh": "那么，简而言之，从运行 Tmux 开始，先输入 help 命令。"
+ },
+ {
+  "seg": 215,
+  "start": 1585.792,
+  "end": 1596.679,
+  "speaker": "Unknown",
+  "en": "Now help is really important because every AI agent in today's world relies on the help command before it even starts using that command.",
+  "zh": "现在 help 非常重要，因为当今世界的每一个 AI 智能体在开始使用某个命令之前都依赖 help 命令。"
+ },
+ {
+  "seg": 216,
+  "start": 1598.92,
+  "end": 1599.121,
+  "speaker": "Unknown",
+  "en": "So,",
+  "zh": "那么，"
+ },
+ {
+  "seg": 217,
+  "start": 1605.423,
+  "end": 1609.126,
+  "speaker": "Unknown",
+  "en": "Yep, send keys and capture pane gets you far.",
+  "zh": "是的，send keys 和 capture pane 能让你走得很远。"
+ },
+ {
+  "seg": 218,
+  "start": 1609.747,
+  "end": 1626.16,
+  "speaker": "Unknown",
+  "en": "Now, Tmux actually, for those who actually don't know about it, is like a multiple, you could actually use multiple terminal sessions with the Tmux, and it's like a split pane feature that you could leverage with Tmux.",
+  "zh": "现在，Tmux 实际上，对于那些不了解它的人来说，就像是一个多……你实际上可以用 Tmux 使用多个终端会话，它有一个你可以利用的分屏面板功能。"
+ },
+ {
+  "seg": 219,
+  "start": 1627.837,
+  "end": 1635.282,
+  "speaker": "Unknown",
+  "en": "So, with this example, you can see here, I mean, the screen is very short for me, so let me just zoom in a little bit, yeah?",
+  "zh": "那么，通过这个例子，你们可以看到，我是说，我的屏幕太小了，所以让我放大一点，好吗？"
+ },
+ {
+  "seg": 220,
+  "start": 1636.063,
+  "end": 1648.412,
+  "speaker": "Unknown",
+  "en": "Tmux hyphen d. Now, what this flag does is it detaches the entire CLI and puts it under a different Tmux instance altogether for you.",
+  "zh": "Tmux hyphen d。现在，这个标志的作用是，它把整个 CLI 分离出来，为你把它放到一个完全不同的 Tmux 实例之下。"
+ },
+ {
+  "seg": 221,
+  "start": 1652.675,
+  "end": 1655.256,
+  "speaker": "Unknown",
+  "en": "So, you could see...",
+  "zh": "所以，你可以看到……"
+ },
+ {
+  "seg": 222,
+  "start": 1657.676,
+  "end": 1677.587,
+  "speaker": "Unknown",
+  "en": "Tmux Capture Pain, like I said, you could actually have split pains in Tmuxes, so you could actually take care of working around in the CLI, and that's one of those cool features that can help your agents perform a lot of activities.",
+  "zh": "Tmux Capture Pain，就像我说的，你实际上可以在 Tmux 里使用分屏面板，所以你实际上可以在 CLI 里灵活操作，这是可以帮助你的智能体执行大量活动的很酷的功能之一。"
+ },
+ {
+  "seg": 223,
+  "start": 1677.928,
+  "end": 1681.53,
+  "speaker": "Unknown",
+  "en": "Think of it when you want to run multiple agents.",
+  "zh": "想一想当你想运行多个智能体的时候。"
+ },
+ {
+  "seg": 224,
+  "start": 1682.923,
+  "end": 1697.57,
+  "speaker": "Unknown",
+  "en": "You could actually spin up different sessions, and Teamworks actually takes a log of those things where it knows what are you working on and resumes those sessions whenever it's needed.",
+  "zh": "你实际上可以启动不同的会话，Teamworks 实际上会记录这些事情，它知道你在做什么，并在需要的时候恢复那些会话。"
+ },
+ {
+  "seg": 225,
+  "start": 1698.05,
+  "end": 1709.876,
+  "speaker": "Unknown",
+  "en": "So it's actually helpful for agents to communicate and start communicating when they have multiple sessions open, and these are some long-running tasks that you could actually run inside Teamworks.",
+  "zh": "所以这实际上有助于智能体之间进行沟通，在它们打开多个会话时开始沟通，而这些就是你可以实际上在 Teamworks 里运行的一些长时间运行的任务。"
+ },
+ {
+  "seg": 226,
+  "start": 1714.257,
+  "end": 1717.219,
+  "speaker": "Unknown",
+  "en": "Second good idea is IPC side channels.",
+  "zh": "第二个好主意是 IPC 侧信道。"
+ },
+ {
+  "seg": 227,
+  "start": 1718.359,
+  "end": 1721.741,
+  "speaker": "Unknown",
+  "en": "So, like I mentioned before, TMUX was a good upgrade.",
+  "zh": "那么，就像我之前提到的，TMUX 是一个不错的升级。"
+ },
+ {
+  "seg": 228,
+  "start": 1723.382,
+  "end": 1734.347,
+  "speaker": "Unknown",
+  "en": "So, instead of doing screen scraping, which TMUX actually does, for visual infirmities, you could start using side channels.",
+  "zh": "所以，与其做屏幕抓取，TMUX 实际上就是这么做的，为了视觉上的缺陷，你可以开始使用侧信道。"
+ },
+ {
+  "seg": 229,
+  "start": 1736.548,
+  "end": 1745.854,
+  "speaker": "Unknown",
+  "en": "Set channels would help you define your arrow keys that you have and help you understand, and I'll go in the next slide, how it works.",
+  "zh": "Set channels 会帮助你定义你所拥有的方向键，帮助你理解，我会在下一张幻灯片讲它是如何工作的。"
+ },
+ {
+  "seg": 230,
+  "start": 1746.554,
+  "end": 1750.377,
+  "speaker": "Unknown",
+  "en": "But the agent should know what is the output JSON.",
+  "zh": "但是智能体应该知道什么是输出 JSON。"
+ },
+ {
+  "seg": 231,
+  "start": 1750.977,
+  "end": 1754.119,
+  "speaker": "Unknown",
+  "en": "Now this becomes really critical in the entire talk.",
+  "zh": "现在这一点在整个演讲中变得非常关键。"
+ },
+ {
+  "seg": 232,
+  "start": 1754.659,
+  "end": 1758.161,
+  "speaker": "Unknown",
+  "en": "is output jacents, and agents want that.",
+  "zh": "就是输出 JSON，而智能体想要这个。"
+ },
+ {
+  "seg": 233,
+  "start": 1758.921,
+  "end": 1763.544,
+  "speaker": "Unknown",
+  "en": "Since we have multiple personalities now, earlier we used to only cater to human beings.",
+  "zh": "既然我们现在有了多种人格，以前我们只服务于人类。"
+ },
+ {
+  "seg": 234,
+  "start": 1764.024,
+  "end": 1765.005,
+  "speaker": "Unknown",
+  "en": "Now we have agents.",
+  "zh": "现在我们有了智能体。"
+ },
+ {
+  "seg": 235,
+  "start": 1765.625,
+  "end": 1773.129,
+  "speaker": "Unknown",
+  "en": "So think of both these personas so that your CLI can actually take advantage of both these use cases.",
+  "zh": "所以要同时考虑这两种人格，这样你的 CLI 才能真正利用这两种用例。"
+ },
+ {
+  "seg": 236,
+  "start": 1774.75,
+  "end": 1776.471,
+  "speaker": "Unknown",
+  "en": "So side channel for those...",
+  "zh": "那么侧信道对于那些……"
+ },
+ {
+  "seg": 237,
+  "start": 1777.357,
+  "end": 1780.64,
+  "speaker": "Unknown",
+  "en": "Who don't know about it, let me explain to you in simple words.",
+  "zh": "不了解它的人，让我用简单的话向你们解释。"
+ },
+ {
+  "seg": 238,
+  "start": 1781.18,
+  "end": 1785.945,
+  "speaker": "Unknown",
+  "en": "Think of it like adding a REST API to your web application.",
+  "zh": "把它想象成给你的 Web 应用添加一个 REST API。"
+ },
+ {
+  "seg": 239,
+  "start": 1787.006,
+  "end": 1791.47,
+  "speaker": "Unknown",
+  "en": "And the website gives humans a visual interface.",
+  "zh": "网站给人类提供一个可视化界面。"
+ },
+ {
+  "seg": 240,
+  "start": 1792.951,
+  "end": 1795.773,
+  "speaker": "Unknown",
+  "en": "The API gives you a machine-structured interface.",
+  "zh": "API 给你一个机器可用的结构化接口。"
+ },
+ {
+  "seg": 241,
+  "start": 1796.975,
+  "end": 1799.417,
+  "speaker": "Unknown",
+  "en": "So think of site channel as exactly the same.",
+  "zh": "所以把 site channel 想象成完全一样的东西。"
+ },
+ {
+  "seg": 242,
+  "start": 1799.877,
+  "end": 1802.82,
+  "speaker": "Unknown",
+  "en": "That's one of those analogies that I can refer.",
+  "zh": "这是我可以引用的类比之一。"
+ },
+ {
+  "seg": 243,
+  "start": 1806.414,
+  "end": 1808.538,
+  "speaker": "Unknown",
+  "en": "Read state send input as a data.",
+  "zh": "读取状态、发送输入作为数据。"
+ },
+ {
+  "seg": 244,
+  "start": 1810.922,
+  "end": 1814.569,
+  "speaker": "Unknown",
+  "en": "So we have the barista brew hyphen hyphen agent.",
+  "zh": "所以我们有 barista brew hyphen hyphen agent。"
+ },
+ {
+  "seg": 245,
+  "start": 1815.711,
+  "end": 1819.057,
+  "speaker": "Unknown",
+  "en": "Now this is the command that will help you run",
+  "zh": "现在这个命令会帮助你运行"
+ },
+ {
+  "seg": 246,
+  "start": 1820.94,
+  "end": 1823.781,
+  "speaker": "Unknown",
+  "en": "Your CLI with background agents, right?",
+  "zh": "带有后台智能体的 CLI，对吧？"
+ },
+ {
+  "seg": 247,
+  "start": 1824.841,
+  "end": 1845.046,
+  "speaker": "Unknown",
+  "en": "You want your agents to be running in the background and you put all of these commands, they are gonna help you try using it in your current CLIs, see if you are able to make some progress in the Barista Brew application that is out there in your laptops.",
+  "zh": "你想让你的智能体在后台运行，然后你把所有这些命令用上，它们会帮助你在你当前的 CLI 里尝试使用它，看看你能不能在你们笔记本电脑上现有的 Barista Brew 应用里取得一些进展。"
+ },
+ {
+  "seg": 248,
+  "start": 1846.705,
+  "end": 1851.529,
+  "speaker": "Unknown",
+  "en": "Now, there are a couple of things that you could actually provide as an example out here.",
+  "zh": "现在，有一些东西你们实际上可以在这里作为例子提供。"
+ },
+ {
+  "seg": 249,
+  "start": 1852.049,
+  "end": 1857.333,
+  "speaker": "Unknown",
+  "en": "You can see Barista Brew ask, and then there's a bunch of information out there.",
+  "zh": "你可以看到 Barista Brew ask，然后那里有一堆信息。"
+ },
+ {
+  "seg": 250,
+  "start": 1857.533,
+  "end": 1858.053,
+  "speaker": "Unknown",
+  "en": "Oh, what is it?",
+  "zh": "哦，这是什么？"
+ },
+ {
+  "seg": 251,
+  "start": 1858.274,
+  "end": 1865.699,
+  "speaker": "Unknown",
+  "en": "Okay, fields, then small, large, medium, maybe the sizes of the coffee, and yeah, default as large.",
+  "zh": "好，fields,然后 small、large、medium,大概是咖啡的尺寸，然后 default 设为 large。"
+ },
+ {
+  "seg": 252,
+  "start": 1866.4,
+  "end": 1867.34,
+  "speaker": "Unknown",
+  "en": "What does that even mean?",
+  "zh": "这到底是什么意思？"
+ },
+ {
+  "seg": 253,
+  "start": 1867.701,
+  "end": 1868.721,
+  "speaker": "Unknown",
+  "en": "That's input data.",
+  "zh": "这是输入数据。"
+ },
+ {
+  "seg": 254,
+  "start": 1870.122,
+  "end": 1876.067,
+  "speaker": "Unknown",
+  "en": "So all you have to do is feed in this input data so that agent actually knows that and",
+  "zh": "所以你要做的就是把这些输入数据喂进去，这样智能体才真正知道这些信息，而且"
+ },
+ {
+  "seg": 255,
+  "start": 1876.895,
+  "end": 1879.417,
+  "speaker": "Unknown",
+  "en": "You gotta do it in machine readable formats.",
+  "zh": "你得用机器可读的格式来做。"
+ },
+ {
+  "seg": 256,
+  "start": 1880.638,
+  "end": 1883.28,
+  "speaker": "Unknown",
+  "en": "So this is where that thing comes in play.",
+  "zh": "所以这就是那个东西发挥作用的地方。"
+ },
+ {
+  "seg": 257,
+  "start": 1885.662,
+  "end": 1889.585,
+  "speaker": "Unknown",
+  "en": "So don't just tell the agent what the human sees, okay?",
+  "zh": "所以不要只把人类看到的东西告诉智能体，好吗？"
+ },
+ {
+  "seg": 258,
+  "start": 1890.566,
+  "end": 1891.847,
+  "speaker": "Unknown",
+  "en": "Think it out of the box.",
+  "zh": "跳出固有思维来想。"
+ },
+ {
+  "seg": 259,
+  "start": 1892.327,
+  "end": 1894.008,
+  "speaker": "Unknown",
+  "en": "What are the agents going to think?",
+  "zh": "智能体会怎么想？"
+ },
+ {
+  "seg": 260,
+  "start": 1895.049,
+  "end": 1900.774,
+  "speaker": "Unknown",
+  "en": "They have different skillsets and you have to start leveraging those skillsets.",
+  "zh": "它们有不同的技能组合，你必须开始利用这些技能组合。"
+ },
+ {
+  "seg": 261,
+  "start": 1903.596,
+  "end": 1906.058,
+  "speaker": "Unknown",
+  "en": "Same prompt with a different brain now.",
+  "zh": "同样的 prompt,换了一个大脑。"
+ },
+ {
+  "seg": 262,
+  "start": 1907.597,
+  "end": 1911.238,
+  "speaker": "Unknown",
+  "en": "So, on the left side, you see I was talking about different personas.",
+  "zh": "那么，在左边，你们可以看到我说过不同的角色(persona)。"
+ },
+ {
+  "seg": 263,
+  "start": 1911.998,
+  "end": 1914.539,
+  "speaker": "Unknown",
+  "en": "One is the human beings, and the other one is the agents.",
+  "zh": "一个是人类，另一个是智能体。"
+ },
+ {
+  "seg": 264,
+  "start": 1917.46,
+  "end": 1932.785,
+  "speaker": "Unknown",
+  "en": "The CLI is the same, but when you look at the way it is structured, human beings want a set of options, but on the other hand, you have agents wherein you could provide all this information in one single input file.",
+  "zh": "CLI 是同一个，但当你看它的结构方式时，人类想要一组选项，而另一方面，你可以用一个单一的输入文件向智能体提供所有这些信息。"
+ },
+ {
+  "seg": 265,
+  "start": 1935.658,
+  "end": 1941.442,
+  "speaker": "Unknown",
+  "en": "So this is where we call this as context injection comes in play.",
+  "zh": "所以这就是我们所说的上下文注入发挥作用的地方。"
+ },
+ {
+  "seg": 266,
+  "start": 1942.583,
+  "end": 1947.406,
+  "speaker": "Unknown",
+  "en": "You provide context in such a way that, let me take an example.",
+  "zh": "你以这样的方式提供上下文，让我举个例子。"
+ },
+ {
+  "seg": 267,
+  "start": 1948.246,
+  "end": 1951.028,
+  "speaker": "Unknown",
+  "en": "You are actually low on oatmeal.",
+  "zh": "你的燕麦其实快没了。"
+ },
+ {
+  "seg": 268,
+  "start": 1952.87,
+  "end": 1957.513,
+  "speaker": "Unknown",
+  "en": "And you have only two gallons of oatmeal left.",
+  "zh": "你只剩两加仑燕麦了。"
+ },
+ {
+  "seg": 269,
+  "start": 1959.225,
+  "end": 1964.488,
+  "speaker": "Unknown",
+  "en": "Tell your agent what kind of information it needs to ask the user.",
+  "zh": "告诉你的智能体它需要向用户询问什么样的信息。"
+ },
+ {
+  "seg": 270,
+  "start": 1965.569,
+  "end": 1966.109,
+  "speaker": "Unknown",
+  "en": "Confirm it.",
+  "zh": "确认一下。"
+ },
+ {
+  "seg": 271,
+  "start": 1966.55,
+  "end": 1970.492,
+  "speaker": "Unknown",
+  "en": "If two ounces are good enough, do you want me to pick a backup for you?",
+  "zh": "如果两盎司够了的话，需要我帮你选一个备用吗？"
+ },
+ {
+  "seg": 272,
+  "start": 1971.893,
+  "end": 1982.499,
+  "speaker": "Unknown",
+  "en": "This information should be provided using context injection as a technique, and you can leverage this in the CLI that you are actually building.",
+  "zh": "这些信息应该用上下文注入这种技术来提供，你可以在你正在构建的 CLI 中利用它。"
+ },
+ {
+  "seg": 273,
+  "start": 1983.14,
+  "end": 1983.82,
+  "speaker": "Unknown",
+  "en": "Try using it.",
+  "zh": "试着用用看。"
+ },
+ {
+  "seg": 274,
+  "start": 1984.08,
+  "end": 1986.542,
+  "speaker": "Unknown",
+  "en": "Maybe you'll be on the highest on the leaderboard.",
+  "zh": "说不定你会登上排行榜的最高名次。"
+ },
+ {
+  "seg": 275,
+  "start": 1992.1,
+  "end": 2001.829,
+  "speaker": "Unknown",
+  "en": "So, we started a journey from Tmux, which is basically screen scraping to injecting skills.",
+  "zh": "那么，我们开启了一段旅程，从 Tmux——它基本上是屏幕抓取——到注入技能。"
+ },
+ {
+  "seg": 276,
+  "start": 2004.012,
+  "end": 2005.313,
+  "speaker": "Unknown",
+  "en": "So Tmux is low effort.",
+  "zh": "Tmux 是低投入的。"
+ },
+ {
+  "seg": 277,
+  "start": 2005.433,
+  "end": 2006.954,
+  "speaker": "Unknown",
+  "en": "I think a lot of you might have tried it.",
+  "zh": "我想你们中很多人可能都试过。"
+ },
+ {
+  "seg": 278,
+  "start": 2007.875,
+  "end": 2024.184,
+  "speaker": "Unknown",
+  "en": "But this is where site channels also will help you in providing good sort of feedback to your agents and Context Injection will provide you those different scenarios that you can think about which doesn't happen in the human case.",
+  "zh": "但这正是 site channels 也能帮上忙的地方，可以为你的智能体提供好的反馈，而上下文注入会提供那些人类场景中不会出现的、你可以去思考的不同场景。"
+ },
+ {
+  "seg": 279,
+  "start": 2027.526,
+  "end": 2029.126,
+  "speaker": "Unknown",
+  "en": "So yeah, keep pushing your scores.",
+  "zh": "所以，是的，继续推进你们的分数。"
+ },
+ {
+  "seg": 280,
+  "start": 2034.329,
+  "end": 2035.67,
+  "speaker": "Unknown",
+  "en": "Do you want to show this now?",
+  "zh": "你现在想展示一下这个吗？"
+ },
+ {
+  "seg": 281,
+  "start": 2054.082,
+  "end": 2057.905,
+  "speaker": "Unknown",
+  "en": "Let's take some time.",
+  "zh": "让我们花点时间。"
+ },
+ {
+  "seg": 282,
+  "start": 2057.925,
+  "end": 2058.525,
+  "speaker": "Unknown",
+  "en": "There you go.",
+  "zh": "好了。"
+ },
+ {
+  "seg": 283,
+  "start": 2058.545,
+  "end": 2058.785,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 284,
+  "start": 2059.486,
+  "end": 2059.726,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "不错。"
+ },
+ {
+  "seg": 285,
+  "start": 2059.786,
+  "end": 2061.267,
+  "speaker": "Unknown",
+  "en": "We do see a lot of traffic out here.",
+  "zh": "我们这里确实看到了很多流量。"
+ },
+ {
+  "seg": 286,
+  "start": 2061.287,
+  "end": 2072.495,
+  "speaker": "Unknown",
+  "en": "Oh, somebody's really close to 5,000.",
+  "zh": "哦，有人非常接近 5000 分了。"
+ },
+ {
+  "seg": 287,
+  "start": 2074.476,
+  "end": 2075.297,
+  "speaker": "Unknown",
+  "en": "Is it bank?",
+  "zh": "是 bank 吗？"
+ },
+ {
+  "seg": 288,
+  "start": 2075.837,
+  "end": 2076.377,
+  "speaker": "Unknown",
+  "en": "Oh, wonk.",
+  "zh": "哦，是 wonk。"
+ },
+ {
+  "seg": 289,
+  "start": 2076.417,
+  "end": 2076.737,
+  "speaker": "Unknown",
+  "en": "Wonk.",
+  "zh": "Wonk。"
+ },
+ {
+  "seg": 290,
+  "start": 2077.058,
+  "end": 2077.358,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 291,
+  "start": 2093.32,
+  "end": 2094.961,
+  "speaker": "Unknown",
+  "en": "Any questions so far?",
+  "zh": "到目前为止有什么问题吗？"
+ },
+ {
+  "seg": 292,
+  "start": 2095.901,
+  "end": 2098.722,
+  "speaker": "Unknown",
+  "en": "Anybody wants to get it answered?",
+  "zh": "有人想要得到解答吗？"
+ },
+ {
+  "seg": 293,
+  "start": 2098.802,
+  "end": 2099.902,
+  "speaker": "Unknown",
+  "en": "Any queries?",
+  "zh": "有什么疑问吗？"
+ },
+ {
+  "seg": 294,
+  "start": 2104.843,
+  "end": 2105.104,
+  "speaker": "Unknown",
+  "en": "Sorry?",
+  "zh": "抱歉？"
+ },
+ {
+  "seg": 295,
+  "start": 2110.065,
+  "end": 2112.086,
+  "speaker": "Unknown",
+  "en": "Okay, let me repeat that question to you.",
+  "zh": "好，让我把那个问题重复给你们听。"
+ },
+ {
+  "seg": 296,
+  "start": 2112.406,
+  "end": 2115.947,
+  "speaker": "Unknown",
+  "en": "What happens if multiple people reach a score of 5,000?",
+  "zh": "如果多个人都达到了 5000 分会怎样？"
+ },
+ {
+  "seg": 297,
+  "start": 2117.333,
+  "end": 2118.514,
+  "speaker": "Unknown",
+  "en": "Mark, you want to take that?",
+  "zh": "Mark,你想来回答这个吗？"
+ },
+ {
+  "seg": 298,
+  "start": 2119.254,
+  "end": 2129.76,
+  "speaker": "Unknown",
+  "en": "So the idea was we would look at score, and if there's a tie, we would look at which one took the least amount of time.",
+  "zh": "我们的想法是，我们会看分数，如果出现平局，我们会看哪个用时最少。"
+ },
+ {
+  "seg": 299,
+  "start": 2130.88,
+  "end": 2139.044,
+  "speaker": "Unknown",
+  "en": "Now, based on the resolution of this, I see several that have completed three of three in zero seconds.",
+  "zh": "现在，根据这个的分辨率，我看到好几个都是零秒完成了三关中的三关。"
+ },
+ {
+  "seg": 300,
+  "start": 2140.305,
+  "end": 2144.587,
+  "speaker": "Unknown",
+  "en": "I see a bunch of these that have completed it in zero seconds.",
+  "zh": "我看到一堆已经完成的,用时是零秒。"
+ },
+ {
+  "seg": 301,
+  "start": 2147.007,
+  "end": 2150.63,
+  "speaker": "Unknown",
+  "en": "I need to consult with someone because that's not supposed to be possible.",
+  "zh": "我得找人咨询一下,因为那本来是不可能的事。"
+ },
+ {
+  "seg": 302,
+  "start": 2153.213,
+  "end": 2173.271,
+  "speaker": "Unknown",
+  "en": "But the idea is that we would look at the score first and then the time it takes to respond second so that an accurate response returned quickly would be biased over an accurate response returned slowly.",
+  "zh": "但这个想法是,我们先看分数,再看响应所需的时间,这样快速返回的准确回答会比缓慢返回的准确回答更有优势。"
+ },
+ {
+  "seg": 303,
+  "start": 2186.22,
+  "end": 2189.081,
+  "speaker": "Unknown",
+  "en": "So, we have only one for now.",
+  "zh": "所以,目前我们只有一个。"
+ },
+ {
+  "seg": 304,
+  "start": 2189.422,
+  "end": 2190.102,
+  "speaker": "Unknown",
+  "en": "Okay, I'm sorry?",
+  "zh": "好的,抱歉,你说什么?"
+ },
+ {
+  "seg": 305,
+  "start": 2190.822,
+  "end": 2195.505,
+  "speaker": "Unknown",
+  "en": "We have only one .",
+  "zh": "我们只有一个。"
+ },
+ {
+  "seg": 306,
+  "start": 2196.605,
+  "end": 2208.851,
+  "speaker": "Unknown",
+  "en": "This is the bottom of the leaderboard.",
+  "zh": "这是排行榜的底部。"
+ },
+ {
+  "seg": 307,
+  "start": 2210.432,
+  "end": 2211.853,
+  "speaker": "Unknown",
+  "en": "Nicholas, game up.",
+  "zh": "Nicholas,加油。"
+ },
+ {
+  "seg": 308,
+  "start": 2225.948,
+  "end": 2230.488,
+  "speaker": "Unknown",
+  "en": "Everybody has that zero second right now.",
+  "zh": "现在每个人的用时都是零秒。"
+ },
+ {
+  "seg": 309,
+  "start": 2274.148,
+  "end": 2274.443,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 310,
+  "start": 2307.106,
+  "end": 2312.352,
+  "speaker": "Unknown",
+  "en": "In just a few minutes, we'll open up the floor for some idea sharing.",
+  "zh": "再过几分钟,我们会开放场地说说大家的想法。"
+ },
+ {
+  "seg": 311,
+  "start": 2312.412,
+  "end": 2320.1,
+  "speaker": "Unknown",
+  "en": "So I'm hoping that we'll hear some great ideas that go above and beyond our good ideas, because I know that there's some out there.",
+  "zh": "所以我希望能听到一些超越我们的好想法的精彩点子,因为我知道外面肯定有。"
+ },
+ {
+  "seg": 312,
+  "start": 2338.544,
+  "end": 2342.427,
+  "speaker": "Unknown",
+  "en": "Mark, were you expecting so many people to be in the 4,000?",
+  "zh": "Mark,你预料到会有这么多人的分数在 4000 吗?"
+ },
+ {
+  "seg": 313,
+  "start": 2343.167,
+  "end": 2344.608,
+  "speaker": "Unknown",
+  "en": "Yes, absolutely.",
+  "zh": "是的,绝对是。"
+ },
+ {
+  "seg": 314,
+  "start": 2344.628,
+  "end": 2347.25,
+  "speaker": "Unknown",
+  "en": "At this conference, absolutely.",
+  "zh": "在这个大会上,绝对是。"
+ },
+ {
+  "seg": 315,
+  "start": 2347.49,
+  "end": 2347.79,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 316,
+  "start": 2354.135,
+  "end": 2354.595,
+  "speaker": "Unknown",
+  "en": "Were you not?",
+  "zh": "你没预料到吗?"
+ },
+ {
+  "seg": 317,
+  "start": 2354.995,
+  "end": 2355.616,
+  "speaker": "Unknown",
+  "en": "No, I was.",
+  "zh": "不,我预料到了。"
+ },
+ {
+  "seg": 318,
+  "start": 2392.842,
+  "end": 2393.382,
+  "speaker": "Unknown",
+  "en": "What do you think?",
+  "zh": "你觉得呢?"
+ },
+ {
+  "seg": 319,
+  "start": 2393.462,
+  "end": 2394.663,
+  "speaker": "Unknown",
+  "en": "Anybody can make it to 5,000?",
+  "zh": "有人能到 5000 吗?"
+ },
+ {
+  "seg": 320,
+  "start": 2394.743,
+  "end": 2399.127,
+  "speaker": "Unknown",
+  "en": "I don't know.",
+  "zh": "我不知道。"
+ },
+ {
+  "seg": 321,
+  "start": 2399.547,
+  "end": 2400.127,
+  "speaker": "Unknown",
+  "en": "We'll hold it open.",
+  "zh": "我们会继续开放。"
+ },
+ {
+  "seg": 322,
+  "start": 2402.609,
+  "end": 2403.67,
+  "speaker": "Unknown",
+  "en": "Why don't we open the floor up now?",
+  "zh": "我们不如现在就开放发言吧?"
+ },
+ {
+  "seg": 323,
+  "start": 2403.93,
+  "end": 2404.631,
+  "speaker": "Unknown",
+  "en": "Yeah, sure.",
+  "zh": "好啊,当然。"
+ },
+ {
+  "seg": 324,
+  "start": 2405.051,
+  "end": 2406.252,
+  "speaker": "Unknown",
+  "en": "We'd love to hear ideas.",
+  "zh": "我们很想听听大家的想法。"
+ },
+ {
+  "seg": 325,
+  "start": 2406.672,
+  "end": 2413.878,
+  "speaker": "Unknown",
+  "en": "So did anybody in the room come up with other ideas that were able to get them to such a high score so quickly?",
+  "zh": "那么,在座有没有人想出其他办法,能这么快就拿到这么高的分数?"
+ },
+ {
+  "seg": 326,
+  "start": 2421.505,
+  "end": 2422.907,
+  "speaker": "Unknown",
+  "en": "Nobody wants to leave the desk.",
+  "zh": "没有人愿意离开座位。"
+ },
+ {
+  "seg": 327,
+  "start": 2423.929,
+  "end": 2436.389,
+  "speaker": "Unknown",
+  "en": "Oh, we have, yes.",
+  "zh": "哦,我们有,有的。"
+ },
+ {
+  "seg": 328,
+  "start": 2453.631,
+  "end": 2457.213,
+  "speaker": "Unknown",
+  "en": "Let me come over to you because I can barely hear you.",
+  "zh": "让我到你那边去,因为我几乎听不清你说话。"
+ },
+ {
+  "seg": 329,
+  "start": 2465.918,
+  "end": 2469.601,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 330,
+  "start": 2469.861,
+  "end": 2480.607,
+  "speaker": "Unknown",
+  "en": "It's a very easy-to-game benchmark because the only thing that matters is you fulfill one order within a very small latency, so if you do a deterministic parser,",
+  "zh": "这是一个很容易被钻空子的基准测试,因为唯一重要的就是你在极小的延迟内完成一个订单,所以如果你做一个确定性的解析器,"
+ },
+ {
+  "seg": 331,
+  "start": 2481.665,
+  "end": 2483.946,
+  "speaker": "Unknown",
+  "en": "Which defeats the spirit of this challenge entirely.",
+  "zh": "这完全违背了这个挑战的精神。"
+ },
+ {
+  "seg": 332,
+  "start": 2484.307,
+  "end": 2492.151,
+  "speaker": "Unknown",
+  "en": "But you do a deterministic parser and you have something like really close to the server, you can get the latency down really quick if you just brute force it.",
+  "zh": "但你做一个确定性的解析器,再在离服务器很近的地方部署点什么,只要你硬暴力破解,就能把延迟压得非常低。"
+ },
+ {
+  "seg": 333,
+  "start": 2493.071,
+  "end": 2493.271,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 334,
+  "start": 2494.232,
+  "end": 2494.812,
+  "speaker": "Unknown",
+  "en": "Is that what you did?",
+  "zh": "你就是这么做的吗?"
+ },
+ {
+  "seg": 335,
+  "start": 2494.832,
+  "end": 2496.433,
+  "speaker": "Unknown",
+  "en": "That's what I'm doing right now.",
+  "zh": "我现在就是这么干的。"
+ },
+ {
+  "seg": 336,
+  "start": 2496.453,
+  "end": 2496.553,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 337,
+  "start": 2497.213,
+  "end": 2497.513,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 338,
+  "start": 2498.194,
+  "end": 2499.414,
+  "speaker": "Unknown",
+  "en": "Now you said something interesting.",
+  "zh": "你刚才说了一句很有意思的话。"
+ },
+ {
+  "seg": 339,
+  "start": 2500.395,
+  "end": 2506.178,
+  "speaker": "Unknown",
+  "en": "The deterministic parser that's running in your CLI.",
+  "zh": "运行在你的 CLI 里的那个确定性解析器。"
+ },
+ {
+  "seg": 340,
+  "start": 2507.406,
+  "end": 2507.686,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 341,
+  "start": 2508.846,
+  "end": 2514.328,
+  "speaker": "Unknown",
+  "en": "I actually like the idea of the determinism in the CLI.",
+  "zh": "我其实很喜欢 CLI 里这种确定性的想法。"
+ },
+ {
+  "seg": 342,
+  "start": 2515.868,
+  "end": 2528.631,
+  "speaker": "Unknown",
+  "en": "And the reason is that if the CLI is a tool to be used by an LLM, then you absolutely want it to be deterministic.",
+  "zh": "原因是,如果 CLI 是一个要被 LLM 使用的工具,那你绝对希望它是确定性的。"
+ },
+ {
+  "seg": 343,
+  "start": 2529.211,
+  "end": 2532.712,
+  "speaker": "Unknown",
+  "en": "The LLM is the non-deterministic player here.",
+  "zh": "LLM 才是这里非确定性的那一方。"
+ },
+ {
+  "seg": 344,
+  "start": 2533.717,
+  "end": 2540.723,
+  "speaker": "Unknown",
+  "en": "We want the CLI to be, as someone described it, a small, sharp instrument.",
+  "zh": "我们希望 CLI 像有人形容的那样,是一把小巧锋利的工具。"
+ },
+ {
+  "seg": 345,
+  "start": 2541.044,
+  "end": 2543.806,
+  "speaker": "Unknown",
+  "en": "Should be very, very focused on what it does.",
+  "zh": "它应该非常非常专注于它所做的事情。"
+ },
+ {
+  "seg": 346,
+  "start": 2544.487,
+  "end": 2549.751,
+  "speaker": "Unknown",
+  "en": "And every time you give it a command, you want it to come back with the same response.",
+  "zh": "而且每次你给它一个命令,你都希望它返回同样的响应。"
+ },
+ {
+  "seg": 347,
+  "start": 2550.732,
+  "end": 2559.28,
+  "speaker": "Unknown",
+  "en": "So you don't want to build an agent into the CLI and then hand that CLI off to another agent because you don't know what you're gonna get.",
+  "zh": "所以你不会想在 CLI 里内置一个智能体,然后把这个 CLI 交给另一个智能体,因为你不知道会得到什么结果。"
+ },
+ {
+  "seg": 348,
+  "start": 2566.607,
+  "end": 2568.288,
+  "speaker": "Unknown",
+  "en": "Any other interesting ideas?",
+  "zh": "还有其他有意思的想法吗?"
+ },
+ {
+  "seg": 349,
+  "start": 2569.469,
+  "end": 2572.852,
+  "speaker": "Unknown",
+  "en": "Obviously, a lot of people have figured out how to game the system.",
+  "zh": "显然,很多人已经想明白怎么钻系统空子了。"
+ },
+ {
+  "seg": 350,
+  "start": 2575.014,
+  "end": 2577.676,
+  "speaker": "Unknown",
+  "en": "Where there's a Mac Mini, there's a way, I guess.",
+  "zh": "我想,有 Mac Mini 在,总有办法。"
+ },
+ {
+  "seg": 351,
+  "start": 2609.392,
+  "end": 2611.134,
+  "speaker": "Unknown",
+  "en": "The score hasn't changed in a while.",
+  "zh": "分数有一会儿没变了。"
+ },
+ {
+  "seg": 352,
+  "start": 2614.158,
+  "end": 2616.02,
+  "speaker": "Unknown",
+  "en": "Before the site crashes.",
+  "zh": "趁网站还没崩。"
+ },
+ {
+  "seg": 353,
+  "start": 2622.809,
+  "end": 2623.59,
+  "speaker": "Unknown",
+  "en": "Did you do refresh?",
+  "zh": "你刷新了吗?"
+ },
+ {
+  "seg": 354,
+  "start": 2681.657,
+  "end": 2682.698,
+  "speaker": "Unknown",
+  "en": "Let's just say reconnecting.",
+  "zh": "就说是在重新连接吧。"
+ },
+ {
+  "seg": 355,
+  "start": 2683.418,
+  "end": 2684.378,
+  "speaker": "Unknown",
+  "en": "Oh, there we go.",
+  "zh": "哦,好了。"
+ },
+ {
+  "seg": 356,
+  "start": 2684.398,
+  "end": 2684.558,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 357,
+  "start": 2689.441,
+  "end": 2691.262,
+  "speaker": "Unknown",
+  "en": "I think the network is a little laggy.",
+  "zh": "我觉得网络有点卡。"
+ },
+ {
+  "seg": 358,
+  "start": 2692.362,
+  "end": 2694.583,
+  "speaker": "Unknown",
+  "en": "The network is a little laggy out here.",
+  "zh": "这边的网络有点卡。"
+ },
+ {
+  "seg": 359,
+  "start": 2698.005,
+  "end": 2698.205,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是。"
+ },
+ {
+  "seg": 360,
+  "start": 2698.245,
+  "end": 2699.486,
+  "speaker": "Unknown",
+  "en": "And a lot of computers.",
+  "zh": "而且电脑很多。"
+ },
+ {
+  "seg": 361,
+  "start": 2699.806,
+  "end": 2701.086,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是。"
+ },
+ {
+  "seg": 362,
+  "start": 2701.106,
+  "end": 2701.707,
+  "speaker": "Unknown",
+  "en": "Sounds good.",
+  "zh": "听起来不错。"
+ },
+ {
+  "seg": 363,
+  "start": 2702.147,
+  "end": 2702.447,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是。"
+ },
+ {
+  "seg": 364,
+  "start": 2735.245,
+  "end": 2736.446,
+  "speaker": "Unknown",
+  "en": "Yeah, we're frozen right now.",
+  "zh": "对,我们现在卡住了。"
+ },
+ {
+  "seg": 365,
+  "start": 2736.786,
+  "end": 2745.034,
+  "speaker": "Unknown",
+  "en": "Here we go.",
+  "zh": "来了。"
+ },
+ {
+  "seg": 366,
+  "start": 2747.516,
+  "end": 2748.457,
+  "speaker": "Unknown",
+  "en": "Been no change in the results.",
+  "zh": "结果一直没变化。"
+ },
+ {
+  "seg": 367,
+  "start": 2748.477,
+  "end": 2748.737,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是。"
+ },
+ {
+  "seg": 368,
+  "start": 2749.137,
+  "end": 2749.378,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 369,
+  "start": 2771.517,
+  "end": 2773.519,
+  "speaker": "Unknown",
+  "en": "Do we want to wait a few more minutes or call it?",
+  "zh": "我们要再等几分钟,还是就此收尾?"
+ },
+ {
+  "seg": 370,
+  "start": 2773.539,
+  "end": 2774.94,
+  "speaker": "Unknown",
+  "en": "Yeah, like five minutes.",
+  "zh": "好,再等五分钟吧。"
+ },
+ {
+  "seg": 371,
+  "start": 2774.96,
+  "end": 2775.601,
+  "speaker": "Unknown",
+  "en": "Five minutes, okay.",
+  "zh": "五分钟,好。"
+ },
+ {
+  "seg": 372,
+  "start": 2775.621,
+  "end": 2782.347,
+  "speaker": "Unknown",
+  "en": "Do you want to bring the PPT for the closing arguments?",
+  "zh": "你要把总结陈词的 PPT 拿出来吗?"
+ },
+ {
+  "seg": 373,
+  "start": 2782.387,
+  "end": 2782.587,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好。"
+ },
+ {
+  "seg": 374,
+  "start": 2783.969,
+  "end": 2789.474,
+  "speaker": "Unknown",
+  "en": "We're going to give it about five more minutes.",
+  "zh": "我们再给它大约五分钟。"
+ },
+ {
+  "seg": 375,
+  "start": 2789.994,
+  "end": 2790.135,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好。"
+ },
+ {
+  "seg": 376,
+  "start": 2790.375,
+  "end": 2790.995,
+  "speaker": "Unknown",
+  "en": "And then we'll call it.",
+  "zh": "然后我们就收尾。"
+ },
+ {
+  "seg": 377,
+  "start": 2793.117,
+  "end": 2794.118,
+  "speaker": "Unknown",
+  "en": "Where's Bonk?",
+  "zh": "Bonk 在哪儿?"
+ },
+ {
+  "seg": 378,
+  "start": 2794.198,
+  "end": 2794.659,
+  "speaker": "Unknown",
+  "en": "Raise your hand.",
+  "zh": "举个手。"
+ },
+ {
+  "seg": 379,
+  "start": 2796.711,
+  "end": 2797.352,
+  "speaker": "Unknown",
+  "en": "Who is bunk?",
+  "zh": "谁是 bunk?"
+ },
+ {
+  "seg": 380,
+  "start": 2797.492,
+  "end": 2797.872,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 381,
+  "start": 2798.112,
+  "end": 2798.653,
+  "speaker": "Unknown",
+  "en": "We have some.",
+  "zh": "我们有一些。"
+ },
+ {
+  "seg": 382,
+  "start": 2798.733,
+  "end": 2799.133,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好。"
+ },
+ {
+  "seg": 383,
+  "start": 2799.234,
+  "end": 2799.794,
+  "speaker": "Unknown",
+  "en": "Big smile.",
+  "zh": "笑一个,笑大点。"
+ },
+ {
+  "seg": 384,
+  "start": 2799.834,
+  "end": 2800.375,
+  "speaker": "Unknown",
+  "en": "Big smile.",
+  "zh": "笑大点。"
+ },
+ {
+  "seg": 385,
+  "start": 2801.296,
+  "end": 2805.92,
+  "speaker": "Unknown",
+  "en": "And we do want to hear how you did it.",
+  "zh": "我们很想听听你是怎么做到的。"
+ },
+ {
+  "seg": 386,
+  "start": 2807.021,
+  "end": 2811.406,
+  "speaker": "Unknown",
+  "en": "So once we call it, then we'll let you explain what you did.",
+  "zh": "所以等我们收尾之后,会让你解释你做了什么。"
+ },
+ {
+  "seg": 387,
+  "start": 2812.126,
+  "end": 2812.567,
+  "speaker": "Unknown",
+  "en": "I'd love to hear.",
+  "zh": "我很想听。"
+ },
+ {
+  "seg": 388,
+  "start": 2835.634,
+  "end": 2837.835,
+  "speaker": "Unknown",
+  "en": "I need to go over here.",
+  "zh": "我得走到这边来。"
+ },
+ {
+  "seg": 389,
+  "start": 2838.055,
+  "end": 2841.156,
+  "speaker": "Unknown",
+  "en": "Hold on.",
+  "zh": "等一下。"
+ },
+ {
+  "seg": 390,
+  "start": 2841.196,
+  "end": 2851.118,
+  "speaker": "Unknown",
+  "en": "Sorry, I should have asked for another microphone for the room for questions.",
+  "zh": "抱歉,我本来应该为现场提问再要一个麦克风的。"
+ },
+ {
+  "seg": 391,
+  "start": 2851.559,
+  "end": 2857.78,
+  "speaker": "Unknown",
+  "en": "Yeah, so Bonk is just an agent thing built on top of Claude Agent SDK.",
+  "zh": "对,Bonk 就是基于 Claude Agent SDK 构建的一个智能体东西。"
+ },
+ {
+  "seg": 392,
+  "start": 2858.821,
+  "end": 2859.701,
+  "speaker": "Unknown",
+  "en": "It built the whole thing.",
+  "zh": "它把整个东西都构建出来了。"
+ },
+ {
+  "seg": 393,
+  "start": 2859.921,
+  "end": 2863.182,
+  "speaker": "Unknown",
+  "en": "Prior to this, I already had a sort of eval bench skill that",
+  "zh": "在此之前,我已经有一个类似评测基准的技能,"
+ },
+ {
+  "seg": 394,
+  "start": 2863.91,
+  "end": 2868.951,
+  "speaker": "Unknown",
+  "en": "We'll create sort of an environment and optimize.",
+  "zh": "它会创建一个环境并做优化。"
+ },
+ {
+  "seg": 395,
+  "start": 2869.711,
+  "end": 2874.493,
+  "speaker": "Unknown",
+  "en": "So it basically ended up building a deterministic CLI solver.",
+  "zh": "所以它基本上最终构建了一个确定性的 CLI 求解器。"
+ },
+ {
+  "seg": 396,
+  "start": 2874.873,
+  "end": 2879.574,
+  "speaker": "Unknown",
+  "en": "And then now it's just running on a TMUX and slamming your APIs.",
+  "zh": "然后现在它就跑在一个 TMUX 里,疯狂地轰你的 API。"
+ },
+ {
+  "seg": 397,
+  "start": 2880.274,
+  "end": 2881.334,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是。"
+ },
+ {
+  "seg": 398,
+  "start": 2881.354,
+  "end": 2888.996,
+  "speaker": "Unknown",
+  "en": "So I think I got lucky because I hit it at one point at like 29 milliseconds, probably because we're in the same region.",
+  "zh": "所以我觉得我是运气好,因为有一次我打到了大概 29 毫秒,可能因为我们在同一个区域。"
+ },
+ {
+  "seg": 399,
+  "start": 2890.136,
+  "end": 2891.397,
+  "speaker": "Unknown",
+  "en": "It's just a network latency.",
+  "zh": "这就是网络延迟而已。"
+ },
+ {
+  "seg": 400,
+  "start": 2891.417,
+  "end": 2892.857,
+  "speaker": "Unknown",
+  "en": "And this is all done on Claude?",
+  "zh": "这一切都是用 Claude 做的吗?"
+ },
+ {
+  "seg": 401,
+  "start": 2893.405,
+  "end": 2894.566,
+  "speaker": "Unknown",
+  "en": "Claude Agent SDK.",
+  "zh": "Claude Agent SDK。"
+ },
+ {
+  "seg": 402,
+  "start": 2894.786,
+  "end": 2896.927,
+  "speaker": "Unknown",
+  "en": "I'm just driving it through Slack.",
+  "zh": "我只是通过 Slack 驱动它。"
+ },
+ {
+  "seg": 403,
+  "start": 2896.947,
+  "end": 2897.467,
+  "speaker": "Unknown",
+  "en": "Which model?",
+  "zh": "用的哪个模型?"
+ },
+ {
+  "seg": 404,
+  "start": 2898.148,
+  "end": 2898.868,
+  "speaker": "Unknown",
+  "en": "Opus 4.8.",
+  "zh": "Opus 4.8。"
+ },
+ {
+  "seg": 405,
+  "start": 2899.249,
+  "end": 2899.769,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 406,
+  "start": 2900.309,
+  "end": 2902.39,
+  "speaker": "Unknown",
+  "en": "Did you try it with any other models?",
+  "zh": "你试过用其他模型吗?"
+ },
+ {
+  "seg": 407,
+  "start": 2902.45,
+  "end": 2903.551,
+  "speaker": "Unknown",
+  "en": "For the build?",
+  "zh": "用于构建吗?"
+ },
+ {
+  "seg": 408,
+  "start": 2903.611,
+  "end": 2906.052,
+  "speaker": "Unknown",
+  "en": "For building the CLI?",
+  "zh": "用于构建这个 CLI?"
+ },
+ {
+  "seg": 409,
+  "start": 2906.713,
+  "end": 2908.194,
+  "speaker": "Unknown",
+  "en": "For your agent.",
+  "zh": "用于你的智能体。"
+ },
+ {
+  "seg": 410,
+  "start": 2908.314,
+  "end": 2909.194,
+  "speaker": "Unknown",
+  "en": "How would we do that?",
+  "zh": "我们会怎么做那个?"
+ },
+ {
+  "seg": 411,
+  "start": 2909.454,
+  "end": 2911.115,
+  "speaker": "Unknown",
+  "en": "The CLI is completely deterministic.",
+  "zh": "这个 CLI 是完全确定性的。"
+ },
+ {
+  "seg": 412,
+  "start": 2911.215,
+  "end": 2912.236,
+  "speaker": "Unknown",
+  "en": "Sure, sure, sure.",
+  "zh": "明白,明白,明白。"
+ },
+ {
+  "seg": 413,
+  "start": 2912.276,
+  "end": 2916.198,
+  "speaker": "Unknown",
+  "en": "So the agent built the CLI and is just running it on TMux now.",
+  "zh": "所以是智能体构建了 CLI,现在只是在 TMux 上运行它。"
+ },
+ {
+  "seg": 414,
+  "start": 2916.518,
+  "end": 2916.959,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 415,
+  "start": 2917.099,
+  "end": 2917.339,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 416,
+  "start": 2917.519,
+  "end": 2917.679,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 417,
+  "start": 2918.159,
+  "end": 2918.48,
+  "speaker": "Unknown",
+  "en": "Congrats.",
+  "zh": "恭喜。"
+ },
+ {
+  "seg": 418,
+  "start": 2926.645,
+  "end": 2928.206,
+  "speaker": "Unknown",
+  "en": "I'm gonna go to the next one, Danny.",
+  "zh": "我要去下一个了,Danny。"
+ },
+ {
+  "seg": 419,
+  "start": 2928.546,
+  "end": 2929.607,
+  "speaker": "Unknown",
+  "en": "Who's Danny here?",
+  "zh": "Danny 在这儿吗?"
+ },
+ {
+  "seg": 420,
+  "start": 2943.475,
+  "end": 2943.915,
+  "speaker": "Unknown",
+  "en": "Last one.",
+  "zh": "最后一个。"
+ },
+ {
+  "seg": 421,
+  "start": 2952.681,
+  "end": 2953.621,
+  "speaker": "Unknown",
+  "en": "What do we wanna know?",
+  "zh": "我们想知道什么?"
+ },
+ {
+  "seg": 422,
+  "start": 2953.761,
+  "end": 2954.622,
+  "speaker": "Unknown",
+  "en": "Yeah, how'd you build it?",
+  "zh": "是的,你是怎么构建它的?"
+ },
+ {
+  "seg": 423,
+  "start": 2956.149,
+  "end": 2960.453,
+  "speaker": "Unknown",
+  "en": "Yeah, so I don't know anything about coding at all.",
+  "zh": "是这样,我对编程完全一无所知。"
+ },
+ {
+  "seg": 424,
+  "start": 2960.593,
+  "end": 2975.286,
+  "speaker": "Unknown",
+  "en": "I'm using, I'm basically a vibe coder, and I have a couple agents, and I just said, hey, here's the problem, read it, and then fix it and fix it, so I just have, yeah, Claude Code up on VSC.",
+  "zh": "我在用的是,我基本上是个 vibe coder,我有几个智能体,我只是说,嘿,这是问题,读一下,然后修复它修复它,所以我就是,是的,在 VSC 上开着 Claude Code。"
+ },
+ {
+  "seg": 425,
+  "start": 2976.087,
+  "end": 2977.468,
+  "speaker": "Unknown",
+  "en": "Have you ever built a CLI before?",
+  "zh": "你以前构建过 CLI 吗?"
+ },
+ {
+  "seg": 426,
+  "start": 2978.549,
+  "end": 2982.673,
+  "speaker": "Unknown",
+  "en": "No, I saw a couple hours ago that obviously there was a prize to be won,",
+  "zh": "没有,几个小时前我看到显然有个奖可以拿,"
+ },
+ {
+  "seg": 427,
+  "start": 2983.24,
+  "end": 2990.144,
+  "speaker": "Unknown",
+  "en": "So I got in and I said, hey, figure this out, explain it to me like I'm, you know, like I don't know anything and then...",
+  "zh": "所以我就上手了,我说,嘿,把这个搞明白,解释给我听,就像我,你知道,就像我什么都不知道一样,然后……"
+ },
+ {
+  "seg": 428,
+  "start": 2991.005,
+  "end": 2991.865,
+  "speaker": "Unknown",
+  "en": "Explain like I'm five?",
+  "zh": "解释得像五岁小孩一样?"
+ },
+ {
+  "seg": 429,
+  "start": 2993.707,
+  "end": 2995.368,
+  "speaker": "Unknown",
+  "en": "Yeah, I don't know.",
+  "zh": "是的,我不确定。"
+ },
+ {
+  "seg": 430,
+  "start": 2995.728,
+  "end": 3010.037,
+  "speaker": "Unknown",
+  "en": "And then we came up with, yeah, we came up with some good results and I said, hey, we need to make it faster and give me some suggestions and yeah, seriously, so I guess we have two scripts running and the first one got the",
+  "zh": "然后我们得出了,是的,我们得出了一些不错的结果,然后我说,嘿,我们需要让它更快,给我一些建议,是的,说真的,我们现在有两个脚本在跑,第一个拿到了"
+ },
+ {
+  "seg": 431,
+  "start": 3011.009,
+  "end": 3016.634,
+  "speaker": "Unknown",
+  "en": "$49.98, and then I said, hey, make a copy and give me some suggestions for how we can get the $49.99.",
+  "zh": "$49.98,然后我说,嘿,复制一份,给我一些建议,看怎么才能拿到 $49.99。"
+ },
+ {
+  "seg": 432,
+  "start": 3016.674,
+  "end": 3016.854,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 433,
+  "start": 3018.916,
+  "end": 3021.158,
+  "speaker": "Unknown",
+  "en": "Did you get any suggestions?",
+  "zh": "你拿到建议了吗?"
+ },
+ {
+  "seg": 434,
+  "start": 3021.738,
+  "end": 3026.722,
+  "speaker": "Unknown",
+  "en": "It's, this agent's pretty automated, so I just say like, hey, here's the start, here's the end.",
+  "zh": "它,这个智能体挺自动化的,所以我只是说,嘿,这是起点,这是终点。"
+ },
+ {
+  "seg": 435,
+  "start": 3027.343,
+  "end": 3033.868,
+  "speaker": "Unknown",
+  "en": "Give me a couple, you know, questions at the beginning if you need it, but then fix the problems so I don't have to deal with it kind of thing.",
+  "zh": "如果需要的话,开始时问我几个问题,然后就直接修复问题,这样我就不用去管它了,差不多这种。"
+ },
+ {
+  "seg": 436,
+  "start": 3034.889,
+  "end": 3036.391,
+  "speaker": "Unknown",
+  "en": "So, sorry, that's not a very good.",
+  "zh": "所以,抱歉,这个回答不太好。"
+ },
+ {
+  "seg": 437,
+  "start": 3037.291,
+  "end": 3037.852,
+  "speaker": "Unknown",
+  "en": "No, no, it's good.",
+  "zh": "不,不,挺好的。"
+ },
+ {
+  "seg": 438,
+  "start": 3039.633,
+  "end": 3047.62,
+  "speaker": "Unknown",
+  "en": "I'm sure a lot of people are wondering, like writing a CLI, is that something that you would ever do?",
+  "zh": "我相信很多人都在想,写一个 CLI,这是你自己会去做的事吗?"
+ },
+ {
+  "seg": 439,
+  "start": 3048.541,
+  "end": 3052.024,
+  "speaker": "Unknown",
+  "en": "Or would you ask your agent to do it for you?",
+  "zh": "还是你会让智能体替你做?"
+ },
+ {
+  "seg": 440,
+  "start": 3052.304,
+  "end": 3064.294,
+  "speaker": "Unknown",
+  "en": "So clearly we have many people in the room who are just going to point Claude or Codex at this and say, build a CLI, make it fast, make it deterministic.",
+  "zh": "显然,现场有很多人只会把 Claude 或 Codex 指过去,然后说,构建一个 CLI,让它快,让它确定性。"
+ },
+ {
+  "seg": 441,
+  "start": 3064.955,
+  "end": 3066.396,
+  "speaker": "Unknown",
+  "en": "And those are the three ideas, right?",
+  "zh": "这就是那三个要点,对吧?"
+ },
+ {
+  "seg": 442,
+  "start": 3069.215,
+  "end": 3069.495,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 443,
+  "start": 3070.556,
+  "end": 3072.896,
+  "speaker": "Unknown",
+  "en": "You want to change the slide?",
+  "zh": "你要换一下幻灯片吗?"
+ },
+ {
+  "seg": 444,
+  "start": 3096.646,
+  "end": 3097.026,
+  "speaker": "Unknown",
+  "en": "There it is.",
+  "zh": "来了。"
+ },
+ {
+  "seg": 445,
+  "start": 3113.792,
+  "end": 3117.474,
+  "speaker": "Unknown",
+  "en": "So we talked about all of our suggestions.",
+  "zh": "所以我们讲了我们所有的建议。"
+ },
+ {
+  "seg": 446,
+  "start": 3119.154,
+  "end": 3120.155,
+  "speaker": "Unknown",
+  "en": "We heard some ideas.",
+  "zh": "我们听到了一些想法。"
+ },
+ {
+  "seg": 447,
+  "start": 3121.495,
+  "end": 3124.917,
+  "speaker": "Unknown",
+  "en": "The predominant idea was let your agent figure it out for you.",
+  "zh": "最主要的想法是让你的智能体替你搞定。"
+ },
+ {
+  "seg": 448,
+  "start": 3125.297,
+  "end": 3126.097,
+  "speaker": "Unknown",
+  "en": "I love that idea.",
+  "zh": "我喜欢这个想法。"
+ },
+ {
+  "seg": 449,
+  "start": 3127.118,
+  "end": 3129.879,
+  "speaker": "Unknown",
+  "en": "Anything else before we close it out?",
+  "zh": "在结束之前还有别的吗?"
+ },
+ {
+  "seg": 450,
+  "start": 3134.701,
+  "end": 3135.742,
+  "speaker": "Unknown",
+  "en": "All right, there you go.",
+  "zh": "好了,就是这样。"
+ },
+ {
+  "seg": 451,
+  "start": 3138.463,
+  "end": 3143.325,
+  "speaker": "Unknown",
+  "en": "Takeaway for us, based on our instructions, our recommendations,",
+  "zh": "给我们的要点,根据我们的指导、我们的建议,"
+ },
+ {
+  "seg": 452,
+  "start": 3144.488,
+  "end": 3145.608,
+  "speaker": "Unknown",
+  "en": "Give it good context.",
+  "zh": "给它好的上下文。"
+ },
+ {
+  "seg": 453,
+  "start": 3146.289,
+  "end": 3147.389,
+  "speaker": "Unknown",
+  "en": "Give it a side channel.",
+  "zh": "给它一个侧信道。"
+ },
+ {
+  "seg": 454,
+  "start": 3148.649,
+  "end": 3149.91,
+  "speaker": "Unknown",
+  "en": "And tell it to use TMUX.",
+  "zh": "然后告诉它用 TMUX。"
+ },
+ {
+  "seg": 455,
+  "start": 3150.79,
+  "end": 3153.551,
+  "speaker": "Unknown",
+  "en": "Those are three good ideas to start with.",
+  "zh": "这是三个可以起步的好点子。"
+ },
+ {
+  "seg": 456,
+  "start": 3155.811,
+  "end": 3156.331,
+  "speaker": "Unknown",
+  "en": "Thanks, everyone.",
+  "zh": "谢谢大家。"
+ },
+ {
+  "seg": 457,
+  "start": 3157.912,
+  "end": 3158.852,
+  "speaker": "Unknown",
+  "en": "Monk, you want to come on up?",
+  "zh": "Monk,你要上来吗?"
+ },
+ {
+  "seg": 458,
+  "start": 3160.172,
+  "end": 3161.593,
+  "speaker": "Unknown",
+  "en": "I still have Monk as the winner, right?",
+  "zh": "Monk 还是赢家,对吧?"
+ },
+ {
+  "seg": 459,
+  "start": 3161.753,
+  "end": 3161.873,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 460,
+  "start": 3161.893,
+  "end": 3163.613,
+  "speaker": "Unknown",
+  "en": "OK. No, no, we called it.",
+  "zh": "好。不,不,我们已经定了。"
+ },
+ {
+  "seg": 461,
+  "start": 3163.713,
+  "end": 3166.594,
+  "speaker": "Unknown",
+  "en": "We called it five minutes ago.",
+  "zh": "我们五分钟前就定了。"
+ },
+ {
+  "seg": 462,
+  "start": 3166.634,
+  "end": 3167.134,
+  "speaker": "Unknown",
+  "en": "OK. Yeah, yeah.",
+  "zh": "好。是的,是的。"
+ },
+ {
+  "seg": 463,
+  "start": 3167.174,
+  "end": 3167.934,
+  "speaker": "Unknown",
+  "en": "I'm not going to change it.",
+  "zh": "我不会改的。"
+ },
+ {
+  "seg": 464,
+  "start": 3168.515,
+  "end": 3169.175,
+  "speaker": "Unknown",
+  "en": "We called it.",
+  "zh": "我们已经定了。"
+ },
+ {
+  "seg": 465,
+  "start": 3173.056,
+  "end": 3173.356,
+  "speaker": "Unknown",
+  "en": "Woo!",
+  "zh": "喔!"
+ },
+ {
+  "seg": 466,
+  "start": 3178.487,
+  "end": 3182.228,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 467,
+  "start": 3182.249,
+  "end": 3183.009,
+  "speaker": "Unknown",
+  "en": "We'll just get a picture.",
+  "zh": "我们就拍张照吧。"
+ },
+ {
+  "seg": 468,
+  "start": 3183.049,
+  "end": 3185.95,
+  "speaker": "Unknown",
+  "en": "You know, social media.",
+  "zh": "你知道的,发社交媒体。"
+ },
+ {
+  "seg": 469,
+  "start": 3186.01,
+  "end": 3186.371,
+  "speaker": "Unknown",
+  "en": "That's right.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 470,
+  "start": 3194.314,
+  "end": 3195.195,
+  "speaker": "Unknown",
+  "en": "It's a real Mac Mini.",
+  "zh": "这是一台真的 Mac Mini。"
+ },
+ {
+  "seg": 471,
+  "start": 3196.055,
+  "end": 3197.016,
+  "speaker": "Unknown",
+  "en": "It's a real Mac Mini?",
+  "zh": "是一台真的 Mac Mini?"
+ },
+ {
+  "seg": 472,
+  "start": 3197.076,
+  "end": 3197.916,
+  "speaker": "Unknown",
+  "en": "Oh my God, these exist?",
+  "zh": "天哪,这东西真的存在?"
+ },
+ {
+  "seg": 473,
+  "start": 3200.237,
+  "end": 3200.918,
+  "speaker": "Unknown",
+  "en": "All right, awesome.",
+  "zh": "好了,太棒了。"
+ },
+ {
+  "seg": 474,
+  "start": 3206.991,
+  "end": 3208.572,
+  "speaker": "Unknown",
+  "en": "Thank you very much.",
+  "zh": "非常感谢。"
+ }
+]

@@ -1,0 +1,1108 @@
+{
+  "episode_id": "2026-10-11-talks-burn-your-flags-interactive-clis-for-age",
+  "podcast": "精选演讲",
+  "date": "2026-10-11",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "命令行工具",
+    "开发者工具",
+    "vibe coding"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "mark-lummus",
+      "type": "person",
+      "role": "guest",
+      "name": "Mark Lummus",
+      "file": "Mark Lummus",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线：智能体不断调 bash 执行命令，但跑交互式 CLI 时会看到重绘循环而非问题、静默失败；它不同于自动化脚本，能推理、重试、走决策树。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            140.844,
+            151.746
+          ],
+          "quote": "And so a lot of people are adding CLI tools so that it's easier to access the capabilities that they want to expose to an agent.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 46,
+          "t": [
+            254.025,
+            259.167
+          ],
+          "quote": "The human can use the arrow keys, but the agent doesn't see it.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 47,
+          "t": [
+            259.767,
+            261.268
+          ],
+          "quote": "The agent sees a redraw loop.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 60,
+          "t": [
+            319.09,
+            323.473
+          ],
+          "quote": "Now, an agent is not like an automation script.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 63,
+          "t": [
+            332.119,
+            345.308
+          ],
+          "quote": "The agent can reason, it can react, it can ask, it can retry, it can back up, and most importantly, an agent can walk a decision tree",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 77,
+          "t": [
+            411.711,
+            418.893
+          ],
+          "quote": "And it's going to fail when you try to run it from an agent because it's interactive.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 86,
+          "t": [
+            455.483,
+            463.189
+          ],
+          "quote": "You make changes to that CLI, run it through an agent, and it's gonna send some information up to our server,",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1585.792,
+            1596.679
+          ],
+          "quote": "Now help is really important because every AI agent in today's world relies on the help command before it even starts using that command.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1746.554,
+            1750.377
+          ],
+          "quote": "But the agent should know what is the output JSON.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1810.922,
+            1814.569
+          ],
+          "quote": "So we have the barista brew hyphen hyphen agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1870.122,
+            1876.067
+          ],
+          "quote": "So all you have to do is feed in this input data so that agent actually knows that and",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1885.662,
+            1889.585
+          ],
+          "quote": "So don't just tell the agent what the human sees, okay?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1959.225,
+            1964.488
+          ],
+          "quote": "Tell your agent what kind of information it needs to ask the user.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 347,
+          "t": [
+            2550.732,
+            2559.28
+          ],
+          "quote": "So you don't want to build an agent into the CLI and then hand that CLI off to another agent because you don't know what you're gonna get.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 391,
+          "t": [
+            2851.559,
+            2857.78
+          ],
+          "quote": "Yeah, so Bonk is just an agent thing built on top of Claude Agent SDK.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 401,
+          "t": [
+            2893.405,
+            2894.566
+          ],
+          "quote": "Claude Agent SDK.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 409,
+          "t": [
+            2906.713,
+            2908.194
+          ],
+          "quote": "For your agent.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 413,
+          "t": [
+            2912.276,
+            2916.198
+          ],
+          "quote": "So the agent built the CLI and is just running it on TMux now.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 434,
+          "t": [
+            3021.738,
+            3026.722
+          ],
+          "quote": "It's, this agent's pretty automated, so I just say like, hey, here's the start, here's the end.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 439,
+          "t": [
+            3048.541,
+            3052.024
+          ],
+          "quote": "Or would you ask your agent to do it for you?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 447,
+          "t": [
+            3121.495,
+            3124.917
+          ],
+          "quote": "The predominant idea was let your agent figure it out for you.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "cli",
+      "type": "concept",
+      "role": "concept",
+      "name": "CLI",
+      "file": "CLI",
+      "primary": true,
+      "how_described": "本集称 CLI 因 Claude Code、Codex 而迎来复兴，是『旧的就是新的』；交互式 CLI 对人类友好却让智能体静默失败，需重新设计以服务智能体这一新读者。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            26.438,
+            28.94
+          ],
+          "quote": "Today, we're going to talk to you a little bit about CLI.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 8,
+          "t": [
+            43.187,
+            54.952
+          ],
+          "quote": "So today we're going to talk a little bit about a specific kind of CLI, interactive CLI, and we're going to set up an exercise.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 9,
+          "t": [
+            56.633,
+            66.218
+          ],
+          "quote": "And we're going to give you, for those of you who wish to participate, this is a workshop after all, we'll give you a CLI that you can",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 17,
+          "t": [
+            94.338,
+            96.282
+          ],
+          "quote": "Everything was a CLI.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 23,
+          "t": [
+            122.674,
+            124.295
+          ],
+          "quote": "And that was your CLI.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 27,
+          "t": [
+            140.844,
+            151.746
+          ],
+          "quote": "And so a lot of people are adding CLI tools so that it's easier to access the capabilities that they want to expose to an agent.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 28,
+          "t": [
+            152.727,
+            159.848
+          ],
+          "quote": "Now, with interactive CLI, this is why we're here today, what we want to talk about.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 30,
+          "t": [
+            167.58,
+            176.526
+          ],
+          "quote": "But if they run an interactive CLI, that may be bad because not all harnesses handle interaction very well.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 39,
+          "t": [
+            214.246,
+            225.537
+          ],
+          "quote": "So if your CLI is calling an API and getting a response and then the question comes up based on what the API returns, that's really, really challenging to handle with flags.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 42,
+          "t": [
+            238.74,
+            243.662
+          ],
+          "quote": "Over here on the left, we see a sample CLI.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 44,
+          "t": [
+            245.962,
+            250.664
+          ],
+          "quote": "The CLI's opened an interactive prompt, an error key prompt.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 74,
+          "t": [
+            402.413,
+            403.393
+          ],
+          "quote": "We've got a CLI.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 85,
+          "t": [
+            450.739,
+            453.021
+          ],
+          "quote": "We're going to give you a CLI.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 86,
+          "t": [
+            455.483,
+            463.189
+          ],
+          "quote": "You make changes to that CLI, run it through an agent, and it's gonna send some information up to our server,",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 128,
+          "t": [
+            645.474,
+            648.356
+          ],
+          "quote": "It has the CLI that you can actually download.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            649.156,
+            650.817
+          ],
+          "quote": "That's the bare bone CLI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            673.49,
+            687.735
+          ],
+          "quote": "And in this whole exercise, we want you to also be innovative in your approaches, and going forward, it's gonna get interesting with agents using the CLI, so think it from that perspective.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            703.378,
+            720.065
+          ],
+          "quote": "Once we feel like enough people have gotten the repo installed, can run the CLI as is, then maybe every 15 or 20 minutes, we'll share a good idea.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 150,
+          "t": [
+            796.428,
+            799.309
+          ],
+          "quote": "So on the right side, you will actually see Get CLI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            808.192,
+            811.694
+          ],
+          "quote": "Feel free to start working on the CLI till we figure it out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            874.137,
+            876.578
+          ],
+          "quote": "Okay, so on the right side you will see Get CLI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1000.946,
+            1009.934
+          ],
+          "quote": "And so you don't necessarily wanna waste your high-thinking tokens on running a CLI tool.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 183,
+          "t": [
+            1020.843,
+            1022.364
+          ],
+          "quote": "Run your CLI.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1557.489,
+            1568.742
+          ],
+          "quote": "Meanwhile, you can start working, I mean, you'll continue working with the CLI that you have, but as a first hint, you know, it's a good idea to start using Tmux.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1636.063,
+            1648.412
+          ],
+          "quote": "Tmux hyphen d. Now, what this flag does is it detaches the entire CLI and puts it under a different Tmux instance altogether for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1657.676,
+            1677.587
+          ],
+          "quote": "Tmux Capture Pain, like I said, you could actually have split pains in Tmuxes, so you could actually take care of working around in the CLI, and that's one of those cool features that can help your agents perform a lot of activities.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1765.625,
+            1773.129
+          ],
+          "quote": "So think of both these personas so that your CLI can actually take advantage of both these use cases.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1820.94,
+            1823.781
+          ],
+          "quote": "Your CLI with background agents, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1917.46,
+            1932.785
+          ],
+          "quote": "The CLI is the same, but when you look at the way it is structured, human beings want a set of options, but on the other hand, you have agents wherein you could provide all this information in one single input file.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1971.893,
+            1982.499
+          ],
+          "quote": "This information should be provided using context injection as a technique, and you can leverage this in the CLI that you are actually building.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 339,
+          "t": [
+            2500.395,
+            2506.178
+          ],
+          "quote": "The deterministic parser that's running in your CLI.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 341,
+          "t": [
+            2508.846,
+            2514.328
+          ],
+          "quote": "I actually like the idea of the determinism in the CLI.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 342,
+          "t": [
+            2515.868,
+            2528.631
+          ],
+          "quote": "And the reason is that if the CLI is a tool to be used by an LLM, then you absolutely want it to be deterministic.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 344,
+          "t": [
+            2533.717,
+            2540.723
+          ],
+          "quote": "We want the CLI to be, as someone described it, a small, sharp instrument.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 347,
+          "t": [
+            2550.732,
+            2559.28
+          ],
+          "quote": "So you don't want to build an agent into the CLI and then hand that CLI off to another agent because you don't know what you're gonna get.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 395,
+          "t": [
+            2869.711,
+            2874.493
+          ],
+          "quote": "So it basically ended up building a deterministic CLI solver.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2903.611,
+            2906.052
+          ],
+          "quote": "For building the CLI?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 411,
+          "t": [
+            2909.454,
+            2911.115
+          ],
+          "quote": "The CLI is completely deterministic.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 413,
+          "t": [
+            2912.276,
+            2916.198
+          ],
+          "quote": "So the agent built the CLI and is just running it on TMux now.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2976.087,
+            2977.468
+          ],
+          "quote": "Have you ever built a CLI before?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 438,
+          "t": [
+            3039.633,
+            3047.62
+          ],
+          "quote": "I'm sure a lot of people are wondering, like writing a CLI, is that something that you would ever do?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 440,
+          "t": [
+            3052.304,
+            3064.294
+          ],
+          "quote": "So clearly we have many people in the room who are just going to point Claude or Codex at this and say, build a CLI, make it fast, make it deterministic.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "interactive-cli",
+      "type": "concept",
+      "role": "concept",
+      "name": "交互式命令行 (interactive CLI)",
+      "file": "交互式命令行",
+      "primary": true,
+      "how_described": "会向用户弹出问题、根据上一回答动态给出下一问的 CLI；对人类友好、护栏内置在交互流程中，但智能体运行时 harness 丢失 UI 状态，无声且不可见地失败。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            43.187,
+            54.952
+          ],
+          "quote": "So today we're going to talk a little bit about a specific kind of CLI, interactive CLI, and we're going to set up an exercise.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 28,
+          "t": [
+            152.727,
+            159.848
+          ],
+          "quote": "Now, with interactive CLI, this is why we're here today, what we want to talk about.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 30,
+          "t": [
+            167.58,
+            176.526
+          ],
+          "quote": "But if they run an interactive CLI, that may be bad because not all harnesses handle interaction very well.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "accessibility",
+      "type": "concept",
+      "role": "concept",
+      "name": "无障碍设计 (accessibility)",
+      "file": "无障碍设计",
+      "primary": true,
+      "how_described": "Mark 给出的核心框架：为不同能力的人让软件可用的成熟方法论，可直接映射到智能体——同一套纪律，换一位新读者。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            358.748,
+            359.889
+          ],
+          "quote": "It's called accessibility.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "tmux",
+      "type": "concept",
+      "role": "concept",
+      "name": "Tmux",
+      "file": "Tmux",
+      "primary": true,
+      "how_described": "终端复用工具，可用分屏跑多个会话；配合 help、send keys、capture pane 命令让智能体绕过交互界面操控 CLI，多智能体各开会话互不打扰。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 211,
+          "t": [
+            1557.489,
+            1568.742
+          ],
+          "quote": "Meanwhile, you can start working, I mean, you'll continue working with the CLI that you have, but as a first hint, you know, it's a good idea to start using Tmux.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1569.462,
+            1571.284
+          ],
+          "quote": "How many of you know about Tmux here?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1575.905,
+            1584.571
+          ],
+          "quote": "So yeah, in short, start with running Tmux and start by putting help command.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1609.747,
+            1626.16
+          ],
+          "quote": "Now, Tmux actually, for those who actually don't know about it, is like a multiple, you could actually use multiple terminal sessions with the Tmux, and it's like a split pane feature that you could leverage with Tmux.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1636.063,
+            1648.412
+          ],
+          "quote": "Tmux hyphen d. Now, what this flag does is it detaches the entire CLI and puts it under a different Tmux instance altogether for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1657.676,
+            1677.587
+          ],
+          "quote": "Tmux Capture Pain, like I said, you could actually have split pains in Tmuxes, so you could actually take care of working around in the CLI, and that's one of those cool features that can help your agents perform a lot of activities.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1718.359,
+            1721.741
+          ],
+          "quote": "So, like I mentioned before, TMUX was a good upgrade.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1723.382,
+            1734.347
+          ],
+          "quote": "So, instead of doing screen scraping, which TMUX actually does, for visual infirmities, you could start using side channels.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1992.1,
+            2001.829
+          ],
+          "quote": "So, we started a journey from Tmux, which is basically screen scraping to injecting skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 276,
+          "t": [
+            2004.012,
+            2005.313
+          ],
+          "quote": "So Tmux is low effort.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 396,
+          "t": [
+            2874.873,
+            2879.574
+          ],
+          "quote": "And then now it's just running on a TMUX and slamming your APIs.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 413,
+          "t": [
+            2912.276,
+            2916.198
+          ],
+          "quote": "So the agent built the CLI and is just running it on TMux now.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 454,
+          "t": [
+            3148.649,
+            3149.91
+          ],
+          "quote": "And tell it to use TMUX.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "ipc-side-channels",
+      "type": "concept",
+      "role": "concept",
+      "name": "IPC 侧信道 (IPC side channels)",
+      "file": "IPC 侧信道",
+      "primary": true,
+      "how_described": "Navinkumar 的第二个好点子：像给网站加 REST API 一样，CLI 给人交互菜单、给智能体开机器可读的数据通道（如 barista-brew --ask 返回输入格式）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 226,
+          "t": [
+            1714.257,
+            1717.219
+          ],
+          "quote": "Second good idea is IPC side channels.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文注入 (context injection)",
+      "file": "上下文注入",
+      "primary": true,
+      "how_described": "把环境信息直接喂给智能体的技术：如库存燕麦只剩两加仑时告诉智能体该向用户确认用量、要不要换备选——纯人类交互中不存在的动态场景。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 265,
+          "t": [
+            1935.658,
+            1941.442
+          ],
+          "quote": "So this is where we call this as context injection comes in play.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1971.893,
+            1982.499
+          ],
+          "quote": "This information should be provided using context injection as a technique, and you can leverage this in the CLI that you are actually building.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 278,
+          "t": [
+            2007.875,
+            2024.184
+          ],
+          "quote": "But this is where site channels also will help you in providing good sort of feedback to your agents and Context Injection will provide you those different scenarios that you can think about which doesn't happen in the human case.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "deterministic",
+      "type": "concept",
+      "role": "concept",
+      "name": "确定性 (deterministic)",
+      "file": "确定性",
+      "primary": true,
+      "how_described": "Mark 的点评：给 LLM 用的 CLI 工具就该是确定性的——LLM 已是非确定性的那一方，工具应是每次同样输入给同样输出的小而锋利的刀。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 330,
+          "t": [
+            2469.861,
+            2480.607
+          ],
+          "quote": "It's a very easy-to-game benchmark because the only thing that matters is you fulfill one order within a very small latency, so if you do a deterministic parser,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 332,
+          "t": [
+            2484.307,
+            2492.151
+          ],
+          "quote": "But you do a deterministic parser and you have something like really close to the server, you can get the latency down really quick if you just brute force it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 339,
+          "t": [
+            2500.395,
+            2506.178
+          ],
+          "quote": "The deterministic parser that's running in your CLI.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 342,
+          "t": [
+            2515.868,
+            2528.631
+          ],
+          "quote": "And the reason is that if the CLI is a tool to be used by an LLM, then you absolutely want it to be deterministic.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 343,
+          "t": [
+            2529.211,
+            2532.712
+          ],
+          "quote": "The LLM is the non-deterministic player here.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 395,
+          "t": [
+            2869.711,
+            2874.493
+          ],
+          "quote": "So it basically ended up building a deterministic CLI solver.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 411,
+          "t": [
+            2909.454,
+            2911.115
+          ],
+          "quote": "The CLI is completely deterministic.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 440,
+          "t": [
+            3052.304,
+            3064.294
+          ],
+          "quote": "So clearly we have many people in the room who are just going to point Claude or Codex at this and say, build a CLI, make it fast, make it deterministic.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集说它让 CLI 真正流行起来；赢家 Danny 在 VS Code 里开着它，自称完全不会写代码的 vibe coder，靠它修 CLI 拿到 49.98 分。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            134.763,
+            139.544
+          ],
+          "quote": "Maybe it was Claude Code that really made them much more popular, and now we have Codex.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2960.593,
+            2975.286
+          ],
+          "quote": "I'm using, I'm basically a vibe coder, and I have a couple agents, and I just said, hey, here's the problem, read it, and then fix it and fix it, so I just have, yeah, Claude Code up on VSC.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "与 Claude Code 并列提及的、让 AI 代理操作命令行的编程产品，也是智能体 CLI 复兴的代表之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            134.763,
+            139.544
+          ],
+          "quote": "Maybe it was Claude Code that really made them much more popular, and now we have Codex.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 440,
+          "t": [
+            3052.304,
+            3064.294
+          ],
+          "quote": "So clearly we have many people in the room who are just going to point Claude or Codex at this and say, build a CLI, make it fast, make it deterministic.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "claude-agent-sdk",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Agent SDK",
+      "file": "Claude Agent SDK",
+      "primary": true,
+      "how_described": "赢家 Bonk 基于它构建智能体：先让智能体复用评测技能造出确定性 CLI 求解器，再放在 Tmux 里反复轰炸接口，最快一次约 29 毫秒。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 391,
+          "t": [
+            2851.559,
+            2857.78
+          ],
+          "quote": "Yeah, so Bonk is just an agent thing built on top of Claude Agent SDK.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 401,
+          "t": [
+            2893.405,
+            2894.566
+          ],
+          "quote": "Claude Agent SDK.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "vs-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "VS Code",
+      "file": "VS Code",
+      "primary": false,
+      "how_described": "Navinkumar 回顾 IDE 演进时提到微软的 VS Code 催生了许多其他 IDE；Danny 在其中开着 Claude Code 参赛。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 109,
+          "t": [
+            541.323,
+            547.768
+          ],
+          "quote": "Especially Microsoft VS Code, which gave birth to a lot of other IDs as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            551.15,
+            563.779
+          ],
+          "quote": "So, if you look right now, Microsoft had its own VS Code editor, but later on, new AI IDs started to pop out, like Cursor, Windsurf, to name a few.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "本集指出交互式流程的护栏内置在一问一答里，挑战在于如何保留护栏和指引、同时不再假装智能体和人类有相同能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            227.339,
+            231.343
+          ],
+          "quote": "And the guardrails can live in the interactive flow.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 70,
+          "t": [
+            383.063,
+            392.668
+          ],
+          "quote": "How might we keep the guardrails and the guidance and stop pretending that agents and humans have the same abilities?",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "vibe coding",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

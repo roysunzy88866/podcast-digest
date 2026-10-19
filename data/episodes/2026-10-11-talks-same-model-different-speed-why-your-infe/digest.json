@@ -1,0 +1,233 @@
+{
+  "title_zh": "同一个模型，速度差三倍：推理服务商到底重要在哪",
+  "tldr": "FriendliAI 创始工程师 Yunmo 讲解为什么开源模型已经够好，真正的差距在推理层。",
+  "digest_md": "开源模型这两年悄悄跨过了一道门槛。在编码、推理、智能体这些基准测试里，像 GLM 5.2 这样的开放权重模型，已经和头部闭源模型打成平手，在某些排行榜上甚至排到了 Claude Opus 4.8 前面 [01:28 Unknown]。\n\nFriendliAI 的创始工程师 Yunmo 在这场演讲里说，==问题已经不再是模型够不够好，而是你能不能在生产环境里又快又稳地跑它==。他用两个现场演示讲清了这件事。\n\n## 同样的任务，价格差 5.6 倍\n\n他先让 GLM 5.2 和 Claude Opus 4.8 各自写一个塔防游戏。两个模型都做出了能玩的成品：有地图，炮塔会在射程内攻击敌人，一个提示词就搞定了。\n\n但看成本，差距就出来了：GLM 5.2 完成这个任务便宜了 5.6 倍以上 [02:48 Unknown]。而且在需要反复迭代的智能体工作流里，这个差距会迅速累加。**模型质量的竞争，正在变成“你跑得起什么”的竞争**。\n\n## 换个服务商，同一个模型快了 3 倍\n\n更有意思的对比是：模型相同、任务相同、只换服务商。他用 GLM 5.2 加同一套编码智能体流程，做一个消除类小游戏。\n\nFriendliAI 跑完用了不到 2 分钟，另一家服务商花了 3 分多钟 [04:02 Unknown]。用户在编码智能体里感受到的体验差异，就是这么来的。**差异来自整个推理技术栈**：缓存系统、路由策略、调度器、量化方案、GPU 内核，全都拼在一起才决定最终体验。\n\n## 为什么输入越长，缓存越值钱\n\n现代智能体应用有个特点：输入很长（动辄超过 1 万个词元），输出很短。而且大量输入是重复的——很多真实负载里，50% 到 90% 的词元在不同请求间完全一样 [05:45 Unknown]。\n\n处理这些输入（预填充阶段）是计算成本的大头。如果每次都从头算一遍重复部分，就是在浪费时间和显卡算力。**解法是复用缓存**，但要真正跑起来，需要两个机制。\n\n一是缓存感知路由：缓存分散在各台机器上，路由器必须把请求送到已经持有相关缓存的那台，否则复用就白搭。二是缓存分级：缓存极其占内存，长上下文下甚至可能超过模型本身。所以热数据放显存，温数据放内存，冷数据下沉到硬盘，系统动态搬运 [07:07 Unknown]。\n\n## 投机解码：先猜后验，白拿速度\n\n标准的大模型解码一次只生成一个词元，显卡经常吃不饱。投机解码换了个思路：一次先猜出多个候选词元，让主模型一遍验证。**猜中的等于白送，输出质量完全不变** [07:59 Unknown]。\n\n猜法有两条路。用小模型猜，命中率高但费算力；用提示词里的模式猜，开销小但只在输出长得像上下文时好用。FriendliAI 的做法是混合策略，运行时根据负载动态切换，而且草稿模型还能根据真实流量持续自我改进 [09:26 Unknown]。\n\n## 快还不够，得稳\n\n平均很快但时不时超时、报错、限流的服务，用户体验照样崩。智能体尤其脆弱：一个任务要调好多次模型，中间任何一次失败，整条流程可能作废 [10:14 Unknown]。所以 FriendliAI 不只优化延迟，而是把错误率、在线时长一起优化。他们展示的数据是 GLM 5.1 Pro 服务在线时长超过 99.9% [10:34 Unknown]。\n\n他也提醒了一句实在话：所有推理服务商都说自己快，也都在某个基准、某种条件下快过。**唯一算数的基准，是你自己的工作负载**——你的提示词、词元长度、流量模式和延迟要求 [11:10 Unknown]。\n\n## 本集带走\n\n- 开放权重模型已在编码、推理等任务上追平头部闭源模型，成本还低数倍。\n- 模型相同、服务商不同，同一个任务耗时能差 3 倍以上——差距在整套推理技术栈。\n- 智能体请求间 50%–90% 的输入词元是重复的，缓存复用是提速关键。\n- 投机解码靠“先猜后验”提高生成速度，且不改变输出质量。\n- 挑服务商别只看厂商基准，拿自己的真实负载去测。",
+  "quotes": [
+    {
+      "en": "So GLM 5.2 was more than 5.6 times cheaper for this task, and in agent-style workflows where you need to iterate multiple times, the gap compounds quickly.",
+      "zh": "GLM 5.2 在这个任务上便宜了 5.6 倍以上，而在需要多次迭代的智能体式工作流中，这个差距会迅速累积。",
+      "timestamp": "02:48",
+      "speaker": "Yunmo"
+    },
+    {
+      "en": "It is about what you can afford to run at scale.",
+      "zh": "而是你能负担得起在大规模下运行什么。",
+      "timestamp": "03:05",
+      "speaker": "Yunmo"
+    },
+    {
+      "en": "In many real workloads, like 50% to 80% to 90% of the tokens are identical across different requests.",
+      "zh": "在许多真实的工作负载中，大约 50% 到 80% 到 90% 的 tokens 在不同请求之间是完全相同的。",
+      "timestamp": "05:45",
+      "speaker": "Yunmo"
+    },
+    {
+      "en": "For large models and long contacts, KVCache size can exceed model weights.",
+      "zh": "对于大模型和长上下文，KVCache 的大小可能超过模型权重。",
+      "timestamp": "06:56",
+      "speaker": "Yunmo"
+    },
+    {
+      "en": "Reliability is part of speed.",
+      "zh": "可靠性本身就是速度的一部分。",
+      "timestamp": "09:51",
+      "speaker": "Yunmo"
+    },
+    {
+      "en": "But for your application, the only benchmark that really matters is your own workload.",
+      "zh": "但对你的应用来说，唯一真正重要的基准是你自己的负载。",
+      "timestamp": "11:05",
+      "speaker": "Yunmo"
+    },
+    {
+      "en": "So Kilocode is one of the largest coding agent platform processing several trillions of tokens every week.",
+      "zh": "Kilocode 是最大的 coding agent 平台之一，每周处理数万亿 token。",
+      "timestamp": "11:51",
+      "speaker": "Yunmo"
+    },
+    {
+      "en": "Friendly AI was over like seven times faster and had a significantly lower error rate.",
+      "zh": "Friendly AI 快了大约七倍，而且错误率显著更低。",
+      "timestamp": "12:14",
+      "speaker": "Yunmo"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "01:16",
+      "speaker": "Unknown",
+      "en": "have crossed the threshold these days.",
+      "zh": "如今已经跨过了那个门槛。"
+    },
+    {
+      "timestamp": "01:51",
+      "speaker": "Unknown",
+      "en": "So the question is no longer only whether open-made models are good enough.",
+      "zh": "所以问题不再仅仅是开放权重模型是否足够好。"
+    },
+    {
+      "timestamp": "01:57",
+      "speaker": "Unknown",
+      "en": "For many workloads, now they are.",
+      "zh": "对于许多工作负载来说，现在它们已经足够好了。"
+    },
+    {
+      "timestamp": "02:48",
+      "speaker": "Unknown",
+      "en": "So GLM 5.2 was more than 5.6 times cheaper for this task, and in agent-style workflows where you need to iterate multiple times, the gap compounds quickly.",
+      "zh": "GLM 5.2 在这个任务上便宜了 5.6 倍以上，而在需要多次迭代的智能体式工作流中，这个差距会迅速累积。"
+    },
+    {
+      "timestamp": "03:02",
+      "speaker": "Unknown",
+      "en": "So this is not just about model quality anymore.",
+      "zh": "所以这已经不仅仅是模型质量的问题了。"
+    },
+    {
+      "timestamp": "03:05",
+      "speaker": "Unknown",
+      "en": "It is about what you can afford to run at scale.",
+      "zh": "而是你能负担得起在大规模下运行什么。"
+    },
+    {
+      "timestamp": "03:27",
+      "speaker": "Unknown",
+      "en": "So if you're building an AI product, you should not only ask which model to use, but you should also ask which providers gives you the best performance, reliability, and pricing.",
+      "zh": "所以如果你在构建 AI 产品，你不仅应该问用哪个模型，还应该问哪个提供商能给你最好的性能、可靠性和定价。"
+    },
+    {
+      "timestamp": "04:11",
+      "speaker": "Unknown",
+      "en": "So the model is the same.",
+      "zh": "所以模型是同一个。"
+    },
+    {
+      "timestamp": "04:12",
+      "speaker": "Unknown",
+      "en": "The agent app is the same.",
+      "zh": "智能体应用也是同一个。"
+    },
+    {
+      "timestamp": "04:14",
+      "speaker": "Unknown",
+      "en": "But the provider was different.",
+      "zh": "但提供商不同。"
+    },
+    {
+      "timestamp": "04:20",
+      "speaker": "Unknown",
+      "en": "This is the experience that users actually feel.",
+      "zh": "这是用户真正能感受到的体验。"
+    },
+    {
+      "timestamp": "04:34",
+      "speaker": "Unknown",
+      "en": "The difference comes from the entire inference stack.",
+      "zh": "这种差异来自整个推理技术栈。"
+    },
+    {
+      "timestamp": "05:02",
+      "speaker": "Unknown",
+      "en": "This matters because fast and reliable inference is not just one optimization.",
+      "zh": "这很重要，因为快速且可靠的推理不只是单一的优化。"
+    },
+    {
+      "timestamp": "05:08",
+      "speaker": "Unknown",
+      "en": "It is batching, scheduling, quantization, spec decoding, and corners.",
+      "zh": "它是批处理、调度、量化、投机解码以及 corners 的组合。"
+    },
+    {
+      "timestamp": "05:45",
+      "speaker": "Unknown",
+      "en": "In many real workloads, like 50% to 80% to 90% of the tokens are identical across different requests.",
+      "zh": "在许多真实的工作负载中，大约 50% 到 80% 到 90% 的 tokens 在不同请求之间是完全相同的。"
+    },
+    {
+      "timestamp": "06:04",
+      "speaker": "Unknown",
+      "en": "So if we recompute this shared prefix every time, you're wasting both latency and GPU cycles.",
+      "zh": "所以如果我们每次都重新计算这个共享前缀，就是在同时浪费延迟和 GPU cycles。"
+    },
+    {
+      "timestamp": "06:53",
+      "speaker": "Unknown",
+      "en": "So KVCache is extremely memory intensive.",
+      "zh": "KVCache 对内存的消耗极其巨大。"
+    },
+    {
+      "timestamp": "06:56",
+      "speaker": "Unknown",
+      "en": "For large models and long contacts, KVCache size can exceed model weights.",
+      "zh": "对于大模型和长上下文，KVCache 的大小可能超过模型权重。"
+    },
+    {
+      "timestamp": "08:06",
+      "speaker": "Unknown",
+      "en": "Then the target model validates those candidates in a single pass, and if the tokens are accepted, they are free.",
+      "zh": "然后目标模型在单次前向传播中验证这些候选，如果 tokens 被接受，它们就是免费的。"
+    },
+    {
+      "timestamp": "09:05",
+      "speaker": "Unknown",
+      "en": "So the best strategy is not static.",
+      "zh": "所以最佳策略不是静态的。"
+    },
+    {
+      "timestamp": "09:49",
+      "speaker": "Unknown",
+      "en": "So production AI application",
+      "zh": "对于生产环境的 AI 应用来说，"
+    },
+    {
+      "timestamp": "09:51",
+      "speaker": "Unknown",
+      "en": "Reliability is part of speed.",
+      "zh": "可靠性本身就是速度的一部分。"
+    },
+    {
+      "timestamp": "10:18",
+      "speaker": "Unknown",
+      "en": "And if just one call face in the middle, the entire workflow can be invalidated.",
+      "zh": "而如果中间哪怕只有一次调用失败，整个工作流都可能作废。"
+    },
+    {
+      "timestamp": "10:24",
+      "speaker": "Unknown",
+      "en": "So that's why we do not optimize only for the latency or throughput.",
+      "zh": "这就是为什么我们不仅仅针对延迟或吞吐量做优化。"
+    },
+    {
+      "timestamp": "10:27",
+      "speaker": "Unknown",
+      "en": "We optimize the full API experiences, including the error rate, uptime, all those things together.",
+      "zh": "我们优化的是完整的 API 体验，包括错误率、正常运行时间，以及所有这些东西加在一起。"
+    },
+    {
+      "timestamp": "11:05",
+      "speaker": "Unknown",
+      "en": "But for your application, the only benchmark that really matters is your own workload.",
+      "zh": "但对你的应用来说，唯一真正重要的基准是你自己的负载。"
+    },
+    {
+      "timestamp": "11:10",
+      "speaker": "Unknown",
+      "en": "So your prompt, your token lengths, your traffic patterns, and your latency expectation.",
+      "zh": "也就是你的 prompt、你的 token 长度、你的流量模式，以及你的延迟预期。"
+    },
+    {
+      "timestamp": "11:51",
+      "speaker": "Unknown",
+      "en": "So Kilocode is one of the largest coding agent platform processing several trillions of tokens every week.",
+      "zh": "Kilocode 是最大的 coding agent 平台之一，每周处理数万亿 token。"
+    },
+    {
+      "timestamp": "12:14",
+      "speaker": "Unknown",
+      "en": "Friendly AI was over like seven times faster and had a significantly lower error rate.",
+      "zh": "Friendly AI 快了大约七倍，而且错误率显著更低。"
+    }
+  ],
+  "voice_script": "今天这期，咱们聊一个很多人可能没想过的问题：大模型已经够好了，那接下来拼的是什么？主角叫 Yunmo，是 FriendliAI 的创始工程师，专门研究怎么让模型在生产环境里跑得又快又稳。这场演讲的核心就一句话：开源模型这两年，已经悄悄跨过了一道门槛。\n\n先交代下背景。像 GLM 5.2 这样的开放权重模型，在编码、推理、智能体这些基准测试里，已经和 Claude Opus 4.8 这样的头部闭源模型打成平手，有些排行榜上甚至排到了前面。所以 Yunmo 说，问题已经不再是模型够不够好，而是你能不能在生产环境里，又快又稳地跑它。\n\n这话说得有依据吗？现场演示给出了答案。\n\n第一个对比是看成本。让 GLM 5.2 和 Claude Opus 4.8 各写一个塔防游戏，两个都做出来了：有地图，炮塔会在射程里攻击敌人，一个提示词就搞定，成品都能玩。但一算账，差距就出来了——GLM 5.2 完成这个任务，便宜了五点六倍以上。你可能会想，便宜点而已，至于吗？至于。因为在智能体工作流里，任务要反复迭代、反复调用模型，这个差距会迅速累加。说白了，模型质量的竞争，正在变成你跑得起什么的竞争。\n\n第二个对比更狠：模型相同、任务相同，只换服务商。同样用 GLM 5.2 加同一套编码智能体流程，做一个消除类小游戏。FriendliAI 跑完用了不到两分钟，另一家服务商花了三分多钟，同一个模型，快了三倍。这差距是怎么来的？答案是整个推理技术栈：缓存系统、路由策略、调度器、量化方案、GPU 内核，全都拼在一起，才决定你最终感受到的体验。\n\n那这套技术栈里，最值钱的是什么？这就要看智能体应用的一个特点了：输入很长，动辄超过一万词元，输出反而很短。而且大量输入是重复的——很多真实负载里，百分之五十到百分之九十的词元，在不同请求之间完全一样。处理这些输入的预填充阶段，正是计算成本的大头。每次都从头算一遍重复的部分，就是在白白浪费时间和显卡算力。解法是复用缓存，但要真正跑起来，需要两个机制。\n\n第一个是缓存感知路由。缓存分散在各台机器上，路由器必须把请求送到已经持有相关缓存的那台，否则复用就白搭。第二个是缓存分级。缓存极其占内存，长上下文下，它的体量甚至可能超过模型本身。所以热数据放显存，温数据放内存，冷数据下沉到硬盘，系统动态搬运。\n\n缓存解决的是重复输入的问题，那生成输出这边呢？还有一招，叫投机解码。标准的大模型解码，一次只生成一个词元，显卡经常吃不饱。投机解码换了个思路：一次先猜出多个候选词元，让主模型一遍验证。猜中的等于白送，而且输出质量完全不变。怎么猜？用小模型猜，命中率高但费算力；用提示词里的模式猜，开销小，但只在输出长得像上下文时好用。FriendliAI 的做法是混合策略，运行时根据负载动态切换，草稿模型还能根据真实流量持续自我改进。\n\n不过光快还不够。一个平均很快、但时不时超时报错限流的服务，用户体验照样崩。智能体尤其脆弱：一个任务要调好多次模型，中间任何一次失败，整条流程可能作废。所以可靠性本身就是速度的一部分。FriendliAI 不只优化延迟，还把错误率、在线时长一起优化，他们的 GLM 5.1 Pro 服务在线时长超过百分之九十九点九。\n\n最后 Yunmo 提醒了一句实在话：所有推理服务商都说自己快，也都在某个基准、某种条件下快过。但对你的应用来说，唯一真正算数的基准，是你自己的工作负载——你的提示词、词元长度、流量模式和延迟要求。所以下次挑服务商，别只看厂商的基准成绩，拿你自己的真实负载去测。"
+}
