@@ -1,0 +1,155 @@
+{
+  "title_zh": "别再「烧token」了：一个没有锁定的人工智能未来",
+  "tldr": "Tailscale 战略项目团队的 Remy Guercio 在 AI Engineer World's Fair 上讲如何用 AI 网关摆脱供应商锁定、从烧钱走向讲回报。",
+  "digest_md": "过去 12 个月，AI 行业的关键词可以用一句话概括：token maxing——也就是拼命往超长上下文窗口里塞东西。Remy Guercio 在 Tailscale 的战略项目团队工作，负责公司的 AI 网关 Aperture。她在演讲中提出了下一个 12 个月的关键词：ROI maxing(追求回报最大化)，并解释了为什么 AI 网关是实现它的关键工具。\n\n## 疯狂烧 token 的时代出了什么问题？\n\nRemy 说，百万级 token 的上下文窗口、随处可取的数据(比如 MCP)、擅长找上下文的编程工具，这些确实让真正的智能体编程成为可能，很酷。但代价极高。\n\n她在网关后台看到的数据很惊人：大量会话长达几百条甚至上千条消息，从来没人清理上下文，一路滚下去。有的会话累计几千万 token,缓存全程打满。**她称之为默认就在浪费 token**。[02:30 Unknown]\n\n另一个问题是垂直整合：从模型到工具链全由一家包办，Claude Code、Codex 都是例子。用了就很难换，这就是锁定。\n\n## 慌乱之中的常见错误：全公司统一到一个供应商\n\nRemy 过去半年和几百个团队聊过他们的 AI 开销。很多人天天收到 Anthropic 和 Codex 的账单，财务和 IT 部门一起找上门，于是给出一个最自然的答案：全员统一用一家供应商，顶多两家。\n\n她直说这不是好主意。**表面上有了控制，实际上是把整个组织 deeper 地锁进一家生态**。\n\n## 什么是 ROI maxing?\n\n她给未来 12 个月起的词是 ROI maxing。这不只是省钱，而是要证明你做的事情真的有价值，并且保持开放。\n\n如果公司只能用两家的前沿模型及其整套生态，成本会高到某些事根本做不了——AI 就没法推广到全公司。**想让 AI 用得更广，就得在每一层都有选择权**。\n\n## 内部 AI 部署有四层，每层都该能换\n\n她把组织内部的 AI 部署拆成四个组件 [06:11 Unknown]:\n\n- 模型层：用哪个大模型\n- 数据连接层：MCP、命令行工具、API,甚至读文件，任何把数据喂给智能体的方式\n- 界面层：从聊天窗口，到 IDE,到手机，再到通过 Slack 跟智能体对话\n- 沙箱层：智能体运行的环境\n\n**所谓 ROI maxing,就是在每一层都保留选择权**。不同团队的选择可以不一样：她不觉得工程师团队会在 Slack 里写代码，但市场团队完全可以在 Slack 里问数据问题。关键是，任何一层在任何时候都能换。\n\n## AI 网关：夹在智能体和一切端点中间的翻译官\n\nAperture 做的事，是坐在智能体与所有端点——模型、MCP、API——的中间，既能控制也能观察。安全角度、成本角度，甚至事后诊断：便宜的模型经常停不下来、原地打转，但它们很擅长事后分析自己哪里错了。有了网关的日志，你就能把记录丢回去问它：==刚才到底发生了什么==？[09:03 Unknown]\n\nAperture 建在 Tailscale 之上。Tailscale 是基于 WireGuard 的身份化网状网络：每台设备、每个用户接入网络时都自带身份——这是一个代码审查机器人、这是某台具体的实例、这是某个用户，还能同步 Entra 或 Okta 里的用户组。\n\n好处是：密钥只配一次在网关上，用户和智能体连上网关，它就知道你是谁、能用哪些模型、预算多少。不用给每个工具反复创建和分发密钥。\n\n## 数据层和界面层同样可以解耦\n\n在数据侧，管理员在网关里配置好允许的 MCP 服务器，再按身份授权：市场团队可以用 Google Calendar 和 Gmail,工程团队额外有 GitHub,甚至可以细分到只读或可写。谁想换 Cursor、Claude Code 还是别的什么新工具，只要接上网关，一切认证自动以本人的身份完成。正是这些小摩擦，让人懒得尝试新工具、新工作流。[14:44 Unknown]\n\n界面侧，Aperture 自带聊天界面，但也开放底层 API,你可以自己搭 Slack 机器人、手机应用甚至纯语音界面。即将推出的透传认证功能，能保证即使用第三方界面，用户身份信息也不会丢成一句来自系统。\n\n沙箱层她认为行业目前做得不错，百花齐放，Aperture 也会加入沙箱编排能力。\n\n## 本集带走\n\n- 过去 12 个月是 token maxing:上下文越塞越多，账单失控，还带来供应商锁定\n- 下一个 12 个月是 ROI maxing:证明价值、保持每层的选择权\n- 内部 AI 部署拆四层：模型、数据连接、界面、沙箱——每层都该能独立更换\n- 全公司统一到一家供应商是最常见、也最错误的应对方式\n- AI 网关(不一定非得是 Aperture)把所有层拉到一处，统一认证、控制成本，还能事后诊断智能体到底做了什么",
+  "quotes": [
+    {
+      "en": "You would not believe the number of sessions that are hundreds or thousands of messages long where nobody clears the context.",
+      "zh": "你不会相信有多少会话长达数百甚至数千条消息，而没有人清除上下文。",
+      "timestamp": "02:30",
+      "speaker": "Remy Guercio"
+    },
+    {
+      "en": "You will have tens of millions of tokens of a session where the cache is basically maxed out the entire time.",
+      "zh": "你会看到单个会话有数千万的 token，其中缓存基本上整个时间都被打满了。",
+      "timestamp": "02:44",
+      "speaker": "Remy Guercio"
+    },
+    {
+      "en": "We're not going to be token maxing. We're going to be ROI maxing.",
+      "zh": "我们不再做 token 最大化了，我们要做 ROI 最大化。",
+      "timestamp": "05:18",
+      "speaker": "Remy Guercio"
+    },
+    {
+      "en": "They're usually not great at stopping themselves, but they are great at analyzing where they went wrong after the fact.",
+      "zh": "它们通常不太擅长让自己停下来，但它们很擅长在事后分析自己哪里出错了。",
+      "timestamp": "09:07",
+      "speaker": "Remy Guercio"
+    },
+    {
+      "en": "You can tell exactly when an MCP server was built by exactly how they decided to do off.",
+      "zh": "你可以完全通过他们决定怎么做认证的方式，准确判断一个 MCP 服务器是什么时候构建的。",
+      "timestamp": "13:23",
+      "speaker": "Remy Guercio"
+    },
+    {
+      "en": "ROI maxing really is all about maximizing choice to prevent lock-in.",
+      "zh": "ROI 最大化其实就是最大化选择以防止锁定。",
+      "timestamp": "17:54",
+      "speaker": "Remy Guercio"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "01:53",
+      "speaker": "Remy",
+      "en": "Token maxing is cool, but it has problems.",
+      "zh": "Token 最大化很酷，但它有问题。"
+    },
+    {
+      "timestamp": "02:20",
+      "speaker": "Remy",
+      "en": "But it also, it does incentivize what I would call like wasted tokens by default.",
+      "zh": "但它也确实激励了我所说的默认浪费 token 的行为。"
+    },
+    {
+      "timestamp": "02:30",
+      "speaker": "Remy",
+      "en": "You would not believe the number of sessions that are hundreds or thousands of messages long where nobody clears the context.",
+      "zh": "你不会相信有多少会话长达数百甚至数千条消息，而没有人清除上下文。"
+    },
+    {
+      "timestamp": "02:44",
+      "speaker": "Remy",
+      "en": "You will have tens of millions of tokens of a session where the cache is basically maxed out the entire time.",
+      "zh": "你会看到单个会话有数千万的 token，其中缓存基本上整个时间都被打满了。"
+    },
+    {
+      "timestamp": "02:57",
+      "speaker": "Remy",
+      "en": "People are doing new things, building new things, but this has led to, you know, in many cases, very vertically integrated tool chains.",
+      "zh": "人们在尝试新事物，构建新东西，但这导致在很多情况下出现了非常垂直整合的工具链。"
+    },
+    {
+      "timestamp": "04:34",
+      "speaker": "Remy",
+      "en": "That is not a great idea.",
+      "zh": "这不是一个好主意。"
+    },
+    {
+      "timestamp": "04:37",
+      "speaker": "Remy",
+      "en": "But when you're in that panic zone of we've spent a lot of money and we don't know how exactly, and finance is talking to you, IT is being like, what are you doing?",
+      "zh": "但当你处在那种恐慌区——我们花了很多钱但不知道具体花在哪，财务在找你谈话，IT 在质问你：你在干什么？"
+    },
+    {
+      "timestamp": "05:18",
+      "speaker": "Remy",
+      "en": "We're not going to be token maxing. We're going to be ROI maxing.",
+      "zh": "我们不再做 token 最大化了，我们要做 ROI 最大化。"
+    },
+    {
+      "timestamp": "05:45",
+      "speaker": "Remy",
+      "en": "That's a certain cost level where it just makes certain things untenable.",
+      "zh": "那就会有一个特定的成本水平，使得某些事情变得难以为继。"
+    },
+    {
+      "timestamp": "05:50",
+      "speaker": "Remy",
+      "en": "You can't actually expand AI usage into the company if that's the only way you can use AI.",
+      "zh": "如果那是你使用 AI 的唯一方式，你实际上无法把 AI 的使用扩展到整个公司。"
+    },
+    {
+      "timestamp": "07:04",
+      "speaker": "Remy",
+      "en": "And to be ROI maxing means to be maxing every opportunity that you have for choice, to make a choice at one of those layers.",
+      "zh": "而做 ROI 最大化，意味着把你拥有的每一个选择机会都最大化，在那些层中的某一层做出选择。"
+    },
+    {
+      "timestamp": "09:07",
+      "speaker": "Remy",
+      "en": "They're usually not great at stopping themselves, but they are great at analyzing where they went wrong after the fact.",
+      "zh": "它们通常不太擅长让自己停下来，但它们很擅长在事后分析自己哪里出错了。"
+    },
+    {
+      "timestamp": "13:23",
+      "speaker": "Remy",
+      "en": "You can tell exactly when an MCP server was built by exactly how they decided to do off.",
+      "zh": "你可以完全通过他们决定怎么做认证的方式，准确判断一个 MCP 服务器是什么时候构建的。"
+    },
+    {
+      "timestamp": "14:44",
+      "speaker": "Remy",
+      "en": "It's all those little points of friction that lead to use cases where people just don't try new use cases.",
+      "zh": "正是所有那些小小的摩擦点，导致了人们干脆不去尝试新用例的情况。"
+    },
+    {
+      "timestamp": "17:51",
+      "speaker": "Remy",
+      "en": "ROI maxing really is all about maximizing choice to prevent lock-in.",
+      "zh": "ROI 最大化其实就是最大化选择以防止锁定。"
+    },
+    {
+      "timestamp": "18:24",
+      "speaker": "Remy",
+      "en": "They have their usage behind an AI gateway just to have an idea as to what their agents are doing.",
+      "zh": "他们把自己的使用放在一个 AI 网关后面，只是为了了解他们的智能体在做什么。"
+    },
+    {
+      "timestamp": "03:20",
+      "speaker": "Remy",
+      "en": "How do we address the lock-in and how do we actually improve how we use AI such that we can use it for things that aren't just essentially frontier tasks or where we're just wasting money, wasting tokens?",
+      "zh": "我们如何解决锁定问题，以及我们如何真正改进我们使用 AI 的方式，使得我们可以把它用于那些不只是一线的、前沿的任务，或者不再是在浪费钱、浪费 token 的场景？"
+    },
+    {
+      "timestamp": "18:35",
+      "speaker": "Remy",
+      "en": "With something like an AI gateway you can actually go back and you can see and you can look and you can actually diagnose where it went wrong what happened",
+      "zh": "有了类似 AI 网关这样的东西，你实际上可以回过头去看、去查看，真正诊断它在哪里出了错、发生了什么"
+    }
+  ],
+  "voice_script": "今天要讲的,是关于花钱的事。具体说,是关于公司用 AI 大模型的时候,钱是怎么被烧掉的,以及怎么把这笔账算明白。\n\n主讲人是 Remy Guercio,她在 Tailscale 的战略项目团队工作,负责公司内部的 AI 网关,产品叫 Aperture。因为做网关,能看到大量公司真实使用 AI 的数据。过去半年,她和几百个团队聊过他们的 AI 开销,所以她讲的不是理论,是后台里实际看到的账单。\n\n她先给过去 12 个月起了个词,叫 token maxing,翻译过来就是拼命往模型里塞东西。这个词背后的背景是:现在模型的上下文窗口已经到了百万级 token,也就是一次能塞进去海量内容;各种数据随处可取,比如 MCP 这种协议;编程工具也变得很擅长自己去找上下文。这些加起来,让真正的智能体编程成为可能,确实很酷。\n\n但代价极高。在网关后台看到的数据很吓人:有句话她原话是这么说的——你不会相信有多少会话长达数百甚至数千条消息,而没有人清除上下文。会话一路滚下去,没人清理。有的单个会话累计了几千万 token,缓存基本上全程都是打满的。按她的说法,这就是默认在浪费 token。\n\n还有第二个问题,叫锁定。现在很多工具是垂直整合的,从模型到工具链全由一家包办,Claude Code、Codex 都是例子。你一旦用上,就很难再换到别家去。\n\n那面对失控的账单,公司通常怎么办?财务和 IT 部门天天收到 Anthropic 和 Codex 的账单,一起找上门,于是给出一个看起来最自然的答案:全公司统一用一家供应商,顶多两家。听着挺有控制力,对吧?\n\n但 Remy 直说,这不是好主意。表面上有了控制,实际上是把整个组织更深地锁进一家的生态。而且成本会高到有些事根本做不了,AI 就没法推广到全公司。所以她给下一个 12 个月起了个新词:ROI maxing,追求回报最大化。注意,这不只是省钱,而是要证明你做的事情真的有价值,同时保持开放。她有句话把这件事说得很透:ROI 最大化,其实就是最大化选择,以防止锁定。\n\n那\"选择权\"具体落在哪?她把公司内部的 AI 部署拆成四层。第一层是模型,你用哪个大模型。第二层是数据连接,就是任何把数据喂给智能体的方式,可以是 MCP、命令行工具、API,甚至就是读文件。第三层是界面,从聊天窗口到 IDE,到手机,再到通过 Slack 跟智能体对话。第四层是沙箱,也就是智能体实际运行的环境。\n\n所谓 ROI maxing,就是在每一层都保留选择权。而且不同团队的选择可以不一样。打个比方,工程师团队大概不会在 Slack 里写代码,但市场团队完全可以在 Slack 里问数据问题。关键在于,任何一层,在任何时候都能换。\n\n说到这,你可能要问了:道理都懂,可四层东西,难道每层都要单独搭一套认证、一套管理?这就是 AI 网关登场的地方。Aperture 做的事,是坐在智能体和所有端点——模型、MCP、API——的中间,既能控制,也能观察。\n\n先说控制。安全角度、成本角度都好理解,还有个容易被忽略的角度:事后诊断。便宜的模型经常有个毛病,停不下来,原地打转,但有句话是这么评价的——它们通常不太擅长让自己停下来,但它们很擅长在事后分析自己哪里出错了。有了网关的完整日志,你就可以把记录丢回去问它:刚才到底发生了什么?\n\n再看认证是怎么被简化的。Aperture 建在 Tailscale 之上,而 Tailscale 是一个基于 WireGuard 的身份化网状网络:每台设备、每个用户接入网络时都自带身份——这是一台代码审查机器人,这是某个具体的实例,这是某位用户,还能同步 Entra 或 Okta 里的用户组。好处是,密钥只需要在网关上配一次。用户和智能体连上网关,系统就知道你是谁、能用哪些模型、预算是多少,不用给每个工具反复创建和分发密钥。\n\n数据层也一样可以解耦。管理员在网关里配好允许的 MCP 服务器,再按身份授权:市场团队可以用 Google Calendar 和 Gmail,工程团队额外有 GitHub,还能细分到只读或可写。谁想换个工具,不管你用 Cursor、Claude Code 还是别的新东西,只要接上网关,认证自动以本人的身份完成。这一步为什么重要?因为正是这些认证上的小摩擦,让人懒得去尝试新工具、新工作流。摩擦小了,选择权才真的在你手里。\n\n界面侧同样如此。Aperture 自带聊天界面,但也开放底层 API,你可以自己搭 Slack 机器人、手机应用,甚至纯语音界面。还有一个即将推出的透传认证功能,能保证就算你用第三方界面,用户身份信息也不会丢成一句冷冰冰的\"来自系统\"。至于沙箱层,她认为行业目前做得不错,百花齐放,Aperture 也会加入沙箱编排能力。\n\n最后帮你把这一集收拢一下。过去 12 个月是 token maxing,上下文越塞越多,账单失控,还带来供应商锁定;下一个 12 个月是 ROI maxing,证明价值,并且在模型、数据连接、界面、沙箱这四层里,每一层都保住自己换的权利。全公司统一到一家供应商,是最常见、也最错误的应对。而 AI 网关——不一定非得是 Aperture——把所有层拉到一处,统一认证、管住成本,还能事后诊断智能体到底干了什么。\n\n一句话带走:ROI 最大化,其实就是最大化你的选择,让锁定无处发生。"
+}

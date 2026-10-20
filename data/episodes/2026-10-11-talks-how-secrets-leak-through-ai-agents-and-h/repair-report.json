@@ -1,0 +1,67 @@
+{
+  "kept": [
+    {
+      "i": 1,
+      "timestamp": "02:00",
+      "speaker": "Joshua Moe",
+      "trimmed": false,
+      "tsWas": "02:00",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 2,
+      "timestamp": "02:26",
+      "speaker": "Joshua Moe",
+      "trimmed": false,
+      "tsWas": "02:18",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 3,
+      "timestamp": "02:43",
+      "speaker": "Joshua Moe",
+      "trimmed": false,
+      "tsWas": "02:42",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 4,
+      "timestamp": "09:05",
+      "speaker": "Joshua Moe",
+      "trimmed": false,
+      "tsWas": "09:05",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 5,
+      "timestamp": "10:26",
+      "speaker": "Joshua Moe",
+      "trimmed": false,
+      "tsWas": "10:21",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 6,
+      "timestamp": "10:35",
+      "speaker": "Joshua Moe",
+      "trimmed": false,
+      "tsWas": "10:35",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 8,
+      "timestamp": "13:49",
+      "speaker": "Joshua Moe",
+      "trimmed": false,
+      "tsWas": "13:47",
+      "spkWas": "Unknown"
+    }
+  ],
+  "dropped": [
+    {
+      "i": 7,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "by tying the password vaults to the agentic runtime instead of the reasoning layer, the agent runtime is essentially turned into an execution layer, which then we can consider it deterministic."
+    }
+  ]
+}

@@ -1,0 +1,1243 @@
+{
+  "episode_id": "2026-10-20-iltb-christina-cacioppo-building-an-enduring",
+  "podcast": "Invest Like the Best",
+  "date": "2026-10-20",
+  "tags": [
+    "AI 公司转型",
+    "智能体",
+    "定价策略",
+    "人才战争",
+    "安全合规"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "patrick-o-shaughnessy",
+      "type": "person",
+      "role": "host",
+      "name": "Patrick O'Shaughnessy",
+      "file": "Patrick O'Shaughnessy",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 917,
+          "t": [
+            3442.571,
+            3445.032
+          ],
+          "quote": "Patrick O'Shaughnessy is the CEO of Positive Sum.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "christina-cacioppo",
+      "type": "person",
+      "role": "cohost",
+      "name": "Christina Cacioppo",
+      "file": "Christina Cacioppo",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "vanta",
+      "type": "company",
+      "role": "company",
+      "name": "Vanta",
+      "file": "Vanta",
+      "primary": true,
+      "how_described": "本集主角:Christina Cacioppo 八年前创办的安全合规公司(SOC 2 等),如今约 16000 客户、5 款产品,产品已转向由智能体驱动、主动替用户执行安全任务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            118.236,
+            120.759
+          ],
+          "quote": "Can you give us like the one-minute history of Vanta?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 26,
+          "t": [
+            127.727,
+            130.788
+          ],
+          "quote": "It started Vanta about eight years ago, which feels about 8,000.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 51,
+          "t": [
+            247.636,
+            250.978
+          ],
+          "quote": "So now you can connect Vanta to one of 400 tools.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 81,
+          "t": [
+            322.474,
+            332.662
+          ],
+          "quote": "To say more about what that's felt like, roughly Vanta is a business that is growing very fast by historical standards with very high margins, which four years ago is considered like the best business model ever.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 125,
+          "t": [
+            534.626,
+            543.994
+          ],
+          "quote": "This is more like the Vanta product experience is now oriented around an agent that is bringing you as a user things and often saying, hey, I went and did this for you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 166,
+          "t": [
+            687.879,
+            690.741
+          ],
+          "quote": "From a product perspective, we call it all the Vanta agent and it's one thing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 242,
+          "t": [
+            981.062,
+            986.545
+          ],
+          "quote": "Vanta automates compliance so your team can spend less time on security reviews and more time getting customers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 243,
+          "t": [
+            986.945,
+            996.089
+          ],
+          "quote": "Vanta cuts audit prep by 82% and gives you instant up-to-date proof of trust without all the manual work so you can close deals faster and with less friction.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 244,
+          "t": [
+            996.75,
+            1005.394
+          ],
+          "quote": "Customers report a 526% return on investment and more than 16,000 companies use Vanta, including Ramp, Harvey, and Snowflake.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1005.874,
+            1009.896
+          ],
+          "quote": "Get started with $1,000 off at vanta.com slash invest.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1145.917,
+            1148.299
+          ],
+          "quote": "So if you're a small company starting out on Vanta, great.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1157.406,
+            1160.589
+          ],
+          "quote": "And you come to Vanta because you want that visualized.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1292.287,
+            1298.528
+          ],
+          "quote": "It's funny, for me, it's like, oh, should I adjust the pitch and be like, well, inevitably, the baseline here is Vanta's $50 billion.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1309.47,
+            1314.371
+          ],
+          "quote": "Because you're like, well, that is the pitch that people who work at Vanta are getting from other companies.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1322.255,
+            1326.276
+          ],
+          "quote": "There's a Vanta principle, a value of a principle of do what it says on the tin.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1397.029,
+            1399.591
+          ],
+          "quote": "But not in a pokey way, just what's annoying you at Vanta?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1400.211,
+            1402.813
+          ],
+          "quote": "One of these in specific, very strong leader, still at Vanta.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 357,
+          "t": [
+            1403.374,
+            1409.519
+          ],
+          "quote": "It was basically this person felt like they couldn't make decisions that would put Vanta on a similar trajectory.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 402,
+          "t": [
+            1567.9,
+            1574.964
+          ],
+          "quote": "I think the thing I care a bunch about that then will get me to caring about these multiples is the sentiment of people who work at Vanta.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 414,
+          "t": [
+            1620.669,
+            1628.577
+          ],
+          "quote": "How does all of this affect your exit ambitions to go public or to be sold or realize some endgame for Vanta?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 429,
+          "t": [
+            1698.422,
+            1704.348
+          ],
+          "quote": "And would take a worse salesperson on sales skill who knows the Vanta pieces more.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 458,
+          "t": [
+            1805.521,
+            1809.962
+          ],
+          "quote": "So if I was one of these people and I came into Vanta, what does post-training literally mean?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2019.986,
+            2028.071
+          ],
+          "quote": "If you dream the most about where the business could go over the next several years, what's the version of Vanta that could look like that?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 515,
+          "t": [
+            2028.915,
+            2031.117
+          ],
+          "quote": "We think of Vanta as a security company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 523,
+          "t": [
+            2066.907,
+            2070.43
+          ],
+          "quote": "That's one of the founding theses of Vanta eight years ago, but it feels even more true now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 527,
+          "t": [
+            2086.45,
+            2091.114
+          ],
+          "quote": "And Vanta is the thing that connects both sides of that marketplace.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2208.843,
+            2210.484
+          ],
+          "quote": "For some parts of Vanta, yes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 612,
+          "t": [
+            2374.333,
+            2380.318
+          ],
+          "quote": "As your business grows, Vanta scales with you, automating compliance and giving you a single source of truth for security and risk.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 613,
+          "t": [
+            2380.558,
+            2383.08
+          ],
+          "quote": "Learn more at vanta.com slash invest.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 684,
+          "t": [
+            2603.637,
+            2608.341
+          ],
+          "quote": "We're not going to put Tableau inside of Vanta, which is probably what we would have done in 2022, 2021, if we had been building it then.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 751,
+          "t": [
+            2868.79,
+            2877.813
+          ],
+          "quote": "Over the past couple of years, Vanta has spent more time with governments, federal, state, local levels, inside the U.S., outside the U.S.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 764,
+          "t": [
+            2947.247,
+            2950.469
+          ],
+          "quote": "What would be your big pitch to come work at Vanta right now?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 859,
+          "t": [
+            3215.727,
+            3219.529
+          ],
+          "quote": "Things that made me think where I was like, oh, no, Vanta's screwed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 872,
+          "t": [
+            3273.247,
+            3292.416
+          ],
+          "quote": "And again, to a host of customers, regulators, lawmakers, auditors, et cetera, Vanta at $250 billion is in the center of all of those transactions, helping companies meet those high bars or wherever those bars are set, and then conveying that, helping them go convey that and accelerate their businesses.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 877,
+          "t": [
+            3300.339,
+            3301.54
+          ],
+          "quote": "And Vanta's job is?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 906,
+          "t": [
+            3397.034,
+            3402.939
+          ],
+          "quote": "If you had to define what the next five years of Vanta will be in one word, what word do you pick?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 928,
+          "t": [
+            3501.052,
+            3506.954
+          ],
+          "quote": "As your business grows, Vanta scales with you, automating compliance and giving you a single source of truth for security and risk.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 929,
+          "t": [
+            3507.294,
+            3509.715
+          ],
+          "quote": "Learn more at vanta.com slash invest.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集核心概念:Vanta 的产品体验围绕一个长时间运行的智能体展开,它会主动发现安全事项(如离职员工账号未注销)、写自定义智能体、经用户点头后执行;已有 25% 客户进入该模式,目标是 75%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            251.658,
+            258.883
+          ],
+          "quote": "We pull a ton of data out of those tools, and that's what powers the automation, the agent, the AI, all of that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 57,
+          "t": [
+            275.775,
+            276.696
+          ],
+          "quote": "Software and agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 77,
+          "t": [
+            317.891,
+            318.632
+          ],
+          "quote": "What is the agent?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 117,
+          "t": [
+            477.325,
+            487.169
+          ],
+          "quote": "Where we are from an agent in our product perspective against quote unquote AI applications, we have yet to find someone who is further along.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 120,
+          "t": [
+            497.913,
+            503.979
+          ],
+          "quote": "And generally finding they're not yet where we are, where an agent is doing most of the work.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 122,
+          "t": [
+            506.941,
+            523.477
+          ],
+          "quote": "Our agent is auto-generating UI on the fly, because sometimes you want chat, right, and sometimes you want UI, but we just have an agent that is building UI, user can do something, comes back in the flow, keeps it going, very much optimized around the, like, keep the user going in the flow loops.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 125,
+          "t": [
+            534.626,
+            543.994
+          ],
+          "quote": "This is more like the Vanta product experience is now oriented around an agent that is bringing you as a user things and often saying, hey, I went and did this for you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 132,
+          "t": [
+            553.944,
+            556.348
+          ],
+          "quote": "I just wrote a custom agent for you that will go do that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 142,
+          "t": [
+            574.912,
+            581.018
+          ],
+          "quote": "The idea is like the agent will just be doing more of this work with the user's permission, but it's like, if they tell us to go do it, we are just going to go.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 157,
+          "t": [
+            638.191,
+            645.736
+          ],
+          "quote": "That experience that I just talked through where the agent is going off and doing things, we just fundamentally believe that is a much better user experience.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 165,
+          "t": [
+            680.215,
+            687.659
+          ],
+          "quote": "This was something we started concentrating on at the beginning of the year is basically evals, task-specific or agent-specific evals.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 166,
+          "t": [
+            687.879,
+            690.741
+          ],
+          "quote": "From a product perspective, we call it all the Vanta agent and it's one thing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 197,
+          "t": [
+            805.879,
+            809.2
+          ],
+          "quote": "And then our user has to be like, oh, well, if I do this with the agent, I paid this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 208,
+          "t": [
+            864.455,
+            872.182
+          ],
+          "quote": "is modularizing parts of the codebase so that the agent can just understand smaller parts of it and understand it fully and then be really effective.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1099.562,
+            1104.405
+          ],
+          "quote": "So that when somebody comes and they say, we're going to fire all of our SDRs because I built one agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 520,
+          "t": [
+            2047.611,
+            2049.693
+          ],
+          "quote": "We've already got the intelligence via the agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 554,
+          "t": [
+            2197.648,
+            2201.409
+          ],
+          "quote": "Where an agent is trying to break in like a white hacker agent all the time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 555,
+          "t": [
+            2201.609,
+            2204.27
+          ],
+          "quote": "And then every time they find something, it's got a buddy agent that's a patch.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 674,
+          "t": [
+            2562.939,
+            2571.287
+          ],
+          "quote": "I mean, one conversation I have had and have is we have tried over the last year to build in such an agent-forward way.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 675,
+          "t": [
+            2571.948,
+            2572.909
+          ],
+          "quote": "What does agent mean?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 677,
+          "t": [
+            2574.132,
+            2576.014
+          ],
+          "quote": "You get 2x revenue multiple if you say agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 683,
+          "t": [
+            2599.654,
+            2603.617
+          ],
+          "quote": "We'll have our agent go make charts for you on demand based on all our data.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 867,
+          "t": [
+            3238.805,
+            3244.149
+          ],
+          "quote": "You see it in the data center, conversations, to some extent in the personal agent stuff.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent-forward",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体优先 (agent-forward)",
+      "file": "智能体优先",
+      "primary": false,
+      "how_described": "Christina 说过去一年 Vanta 一直尝试「以非常智能体优先的方式构建」,宁可做好的 harness 而不是往产品里塞 Tableau 式的 SaaS UI。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 674,
+          "t": [
+            2562.939,
+            2571.287
+          ],
+          "quote": "I mean, one conversation I have had and have is we have tried over the last year to build in such an agent-forward way.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "token-pricing",
+      "type": "concept",
+      "role": "concept",
+      "name": "token 定价 (token pricing)",
+      "file": "token 定价",
+      "primary": true,
+      "how_described": "本集反复讨论:按 token 向客户收费会被精明的客户看穿是「给 Claude token 加价 4 倍转卖」,等于和模型厂商正面竞争;Vanta 的做法是自己吞下 token 成本、接受更低利润率,先把使用量和体验做上去。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 92,
+          "t": [
+            378.841,
+            390.305
+          ],
+          "quote": "This is a good business and you have to keep doing things that make business sense and doing the things that customers want, which may or may not be token pricing models that put you more in the latter category than the former profile.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 152,
+          "t": [
+            614.243,
+            622.725
+          ],
+          "quote": "What we've seen on token pricing is if you're trying to mark up at all, users are very smart and you will lose on that comparison.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "outcome-pricing",
+      "type": "concept",
+      "role": "concept",
+      "name": "按结果定价 (outcome pricing)",
+      "file": "按结果定价",
+      "primary": true,
+      "how_described": "Christina 说人人都想走到按结果定价,难点是定义结果——客服里「工单关闭」是产出,「音响修好了」才是结果;没人知道怎么干净地定义那个工作单元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 179,
+          "t": [
+            752.955,
+            755.717
+          ],
+          "quote": "I think everyone wants to get to outcome pricing.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": true,
+      "how_described": "她列为被高估的事:推理服务商会承认后训练模型的理由是省钱、没有质量上的必要;现在很多公司做后训练主要是为了让投资人觉得自己是「真 AI 公司」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 444,
+          "t": [
+            1762.851,
+            1767.493
+          ],
+          "quote": "And I think there's a lot of post training for marketing reasons, for investors and for customers, mostly for investors, actually.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 445,
+          "t": [
+            1767.653,
+            1772.535
+          ],
+          "quote": "If one of those people were pitching the other side of this, the value of post training, what is the pitch to you?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 458,
+          "t": [
+            1805.521,
+            1809.962
+          ],
+          "quote": "So if I was one of these people and I came into Vanta, what does post-training literally mean?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": false,
+      "how_described": "她建议「去找推理服务提供商、给他们打真话血清」,他们才会承认后训练的真实理由是成本。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 439,
+          "t": [
+            1744.973,
+            1749.456
+          ],
+          "quote": "Go talk to the inference providers and sometimes give them, depending on the provider, give them truth serum.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 707,
+          "t": [
+            2700.618,
+            2705.061
+          ],
+          "quote": "If you haven't invested in a lab or an inference provider in the last...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 714,
+          "t": [
+            2729.548,
+            2731.028
+          ],
+          "quote": "The labs and the inference providers, apparently.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "fde",
+      "type": "concept",
+      "role": "concept",
+      "name": "FDE",
+      "file": "FDE",
+      "primary": true,
+      "how_described": "她说 FDE 本质上就是专业服务,却用光鲜头衔去招哈佛 CS 高能动性毕业生;Palantir 有八位数合同撑得住,五、六位数合同规模下这套经济模型是倒挂的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 479,
+          "t": [
+            1881.953,
+            1886.775
+          ],
+          "quote": "What FDE often is, is professional services.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 480,
+          "t": [
+            1887.475,
+            1893.159
+          ],
+          "quote": "But I think if you call it a professional services role, that's a very different talent profile than FDE in the current discourse.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 483,
+          "t": [
+            1908.328,
+            1909.889
+          ],
+          "quote": "But I think this FDE...",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评测 (evals)",
+      "file": "评测",
+      "primary": false,
+      "how_described": "本集说 Vanta 年初投入让领域专家编写任务/智能体特定的 eval 框架、再评估这些 evals;换模型主要看质量而非成本;结尾还调侃「未来我们全都在整天写评测」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 165,
+          "t": [
+            680.215,
+            687.659
+          ],
+          "quote": "This was something we started concentrating on at the beginning of the year is basically evals, task-specific or agent-specific evals.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 169,
+          "t": [
+            703.108,
+            712.772
+          ],
+          "quote": "Using our subject matter experts, who are the folks who like ram security and compliance programs at other companies to write the eval frameworks and then eval their evals and using tooling for that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 462,
+          "t": [
+            1813.963,
+            1823.745
+          ],
+          "quote": "So we would need a bunch of data from that specific customer and then go write a bunch of evals and change model weights based on that customer specific data.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 903,
+          "t": [
+            3392.59,
+            3393.251
+          ],
+          "quote": "Writing evals.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 905,
+          "t": [
+            3394.932,
+            3396.834
+          ],
+          "quote": "We're all writing evals all day long.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "coding-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "编码智能体 (coding agents)",
+      "file": "编码智能体",
+      "primary": true,
+      "how_described": "她说把编码智能体扔向八年的大代码库会因上下文窗口不够而做蠢事,Vanta 和 Notion 都在把代码库模块化以便智能体高效理解;还吐槽「有人一个周末就能 vibe code 出你的东西」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 173,
+          "t": [
+            722.812,
+            729.179
+          ],
+          "quote": "Coding is, and coding agents, lots of token use, maybe legal and like document drafting next.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 204,
+          "t": [
+            844.789,
+            853.357
+          ],
+          "quote": "In the vein of eight-year-old company and eight-year-old code base, it is so much easier to throw the coding agents at a small code base than a large one.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "machine-speed",
+      "type": "concept",
+      "role": "concept",
+      "name": "机器速度安全 (machine speed)",
+      "file": "机器速度安全",
+      "primary": true,
+      "how_described": "她谈 AI 时代安全:模型比人有耐心得多,会试九千万亿次、把 17 个各自无害的漏洞串成大问题;「排优先级、90 天修复」的逻辑会失效,最终是白帽智能体持续渗透测试、发现即修的机器速度攻防。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 550,
+          "t": [
+            2182.66,
+            2186.783
+          ],
+          "quote": "But if you're fixing things at machine speed, you don't have to prioritize.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "saas-apocalypse",
+      "type": "concept",
+      "role": "concept",
+      "name": "SaaS 末日 (SaaS apocalypse)",
+      "file": "SaaS 末日",
+      "primary": true,
+      "how_described": "过去 12 个月的市场叙事:智能体会取代 SaaS,「干得好建成了记录系统,现在你一文不值了」;她形容经历这种叙事是认知失调,应对是长期信念与融资现实两手抓。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            302.822,
+            305.364
+          ],
+          "quote": "The last 12 months, SaaS apocalypse.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "talent-war",
+      "type": "concept",
+      "role": "concept",
+      "name": "人才战争 (talent war)",
+      "file": "人才战争",
+      "primary": true,
+      "how_described": "面对「万亿市值」挖角说辞,她的打法是把真实业务数据摊给候选人;Vanta 顶尖员工总薪酬是五年前的约 10 倍,且她认为还不够、还在加速。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            423.11,
+            425.291
+          ],
+          "quote": "The talent war part is very real too.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1263.938,
+            1265.238
+          ],
+          "quote": "You mentioned the talent war thing before.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 496,
+          "t": [
+            1949.161,
+            1951.662
+          ],
+          "quote": "There's definitely like talent war pieces.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "bending-spoons",
+      "type": "company",
+      "role": "company",
+      "name": "Bending Spoons",
+      "file": "Bending Spoons",
+      "primary": false,
+      "how_described": "被形容为「走廊里的死神」:一些收不到 AI 备忘录的公司最终只会被 Bending Spoons 收购,它非常擅长识别市场结构性因素。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 102,
+          "t": [
+            432.112,
+            437.677
+          ],
+          "quote": "So there's this funny fear that now like Bending Spoons is the Grim Reaper in the hallway, you know, meme or whatever.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 104,
+          "t": [
+            439.639,
+            440.74
+          ],
+          "quote": "Love Bending Spoons, by the way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 230,
+          "t": [
+            930.636,
+            941.743
+          ],
+          "quote": "Again, if I took your cohort of the successful eight-year-ago-era companies, do you feel there is a bifurcation where some have gotten the memo and are doing really well and some are just going to Bending Spoons?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 232,
+          "t": [
+            942.563,
+            947.807
+          ],
+          "quote": "I think there are just structural parts of some markets, and I think Bending Spoons is very good at identifying these, where...",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "crowdstrike",
+      "type": "company",
+      "role": "company",
+      "name": "CrowdStrike",
+      "file": "CrowdStrike",
+      "primary": false,
+      "how_described": "Christina 提到安全方向难免被问到是否与 CrowdStrike 竞争;她认为持续渗透测试与修复这件事,CrowdStrike 会为大型企业做得更好,Vanta 选不同的市场细分。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 532,
+          "t": [
+            2101.621,
+            2104.928
+          ],
+          "quote": "Does security mean you compete with CrowdStrike and places like that?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 561,
+          "t": [
+            2215.228,
+            2218.01
+          ],
+          "quote": "I think CrowdStrike will do it better for an enterprise.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "wiz",
+      "type": "company",
+      "role": "company",
+      "name": "Wiz",
+      "file": "Wiz",
+      "primary": false,
+      "how_described": "作为云错误配置检测的传统玩家被提及:Wiz 客户群和定价都从几千人公司起步,Vanta 瞄准的是不会花 15 万美元买 Wiz、但愿意花 4-5 万美元买适配方案的细分。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 567,
+          "t": [
+            2240.489,
+            2242.071
+          ],
+          "quote": "Classically, Wiz does that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 568,
+          "t": [
+            2242.311,
+            2243.713
+          ],
+          "quote": "Wiz will do it for its customers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 569,
+          "t": [
+            2243.773,
+            2249.86
+          ],
+          "quote": "Wiz's customer base starts at a multi-thousand person company and their price point starts at a multi-thousand person company.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "palantir",
+      "type": "company",
+      "role": "company",
+      "name": "Palantir",
+      "file": "Palantir",
+      "primary": false,
+      "how_described": "作为 FDE 模式的正面例子被提起:大家认为 Palantir 做得好,因为它有八位数合同,经济模型撑得住。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 485,
+          "t": [
+            1915.293,
+            1918.615
+          ],
+          "quote": "The company that we all think does as well is Palantir, which I think they probably do.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "被当作 token 成本的基准反复提及:「给 Claude token 加价 4 倍」会被客户看穿;Vanta 新的入职体验「基本上就是 Claude,一个大画布」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 145,
+          "t": [
+            592.599,
+            599.261
+          ],
+          "quote": "So if you try to charge them based on tokens, they are very quick to say, oh, you've just marked up a Claude token Forex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 146,
+          "t": [
+            600.162,
+            601.542
+          ],
+          "quote": "Are you Forex as good as Claude?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 153,
+          "t": [
+            623.345,
+            631.387
+          ],
+          "quote": "You can like not mark up, and this gets to the margin question, but anyone who is marking up Claude Token Forex and trying to pass that off to their users, I think- So what are you doing?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 163,
+          "t": [
+            669.853,
+            675.587
+          ],
+          "quote": "I'm also so curious that you said marking up a Claude token, but what about marking up like a Kimi token or like something that's much cheaper?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 200,
+          "t": [
+            819.247,
+            822.429
+          ],
+          "quote": "Charging tokens themselves really puts you up against Claude.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1207.987,
+            1213.129
+          ],
+          "quote": "It's basically Claude, big canvas, drag all your messy files in, drag in all your screenshots.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "chinese-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "中国模型 (Chinese models)",
+      "file": "中国模型",
+      "primary": false,
+      "how_described": "她惊讶地发现巴黎很多法国软件公司主要用中国的模型——不是因为民族主义,而是美国模型存在业务连续性风险,不能保证始终可用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 505,
+          "t": [
+            1971.895,
+            1981.688
+          ],
+          "quote": "When you think about the open source stuff, Chinese models, this, that, and the other, what have you learned talking to people around the world that are grappling with these same questions?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 507,
+          "t": [
+            1986.606,
+            1993.107
+          ],
+          "quote": "One of the things I was very surprised to learn is a lot of the French software companies in Paris are using Chinese models predominantly.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2003.83,
+            2009.551
+          ],
+          "quote": "We basically all switched to Chinese models when Trump closed Fable off to non-Americans.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "open-source-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source models)",
+      "file": "开源模型",
+      "primary": false,
+      "how_described": "她指出市场已认定开源模型会成气候,但围绕它们的应用与工具生态远比大实验室的欠成熟,投资机会被错位。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 728,
+          "t": [
+            2777.982,
+            2783.505
+          ],
+          "quote": "Basically, a bunch of the lab playbooks seems like they should apply to the open source models.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

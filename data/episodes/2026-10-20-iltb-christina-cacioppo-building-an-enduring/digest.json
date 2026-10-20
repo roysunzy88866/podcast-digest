@@ -1,0 +1,419 @@
+{
+  "title_zh": "软件公司在AI时代的活法:Vanta创始人的真实答案",
+  "tldr": "Vanta创始人Christina Cacioppo讲述一家16000家客户的软件公司,如何在“SaaS已死”的唱衰声中押注AI智能体。",
+  "digest_md": "八年前,Christina Cacioppo创办了Vanta,帮软件公司搞定安全合规认证(比如SOC 2)。如今Vanta有约16000家客户、5款产品。在这期播客里,她和主持人聊了一个所有软件公司都在面对的问题:==AI来了,你到底是一家“旧式软件公司”,还是一家“AI公司”==?她的答案很诚实,也很有意思。\n\n## 为什么说“软件公司末日”有点吓人\n\n过去12个月,市场流行一种说法:软件即服务(SaaS)完蛋了,智能体会取代一切。Christina形容自己公司当时的处境是,你好不容易建成了行业记录系统,然后有人告诉你这玩意儿不值钱了。\n\n更现实的压力来自资本市场。她说,Vanta按历史标准增长很快、利润率很高,这放在四年前是最好的商业模式,但如今市场给这类公司的估值倍数只剩下原来的三分之一甚至四分之一 [05:22 Christina]。她的应对是“认知失调”式的两手抓:一边相信长期看高利润的好生意终会胜出,一边承认融资、抢人才时必须面对现实。\n\n## 她的解法:智能体干活,成本自己扛\n\nVanta没有停在“监测加报警”的老路上。现在产品围绕一个智能体运转:它会主动找上门,说“我刚发现你们公司有人离职了但账号没全注销,我写了个智能体可以处理,==要我去做吗==?”用户点头,它就去执行 [08:43 Christina]。目前25%的客户已经在用这种模式,她想推到75%。\n\n烧AI模型的token要花钱。很多公司想按token用量向客户收费,但Christina说客户很精明,一眼看穿你只是把Claude的token加价4倍转卖,那你就是在跟模型厂商正面竞争——没人想这样 [09:44 Christina]。所以Vanta现在自己吞下token成本,接受更低的利润率,先把使用量和体验做上去,商业化以后再说。\n\n她还透露了一个冷知识:因为安全场景不像写代码那样烧海量token,所以Vanta换模型时主要看质量,不太纠结成本。\n\n## 按结果收费?人人都想要,没人知道怎么算\n\n**所有人都想做“按结果定价”,但难点在于怎么定义结果**。她举了个例子:客服工单关闭是“输出”,“我的音响修好了”才是“结果”。如果按一件件小事计费,客户每次用智能体前都得心算一遍价格,没人受得了 [12:32 Christina]。用积分、点数来包装token加价,客户也能看穿。\n\n## 被高估和被低估的事,她列得很直白\n\n被高估的:按token收费、为了低利润率而低利润率、为了宣传而定制训练模型。她说去问推理服务商,他们会承认后训练(post-training)模型主要是为了省成本,没有质量上的必要——现在很多公司做这个,更多是为了让投资人觉得自己是“真AI公司” [29:04 Christina]。她还觉得FDE(前沿部署工程师)这个概念很荒唐:本质上就是专业服务,却用光鲜的头衔去招哈佛计算机毕业生,经济模型在五位数、六位数合同规模下根本撑不住。\n\n被低估的:懂公司、懂客户的人。她**宁可要一个销售技能差一点、但熟悉Vanta业务的人**,也不要一个纯技能型好手 [27:45 Christina]。\n\n## 抢人大战:顶尖员工的薪水翻了10倍\n\n面对别家“我们要做到万亿市值”的挖角说辞,她的打法是把公司真实的业务数据摊开给候选人看,用数据和可信度对抗狂热气氛。她透露,Vanta顶尖员工的总薪酬大概是5年前的10倍,而且她认为还不够——她的薪酬哲学是,**给最优秀的人多少钱都不算够** [24:12 Christina]。这个趋势还在加速。\n\n## 一块广告牌的兴衰史\n\nVanta曾在101公路边立了一块写着\"Compliance that doesn't suck too much\"(不那么烂的合规)的广告牌,推文走红,成了品牌标志。但后来才发现当年的合同其实只是个下单单据,没有多年锁约。别家公司加价把位置抢走了,Christina甚至提出出双倍价钱买回,对方回答:我们现金流为正,不缺钱 [52:00 Christina]。位置就这么丢了。她开玩笑说,这可能让公司少了一个亿的市值。\n\n## 安全行业的未来:机器速度攻防\n\n传统的“按严重程度排优先级、90天内修复”的逻辑会被彻底颠覆。**她的愿景是攻防都以机器速度进行**:白帽智能体持续渗透测试,发现漏洞立刻打补丁,不再需要排优先级。\n\n## 本集带走\n\n- 别按token收费:客户会算出你在转卖加价,等于跟模型厂商正面竞争;先吞成本把体验做起来。\n- 智能体产品的关键不是聊天框,而是主动替用户做事、请示后执行,Vanta已有25%客户进入这种模式。\n- 为营销而定制训练模型大多不值;懂公司、懂客户的员工比纯技能更被低估。\n- 顶尖人才薪酬5年涨了10倍且还在加速,创始人的应对是用真实数据对抗狂热的估值叙事。\n- AI时代安全攻防将以机器速度进行,“排优先级修复”的旧逻辑会失效。",
+  "quotes": [
+    {
+      "en": "And this is more true now, even than it was five years ago, like you're really only as good as the last thing you shipped.",
+      "zh": "这比五年前更是如此——你真的只有上一个发布的东西那么好。",
+      "timestamp": "03:35",
+      "speaker": "Christina Cacioppo"
+    },
+    {
+      "en": "And it was more true now because it's like someone can vibe code your thing in a weekend.",
+      "zh": "现在更是如此，因为有人可以在一个周末用 vibe coding 把你的东西做出来。",
+      "timestamp": "03:43",
+      "speaker": "Christina Cacioppo"
+    },
+    {
+      "en": "You're like, okay, great job building a system of record. You're now screwed.",
+      "zh": "你就好像，好吧，干得好，建成了一个记录系统。你现在完蛋了。",
+      "timestamp": "05:05",
+      "speaker": "Christina Cacioppo"
+    },
+    {
+      "en": "roughly Vanta is a business that is growing very fast by historical standards with very high margins, which four years ago is considered like the best business model ever. Nothing changed about that.",
+      "zh": "粗略地说，Vanta 是一家按历史标准增长非常快、毛利率非常高的公司，四年前这被视为有史以来最好的商业模式。这一点没有任何改变。",
+      "timestamp": "05:23",
+      "speaker": "Patrick O'Shaughnessy"
+    },
+    {
+      "en": "One is, I think at the fullness of time, a 80% growth business with 80% margins will actually be better than over the same time period, run it out long enough, a 160% growth business with 30% margins.",
+      "zh": "其中一件是，我觉得随着时间推移，一家 80% 增长、80% 毛利率的公司，把时间拉得足够长，实际上会比同期一家 160% 增长、30% 毛利率的公司表现得更好。",
+      "timestamp": "05:49",
+      "speaker": "Christina Cacioppo"
+    },
+    {
+      "en": "But today, the latter is valued at 3x, 4x, the multiple of the former.",
+      "zh": "但今天，后者的估值倍数是前者的 3 倍、4 倍。",
+      "timestamp": "06:08",
+      "speaker": "Christina Cacioppo"
+    },
+    {
+      "en": "Well, if you need to be financed, again, you're looking at investors today, many of whom are kind of AI maximalists, talk to firms that are like, yeah, we'll invest in the labs and we'll basically invest in tractors in Iowa, nothing in between.",
+      "zh": "嗯，如果你需要再次融资，你今天面对的投资者，其中很多是某种程度上的 AI 最大化主义者，去和那些公司聊，他们会说，是的，我们会投资那些实验室，我们基本上会投资爱荷华州的拖拉机，中间的什么都不投。",
+      "timestamp": "06:33",
+      "speaker": "Christina Cacioppo"
+    },
+    {
+      "en": "We're eating the token cost right now. We're just taking lower margin.",
+      "zh": "我们现在在自担 token 成本。我们就是接受更低的利润率。",
+      "timestamp": "10:31",
+      "speaker": "Patrick O'Shaughnessy"
+    },
+    {
+      "en": "This is a usage phase and like a deployment phase of this technology and just go nail that and you can figure out commercialization after.",
+      "zh": "现在是这项技术的使用阶段和部署阶段，先把这个彻底拿下，商业化的事以后再琢磨。",
+      "timestamp": "11:01",
+      "speaker": "Christina Cacioppo"
+    },
+    {
+      "en": "In support, the ticket closed is an output. The outcome is actually my Sonos now works.",
+      "zh": "在客服里，工单关闭是产出。而结果其实是我家 Sonos 现在能用了。",
+      "timestamp": "12:56",
+      "speaker": "Christina Cacioppo"
+    },
+    {
+      "en": "Charging tokens themselves really puts you up against Claude.",
+      "zh": "按 token 本身收费真的会把你置于和 Claude 对抗的位置上。",
+      "timestamp": "13:39",
+      "speaker": "Christina Cacioppo"
+    },
+    {
+      "en": "In the vein of eight-year-old company and eight-year-old code base, it is so much easier to throw the coding agents at a small code base than a large one.",
+      "zh": "就八年公司和八年代码库这个话题来说，把编码智能体扔向一个小代码库比扔向一个大代码库要容易得多。",
+      "timestamp": "14:04",
+      "speaker": "Christina Cacioppo"
+    },
+    {
+      "en": "Agents have made it's like, well, great, now we want to onboard 9,000 new engineers tomorrow.",
+      "zh": "智能体让情况变成，好，现在我们想明天就入职 9000 个新工程师。",
+      "timestamp": "14:53",
+      "speaker": "Christina Cacioppo"
+    },
+    {
+      "en": "And I think this AI technology shift has made what some markets that used to look really good look really bad.",
+      "zh": "而且我认为这次 AI 技术变迁使得一些过去看起来非常好的市场现在看起来非常糟糕。",
+      "timestamp": "15:57",
+      "speaker": "Christina Cacioppo"
+    },
+    {
+      "en": "Do that at least every two weeks because it just changes so quickly. You have to have a visceral understanding of what works and what doesn't.",
+      "zh": "至少每两周做一次，因为它变化太快了。你必须对什么有效、什么无效有一种发自肺腑的理解。",
+      "timestamp": "18:12",
+      "speaker": "Christina Cacioppo"
+    },
+    {
+      "en": "We basically don't think we're allowed to fail on this project.",
+      "zh": "我们基本上认为自己在这个项目上是不允许失败的。",
+      "timestamp": "20:37",
+      "speaker": "Christina Cacioppo"
+    },
+    {
+      "en": "My comp philosophy is you never pay the top people. Enough.",
+      "zh": "我的薪酬哲学是，你付给顶尖的人的钱永远不够。",
+      "timestamp": "24:18",
+      "speaker": "Christina Cacioppo"
+    },
+    {
+      "en": "A high context person who understands the company and the customers and the domain making generally reasonable decisions and sometimes bad ones and then iterating on their bad ones and just moving is so valuable.",
+      "zh": "一个高上下文的人，理解公司、客户和领域，做出大体合理的决策，有时也做出糟糕的决策，然后在他们糟糕的决策上迭代，不断推进，这太有价值了。",
+      "timestamp": "24:39",
+      "speaker": "Christina Cacioppo"
+    },
+    {
+      "en": "And I think there's a lot of post training for marketing reasons, for investors and for customers, mostly for investors, actually.",
+      "zh": "而且我认为有很多后训练是为了营销理由，为了投资人、为了客户，其实主要是为了投资人。",
+      "timestamp": "29:22",
+      "speaker": "Christina Cacioppo"
+    },
+    {
+      "en": "What FDE often is, is professional services.",
+      "zh": "FDE 在很多时候其实就是专业服务。",
+      "timestamp": "31:21",
+      "speaker": "Christina Cacioppo"
+    },
+    {
+      "en": "I think we're using FTEs in a place where there's like five and six-figure contracts. And those economics probably are upside down.",
+      "zh": "我认为我们在五位数和六位数合同的场景里在用 FDE。而那样的经济账很可能是倒挂的。",
+      "timestamp": "32:04",
+      "speaker": "Christina Cacioppo"
+    },
+    {
+      "en": "We basically all switched to Chinese models when Trump closed Fable off to non-Americans. And we just kind of realized there's a huge business continuity risk.",
+      "zh": "基本上是在 Trump 对非美国人关闭 Fable 之后，我们都切换到了中国的模型。然后我们才意识到这里面存在巨大的业务连续性风险。",
+      "timestamp": "33:23",
+      "speaker": "Christina Cacioppo"
+    },
+    {
+      "en": "I think what's more so happening is these models are able to chain 17 benign-ish or benign-on-their-own things together and then really find something.",
+      "zh": "我觉得更主要的是，这些模型能把 17 个各自看起来无害的东西串联起来，然后真正找到突破口。",
+      "timestamp": "35:33",
+      "speaker": "Christina Cacioppo"
+    },
+    {
+      "en": "But if you're fixing things at machine speed, you don't have to prioritize.",
+      "zh": "但如果你是以机器速度在修复问题，你就不需要排优先级了。",
+      "timestamp": "36:22",
+      "speaker": "Christina Cacioppo"
+    },
+    {
+      "en": "You get 2x revenue multiple if you say agent.",
+      "zh": "你说智能体就能拿到 2 倍的收入倍数。",
+      "timestamp": "42:54",
+      "speaker": "Christina Cacioppo"
+    },
+    {
+      "en": "It's, oh, we've all decided the open source model will be very real. And then the ecosystem around them is so much less built out than the big labs. And that just feels off to me.",
+      "zh": "就是，「哦，我们都已经认定开源模型会非常成气候。」而围绕它们的生态比大实验室的生态欠缺得多。这在我看来不对劲。",
+      "timestamp": "45:44",
+      "speaker": "Christina Cacioppo"
+    },
+    {
+      "en": "Robotics is probably underplayed.",
+      "zh": "机器人可能被低估了。",
+      "timestamp": "47:25",
+      "speaker": "Christina Cacioppo"
+    },
+    {
+      "en": "It's like we just don't trust software companies, tech companies the way we used to. And that is getting worse year over year.",
+      "zh": "就是我们不再像过去那样信任软件公司、科技公司了。而且这正在逐年恶化。",
+      "timestamp": "54:04",
+      "speaker": "Christina Cacioppo"
+    },
+    {
+      "en": "You've got to get some amount of the human decision making out.",
+      "zh": "你必须把一部分人类决策从中拿出去。",
+      "timestamp": "56:23",
+      "speaker": "Christina Cacioppo"
+    },
+    {
+      "en": "Maybe that's all we're doing in the future. We're all writing evals all day long.",
+      "zh": "也许那就是我们未来全部在做的事。我们整天都在写评测。",
+      "timestamp": "56:33",
+      "speaker": "Christina Cacioppo"
+    },
+    {
+      "en": "So heart matters more than mind.",
+      "zh": "所以心比脑更重要。",
+      "timestamp": "41:54",
+      "speaker": "Patrick O'Shaughnessy"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "03:35",
+      "speaker": "Unknown",
+      "en": "And this is more true now, even than it was five years ago, like you're really only as good as the last thing you shipped.",
+      "zh": "这比五年前更是如此——你真的只有上一个发布的东西那么好。"
+    },
+    {
+      "timestamp": "03:43",
+      "speaker": "Unknown",
+      "en": "And it was more true now because it's like someone can vibe code your thing in a weekend.",
+      "zh": "现在更是如此，因为有人可以在一个周末用 vibe coding 把你的东西做出来。"
+    },
+    {
+      "timestamp": "05:07",
+      "speaker": "Unknown",
+      "en": "You're like, okay, great job building a system of record. You're now screwed.",
+      "zh": "你就好像，好吧，干得好，建成了一个记录系统。你现在完蛋了。"
+    },
+    {
+      "timestamp": "05:22",
+      "speaker": "Unknown",
+      "en": "roughly Vanta is a business that is growing very fast by historical standards with very high margins, which four years ago is considered like the best business model ever. Nothing changed about that.",
+      "zh": "粗略地说，Vanta 是一家按历史标准增长非常快、毛利率非常高的公司，四年前这被视为有史以来最好的商业模式。这一点没有任何改变。"
+    },
+    {
+      "timestamp": "05:49",
+      "speaker": "Unknown",
+      "en": "One is, I think at the fullness of time, a 80% growth business with 80% margins will actually be better than over the same time period, run it out long enough, a 160% growth business with 30% margins.",
+      "zh": "其中一件是，我觉得随着时间推移，一家 80% 增长、80% 毛利率的公司，把时间拉得足够长，实际上会比同期一家 160% 增长、30% 毛利率的公司表现得更好。"
+    },
+    {
+      "timestamp": "06:08",
+      "speaker": "Unknown",
+      "en": "But today, the latter is valued at 3x, 4x, the multiple of the former.",
+      "zh": "但今天，后者的估值倍数是前者的 3 倍、4 倍。"
+    },
+    {
+      "timestamp": "06:33",
+      "speaker": "Unknown",
+      "en": "Well, if you need to be financed, again, you're looking at investors today, many of whom are kind of AI maximalists, talk to firms that are like, yeah, we'll invest in the labs and we'll basically invest in tractors in Iowa, nothing in between.",
+      "zh": "嗯，如果你需要再次融资，你今天面对的投资者，其中很多是某种程度上的 AI 最大化主义者，去和那些公司聊，他们会说，是的，我们会投资那些实验室，我们基本上会投资爱荷华州的拖拉机，中间的什么都不投。"
+    },
+    {
+      "timestamp": "09:52",
+      "speaker": "Unknown",
+      "en": "So if you try to charge them based on tokens, they are very quick to say, oh, you've just marked up a Claude token Forex.",
+      "zh": "所以如果你试图按 token 收费，他们会很快说，哦，你只是给 Claude token 加了个外汇溢价。"
+    },
+    {
+      "timestamp": "10:31",
+      "speaker": "Unknown",
+      "en": "We're eating the token cost right now. We're just taking lower margin.",
+      "zh": "我们现在在自担 token 成本。我们就是接受更低的利润率。"
+    },
+    {
+      "timestamp": "11:01",
+      "speaker": "Unknown",
+      "en": "This is a usage phase and like a deployment phase of this technology and just go nail that and you can figure out commercialization after.",
+      "zh": "现在是这项技术的使用阶段和部署阶段，先把这个彻底拿下，商业化的事以后再琢磨。"
+    },
+    {
+      "timestamp": "12:32",
+      "speaker": "Unknown",
+      "en": "I think everyone wants to get to outcome pricing.",
+      "zh": "我觉得每个人都想走到按结果定价。"
+    },
+    {
+      "timestamp": "12:58",
+      "speaker": "Unknown",
+      "en": "In support, the ticket closed is an output. The outcome is actually my Sonos now works.",
+      "zh": "在客服里，工单关闭是产出。而结果其实是我家 Sonos 现在能用了。"
+    },
+    {
+      "timestamp": "13:39",
+      "speaker": "Unknown",
+      "en": "Charging tokens themselves really puts you up against Claude.",
+      "zh": "按 token 本身收费真的会把你置于和 Claude 对抗的位置上。"
+    },
+    {
+      "timestamp": "14:04",
+      "speaker": "Unknown",
+      "en": "In the vein of eight-year-old company and eight-year-old code base, it is so much easier to throw the coding agents at a small code base than a large one.",
+      "zh": "就八年公司和八年代码库这个话题来说，把编码智能体扔向一个小代码库比扔向一个大代码库要容易得多。"
+    },
+    {
+      "timestamp": "14:53",
+      "speaker": "Unknown",
+      "en": "Agents have made it's like, well, great, now we want to onboard 9,000 new engineers tomorrow.",
+      "zh": "智能体让情况变成，好，现在我们想明天就入职 9000 个新工程师。"
+    },
+    {
+      "timestamp": "15:57",
+      "speaker": "Unknown",
+      "en": "And I think this AI technology shift has made what some markets that used to look really good look really bad.",
+      "zh": "而且我认为这次 AI 技术变迁使得一些过去看起来非常好的市场现在看起来非常糟糕。"
+    },
+    {
+      "timestamp": "18:12",
+      "speaker": "Unknown",
+      "en": "Do that at least every two weeks because it just changes so quickly. You have to have a visceral understanding of what works and what doesn't.",
+      "zh": "至少每两周做一次，因为它变化太快了。你必须对什么有效、什么无效有一种发自肺腑的理解。"
+    },
+    {
+      "timestamp": "20:37",
+      "speaker": "Unknown",
+      "en": "We basically don't think we're allowed to fail on this project.",
+      "zh": "我们基本上认为自己在这个项目上是不允许失败的。"
+    },
+    {
+      "timestamp": "24:18",
+      "speaker": "Unknown",
+      "en": "My comp philosophy is you never pay the top people. Enough.",
+      "zh": "我的薪酬哲学是，你付给顶尖的人的钱永远不够。"
+    },
+    {
+      "timestamp": "24:39",
+      "speaker": "Unknown",
+      "en": "A high context person who understands the company and the customers and the domain making generally reasonable decisions and sometimes bad ones and then iterating on their bad ones and just moving is so valuable.",
+      "zh": "一个高上下文的人，理解公司、客户和领域，做出大体合理的决策，有时也做出糟糕的决策，然后在他们糟糕的决策上迭代，不断推进，这太有价值了。"
+    },
+    {
+      "timestamp": "29:22",
+      "speaker": "Unknown",
+      "en": "And I think there's a lot of post training for marketing reasons, for investors and for customers, mostly for investors, actually.",
+      "zh": "而且我认为有很多后训练是为了营销理由，为了投资人、为了客户，其实主要是为了投资人。"
+    },
+    {
+      "timestamp": "29:16",
+      "speaker": "Unknown",
+      "en": "But there is not a quality reason to do it.",
+      "zh": "但并没有质量上的理由去这么做。"
+    },
+    {
+      "timestamp": "31:21",
+      "speaker": "Unknown",
+      "en": "What FDE often is, is professional services.",
+      "zh": "FDE 在很多时候其实就是专业服务。"
+    },
+    {
+      "timestamp": "32:04",
+      "speaker": "Unknown",
+      "en": "I think we're using FTEs in a place where there's like five and six-figure contracts. And those economics probably are upside down.",
+      "zh": "我认为我们在五位数和六位数合同的场景里在用 FDE。而那样的经济账很可能是倒挂的。"
+    },
+    {
+      "timestamp": "33:23",
+      "speaker": "Unknown",
+      "en": "We basically all switched to Chinese models when Trump closed Fable off to non-Americans. And we just kind of realized there's a huge business continuity risk.",
+      "zh": "基本上是在 Trump 对非美国人关闭 Fable 之后，我们都切换到了中国的模型。然后我们才意识到这里面存在巨大的业务连续性风险。"
+    },
+    {
+      "timestamp": "35:33",
+      "speaker": "Unknown",
+      "en": "I think what's more so happening is these models are able to chain 17 benign-ish or benign-on-their-own things together and then really find something.",
+      "zh": "我觉得更主要的是，这些模型能把 17 个各自看起来无害的东西串联起来，然后真正找到突破口。"
+    },
+    {
+      "timestamp": "36:22",
+      "speaker": "Unknown",
+      "en": "But if you're fixing things at machine speed, you don't have to prioritize.",
+      "zh": "但如果你是以机器速度在修复问题，你就不需要排优先级了。"
+    },
+    {
+      "timestamp": "42:54",
+      "speaker": "Unknown",
+      "en": "You get 2x revenue multiple if you say agent.",
+      "zh": "你说智能体就能拿到 2 倍的收入倍数。"
+    },
+    {
+      "timestamp": "43:38",
+      "speaker": "Unknown",
+      "en": "And no one is going to be putting Tableau inside their products.",
+      "zh": "而且没有人会再把 Tableau 塞进他们的产品里了。"
+    },
+    {
+      "timestamp": "45:45",
+      "speaker": "Unknown",
+      "en": "It's, oh, we've all decided the open source model will be very real. And then the ecosystem around them is so much less built out than the big labs. And that just feels off to me.",
+      "zh": "就是，「哦，我们都已经认定开源模型会非常成气候。」而围绕它们的生态比大实验室的生态欠缺得多。这在我看来不对劲。"
+    },
+    {
+      "timestamp": "47:25",
+      "speaker": "Unknown",
+      "en": "Robotics is probably underplayed.",
+      "zh": "机器人可能被低估了。"
+    },
+    {
+      "timestamp": "53:58",
+      "speaker": "Unknown",
+      "en": "It's like we just don't trust software companies, tech companies the way we used to. And that is getting worse year over year.",
+      "zh": "就是我们不再像过去那样信任软件公司、科技公司了。而且这正在逐年恶化。"
+    },
+    {
+      "timestamp": "55:02",
+      "speaker": "Unknown",
+      "en": "Preserve the acceptance, but increase the trust.",
+      "zh": "保留接受度，但增加信任。"
+    },
+    {
+      "timestamp": "56:23",
+      "speaker": "Unknown",
+      "en": "You've got to get some amount of the human decision making out.",
+      "zh": "你必须把一部分人类决策从中拿出去。"
+    },
+    {
+      "timestamp": "56:33",
+      "speaker": "Unknown",
+      "en": "Maybe that's all we're doing in the future. We're all writing evals all day long.",
+      "zh": "也许那就是我们未来全部在做的事。我们整天都在写评测。"
+    },
+    {
+      "timestamp": "40:49",
+      "speaker": "Unknown",
+      "en": "I was like a terrible public speaker. I would get the most nervous in front of my own team because I cared the most about what they thought about.",
+      "zh": "我曾经是个糟糕的公开演讲者。在自己团队面前我会最紧张，因为我最在意他们的看法。"
+    },
+    {
+      "timestamp": "41:54",
+      "speaker": "Unknown",
+      "en": "So heart matters more than mind.",
+      "zh": "所以心比脑更重要。"
+    }
+  ],
+  "voice_script": "今天这家公司叫Vanta,创始人叫Christina Cacioppo。八年前的她创办了Vanta,做的事情说白了就是帮软件公司搞定安全合规认证,比如那个很常见的SOC 2。如今这家公司有大约一万六千家客户、五款产品,按历史标准增长很快、利润率也很高,算是相当扎实的软件生意。\n\n但这期播客里,她和主持人聊的,是一个现在所有软件公司都躲不开的问题:AI来了,你到底算一家旧式软件公司,还是一家AI公司?这个问题为什么值得聊?因为过去一年,市场上流行一种特别吓人的说法,叫SaaS已死,说智能体会取代一切软件。你可以想象一下那个处境:你好不容易建成了行业记录系统,然后有人跑过来告诉你,干得不错,但这玩意儿现在不值钱了。Christina自己就是这么形容的,你就好像,好吧,你现在完蛋了。\n\n更现实的压力来自资本市场。Vanta按历史标准看,增长快、毛利率高,放四年前这是有史以来最好的商业模式。但今天,市场给这类公司的估值倍数,只剩下那些狂热AI公司的三分之一甚至四分之一。面对这个落差,她的应对有点\"认知失调\",就是两手抓:一边相信长期看,一家百分之八十增长、百分之八十毛利的公司,时间拉得足够长,会比同期一家百分之一百六十增长、但毛利只有百分之三十的公司表现更好;一边又承认,眼前去融资、去抢人才,你必须面对现实。\n\n那问题来了,光信长期主义没用,Vanta到底做了什么?答案是,产品真的变了。以前安全合规软件的套路,基本就是监测加报警,发现问题提醒你去处理。现在Vanta的产品围绕一个智能体运转。这个智能体会主动找上门,跟你说:我刚发现你们公司有人离职了,但账号没全注销,我写了个智能体可以处理,要我做吗?用户点头,它就去执行。注意,关键不是聊天框,而是主动替用户做事、请示之后执行。目前百分之二十五的客户已经在用这种模式,Christina想推到百分之七十五。\n\n但这就带来一个所有做AI产品的人都头疼的问题:智能体干活要烧模型的钱,这成本怎么跟客户算?很多公司的想法是按token用量收费。Christina说,这条路走不通,因为客户很精明,一眼就能看穿你只是把Claude的token加价四倍转卖。真到那一步,你就是在跟模型厂商正面竞争,没人想这样。所以Vanta现在是自己吞下token成本,接受更低的利润率,先把使用量和体验做上去,商业化以后再说。她还透露一个冷知识:安全场景不像写代码那样烧海量token,所以换模型的时候主要看质量,不太纠结成本。\n\n顺着定价这个话题往下聊,还有更深一层。人人都想做按结果收费,难点在于结果怎么定义。举个例子,客服工单关闭,这只是\"输出\";我的音响修好了,这才是\"结果\"。如果按一件件小事计费,客户每次用智能体之前都得心算一遍价格,没人受得了。用积分、点数来包装token加价?客户照样看得穿。\n\n聊到这,Christina对行业里各种热闹玩法有个很直白的判断,分被高估的和被低估的。被高估的:按token收费、为了低利润率而低利润率,还有为了宣传去定制训练模型。为什么这么说?你去问推理服务商,他们会承认,后训练模型主要是为了省成本,质量上没有必要。现在很多公司做这个,更多是为了让投资人觉得自己是一家\"真AI公司\"。她还觉得FDE这个概念很荒唐。FDE叫前沿部署工程师,听起来光鲜,本质上就是专业服务,却拿这个头衔去招哈佛计算机毕业生,经济模型在五位数、六位数的合同规模下根本撑不住。\n\n那被低估的是什么?懂公司、懂客户的人。Christina宁可要一个销售技能差一点、但熟悉Vanta业务的人,也不要一个纯技能型好手。\n\n说到抢人才,这场仗现在打得多凶?她透露,Vanta顶尖员工的总薪酬,大概是五年前的十倍,而且她认为还不够。她的薪酬哲学就是,给最优秀的人多少钱都不算够,而且这个趋势还在加速。面对别家公司\"我们要做到万亿市值\"的挖角说辞,她的打法是把公司真实的业务数据摊开给候选人看,用数据和可信度去对抗狂热气氛。\n\n节目里还有一段挺有意思的插曲。Vanta曾在101公路边立过一块广告牌,上面写着\"不那么烂的合规\",推文走红,成了品牌标志。后来才发现,当年的合同其实只是个下单据,没有多年锁约。别家公司加价把位置抢走了。Christina甚至提出出双倍价钱买回,对方的回答是:我们现金流为正,不缺钱。位置就这么丢了。她开玩笑说,这可能让公司少了一个亿的市值。\n\n最后聊到安全行业的未来,她的愿景也很激进:传统的按严重程度排优先级、九十天内修复的逻辑,会被彻底颠覆。以后攻防都以机器速度进行,白帽智能体持续做渗透测试,发现漏洞立刻打补丁,不再需要排优先级。\n\n这期聊下来,Christina有句话让人印象很深,她说这比五年前更是如此:你真的只有上一个发布的东西那么好,因为现在有人可以在一个周末用vibe coding把你的东西做出来。在AI时代,软件公司没有旧账可吃,只有一直往前跑这一条路。"
+}

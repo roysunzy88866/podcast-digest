@@ -1,0 +1,437 @@
+{
+  "episode_id": "2026-10-11-talks-how-secrets-leak-through-ai-agents-and-h",
+  "podcast": "精选演讲",
+  "date": "2026-10-11",
+  "tags": [
+    "AI 安全",
+    "隐私保护",
+    "智能体",
+    "提示词注入",
+    "机密计算"
+  ],
+  "categories": [
+    "AI 安全",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "joshua-moe",
+      "type": "person",
+      "role": "host",
+      "name": "Joshua Moe",
+      "file": "Joshua Moe",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            15.015,
+            24.487
+          ],
+          "quote": "I'm Joshua Moe, and today we're going to be talking about some of the challenges of building a privacy-respecting AI system.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "venice-ai",
+      "type": "company",
+      "role": "company",
+      "name": "Venice AI",
+      "file": "Venice AI",
+      "primary": true,
+      "how_described": "本集说 Venice AI 是一个私密且无限制的 AI 平台:托管最新开源模型、100% 兼容 OpenAI、不存储任何提示词和对话,并提供可信执行环境与 attestation 验证。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            26.348,
+            33.731
+          ],
+          "quote": "So just for an introduction as to who I am, I'm currently the Lead Developer Relations Engineer at Venice AI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体说成围绕 LLM 搭建的整套系统中的一环,并指出智能体是隐私泄露的重灾区:密钥可能经工具调用被抽走,需要收窄工具范围并监控权限。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            356.252,
+            359.834
+          ],
+          "quote": "So let's talk about how secrets can flow through a regular agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            364.337,
+            367.799
+          ],
+          "quote": "You send a user request that gets sent to an agent runtime.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            520.35,
+            528.075
+          ],
+          "quote": "In terms of protecting agent-handled data, so essentially ensuring narrow agent scope to decrease risk.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            545.507,
+            566.163
+          ],
+          "quote": "So if you pull that API key in from your password vault and then you send it as part of the agent, what can happen is that it gets exfiltrated through the agent on a tool call to whatever web server is being hosted by a bad actor, for instance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            569.77,
+            576.368
+          ],
+          "quote": "We also have a classification layer in front of an agent to check for prompt injection, for example.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            605.373,
+            613.695
+          ],
+          "quote": "It should also be noted that tight context loops caused by narrow agent scope can also improve context window performance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            635.74,
+            644.528
+          ],
+          "quote": "By keeping an empty or near empty context window, we can make sure that the agent is performing at its best.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            665.916,
+            683.159
+          ],
+          "quote": "So by tying the password vaults to the agentic runtime instead of the reasoning layer, what happens then is that the agent runtime is essentially turned into an execution layer, which then we can consider it deterministic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            726.471,
+            744.621
+          ],
+          "quote": "So in terms of sandboxing your agents, it's a very well-known fact that using sandboxes and VMs, for example, Firecracker and you know, AWS EC2 in a VPC can significantly upgrade the security of your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            753.081,
+            763.709
+          ],
+          "quote": "So for example, if you have internet access enabled for your agent, it can still accidentally exfiltrate data through external API access if you're not careful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            827.053,
+            835.005
+          ],
+          "quote": "So in terms of this, what this actually means is that you can fully isolate an agent at the reasoning layer cryptographically and prove it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent-runtime",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体运行时 (agent runtime)",
+      "file": "智能体运行时",
+      "primary": true,
+      "how_described": "本集建议把密码库绑在智能体运行时而非推理层上,使其变成可严格管控的确定性执行层,并主张开发者自建自己的智能体运行时。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            364.337,
+            367.799
+          ],
+          "quote": "You send a user request that gets sent to an agent runtime.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            665.916,
+            683.159
+          ],
+          "quote": "So by tying the password vaults to the agentic runtime instead of the reasoning layer, what happens then is that the agent runtime is essentially turned into an execution layer, which then we can consider it deterministic.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说推理层是密钥被直接喂进 LLM、进而可能混入训练数据的环节,并主张凭据留在执行层处理,让模型碰不到密钥。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            212.141,
+            225.438
+          ],
+          "quote": "We also have models hosted in trusted execution environments, meaning that you can verifiably prove that your inference was run in a totally private process.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            796.367,
+            809.657
+          ],
+          "quote": "So in terms of this, there's something I like to call confidential compute, where a trusted execution environment essentially at the hardware level enables the inference process to be run privately.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "本集说可观测性是生产系统的核心,分为指标、日志、追踪三类,但日志可能默认把提示词和机密信息记下来,反而成了泄露用户隐私的后门。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            302.562,
+            306.323
+          ],
+          "quote": "So one example I just wanted to bring up was observability logging.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            306.503,
+            312.704
+          ],
+          "quote": "So observability, as many of you know, is a core part of any serious production system today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            313.264,
+            319.606
+          ],
+          "quote": "So just to break it down quickly, observability can be broken down into metrics, logs, and traces.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            777.387,
+            786.915
+          ],
+          "quote": "So essentially building your own coding harnesses where you can add your own steps, your own observability, your own tools, things of that nature.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "trusted-execution-environment",
+      "type": "concept",
+      "role": "concept",
+      "name": "可信执行环境 (trusted execution environment)",
+      "file": "可信执行环境",
+      "primary": true,
+      "how_described": "本集说可信执行环境在硬件层面让推理过程私密运行,配合 attestation 和验证器,用户可以密码学意义上自行验证推理确实在隔离环境里完成。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 103,
+          "t": [
+            796.367,
+            809.657
+          ],
+          "quote": "So in terms of this, there's something I like to call confidential compute, where a trusted execution environment essentially at the hardware level enables the inference process to be run privately.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "confidential-compute",
+      "type": "concept",
+      "role": "concept",
+      "name": "机密计算 (confidential compute)",
+      "file": "机密计算",
+      "primary": true,
+      "how_described": "本集把它说成硬件级的隐私方案:可信执行环境中完成推理,Venice 每次请求后返回证明(attestation),用户可用 Attestation Verifier 核实。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 103,
+          "t": [
+            796.367,
+            809.657
+          ],
+          "quote": "So in terms of this, there's something I like to call confidential compute, where a trusted execution environment essentially at the hardware level enables the inference process to be run privately.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prompt injection)",
+      "file": "提示词注入",
+      "primary": true,
+      "how_described": "本集建议在智能体前面加一层分类器来检测提示词注入攻击,可以用基于 LLM 的层,也可以用向量搜索实现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 79,
+          "t": [
+            569.77,
+            576.368
+          ],
+          "quote": "We also have a classification layer in front of an agent to check for prompt injection, for example.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-window",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文窗口 (context window)",
+      "file": "上下文窗口",
+      "primary": true,
+      "how_described": "本集说上下文窗口接近填满时性能会显著下降,收窄智能体工具范围、保持窗口接近空,能让智能体表现最佳。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 82,
+          "t": [
+            605.373,
+            613.695
+          ],
+          "quote": "It should also be noted that tight context loops caused by narrow agent scope can also improve context window performance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            621.937,
+            634.7
+          ],
+          "quote": "It's well known that when you fill your context window, by doing so, when you reach near the limits of your context window, performance can actually degrade considerably.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            635.74,
+            644.528
+          ],
+          "quote": "By keeping an empty or near empty context window, we can make sure that the agent is performing at its best.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "secret",
+      "type": "concept",
+      "role": "concept",
+      "name": "密钥 (secret)",
+      "file": "密钥",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            368.339,
+            375.724
+          ],
+          "quote": "The runtime might need a secret that it will fetch from a 1Password Vault, for instance, or HashCorp Vault.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            377.024,
+            381.027
+          ],
+          "quote": "The secret will then get sent to the LLM reasoning layer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hash",
+      "type": "concept",
+      "role": "concept",
+      "name": "哈希 (hash)",
+      "file": "哈希",
+      "primary": false,
+      "how_described": "本集说 Venice 用存哈希代替存原始数据,比如限流时只存代表用户 ID 的哈希,能识别用户却不含个人数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            435.422,
+            442.936
+          ],
+          "quote": "You might want to store it as a hash, for instance, just so you can identify them without directly using any of their personal data.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "sandbox",
+      "reason": "专名「sandbox」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

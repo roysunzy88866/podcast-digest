@@ -1,0 +1,820 @@
+{
+  "episode_id": "2026-10-20-generalist-pete-florence-when-robots-improvise-e3qk",
+  "podcast": "The Generalist",
+  "date": "2026-10-20",
+  "tags": [
+    "机器人",
+    "物理智能",
+    "一次学习",
+    "灵巧操作",
+    "数据策略"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "mario",
+      "type": "person",
+      "role": "host",
+      "name": "Mario",
+      "file": "Mario",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            142.742,
+            144.804
+          ],
+          "quote": "I'm Mario, and this is The Generalist.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 26,
+          "t": [
+            151.925,
+            152.945
+          ],
+          "quote": "Likewise, Mario, yeah.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "pete-florence",
+      "type": "person",
+      "role": "cohost",
+      "name": "Pete Florence",
+      "file": "Pete Florence",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            104.146,
+            108.087
+          ],
+          "quote": "Today's guest, Pete Florence, is Generalist's co-founder and CEO.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "generalist",
+      "type": "company",
+      "role": "company",
+      "name": "Generalist",
+      "file": "Generalist",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            86.398,
+            91.424
+          ],
+          "quote": "Generalist, an AI company for robotics, is compressing that process down to seconds.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 20,
+          "t": [
+            104.146,
+            108.087
+          ],
+          "quote": "Today's guest, Pete Florence, is Generalist's co-founder and CEO.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 22,
+          "t": [
+            119.39,
+            124.952
+          ],
+          "quote": "Since its founding a little over two years ago, Generalist has grown into a key player in the robotics race.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 24,
+          "t": [
+            142.742,
+            144.804
+          ],
+          "quote": "I'm Mario, and this is The Generalist.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 28,
+          "t": [
+            154.446,
+            157.927
+          ],
+          "quote": "Well, I'm really looking forward to this conversation and getting into what you're doing at Generalist.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1757.577,
+            1769.127
+          ],
+          "quote": "When you think about what Generalist is trying to do, there are obviously other companies in this space that think about this broad aspiration of creating embodied intelligence, physical intelligence.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 633,
+          "t": [
+            3918.216,
+            3921.338
+          ],
+          "quote": "Thank you for listening to this episode of The Generalist Podcast.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "gen-1-5",
+      "type": "concept",
+      "role": "concept",
+      "name": "Gen 1.5",
+      "file": "Gen 1.5",
+      "primary": true,
+      "how_described": "Generalist 最新发布的基础模型,展现 one-shot/few-shot 学习与零样本物理泛化能力,被 Sholto Douglas 称为机器人领域的『GPT-3 时刻』",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            160.828,
+            169.91
+          ],
+          "quote": "Earlier this month, I think it was mid-August, you released Gen 1.5, which is your latest foundation model, and it seemed to attract...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 33,
+          "t": [
+            179.537,
+            184.36
+          ],
+          "quote": "Maybe you can tell us a little bit about what Gen 1.5 is and why it matters.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 35,
+          "t": [
+            186.622,
+            189.624
+          ],
+          "quote": "So Gen 1.5 is definitely...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 86,
+          "t": [
+            494.377,
+            503.46
+          ],
+          "quote": "And similarly, we never trained Gen 1.5 with an example of a task and do it again, but the model just",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 528,
+          "t": [
+            3195.271,
+            3206.02
+          ],
+          "quote": "And so, you know, we talked a little bit about like some of the like Gen 1.5 ViewShot, like new task-warning capabilities that we've been seeing, but even for a while now, even before Gen 1.5,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 543,
+          "t": [
+            3323.25,
+            3327.171
+          ],
+          "quote": "When you think about, you know, Gen 1.5, what is the analogy?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 547,
+          "t": [
+            3353.33,
+            3362.938
+          ],
+          "quote": "I do think, you know, even as amazing as a model of Gen 1.5, there's still things that like a very young toddler is just much better than Gen 1.5 at today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 552,
+          "t": [
+            3401.51,
+            3416.069
+          ],
+          "quote": "And then I also think that these like one shot, few shot type learning capabilities that we're starting to see in Gen 1.5, that feels much more of the type of behavior that you might expect, you know, sort of toddler level intelligence to start to be able to do.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "one-shot",
+      "type": "concept",
+      "role": "concept",
+      "name": "一次学习 (one-shot)",
+      "file": "一次学习",
+      "primary": true,
+      "how_described": "给机器人演示一遍任务(如从钱包取钞票)它就能立刻照做、无需重训;Florence 类比 GPT-3 的 in context learning,并归因于数据的突发性",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            126.172,
+            142.002
+          ],
+          "quote": "In this episode, Pete and I discuss one-shot learning, why dexterity remains so hard, where physical AI follows the same scaling laws as digital AI, and which industries change first when robots learn new skills much faster.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 40,
+          "t": [
+            208.093,
+            222.608
+          ],
+          "quote": "Overall, Gem 1.5, it has a couple different capabilities in what we call one-shot or a few-shot learning, and also some other things in what we think are really remarkable levels of zero-shot physical generalization.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 41,
+          "t": [
+            223.249,
+            233.098
+          ],
+          "quote": "These like one shot and few shot broad types of learning capabilities where you can learn a physical task in just a single demonstration.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 43,
+          "t": [
+            244.208,
+            261.808
+          ],
+          "quote": "And, you know, if I dial back, like, a few years, one of my co-founders, Andy Zhang, and myself, like, we've been talking for a while about this threshold of crossing into a very generalized one-shot and few-shot learning capability in robotics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 45,
+          "t": [
+            263.57,
+            284.049
+          ],
+          "quote": "The rise of large language models around 2020, yes, of course, GPT-3, like that was the kind of the main thing that, or at least arguably the main thing that people were especially excited about with the model GPT-3 was this broad one-shot and few-shot learning capability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 48,
+          "t": [
+            288.893,
+            303.208
+          ],
+          "quote": "And so one shot and few shot learning is sort of a necessary principle to have that sort of like generalizable intelligence in the same way that GPT-3 had where you're able to say, hey, you know, make me a poem in the style of, you know, Emily Dickinson.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 53,
+          "t": [
+            312.918,
+            322.264
+          ],
+          "quote": "So, you know, specifically one shot is where you give a single example of an input and an output.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 59,
+          "t": [
+            337.494,
+            338.455
+          ],
+          "quote": "That would be like one shot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 61,
+          "t": [
+            349.241,
+            361.208
+          ],
+          "quote": "And it was actually, if you trace back the history, it was actually GPT-2 started to show a little bit of these types of capabilities, but it was really GPT-3 that, like, brought broad one-shot, few-shot learning into the, like,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 78,
+          "t": [
+            417.505,
+            423.489
+          ],
+          "quote": "It was surprising to us that this model started to show this particular type of one-shot few-shot capability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 79,
+          "t": [
+            424.489,
+            436.317
+          ],
+          "quote": "In part, and it's something that we talk about a lot in what we released describing some of the development behind the model, but it was not trained to do one-shot or few-shot examples.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 552,
+          "t": [
+            3401.51,
+            3416.069
+          ],
+          "quote": "And then I also think that these like one shot, few shot type learning capabilities that we're starting to see in Gen 1.5, that feels much more of the type of behavior that you might expect, you know, sort of toddler level intelligence to start to be able to do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 555,
+          "t": [
+            3435.197,
+            3446.666
+          ],
+          "quote": "You know, the one shot and few shot capability is incredible and probably the thing that is the most directly tied in a very clear way to sort of like development of language models.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "zero-shot",
+      "type": "concept",
+      "role": "concept",
+      "name": "零样本泛化 (zero-shot)",
+      "file": "零样本泛化",
+      "primary": true,
+      "how_described": "本集重点谈的零样本物理泛化:教机器人用刷子扫东西后换成簸箕它也能用,被 Florence 视为比 one-shot 更能说明走对路的信号",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            208.093,
+            222.608
+          ],
+          "quote": "Overall, Gem 1.5, it has a couple different capabilities in what we call one-shot or a few-shot learning, and also some other things in what we think are really remarkable levels of zero-shot physical generalization.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 60,
+          "t": [
+            338.875,
+            348.38
+          ],
+          "quote": "You can also do zero-shot, which is you just, like, say, you know, who wrote Romeo and Juliet, and you don't give any, you know, example of a full input output.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 556,
+          "t": [
+            3447.206,
+            3456.753
+          ],
+          "quote": "But it's also this like very zero shot physical generalization that is, I would say perhaps like even more feels like we're on the right path.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 557,
+          "t": [
+            3457.494,
+            3463.839
+          ],
+          "quote": "And to give like more of a language model analogy there, the zero shot physical generalization that we're seeing, that's more of the equivalent of like",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 560,
+          "t": [
+            3471.854,
+            3485.206
+          ],
+          "quote": "It's zero shot, but, but it's also a task that requires a ton of creativity, you know, like write a limerick about, uh, you know, who's going to win, uh, the world series this year or whatever it is, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "dexterity",
+      "type": "concept",
+      "role": "concept",
+      "name": "灵巧操作 (dexterity)",
+      "file": "灵巧操作",
+      "primary": true,
+      "how_described": "机器人领域的『圣杯』:有选择地接触并移动物理世界;Florence 认为它是物理智能对应『编程』的杀手级应用,攻克后机器人可制造机器人",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            63.12,
+            64.481
+          ],
+          "quote": "I think the best analogy would be dexterity.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 14,
+          "t": [
+            64.722,
+            69.906
+          ],
+          "quote": "If we can really crack dexterity, then the robots can build the robots and the robots can start building the next generation of robots.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 23,
+          "t": [
+            126.172,
+            142.002
+          ],
+          "quote": "In this episode, Pete and I discuss one-shot learning, why dexterity remains so hard, where physical AI follows the same scaling laws as digital AI, and which industries change first when robots learn new skills much faster.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 108,
+          "t": [
+            609.037,
+            611.998
+          ],
+          "quote": "Uh, especially for a dexterity or dexterous manipulation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 124,
+          "t": [
+            687.265,
+            694.068
+          ],
+          "quote": "You've mentioned before that dexterity is something that's sort of like this, I don't know, holy grail or big topic in robotics for a long time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 133,
+          "t": [
+            732.203,
+            748.68
+          ],
+          "quote": "But there is some evidence that I have read in published research which suggests that the development of dexterity and the evolutionary adaptiveness of having better and better tool-making skills",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            767.645,
+            779.403
+          ],
+          "quote": "And the drive to master more and more dexterity and some suggestion that that might've helped open up the brain for other types of cognition, like language and all these other things as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 141,
+          "t": [
+            805.219,
+            822.506
+          ],
+          "quote": "But then over in the case of more just like grounded in what has been the state of robotics like over the past several decades leading up into now and why why dexterity is such a thing that stands out in general, I would say.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 143,
+          "t": [
+            826.988,
+            829.709
+          ],
+          "quote": "That very generalized dexterity, a.k.a.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 163,
+          "t": [
+            966.325,
+            971.569
+          ],
+          "quote": "But contact is really everything in dexterity or what's called manipulation in research.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1113.906,
+            1130.537
+          ],
+          "quote": "And what that shows you is that, yes, there are certain cases where touch would really help us a lot more, but at the same time, human brains still are quite incredible compared to even our best models, even Gem 1.5, et cetera, at generalized dexterity manipulation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 446,
+          "t": [
+            2715.47,
+            2717.432
+          ],
+          "quote": "I think the best analogy would be, would be dexterity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2719.094,
+            2722.758
+          ],
+          "quote": "And so, you know, you're talking about dexterity earlier and like kind of giving some definitions on it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2729.865,
+            2736.492
+          ],
+          "quote": "Um, and similarly dexterity, you know, moving, touching and moving the world, using your hands.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2758.726,
+            2765.648
+          ],
+          "quote": "And that if we can really crack dexterity, then the robots can build the robots and the robots can start building next generation of robots, et cetera.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2845.215,
+            2848.077
+          ],
+          "quote": "So dexterity is, is really big.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2848.417,
+            2853.682
+          ],
+          "quote": "Um, it, yeah, I think dexterity is the best analog of, of coding that I can think of.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 595,
+          "t": [
+            3703.357,
+            3719.189
+          ],
+          "quote": "We'll see how far this goes, but there are these, you know, you see them at CES, these like robot vacuums that are starting to have these little arms on them, which clearly are capable of like picking up small things off the floor, not much else than that, but that's a certain type of dexterity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 596,
+          "t": [
+            3719.209,
+            3720.81
+          ],
+          "quote": "It's a very primitive type of dexterity.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "burstiness",
+      "type": "concept",
+      "role": "concept",
+      "name": "突发性 (burstiness)",
+      "file": "突发性",
+      "primary": true,
+      "how_described": "数据排布的属性:相似内容会接连出现;Florence 用它解释 one-shot 能力为何未被刻意训练就出现——物理世界同样有突发性",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 83,
+          "t": [
+            453.177,
+            475.09
+          ],
+          "quote": "And it's later been studied and given a name that it's kind of, you know, the way that the data is just laid out, it has this property, which called burstiness, which is that when you see a single SAT question example, just, just to give an example here, like it's pretty likely that your next, the next thing that the model sees is another SAT question.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 87,
+          "t": [
+            504.54,
+            513.407
+          ],
+          "quote": "The physical world also has burstiness, where if people are taking bills out of a wallet, it's pretty likely they'll take another bill out of a wallet, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "scaling-laws",
+      "type": "concept",
+      "role": "concept",
+      "name": "扩展定律 (scaling laws)",
+      "file": "扩展定律",
+      "primary": true,
+      "how_described": "Florence 表示团队对 scaling 非常有热情,但算法、基础设施与架构的进步能从根本上移动 scaling 曲线,效率差距可达 10 到 1000 倍",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            126.172,
+            142.002
+          ],
+          "quote": "In this episode, Pete and I discuss one-shot learning, why dexterity remains so hard, where physical AI follows the same scaling laws as digital AI, and which industries change first when robots learn new skills much faster.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 358,
+          "t": [
+            2127.093,
+            2133.597
+          ],
+          "quote": "And then I'll also say though, right, I talked about the importance of things like the Bitter Listen, but we are very passionate about scaling laws.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "physical-intelligence",
+      "type": "concept",
+      "role": "concept",
+      "name": "物理智能 (physical intelligence)",
+      "file": "物理智能",
+      "primary": true,
+      "how_described": "本集框架性主题:具身/物理世界的智能,Florence 认为其杀手级用例是灵巧操作,且工业场景会先于家庭起飞",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            58.196,
+            63.1
+          ],
+          "quote": "When it comes to physical intelligence, do you have an intuition of what like that killer use case might be?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1757.577,
+            1769.127
+          ],
+          "quote": "When you think about what Generalist is trying to do, there are obviously other companies in this space that think about this broad aspiration of creating embodied intelligence, physical intelligence.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2697.965,
+            2704.507
+          ],
+          "quote": "When it comes to physical intelligence, do you think, do you have an intuition of what like that killer use case might be?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "proprioception",
+      "type": "concept",
+      "role": "concept",
+      "name": "本体感觉 (proprioception)",
+      "file": "本体感觉",
+      "primary": false,
+      "how_described": "非视觉、非听觉的感知,如知道关节角度与受力;Florence 指出多数机器人已通过编码器和电流/扭矩感应免费拥有它",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 196,
+          "t": [
+            1154.024,
+            1163.707
+          ],
+          "quote": "So one is that there's this concept called proprioception, which is, sometimes people would say different than touch, but it's very relevant here in that it's non-visual, non-audio senses of the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1164.307,
+            1169.949
+          ],
+          "quote": "And we as humans have a bit of proprioception in that we know how our arms are bent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1181.441,
+            1187.629
+          ],
+          "quote": "Another type of proprioception is knowing how hard something is pushing on the muscle at your joint.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "gpt-3",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPT-3",
+      "file": "GPT-3",
+      "primary": false,
+      "how_described": "本集作为类比反复提及:GPT-3 论文提出 in context learning,Gen 1.5 的能力被比作机器人领域的 GPT-3 时刻",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            40.766,
+            46.789
+          ],
+          "quote": "Sholto Douglas, a well-known anthropic researcher, called this sort of a GPT-3 moment for robotics.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 32,
+          "t": [
+            171.191,
+            179.237
+          ],
+          "quote": "You know, I saw Sholto Douglas, well-known anthropic researcher, called this sort of a GPT-3 moment for robotics.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 45,
+          "t": [
+            263.57,
+            284.049
+          ],
+          "quote": "The rise of large language models around 2020, yes, of course, GPT-3, like that was the kind of the main thing that, or at least arguably the main thing that people were especially excited about with the model GPT-3 was this broad one-shot and few-shot learning capability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 48,
+          "t": [
+            288.893,
+            303.208
+          ],
+          "quote": "And so one shot and few shot learning is sort of a necessary principle to have that sort of like generalizable intelligence in the same way that GPT-3 had where you're able to say, hey, you know, make me a poem in the style of, you know, Emily Dickinson.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 61,
+          "t": [
+            349.241,
+            361.208
+          ],
+          "quote": "And it was actually, if you trace back the history, it was actually GPT-2 started to show a little bit of these types of capabilities, but it was really GPT-3 that, like, brought broad one-shot, few-shot learning into the, like,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 65,
+          "t": [
+            366.93,
+            372.353
+          ],
+          "quote": "You could just ask the GPT-3 model for those that remember just like trying to prompt it with a few different examples.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "data-flywheels",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据飞轮 (data flywheels)",
+      "file": "数据飞轮",
+      "primary": false,
+      "how_described": "Florence 谈开源路线时的疑问:部署产生的数据能否回馈给开源模型创建者,是开源如何发展的核心问题之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 496,
+          "t": [
+            2992.278,
+            3016.589
+          ],
+          "quote": "And the thing that is not clear about the open source route is that, I mean, certainly there should be great open source models, but then it will be interesting to see if there is actual, like, you know, people overuse this word, but it's a real thing, like, you know, data flywheels, that sort of, you can actually get more value from deploying more and bring that data back in and improve the model.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

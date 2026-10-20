@@ -1,0 +1,1012 @@
+{
+  "episode_id": "2026-10-11-talks-an-ai-future-without-the-lock-in-remy-gu",
+  "podcast": "精选演讲",
+  "date": "2026-10-11",
+  "tags": [
+    "AI 基础设施",
+    "AI 网关",
+    "供应商锁定",
+    "智能体",
+    "ROI maxing"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "remy-guercio",
+      "type": "person",
+      "role": "guest",
+      "name": "Remy Guercio",
+      "file": "Remy Guercio",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "tailscale",
+      "type": "company",
+      "role": "company",
+      "name": "Tailscale",
+      "file": "Tailscale",
+      "primary": true,
+      "how_described": "本集说 Tailscale 是基于 WireGuard 的身份化网状网络，每个连接都自带机器或用户身份，可同步 Entra/Okta 用户组；Aperture 就构建在它之上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            27.362,
+            30.083
+          ],
+          "quote": "I am on the Strategic Projects team at TailScale.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            473.613,
+            475.354
+          ],
+          "quote": "And, right, so I work in TailScale, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            584.855,
+            586.677
+          ],
+          "quote": "So Aperture is built on Tailscale.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            587.097,
+            591.68
+          ],
+          "quote": "And if you're not familiar with Tailscale, Tailscale is an identity-based mesh network.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            594.102,
+            596.503
+          ],
+          "quote": "And what you get to do with Tailscale is",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            598.574,
+            605.62
+          ],
+          "quote": "Every connection that is made over a TailNet, so it's a TailScale network, you installed a TailNet agent everywhere that you need.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "aperture",
+      "type": "company",
+      "role": "company",
+      "name": "Aperture",
+      "file": "Aperture",
+      "primary": true,
+      "how_described": "本集说 Aperture 是 Tailscale 的 AI 网关，夹在智能体与所有端点（LLM、MCP、API）之间，既控制也观察，统一认证、控成本，还能回看日志诊断智能体哪里出错。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            30.903,
+            34.944
+          ],
+          "quote": "And more specifically, I actually work on our AI Gateway, Aperture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            490.08,
+            493.121
+          ],
+          "quote": "So our AI gateway is called Aperture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            584.855,
+            586.677
+          ],
+          "quote": "So Aperture is built on Tailscale.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            651.913,
+            653.215
+          ],
+          "quote": "That is what we use to build Aperture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            678.359,
+            680.842
+          ],
+          "quote": "So when it comes to using Aperture,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            780.714,
+            784.277
+          ],
+          "quote": "But with this, as you can see here, in Aperture is an admin.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            899.227,
+            903.431
+          ],
+          "quote": "So with Aperture, we actually have a built-in chat UI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            912.761,
+            920.644
+          ],
+          "quote": "So our whole goal with Aperture is to actually provide you with the same sort of tools and interfaces, or tools to build interfaces that we can.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 211,
+          "t": [
+            932.109,
+            934.75
+          ],
+          "quote": "The whole point is you're going to be able to do that with Aperture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            940.956,
+            943.262
+          ],
+          "quote": "Those are all again set up through Aperture itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            944.926,
+            947.453
+          ],
+          "quote": "You're just getting them by way of Aperture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1080.446,
+            1085.427
+          ],
+          "quote": "So even if you don't use Aperture, I do highly recommend you start considering an AI gateway.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-gateway",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 网关 (AI gateway)",
+      "file": "AI 网关",
+      "primary": true,
+      "how_described": "本集说 AI 网关是坐在智能体和一切端点中间的通用翻译层，用于统一认证、控制成本、观察与诊断智能体行为，是实现 ROI maxing 的关键工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            30.903,
+            34.944
+          ],
+          "quote": "And more specifically, I actually work on our AI Gateway, Aperture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            145.282,
+            147.163
+          ],
+          "quote": "I mean, I work on an AI gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            147.704,
+            148.704
+          ],
+          "quote": "We use our AI gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            148.744,
+            150.805
+          ],
+          "quote": "I get to see all of the usage from the AI gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            235.655,
+            237.777
+          ],
+          "quote": "That's the kind of benefit of working on an AI gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            475.374,
+            476.354
+          ],
+          "quote": "I work on an AI gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            477.355,
+            482.957
+          ],
+          "quote": "You know, maybe no surprise that I'm here to talk a little bit about why an AI gateway will help you do that, can help you do that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            483.017,
+            485.038
+          ],
+          "quote": "And I don't just mean necessarily using our AI gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            485.638,
+            489.48
+          ],
+          "quote": "But, you know, just any AI gateway is important for this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            490.08,
+            493.121
+          ],
+          "quote": "So our AI gateway is called Aperture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            552.947,
+            559.208
+          ],
+          "quote": "And so when you have something like an AI gateway, it's really easy to point it back at what you were doing and say, what happened?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            563.332,
+            568.799
+          ],
+          "quote": "And so if you've used an AI gateway, how many people have an AI gateway, have deployed an AI gateway?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            756.119,
+            761.643
+          ],
+          "quote": "In addition to being an LLM gateway, and this is actually why I said AI gateway at the beginning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            992.44,
+            999.806
+          ],
+          "quote": "You'll just be able to set it up so that you can pass through the auth, and you still get all of the same visibility that you're kind of expecting from an AI gateway as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1044.223,
+            1064.976
+          ],
+          "quote": "Again, trying to use that term AI gateway very loosely, intentionally very loosely, because in order to, again, kind of make the best choices for all of the different endpoints that you're, you know, environments, LLMs, data connectors, all that sort of thing, you really do need to kind of have a place to sort of see them all and then a place that brings them all together such that you can then use any other one.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1080.446,
+            1085.427
+          ],
+          "quote": "So even if you don't use Aperture, I do highly recommend you start considering an AI gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1085.447,
+            1086.508
+          ],
+          "quote": "You look at an AI gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1104.377,
+            1110.144
+          ],
+          "quote": "They have their usage behind an AI gateway just to have an idea as to what their agents are doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1115.99,
+            1142.549
+          ],
+          "quote": "With on tail scale and it's on their tail net and they and it's just running in the background and they're like oh my god it did something I'm not sure what it did it did something it was not supposed to do with something like an AI gateway you can actually go back and you can see and you can look and you can actually diagnose where it went wrong what happened so you know it's it's not just lock-in right it's actually just experimentation and understanding as a whole is you know it's very important to use something like an AI or LLM gateway so",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体是通过各层组件运行的系统：token maxing 时代智能体编码兴起，但会话常失控浪费 token；有了网关日志才能回看诊断智能体做了什么。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            415.603,
+            418.805
+          ],
+          "quote": "And then the last one is sandboxes slash just the environment in which the agent runs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            495.722,
+            511.269
+          ],
+          "quote": "What it does is, right, it's maybe no surprise here, right, but it lets you, it sits in between your agents and that interface of that agent and all of your endpoints as well, both like LLM endpoints and data, kind of MCP endpoints, API endpoints, anything that you have.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            521.355,
+            528.88
+          ],
+          "quote": "That can be from a, which we do a lot, I want to learn about what somebody is doing or what an agent is doing perspective.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            528.9,
+            532.583
+          ],
+          "quote": "It's actually really cool when you have logs and you can tell your agent to, hey,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            598.574,
+            605.62
+          ],
+          "quote": "Every connection that is made over a TailNet, so it's a TailScale network, you installed a TailNet agent everywhere that you need.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            655.336,
+            661.902
+          ],
+          "quote": "So it is able to see the identity of that user or that agent on the other side of the connection.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            700.985,
+            708.607
+          ],
+          "quote": "I put all those keys on that gateway, and then now, when I want to actually connect to that LLM provider as an agent or a user, there's no",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            849.565,
+            865.656
+          ],
+          "quote": "So if you have folks that want to use Cursor, or they want to use Claude Code, or they want to use Codex, or they want to use some special agent framework that they're, you know, some new hot thing that they've discovered or built or whatever, all they have to do is hit that endpoint, and if they're on the tail net,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agentic-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体编码 (agentic coding)",
+      "file": "智能体编码",
+      "primary": true,
+      "how_described": "本集说百万 token 上下文窗口、MCP 无处不在和擅长找上下文的编码工具，真正让智能体编码成为可能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            91.954,
+            98.458
+          ],
+          "quote": "It's really made truly agentic coding possible, having all of this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            100.899,
+            107.283
+          ],
+          "quote": "And we're going to see not just agentic coding, but other agentic use cases continue to take off as we",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "lock-in",
+      "type": "concept",
+      "role": "concept",
+      "name": "供应商锁定 (lock-in)",
+      "file": "供应商锁定",
+      "primary": true,
+      "how_described": "本集说垂直整合的工具链（Claude Code、Codex）和「全公司统一到一家供应商」都会加深锁定，而 ROI maxing 的核心就是最大化每层选择权以防止锁定。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            35.865,
+            42.672
+          ],
+          "quote": "And today I want to talk a little bit about what it means or what it's going to take to have an AI future without the lock-in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            42.772,
+            46.076
+          ],
+          "quote": "I think a lot of the lock-in that we've seen over the last 12 months.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            204.11,
+            216.693
+          ],
+          "quote": "In particular, how do we address the lock-in and how do we actually improve how we use AI such that we can use it for things that aren't just essentially frontier tasks or where we're just wasting money, wasting tokens?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1071.444,
+            1080.386
+          ],
+          "quote": "And like I said, as a reminder here is ROI maxing really is all about maximizing choice to prevent lock-in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1115.99,
+            1142.549
+          ],
+          "quote": "With on tail scale and it's on their tail net and they and it's just running in the background and they're like oh my god it did something I'm not sure what it did it did something it was not supposed to do with something like an AI gateway you can actually go back and you can see and you can look and you can actually diagnose where it went wrong what happened so you know it's it's not just lock-in right it's actually just experimentation and understanding as a whole is you know it's very important to use something like an AI or LLM gateway so",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "roi-maxing",
+      "type": "concept",
+      "role": "concept",
+      "name": "ROI 最大化 (ROI maxing)",
+      "file": "ROI 最大化",
+      "primary": true,
+      "how_described": "本集说是下一个 12 个月的关键词：不只是省钱，而是证明 AI 使用的真实价值，并在内部 AI 部署的每一层保留随时更换的选择权。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            308.237,
+            318.05
+          ],
+          "quote": "And, you know, I think this is kind of peeking at what we're going to see the next 12 months and what people are actually trying to do, at least at the, you know, kind of frontier is what I would like to call ROI maxing, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            319.292,
+            320.794
+          ],
+          "quote": "We're going to be ROI maxing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            356.27,
+            362.772
+          ],
+          "quote": "And so when we think about ROI maxing, we first need to think about what are the components of an internal AI deployment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            424.293,
+            434.536
+          ],
+          "quote": "And to be ROI maxing means to be maxing every opportunity that you have for choice, to make a choice at one of those layers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1071.444,
+            1080.386
+          ],
+          "quote": "And like I said, as a reminder here is ROI maxing really is all about maximizing choice to prevent lock-in.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "token-maxing",
+      "type": "concept",
+      "role": "concept",
+      "name": "Token 最大化 (token maxing)",
+      "file": "Token 最大化",
+      "primary": true,
+      "how_described": "本集说过去 12 个月是 token maxing：拼命往超长上下文塞东西，昂贵且激励「默认浪费 token」，从未清理的会话能累积数千万 token。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            46.136,
+            55.427
+          ],
+          "quote": "And yeah, so if we take a look real quick at the last 12 months, I think it can really be described quite a bit by the phrase token maxing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            113.043,
+            116.346
+          ],
+          "quote": "Token maxing is cool, but it has problems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            318.07,
+            319.272
+          ],
+          "quote": "We're not going to be token maxing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说 MCP 是数据连接层的主要形态，无处不在但各家对标准的实现不一；Aperture 作为 MCP 网关统一配置和按身份授权 MCP 服务器。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            76.264,
+            79.047
+          ],
+          "quote": "Not just, you know, MCP being everywhere, but, you know,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            376.098,
+            386.184
+          ],
+          "quote": "I mean, this is MCP for a lot of people, but in reality it's, you know, CLI or APIs or really just any way that you get data could be reading a file, right, into your agenting system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            495.722,
+            511.269
+          ],
+          "quote": "What it does is, right, it's maybe no surprise here, right, but it lets you, it sits in between your agents and that interface of that agent and all of your endpoints as well, both like LLM endpoints and data, kind of MCP endpoints, API endpoints, anything that you have.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            761.683,
+            776.052
+          ],
+          "quote": "So I know that seems kind of nebulous, but I've actually very specifically chose that term because we're both an LLM gateway and an MCP gateway, and we even do auth injection for just standard APIs and re-expose those as MCPs too.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            784.917,
+            787.699
+          ],
+          "quote": "You can go in and configure whatever MCP servers you want.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            792.981,
+            802.727
+          ],
+          "quote": "If you've ever deployed an MCP or used MCPs within your organization, you'll know that there's a standard, but everybody follows a different version of that standard.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            803.807,
+            809.25
+          ],
+          "quote": "You can tell exactly when an MCP server was built by exactly how they decided to do off.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            812.872,
+            817.999
+          ],
+          "quote": "When you go through setting up MCP servers, but we try to make that a very simple process here.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说沙箱是智能体运行的环境，是内部 AI 部署的第四层；目前行业百花齐放、选择已很多，Aperture 也会加入沙箱编排层。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 159,
+          "t": [
+            669.05,
+            678.299
+          ],
+          "quote": "So there's the LLM side of things, there's the data side of things, the interface side of things, and the actual sandbox environment in which things run side of things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1009.633,
+            1023.524
+          ],
+          "quote": "I think that's because the definition of a sandbox, I'm sure I could poll everybody here and would have a different, everybody would have a different definition of exactly what a sandbox is or what they need from a sandbox or what they want from a sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1028.267,
+            1033.593
+          ],
+          "quote": "Sandbox provider for every sort of whim and need and want out there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集说 LLM 是内部 AI 部署的第一层：把所有提供商的密钥集中到网关上，切换模型或提供商无需额外配置，还能按模型分配不同预算。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 83,
+          "t": [
+            371.355,
+            372.716
+          ],
+          "quote": "There's the LLM or LLMs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            495.722,
+            511.269
+          ],
+          "quote": "What it does is, right, it's maybe no surprise here, right, but it lets you, it sits in between your agents and that interface of that agent and all of your endpoints as well, both like LLM endpoints and data, kind of MCP endpoints, API endpoints, anything that you have.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            669.05,
+            678.299
+          ],
+          "quote": "So there's the LLM side of things, there's the data side of things, the interface side of things, and the actual sandbox environment in which things run side of things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            700.985,
+            708.607
+          ],
+          "quote": "I put all those keys on that gateway, and then now, when I want to actually connect to that LLM provider as an agent or a user, there's no",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            740.53,
+            748.517
+          ],
+          "quote": "So again, we've taken all the LLM layer and we've put it into one place that you can then expand out within your organization again.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            756.119,
+            761.643
+          ],
+          "quote": "In addition to being an LLM gateway, and this is actually why I said AI gateway at the beginning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            761.683,
+            776.052
+          ],
+          "quote": "So I know that seems kind of nebulous, but I've actually very specifically chose that term because we're both an LLM gateway and an MCP gateway, and we even do auth injection for just standard APIs and re-expose those as MCPs too.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1115.99,
+            1142.549
+          ],
+          "quote": "With on tail scale and it's on their tail net and they and it's just running in the background and they're like oh my god it did something I'm not sure what it did it did something it was not supposed to do with something like an AI gateway you can actually go back and you can see and you can look and you can actually diagnose where it went wrong what happened so you know it's it's not just lock-in right it's actually just experimentation and understanding as a whole is you know it's very important to use something like an AI or LLM gateway so",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集把它作为垂直整合工具链和供应商锁定的典型例子，也是大家想统一使用的热门工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            185.664,
+            187.804
+          ],
+          "quote": "Claude Code is obviously, you know, a big one, Codex, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            258.924,
+            260.426
+          ],
+          "quote": "Everybody seems to be using Claude Code right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            630.516,
+            632.498
+          ],
+          "quote": "So it's just me using Claude Code on my laptop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            849.565,
+            865.656
+          ],
+          "quote": "So if you have folks that want to use Cursor, or they want to use Claude Code, or they want to use Codex, or they want to use some special agent framework that they're, you know, some new hot thing that they've discovered or built or whatever, all they have to do is hit that endpoint, and if they're on the tail net,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集提到它是和 Claude Code 并列的垂直整合工具链例子，且每天收到它的账单是团队恐慌的来源之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            185.664,
+            187.804
+          ],
+          "quote": "Claude Code is obviously, you know, a big one, Codex, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            246.239,
+            247.64
+          ],
+          "quote": "I get a Codex bill every day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            695.544,
+            700.465
+          ],
+          "quote": "It's got even Anthropic OAuth, Bedrock Codex, everything that you can imagine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            849.565,
+            865.656
+          ],
+          "quote": "So if you have folks that want to use Cursor, or they want to use Claude Code, or they want to use Codex, or they want to use some special agent framework that they're, you know, some new hot thing that they've discovered or built or whatever, all they have to do is hit that endpoint, and if they're on the tail net,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到团队每天收到 Anthropic 的账单，它是 Aperture 网关中可配置的 LLM 提供商之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            242.258,
+            245.699
+          ],
+          "quote": "I get, you know, I get an Anthropic bill every day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            693.143,
+            695.344
+          ],
+          "quote": "It's got Anthropic, OpenAI, Vercel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            695.544,
+            700.465
+          ],
+          "quote": "It's got even Anthropic OAuth, Bedrock Codex, everything that you can imagine.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "context window",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

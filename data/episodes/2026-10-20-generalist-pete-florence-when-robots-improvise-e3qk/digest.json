@@ -1,0 +1,197 @@
+{
+  "title_zh": "机器人学会“看一遍就会”：Generalist 创始人谈物理世界的 GPT-3 时刻",
+  "tldr": "Generalist 联合创始人兼 CEO Pete Florence 讲解机器人基础模型 Gen 1.5 为何被视为机器人领域的 GPT-3 时刻，以及为什么灵巧操作是机器人的终极难题。",
+  "digest_md": "2011 年福岛核事故之后，没有任何一台机器人能走进核电站拧一个阀门，最后只能派人进去。这是 Pete Florence 在机器人研究生院时，所有人都会举的例子。如今他是 Generalist 的联合创始人和 CEO，公司做的是给各种机器人——从工厂机械臂到人形机器人——提供通用的“大脑”。最近，公司发布了新模型 Gen 1.5，Anthropic 的研究员 Sholto Douglas 称之为机器人领域的“GPT-3 时刻”。\n\n## 什么叫“看一遍就会”？\n\nGen 1.5 最让人吃惊的能力叫“一次学习”：给机器人演示一遍某个任务，比如从钱包里取出纸币，它立刻就能照做，不需要重新训练。Florence 坦言，这些任务的成功率目前还不高，但“成功率高过零这件事本身就已经不可思议了” [03:33 Pete]。\n\n这和 GPT-3 当年的突破很类似。GPT-3 论文提出的“上下文学习”就是：给模型一两个例子，它就知道该做什么。Gen 1.5 在物理世界出现了类似行为——而且没人刻意训练过它这么做。\n\n==为什么会这样==？Florence 给出的解释和 GPT-3 的研究一致，关键在数据的“突发性”：人在从钱包里取钱时，往往接下来还会再取一次。模型学会的是猜“接下来最可能发生什么”，于是给一个演示，它就能顺着往下做。他自己也没想到这个能力出现得这么快 [07:56 Pete]。\n\n## 更神奇的：换个工具它也会\n\n比“看一遍就会”更让 Florence 兴奋的，是模型表现出的“零样本物理泛化”。团队先教会机器人用刷子把一个物体扫进碗里，然后把刷子拿走，换成簸箕——它居然能直接用物理特性完全不同的簸箕把东西铲起来 [57:20 Pete]。\n\nFlorence 用语言模型打比方：一次学习像是给模型一个例子让它模仿；零样本泛化则像是让它直接写一首世上从未有过的诗，需要真正的创造力。心理学里有个说法叫打破“功能固着”——砖头可以是门挡，也可以是锤子。Gen 1.5 开始展现出这种灵活应变的物理直觉。\n\n## 灵巧为什么是机器人的圣杯\n\n走路问题基本解决了——双足机器人在平地上走得很好。但让机器人站在一堆杂乱物品前，用“手”去摆弄它们，长期以来一直是难以攻克的问题。Florence 引用机器人操作领域的元老 Matt Mason 的定义：操作就是“有选择地与世界接触，把世界置入某种期望的构型” [15:20 Pete]。\n\n关键词是“有选择地接触”。什么时候碰、什么时候不碰、用多大力，这正是物理中最难预测的部分。他甚至给出一个极宽的定义：手，就是任何能帮你选择性地接触或不接触的东西——按这个标准，脚也算手。\n\nFlorence 还提到一个演化生物学的启发：有研究认为，人类手的灵巧与制造工具的能力，可能反过来推动了大脑（包括语言相关区域）的发育。工具制造者的大脑是被灵巧性撑大的。这不一定能直接搬到人工智能上，但确实是团队灵感的来源。\n\n至于触觉，他做了一个思想实验：让人远程操控一台完全没有触觉反馈的机器人，你会发现人类靠视觉就能玩得比最好的 AI 模型还好。这说明触觉重要，但目前的瓶颈更多在“大脑”而不是皮肤。多数机器人已经免费拥有本体感觉——知道自己关节的角度和受力。\n\n## 数据不是论小时算的，是论“有没有用”\n\nGeneralist 拥有自研的机器手，但机械臂用现成产品，也不自己做摄像头传感器。原则只有一条：什么能让模型智能研究迭代最快，就做什么 [41:11 Pete]。早期收集数据时，团队干过背包塞满硬盘坐飞机的活——背硬盘坐飞机的带宽，比互联网还难被打败 [37:01 Pete]。他们还造过能同时从大量内存卡上传数据的定制服务器。\n\nFlorence 强调，**一小时数据的价值差异可以是无穷大**：机器人对着白墙不动一小时，价值为零 [39:39 Pete]。什么任务、什么物体、什么元数据，决定了数据的含金量。他也相信扩展定律，但认为算法和基础设施的进步能从根本上移动整条曲线——效率差距可以达到 10 倍、100 倍甚至 1000 倍。\n\n## 为什么不先在两个商业场景里做到极致？\n\n有人问：==先把一两个应用做到五六个九的可靠度、大规模部署、顺便收数据，不香吗==？Florence 的回答是：如果一个任务你已经能做到五六个 9 的可靠度，说明你其实已经解决了那个问题，能学到的新东西有限。而且机器学习反复证明，多样性至关重要——你需要尽可能多样的数据底座，再叠加对具体任务的深度掌握 [42:44 Pete]。\n\n## 机器人界的“杀手级应用”是什么？\n\n编程曾是语言模型的杀手级应用。==物理智能的对应物是什么==？Florence 的答案是：灵巧操作本身 [45:15 Pete]。理由有二。第一，就像软件能创造巨大价值，物理世界里创造价值的任务，绝大多数都要求接触和移动物体——否则机器人只是在“移动一个传感器”，那不如用无人机，或者干脆把摄像头钉在墙上。第二，这里有一个自我改进的循环：一旦攻克灵巧操作，“机器人就可以制造机器人，机器人开始制造下一代机器人” [46:04 Pete]。\n\n## 家用机器人还要等多久？\n\nFlorence 认为，未来几年先起飞的是工业场景，家用会慢一些——原因之一是安全：大而重的机器人进家庭，安全问题必须先想清楚，而工厂里可以用隔离区域等成熟手段解决 [63:10 Pete]。他也提醒，市场上已经出现带小机械臂、能捡起地面小物的扫地机器人，会叠衣服的机器人也会开始小规模进入家庭，只是它们是否真的有用，还是只是酷，是另一个问题。\n\n谈到未来一年，他有个有趣的观察：在快速变动的研究里，很难有一件事是“一年后大概率发生、但下个月绝不可能发生”的——本来他会说工具即兴使用是明年的目标，结果一个月前就实现了 [60:32 Pete]。\n\n## 本集带走\n\n- Gen 1.5 展现出一次学习能力：演示一遍，机器人就能照做，且没人刻意训练过这个能力，根源可能在数据的“突发性”结构。\n- 换工具也能完成任务（刷子换簸箕）的零样本物理泛化，被 Florence 视为比一次学习更重要的信号。\n- 机器人领域走路已基本解决，真正难的是“有选择地接触世界”的灵巧操作——它也被视为物理智能的杀手级应用。\n- 数据的价值差异极大，团队一切决策围绕一个原则：什么能让模型研究的迭代速度最快。\n- 工业场景会先于家庭起飞，安全是家用大机器人迟迟不落地的关键原因之一。",
+  "quotes": [
+    {
+      "en": "There wasn't a robot in the world that could walk into the nuclear facility after the meltdown and just turn a valve.",
+      "zh": "在堆芯熔毁之后，当时世界上没有任何一个机器人能够走进核设施并只是转动一个阀门。",
+      "timestamp": "00:09",
+      "speaker": "Pete Florence"
+    },
+    {
+      "en": "If you're not touching and moving the world and you're a robot, what are you doing?",
+      "zh": "如果你是一个机器人，却不能触碰和搬动这个世界，那你在做什么呢？",
+      "timestamp": "00:16",
+      "speaker": "Pete Florence"
+    },
+    {
+      "en": "The success rates of all these are modest today, but the fact that these success rates are anything above zero is the incredible thing.",
+      "zh": "今天这些的成功率还很一般，但这些成功率能够高于零这件事本身就是令人难以置信的。",
+      "timestamp": "00:33",
+      "speaker": "Pete Florence"
+    },
+    {
+      "en": "If we can really crack dexterity, then the robots can build the robots and the robots can start building the next generation of robots.",
+      "zh": "如果我们能真正攻克灵巧操作，那么机器人就能制造机器人，机器人就能开始制造下一代机器人。",
+      "timestamp": "01:04",
+      "speaker": "Pete Florence"
+    },
+    {
+      "en": "And mind you, just to be clear, like the success rates of all these are modest today, but the fact that these success rates are anything above zero is the incredible thing.",
+      "zh": "而且请注意，先说清楚，今天这些的成功率还很一般，但这些成功率能够高于零这件事本身就是令人难以置信的。",
+      "timestamp": "03:54",
+      "speaker": "Pete Florence"
+    },
+    {
+      "en": "Like you can have efficiency gains that are easily 10, maybe even a hundred, maybe even a thousand X relative to somebody who's just like buying expensive stuff and seeing what happens with the robot.",
+      "zh": "你可以获得的效率提升，轻松达到 10 倍，也许是 100 倍，甚至也许是 1000 倍，相对于那种只是买昂贵的东西然后看看机器人会怎样的人。",
+      "timestamp": "36:20",
+      "speaker": "Pete Florence"
+    },
+    {
+      "en": "I mean, it's crazy, but like putting a bunch of hard drives in a backpack and getting on a plane, turns out the bandwidth of that is pretty hard to beat compared to the internet.",
+      "zh": "我是说，很疯狂，但是比如把一堆硬盘塞进背包然后上飞机，事实证明那样做的带宽真的很难被互联网比下去。",
+      "timestamp": "37:01",
+      "speaker": "Pete Florence"
+    },
+    {
+      "en": "And similarly, if you're not touching and moving the world and you're a robot, what are you doing?",
+      "zh": "同样地，如果你是一个机器人，却不触碰和搬动这个世界，那你在干什么？",
+      "timestamp": "46:15",
+      "speaker": "Pete Florence"
+    },
+    {
+      "en": "And I would say, for all intents and purposes, if you don't touch and move the world, you're basically just moving a sensor around.",
+      "zh": "我想说，无论从哪方面看，如果你不触碰和搬动这个世界，你基本上就只是在移动一个传感器。",
+      "timestamp": "46:25",
+      "speaker": "Pete Florence"
+    },
+    {
+      "en": "It feels like you're playing whack-a-mole with all the stupid mistakes that a model can make.",
+      "zh": "感觉就像你在和模型可能犯的所有愚蠢错误玩打地鼠。",
+      "timestamp": "54:09",
+      "speaker": "Pete Florence"
+    },
+    {
+      "en": "But as the base models get stronger, and we've seen this for a while now, you have to only give them a very small amount of guidance on how to not do the thing that's causing it to fail, and it just won't do it again.",
+      "zh": "但随着基础模型越来越强，我们已经看到这一点有一段时间了，你只需要给它们很少的指导，告诉它们不要做那个导致失败的事情，它就不会再做了。",
+      "timestamp": "54:14",
+      "speaker": "Pete Florence"
+    },
+    {
+      "en": "A year is an interesting timeline because in my opinion, it's hard to think of things that you think are likely to happen about a year from now, but are not possible of happening within the next month.",
+      "zh": "一年是一个有趣的时间线，因为在我看来，很难想出一些你认为大约一年后可能发生、但在下个月内不可能发生的事情。",
+      "timestamp": "60:36",
+      "speaker": "Pete Florence"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:09",
+      "speaker": "旁白",
+      "en": "There wasn't a robot in the world that could walk into the nuclear facility after the meltdown and just turn a valve.",
+      "zh": "在堆芯熔毁之后，当时世界上没有任何一个机器人能够走进核设施并只是转动一个阀门。"
+    },
+    {
+      "timestamp": "00:16",
+      "speaker": "Pete Florence",
+      "en": "If you're not touching and moving the world and you're a robot, what are you doing?",
+      "zh": "如果你是一个机器人，却不能触碰和搬动这个世界，那你在做什么呢？"
+    },
+    {
+      "timestamp": "00:33",
+      "speaker": "Pete Florence",
+      "en": "The success rates of all these are modest today, but the fact that these success rates are anything above zero is the incredible thing.",
+      "zh": "今天这些的成功率还很一般，但这些成功率能够高于零这件事本身就是令人难以置信的。"
+    },
+    {
+      "timestamp": "01:04",
+      "speaker": "Pete Florence",
+      "en": "If we can really crack dexterity, then the robots can build the robots and the robots can start building the next generation of robots.",
+      "zh": "如果我们能真正攻克灵巧操作，那么机器人就能制造机器人，机器人就能开始制造下一代机器人。"
+    },
+    {
+      "timestamp": "03:54",
+      "speaker": "Pete Florence",
+      "en": "And mind you, just to be clear, like the success rates of all these are modest today, but the fact that these success rates are anything above zero is the incredible thing.",
+      "zh": "而且请注意，先说清楚，今天这些的成功率还很一般，但这些成功率能够高于零这件事本身就是令人难以置信的。"
+    },
+    {
+      "timestamp": "08:24",
+      "speaker": "Pete Florence",
+      "en": "The physical world also has burstiness, where if people are taking bills out of a wallet, it's pretty likely they'll take another bill out of a wallet, right?",
+      "zh": "物理世界也有突发性，如果人们正在从钱包里拿钞票，那么他们很可能再从钱包里拿另一张钞票，对吧？"
+    },
+    {
+      "timestamp": "08:33",
+      "speaker": "Pete Florence",
+      "en": "It's literally just guessing what is most likely to happen next or what it should do next based on a little bit of prompting in its context.",
+      "zh": "它真的就只是在猜接下来最可能发生什么，或者根据其上下文中一点点提示，它接下来应该做什么。"
+    },
+    {
+      "timestamp": "09:39",
+      "speaker": "Pete Florence",
+      "en": "And one of the easiest ways that we know this is we can just 3D print objects that we're pretty sure have never existed before.",
+      "zh": "我们知道这一点最简单的方式之一就是，我们可以 3D 打印一些我们非常确定以前从未存在过的物体。"
+    },
+    {
+      "timestamp": "29:58",
+      "speaker": "Pete Florence",
+      "en": "Which is that simplicity scales really well.",
+      "zh": "那就是，简单性扩展性非常好。"
+    },
+    {
+      "timestamp": "36:20",
+      "speaker": "Pete Florence",
+      "en": "Like you can have efficiency gains that are easily 10, maybe even a hundred, maybe even a thousand X relative to somebody who's just like buying expensive stuff and seeing what happens with the robot.",
+      "zh": "你可以获得的效率提升，轻松达到 10 倍，也许是 100 倍，甚至也许是 1000 倍，相对于那种只是买昂贵的东西然后看看机器人会怎样的人。"
+    },
+    {
+      "timestamp": "37:01",
+      "speaker": "Pete Florence",
+      "en": "I mean, it's crazy, but like putting a bunch of hard drives in a backpack and getting on a plane, turns out the bandwidth of that is pretty hard to beat compared to the internet.",
+      "zh": "我是说，很疯狂，但是比如把一堆硬盘塞进背包然后上飞机，事实证明那样做的带宽真的很难被互联网比下去。"
+    },
+    {
+      "timestamp": "38:47",
+      "speaker": "Pete Florence",
+      "en": "Like an hour of data is not a, um, a fungible unit, you know?",
+      "zh": "一小时的数据并不是一个可互换的等价单位，你知道吗？"
+    },
+    {
+      "timestamp": "39:37",
+      "speaker": "Pete Florence",
+      "en": "I think it's actually literally, I would say, infinite.",
+      "zh": "我认为实际上可以说是，字面意义上的，无限。"
+    },
+    {
+      "timestamp": "43:13",
+      "speaker": "Pete Florence",
+      "en": "As you're climbing nines up to five or six or however high you need to go, you'll find lots of interesting edge cases along the way.",
+      "zh": "当你往五个九、六个九或者你需要达到的任何高度爬升时，你会在这个过程中发现很多有趣的边缘情况。"
+    },
+    {
+      "timestamp": "46:15",
+      "speaker": "Pete Florence",
+      "en": "And similarly, if you're not touching and moving the world and you're a robot, what are you doing?",
+      "zh": "同样地，如果你是一个机器人，却不触碰和搬动这个世界，那你在干什么？"
+    },
+    {
+      "timestamp": "46:25",
+      "speaker": "Pete Florence",
+      "en": "And I would say, for all intents and purposes, if you don't touch and move the world, you're basically just moving a sensor around.",
+      "zh": "我想说，无论从哪方面看，如果你不触碰和搬动这个世界，你基本上就只是在移动一个传感器。"
+    },
+    {
+      "timestamp": "54:09",
+      "speaker": "Pete Florence",
+      "en": "It feels like you're playing whack-a-mole with all the stupid mistakes that a model can make.",
+      "zh": "感觉就像你在和模型可能犯的所有愚蠢错误玩打地鼠。"
+    },
+    {
+      "timestamp": "54:14",
+      "speaker": "Pete Florence",
+      "en": "But as the base models get stronger, and we've seen this for a while now, you have to only give them a very small amount of guidance on how to not do the thing that's causing it to fail, and it just won't do it again.",
+      "zh": "但随着基础模型越来越强，我们已经看到这一点有一段时间了，你只需要给它们很少的指导，告诉它们不要做那个导致失败的事情，它就不会再做了。"
+    },
+    {
+      "timestamp": "60:36",
+      "speaker": "Pete Florence",
+      "en": "A year is an interesting timeline because in my opinion, it's hard to think of things that you think are likely to happen about a year from now, but are not possible of happening within the next month.",
+      "zh": "一年是一个有趣的时间线，因为在我看来，很难想出一些你认为大约一年后可能发生、但在下个月内不可能发生的事情。"
+    }
+  ],
+  "voice_script": "2011年福岛核事故之后，出了一件让整个机器人行业脸上无光的事：世界上没有任何一台机器人，能走进那个核电站，拧动一个阀门。最后只能派人进去。这是Pete Florence在念机器人研究生的时候，教授们反复举的例子。如今他自己成了Generalist这家公司的联合创始人兼CEO，公司做的事情，是给各种机器人——从工厂里的机械臂到人形机器人——提供一颗通用的\"大脑\"。最近他们发布了新模型Gen 1.5，Anthropic的一位研究员把它称作机器人领域的\"GPT-3时刻\"。这一期，我们就来聊聊，这句话到底什么意思。\n\n要理解这个说法，得先看Gen 1.5最让人吃惊的一个能力，叫\"一次学习\"。什么意思呢？你给机器人演示一遍某个任务，比如从钱包里取出一张纸币，它看一遍，立刻就能照着做，不需要重新训练。这个听起来平平无奇，其实非常反常——过去你要让机器人学会一个新任务，得收集海量数据、反复训练才行。现在演示一遍就行。\n\n那为什么说这像GPT-3时刻呢？你回想一下GPT-3当年那篇论文，里面有个概念叫\"上下文学习\"：给语言模型看一两个例子，它就知道接下来该干什么了。没有人专门训练过它这个能力，它是自己冒出来的。现在，类似的事情在物理世界里发生了——Gen 1.5也能\"看例子干活\"，而且同样没人刻意训练过它这么做。连Florence自己都承认，没想到这个能力出现得这么快。\n\n为什么会这样？Florence给出的解释，和GPT-3的研究结论是一致的，关键在数据里的一种\"突发性\"。举个例子：一个人从钱包里取了一次钱之后，往往接下来还会再取一次。模型学会的事情，本质上就是猜\"接下来最可能发生什么\"。所以你只要给它一个演示，它就能顺着往下做。当然，得实话实说，这些任务今天的成功率还不高——但有句话很值得记住：成功率能高过零这件事本身，就已经不可思议了。\n\n如果说\"看一遍就会\"已经很神奇，那接下来这个能力，让Florence更兴奋。它叫\"零样本物理泛化\"。团队先教会机器人用一把刷子，把一个物体扫进碗里。然后他们把刷子拿走，换成簸箕——注意，簸箕和刷子的物理特性完全不同——机器人居然直接就能用簸箕把东西铲起来，一次都没学过。\n\nFlorence用语言模型打了个比方来解释这两者的区别：一次学习，像是给模型一个例子让它模仿；零样本泛化，则像是让它直接写一首世界上从来没有过的诗，这需要真正的创造力。心理学里有个说法叫\"功能固着\"，意思是人容易把工具的用途看死——而砖头其实可以是门挡，也可以是锤子。Gen 1.5开始展现出这种打破固有用途的、灵活应变的物理直觉。\n\n那么，顺着这个思路往下走，就引出了这一期的核心问题：机器人领域到底什么才是最难的？你可能会以为是走路。其实走路问题基本已经解决了，双足机器人在平地上走得很好。真正难的是另一件事：让机器人站在一堆杂乱物品前面，用\"手\"去摆弄它们。这就是所谓的灵巧操作，业内管它叫机器人领域的圣杯。\n\n这个词有个经典定义，来自机器人操作领域的元老Matt Mason：操作，就是\"有选择地与世界接触，把世界置入某种期望的构型\"。关键词是\"有选择地接触\"。什么时候碰、什么时候不碰、用多大力——这恰恰是物理里最难预测的部分。Florence甚至给\"手\"下了一个极宽的定义：手，就是任何能帮你选择性地接触或不接触世界的东西。按这个标准，脚也算手。\n\n有意思的是，他还提到一个演化生物学的启发：有研究认为，人类手的灵巧和制造工具的能力，反过来推动了大脑的发育，包括语言相关的区域。可以说，工具制造者的大脑，是被灵巧性撑大的。这个结论不一定能直接搬到人工智能上，但确实是这个团队的灵感来源之一。\n\n那触觉呢？灵巧的手是不是一定需要敏锐的皮肤？Florence做了一个思想实验：让一个人远程操控一台完全没有触觉反馈的机器人，你会发现，人类靠视觉就能玩得比最好的AI模型还好。这说明触觉虽然重要，但目前的瓶颈更多在\"大脑\"，而不是皮肤。而且很多机器人已经免费拥有一项能力，叫本体感觉——说白了就是知道自己的关节在什么角度、受了多大力。\n\n讲到这里，你可能会好奇，做出这样的模型，数据和硬件是怎么搞的？Generalist自研机器手，但机械臂用现成产品，摄像头传感器也不自己做。原则只有一条：什么能让模型智能研究的迭代最快，就做什么。早期收集数据的时候，团队干过一个现在听起来很土但很硬核的活——把背包塞满硬盘，坐飞机运数据。因为背硬盘飞一趟的带宽，比互联网还难被打败。他们还专门造过服务器，能同时从大量内存卡上传数据。\n\n而且Florence强调，数据不是论小时算的，是论\"有没有用\"。一小时数据的价值差异可以是无穷大——机器人对着白墙一动不动一小时，这数据价值就是零。什么任务、什么物体、带不带元数据，才决定数据的含金量。他也相信扩展定律，但认为算法和基础设施的进步，能从根本上移动整条曲线，效率差距可以达到10倍、100倍，甚至1000倍。\n\n这里有个很尖锐的问题：为什么不先挑一两个商业场景，把可靠性做到极致、大规模部署、顺便收数据，不好吗？Florence的回答很干脆：如果一个任务你已经能做到五六个9的可靠度，说明你其实已经解决了那个问题，能学到的新东西有限。而且机器学习领域反复证明，多样性至关重要——你需要尽可能多样的数据底座，再在这个底座上叠加对具体任务的深度掌握。\n\n再往大了问一步：编程曾经是语言模型的杀手级应用，那物理智能的对应物是什么？Florence的答案就是灵巧操作本身。理由有两个。第一，物理世界里那些能创造巨大价值的任务，绝大多数都要求接触和移动物体——如果机器人不能触碰和搬动这个世界，那它在做什么呢？那无非是移动一个传感器，那不如用无人机，或者干脆把摄像头钉在墙上。第二个理由更妙：这里藏着一个自我改进的循环——一旦真正攻克灵巧操作，机器人就可以制造机器人，机器人就能开始制造下一代机器人。\n\n最后说说大家最关心的：家用机器人还要等多久？Florence的判断是，未来几年先起飞的是工业场景，家用会慢一些。原因之一是安全——大而重的机器人进家庭，安全问题必须先想清楚，而工厂里可以用隔离区域这类成熟手段来解决。市面上其实已经出现了带小机械臂、能捡起地面小东西的扫地机器人，会叠衣服的机器人也会开始小规模进入家庭，只是它们到底是真有用，还是只是酷，那是另一个问题。他还分享了一个有趣的观察：在快速变动的研究领域，很难有一件事是\"一年后大概率发生、但下个月绝不可能发生\"的——本来工具即兴使用被定为明年的目标，结果一个月前就实现了。\n\n回头看，从福岛那次没人能拧动阀门的尴尬，到今天机器人看一遍就会干活、换把工具也能上手，这个行业正在靠近它自己的GPT-3时刻。而一旦灵巧操作这个圣杯被真正拿下，机器人就能制造机器人，开始制造下一代机器人——那扇门后面的世界，可能比我们想象的来得更快。"
+}

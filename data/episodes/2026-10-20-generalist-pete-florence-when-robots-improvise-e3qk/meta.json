@@ -1,0 +1,29 @@
+{
+  "id": "2026-10-20-generalist-pete-florence-when-robots-improvise-e3qk",
+  "audio_mp3": "https://anchor.fm/s/102eb9800/podcast/play/127592069/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-16%2F434329370-44100-2-edf2a8c5ae6cc.mp3",
+  "duration_sec": 3944.02,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 638,
+  "asr": true,
+  "title_en": "Pete Florence: When Robots Improvise",
+  "podcast": "The Generalist",
+  "date": "2026-10-20",
+  "cover_official_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43339616/43339616-1792439405861-86bcae15e42e7.jpg",
+  "added": "2026-10-21",
+  "added_at": "2026-10-20T19:05:08.827Z",
+  "speaker_map": {
+    "SPEAKER_00": "Mario",
+    "SPEAKER_01": "Pete Florence",
+    "SPEAKER_02": "Mario"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Mario",
+  "cohosts": [
+    "Pete Florence"
+  ],
+  "title_zh": "机器人学会“看一遍就会”：Generalist 创始人谈物理世界的 GPT-3 时刻",
+  "guest_name": "Pete Florence",
+  "guest_title": "Generalist 联合创始人兼 CEO",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}
