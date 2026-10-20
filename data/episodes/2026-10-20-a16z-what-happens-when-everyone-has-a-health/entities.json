@@ -1,0 +1,821 @@
+{
+  "episode_id": "2026-10-20-a16z-what-happens-when-everyone-has-a-health",
+  "podcast": "The a16z Show",
+  "date": "2026-10-20",
+  "tags": [
+    "AI 医疗",
+    "健康智能",
+    "信任与安全",
+    "智能体",
+    "医疗成本"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "jay-rugani",
+      "type": "person",
+      "role": "host",
+      "name": "Jay Rugani",
+      "file": "Jay Rugani",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            76.18,
+            87.543
+          ],
+          "quote": "In this episode, A16Z partner Jay Rugani sits down with Karan Singhal, who leads health AI research at OpenAI, to talk about the company's vision for making trustworthy health intelligence widely accessible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            136.936,
+            142.64
+          ],
+          "quote": "I'm Jay Rugani, a partner at A16Z, leading investments in healthcare and biotechnology companies.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "karan-singhal",
+      "type": "person",
+      "role": "cohost",
+      "name": "Karan Singhal",
+      "file": "Karan Singhal",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            76.18,
+            87.543
+          ],
+          "quote": "In this episode, A16Z partner Jay Rugani sits down with Karan Singhal, who leads health AI research at OpenAI, to talk about the company's vision for making trustworthy health intelligence widely accessible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            142.98,
+            145.082
+          ],
+          "quote": "I'm joined by Karan Singhal of OpenAI.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集嘉宾 Karan Singhal 所在的公司，负责 health AI 研究；本集讲它把医疗专长训进通用模型、与数百名全球医生合作评估，使命是让可信的健康智能广泛普及。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            9.475,
+            15.338
+          ],
+          "quote": "OpenAI's mission is to ensure AGI benefits all of humanity and give people access to trustworthy, abundant, reliable health intelligence.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 16,
+          "t": [
+            76.18,
+            87.543
+          ],
+          "quote": "In this episode, A16Z partner Jay Rugani sits down with Karan Singhal, who leads health AI research at OpenAI, to talk about the company's vision for making trustworthy health intelligence widely accessible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            88.363,
+            100.905
+          ],
+          "quote": "Karan explains why OpenAI is training medical expertise into its general purpose models, rather than building a separate healthcare model, how it works with hundreds of physicians to evaluate those systems, and why the goal isn't to replace doctors.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            142.98,
+            145.082
+          ],
+          "quote": "I'm joined by Karan Singhal of OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 24,
+          "t": [
+            145.202,
+            149.425
+          ],
+          "quote": "He leads health AI research at OpenAI, and we've got a lot to talk about.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 33,
+          "t": [
+            173.205,
+            176.229
+          ],
+          "quote": "So OpenAI's mission is to ensure AGI benefits all of humanity.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 83,
+          "t": [
+            403.667,
+            408.868
+          ],
+          "quote": "So OpenAI is building health intelligence and health intelligence into your model at every step.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 93,
+          "t": [
+            487.17,
+            492.252
+          ],
+          "quote": "And if you bet on scale, what we found as OpenAI as an industry is that things will get better.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 101,
+          "t": [
+            554.175,
+            557.518
+          ],
+          "quote": "Is that sort of the experience you're building at OpenAI in the fullness of time?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 135,
+          "t": [
+            752.407,
+            755.728
+          ],
+          "quote": "Instinct, Muse, GrokBot, OpenAI's Dots.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 146,
+          "t": [
+            815.41,
+            816.872
+          ],
+          "quote": "Should we look forward to that from OpenAI?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1038.501,
+            1064.79
+          ],
+          "quote": "And so zooming out a little bit and the question of like agreement and disagreement around how we respond and how we evaluate, like one thing you could do and one thing that you could kind of base your approach on here is like we could bring in a few clinicians into, let's say, the OpenAI Health team and say like, hey, you guys figure out how to navigate these kind of uncertain cases and, you know, we'll ask you about these uncertain cases and you'll help us build evaluations and training data and stuff like this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1076.093,
+            1086.035
+          ],
+          "quote": "And so one of the first things that we did when we first started focusing on health at OpenAI was really build this kind of global physician network of hundreds of experts that we work with kind of across the globe, across",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1571.255,
+            1575.877
+          ],
+          "quote": "You know, a few years ago, I think OpenAI was very early to speaking the language of healthcare.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1682.765,
+            1689.707
+          ],
+          "quote": "If I ask my OpenAI dot, hey, I want to feel better over the next few weeks, how do you even interpret that question?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1927.231,
+            1931.712
+          ],
+          "quote": "I think there is stuff that OpenAI can do relatively uniquely here because of the front door to health that it has.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1964.893,
+            1970.457
+          ],
+          "quote": "So as a consumer, should the experience that I look forward to from OpenAI be",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 363,
+          "t": [
+            2073.265,
+            2081.548
+          ],
+          "quote": "I think another one is AdventHealth, and they've actually been some of our power users in thinking about deploying agents across the workspace, actually across all of OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2689.75,
+            2696.212
+          ],
+          "quote": "And so one bet we've had at OpenAI is that the cost of health intelligence will plummet at a given level of health intelligence.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2909.514,
+            2918.357
+          ],
+          "quote": "Like I mentioned, like we think about a lot of our health impact through OpenAI as not being directly through the products that we offer, but actually through our partners and that last mile of delivering care.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集说每周已有超过 3 亿人用它咨询健康问题，大多数是免费用户且多在美国之外；它被视为就诊间隙的『安全网』，并有面向临床医生和企业（ChatGPT for clinicians / for healthcare）的版本。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            64.057,
+            69.098
+          ],
+          "quote": "More than 300 million people are already using ChatGPT for health and wellness questions every week.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            153.488,
+            161.954
+          ],
+          "quote": "There was a report earlier this year, you all have talked about it publicly, hundreds of millions of people each week use ChatGPT for health-related questions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 43,
+          "t": [
+            217.074,
+            223.136
+          ],
+          "quote": "And so as we reported, there's more than 300 million people weekly using ChatGPT for health and wellness types of questions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 89,
+          "t": [
+            443.299,
+            454.769
+          ],
+          "quote": "So what we do for ChatGPT and all the models that we ship in ChatGPT, across every stage of model training for ChatGPT, we actually have specialized healthcare data added to each phase of training since all of our models in the last year.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 105,
+          "t": [
+            564.563,
+            582.237
+          ],
+          "quote": "I don't think that's any kind of replacement for actually having a doctor or having access to a doctor, but really thinking about the ways in which we can take that experience of getting health information and making it more personal to kind of your context is a really important part of kind of our investment in health and ChatGPT, which is kind of consumer offering that we have that enables",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 118,
+          "t": [
+            649.011,
+            659.973
+          ],
+          "quote": "She double-checked that medication in ChatGPT, realized based on her medical history that she would have some drug interaction or some adverse event that may come from that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1159.023,
+            1166.885
+          ],
+          "quote": "There's another instance of disagreement, which is me as the consumer, I ask a medical question of ChatGPT.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1196.6,
+            1201.563
+          ],
+          "quote": "And yeah, that's what I would advocate for whether or not you're also using ChatGPT to get health information as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1341.406,
+            1352.612
+          ],
+          "quote": "And so this is one very important principle behind our work in ChatGPT for Healthcare and ChatGPT for clinicians, which are clinician and healthcare professional facing offerings where we're bringing in the latest biomedical literature in the moment of care.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1472.969,
+            1481.439
+          ],
+          "quote": "So, you know, of the 1.2 billion people who use ChatGPT weekly, I'm giving them a model for health that is just like incredibly useful at the frontier for free.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1509.937,
+            1518.42
+          ],
+          "quote": "That goes, you know, along the lines of, you know, our work in ChatGPT, health and ChatGPT, ChatGPT for healthcare on the enterprise side and ChatGPT for clinicians.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1528.924,
+            1536.189
+          ],
+          "quote": "What are the security and compliance bottlenecks in providing an enterprise offering of ChatGPT to healthcare systems?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1626.962,
+            1639.178
+          ],
+          "quote": "And so our work with Epic, our work with other partners, we had a recent announcement where we announced that there's now a way to use Epic in ChatGPT if you're a provider or a healthcare professional, and also for ChatGPT to be useful in Epic itself.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1639.338,
+            1645.306
+          ],
+          "quote": "And so in the Epic workflow itself, you can have a little sidebar where you can actually use ChatGPT as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 353,
+          "t": [
+            2024.263,
+            2030.485
+          ],
+          "quote": "Yeah, we've had a few really exciting partnerships and we've had some really amazing launch partners for ChatGPT for healthcare.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 354,
+          "t": [
+            2030.885,
+            2034.026
+          ],
+          "quote": "We've had lots of users using ChatGPT for clinicians and really enjoying it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 358,
+          "t": [
+            2043.229,
+            2054.236
+          ],
+          "quote": "I think one, a couple that stand out, you know, one is we've been working with UCSF and we've been chatting about that and they've been, you know, one of our earliest adopters for this connection between Epic and the EHR and ChatGPT.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 368,
+          "t": [
+            2090.071,
+            2095.933
+          ],
+          "quote": "If I go into my doctor's office and I see ChatGPT open up on their screen, should I be upset?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 380,
+          "t": [
+            2151.193,
+            2153.055
+          ],
+          "quote": "They've asked a bunch of questions in ChatGPT.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 381,
+          "t": [
+            2153.875,
+            2163.223
+          ],
+          "quote": "And then the clinician before the visit has all automated through loops, has run the entire patient case through ChatGPT.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2475.593,
+            2492.768
+          ],
+          "quote": "Do you anticipate as people are sort of entering this information into ChatGPT or other LLMs that we'll have more evidence that we can generate to study some of these things that folks are curious about, but we don't really know or we don't have conclusive evidence one way or the other on where they stand?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 526,
+          "t": [
+            3099.859,
+            3101.72
+          ],
+          "quote": "What can we look forward to from ChatGPT Health?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 531,
+          "t": [
+            3123.024,
+            3128.308
+          ],
+          "quote": "Like when you see the ChatGPT, you actually, when the doctor's using ChatGPT, you actually feel safer and vice versa.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 539,
+          "t": [
+            3187.275,
+            3195.297
+          ],
+          "quote": "It is striking and incredible and humbling to realize that ChatGPT, I think, came out three years ago, roughly.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "epic",
+      "type": "company",
+      "role": "company",
+      "name": "Epic",
+      "file": "Epic",
+      "primary": true,
+      "how_described": "本集说 OpenAI 与这家美国主流电子病历系统打通：医生可在 Epic 工作流侧边栏直接用 ChatGPT，也可在 ChatGPT 中调取 Epic 数据，UCSF 是早期采用者。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 279,
+          "t": [
+            1597.293,
+            1602.715
+          ],
+          "quote": "And is that you're alluding to a little bit some of the work you've done with Epic to kind of integrate the product directly into Epic?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1604.875,
+            1610.537
+          ],
+          "quote": "Because a lot of the folks who spent a lot of time in healthcare were very interested to see that level of collaboration with Epic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1626.962,
+            1639.178
+          ],
+          "quote": "And so our work with Epic, our work with other partners, we had a recent announcement where we announced that there's now a way to use Epic in ChatGPT if you're a provider or a healthcare professional, and also for ChatGPT to be useful in Epic itself.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1639.338,
+            1645.306
+          ],
+          "quote": "And so in the Epic workflow itself, you can have a little sidebar where you can actually use ChatGPT as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1659.435,
+            1663.858
+          ],
+          "quote": "And I think, you know, Epic is just one of many examples where we're identifying those bottlenecks and trying to fix them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 358,
+          "t": [
+            2043.229,
+            2054.236
+          ],
+          "quote": "I think one, a couple that stand out, you know, one is we've been working with UCSF and we've been chatting about that and they've been, you know, one of our earliest adopters for this connection between Epic and the EHR and ChatGPT.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复讨论主动式个人健康智能体：给它一个目标就能执行一系列任务、访问授权应用，未来可帮患者预约、跟进护理方案、充当健康的『四分卫』，并解决分析散落医疗数据的瓶颈。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 132,
+          "t": [
+            724.999,
+            741.824
+          ],
+          "quote": "And I'm very, very excited about this idea of like kind of like a proactive person, proactive agent in your care journey, really helping you and making sure that like, you know, if your A1C rises and you're diabetic, like that you get like a review of your medications by your doctor and things like this and making sure that that's kind of flagged for kind of appropriate review.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "healthbench",
+      "type": "concept",
+      "role": "concept",
+      "name": "HealthBench",
+      "file": "HealthBench",
+      "primary": true,
+      "how_described": "本集说这是 OpenAI 与全球数百名医生共建的评估基准，含针对临床医生工作流的 HealthBench Professional，GPT-6 Luna 以便宜 34 倍的价格在其上超过了仅一个月前的最强模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 302,
+          "t": [
+            1733.697,
+            1749.4
+          ],
+          "quote": "And so again, the approach is actually very much mirroring our work on HealthBench where we've just been working with a bunch of licensed mental health experts across the world to think about the right ways to define model behavior and a bunch of tricky scenarios and ensure that we can get to a level of consensus.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1759.922,
+            1779.266
+          ],
+          "quote": "And so we released that benchmark very recently and similar to HealthBench and HealthBench Professional, the goal has really been, can we create this benchmark that kind of raises the ceiling for everybody and kind of creates across all model developers and the healthcare industry and mental health experts like this really shared ruler or measuring stick that we can use to kind of make sure that we're moving in the right direction.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2647.325,
+            2665.47
+          ],
+          "quote": "And what we found with GPT-6 Luna was that it was actually doing better on our benchmark HealthBench Professional, our current latest benchmark of clinician workflows that are really difficult, selected for difficulty for our current models across all the different ways in which clinicians are using our models and the models still could use some improvement.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "move-37",
+      "type": "concept",
+      "role": "concept",
+      "name": "第37手棋 (Move 37)",
+      "file": "第37手棋",
+      "primary": true,
+      "how_described": "本集以 AlphaGo 对李世石那手当时看似昏招、事后被证明天才的棋为喻，指健康领域 AI 做出人类专家无法理解但事后被证明正确的预测；PandaHealth 实验中标记抗生素滥用已算雏形。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            114.408,
+            131.939
+          ],
+          "quote": "They also get into what happens as medical intelligence becomes dramatically cheaper, how AI could shorten the years it can take for new medical knowledge to reach clinical practice, and the possibility of a healthcare Move 37, an insight that initially surprises human experts, but ultimately changes how we understand or treat disease.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 406,
+          "t": [
+            2319.134,
+            2332.002
+          ],
+          "quote": "Yeah, I mean, I think we've seen this at smaller scales, but let me zoom out and say, like, you know, one thing that's been motivating our team in general recently around raising the ceiling of human health is this notion of bringing to bear a kind of a Move 37 for health.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 411,
+          "t": [
+            2371.411,
+            2384.094
+          ],
+          "quote": "So there's an idea of how do you get to a Move 37 in health, a move or a prediction where the models predict something that a human might not have been able to predict, but in hindsight seems correct and brilliant and insightful and impactful.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 417,
+          "t": [
+            2448.805,
+            2451.688
+          ],
+          "quote": "And I think that would rise to the occasion of being called the Move 37.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ehr",
+      "type": "concept",
+      "role": "concept",
+      "name": "EHR",
+      "file": "EHR",
+      "primary": false,
+      "how_described": "本集提到医疗生态主要运行在 EHR 软件上，其数据与工作流彼此脱节是 AI 在医疗有效应用的一大障碍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 153,
+          "t": [
+            845.913,
+            849.975
+          ],
+          "quote": "You know, running their primary EHR software in the healthcare ecosystem on like a VM, for example.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 358,
+          "t": [
+            2043.229,
+            2054.236
+          ],
+          "quote": "I think one, a couple that stand out, you know, one is we've been working with UCSF and we've been chatting about that and they've been, you know, one of our earliest adopters for this connection between Epic and the EHR and ChatGPT.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2501.176,
+            2516.283
+          ],
+          "quote": "There's various places across the healthcare ecosystem where data is being generated, EHR data, longitudinal histories, claims, whatever, where data is being generated and it is kind of just stored there and the insights from it are not fully mined or used to generate new knowledge.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "pandahealth",
+      "type": "company",
+      "role": "company",
+      "name": "PandaHealth",
+      "file": "PandaHealth",
+      "primary": false,
+      "how_described": "本集说 OpenAI 与它合作做了临床医生副驾驶实验，AI 作为安全网主动标记问题，最常见的是提醒避免抗生素滥用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 127,
+          "t": [
+            693.393,
+            701.62
+          ],
+          "quote": "You know, we did this work actually kind of more directly studying this on the clinician side in a kind of a series of experiments that we ran with PandaHealth.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 413,
+          "t": [
+            2399.037,
+            2406.9
+          ],
+          "quote": "The AI actually flags kind of like, hey, something might be off here, like our study with PandaHealth and thinking about the patterns of results that we saw there.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ucsf",
+      "type": "company",
+      "role": "company",
+      "name": "UCSF",
+      "file": "UCSF",
+      "primary": false,
+      "how_described": "本集称它是 Epic 与 ChatGPT 连接的最早采用者之一，临床医生用它做病历审查，是重度用户。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 358,
+          "t": [
+            2043.229,
+            2054.236
+          ],
+          "quote": "I think one, a couple that stand out, you know, one is we've been working with UCSF and we've been chatting about that and they've been, you know, one of our earliest adopters for this connection between Epic and the EHR and ChatGPT.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "adventhealth",
+      "type": "company",
+      "role": "company",
+      "name": "AdventHealth",
+      "file": "AdventHealth",
+      "primary": false,
+      "how_described": "本集称它是跨工作区部署智能体的领导者、OpenAI 的重度用户，取得了惊人的成果。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 363,
+          "t": [
+            2073.265,
+            2081.548
+          ],
+          "quote": "I think another one is AdventHealth, and they've actually been some of our power users in thinking about deploying agents across the workspace, actually across all of OpenAI.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "gpt-6-luna",
+      "type": "company",
+      "role": "company",
+      "name": "GPT-6 Luna",
+      "file": "GPT-6 Luna",
+      "primary": false,
+      "how_described": "本集说这是 OpenAI 最新发布的 API 上最便宜的前沿模型，在 HealthBench Professional 上超过一个月前的最强模型，且便宜 34 倍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 447,
+          "t": [
+            2637.083,
+            2639.224
+          ],
+          "quote": "We recently released GPT-6 Luna.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2640.064,
+            2646.685
+          ],
+          "quote": "And GPT-6 Luna is our current cheapest model on the API or cheapest frontier model on the API.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2647.325,
+            2665.47
+          ],
+          "quote": "And what we found with GPT-6 Luna was that it was actually doing better on our benchmark HealthBench Professional, our current latest benchmark of clinician workflows that are really difficult, selected for difficulty for our current models across all the different ways in which clinicians are using our models and the models still could use some improvement.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -629,10 +629,10 @@
   "cutoffs": {
     "lennys": "2026-10-18T12:31:36.000Z",
     "pg": "2026-10-14T22:00:44.000Z",
-    "a16z": "2026-10-19T10:00:00.000Z",
+    "a16z": "2026-10-20T10:00:00.000Z",
     "yc": "2026-09-26T15:10:19.000Z",
     "mad": "2026-10-15T11:30:01.000Z",
-    "trainingdata": "2026-10-13T09:00:00.000Z",
+    "trainingdata": "2026-10-20T09:00:00.000Z",
     "bigtech": "2026-10-16T16:00:00.000Z",
     "aiandi": "2026-10-14T16:22:14.000Z",
     "nopriors": "2026-10-15T10:00:00.000Z",
@@ -643,7 +643,7 @@
     "doac": "2026-10-12T05:00:00.000Z",
     "deepmind": "2026-10-01T16:38:11.000Z",
     "twentyvc": "2026-10-19T07:07:00.000Z",
-    "cogrev": "2026-10-17T13:47:03.000Z",
+    "cogrev": "2026-10-20T11:00:00.000Z",
     "knowledge": "2026-10-13T10:00:00.000Z",
     "pragmatic": "2026-10-14T17:06:56.000Z",
     "practicalai": "2026-10-15T13:32:00.000Z",
@@ -657,9 +657,9 @@
     "indepth": "2026-08-27T11:00:00.000Z",
     "uncapped": "2026-10-01T09:00:00.000Z",
     "pmf": "2026-10-19T09:00:00.000Z",
-    "cheekypint": "2026-10-15T11:50:00.000Z",
+    "cheekypint": "2026-10-20T13:05:00.000Z",
     "productpodcast": "2026-10-14T19:00:00.000Z",
-    "ainativedev": "2026-10-13T12:00:00.000Z",
+    "ainativedev": "2026-10-20T12:00:00.000Z",
     "newcomer": "2026-10-19T15:53:16.000Z",
     "engenable": "2026-10-16T12:00:00.000Z",
     "sourcery": "2026-10-16T10:11:50.000Z",
@@ -668,7 +668,7 @@
     "sed": "2026-10-15T09:00:00.000Z",
     "twist": "2026-10-20T00:03:00.000Z",
     "grit": "2026-10-19T09:27:34.000Z",
-    "mos": "2026-10-15T09:00:00.000Z",
+    "mos": "2026-10-20T09:00:00.000Z",
     "strictlyvc": "2026-09-24T18:17:00.000Z",
     "latent": "2026-10-14T20:35:09.000Z"
   },
@@ -1758,6 +1758,30 @@
       "reason": "题材不对味:多话题新闻速览:一期拼多条新闻(Anthropic 股份/机器人/克隆声音)的周报体",
       "title": "Anthropic Gives Away 5% of Its Shares, Clone’s Muscle Robot, ElevenLabs Steals Podcaster's Voice",
       "pubDate": "2026-10-20T00:03:00.000Z"
+    },
+    {
+      "id": "2026-10-20-cogrev-a-world-model-of-life-biohub-s-alex-rive",
+      "reason": "题材不对味:AI 用于生物科研(虚拟细胞、生命科学模型)属档案❌第③类学术研究·AI+生物科研",
+      "title": "A World Model of Life: Biohub's Alex Rives on Virtual Cells, Measurement, & the $1.8B Data Push",
+      "pubDate": "2026-10-20T11:00:00.000Z"
+    },
+    {
+      "id": "2026-10-20-cheekypint-how-toto-wolff-built-the-most-valuable-t",
+      "reason": "题材不对味:属❌①非 AI/科技的泛话题:F1 车队经营属体育/传统行业,与 AI、科技创业均不沾边",
+      "title": "How Toto Wolff built the most valuable team in F1",
+      "pubDate": "2026-10-20T13:05:00.000Z"
+    },
+    {
+      "id": "2026-10-20-mos-rei-s-secrets-to-sustaining-a-beloved-br",
+      "reason": "导读/实体事实层未过(删句兜底删不下,重做一次浓缩后仍未过)",
+      "title": "REI’s secrets to sustaining a beloved brand and touching grass",
+      "pubDate": "2026-10-20T09:00:00.000Z"
+    },
+    {
+      "id": "2026-10-20-ainativedev-snyk-39-s-manoj-nair-skills-and-mcp-are",
+      "reason": "导读/实体事实层未过(删句兜底删不下,重做一次浓缩后仍未过)",
+      "title": "Snyk&#39;s Manoj Nair: Skills and MCP Are the New npm",
+      "pubDate": "2026-10-20T12:00:00.000Z"
     }
   ]
 }

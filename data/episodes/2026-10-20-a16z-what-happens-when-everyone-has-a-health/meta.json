@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-20-a16z-what-happens-when-everyone-has-a-health",
+  "audio_mp3": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/e451186f-f0cc-49a5-b14c-c146b2c680bf/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=e451186f-f0cc-49a5-b14c-c146b2c680bf&feed=JGE3yC0V",
+  "duration_sec": 3337.923,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 568,
+  "asr": true,
+  "title_en": "What Happens When Everyone Has a Health Expert in Their Pocket? | OpenAI’s Karan Singhal",
+  "podcast": "The a16z Show",
+  "date": "2026-10-20",
+  "added": "2026-10-20",
+  "added_at": "2026-10-20T11:59:05.065Z",
+  "speaker_map": {
+    "SPEAKER_01": "Jay Rugani",
+    "SPEAKER_02": "Karan Singhal"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Jay Rugani",
+  "cohosts": [
+    "Karan Singhal"
+  ],
+  "title_zh": "当3亿人把健康问题交给ChatGPT",
+  "guest_name": "Karan Singhal",
+  "guest_title": "OpenAI健康AI负责人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

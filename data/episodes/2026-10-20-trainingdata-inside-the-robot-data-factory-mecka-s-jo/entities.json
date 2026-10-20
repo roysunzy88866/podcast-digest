@@ -1,0 +1,565 @@
+{
+  "episode_id": "2026-10-20-trainingdata-inside-the-robot-data-factory-mecka-s-jo",
+  "podcast": "Training Data",
+  "date": "2026-10-20",
+  "tags": [
+    "机器人",
+    "数据工厂",
+    "自我中心数据",
+    "力觉数据",
+    "创业公司故事"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "josh-gao",
+      "type": "person",
+      "role": "host",
+      "name": "Josh Gao",
+      "file": "Josh Gao",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "mecca",
+      "type": "company",
+      "role": "company",
+      "name": "Mecca",
+      "file": "Mecca",
+      "primary": true,
+      "how_described": "本集说它是为机器人打造的「数据和部署公司」：设计采集硬件、组织全球个人与企业贡献者、清洗并授权训练机器人基础模型所需的数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            45.172,
+            48.174
+          ],
+          "quote": "Today I'm delighted to have Josh from Mecca on the show.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 5,
+          "t": [
+            48.615,
+            54.78
+          ],
+          "quote": "Josh is founder and CEO of Mecca AI, which is building a data and deployment company for robotics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 15,
+          "t": [
+            98.609,
+            104.157
+          ],
+          "quote": "Maybe to start off, for those who aren't familiar, what is Mecca and how are you looking to impact the world of robotics?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 16,
+          "t": [
+            104.682,
+            108.803
+          ],
+          "quote": "So Mecca is, like you said, the data and deployment company for Physically High.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1073.028,
+            1078.376
+          ],
+          "quote": "And I can imagine a Mecca competitor comes to Sonya and says, Sonya, I really want your podcast data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1539.052,
+            1545.579
+          ],
+          "quote": "When we do get there, the thing is, I believe that Mecca will look very different along that process.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1600.537,
+            1601.858
+          ],
+          "quote": "We see Mecca maturing into that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1763.324,
+            1773.189
+          ],
+          "quote": "A joke that we make in some of our all hands in the company would be if one day Mecca was able to help deploy a robot that mines an asteroid, we've probably done a pretty good job.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "data-factory",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据工厂 (data factory)",
+      "file": "数据工厂",
+      "primary": true,
+      "how_described": "本集用它形容 Mecca 的商业模式：以消费者 App 和 B2B 签约两条路采集数据，背后是自研硬件分发、100 GB 上传专线和数百 PB 数据的质量门控运营。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            71.653,
+            81.399
+          ],
+          "quote": "Your position in the ecosystem as the leading data factory to bring robotic data and physical data in distribution for models is just a really, really interesting perch.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 10,
+          "t": [
+            81.579,
+            94.686
+          ],
+          "quote": "So I'm excited to use this conversation today to chat about how does egocentric data and data collection work in robotics, what are the actual operations and economics of operating a data factory, and your overall thoughts on robotics research and deployment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 125,
+          "t": [
+            713.903,
+            723.371
+          ],
+          "quote": "I'd love to just spend a bit of time on the actual operations of a data factory because I think there's so much money that's gone into the LLM data factories.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 149,
+          "t": [
+            813.102,
+            820.749
+          ],
+          "quote": "But the actual data engine for the data factory is so much more sophisticated and much more painful than folks can expect.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "egocentric-data",
+      "type": "concept",
+      "role": "concept",
+      "name": "自我中心数据 (egocentric data)",
+      "file": "自我中心数据",
+      "primary": true,
+      "how_described": "本集说它是人类以第一人称视角执行任务的视频数据，能弥合人类数据到机器人数据的视觉鸿沟，是 Mecca 当初押注的公司主线。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            81.579,
+            94.686
+          ],
+          "quote": "So I'm excited to use this conversation today to chat about how does egocentric data and data collection work in robotics, what are the actual operations and economics of operating a data factory, and your overall thoughts on robotics research and deployment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 87,
+          "t": [
+            515.366,
+            519.408
+          ],
+          "quote": "Maybe for our audience, just say a word on what is egocentric data?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 89,
+          "t": [
+            523.449,
+            526.75
+          ],
+          "quote": "Obviously, it's much more distributed now, but what is egocentric data?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 91,
+          "t": [
+            529.179,
+            536.843
+          ],
+          "quote": "Egocentric data is pretty much video data from humans demonstrating and doing tasks from a first person POV.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1129.762,
+            1146.853
+          ],
+          "quote": "And so when you think about this egocentric data of podcasting as simply one of your SKUs, and you then realize that there is going to be different types of data that are going to be important, such as maybe we move from the Chinese restaurant from the side of the road.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1546.2,
+            1550.664
+          ],
+          "quote": "In that one, we're not fully subscribed to only egocentric data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 336,
+          "t": [
+            1856.864,
+            1865.75
+          ],
+          "quote": "Egoverse, so Professor Dan Fay, Ryan Simmer, these are some of the earliest cohorts of researchers that believed in egocentric data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1877.238,
+            1887.762
+          ],
+          "quote": "And so, one, we created and contributed a large amount of different types of egocentric data across different businesses, industries, home environments.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1922.339,
+            1939.946
+          ],
+          "quote": "Is it fair to say that the robotics industry has kind of converged on a training data mix that is, you know, internet scale data from YouTube and the like, plus a bunch of egocentric data, plus tele, UMI, and then plus tele-op, and like maybe there was like a triangle of like amount of data on each.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1959.816,
+            1961.878
+          ],
+          "quote": "It's only egocentric data that's going to work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 366,
+          "t": [
+            2117.275,
+            2128.721
+          ],
+          "quote": "And so to close that gap, a lot of the egocentric data today is to, one, help us ground the basic physics and the basic behavior cloning that you have to get to.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "teleoperation",
+      "type": "concept",
+      "role": "concept",
+      "name": "遥操作 (teleoperation)",
+      "file": "遥操作",
+      "primary": true,
+      "how_described": "本集说它是早期主流的机器人数据采集方式——人操控机器人做演示，但当时很难规模化，这正是 Mecca 转向人类数据的原因。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 95,
+          "t": [
+            557.997,
+            565.122
+          ],
+          "quote": "A lot of what we saw was robotics data at the time was teleoperation, which was humans controlling robots to do demonstrations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            949.845,
+            959.373
+          ],
+          "quote": "There have been these very large scale robot factories that have spun up from just large scale warehouses, repetitively doing tasks, trying to scale up teleoperation data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1987.346,
+            2000.751
+          ],
+          "quote": "Some tens of thousands of hours of UMI data, and then some last-mile teleoperation data and in-domain, in-distribution data in just a couple hours even of that demonstration.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "force-data",
+      "type": "concept",
+      "role": "concept",
+      "name": "力觉数据 (force data)",
+      "file": "力觉数据",
+      "primary": true,
+      "how_described": "本集说视频拍不出拧瓶盖、拿鸡蛋用了多大力，力觉数据会极其重要，市面买不到可靠记录力的手套，Mecca 只能自研触觉手套来采集。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 119,
+          "t": [
+            659.011,
+            661.432
+          ],
+          "quote": "How important is capturing force data and how do you think about getting that?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 120,
+          "t": [
+            661.872,
+            676.496
+          ],
+          "quote": "I think some of the substitutes for force data that we've seen would be approaches like wrist cameras currently across both humans and robots and being able to see the contact time between the hand and the different objects that you interact with.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            688.502,
+            690.183
+          ],
+          "quote": "I think force data will be incredibly important.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1236.343,
+            1245.489
+          ],
+          "quote": "And so you combine that with like, you probably need force data and there's a way more, you know, it's just a way harder environment to operate in.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "umi-data",
+      "type": "concept",
+      "role": "concept",
+      "name": "UMI 数据 (UMI data)",
+      "file": "UMI 数据",
+      "primary": true,
+      "how_described": "本集说机器人训练数据配方已收敛为：约百万小时人类多模态数据、数万小时 UMI 数据，再加少量末段遥操作和域内数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 110,
+          "t": [
+            622.269,
+            623.13
+          ],
+          "quote": "We did UMI data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1953.029,
+            1959.776
+          ],
+          "quote": "It's fun to see that even a year ago, many folks would argue and say, oh, no, it's only UMI data that's going to work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1987.346,
+            2000.751
+          ],
+          "quote": "Some tens of thousands of hours of UMI data, and then some last-mile teleoperation data and in-domain, in-distribution data in just a couple hours even of that demonstration.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "robotics-foundation-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "机器人基础模型 (robotics foundation models)",
+      "file": "机器人基础模型",
+      "primary": true,
+      "how_described": "本集说它们是 Mecca 数据的下游客户：机器人领域从根本上受数据约束，需要像素、动作和逻辑三类数据来训练这些模型理解物理世界。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            109.263,
+            116.885
+          ],
+          "quote": "What that means is today we create, we process, and ultimately we license a lot of the data that goes into training these robotics foundation models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            833.16,
+            843.667
+          ],
+          "quote": "There is nothing off the shelf that you can purchase and that you can wear and that reliably tells you how much force you are applying day to day and turn that into ready data sets for these different robotics foundation models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2421.791,
+            2432.118
+          ],
+          "quote": "But some of these specialized models, some of these more targeted robotics foundation models might become very excellent into four nines of capability and reliability in some of these tasks.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "world-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "世界模型 (world models)",
+      "file": "世界模型",
+      "primary": true,
+      "how_described": "本集说世界模型（现常与视频模型混用）能让人「想象」杯子摔碎而不必真的做，借助互联网像素预测可加速动作轨迹学习，但今天还没有能重现物理世界细节的世界模拟器。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            224.654,
+            229.796
+          ],
+          "quote": "And we get to leverage all the work that has gone into the VLMs and then different types of world models before to make that possible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 373,
+          "t": [
+            2163.336,
+            2176.341
+          ],
+          "quote": "What are your thoughts on, I guess, what's happening with world models, which I guess are being used somewhat interchangeably with video models as a term right now, but world models and their contribution to the robot data training mix?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tesla",
+      "type": "company",
+      "role": "company",
+      "name": "Tesla",
+      "file": "Tesla",
+      "primary": false,
+      "how_described": "本集反复以 Tesla 为类比：用车队式学习采集自动驾驶数据，花十多年解决加速和方向两个自由度，积累的视频远超几百万小时。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 102,
+          "t": [
+            590.514,
+            600.307
+          ],
+          "quote": "Why couldn't we turn humans into this fleet-style learning that Tesla has to be able to all contribute into understanding and ground the physics of the world?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1186.835,
+            1200.943
+          ],
+          "quote": "But then comparatively, and you think about autonomous driving as an example, Tesla spent over a decade solving for two degrees of freedom ultimately, of acceleration and direction, millions of cars on the road.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1486.607,
+            1489.67
+          ],
+          "quote": "You mentioned Tesla and FSD earlier in this show.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "omnimodel",
+      "type": "concept",
+      "role": "concept",
+      "name": "全模态模型 (omnimodel)",
+      "file": "全模态模型",
+      "primary": false,
+      "how_described": "本集说很多模型正收敛到全模态方法：可输入力、像素甚至气味作为观测，输出动作、语音或控制信号。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 397,
+          "t": [
+            2297.228,
+            2313.354
+          ],
+          "quote": "I like the approach, a lot of the models converging towards an omnimodel approach, and where you can feed it any type of input that is the observation, whether it is force, pixel, even smell in a very extreme case.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "simulation",
+      "type": "concept",
+      "role": "concept",
+      "name": "仿真 (simulation)",
+      "file": "仿真",
+      "primary": false,
+      "how_described": "本集说仿真会进入那锅数据汤，机器人自我对弈最终会在物理世界与仿真的混合形式中发生。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 356,
+          "t": [
+            2027.11,
+            2032.276
+          ],
+          "quote": "Simulation will come into the datapod of soup, and they all will be important to converge on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 369,
+          "t": [
+            2140.967,
+            2146.21
+          ],
+          "quote": "Do you think they'll mostly be doing self-play in simulation or in the real world?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 371,
+          "t": [
+            2149.25,
+            2160.014
+          ],
+          "quote": "I think if we can get simulation, and we don't have to fully reconstruct the world to its detail right away, but I see self-play both in the physical and in simulation.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

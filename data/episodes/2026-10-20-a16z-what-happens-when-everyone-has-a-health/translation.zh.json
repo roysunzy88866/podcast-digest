@@ -1,0 +1,4546 @@
+[
+ {
+  "seg": 0,
+  "start": 0.751,
+  "end": 3.693,
+  "speaker": "Unknown",
+  "en": "5.3 plus trillion we spend on healthcare.",
+  "zh": "5.3 万亿美元,我们花在医疗保健上的钱。"
+ },
+ {
+  "seg": 1,
+  "start": 4.093,
+  "end": 6.514,
+  "speaker": "Unknown",
+  "en": "If it were its own country, it'd be the third largest GDP.",
+  "zh": "如果它是一个国家,它会是世界第三大 GDP。"
+ },
+ {
+  "seg": 2,
+  "start": 6.934,
+  "end": 8.935,
+  "speaker": "Unknown",
+  "en": "And yet we have a ton of scarcity.",
+  "zh": "然而我们却有大量的稀缺。"
+ },
+ {
+  "seg": 3,
+  "start": 9.475,
+  "end": 15.338,
+  "speaker": "Unknown",
+  "en": "OpenAI's mission is to ensure AGI benefits all of humanity and give people access to trustworthy, abundant, reliable health intelligence.",
+  "zh": "OpenAI 的使命是确保 AGI 造福全人类,并让人们获得值得信赖的、丰富的、可靠的健康智能。"
+ },
+ {
+  "seg": 4,
+  "start": 15.398,
+  "end": 18.8,
+  "speaker": "Unknown",
+  "en": "One of the stories that I was most touched by was the story of Nathan LeBenz.",
+  "zh": "最打动我的故事之一是 Nathan LeBenz 的故事。"
+ },
+ {
+  "seg": 5,
+  "start": 19.14,
+  "end": 26.907,
+  "speaker": "Unknown",
+  "en": "He basically had this kind of long saga with his son where at some point he was suffering a lot of fatigue and irritableness and AI helped them navigate the process.",
+  "zh": "他基本上和他儿子有一段漫长的经历,在某个时候他饱受疲劳和易怒的困扰,AI 帮助他们度过了这个过程。"
+ },
+ {
+  "seg": 6,
+  "start": 27.027,
+  "end": 29.95,
+  "speaker": "Unknown",
+  "en": "And it turns out he was diagnosed with an aggressive form of leukemia.",
+  "zh": "结果他被诊断出患有侵袭性白血病。"
+ },
+ {
+  "seg": 7,
+  "start": 30.25,
+  "end": 33.493,
+  "speaker": "Unknown",
+  "en": "Some of the work that you've done around mental health, there's a lot of complexity.",
+  "zh": "你们在心理健康方面做的一些工作,有很多复杂性。"
+ },
+ {
+  "seg": 8,
+  "start": 33.913,
+  "end": 37.096,
+  "speaker": "Unknown",
+  "en": "How do you help guide a user on that given that could mean so many things?",
+  "zh": "鉴于这可能意味着这么多不同的事情,你如何在这种情况下去引导用户?"
+ },
+ {
+  "seg": 9,
+  "start": 37.156,
+  "end": 38.157,
+  "speaker": "Unknown",
+  "en": "We've just been working with",
+  "zh": "我们一直在与"
+ },
+ {
+  "seg": 10,
+  "start": 38.777,
+  "end": 49.586,
+  "speaker": "Unknown",
+  "en": "A bunch of licensed mental health experts across the world to think about the right ways to define model behavior in a bunch of tricky scenarios and ensure that we can get to a level of consensus where we can actually measure performance.",
+  "zh": "世界各地的一批持证心理健康专家合作,思考在许多棘手场景中定义模型行为的正确方式,并确保我们能够达成某种程度的共识,以便我们能够真正衡量表现。"
+ },
+ {
+  "seg": 11,
+  "start": 49.606,
+  "end": 50.386,
+  "speaker": "Unknown",
+  "en": "Let's talk about trust.",
+  "zh": "我们来谈谈信任。"
+ },
+ {
+  "seg": 12,
+  "start": 50.627,
+  "end": 59.433,
+  "speaker": "Unknown",
+  "en": "A person can be speaking to an LLM really hoping to hear that everything is okay, but from a medical perspective, they need to hear perhaps something very different.",
+  "zh": "一个人在与 LLM 对话时,可能真的希望听到一切都没问题,但从医学角度来看,他们需要听到的也许是完全不同的东西。"
+ },
+ {
+  "seg": 13,
+  "start": 59.794,
+  "end": 62.756,
+  "speaker": "Unknown",
+  "en": "How do you teach an AI to recognize the difference?",
+  "zh": "你如何教 AI 识别这两者之间的区别?"
+ },
+ {
+  "seg": 14,
+  "start": 64.057,
+  "end": 69.098,
+  "speaker": "Unknown",
+  "en": "More than 300 million people are already using ChatGPT for health and wellness questions every week.",
+  "zh": "每周已经有超过 3 亿人在使用 ChatGPT 咨询健康和养生问题。"
+ },
+ {
+  "seg": 15,
+  "start": 69.898,
+  "end": 75.32,
+  "speaker": "Unknown",
+  "en": "What happens when that AI becomes proactive, personalized, and increasingly connected to the rest of your healthcare?",
+  "zh": "当那个 AI 变得主动、个性化,并且与你医疗保健的其他部分日益连接时,会发生什么?"
+ },
+ {
+  "seg": 16,
+  "start": 76.18,
+  "end": 87.543,
+  "speaker": "Unknown",
+  "en": "In this episode, A16Z partner Jay Rugani sits down with Karan Singhal, who leads health AI research at OpenAI, to talk about the company's vision for making trustworthy health intelligence widely accessible.",
+  "zh": "在本期节目中,A16Z 合伙人 Jay Rugani 与 OpenAI 负责 health AI 研究的 Karan Singhal 坐下来,谈谈该公司关于让值得信赖的健康智能广泛普及的愿景。"
+ },
+ {
+  "seg": 17,
+  "start": 88.363,
+  "end": 100.905,
+  "speaker": "Unknown",
+  "en": "Karan explains why OpenAI is training medical expertise into its general purpose models, rather than building a separate healthcare model, how it works with hundreds of physicians to evaluate those systems, and why the goal isn't to replace doctors.",
+  "zh": "Karan 解释了为什么 OpenAI 是将医学专业知识训练进其通用模型中,而不是构建一个单独的医疗保健模型,它如何与数百名医生合作来评估这些系统,以及为什么目标不是取代医生。"
+ },
+ {
+  "seg": 18,
+  "start": 101.626,
+  "end": 113.528,
+  "speaker": "Unknown",
+  "en": "Instead, he sees AI becoming a safety net and a quarterback, helping patients understand their health, helping clinicians catch things they might otherwise miss, and eventually navigating more of the fragmented work between visits.",
+  "zh": "相反,他认为 AI 会成为一个安全网和一个四分卫,帮助患者理解他们的健康状况,帮助临床医生发现他们可能会遗漏的东西,并最终在就诊之间处理更多碎片化的工作。"
+ },
+ {
+  "seg": 19,
+  "start": 114.408,
+  "end": 131.939,
+  "speaker": "Unknown",
+  "en": "They also get into what happens as medical intelligence becomes dramatically cheaper, how AI could shorten the years it can take for new medical knowledge to reach clinical practice, and the possibility of a healthcare Move 37, an insight that initially surprises human experts, but ultimately changes how we understand or treat disease.",
+  "zh": "他们还谈到了当医学智能变得极其廉价时会发生什么,AI 如何缩短新医学知识进入临床实践所需的多年时间,以及医疗保健领域出现 Move 37 的可能性——一种最初让人类专家感到惊讶,但最终改变我们理解或治疗疾病方式的洞见。"
+ },
+ {
+  "seg": 20,
+  "start": 134.815,
+  "end": 135.275,
+  "speaker": "Unknown",
+  "en": "Hey, everyone.",
+  "zh": "嘿,大家好。"
+ },
+ {
+  "seg": 21,
+  "start": 135.315,
+  "end": 136.676,
+  "speaker": "Unknown",
+  "en": "Welcome back to the podcast.",
+  "zh": "欢迎回到播客。"
+ },
+ {
+  "seg": 22,
+  "start": 136.936,
+  "end": 142.64,
+  "speaker": "Unknown",
+  "en": "I'm Jay Rugani, a partner at A16Z, leading investments in healthcare and biotechnology companies.",
+  "zh": "我是 Jay Rugani,A16Z 的合伙人,负责医疗保健和生物技术公司的投资。"
+ },
+ {
+  "seg": 23,
+  "start": 142.98,
+  "end": 145.082,
+  "speaker": "Unknown",
+  "en": "I'm joined by Karan Singhal of OpenAI.",
+  "zh": "与我同在的是 OpenAI 的 Karan Singhal。"
+ },
+ {
+  "seg": 24,
+  "start": 145.202,
+  "end": 149.425,
+  "speaker": "Unknown",
+  "en": "He leads health AI research at OpenAI, and we've got a lot to talk about.",
+  "zh": "他负责 OpenAI 的 health AI 研究,我们有很多要聊的。"
+ },
+ {
+  "seg": 25,
+  "start": 149.445,
+  "end": 150.045,
+  "speaker": "Unknown",
+  "en": "Thanks for being here.",
+  "zh": "感谢你来到这里。"
+ },
+ {
+  "seg": 26,
+  "start": 150.245,
+  "end": 150.766,
+  "speaker": "Unknown",
+  "en": "Thanks for having me.",
+  "zh": "感谢你们的邀请。"
+ },
+ {
+  "seg": 27,
+  "start": 151.486,
+  "end": 153.308,
+  "speaker": "Unknown",
+  "en": "I wanna start with the big question.",
+  "zh": "我想从那个大问题开始。"
+ },
+ {
+  "seg": 28,
+  "start": 153.488,
+  "end": 161.954,
+  "speaker": "Unknown",
+  "en": "There was a report earlier this year, you all have talked about it publicly, hundreds of millions of people each week use ChatGPT for health-related questions.",
+  "zh": "今年早些时候有一份报告,你们也公开谈论过,每周有数亿人使用 ChatGPT 咨询健康相关问题。"
+ },
+ {
+  "seg": 29,
+  "start": 162.695,
+  "end": 163.636,
+  "speaker": "Unknown",
+  "en": "What are they asking?",
+  "zh": "他们在问什么?"
+ },
+ {
+  "seg": 30,
+  "start": 163.916,
+  "end": 168.68,
+  "speaker": "Unknown",
+  "en": "What are the kinds of questions they're asking that they're not getting from our main healthcare system?",
+  "zh": "他们问的这些问题,是哪些他们从我们的主流医疗体系中得不到答案的问题?"
+ },
+ {
+  "seg": 31,
+  "start": 169.34,
+  "end": 169.5,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 32,
+  "start": 169.58,
+  "end": 172.905,
+  "speaker": "Unknown",
+  "en": "Let me zoom out and talk a little bit about why we're investing in health in the first place.",
+  "zh": "让我把视角拉远一点,先谈谈为什么我们一开始就投资健康领域。"
+ },
+ {
+  "seg": 33,
+  "start": 173.205,
+  "end": 176.229,
+  "speaker": "Unknown",
+  "en": "So OpenAI's mission is to ensure AGI benefits all of humanity.",
+  "zh": "OpenAI 的使命是确保 AGI 造福全人类。"
+ },
+ {
+  "seg": 34,
+  "start": 176.409,
+  "end": 179.093,
+  "speaker": "Unknown",
+  "en": "And so we see that at a high level happening in three ways.",
+  "zh": "我们看到这在高层次上通过三种方式发生。"
+ },
+ {
+  "seg": 35,
+  "start": 179.313,
+  "end": 181.035,
+  "speaker": "Unknown",
+  "en": "The first is building and deploying AGI.",
+  "zh": "第一种是构建和部署 AGI。"
+ },
+ {
+  "seg": 36,
+  "start": 181.115,
+  "end": 184.86,
+  "speaker": "Unknown",
+  "en": "So building capable models, building products around them, deploying them, partnerships.",
+  "zh": "也就是构建能力强的模型,围绕它们构建产品,部署它们,建立合作伙伴关系。"
+ },
+ {
+  "seg": 37,
+  "start": 185.601,
+  "end": 188.362,
+  "speaker": "Unknown",
+  "en": "The second is preventing downside safety of various kinds.",
+  "zh": "第二种是预防各种负面的安全性问题。"
+ },
+ {
+  "seg": 38,
+  "start": 188.842,
+  "end": 190.103,
+  "speaker": "Unknown",
+  "en": "The third is making upside happen.",
+  "zh": "第三种是让正面的事情发生。"
+ },
+ {
+  "seg": 39,
+  "start": 190.263,
+  "end": 197.046,
+  "speaker": "Unknown",
+  "en": "And so we view health as a really, really concrete way to make upside happen and also work on some of the safety problems that come up in healthcare along the way.",
+  "zh": "因此,我们认为健康是一个让正面事情发生的非常非常具体的方式,同时也是在此过程中解决医疗保健领域出现的一些安全问题的途径。"
+ },
+ {
+  "seg": 40,
+  "start": 197.626,
+  "end": 200.928,
+  "speaker": "Unknown",
+  "en": "And so really, we're really invested in making sure basically two things.",
+  "zh": "所以实际上,我们非常投入于确保基本上两件事。"
+ },
+ {
+  "seg": 41,
+  "start": 201.128,
+  "end": 211.553,
+  "speaker": "Unknown",
+  "en": "One is that we can raise the floor of human health and give people access to trustworthy, abundant, reliable health intelligence for free or nearly free and really raise the ceiling as well and make things possible that weren't possible before.",
+  "zh": "一是我们能够提高人类健康的下限,让人们免费或近乎免费地获得值得信赖的、丰富的、可靠的健康智能,同时也真正提高上限,让以前不可能的事情成为可能。"
+ },
+ {
+  "seg": 42,
+  "start": 212.213,
+  "end": 216.794,
+  "speaker": "Unknown",
+  "en": "And so the best way to see the kind of raising the floor is really to think about how we've been working in the consumer space.",
+  "zh": "看待这种提高下限的最好方式,实际上是想想我们是如何在消费者领域开展工作的。"
+ },
+ {
+  "seg": 43,
+  "start": 217.074,
+  "end": 223.136,
+  "speaker": "Unknown",
+  "en": "And so as we reported, there's more than 300 million people weekly using ChatGPT for health and wellness types of questions.",
+  "zh": "正如我们报告的,每周有超过 3 亿人使用 ChatGPT 咨询健康和养生类问题。"
+ },
+ {
+  "seg": 44,
+  "start": 223.696,
+  "end": 226.797,
+  "speaker": "Unknown",
+  "en": "And we take that as an incredibly important responsibility to get that right.",
+  "zh": "我们把把这件事做好视为一项极其重要的责任。"
+ },
+ {
+  "seg": 45,
+  "start": 227.298,
+  "end": 229.158,
+  "speaker": "Unknown",
+  "en": "And that's been rapidly growing over time.",
+  "zh": "而且这一数字一直在快速增长。"
+ },
+ {
+  "seg": 46,
+  "start": 229.778,
+  "end": 235.04,
+  "speaker": "Unknown",
+  "en": "I think one of the things that you see is just if you think about the experience of getting health care, even in the U.S., even in the Bay Area.",
+  "zh": "我认为你能看到的一点是,只要想想获得医疗保健的体验,即使在美国,即使在湾区。"
+ },
+ {
+  "seg": 47,
+  "start": 235.72,
+  "end": 240.041,
+  "speaker": "Unknown",
+  "en": "If you're looking to get a specialist appointment, even here in the Bay Area, sometimes it can take weeks or months.",
+  "zh": "如果你想预约专科医生,即使是在湾区,有时可能需要数周或数月。"
+ },
+ {
+  "seg": 48,
+  "start": 240.241,
+  "end": 244.582,
+  "speaker": "Unknown",
+  "en": "You might spend a lot of time figuring out how to get an appointment and scheduling and all these kinds of things.",
+  "zh": "你可能要花很多时间去弄清楚如何预约、安排时间等等这些事情。"
+ },
+ {
+  "seg": 49,
+  "start": 245.182,
+  "end": 254.225,
+  "speaker": "Unknown",
+  "en": "And after all that time, maybe get 15 minutes with the doctor where you don't feel adequately prepared and you maybe walk out of it thinking, oh, I had six more questions that I wanted to ask and...",
+  "zh": "在所有这些时间之后,也许只能和医生见 15 分钟,而你并没有做好充分的准备,也许走出门时想着,哦,我还有六个问题想问,然后……"
+ },
+ {
+  "seg": 50,
+  "start": 255.105,
+  "end": 257.487,
+  "speaker": "Unknown",
+  "en": "Our hope is that AI can be part of this care journey with you.",
+  "zh": "我们希望 AI 能成为你这段就医旅程中的一部分。"
+ },
+ {
+  "seg": 51,
+  "start": 257.687,
+  "end": 261.751,
+  "speaker": "Unknown",
+  "en": "And health is not something that is just kind of restricted to these kind of 15 minute intervals.",
+  "zh": "而健康并不只是局限于这种 15 分钟的时间段里的东西。"
+ },
+ {
+  "seg": 52,
+  "start": 262.532,
+  "end": 265.114,
+  "speaker": "Unknown",
+  "en": "And AI can actually help you navigate your care journey.",
+  "zh": "AI 实际上可以帮助你规划你的就医旅程。"
+ },
+ {
+  "seg": 53,
+  "start": 265.134,
+  "end": 268.858,
+  "speaker": "Unknown",
+  "en": "And so that actually reflects how people are using AI on the consumer side today.",
+  "zh": "这其实也反映了如今消费者端人们使用 AI 的方式。"
+ },
+ {
+  "seg": 54,
+  "start": 268.918,
+  "end": 273.362,
+  "speaker": "Unknown",
+  "en": "Like people are coming in with questions and concerns, information that they'd like to have,",
+  "zh": "比如人们带着问题和担忧、想要了解的信息来使用 AI,"
+ },
+ {
+  "seg": 55,
+  "start": 273.942,
+  "end": 281.068,
+  "speaker": "Unknown",
+  "en": "They want to figure out how to kind of navigate their care visits or ask questions or figure out how to follow up things that the doctor told them or things like this.",
+  "zh": "他们想弄清楚如何安排就医、如何提问、或者弄明白如何跟进医生告诉他们的内容之类的。"
+ },
+ {
+  "seg": 56,
+  "start": 281.168,
+  "end": 285.971,
+  "speaker": "Unknown",
+  "en": "And we're finding that in between these visits is when AI can help people most in the consumer side.",
+  "zh": "我们发现在消费者端,在这些就诊的间隙正是 AI 最能帮助人们的时候。"
+ },
+ {
+  "seg": 57,
+  "start": 286.011,
+  "end": 289.934,
+  "speaker": "Unknown",
+  "en": "And we're making similar investments on the clinician side and on the enterprise side as well.",
+  "zh": "我们也在临床医生端和企业端做着类似的投资。"
+ },
+ {
+  "seg": 58,
+  "start": 290.735,
+  "end": 291.436,
+  "speaker": "Unknown",
+  "en": "Yeah, it's amazing.",
+  "zh": "是的,这太了不起了。"
+ },
+ {
+  "seg": 59,
+  "start": 291.476,
+  "end": 293.579,
+  "speaker": "Unknown",
+  "en": "We have an extraordinary healthcare system.",
+  "zh": "我们有一个非常出色的医疗体系。"
+ },
+ {
+  "seg": 60,
+  "start": 294.119,
+  "end": 300.067,
+  "speaker": "Unknown",
+  "en": "If I got really sick, there's no country I'd rather be in than the U.S., and yet we have a ton of scarcity.",
+  "zh": "如果我真的病得很重,没有哪个国家比美国更好,然而我们有大量的稀缺。"
+ },
+ {
+  "seg": 61,
+  "start": 300.568,
+  "end": 301.809,
+  "speaker": "Unknown",
+  "en": "You've seen some of these statistics.",
+  "zh": "你见过一些这样的统计数据。"
+ },
+ {
+  "seg": 62,
+  "start": 301.949,
+  "end": 305.133,
+  "speaker": "Unknown",
+  "en": "Over 100 million people don't have access to a regular primary care doc.",
+  "zh": "超过一亿人没有固定的初级保健医生。"
+ },
+ {
+  "seg": 63,
+  "start": 305.794,
+  "end": 309.295,
+  "speaker": "Unknown",
+  "en": "Even the ones who do often have to wait 40 plus days to see that doctor.",
+  "zh": "即使有医生的人,也常常要等 40 多天才能看上那个医生。"
+ },
+ {
+  "seg": 64,
+  "start": 309.895,
+  "end": 315.056,
+  "speaker": "Unknown",
+  "en": "Sometimes you meet the doctor exactly as you said and it's a quick 15 minute visit and you have more questions.",
+  "zh": "有时候正如你所说,你见到了医生,但那是一次很快的 15 分钟就诊,而你还有更多问题。"
+ },
+ {
+  "seg": 65,
+  "start": 315.116,
+  "end": 317.157,
+  "speaker": "Unknown",
+  "en": "I saw a dermatologist last week about something.",
+  "zh": "我上周因为某个问题去看了皮肤科医生。"
+ },
+ {
+  "seg": 66,
+  "start": 317.617,
+  "end": 322.498,
+  "speaker": "Unknown",
+  "en": "I wrote down all my questions beforehand in an Apple Notes and I still forgot to ask something.",
+  "zh": "我提前在 Apple Notes 里写下了所有的问题,但我还是忘了问一个。"
+ },
+ {
+  "seg": 67,
+  "start": 322.918,
+  "end": 325.399,
+  "speaker": "Unknown",
+  "en": "And now I'm scheduling a follow up and it's another four months out.",
+  "zh": "现在我在安排复诊,而那又是四个月之后了。"
+ },
+ {
+  "seg": 68,
+  "start": 325.699,
+  "end": 326.659,
+  "speaker": "Unknown",
+  "en": "It happens to all of us.",
+  "zh": "这种事发生在我们所有人身上。"
+ },
+ {
+  "seg": 69,
+  "start": 326.679,
+  "end": 327.459,
+  "speaker": "Unknown",
+  "en": "We've all felt that.",
+  "zh": "我们都有过这种感受。"
+ },
+ {
+  "seg": 70,
+  "start": 328.06,
+  "end": 332.821,
+  "speaker": "Unknown",
+  "en": "Is there a specific patient story or recent case that you all have seen that",
+  "zh": "你们有没有见过某个具体的患者故事或近期的案例,"
+ },
+ {
+  "seg": 71,
+  "start": 333.561,
+  "end": 337.424,
+  "speaker": "Unknown",
+  "en": "Kind of help us imagine where the world is going and where your work is taking us.",
+  "zh": "能帮我们想象世界正走向何方、你们的工作正把我们带向何处。"
+ },
+ {
+  "seg": 72,
+  "start": 338.205,
+  "end": 344.089,
+  "speaker": "Unknown",
+  "en": "One way in which the work of our team is gratifying is just seeing the numbers and seeing how many people are using the tech and how useful it seems to be for them.",
+  "zh": "我们团队的工作令人欣慰的一个方面,就是看到这些数字,看到有多少人在使用这项技术,以及它对他们来说看起来多么有用。"
+ },
+ {
+  "seg": 73,
+  "start": 344.57,
+  "end": 347.091,
+  "speaker": "Unknown",
+  "en": "One other way is just hearing from people, right?",
+  "zh": "另一个方面就是直接听到人们的声音,对吧?"
+ },
+ {
+  "seg": 74,
+  "start": 347.131,
+  "end": 355.018,
+  "speaker": "Unknown",
+  "en": "So we get people coming in, sending us emails or whatever it is, reaching out in various ways multiple times a week, saying, here's how this has helped me.",
+  "zh": "所以我们每周都会多次收到人们发来的邮件或通过其他各种方式联系我们,说:这是它帮助我的方式。"
+ },
+ {
+  "seg": 75,
+  "start": 355.738,
+  "end": 360.384,
+  "speaker": "Unknown",
+  "en": "I think one of the stories that I was most touched by was the story of Nathan Levens and his son.",
+  "zh": "我想最打动我的故事之一是 Nathan Levens 和他儿子的故事。"
+ },
+ {
+  "seg": 76,
+  "start": 360.604,
+  "end": 364.889,
+  "speaker": "Unknown",
+  "en": "So he hosts the Cognitive Revolution podcast and kind of told his story in that podcast.",
+  "zh": "他主持 Cognitive Revolution 播客,并在那个播客里讲述了自己的故事。"
+ },
+ {
+  "seg": 77,
+  "start": 364.949,
+  "end": 373.88,
+  "speaker": "Unknown",
+  "en": "But he basically had this kind of long saga with his son where at some point he was kind of suffering a lot of fatigue and irritableness and things like this, his very young son.",
+  "zh": "基本上他和他儿子经历了很长一段波折,某段时间他非常年幼的儿子遭受了很多疲劳和烦躁之类的困扰。"
+ },
+ {
+  "seg": 78,
+  "start": 375.181,
+  "end": 384.783,
+  "speaker": "Unknown",
+  "en": "AI helped them kind of navigate the process of realizing that this was like a pretty serious thing while they were on vacation and deciding to take them for testing and repeatedly telling them like, hey, take this seriously.",
+  "zh": "AI 帮助他们度过了意识到这是一件相当严重的事情的过程,当时他们在度假,AI 帮他们决定带孩子去做检查,并反复告诉他们:嘿,要认真对待这件事。"
+ },
+ {
+  "seg": 79,
+  "start": 384.863,
+  "end": 387.804,
+  "speaker": "Unknown",
+  "en": "And it turns out he was diagnosed with an aggressive form of leukemia.",
+  "zh": "结果他被诊断出患有一种侵袭性的白血病。"
+ },
+ {
+  "seg": 80,
+  "start": 388.224,
+  "end": 399.646,
+  "speaker": "Unknown",
+  "en": "And throughout his care journey, I mean, Nathan reports kind of using GBD5 Pro at that time quite a bit for helping navigate the process, helping understand lab reports and things like this, even before a specialist had time to kind of",
+  "zh": "在他的整个就医旅程中,Nathan 说他当时相当频繁地使用 GBD5 Pro 来帮助规划流程、帮助理解化验报告之类的,甚至在专科医生有时间"
+ },
+ {
+  "seg": 81,
+  "start": 400.426,
+  "end": 401.186,
+  "speaker": "Unknown",
+  "en": "Help interpret.",
+  "zh": "帮助解读之前。"
+ },
+ {
+  "seg": 82,
+  "start": 401.206,
+  "end": 403.087,
+  "speaker": "Unknown",
+  "en": "And I think it brought them a lot of peace of mind.",
+  "zh": "我想这给他们带来了很大的安心。"
+ },
+ {
+  "seg": 83,
+  "start": 403.667,
+  "end": 408.868,
+  "speaker": "Unknown",
+  "en": "So OpenAI is building health intelligence and health intelligence into your model at every step.",
+  "zh": "所以 OpenAI 正在你的模型的每一步中构建健康智能和健康智能。"
+ },
+ {
+  "seg": 84,
+  "start": 409.448,
+  "end": 413.229,
+  "speaker": "Unknown",
+  "en": "But it's the same model that folks use to write code or plan a vacation.",
+  "zh": "但它和人们用来写代码或规划假期的模型是同一个模型。"
+ },
+ {
+  "seg": 85,
+  "start": 413.249,
+  "end": 418.651,
+  "speaker": "Unknown",
+  "en": "Can you help folks understand why you're building it that way from an architectural standpoint?",
+  "zh": "你能帮大家理解一下,从架构的角度,你们为什么要这样构建吗?"
+ },
+ {
+  "seg": 86,
+  "start": 418.671,
+  "end": 423.352,
+  "speaker": "Unknown",
+  "en": "Why is a general purpose AI the right foundation for something as complicated as medicine?",
+  "zh": "为什么通用 AI 是像医学这样复杂的事情的正确基础?"
+ },
+ {
+  "seg": 87,
+  "start": 423.853,
+  "end": 435.277,
+  "speaker": "Unknown",
+  "en": "Yeah I mean people often ask us like this kind of general versus specialized model debate and I used to work on specialized models and actually in a previous role and so I definitely have kind of experience on kind of both sides of this question.",
+  "zh": "是的,人们经常问我们这种通用模型与专用模型的争论,而且我以前在之前的一份工作里就是做专用模型的,所以我在这个问题的两边都确实有过经验。"
+ },
+ {
+  "seg": 88,
+  "start": 435.777,
+  "end": 442.619,
+  "speaker": "Unknown",
+  "en": "I think the kind of most important thing here is like what we're talking about here is actually specialized training in a general model which is I think actually the best of both worlds.",
+  "zh": "我认为这里最重要的事情是,我们在这里谈论的实际上是在一个通用模型中进行专门化训练,我认为这实际上是两全其美的做法。"
+ },
+ {
+  "seg": 89,
+  "start": 443.299,
+  "end": 454.769,
+  "speaker": "Unknown",
+  "en": "So what we do for ChatGPT and all the models that we ship in ChatGPT, across every stage of model training for ChatGPT, we actually have specialized healthcare data added to each phase of training since all of our models in the last year.",
+  "zh": "所以我们为 ChatGPT 以及我们在 ChatGPT 中发布的所有模型所做的事情是,在 ChatGPT 模型训练的每个阶段,实际上都加入了专门的医疗健康数据,自去年以来我们所有的模型都是如此。"
+ },
+ {
+  "seg": 90,
+  "start": 455.409,
+  "end": 469.761,
+  "speaker": "Unknown",
+  "en": "As a result is now you have a model that benefits from all the scale and general improvements in intelligence and reasoning of the big frontier models and also the benefits from the specialized training that we get from, for example, integrating data that we get from working with a bunch of physicians across the globe.",
+  "zh": "结果就是,你现在拥有一个模型,它既受益于大型前沿模型在智能和推理方面的所有规模化和通用改进,也受益于我们通过专门化训练获得的好处,例如,整合我们通过与全球众多医生合作获得的数据。"
+ },
+ {
+  "seg": 91,
+  "start": 470.522,
+  "end": 472.523,
+  "speaker": "Unknown",
+  "en": "And so I think you get the best of both worlds with this approach.",
+  "zh": "所以我认为用这种方法你能两全其美。"
+ },
+ {
+  "seg": 92,
+  "start": 472.743,
+  "end": 487.09,
+  "speaker": "Unknown",
+  "en": "If you kind of forked and said, hey, we're going to train a kind of smaller, specialized model that is just for healthcare, like I used to and like many people have, what you'd find is that model would just kind of fall behind the frontier relatively quickly because the pace of the frontier and the general model improvements is so fast.",
+  "zh": "如果你分叉出去说:嘿,我们要训练一个只用于医疗健康的更小的专门化模型,就像我以前做的那样、像很多人做过的那样,你会发现那个模型会相对较快地落后于前沿,因为前沿和通用模型改进的速度是如此之快。"
+ },
+ {
+  "seg": 93,
+  "start": 487.17,
+  "end": 492.252,
+  "speaker": "Unknown",
+  "en": "And if you bet on scale, what we found as OpenAI as an industry is that things will get better.",
+  "zh": "而如果你押注于规模,正如我们 OpenAI 以及整个行业所发现的,事情会变得更好。"
+ },
+ {
+  "seg": 94,
+  "start": 492.493,
+  "end": 497.315,
+  "speaker": "Unknown",
+  "en": "And so what we're doing is kind of hitching a ride on that kind of scale frontier and leveraging",
+  "zh": "所以我们正在做的是搭上这种规模前沿的便车,并利用"
+ },
+ {
+  "seg": 95,
+  "start": 497.895,
+  "end": 505.299,
+  "speaker": "Unknown",
+  "en": "The fact that we have the ability to kind of integrate evals and training data into the models to make the models both specialize and also benefit from the general capability.",
+  "zh": "我们有能力将评估和训练数据整合进模型这一事实,使模型既能专门化,也能受益于通用能力。"
+ },
+ {
+  "seg": 96,
+  "start": 506.159,
+  "end": 509.861,
+  "speaker": "Unknown",
+  "en": "I want to almost start imagining what's possible with the technology that you're building.",
+  "zh": "我几乎想开始想象你们正在构建的技术有哪些可能性。"
+ },
+ {
+  "seg": 97,
+  "start": 509.901,
+  "end": 514.263,
+  "speaker": "Unknown",
+  "en": "Obviously, where it is today is amazing, but you're not stopping and there's a lot of work to go.",
+  "zh": "显然,它今天的水平已经令人惊叹,但你们并没有停下,还有很多工作要做。"
+ },
+ {
+  "seg": 98,
+  "start": 514.283,
+  "end": 523.148,
+  "speaker": "Unknown",
+  "en": "I think many people are allured by the idea of a personal doctor in your pocket, something that is perfectly knowledgeable.",
+  "zh": "我想很多人都为\"口袋里的私人医生\"这个想法所吸引,一个知识完美的东西。"
+ },
+ {
+  "seg": 99,
+  "start": 524.028,
+  "end": 529.829,
+  "speaker": "Unknown",
+  "en": "Has knowledge across all medical specialties, so you don't necessarily need to go see a cardiologist and a dermatologist for different questions.",
+  "zh": "它拥有跨越所有医学专科的知识,所以你不一定需要为不同的问题分别去看心脏科医生和皮肤科医生。"
+ },
+ {
+  "seg": 100,
+  "start": 530.45,
+  "end": 553.255,
+  "speaker": "Unknown",
+  "en": "Something that is perfectly personalized to you, has all your medical history and context, remembers everything that you've said, remembers your medical history, but also your preferences, and is also able to motivate you and nudge you so that the information that it gives you is given to you at the right time in a way that can nudge you towards better health behaviors or adhering to the protocol that your doctor gave you.",
+  "zh": "某种完全为你个性化的东西,拥有你所有的病史和背景信息,记得你说过的每一句话,记得你的病史,也记得你的偏好,并且能够激励你、推动你,让它给你的信息在合适的时机以合适的方式呈现给你,推动你走向更健康的行为,或者坚持你的医生给你的方案。"
+ },
+ {
+  "seg": 101,
+  "start": 554.175,
+  "end": 557.518,
+  "speaker": "Unknown",
+  "en": "Is that sort of the experience you're building at OpenAI in the fullness of time?",
+  "zh": "这是不是你们在 OpenAI 长期要打造的那种体验?"
+ },
+ {
+  "seg": 102,
+  "start": 557.618,
+  "end": 558.579,
+  "speaker": "Unknown",
+  "en": "And how close are we to that?",
+  "zh": "我们离那还有多远?"
+ },
+ {
+  "seg": 103,
+  "start": 559.239,
+  "end": 561.121,
+  "speaker": "Unknown",
+  "en": "Yeah, that's something that we're really excited about.",
+  "zh": "是的,那是我们非常兴奋的事情。"
+ },
+ {
+  "seg": 104,
+  "start": 561.201,
+  "end": 564.543,
+  "speaker": "Unknown",
+  "en": "We are very excited about this vision of kind of a proactive personal health assistant.",
+  "zh": "我们对这种主动式个人健康助手的愿景感到非常兴奋。"
+ },
+ {
+  "seg": 105,
+  "start": 564.563,
+  "end": 582.237,
+  "speaker": "Unknown",
+  "en": "I don't think that's any kind of replacement for actually having a doctor or having access to a doctor, but really thinking about the ways in which we can take that experience of getting health information and making it more personal to kind of your context is a really important part of kind of our investment in health and ChatGPT, which is kind of consumer offering that we have that enables",
+  "zh": "我不认为那是实际拥有医生或获得医生服务的任何替代品,但真正思考我们如何能把获取健康信息的体验变得更贴合你的个人背景,这是我们在健康和 ChatGPT 方面投入的一个非常重要的部分,ChatGPT 是我们面向消费者的产品,它可以"
+ },
+ {
+  "seg": 106,
+  "start": 583.037,
+  "end": 589.18,
+  "speaker": "Unknown",
+  "en": "users to connect their health information for that information to be used kind of securely not to be used for training data or for targeting ads or anything like this.",
+  "zh": "让用户连接他们的健康信息,让这些信息被安全地使用,不会被用于训练数据或广告定向或类似的事情。"
+ },
+ {
+  "seg": 107,
+  "start": 589.84,
+  "end": 595.842,
+  "speaker": "Unknown",
+  "en": "And that's a big part of how we think about how we're going to move towards this world of really like increasingly personal access and proactive access.",
+  "zh": "这是我们思考如何走向这个日益个性化、日益主动化的获取方式的世界的一个重要部分。"
+ },
+ {
+  "seg": 108,
+  "start": 596.423,
+  "end": 598.143,
+  "speaker": "Unknown",
+  "en": "It's also been how we've been thinking about deployment.",
+  "zh": "所以它不只是,嘿,做这个任务,然后它用单次循环执行这个任务。"
+ },
+ {
+  "seg": 109,
+  "start": 598.303,
+  "end": 604.526,
+  "speaker": "Unknown",
+  "en": "So we've actually from the beginning been deploying this as widely as possible to our free users as well as our pro users.",
+  "zh": "所以我们实际上从一开始就以尽可能广的范围部署这个,既面向我们的免费用户,也面向我们的专业用户。"
+ },
+ {
+  "seg": 110,
+  "start": 604.646,
+  "end": 606.087,
+  "speaker": "Unknown",
+  "en": "And so we have been",
+  "zh": "所以我们一直在"
+ },
+ {
+  "seg": 111,
+  "start": 607.087,
+  "end": 614.595,
+  "speaker": "Unknown",
+  "en": "Of the kind of 300 million weekly active health users, the vast majority of them are free users and we take that and most of them are outside the US as well.",
+  "zh": "在大约 3000 万周活健康用户中,绝大多数是免费用户,而且我们——他们大多数也不在美国。"
+ },
+ {
+  "seg": 112,
+  "start": 615.176,
+  "end": 619.18,
+  "speaker": "Unknown",
+  "en": "And so we take that kind of question of distribution here really, really centrally.",
+  "zh": "所以我们把分发这个问题看得非常非常核心。"
+ },
+ {
+  "seg": 113,
+  "start": 619.781,
+  "end": 624.866,
+  "speaker": "Unknown",
+  "en": "And so as we're thinking about this kind of next frontier of proactive personal health assistant, we're going to bring that to bear as well.",
+  "zh": "所以当我们思考主动式个人健康助手这个下一个前沿时,我们也会把这一点带进来。"
+ },
+ {
+  "seg": 114,
+  "start": 626.097,
+  "end": 632.181,
+  "speaker": "Unknown",
+  "en": "I think use cases help us imagine, help people imagine what's actually possible, what all this work is contributing to.",
+  "zh": "我认为用例帮助我们想象,帮助人们想象什么真正是可能的,所有这些工作在为什么做贡献。"
+ },
+ {
+  "seg": 115,
+  "start": 632.541,
+  "end": 635.343,
+  "speaker": "Unknown",
+  "en": "The idea of a personal doctor in your pocket I think is exciting.",
+  "zh": "口袋里的私人医生这个想法,我觉得很令人兴奋。"
+ },
+ {
+  "seg": 116,
+  "start": 635.844,
+  "end": 642.448,
+  "speaker": "Unknown",
+  "en": "When Greg Brockman came on the podcast, he spoke a little bit about this situation he had with a friend of his was in the hospital.",
+  "zh": "当 Greg Brockman 来这个播客时,他讲了一点他一个朋友住院时的情形。"
+ },
+ {
+  "seg": 117,
+  "start": 645.65,
+  "end": 648.511,
+  "speaker": "Unknown",
+  "en": "Her physician was about to administer a certain medication.",
+  "zh": "她的医生正要给她用某种药物。"
+ },
+ {
+  "seg": 118,
+  "start": 649.011,
+  "end": 659.973,
+  "speaker": "Unknown",
+  "en": "She double-checked that medication in ChatGPT, realized based on her medical history that she would have some drug interaction or some adverse event that may come from that.",
+  "zh": "她在 ChatGPT 里核对了那个药,根据她的病史意识到她可能会有某种药物相互作用或某种不良事件。"
+ },
+ {
+  "seg": 119,
+  "start": 660.034,
+  "end": 661.274,
+  "speaker": "Unknown",
+  "en": "She showed that to her doctor.",
+  "zh": "她把这个给她的医生看了。"
+ },
+ {
+  "seg": 120,
+  "start": 661.334,
+  "end": 667.455,
+  "speaker": "Unknown",
+  "en": "Her doctor agreed and said, I didn't have enough time to look through your medical history to notice that.",
+  "zh": "她的医生同意了,说,我没有足够的时间去翻你的病史注意到这一点。"
+ },
+ {
+  "seg": 121,
+  "start": 667.495,
+  "end": 669.376,
+  "speaker": "Unknown",
+  "en": "So thank you so much for raising that.",
+  "zh": "所以非常感谢你提出这一点。"
+ },
+ {
+  "seg": 122,
+  "start": 670.176,
+  "end": 672.456,
+  "speaker": "Unknown",
+  "en": "Shouldn't we do that for everyone all the time?",
+  "zh": "我们不是应该为所有人、所有时候都这样做吗?"
+ },
+ {
+  "seg": 123,
+  "start": 672.696,
+  "end": 674.437,
+  "speaker": "Unknown",
+  "en": "If it's cheap enough and convenient enough,",
+  "zh": "如果它足够便宜、足够方便,"
+ },
+ {
+  "seg": 124,
+  "start": 675.157,
+  "end": 678.8,
+  "speaker": "Unknown",
+  "en": "Can't we do a second, third, fourth opinion for every clinical scenario?",
+  "zh": "我们能不能为每一个临床场景做第二、第三、第四意见?"
+ },
+ {
+  "seg": 125,
+  "start": 678.82,
+  "end": 679.541,
+  "speaker": "Unknown",
+  "en": "Is that where we're going?",
+  "zh": "这是我们前进的方向吗?"
+ },
+ {
+  "seg": 126,
+  "start": 680.261,
+  "end": 693.373,
+  "speaker": "Unknown",
+  "en": "Yeah, I love this idea of a kind of safety net for both patients and clinicians that is just kind of there in the care journey and, you know, not always interfering or being the middleman, but like really thinking about the ways in which you can augment the existing experience and build on it.",
+  "zh": "是的,我喜欢这种为患者和临床医生提供安全保障的想法,它就存在于诊疗旅程之中,你知道,不总是干扰或当中间人,而是真正思考你如何能增强现有体验并在其上构建。"
+ },
+ {
+  "seg": 127,
+  "start": 693.393,
+  "end": 701.62,
+  "speaker": "Unknown",
+  "en": "You know, we did this work actually kind of more directly studying this on the clinician side in a kind of a series of experiments that we ran with PandaHealth.",
+  "zh": "你知道,我们实际上更直接地在临床医生一侧做过这类研究,是我们和 PandaHealth 一起做的一系列实验。"
+ },
+ {
+  "seg": 128,
+  "start": 702.38,
+  "end": 710.107,
+  "speaker": "Unknown",
+  "en": "Where we studied this idea of like a clinician co-pilot that was deployed and was exactly deployed in this way where, you know, it was a safety net for the clinician as they were doing their work.",
+  "zh": "我们研究了这种临床医生副驾驶的想法,它被部署,而且正是以这种方式部署的,你知道,它是临床医生工作时的一道安全网。"
+ },
+ {
+  "seg": 129,
+  "start": 710.567,
+  "end": 718.594,
+  "speaker": "Unknown",
+  "en": "It kind of came in and proactively suggested like, hey, this might be off, like, you know, there might be this medication interaction that you might not be tracking.",
+  "zh": "它会主动进来建议,比如,嘿,这里可能有点不对,你知道,可能有一种你可能没在跟踪的药物相互作用。"
+ },
+ {
+  "seg": 130,
+  "start": 719.155,
+  "end": 721.917,
+  "speaker": "Unknown",
+  "en": "Can we, you know, potentially adjust that and things like this?",
+  "zh": "我们能不能,你知道,可能调整一下,诸如此类?"
+ },
+ {
+  "seg": 131,
+  "start": 722.698,
+  "end": 724.979,
+  "speaker": "Unknown",
+  "en": "I think we're going to see the same thing happen on the patient side.",
+  "zh": "我认为我们会在患者一侧看到同样的事情发生。"
+ },
+ {
+  "seg": 132,
+  "start": 724.999,
+  "end": 741.824,
+  "speaker": "Unknown",
+  "en": "And I'm very, very excited about this idea of like kind of like a proactive person, proactive agent in your care journey, really helping you and making sure that like, you know, if your A1C rises and you're diabetic, like that you get like a review of your medications by your doctor and things like this and making sure that that's kind of flagged for kind of appropriate review.",
+  "zh": "我对这种想法非常非常兴奋,就是在你的诊疗旅程中有一个主动的、主动的智能体,真正帮助你,确保,你知道,如果你的 A1C 升高而你是糖尿病患者,你能够得到医生对你药物的复查,诸如此类,并确保这些被标记出来以便适当的审查。"
+ },
+ {
+  "seg": 133,
+  "start": 742.484,
+  "end": 744.945,
+  "speaker": "Unknown",
+  "en": "You mentioned sort of personalized proactive agents.",
+  "zh": "你提到了个性化主动智能体。"
+ },
+ {
+  "seg": 134,
+  "start": 745.425,
+  "end": 751.827,
+  "speaker": "Unknown",
+  "en": "Personal agents in general have kind of emerged on the scene from a popularity perspective over the last few months.",
+  "zh": "个人智能体总体上从受欢迎程度来看是在过去几个月里开始登场的。"
+ },
+ {
+  "seg": 135,
+  "start": 752.407,
+  "end": 755.728,
+  "speaker": "Unknown",
+  "en": "Instinct, Muse, GrokBot, OpenAI's Dots.",
+  "zh": "Instinct、Muse、GrokBot、OpenAI 的 Dots。"
+ },
+ {
+  "seg": 136,
+  "start": 756.808,
+  "end": 760.469,
+  "speaker": "Unknown",
+  "en": "You can give these AI apps an objective for folks who are not familiar.",
+  "zh": "给不熟悉的朋友解释一下,你可以给这些 AI 应用一个目标。"
+ },
+ {
+  "seg": 137,
+  "start": 761.169,
+  "end": 763.051,
+  "speaker": "Unknown",
+  "en": "And it can execute a series of tasks.",
+  "zh": "然后它可以执行一系列任务。"
+ },
+ {
+  "seg": 138,
+  "start": 763.071,
+  "end": 768.116,
+  "speaker": "Unknown",
+  "en": "So it's not just, hey, do this task, and then it executes the task with a single loop.",
+  "zh": "所以它不只是说“嘿，做这个任务”，然后它用单个循环执行这个任务。"
+ },
+ {
+  "seg": 139,
+  "start": 768.617,
+  "end": 770.419,
+  "speaker": "Unknown",
+  "en": "It can use your preferences.",
+  "zh": "它可以使用你的偏好。"
+ },
+ {
+  "seg": 140,
+  "start": 770.479,
+  "end": 773.762,
+  "speaker": "Unknown",
+  "en": "It can access all of your applications that you give it permission to.",
+  "zh": "它可以访问你授权给它的所有应用程序。"
+ },
+ {
+  "seg": 141,
+  "start": 773.782,
+  "end": 776.845,
+  "speaker": "Unknown",
+  "en": "It can access your credit card information if you give that to them.",
+  "zh": "如果你把信用卡信息给它,它可以访问你的信用卡信息。"
+ },
+ {
+  "seg": 142,
+  "start": 777.546,
+  "end": 779.608,
+  "speaker": "Unknown",
+  "en": "And it can execute an objective on your behalf.",
+  "zh": "它可以代表你执行一个目标。"
+ },
+ {
+  "seg": 143,
+  "start": 780.769,
+  "end": 794.434,
+  "speaker": "Unknown",
+  "en": "One can't help but imagine the possibilities there in navigating our wonderful but often disjointed healthcare system, scheduling an appointment and making sure your insurance is covering that appointment, you know.",
+  "zh": "人们不禁会想象在我们这个美妙但常常割裂的医疗体系里导航的可能性,预约一个就诊并确保你的保险覆盖那次就诊,你知道。"
+ },
+ {
+  "seg": 144,
+  "start": 797.475,
+  "end": 811.167,
+  "speaker": "Unknown",
+  "en": "Helping you and guiding you to follow a care protocol that your doctor gave you post-discharge, even negotiating with your insurance company on a medical billing error, all kinds of tasks that just create friction in our healthcare system.",
+  "zh": "帮助你、引导你遵循你的医生在你出院后给你的诊疗方案,甚至就医疗账单错误与你的保险公司谈判,所有这些在我们的医疗体系中制造摩擦的任务。"
+ },
+ {
+  "seg": 145,
+  "start": 812.108,
+  "end": 815.39,
+  "speaker": "Unknown",
+  "en": "Is that where you're kind of going with your work?",
+  "zh": "这是你的工作正在朝的方向吗?"
+ },
+ {
+  "seg": 146,
+  "start": 815.41,
+  "end": 816.872,
+  "speaker": "Unknown",
+  "en": "Should we look forward to that from OpenAI?",
+  "zh": "我们应该期待 OpenAI 做出这些吗?"
+ },
+ {
+  "seg": 147,
+  "start": 817.715,
+  "end": 819.336,
+  "speaker": "Unknown",
+  "en": "I'm very excited about that vision.",
+  "zh": "我对那个愿景非常兴奋。"
+ },
+ {
+  "seg": 148,
+  "start": 819.476,
+  "end": 830.983,
+  "speaker": "Unknown",
+  "en": "I think if you look at from both the patient and clinician perspective, one of the most difficult things about the healthcare system and how it serves people is this kind of question of like fragmentation and kind of lack of connection of the ecosystem.",
+  "zh": "我认为如果你从患者和临床医生两个角度来看,医疗体系及其服务人们最困难的事情之一就是这种碎片化和生态系统缺乏连接的问题。"
+ },
+ {
+  "seg": 149,
+  "start": 831.924,
+  "end": 836.887,
+  "speaker": "Unknown",
+  "en": "And healthcare is also one of those industries where you shouldn't expect everything to have an MCP connector tomorrow, right?",
+  "zh": "而且医疗也是那种你不应该指望明天一切都自动有了 MCP 连接器的行业,对吧?"
+ },
+ {
+  "seg": 150,
+  "start": 836.947,
+  "end": 839.849,
+  "speaker": "Unknown",
+  "en": "It is a place where there's legacy software.",
+  "zh": "这是一个存在遗留软件的地方。"
+ },
+ {
+  "seg": 151,
+  "start": 839.889,
+  "end": 844.592,
+  "speaker": "Unknown",
+  "en": "There's not like necessarily the best connectivity with AI or software in the first place.",
+  "zh": "这里本来就不一定有与 AI 或软件最好的连接性。"
+ },
+ {
+  "seg": 152,
+  "start": 844.632,
+  "end": 845.313,
+  "speaker": "Unknown",
+  "en": "And many people are",
+  "zh": "而且很多人是"
+ },
+ {
+  "seg": 153,
+  "start": 845.913,
+  "end": 849.975,
+  "speaker": "Unknown",
+  "en": "You know, running their primary EHR software in the healthcare ecosystem on like a VM, for example.",
+  "zh": "你知道，在医疗生态系统里，在比如一个 VM 上运行他们的主要 EHR 软件。"
+ },
+ {
+  "seg": 154,
+  "start": 850.095,
+  "end": 852.517,
+  "speaker": "Unknown",
+  "en": "So like virtual machine that they're running in the cloud.",
+  "zh": "就是他们在云端运行的虚拟机。"
+ },
+ {
+  "seg": 155,
+  "start": 852.557,
+  "end": 853.277,
+  "speaker": "Unknown",
+  "en": "Yeah, exactly.",
+  "zh": "对，没错。"
+ },
+ {
+  "seg": 156,
+  "start": 853.357,
+  "end": 859.26,
+  "speaker": "Unknown",
+  "en": "And so there's actually like an interesting component where like a virtual machine actually makes things easier in some ways for AI agents.",
+  "zh": "所以这里实际上有一个有趣的点，就是虚拟机在某些方面实际上让智能体的事情变得更容易了。"
+ },
+ {
+  "seg": 157,
+  "start": 859.3,
+  "end": 863.083,
+  "speaker": "Unknown",
+  "en": "But this is absolutely right for agents and computer use.",
+  "zh": "但这对智能体和计算机使用来说绝对是适用的。"
+ },
+ {
+  "seg": 158,
+  "start": 863.123,
+  "end": 872.408,
+  "speaker": "Unknown",
+  "en": "So I definitely think that this is like a place where a lot of the barriers that have traditionally existed between patients and getting the care they need and clinicians and delivering the care that they need and",
+  "zh": "所以我确实认为，在这个地方，很多传统上存在于患者与获得所需医疗之间、临床医生与提供所需医疗之间的障碍，以及"
+ },
+ {
+  "seg": 159,
+  "start": 873.208,
+  "end": 879.495,
+  "speaker": "Unknown",
+  "en": "Healthcare data in general, which is often kind of a bottleneck to the whole system working well for patients, I think a lot of those will dissolve.",
+  "zh": "医疗数据整体——它往往是整个系统为患者良好运转的瓶颈——我认为其中很多都会消解。"
+ },
+ {
+  "seg": 160,
+  "start": 879.955,
+  "end": 881.817,
+  "speaker": "Unknown",
+  "en": "Okay, so we're talking about the use cases.",
+  "zh": "好的，那我们是在谈论用例。"
+ },
+ {
+  "seg": 161,
+  "start": 881.837,
+  "end": 883.178,
+  "speaker": "Unknown",
+  "en": "You're helping us dream the dream.",
+  "zh": "你在帮我们做梦想的梦。"
+ },
+ {
+  "seg": 162,
+  "start": 883.999,
+  "end": 887.983,
+  "speaker": "Unknown",
+  "en": "Before we keep going down that road, let's talk about trust.",
+  "zh": "在我们继续沿着这条路走之前，我们来谈谈信任。"
+ },
+ {
+  "seg": 163,
+  "start": 888.223,
+  "end": 890.145,
+  "speaker": "Unknown",
+  "en": "Obviously, trust is the most important here.",
+  "zh": "显然，信任在这里是最重要的。"
+ },
+ {
+  "seg": 164,
+  "start": 890.686,
+  "end": 892.107,
+  "speaker": "Unknown",
+  "en": "The same underlying model.",
+  "zh": "同一个底层模型。"
+ },
+ {
+  "seg": 165,
+  "start": 893.989,
+  "end": 904.157,
+  "speaker": "Unknown",
+  "en": "can help me understand my lab results or something that I heard from a doctor, but it can also help a highly trained, specialized physician make sense of a very complicated case.",
+  "zh": "可以帮我理解我的化验结果，或者我从医生那里听到的某些东西，但它也可以帮助一位训练有素的专科医生理解一个非常复杂的病例。"
+ },
+ {
+  "seg": 166,
+  "start": 905.694,
+  "end": 913.38,
+  "speaker": "Unknown",
+  "en": "What do you change in the answer so that it's legible to each of those two personas or any other persona that might be engaging with the same underlying model?",
+  "zh": "你要如何改变答案，使它对这两种人设、或任何可能与同一个底层模型交互的其他人设来说都清晰可读？"
+ },
+ {
+  "seg": 167,
+  "start": 913.94,
+  "end": 914.08,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 168,
+  "start": 914.741,
+  "end": 919.104,
+  "speaker": "Unknown",
+  "en": "I mean, as you said, health is a place where, you know, it moves to the speed of trust.",
+  "zh": "我是说，正如你所说，医疗是一个以信任的速度前进的领域。"
+ },
+ {
+  "seg": 169,
+  "start": 919.364,
+  "end": 925.228,
+  "speaker": "Unknown",
+  "en": "And so you need to be able to not only make the models better and measure them, but also kind of communicate and bring the world along.",
+  "zh": "所以你不仅需要能够让模型变得更好并对它们进行衡量，还要能够进行沟通、带动整个世界一起前进。"
+ },
+ {
+  "seg": 170,
+  "start": 925.328,
+  "end": 932.994,
+  "speaker": "Unknown",
+  "en": "And so that's been a very important part of our thinking and our strategy for both how we work with patients and how we work with end users and how we work with clinicians.",
+  "zh": "所以这一直是我们思考和战略中非常重要的一部分，无论是对患者的工作方式，还是对终端用户的工作方式，以及对临床医生的工作方式。"
+ },
+ {
+  "seg": 171,
+  "start": 935.616,
+  "end": 954.534,
+  "speaker": "Unknown",
+  "en": "The brief answer to your question is basically we evaluate and train the models by working with experts across the world and getting feedback in various ways to kind of tailor their behavior to whether a person is a lay user or kind of an expert lay user that has been like navigating their care for a while, a complex care journey, or clinician or other kinds of user personas.",
+  "zh": "对你问题的简短回答基本上是：我们通过与全世界的专家合作、以各种方式获取反馈来评估和训练模型，从而根据用户是普通用户，还是那种已经为自己的医疗、一段复杂的就医旅程摸索了一段时间的“专家型普通用户”，或者是临床医生或其他类型的用户人设，来调整模型的行为。"
+ },
+ {
+  "seg": 172,
+  "start": 954.754,
+  "end": 959.758,
+  "speaker": "Unknown",
+  "en": "And so back even for the original health bench evaluation that we released back in May 2025,",
+  "zh": "甚至早在 2025 年 5 月我们发布的原始 Health Bench 评估中，"
+ },
+ {
+  "seg": 173,
+  "start": 960.839,
+  "end": 972.504,
+  "speaker": "Unknown",
+  "en": "There was actually a theme or part of the evaluation that was really focused on this distinction of how the model behaved and tailored its level of kind of use of technical jargon and things like this to whether a person was a lay user or a clinician.",
+  "zh": "实际上就有一个主题或评估的一部分，真正聚焦于这种区分：即模型如何行为、如何根据用户是普通用户还是临床医生来调整其技术术语的使用程度之类的东西。"
+ },
+ {
+  "seg": 174,
+  "start": 972.544,
+  "end": 979.786,
+  "speaker": "Unknown",
+  "en": "And since then, we've both gotten better at measuring whether the models are able to cater to different kinds of users and also training the models towards that.",
+  "zh": "而从那以后，我们既在衡量模型是否能够迎合不同类型用户方面做得更好了，也在朝着这个方向训练模型。"
+ },
+ {
+  "seg": 175,
+  "start": 981.767,
+  "end": 990.932,
+  "speaker": "Unknown",
+  "en": "A lot of our approach has really been like not only do how do we make the models better for these different users but how do we bring them along and part of that is how we do evaluations and communicate about them as well.",
+  "zh": "我们的很多方法其实是：不仅仅是如何让模型对这些不同的用户变得更好，还有如何带动他们一起前进，而其中一部分就是我们如何做评估以及如何就评估进行沟通。"
+ },
+ {
+  "seg": 176,
+  "start": 991.93,
+  "end": 993.471,
+  "speaker": "Unknown",
+  "en": "So there's a few components to trust.",
+  "zh": "所以信任有几个组成部分。"
+ },
+ {
+  "seg": 177,
+  "start": 993.491,
+  "end": 998.393,
+  "speaker": "Unknown",
+  "en": "So we've talked about sort of tailoring the answer to the user.",
+  "zh": "我们已经谈过根据用户调整答案这一点。"
+ },
+ {
+  "seg": 178,
+  "start": 998.894,
+  "end": 1001.655,
+  "speaker": "Unknown",
+  "en": "Another big component is disagreement.",
+  "zh": "另一个重要组成部分是分歧。"
+ },
+ {
+  "seg": 179,
+  "start": 1002.455,
+  "end": 1011.64,
+  "speaker": "Unknown",
+  "en": "A person can be speaking to an LLM or speaking to chat and be sharing all of their symptoms but really hoping to hear that everything is okay.",
+  "zh": "一个人可能在和 LLM 对话、或聊天时，把所有症状都说了出来，但其实心里希望听到一切都没事。"
+ },
+ {
+  "seg": 180,
+  "start": 1012.02,
+  "end": 1017.843,
+  "speaker": "Unknown",
+  "en": "So from a consumer user NPS perspective, Net Promoter Score perspective, they want to hear reassurance.",
+  "zh": "所以从消费者用户 NPS 的角度来看，从净推荐值的角度来看，他们想听到安慰。"
+ },
+ {
+  "seg": 181,
+  "start": 1017.903,
+  "end": 1019.244,
+  "speaker": "Unknown",
+  "en": "But from a medical perspective,",
+  "zh": "但从医学角度来看，"
+ },
+ {
+  "seg": 182,
+  "start": 1019.884,
+  "end": 1021.686,
+  "speaker": "Unknown",
+  "en": "They need to hear perhaps something very different.",
+  "zh": "他们也许需要听到非常不同的东西。"
+ },
+ {
+  "seg": 183,
+  "start": 1022.387,
+  "end": 1034.7,
+  "speaker": "Unknown",
+  "en": "How do you teach an AI to recognize the difference and manage different product objectives there, either from consumer engagement and retention versus sort of correctness and sort of clinical quality?",
+  "zh": "你如何教 AI 识别这种差异，并管理那里不同的产品目标——无论是来自消费者参与度和留存，还是来自正确性和临床质量？"
+ },
+ {
+  "seg": 184,
+  "start": 1035.24,
+  "end": 1038.481,
+  "speaker": "Unknown",
+  "en": "Yeah, this is super central to how we do both evaluation and training.",
+  "zh": "好的，这对我们的评估和训练方式来说都是极其核心的。"
+ },
+ {
+  "seg": 185,
+  "start": 1038.501,
+  "end": 1064.79,
+  "speaker": "Unknown",
+  "en": "And so zooming out a little bit and the question of like agreement and disagreement around how we respond and how we evaluate, like one thing you could do and one thing that you could kind of base your approach on here is like we could bring in a few clinicians into, let's say, the OpenAI Health team and say like, hey, you guys figure out how to navigate these kind of uncertain cases and, you know, we'll ask you about these uncertain cases and you'll help us build evaluations and training data and stuff like this.",
+  "zh": "稍微放大一点来看，关于我们如何回应以及如何评估中的赞同与分歧问题，你能做的一件事、能作为方法基础的一件事是：我们可以把几位临床医生请进，比如说，OpenAI 医疗团队，然后说，嘿，你们来搞清楚怎么处理这些不确定的病例，我们会就这些不确定的病例来问你们，你们会帮我们构建评估和训练数据之类的东西。"
+ },
+ {
+  "seg": 186,
+  "start": 1066.65,
+  "end": 1069.311,
+  "speaker": "Unknown",
+  "en": "And leave it to those few physicians to figure it out.",
+  "zh": "然后把事情留给那几位医生去搞定。"
+ },
+ {
+  "seg": 187,
+  "start": 1070.131,
+  "end": 1071.411,
+  "speaker": "Unknown",
+  "en": "This is actually not the best approach.",
+  "zh": "这其实并不是最好的方法。"
+ },
+ {
+  "seg": 188,
+  "start": 1071.431,
+  "end": 1075.832,
+  "speaker": "Unknown",
+  "en": "So it turns out if you ask five physicians or something like this, any question, you'll get like eight different answers.",
+  "zh": "结果证明，如果你拿任何问题去问五位医生之类的，你会得到大概八个不同的答案。"
+ },
+ {
+  "seg": 189,
+  "start": 1076.093,
+  "end": 1086.035,
+  "speaker": "Unknown",
+  "en": "And so one of the first things that we did when we first started focusing on health at OpenAI was really build this kind of global physician network of hundreds of experts that we work with kind of across the globe, across",
+  "zh": "所以当我们在 OpenAI 最初开始聚焦医疗时，我们做的第一批事情之一，就是真正建立起这个由数百名专家组成的全球医生网络，我们与他们在全球范围内、跨越"
+ },
+ {
+  "seg": 190,
+  "start": 1086.635,
+  "end": 1098.838,
+  "speaker": "Unknown",
+  "en": "You know, dozens of specialties and languages and countries of practice to think about the right ways to kind of aggregate the wisdom of experts so that we weren't relying, especially in areas where there could be disagreement, we weren't relying on one or two or three physicians to kind of adjudicate.",
+  "zh": "几十个专科、语言和执业国家合作，去思考聚合专家智慧的正确方式，这样我们就不用——尤其是在可能存在分歧的领域——依赖一两名或三名医生来做裁决。"
+ },
+ {
+  "seg": 191,
+  "start": 1099.358,
+  "end": 1106.36,
+  "speaker": "Unknown",
+  "en": "So that's one part of it is kind of like thinking about evaluation and training data coming in from different experts rather than relying on one or two people.",
+  "zh": "所以这是其中一部分，就是思考让评估和训练数据来自不同的专家，而不是依赖一两个人。"
+ },
+ {
+  "seg": 192,
+  "start": 1107.08,
+  "end": 1110.561,
+  "speaker": "Unknown",
+  "en": "But then the second part of your question is how do you balance competing objectives?",
+  "zh": "但你问题的第二部分是，你如何平衡相互竞争的目标？"
+ },
+ {
+  "seg": 193,
+  "start": 1110.701,
+  "end": 1118.784,
+  "speaker": "Unknown",
+  "en": "Let's say the physicians and the aggregate wisdom of the physicians is pointing in one direction and then maybe the user actually wants you to say something comforting even when the situation is not comforting.",
+  "zh": "比如说，医生们以及医生们的聚合智慧指向一个方向，而也许用户实际上想让你说些安慰的话，即使情况并不令人安心。"
+ },
+ {
+  "seg": 194,
+  "start": 1118.804,
+  "end": 1121.165,
+  "speaker": "Unknown",
+  "en": "It's basically a prioritization of safety.",
+  "zh": "这基本上是一个安全性的优先级排序。 [[194b]] ——"
+ },
+ {
+  "seg": 195,
+  "start": 1122.825,
+  "end": 1129.627,
+  "speaker": "Unknown",
+  "en": "It's very important to us that we take our obligation very seriously when there's hundreds of millions of health conversations coming in.",
+  "zh": "当有数以亿计的健康对话涌入时，我们非常认真地对待我们的义务，这对我们非常重要。"
+ },
+ {
+  "seg": 196,
+  "start": 1130.267,
+  "end": 1146.331,
+  "speaker": "Unknown",
+  "en": "And so across the evaluation stack and training stack, we have evaluations that track these kind of difficult situations where the model should actually go and say, hey, this is unsafe, you should seek care, even if the user doesn't want to hear it or wants to get some kind of alternative treatment or something like this.",
+  "zh": "所以在整个评估栈和训练栈中，我们有一些评估来追踪这类困难情境：模型实际上应该去说，嘿，这是不安全的，你应该寻求医疗照护，即使用户不想听到这个，或者想要某种替代治疗之类的东西。"
+ },
+ {
+  "seg": 197,
+  "start": 1147.191,
+  "end": 1158.402,
+  "speaker": "Unknown",
+  "en": "And that's a very important part of how we do evaluation and over time we've not only improved how we've done that evaluation working with physicians but also seen pretty dramatic model improvements across the board in those areas.",
+  "zh": "而这是我们做评估的一个非常重要的部分，而且随着时间推移，我们不仅在与医生合作进行这类评估方面有所改进，还看到了模型在这些领域的全面显著提升。"
+ },
+ {
+  "seg": 198,
+  "start": 1159.023,
+  "end": 1166.885,
+  "speaker": "Unknown",
+  "en": "There's another instance of disagreement, which is me as the consumer, I ask a medical question of ChatGPT.",
+  "zh": "还有另一种分歧的情形，也就是作为消费者的我，向 ChatGPT 问一个医疗问题。"
+ },
+ {
+  "seg": 199,
+  "start": 1167.585,
+  "end": 1170.526,
+  "speaker": "Unknown",
+  "en": "I then show that response to my doctor during a visit.",
+  "zh": "然后我在就诊时把那个回答给我的医生看。"
+ },
+ {
+  "seg": 200,
+  "start": 1170.886,
+  "end": 1173.126,
+  "speaker": "Unknown",
+  "en": "My doctor loves me, by the way.",
+  "zh": "顺便说一句,我的医生很喜欢我。"
+ },
+ {
+  "seg": 201,
+  "start": 1173.547,
+  "end": 1174.767,
+  "speaker": "Unknown",
+  "en": "And then they disagree.",
+  "zh": "然后他们不同意。"
+ },
+ {
+  "seg": 202,
+  "start": 1175.267,
+  "end": 1176.427,
+  "speaker": "Unknown",
+  "en": "They disagree with the response.",
+  "zh": "他们不同意这个回答。"
+ },
+ {
+  "seg": 203,
+  "start": 1177.107,
+  "end": 1178.748,
+  "speaker": "Unknown",
+  "en": "How should I handle that situation?",
+  "zh": "我应该怎么处理那种情况?"
+ },
+ {
+  "seg": 204,
+  "start": 1179.492,
+  "end": 1184.434,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, I think you should handle it similarly as if, you know, disagreement was happening in some other way as well.",
+  "zh": "嗯,我是说,我认为你应该像处理其他方式产生的分歧一样来处理它。"
+ },
+ {
+  "seg": 205,
+  "start": 1184.454,
+  "end": 1187.256,
+  "speaker": "Unknown",
+  "en": "Like people do disagree about different things.",
+  "zh": "比如人们确实会在不同的事情上有分歧。"
+ },
+ {
+  "seg": 206,
+  "start": 1187.296,
+  "end": 1195.96,
+  "speaker": "Unknown",
+  "en": "And I think like you have a right as a patient to get, you know, ask for another doctor to take a look and get a sense and go to another doctor to get a second opinion.",
+  "zh": "而且我认为作为患者,你有权利要求另一位医生来看一下、了解一下情况,去找另一位医生获得第二意见。"
+ },
+ {
+  "seg": 207,
+  "start": 1196.6,
+  "end": 1201.563,
+  "speaker": "Unknown",
+  "en": "And yeah, that's what I would advocate for whether or not you're also using ChatGPT to get health information as well.",
+  "zh": "是的,无论你是否同时也在用 ChatGPT 获取健康信息,这都是我会提倡的做法。"
+ },
+ {
+  "seg": 208,
+  "start": 1201.783,
+  "end": 1201.943,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "嗯。"
+ },
+ {
+  "seg": 209,
+  "start": 1203.515,
+  "end": 1204.236,
+  "speaker": "Unknown",
+  "en": "Makes a ton of sense.",
+  "zh": "非常有道理。"
+ },
+ {
+  "seg": 210,
+  "start": 1205.016,
+  "end": 1208.7,
+  "speaker": "Unknown",
+  "en": "There's another element of trust, which is just absolute correctness.",
+  "zh": "还有另一个信任的要素,那就是绝对的正确性。"
+ },
+ {
+  "seg": 211,
+  "start": 1209.32,
+  "end": 1221.132,
+  "speaker": "Unknown",
+  "en": "And a lot of the work that you all have done, it seems to be, at least I'm hearing from you, seems to be about grounding answers in the world's medical literature and evidence.",
+  "zh": "你们所做的很多工作,至少从我听你说的来看,似乎都是关于把回答建立在世界医学文献和证据的基础上。"
+ },
+ {
+  "seg": 212,
+  "start": 1222.3,
+  "end": 1233.784,
+  "speaker": "Unknown",
+  "en": "Some parts of medicine, there's not a lot of agreement or disagreement about, but there is much of medicine that's still being discovered or being studied, and there is disagreement even in the medical field.",
+  "zh": "在医学的某些部分,并没有太多一致或不一致的问题,但医学中仍有很大一部分还在被发现或被研究中,即使在医学界内部也存在分歧。"
+ },
+ {
+  "seg": 213,
+  "start": 1234.585,
+  "end": 1242.868,
+  "speaker": "Unknown",
+  "en": "And for that, you know, for that, for those kinds of questions, it's difficult to ground it in truth when we don't, we're still discovering, you know, truth.",
+  "zh": "对于那些问题,你知道,对于那些问题,对于那些类型的问题,当我们还在发现真相的时候,很难把它建立在真相之上。"
+ },
+ {
+  "seg": 214,
+  "start": 1243.188,
+  "end": 1244.428,
+  "speaker": "Unknown",
+  "en": "Science is a process, et cetera.",
+  "zh": "科学是一个过程,等等。"
+ },
+ {
+  "seg": 215,
+  "start": 1245.529,
+  "end": 1248.25,
+  "speaker": "Unknown",
+  "en": "How do you think about correctness in those kinds of instances?",
+  "zh": "在这类情况下,你是怎么看待正确性的?"
+ },
+ {
+  "seg": 216,
+  "start": 1249.142,
+  "end": 1250.402,
+  "speaker": "Unknown",
+  "en": "Yeah, it's a really great question.",
+  "zh": "是的,这是一个非常好的问题。"
+ },
+ {
+  "seg": 217,
+  "start": 1250.422,
+  "end": 1252.323,
+  "speaker": "Unknown",
+  "en": "I mean, it's important with or without AI.",
+  "zh": "我是说,无论有没有 AI,这都很重要。"
+ },
+ {
+  "seg": 218,
+  "start": 1252.843,
+  "end": 1257.864,
+  "speaker": "Unknown",
+  "en": "So if you kind of zoom out and look at like how is medical consensus distributed today, right?",
+  "zh": "所以如果你稍微拉远一点,看看如今医学共识是如何分布的,对吧?"
+ },
+ {
+  "seg": 219,
+  "start": 1257.884,
+  "end": 1260.005,
+  "speaker": "Unknown",
+  "en": "Like what is the process of that today?",
+  "zh": "比如如今这个过程是什么样的?"
+ },
+ {
+  "seg": 220,
+  "start": 1260.665,
+  "end": 1270.448,
+  "speaker": "Unknown",
+  "en": "You basically have a bunch of people writing papers, biomedical papers of various kinds, suggesting kind of improvements or treatments or things like this that could improve the quality of care.",
+  "zh": "基本上,你有一群人在写各种类型的生物医学论文,提出可能提高医疗质量的改进、治疗或类似的东西。"
+ },
+ {
+  "seg": 221,
+  "start": 1271.028,
+  "end": 1283.496,
+  "speaker": "Unknown",
+  "en": "And then you have this process, yearly process across different specialties of building clinical guidelines, which kind of describe like, hey, in this situation, if you're a cardiologist and you see a patient with X, Y, and Z, here's what you should probably do.",
+  "zh": "然后你有这样一个流程,一个跨不同专科的年度流程,用于制定临床指南,这些指南大致描述了,嘿,在这种情况下,如果你是一名心脏病学家,你看到一个有 X、Y、Z 症状的患者,这里是你可能应该做的事情。"
+ },
+ {
+  "seg": 222,
+  "start": 1284.097,
+  "end": 1297.646,
+  "speaker": "Unknown",
+  "en": "These guidelines are roughly, you can consider them kind of flow charts that are put out each year by the different kinds of bodies across the world that describe roughly what you should do in different scenarios based on the latest research.",
+  "zh": "这些指南大致上,你可以把它们看作是每年由世界各地不同机构发布的流程图,根据最新研究大致描述了你在不同场景下应该做什么。"
+ },
+ {
+  "seg": 223,
+  "start": 1298.366,
+  "end": 1305.729,
+  "speaker": "Unknown",
+  "en": "And then the final step is so you have biomedical literature and then you have the clinical guidelines and then you have like what do people actually do in practice?",
+  "zh": "然后最后一步是,所以你有生物医学文献,然后你有临床指南,然后还有人们在实践中实际做什么?"
+ },
+ {
+  "seg": 224,
+  "start": 1306.469,
+  "end": 1309.991,
+  "speaker": "Unknown",
+  "en": "And so the final step, it turns out, is a massive bottleneck.",
+  "zh": "而最后一步,事实证明,是一个巨大的瓶颈。"
+ },
+ {
+  "seg": 225,
+  "start": 1310.011,
+  "end": 1317.054,
+  "speaker": "Unknown",
+  "en": "So there are these studies on like how long does it take for clinical guidelines to penetrate the practice of everyday doctors across the world?",
+  "zh": "所以有这些研究,研究临床指南渗透到全世界日常医生实践中的时间有多长?"
+ },
+ {
+  "seg": 226,
+  "start": 1317.894,
+  "end": 1323.977,
+  "speaker": "Unknown",
+  "en": "And in the past, people have found that this takes, depending on the study, like five to 17 years for that for that penetration to actually happen.",
+  "zh": "而过去人们发现,根据研究的不同,这种渗透实际发生需要五到十七年。"
+ },
+ {
+  "seg": 227,
+  "start": 1324.697,
+  "end": 1325.818,
+  "speaker": "Unknown",
+  "en": "Which is massive.",
+  "zh": "这是巨大的。"
+ },
+ {
+  "seg": 228,
+  "start": 1325.838,
+  "end": 1328.479,
+  "speaker": "Unknown",
+  "en": "You don't want to be practicing medicine five to 17 years behind.",
+  "zh": "你不会想落后五到十七年来行医。"
+ },
+ {
+  "seg": 229,
+  "start": 1329.179,
+  "end": 1341.326,
+  "speaker": "Unknown",
+  "en": "And so one of the things that we think about is how do you compress that kind of period of kind of practicing in the past down to weeks or days or even hours, right?",
+  "zh": "所以我们思考的事情之一是,如何把这种在过去行医的时间压缩到几周、几天甚至几小时,对吧?"
+ },
+ {
+  "seg": 230,
+  "start": 1341.406,
+  "end": 1352.612,
+  "speaker": "Unknown",
+  "en": "And so this is one very important principle behind our work in ChatGPT for Healthcare and ChatGPT for clinicians, which are clinician and healthcare professional facing offerings where we're bringing in the latest biomedical literature in the moment of care.",
+  "zh": "所以这是我们在 ChatGPT for Healthcare 和 ChatGPT for clinicians 工作背后的一个非常重要的原则,这些是面向临床医生和医疗专业人士的产品,我们在诊疗时刻引入最新的生物医学文献。"
+ },
+ {
+  "seg": 231,
+  "start": 1353.112,
+  "end": 1358.775,
+  "speaker": "Unknown",
+  "en": "And allowing people to very quickly in the course of like, let's say a 15 minute visit at the point of care, get answers to their questions.",
+  "zh": "并让人们能够非常快速地,比如说在一次 15 分钟的就诊过程中,在诊疗现场得到他们问题的答案。"
+ },
+ {
+  "seg": 232,
+  "start": 1359.355,
+  "end": 1368.899,
+  "speaker": "Unknown",
+  "en": "So that's one way of answering question, which is like, you know, in practice, you know, while there is medical, a lack of medical consensus in many areas, in some cases there is medical consensus, but it's not being practiced.",
+  "zh": "所以这是回答这个问题的一种方式,就是说,你知道,在实践中,虽然许多领域缺乏医学共识,但在某些情况下存在医学共识,只是它没有被付诸实践。"
+ },
+ {
+  "seg": 233,
+  "start": 1369.379,
+  "end": 1373.041,
+  "speaker": "Unknown",
+  "en": "And so one thing you can do is like really dramatically reduce the amount that's happening.",
+  "zh": "所以你能做的一件事,就是真正大幅减少这种情况发生的程度。"
+ },
+ {
+  "seg": 234,
+  "start": 1373.061,
+  "end": 1374.621,
+  "speaker": "Unknown",
+  "en": "This is one way of answering your question.",
+  "zh": "这是回答你问题的一种方式。"
+ },
+ {
+  "seg": 235,
+  "start": 1375.181,
+  "end": 1378.283,
+  "speaker": "Unknown",
+  "en": "A second way of answering your question is like how to handle the quick places where there's still like genuine",
+  "zh": "回答你问题的第二种方式是,如何处理那些仍然存在真正"
+ },
+ {
+  "seg": 236,
+  "start": 1378.883,
+  "end": 1381.746,
+  "speaker": "Unknown",
+  "en": "Medical uncertainty in there, I think, I mean, there's a couple things.",
+  "zh": "医学不确定性的地方,我想,我是说,有几件事。"
+ },
+ {
+  "seg": 237,
+  "start": 1381.766,
+  "end": 1384.71,
+  "speaker": "Unknown",
+  "en": "So one is you want to train the models to be able to recognize their own uncertainty.",
+  "zh": "首先是你要训练模型能够识别它们自身的不确定性。"
+ },
+ {
+  "seg": 238,
+  "start": 1384.85,
+  "end": 1392.659,
+  "speaker": "Unknown",
+  "en": "Like after browsing and getting information and things like this, you want the models to be able to know, hey, there just isn't enough information and to be upfront about that.",
+  "zh": "比如在浏览和获取信息等等之后,你要让模型能够知道,嘿,信息就是不够,并且对此坦诚相告。"
+ },
+ {
+  "seg": 239,
+  "start": 1393.26,
+  "end": 1395.702,
+  "speaker": "Unknown",
+  "en": "And so, you know, that's been an important part of how we've done evaluation.",
+  "zh": "所以,你知道,这是我们做评估的一个重要部分。"
+ },
+ {
+  "seg": 240,
+  "start": 1395.722,
+  "end": 1397.284,
+  "speaker": "Unknown",
+  "en": "That's actually like a public aspect of",
+  "zh": "这实际上是"
+ },
+ {
+  "seg": 241,
+  "start": 1398.225,
+  "end": 1402.968,
+  "speaker": "Unknown",
+  "en": "Health Bench, which includes kind of evaluations on hedging, for example, when there is this kind of uncertainty.",
+  "zh": "Health Bench 的一个公开部分,其中包括对模糊表述(hedging)的评估,例如在存在这种不确定性的时候。"
+ },
+ {
+  "seg": 242,
+  "start": 1403.128,
+  "end": 1404.97,
+  "speaker": "Unknown",
+  "en": "So that's one important thing.",
+  "zh": "所以这是一件重要的事。"
+ },
+ {
+  "seg": 243,
+  "start": 1405.43,
+  "end": 1409.293,
+  "speaker": "Unknown",
+  "en": "The second thing, I mean, this kind of goes to this question of like, how do you raise the ceiling of human health is like...",
+  "zh": "第二件事,我是说,这就涉及到这个问题,就像,你如何提高人类健康的上限,就像……"
+ },
+ {
+  "seg": 244,
+  "start": 1410.028,
+  "end": 1415.03,
+  "speaker": "Unknown",
+  "en": "Really thinking about the ways that models can actually accelerate the process of doing science and actually pushing the medical frontier.",
+  "zh": "真正思考模型能够以哪些方式实际加速科学进程、真正推动医学前沿。"
+ },
+ {
+  "seg": 245,
+  "start": 1415.05,
+  "end": 1416.43,
+  "speaker": "Unknown",
+  "en": "And so maybe we'll chat about that later.",
+  "zh": "所以也许我们稍后会聊到那个。"
+ },
+ {
+  "seg": 246,
+  "start": 1417.01,
+  "end": 1422.332,
+  "speaker": "Unknown",
+  "en": "Hearing you talk, it feels like you're always thinking about one of three constituents.",
+  "zh": "听你说话,感觉你总是在思考三类利益相关者之一。"
+ },
+ {
+  "seg": 247,
+  "start": 1422.872,
+  "end": 1430.214,
+  "speaker": "Unknown",
+  "en": "It's either the patient, it might be the individual clinician that signed up, or it might be the enterprise, whether it's a healthcare provider enterprise or some other enterprise.",
+  "zh": "要么是患者,要么可能是注册的个人临床医生,要么可能是企业,无论是医疗服务提供企业还是其他企业。"
+ },
+ {
+  "seg": 248,
+  "start": 1430.814,
+  "end": 1439.137,
+  "speaker": "Unknown",
+  "en": "How do you think about designing the product at the architectural level and at the, let's say, the harness level to meet the needs of all these different users?",
+  "zh": "你是如何在架构层面,以及在所谓的 harness 层面来设计产品,以满足所有这些不同用户的需求的?"
+ },
+ {
+  "seg": 249,
+  "start": 1440.048,
+  "end": 1441.829,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, I think maybe there's three parts to that.",
+  "zh": "是的,我是说,我想这可能有三个部分。"
+ },
+ {
+  "seg": 250,
+  "start": 1441.949,
+  "end": 1444.51,
+  "speaker": "Unknown",
+  "en": "One is making the models really, really good for these users.",
+  "zh": "一是让模型对这些用户来说非常、非常好。"
+ },
+ {
+  "seg": 251,
+  "start": 1444.71,
+  "end": 1447.411,
+  "speaker": "Unknown",
+  "en": "The second is building the right harness or product around it.",
+  "zh": "第二是围绕它构建合适的工具框架或产品。"
+ },
+ {
+  "seg": 252,
+  "start": 1447.891,
+  "end": 1452.493,
+  "speaker": "Unknown",
+  "en": "And the third is really like the deployment or partnership motion to kind of reach out to the right, reach out to the users.",
+  "zh": "第三基本上就是部署或合作推广的方式，以便触达对的、触达那些用户。"
+ },
+ {
+  "seg": 253,
+  "start": 1452.573,
+  "end": 1457.715,
+  "speaker": "Unknown",
+  "en": "And like by default, I think a lot of the time the models are often pretty good these days.",
+  "zh": "而且默认来说，我觉得很多时候如今的模型往往已经相当不错了。"
+ },
+ {
+  "seg": 254,
+  "start": 1457.995,
+  "end": 1462.077,
+  "speaker": "Unknown",
+  "en": "And so we talked about our approach of evaluation, working with clinicians and things like this.",
+  "zh": "所以我们谈过我们做评估的方法，与临床医生合作之类的事情。"
+ },
+ {
+  "seg": 255,
+  "start": 1462.597,
+  "end": 1465.701,
+  "speaker": "Unknown",
+  "en": "We are seeing pretty dramatic improvements in kind of performance and reliability.",
+  "zh": "我们在性能和可靠性方面看到了相当显著的改进。"
+ },
+ {
+  "seg": 256,
+  "start": 1466.161,
+  "end": 1472.889,
+  "speaker": "Unknown",
+  "en": "You know, we talked a few months ago about the improvements that we've been making on kind of the free tier and bringing free tier performance to the frontier.",
+  "zh": "你知道，几个月前我们谈过我们在免费版上所做的改进，把免费版的性能提升到前沿水平。"
+ },
+ {
+  "seg": 257,
+  "start": 1472.969,
+  "end": 1481.439,
+  "speaker": "Unknown",
+  "en": "So, you know, of the 1.2 billion people who use ChatGPT weekly, I'm giving them a model for health that is just like incredibly useful at the frontier for free.",
+  "zh": "所以，在每周使用 ChatGPT 的 12 亿人中，我免费为他们提供一个在健康方面极其有用的前沿模型。"
+ },
+ {
+  "seg": 258,
+  "start": 1482.199,
+  "end": 1486.902,
+  "speaker": "Unknown",
+  "en": "So that's been a big part of our strategy, obviously, for making healthcare, health intelligence abundant.",
+  "zh": "我们对此的思考方式是：你可以有一个非常好的模型，但如果使用模型来改善健康的激活能太高，人们就不会去做，对吧？"
+ },
+ {
+  "seg": 259,
+  "start": 1487.363,
+  "end": 1489.024,
+  "speaker": "Unknown",
+  "en": "The second thing is our kind of product offerings.",
+  "zh": "第二件事是我们的产品供应。"
+ },
+ {
+  "seg": 260,
+  "start": 1489.144,
+  "end": 1497.269,
+  "speaker": "Unknown",
+  "en": "And so the way we think about this is you can have a model that's really good, but if the activation energy to use the model to improve health is too high, then people won't do it, right?",
+  "zh": "所以我们对此的思考方式是,你可以拥有一个非常出色的模型,但如果使用这个模型来改善健康的激活能太高,那么人们就不会去做,对吧?"
+ },
+ {
+  "seg": 261,
+  "start": 1497.309,
+  "end": 1508.636,
+  "speaker": "Unknown",
+  "en": "So a lot of our product efforts are really like thinking about these constituents that you're talking about and thinking about the ways in which we can reduce the activation energy for people to use compute and intelligence to improve human health.",
+  "zh": "所以我们很多产品工作实际上是围绕你所说的这些群体来思考，思考我们如何降低人们使用算力和智能来改善人类健康的激活能。"
+ },
+ {
+  "seg": 262,
+  "start": 1508.816,
+  "end": 1509.057,
+  "speaker": "Unknown",
+  "en": "And so",
+  "zh": "所以"
+ },
+ {
+  "seg": 263,
+  "start": 1509.937,
+  "end": 1518.42,
+  "speaker": "Unknown",
+  "en": "That goes, you know, along the lines of, you know, our work in ChatGPT, health and ChatGPT, ChatGPT for healthcare on the enterprise side and ChatGPT for clinicians.",
+  "zh": "那就沿着这样的方向，比如我们在 ChatGPT 健康功能方面的工作，以及企业侧的 ChatGPT 医疗版和面向临床医生的 ChatGPT。"
+ },
+ {
+  "seg": 264,
+  "start": 1519.06,
+  "end": 1526.622,
+  "speaker": "Unknown",
+  "en": "A lot of the way we design these offerings is basically to think about like what are the barriers and bottlenecks and activation energies for people to be able to use the models.",
+  "zh": "我们设计这些产品供应的很多方式，基本上就是思考人们使用模型的障碍、瓶颈和激活能是什么。"
+ },
+ {
+  "seg": 265,
+  "start": 1526.783,
+  "end": 1527.483,
+  "speaker": "Unknown",
+  "en": "And so for example,",
+  "zh": "比如说，"
+ },
+ {
+  "seg": 266,
+  "start": 1528.924,
+  "end": 1536.189,
+  "speaker": "Unknown",
+  "en": "What are the security and compliance bottlenecks in providing an enterprise offering of ChatGPT to healthcare systems?",
+  "zh": "向医疗系统提供 ChatGPT 企业版的安全和合规瓶颈是什么？"
+ },
+ {
+  "seg": 267,
+  "start": 1536.289,
+  "end": 1538.61,
+  "speaker": "Unknown",
+  "en": "That was one question that we were thinking about a lot two years ago.",
+  "zh": "那是我们两年前思考很多的一个问题。"
+ },
+ {
+  "seg": 268,
+  "start": 1539.231,
+  "end": 1543.173,
+  "speaker": "Unknown",
+  "en": "And so we thought, okay, we need to kind of invest in security and compliance.",
+  "zh": "于是我们想，好吧，我们需要在安全和合规上投入。"
+ },
+ {
+  "seg": 269,
+  "start": 1543.233,
+  "end": 1545.295,
+  "speaker": "Unknown",
+  "en": "We need to make sure we're able to offer HIPAA compliance.",
+  "zh": "我们需要确保能够提供 HIPAA 合规。"
+ },
+ {
+  "seg": 270,
+  "start": 1545.815,
+  "end": 1555.122,
+  "speaker": "Unknown",
+  "en": "We need to make sure that we're able to offer the kinds of privacy protections that healthcare organizations need so that we're able to handle the healthcare data that they need and be able to offer services that they trust.",
+  "zh": "我们需要确保能够提供医疗组织所需的隐私保护，这样我们才能处理他们需要的医疗数据，并提供他们信任的服务。"
+ },
+ {
+  "seg": 271,
+  "start": 1555.682,
+  "end": 1560.426,
+  "speaker": "Unknown",
+  "en": "And so that was like a very important part of the work we were doing for like roughly two years ago to like roughly a year ago.",
+  "zh": "所以那是我们大约两年前到大约一年前所做工作中非常重要的部分。"
+ },
+ {
+  "seg": 272,
+  "start": 1561.187,
+  "end": 1567.132,
+  "speaker": "Unknown",
+  "en": "And we kind of just go after from there, like based on the bottlenecks that we see to kind of adoption.",
+  "zh": "然后我们就从那里继续推进，根据我们看到的采用瓶颈来开展工作。"
+ },
+ {
+  "seg": 273,
+  "start": 1567.712,
+  "end": 1569.734,
+  "speaker": "Unknown",
+  "en": "The third thing is kind of partnerships and deployment.",
+  "zh": "第三件事是合作与部署。"
+ },
+ {
+  "seg": 274,
+  "start": 1569.774,
+  "end": 1570.655,
+  "speaker": "Unknown",
+  "en": "And again, it's really like...",
+  "zh": "同样，它实际上是……"
+ },
+ {
+  "seg": 275,
+  "start": 1571.255,
+  "end": 1575.877,
+  "speaker": "Unknown",
+  "en": "You know, a few years ago, I think OpenAI was very early to speaking the language of healthcare.",
+  "zh": "你知道，几年前，我认为 OpenAI 在讲医疗语言这方面是很早的。"
+ },
+ {
+  "seg": 276,
+  "start": 1576.177,
+  "end": 1581.339,
+  "speaker": "Unknown",
+  "en": "And when we interacted with healthcare partners, I think we were, you know, early in those conversations.",
+  "zh": "而当我们与医疗合作伙伴交流时，我认为我们在那些对话中是早起的。"
+ },
+ {
+  "seg": 277,
+  "start": 1581.979,
+  "end": 1591.403,
+  "speaker": "Unknown",
+  "en": "So I think one of the things that we've brought to bear since then is really, you know, thinking about each of those constituents that you're talking about and really thinking about how to speak their language and how to kind of bring them along this journey.",
+  "zh": "所以我认为从那以后我们所带来的一点就是，真正围绕你所说的每一个群体来思考，真正思考如何讲他们的语言，如何在这段旅程中把他们带上来。"
+ },
+ {
+  "seg": 278,
+  "start": 1591.443,
+  "end": 1596.505,
+  "speaker": "Unknown",
+  "en": "Because even if the models get really smart, if nobody's like really trusting them or using them, that's not really achieving our mission.",
+  "zh": "因为即使模型变得非常聪明，如果没有人真正信任它们或使用它们，那也没有真正实现我们的使命。"
+ },
+ {
+  "seg": 279,
+  "start": 1597.293,
+  "end": 1602.715,
+  "speaker": "Unknown",
+  "en": "And is that you're alluding to a little bit some of the work you've done with Epic to kind of integrate the product directly into Epic?",
+  "zh": "你是不是稍微暗示了你们与 Epic 合作所做的一些工作，把产品直接集成到 Epic 里？"
+ },
+ {
+  "seg": 280,
+  "start": 1602.735,
+  "end": 1604.195,
+  "speaker": "Unknown",
+  "en": "Maybe share a little bit more about that.",
+  "zh": "或许多分享一点相关情况。"
+ },
+ {
+  "seg": 281,
+  "start": 1604.215,
+  "end": 1604.815,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 282,
+  "start": 1604.875,
+  "end": 1610.537,
+  "speaker": "Unknown",
+  "en": "Because a lot of the folks who spent a lot of time in healthcare were very interested to see that level of collaboration with Epic.",
+  "zh": "因为很多在医疗领域花了大量时间的人，看到与 Epic 这种程度的合作都非常有兴趣。"
+ },
+ {
+  "seg": 283,
+  "start": 1611.037,
+  "end": 1611.157,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 284,
+  "start": 1611.177,
+  "end": 1612.858,
+  "speaker": "Unknown",
+  "en": "I mean, this is a very important part of our approach.",
+  "zh": "我的意思是，这是我们方法中非常重要的一部分。"
+ },
+ {
+  "seg": 285,
+  "start": 1613.178,
+  "end": 1616.899,
+  "speaker": "Unknown",
+  "en": "Like we talked about, fragmentation in healthcare has been one of the issues.",
+  "zh": "就像我们谈过的，医疗领域的碎片化一直是问题之一。"
+ },
+ {
+  "seg": 286,
+  "start": 1617.719,
+  "end": 1626.002,
+  "speaker": "Unknown",
+  "en": "And the fact that there is kind of data and workflows that are disconnected from each other, I think is a big obstacle to the use of AI productively in healthcare.",
+  "zh": "而数据和工作流彼此脱节的事实，我认为是 AI 在医疗领域有效应用的一大障碍。"
+ },
+ {
+  "seg": 287,
+  "start": 1626.962,
+  "end": 1639.178,
+  "speaker": "Unknown",
+  "en": "And so our work with Epic, our work with other partners, we had a recent announcement where we announced that there's now a way to use Epic in ChatGPT if you're a provider or a healthcare professional, and also for ChatGPT to be useful in Epic itself.",
+  "zh": "所以我们与 Epic 的合作、我们与其他伙伴的合作，我们最近有一次公告，宣布现在如果你是医疗服务提供者或医疗专业人士，有一种方式可以在 ChatGPT 中使用 Epic，同时也让 ChatGPT 在 Epic 本身中发挥作用。"
+ },
+ {
+  "seg": 288,
+  "start": 1639.338,
+  "end": 1645.306,
+  "speaker": "Unknown",
+  "en": "And so in the Epic workflow itself, you can have a little sidebar where you can actually use ChatGPT as well.",
+  "zh": "所以在 Epic 的工作流本身中，你可以有一个小侧边栏，在那里你也可以使用 ChatGPT。"
+ },
+ {
+  "seg": 289,
+  "start": 1646.327,
+  "end": 1647.788,
+  "speaker": "Unknown",
+  "en": "And so that's one thing.",
+  "zh": "这是一件事。"
+ },
+ {
+  "seg": 290,
+  "start": 1648.088,
+  "end": 1652.591,
+  "speaker": "Unknown",
+  "en": "We're also working on like different other kinds of connectors that we've also announced recently and we have more coming.",
+  "zh": "我们还在做其他不同类型的连接器，这些我们也最近宣布了，而且还有更多即将推出。"
+ },
+ {
+  "seg": 291,
+  "start": 1652.691,
+  "end": 1659.395,
+  "speaker": "Unknown",
+  "en": "And so there is quite a bit of work that we're doing to make sure that we are kind of breaking down these barriers to kind of the healthcare ecosystem being connected.",
+  "zh": "所以我们正在做相当多的工作，来确保我们正在打破这些障碍，让医疗生态系统彼此连接。"
+ },
+ {
+  "seg": 292,
+  "start": 1659.435,
+  "end": 1663.858,
+  "speaker": "Unknown",
+  "en": "And I think, you know, Epic is just one of many examples where we're identifying those bottlenecks and trying to fix them.",
+  "zh": "而我认为，Epic 只是我们识别这些瓶颈并尝试修复它们的众多例子之一。"
+ },
+ {
+  "seg": 293,
+  "start": 1664.639,
+  "end": 1670.203,
+  "speaker": "Unknown",
+  "en": "The last thing I want to hit on with respect to trust is some of the work that you've done around mental health.",
+  "zh": "关于信任，我最后想谈到的是你们围绕心理健康所做的一些工作。"
+ },
+ {
+  "seg": 294,
+  "start": 1671.023,
+  "end": 1682.165,
+  "speaker": "Unknown",
+  "en": "And this is another area where there's a lot of complexity and there may be other objectives that you need to solve for beyond the clinical complexity that we talked about.",
+  "zh": "这是另一个有很多复杂性的领域，除了我们谈过的临床复杂性之外，可能还有其他需要解决的目标。"
+ },
+ {
+  "seg": 295,
+  "start": 1682.765,
+  "end": 1689.707,
+  "speaker": "Unknown",
+  "en": "If I ask my OpenAI dot, hey, I want to feel better over the next few weeks, how do you even interpret that question?",
+  "zh": "如果我问我的 OpenAI dot：「嘿，我想在接下来几周感觉好一些」，你要怎么理解这个问题？"
+ },
+ {
+  "seg": 296,
+  "start": 1689.767,
+  "end": 1691.467,
+  "speaker": "Unknown",
+  "en": "How do you help act on that?",
+  "zh": "你如何帮助据此采取行动？"
+ },
+ {
+  "seg": 297,
+  "start": 1691.507,
+  "end": 1694.828,
+  "speaker": "Unknown",
+  "en": "How do you help guide a user on that, given that that could mean so many things?",
+  "zh": "考虑到这可能意味着很多种事情，你如何就此引导一个用户？"
+ },
+ {
+  "seg": 298,
+  "start": 1695.651,
+  "end": 1701.294,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, and regardless of the surface, we are super committed to like helping users when they're having a difficult time or when they're in crisis.",
+  "zh": "是的，我是说，无论是什么入口界面，我们都非常致力于在用户遇到困难或处于危机时帮助他们。"
+ },
+ {
+  "seg": 299,
+  "start": 1701.434,
+  "end": 1708.778,
+  "speaker": "Unknown",
+  "en": "And so, for example, for DOTS, we've been investing the same kinds of safeguards that we've been putting in all of our product surfaces in that product surface as well.",
+  "zh": "所以，比如对于 DOTS，我们一直在投入与我们所有产品入口界面相同的安全护栏，也投入到那个产品入口界面中。"
+ },
+ {
+  "seg": 300,
+  "start": 1708.898,
+  "end": 1712.64,
+  "speaker": "Unknown",
+  "en": "So that's an important part of our approach is kind of like a baseline safety floor.",
+  "zh": "所以这是我们方法中的一个重要部分，也就是某种基线安全底线。"
+ },
+ {
+  "seg": 301,
+  "start": 1713.5,
+  "end": 1733.057,
+  "speaker": "Unknown",
+  "en": "And then, you know, with Mental Health Bench, we've really taken this approach of not just measuring the safety floor, but thinking about the ways in which the models can actually like proactively help kind of raise the ceiling and really think about the ways in which models can, you know, help provide positive mental health experiences and move from just worrying about the safety floor to measuring those kinds of upsides.",
+  "zh": "然后，你知道，通过 Mental Health Bench，我们真正采取的方法不仅仅是衡量安全底线，而是思考模型能够真正主动帮助提升上限的各种方式，并且真正思考模型能够以哪些方式帮助提供积极的心理健康体验，从只担心安全底线转向衡量这类上行空间。"
+ },
+ {
+  "seg": 302,
+  "start": 1733.697,
+  "end": 1749.4,
+  "speaker": "Unknown",
+  "en": "And so again, the approach is actually very much mirroring our work on HealthBench where we've just been working with a bunch of licensed mental health experts across the world to think about the right ways to define model behavior and a bunch of tricky scenarios and ensure that we can get to a level of consensus.",
+  "zh": "所以再次强调，这个方法其实很大程度上 mirrors 我们在 HealthBench 上的工作，我们一直在与全球众多持证心理健康专家合作，思考定义模型行为的正确方式，以及许多棘手场景，并确保我们能够达成某种程度的共识。"
+ },
+ {
+  "seg": 303,
+  "start": 1749.48,
+  "end": 1752.101,
+  "speaker": "Unknown",
+  "en": "People definitely disagree even more here than physical health.",
+  "zh": "在这个领域，人们肯定比在身体健康领域分歧更大。"
+ },
+ {
+  "seg": 304,
+  "start": 1752.601,
+  "end": 1759.102,
+  "speaker": "Unknown",
+  "en": "Get to a level of consensus in some of these tricky situations where we can actually measure performance and create this kind of like shared benchmark for the industry.",
+  "zh": "在一些棘手的情况下达成某种程度的共识，让我们能够真正衡量表现，并为行业创建这种共享基准。"
+ },
+ {
+  "seg": 305,
+  "start": 1759.922,
+  "end": 1779.266,
+  "speaker": "Unknown",
+  "en": "And so we released that benchmark very recently and similar to HealthBench and HealthBench Professional, the goal has really been, can we create this benchmark that kind of raises the ceiling for everybody and kind of creates across all model developers and the healthcare industry and mental health experts like this really shared ruler or measuring stick that we can use to kind of make sure that we're moving in the right direction.",
+  "zh": "所以我们最近发布了一个基准，类似于 HealthBench 和 HealthBench Professional，目标一直是，我们能否创建这个基准，为所有人提升上限，并在所有模型开发者、医疗行业和心理健康专家之间创建这样一把真正共享的尺子或标尺，我们可以用它来确保我们在朝正确的方向前进。"
+ },
+ {
+  "seg": 306,
+  "start": 1780.738,
+  "end": 1785.981,
+  "speaker": "Unknown",
+  "en": "Okay, so we've spoken about intelligence and the use cases that are coming around intelligence approving.",
+  "zh": "好，我们已经谈到了智能以及围绕智能不断涌现的使用场景。"
+ },
+ {
+  "seg": 307,
+  "start": 1786.001,
+  "end": 1787.542,
+  "speaker": "Unknown",
+  "en": "We've spoken about trust, which is critical.",
+  "zh": "我们已经谈到了信任，这是至关重要的。"
+ },
+ {
+  "seg": 308,
+  "start": 1787.822,
+  "end": 1788.882,
+  "speaker": "Unknown",
+  "en": "Let's talk about medical care.",
+  "zh": "让我们谈谈医疗护理。"
+ },
+ {
+  "seg": 309,
+  "start": 1789.303,
+  "end": 1793.765,
+  "speaker": "Unknown",
+  "en": "And I want to draw the distinction between medical information and medical care.",
+  "zh": "我想区分一下医疗信息和医疗护理。"
+ },
+ {
+  "seg": 310,
+  "start": 1794.685,
+  "end": 1802.95,
+  "speaker": "Unknown",
+  "en": "I think for medical information, I think if you have a health concern, if I have a health concern about myself or something that I'm dealing with,",
+  "zh": "我认为对于医疗信息，如果你有一个健康方面的担忧，如果我对自己或我正在处理的问题有健康方面的担忧，"
+ },
+ {
+  "seg": 311,
+  "start": 1803.61,
+  "end": 1809.976,
+  "speaker": "Unknown",
+  "en": "Chat and other LLMs are increasingly the better, faster, cheaper way to get an answer and a resolution to that question.",
+  "zh": "Chat 和其他 LLM 正日益成为获得该问题答案和解决方案的更好、更快、更便宜的方式。"
+ },
+ {
+  "seg": 312,
+  "start": 1810.577,
+  "end": 1822.789,
+  "speaker": "Unknown",
+  "en": "But if in the scenarios where medical information alone doesn't get me to resolution, I then, at least today, am thrusted into the traditional medical care system.",
+  "zh": "但如果在仅靠医疗信息无法让我得到解决的场景中，那么至少在今天，我就被推入了传统的医疗护理系统。"
+ },
+ {
+  "seg": 313,
+  "start": 1823.289,
+  "end": 1839.919,
+  "speaker": "Unknown",
+  "en": "And so if I need to go get a prescription, if I need to go see an in-person specialist, if I need to get some follow-up blood work or some MRI or some other form of scan done, if I need a clinician to examine me in some way, I still need to navigate the traditional healthcare system.",
+  "zh": "所以如果我需要去开处方，如果我需要去面对面看专科医生，如果我需要做一些后续的血液检查或 MRI 或其他形式的扫描，如果我需要临床医生以某种方式为我检查，我仍然需要在传统医疗系统中摸索。"
+ },
+ {
+  "seg": 314,
+  "start": 1839.979,
+  "end": 1841.26,
+  "speaker": "Unknown",
+  "en": "And a lot of that work",
+  "zh": "而其中很多工作"
+ },
+ {
+  "seg": 315,
+  "start": 1843.161,
+  "end": 1850.828,
+  "speaker": "Unknown",
+  "en": "is sort of governed and regulated by the U.S. medical license and sort of other infrastructure that we have in our healthcare system.",
+  "zh": "是受美国医疗执照以及我们医疗系统中的其他基础设施所管辖和监管的。"
+ },
+ {
+  "seg": 316,
+  "start": 1851.669,
+  "end": 1855.633,
+  "speaker": "Unknown",
+  "en": "It's the multi-turn conversation where it's not just a single question resolution.",
+  "zh": "它是多轮对话，不只是一个问题的解决。"
+ },
+ {
+  "seg": 317,
+  "start": 1855.693,
+  "end": 1857.615,
+  "speaker": "Unknown",
+  "en": "It's, I got to go talk to a few people.",
+  "zh": "它是，我得去和几个人谈。"
+ },
+ {
+  "seg": 318,
+  "start": 1857.635,
+  "end": 1858.736,
+  "speaker": "Unknown",
+  "en": "I need to go get a few things done.",
+  "zh": "我需要去办成几件事。"
+ },
+ {
+  "seg": 319,
+  "start": 1858.756,
+  "end": 1860.057,
+  "speaker": "Unknown",
+  "en": "We need to collect some information.",
+  "zh": "我们需要收集一些信息。"
+ },
+ {
+  "seg": 320,
+  "start": 1860.958,
+  "end": 1865.201,
+  "speaker": "Unknown",
+  "en": "In many ways, medical care is a, it's a bundled product.",
+  "zh": "在很多方面，医疗护理是一种，它是一种打包产品。"
+ },
+ {
+  "seg": 321,
+  "start": 1865.862,
+  "end": 1869.285,
+  "speaker": "Unknown",
+  "en": "You know, we're getting the diagnosis and triage and the care plan.",
+  "zh": "你知道，我们获得的是诊断、分诊和护理方案。"
+ },
+ {
+  "seg": 322,
+  "start": 1869.746,
+  "end": 1874.71,
+  "speaker": "Unknown",
+  "en": "We're getting the empathy from the clinician and the assurance and the support.",
+  "zh": "我们获得的是来自临床医生的同理心、安抚和支持。"
+ },
+ {
+  "seg": 323,
+  "start": 1875.231,
+  "end": 1878.574,
+  "speaker": "Unknown",
+  "en": "We're getting the legal liability associated with that and what they're taking on.",
+  "zh": "我们获得的是与之相关的法律责任以及他们所承担的东西。"
+ },
+ {
+  "seg": 324,
+  "start": 1879.174,
+  "end": 1880.736,
+  "speaker": "Unknown",
+  "en": "Will AI provide all of that?",
+  "zh": "AI 会提供所有这些吗？"
+ },
+ {
+  "seg": 325,
+  "start": 1881.196,
+  "end": 1882.297,
+  "speaker": "Unknown",
+  "en": "Where will it stop short?",
+  "zh": "它会在哪里止步？"
+ },
+ {
+  "seg": 326,
+  "start": 1882.898,
+  "end": 1884.82,
+  "speaker": "Unknown",
+  "en": "Where do you think this is all going?",
+  "zh": "你认为这一切会走向何方？"
+ },
+ {
+  "seg": 327,
+  "start": 1885.346,
+  "end": 1888.149,
+  "speaker": "Unknown",
+  "en": "Yeah, no, I don't think AI can or will provide all of that.",
+  "zh": "嗯，不，我不认为 AI 能够或将会提供所有这些。"
+ },
+ {
+  "seg": 328,
+  "start": 1888.409,
+  "end": 1893.175,
+  "speaker": "Unknown",
+  "en": "And I think you're right that there's like this distinction between health information and medical care.",
+  "zh": "而且我认为你是对的，健康信息和医疗护理之间确实存在这种区别。"
+ },
+ {
+  "seg": 329,
+  "start": 1893.355,
+  "end": 1903.126,
+  "speaker": "Unknown",
+  "en": "And so I think the way we see our role here is really to enable the whole ecosystem because there's no future where, you know, any one company is delivering all the medical care, right?",
+  "zh": "所以我认为我们看待自身角色的方式是真正赋能整个生态系统，因为不存在任何一家公司提供全部医疗护理的未来，对吧？"
+ },
+ {
+  "seg": 330,
+  "start": 1903.266,
+  "end": 1903.546,
+  "speaker": "Unknown",
+  "en": "And so",
+  "zh": "所以"
+ },
+ {
+  "seg": 331,
+  "start": 1904.427,
+  "end": 1910.028,
+  "speaker": "Unknown",
+  "en": "Our role here is really to think about what is the last mile of medical care really look like for people?",
+  "zh": "我们在这里的角色，真正是思考对人们来说医疗护理的最后一公里到底是什么样子？"
+ },
+ {
+  "seg": 332,
+  "start": 1910.548,
+  "end": 1911.508,
+  "speaker": "Unknown",
+  "en": "Can we really understand that?",
+  "zh": "我们能否真正理解它？"
+ },
+ {
+  "seg": 333,
+  "start": 1911.728,
+  "end": 1920.19,
+  "speaker": "Unknown",
+  "en": "And can we make that easier and easier for everybody so that the last mile of actually having impact on patients just looks like the last hundred meters for all of our partners?",
+  "zh": "我们能否让这对每个人都变得越来越容易，使得真正对患者产生影响这最后一公里，对我们所有的合作伙伴来说看起来就像最后的一百米？"
+ },
+ {
+  "seg": 334,
+  "start": 1920.81,
+  "end": 1926.631,
+  "speaker": "Unknown",
+  "en": "And so that's kind of how we think about it is like really like making it very easy for our partners to use AI to support everybody in the care journey.",
+  "zh": "所以这就是我们思考它的方式，也就是真正让我们的合作伙伴非常容易地使用 AI 来支持护理旅程中的每一个人。"
+ },
+ {
+  "seg": 335,
+  "start": 1927.231,
+  "end": 1931.712,
+  "speaker": "Unknown",
+  "en": "I think there is stuff that OpenAI can do relatively uniquely here because of the front door to health that it has.",
+  "zh": "我认为 OpenAI 在这里可以做一些相对独特的事情，因为它拥有通往健康的入口。"
+ },
+ {
+  "seg": 336,
+  "start": 1932.312,
+  "end": 1945.721,
+  "speaker": "Unknown",
+  "en": "And so for example it can help you navigate a lot of these kinds of questions or help you navigate this journey or you know as we get increasingly helpful personal agents help you with some of the scheduling logistics and things like this and just act as a quarterback for your health.",
+  "zh": "所以举例来说，它可以帮助你梳理许多这类问题，或者帮助你走完这段旅程，或者你知道，随着我们获得越来越有用的个人智能体，帮助你处理一些日程安排等后勤事务之类的东西，并且只是充当你的健康的四分卫。"
+ },
+ {
+  "seg": 337,
+  "start": 1946.381,
+  "end": 1951.085,
+  "speaker": "Unknown",
+  "en": "That said I don't think it'll resolve all these challenges that we'll have at least not in the short term and I think",
+  "zh": "话虽如此，我不认为它会解决我们将面临的所有这些挑战，至少短期内不会，而且我认为"
+ },
+ {
+  "seg": 338,
+  "start": 1951.685,
+  "end": 1964.853,
+  "speaker": "Unknown",
+  "en": "To a large extent, we're looking to enable a lot of our partners that are delivering care that are overwhelmingly using our models in various ways to make these operations happen smoother and easier so that patients are not left in this kind of fragmented experience.",
+  "zh": "在很大程度上，我们致力于赋能许多正在提供护理的合作伙伴，他们正在以各种方式大量使用我们的模型，以使这些运营更顺畅、更容易，从而让患者不会陷于这种割裂的体验之中。"
+ },
+ {
+  "seg": 339,
+  "start": 1964.893,
+  "end": 1970.457,
+  "speaker": "Unknown",
+  "en": "So as a consumer, should the experience that I look forward to from OpenAI be",
+  "zh": "那么作为一个消费者，我对 OpenAI 应该期待什么样的体验呢？"
+ },
+ {
+  "seg": 340,
+  "start": 1972.538,
+  "end": 1977.78,
+  "speaker": "Unknown",
+  "en": "Sort of the quarterback care that you described, will I be talking to a clinician in the interface at any point?",
+  "zh": "是你描述的那种四分卫式的护理吗，我会在某个界面中的任何时候与临床医生交谈吗？"
+ },
+ {
+  "seg": 341,
+  "start": 1978.26,
+  "end": 1981.341,
+  "speaker": "Unknown",
+  "en": "Or would you perhaps route me to a doctor and help me find that?",
+  "zh": "或者你会把我转介给医生并帮我找到医生？"
+ },
+ {
+  "seg": 342,
+  "start": 1981.361,
+  "end": 1986.482,
+  "speaker": "Unknown",
+  "en": "Because given that's a whole challenge, just scheduling and making those visits happen, what should I look forward to?",
+  "zh": "因为考虑到这本身就是一大挑战，光是安排日程和让就诊成行，我应该期待什么？"
+ },
+ {
+  "seg": 343,
+  "start": 1987.482,
+  "end": 1989.763,
+  "speaker": "Unknown",
+  "en": "I think you'll see, like, we will be...",
+  "zh": "我想你会看到，比如，我们会……"
+ },
+ {
+  "seg": 344,
+  "start": 1990.463,
+  "end": 1993.465,
+  "speaker": "Unknown",
+  "en": "Hopefully very helpful in helping you navigate the process of finding care.",
+  "zh": "希望在帮助你走完寻找护理的流程方面非常有帮助。"
+ },
+ {
+  "seg": 345,
+  "start": 1993.605,
+  "end": 1996.647,
+  "speaker": "Unknown",
+  "en": "I don't think we'll be in the business of doing all the things that you mentioned.",
+  "zh": "我不认为我们会去做你提到的所有那些事情。"
+ },
+ {
+  "seg": 346,
+  "start": 1997.408,
+  "end": 2004.012,
+  "speaker": "Unknown",
+  "en": "And that's where we're really relying on all of our startup and care provider organizations and partners and things like this.",
+  "zh": "而那正是我们真正依赖我们所有的初创公司、护理提供机构、合作伙伴之类的力量的地方。"
+ },
+ {
+  "seg": 347,
+  "start": 2004.432,
+  "end": 2010.116,
+  "speaker": "Unknown",
+  "en": "So coming back to a question I mentioned earlier, which is you are building that future, but you're building it with partners.",
+  "zh": "所以回到我之前提到的一个问题，也就是你正在构建那个未来，但你是与合作伙伴一起构建它。"
+ },
+ {
+  "seg": 348,
+  "start": 2010.516,
+  "end": 2012.197,
+  "speaker": "Unknown",
+  "en": "You're building it for consumers and patients.",
+  "zh": "你在为消费者和患者构建它。"
+ },
+ {
+  "seg": 349,
+  "start": 2012.217,
+  "end": 2013.278,
+  "speaker": "Unknown",
+  "en": "You're building it for clinicians.",
+  "zh": "你在为临床医生构建它。"
+ },
+ {
+  "seg": 350,
+  "start": 2013.298,
+  "end": 2014.439,
+  "speaker": "Unknown",
+  "en": "You're building it for enterprises.",
+  "zh": "你是在为型企业构建它。"
+ },
+ {
+  "seg": 351,
+  "start": 2015.019,
+  "end": 2017.901,
+  "speaker": "Unknown",
+  "en": "For clinicians and enterprises, like give us some texture on",
+  "zh": "为临床医生和型企业，能给我们讲讲一些细节吗，"
+ },
+ {
+  "seg": 352,
+  "start": 2019.322,
+  "end": 2023.563,
+  "speaker": "Unknown",
+  "en": "on some of the tools that you're launching and some of the collaborations that have really worked.",
+  "zh": "关于你们正在推出的一些工具，以及一些真正奏效的合作。"
+ },
+ {
+  "seg": 353,
+  "start": 2024.263,
+  "end": 2030.485,
+  "speaker": "Unknown",
+  "en": "Yeah, we've had a few really exciting partnerships and we've had some really amazing launch partners for ChatGPT for healthcare.",
+  "zh": "是的，我们已经有一些非常令人兴奋的合作伙伴关系，而且我们有一些非常出色的 ChatGPT for healthcare 发布合作伙伴。"
+ },
+ {
+  "seg": 354,
+  "start": 2030.885,
+  "end": 2034.026,
+  "speaker": "Unknown",
+  "en": "We've had lots of users using ChatGPT for clinicians and really enjoying it.",
+  "zh": "我们有很多用户在使用面向临床医生的 ChatGPT，并且非常享受。"
+ },
+ {
+  "seg": 355,
+  "start": 2034.046,
+  "end": 2039.027,
+  "speaker": "Unknown",
+  "en": "It's been the retention on the offering has been like a very pleasant surprise.",
+  "zh": "这个产品的留存率一直是一个非常令人惊喜的方面。"
+ },
+ {
+  "seg": 356,
+  "start": 2039.127,
+  "end": 2040.348,
+  "speaker": "Unknown",
+  "en": "People seem to be really enjoying it.",
+  "zh": "人们似乎真的很喜欢它。"
+ },
+ {
+  "seg": 357,
+  "start": 2041.508,
+  "end": 2043.209,
+  "speaker": "Unknown",
+  "en": "Yeah, we've been working with a variety of health systems.",
+  "zh": "是的，我们一直在与各种健康系统合作。"
+ },
+ {
+  "seg": 358,
+  "start": 2043.229,
+  "end": 2054.236,
+  "speaker": "Unknown",
+  "en": "I think one, a couple that stand out, you know, one is we've been working with UCSF and we've been chatting about that and they've been, you know, one of our earliest adopters for this connection between Epic and the EHR and ChatGPT.",
+  "zh": "我不认为，你知道，我不认为所有信息都已经存在于 AI 那里，只是信息而言，理论上，所有信息都存在，足以让 AI 自己弄清楚应该做什么。"
+ },
+ {
+  "seg": 359,
+  "start": 2054.496,
+  "end": 2063.142,
+  "speaker": "Unknown",
+  "en": "And they've been really on the front lines of thinking about, for example, clinicians using it for chart review or things like this and thinking about the right ways in which like the",
+  "zh": "而且他们一直站在第一线思考，比如，临床医生用它来做病历审查或类似的事情，并思考正确的方式，让照护患者的"
+ },
+ {
+  "seg": 360,
+  "start": 2063.862,
+  "end": 2066.703,
+  "speaker": "Unknown",
+  "en": "Experience of caring for a patient doesn't need to be this super fragmented.",
+  "zh": "体验不必如此高度碎片化。"
+ },
+ {
+  "seg": 361,
+  "start": 2066.723,
+  "end": 2069.464,
+  "speaker": "Unknown",
+  "en": "You need to switch tabs or switch experiences and things like this.",
+  "zh": "你不需要切换标签页或切换体验之类的。"
+ },
+ {
+  "seg": 362,
+  "start": 2069.544,
+  "end": 2072.625,
+  "speaker": "Unknown",
+  "en": "And so they've been some of our power users on that front.",
+  "zh": "所以他们一直是我们在这一方面的重度用户。"
+ },
+ {
+  "seg": 363,
+  "start": 2073.265,
+  "end": 2081.548,
+  "speaker": "Unknown",
+  "en": "I think another one is AdventHealth, and they've actually been some of our power users in thinking about deploying agents across the workspace, actually across all of OpenAI.",
+  "zh": "我想另一个是 AdventHealth，他们实际上一直是我们的重度用户，在思考跨工作区部署智能体，实际上是跨整个 OpenAI。"
+ },
+ {
+  "seg": 364,
+  "start": 2081.588,
+  "end": 2082.308,
+  "speaker": "Unknown",
+  "en": "They've been a leader.",
+  "zh": "他们一直是一个领导者。"
+ },
+ {
+  "seg": 365,
+  "start": 2083.828,
+  "end": 2086.429,
+  "speaker": "Unknown",
+  "en": "And they've been really, they've had amazing results.",
+  "zh": "而且他们真的，他们取得了惊人的成果。"
+ },
+ {
+  "seg": 366,
+  "start": 2086.569,
+  "end": 2088.25,
+  "speaker": "Unknown",
+  "en": "A lot of health systems I think should look to them.",
+  "zh": "我认为很多健康系统应该向他们看齐。"
+ },
+ {
+  "seg": 367,
+  "start": 2088.27,
+  "end": 2089.49,
+  "speaker": "Unknown",
+  "en": "I think they're really impressive.",
+  "zh": "我觉得他们真的令人印象深刻。"
+ },
+ {
+  "seg": 368,
+  "start": 2090.071,
+  "end": 2095.933,
+  "speaker": "Unknown",
+  "en": "If I go into my doctor's office and I see ChatGPT open up on their screen, should I be upset?",
+  "zh": "如果我走进我医生的诊室，看到 ChatGPT 在他们的屏幕上打开，我应该感到不安吗？"
+ },
+ {
+  "seg": 369,
+  "start": 2095.973,
+  "end": 2096.793,
+  "speaker": "Unknown",
+  "en": "Should I be happy?",
+  "zh": "我应该感到高兴吗？"
+ },
+ {
+  "seg": 370,
+  "start": 2097.613,
+  "end": 2099.214,
+  "speaker": "Unknown",
+  "en": "How do you think people will react to that?",
+  "zh": "你认为人们会对此作何反应？"
+ },
+ {
+  "seg": 371,
+  "start": 2099.726,
+  "end": 2103.147,
+  "speaker": "Unknown",
+  "en": "Yeah, I hear differing things and I think it's actually changing over time.",
+  "zh": "是的，我听到过不同的看法，而且我认为这实际上在随着时间变化。"
+ },
+ {
+  "seg": 372,
+  "start": 2103.187,
+  "end": 2110.929,
+  "speaker": "Unknown",
+  "en": "And so I think this is interesting thing, whereas as the Overton window is shifting in real time, I think, you know, there might have been some level of concern before.",
+  "zh": "所以我认为这是有趣的地方，因为“Overton 窗口”我认为正在实时移动，你知道，之前可能存在某种程度的担忧。"
+ },
+ {
+  "seg": 373,
+  "start": 2110.949,
+  "end": 2122.312,
+  "speaker": "Unknown",
+  "en": "But I think increasingly a lot of, you know, on both sides, you know, there's this question of like, you know, whether clinicians would push back against patient use of AI and whether patients would push back on clinician use of AI in the way that you're describing.",
+  "zh": "但我认为越来越多的，你知道，双方都是，你知道，有这样的问题，比如，临床医生是否会抵制患者使用 AI，以及患者是否会抵制临床医生以你所描述的方式使用 AI。"
+ },
+ {
+  "seg": 374,
+  "start": 2122.932,
+  "end": 2126.515,
+  "speaker": "Unknown",
+  "en": "But I think both parties are actually finding it incredibly useful for their own personal purposes.",
+  "zh": "但我认为双方实际上都发现它对他们自己的个人用途极其有用。"
+ },
+ {
+  "seg": 375,
+  "start": 2127.195,
+  "end": 2138.484,
+  "speaker": "Unknown",
+  "en": "And so I think what we're finding in practice, especially over time, is that both parties might actually feel safer with AI in their care journey, whether it's their clinician using it or the patient using it as kind of like a sanity check.",
+  "zh": "所以我认为我们在实践中发现的，尤其是随着时间推移，是双方实际上可能会在他们的照护旅程中因为 AI 而感到更安全，无论是他们的临床医生在使用它，还是患者把它用作一种合理性检查。"
+ },
+ {
+  "seg": 376,
+  "start": 2138.504,
+  "end": 2140.565,
+  "speaker": "Unknown",
+  "en": "And I think that attitude is definitely changing over time.",
+  "zh": "而且我认为这种态度肯定在随着时间改变。"
+ },
+ {
+  "seg": 377,
+  "start": 2140.585,
+  "end": 2143.267,
+  "speaker": "Unknown",
+  "en": "I wouldn't say that we're fully there, but that's my prediction of how things go.",
+  "zh": "我不会说我们已经完全到达那一步，但这是我对事情走向的预测。"
+ },
+ {
+  "seg": 378,
+  "start": 2143.948,
+  "end": 2149.032,
+  "speaker": "Unknown",
+  "en": "Okay, so then taking that one step further, if a patient has done all their research before a visit,",
+  "zh": "好的，那么再往前推一步，如果一位患者在就诊前已经做了所有研究，"
+ },
+ {
+  "seg": 379,
+  "start": 2149.692,
+  "end": 2151.173,
+  "speaker": "Unknown",
+  "en": "And they have all their health data integrated.",
+  "zh": "而且他们整合了所有健康数据。"
+ },
+ {
+  "seg": 380,
+  "start": 2151.193,
+  "end": 2153.055,
+  "speaker": "Unknown",
+  "en": "They've asked a bunch of questions in ChatGPT.",
+  "zh": "他们在 ChatGPT 里问了一堆问题。"
+ },
+ {
+  "seg": 381,
+  "start": 2153.875,
+  "end": 2163.223,
+  "speaker": "Unknown",
+  "en": "And then the clinician before the visit has all automated through loops, has run the entire patient case through ChatGPT.",
+  "zh": "然后临床医生在就诊前，通过循环（loops）实现了全自动化，把患者的整个病例都跑了一遍 ChatGPT。"
+ },
+ {
+  "seg": 382,
+  "start": 2163.703,
+  "end": 2164.664,
+  "speaker": "Unknown",
+  "en": "And then the visit happens.",
+  "zh": "然后就诊发生了。"
+ },
+ {
+  "seg": 383,
+  "start": 2165.144,
+  "end": 2165.845,
+  "speaker": "Unknown",
+  "en": "What should they talk about?",
+  "zh": "他们应该谈什么？"
+ },
+ {
+  "seg": 384,
+  "start": 2167.403,
+  "end": 2169.563,
+  "speaker": "Unknown",
+  "en": "My hope is that they talk about the human aspect of healthcare.",
+  "zh": "我的希望是，他们谈论医疗保健中人性的那一面。"
+ },
+ {
+  "seg": 385,
+  "start": 2169.583,
+  "end": 2171.524,
+  "speaker": "Unknown",
+  "en": "I mean, there's still like a lot of uncertainty.",
+  "zh": "我是说，仍然存在很多不确定性。"
+ },
+ {
+  "seg": 386,
+  "start": 2171.544,
+  "end": 2172.284,
+  "speaker": "Unknown",
+  "en": "There's a lot of empathy.",
+  "zh": "有很多共情。"
+ },
+ {
+  "seg": 387,
+  "start": 2172.304,
+  "end": 2175.084,
+  "speaker": "Unknown",
+  "en": "There's a lot of bedside manner that goes into the human aspects of healthcare.",
+  "zh": "医疗保健中的人性层面包含很多床边态度。"
+ },
+ {
+  "seg": 388,
+  "start": 2175.524,
+  "end": 2178.085,
+  "speaker": "Unknown",
+  "en": "There's also a lot of physical interaction that goes into it.",
+  "zh": "其中还有很多身体上的互动。"
+ },
+ {
+  "seg": 389,
+  "start": 2178.805,
+  "end": 2186.666,
+  "speaker": "Unknown",
+  "en": "I don't think, you know, I don't think all the information exists for the AI, just information there, theoretically, all the information exists for the AI to just figure out what all should be done.",
+  "zh": "我不认为,你知道,我不认为所有的信息都已经在那里了供 AI 使用——理论上,所有让 AI 去弄清楚该做什么的信息是存在的。"
+ },
+ {
+  "seg": 390,
+  "start": 2187.206,
+  "end": 2192.847,
+  "speaker": "Unknown",
+  "en": "And part of the reason for a visit is to get more information and do the process of history taking investigation and things like this.",
+  "zh": "而就诊的部分原因就是获取更多信息，并完成问病史、检查之类的流程。"
+ },
+ {
+  "seg": 391,
+  "start": 2192.947,
+  "end": 2196.368,
+  "speaker": "Unknown",
+  "en": "And so I think that will not go away, especially the physical elements of that.",
+  "zh": "所以我认为那不会消失，尤其是其中的身体检查部分。"
+ },
+ {
+  "seg": 392,
+  "start": 2197.488,
+  "end": 2205.056,
+  "speaker": "Unknown",
+  "en": "Even from a cognitive perspective the elements of kind of empathy and getting comfort and getting that second check I think will still be something that people demand.",
+  "zh": "即便从认知的角度来看，那种共情、获得安慰、获得二次确认的部分，我认为仍将是人们所需求的。"
+ },
+ {
+  "seg": 393,
+  "start": 2205.076,
+  "end": 2219.91,
+  "speaker": "Unknown",
+  "en": "What do you think AI in general or let's say DOTS would do in between visits and will you think you'll cross the line into providing care in between visits and then share that back with the doctor?",
+  "zh": "你认为 AI 总体上，或者说是 DOTS，会在就诊之间做什么？你认为你会跨过那条线，在就诊之间提供照护，然后再把这些共享给医生吗？"
+ },
+ {
+  "seg": 394,
+  "start": 2220.737,
+  "end": 2232.727,
+  "speaker": "Unknown",
+  "en": "Yeah, I don't think we'll, I think we'll definitely be focused on health information, but I think the, whether it's DOTS or any other product surface, I think we're really excited about this kind of future of heading more in this proactive direction that you were outlining.",
+  "zh": "是的，我不认为我们会，我认为我们肯定会专注于健康信息，但我认为，无论是 DOTS 还是任何其他产品界面，我认为我们对你所概述的更主动的方向这种未来感到非常兴奋。"
+ },
+ {
+  "seg": 395,
+  "start": 2232.807,
+  "end": 2243.737,
+  "speaker": "Unknown",
+  "en": "Like imagine if somebody is kind of dealing with a chronic care journey and, you know, they're, again, like this example of like someone gets a lab test back where their A1C is higher and they're pre-diabetic or diabetic.",
+  "zh": "比如，想象一下某个人正在经历一段慢性病照护旅程，你知道，又是那个例子，比如有人拿到化验结果，他们的 A1C 偏高，他们是糖尿病前期或糖尿病患者。"
+ },
+ {
+  "seg": 396,
+  "start": 2244.497,
+  "end": 2258.625,
+  "speaker": "Unknown",
+  "en": "Can you flag for them like, hey, maybe you should get a medication check and go to your cardiologist or whatever and think about the right ways in which you can flag to users medication adherence issues or other kinds of issues.",
+  "zh": "你能不能为他们标记一下，比如，嘿，也许你应该去做一次用药检查，去看你的心脏科医生或其他的，并思考正确的方式向用户标记用药依从性问题或其他类型的问题。"
+ },
+ {
+  "seg": 397,
+  "start": 2258.645,
+  "end": 2266.969,
+  "speaker": "Unknown",
+  "en": "I think those kinds of issues are places where AI can have potentially a really high health impact, especially in these kind of chronic care journeys.",
+  "zh": "我认为这类问题是 AI 可能产生非常高健康影响的地方，尤其是在这类慢性病照护旅程中。"
+ },
+ {
+  "seg": 398,
+  "start": 2267.53,
+  "end": 2272.412,
+  "speaker": "Unknown",
+  "en": "But I don't think it will be in the business of managing all these things by ourselves.",
+  "zh": "但我不认为我们会亲自去管理所有这些事情。"
+ },
+ {
+  "seg": 399,
+  "start": 2272.612,
+  "end": 2272.812,
+  "speaker": "Unknown",
+  "en": "Sure.",
+  "zh": "当然。"
+ },
+ {
+  "seg": 400,
+  "start": 2274.275,
+  "end": 2282.342,
+  "speaker": "Unknown",
+  "en": "Another thing I'm curious about is in the fields of AI applied to other domains and situations like let's say games like chess and Go,",
+  "zh": "我好奇的另一件事是,在 AI 应用于其他领域和场景的领域中,比如国际象棋和围棋这样的游戏,"
+ },
+ {
+  "seg": 401,
+  "start": 2284.726,
+  "end": 2294.155,
+  "speaker": "Unknown",
+  "en": "As AI got really good at chess and Go, they also revealed other strategies and ways of playing the game that even the best experts in those domains were not exploiting or not pursuing.",
+  "zh": "随着 AI 在国际象棋和围棋上变得非常强,它们还揭示了其他策略和下棋方式,而这些甚至是那些领域里最顶尖的专家都没有利用或没有去追求的。"
+ },
+ {
+  "seg": 402,
+  "start": 2294.855,
+  "end": 2299.94,
+  "speaker": "Unknown",
+  "en": "And that helped us learn more about these games and also helped us learn more about AI.",
+  "zh": "这帮助我们更深入地了解这些游戏,也帮助我们更深入地了解 AI。"
+ },
+ {
+  "seg": 403,
+  "start": 2300.66,
+  "end": 2307.486,
+  "speaker": "Unknown",
+  "en": "Are there equivalents like that that you've seen in AI applied to health from the work that you've done in research?",
+  "zh": "从你所做的研究工作来看,在 AI 应用于健康方面,你见过类似这样的对应物吗?"
+ },
+ {
+  "seg": 404,
+  "start": 2307.587,
+  "end": 2310.789,
+  "speaker": "Unknown",
+  "en": "Are there already findings that are surprising you and perhaps",
+  "zh": "是否已经有让你惊讶的发现,或许"
+ },
+ {
+  "seg": 405,
+  "start": 2311.59,
+  "end": 2318.254,
+  "speaker": "Unknown",
+  "en": "Introducing new ways of delivering care or understanding a clinical scenario that can give us some optimism?",
+  "zh": "正在引入新的提供照护的方式或理解临床场景的方式,能让我们抱有乐观态度?"
+ },
+ {
+  "seg": 406,
+  "start": 2319.134,
+  "end": 2332.002,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, I think we've seen this at smaller scales, but let me zoom out and say, like, you know, one thing that's been motivating our team in general recently around raising the ceiling of human health is this notion of bringing to bear a kind of a Move 37 for health.",
+  "zh": "是的,我觉得我们在较小规模上已经见过这种情况,但让我放大视角说,你知道,最近总体上激励我们团队的一件事,围绕提高人类健康的天花板,就是把一种「Move 37」带向健康这一概念。"
+ },
+ {
+  "seg": 407,
+  "start": 2334.583,
+  "end": 2354.4,
+  "speaker": "Unknown",
+  "en": "This idea of Amoo 37 comes from AlphaGo and a game that the AlphaGo system, which plays this kind of complicated board game, played with Lee Sedol, where there was a specific move that just kind of in the moment seemed like a really dumb move and a surprising move for all the human experts watching this game.",
+  "zh": "Move 37 这个想法来自 AlphaGo,AlphaGo 系统下这种复杂的棋盘游戏,与李世石对弈的一局棋,其中有一手棋,在当下对所有观看这局棋的人类专家来说,看起来像一步非常愚蠢的、令人惊讶的棋。"
+ },
+ {
+  "seg": 408,
+  "start": 2355.54,
+  "end": 2357.642,
+  "speaker": "Unknown",
+  "en": "Between this AI system and this world expert and go.",
+  "zh": "在这个 AI 系统和这位世界顶尖围棋高手之间。"
+ },
+ {
+  "seg": 409,
+  "start": 2358.202,
+  "end": 2366.669,
+  "speaker": "Unknown",
+  "en": "But in hindsight is this kind of like brilliant and insightful move that humans are now just beginning to understand and learn from the patterns of and things like this.",
+  "zh": "但事后看来,这是一步非常出色且有洞见的棋,人类现在才开始理解并从这些模式中学习等等。"
+ },
+ {
+  "seg": 410,
+  "start": 2367.429,
+  "end": 2369.03,
+  "speaker": "Unknown",
+  "en": "And this is a very interesting example.",
+  "zh": "这是一个非常有趣的例子。"
+ },
+ {
+  "seg": 411,
+  "start": 2371.411,
+  "end": 2384.094,
+  "speaker": "Unknown",
+  "en": "So there's an idea of how do you get to a Move 37 in health, a move or a prediction where the models predict something that a human might not have been able to predict, but in hindsight seems correct and brilliant and insightful and impactful.",
+  "zh": "所以就有一个想法:如何在健康领域达到一个 Move 37,一个模型做出的预测,人类可能原本无法预测,但事后看来是正确的、出色的、有洞见的、有影响力的。"
+ },
+ {
+  "seg": 412,
+  "start": 2384.634,
+  "end": 2398.257,
+  "speaker": "Unknown",
+  "en": "So I think we're very early and I think you're going to see much more of this in the future than in the past, but I think one kind of example is again thinking about the ways in which these systems have been deployed as safety nets to clinicians where clinicians are actually delivering care and in the moment",
+  "zh": "所以我认为我们还非常早期,我认为你未来会看到比过去多得多的这种情况,但我想一个例子又是,思考这些系统被部署为临床医生的安全网的方式,临床医生正在实际提供照护,而在当下"
+ },
+ {
+  "seg": 413,
+  "start": 2399.037,
+  "end": 2406.9,
+  "speaker": "Unknown",
+  "en": "The AI actually flags kind of like, hey, something might be off here, like our study with PandaHealth and thinking about the patterns of results that we saw there.",
+  "zh": "AI 实际上会标记出,嘿,这里可能有点不对劲,比如我们与 PandaHealth 的研究,以及思考我们在那里看到的结果模式。"
+ },
+ {
+  "seg": 414,
+  "start": 2407.501,
+  "end": 2424.928,
+  "speaker": "Unknown",
+  "en": "As an example, you know, in that context, the clinicians were a little bit prone to overuse of antibiotics and a very common pattern that the models flagged is just kind of like avoiding this overuse of antibiotics and thinking less about the local case and more about the kind of global issue of resistance to antibiotics.",
+  "zh": "举个例子,你知道,在那个场景下,临床医生有点倾向于过度使用抗生素,模型标记出的一个非常常见的模式就是,避免这种抗生素的过度使用,少想一点局部病例,多想一点抗生素耐药性这种全局性问题。"
+ },
+ {
+  "seg": 415,
+  "start": 2425.548,
+  "end": 2427.51,
+  "speaker": "Unknown",
+  "en": "So that's like one specific example.",
+  "zh": "所以这是一个具体的例子。"
+ },
+ {
+  "seg": 416,
+  "start": 2427.97,
+  "end": 2448.785,
+  "speaker": "Unknown",
+  "en": "But again, I think you're going to see more of these examples of models taking in like a longitudinal history of a user over 10 years across all their data, across the HR data, across the chat data, all these things and making predictions that seemed impossible before because a human can't even integrate all that data in their head and making predictions about their health and their risks and things like this that seemed like they were impossible.",
+  "zh": "但再说一次,我认为你会看到更多这样的例子:模型吸收一个用户十年来的纵向历史,跨越他们所有的数据,跨越 HR 数据,跨越聊天数据,所有这些东西,并做出以前看起来不可能的预测,因为人类甚至无法在脑中整合所有那些数据,并对他们的健康和风险等做出预测,这些以前看起来是不可能的。"
+ },
+ {
+  "seg": 417,
+  "start": 2448.805,
+  "end": 2451.688,
+  "speaker": "Unknown",
+  "en": "And I think that would rise to the occasion of being called the Move 37.",
+  "zh": "而我认为那将足以被称为 Move 37。"
+ },
+ {
+  "seg": 418,
+  "start": 2452.308,
+  "end": 2468.406,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean there are there's so many things that consumers are curious about that at least at one point in time we weren't sure if it was healthy for you and then to your point the Overton window changed and there was sort of more evidence that was sort of conclusive in one direction.",
+  "zh": "是的,你知道,有这么多消费者好奇的事情,至少在某个时间点我们不确定它对你是否健康,然后正如你所说,Overton 窗口改变了,有更多证据在一个方向上算是结论性的。"
+ },
+ {
+  "seg": 419,
+  "start": 2468.886,
+  "end": 2471.028,
+  "speaker": "Unknown",
+  "en": "Sometimes the views on some of these things have changed.",
+  "zh": "有时对这些事情的看法已经改变了。"
+ },
+ {
+  "seg": 420,
+  "start": 2471.209,
+  "end": 2473.791,
+  "speaker": "Unknown",
+  "en": "All these sort of new emerging phenomenons that",
+  "zh": "所有这些新出现的现象,"
+ },
+ {
+  "seg": 421,
+  "start": 2474.472,
+  "end": 2475.573,
+  "speaker": "Unknown",
+  "en": "Perhaps are understudied.",
+  "zh": "或许研究不足。"
+ },
+ {
+  "seg": 422,
+  "start": 2475.593,
+  "end": 2492.768,
+  "speaker": "Unknown",
+  "en": "Do you anticipate as people are sort of entering this information into ChatGPT or other LLMs that we'll have more evidence that we can generate to study some of these things that folks are curious about, but we don't really know or we don't have conclusive evidence one way or the other on where they stand?",
+  "zh": "你是否预期,随着人们把这类信息输入 ChatGPT 或其他 LLM,我们将能够生成更多证据来研究人们好奇的这些事情,但我们并不真正了解、或者我们没有单向或另一向的结论性证据说明它们的情况?"
+ },
+ {
+  "seg": 423,
+  "start": 2493.532,
+  "end": 2500.976,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, I think one of the most interesting things about agents is they kind of solve a lot of the bottlenecks in analyzing data that already exists, right?",
+  "zh": "是的,你知道,我认为智能体最有趣的事情之一是,它们基本上解决了分析已有数据的很多瓶颈,对吧?"
+ },
+ {
+  "seg": 424,
+  "start": 2501.176,
+  "end": 2516.283,
+  "speaker": "Unknown",
+  "en": "There's various places across the healthcare ecosystem where data is being generated, EHR data, longitudinal histories, claims, whatever, where data is being generated and it is kind of just stored there and the insights from it are not fully mined or used to generate new knowledge.",
+  "zh": "在医疗生态系统的各个地方都有数据在被生成,EHR 数据、纵向历史、理赔等等,数据在那里被生成,然后就存放在那里,其中的洞见没有被充分挖掘或用于生成新知识。"
+ },
+ {
+  "seg": 425,
+  "start": 2516.983,
+  "end": 2522.106,
+  "speaker": "Unknown",
+  "en": "And so I think one of the frontiers for how health might improve in the future and how the ceiling of health might raise",
+  "zh": "所以我认为,关于健康未来如何改善、健康的天花板如何提高的一个前沿"
+ },
+ {
+  "seg": 426,
+  "start": 2523.126,
+  "end": 2531.475,
+  "speaker": "Unknown",
+  "en": "We'll be thinking about the ways in which we can leverage the data that is just kind of out there in boxes in various places and have models generate new insights based on this data.",
+  "zh": "将是思考我们能以什么方式利用那些只是存放在各处盒子里的数据,并让模型基于这些数据生成新洞见。"
+ },
+ {
+  "seg": 427,
+  "start": 2531.495,
+  "end": 2533.196,
+  "speaker": "Unknown",
+  "en": "So I'm also optimistic about that future.",
+  "zh": "所以我对那个未来也是乐观的。"
+ },
+ {
+  "seg": 428,
+  "start": 2533.897,
+  "end": 2537.981,
+  "speaker": "Unknown",
+  "en": "I'm also optimistic about a future where, you know, you mentioned these two constituencies, the",
+  "zh": "我对另一个未来也是乐观的,你知道,你提到了这两类利益相关方,"
+ },
+ {
+  "seg": 429,
+  "start": 2538.682,
+  "end": 2544.024,
+  "speaker": "Unknown",
+  "en": "The user, the patient, and the clinician, I think there is a third constituency, which is the scientists, right?",
+  "zh": "用户、患者,以及临床医生,我认为还有第三类利益相关方,那就是科学家,对吧?"
+ },
+ {
+  "seg": 430,
+  "start": 2544.084,
+  "end": 2547.785,
+  "speaker": "Unknown",
+  "en": "Which was helping kind of advance the frontier of knowledge in the space.",
+  "zh": "他们在这个领域帮助推进知识的前沿。"
+ },
+ {
+  "seg": 431,
+  "start": 2547.845,
+  "end": 2560.37,
+  "speaker": "Unknown",
+  "en": "And I'm also very optimistic about a future in which, you know, AI helps accelerate a lot of the bottlenecks in validation, which I think will end up being the bottlenecks as opposed to kind of proposing new ideas or treatments or things like this.",
+  "zh": "我对另一个未来也非常乐观,你知道,AI 帮助加速验证中的很多瓶颈,我认为验证最终会成为瓶颈,而不是提出新想法或新疗法之类的东西。"
+ },
+ {
+  "seg": 432,
+  "start": 2560.47,
+  "end": 2562.951,
+  "speaker": "Unknown",
+  "en": "And so I'm very optimistic about that as well.",
+  "zh": "所以我对此也非常乐观。"
+ },
+ {
+  "seg": 433,
+  "start": 2563.531,
+  "end": 2574.697,
+  "speaker": "Unknown",
+  "en": "Switching gears slightly, you've also shared thoughts around just the cost of intelligence as an input to medical intelligence coming way down and, you know, at some point it'll be too cheap to meter.",
+  "zh": "稍微换个话题,你也分享过关于智能的成本作为医疗智能的投入正在大幅下降的想法,你知道,在某个时候它会便宜到无法计量。"
+ },
+ {
+  "seg": 434,
+  "start": 2575.917,
+  "end": 2578.319,
+  "speaker": "Unknown",
+  "en": "I spent a lot of time and we as a team spent a lot of time",
+  "zh": "我花了很多时间,我们作为一个团队花了很多时间"
+ },
+ {
+  "seg": 435,
+  "start": 2579.079,
+  "end": 2588.344,
+  "speaker": "Unknown",
+  "en": "Trying to understand how these technologies will make an impact on our healthcare system that is inflating well ahead of inflation.",
+  "zh": "试图理解这些技术将如何对我们的医疗系统产生影响,而这个系统的通胀远远跑在通货膨胀之前。"
+ },
+ {
+  "seg": 436,
+  "start": 2588.364,
+  "end": 2592.247,
+  "speaker": "Unknown",
+  "en": "5.3 plus trillion we spend on healthcare.",
+  "zh": "我们在医疗上花费 5.3 万多亿美元。"
+ },
+ {
+  "seg": 437,
+  "start": 2592.267,
+  "end": 2595.128,
+  "speaker": "Unknown",
+  "en": "If it were its own country, it'd be the third largest GDP.",
+  "zh": "如果它是一个国家,它会是第三大 GDP。"
+ },
+ {
+  "seg": 438,
+  "start": 2596.049,
+  "end": 2597.429,
+  "speaker": "Unknown",
+  "en": "It's the biggest part of our economy.",
+  "zh": "它是我们经济的最大组成部分。"
+ },
+ {
+  "seg": 439,
+  "start": 2597.469,
+  "end": 2600.171,
+  "speaker": "Unknown",
+  "en": "It's also the biggest employer in our economy.",
+  "zh": "它也是我们经济中最大的雇主。"
+ },
+ {
+  "seg": 440,
+  "start": 2600.311,
+  "end": 2602.012,
+  "speaker": "Unknown",
+  "en": "23 million Americans work in healthcare.",
+  "zh": "2300 万美国人在医疗行业工作。"
+ },
+ {
+  "seg": 441,
+  "start": 2602.332,
+  "end": 2606.595,
+  "speaker": "Unknown",
+  "en": "There's so much, there's just so much we spend on healthcare.",
+  "zh": "有太多、我们在医疗上花费的东西实在太多了。"
+ },
+ {
+  "seg": 442,
+  "start": 2607.415,
+  "end": 2612.536,
+  "speaker": "Unknown",
+  "en": "What do you sort of make of the work that you're doing and the impact that it'll have on the cost of care?",
+  "zh": "你怎么看待你正在做的工作,以及它将对医疗成本产生的影响?"
+ },
+ {
+  "seg": 443,
+  "start": 2613.157,
+  "end": 2619.718,
+  "speaker": "Unknown",
+  "en": "I think this is like one of the most important ways that we can pursue our mission is to not only make our models better at the frontier, but make that widely accessible to everybody.",
+  "zh": "我认为这是我们追求使命最重要的方式之一,就是不仅让我们的模型在前沿变得更好,而且让它被广泛地让每个人都能获取。"
+ },
+ {
+  "seg": 444,
+  "start": 2620.198,
+  "end": 2625.7,
+  "speaker": "Unknown",
+  "en": "So that's obviously a big part of how we've been able to deploy health intelligence to a lot of people across the world for free.",
+  "zh": "这显然是我们能够免费向全世界很多人部署健康智能的一大原因。"
+ },
+ {
+  "seg": 445,
+  "start": 2626.3,
+  "end": 2633.342,
+  "speaker": "Unknown",
+  "en": "I think it's also a big part of how we think about, you know, API and how good our models are there for health and pricing there and stuff like this.",
+  "zh": "我认为这也是我们如何思考 API 的一大原因,以及我们的模型在健康方面的表现有多好,以及定价等等。"
+ },
+ {
+  "seg": 446,
+  "start": 2634.042,
+  "end": 2636.143,
+  "speaker": "Unknown",
+  "en": "You know, one recent update was",
+  "zh": "你知道,最近的一个更新是"
+ },
+ {
+  "seg": 447,
+  "start": 2637.083,
+  "end": 2639.224,
+  "speaker": "Unknown",
+  "en": "We recently released GPT-6 Luna.",
+  "zh": "我们最近发布了 GPT-6 Luna。"
+ },
+ {
+  "seg": 448,
+  "start": 2640.064,
+  "end": 2646.685,
+  "speaker": "Unknown",
+  "en": "And GPT-6 Luna is our current cheapest model on the API or cheapest frontier model on the API.",
+  "zh": "而 GPT-6 Luna 是我们目前在 API 上最便宜的模型,或者说是 API 上最便宜的前沿模型。"
+ },
+ {
+  "seg": 449,
+  "start": 2647.325,
+  "end": 2665.47,
+  "speaker": "Unknown",
+  "en": "And what we found with GPT-6 Luna was that it was actually doing better on our benchmark HealthBench Professional, our current latest benchmark of clinician workflows that are really difficult, selected for difficulty for our current models across all the different ways in which clinicians are using our models and the models still could use some improvement.",
+  "zh": "而我们发现,GPT-6 Luna 实际上在我们的基准 HealthBench Professional 上表现更好,这是我们当前最新的、针对临床医生工作流程的基准,这些工作流程非常困难,是针对我们当前模型的困难度筛选的,涵盖临床医生使用我们模型的所有不同方式,而模型仍然还有一些改进空间。"
+ },
+ {
+  "seg": 450,
+  "start": 2667.13,
+  "end": 2672.074,
+  "speaker": "Unknown",
+  "en": "It performed better than 5.6 sol, which was literally our best model like a month ago.",
+  "zh": "它的表现比 5.6 sol 还好，而那实际上是我们一个月前最好的模型。"
+ },
+ {
+  "seg": 451,
+  "start": 2672.235,
+  "end": 2674.817,
+  "speaker": "Unknown",
+  "en": "And it performs better despite being 34 times cheaper.",
+  "zh": "而且它的表现更好，尽管便宜了 34 倍。"
+ },
+ {
+  "seg": 452,
+  "start": 2675.257,
+  "end": 2678.24,
+  "speaker": "Unknown",
+  "en": "And we've had a couple of those moments even in the past year.",
+  "zh": "在过去一年里，我们已经有过几次这样的时刻。"
+ },
+ {
+  "seg": 453,
+  "start": 2678.4,
+  "end": 2689.11,
+  "speaker": "Unknown",
+  "en": "And there's been many trends showing that AI compared to other technologies that have been introduced in the past has been reducing a cost at a given level of capability or usefulness faster than many of these other technologies.",
+  "zh": "而且有很多趋势表明，与过去引入的其他技术相比，AI 在给定能力或实用性水平下，成本下降的速度比许多其他技术都要快。"
+ },
+ {
+  "seg": 454,
+  "start": 2689.75,
+  "end": 2696.212,
+  "speaker": "Unknown",
+  "en": "And so one bet we've had at OpenAI is that the cost of health intelligence will plummet at a given level of health intelligence.",
+  "zh": "所以我们在 OpenAI 的一个押注是，在给定的健康智能水平下，健康智能的成本将会暴跌。"
+ },
+ {
+  "seg": 455,
+  "start": 2696.913,
+  "end": 2703.395,
+  "speaker": "Unknown",
+  "en": "And the level of health intelligence where, you know, clinicians and patients feel like they can trust in the care journey is starting to get there.",
+  "zh": "而临床医生和患者感觉他们能够在护理旅程中信任它的那个健康智能水平，正在开始达到。"
+ },
+ {
+  "seg": 456,
+  "start": 2703.855,
+  "end": 2705.756,
+  "speaker": "Unknown",
+  "en": "So that's like a fixed level of intelligence in some sense.",
+  "zh": "所以从某种意义上说，这就像是一个固定的智能水平。"
+ },
+ {
+  "seg": 457,
+  "start": 2705.976,
+  "end": 2708.056,
+  "speaker": "Unknown",
+  "en": "Hopefully the bar after that raises over time as well.",
+  "zh": "希望在那之后，这个门槛也会随着时间推移而提高。"
+ },
+ {
+  "seg": 458,
+  "start": 2709.877,
+  "end": 2715.621,
+  "speaker": "Unknown",
+  "en": "My expectation is once we get close to that level of intelligence, the cost for that level of intelligence also dramatically reduces like it has been.",
+  "zh": "我的预期是，一旦我们接近那个智能水平，该智能水平的成本也会像一直以来那样大幅降低。"
+ },
+ {
+  "seg": 459,
+  "start": 2716.282,
+  "end": 2720.765,
+  "speaker": "Unknown",
+  "en": "As the hope there is that we get like a kind of this commoditization of health intelligence, right?",
+  "zh": "那里的希望是，我们能实现一种健康智能的商品化，对吧？"
+ },
+ {
+  "seg": 460,
+  "start": 2720.785,
+  "end": 2721.946,
+  "speaker": "Unknown",
+  "en": "We don't want to hoard that health intelligence.",
+  "zh": "我们不想囤积那种健康智能。"
+ },
+ {
+  "seg": 461,
+  "start": 2721.966,
+  "end": 2723.407,
+  "speaker": "Unknown",
+  "en": "We wanted to take everybody to use it.",
+  "zh": "我们希望让每个人都去使用它。"
+ },
+ {
+  "seg": 462,
+  "start": 2723.967,
+  "end": 2725.228,
+  "speaker": "Unknown",
+  "en": "It's my hope that that contributes.",
+  "zh": "我希望这能有所贡献。"
+ },
+ {
+  "seg": 463,
+  "start": 2725.268,
+  "end": 2727.609,
+  "speaker": "Unknown",
+  "en": "But, you know, to answer your question about the whole",
+  "zh": "但是，你知道，要回答你关于整个"
+ },
+ {
+  "seg": 464,
+  "start": 2728.47,
+  "end": 2731.332,
+  "speaker": "Unknown",
+  "en": "Of healthcare spending, I don't think all of that is about health intelligence.",
+  "zh": "医疗保健支出的问题，我不认为所有这些都是关于健康智能的。"
+ },
+ {
+  "seg": 465,
+  "start": 2731.453,
+  "end": 2736.837,
+  "speaker": "Unknown",
+  "en": "I don't think like health intelligence has had yet a macro effect on the problem that you're describing.",
+  "zh": "我不认为健康智能对你所描述的问题已经产生了宏观影响。"
+ },
+ {
+  "seg": 466,
+  "start": 2737.538,
+  "end": 2749.768,
+  "speaker": "Unknown",
+  "en": "If you look at like the whole of spend of health, there is quite a bit of areas though, where if you look at, for example, chronic care management or documentation or administration, a lot of kind of administrative workflows of various kinds, back office workflows.",
+  "zh": "如果你看看整个医疗支出，确实有相当多的领域，比如慢性病护理管理、文档记录或行政管理，以及各种行政工作流程、后台工作流程。"
+ },
+ {
+  "seg": 467,
+  "start": 2750.328,
+  "end": 2754.389,
+  "speaker": "Unknown",
+  "en": "There's a lot of money spent in ways that probably don't need to be spent that way.",
+  "zh": "有很多钱花在了可能不需要那样花的地方。"
+ },
+ {
+  "seg": 468,
+  "start": 2754.909,
+  "end": 2759.551,
+  "speaker": "Unknown",
+  "en": "And so we are very optimistic about kind of an overall compression of spend over the coming years.",
+  "zh": "所以我们对未来几年整体支出的压缩非常乐观。"
+ },
+ {
+  "seg": 469,
+  "start": 2759.951,
+  "end": 2760.831,
+  "speaker": "Unknown",
+  "en": "I don't think that's happened yet.",
+  "zh": "我不认为这已经发生了。"
+ },
+ {
+  "seg": 470,
+  "start": 2760.891,
+  "end": 2763.932,
+  "speaker": "Unknown",
+  "en": "And I don't think that just happens from making health intelligence abundant.",
+  "zh": "我也不认为仅靠让健康智能充裕就能实现这一点。"
+ },
+ {
+  "seg": 471,
+  "start": 2763.952,
+  "end": 2772.815,
+  "speaker": "Unknown",
+  "en": "I think that happens from integration and workflows and deployment and scaling that up and really making sure these models are valuable in the economically valuable tasks that people are using them for.",
+  "zh": "我认为这需要通过集成、工作流程、部署、规模化，并真正确保这些模型在人们使用它们的经济上有价值的任务中发挥作用才能实现。"
+ },
+ {
+  "seg": 472,
+  "start": 2772.855,
+  "end": 2775.736,
+  "speaker": "Unknown",
+  "en": "But I think it's a prerequisite to making that future happen.",
+  "zh": "但我认为这是让那个未来成为现实的先决条件。"
+ },
+ {
+  "seg": 473,
+  "start": 2776.216,
+  "end": 2778.917,
+  "speaker": "Unknown",
+  "en": "More care, less paperwork is sort of where we're heading.",
+  "zh": "更多的护理，更少的文书工作，大致就是我们的方向。"
+ },
+ {
+  "seg": 474,
+  "start": 2778.958,
+  "end": 2780.278,
+  "speaker": "Unknown",
+  "en": "At least there's a lot of the cost savings.",
+  "zh": "至少有很多成本节约的空间。"
+ },
+ {
+  "seg": 475,
+  "start": 2781.499,
+  "end": 2790.524,
+  "speaker": "Unknown",
+  "en": "I'm sure you saw some of the headlines over the last few weeks of there's a New York Times article that basically provider AIs and payer AIs are fighting.",
+  "zh": "我相信你看到了过去几周的一些头条新闻，《纽约时报》有一篇文章，基本上讲的是医疗提供方 AI 和支付方 AI 在互相斗争。"
+ },
+ {
+  "seg": 476,
+  "start": 2791.144,
+  "end": 2802.71,
+  "speaker": "Unknown",
+  "en": "And there was some Blue Cross Blue Shield Association analysis that showed that the respective billing bots and paperwork bots effectively increased spend by a billion dollars or something like that.",
+  "zh": "还有蓝十字蓝盾协会的一项分析显示，各自的计费机器人和文书机器人实际上使支出增加了大约十亿美元。"
+ },
+ {
+  "seg": 477,
+  "start": 2803.535,
+  "end": 2813.042,
+  "speaker": "Unknown",
+  "en": "When you are doing cutting-edge research on health and trying to bring down the cost of medical intelligence to near zero, and then you see headlines like that, what do you make of that?",
+  "zh": "当你在健康领域做前沿研究，试图把医疗智能的成本降到接近零，然后看到这样的头条新闻时，你怎么看？"
+ },
+ {
+  "seg": 478,
+  "start": 2814.107,
+  "end": 2822.351,
+  "speaker": "Unknown",
+  "en": "I think this might be one of those areas where there might be some kind of short-term pain around this kind of provider-payer arms race, but in the long run, there's no reason this has to exist, right?",
+  "zh": "我认为这可能是那些领域之一，在这种提供方-支付方军备竞赛上可能会有某种短期阵痛，但从长远来看，没有理由让它存在，对吧？"
+ },
+ {
+  "seg": 479,
+  "start": 2822.531,
+  "end": 2831.995,
+  "speaker": "Unknown",
+  "en": "And so really, I think, you know, you're entering a world where a lot of visits actually have some kind of ambient intelligence in the room, listening, transcribing, things like this.",
+  "zh": "所以实际上，我认为，你正在进入一个这样的世界：很多诊疗实际上在房间里就有某种环境智能，在聆听、转录之类的。"
+ },
+ {
+  "seg": 480,
+  "start": 2833.315,
+  "end": 2838.678,
+  "speaker": "Unknown",
+  "en": "There is notes, there's clinical notes, there's AI details of clinical notes and things like this.",
+  "zh": "有笔记，有临床笔记，有临床笔记的 AI 细节记录之类的。"
+ },
+ {
+  "seg": 481,
+  "start": 2839.558,
+  "end": 2842.599,
+  "speaker": "Unknown",
+  "en": "And so you have a lot of the details you need to adjudicate visits, right?",
+  "zh": "这样你就拥有了裁决诊疗所需的很多细节，对吧？"
+ },
+ {
+  "seg": 482,
+  "start": 2842.799,
+  "end": 2850.6,
+  "speaker": "Unknown",
+  "en": "And so the ideal world, in my view, is a world in which providers and payers kind of have a handshake, like, hey, here's our ground truth of what happened in this visit.",
+  "zh": "所以在我看来，理想的世界是提供方和支付方达成一种握手的世界，比如，嘿，这是我们关于这次诊疗中发生了什么的事实基准。"
+ },
+ {
+  "seg": 483,
+  "start": 2850.62,
+  "end": 2851.841,
+  "speaker": "Unknown",
+  "en": "Like, here's all the information we have.",
+  "zh": "比如，这是我们拥有的所有信息。"
+ },
+ {
+  "seg": 484,
+  "start": 2851.881,
+  "end": 2853.841,
+  "speaker": "Unknown",
+  "en": "There's just like no other source of information that there is.",
+  "zh": "没有其他信息来源了。"
+ },
+ {
+  "seg": 485,
+  "start": 2854.601,
+  "end": 2857.122,
+  "speaker": "Unknown",
+  "en": "And then an AI helps adjudicate that situation.",
+  "zh": "然后由一个 AI 来帮助裁决这种情况。"
+ },
+ {
+  "seg": 486,
+  "start": 2857.382,
+  "end": 2865.443,
+  "speaker": "Unknown",
+  "en": "And maybe there's like some limited appeals process or things like this, but I don't think you need to have all this process where you have like an AI arms race between payers and providers.",
+  "zh": "也许有一些有限的上诉流程之类的，但我不认为你需要所有这些流程，在支付方和提供方之间搞 AI 军备竞赛。"
+ },
+ {
+  "seg": 487,
+  "start": 2865.463,
+  "end": 2867.024,
+  "speaker": "Unknown",
+  "en": "I think they can just be completely avoided.",
+  "zh": "我认为这些完全可以避免。"
+ },
+ {
+  "seg": 488,
+  "start": 2867.044,
+  "end": 2867.964,
+  "speaker": "Unknown",
+  "en": "So I view that as a",
+  "zh": "所以我把它看作是一个"
+ },
+ {
+  "seg": 489,
+  "start": 2868.564,
+  "end": 2869.704,
+  "speaker": "Unknown",
+  "en": "A bit of a short-term distraction.",
+  "zh": "有点短期的干扰。"
+ },
+ {
+  "seg": 490,
+  "start": 2870.564,
+  "end": 2896.41,
+  "speaker": "Unknown",
+  "en": "There's a lot of entrepreneurs that are building technology in healthcare that are likely watching this, and they're probably trying to figure out, you know, as you continue to advance your work and you bring down the cost of medical intelligence to near zero, and this becomes this sort of ubiquitous utility that flows through all of our healthcare interactions for consumers, for clinicians, for the administrative part of the healthcare technology or the healthcare stack.",
+  "zh": "有很多创业者正在医疗保健领域构建技术，他们很可能在关注这些，他们可能正试图弄清楚，随着你继续推进你的工作，把医疗智能的成本降到接近零，并且它成为一种无处不在的公用事业，流经我们所有的医疗保健交互——对消费者、对临床医生、对医疗技术或医疗体系栈的行政部分。"
+ },
+ {
+  "seg": 491,
+  "start": 2898.49,
+  "end": 2900.151,
+  "speaker": "Unknown",
+  "en": "What should folks be building on top?",
+  "zh": "人们应该在其上构建什么？"
+ },
+ {
+  "seg": 492,
+  "start": 2900.211,
+  "end": 2906.953,
+  "speaker": "Unknown",
+  "en": "What should specialist applications be doing assuming that this gets 100x plus better?",
+  "zh": "假设它变得好上 100 倍以上，专业化应用应该做什么？"
+ },
+ {
+  "seg": 493,
+  "start": 2907.973,
+  "end": 2909.314,
+  "speaker": "Unknown",
+  "en": "Yeah, it's a great question.",
+  "zh": "是的，这是个好问题。"
+ },
+ {
+  "seg": 494,
+  "start": 2909.514,
+  "end": 2918.357,
+  "speaker": "Unknown",
+  "en": "Like I mentioned, like we think about a lot of our health impact through OpenAI as not being directly through the products that we offer, but actually through our partners and that last mile of delivering care.",
+  "zh": "就像我提到的，我们认为 OpenAI 在健康方面的很多影响不是直接通过我们提供的产品，而是通过我们的合作伙伴以及提供护理的最后一公里。"
+ },
+ {
+  "seg": 495,
+  "start": 2919.057,
+  "end": 2923.199,
+  "speaker": "Unknown",
+  "en": "And so, you know, what I'd say to our partners is, you know, build on top of models that are really capable.",
+  "zh": "所以，你知道，我想对我们的合作伙伴说的是，在真正有能力的模型之上构建。"
+ },
+ {
+  "seg": 496,
+  "start": 2923.719,
+  "end": 2926.26,
+  "speaker": "Unknown",
+  "en": "And the most important thing is bet that those models will become more capable.",
+  "zh": "最重要的是押注这些模型会变得更有能力。"
+ },
+ {
+  "seg": 497,
+  "start": 2926.3,
+  "end": 2927.2,
+  "speaker": "Unknown",
+  "en": "So bet on the future.",
+  "zh": "所以押注于未来。"
+ },
+ {
+  "seg": 498,
+  "start": 2927.72,
+  "end": 2936.763,
+  "speaker": "Unknown",
+  "en": "I think many people in healthcare are on some kind of spectrum between betting against the models, betting neutrally for the models and betting with the models or betting for the models.",
+  "zh": "我认为医疗保健领域的许多人都处于某种光谱上：押注模型不行、对模型保持中立、押注与模型同行或押注模型会赢。"
+ },
+ {
+  "seg": 499,
+  "start": 2937.123,
+  "end": 2939.964,
+  "speaker": "Unknown",
+  "en": "And I think I would say, you know, bet on the models getting better.",
+  "zh": "而我想说，你知道，押注模型会变得更好。"
+ },
+ {
+  "seg": 500,
+  "start": 2940.064,
+  "end": 2941.504,
+  "speaker": "Unknown",
+  "en": "That's probably the most important thing.",
+  "zh": "那可能是最重要的事情。"
+ },
+ {
+  "seg": 501,
+  "start": 2941.625,
+  "end": 2948.927,
+  "speaker": "Unknown",
+  "en": "And think about the ways in which a lot of the technology that's being developed, whether that's, you know, agents or computer use or other kind of frontier tech.",
+  "zh": "并且思考一下目前正在开发的许多技术，无论是智能体还是计算机使用，或其他前沿技术，"
+ },
+ {
+  "seg": 502,
+  "start": 2949.527,
+  "end": 2953.09,
+  "speaker": "Unknown",
+  "en": "Will accelerate healthcare and bet on that and build towards that future.",
+  "zh": "将如何加速医疗健康，并为此下注、朝那个未来去构建。"
+ },
+ {
+  "seg": 503,
+  "start": 2953.61,
+  "end": 2959.435,
+  "speaker": "Unknown",
+  "en": "I also think a lot of medical care will actually like become more accessible to patients with AI.",
+  "zh": "我还认为，有了 AI，很多医疗服务实际上会变得更容易被患者获得。"
+ },
+ {
+  "seg": 504,
+  "start": 2959.455,
+  "end": 2963.758,
+  "speaker": "Unknown",
+  "en": "You know, we talked about this idea of kind of a quarterback and dissolving a lot of these barriers.",
+  "zh": "你知道，我们谈过这种类似四分卫的想法，以及消解许多这些壁垒。"
+ },
+ {
+  "seg": 505,
+  "start": 2963.798,
+  "end": 2971.565,
+  "speaker": "Unknown",
+  "en": "And so just being focused on delivering really good quality care and having AI be part of, you know, monitoring that care journey, I think is a very important part of that as well.",
+  "zh": "所以，专注于提供真正高质量的医疗服务，并让 AI 成为监测这段医疗旅程的一部分，我认为这也是其中非常重要的一部分。"
+ },
+ {
+  "seg": 506,
+  "start": 2972.425,
+  "end": 2977.748,
+  "speaker": "Unknown",
+  "en": "Zooming out to the overall healthcare system and now just looking at it at large, we talked about this $5.3 trillion.",
+  "zh": "把视角拉远到整个医疗系统，现在从整体来看它，我们谈过这个 5.3 万亿美元。"
+ },
+ {
+  "seg": 507,
+  "start": 2978.409,
+  "end": 2985.413,
+  "speaker": "Unknown",
+  "en": "A lot of that spend is paperwork between providers and payers and other stakeholders within the five Ps of healthcare.",
+  "zh": "其中很多支出是医疗服务的五个 P 之间，即医疗服务提供方、支付方和其他利益相关者之间的文书工作。"
+ },
+ {
+  "seg": 508,
+  "start": 2986.073,
+  "end": 2989.876,
+  "speaker": "Unknown",
+  "en": "A lot of that is cognitive care that you're arguing can be augmented",
+  "zh": "其中很多是认知性医疗，你的论点是它可以被增强，"
+ },
+ {
+  "seg": 509,
+  "start": 2990.756,
+  "end": 2999.782,
+  "speaker": "Unknown",
+  "en": "And enhanced and sort of we can bring on a lot more cognitive care capacity online, which is exciting and exciting from an access perspective.",
+  "zh": "被提升，某种程度上我们可以把更多的认知性医疗容量上线，这令人兴奋，从可及性的角度看也令人兴奋。"
+ },
+ {
+  "seg": 510,
+  "start": 3000.262,
+  "end": 3009.888,
+  "speaker": "Unknown",
+  "en": "And then there's a lot of spend in healthcare that is procedural, either requiring some imaging, some blood work, some follow on examination, or it's some surgical intervention.",
+  "zh": "然后医疗领域还有大量支出是程序性的，要么需要一些影像检查、一些血液检测、一些后续检查，要么是某种外科手术干预。"
+ },
+ {
+  "seg": 511,
+  "start": 3012.062,
+  "end": 3017.646,
+  "speaker": "Unknown",
+  "en": "Where do you see sort of the intelligence work that you're doing in the medical space impacting procedural care?",
+  "zh": "你认为你们在医疗领域所做的智能工作，会以什么方式影响程序性医疗？"
+ },
+ {
+  "seg": 512,
+  "start": 3018.426,
+  "end": 3024.93,
+  "speaker": "Unknown",
+  "en": "And is that going to be the ultimate, is that going to be the new sort of or an enhanced or perhaps an exacerbated bottleneck?",
+  "zh": "它会是最新的……它会是新的、或是增强的、或者也许是加剧的瓶颈吗？"
+ },
+ {
+  "seg": 513,
+  "start": 3025.19,
+  "end": 3028.813,
+  "speaker": "Unknown",
+  "en": "Or do you expect to do a lot of work there as well, robotics, et cetera?",
+  "zh": "还是你预期也会在那里做大量工作，机器人技术等等？"
+ },
+ {
+  "seg": 514,
+  "start": 3029.704,
+  "end": 3040.355,
+  "speaker": "Unknown",
+  "en": "Yeah I mean I think in the short term with procedural care I think you want a better targeting when that's needed right and I think AI can help you know provide information that is helpful for knowing when to seek that kind of care as well.",
+  "zh": "是的，我的意思是，我认为在短期内，对于程序性医疗，我认为你需要的是在需要时进行更好的定向，我认为 AI 可以帮助提供信息，帮助知道何时该寻求那种医疗服务。"
+ },
+ {
+  "seg": 515,
+  "start": 3041.055,
+  "end": 3052.387,
+  "speaker": "Unknown",
+  "en": "Probably the biggest macro factor in the next you know year or two will just be better kind of proactive preventative stuff right so you don't have to actually go in later and get that procedure right because if you make the right moves.",
+  "zh": "接下来一两年最大的宏观因素，可能就是更好的主动式预防性的事情，这样你之后就不必真的去做那个程序了，因为如果你做出正确的行动。"
+ },
+ {
+  "seg": 516,
+  "start": 3053.127,
+  "end": 3059.292,
+  "speaker": "Unknown",
+  "en": "And AI helps you navigate that kind of journey, then you can hopefully avoid a lot of the downstream costs of the most expensive procedures.",
+  "zh": "并且 AI 帮你导航这种旅程，那么你就有希望避免最昂贵程序带来的大量下游成本。"
+ },
+ {
+  "seg": 517,
+  "start": 3059.312,
+  "end": 3062.715,
+  "speaker": "Unknown",
+  "en": "So that might be like one macro factor to kind of look out for, is my guess.",
+  "zh": "所以那可能是值得关注的宏观因素之一，是我的猜测。"
+ },
+ {
+  "seg": 518,
+  "start": 3063.376,
+  "end": 3073.244,
+  "speaker": "Unknown",
+  "en": "I think the question of kind of robotics and care, I think is a bit of a longer term one, both from a technology perspective and kind of like a reimbursement and kind of industry integration perspective.",
+  "zh": "我认为机器人技术与医疗的问题，我认为是一个更长期的问题，无论是从技术角度，还是从报销和行业整合的角度。"
+ },
+ {
+  "seg": 519,
+  "start": 3073.845,
+  "end": 3076.807,
+  "speaker": "Unknown",
+  "en": "My expectation is that it's not like a next few years kind of thing.",
+  "zh": "我的预期是，这不是未来几年内会发生的事情。"
+ },
+ {
+  "seg": 520,
+  "start": 3077.668,
+  "end": 3078.048,
+  "speaker": "Unknown",
+  "en": "Very cool.",
+  "zh": "非常好。"
+ },
+ {
+  "seg": 521,
+  "start": 3078.849,
+  "end": 3080.31,
+  "speaker": "Unknown",
+  "en": "Okay, we've covered a lot of ground.",
+  "zh": "好的，我们涵盖了很多内容。"
+ },
+ {
+  "seg": 522,
+  "start": 3080.35,
+  "end": 3082.071,
+  "speaker": "Unknown",
+  "en": "We've talked about intelligence improving.",
+  "zh": "我们谈了智能的提升。"
+ },
+ {
+  "seg": 523,
+  "start": 3082.111,
+  "end": 3083.111,
+  "speaker": "Unknown",
+  "en": "We've talked about trust.",
+  "zh": "我们谈了信任。"
+ },
+ {
+  "seg": 524,
+  "start": 3083.151,
+  "end": 3086.133,
+  "speaker": "Unknown",
+  "en": "We've talked about moving from medical information to medical care.",
+  "zh": "我们谈了从医疗信息到医疗服务的转变。"
+ },
+ {
+  "seg": 525,
+  "start": 3087.213,
+  "end": 3099.079,
+  "speaker": "Unknown",
+  "en": "Help us understand what we can look forward to as things continue to unfold, as agents and personal agents and the underlying models become increasingly performant.",
+  "zh": "帮助我们理解，随着一切继续展开，随着智能体、个人智能体和底层模型变得越来越强，我们可以期待什么。"
+ },
+ {
+  "seg": 526,
+  "start": 3099.859,
+  "end": 3101.72,
+  "speaker": "Unknown",
+  "en": "What can we look forward to from ChatGPT Health?",
+  "zh": "从 ChatGPT Health 我们可以期待什么？"
+ },
+ {
+  "seg": 527,
+  "start": 3102.59,
+  "end": 3102.73,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 528,
+  "start": 3102.77,
+  "end": 3106.172,
+  "speaker": "Unknown",
+  "en": "I mean, I think there's like really two high level things that we're really focused on making happen.",
+  "zh": "我的意思是，我认为有两件高层次的事情是我们真正专注于实现的。"
+ },
+ {
+  "seg": 529,
+  "start": 3106.633,
+  "end": 3116.339,
+  "speaker": "Unknown",
+  "en": "One is, again, thinking about like the ways in which we can raise the floor of human health and make trustworthy, reliable health intelligence abundant for all clinicians and all users and patients.",
+  "zh": "其一是，再次思考我们可以通过哪些方式抬高人类健康的下限，让可信、可靠的健康智能对所有临床医生、所有用户和患者都变得充足。"
+ },
+ {
+  "seg": 530,
+  "start": 3116.98,
+  "end": 3123.004,
+  "speaker": "Unknown",
+  "en": "And so getting to the point where, you know, like we talked about, like all patients and clinicians just feel safer by having AI in the care journey.",
+  "zh": "从而达到，你知道，就像我们谈过的，所有患者和临床医生仅仅因为 AI 参与医疗旅程就感到更安心。"
+ },
+ {
+  "seg": 531,
+  "start": 3123.024,
+  "end": 3128.308,
+  "speaker": "Unknown",
+  "en": "Like when you see the ChatGPT, you actually, when the doctor's using ChatGPT, you actually feel safer and vice versa.",
+  "zh": "就像当你看到 ChatGPT 时，实际上，当医生在使用 ChatGPT 时，你确实会感到更安心，反之亦然。"
+ },
+ {
+  "seg": 532,
+  "start": 3128.888,
+  "end": 3138.97,
+  "speaker": "Unknown",
+  "en": "Getting to that point, and again, that's a question of not just the models being good and evals being good, but also how we deploy it and the activation energy around that and the products and things like this.",
+  "zh": "达到那一点，再说一次，那不仅是模型好、评估好的问题，还涉及我们如何部署它、围绕它的激活能量、产品以及诸如此类的东西。"
+ },
+ {
+  "seg": 533,
+  "start": 3140.011,
+  "end": 3143.051,
+  "speaker": "Unknown",
+  "en": "I think a second thing is really thinking about raising the ceiling.",
+  "zh": "我认为第二件事是真正思考抬高上限。"
+ },
+ {
+  "seg": 534,
+  "start": 3143.211,
+  "end": 3147.072,
+  "speaker": "Unknown",
+  "en": "So what are the ways in which AI can actually do things that were not possible before?",
+  "zh": "那么，AI 实际上可以做哪些以前不可能做的事情？"
+ },
+ {
+  "seg": 535,
+  "start": 3147.092,
+  "end": 3148.953,
+  "speaker": "Unknown",
+  "en": "So one of them actually, I think, is this kind of like...",
+  "zh": "所以其中一个，实际上我认为，是这种类似……"
+ },
+ {
+  "seg": 536,
+  "start": 3149.613,
+  "end": 3165.506,
+  "speaker": "Unknown",
+  "en": "You know, proactive health, proactive personal health assistant that is part of your care journey is helping you navigate these moments, being your quarterback, you know, helping you schedule on all these things, but also flagging the places where, you know, you can intervene in your health today and prevent a lot of expensive deterioration later in the future.",
+  "zh": "你知道，主动健康、主动的个人健康助手，它是你医疗旅程的一部分，帮助你度过这些时刻，做你的四分卫，你知道，帮你安排所有这些事情，但也会标记出你今天可以干预自己健康的地方，从而预防未来后期大量昂贵的恶化。"
+ },
+ {
+  "seg": 537,
+  "start": 3165.847,
+  "end": 3173.033,
+  "speaker": "Unknown",
+  "en": "And I think that's gonna be an important part of how we think about, you know, improving the future of health for people, as many people as possible.",
+  "zh": "我认为这会是我们思考如何为尽可能多的人改善健康未来的重要组成部分。"
+ },
+ {
+  "seg": 538,
+  "start": 3173.633,
+  "end": 3186.43,
+  "speaker": "Unknown",
+  "en": "And I think the second thing is just what you mentioned before, which is like really thinking about the ways in which we can unlock the value of existing data that is sometimes stored in boxes of various kinds and thinking about the ways in which that can be leveraged to produce new insights that benefit patients.",
+  "zh": "我认为第二件事就是你之前提到的，即真正思考我们可以通过哪些方式释放现有数据的价值，这些数据有时存储在各种盒子里，并思考可以如何利用这些数据来产生让患者受益的新洞见。"
+ },
+ {
+  "seg": 539,
+  "start": 3187.275,
+  "end": 3195.297,
+  "speaker": "Unknown",
+  "en": "It is striking and incredible and humbling to realize that ChatGPT, I think, came out three years ago, roughly.",
+  "zh": "意识到 ChatGPT，我想，大约是三年前问世的，这是令人惊讶、难以置信又令人谦卑的。"
+ },
+ {
+  "seg": 540,
+  "start": 3196.077,
+  "end": 3200.258,
+  "speaker": "Unknown",
+  "en": "And so it's been a lot of progress in a very, very short period of time.",
+  "zh": "所以在非常非常短的时间内已经有了很多进展。"
+ },
+ {
+  "seg": 541,
+  "start": 3200.979,
+  "end": 3204.42,
+  "speaker": "Unknown",
+  "en": "So to even talk on a five or a 10 year basis feels academic.",
+  "zh": "所以即便以五年或十年的尺度来谈，都感觉像是纸上谈兵。"
+ },
+ {
+  "seg": 542,
+  "start": 3204.74,
+  "end": 3205.92,
+  "speaker": "Unknown",
+  "en": "But can you give us some predictions?",
+  "zh": "但你能给我们一些预测吗？"
+ },
+ {
+  "seg": 543,
+  "start": 3205.94,
+  "end": 3213.402,
+  "speaker": "Unknown",
+  "en": "I mean, is there a feature that we might have that feels science fiction today, but we could have one day, three, five, 10 years from now?",
+  "zh": "我的意思是，有没有什么功能今天感觉像科幻，但未来的某一天，三年、五年、十年后我们可能会拥有？"
+ },
+ {
+  "seg": 544,
+  "start": 3214.286,
+  "end": 3217.092,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, it is super, super hard to predict the future these days.",
+  "zh": "是的，我的意思是，如今预测未来真的非常非常难。"
+ },
+ {
+  "seg": 545,
+  "start": 3217.173,
+  "end": 3221.262,
+  "speaker": "Unknown",
+  "en": "So this is a difficult one, but what I would say is like...",
+  "zh": "所以这是个难题，但我想说的是……"
+ },
+ {
+  "seg": 546,
+  "start": 3222.068,
+  "end": 3231.036,
+  "speaker": "Unknown",
+  "en": "I think the thing that might have the most impact on human health in that kind of timeframe in the next five to 10 years is probably going to be newer treatments that come out of maybe two things.",
+  "zh": "我认为在下一个五到十年这种时间范围内，可能对人类健康影响最大的，大概是源自可能两件事的新疗法。"
+ },
+ {
+  "seg": 547,
+  "start": 3231.236,
+  "end": 3240.404,
+  "speaker": "Unknown",
+  "en": "One is AI-guided generation of new targets or molecules that could be interesting for new treatments.",
+  "zh": "其一是 AI 引导的新靶点或新分子的生成，它们可能对新的治疗有意义。"
+ },
+ {
+  "seg": 548,
+  "start": 3240.944,
+  "end": 3243.446,
+  "speaker": "Unknown",
+  "en": "And the second is AI-guided prioritization and validation.",
+  "zh": "其二是 AI 引导的优先级排序和验证。"
+ },
+ {
+  "seg": 549,
+  "start": 3243.486,
+  "end": 3246.169,
+  "speaker": "Unknown",
+  "en": "So thinking about the right ways, we're already at a point where",
+  "zh": "所以思考正确的方式，我们已经到了一个节点，"
+ },
+ {
+  "seg": 550,
+  "start": 3246.709,
+  "end": 3254.837,
+  "speaker": "Unknown",
+  "en": "The number of molecules and drugs that people want to suggest to be used in clinical trials and things like this is way more than the number of slots available in clinical trials.",
+  "zh": "人们想要推荐用于临床试验的分子和药物的数量，远远超过临床试验可用的名额数量。"
+ },
+ {
+  "seg": 551,
+  "start": 3254.857,
+  "end": 3260.983,
+  "speaker": "Unknown",
+  "en": "So thinking about the ways in which models can help prioritize and run these clinical trials so that they just run smoother and faster.",
+  "zh": "所以要思考模型能如何帮助确定这些临床试验的优先级并运行它们，让它们运行得更顺畅、更快速。"
+ },
+ {
+  "seg": 552,
+  "start": 3261.584,
+  "end": 3265.067,
+  "speaker": "Unknown",
+  "en": "My guess is in that kind of timeframe, you're talking about kind of like",
+  "zh": "我的猜测是，在那种时间范围内，你说的会是类似"
+ },
+ {
+  "seg": 553,
+  "start": 3265.848,
+  "end": 3269.31,
+  "speaker": "Unknown",
+  "en": "Improved medicines, more personalized medicines for people, things like this.",
+  "zh": "改进的药物、对人们更加个性化的药物，诸如此类的东西。"
+ },
+ {
+  "seg": 554,
+  "start": 3269.49,
+  "end": 3272.651,
+  "speaker": "Unknown",
+  "en": "And that will only be possible because you invested in those two pillars.",
+  "zh": "而这之所以可能，完全是因为你投资了那两大支柱。"
+ },
+ {
+  "seg": 555,
+  "start": 3273.231,
+  "end": 3274.132,
+  "speaker": "Unknown",
+  "en": "That is awesome.",
+  "zh": "那太棒了。"
+ },
+ {
+  "seg": 556,
+  "start": 3275.112,
+  "end": 3276.313,
+  "speaker": "Unknown",
+  "en": "Well, we've covered a lot of ground.",
+  "zh": "好的，我们聊了很多内容。"
+ },
+ {
+  "seg": 557,
+  "start": 3276.613,
+  "end": 3279.534,
+  "speaker": "Unknown",
+  "en": "I'm leaving this conversation even more optimistic than I was before.",
+  "zh": "我在结束这次对话时，比我之前更加乐观了。"
+ },
+ {
+  "seg": 558,
+  "start": 3280.294,
+  "end": 3283.256,
+  "speaker": "Unknown",
+  "en": "So Karan, thank you so much for coming on the A16Z Podcast.",
+  "zh": "那么 Karan,非常感谢你来到 A16Z Podcast。"
+ },
+ {
+  "seg": 559,
+  "start": 3283.556,
+  "end": 3284.096,
+  "speaker": "Unknown",
+  "en": "Thank you for having me.",
+  "zh": "谢谢你们邀请我。"
+ },
+ {
+  "seg": 560,
+  "start": 3286.845,
+  "end": 3289.687,
+  "speaker": "Unknown",
+  "en": "Thanks for listening to this episode of the A16Z Podcast.",
+  "zh": "感谢收听本期 A16Z Podcast。"
+ },
+ {
+  "seg": 561,
+  "start": 3290.347,
+  "end": 3296.732,
+  "speaker": "Unknown",
+  "en": "If you liked this episode, be sure to like, comment, subscribe, leave us a rating or review, and share it with your friends and family.",
+  "zh": "如果你喜欢本期节目，请务必点赞、评论、订阅，给我们评分或留下评论，并与你的朋友和家人分享。"
+ },
+ {
+  "seg": 562,
+  "start": 3297.512,
+  "end": 3301.095,
+  "speaker": "Unknown",
+  "en": "For more episodes, go to YouTube, Apple Podcasts, and Spotify.",
+  "zh": "更多节目请访问 YouTube、Apple Podcasts 和 Spotify。"
+ },
+ {
+  "seg": 563,
+  "start": 3301.655,
+  "end": 3307.339,
+  "speaker": "Unknown",
+  "en": "Follow us on X at A16Z and subscribe to our Substack at a16z.substack.com.",
+  "zh": "在 X 上关注我们 @A16Z,并订阅我们的 Substack:a16z.substack.com。"
+ },
+ {
+  "seg": 564,
+  "start": 3307.739,
+  "end": 3310.241,
+  "speaker": "Unknown",
+  "en": "Thanks again for listening, and I'll see you in the next episode.",
+  "zh": "再次感谢收听，我们下期节目再见。"
+ },
+ {
+  "seg": 565,
+  "start": 3312.353,
+  "end": 3325.278,
+  "speaker": "Unknown",
+  "en": "As a reminder, the content here is for informational purposes only, should not be taken as legal, business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any A16Z fund.",
+  "zh": "提醒一下，本内容仅供参考，不应被视为法律、商业、税务或投资建议，也不应用于评估任何投资或证券，且不面向任何 A16Z 基金的任何投资者或潜在投资者。"
+ },
+ {
+  "seg": 566,
+  "start": 3326.078,
+  "end": 3330.76,
+  "speaker": "Unknown",
+  "en": "Please note that A16Z and its affiliates may also maintain investments in the companies discussed in this podcast.",
+  "zh": "请注意，A16Z 及其关联机构也可能持有本播客中所讨论公司的投资。"
+ },
+ {
+  "seg": 567,
+  "start": 3331.26,
+  "end": 3337.923,
+  "speaker": "Unknown",
+  "en": "For more details, including a link to our investments, please see a16z.com forward slash disclosures.",
+  "zh": "更多详情，包括我们投资项目的链接，请参阅 a16z.com forward slash disclosures。"
+ }
+]

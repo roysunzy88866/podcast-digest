@@ -1,0 +1,185 @@
+{
+  "title_zh": "给机器人补课：一家公司如何把人类变成“数据工厂”",
+  "tldr": "Mecka 创始人 Josh Gao 讲述如何给人类装上传感器、采集第一人称数据，来教会机器人理解物理世界。",
+  "digest_md": "大语言模型走运：互联网上有现成的几万亿词可用。机器人没这个福气——它需要的是像素、动作和逻辑，这些数据得花钱、花人力去采集。Josh Gao 创办的 Mecka 就是为机器人补上这一课的公司：生产采集硬件、组织全球的采集者、再把数据清洗后授权给机器人基础模型公司。这期 Training Data 播客里，他和投资人 Sonya 聊了数据工厂怎么运转、机器人离进你家厨房还有多远。\n\n## 为什么“第一人称数据”是个大赌注\n\n机器人看世界的方式和人不一样，但可以教它用人的视角看。所谓“以自我为中心的数据”，就是人戴着相机、以第一人称视角录下自己做饭、打扫、干活的过程 [08:49 Unknown]。\n\n当初行业主流是遥操作——人操控机器人做示范——但很难规模化。Josh 的想法简单：**人形机器人和人长得一样，为什么不把成千上万人变成一支采集车队**，像 Tesla 用路上跑的车那样学习 [09:43 Unknown]？\n\n最早的试验品是一个手机应用，找来一堆华人叔叔阿姨录自己做家务的视频。如今已进化成整套自研硬件。\n\n## 光有视频不够，还得知道“用了多大力”\n\n拿鸡蛋要轻，拧瓶盖要巧——这些是力道，视频拍不出来。目前的替代方案是在手腕上装相机，观察手和物体接触的瞬间，但这终究是绕路 [11:01 Unknown]。\n\nJosh 认为力觉数据会极其重要。==问题是市面上根本买不到能可靠记录日常用力大小的手套==，Mecka 只能自己设计生产 [13:50 Unknown]。\n\n## 数据工厂到底怎么运转？\n\n两条路并行。对个人，下载应用、注册职业，系统派发任务——整理卧室、做早餐、收拾干净——就能开始贡献数据换钱 [12:36 Unknown]。\n\n对企业，Mecka 建了一支商务团队，按“人类所有体力劳动”的图谱去签面包店、电路板产线等各种场所。它会维护一张岗位热力图，发现哪类数据稀缺，就专门去补。\n\n真苦的是后台：硬件要自己造，要分发到成千上万个家庭和企业，有的地方专门拉了 100 千兆的上传专线，来应付几百拍字节的原始数据 [14:27 Unknown]。\n\n## 想赚钱的人多了，造假也来了\n\n质量是移动靶。真实世界的边缘情况层出不穷，上周管用的标准这周可能就失效。**最被低估的问题是欺诈：有人录下 YouTube 上“在麦当劳打工”的第一人称视频**，冒充自己的贡献提交上来 [17:10 Unknown]。\n\n对策是自动检测启发式规则加快速升级机制，还要派人到采集现场亲眼看。激励模型也得设计好，让人愿意认真干活。\n\n## 中介的利润会不会被挤没？\n\nJosh 不担心。他解释，付给贡献者的钱在整个成本里并不是大头，**护城河在于用对的硬件、运营和软件，大规模产出可验证的高质量数据** [17:48 Unknown]。\n\n而且产品会升级：从路边中餐馆的数据，逐步走向米其林餐厅；从普通网球爱好者，走向接近 Federer 水准的动作数据。越难的东西越稀缺。\n\n## 机器人离“会叠衣服”还有多远？\n\n先看一组对比：两年前学界最大的第一人称数据集 Ego4D 是 4000 小时，现在已经进入数百万小时时代 [19:31 Unknown]。听起来很多？Tesla 为解决“加速和转向”两个自由度，花了十多年、靠上百万辆车，积累的视频远不止几百万小时。而机器人一只手就有几十个自由度。\n\nJosh 的框架是不搞“一夜成功”：**先解锁约束强、有现成操作规范的任务，比如产线上的抓取和包装**，“一两年内能做到” [23:12 Unknown]。叠衣服他花了一年多还没完全攻克，但相信近期会解决。家庭反而是最难、最需要谨慎的环境——机器人绝不能摔到婴儿身上。\n\n## 会被 AGI 实验室碾压吗？\n\n最新的多模态大模型在机器人任务上表现亮眼，有人担心专业机器人公司会被“苦涩的教训”碾过去。Josh 不惊讶：训练配方里本来就加进了大量机器人数据，泛化是意料之中的事 [40:48 Unknown]。\n\n他判断**通用模型会擅长很多事，但针对特定任务的专门模型可以做到“四个 9”级别的可靠性**，两者会并存。未来的方向是全能模型：输入可以是力觉、像素，甚至极端情况下的气味，输出是动作或语音 [38:34 Unknown]。\n\n## 本集带走\n\n- 机器人训练数据的配方已初步收敛：约百万小时的人体多模态数据、数万小时 UMI 数据，再加少量最后一段的遥操作和同环境数据，但触觉、仿真等新料还会入锅 [32:58 Unknown]。\n- Mecka 的壁垒不在贡献者网络，而在自研硬件、质量门控和端到端运营。\n- 机器人落地是渐进的：先工业场景和有操作规范的受限任务，家庭最后。\n- 数据工厂的隐形敌人是造假者——连第一人称打工视频都有人盗来交差。\n- Josh 的十年预言：机器人的数量会比人多许多倍，包括会跳过小溪的“豹犬马”。",
+  "quotes": [
+    {
+      "en": "The big problem across robotics is that we don't have the luxury of the cold start that LLMs had with the internet.",
+      "zh": "机器人技术领域的大问题在于，我们没有 LLM 曾有的互联网那样的冷启动的奢侈条件。",
+      "timestamp": "01:57",
+      "speaker": "Josh Gao"
+    },
+    {
+      "en": "And so I think in the same vein for us, that is the human brain runs on just 20 watts.",
+      "zh": "所以我认为，本着同样的思路，人脑只靠 20 瓦就能运转。",
+      "timestamp": "05:04",
+      "speaker": "Josh Gao"
+    },
+    {
+      "en": "Why couldn't we turn humans into this fleet-style learning that Tesla has to be able to all contribute into understanding and ground the physics of the world?",
+      "zh": "为什么我们不能把人类变成 Tesla 那种车队式的学习，让所有人都能为理解世界物理特性并为其提供基础数据做出贡献？",
+      "timestamp": "09:50",
+      "speaker": "Josh Gao"
+    },
+    {
+      "en": "And ultimately, we're sensorizing humans, and that's the broader category.",
+      "zh": "说到底，我们是在给人类加装传感器，这是更广义的类别。",
+      "timestamp": "10:34",
+      "speaker": "Josh Gao"
+    },
+    {
+      "en": "We've had to set up these 100 gigabyte upload lines in a lot of the places that we operate in just to sustain the hundreds of petabytes of data that we have to deal with at this point.",
+      "zh": "我们不得不在我们运营的很多地方架设这些 100 GB 的上传线路，仅仅是为了支撑此时我们必须处理的数百 PB 的数据。",
+      "timestamp": "14:27",
+      "speaker": "Josh Gao"
+    },
+    {
+      "en": "We're ultimately creating data that doesn't exist yet versus when you're filtering through the internet.",
+      "zh": "我们最终是在创造尚不存在的数据，这不同于当你在过滤互联网内容的时候。",
+      "timestamp": "16:59",
+      "speaker": "Josh Gao"
+    },
+    {
+      "en": "So relatively, we're still many orders of magnitudes away from where we have to be ultimately.",
+      "zh": "所以相对而言，我们距离最终必须达到的水平还有好几个数量级。",
+      "timestamp": "20:06",
+      "speaker": "Josh Gao"
+    },
+    {
+      "en": "A lot of these pick and place, these packaging tasks that you see on assembling lines that had to be manipulation bots that couldn't be solved by traditional robotics, we will get there within the next year or two.",
+      "zh": "很多这类抓取和放置、你在装配线上看到的那些包装任务，必须是操作机器人才能做、传统机器人学解决不了的任务，我们会在未来一两年内达到那个水平。",
+      "timestamp": "23:12",
+      "speaker": "Josh Gao"
+    },
+    {
+      "en": "A joke that we make in some of our all hands in the company would be if one day Mecca was able to help deploy a robot that mines an asteroid, we've probably done a pretty good job.",
+      "zh": "我们在公司全员大会上开的一个玩笑是：如果有一天 Mecca 能帮忙部署一台开采小行星的机器人，那我们大概就干得相当不错了。",
+      "timestamp": "29:23",
+      "speaker": "Josh Gao"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "01:57",
+      "speaker": "Unknown",
+      "en": "The big problem across robotics is that we don't have the luxury of the cold start that LLMs had with the internet.",
+      "zh": "机器人技术领域的大问题在于，我们没有 LLM 曾有的互联网那样的冷启动的奢侈条件。"
+    },
+    {
+      "timestamp": "02:07",
+      "speaker": "Unknown",
+      "en": "It's pixels, it's actions, and it's logic.",
+      "zh": "它是像素，是动作，是逻辑。"
+    },
+    {
+      "timestamp": "05:04",
+      "speaker": "Unknown",
+      "en": "And so I think in the same vein for us, that is the human brain runs on just 20 watts.",
+      "zh": "所以我认为，本着同样的思路，人脑只靠 20 瓦就能运转。"
+    },
+    {
+      "timestamp": "09:50",
+      "speaker": "Unknown",
+      "en": "Why couldn't we turn humans into this fleet-style learning that Tesla has to be able to all contribute into understanding and ground the physics of the world?",
+      "zh": "为什么我们不能把人类变成 Tesla 那种车队式的学习，让所有人都能为理解世界物理特性并为其提供基础数据做出贡献？"
+    },
+    {
+      "timestamp": "10:34",
+      "speaker": "Unknown",
+      "en": "And ultimately, we're sensorizing humans, and that's the broader category.",
+      "zh": "说到底，我们是在给人类加装传感器，这是更广义的类别。"
+    },
+    {
+      "timestamp": "13:33",
+      "speaker": "Unknown",
+      "en": "But the actual data engine for the data factory is so much more sophisticated and much more painful than folks can expect.",
+      "zh": "但数据工厂的实际数据引擎比人们想象的要复杂得多，也痛苦得多。"
+    },
+    {
+      "timestamp": "13:53",
+      "speaker": "Unknown",
+      "en": "There is nothing off the shelf that you can purchase and that you can wear and that reliably tells you how much force you are applying day to day and turn that into ready data sets for these different robotics foundation models.",
+      "zh": "没有任何现成的东西可以购买、可以穿戴，并且能可靠地告诉你你每天施加了多少力，并把那转化成可供这些不同机器人基础模型使用的现成数据集。"
+    },
+    {
+      "timestamp": "14:27",
+      "speaker": "Unknown",
+      "en": "We've had to set up these 100 gigabyte upload lines in a lot of the places that we operate in just to sustain the hundreds of petabytes of data that we have to deal with at this point.",
+      "zh": "我们不得不在我们运营的很多地方架设这些 100 GB 的上传线路，仅仅是为了支撑此时我们必须处理的数百 PB 的数据。"
+    },
+    {
+      "timestamp": "16:52",
+      "speaker": "Unknown",
+      "en": "Well, I think fraud is an underestimated one across data industries in general.",
+      "zh": "嗯，我认为欺诈在整个数据行业中是被低估的一个。"
+    },
+    {
+      "timestamp": "16:59",
+      "speaker": "Unknown",
+      "en": "We're ultimately creating data that doesn't exist yet versus when you're filtering through the internet.",
+      "zh": "我们最终是在创造尚不存在的数据，这不同于当你在过滤互联网内容的时候。"
+    },
+    {
+      "timestamp": "17:10",
+      "speaker": "Unknown",
+      "en": "Yeah, very creative people where I think at one point we have folks recording YouTube videos like POV working at McDonald's and trying to submit that as contribution pretty much.",
+      "zh": "是的，非常有创造力的人，我记得有一次我们有家伙录制 YouTube 视频，比如第一视角在麦当劳工作，然后试图把那个当作贡献提交上来。"
+    },
+    {
+      "timestamp": "19:31",
+      "speaker": "Unknown",
+      "en": "I think we finally entered a world where we are in millions of hours of data.",
+      "zh": "我认为我们终于进入了一个拥有数百万小时数据的世界。"
+    },
+    {
+      "timestamp": "20:06",
+      "speaker": "Unknown",
+      "en": "So relatively, we're still many orders of magnitudes away from where we have to be ultimately.",
+      "zh": "所以相对而言，我们距离最终必须达到的水平还有好几个数量级。"
+    },
+    {
+      "timestamp": "21:06",
+      "speaker": "Unknown",
+      "en": "It is going to be a slow creep up into the world.",
+      "zh": "它将会是缓慢地逐步渗透进这个世界。"
+    },
+    {
+      "timestamp": "23:12",
+      "speaker": "Unknown",
+      "en": "A lot of these pick and place, these packaging tasks that you see on assembling lines that had to be manipulation bots that couldn't be solved by traditional robotics, we will get there within the next year or two.",
+      "zh": "很多这类抓取和放置、你在装配线上看到的那些包装任务，必须是操作机器人才能做、传统机器人学解决不了的任务，我们会在未来一两年内达到那个水平。"
+    },
+    {
+      "timestamp": "23:36",
+      "speaker": "Unknown",
+      "en": "I think people underestimate how diverse robotics can be.",
+      "zh": "我认为人们低估了机器人技术的多样性。"
+    },
+    {
+      "timestamp": "27:59",
+      "speaker": "Unknown",
+      "en": "So can you actually have the bot you installed last week do something that I didn't think was possible a few days ago even?",
+      "zh": "那么，你上周安装的那台机器人，能不能做出几天前我根本认为不可能做到的事情？"
+    },
+    {
+      "timestamp": "29:23",
+      "speaker": "Unknown",
+      "en": "A joke that we make in some of our all hands in the company would be if one day Mecca was able to help deploy a robot that mines an asteroid, we've probably done a pretty good job.",
+      "zh": "我们在公司全员大会上开的一个玩笑是：如果有一天 Mecca 能帮忙部署一台开采小行星的机器人，那我们大概就干得相当不错了。"
+    },
+    {
+      "timestamp": "34:14",
+      "speaker": "Unknown",
+      "en": "I love the analogy of AlphaGo, ultimately.",
+      "zh": "我很喜欢 AlphaGo 这个类比，最终来说。"
+    },
+    {
+      "timestamp": "42:42",
+      "speaker": "Unknown",
+      "en": "Many, many times more than there are people.",
+      "zh": "比人口多很多很多倍。"
+    }
+  ],
+  "voice_script": "今天要讲的公司叫 Mecka,创始人叫 Josh Gao。这期 Training Data 播客里,他和投资人 Sonya 聊了一件事:怎么教会机器人理解物理世界。这事听起来玄,但背后的逻辑特别朴素。你知道大语言模型为什么发展这么快吗?因为运气好——互联网上现成就有几万亿词的数据,拿来就能训练。机器人可没这个福气。机器人需要的是像素、动作、还有力道这些数据,而互联网上压根没有现成的,得花钱、花人力去一点点采集。用 Josh 自己的话说,机器人领域的大问题在于,没有大语言模型那种冷启动的奢侈条件。Mecka 干的就是给机器人补这一课:生产采集硬件,组织全球的采集者,把数据清洗干净再授权给做机器人基础模型的公司。\n\n那具体怎么采?行业里原本的主流做法叫遥操作,就是人操控着机器人做示范,让它学着做。但这个办法有个致命问题:没法规模化。Josh 的想法很简单,人形机器人和人长得一样,那为什么不把成千上万的普通人变成一支采集车队?就像 Tesla 靠路上跑的百万辆车来学习驾驶一样,让所有人为理解世界的物理特性贡献数据。用他的话说,这是在给人类加装传感器。\n\n最早试水的产品其实是一个手机应用,找来一群华人叔叔阿姨,录自己在家做家务的视频。到今天,已经进化成整套自研的采集硬件了。\n\n不过光有视频还不够。你想想,拿鸡蛋要轻,拧瓶盖要巧——这些关键信息是力道,是力觉,视频是拍不出来的。现在的替代方案是在手腕上装相机,观察手和物体接触的那一瞬间,但这终究是绕路。Josh 认为力觉数据会极其重要,可问题是,市面上根本买不到能可靠记录日常用力大小的手套。怎么办?只能自己设计、自己生产。这也是这家公司的一个缩影:别人不做的,就得自己造。\n\n数据到底怎么收上来?两条路并行。对个人来说,下载应用、注册职业,系统派任务给你——整理卧室、做早餐、收拾干净——干完就能换钱。对企业,则是一支商务团队,按着\"人类所有体力劳动\"这么一张图谱,去签下面包店、电路板产线各种场所。背后还有一张岗位热力图,哪类数据稀缺,就专门去补哪块。真苦的是后台:硬件自己造,还要分发到成千上万个家庭和企业。为了应付几百拍字节的原始数据,很多运营的地方专门拉了 100 千兆的上传专线。听听这个量级,就知道这不是个轻巧的生意。\n\n而只要有想赚钱的人,造假就会跟过来。质量本来就是移动靶——真实世界的边缘情况层出不穷,上周管用的标准,这周可能就失效了。但最被低估的问题其实是欺诈。有人直接录下 YouTube 上\"在麦当劳打工\"的第一人称视频,冒充自己的贡献交上来。想想都离谱,连第一人称打工视频都有人盗。对策是自动检测规则加上快速升级机制,还得派人到采集现场亲眼盯着,激励模型也要设计得让人愿意认真干活。\n\n说到商业模式,可能有人担心:这种中介的利润会不会被挤没?Josh 一点不担心。付给贡献者的钱在整个成本里并不是大头,真正的护城河在于——用对的硬件、运营和软件,大规模产出可验证的高质量数据。说白了,是在创造尚不存在的数据,这跟过滤互联网内容完全是两回事。而且产品还会不断升级:从路边中餐馆的数据,逐步走向米其林餐厅;从普通网球爱好者,走向接近 Federer 水准的动作数据。越难的东西,越稀缺。\n\n那机器人离\"会叠衣服\"还有多远?先看一组对比。两年前,学界最大的第一人称数据集 Ego4D 是 4000 小时,现在已经进入数百万小时时代。听起来很多对吧?但别忘了,Tesla 为解决\"加速和转向\"这么两个自由度,花了十多年、靠上百万辆车,积累的视频远不止几百万小时。而机器人光一只手就有几十个自由度。所以 Josh 的态度是不搞一夜成功:先解锁那些约束强、有现成操作规范的任务,比如产线上的抓取和包装,一两年内能做到。叠衣服,已经花了一年多还没完全攻克,但相信近期会解决。而家庭反而是最难、最需要谨慎的环境——机器人绝不能摔到婴儿身上。\n\n还有人问,会不会被 AGI 实验室碾压?最新的多模态大模型在机器人任务上表现确实亮眼,有人担心专业公司会被\"苦涩的教训\"碾过去。Josh 对此不惊讶——训练配方里本来就加进了大量机器人数据,泛化是意料之中的事。他的判断是,通用模型会擅长很多事,但针对特定任务的专门模型,可以做到\"四个 9\"级别的可靠性,两者会并存。未来更全能的模型,输入可以是力觉、像素,甚至极端情况下的气味,输出直接是动作或语音。\n\n最后带走一句话。这一集讲下来,你会发现 Mecka 真正的壁垒,不在于那个贡献者网络,而在于自研的硬件、质量门控和端到端的运营——这件事没人替它做,所以没人能轻易抄走。给人类装上传感器,把千千万万普通人的日常劳动,变成机器人理解世界的第一课。"
+}

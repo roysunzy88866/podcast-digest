@@ -1,0 +1,185 @@
+{
+  "title_zh": "当3亿人把健康问题交给ChatGPT",
+  "tldr": "OpenAI健康AI负责人Karan Singhal讲述ChatGPT如何成为你的贴身健康顾问，以及AI能否修复医疗系统的老毛病。",
+  "digest_md": "Karan Singhal在OpenAI负责健康AI研究。在这期The a16z Show里，他和a16z合伙人Jay Rugani聊了一个问题：==当每周已有超过3亿人用ChatGPT问健康问题时，AI接下来会走到哪一步==？答案涉及信任、成本，甚至围棋里的那手“第37手棋”。\n\n## 3亿人每周在问ChatGPT什么？\n\n现状是这样的：在美国看个专科医生，可能要等上几周甚至几个月，最后换来15分钟的问诊，走出诊室才想起还有6个问题没问。超过1亿人没有固定的初级保健医生，有医生的人平均也要等40多天才能见上一面 [04:49 Jay]。\n\nKaran说，人们正是在两次就诊之间的这些空档里最需要帮助——理解检查报告、弄清医生交代的事项、决定要不要去做个检查。ChatGPT现在扮演的就是这个角色。\n\n他讲了一个让他印象最深的案例：播客主持人Nathan LeBenz年幼的儿子持续疲劳、易怒，是AI反复提醒他们“这事很严重，去做检查”，最终孩子被确诊为一种侵袭性白血病。在漫长的治疗过程中，他们还用GPT-5 Pro帮忙解读化验单——有时甚至早于专科医生 [06:00 Karan]。\n\n## 为什么不做专门的“医疗大模型”？\n\n很多人以为医疗AI应该是单独训练一个专业模型。Karan之前的工作正是做专用模型，但OpenAI选了另一条路：在通用模型的每一个训练阶段，都加入专门的医疗数据。\n\n他的理由很直接：如果单独训一个小的专用模型，它会很快落后于前沿——通用模型进步太快了。搭上通用模型的快车，再往里注入医生数据，等于“两全其美” [07:23 Karan]。\n\n## 医生用ChatGPT，你该高兴还是担心？\n\n想象一下：你走进诊室，看到医生屏幕上开着ChatGPT。Karan的判断是，公众态度正在实时转变——未来患者和医生可能都会因为有AI在场而觉得更安全，而不是更不安 [34:59 Karan]。\n\na16z的Greg Brockman讲过一个例子：一位住院的朋友在用药前用ChatGPT查了一下，发现自己病史会导致药物相互作用，医生承认“我没时间翻完你的全部病历” [10:35 Jay]。Karan把这称为AI的“安全网”角色：不取代谁，而是帮双方查漏补缺。\n\nOpenAI还与Epic（美国主流电子病历系统）打通：医生可以在病历系统里直接用ChatGPT，也可以在ChatGPT里调取Epic数据。UCSF和AdventHealth是深度合作伙伴 [34:03 Karan]。\n\n## 用户想听安慰，但需要听到真相，怎么办？\n\n这是信任问题里最棘手的一环。一个用户描述完症状，内心希望听到“没事的”，但从医学角度，他可能需要听到完全不同的话。\n\nKaran的解法有两个。第一，不依赖少数几位医生定标准——OpenAI建了一个覆盖全球数百名医生、数十个专科和语言的专家网络，用集体智慧来裁决争议场景 [18:06 Karan]。第二，安全优先：模型在危险场景下必须说“这不安全，你需要就医”，哪怕用户不想听 [18:42 Karan]。\n\n对于医学界自己都没定论的问题，答案则是诚实——模型要能识别自己的不确定性，坦率地说证据还不够。\n\n## 新知识要17年才能到诊所，AI能压缩到几小时\n\n医疗界有个惊人的数字：新的临床指南要渗透到一线医生的日常实践，根据不同研究需要5到17年 [21:57 Karan]。换句话说，你看到的医生可能按十几年前的标准在看病。\n\nKaran认为**AI能把这段时间压缩到几周、几天甚至几小时**——医生在15分钟的问诊里，就能当场查到最新的医学文献。这是OpenAI面向临床医生的产品“ChatGPT for clinicians”的核心思路。\n\n## 医疗界的“第37手棋”会出现吗？\n\nAlphaGo对李世石那局著名的“第37手棋”，当下看是昏招，事后看是天才之作。Karan的团队在寻找健康领域的第37手棋：AI做出人类专家无法理解的预测，事后被证明正确且深刻。\n\n目前已有雏形。在与PandaHealth合作的实验中，AI作为医生的副驾驶，最常标记出的问题是抗生素滥用——提醒医生别只盯着眼前这个病人，要考虑全球的耐药性问题 [39:59 Karan]。\n\n他预测的终极形态是：模型整合一个人10年的全部健康数据，做出人类大脑根本无法完成的预测。\n\n## 5.3万亿美元的医疗账单，AI能砍掉多少？\n\n美国每年医疗支出超过5.3万亿美元，单拎出来能排全球第三大经济体，医疗也是美国最大的雇主行业 [42:55 Jay]。\n\nKaran的成本逻辑体现在一个数字上：最新发布的GPT-6 Luna是最便宜的前沿模型，却在医生工作流基准测试HealthBench Professional上超过了仅一个月前的最强模型，而且便宜34倍 [44:35 Karan]。他的赌注是：医疗智能的价格会持续暴跌，最终成为人人可用的公共品。\n\n但他也坦承，AI还没对宏观医疗支出产生影响。真正的省钱要靠和工作流、行政系统的深度整合——比如保险公司和医院之间用AI互相对峙的“文书军备竞赛”（据节目中提到的分析，一年多花了约10亿美元），在他看来完全可以用AI直接基于就诊记录仲裁来避免 [47:02 Karan]。\n\n## 本集带走\n\n- 每周超过3亿人用ChatGPT问健康问题，大多数是免费用户，且大多在美国之外；AI最大的价值在两次就诊之间的空档。\n- OpenAI的路线是把医疗专长训进通用模型，而不是单独做医疗模型，让专业能力跟着前沿一起进步。\n- 信任靠全球数百名医生组成的专家网络来定标准和裁决争议，安全永远优先于用户想听的安慰话。\n- 新临床指南普及到一线实践需要5到17年，AI有望把这个过程压缩到几天甚至几小时。\n- AI不取代医生：它做安全网和“四分卫”，未来的突破可能在于整合个人多年健康数据、做出人类无法完成的预测——医疗界的“第37手棋”。",
+  "quotes": [
+    {
+      "en": "One is that we can raise the floor of human health and give people access to trustworthy, abundant, reliable health intelligence for free or nearly free and really raise the ceiling as well and make things possible that weren't possible before.",
+      "zh": "一是能够提高人类健康的下限,让人们免费或近乎免费地获得值得信赖的、丰富的、可靠的健康智能,同时也真正提高上限,让以前不可能的事情成为可能。",
+      "timestamp": "03:21",
+      "speaker": "Karan Singhal"
+    },
+    {
+      "en": "Over 100 million people don't have access to a regular primary care doc.",
+      "zh": "超过一亿人没有固定的初级保健医生。",
+      "timestamp": "05:01",
+      "speaker": "Jay Rugani"
+    },
+    {
+      "en": "And we're finding that in between these visits is when AI can help people most in the consumer side.",
+      "zh": "我们发现在消费者端,在这些就诊的间隙正是 AI 最能帮助人们的时候。",
+      "timestamp": "04:41",
+      "speaker": "Karan Singhal"
+    },
+    {
+      "en": "If you kind of forked and said, hey, we're going to train a kind of smaller, specialized model that is just for healthcare, like I used to and like many people have, what you'd find is that model would just kind of fall behind the frontier relatively quickly because the pace of the frontier and the general model improvements is so fast.",
+      "zh": "如果你分叉出去说:嘿,我们要训练一个只用于医疗健康的更小的专门化模型,就像我以前做的那样、像很多人做过的那样,你会发现那个模型会相对较快地落后于前沿,因为前沿和通用模型改进的速度是如此之快。",
+      "timestamp": "07:52",
+      "speaker": "Karan Singhal"
+    },
+    {
+      "en": "So it turns out if you ask five physicians or something like this, any question, you'll get like eight different answers.",
+      "zh": "结果证明,如果你拿任何问题去问五位医生之类的,你会得到大概八个不同的答案。",
+      "timestamp": "17:51",
+      "speaker": "Karan Singhal"
+    },
+    {
+      "en": "So, you know, of the 1.2 billion people who use ChatGPT weekly, I'm giving them a model for health that is just like incredibly useful at the frontier for free.",
+      "zh": "在每周使用 ChatGPT 的 12 亿人中,我免费为他们提供一个在健康方面极其有用的前沿模型。",
+      "timestamp": "24:32",
+      "speaker": "Karan Singhal"
+    },
+    {
+      "en": "And it performs better despite being 34 times cheaper.",
+      "zh": "而且它的表现更好,尽管便宜了 34 倍。",
+      "timestamp": "44:32",
+      "speaker": "Karan Singhal"
+    },
+    {
+      "en": "And so one bet we've had at OpenAI is that the cost of health intelligence will plummet at a given level of health intelligence.",
+      "zh": "所以我们在 OpenAI 的一个押注是,在给定的健康智能水平下,健康智能的成本将会暴跌。",
+      "timestamp": "44:49",
+      "speaker": "Karan Singhal"
+    },
+    {
+      "en": "And the most important thing is bet that those models will become more capable.",
+      "zh": "最重要的是押注这些模型会变得更有能力。",
+      "timestamp": "48:43",
+      "speaker": "Karan Singhal"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "03:21",
+      "speaker": "Karan Singhal",
+      "en": "One is that we can raise the floor of human health and give people access to trustworthy, abundant, reliable health intelligence for free or nearly free and really raise the ceiling as well and make things possible that weren't possible before.",
+      "zh": "一是能够提高人类健康的下限,让人们免费或近乎免费地获得值得信赖的、丰富的、可靠的健康智能,同时也真正提高上限,让以前不可能的事情成为可能。"
+    },
+    {
+      "timestamp": "05:00",
+      "speaker": "Jay Rugani",
+      "en": "Over 100 million people don't have access to a regular primary care doc.",
+      "zh": "超过一亿人没有固定的初级保健医生。"
+    },
+    {
+      "timestamp": "05:17",
+      "speaker": "Jay Rugani",
+      "en": "I wrote down all my questions beforehand in an Apple Notes and I still forgot to ask something.",
+      "zh": "我提前在 Apple Notes 里写下了所有的问题,但我还是忘了问一个。"
+    },
+    {
+      "timestamp": "04:41",
+      "speaker": "Karan Singhal",
+      "en": "And we're finding that in between these visits is when AI can help people most in the consumer side.",
+      "zh": "我们发现在消费者端,在这些就诊的间隙正是 AI 最能帮助人们的时候。"
+    },
+    {
+      "timestamp": "07:52",
+      "speaker": "Karan Singhal",
+      "en": "If you kind of forked and said, hey, we're going to train a kind of smaller, specialized model that is just for healthcare, like I used to and like many people have, what you'd find is that model would just kind of fall behind the frontier relatively quickly because the pace of the frontier and the general model improvements is so fast.",
+      "zh": "如果你分叉出去说:嘿,我们要训练一个只用于医疗健康的更小的专门化模型,就像我以前做的那样、像很多人做过的那样,你会发现那个模型会相对较快地落后于前沿,因为前沿和通用模型改进的速度是如此之快。"
+    },
+    {
+      "timestamp": "08:07",
+      "speaker": "Karan Singhal",
+      "en": "And if you bet on scale, what we found as OpenAI as an industry is that things will get better.",
+      "zh": "而如果你押注于规模,正如我们 OpenAI 以及整个行业所发现的,事情会变得更好。"
+    },
+    {
+      "timestamp": "09:24",
+      "speaker": "Karan Singhal",
+      "en": "I don't think that's any kind of replacement for actually having a doctor or having access to a doctor, but really thinking about the ways in which we can take that experience of getting health information and making it more personal to kind of your context is a really important part of kind of our investment in health and ChatGPT, which is kind of consumer offering that we have that enables",
+      "zh": "我不认为那是实际拥有医生或获得医生服务的任何替代品,但真正思考我们如何能把获取健康信息的体验变得更贴合你的个人背景,这是我们在健康和 ChatGPT 方面投入的一个非常重要的部分。"
+    },
+    {
+      "timestamp": "11:20",
+      "speaker": "Karan Singhal",
+      "en": "Yeah, I love this idea of a kind of safety net for both patients and clinicians that is just kind of there in the care journey and, you know, not always interfering or being the middleman, but like really thinking about the ways in which you can augment the existing experience and build on it.",
+      "zh": "是的,我喜欢这种为患者和临床医生提供安全保障的想法,它就存在于诊疗旅程之中,不总是干扰或当中间人,而是真正思考你如何能增强现有体验并在其上构建。"
+    },
+    {
+      "timestamp": "17:51",
+      "speaker": "Karan Singhal",
+      "en": "So it turns out if you ask five physicians or something like this, any question, you'll get like eight different answers.",
+      "zh": "结果证明,如果你拿任何问题去问五位医生之类的,你会得到大概八个不同的答案。"
+    },
+    {
+      "timestamp": "18:06",
+      "speaker": "Karan Singhal",
+      "en": "You know, dozens of specialties and languages and countries of practice to think about the right ways to kind of aggregate the wisdom of experts so that we weren't relying, especially in areas where there could be disagreement, we weren't relying on one or two or three physicians to kind of adjudicate.",
+      "zh": "几十个专科、语言和执业国家合作,去思考聚合专家智慧的正确方式,这样我们就不用——尤其是在可能存在分歧的领域——依赖一两名或三名医生来做裁决。"
+    },
+    {
+      "timestamp": "21:57",
+      "speaker": "Karan Singhal",
+      "en": "And in the past, people have found that this takes, depending on the study, like five to 17 years for that for that penetration to actually happen.",
+      "zh": "而过去人们发现,根据研究的不同,这种渗透实际发生需要五到十七年。"
+    },
+    {
+      "timestamp": "22:05",
+      "speaker": "Karan Singhal",
+      "en": "You don't want to be practicing medicine five to 17 years behind.",
+      "zh": "你不会想落后五到十七年来行医。"
+    },
+    {
+      "timestamp": "09:58",
+      "speaker": "Karan Singhal",
+      "en": "So we've actually from the beginning been deploying this as widely as possible to our free users as well as our pro users.",
+      "zh": "所以我们实际上从一开始就以尽可能广的范围部署这个,既面向我们的免费用户,也面向我们的专业用户。"
+    },
+    {
+      "timestamp": "24:32",
+      "speaker": "Karan Singhal",
+      "en": "So, you know, of the 1.2 billion people who use ChatGPT weekly, I'm giving them a model for health that is just like incredibly useful at the frontier for free.",
+      "zh": "在每周使用 ChatGPT 的 12 亿人中,我免费为他们提供一个在健康方面极其有用的前沿模型。"
+    },
+    {
+      "timestamp": "31:25",
+      "speaker": "Karan Singhal",
+      "en": "Yeah, no, I don't think AI can or will provide all of that.",
+      "zh": "嗯,不,我不认为 AI 能够或将会提供所有这些。"
+    },
+    {
+      "timestamp": "31:33",
+      "speaker": "Karan Singhal",
+      "en": "And so I think the way we see our role here is really to enable the whole ecosystem because there's no future where, you know, any one company is delivering all the medical care, right?",
+      "zh": "所以我认为我们看待自身角色的方式是真正赋能整个生态系统,因为不存在任何一家公司提供全部医疗护理的未来,对吧?"
+    },
+    {
+      "timestamp": "44:32",
+      "speaker": "Karan Singhal",
+      "en": "And it performs better despite being 34 times cheaper.",
+      "zh": "而且它的表现更好,尽管便宜了 34 倍。"
+    },
+    {
+      "timestamp": "44:49",
+      "speaker": "Karan Singhal",
+      "en": "And so one bet we've had at OpenAI is that the cost of health intelligence will plummet at a given level of health intelligence.",
+      "zh": "所以我们在 OpenAI 的一个押注是,在给定的健康智能水平下,健康智能的成本将会暴跌。"
+    },
+    {
+      "timestamp": "48:43",
+      "speaker": "Karan Singhal",
+      "en": "And the most important thing is bet that those models will become more capable.",
+      "zh": "最重要的是押注这些模型会变得更有能力。"
+    },
+    {
+      "timestamp": "40:48",
+      "speaker": "Karan Singhal",
+      "en": "And I think that would rise to the occasion of being called the Move 37.",
+      "zh": "而我认为那将足以被称为 Move 37。"
+    }
+  ],
+  "voice_script": "今天聊一个人和一件很大的事。人是Karan Singhal，OpenAI健康AI研究的负责人，也就是说，ChatGPT里那些跟健康、跟看病有关的能力，背后就是这支团队在做。事是这么一件事：现在每周已经有超过三亿人，在用ChatGPT问健康问题。睡不着觉查症状、看不懂化验单、不知道该不该去做个检查，全都先问问AI。那接下来AI在健康这件事上会走到哪一步？能不能真的把医疗系统那些老毛病修一修？这就是这一期要讲的问题。\n\n先交代一下背景，为什么这事现在这么值得聊。美国的医疗系统，用起来其实很痛苦。你想看个专科医生，可能要等几周甚至几个月，见了面，也就十五分钟的问诊，走出诊室才想起来，还有六个问题没来得及问。更夸张的是，超过一亿美国人根本没有固定的初级保健医生；有医生的，平均也要等四十多天才能见上一面。\n\n那这些空出来的时间怎么办？Karan有个观察：人们最需要帮助的时刻，恰恰就是两次就诊之间的那些空档——拿到检查报告看不懂，医生交代了一堆事项记不全，犹豫要不要去做个检查。ChatGPT现在扮演的就是这个角色。\n\n这事有多真实？有个案例让人印象很深。一位播客主持人，年幼的儿子持续疲劳、容易发脾气，家长本来没太当回事，是AI反复提醒他们：这事很严重，去做检查。最后孩子确诊了一种侵袭性白血病。在后面漫长的治疗过程中，一家人还一直用GPT-5 Pro帮忙解读化验单，有时候甚至比专科医生还早看出问题。\n\n听到这你可能会想，那是不是该单独训一个\"医疗大模型\"，专门给看病用？很多人确实这么想，Karan以前的工作恰恰就是做这种专用模型。但OpenAI选了另一条路：不做单独的模型，而是在通用模型的每一个训练阶段，都掺进专门的医疗数据。理由很直接——如果你分叉出去，训一个只用于医疗的更小的专门模型，它会很快落后于前沿，因为通用模型进步的速度实在太快了。搭上通用模型的快车，再往里注入医生的数据，等于两全其美。\n\n顺着这条路，就引出一个很多人想过的问题：假如你走进诊室，看见医生屏幕上开着ChatGPT，你是高兴还是担心？Karan的判断是，公众的态度正在实时转变——未来，患者和医生可能都会因为有AI在场而觉得更安全，而不是更不安。\n\n为什么这么说？举个例子。有个住院的人，在用药之前用ChatGPT查了一下，结果发现自己的病史会导致药物相互作用，赶紧去问，医生也承认：我没时间翻完你的全部病历。Karan把这叫做AI的\"安全网\"角色——不取代谁，而是帮双方查漏补缺。OpenAI还跟Epic打通了，Epic是美国主流的电子病历系统，医生可以在病历系统里直接用ChatGPT，也能反过来在ChatGPT里调取病历数据。\n\n不过，信任这件事里还有最棘手的一环。用户描述完症状，内心其实希望听到一句\"没事的\"，但从医学角度，可能需要听到完全不同的话。这怎么平衡？解法有两个。第一，不靠少数几位医生定标准——事实上，拿同一个问题去问五位医生，大概会得到八个不同的答案。所以OpenAI建了一个覆盖全球数百名医生、几十个专科和语言的专家网络，用集体智慧来裁决争议场景。第二，安全永远优先：在危险的场景下，模型必须说\"这不安全，你需要就医\"，哪怕用户不想听。至于医学界自己都没定论的问题，答案就是诚实——模型要能识别自己的不确定性，坦率承认证据还不够。\n\n接下来这个数字，可能是整期最惊人的。医疗界有个说法：一条新的临床指南，从发布出来，到真正渗透进一线医生的日常实践，不同研究给出的时间是五到十七年。换句话说，你看的医生，很可能在按十几年前的标准给你看病。Karan认为，AI能把这段时间压缩到几周、几天，甚至几小时——医生在十五分钟的问诊里，就能当场查到最新的医学文献。这也是OpenAI面向临床医生的产品\"ChatGPT for clinicians\"的核心思路。\n\n那更远的未来是什么样的？这里要提一个围棋里的典故。当年AlphaGo对李世石，下出过著名的一手\"第37手棋\"——当下所有人都觉得是昏招，事后看是天才之作。Karan的团队就在找健康领域的第37手棋：AI做出人类专家看不懂的预测，事后被证明正确而且深刻。目前已经有雏形。在一个合作实验里，AI作为医生的副驾驶，最常标记出的问题是抗生素滥用——提醒医生别只盯着眼前这一个病人，要考虑全球范围的耐药性问题。而终极形态，是模型整合一个人十年的全部健康数据，做出人脑根本无法完成的预测。\n\n最后说钱的事。美国每年的医疗支出超过五点三万亿美元，单拎出来能排全球第三大经济体，医疗还是美国最大的雇主行业。AI能砍掉多少？Karan的成本逻辑体现在一个数字上：最新发布的GPT-6 Luna是最便宜的前沿模型，却在医生工作流的基准测试上超过了仅一个月前的最强模型，而且便宜三十四倍。赌注就是：医疗智能的价格会持续暴跌，最终变成人人可用的公共品。不过他也坦承，AI到现在还没对宏观医疗支出产生真正的影响。真正的省钱，得靠跟工作流和行政系统深度整合——比如保险公司和医院之间用AI互相对峙，一年多烧掉约十亿美元的\"文书军备竞赛\"，在Karan看来，完全可以由AI直接基于就诊记录来仲裁，根本不用打这场仗。\n\n整期听下来，Karan对自己的定位其实很清楚：一边提高人类健康的下限，让人们免费或近乎免费地获得值得信赖的健康智能；一边提高上限，让以前不可能的事情成为可能。AI不取代医生，它做的是安全网，是那道查漏补缺的防线。"
+}
