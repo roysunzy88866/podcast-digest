@@ -1,0 +1,28 @@
+{
+  "id": "2026-10-11-talks-vector-isn-t-enough-hybrid-search-retrie",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/ksjwtQop4os.m4a",
+  "duration_sec": 4561.669,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 868,
+  "asr": true,
+  "title_en": "Vector Isn't Enough: Hybrid Search & Retrieval — Jeff Vestal & James Williams, Elastic",
+  "podcast": "精选演讲",
+  "date": "2026-10-11",
+  "added": "2026-10-20",
+  "added_at": "2026-10-20T06:33:04.990Z",
+  "speaker_map": {
+    "SPEAKER_01": "Jeff Vestal",
+    "SPEAKER_02": "James Williams"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Jeff Vestal",
+    "James Williams"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "只靠向量搜索不够：两位 Elastic 架构师聊混合检索的门道",
+  "guest_name": "Jeff Vestal",
+  "guest_title": "Elastic AI 架构师",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=spliced"
+}

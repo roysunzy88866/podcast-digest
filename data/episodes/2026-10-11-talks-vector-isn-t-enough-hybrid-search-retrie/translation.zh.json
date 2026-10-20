@@ -1,0 +1,6946 @@
+[
+ {
+  "seg": 0,
+  "start": 13.042,
+  "end": 13.683,
+  "speaker": "Unknown",
+  "en": "Thank you for coming.",
+  "zh": "感谢各位前来。"
+ },
+ {
+  "seg": 1,
+  "start": 14.323,
+  "end": 15.184,
+  "speaker": "Unknown",
+  "en": "My name is Jeff Estill.",
+  "zh": "我叫 Jeff Estill。"
+ },
+ {
+  "seg": 2,
+  "start": 15.204,
+  "end": 16.105,
+  "speaker": "Unknown",
+  "en": "I work at Elastic.",
+  "zh": "我在 Elastic 工作。"
+ },
+ {
+  "seg": 3,
+  "start": 16.225,
+  "end": 18.888,
+  "speaker": "Unknown",
+  "en": "I am an AI architect.",
+  "zh": "我是一名 AI 架构师。"
+ },
+ {
+  "seg": 4,
+  "start": 18.908,
+  "end": 21.891,
+  "speaker": "Unknown",
+  "en": "We picked a new title this year, so make it relevant.",
+  "zh": "我们今年换了一个新标题,所以让它切题一点。"
+ },
+ {
+  "seg": 5,
+  "start": 22.491,
+  "end": 23.412,
+  "speaker": "Unknown",
+  "en": "This is James.",
+  "zh": "这是 James。"
+ },
+ {
+  "seg": 6,
+  "start": 23.452,
+  "end": 24.253,
+  "speaker": "Unknown",
+  "en": "Want to hear yourself?",
+  "zh": "想听听自己的声音吗?"
+ },
+ {
+  "seg": 7,
+  "start": 24.553,
+  "end": 25.734,
+  "speaker": "Unknown",
+  "en": "Yeah, I'm James Williams.",
+  "zh": "好的,我是 James Williams。"
+ },
+ {
+  "seg": 8,
+  "start": 25.935,
+  "end": 29.018,
+  "speaker": "Unknown",
+  "en": "I'm a solutions architect focused on search.",
+  "zh": "我是一名专注于搜索领域的解决方案架构师。"
+ },
+ {
+  "seg": 9,
+  "start": 29.318,
+  "end": 33.442,
+  "speaker": "Unknown",
+  "en": "So I help customers with all the technical stuff you're about to walk through today.",
+  "zh": "我帮助客户解决你们今天将要走一遍的所有技术问题。"
+ },
+ {
+  "seg": 10,
+  "start": 34.766,
+  "end": 39.15,
+  "speaker": "Unknown",
+  "en": "So this is a very hands-on, as in I do not intend to talk much.",
+  "zh": "所以这是一场非常动手的实操,也就是说我不打算多讲。"
+ },
+ {
+  "seg": 11,
+  "start": 39.43,
+  "end": 42.833,
+  "speaker": "Unknown",
+  "en": "I've been talking a lot lately on the road, so we're going to have me not talk a lot.",
+  "zh": "我最近在路上已经讲了很多了,所以我们要让我少讲一点。"
+ },
+ {
+  "seg": 12,
+  "start": 43.314,
+  "end": 44.895,
+  "speaker": "Unknown",
+  "en": "We're going to go through hands-on stuff.",
+  "zh": "我们会做一些动手的内容。"
+ },
+ {
+  "seg": 13,
+  "start": 45.376,
+  "end": 49.019,
+  "speaker": "Unknown",
+  "en": "I will say, in the upper right corner, you'll see that short URL.",
+  "zh": "我要说一下,在右上角,你会看到那个短网址。"
+ },
+ {
+  "seg": 14,
+  "start": 49.56,
+  "end": 51.221,
+  "speaker": "Unknown",
+  "en": "It's an ELA elastic.",
+  "zh": "它是 ELA elastic。"
+ },
+ {
+  "seg": 15,
+  "start": 51.762,
+  "end": 53.183,
+  "speaker": "Unknown",
+  "en": "This is the workshop environment.",
+  "zh": "这是本次工作坊的环境。"
+ },
+ {
+  "seg": 16,
+  "start": 56.09,
+  "end": 56.61,
+  "speaker": "Unknown",
+  "en": "Quick note.",
+  "zh": "快速说明一下。"
+ },
+ {
+  "seg": 17,
+  "start": 56.69,
+  "end": 58.431,
+  "speaker": "Unknown",
+  "en": "So they never told me how many people were coming.",
+  "zh": "他们从来没有告诉我有多少人会来。"
+ },
+ {
+  "seg": 18,
+  "start": 58.451,
+  "end": 60.211,
+  "speaker": "Unknown",
+  "en": "So I took a random guess of 75.",
+  "zh": "所以我随机猜了 75 人。"
+ },
+ {
+  "seg": 19,
+  "start": 60.251,
+  "end": 61.732,
+  "speaker": "Unknown",
+  "en": "Looks like I undershot a bit.",
+  "zh": "看起来我低估了一点。"
+ },
+ {
+  "seg": 20,
+  "start": 62.212,
+  "end": 66.073,
+  "speaker": "Unknown",
+  "en": "So 75 of you will start up pretty quickly.",
+  "zh": "所以你们中的 75 位会相当快地启动起来。"
+ },
+ {
+  "seg": 21,
+  "start": 66.334,
+  "end": 72.496,
+  "speaker": "Unknown",
+  "en": "The other handful that are a little slower on the trigger here, it's just a few extra minutes to start up.",
+  "zh": "其他几位手慢了一拍的人,只是需要多几分钟来启动。"
+ },
+ {
+  "seg": 22,
+  "start": 72.556,
+  "end": 75.837,
+  "speaker": "Unknown",
+  "en": "But basically, this is going to take you to an instruct environment.",
+  "zh": "但基本上,这会带你们进入一个 instruct 环境。"
+ },
+ {
+  "seg": 23,
+  "start": 77.157,
+  "end": 78.098,
+  "speaker": "Unknown",
+  "en": "And then I'll give a little intro.",
+  "zh": "然后我会做一个简单的介绍。"
+ },
+ {
+  "seg": 24,
+  "start": 78.118,
+  "end": 79.718,
+  "speaker": "Unknown",
+  "en": "I'm just giving this spiel while it goes.",
+  "zh": "我只是趁它启动的时候讲这段话。"
+ },
+ {
+  "seg": 25,
+  "start": 81.339,
+  "end": 84.9,
+  "speaker": "Unknown",
+  "en": "We'll go to this.",
+  "zh": "我们会进入这个页面。"
+ },
+ {
+  "seg": 26,
+  "start": 85.34,
+  "end": 86.84,
+  "speaker": "Unknown",
+  "en": "You're going to go here, and then you'll hit Start.",
+  "zh": "你们会来到这里,然后点击 Start。"
+ },
+ {
+  "seg": 27,
+  "start": 86.98,
+  "end": 89.001,
+  "speaker": "Unknown",
+  "en": "And that's going to spin up an environment for you.",
+  "zh": "那会为你们启动一个环境。"
+ },
+ {
+  "seg": 28,
+  "start": 89.361,
+  "end": 95.102,
+  "speaker": "Unknown",
+  "en": "So while that's doing it, so how many people are familiar with Elastic, the company?",
+  "zh": "趁它在启动的时候,有多少人了解 Elastic 这家公司?"
+ },
+ {
+  "seg": 29,
+  "start": 95.602,
+  "end": 96.742,
+  "speaker": "Unknown",
+  "en": "Elastic, Elasticsearch?",
+  "zh": "Elastic、Elasticsearch?"
+ },
+ {
+  "seg": 30,
+  "start": 97.663,
+  "end": 98.363,
+  "speaker": "Unknown",
+  "en": "All right, pretty good.",
+  "zh": "好,相当不错。"
+ },
+ {
+  "seg": 31,
+  "start": 98.583,
+  "end": 100.083,
+  "speaker": "Unknown",
+  "en": "That's a good turnout.",
+  "zh": "到场率很好。"
+ },
+ {
+  "seg": 32,
+  "start": 100.383,
+  "end": 108.345,
+  "speaker": "Unknown",
+  "en": "And how many of you have used Elastic to build a RAG-backed application, retrieval augmented generation?",
+  "zh": "那么有多少人用过 Elastic 构建过 RAG(检索增强生成)应用?"
+ },
+ {
+  "seg": 33,
+  "start": 108.865,
+  "end": 109.065,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 34,
+  "start": 109.748,
+  "end": 115.112,
+  "speaker": "Unknown",
+  "en": "How many of you are sick of hearing the term RAG from the past two, three years?",
+  "zh": "有多少人已经听 RAG 这个词听得厌烦了,过去两三年?"
+ },
+ {
+  "seg": 35,
+  "start": 115.913,
+  "end": 116.433,
+  "speaker": "Unknown",
+  "en": "Fantastic.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 36,
+  "start": 116.833,
+  "end": 126.24,
+  "speaker": "Unknown",
+  "en": "I know I said it about a thousand times at many conferences, and my boss, who no longer works here, actually used to get really mad when we keep bringing up RAG.",
+  "zh": "我知道我在很多会议上已经说了大约一千次,而我的老板——他已经不在这里工作了——过去真的会对我们不断提起 RAG 感到非常生气。"
+ },
+ {
+  "seg": 37,
+  "start": 126.62,
+  "end": 129.983,
+  "speaker": "Unknown",
+  "en": "Now, the thing is, retrieval augmented generation didn't actually go away,",
+  "zh": "现在,问题是,检索增强生成其实并没有消失,"
+ },
+ {
+  "seg": 38,
+  "start": 130.183,
+  "end": 131.644,
+  "speaker": "Unknown",
+  "en": "Luckily, it just kind of fell to the background.",
+  "zh": "幸运的是,它只是退到了背景里。"
+ },
+ {
+  "seg": 39,
+  "start": 131.684,
+  "end": 142.334,
+  "speaker": "Unknown",
+  "en": "But as agents got more and more capable and effective, they just kind of took over the management of being able to retrieve data and analyze it.",
+  "zh": "但随着智能体变得越来越有能力、越来越有效,它们基本上接管了检索数据和分析数据的管理工作。"
+ },
+ {
+  "seg": 40,
+  "start": 142.354,
+  "end": 145.837,
+  "speaker": "Unknown",
+  "en": "So models are getting certainly smarter and smarter.",
+  "zh": "所以模型确实在变得越来越聪明。"
+ },
+ {
+  "seg": 41,
+  "start": 146.037,
+  "end": 148.379,
+  "speaker": "Unknown",
+  "en": "Fable came out for a minute and teased us and then ran away.",
+  "zh": "Fable 出现了一分钟,吊了我们一下胃口,然后跑掉了。"
+ },
+ {
+  "seg": 42,
+  "start": 150.472,
+  "end": 166.78,
+  "speaker": "Unknown",
+  "en": "There's still a need for pulling in information into these models, be it things that are time-based, that change, proprietary information, price data, anything out there that the model hopefully hasn't been trained on, whether they tell us or not.",
+  "zh": "仍然需要向这些模型引入信息,无论是基于时间的、会变化的东西、专有信息、价格数据,还是任何模型大概没有被训练过的东西——不管它们告不告诉我们。"
+ },
+ {
+  "seg": 43,
+  "start": 167.36,
+  "end": 168.241,
+  "speaker": "Unknown",
+  "en": "But there's a need for that.",
+  "zh": "但确实有这种需求。"
+ },
+ {
+  "seg": 44,
+  "start": 168.261,
+  "end": 170.322,
+  "speaker": "Unknown",
+  "en": "And so that's where things like Elasticsearch come in.",
+  "zh": "所以这就是像 Elasticsearch 这样的东西发挥作用的地方。"
+ },
+ {
+  "seg": 45,
+  "start": 170.442,
+  "end": 174.704,
+  "speaker": "Unknown",
+  "en": "It's the retrieval layer that helps make these agents very capable.",
+  "zh": "它是检索层,帮助这些智能体变得非常能干。"
+ },
+ {
+  "seg": 46,
+  "start": 174.924,
+  "end": 176.245,
+  "speaker": "Unknown",
+  "en": "And the trick or the...",
+  "zh": "而诀窍或者说……"
+ },
+ {
+  "seg": 47,
+  "start": 176.975,
+  "end": 189.283,
+  "speaker": "Unknown",
+  "en": "Catch, I guess, is if you feed these models, no matter how smart they are, garbage data, and you confidently tell them this is the answer, pretty much they're gonna believe you because that's what you're telling them.",
+  "zh": "关键,我想说的是,如果你给这些模型——不管它们有多聪明——喂垃圾数据,并且自信地告诉它们这就是答案,它们基本上就会相信你,因为你就是这么告诉它们的。"
+ },
+ {
+  "seg": 48,
+  "start": 189.323,
+  "end": 193.146,
+  "speaker": "Unknown",
+  "en": "So we want to be able to give accurate information and give it.",
+  "zh": "所以我们要能够提供准确的信息,并且把它……"
+ },
+ {
+  "seg": 49,
+  "start": 193.186,
+  "end": 194.807,
+  "speaker": "Unknown",
+  "en": "So this is kind of what this workshop is about.",
+  "zh": "所以这大致就是本次工作坊的内容。"
+ },
+ {
+  "seg": 50,
+  "start": 195.565,
+  "end": 198.868,
+  "speaker": "Unknown",
+  "en": "I'm sure there's 20 other workshops that explain how to build agents.",
+  "zh": "我敢肯定还有 20 个其他的工作坊会讲如何构建智能体。"
+ },
+ {
+  "seg": 51,
+  "start": 199.048,
+  "end": 201.49,
+  "speaker": "Unknown",
+  "en": "And we actually have some, too, if you want to go to our website.",
+  "zh": "其实我们也有一些，如果你想访问我们的网站。"
+ },
+ {
+  "seg": 52,
+  "start": 201.97,
+  "end": 210.778,
+  "speaker": "Unknown",
+  "en": "But this one's going to talk to you, kind of remind about vector search, semantic search, why it's important, where it's useful, but also where it breaks down.",
+  "zh": "但这一个会跟你讲，大概回顾一下向量搜索、语义搜索，为什么它重要，它在哪里有用，但也会讲它在哪里失效。"
+ },
+ {
+  "seg": 53,
+  "start": 211.198,
+  "end": 216.503,
+  "speaker": "Unknown",
+  "en": "And then we'll go into the kind of lexical search, BM25.",
+  "zh": "然后我们会进入词法搜索，BM25。"
+ },
+ {
+  "seg": 54,
+  "start": 216.583,
+  "end": 221.807,
+  "speaker": "Unknown",
+  "en": "So that's that keyword search we've been doing for decades, where it's still relevant today and useful.",
+  "zh": "也就是我们做了几十年的那种关键词搜索，它今天仍然相关、仍然有用。"
+ },
+ {
+  "seg": 55,
+  "start": 222.247,
+  "end": 224.129,
+  "speaker": "Unknown",
+  "en": "And then also, again, where that kind of breaks down.",
+  "zh": "然后同样，也会讲它在哪些地方失效。"
+ },
+ {
+  "seg": 56,
+  "start": 224.509,
+  "end": 226.291,
+  "speaker": "Unknown",
+  "en": "And then putting them together into hybrid search.",
+  "zh": "然后是把它们组合成混合搜索。"
+ },
+ {
+  "seg": 57,
+  "start": 226.391,
+  "end": 229.934,
+  "speaker": "Unknown",
+  "en": "So being able to kind of get the best of both.",
+  "zh": "这样就能大概做到两全其美。"
+ },
+ {
+  "seg": 58,
+  "start": 229.954,
+  "end": 234.737,
+  "speaker": "Unknown",
+  "en": "We'll do combinations with RF, which is an out-of-the-box combination.",
+  "zh": "我们会做与 RF 的组合，这是一种开箱即用的组合方式。"
+ },
+ {
+  "seg": 59,
+  "start": 234.777,
+  "end": 241.363,
+  "speaker": "Unknown",
+  "en": "And then we'll do some a little bit more advanced linear combination where you can tweak those balances a little bit.",
+  "zh": "然后我们会做一些更进阶一点的线性组合，你可以稍微调整那些平衡。"
+ },
+ {
+  "seg": 60,
+  "start": 241.503,
+  "end": 248.128,
+  "speaker": "Unknown",
+  "en": "And then should you have time, we'll actually put it into a little bit of Elastic's Agent Builder.",
+  "zh": "然后如果时间够的话，我们实际上会把它放进 Elastic 的 Agent Builder 里一点。"
+ },
+ {
+  "seg": 61,
+  "start": 248.555,
+  "end": 255.178,
+  "speaker": "Unknown",
+  "en": "Platform where you can see what happens if you retrieve bad information and tell the agent it's good.",
+  "zh": "平台，你可以在那里看到，如果你检索到坏信息却告诉智能体它是好的，会发生什么。"
+ },
+ {
+  "seg": 62,
+  "start": 255.238,
+  "end": 256.578,
+  "speaker": "Unknown",
+  "en": "It doesn't work.",
+  "zh": "它不工作。"
+ },
+ {
+  "seg": 63,
+  "start": 256.839,
+  "end": 258.359,
+  "speaker": "Unknown",
+  "en": "I mean, it works, but it gives you a bad answer.",
+  "zh": "我是说，它能运行，但它会给你一个坏答案。"
+ },
+ {
+  "seg": 64,
+  "start": 258.939,
+  "end": 261.541,
+  "speaker": "Unknown",
+  "en": "And if you give it the correct answers and things like that.",
+  "zh": "而如果你给它正确的答案之类的东西。"
+ },
+ {
+  "seg": 65,
+  "start": 261.821,
+  "end": 271.765,
+  "speaker": "Unknown",
+  "en": "Should you be very quick and get all the way to the end, there is a bonus one about re-rankers, so re-ranking where it comes in and useful in that.",
+  "zh": "如果你动作很快、一路做到最后，还有一个关于重排序器（re-rankers）的附加章节，讲重排序在哪里介入、在哪些方面有用。"
+ },
+ {
+  "seg": 66,
+  "start": 272.408,
+  "end": 277.309,
+  "speaker": "Unknown",
+  "en": "The workshop is basically four plus a bonus chapters, challenges.",
+  "zh": "这个工作坊基本上是四个章节加一个附加章节，都是挑战。"
+ },
+ {
+  "seg": 67,
+  "start": 278.009,
+  "end": 279.089,
+  "speaker": "Unknown",
+  "en": "Each one has two parts.",
+  "zh": "每个章节有两部分。"
+ },
+ {
+  "seg": 68,
+  "start": 280.029,
+  "end": 286.491,
+  "speaker": "Unknown",
+  "en": "There's the part in the DevTools console where you just run API commands within Elasticsearch.",
+  "zh": "一部分是在 DevTools 控制台里，你直接在 Elasticsearch 内运行 API 命令。"
+ },
+ {
+  "seg": 69,
+  "start": 286.551,
+  "end": 291.872,
+  "speaker": "Unknown",
+  "en": "Each one of these environments, if you're in it and hit start and everything, what's happening is a serverless instance is being spun up for you.",
+  "zh": "这些环境中的每一个，如果你在里面点了 start 之类的，正在发生的是为你启动一个无服务器实例。"
+ },
+ {
+  "seg": 70,
+  "start": 292.832,
+  "end": 294.132,
+  "speaker": "Unknown",
+  "en": "And then you'll load some data.",
+  "zh": "然后你会加载一些数据。"
+ },
+ {
+  "seg": 71,
+  "start": 294.152,
+  "end": 295.332,
+  "speaker": "Unknown",
+  "en": "It's a small data set.",
+  "zh": "是一个小数据集。"
+ },
+ {
+  "seg": 72,
+  "start": 295.392,
+  "end": 297.213,
+  "speaker": "Unknown",
+  "en": "It's a workshop, so nothing crazy.",
+  "zh": "这是工作坊，所以没什么疯狂的东西。"
+ },
+ {
+  "seg": 73,
+  "start": 297.953,
+  "end": 299.553,
+  "speaker": "Unknown",
+  "en": "And you'll run the",
+  "zh": "然后你会运行"
+ },
+ {
+  "seg": 74,
+  "start": 299.97,
+  "end": 303.872,
+  "speaker": "Unknown",
+  "en": "Kind of the short version of each one of these in the DevTools console.",
+  "zh": "每个章节挑战的简短版本，在 DevTools 控制台里。"
+ },
+ {
+  "seg": 75,
+  "start": 304.313,
+  "end": 307.995,
+  "speaker": "Unknown",
+  "en": "And then you'll hop over to a Python notebook tab and you'll run the more in-depth one.",
+  "zh": "然后你会跳到一个 Python 笔记本标签页，运行更深入的那个。"
+ },
+ {
+  "seg": 76,
+  "start": 308.495,
+  "end": 313.118,
+  "speaker": "Unknown",
+  "en": "What I would say is I'm going to stop talking in a minute and let you work on the workshop.",
+  "zh": "我想说的是，我马上就不讲了，让你们去做工作坊的内容。"
+ },
+ {
+  "seg": 77,
+  "start": 313.438,
+  "end": 317.421,
+  "speaker": "Unknown",
+  "en": "And in every 20, 25 minutes, we'll kind of check in and see where people are at.",
+  "zh": "然后每隔 20、25 分钟，我们会大致检查一下，看看大家进展到哪了。"
+ },
+ {
+  "seg": 78,
+  "start": 317.481,
+  "end": 321.223,
+  "speaker": "Unknown",
+  "en": "I'll tell a little summary about the chapter challenge you're at.",
+  "zh": "我会就你所在的章节挑战做个简短的总结。"
+ },
+ {
+  "seg": 79,
+  "start": 322.488,
+  "end": 328.813,
+  "speaker": "Unknown",
+  "en": "To get the most out of this workshop, I would definitely spend time reading through what's in the Jupyter Notebook especially.",
+  "zh": "要从这个工作坊中获得最大收益，我肯定建议花时间通读 Jupyter Notebook 里的内容，尤其是。"
+ },
+ {
+  "seg": 80,
+  "start": 329.113,
+  "end": 335.238,
+  "speaker": "Unknown",
+  "en": "It kind of talks about why the documents come up in the orders they are and how to tweak it and how to tune it and why it's important.",
+  "zh": "它大概讲了为什么文档会以那样的顺序出现，以及如何调整它、如何调优它，以及为什么这很重要。"
+ },
+ {
+  "seg": 81,
+  "start": 335.478,
+  "end": 339.521,
+  "speaker": "Unknown",
+  "en": "If you just blindly hit run all in the notebook and fire through, you'll be done in 10 minutes.",
+  "zh": "如果你只是在笔记本里盲目地点 run all 一路跑过去，你 10 分钟就能做完。"
+ },
+ {
+  "seg": 82,
+  "start": 339.621,
+  "end": 344.065,
+  "speaker": "Unknown",
+  "en": "But if you actually spend through it, it's going to probably take longer than this workshop session.",
+  "zh": "但如果你真正花心思去读，它可能会比这次工作坊的时间还长。"
+ },
+ {
+  "seg": 83,
+  "start": 344.245,
+  "end": 346.887,
+  "speaker": "Unknown",
+  "en": "So with that, I'll let you get started.",
+  "zh": "那么，我就让你们开始了。"
+ },
+ {
+  "seg": 84,
+  "start": 347.408,
+  "end": 348.969,
+  "speaker": "Unknown",
+  "en": "So some of you should start up right away.",
+  "zh": "你们有些人应该马上就能开始。"
+ },
+ {
+  "seg": 85,
+  "start": 349.209,
+  "end": 351.431,
+  "speaker": "Unknown",
+  "en": "Some of you will take a few more minutes.",
+  "zh": "有些人会多花几分钟。"
+ },
+ {
+  "seg": 86,
+  "start": 352.748,
+  "end": 355.749,
+  "speaker": "Unknown",
+  "en": "In the meantime, has anyone actually started?",
+  "zh": "在此期间，有人已经实际开始了吗？"
+ },
+ {
+  "seg": 87,
+  "start": 355.829,
+  "end": 356.849,
+  "speaker": "Unknown",
+  "en": "Sometimes you just take a few minutes.",
+  "zh": "有时候就是需要几分钟。"
+ },
+ {
+  "seg": 88,
+  "start": 356.869,
+  "end": 357.309,
+  "speaker": "Unknown",
+  "en": "That's the thing.",
+  "zh": "就是这么回事。"
+ },
+ {
+  "seg": 89,
+  "start": 357.789,
+  "end": 357.969,
+  "speaker": "Unknown",
+  "en": "Yeah?",
+  "zh": "是吗？"
+ },
+ {
+  "seg": 90,
+  "start": 358.289,
+  "end": 358.569,
+  "speaker": "Unknown",
+  "en": "I got it.",
+  "zh": "我搞定了。"
+ },
+ {
+  "seg": 91,
+  "start": 359.93,
+  "end": 361.37,
+  "speaker": "Unknown",
+  "en": "And if you get stuck, raise your hand.",
+  "zh": "如果你卡住了，举手。"
+ },
+ {
+  "seg": 92,
+  "start": 361.55,
+  "end": 362.53,
+  "speaker": "Unknown",
+  "en": "I'm basically the runner.",
+  "zh": "我基本上就是那个跑腿的。"
+ },
+ {
+  "seg": 93,
+  "start": 362.79,
+  "end": 371.012,
+  "speaker": "Unknown",
+  "en": "So I'll check out what you've got going on on your system and potentially help unstick you if it's something trivial.",
+  "zh": "所以我会查看你系统上正在进行的情况，如果是一些琐碎的问题，可能会帮你解卡。"
+ },
+ {
+  "seg": 94,
+  "start": 372.173,
+  "end": 374.393,
+  "speaker": "Unknown",
+  "en": "And if you have any questions, feel free to raise your hand.",
+  "zh": "如果你有什么问题，随时举手。"
+ },
+ {
+  "seg": 95,
+  "start": 374.793,
+  "end": 381.855,
+  "speaker": "Unknown",
+  "en": "Happy to provide a little bit more detail about what's going on in the exercise if you're looking at something and you're a little bit confused and want",
+  "zh": "很乐意就练习中正在发生的事情提供更多细节，如果你在看某个东西、有点困惑、想"
+ },
+ {
+  "seg": 96,
+  "start": 382.354,
+  "end": 383.274,
+  "speaker": "Unknown",
+  "en": "Won't ask a question there.",
+  "zh": "在那里提个问题的话。"
+ },
+ {
+  "seg": 97,
+  "start": 388.777,
+  "end": 393.939,
+  "speaker": "Unknown",
+  "en": "And this is all also available in a repo that should be public.",
+  "zh": "而且这些内容也都在一个应该已经公开的仓库里。"
+ },
+ {
+  "seg": 98,
+  "start": 394.479,
+  "end": 396.32,
+  "speaker": "Unknown",
+  "en": "Yeah, I made it public.",
+  "zh": "对，我把它设为公开了。"
+ },
+ {
+  "seg": 99,
+  "start": 396.36,
+  "end": 401.663,
+  "speaker": "Unknown",
+  "en": "So you can run the notebooks outside of Instruct either after or whenever if you want.",
+  "zh": "所以你可以在 Instruct 之外运行这些笔记本，无论是之后还是任何时候，只要你想。"
+ },
+ {
+  "seg": 100,
+  "start": 402.363,
+  "end": 409.226,
+  "speaker": "Unknown",
+  "en": "Kind of glossed over this, but the one big thing that I think has changed with RAG over the last year, year and a half is",
+  "zh": "这个之前有点被略过了，但我认为过去一年、一年半里 RAG 发生的最大变化是"
+ },
+ {
+  "seg": 101,
+  "start": 410.298,
+  "end": 419.924,
+  "speaker": "Unknown",
+  "en": "Some of the data providers for Vector Database, and we're in that bucket, have brought inference into the Vector Database.",
+  "zh": "一些向量数据库的数据供应商，我们也属于这一类，已经把推理带进了向量数据库。"
+ },
+ {
+  "seg": 102,
+  "start": 420.645,
+  "end": 426.529,
+  "speaker": "Unknown",
+  "en": "So you will see embedding generation happen within Elasticsearch Serverless.",
+  "zh": "所以你会看到嵌入生成发生在 Elasticsearch Serverless 内部。"
+ },
+ {
+  "seg": 103,
+  "start": 427.029,
+  "end": 437.156,
+  "speaker": "Unknown",
+  "en": "We have an inference service called Elastic Inference Service, very creative name, that powers the models that are being used for these workshops.",
+  "zh": "我们有一个叫 Elastic Inference Service 的推理服务，名字很有创意，它为这些工作坊所使用的模型提供支持。"
+ },
+ {
+  "seg": 104,
+  "start": 437.802,
+  "end": 440.444,
+  "speaker": "Unknown",
+  "en": "So we've got GINA models from an acquisition that we made.",
+  "zh": "所以我们有来自一次收购的 GINA 模型。"
+ },
+ {
+  "seg": 105,
+  "start": 440.484,
+  "end": 443.247,
+  "speaker": "Unknown",
+  "en": "So we actually do our own model development now.",
+  "zh": "所以我们现在实际上自己做模型开发。"
+ },
+ {
+  "seg": 106,
+  "start": 444.027,
+  "end": 448.291,
+  "speaker": "Unknown",
+  "en": "And it's focused mostly on dense vector models and re-ranking models.",
+  "zh": "而且主要聚焦于稠密向量模型和重排序模型。"
+ },
+ {
+  "seg": 107,
+  "start": 448.331,
+  "end": 455.077,
+  "speaker": "Unknown",
+  "en": "So you're going to get insight into some new tech that wasn't part of Elasticsearch a year ago.",
+  "zh": "所以你将了解到一些一年前还不属于 Elasticsearch 的新技术。"
+ },
+ {
+  "seg": 108,
+  "start": 457.158,
+  "end": 458.7,
+  "speaker": "Unknown",
+  "en": "That's all I have to add there.",
+  "zh": "这就是我要补充的全部内容。"
+ },
+ {
+  "seg": 109,
+  "start": 459.58,
+  "end": 460.341,
+  "speaker": "Unknown",
+  "en": "We've heard of chunking.",
+  "zh": "我们听说过分块（chunking）。"
+ },
+ {
+  "seg": 110,
+  "start": 461.583,
+  "end": 462.884,
+  "speaker": "Unknown",
+  "en": "We do help with chunking.",
+  "zh": "我们确实提供分块方面的帮助。"
+ },
+ {
+  "seg": 111,
+  "start": 464.884,
+  "end": 466.065,
+  "speaker": "Unknown",
+  "en": "Feel free to jump in.",
+  "zh": "欢迎随时插话。"
+ },
+ {
+  "seg": 112,
+  "start": 466.685,
+  "end": 468.626,
+  "speaker": "Unknown",
+  "en": "He's the manager of the Search Specialist team.",
+  "zh": "他是搜索专家团队的经理。"
+ },
+ {
+  "seg": 113,
+  "start": 468.666,
+  "end": 470.146,
+  "speaker": "Unknown",
+  "en": "I just wander around.",
+  "zh": "我只是到处转转。"
+ },
+ {
+  "seg": 114,
+  "start": 470.826,
+  "end": 477.629,
+  "speaker": "Unknown",
+  "en": "So as James mentioned, we have the text field, semantic text, and Elasticsearch.",
+  "zh": "正如 James 提到的，我们在 Elasticsearch 中有 text 字段和 semantic text。"
+ },
+ {
+  "seg": 115,
+  "start": 477.649,
+  "end": 478.509,
+  "speaker": "Unknown",
+  "en": "So there's a couple ways to do this.",
+  "zh": "所以有几种方式可以做到这一点。"
+ },
+ {
+  "seg": 116,
+  "start": 478.929,
+  "end": 482.29,
+  "speaker": "Unknown",
+  "en": "Semantic text is kind of the automatic, easy way on road.",
+  "zh": "Semantic text 大致是自动化的、开箱即用的简单方式。"
+ },
+ {
+  "seg": 117,
+  "start": 483.391,
+  "end": 489.653,
+  "speaker": "Unknown",
+  "en": "So by default, we will chunk on sentence boundaries and break into a certain amount, a camera offhand, what the number is.",
+  "zh": "默认情况下，我们会按句子边界进行分块，并切成一定数量，具体数字我一时记不清了。"
+ },
+ {
+  "seg": 118,
+  "start": 490.756,
+  "end": 491.016,
+  "speaker": "Unknown",
+  "en": "There you go.",
+  "zh": "就是这个。"
+ },
+ {
+  "seg": 119,
+  "start": 491.456,
+  "end": 493.717,
+  "speaker": "Unknown",
+  "en": "And so that's, you know, configurable.",
+  "zh": "所以，你知道，这是可配置的。"
+ },
+ {
+  "seg": 120,
+  "start": 493.857,
+  "end": 495.458,
+  "speaker": "Unknown",
+  "en": "So by default, breaks down sentences.",
+  "zh": "默认情况下，按句子切分。"
+ },
+ {
+  "seg": 121,
+  "start": 495.478,
+  "end": 496.498,
+  "speaker": "Unknown",
+  "en": "You can break down word boundaries.",
+  "zh": "你可以按词边界切分。"
+ },
+ {
+  "seg": 122,
+  "start": 496.598,
+  "end": 497.238,
+  "speaker": "Unknown",
+  "en": "You can change it.",
+  "zh": "你可以改。"
+ },
+ {
+  "seg": 123,
+  "start": 498.058,
+  "end": 506.681,
+  "speaker": "Unknown",
+  "en": "The Gina model that James mentioned, we are, you know, part of Gina now, or Gina's part of us, whatever, it has a very, very large context window.",
+  "zh": "James 提到的 Gina 模型，我们现在是 Gina 的一部分，或者说 Gina 是我们的一部分，随便怎么说，它有一个非常非常大的上下文窗口。"
+ },
+ {
+  "seg": 124,
+  "start": 506.721,
+  "end": 509.002,
+  "speaker": "Unknown",
+  "en": "But you're not always going to want to fill that for various reasons.",
+  "zh": "但出于各种原因，你不会总想把它填满。"
+ },
+ {
+  "seg": 125,
+  "start": 509.782,
+  "end": 514.784,
+  "speaker": "Unknown",
+  "en": "And so you can configure chunking down to the word, to paragraph, page boundary, things like that.",
+  "zh": "所以你可以把分块配置到词、段落、页面边界之类的粒度。"
+ },
+ {
+  "seg": 126,
+  "start": 517.158,
+  "end": 524.564,
+  "speaker": "Unknown",
+  "en": "We have a semantic mapping field in Elastic which basically takes a piece of text and chunks it.",
+  "zh": "我们在 Elastic 中有一个 semantic 映射字段，它基本上就是把一段文本进行分块。"
+ },
+ {
+  "seg": 127,
+  "start": 524.604,
+  "end": 536.613,
+  "speaker": "Unknown",
+  "en": "So if you send us five pages of text, we're gonna chunk that into 250 token chunks with one sentence overlap and store that in the system for retrieval.",
+  "zh": "所以如果你发给我们五页文本，我们会把它分成 250 个 token 的块，带一句重叠，然后存到系统里供检索。"
+ },
+ {
+  "seg": 128,
+  "start": 537.334,
+  "end": 544.86,
+  "speaker": "Unknown",
+  "en": "There are frameworks that talk about semantic chunking and there are other labels for what I will call",
+  "zh": "有一些框架在谈语义分块（semantic chunking），还有其他一些标签，用来称呼我所说的"
+ },
+ {
+  "seg": 129,
+  "start": 545.72,
+  "end": 547.22,
+  "speaker": "Unknown",
+  "en": "Large context window chunking.",
+  "zh": "大上下文窗口分块。"
+ },
+ {
+  "seg": 130,
+  "start": 547.701,
+  "end": 558.503,
+  "speaker": "Unknown",
+  "en": "We actually, and this is talked about in the lab in the later sections, we do have a technique that we use called late chunking that can work on large context windows.",
+  "zh": "实际上，这一点在后面章节的实验里会讲到，我们确实有一种我们使用的技术叫 late chunking，可以在大上下文窗口上工作。"
+ },
+ {
+  "seg": 131,
+  "start": 558.984,
+  "end": 564.345,
+  "speaker": "Unknown",
+  "en": "That is not exposed via elastic inference service yet, but it is something that the GINA models do support.",
+  "zh": "它还没有通过 elastic inference service 暴露出来，但 GINA 模型确实支持它。"
+ },
+ {
+  "seg": 132,
+  "start": 564.756,
+  "end": 569.341,
+  "speaker": "Unknown",
+  "en": "That's the closest thing that I would say we would have to semantic chunking.",
+  "zh": "这是我们最接近语义分块的东西。"
+ },
+ {
+  "seg": 133,
+  "start": 569.501,
+  "end": 583.855,
+  "speaker": "Unknown",
+  "en": "But we don't really have a need for that construct because the semantic text field itself allows us to deliver the same thing you would get with semantic chunking just by chunking the data and then running searches across it.",
+  "zh": "但我们其实不太需要那种构造，因为 semantic text 字段本身就让我们只要先对数据分块，然后再以语义的方式对其运行搜索，"
+ },
+ {
+  "seg": 134,
+  "start": 584.603,
+  "end": 586.265,
+  "speaker": "Unknown",
+  "en": "in a semantic flavor.",
+  "zh": "就能得到与语义分块相同的结果。"
+ },
+ {
+  "seg": 135,
+  "start": 586.345,
+  "end": 588.127,
+  "speaker": "Unknown",
+  "en": "And you'll get exposed to that in a lab.",
+  "zh": "而且你会在一个实验里接触到这个。"
+ },
+ {
+  "seg": 136,
+  "start": 588.167,
+  "end": 594.834,
+  "speaker": "Unknown",
+  "en": "So we would solve the problem with traditional chunking and hybrid search, not any exotic semantic chunking scheme.",
+  "zh": "所以我们是用传统的分块和混合搜索来解决这个问题，而不是任何花哨的语义分块方案。"
+ },
+ {
+  "seg": 137,
+  "start": 596.176,
+  "end": 601.681,
+  "speaker": "Unknown",
+  "en": "You're welcome.",
+  "zh": "不客气。"
+ },
+ {
+  "seg": 138,
+  "start": 601.701,
+  "end": 602.182,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 139,
+  "start": 605.512,
+  "end": 605.772,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 140,
+  "start": 606.352,
+  "end": 610.533,
+  "speaker": "Unknown",
+  "en": "So I made it available for a week, because I know how things go.",
+  "zh": "所以我把它开放了一周，因为我知道事情会怎么发展。"
+ },
+ {
+  "seg": 141,
+  "start": 610.693,
+  "end": 613.434,
+  "speaker": "Unknown",
+  "en": "So it is available for a week there.",
+  "zh": "所以它在那里开放一周。"
+ },
+ {
+  "seg": 142,
+  "start": 614.735,
+  "end": 618.996,
+  "speaker": "Unknown",
+  "en": "And this isn't anywhere.",
+  "zh": "而且这不在任何地方。"
+ },
+ {
+  "seg": 143,
+  "start": 620.696,
+  "end": 623.937,
+  "speaker": "Unknown",
+  "en": "The workshop is in my repo, for better or worse.",
+  "zh": "这个工作坊在我的 repo 里，无论好坏。"
+ },
+ {
+  "seg": 144,
+  "start": 625.717,
+  "end": 627.098,
+  "speaker": "Unknown",
+  "en": "And so the",
+  "zh": "所以"
+ },
+ {
+  "seg": 145,
+  "start": 628.981,
+  "end": 630.122,
+  "speaker": "Unknown",
+  "en": "The notebooks are all in here.",
+  "zh": "那些笔记本都在这里。"
+ },
+ {
+  "seg": 146,
+  "start": 630.282,
+  "end": 636.547,
+  "speaker": "Unknown",
+  "en": "So if you want to run just the notebooks, you can hook it up to your serverless cluster.",
+  "zh": "所以如果你只想运行这些笔记本，你可以把它接到你的无服务器集群上。"
+ },
+ {
+  "seg": 147,
+  "start": 637.188,
+  "end": 642.092,
+  "speaker": "Unknown",
+  "en": "Or any kind of cluster should work that has semantic text in there.",
+  "zh": "或者任何有 semantic text 的集群应该都能工作。"
+ },
+ {
+  "seg": 148,
+  "start": 642.272,
+  "end": 644.153,
+  "speaker": "Unknown",
+  "en": "But yeah, the workshop itself is good for a week.",
+  "zh": "不过是的，这个工作坊本身有效期一周。"
+ },
+ {
+  "seg": 149,
+  "start": 650.058,
+  "end": 650.919,
+  "speaker": "Unknown",
+  "en": "And where was I?",
+  "zh": "我刚说到哪儿了？"
+ },
+ {
+  "seg": 150,
+  "start": 654.368,
+  "end": 660.43,
+  "speaker": "Unknown",
+  "en": "And yeah, so like I mentioned, the first part, the first half of each lab is just dev tools, where you run a mapping.",
+  "zh": "是的,就像我提到的,第一部分,每个实验的前半部分只是开发工具,你在那里运行一个映射。"
+ },
+ {
+  "seg": 151,
+  "start": 660.45,
+  "end": 662.35,
+  "speaker": "Unknown",
+  "en": "The left side is the input for your API.",
+  "zh": "左边是你的 API 的输入。"
+ },
+ {
+  "seg": 152,
+  "start": 662.39,
+  "end": 663.951,
+  "speaker": "Unknown",
+  "en": "The right side is the output.",
+  "zh": "右边是输出。"
+ },
+ {
+  "seg": 153,
+  "start": 664.471,
+  "end": 670.673,
+  "speaker": "Unknown",
+  "en": "And then you'll get down to part two, where you pop into the Python notebook.",
+  "zh": "然后你会进入第二部分,在那里你打开 Python notebook。"
+ },
+ {
+  "seg": 154,
+  "start": 671.953,
+  "end": 677.315,
+  "speaker": "Unknown",
+  "en": "And it'll automatically connect to the Elasticsearch environment that spun up for you.",
+  "zh": "它会自动连接到为你启动的 Elasticsearch 环境。"
+ },
+ {
+  "seg": 155,
+  "start": 682.176,
+  "end": 683.977,
+  "speaker": "Unknown",
+  "en": "I see they're letting folks in as",
+  "zh": "我看到他们正在放人进来,"
+ },
+ {
+  "seg": 156,
+  "start": 684.446,
+  "end": 694.935,
+  "speaker": "Unknown",
+  "en": "As folks kind of go out to make sure the room is still full, the top right-hand corner is really the URL that you want to hit.",
+  "zh": "随着人们陆续走出以保证房间仍然满员,右上角是你想要访问的 URL。"
+ },
+ {
+  "seg": 157,
+  "start": 695.035,
+  "end": 696.696,
+  "speaker": "Unknown",
+  "en": "That's where all the workshop content is.",
+  "zh": "那是所有研讨会内容所在的地方。"
+ },
+ {
+  "seg": 158,
+  "start": 697.517,
+  "end": 703.522,
+  "speaker": "Unknown",
+  "en": "And then there's a second URL that is the source code repo for all the notebooks for the workshop today.",
+  "zh": "然后还有第二个 URL,那是今天研讨会所有 notebook 的源代码仓库。"
+ },
+ {
+  "seg": 159,
+  "start": 704.022,
+  "end": 705.904,
+  "speaker": "Unknown",
+  "en": "Those are the two most useful resources.",
+  "zh": "这两个是最有用的资源。"
+ },
+ {
+  "seg": 160,
+  "start": 706.144,
+  "end": 713.57,
+  "speaker": "Unknown",
+  "en": "So if you're coming in and you haven't fired up the workshop yet, top right-hand corner and then the bottom right-hand corner if you're interested in the",
+  "zh": "所以如果你刚进来还没启动研讨会,看右上角,如果你对"
+ },
+ {
+  "seg": 161,
+  "start": 713.847,
+  "end": 716.949,
+  "speaker": "Unknown",
+  "en": "Python notebooks, the power of the content that you're walking through today.",
+  "zh": "Python notebooks、你今天要走过内容的强大之处感兴趣,看右下角。"
+ },
+ {
+  "seg": 162,
+  "start": 720.352,
+  "end": 723.094,
+  "speaker": "Unknown",
+  "en": "I'll probably repeat that message every time I see someone walk in.",
+  "zh": "每次我看到有人走进来,我可能都会重复这个信息。"
+ },
+ {
+  "seg": 163,
+  "start": 728.738,
+  "end": 730.239,
+  "speaker": "Unknown",
+  "en": "That is a really good question.",
+  "zh": "这是一个非常好的问题。"
+ },
+ {
+  "seg": 164,
+  "start": 730.82,
+  "end": 733.102,
+  "speaker": "Unknown",
+  "en": "And I'll repeat it so the other folks can hear it.",
+  "zh": "我会重复一遍,好让其他人也能听到。"
+ },
+ {
+  "seg": 165,
+  "start": 733.162,
+  "end": 741.428,
+  "speaker": "Unknown",
+  "en": "But it is a major point of this lab sequence to let you know that BM25-based search, which is",
+  "zh": "但这个实验系列的一个主要目的就是让你知道,基于 BM25 的搜索,也就是"
+ },
+ {
+  "seg": 166,
+  "start": 741.71,
+  "end": 747.631,
+  "speaker": "Unknown",
+  "en": "Traditional lexical search we've been doing for a long time and dense vector semantic search.",
+  "zh": "我们已经做了很久的传统词法搜索,和稠密向量语义搜索。"
+ },
+ {
+  "seg": 167,
+  "start": 748.251,
+  "end": 752.872,
+  "speaker": "Unknown",
+  "en": "Do those two things need to be put together to form hybrid search?",
+  "zh": "这两样东西是否需要结合在一起形成混合搜索?"
+ },
+ {
+  "seg": 168,
+  "start": 753.172,
+  "end": 756.953,
+  "speaker": "Unknown",
+  "en": "That is the core thesis right now that we have as a company.",
+  "zh": "这正是我们作为公司目前的核心论点。"
+ },
+ {
+  "seg": 169,
+  "start": 757.653,
+  "end": 767.054,
+  "speaker": "Unknown",
+  "en": "And the only thing that we add to that, obviously, that's of value, is the option of adding re-rankers on top of that.",
+  "zh": "而我们在此基础上唯一增加的、显然有价值的东西,就是在其之上添加重排序器(re-ranker)的选项。"
+ },
+ {
+  "seg": 170,
+  "start": 767.774,
+  "end": 769.515,
+  "speaker": "Unknown",
+  "en": "But yes, that is a core thesis.",
+  "zh": "但是的,这就是一个核心论点。"
+ },
+ {
+  "seg": 171,
+  "start": 769.555,
+  "end": 771.175,
+  "speaker": "Unknown",
+  "en": "We're firm believers in that approach.",
+  "zh": "我们是这种方法坚定的信奉者。"
+ },
+ {
+  "seg": 172,
+  "start": 771.559,
+  "end": 775.321,
+  "speaker": "Unknown",
+  "en": "And that's in line with everything that I've seen since before even joining Elastic.",
+  "zh": "这与我在加入 Elastic 之前所看到的一切都是一致的。"
+ },
+ {
+  "seg": 173,
+  "start": 775.481,
+  "end": 785.905,
+  "speaker": "Unknown",
+  "en": "Even if you're using a dedicated just pure vector database, you often have to pair that with some other retrieval system and do the equivalent of hybrid search.",
+  "zh": "即使你在使用一个专门的纯向量数据库,你通常也必须把它与某个其他检索系统配对,做相当于混合搜索的事情。"
+ },
+ {
+  "seg": 174,
+  "start": 786.225,
+  "end": 790.467,
+  "speaker": "Unknown",
+  "en": "The advantage to Elastic is, and you're seeing this in the labs, it's one API call.",
+  "zh": "Elastic 的优势是,你在实验中也看到了,它是一次 API 调用。"
+ },
+ {
+  "seg": 175,
+  "start": 790.827,
+  "end": 793.928,
+  "speaker": "Unknown",
+  "en": "We handle all the inference that happens from ingest",
+  "zh": "我们处理从数据接入(ingest)时发生的所有推理"
+ },
+ {
+  "seg": 176,
+  "start": 794.566,
+  "end": 801.008,
+  "speaker": "Unknown",
+  "en": "chunking to real-time search, where the query gets translated into a query vector, and we do all the work for you under the hood.",
+  "zh": "从分块到实时搜索,查询被转换成查询向量,我们在底层为你做所有工作。"
+ },
+ {
+  "seg": 177,
+  "start": 801.168,
+  "end": 811.111,
+  "speaker": "Unknown",
+  "en": "And we consider that of high value, especially when you're talking about large-scale use cases where latency, accuracy, tunability matter.",
+  "zh": "我们认为这是很有价值的,尤其是当你谈论延迟、准确性、可调性都很重要的大规模用例时。"
+ },
+ {
+  "seg": 178,
+  "start": 820.061,
+  "end": 821.822,
+  "speaker": "Unknown",
+  "en": "They are configurable, the chunking settings.",
+  "zh": "它们是可配置的,分块设置。"
+ },
+ {
+  "seg": 179,
+  "start": 821.862,
+  "end": 822.623,
+  "speaker": "Unknown",
+  "en": "Are they configurable?",
+  "zh": "它们可配置吗?"
+ },
+ {
+  "seg": 180,
+  "start": 822.683,
+  "end": 823.164,
+  "speaker": "Unknown",
+  "en": "They are.",
+  "zh": "它们是可配置的。"
+ },
+ {
+  "seg": 181,
+  "start": 823.244,
+  "end": 827.927,
+  "speaker": "Unknown",
+  "en": "The documentation has insight into how you can change them and what chunk settings can be changed.",
+  "zh": "文档里有关于如何更改它们以及哪些分块设置可以更改的说明。"
+ },
+ {
+  "seg": 182,
+  "start": 828.067,
+  "end": 832.951,
+  "speaker": "Unknown",
+  "en": "So we've got very detailed API docs that walk through that.",
+  "zh": "我们有非常详细的 API 文档来讲解这些。"
+ },
+ {
+  "seg": 183,
+  "start": 833.372,
+  "end": 840.297,
+  "speaker": "Unknown",
+  "en": "They're not described in detail in the workshop, but if you go to the Elastic docs, you'll see what the configuration settings are for chunking.",
+  "zh": "研讨会里没有详细描述它们,但如果你去看 Elastic 文档,你会看到分块的配置设置是什么。"
+ },
+ {
+  "seg": 184,
+  "start": 840.858,
+  "end": 845.862,
+  "speaker": "Unknown",
+  "en": "And some of our customers do bring their own vectors and chunk on their own.",
+  "zh": "我们的一些客户确实自带向量并自行分块。"
+ },
+ {
+  "seg": 185,
+  "start": 846.042,
+  "end": 847.383,
+  "speaker": "Unknown",
+  "en": "We support that through standard",
+  "zh": "我们通过标准的"
+ },
+ {
+  "seg": 186,
+  "start": 848.872,
+  "end": 860.177,
+  "speaker": "Unknown",
+  "en": "So if you're using Python, Java, .NET, Core, like pretty much any TypeScript, any modern programming language, you could still use Elastic in the format for these workshops.",
+  "zh": "所以如果你用的是 Python、Java、.NET、Core,比如几乎任何 TypeScript,任何现代编程语言,你仍然可以按这些研讨会的格式使用 Elastic。"
+ },
+ {
+  "seg": 187,
+  "start": 860.197,
+  "end": 861.818,
+  "speaker": "Unknown",
+  "en": "You're just doing more work as a developer.",
+  "zh": "只是作为开发者你要做更多的工作。"
+ },
+ {
+  "seg": 188,
+  "start": 864.239,
+  "end": 867.401,
+  "speaker": "Unknown",
+  "en": "And so I'm sure people are moving along and you can continue on at your own pace.",
+  "zh": "所以我相信大家都在往前推进,你们可以按自己的节奏继续。"
+ },
+ {
+  "seg": 189,
+  "start": 867.761,
+  "end": 873.024,
+  "speaker": "Unknown",
+  "en": "Like I said, I'm going to check in every once in a while and kind of talk about the labs a little bit.",
+  "zh": "就像我说的,我会时不时过来看一下,顺便聊一聊这些实验。"
+ },
+ {
+  "seg": 190,
+  "start": 873.044,
+  "end": 875.885,
+  "speaker": "Unknown",
+  "en": "So the first one, the whole point,",
+  "zh": "第一个,整个要点,"
+ },
+ {
+  "seg": 191,
+  "start": 876.487,
+  "end": 882.594,
+  "speaker": "Unknown",
+  "en": "is essentially this little chart right here talking about how vector search works and semantic search and what you're getting at.",
+  "zh": "基本上就是这里这张小图表,讲的是向量搜索如何工作、语义搜索,以及你要达成的是什么。"
+ },
+ {
+  "seg": 192,
+  "start": 883.155,
+  "end": 892.145,
+  "speaker": "Unknown",
+  "en": "And so when you use an embedding model that's hooked up to Elastic, and we talk about Gina as the out-of-the-box one, but you can certainly bring your own.",
+  "zh": "当你使用一个连接到 Elastic 的嵌入模型时——我们说 Gina 是开箱即用的那个,但你当然可以自带。"
+ },
+ {
+  "seg": 193,
+  "start": 892.165,
+  "end": 893.927,
+  "speaker": "Unknown",
+  "en": "You can hook up to other inference services.",
+  "zh": "你可以连接到其他推理服务。"
+ },
+ {
+  "seg": 194,
+  "start": 894.948,
+  "end": 897.431,
+  "speaker": "Unknown",
+  "en": "We just make it easy for you to get started with, Gina, but certainly",
+  "zh": "我们只是让你容易用 Gina 上手,但当然"
+ },
+ {
+  "seg": 195,
+  "start": 897.821,
+  "end": 901.023,
+  "speaker": "Unknown",
+  "en": "Bring your own and use semantic searches or semantic text as well.",
+  "zh": "你也可以自带模型,使用语义搜索或语义文本。"
+ },
+ {
+  "seg": 196,
+  "start": 901.603,
+  "end": 912.531,
+  "speaker": "Unknown",
+  "en": "But the nice thing about this particular way it sets up is when you create an embedding at ingest time, you create the embedding from your document.",
+  "zh": "这种特定设置方式的优点是,当你在接入(ingest)时创建嵌入时,你从你的文档创建嵌入。"
+ },
+ {
+  "seg": 197,
+  "start": 912.951,
+  "end": 916.273,
+  "speaker": "Unknown",
+  "en": "But then at query time, you need to use the same embedding model to do the query time.",
+  "zh": "但在查询时,你需要使用同一个嵌入模型来做查询。"
+ },
+ {
+  "seg": 198,
+  "start": 916.313,
+  "end": 919.435,
+  "speaker": "Unknown",
+  "en": "Otherwise, it's like me trying to speak Portuguese.",
+  "zh": "否则,就像我试图说葡萄牙语一样。"
+ },
+ {
+  "seg": 199,
+  "start": 919.515,
+  "end": 920.796,
+  "speaker": "Unknown",
+  "en": "It would not go well.",
+  "zh": "那不会顺利。"
+ },
+ {
+  "seg": 200,
+  "start": 923.524,
+  "end": 937.568,
+  "speaker": "Unknown",
+  "en": "When we started doing this a few years ago, in the early days, early, you had to keep track of the inference ID, you had to keep track of the model, and then the model, then you have developers, and you have to make sure everyone's using the way one, and there's all those things.",
+  "zh": "当我们几年前开始做这件事的时候,在早期,很早期,你必须记录推理 ID,你必须记录模型,然后模型,然后你有开发者,你得确保每个人都用同一种方式,还有那些各种各样的事情。"
+ },
+ {
+  "seg": 201,
+  "start": 937.588,
+  "end": 943.129,
+  "speaker": "Unknown",
+  "en": "So by embedding it in the ID in the field itself, it helps on two ways.",
+  "zh": "所以通过把它嵌入到字段本身的 ID 里,它在两个方面有帮助。"
+ },
+ {
+  "seg": 202,
+  "start": 943.87,
+  "end": 944.811,
+  "speaker": "Unknown",
+  "en": "You only have to set it once.",
+  "zh": "你只需要设置一次。"
+ },
+ {
+  "seg": 203,
+  "start": 945.331,
+  "end": 953.137,
+  "speaker": "Unknown",
+  "en": "And as the person who's setting up the index, there might be other people using that same index to ingest their own data or query it, right?",
+  "zh": "而且作为设置索引的人,可能会有其他人在用同一个索引来摄取他们自己的数据或者查询它,对吧?"
+ },
+ {
+  "seg": 204,
+  "start": 953.577,
+  "end": 958.2,
+  "speaker": "Unknown",
+  "en": "So you can set that up once, again, whether it's the GINA model or some other model.",
+  "zh": "所以你可以设置一次,再说一次,不管是 GINA 模型还是其他什么模型。"
+ },
+ {
+  "seg": 205,
+  "start": 959.481,
+  "end": 961.622,
+  "speaker": "Unknown",
+  "en": "Any time you use that field, it just becomes like another field.",
+  "zh": "之后任何时候你使用那个字段,它就变成像另一个字段一样。"
+ },
+ {
+  "seg": 206,
+  "start": 961.822,
+  "end": 965.004,
+  "speaker": "Unknown",
+  "en": "You just either send data in or you query it.",
+  "zh": "你要么把数据发进去,要么查询它。"
+ },
+ {
+  "seg": 207,
+  "start": 965.464,
+  "end": 969.927,
+  "speaker": "Unknown",
+  "en": "So then at query time, what you're seeing up here is the text comes in.",
+  "zh": "那么在查询时,你在这里看到的是文本进来。"
+ },
+ {
+  "seg": 208,
+  "start": 970.447,
+  "end": 974.169,
+  "speaker": "Unknown",
+  "en": "It may or may not get chunked up depending on the size and settings.",
+  "zh": "它可能会也可能不会被切分成块,取决于大小和设置。"
+ },
+ {
+  "seg": 209,
+  "start": 974.65,
+  "end": 979.172,
+  "speaker": "Unknown",
+  "en": "It goes to maybe the Elastic Inference Service, which is default out of the box.",
+  "zh": "它进入也许是 Elastic Inference Service,这是开箱即用的默认选项。"
+ },
+ {
+  "seg": 210,
+  "start": 979.372,
+  "end": 980.713,
+  "speaker": "Unknown",
+  "en": "Maybe it goes to another Inference Service.",
+  "zh": "也许它进入另一个 Inference Service。"
+ },
+ {
+  "seg": 211,
+  "start": 980.733,
+  "end": 981.093,
+  "speaker": "Unknown",
+  "en": "That's fine.",
+  "zh": "那也没问题。"
+ },
+ {
+  "seg": 212,
+  "start": 981.594,
+  "end": 986.477,
+  "speaker": "Unknown",
+  "en": "And then we generate the embeddings and we then pass it back to Elastic to do the",
+  "zh": "然后我们生成嵌入向量,再把它传回 Elastic 去做"
+ },
+ {
+  "seg": 213,
+  "start": 987.557,
+  "end": 988.438,
+  "speaker": "Unknown",
+  "en": "HNSW, ANN.",
+  "zh": "HNSW,ANN。"
+ },
+ {
+  "seg": 214,
+  "start": 988.458,
+  "end": 995.707,
+  "speaker": "Unknown",
+  "en": "We do have other disk, we have disk, ANN, but by default we're using HNSW, the Hierarchical Navigable Small Worlds Graph.",
+  "zh": "我们确实有其他基于磁盘的,我们有磁盘 ANN,但默认我们用的是 HNSW,即分层可导航小世界图。"
+ },
+ {
+  "seg": 215,
+  "start": 996.107,
+  "end": 1000.312,
+  "speaker": "Unknown",
+  "en": "Basically just allows quick traversal to find nearest neighbors of relevant documents.",
+  "zh": "基本上就是允许快速遍历以找到相关文档的最近邻。"
+ },
+ {
+  "seg": 216,
+  "start": 1000.772,
+  "end": 1001.894,
+  "speaker": "Unknown",
+  "en": "And then you get back your top",
+  "zh": "然后你拿回你的前"
+ },
+ {
+  "seg": 217,
+  "start": 1003.003,
+  "end": 1005.284,
+  "speaker": "Unknown",
+  "en": "K, 5, 10, whatever you want, documents.",
+  "zh": "K 个,5 个,10 个,随你想要多少,文档。"
+ },
+ {
+  "seg": 218,
+  "start": 1005.925,
+  "end": 1015.411,
+  "speaker": "Unknown",
+  "en": "And that allows you to, ideally, if everything's working well, find documents or chunks that are semantically similar to what you're asking.",
+  "zh": "这让你可以,理想情况下,如果一切正常的话,找到与你在问的内容语义相似的文档或块。"
+ },
+ {
+  "seg": 219,
+  "start": 1015.591,
+  "end": 1018.093,
+  "speaker": "Unknown",
+  "en": "And as you learned in the lab, it's not the exact keywords.",
+  "zh": "正如你在实验中学到的,它不是精确的关键词。"
+ },
+ {
+  "seg": 220,
+  "start": 1018.713,
+  "end": 1020.995,
+  "speaker": "Unknown",
+  "en": "It's the idea of what you're asking.",
+  "zh": "它是你所问内容的概念。"
+ },
+ {
+  "seg": 221,
+  "start": 1021.035,
+  "end": 1029.26,
+  "speaker": "Unknown",
+  "en": "So if all of us in this room ask how to set up security on TLS on Elasticsearch or something, we're all going to phrase it a little differently.",
+  "zh": "所以如果我们这个房间里的所有人问如何在 Elasticsearch 上设置 TLS 安全之类的,我们每个人的措辞都会稍微不同。"
+ },
+ {
+  "seg": 222,
+  "start": 1029.64,
+  "end": 1030.781,
+  "speaker": "Unknown",
+  "en": "But the idea is all the same.",
+  "zh": "但概念都是一样的。"
+ },
+ {
+  "seg": 223,
+  "start": 1030.841,
+  "end": 1032.482,
+  "speaker": "Unknown",
+  "en": "And so hopefully you get back the same documents.",
+  "zh": "所以希望你们拿回的是相同的文档。"
+ },
+ {
+  "seg": 224,
+  "start": 1033.872,
+  "end": 1036.795,
+  "speaker": "Unknown",
+  "en": "And you kind of saw where sometimes that breaks down.",
+  "zh": "而你也大概看到了它有时会失效的地方。"
+ },
+ {
+  "seg": 225,
+  "start": 1040.038,
+  "end": 1055.312,
+  "speaker": "Unknown",
+  "en": "One of the key places is if you have a very specific keyword, certainly if you have a keyword that is not a word, like a product ID that makes no sense, it's very specific, semantic search then kind of falls apart because it doesn't really need that.",
+  "zh": "其中一个关键场景是当你有一个非常特定的关键词时,当然,如果你有一个不是单词的关键词,比如一个毫无意义的产品 ID,它非常特定,那么语义搜索就有点崩溃了,因为它其实并不需要那个。"
+ },
+ {
+  "seg": 226,
+  "start": 1055.712,
+  "end": 1058.415,
+  "speaker": "Unknown",
+  "en": "And that's what the second lab is where bringing in",
+  "zh": "而这就是第二个实验要做的,引入"
+ },
+ {
+  "seg": 227,
+  "start": 1060.344,
+  "end": 1067.69,
+  "speaker": "Unknown",
+  "en": "BM25, Lexical, Keyword, Filtering, and all the other traditional so-called search methodologies we've been doing for a long time help can augment that.",
+  "zh": "BM25、词法、关键词、过滤,以及我们长期以来一直在做的所有其他所谓传统搜索方法来帮助增强它。"
+ },
+ {
+  "seg": 228,
+  "start": 1068.011,
+  "end": 1072.034,
+  "speaker": "Unknown",
+  "en": "And so I'll give you, I'm sure some of you are progressed past that one.",
+  "zh": "那么我给你们……我相信你们中有些人已经做到那一步之后了。"
+ },
+ {
+  "seg": 229,
+  "start": 1072.074,
+  "end": 1074.036,
+  "speaker": "Unknown",
+  "en": "But I'll check in a few minutes and review Lab 2.",
+  "zh": "但我几分钟后会来看看并复习一下实验 2。"
+ },
+ {
+  "seg": 230,
+  "start": 1074.196,
+  "end": 1076.758,
+  "speaker": "Unknown",
+  "en": "And again, if there's any questions, feel free to ask.",
+  "zh": "再说一次,如果有任何问题,随时提问。"
+ },
+ {
+  "seg": 231,
+  "start": 1086.733,
+  "end": 1087.254,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧?"
+ },
+ {
+  "seg": 232,
+  "start": 1087.534,
+  "end": 1088.035,
+  "speaker": "Unknown",
+  "en": "Yeah, paging.",
+  "zh": "是的,分页。"
+ },
+ {
+  "seg": 233,
+  "start": 1088.055,
+  "end": 1090.758,
+  "speaker": "Unknown",
+  "en": "So if you have like 100 results you want to get back 10 at a time?",
+  "zh": "所以如果你有比如 100 个结果,你想每次拿回 10 个?"
+ },
+ {
+  "seg": 234,
+  "start": 1091.219,
+  "end": 1092.26,
+  "speaker": "Unknown",
+  "en": "Is that what you're asking for?",
+  "zh": "你是在问这个吗?"
+ },
+ {
+  "seg": 235,
+  "start": 1092.34,
+  "end": 1092.54,
+  "speaker": "Unknown",
+  "en": "Or?",
+  "zh": "还是?"
+ },
+ {
+  "seg": 236,
+  "start": 1102.173,
+  "end": 1102.293,
+  "speaker": "Unknown",
+  "en": "Oh.",
+  "zh": "哦。"
+ },
+ {
+  "seg": 237,
+  "start": 1103.274,
+  "end": 1103.515,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 238,
+  "start": 1104.991,
+  "end": 1105.512,
+  "speaker": "Unknown",
+  "en": "You can do that.",
+  "zh": "你可以做到。"
+ },
+ {
+  "seg": 239,
+  "start": 1105.732,
+  "end": 1110.536,
+  "speaker": "Unknown",
+  "en": "I forgot the exact thing, but there's basically essentially a checkpoint ID.",
+  "zh": "我忘了确切的名称,但基本上本质上是有一个检查点 ID。"
+ },
+ {
+  "seg": 240,
+  "start": 1110.956,
+  "end": 1112.357,
+  "speaker": "Unknown",
+  "en": "And so then it continues on.",
+  "zh": "然后它就继续下去。"
+ },
+ {
+  "seg": 241,
+  "start": 1112.377,
+  "end": 1113.698,
+  "speaker": "Unknown",
+  "en": "And so, yeah, you're not re-searching.",
+  "zh": "所以,是的,你不用重新搜索。"
+ },
+ {
+  "seg": 242,
+  "start": 1113.938,
+  "end": 1115.62,
+  "speaker": "Unknown",
+  "en": "You're not re-running the search for that part.",
+  "zh": "你不用为那部分重新运行搜索。"
+ },
+ {
+  "seg": 243,
+  "start": 1116.08,
+  "end": 1116.48,
+  "speaker": "Unknown",
+  "en": "It goes on.",
+  "zh": "它接着往下走。"
+ },
+ {
+  "seg": 244,
+  "start": 1116.5,
+  "end": 1116.921,
+  "speaker": "Unknown",
+  "en": "So you can.",
+  "zh": "所以你可以。"
+ },
+ {
+  "seg": 245,
+  "start": 1116.981,
+  "end": 1120.363,
+  "speaker": "Unknown",
+  "en": "That's what our pagination API part does.",
+  "zh": "这就是我们的分页 API 部分所做的。"
+ },
+ {
+  "seg": 246,
+  "start": 1120.864,
+  "end": 1123.166,
+  "speaker": "Unknown",
+  "en": "So if you know that's a possibility, you use that.",
+  "zh": "所以如果你知道有这种可能,你就用那个。"
+ },
+ {
+  "seg": 247,
+  "start": 1123.286,
+  "end": 1126.869,
+  "speaker": "Unknown",
+  "en": "And then we send you that key, and it's basically like this is where you start and continue on.",
+  "zh": "然后我们发给你那个 key,基本上就是说这是你开始的地方,然后继续。"
+ },
+ {
+  "seg": 248,
+  "start": 1127.549,
+  "end": 1129.911,
+  "speaker": "Unknown",
+  "en": "I think the official label for it is point in time.",
+  "zh": "我想它的官方名称是 point in time。"
+ },
+ {
+  "seg": 249,
+  "start": 1130.011,
+  "end": 1130.271,
+  "speaker": "Unknown",
+  "en": "There you go.",
+  "zh": "就是这个。"
+ },
+ {
+  "seg": 250,
+  "start": 1130.291,
+  "end": 1130.512,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 251,
+  "start": 1130.532,
+  "end": 1131.713,
+  "speaker": "Unknown",
+  "en": "If you're looking in Elastic Docs,",
+  "zh": "如果你在看 Elastic 文档，"
+ },
+ {
+  "seg": 252,
+  "start": 1132.637,
+  "end": 1136.699,
+  "speaker": "Unknown",
+  "en": "You search for point in time and it shows you how to use point in time to do just that.",
+  "zh": "你搜索 point in time,它会向你展示如何使用 point in time 来做到这一点。"
+ },
+ {
+  "seg": 253,
+  "start": 1138,
+  "end": 1138.46,
+  "speaker": "Unknown",
+  "en": "Good question.",
+  "zh": "好问题。"
+ },
+ {
+  "seg": 254,
+  "start": 1139.1,
+  "end": 1144.223,
+  "speaker": "Unknown",
+  "en": "So the summary field is generated just for this workshop.",
+  "zh": "这个 summary 字段是专门为这个 workshop 生成的。"
+ },
+ {
+  "seg": 255,
+  "start": 1144.463,
+  "end": 1145.924,
+  "speaker": "Unknown",
+  "en": "It was generated by an LLM.",
+  "zh": "它是由一个 LLM 生成的。"
+ },
+ {
+  "seg": 256,
+  "start": 1146.204,
+  "end": 1147.124,
+  "speaker": "Unknown",
+  "en": "It's not exactly part of it.",
+  "zh": "它并不是其中真正的一部分。"
+ },
+ {
+  "seg": 257,
+  "start": 1148.105,
+  "end": 1154.968,
+  "speaker": "Unknown",
+  "en": "The real reason is when I first ran through this and you print out the whole body field, it was way too long and it was cluttering everything up.",
+  "zh": "真正的原因是，当我第一次跑这个流程并打印出整个 body 字段时，它太长了，把一切都搞得很乱。"
+ },
+ {
+  "seg": 258,
+  "start": 1155.333,
+  "end": 1156.574,
+  "speaker": "Unknown",
+  "en": "So just having this little summary field.",
+  "zh": "所以就只留了这个小小的 summary 字段。"
+ },
+ {
+  "seg": 259,
+  "start": 1156.614,
+  "end": 1167.598,
+  "speaker": "Unknown",
+  "en": "Now, that said, you can use, for example, an ingest pipeline in Elasticsearch and make an inference call and say, I do want to generate a summary of this document.",
+  "zh": "话虽如此，你可以使用，比如说，Elasticsearch 里的 ingest pipeline,发起一次 inference 调用，说：我确实想为这个文档生成一份摘要。"
+ },
+ {
+  "seg": 260,
+  "start": 1167.678,
+  "end": 1170.58,
+  "speaker": "Unknown",
+  "en": "Or I do want to pull out the possible queries that could do that.",
+  "zh": "或者说，我确实想提取出可能做到这一点的查询。"
+ },
+ {
+  "seg": 261,
+  "start": 1170.6,
+  "end": 1172.46,
+  "speaker": "Unknown",
+  "en": "So you can do that on ingest.",
+  "zh": "所以你可以在 ingest 时做到这一点。"
+ },
+ {
+  "seg": 262,
+  "start": 1172.5,
+  "end": 1174.962,
+  "speaker": "Unknown",
+  "en": "It's just for this particular thing, it was just to make it easier.",
+  "zh": "只是对于这个特定的东西，这样只是为了更简单。"
+ },
+ {
+  "seg": 263,
+  "start": 1175.282,
+  "end": 1178.043,
+  "speaker": "Unknown",
+  "en": "But so the vector field you're searching is the title, yeah.",
+  "zh": "但是，你搜索的 vector 字段是 title,对。"
+ },
+ {
+  "seg": 264,
+  "start": 1180.292,
+  "end": 1191.217,
+  "speaker": "Unknown",
+  "en": "And as we get deeper into the labs, we don't use that construct, but there is LLM completion API calls in the later labs, that it would be the exact same thing you just wired in your ingest pipeline.",
+  "zh": "而且随着我们深入到后面的 lab,我们不用那个结构，但在后面的 lab 里有 LLM completion API 调用，那和你刚才在 ingest pipeline 里接好的东西完全是一回事。"
+ },
+ {
+  "seg": 265,
+  "start": 1192.117,
+  "end": 1194.658,
+  "speaker": "Unknown",
+  "en": "Question?",
+  "zh": "还有问题吗？"
+ },
+ {
+  "seg": 266,
+  "start": 1194.678,
+  "end": 1195.779,
+  "speaker": "Unknown",
+  "en": "It's a great question.",
+  "zh": "这是个很好的问题。"
+ },
+ {
+  "seg": 267,
+  "start": 1195.959,
+  "end": 1205.643,
+  "speaker": "Unknown",
+  "en": "So when it comes to work that we've done to make HNSW more efficient, that started two years ago, actually two plus years ago,",
+  "zh": "说到我们为让 HNSW 更高效所做的工作，那其实始于两年前，实际上是两年多以前，"
+ },
+ {
+  "seg": 268,
+  "start": 1206.087,
+  "end": 1211.091,
+  "speaker": "Unknown",
+  "en": "Where we introduced int8 quantization, which I think is still the default.",
+  "zh": "当时我们引入了 int8 量化，我想它仍然是默认设置。"
+ },
+ {
+  "seg": 269,
+  "start": 1211.311,
+  "end": 1215.995,
+  "speaker": "Unknown",
+  "en": "So by default, we're going to take float32 vectors and quantize them before we store them in memory.",
+  "zh": "所以默认情况下，我们会把 float32 向量在存入内存之前先进行量化。"
+ },
+ {
+  "seg": 270,
+  "start": 1216.276,
+  "end": 1221.9,
+  "speaker": "Unknown",
+  "en": "We still keep the full vector, but we're only storing the quantized vector in memory.",
+  "zh": "我们仍然保留完整的向量，但我们只在内存中存储量化后的向量。"
+ },
+ {
+  "seg": 271,
+  "start": 1222.621,
+  "end": 1227.085,
+  "speaker": "Unknown",
+  "en": "We also have bbq, which is, yeah.",
+  "zh": "我们还有 bbq,是的。"
+ },
+ {
+  "seg": 272,
+  "start": 1227.505,
+  "end": 1229.386,
+  "speaker": "Unknown",
+  "en": "And we've got a blog that talks about BBQ.",
+  "zh": "我们有一篇博客专门讲 BBQ。"
+ },
+ {
+  "seg": 273,
+  "start": 1229.626,
+  "end": 1242.011,
+  "speaker": "Unknown",
+  "en": "This is a little over a year old, maybe even a little bit longer than a year old, where we've compressed the H&SW graph vector that we use even more all the way down to basically a bit.",
+  "zh": "那是一年多前的事了，也许甚至比一年还要再久一点，我们把所使用的 H&SW 图向量压缩得更厉害，一直压缩到基本上只有一比特。"
+ },
+ {
+  "seg": 274,
+  "start": 1242.671,
+  "end": 1248.033,
+  "speaker": "Unknown",
+  "en": "And there's sophisticated stuff under the hood that supports that and still keeps the recall high.",
+  "zh": "而且底层有很复杂的技术来支撑这一点，同时仍然保持很高的召回率。"
+ },
+ {
+  "seg": 275,
+  "start": 1248.574,
+  "end": 1251.875,
+  "speaker": "Unknown",
+  "en": "And then we just introduced disk BBQ, which",
+  "zh": "然后我们刚刚推出了 disk BBQ,"
+ },
+ {
+  "seg": 276,
+  "start": 1252.477,
+  "end": 1256.998,
+  "speaker": "Unknown",
+  "en": "It pretty much eliminates the memory overhead for vector search.",
+  "zh": "它基本上消除了向量搜索的内存开销。"
+ },
+ {
+  "seg": 277,
+  "start": 1257.258,
+  "end": 1269.661,
+  "speaker": "Unknown",
+  "en": "The only difference I would say between disk BBQ and BBQ is that we actually have an option in Elastic to not use HNSW as the underlying mechanism for search.",
+  "zh": "我要说 disk BBQ 和 BBQ 之间唯一的区别是，我们在 Elastic 里实际上提供了一个选项，可以不用 HNSW 作为底层搜索机制。"
+ },
+ {
+  "seg": 278,
+  "start": 1270.141,
+  "end": 1274.703,
+  "speaker": "Unknown",
+  "en": "And the newest form of that is disk BBQ, which is proprietary to Elastic.",
+  "zh": "而它最新的形式就是 disk BBQ,这是 Elastic 专有的。"
+ },
+ {
+  "seg": 279,
+  "start": 1274.763,
+  "end": 1276.003,
+  "speaker": "Unknown",
+  "en": "No one else implements that.",
+  "zh": "没有其他人实现过那个。"
+ },
+ {
+  "seg": 280,
+  "start": 1277.583,
+  "end": 1278.644,
+  "speaker": "Unknown",
+  "en": "Graph-based search.",
+  "zh": "基于图的搜索。"
+ },
+ {
+  "seg": 281,
+  "start": 1279.704,
+  "end": 1280.544,
+  "speaker": "Unknown",
+  "en": "You want to take that one?",
+  "zh": "你想回答这个吗？"
+ },
+ {
+  "seg": 282,
+  "start": 1283.499,
+  "end": 1284.78,
+  "speaker": "Unknown",
+  "en": "So graph-based search.",
+  "zh": "那么，基于图的搜索。"
+ },
+ {
+  "seg": 283,
+  "start": 1284.86,
+  "end": 1288.582,
+  "speaker": "Unknown",
+  "en": "So to be fully clear, we are not a graph database.",
+  "zh": "首先要说清楚的是，我们不是图数据库。"
+ },
+ {
+  "seg": 284,
+  "start": 1288.602,
+  "end": 1290.563,
+  "speaker": "Unknown",
+  "en": "There are some very specific graph databases.",
+  "zh": "有一些非常专门的图数据库。"
+ },
+ {
+  "seg": 285,
+  "start": 1292.243,
+  "end": 1293.284,
+  "speaker": "Unknown",
+  "en": "Graph has its place.",
+  "zh": "图有它自己的位置。"
+ },
+ {
+  "seg": 286,
+  "start": 1293.744,
+  "end": 1297.946,
+  "speaker": "Unknown",
+  "en": "It usually has a lot of overhead to keep and maintain.",
+  "zh": "但通常保存和维护图有很高的开销。"
+ },
+ {
+  "seg": 287,
+  "start": 1298.907,
+  "end": 1300.328,
+  "speaker": "Unknown",
+  "en": "If you do that, great.",
+  "zh": "如果你要那么做，很好。"
+ },
+ {
+  "seg": 288,
+  "start": 1300.468,
+  "end": 1308.992,
+  "speaker": "Unknown",
+  "en": "For the vast majority of the people, though, we find that it's not really needed, where the ability to, especially with quantization, where you can search across large amount of documents quickly,",
+  "zh": "不过对绝大多数人来说，我们发现它其实并不真正需要，尤其是在有量化的情况下，你可以快速地在大量文档之间进行搜索，"
+ },
+ {
+  "seg": 289,
+  "start": 1310.768,
+  "end": 1327.26,
+  "speaker": "Unknown",
+  "en": "Now, especially with the agent world, too, where you can do multiple queries in, so you can, one of the labs later on, it does a couple round trips, I think just two as an example, but you can go in, get your kind of first phase, get a sample of documents, and then see, oh, okay, so they're all related to this tag, and then go searching.",
+  "zh": "现在，尤其是在智能体的世界里，你可以做多次查询进去，所以你可以——后面有一个 lab 就是这么做的，我记得只是两轮往返作为一个例子——你可以进去，拿到你的第一阶段，得到一批文档样本，然后看一下：哦，好，它们都和这个标签相关，然后再去搜索。"
+ },
+ {
+  "seg": 290,
+  "start": 1327.28,
+  "end": 1331.804,
+  "speaker": "Unknown",
+  "en": "So that's where things like filtering and some of our other search methodologies help.",
+  "zh": "所以这就是像过滤以及我们其他一些搜索方法发挥作用的地方。"
+ },
+ {
+  "seg": 291,
+  "start": 1332.99,
+  "end": 1341.752,
+  "speaker": "Unknown",
+  "en": "And so, I mean, it comes up, but we haven't seen it too often as an actual blocker where you have to set it up.",
+  "zh": "所以，我是说，这个问题会出现，但我们很少见到它真正成为你必须去搭建它的阻碍。"
+ },
+ {
+  "seg": 292,
+  "start": 1342.012,
+  "end": 1352.533,
+  "speaker": "Unknown",
+  "en": "And the last thing I'll say about that is what we see is far more common is machine learning models that do classification on the fly, which is another way to solve that graph challenge.",
+  "zh": "关于这一点我要说的最后一件事是，我们看到远更常见的是那些即时做分类的机器学习模型，那是解决图这个难题的另一种方式。"
+ },
+ {
+  "seg": 293,
+  "start": 1353.274,
+  "end": 1359.695,
+  "speaker": "Unknown",
+  "en": "Works in some situations, not in all, but Neo4j and other graph databases have been around for a long time.",
+  "zh": "它在某些情况下可行，不是在所有情况下都可行，但 Neo4j 和其他图数据库已经存在很长时间了。"
+ },
+ {
+  "seg": 294,
+  "start": 1359.915,
+  "end": 1361.955,
+  "speaker": "Unknown",
+  "en": "I don't know of any that scale really well.",
+  "zh": "我不知道有哪一个能真正扩展得很好。"
+ },
+ {
+  "seg": 295,
+  "start": 1362.625,
+  "end": 1373.667,
+  "speaker": "Unknown",
+  "en": "And we're trying to target multi-billion vector data sets, which means that we're very careful not to introduce a construct that keeps us from being able to scale at that level.",
+  "zh": "而我们的目标是数十亿级别的向量数据集，这意味着我们非常小心，不引入任何会让我们无法在那个规模上扩展的结构。"
+ },
+ {
+  "seg": 296,
+  "start": 1374.167,
+  "end": 1379.148,
+  "speaker": "Unknown",
+  "en": "And we haven't found the need to go there yet, although it comes up a lot.",
+  "zh": "我们还没有发现有必要走到那一步，尽管这个问题经常被提到。"
+ },
+ {
+  "seg": 297,
+  "start": 1379.208,
+  "end": 1381.528,
+  "speaker": "Unknown",
+  "en": "It was a big theme last year at this conference.",
+  "zh": "它是去年这个大会上的一个大主题。"
+ },
+ {
+  "seg": 298,
+  "start": 1381.548,
+  "end": 1385.609,
+  "speaker": "Unknown",
+  "en": "I remember being here and seeing GraphRAG was heavily talked about.",
+  "zh": "我记得我在这里看到 GraphRAG 被大量讨论。"
+ },
+ {
+  "seg": 299,
+  "start": 1385.889,
+  "end": 1387.049,
+  "speaker": "Unknown",
+  "en": "Probably will continue to be.",
+  "zh": "大概还会继续下去。"
+ },
+ {
+  "seg": 300,
+  "start": 1390.07,
+  "end": 1392.33,
+  "speaker": "Unknown",
+  "en": "I haven't seen a technology nail that yet.",
+  "zh": "我还没见过一项技术能把这个做到完美。"
+ },
+ {
+  "seg": 301,
+  "start": 1394.647,
+  "end": 1400.232,
+  "speaker": "Unknown",
+  "en": "And maybe there's a Neo4j person in here that would contest me on that and say, no, no, no, we have it figured out.",
+  "zh": "也许这里有一位 Neo4j 的人会反驳我，说，不不不，我们已经解决了。"
+ },
+ {
+  "seg": 302,
+  "start": 1400.872,
+  "end": 1403.334,
+  "speaker": "Unknown",
+  "en": "I think they do, but not at the scale that we operate at.",
+  "zh": "我觉得他们确实解决了，但没达到我们所运营的那种规模。"
+ },
+ {
+  "seg": 303,
+  "start": 1405.476,
+  "end": 1405.636,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 304,
+  "start": 1406.216,
+  "end": 1407.197,
+  "speaker": "Unknown",
+  "en": "Oh, so you came from their session.",
+  "zh": "哦，所以你是从他们的专场过来的。"
+ },
+ {
+  "seg": 305,
+  "start": 1407.237,
+  "end": 1407.457,
+  "speaker": "Unknown",
+  "en": "Nice.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 306,
+  "start": 1407.617,
+  "end": 1407.818,
+  "speaker": "Unknown",
+  "en": "OK.",
+  "zh": "好。"
+ },
+ {
+  "seg": 307,
+  "start": 1412.601,
+  "end": 1413.062,
+  "speaker": "Unknown",
+  "en": "In the back.",
+  "zh": "后面那位。"
+ },
+ {
+  "seg": 308,
+  "start": 1415.742,
+  "end": 1424.53,
+  "speaker": "Unknown",
+  "en": "I think the question was we can use classification models to achieve some of the same results you might get with a graph traversal.",
+  "zh": "我想问题是，我们可以用分类模型来实现一些与图遍历相同的结果。"
+ },
+ {
+  "seg": 309,
+  "start": 1426.012,
+  "end": 1433.679,
+  "speaker": "Unknown",
+  "en": "So we have the concept in Elastic of running machine learning models in Elastic on what we call ML nodes.",
+  "zh": "所以在 Elastic 里，我们有一个概念，就是在 Elastic 中运行机器学习模型，运行在我们称之为 ML 节点的东西上。"
+ },
+ {
+  "seg": 310,
+  "start": 1435.502,
+  "end": 1441.731,
+  "speaker": "Unknown",
+  "en": "You could basically upload whatever classification model that you've identified that works and wired into Elastic that way.",
+  "zh": "你基本上可以上传任何你已经确认有效的分类模型，并以这种方式接入 Elastic。"
+ },
+ {
+  "seg": 311,
+  "start": 1442.472,
+  "end": 1448.541,
+  "speaker": "Unknown",
+  "en": "The other option would be to create your own model that you have your own external inference to and potentially use that.",
+  "zh": "另一个选择是创建你自己的模型，由你自己进行外部推理，并可能使用它。"
+ },
+ {
+  "seg": 312,
+  "start": 1449.39,
+  "end": 1459.693,
+  "speaker": "Unknown",
+  "en": "in place of our ML technology, and I'm hoping that we'll introduce more sophistication down the road in that area, but we don't have anything noteworthy to announce right now.",
+  "zh": "来替代我们的 ML 技术，我希望我们未来会在那个领域引入更复杂的能力，但我们现在没有什么值得宣布的东西。"
+ },
+ {
+  "seg": 313,
+  "start": 1459.713,
+  "end": 1468.295,
+  "speaker": "Unknown",
+  "en": "We're focused on taking the GINA models that we have and pushing the limit to what we can do with handling unstructured data and dense vector embeddings and re-rankers.",
+  "zh": "我们的重点是利用我们已有的 GINA 模型，把处理非结构化数据、稠密向量嵌入和重排序器的能力推向极限。"
+ },
+ {
+  "seg": 314,
+  "start": 1468.835,
+  "end": 1472.876,
+  "speaker": "Unknown",
+  "en": "We'll probably end up pivoting off of that once we nail",
+  "zh": "我们最终可能会在这个基础上转向，一旦我们搞定了"
+ },
+ {
+  "seg": 315,
+  "start": 1474.192,
+  "end": 1480.895,
+  "speaker": "Unknown",
+  "en": "The re-ranking piece and the dense vector models that are in development and doing quite well in the market.",
+  "zh": "重排序这一块，以及正在开发中、在市场上表现相当不错的稠密向量模型。"
+ },
+ {
+  "seg": 316,
+  "start": 1486.537,
+  "end": 1489.257,
+  "speaker": "Unknown",
+  "en": "I'll add in, too, that along with that, there's classification models.",
+  "zh": "我还要补充一点，除此之外，还有分类模型。"
+ },
+ {
+  "seg": 317,
+  "start": 1489.498,
+  "end": 1492.879,
+  "speaker": "Unknown",
+  "en": "And you can also run things like NER models, name entity recognition.",
+  "zh": "你还可以运行像 NER 模型这样的东西，也就是命名实体识别。"
+ },
+ {
+  "seg": 318,
+  "start": 1492.979,
+  "end": 1501.862,
+  "speaker": "Unknown",
+  "en": "So if you pull out the entities, if you're trying to identify person location and business names, things like that, or product names,",
+  "zh": "所以如果你想识别人名、地点和公司名称之类的东西，或者产品名称，把实体抽出来，"
+ },
+ {
+  "seg": 319,
+  "start": 1502.442,
+  "end": 1510.452,
+  "speaker": "Unknown",
+  "en": "You can run those on the fly as part of the query where as the query comes in, you run it through the NER model.",
+  "zh": "你可以在查询过程中实时运行它们，当查询进来时，你把它送进 NER 模型。"
+ },
+ {
+  "seg": 320,
+  "start": 1510.532,
+  "end": 1513.456,
+  "speaker": "Unknown",
+  "en": "And NER models are very fast because they're small.",
+  "zh": "而 NER 模型非常快，因为它们很小。"
+ },
+ {
+  "seg": 321,
+  "start": 1513.636,
+  "end": 1514.537,
+  "speaker": "Unknown",
+  "en": "They're really small models.",
+  "zh": "它们是非常小的模型。"
+ },
+ {
+  "seg": 322,
+  "start": 1515.138,
+  "end": 1520.145,
+  "speaker": "Unknown",
+  "en": "And you pull out these entities and then, again, now with agents and things like this, you don't have to wire up crazy",
+  "zh": "你把这些实体抽出来，然后，同样，现在有了智能体和这类东西，你不必去接那些疯狂的"
+ },
+ {
+  "seg": 323,
+  "start": 1521.006,
+  "end": 1525.152,
+  "speaker": "Unknown",
+  "en": "Painless scripts, the agent can take those and then create a query that's more tuned for that.",
+  "zh": "Painless 脚本，智能体可以拿到这些实体，然后创建一个更适合该场景的查询。"
+ },
+ {
+  "seg": 324,
+  "start": 1525.232,
+  "end": 1535.346,
+  "speaker": "Unknown",
+  "en": "So there's a lot of ML capabilities that we don't talk about as much as we used to because, again, like James said, we kind of pivoted to focus on other things, but they're still there in the stack and very capable.",
+  "zh": "所以我们有很多 ML 能力，只是我们不像以前那样经常谈论它们了，因为，就像 James 说的，我们有点转向专注于其他事情了，但它们仍然在技术栈里，而且非常强大。"
+ },
+ {
+  "seg": 325,
+  "start": 1536.729,
+  "end": 1537.53,
+  "speaker": "Unknown",
+  "en": "All filtering in.",
+  "zh": "所有过滤都在里面。"
+ },
+ {
+  "seg": 326,
+  "start": 1537.55,
+  "end": 1537.97,
+  "speaker": "Unknown",
+  "en": "That's great.",
+  "zh": "那太好了。"
+ },
+ {
+  "seg": 327,
+  "start": 1539.891,
+  "end": 1540.251,
+  "speaker": "Unknown",
+  "en": "Sunil.",
+  "zh": "Sunil。"
+ },
+ {
+  "seg": 328,
+  "start": 1540.271,
+  "end": 1542.352,
+  "speaker": "Unknown",
+  "en": "What's up, man?",
+  "zh": "怎么样，兄弟？"
+ },
+ {
+  "seg": 329,
+  "start": 1542.632,
+  "end": 1545.574,
+  "speaker": "Unknown",
+  "en": "One of our distinguished essays over in the corner.",
+  "zh": "我们最杰出的 ESA 之一，在那边的角落。"
+ },
+ {
+  "seg": 330,
+  "start": 1545.594,
+  "end": 1546.895,
+  "speaker": "Unknown",
+  "en": "You can ask him all our questions.",
+  "zh": "你们可以问他所有的问题。"
+ },
+ {
+  "seg": 331,
+  "start": 1546.975,
+  "end": 1548.435,
+  "speaker": "Unknown",
+  "en": "I'm going to now redirect.",
+  "zh": "我现在要转移话题了。"
+ },
+ {
+  "seg": 332,
+  "start": 1549.756,
+  "end": 1554.859,
+  "speaker": "Unknown",
+  "en": "For the people who came in, aside from Sunil, the upper right corner is the short URL for the workshop.",
+  "zh": "对于进来的各位，除了 Sunil 之外，右上角是工作坊的短链接。"
+ },
+ {
+  "seg": 333,
+  "start": 1555.86,
+  "end": 1557,
+  "speaker": "Unknown",
+  "en": "And you can spin that up.",
+  "zh": "你可以把它启动起来。"
+ },
+ {
+  "seg": 334,
+  "start": 1557.26,
+  "end": 1562.703,
+  "speaker": "Unknown",
+  "en": "It opens up a kind of lab for you, lab environment, and also spins up a",
+  "zh": "它会为你打开一个类似实验室的东西，一个实验环境，还会为你启动一个"
+ },
+ {
+  "seg": 335,
+  "start": 1564.819,
+  "end": 1567.841,
+  "speaker": "Unknown",
+  "en": "Elasticsearch, serverless, cluster, all set up for you.",
+  "zh": "Elasticsearch 无服务器集群，全部都为你设置好了。"
+ },
+ {
+  "seg": 336,
+  "start": 1567.861,
+  "end": 1569.062,
+  "speaker": "Unknown",
+  "en": "So feel free to run through there.",
+  "zh": "所以欢迎随时跟着跑一遍。"
+ },
+ {
+  "seg": 337,
+  "start": 1571.824,
+  "end": 1583.131,
+  "speaker": "Unknown",
+  "en": "So there's one main knob for reciprocal RRF, and it is, and I'm spacing out here off the top of my head.",
+  "zh": "所以 RRF(倒数排序融合)有一个主要的旋钮，那就是——我一下子想不起来了。"
+ },
+ {
+  "seg": 338,
+  "start": 1583.171,
+  "end": 1583.892,
+  "speaker": "Unknown",
+  "en": "I do not know.",
+  "zh": "我不知道。"
+ },
+ {
+  "seg": 339,
+  "start": 1583.932,
+  "end": 1584.732,
+  "speaker": "Unknown",
+  "en": "You're pulling it up.",
+  "zh": "你正在把它调出来。"
+ },
+ {
+  "seg": 340,
+  "start": 1589.835,
+  "end": 1592.317,
+  "speaker": "Unknown",
+  "en": "I don't know if we expose it in the RRF.",
+  "zh": "我不确定我们是否在 RRF 里把它暴露出来。"
+ },
+ {
+  "seg": 341,
+  "start": 1595.102,
+  "end": 1596.742,
+  "speaker": "Unknown",
+  "en": "Attributes for the Retriever.",
+  "zh": "Retriever 的属性。"
+ },
+ {
+  "seg": 342,
+  "start": 1603.244,
+  "end": 1604.004,
+  "speaker": "Unknown",
+  "en": "What's the default?",
+  "zh": "默认值是多少？"
+ },
+ {
+  "seg": 343,
+  "start": 1605.485,
+  "end": 1606.945,
+  "speaker": "Unknown",
+  "en": "Constant, the rank constant.",
+  "zh": "常数，排名常数。"
+ },
+ {
+  "seg": 344,
+  "start": 1607.325,
+  "end": 1608.905,
+  "speaker": "Unknown",
+  "en": "It is something that you can configure.",
+  "zh": "它是可以配置的东西。"
+ },
+ {
+  "seg": 345,
+  "start": 1609.666,
+  "end": 1610.606,
+  "speaker": "Unknown",
+  "en": "I don't know what the range is.",
+  "zh": "我不知道范围是多少。"
+ },
+ {
+  "seg": 346,
+  "start": 1613.367,
+  "end": 1615.267,
+  "speaker": "Unknown",
+  "en": "That's what lab five is, the optional one.",
+  "zh": "那就是实验五，那个可选的。"
+ },
+ {
+  "seg": 347,
+  "start": 1615.427,
+  "end": 1615.987,
+  "speaker": "Unknown",
+  "en": "It's all about.",
+  "zh": "它全是关于这个的。"
+ },
+ {
+  "seg": 348,
+  "start": 1617.548,
+  "end": 1619.348,
+  "speaker": "Unknown",
+  "en": "Lab five is re-ranking.",
+  "zh": "实验五是重排序。"
+ },
+ {
+  "seg": 349,
+  "start": 1619.528,
+  "end": 1620.408,
+  "speaker": "Unknown",
+  "en": "RRF is in there somewhere.",
+  "zh": "RRF 就在其中某处。"
+ },
+ {
+  "seg": 350,
+  "start": 1621.409,
+  "end": 1622.829,
+  "speaker": "Unknown",
+  "en": "Sorry, brain melted.",
+  "zh": "抱歉，脑子短路了。"
+ },
+ {
+  "seg": 351,
+  "start": 1623.291,
+  "end": 1624.092,
+  "speaker": "Unknown",
+  "en": "For a second.",
+  "zh": "就一下。"
+ },
+ {
+  "seg": 352,
+  "start": 1624.232,
+  "end": 1627.876,
+  "speaker": "Unknown",
+  "en": "It's in there somewhere about, talks about what Sunil's talking about.",
+  "zh": "里面有相关内容，讲的就是 Sunil 说的那些。"
+ },
+ {
+  "seg": 353,
+  "start": 1627.896,
+  "end": 1630.358,
+  "speaker": "Unknown",
+  "en": "A little bit more example and you can change things like that.",
+  "zh": "有更多例子，你可以改改这些之类的东西。"
+ },
+ {
+  "seg": 354,
+  "start": 1630.378,
+  "end": 1635.664,
+  "speaker": "Unknown",
+  "en": "So I don't know, did that answer your question?",
+  "zh": "所以我不知道，这回答你的问题了吗？"
+ },
+ {
+  "seg": 355,
+  "start": 1636.204,
+  "end": 1636.925,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 356,
+  "start": 1636.965,
+  "end": 1637.405,
+  "speaker": "Unknown",
+  "en": "Okay, cool.",
+  "zh": "好，很好。"
+ },
+ {
+  "seg": 357,
+  "start": 1643.492,
+  "end": 1643.892,
+  "speaker": "Unknown",
+  "en": "Fire away?",
+  "zh": "继续提问？"
+ },
+ {
+  "seg": 358,
+  "start": 1658.442,
+  "end": 1659.443,
+  "speaker": "Unknown",
+  "en": "That's a great question.",
+  "zh": "这是个很好的问题。"
+ },
+ {
+  "seg": 359,
+  "start": 1659.463,
+  "end": 1665.669,
+  "speaker": "Unknown",
+  "en": "There's actually a table that kind of explains some of those decision trees in the later workshop.",
+  "zh": "实际上后面某个 workshop 里有一张表，大致解释了其中一些决策树。"
+ },
+ {
+  "seg": 360,
+  "start": 1665.849,
+  "end": 1669.633,
+  "speaker": "Unknown",
+  "en": "I want to say workshop lab number four.",
+  "zh": "我记得是 workshop lab 第四个。"
+ },
+ {
+  "seg": 361,
+  "start": 1670.393,
+  "end": 1674.377,
+  "speaker": "Unknown",
+  "en": "But the short answer is for a small document corpus.",
+  "zh": "简短的回答是，对于一个小型文档语料库——"
+ },
+ {
+  "seg": 362,
+  "start": 1674.597,
+  "end": 1682.405,
+  "speaker": "Unknown",
+  "en": "And my rule of thumb is always see what you can accomplish with a combination of BM25 and semantic search.",
+  "zh": "我的经验法则始终是：先看用 BM25 加语义搜索的组合能做到什么。"
+ },
+ {
+  "seg": 363,
+  "start": 1682.998,
+  "end": 1688.443,
+  "speaker": "Unknown",
+  "en": "If that gets you the recall or precision target that you're looking for, whatever relevance targets you have, stop.",
+  "zh": "如果那能达到你所期望的召回率或精确率目标，不管你的相关性目标是什么，就到此为止。"
+ },
+ {
+  "seg": 364,
+  "start": 1689.424,
+  "end": 1694.029,
+  "speaker": "Unknown",
+  "en": "Anytime you add anything on top of that, you're going to be taking on an additional latency hit.",
+  "zh": "任何时候你在其之上再加任何东西，都会带来额外的延迟损耗。"
+ },
+ {
+  "seg": 365,
+  "start": 1694.549,
+  "end": 1695.77,
+  "speaker": "Unknown",
+  "en": "Only do that if you need to.",
+  "zh": "只有在需要时才这么做。"
+ },
+ {
+  "seg": 366,
+  "start": 1695.991,
+  "end": 1701.636,
+  "speaker": "Unknown",
+  "en": "And the next extension point would be to use a rebanker model.",
+  "zh": "下一个扩展点就是使用一个 rebanker 模型。"
+ },
+ {
+  "seg": 367,
+  "start": 1702.297,
+  "end": 1704.619,
+  "speaker": "Unknown",
+  "en": "And then it's just a matter of picking one that",
+  "zh": "然后就是挑选一个"
+ },
+ {
+  "seg": 368,
+  "start": 1704.912,
+  "end": 1710.996,
+  "speaker": "Unknown",
+  "en": "that you think is going to work best for your corpus and doing some testing and validating that it moves the needle enough.",
+  "zh": "你认为对你的语料库最有效的，做一些测试，验证它确实带来了足够的提升。"
+ },
+ {
+  "seg": 369,
+  "start": 1711.236,
+  "end": 1714.038,
+  "speaker": "Unknown",
+  "en": "That would be kind of the standard happy path approach.",
+  "zh": "那基本上就是标准的理想路径做法。"
+ },
+ {
+  "seg": 370,
+  "start": 1714.338,
+  "end": 1725.906,
+  "speaker": "Unknown",
+  "en": "There are some folks that would change that recommendation slightly and say, look, just do BM25, just regular search, and then add semantic search if it's not.",
+  "zh": "有些人会把那个建议稍微改一下，说：听着，只做 BM25，只做常规搜索，然后在不够——"
+ },
+ {
+  "seg": 371,
+  "start": 1727.288,
+  "end": 1752.208,
+  "speaker": "Unknown",
+  "en": "relevant enough, but I'm a big fan of dense vectors, so I would just go ahead and wire them into the architecture right out of the gate, and that way I don't have to worry about things like, you know, you get into these weird situations with lexical where you're starting to add synonyms or get into advanced lexical tuning techniques that you might not need if the semantic search is able to pair well with the lexical search.",
+  "zh": "相关的时候再加语义搜索。但我是稠密向量的忠实粉丝，所以我会直接从一开始就把它接进架构里，这样我就不用操心那些事情，比如，你知道的，你在词法搜索中会陷入一些奇怪的情况：开始添加同义词，或者用上各种高级词法调优技术，而如果语义搜索能和词法搜索很好地配合，这些你可能根本不需要。"
+ },
+ {
+  "seg": 372,
+  "start": 1753.95,
+  "end": 1754.13,
+  "speaker": "Unknown",
+  "en": "Welcome.",
+  "zh": "欢迎。"
+ },
+ {
+  "seg": 373,
+  "start": 1756.633,
+  "end": 1758.035,
+  "speaker": "Unknown",
+  "en": "So I know people are moving along, which is great.",
+  "zh": "我知道大家在往前推进，这很好。"
+ },
+ {
+  "seg": 374,
+  "start": 1758.796,
+  "end": 1763.922,
+  "speaker": "Unknown",
+  "en": "Just give a little wrap up on lab two, which again was about your favorite lexical search.",
+  "zh": "简单总结一下 lab two，它讲的又是你们最喜欢的词法搜索。"
+ },
+ {
+  "seg": 375,
+  "start": 1765.338,
+  "end": 1771.16,
+  "speaker": "Unknown",
+  "en": "But hopefully you did learn, you know, get across the point that it does have its points.",
+  "zh": "但希望你们确实学到了，领会到它确实有它的价值。"
+ },
+ {
+  "seg": 376,
+  "start": 1771.56,
+  "end": 1783.144,
+  "speaker": "Unknown",
+  "en": "We just barely touched the surface on Lexical because, you know, for 15 years or so, you know, a dozen years at Elastic, that's what we had.",
+  "zh": "我们对词法搜索只是浅尝辄止，因为，你知道，十五年左右，你知道，在 Elastic 的十几年，那就是我们拥有的全部。"
+ },
+ {
+  "seg": 377,
+  "start": 1783.564,
+  "end": 1794.368,
+  "speaker": "Unknown",
+  "en": "So if you've ever been on the Elastic search doc sites and you go to the search part and you click on the search API, there's an insane amount of ways to change and tune and tweak",
+  "zh": "所以如果你曾经上过 Elastic search 的文档站，进入搜索部分，点击 search API，会看到数量惊人的方式来更改、调优、微调"
+ },
+ {
+  "seg": 378,
+  "start": 1794.728,
+  "end": 1802.572,
+  "speaker": "Unknown",
+  "en": "Lexical search because, to James' point, before we could do semantic search, we had to do all these crazy things to get relevant search.",
+  "zh": "词法搜索，因为，正如 James 刚才说的，在我们能做语义搜索之前，我们不得不做这些疯狂的事情来获得相关的搜索结果。"
+ },
+ {
+  "seg": 379,
+  "start": 1802.972,
+  "end": 1806.694,
+  "speaker": "Unknown",
+  "en": "Luckily now we don't have to do quite as much, at least usually, once in a while still.",
+  "zh": "幸运的是现在我们不用做那么多了，至少通常不用，偶尔还是需要。"
+ },
+ {
+  "seg": 380,
+  "start": 1807.615,
+  "end": 1819.921,
+  "speaker": "Unknown",
+  "en": "But with lexical search, it does have its point, but it does tend to break down any time you break out of looking for very specific keywords or a very specific phrase.",
+  "zh": "但词法搜索确实有它的价值，不过一旦你超出查找非常具体的关键词或非常具体的短语的范畴，它往往就会失效。"
+ },
+ {
+  "seg": 381,
+  "start": 1820.821,
+  "end": 1824.103,
+  "speaker": "Unknown",
+  "en": "The upside of it is it's, I mean, I don't even want to say,",
+  "zh": "它的好处是，我是说，我甚至不想说——"
+ },
+ {
+  "seg": 382,
+  "start": 1824.403,
+  "end": 1831.047,
+  "speaker": "Unknown",
+  "en": "I was going to say it's generally faster, although now with quantization, things like that, that's not always the case, but by default, it's kind of faster.",
+  "zh": "我本来要说它通常更快，虽然现在有了量化之类的技术，情况不再总是如此，但默认情况下，它算是更快的。"
+ },
+ {
+  "seg": 383,
+  "start": 1831.107,
+  "end": 1837.712,
+  "speaker": "Unknown",
+  "en": "So in lab three, most people are probably along there, but you move on to combining them.",
+  "zh": "那么在 lab three 里，大多数人可能也跟上了，你们进而将它们结合起来。"
+ },
+ {
+  "seg": 384,
+  "start": 1839.172,
+  "end": 1850.139,
+  "speaker": "Unknown",
+  "en": "And I will say that even though I'm a big fan of dense vector search, that lexical search usually does have lower latency profiles in almost all use cases, and that's because there is no ML inference happening.",
+  "zh": "我要说的是，尽管我是稠密向量搜索的忠实粉丝，词法搜索在几乎所有用例中通常确实有更低的延迟表现，那是因为它没有 ML 推理发生。"
+ },
+ {
+  "seg": 385,
+  "start": 1850.74,
+  "end": 1854.082,
+  "speaker": "Unknown",
+  "en": "So anytime you go semantic search with dense vectors,",
+  "zh": "所以任何时候你用稠密向量做语义搜索，"
+ },
+ {
+  "seg": 386,
+  "start": 1854.715,
+  "end": 1859.639,
+  "speaker": "Unknown",
+  "en": "You're introducing a call to an inference endpoint.",
+  "zh": "你就引入了一次对推理端点的调用。"
+ },
+ {
+  "seg": 387,
+  "start": 1859.919,
+  "end": 1865.783,
+  "speaker": "Unknown",
+  "en": "And more often than not, that inference endpoint is going to be more of a bottleneck than the rest of the system.",
+  "zh": "而且更多时候，那个推理端点会成为整个系统中比其他部分更严重的瓶颈。"
+ },
+ {
+  "seg": 388,
+  "start": 1866.144,
+  "end": 1877.632,
+  "speaker": "Unknown",
+  "en": "And that's another reason why we wired the inference into the data platform, because when you're doing end-to-end testing, it doesn't matter if your vector database returns vectors really fast.",
+  "zh": "这也是我们把推理接入数据平台的另一个原因，因为当你在做端到端测试时，你的向量数据库返回向量再快也没用。"
+ },
+ {
+  "seg": 389,
+  "start": 1877.693,
+  "end": 1880.875,
+  "speaker": "Unknown",
+  "en": "If the inference that you're depending on is slow, then your search is going to be slow.",
+  "zh": "如果你依赖的推理很慢，那你的搜索就会很慢。"
+ },
+ {
+  "seg": 390,
+  "start": 1882.403,
+  "end": 1890.648,
+  "speaker": "Unknown",
+  "en": "I think that's a question that is shape-shifting as the data platforms wire more capability into the systems and these models improve.",
+  "zh": "我认为这个问题正随着数据平台把更多能力接入系统、以及这些模型的改进而不断变化。"
+ },
+ {
+  "seg": 391,
+  "start": 1892.89,
+  "end": 1895.111,
+  "speaker": "Unknown",
+  "en": "And every vendor is going to have their own specific take.",
+  "zh": "而且每家厂商都会有自己特定的立场。"
+ },
+ {
+  "seg": 392,
+  "start": 1895.512,
+  "end": 1902.917,
+  "speaker": "Unknown",
+  "en": "Our take is that everything starts with traditional search, which makes a lot of sense given our heritage.",
+  "zh": "我们的立场是，一切都从传统搜索开始，鉴于我们的出身这很合理。"
+ },
+ {
+  "seg": 393,
+  "start": 1903.617,
+  "end": 1906.839,
+  "speaker": "Unknown",
+  "en": "And then you add semantic capabilities on top of that.",
+  "zh": "然后在其之上添加语义能力。"
+ },
+ {
+  "seg": 394,
+  "start": 1908.276,
+  "end": 1911.158,
+  "speaker": "Unknown",
+  "en": "And then you layer in re-ranking if you need to.",
+  "zh": "然后如果有需要，再叠加重排序。"
+ },
+ {
+  "seg": 395,
+  "start": 1911.198,
+  "end": 1915.12,
+  "speaker": "Unknown",
+  "en": "In terms of where that stuff happens, that's where the devil's in the details.",
+  "zh": "至于这些事情发生在哪里，那就是细节里的魔鬼所在了。"
+ },
+ {
+  "seg": 396,
+  "start": 1915.32,
+  "end": 1920.904,
+  "speaker": "Unknown",
+  "en": "As a developer trying to build an architecture around this stuff, your options are quite vast.",
+  "zh": "作为一个试图围绕这些东西构建架构的开发者，你的选择相当多。"
+ },
+ {
+  "seg": 397,
+  "start": 1921.304,
+  "end": 1934.372,
+  "speaker": "Unknown",
+  "en": "And depending on the stack you start with, you're going to have perceptions of what you should be doing in the data platform versus what you might have some sort of middleware around it that is wired up.",
+  "zh": "而且取决于你从什么技术栈起步，你会对什么应该在数据平台里做、什么可能应该由围绕它的某种中间件来接线，有着不同的认知。"
+ },
+ {
+  "seg": 398,
+  "start": 1934.452,
+  "end": 1936.653,
+  "speaker": "Unknown",
+  "en": "And I'm using the word middleware kind of loosely.",
+  "zh": "我用“中间件”这个词用得比较随意。"
+ },
+ {
+  "seg": 399,
+  "start": 1937.365,
+  "end": 1965.585,
+  "speaker": "Unknown",
+  "en": "There's a whole application runtime construct that's went away ever since this AI boom started that is gonna have to come back and it's either gonna land in the data platform itself where we're doing inference and some of these other things that you would normally have to coordinate with these external services or there's gonna be platforms that try to accomplish that and then use the data platform as just kind of this thing that you plug in.",
+  "zh": "自从这波 AI 热潮开始以来，有一整套应用运行时构造就消失了，它必须回归，而它要么会落在数据平台本身——也就是我们做推理和某些其他你通常需要与这些外部服务协调的事情的地方——要么会出现一些试图 accomplishing 这个目标的平台，然后把数据平台当作你插上去的这么一个东西来用。"
+ },
+ {
+  "seg": 400,
+  "start": 1966.015,
+  "end": 1976.922,
+  "speaker": "Unknown",
+  "en": "And I'm thinking about like old school stuff like back in the old days when I started my tech career, we were doing object relational mapping and the database was supposedly pluggable.",
+  "zh": "我在想一些老派的东西,比如在我刚开始我的科技职业生涯的时候,我们做的是对象关系映射,据说是数据库可以插拔的。"
+ },
+ {
+  "seg": 401,
+  "start": 1977.082,
+  "end": 1981.004,
+  "speaker": "Unknown",
+  "en": "You swap out your credentials and it doesn't matter because you're not using SQL anymore.",
+  "zh": "你换掉你的凭据就行了,因为已经不用 SQL 了。"
+ },
+ {
+  "seg": 402,
+  "start": 1982.605,
+  "end": 1993.732,
+  "speaker": "Unknown",
+  "en": "I think that we're in the very early days of AI where for retrieval purposes, as soon as you start writing code, you're locked into whatever stack you've picked.",
+  "zh": "我认为我们正处于 AI 的非常早期阶段,就检索而言,一旦你开始写代码,你就被锁定在你选定的那个技术栈上了。"
+ },
+ {
+  "seg": 403,
+  "start": 1994.418,
+  "end": 2000.56,
+  "speaker": "Unknown",
+  "en": "And that dictates a lot of different design decisions that you have to make, especially as you start to scale.",
+  "zh": "而这就决定了你必须做出的很多不同的设计决策,尤其是当你开始扩展的时候。"
+ },
+ {
+  "seg": 404,
+  "start": 2001.2,
+  "end": 2016.345,
+  "speaker": "Unknown",
+  "en": "And where we kick in and have an advantage against, let's call it a simpler stack, would be when the data volumes get larger and the latency requirements become more, I don't want to say severe, but the SLAs are really tight.",
+  "zh": "而我们介入并相对于——姑且称之为更简单的技术栈——拥有优势的地方,是在数据量变大、延迟要求变得更……我不想说苛刻,但 SLA 确实非常紧的时候。"
+ },
+ {
+  "seg": 405,
+  "start": 2017.266,
+  "end": 2021.007,
+  "speaker": "Unknown",
+  "en": "That's when we're going to shine because we can do things that the other platforms can't do.",
+  "zh": "那就是我们要大放异彩的时候,因为我们能做到其他平台做不到的事情。"
+ },
+ {
+  "seg": 406,
+  "start": 2021.067,
+  "end": 2024.248,
+  "speaker": "Unknown",
+  "en": "And we've got a level of tunability, especially on the relevance side.",
+  "zh": "而且我们有一种可调节性,尤其是在相关性方面。"
+ },
+ {
+  "seg": 407,
+  "start": 2025.058,
+  "end": 2027.499,
+  "speaker": "Unknown",
+  "en": "That can't be accomplished with other data platforms.",
+  "zh": "这是其他数据平台无法做到的。"
+ },
+ {
+  "seg": 408,
+  "start": 2029.799,
+  "end": 2046.202,
+  "speaker": "Unknown",
+  "en": "That's a very good question that we do talk about in the lab, but I don't think we provide that authoritative answer key of here's how you construct your weights based on things that you can tell from the shape of your data or the shape of the searches that you know users are going to execute.",
+  "zh": "这是一个非常好的问题,我们在实验室里确实讨论过,但我不认为我们提供了那个权威的答案钥匙,告诉你如何根据你能从数据形态或你已知用户将要执行的搜索的形态中判断出的信息来构建你的权重。"
+ },
+ {
+  "seg": 409,
+  "start": 2046.922,
+  "end": 2051.503,
+  "speaker": "Unknown",
+  "en": "The short answer to that is today that's actually hard to do.",
+  "zh": "对这个问题的简短回答是,今天这实际上很难做到。"
+ },
+ {
+  "seg": 410,
+  "start": 2052.543,
+  "end": 2068.471,
+  "speaker": "Unknown",
+  "en": "The longer answer is, and this is something that I think you'll see come from us, is there's a missing element to relevance tuning that hasn't been addressed in a way that makes this turnkey yet.",
+  "zh": "更长的回答是——而且我认为你们会看到我们推出这方面的东西——相关性调优还缺失一个要素,它还没有以一种让它开箱即用的方式被解决。"
+ },
+ {
+  "seg": 411,
+  "start": 2069.511,
+  "end": 2073.133,
+  "speaker": "Unknown",
+  "en": "And I've actually got a reference architecture that I put out a year ago.",
+  "zh": "而且我实际上在一年前发布过一个参考架构。"
+ },
+ {
+  "seg": 412,
+  "start": 2073.153,
+  "end": 2074.154,
+  "speaker": "Unknown",
+  "en": "It needs to be refined.",
+  "zh": "它需要被完善。"
+ },
+ {
+  "seg": 413,
+  "start": 2074.194,
+  "end": 2078.296,
+  "speaker": "Unknown",
+  "en": "It's based on Moshra that covers auto-tuning and that concept.",
+  "zh": "它基于 Moshra,涵盖自动调优和那个概念。"
+ },
+ {
+  "seg": 414,
+  "start": 2079.356,
+  "end": 2080.757,
+  "speaker": "Unknown",
+  "en": "But in a perfect world,",
+  "zh": "但在一个完美的世界里,"
+ },
+ {
+  "seg": 415,
+  "start": 2081.349,
+  "end": 2103.736,
+  "speaker": "Unknown",
+  "en": "You would actually be able to take the searches that are coming through the system and the telemetry from those user experiences and things like click through traffic and thumbs up, thumbs down, basically telemetry from the users and then also any other business metrics that you have wired into your use case to actually tune the relevance, which might introduce different weights for linear.",
+  "zh": "你实际上能够获取系统中进来的搜索请求、那些用户体验的遥测数据,比如点击流量、点赞、点踩,基本上是来自用户的遥测数据,再加上你接入到你的用例中的任何其他业务指标,来实际调优相关性,这可能会为线性引入不同的权重。"
+ },
+ {
+  "seg": 416,
+  "start": 2104.476,
+  "end": 2110.838,
+  "speaker": "Unknown",
+  "en": "It might toggle between RF and linear with specific weights depending on the type of query coming in.",
+  "zh": "它可能会根据进来的查询类型在 RF 和线性之间切换,并带有特定的权重。"
+ },
+ {
+  "seg": 417,
+  "start": 2111.583,
+  "end": 2114.946,
+  "speaker": "Unknown",
+  "en": "Or you have all sorts of other types of techniques.",
+  "zh": "或者你有各种各样的其他类型的技术。"
+ },
+ {
+  "seg": 418,
+  "start": 2115.147,
+  "end": 2124.475,
+  "speaker": "Unknown",
+  "en": "The one that I think is more common than even those two is just coming up with different sets of filters based on the query that's coming in.",
+  "zh": "我认为比那两种更常见的一种,就是根据进来的查询给出不同的过滤器集合。"
+ },
+ {
+  "seg": 419,
+  "start": 2124.636,
+  "end": 2127.879,
+  "speaker": "Unknown",
+  "en": "So Sunil built out the original architecture for this.",
+  "zh": "所以 Sunil 为这个构建了最初的架构。"
+ },
+ {
+  "seg": 420,
+  "start": 2127.899,
+  "end": 2129.7,
+  "speaker": "Unknown",
+  "en": "We called it an intelligent search layer.",
+  "zh": "我们称之为智能搜索层。"
+ },
+ {
+  "seg": 421,
+  "start": 2130.741,
+  "end": 2135.146,
+  "speaker": "Unknown",
+  "en": "And it's something that Azure Search has tried to kind of wire into their product.",
+  "zh": "Azure Search 曾试图把它接入到他们的产品中。"
+ },
+ {
+  "seg": 422,
+  "start": 2135.706,
+  "end": 2136.647,
+  "speaker": "Unknown",
+  "en": "It is something that",
+  "zh": "它是这样一种东西,"
+ },
+ {
+  "seg": 423,
+  "start": 2137.093,
+  "end": 2142.137,
+  "speaker": "Unknown",
+  "en": "You can actually do today with Elastic using the agent builder construct, which is covered in the last lab.",
+  "zh": "你今天实际上可以用 Elastic 通过 agent builder 结构来做,这在上一次实验室里有讲到。"
+ },
+ {
+  "seg": 424,
+  "start": 2143.137,
+  "end": 2148.761,
+  "speaker": "Unknown",
+  "en": "But that's a little bit different technique than just tweaking the weights on the fly based on what we're seeing.",
+  "zh": "但那和我们基于观察到的东西即时调整权重的技术有点不同。"
+ },
+ {
+  "seg": 425,
+  "start": 2149.142,
+  "end": 2160.73,
+  "speaker": "Unknown",
+  "en": "You would actually have the LLM interrogate the query and then execute searches with different filters based on that interrogation, which I actually love that technique.",
+  "zh": "你实际上是让 LLM 审视这个查询,然后基于那次审视用不同的过滤器执行搜索,我实际上很喜欢那个技术。"
+ },
+ {
+  "seg": 426,
+  "start": 2160.77,
+  "end": 2161.871,
+  "speaker": "Unknown",
+  "en": "I think it's fantastic.",
+  "zh": "我认为它非常棒。"
+ },
+ {
+  "seg": 427,
+  "start": 2161.911,
+  "end": 2165.093,
+  "speaker": "Unknown",
+  "en": "And I'm glad that we have a construct for it with Elastic.",
+  "zh": "而且我很高兴我们在 Elastic 里有它的一个结构。"
+ },
+ {
+  "seg": 428,
+  "start": 2167.125,
+  "end": 2168.847,
+  "speaker": "Unknown",
+  "en": "Stuff that Agent Builder's designed to solve for.",
+  "zh": "这正是 Agent Builder 设计要解决的问题。"
+ },
+ {
+  "seg": 429,
+  "start": 2171.709,
+  "end": 2171.869,
+  "speaker": "Unknown",
+  "en": "Yep.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 430,
+  "start": 2176.492,
+  "end": 2177.053,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 431,
+  "start": 2179.415,
+  "end": 2195.527,
+  "speaker": "Unknown",
+  "en": "And that's where I'm hoping, and this isn't something that we've announced that we're going to do yet, but I'm hoping that at some point you're going to see the concept of auto-tuned relevance be something you can enable and have attributes or settings that you specify to turn that",
+  "zh": "而这也是我所希望的——这还不是我们已经宣布要做的事情——我希望在某个时候,你会看到自动调优相关性的概念成为你可以启用的东西,并且可以指定一些属性或设置来把它"
+ },
+ {
+  "seg": 432,
+  "start": 2196.158,
+  "end": 2202.56,
+  "speaker": "Unknown",
+  "en": "on and maybe even turn it up depending on the use case and what you're seeing with actual usage of the system.",
+  "zh": "打开,甚至根据用例以及你在系统实际使用中观察到的情况把它调大。"
+ },
+ {
+  "seg": 433,
+  "start": 2203.061,
+  "end": 2208.223,
+  "speaker": "Unknown",
+  "en": "And just to be clear with everybody in the room, we have not released any technology that does that yet.",
+  "zh": "而且要跟在座的各位说清楚,我们还没有发布任何能做这件事的技术。"
+ },
+ {
+  "seg": 434,
+  "start": 2208.763,
+  "end": 2218.626,
+  "speaker": "Unknown",
+  "en": "But it comes up often enough in the field where I'm working with customers that it's something that if we had it, it would move the needle big time and make developers' lives a lot easier.",
+  "zh": "但在一线我和客户合作时它被提到得足够频繁,以至于如果我们有了它,它会大大推动进展,让开发者的生活轻松很多。"
+ },
+ {
+  "seg": 435,
+  "start": 2219.787,
+  "end": 2220.307,
+  "speaker": "Unknown",
+  "en": "Would you agree?",
+  "zh": "你同意吗?"
+ },
+ {
+  "seg": 436,
+  "start": 2221.995,
+  "end": 2226.039,
+  "speaker": "Unknown",
+  "en": "OK, I'm going to bring it up again to our CTO and make him say no again.",
+  "zh": "好的,我要再跟我们的 CTO 提这件事,让他再说一次不行。"
+ },
+ {
+  "seg": 437,
+  "start": 2226.059,
+  "end": 2231.243,
+  "speaker": "Unknown",
+  "en": "All right, so we're going to just walk through this one.",
+  "zh": "好了,接下来我们要过一遍这一题。"
+ },
+ {
+  "seg": 438,
+  "start": 2231.343,
+  "end": 2234.326,
+  "speaker": "Unknown",
+  "en": "Most of you are probably along with that, past it.",
+  "zh": "你们大多数人可能已经跟上了,已经过去了。"
+ },
+ {
+  "seg": 439,
+  "start": 2234.366,
+  "end": 2235.827,
+  "speaker": "Unknown",
+  "en": "If not, it's all right.",
+  "zh": "如果没有,也没关系。"
+ },
+ {
+  "seg": 440,
+  "start": 2236.428,
+  "end": 2242.913,
+  "speaker": "Unknown",
+  "en": "So we're trying to combine the two different mythologies here.",
+  "zh": "所以我们要把这两种不同的……在这里结合一下。"
+ },
+ {
+  "seg": 441,
+  "start": 2243.014,
+  "end": 2246.957,
+  "speaker": "Unknown",
+  "en": "And the crux of the problem is, and it's in here somewhere,",
+  "zh": "这个问题的症结在于,它在这儿的某个地方,"
+ },
+ {
+  "seg": 442,
+  "start": 2248.78,
+  "end": 2257.006,
+  "speaker": "Unknown",
+  "en": "BM25 has a scale, scores documents from zero to kind of whatever, whereas vector search normally it's zero to one.",
+  "zh": "BM25 有一个尺度,给文档打分从零到任意值,而向量搜索通常是零到一。"
+ },
+ {
+  "seg": 443,
+  "start": 2257.186,
+  "end": 2275.759,
+  "speaker": "Unknown",
+  "en": "And so when you have these scales that do not, that aren't the same, obviously a poor result in a lexical BM25 search is almost always going to beat out from a pure number perspective a good",
+  "zh": "所以当这些尺度不一样的时候,显然从纯数字角度看,词法 BM25 搜索里的一个差结果几乎总是会打败一个好的"
+ },
+ {
+  "seg": 444,
+  "start": 2276.343,
+  "end": 2276.963,
+  "speaker": "Unknown",
+  "en": "Semantic search.",
+  "zh": "语义搜索结果。"
+ },
+ {
+  "seg": 445,
+  "start": 2277.164,
+  "end": 2280.425,
+  "speaker": "Unknown",
+  "en": "So then it's the fun game of how do you combine them.",
+  "zh": "于是就变成了怎么把它们结合起来的有趣游戏。"
+ },
+ {
+  "seg": 446,
+  "start": 2281.646,
+  "end": 2283.847,
+  "speaker": "Unknown",
+  "en": "And so there's a couple of different ways.",
+  "zh": "有几种不同的方法。"
+ },
+ {
+  "seg": 447,
+  "start": 2284.768,
+  "end": 2292.833,
+  "speaker": "Unknown",
+  "en": "We don't get into the kind of choosing one on the fly here, but there are different ways to get into that, kind of getting the basics here.",
+  "zh": "我们在这里不涉及那种即时选择其中一种的方式,但有不同的方法可以做到,这里先讲基础。"
+ },
+ {
+  "seg": 448,
+  "start": 2293.153,
+  "end": 2301.638,
+  "speaker": "Unknown",
+  "en": "So RRF is kind of designed to be the out of the box, works pretty well,",
+  "zh": "所以 RRF 的设计初衷是开箱即用、效果相当好,"
+ },
+ {
+  "seg": 449,
+  "start": 2303.233,
+  "end": 2303.813,
+  "speaker": "Unknown",
+  "en": "Until it doesn't.",
+  "zh": "直到它不管用为止。"
+ },
+ {
+  "seg": 450,
+  "start": 2304.393,
+  "end": 2305.834,
+  "speaker": "Unknown",
+  "en": "But it's a good first start.",
+  "zh": "但这是一个不错的起点。"
+ },
+ {
+  "seg": 451,
+  "start": 2305.854,
+  "end": 2307.655,
+  "speaker": "Unknown",
+  "en": "You don't have to know how to tune.",
+  "zh": "你不需要懂怎么调参。"
+ },
+ {
+  "seg": 452,
+  "start": 2307.675,
+  "end": 2311.858,
+  "speaker": "Unknown",
+  "en": "You don't have to really know the details of your data.",
+  "zh": "你也不需要真正了解你数据的细节。"
+ },
+ {
+  "seg": 453,
+  "start": 2312.158,
+  "end": 2319.162,
+  "speaker": "Unknown",
+  "en": "But the idea then is that essentially, I forgot there's a table in here, you throw out the scores.",
+  "zh": "但当时的思路本质上是——我忘了这里面有一张表——你把分数扔掉。"
+ },
+ {
+  "seg": 454,
+  "start": 2319.442,
+  "end": 2321.543,
+  "speaker": "Unknown",
+  "en": "So you run the two searches in parallel.",
+  "zh": "所以你并行跑两次搜索。"
+ },
+ {
+  "seg": 455,
+  "start": 2322.104,
+  "end": 2323.144,
+  "speaker": "Unknown",
+  "en": "You take the order.",
+  "zh": "你取的是顺序。"
+ },
+ {
+  "seg": 456,
+  "start": 2323.445,
+  "end": 2325.386,
+  "speaker": "Unknown",
+  "en": "There's a little bit of that rank constant in there.",
+  "zh": "454"
+ },
+ {
+  "seg": 457,
+  "start": 2325.806,
+  "end": 2330.409,
+  "speaker": "Unknown",
+  "en": "But essentially, if your result document is high in both,",
+  "zh": "但本质上,如果你的结果文档在两者中都排名靠前,"
+ },
+ {
+  "seg": 458,
+  "start": 2332.123,
+  "end": 2332.983,
+  "speaker": "Unknown",
+  "en": "It's probably a good match.",
+  "zh": "那它很可能就是一个好的匹配。"
+ },
+ {
+  "seg": 459,
+  "start": 2334.044,
+  "end": 2337.164,
+  "speaker": "Unknown",
+  "en": "When they're not, that's where the kind of combination gets into play.",
+  "zh": "当它们不一致时,才是那种组合方式发挥作用的地方。"
+ },
+ {
+  "seg": 460,
+  "start": 2337.384,
+  "end": 2340.705,
+  "speaker": "Unknown",
+  "en": "And you have this pretty simple, where is that?",
+  "zh": "然后你有这个相当简单的——在哪来着?"
+ },
+ {
+  "seg": 461,
+  "start": 2340.805,
+  "end": 2343.265,
+  "speaker": "Unknown",
+  "en": "I scrolled past it, scoring in here.",
+  "zh": "我滑过头了——评分在这里。"
+ },
+ {
+  "seg": 462,
+  "start": 2344.406,
+  "end": 2345.166,
+  "speaker": "Unknown",
+  "en": "And then you have a table.",
+  "zh": "然后你有一张表。"
+ },
+ {
+  "seg": 463,
+  "start": 2345.246,
+  "end": 2355.188,
+  "speaker": "Unknown",
+  "en": "And so essentially what you're returning is not a list of documents scored order, it's just the rank order.",
+  "zh": "所以本质上你返回的不是按分数排序的文档列表,而只是排名顺序。"
+ },
+ {
+  "seg": 464,
+  "start": 2355.248,
+  "end": 2359.869,
+  "speaker": "Unknown",
+  "en": "And so that's why there's a rank constant in there, because you're just getting the rank of the documents.",
+  "zh": "这就是为什么里面有个排序常数,因为你拿到的只是文档的排名。"
+ },
+ {
+  "seg": 465,
+  "start": 2360.471,
+  "end": 2363.638,
+  "speaker": "Unknown",
+  "en": "And you can see and hear, where is it working?",
+  "zh": "你可以看到和听到,它在哪儿起作用?"
+ },
+ {
+  "seg": 466,
+  "start": 2367.167,
+  "end": 2367.368,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 467,
+  "start": 2370.301,
+  "end": 2383.249,
+  "speaker": "Unknown",
+  "en": "It talks about it in this table where the documents come in in different orders, but by ranking them, then you hopefully get the best answer for you.",
+  "zh": "它在这张表里讲到,文档会以不同的顺序进来,但通过对它们排序,你就有希望得到对你来说最好的答案。"
+ },
+ {
+  "seg": 468,
+  "start": 2383.729,
+  "end": 2391.594,
+  "speaker": "Unknown",
+  "en": "But that doesn't always work, and actually James mentioned this a second ago, filtering is a really powerful and effective way to help along.",
+  "zh": "但这并不总是有效,实际上 James 刚才也提到了,过滤是一种非常强大且有效的辅助手段。"
+ },
+ {
+  "seg": 469,
+  "start": 2391.674,
+  "end": 2396.357,
+  "speaker": "Unknown",
+  "en": "So if you can filter your data by keyword,",
+  "zh": "所以如果你能按关键词过滤你的数据,"
+ },
+ {
+  "seg": 470,
+  "start": 2397.57,
+  "end": 2408.282,
+  "speaker": "Unknown",
+  "en": "Geolocation, date, anything that gets that data set down to a smaller candidate pool, you're going to have better results usually because you have a smaller thing.",
+  "zh": "地理位置、日期,任何能把数据集缩小到更小候选池的东西,通常你会有更好的结果,因为你的东西更小了。"
+ },
+ {
+  "seg": 471,
+  "start": 2408.302,
+  "end": 2409.784,
+  "speaker": "Unknown",
+  "en": "You're not just casting a net over everything.",
+  "zh": "你不是对一切撒网。"
+ },
+ {
+  "seg": 472,
+  "start": 2410.424,
+  "end": 2412.667,
+  "speaker": "Unknown",
+  "en": "You're filtering it down and you're narrowing it down.",
+  "zh": "你是在过滤它、收窄它。"
+ },
+ {
+  "seg": 473,
+  "start": 2412.707,
+  "end": 2417.973,
+  "speaker": "Unknown",
+  "en": "It's like if I want pizza tonight, I'm not just going to search for food.",
+  "zh": "就好比今晚我想吃披萨,我不会直接去搜「食物」。"
+ },
+ {
+  "seg": 474,
+  "start": 2419.035,
+  "end": 2419.255,
+  "speaker": "Unknown",
+  "en": "Maybe.",
+  "zh": "也许会吧。"
+ },
+ {
+  "seg": 475,
+  "start": 2419.676,
+  "end": 2423.919,
+  "speaker": "Unknown",
+  "en": "But if I did search for food, I can then filter by pizza.",
+  "zh": "但如果我真搜了「食物」,我可以再按披萨来过滤。"
+ },
+ {
+  "seg": 476,
+  "start": 2423.959,
+  "end": 2427.341,
+  "speaker": "Unknown",
+  "en": "And at least I'll just get pizza results or things like that.",
+  "zh": "至少我只会得到披萨的结果或类似的东西。"
+ },
+ {
+  "seg": 477,
+  "start": 2427.401,
+  "end": 2429.503,
+  "speaker": "Unknown",
+  "en": "So that's where filtering comes into play.",
+  "zh": "这就是过滤发挥作用的地方。"
+ },
+ {
+  "seg": 478,
+  "start": 2429.643,
+  "end": 2434.267,
+  "speaker": "Unknown",
+  "en": "And it's something Elasticsearch does very, very well and very quickly.",
+  "zh": "而且这是 Elasticsearch 做得非常、非常好也非常快的事情。"
+ },
+ {
+  "seg": 479,
+  "start": 2434.467,
+  "end": 2435.488,
+  "speaker": "Unknown",
+  "en": "And we have a lot of different ways to do it.",
+  "zh": "我们有很多不同的方式来做这件事。"
+ },
+ {
+  "seg": 480,
+  "start": 2437.029,
+  "end": 2439.531,
+  "speaker": "Unknown",
+  "en": "But then it gets into that doesn't always work.",
+  "zh": "但接下来就到了这并不总是有效的时候。"
+ },
+ {
+  "seg": 481,
+  "start": 2440.111,
+  "end": 2442.573,
+  "speaker": "Unknown",
+  "en": "And so you can get into linear combinations.",
+  "zh": "于是你可以进入线性组合。"
+ },
+ {
+  "seg": 482,
+  "start": 2443.605,
+  "end": 2445.767,
+  "speaker": "Unknown",
+  "en": "And we're talking about min-max in here.",
+  "zh": "我们这里在讲 min-max。"
+ },
+ {
+  "seg": 483,
+  "start": 2445.787,
+  "end": 2446.688,
+  "speaker": "Unknown",
+  "en": "There's different things you can do.",
+  "zh": "你可以做不同的事情。"
+ },
+ {
+  "seg": 484,
+  "start": 2447.929,
+  "end": 2449.77,
+  "speaker": "Unknown",
+  "en": "But this is where you're normalizing the scores.",
+  "zh": "但这就是你把分数归一化的地方。"
+ },
+ {
+  "seg": 485,
+  "start": 2450.01,
+  "end": 2456.055,
+  "speaker": "Unknown",
+  "en": "So instead of taking the order, you're going to then instead just normalize the scores.",
+  "zh": "所以你不取顺序,而是改为把分数归一化。"
+ },
+ {
+  "seg": 486,
+  "start": 2456.095,
+  "end": 2458.777,
+  "speaker": "Unknown",
+  "en": "So everything has the same scoring range from 0 to 1.",
+  "zh": "这样一切都处于相同的评分区间,从 0 到 1。"
+ },
+ {
+  "seg": 487,
+  "start": 2459.297,
+  "end": 2460.218,
+  "speaker": "Unknown",
+  "en": "And you can put them together.",
+  "zh": "然后你可以把它们组合起来。"
+ },
+ {
+  "seg": 488,
+  "start": 2460.998,
+  "end": 2464.421,
+  "speaker": "Unknown",
+  "en": "And there's a little bit of the tuning examples in here.",
+  "zh": "这里面有一些调参的例子。"
+ },
+ {
+  "seg": 489,
+  "start": 2464.861,
+  "end": 2466.663,
+  "speaker": "Unknown",
+  "en": "It's, again, it's kind of the",
+  "zh": "再说一次,这算是"
+ },
+ {
+  "seg": 490,
+  "start": 2469.146,
+  "end": 2470.99,
+  "speaker": "Unknown",
+  "en": "Intro level to tuning for sure.",
+  "zh": "调参的入门级别,肯定是的。"
+ },
+ {
+  "seg": 491,
+  "start": 2471.411,
+  "end": 2475.72,
+  "speaker": "Unknown",
+  "en": "But you can tune the weights and you can see which one works well.",
+  "zh": "但你可以调整权重,看看哪个效果好。"
+ },
+ {
+  "seg": 492,
+  "start": 2475.74,
+  "end": 2477.383,
+  "speaker": "Unknown",
+  "en": "And this is where judgment sets comes in.",
+  "zh": "这就是评判集(judgment sets)登场的地方。"
+ },
+ {
+  "seg": 493,
+  "start": 2477.563,
+  "end": 2478.325,
+  "speaker": "Unknown",
+  "en": "And this is where",
+  "zh": "这就是"
+ },
+ {
+  "seg": 494,
+  "start": 2478.823,
+  "end": 2506.361,
+  "speaker": "Unknown",
+  "en": "Things like we have a lot of different workshops and things like that and the intelligent query layer and things like this do this more automatically, not in a sophisticated way, but essentially you have your judgment set that a human, these days you can get an LLM to help you, but based on this query, these are the exact documents I want, and then you run your experiments and you see which weights work for you to give those results as accurately as possible.",
+  "zh": "——比如我们有很多不同的工作坊之类的东西,还有智能查询层(intelligent query layer)之类的,它们更自动化地做这件事,虽然方式不算复杂——但本质上你有一套评判集,由人来定,如今你可以让一个 LLM 来帮你,即:基于这个查询,这些就是我确切想要的文档,然后你跑实验,看看哪些权重能让你尽可能准确地给出那些结果。"
+ },
+ {
+  "seg": 495,
+  "start": 2516.035,
+  "end": 2529.522,
+  "speaker": "Unknown",
+  "en": "And I will add one more item because this is actually a technique that we used in the intelligent query layer architecture that we were talking about quite a bit last year and the year before.",
+  "zh": "我还要补充一点,因为这实际上是我们去年和前年谈得相当多的智能查询层架构中使用的一种技术。"
+ },
+ {
+  "seg": 496,
+  "start": 2530.942,
+  "end": 2536.045,
+  "speaker": "Unknown",
+  "en": "Elastic supports the concept of search templates, so you could technically have",
+  "zh": "Elastic 支持搜索模板的概念,所以你理论上可以有"
+ },
+ {
+  "seg": 497,
+  "start": 2536.812,
+  "end": 2547.874,
+  "speaker": "Unknown",
+  "en": "Three different search strategies, one that uses RRF, one that uses linear, and maybe another one that uses a combination of linear or RRF with a re-ranker.",
+  "zh": "三种不同的搜索策略,一种使用 RRF,一种使用线性组合,也许还有一种使用线性或 RRF 结合重排序器(re-ranker)的组合。"
+ },
+ {
+  "seg": 498,
+  "start": 2548.634,
+  "end": 2559.116,
+  "speaker": "Unknown",
+  "en": "And if you have a layer on top, let's call it an LLM, it's got a simple prompt that says, based on this type of query, I want you to route to this search template.",
+  "zh": "如果你在上面有一层——就称之为 LLM 吧——它有一个简单的提示词,写着:基于这种类型的查询,我要你路由到这个搜索模板。"
+ },
+ {
+  "seg": 499,
+  "start": 2559.136,
+  "end": 2562.056,
+  "speaker": "Unknown",
+  "en": "Based on this other type of query, I want you to route to this search template.",
+  "zh": "基于那种其他类型的查询,我要你路由到那个搜索模板。"
+ },
+ {
+  "seg": 500,
+  "start": 2562.076,
+  "end": 2565.977,
+  "speaker": "Unknown",
+  "en": "You can literally have the equivalent of what I call poor man's",
+  "zh": "你基本上可以拥有我所谓的穷人版的"
+ },
+ {
+  "seg": 501,
+  "start": 2566.822,
+  "end": 2574.105,
+  "speaker": "Unknown",
+  "en": "Auto-tuning where you're literally toggling between different search strategies based on what the search query that's coming in looks like.",
+  "zh": "这不是我们发明的东西——我们没有发明 RRF，但我们确实在用它。"
+ },
+ {
+  "seg": 502,
+  "start": 2574.365,
+  "end": 2581.527,
+  "speaker": "Unknown",
+  "en": "And you have something, and it doesn't have to be an LLM, but you have some way of interrogating that search to decide which search template to invoke.",
+  "zh": "而且你会有某种东西——它不必是 LLM——但你有某种方式去询问那次搜索，以决定调用哪个搜索模板。"
+ },
+ {
+  "seg": 503,
+  "start": 2582.107,
+  "end": 2590.45,
+  "speaker": "Unknown",
+  "en": "Most developers that are building out an advanced use case where they don't have a single strategy that they can use for all queries are going to end up with something like that under the hood.",
+  "zh": "大多数正在构建高级用例、且没有单一策略可以适用于所有查询的开发者，最终都会在底层弄出类似这样的东西。"
+ },
+ {
+  "seg": 504,
+  "start": 2590.47,
+  "end": 2593.291,
+  "speaker": "Unknown",
+  "en": "It's just a matter of how hard it is to actually code that up.",
+  "zh": "只不过问题在于实际把它编码出来有多难。"
+ },
+ {
+  "seg": 505,
+  "start": 2593.671,
+  "end": 2594.792,
+  "speaker": "Unknown",
+  "en": "And in the case of Elastic,",
+  "zh": "而在 Elastic 的情况下，"
+ },
+ {
+  "seg": 506,
+  "start": 2595.871,
+  "end": 2603.717,
+  "speaker": "Unknown",
+  "en": "A lot of folks don't know about search templates, but that is a powerful mechanism that can be used to reduce the amount of boilerplate code you have to write for that type of architecture.",
+  "zh": "很多人不知道 search templates(搜索模板)，但那是一个强大的机制，可以用来减少你为那种架构必须编写的样板代码。"
+ },
+ {
+  "seg": 507,
+  "start": 2605.858,
+  "end": 2610.862,
+  "speaker": "Unknown",
+  "en": "Not covered in the labs, but noteworthy to at least have an understanding that that concept exists in Elastic.",
+  "zh": "实验里没有涵盖，但至少值得了解一下这个概念在 Elastic 中是存在的。"
+ },
+ {
+  "seg": 508,
+  "start": 2613.984,
+  "end": 2618.847,
+  "speaker": "Unknown",
+  "en": "So the table at the end, again, is kind of the take it with a grain of salt, but it's a good way to get started, right?",
+  "zh": "所以最后那张表，再说一次，还是要带着怀疑的态度去看，但它是一个很好的入门方式，对吧？"
+ },
+ {
+  "seg": 509,
+  "start": 2618.887,
+  "end": 2623.731,
+  "speaker": "Unknown",
+  "en": "Like, if you don't know your data too well or it's all, you know,",
+  "zh": "比如，如果你对你的数据不太了解，或者全都是，你知道的，"
+ },
+ {
+  "seg": 510,
+  "start": 2624.35,
+  "end": 2625.45,
+  "speaker": "Unknown",
+  "en": "Kind of an unknown query mix.",
+  "zh": "一种未知的查询组合。"
+ },
+ {
+  "seg": 511,
+  "start": 2625.47,
+  "end": 2626.471,
+  "speaker": "Unknown",
+  "en": "You can start with RRF.",
+  "zh": "你可以从 RRF 开始。"
+ },
+ {
+  "seg": 512,
+  "start": 2626.571,
+  "end": 2627.511,
+  "speaker": "Unknown",
+  "en": "It does work pretty well.",
+  "zh": "它的效果确实相当不错。"
+ },
+ {
+  "seg": 513,
+  "start": 2627.591,
+  "end": 2630.832,
+  "speaker": "Unknown",
+  "en": "It's not something we didn't invent RRF, but we do use it.",
+  "zh": "这不是我们发明的 RRF,但我们确实在使用它。"
+ },
+ {
+  "seg": 514,
+  "start": 2630.872,
+  "end": 2631.673,
+  "speaker": "Unknown",
+  "en": "Other places use it.",
+  "zh": "其他地方也在用。"
+ },
+ {
+  "seg": 515,
+  "start": 2632.873,
+  "end": 2638.235,
+  "speaker": "Unknown",
+  "en": "And then beyond that, you can start getting into other ways to combine the data.",
+  "zh": "在那之外，你就可以开始探索其他组合数据的方式了。"
+ },
+ {
+  "seg": 516,
+  "start": 2638.895,
+  "end": 2640.996,
+  "speaker": "Unknown",
+  "en": "But you don't always have to do hybrid search.",
+  "zh": "但你并不总是必须做混合搜索。"
+ },
+ {
+  "seg": 517,
+  "start": 2641.076,
+  "end": 2642.997,
+  "speaker": "Unknown",
+  "en": "Sometimes semantic search is enough.",
+  "zh": "有时候语义搜索就够了。"
+ },
+ {
+  "seg": 518,
+  "start": 2643.277,
+  "end": 2644.357,
+  "speaker": "Unknown",
+  "en": "Sometimes BM25.",
+  "zh": "有时候 BM25。"
+ },
+ {
+  "seg": 519,
+  "start": 2645.078,
+  "end": 2648.779,
+  "speaker": "Unknown",
+  "en": "But usually we find that there's some combination of semantic and",
+  "zh": "但通常我们发现，语义搜索和"
+ },
+ {
+  "seg": 520,
+  "start": 2649.6,
+  "end": 2654.485,
+  "speaker": "Unknown",
+  "en": "Lexical search that helps the retrieval work most effectively.",
+  "zh": "词法搜索的某种组合能让检索最有效地运作。"
+ },
+ {
+  "seg": 521,
+  "start": 2660.511,
+  "end": 2670.221,
+  "speaker": "Unknown",
+  "en": "And then lab four is where you, despite the title, you do put it into a model, but we're going to show you how",
+  "zh": "然后实验四就是——尽管标题如此——你确实会把它放进一个模型里，但我们要向你展示怎么做。"
+ },
+ {
+  "seg": 522,
+  "start": 2672.197,
+  "end": 2676.618,
+  "speaker": "Unknown",
+  "en": "Again, as I said at the top of this, LLMs are extremely smart.",
+  "zh": "再说一遍，正如我在开头所说的，LLM 极其聪明。"
+ },
+ {
+  "seg": 523,
+  "start": 2677.639,
+  "end": 2678.659,
+  "speaker": "Unknown",
+  "en": "It's not their best word.",
+  "zh": "那不是它们最好的词。"
+ },
+ {
+  "seg": 524,
+  "start": 2678.679,
+  "end": 2682.36,
+  "speaker": "Unknown",
+  "en": "But they are effective at giving you answers.",
+  "zh": "但它们在给你答案方面是有效的。"
+ },
+ {
+  "seg": 525,
+  "start": 2683.14,
+  "end": 2696.124,
+  "speaker": "Unknown",
+  "en": "But any time you have to feed them data that they're outside their training knowledge or anything, you can pretty confidently get them to give you the wrong answer by providing them the set of data and say, the sky is orange.",
+  "zh": "但任何时候你必须喂给它们超出其训练知识范围的数据或任何东西时，你都可以相当有把握地让它们给你错误的答案，只要给它们一组数据然后说，天空是橙色的。"
+ },
+ {
+  "seg": 526,
+  "start": 2696.164,
+  "end": 2699.185,
+  "speaker": "Unknown",
+  "en": "And then usually it'll tell you the sky is orange.",
+  "zh": "然后通常它就会告诉你天空是橙色的。"
+ },
+ {
+  "seg": 527,
+  "start": 2700.31,
+  "end": 2707.395,
+  "speaker": "Unknown",
+  "en": "Just ways around that, but this is where we kind of show you that retrieval is still important to agentic answers.",
+  "zh": "是有一些绕开的办法的，但我们在这里想向你展示的是，检索对智能体的回答仍然很重要。"
+ },
+ {
+  "seg": 528,
+  "start": 2719.764,
+  "end": 2720.764,
+  "speaker": "Unknown",
+  "en": "Quick show of hands.",
+  "zh": "快速举手示意一下。"
+ },
+ {
+  "seg": 529,
+  "start": 2720.785,
+  "end": 2726.689,
+  "speaker": "Unknown",
+  "en": "Are there any folks that are not actually past Lab 3 yet?",
+  "zh": "有没有人实际上还没做完实验三？"
+ },
+ {
+  "seg": 530,
+  "start": 2729.641,
+  "end": 2730.061,
+  "speaker": "Unknown",
+  "en": "OK, good.",
+  "zh": "好，很好。"
+ },
+ {
+  "seg": 531,
+  "start": 2730.582,
+  "end": 2731.482,
+  "speaker": "Unknown",
+  "en": "People are cruising along.",
+  "zh": "大家进展得很顺利。"
+ },
+ {
+  "seg": 532,
+  "start": 2733.024,
+  "end": 2733.284,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 533,
+  "start": 2743.171,
+  "end": 2752.378,
+  "speaker": "Unknown",
+  "en": "And so it's worth mentioning, too, this is where we actually get into Agent Builder, Elastic's agentic platform, which has the ability to obviously to run agents,",
+  "zh": "所以还值得一提的是，这里我们真正进入 Agent Builder，Elastic 的智能体平台，它显然有能力运行智能体，"
+ },
+ {
+  "seg": 534,
+  "start": 2752.822,
+  "end": 2754.843,
+  "speaker": "Unknown",
+  "en": "to run tools and skills.",
+  "zh": "运行工具和技能。"
+ },
+ {
+  "seg": 535,
+  "start": 2755.704,
+  "end": 2758.086,
+  "speaker": "Unknown",
+  "en": "You can hook into lots of LLMs.",
+  "zh": "你可以接入很多 LLM。"
+ },
+ {
+  "seg": 536,
+  "start": 2758.126,
+  "end": 2762.769,
+  "speaker": "Unknown",
+  "en": "The Elastic Inference Service has all your favorite LLMs available to it.",
+  "zh": "Elastic Inference Service 提供了你所有喜欢的 LLM。"
+ },
+ {
+  "seg": 537,
+  "start": 2763.51,
+  "end": 2766.772,
+  "speaker": "Unknown",
+  "en": "But you can, again, bring your own LLM.",
+  "zh": "但你同样可以自带 LLM。"
+ },
+ {
+  "seg": 538,
+  "start": 2767.272,
+  "end": 2773.157,
+  "speaker": "Unknown",
+  "en": "And it's able to then run these tools directly against the data within Elastic.",
+  "zh": "然后它就能直接针对 Elastic 内的数据运行这些工具。"
+ },
+ {
+  "seg": 539,
+  "start": 2773.377,
+  "end": 2779.021,
+  "speaker": "Unknown",
+  "en": "And actually, now it's not covered in the workshop, but we have workflows.",
+  "zh": "而实际上，现在——这次工作坊没有涵盖——但我们有 workflows(工作流)。"
+ },
+ {
+  "seg": 540,
+  "start": 2779.67,
+  "end": 2788.061,
+  "speaker": "Unknown",
+  "en": "And workflows, essentially, are anytime you have an ordered set of tasks you want completed, you can have decision trees and things like that, the agents can call these workflows.",
+  "zh": "而工作流，本质上是，任何时候你有一组想要完成的有序任务，你可以有决策树之类的东西，智能体可以调用这些工作流。"
+ },
+ {
+  "seg": 541,
+  "start": 2788.221,
+  "end": 2789.283,
+  "speaker": "Unknown",
+  "en": "And they can also reach out.",
+  "zh": "而且它们还可以向外延伸。"
+ },
+ {
+  "seg": 542,
+  "start": 2789.303,
+  "end": 2790.464,
+  "speaker": "Unknown",
+  "en": "So you can call it to other systems.",
+  "zh": "所以你可以调用其他系统。"
+ },
+ {
+  "seg": 543,
+  "start": 2790.484,
+  "end": 2791.566,
+  "speaker": "Unknown",
+  "en": "You can call MCP tools.",
+  "zh": "你可以调用 MCP 工具。"
+ },
+ {
+  "seg": 544,
+  "start": 2791.586,
+  "end": 2793.168,
+  "speaker": "Unknown",
+  "en": "You can call APIs.",
+  "zh": "你可以调用 API。"
+ },
+ {
+  "seg": 545,
+  "start": 2793.969,
+  "end": 2795.131,
+  "speaker": "Unknown",
+  "en": "Call anything to your heart's content.",
+  "zh": "想调什么就调什么，随心所欲。"
+ },
+ {
+  "seg": 546,
+  "start": 2796.602,
+  "end": 2806.145,
+  "speaker": "Unknown",
+  "en": "Again, outside of the scope of this workshop, since we have a little time here, this is where the agent has the ability then to start doing things.",
+  "zh": "再说一次，这超出了本次工作坊的范围，既然我们这里还有一点时间——这就是智能体开始能够实际做事情的地方。"
+ },
+ {
+  "seg": 547,
+  "start": 2806.485,
+  "end": 2820.21,
+  "speaker": "Unknown",
+  "en": "So not just retrieving your answers for you, but there's a whole other workshop that you could go to where because of an incident, for example, the observability, the OTAL trace data you bring in,",
+  "zh": "所以不只是替你检索答案——还有另一个你可以去的工作坊，因为比如发生了某个事故，你引入的可观测性、OTAL 追踪数据，"
+ },
+ {
+  "seg": 548,
+  "start": 2820.812,
+  "end": 2824.756,
+  "speaker": "Unknown",
+  "en": "It can decide, yeah, the system is running out of resources.",
+  "zh": "它可以判断，是的，系统的资源快用完了。"
+ },
+ {
+  "seg": 549,
+  "start": 2824.796,
+  "end": 2825.617,
+  "speaker": "Unknown",
+  "en": "It needs to scale.",
+  "zh": "它需要扩容。"
+ },
+ {
+  "seg": 550,
+  "start": 2825.637,
+  "end": 2829.882,
+  "speaker": "Unknown",
+  "en": "So you can call a workflow, for example, to auto-scale your Kubernetes environment.",
+  "zh": "比如说，你可以调用一个工作流来自动扩展你的 Kubernetes 环境。"
+ },
+ {
+  "seg": 551,
+  "start": 2829.902,
+  "end": 2830.683,
+  "speaker": "Unknown",
+  "en": "It's just one example.",
+  "zh": "这只是一个例子。"
+ },
+ {
+  "seg": 552,
+  "start": 2830.803,
+  "end": 2833.285,
+  "speaker": "Unknown",
+  "en": "But this is where we actually get into Agent Builder.",
+  "zh": "但这里我们才真正进入 Agent Builder。"
+ },
+ {
+  "seg": 553,
+  "start": 2833.526,
+  "end": 2839.312,
+  "speaker": "Unknown",
+  "en": "And it walks you through a little bit of the capabilities.",
+  "zh": "它会带你稍微了解一下这些能力。"
+ },
+ {
+  "seg": 554,
+  "start": 2851.828,
+  "end": 2866.556,
+  "speaker": "Unknown",
+  "en": "And one of the more interesting things about Agent Builder for folks that are software developers is the fact that everything that you see in a Kibana user interface in Agent Builder is programmable via API.",
+  "zh": "对于软件开发者来说，Agent Builder 更有意思的一点是，你在 Kibana 用户界面中看到的 Agent Builder 里的一切，都可以通过 API 来编程。"
+ },
+ {
+  "seg": 555,
+  "start": 2867.036,
+  "end": 2879.883,
+  "speaker": "Unknown",
+  "en": "So if you decided that you wanted to do a quick prototype and you're using our Agent Builder mechanism within Elastic and you think, oh, I have to rewrite all this code from scratch now and build out a real app, you don't have to do that.",
+  "zh": "所以如果你决定做一个快速原型，你用的是 Elastic 里的 Agent Builder 机制，然后你想，哦，我现在得从头重写所有这些代码，再构建一个真正的应用——你不需要那么做。"
+ },
+ {
+  "seg": 556,
+  "start": 2879.923,
+  "end": 2881.604,
+  "speaker": "Unknown",
+  "en": "You can reuse those same endpoints.",
+  "zh": "你可以复用那些相同的端点。"
+ },
+ {
+  "seg": 557,
+  "start": 2882.085,
+  "end": 2888.549,
+  "speaker": "Unknown",
+  "en": "in your application and make the same calls in a custom user experience that you control.",
+  "zh": "在你的应用中，在一个由你掌控的自定义用户体验里发起相同的调用。"
+ },
+ {
+  "seg": 558,
+  "start": 2888.809,
+  "end": 2899.255,
+  "speaker": "Unknown",
+  "en": "And then you have the added benefit if you decide that you wanted to pull those agent builder components out and wire in another framework or another set of APIs that you either build or use a different framework for.",
+  "zh": "然后你还有一个额外的好处：如果你决定把那些 Agent Builder 组件抽出来，接入另一个框架或另一套 API——不管是你自己构建的，还是用别的框架——"
+ },
+ {
+  "seg": 559,
+  "start": 2899.996,
+  "end": 2901.697,
+  "speaker": "Unknown",
+  "en": "We would be compatible with that as well.",
+  "zh": "我们也同样与之兼容。"
+ },
+ {
+  "seg": 560,
+  "start": 2901.777,
+  "end": 2910.862,
+  "speaker": "Unknown",
+  "en": "So the goal for us is to provide as much turnkey experience as possible but not lock you in so that you're forced to build applications the way that we want you to build them.",
+  "zh": "所以我们的目标是提供尽可能多的开箱即用体验，但不把你锁死，不强迫你按我们想要的方式去构建应用。"
+ },
+ {
+  "seg": 561,
+  "start": 2910.982,
+  "end": 2911.863,
+  "speaker": "Unknown",
+  "en": "We're very flexible.",
+  "zh": "我们非常灵活。"
+ },
+ {
+  "seg": 562,
+  "start": 2912.392,
+  "end": 2913.172,
+  "speaker": "Unknown",
+  "en": "Almost to a fault.",
+  "zh": "几乎到了过分的程度。"
+ },
+ {
+  "seg": 563,
+  "start": 2913.693,
+  "end": 2917.915,
+  "speaker": "Unknown",
+  "en": "So when you ask us a question, oftentimes the answer starts with it depends.",
+  "zh": "所以当你问我们一个问题的时候，答案往往以「看情况」开头。"
+ },
+ {
+  "seg": 564,
+  "start": 2919.216,
+  "end": 2921.897,
+  "speaker": "Unknown",
+  "en": "Did anybody come in recently that doesn't have the URL?",
+  "zh": "最近有没有人进来但没有那个 URL?"
+ },
+ {
+  "seg": 565,
+  "start": 2923.338,
+  "end": 2923.658,
+  "speaker": "Unknown",
+  "en": "Sorry.",
+  "zh": "抱歉。"
+ },
+ {
+  "seg": 566,
+  "start": 2924.519,
+  "end": 2926.96,
+  "speaker": "Unknown",
+  "en": "Thought so, but start up there.",
+  "zh": "我就这么想的，但还是从那里开始吧。"
+ },
+ {
+  "seg": 567,
+  "start": 2927.04,
+  "end": 2927.76,
+  "speaker": "Unknown",
+  "en": "So it's in the upper right.",
+  "zh": "它在右上角。"
+ },
+ {
+  "seg": 568,
+  "start": 2928.701,
+  "end": 2931.562,
+  "speaker": "Unknown",
+  "en": "It's that short E-L-A-S-T one.",
+  "zh": "就是那个简短的 E-L-A-S-T。"
+ },
+ {
+  "seg": 569,
+  "start": 2932.523,
+  "end": 2938.186,
+  "speaker": "Unknown",
+  "en": "And in case anyone came in later and didn't catch me say it, this will be available for a week.",
+  "zh": "以防有人来得晚没听到我说，这个会保留一周。"
+ },
+ {
+  "seg": 570,
+  "start": 2939.267,
+  "end": 2941.728,
+  "speaker": "Unknown",
+  "en": "The actual workshop itself and then the blue",
+  "zh": "实际的工作坊本身，然后还有蓝色"
+ },
+ {
+  "seg": 571,
+  "start": 2942.618,
+  "end": 2943.078,
+  "speaker": "Unknown",
+  "en": "By James.",
+  "zh": "由 James 提供。"
+ },
+ {
+  "seg": 572,
+  "start": 2944.46,
+  "end": 2948.963,
+  "speaker": "Unknown",
+  "en": "Link is the repo that has all the notebooks in there.",
+  "zh": "链接指向的仓库里有所有的 notebook。"
+ },
+ {
+  "seg": 573,
+  "start": 2949.024,
+  "end": 2950.024,
+  "speaker": "Unknown",
+  "en": "It has all the other code in there.",
+  "zh": "里面还有所有其他的代码。"
+ },
+ {
+  "seg": 574,
+  "start": 2950.044,
+  "end": 2952.587,
+  "speaker": "Unknown",
+  "en": "But the relevant stuff you'll use without instruct is the notebooks.",
+  "zh": "但你不用 instruct 也会用到的相关内容就是那些 notebook。"
+ },
+ {
+  "seg": 575,
+  "start": 2953.047,
+  "end": 2960.433,
+  "speaker": "Unknown",
+  "en": "You can hook it up to any Elasticsearch cluster you have, free one, eh, well, sort of, if you hook up a different service.",
+  "zh": "你可以把它接到你有的任何 Elasticsearch 集群上，免费的，呃，算是吧，如果你接的是不同的服务的话。"
+ },
+ {
+  "seg": 576,
+  "start": 2960.553,
+  "end": 2962.215,
+  "speaker": "Unknown",
+  "en": "But it'll load the data, and you can run through it all.",
+  "zh": "但它会加载数据，你可以把整个流程跑一遍。"
+ },
+ {
+  "seg": 577,
+  "start": 2962.455,
+  "end": 2968.3,
+  "speaker": "Unknown",
+  "en": "So that'll be available until someone deletes it, deletes me.",
+  "zh": "所以它会一直可用，直到有人把它删掉，或者把我删掉。"
+ },
+ {
+  "seg": 578,
+  "start": 2975.432,
+  "end": 2985.515,
+  "speaker": "Unknown",
+  "en": "By the way, thanks to our distinguished architect over here, Sunil, we wanted to make sure that we give you bonus content, bonus workshop materials.",
+  "zh": "顺便说一句，感谢我们这边这位杰出的架构师 Sunil，我们想确保给大家提供额外的内容、额外的工作坊材料。"
+ },
+ {
+  "seg": 579,
+  "start": 2986.215,
+  "end": 2994.597,
+  "speaker": "Unknown",
+  "en": "There are additional workshops available online that have the same format that we used here today, where there basically is an instruct environment.",
+  "zh": "线上还有其他一些工作坊，采用和我们今天这里一样的格式，基本上就是一个 instruct 环境。"
+ },
+ {
+  "seg": 580,
+  "start": 2994.897,
+  "end": 3000.639,
+  "speaker": "Unknown",
+  "en": "It's pre-built so that you can walk through the concepts and learn more about how Elastic works under the hood.",
+  "zh": "它是预先构建好的，这样你就可以逐步过一遍这些概念，更多了解 Elastic 在底层是如何工作的。"
+ },
+ {
+  "seg": 581,
+  "start": 3001.919,
+  "end": 3004.02,
+  "speaker": "Unknown",
+  "en": "We highly recommend that you hit that URL.",
+  "zh": "我们强烈建议你去访问那个 URL。"
+ },
+ {
+  "seg": 582,
+  "start": 3004.972,
+  "end": 3005.812,
+  "speaker": "Unknown",
+  "en": "And use the workshops.",
+  "zh": "使用那些工作坊。"
+ },
+ {
+  "seg": 583,
+  "start": 3005.872,
+  "end": 3007.293,
+  "speaker": "Unknown",
+  "en": "It's essentially free training.",
+  "zh": "这基本上就是免费的培训。"
+ },
+ {
+  "seg": 584,
+  "start": 3007.873,
+  "end": 3013.355,
+  "speaker": "Unknown",
+  "en": "And once you complete those workshops, you'll probably increase your market value by, I don't know, $100,000, $200,000 a year.",
+  "zh": "而且一旦你完成了那些工作坊，你的市场价值可能会提升，我说不好，每年 10 万、20 万美元。"
+ },
+ {
+  "seg": 585,
+  "start": 3013.375,
+  "end": 3014.916,
+  "speaker": "Unknown",
+  "en": "It's a guaranteed pay raise.",
+  "zh": "这是一个保证涨薪。"
+ },
+ {
+  "seg": 586,
+  "start": 3016.936,
+  "end": 3020.778,
+  "speaker": "Unknown",
+  "en": "OK, so while people are working on that, I'm going to do two things.",
+  "zh": "好了，趁大家在操作的时候，我要做两件事。"
+ },
+ {
+  "seg": 587,
+  "start": 3020.898,
+  "end": 3031.242,
+  "speaker": "Unknown",
+  "en": "So I kept talking a couple times about providing new information and up-to-date and",
+  "zh": "我之前好几次都提到要向这些 LLM 提供新的信息、最新的"
+ },
+ {
+  "seg": 588,
+  "start": 3032.559,
+  "end": 3036.957,
+  "speaker": "Unknown",
+  "en": "Fresh and whatever proprietary information to these LLMs as a way to",
+  "zh": "新鲜的以及各种专有信息，作为一种"
+ },
+ {
+  "seg": 589,
+  "start": 3037.791,
+  "end": 3042.253,
+  "speaker": "Unknown",
+  "en": "Augment, that's where the augment, the A in RAG comes in, augment their knowledge.",
+  "zh": "增强的手段——增强就是 RAG 里的 A 的由来——增强它们的知识。"
+ },
+ {
+  "seg": 590,
+  "start": 3042.633,
+  "end": 3054.357,
+  "speaker": "Unknown",
+  "en": "The other thing that comes up a lot, and this is coming up more and more in, well, everywhere, especially as agents start running around and doing things even faster, is being able to cite the sources.",
+  "zh": "另一个经常出现的事情，而且在各地出现得越来越多，尤其是随着智能体开始到处跑、做事越来越快，就是能够引用来源。"
+ },
+ {
+  "seg": 591,
+  "start": 3054.737,
+  "end": 3060.299,
+  "speaker": "Unknown",
+  "en": "So models are really good at coming up with information, and oftentimes it is correct.",
+  "zh": "模型非常擅长编造出信息，而且很多时候它是正确的。"
+ },
+ {
+  "seg": 592,
+  "start": 3060.84,
+  "end": 3064.481,
+  "speaker": "Unknown",
+  "en": "But what they're also great at is lying to you because",
+  "zh": "但它们同样擅长对你撒谎，因为"
+ },
+ {
+  "seg": 593,
+  "start": 3065.353,
+  "end": 3089.292,
+  "speaker": "Unknown",
+  "en": "Not because they're specifically trained for it, but what happens is if there's a very thin line between, say, two other lines that you ask a question about and it doesn't know that specific answer, but it knows enough information around the answer and about other topics and related, it can come up with an extremely convincing response that unless you're an expert or really know the actual answer can trick people.",
+  "zh": "不是因为它们被专门训练来撒谎，而是如果在你问的问题所涉及的两条线之间有一条非常细的界线，而它不知道那个具体的答案，但它对答案周围的信息、对其他相关话题知道得足够多，它就能编出一个极具说服力的回答，除非你是专家或者真的知道实际答案，否则是能骗到人的。"
+ },
+ {
+  "seg": 594,
+  "start": 3090.832,
+  "end": 3097.135,
+  "speaker": "Unknown",
+  "en": "All that to say, one of the things that's in this lab, it's kind of in the middle and it's up on the screen right now, is the ability to have an LLM cite its sources.",
+  "zh": "说了这么多，这个实验里的一项功能——它差不多在中间，现在就在屏幕上——就是让 LLM 引用它的来源。"
+ },
+ {
+  "seg": 595,
+  "start": 3099.176,
+  "end": 3106.059,
+  "speaker": "Unknown",
+  "en": "Most models do not have the ability to cite their sources because it's not a database.",
+  "zh": "大多数模型并不具备引用来源的能力，因为它不是数据库。"
+ },
+ {
+  "seg": 596,
+  "start": 3106.599,
+  "end": 3109.841,
+  "speaker": "Unknown",
+  "en": "These models are not doing a table lookup and pulling information.",
+  "zh": "这些模型并不是在做表查询然后拉取信息。"
+ },
+ {
+  "seg": 597,
+  "start": 3110.301,
+  "end": 3112.902,
+  "speaker": "Unknown",
+  "en": "It's generating tokens based on its training.",
+  "zh": "它是在根据训练生成 token。"
+ },
+ {
+  "seg": 598,
+  "start": 3114.521,
+  "end": 3124.506,
+  "speaker": "Unknown",
+  "en": "By providing the actual answers to the LLM and having it parse it out and put together a human-friendly answer or whatever format you want it in, it can also then cite its sources.",
+  "zh": "通过把实际的答案提供给 LLM，让它解析并组织出一个人类友好的回答、或者你想要的任何格式，它也就能够引用它的来源了。"
+ },
+ {
+  "seg": 599,
+  "start": 3124.987,
+  "end": 3137.073,
+  "speaker": "Unknown",
+  "en": "This is extremely important in things like legal, which you've probably seen in the news come up a lot of times where lawyers are getting in trouble because they're having cases and then they're making up answers, citing cases that don't exist or",
+  "zh": "这在法律等领域极其重要，你可能已经在新闻里见过很多次，律师们惹上麻烦，因为他们在办案件的时候编造答案，引用不存在的案例，或者"
+ },
+ {
+  "seg": 600,
+  "start": 3137.876,
+  "end": 3138.617,
+  "speaker": "Unknown",
+  "en": "Twisting the answers.",
+  "zh": "篡改答案。"
+ },
+ {
+  "seg": 601,
+  "start": 3139.198,
+  "end": 3151.075,
+  "speaker": "Unknown",
+  "en": "So if you can have the model process large amounts of data, complex data, but still set the answer, it makes them a lot more useful and trustworthy to a point.",
+  "zh": "所以如果你能让模型处理大量数据、复杂数据，但仍然设定答案，这会让它们更有用、在某种程度上更值得信赖。"
+ },
+ {
+  "seg": 602,
+  "start": 3153.057,
+  "end": 3154.439,
+  "speaker": "Unknown",
+  "en": "So when you go into",
+  "zh": "所以当你进入"
+ },
+ {
+  "seg": 603,
+  "start": 3160.677,
+  "end": 3168.16,
+  "speaker": "Unknown",
+  "en": "As James mentioned, one of the nice things about the agent builder platform is that it is also API driven.",
+  "zh": "正如 James 提到的，智能体构建平台的一个好处是它也是 API 驱动的。"
+ },
+ {
+  "seg": 604,
+  "start": 3168.44,
+  "end": 3176.442,
+  "speaker": "Unknown",
+  "en": "So that's kind of why the lab in this one was a little bit reversed to show that where you can build all this programmatically.",
+  "zh": "所以这也是为什么本节的实验有点反过来做，就是为了展示你可以通过编程方式构建这一切。"
+ },
+ {
+  "seg": 605,
+  "start": 3176.502,
+  "end": 3185.566,
+  "speaker": "Unknown",
+  "en": "So you can build skills and tools and agents and, you know, through I built this all programmatically and that way you can",
+  "zh": "所以你可以通过编程方式构建技能、工具和智能体，就像我构建这一切那样，这样你就可以"
+ },
+ {
+  "seg": 606,
+  "start": 3186.866,
+  "end": 3192.97,
+  "speaker": "Unknown",
+  "en": "Create it, tear it down, scale it, change it as you need, but still use all the capabilities built into the stack and things like that.",
+  "zh": "创建它、拆除它、扩展它、按需更改它，同时仍然使用技术栈中内置的各种能力之类的。"
+ },
+ {
+  "seg": 607,
+  "start": 3193.811,
+  "end": 3198.654,
+  "speaker": "Unknown",
+  "en": "So we'll go in here and then you can go into overview.",
+  "zh": "所以我们进到这里，然后你可以进入概览。"
+ },
+ {
+  "seg": 608,
+  "start": 3199.975,
+  "end": 3201.816,
+  "speaker": "Unknown",
+  "en": "We have a lot of skills out of the box.",
+  "zh": "我们有很多开箱即用的技能。"
+ },
+ {
+  "seg": 609,
+  "start": 3202.357,
+  "end": 3203.717,
+  "speaker": "Unknown",
+  "en": "So these are the skills.",
+  "zh": "这些就是技能。"
+ },
+ {
+  "seg": 610,
+  "start": 3204.398,
+  "end": 3207.98,
+  "speaker": "Unknown",
+  "en": "And I'm sure everyone here knows this because you're here in an AI conference, right?",
+  "zh": "我相信在座的每个人都了解这个，因为你们是来参加 AI 大会的，对吧？"
+ },
+ {
+  "seg": 611,
+  "start": 3210.425,
+  "end": 3211.345,
+  "speaker": "Unknown",
+  "en": "It's a lot of different things.",
+  "zh": "它涵盖很多不同的东西。"
+ },
+ {
+  "seg": 612,
+  "start": 3211.385,
+  "end": 3225.71,
+  "speaker": "Unknown",
+  "en": "But essentially, it's explaining to a model or an agent how to perform a task in a certain way, when tools should be used, how to create presentations, how to create other services.",
+  "zh": "但本质上，它是在向模型或智能体解释如何以某种方式执行任务、何时应该使用工具、如何创建演示文稿、如何创建其他服务。"
+ },
+ {
+  "seg": 613,
+  "start": 3226.43,
+  "end": 3228.191,
+  "speaker": "Unknown",
+  "en": "But it's anything you can write down to kind of help it out.",
+  "zh": "但任何你能写下来帮助它的东西都可以。"
+ },
+ {
+  "seg": 614,
+  "start": 3228.211,
+  "end": 3231.432,
+  "speaker": "Unknown",
+  "en": "So it doesn't have to just figure it out by itself.",
+  "zh": "这样它就不必完全靠自己弄清楚。"
+ },
+ {
+  "seg": 615,
+  "start": 3232.292,
+  "end": 3234.133,
+  "speaker": "Unknown",
+  "en": "Some things, it's just ways to make it faster.",
+  "zh": "有些东西，只是让它更快的方法。"
+ },
+ {
+  "seg": 616,
+  "start": 3234.253,
+  "end": 3236.554,
+  "speaker": "Unknown",
+  "en": "Some things, it's when you run very specific outcomes.",
+  "zh": "有些东西，是当你运行非常特定的结果时用的。"
+ },
+ {
+  "seg": 617,
+  "start": 3237.458,
+  "end": 3240.919,
+  "speaker": "Unknown",
+  "en": "If you want to give it core instructions as shown in here.",
+  "zh": "如果你想给它核心指令，就像这里展示的。"
+ },
+ {
+  "seg": 618,
+  "start": 3242.359,
+  "end": 3249.861,
+  "speaker": "Unknown",
+  "en": "And so we provide a lot of out-of-the-box things, skills for you, like if you want to create graphs, visualizations, searching.",
+  "zh": "所以我们提供了很多开箱即用的东西，为你提供技能，比如创建图表、可视化、搜索。"
+ },
+ {
+  "seg": 619,
+  "start": 3251.401,
+  "end": 3252.402,
+  "speaker": "Unknown",
+  "en": "But we also create tools.",
+  "zh": "但我们也创建工具。"
+ },
+ {
+  "seg": 620,
+  "start": 3252.422,
+  "end": 3255.563,
+  "speaker": "Unknown",
+  "en": "So the difference then is a tool is performing an action.",
+  "zh": "那么区别就在于，工具是执行一个动作。"
+ },
+ {
+  "seg": 621,
+  "start": 3256.083,
+  "end": 3263.304,
+  "speaker": "Unknown",
+  "en": "So a tool that we provide here out-of-the-box are things like running searches, listing workflows.",
+  "zh": "所以我们这里开箱即用的工具包括运行搜索、列出工作流之类的东西。"
+ },
+ {
+  "seg": 622,
+  "start": 3263.344,
+  "end": 3265.385,
+  "speaker": "Unknown",
+  "en": "They talked about workflows as the way to actually",
+  "zh": "他们谈到工作流是实际用来"
+ },
+ {
+  "seg": 623,
+  "start": 3265.876,
+  "end": 3272.622,
+  "speaker": "Unknown",
+  "en": "Reach out and query external services or run things in a very specific deterministic manner.",
+  "zh": "访问和查询外部服务，或者以非常特定的确定性方式运行东西的方法。"
+ },
+ {
+  "seg": 624,
+  "start": 3273.542,
+  "end": 3274.583,
+  "speaker": "Unknown",
+  "en": "But you can create your own tools.",
+  "zh": "但你也可以创建自己的工具。"
+ },
+ {
+  "seg": 625,
+  "start": 3274.623,
+  "end": 3284.671,
+  "speaker": "Unknown",
+  "en": "So if we go into the agent that you created, for example, and you look at the overview, it's a very simple agent, again, for the purposes of today.",
+  "zh": "所以如果我们进入你创建的那个智能体，例如，你看一下概览，它是一个非常简单的智能体，再说一次，是为了今天的目的。"
+ },
+ {
+  "seg": 626,
+  "start": 3284.711,
+  "end": 3285.652,
+  "speaker": "Unknown",
+  "en": "It has one skill.",
+  "zh": "它有一个技能。"
+ },
+ {
+  "seg": 627,
+  "start": 3286.273,
+  "end": 3292.598,
+  "speaker": "Unknown",
+  "en": "It talks about how to diagnose an issue that you're looking for.",
+  "zh": "它讲的是如何诊断你要查找的问题。"
+ },
+ {
+  "seg": 628,
+  "start": 3292.971,
+  "end": 3297.752,
+  "speaker": "Unknown",
+  "en": "So it's pretty short here compared to the out-of-the-box ones.",
+  "zh": "所以和开箱即用的那些相比，这里相当短。"
+ },
+ {
+  "seg": 629,
+  "start": 3298.252,
+  "end": 3301.653,
+  "speaker": "Unknown",
+  "en": "But this is where you can provide as much information to help it out.",
+  "zh": "但这里你可以提供尽可能多的信息来帮助它。"
+ },
+ {
+  "seg": 630,
+  "start": 3301.693,
+  "end": 3303.494,
+  "speaker": "Unknown",
+  "en": "So it helps to find the clause, find the fix.",
+  "zh": "所以它有助于找到子句、找到修复方法。"
+ },
+ {
+  "seg": 631,
+  "start": 3303.514,
+  "end": 3306.935,
+  "speaker": "Unknown",
+  "en": "It talks about looking at the error codes.",
+  "zh": "它讲到要查看错误代码。"
+ },
+ {
+  "seg": 632,
+  "start": 3307.595,
+  "end": 3311.076,
+  "speaker": "Unknown",
+  "en": "The other things that it can do is, I think it has one tool, yeah.",
+  "zh": "它能做的其他事情是，我记得它有一个工具，对。"
+ },
+ {
+  "seg": 633,
+  "start": 3311.696,
+  "end": 3314.477,
+  "speaker": "Unknown",
+  "en": "So here we have a search tool.",
+  "zh": "所以这里我们有一个搜索工具。"
+ },
+ {
+  "seg": 634,
+  "start": 3314.517,
+  "end": 3320.059,
+  "speaker": "Unknown",
+  "en": "But if I add other tools just to show, create a new tool.",
+  "zh": "但如果我添加其他工具只是为了演示——创建一个新工具。"
+ },
+ {
+  "seg": 635,
+  "start": 3323.177,
+  "end": 3324.418,
+  "speaker": "Unknown",
+  "en": "This is always a fun question I like to ask.",
+  "zh": "这一直是我喜欢问的一个有趣问题。"
+ },
+ {
+  "seg": 636,
+  "start": 3325.239,
+  "end": 3329.041,
+  "speaker": "Unknown",
+  "en": "Who here knows or has heard of ESQL within Elastic?",
+  "zh": "在座有谁知道或听说过 Elastic 里的 ESQL？"
+ },
+ {
+  "seg": 637,
+  "start": 3332.684,
+  "end": 3332.924,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 638,
+  "start": 3334.025,
+  "end": 3334.486,
+  "speaker": "Unknown",
+  "en": "We got one.",
+  "zh": "有一位。"
+ },
+ {
+  "seg": 639,
+  "start": 3334.586,
+  "end": 3334.786,
+  "speaker": "Unknown",
+  "en": "Nice.",
+  "zh": "不错。"
+ },
+ {
+  "seg": 640,
+  "start": 3335.827,
+  "end": 3338.409,
+  "speaker": "Unknown",
+  "en": "It's about what I expect.",
+  "zh": "这和我的预期差不多。"
+ },
+ {
+  "seg": 641,
+  "start": 3339.289,
+  "end": 3343.553,
+  "speaker": "Unknown",
+  "en": "I was happy to hear, though, that a lot of you are familiar with Elastic and Elasticsearch, so that's good.",
+  "zh": "不过我很高兴听到你们中很多人熟悉 Elastic 和 Elasticsearch，这很好。"
+ },
+ {
+  "seg": 642,
+  "start": 3344.033,
+  "end": 3344.894,
+  "speaker": "Unknown",
+  "en": "ESQL is a newer",
+  "zh": "ESQL 是一个比较新的"
+ },
+ {
+  "seg": 643,
+  "start": 3348.19,
+  "end": 3361.313,
+  "speaker": "Unknown",
+  "en": "Query language within Elastic, it's the ESPypeQL, so it's a SQL, near SQL-like language, so you have a SQL-like syntax, and then essentially the pipe is in there to pipe commands together.",
+  "zh": "Elastic 内的查询语言，它是 ESPypeQL,所以它是一种 SQL、类 SQL 的语言，所以你有类 SQL 的语法，然后本质上里面有管道来把命令串联起来。"
+ },
+ {
+  "seg": 644,
+  "start": 3361.333,
+  "end": 3364.794,
+  "speaker": "Unknown",
+  "en": "You run the thing, it passes it to the next pipe, and so on and so on.",
+  "zh": "你运行这个，它传递给下一个管道，依此类推。"
+ },
+ {
+  "seg": 645,
+  "start": 3365.674,
+  "end": 3370.655,
+  "speaker": "Unknown",
+  "en": "So you can have ESQL tools to query documents in Elasticsearch.",
+  "zh": "所以你可以用 ESQL 工具来查询 Elasticsearch 中的文档。"
+ },
+ {
+  "seg": 646,
+  "start": 3371.295,
+  "end": 3375.436,
+  "speaker": "Unknown",
+  "en": "Index search is kind of an interesting tool, or, yeah, tool.",
+  "zh": "索引搜索是一种挺有意思的工具，或者说，对，工具。"
+ },
+ {
+  "seg": 647,
+  "start": 3376.528,
+  "end": 3378.49,
+  "speaker": "Unknown",
+  "en": "So SQL is you're running a specific query.",
+  "zh": "SQL 是你在运行一个特定的查询。"
+ },
+ {
+  "seg": 648,
+  "start": 3378.51,
+  "end": 3379.592,
+  "speaker": "Unknown",
+  "en": "You're querying.",
+  "zh": "你在查询。"
+ },
+ {
+  "seg": 649,
+  "start": 3379.912,
+  "end": 3380.733,
+  "speaker": "Unknown",
+  "en": "You write down the query.",
+  "zh": "你写下这个查询。"
+ },
+ {
+  "seg": 650,
+  "start": 3380.933,
+  "end": 3381.914,
+  "speaker": "Unknown",
+  "en": "You get back specific fields.",
+  "zh": "你会得到特定的字段。"
+ },
+ {
+  "seg": 651,
+  "start": 3382.475,
+  "end": 3387.181,
+  "speaker": "Unknown",
+  "en": "Index search is kind of this, I almost think of it as a documentation tool.",
+  "zh": "索引搜索差不多是这样的,我几乎把它看作一个文档工具。"
+ },
+ {
+  "seg": 652,
+  "start": 3387.481,
+  "end": 3392.887,
+  "speaker": "Unknown",
+  "en": "So you're telling it for a specific index or set of indices, this is what the index is for.",
+  "zh": "所以你要告诉它,对于某个特定的索引或一组索引,这个索引是做什么用的。"
+ },
+ {
+  "seg": 653,
+  "start": 3393.508,
+  "end": 3395.049,
+  "speaker": "Unknown",
+  "en": "This is what the field mapping is.",
+  "zh": "这是字段映射。"
+ },
+ {
+  "seg": 654,
+  "start": 3395.229,
+  "end": 3396.349,
+  "speaker": "Unknown",
+  "en": "These are what the fields are.",
+  "zh": "这些是字段。"
+ },
+ {
+  "seg": 655,
+  "start": 3396.529,
+  "end": 3404.132,
+  "speaker": "Unknown",
+  "en": "If you have, say, a product index and a pricing inventory index, it tells how to combine them.",
+  "zh": "比如说,如果你有一个产品索引和一个定价库存索引,它会说明如何把它们结合起来。"
+ },
+ {
+  "seg": 656,
+  "start": 3404.532,
+  "end": 3407.253,
+  "speaker": "Unknown",
+  "en": "Like with the SQL, you can join indices together.",
+  "zh": "就像 SQL 一样,你可以把索引连接(join)在一起。"
+ },
+ {
+  "seg": 657,
+  "start": 3408.013,
+  "end": 3408.913,
+  "speaker": "Unknown",
+  "en": "So it talks about that.",
+  "zh": "它会讲到这些。"
+ },
+ {
+  "seg": 658,
+  "start": 3409.173,
+  "end": 3419.737,
+  "speaker": "Unknown",
+  "en": "And agents, because they can do round trips and do exploration, they will generally be able to figure out the indexes in your cluster.",
+  "zh": "而智能体,因为它们可以多轮往返并进行探索,通常能够弄清楚你集群里的索引。"
+ },
+ {
+  "seg": 659,
+  "start": 3420.257,
+  "end": 3422.558,
+  "speaker": "Unknown",
+  "en": "So if you just ask a question and it doesn't know anything,",
+  "zh": "所以如果你只是问一个问题,而它什么都不知道,"
+ },
+ {
+  "seg": 660,
+  "start": 3422.928,
+  "end": 3426.071,
+  "speaker": "Unknown",
+  "en": "It's going to do this query search tool, and it's going to look at the mappings.",
+  "zh": "它会执行这个查询搜索工具,然后去查看映射。"
+ },
+ {
+  "seg": 661,
+  "start": 3426.532,
+  "end": 3427.453,
+  "speaker": "Unknown",
+  "en": "There's a mapping tool.",
+  "zh": "有一个映射工具。"
+ },
+ {
+  "seg": 662,
+  "start": 3427.713,
+  "end": 3429.615,
+  "speaker": "Unknown",
+  "en": "It's going to find all the indices, and then the mappings.",
+  "zh": "它会找到所有的索引,然后是映射。"
+ },
+ {
+  "seg": 663,
+  "start": 3429.655,
+  "end": 3433.719,
+  "speaker": "Unknown",
+  "en": "It's going to try to guess, like, what sounds like a product thing, and then it's going to try to put them together.",
+  "zh": "它会尝试猜测,比如,哪个听起来像产品相关的东西,然后尝试把它们组合起来。"
+ },
+ {
+  "seg": 664,
+  "start": 3433.799,
+  "end": 3438.904,
+  "speaker": "Unknown",
+  "en": "Anyways, it'll round robin for a while, and that costs tokens.",
+  "zh": "总之,它会轮询一阵子,而这会消耗 token。"
+ },
+ {
+  "seg": 665,
+  "start": 3439.465,
+  "end": 3441.006,
+  "speaker": "Unknown",
+  "en": "And we all love token spending.",
+  "zh": "我们都热爱花 token。"
+ },
+ {
+  "seg": 666,
+  "start": 3441.106,
+  "end": 3445.671,
+  "speaker": "Unknown",
+  "en": "So this is a tool that helps speed up that dramatically and kind of help point the agent in the right direction.",
+  "zh": "所以这是一个能大幅加速这一过程、并帮助把智能体指向正确方向的工具。"
+ },
+ {
+  "seg": 667,
+  "start": 3447.377,
+  "end": 3453.981,
+  "speaker": "Unknown",
+  "en": "Workflows, I think I talked about this a few times, but we can run things in an orderly fashion and reach out to other systems.",
+  "zh": "工作流,我想我已经提过几次了,我们可以有序地运行任务并调用其他系统。"
+ },
+ {
+  "seg": 668,
+  "start": 3454.502,
+  "end": 3458.825,
+  "speaker": "Unknown",
+  "en": "And then MCP, if you want to call out to an external MCP server, you can do that.",
+  "zh": "然后是 MCP,如果你想调用外部 MCP 服务器,你可以这么做。"
+ },
+ {
+  "seg": 669,
+  "start": 3459.325,
+  "end": 3468.651,
+  "speaker": "Unknown",
+  "en": "I will mention at this point also that the tools in AgentBuilder, both the out-of-the-box ones and custom tools, are exposed as an MCP.",
+  "zh": "我在这里还要提一下,AgentBuilder 里的工具,无论是开箱即用的还是自定义工具,都以 MCP 的形式暴露出来。"
+ },
+ {
+  "seg": 670,
+  "start": 3468.671,
+  "end": 3471.773,
+  "speaker": "Unknown",
+  "en": "So Kibana exposes an MCP server.",
+  "zh": "所以 Kibana 暴露了一个 MCP 服务器。"
+ },
+ {
+  "seg": 671,
+  "start": 3471.833,
+  "end": 3473.755,
+  "speaker": "Unknown",
+  "en": "So any of the tools in there you can use.",
+  "zh": "所以里面的任何工具你都可以使用。"
+ },
+ {
+  "seg": 672,
+  "start": 3474.575,
+  "end": 3478.999,
+  "speaker": "Unknown",
+  "en": "If your agent wants to connect via MCP.",
+  "zh": "如果你的智能体想通过 MCP 连接的话。"
+ },
+ {
+  "seg": 673,
+  "start": 3481.161,
+  "end": 3482.342,
+  "speaker": "Unknown",
+  "en": "And the last one.",
+  "zh": "然后是最后一个。"
+ },
+ {
+  "seg": 674,
+  "start": 3482.802,
+  "end": 3483.863,
+  "speaker": "Unknown",
+  "en": "So you do this in the lab.",
+  "zh": "你在实验室里做这个。"
+ },
+ {
+  "seg": 675,
+  "start": 3485.624,
+  "end": 3488.987,
+  "speaker": "Unknown",
+  "en": "But this shows basically how the agent can then do multiple",
+  "zh": "但这基本上展示了智能体随后如何进行多个"
+ },
+ {
+  "seg": 676,
+  "start": 3491.485,
+  "end": 3492.146,
+  "speaker": "Unknown",
+  "en": "Multiple loops.",
+  "zh": "多个循环。"
+ },
+ {
+  "seg": 677,
+  "start": 3492.646,
+  "end": 3500.412,
+  "speaker": "Unknown",
+  "en": "So it has to do, first it loads the skill to see how to answer the question about keeps dying with a 137.",
+  "zh": "所以它必须先加载技能,看看如何回答关于「不断以 137 退出」的问题。"
+ },
+ {
+  "seg": 678,
+  "start": 3500.492,
+  "end": 3501.213,
+  "speaker": "Unknown",
+  "en": "Why does it happen?",
+  "zh": "为什么会发生?"
+ },
+ {
+  "seg": 679,
+  "start": 3501.333,
+  "end": 3501.713,
+  "speaker": "Unknown",
+  "en": "And how?",
+  "zh": "以及怎么做?"
+ },
+ {
+  "seg": 680,
+  "start": 3501.853,
+  "end": 3503.114,
+  "speaker": "Unknown",
+  "en": "So this is a two-part question, right?",
+  "zh": "所以这是一个两部分的问题,对吧?"
+ },
+ {
+  "seg": 681,
+  "start": 3503.975,
+  "end": 3504.715,
+  "speaker": "Unknown",
+  "en": "Why is this happening?",
+  "zh": "为什么会发生这种情况?"
+ },
+ {
+  "seg": 682,
+  "start": 3504.735,
+  "end": 3508.959,
+  "speaker": "Unknown",
+  "en": "Why is my cluster dying with the 137 exit code?",
+  "zh": "为什么我的集群以 137 退出码死掉?"
+ },
+ {
+  "seg": 683,
+  "start": 3509.839,
+  "end": 3512.261,
+  "speaker": "Unknown",
+  "en": "So it has to figure out the answer to that.",
+  "zh": "所以它必须找出这个问题的答案。"
+ },
+ {
+  "seg": 684,
+  "start": 3512.522,
+  "end": 3515.984,
+  "speaker": "Unknown",
+  "en": "And then, how do I change my settings to prevent it?",
+  "zh": "然后,我该如何更改设置来防止它?"
+ },
+ {
+  "seg": 685,
+  "start": 3516.365,
+  "end": 3517.325,
+  "speaker": "Unknown",
+  "en": "So it's a two-part question.",
+  "zh": "所以这是一个两部分的问题。"
+ },
+ {
+  "seg": 686,
+  "start": 3520.19,
+  "end": 3523.933,
+  "speaker": "Unknown",
+  "en": "Again, so it runs that skill, and then it starts to find the answer.",
+  "zh": "再次说明,它会运行那个技能,然后开始寻找答案。"
+ },
+ {
+  "seg": 687,
+  "start": 3523.973,
+  "end": 3528.256,
+  "speaker": "Unknown",
+  "en": "So it goes a couple loops, and it diagnoses your problem.",
+  "zh": "它经过几个循环,诊断出你的问题。"
+ },
+ {
+  "seg": 688,
+  "start": 3528.576,
+  "end": 3531.338,
+  "speaker": "Unknown",
+  "en": "It tells you why this 137 is happening.",
+  "zh": "它告诉你为什么会出现这个 137。"
+ },
+ {
+  "seg": 689,
+  "start": 3531.358,
+  "end": 3537.483,
+  "speaker": "Unknown",
+  "en": "It's actually the fun out of memory manager running and killing you.",
+  "zh": "其实是内存管理器在运行并把你杀掉了。"
+ },
+ {
+  "seg": 690,
+  "start": 3538.383,
+  "end": 3544.108,
+  "speaker": "Unknown",
+  "en": "Then it talks about how to tune your JVM options to fix it, but it talks about preventing.",
+  "zh": "然后它会讲如何调整你的 JVM 选项来修复它,但它讲的是如何预防。"
+ },
+ {
+  "seg": 691,
+  "start": 3545.728,
+  "end": 3556.637,
+  "speaker": "Unknown",
+  "en": "Because the answer was within Elastic and it had the ability to query it and then run multiple tools and things like this, it's able to kind of get you that answer and get you on your way.",
+  "zh": "因为答案就在 Elastic 内部,而它有能力去查询,然后运行多个工具之类的,所以它能够让你得到那个答案并继续前进。"
+ },
+ {
+  "seg": 692,
+  "start": 3559.819,
+  "end": 3572.81,
+  "speaker": "Unknown",
+  "en": "And the one thing I'll add is that if you're in active prototype mode and you're trying to get to search logic or query language logic that actually solves for your use case, this is actually",
+  "zh": "我还要补充的一点是,如果你处于活跃的原型模式,正在尝试找到真正能解决你用例的搜索逻辑或查询语言逻辑,这其实"
+ },
+ {
+  "seg": 693,
+  "start": 3573.676,
+  "end": 3582.159,
+  "speaker": "Unknown",
+  "en": "A pretty nice developer tool and debugging tool to find out what searches will work to retrieve the data that you need.",
+  "zh": "是一个相当不错的开发者工具和调试工具,可以找出哪些搜索能检索到你需要的数据。"
+ },
+ {
+  "seg": 694,
+  "start": 3582.719,
+  "end": 3587.14,
+  "speaker": "Unknown",
+  "en": "And the last thing I'll say about, I'm a big fan of ESQL.",
+  "zh": "关于这个我最后想说的是,我是 ESQL 的忠实粉丝。"
+ },
+ {
+  "seg": 695,
+  "start": 3587.32,
+  "end": 3593.102,
+  "speaker": "Unknown",
+  "en": "I started out a little bit skeptical because there were some features in Elastic Query Language that weren't in ESQL.",
+  "zh": "我一开始有点怀疑,因为 Elastic Query Language 里有一些 ESQL 没有的特性。"
+ },
+ {
+  "seg": 696,
+  "start": 3593.722,
+  "end": 3603.385,
+  "speaker": "Unknown",
+  "en": "I think that it's feature complete enough for you to at least take a look at it, especially if you're building agentic search use cases, because there's some really cool concepts in ESQL",
+  "zh": "我认为它的功能已经足够完整,值得你至少去看一看,尤其是当你在构建智能体搜索用例的时候,因为 ESQL 里有一些非常酷的概念"
+ },
+ {
+  "seg": 697,
+  "start": 3604.154,
+  "end": 3615.181,
+  "speaker": "Unknown",
+  "en": "that lend themselves well to solving for certain search tasks better than Elastic Query Language, which you should consider a superset of what ESQL is today.",
+  "zh": "能更好地解决某些搜索任务,胜过 Elastic Query Language——你应该把后者视为 ESQL 目前功能的一个超集。"
+ },
+ {
+  "seg": 698,
+  "start": 3616.562,
+  "end": 3632.733,
+  "speaker": "Unknown",
+  "en": "And the other thing about ESQL that makes it fantastic is the ability to have parametrization wired into the MCP tool calling chain and wired up with Agent Builder, which is a fantastic add that technically is doable outside of ESQL,",
+  "zh": "关于 ESQL 让它出色的另一点,是它能把参数化接入 MCP 工具调用链路,并与 Agent Builder 连接起来,这是一个很棒的附加能力——虽然在技术上离开 ESQL 也能做到,"
+ },
+ {
+  "seg": 699,
+  "start": 3633.292,
+  "end": 3646.045,
+  "speaker": "Unknown",
+  "en": "The way that we have architected ESQL and our agent builder and our MCP endpoint, it is the happy path to a lot of the, let's call them agentic search use cases that you might have.",
+  "zh": "但鉴于我们对 ESQL、智能体构建器和 MCP 端点的架构方式,它就是通往许多——姑且这么叫——智能体搜索用例的最佳路径(happy path)。"
+ },
+ {
+  "seg": 700,
+  "start": 3646.145,
+  "end": 3650.049,
+  "speaker": "Unknown",
+  "en": "So if you have not looked at ESQL yet, highly recommend you do that.",
+  "zh": "所以如果你还没看过 ESQL,强烈推荐你去看看。"
+ },
+ {
+  "seg": 701,
+  "start": 3650.309,
+  "end": 3654.333,
+  "speaker": "Unknown",
+  "en": "And if you're trying to pay attention to some of the innovative stuff that we're doing around search,",
+  "zh": "如果你正试图关注我们在搜索方面做的一些创新的东西,"
+ },
+ {
+  "seg": 702,
+  "start": 3654.926,
+  "end": 3676.215,
+  "speaker": "Unknown",
+  "en": "First place to look is actually going through the ESQL docs and seeing what new novel retrieval mechanisms we're coming up with because we're doing some very interesting things with federated searching, potentially calling out the different systems within an elastic query language, you know, query that is not considered traditional elastic.",
+  "zh": "首先要看的地方实际上就是通读 ESQL 文档,看看我们正在提出哪些新颖的检索机制,因为我们在联邦搜索方面做了一些非常有趣的事情,可能在一种 elastic 查询语言的、你知道的、不被认为是传统 elastic 的查询中调用不同的系统。"
+ },
+ {
+  "seg": 703,
+  "start": 3676.335,
+  "end": 3681.417,
+  "speaker": "Unknown",
+  "en": "And that's stuff that's in development now, but you're going to see that hit the product.",
+  "zh": "这些东西现在还在开发中,但你会看到它落地到产品里。"
+ },
+ {
+  "seg": 704,
+  "start": 3681.557,
+  "end": 3684.598,
+  "speaker": "Unknown",
+  "en": "And when it does, ESQL is going to be your gateway into that.",
+  "zh": "等它落地时,ESQL 将是你进入那个世界的入口。"
+ },
+ {
+  "seg": 705,
+  "start": 3686.968,
+  "end": 3699.178,
+  "speaker": "Unknown",
+  "en": "And I'm talking about things like being able to do like parquet queries on things that are external to Elastic with an ESQL call, which could be incredibly powerful if you're also joining that with data that comes from Elastic.",
+  "zh": "我说的是这样一些东西,比如通过一个 ESQL 调用对 Elastic 外部的东西执行 parquet 查询,如果你同时还把它与来自 Elastic 的数据进行连接,这可能极其强大。"
+ },
+ {
+  "seg": 706,
+  "start": 3703.001,
+  "end": 3707.685,
+  "speaker": "Unknown",
+  "en": "You can actually see that the agent used ESQL for this call.",
+  "zh": "你实际上可以看到这个智能体在这次调用中使用了 ESQL。"
+ },
+ {
+  "seg": 707,
+  "start": 3707.805,
+  "end": 3708.866,
+  "speaker": "Unknown",
+  "en": "And so this is what it looks like.",
+  "zh": "这就是它的样子。"
+ },
+ {
+  "seg": 708,
+  "start": 3710.247,
+  "end": 3711.528,
+  "speaker": "Unknown",
+  "en": "So it can do things like fork off.",
+  "zh": "所以它可以做一些事情,比如分叉出去。"
+ },
+ {
+  "seg": 709,
+  "start": 3711.689,
+  "end": 3715.632,
+  "speaker": "Unknown",
+  "en": "And then this is where it's combining two of the",
+  "zh": "然后这里就是它在合并"
+ },
+ {
+  "seg": 710,
+  "start": 3717.327,
+  "end": 3718.547,
+  "speaker": "Unknown",
+  "en": "Two of the search threads.",
+  "zh": "两条搜索线程中的两条。"
+ },
+ {
+  "seg": 711,
+  "start": 3719.047,
+  "end": 3720.368,
+  "speaker": "Unknown",
+  "en": "That's what the fuse is down there.",
+  "zh": "下面那个 fuse 就是干这个的。"
+ },
+ {
+  "seg": 712,
+  "start": 3721.188,
+  "end": 3723.768,
+  "speaker": "Unknown",
+  "en": "And so it's able to ask these questions and then return the answer.",
+  "zh": "所以它能够提出这些问题,然后返回答案。"
+ },
+ {
+  "seg": 713,
+  "start": 3723.788,
+  "end": 3736.311,
+  "speaker": "Unknown",
+  "en": "But you can see it's, you know, there's the pipes that can, again, you run a query, you run a phase of it, essentially, get the answer, and it moves on to the next and next pipe language like that.",
+  "zh": "但你可以看到,你知道,有那些管道,你运行一个查询,运行它的一个阶段,本质上,得到答案,然后它就按这种方式继续移动到下一个、再下一个管道。"
+ },
+ {
+  "seg": 714,
+  "start": 3736.351,
+  "end": 3740.832,
+  "speaker": "Unknown",
+  "en": "So it's, it's very parameterizable.",
+  "zh": "所以它是,它的可参数化程度非常高。"
+ },
+ {
+  "seg": 715,
+  "start": 3742.172,
+  "end": 3744.653,
+  "speaker": "Unknown",
+  "en": "Parametizable, and it's trying to accomplish",
+  "zh": "可参数化,而且它试图完成"
+ },
+ {
+  "seg": 716,
+  "start": 3745.258,
+  "end": 3750.58,
+  "speaker": "Unknown",
+  "en": "All the things that the Splunk query language tried to do with Splunk in its heyday.",
+  "zh": "Splunk 查询语言在 Splunk 全盛时期试图完成的所有事情。"
+ },
+ {
+  "seg": 717,
+  "start": 3751.6,
+  "end": 3757.422,
+  "speaker": "Unknown",
+  "en": "And then also marry that with SQL concepts, which are obviously tried and true.",
+  "zh": "然后还把这一点与 SQL 概念结合起来,而 SQL 概念显然是久经考验的。"
+ },
+ {
+  "seg": 718,
+  "start": 3757.462,
+  "end": 3763.484,
+  "speaker": "Unknown",
+  "en": "And I think that the last thing that you'll see with the SQL is the queries are more terse.",
+  "zh": "而且我认为你会在 SQL 上看到的最后一点是查询更加简洁。"
+ },
+ {
+  "seg": 719,
+  "start": 3763.684,
+  "end": 3770.906,
+  "speaker": "Unknown",
+  "en": "They don't have as much markup in them to actually get the retrieval right, which is one added benefit to that piped",
+  "zh": "它们没有那么多标记来把检索做对,这是管道式的一个额外好处,"
+ },
+ {
+  "seg": 720,
+  "start": 3771.569,
+  "end": 3778.253,
+  "speaker": "Unknown",
+  "en": "And there are other companies that leverage the same technique in order to build out search.",
+  "zh": "还有其他公司利用同样的技术来构建搜索。"
+ },
+ {
+  "seg": 721,
+  "start": 3778.413,
+  "end": 3780.734,
+  "speaker": "Unknown",
+  "en": "Usually it's for unstructured data sets, logs.",
+  "zh": "通常是针对非结构化数据集、日志。"
+ },
+ {
+  "seg": 722,
+  "start": 3781.455,
+  "end": 3792.641,
+  "speaker": "Unknown",
+  "en": "And I'd say that that was the primary reason we started building ESQL was to build the best in class search experience so people could get rid of all their Splunk stuff.",
+  "zh": "我想说,那正是我们当初开始构建 ESQL 的主要原因,就是为了打造同类最佳的搜索体验,让人们可以摆脱他们所有的 Splunk 东西。"
+ },
+ {
+  "seg": 723,
+  "start": 3793.442,
+  "end": 3797.504,
+  "speaker": "Unknown",
+  "en": "And now we've pivoted to where this construct is so useful that",
+  "zh": "而现在我们转向了这样一种局面:这个构造如此有用,以至于"
+ },
+ {
+  "seg": 724,
+  "start": 3798.157,
+  "end": 3802.22,
+  "speaker": "Unknown",
+  "en": "It should be available in all the pillars of Elasticsearch, security, and observability.",
+  "zh": "它应该在 Elasticsearch 的所有支柱——安全性和可观测性——中都可用。"
+ },
+ {
+  "seg": 725,
+  "start": 3802.24,
+  "end": 3810.226,
+  "speaker": "Unknown",
+  "en": "And it's a first class citizen construct for all three pillars going forward, with it being the primary mechanism for where we're going to innovate.",
+  "zh": "而且对这三个支柱而言,它今后都是一等公民构造,是我们将要创新的主要机制所在。"
+ },
+ {
+  "seg": 726,
+  "start": 3813.448,
+  "end": 3819.012,
+  "speaker": "Unknown",
+  "en": "And so you can see when it's doing one of the hybrid search query, it responds, it shows you",
+  "zh": "所以你可以看到,当它执行其中一个混合搜索查询时,它会响应,它会向你展示"
+ },
+ {
+  "seg": 727,
+  "start": 3819.761,
+  "end": 3823.023,
+  "speaker": "Unknown",
+  "en": "So you have the audit trail, essentially, of how it got to these answers.",
+  "zh": "所以你基本上拥有它是如何得出这些答案的审计轨迹。"
+ },
+ {
+  "seg": 728,
+  "start": 3823.063,
+  "end": 3826.825,
+  "speaker": "Unknown",
+  "en": "So not only citing the answers all the way at the bottom, and you can click on them.",
+  "zh": "所以不仅在最底部引用了答案,而且你可以点击它们。"
+ },
+ {
+  "seg": 729,
+  "start": 3827.165,
+  "end": 3832.388,
+  "speaker": "Unknown",
+  "en": "And if you want to deep dive into the fun world of JVM settings, you can do that.",
+  "zh": "如果你想深入探究 JVM 设置这个有趣的世界,你可以那么做。"
+ },
+ {
+  "seg": 730,
+  "start": 3833.509,
+  "end": 3835.07,
+  "speaker": "Unknown",
+  "en": "Never doing that again.",
+  "zh": "我再也不干那种事了。"
+ },
+ {
+  "seg": 731,
+  "start": 3835.37,
+  "end": 3839.552,
+  "speaker": "Unknown",
+  "en": "But one of the nice things, too, is then it'll show you.",
+  "zh": "但另一个不错的地方是,然后它会向你展示。"
+ },
+ {
+  "seg": 732,
+  "start": 3839.572,
+  "end": 3841.754,
+  "speaker": "Unknown",
+  "en": "So we're limiting five, and it does five.",
+  "zh": "所以我们限制为五个,它就做了五个。"
+ },
+ {
+  "seg": 733,
+  "start": 3842.694,
+  "end": 3844.315,
+  "speaker": "Unknown",
+  "en": "It shows you it found five results.",
+  "zh": "它向你展示它找到了五个结果。"
+ },
+ {
+  "seg": 734,
+  "start": 3844.951,
+  "end": 3848.213,
+  "speaker": "Unknown",
+  "en": "It doesn't clutter it all up in the UI here for you.",
+  "zh": "它不会把这些全都堆在这个 UI 里给你。"
+ },
+ {
+  "seg": 735,
+  "start": 3848.233,
+  "end": 3852.016,
+  "speaker": "Unknown",
+  "en": "But you can click on that and you can hop over to, this is Discover.",
+  "zh": "但你可以点击那个,然后你可以跳转到,这是 Discover。"
+ },
+ {
+  "seg": 736,
+  "start": 3853.136,
+  "end": 3855.558,
+  "speaker": "Unknown",
+  "en": "It's kind of where we discover documents.",
+  "zh": "这有点像是我们发现文档的地方。"
+ },
+ {
+  "seg": 737,
+  "start": 3855.838,
+  "end": 3858.98,
+  "speaker": "Unknown",
+  "en": "It's the kind of normal searching around interface of Kibana.",
+  "zh": "它是 Kibana 那种常规的搜索界面。"
+ },
+ {
+  "seg": 738,
+  "start": 3859.44,
+  "end": 3863.343,
+  "speaker": "Unknown",
+  "en": "It's changed a little bit over the years if you haven't used it in a little while, but now you can do ESQL in there.",
+  "zh": "如果你有一段时间没用过它,这些年它已经稍微变了一点,但现在你可以在里面使用 ESQL。"
+ },
+ {
+  "seg": 739,
+  "start": 3864.364,
+  "end": 3867.966,
+  "speaker": "Unknown",
+  "en": "And you can see here, then it has the five documents that it came back with.",
+  "zh": "你可以在这里看到,然后它带回了那五个文档。"
+ },
+ {
+  "seg": 740,
+  "start": 3868.526,
+  "end": 3870.928,
+  "speaker": "Unknown",
+  "en": "And if I close like some of these panels.",
+  "zh": "而如果我关闭其中一些面板。"
+ },
+ {
+  "seg": 741,
+  "start": 3872.945,
+  "end": 3874.188,
+  "speaker": "Unknown",
+  "en": "Builds a nice little chart for you.",
+  "zh": "它会为你构建一个不错的小图表。"
+ },
+ {
+  "seg": 742,
+  "start": 3874.208,
+  "end": 3882.347,
+  "speaker": "Unknown",
+  "en": "I don't know if that's the most helpful chart, but you can see then with the query up at the top, you have the actual documents and",
+  "zh": "我不知道那是不是最有用的图表,但你可以看到,查询在顶部,你拥有实际的文档,"
+ },
+ {
+  "seg": 743,
+  "start": 3884.311,
+  "end": 3886.612,
+  "speaker": "Unknown",
+  "en": "Go in and see the full thing.",
+  "zh": "进去查看完整的东西。"
+ },
+ {
+  "seg": 744,
+  "start": 3887.232,
+  "end": 3889.053,
+  "speaker": "Unknown",
+  "en": "And so here's the body of it.",
+  "zh": "这是它的正文。"
+ },
+ {
+  "seg": 745,
+  "start": 3889.413,
+  "end": 3893.914,
+  "speaker": "Unknown",
+  "en": "And so we were searching part of this.",
+  "zh": "所以我们当时搜索的是其中的一部分。"
+ },
+ {
+  "seg": 746,
+  "start": 3894.134,
+  "end": 3895.254,
+  "speaker": "Unknown",
+  "en": "Oh, here it is.",
+  "zh": "哦,在这里。"
+ },
+ {
+  "seg": 747,
+  "start": 3895.294,
+  "end": 3895.855,
+  "speaker": "Unknown",
+  "en": "So for the URL.",
+  "zh": "就是这个 URL。"
+ },
+ {
+  "seg": 748,
+  "start": 3896.095,
+  "end": 3905.938,
+  "speaker": "Unknown",
+  "en": "So the URL, again, this is because we provide the URL as part of the document, we're able to provide essentially a link to more information without having to just guess.",
+  "zh": "所以又是这个 URL,这是因为我们把 URL 作为文档的一部分提供,所以我们能够基本上提供一个指向更多信息的链接,而不必去瞎猜。"
+ },
+ {
+  "seg": 749,
+  "start": 3909.719,
+  "end": 3912.44,
+  "speaker": "Unknown",
+  "en": "I think this room closes out at the 420 mark.",
+  "zh": "我觉得这个房间在 420 的时候就要清场了。"
+ },
+ {
+  "seg": 750,
+  "start": 3912.48,
+  "end": 3913,
+  "speaker": "Unknown",
+  "en": "Is that correct?",
+  "zh": "是这样吗？"
+ },
+ {
+  "seg": 751,
+  "start": 3914.022,
+  "end": 3918.063,
+  "speaker": "Unknown",
+  "en": "Yeah, the timer says 18 minutes till the... 18 minutes, which means you have...",
+  "zh": "是的，计时器显示还有18分钟……18分钟，也就是说你还有……"
+ },
+ {
+  "seg": 752,
+  "start": 3918.083,
+  "end": 3919.103,
+  "speaker": "Unknown",
+  "en": "I'll let the hammer come and hit us.",
+  "zh": "我会让锤子来砸我们。"
+ },
+ {
+  "seg": 753,
+  "start": 3919.623,
+  "end": 3922.644,
+  "speaker": "Unknown",
+  "en": "Yeah, which means you do have a little bit of time to ask questions.",
+  "zh": "是的，也就是说你确实还有一点时间提问。"
+ },
+ {
+  "seg": 754,
+  "start": 3923.344,
+  "end": 3925.304,
+  "speaker": "Unknown",
+  "en": "Yeah, there is the... Yeah, feel free to ask questions.",
+  "zh": "是的，有那个……对，欢迎提问。"
+ },
+ {
+  "seg": 755,
+  "start": 3925.324,
+  "end": 3926.184,
+  "speaker": "Unknown",
+  "en": "Sorry.",
+  "zh": "这是一个多选题，其中两三个答案在大语言模型看来同样正确，它就随便挑一个。"
+ },
+ {
+  "seg": 756,
+  "start": 3926.504,
+  "end": 3932.966,
+  "speaker": "Unknown",
+  "en": "There is the lab five about re-rankers.",
+  "zh": "有那个关于重排序器（re-rankers）的实验五。"
+ },
+ {
+  "seg": 757,
+  "start": 3934.586,
+  "end": 3936.686,
+  "speaker": "Unknown",
+  "en": "These lights are like burning my brain.",
+  "zh": "看看会不会讲到这个。"
+ },
+ {
+  "seg": 758,
+  "start": 3938.587,
+  "end": 3940.727,
+  "speaker": "Unknown",
+  "en": "So re-ranking in there is an interesting...",
+  "zh": "所以那里的重排序是一个有趣的……"
+ },
+ {
+  "seg": 759,
+  "start": 3942.968,
+  "end": 3947.529,
+  "speaker": "Unknown",
+  "en": "Thing that I think a lot of people don't kind of fully understand why you want to use it.",
+  "zh": "是我觉得很多人并不完全理解为什么要使用它的东西。"
+ },
+ {
+  "seg": 760,
+  "start": 3947.549,
+  "end": 3954.271,
+  "speaker": "Unknown",
+  "en": "And so that's why we added this on to kind of explain why you want to use it.",
+  "zh": "所以我们才加了这个内容，来解释为什么要用它。"
+ },
+ {
+  "seg": 761,
+  "start": 3954.471,
+  "end": 3963.993,
+  "speaker": "Unknown",
+  "en": "See if that comes up.",
+  "zh": "看看会不会出现这种情况。"
+ },
+ {
+  "seg": 762,
+  "start": 3964.013,
+  "end": 3964.553,
+  "speaker": "Unknown",
+  "en": "Maybe that's my thing.",
+  "zh": "也许那是我的部分。"
+ },
+ {
+  "seg": 763,
+  "start": 3965.78,
+  "end": 3976.009,
+  "speaker": "Unknown",
+  "en": "Reranking is taking the sort of the queries that we've been doing here and everything is the first phase, call it, of retrieval.",
+  "zh": "重排序是把我们这里一直在做的查询和所有东西作为第一阶段，可以这么叫，即检索。"
+ },
+ {
+  "seg": 764,
+  "start": 3976.309,
+  "end": 3978.251,
+  "speaker": "Unknown",
+  "en": "The second phase, you can do reranking.",
+  "zh": "第二阶段，你可以做重排序。"
+ },
+ {
+  "seg": 765,
+  "start": 3981.356,
+  "end": 3992.078,
+  "speaker": "Unknown",
+  "en": "If you're running vector search, semantic search, hybrid search across a first phase and get back a large set of data, then you can take that data and you can re-rank it.",
+  "zh": "如果你在第一阶段运行向量搜索、语义搜索、混合搜索，拿回一大堆数据，那你就可以拿这些数据去重新排序。"
+ },
+ {
+  "seg": 766,
+  "start": 3992.959,
+  "end": 3994.779,
+  "speaker": "Unknown",
+  "en": "And re-ranking has...",
+  "zh": "而重排序有……"
+ },
+ {
+  "seg": 767,
+  "start": 3994.999,
+  "end": 3996.659,
+  "speaker": "Unknown",
+  "en": "I wish this thing was working.",
+  "zh": "我真希望这个东西能用。"
+ },
+ {
+  "seg": 768,
+  "start": 3996.679,
+  "end": 3997.88,
+  "speaker": "Unknown",
+  "en": "I think it's me.",
+  "zh": "我觉得是我这边的问题。"
+ },
+ {
+  "seg": 769,
+  "start": 4002.921,
+  "end": 4006.982,
+  "speaker": "Unknown",
+  "en": "Re-ranking combines the query",
+  "zh": "重排序把查询"
+ },
+ {
+  "seg": 770,
+  "start": 4008.665,
+  "end": 4011.767,
+  "speaker": "Unknown",
+  "en": "And the documents at scoring time together.",
+  "zh": "和文档在打分时结合在一起。"
+ },
+ {
+  "seg": 771,
+  "start": 4011.827,
+  "end": 4018.051,
+  "speaker": "Unknown",
+  "en": "So normally with vectors, you ingest all your data whenever that is.",
+  "zh": "所以通常对于向量，你在某个时间点摄取你所有的数据。"
+ },
+ {
+  "seg": 772,
+  "start": 4018.371,
+  "end": 4020.652,
+  "speaker": "Unknown",
+  "en": "And then at query time, you query it.",
+  "zh": "然后在查询时，你去查询它。"
+ },
+ {
+  "seg": 773,
+  "start": 4020.752,
+  "end": 4026.736,
+  "speaker": "Unknown",
+  "en": "And it just does HNSW or one of the disk algorithms and returns a set of documents.",
+  "zh": "它就只是运行 HNSW 或某种磁盘算法，返回一组文档。"
+ },
+ {
+  "seg": 774,
+  "start": 4026.776,
+  "end": 4028.117,
+  "speaker": "Unknown",
+  "en": "But the query in the ..",
+  "zh": "但是查询和那……"
+ },
+ {
+  "seg": 775,
+  "start": 4029.078,
+  "end": 4031.159,
+  "speaker": "Unknown",
+  "en": "The documents aren't really scored together.",
+  "zh": "文档并没有真正一起被打分。"
+ },
+ {
+  "seg": 776,
+  "start": 4031.399,
+  "end": 4040.724,
+  "speaker": "Unknown",
+  "en": "Re-ranking combines those together, but because they're running together at that query, that second phase time, you can't pre-embed.",
+  "zh": "重排序把它们结合在一起，但因为它们是在那个查询时刻，也就是第二阶段时刻一起运行的，你没法预先嵌入。"
+ },
+ {
+  "seg": 777,
+  "start": 4040.784,
+  "end": 4045.626,
+  "speaker": "Unknown",
+  "en": "So you pay the penalty of having to run inference at",
+  "zh": "所以你要付出必须在"
+ },
+ {
+  "seg": 778,
+  "start": 4046.592,
+  "end": 4047.713,
+  "speaker": "Unknown",
+  "en": "You know, at query time.",
+  "zh": "你知道，在查询时运行推理的代价。"
+ },
+ {
+  "seg": 779,
+  "start": 4048.953,
+  "end": 4056.356,
+  "speaker": "Unknown",
+  "en": "Now, the way you do this then to kind of help this along is by not re-ranking your entire corpus of data.",
+  "zh": "那么，帮你缓解这个问题的方法是，不重排序你的整个语料库。"
+ },
+ {
+  "seg": 780,
+  "start": 4056.717,
+  "end": 4065.18,
+  "speaker": "Unknown",
+  "en": "You run the first phase to get a smaller set of data and then re-rank with a model to then re-rank that small set of data.",
+  "zh": "你先跑第一阶段拿到一个较小的数据集，然后用一个模型来重排序那个小数据集。"
+ },
+ {
+  "seg": 781,
+  "start": 4065.2,
+  "end": 4068.502,
+  "speaker": "Unknown",
+  "en": "Sorry, there we go.",
+  "zh": "抱歉，好了。"
+ },
+ {
+  "seg": 782,
+  "start": 4075.295,
+  "end": 4076.877,
+  "speaker": "Unknown",
+  "en": "Show an example instead of just talk.",
+  "zh": "展示个例子，别光讲了。"
+ },
+ {
+  "seg": 783,
+  "start": 4080.019,
+  "end": 4080.56,
+  "speaker": "Unknown",
+  "en": "Oh, no.",
+  "zh": "哦，不。"
+ },
+ {
+  "seg": 784,
+  "start": 4083.943,
+  "end": 4084.323,
+  "speaker": "Unknown",
+  "en": "Here we go.",
+  "zh": "好了。"
+ },
+ {
+  "seg": 785,
+  "start": 4088.107,
+  "end": 4088.988,
+  "speaker": "Unknown",
+  "en": "My lab was dying.",
+  "zh": "我的实验环境刚才挂了。"
+ },
+ {
+  "seg": 786,
+  "start": 4098.745,
+  "end": 4110.976,
+  "speaker": "Unknown",
+  "en": "So if you get to this in here, you can see at the end, again, kind of the point on here about when you can add a re-ranker if you have the latency budget.",
+  "zh": "所以如果你在实验里做到这里，你在最后可以看到，再说一次，这里的要点是：如果你的延迟预算允许，就可以加重排序器。"
+ },
+ {
+  "seg": 787,
+  "start": 4111.056,
+  "end": 4119.143,
+  "speaker": "Unknown",
+  "en": "If you can spend a little bit of extra time to let this second phase run in generating embeddings because that precision of the",
+  "zh": "如果你能多花一点时间让第二阶段去生成嵌入，因为那个精度——"
+ },
+ {
+  "seg": 788,
+  "start": 4120.211,
+  "end": 4130.817,
+  "speaker": "Unknown",
+  "en": "If it's answer one versus answer two, if that is a critical step, that's where paying the slight latency penalty comes into play.",
+  "zh": "如果是答案一还是答案二，如果那是一个关键步骤，那正是值得付出这点延迟代价的地方。"
+ },
+ {
+  "seg": 789,
+  "start": 4131.477,
+  "end": 4138.561,
+  "speaker": "Unknown",
+  "en": "If you just get your documents good enough in the first phase and let the agent go after them, then you probably don't need a re-ranker.",
+  "zh": "如果你只是在第一阶段把文档做到足够好，然后让智能体去处理它们，那你可能就不需要重排序器。"
+ },
+ {
+  "seg": 790,
+  "start": 4138.601,
+  "end": 4143.084,
+  "speaker": "Unknown",
+  "en": "But it's when you need to have that specific order come into play, come in.",
+  "zh": "但当你需要那个特定的顺序起作用时，就该用了。"
+ },
+ {
+  "seg": 791,
+  "start": 4146.508,
+  "end": 4149.989,
+  "speaker": "Unknown",
+  "en": "And we see that a lot with agentic search use cases.",
+  "zh": "我们在智能体搜索（agentic search）用例中看到很多这种情况。"
+ },
+ {
+  "seg": 792,
+  "start": 4150.149,
+  "end": 4171.472,
+  "speaker": "Unknown",
+  "en": "We're seeing a lot of situations where folks are testing the evaluation based on the first, second, and third document chunk coming back, which gives you a very small window of opportunity to get the answer right if you're just handing a small set of candidates to the large language model to answer the question versus a larger candidate set, and then asking the model to get it right.",
+  "zh": "我们看到很多场景，人们是基于返回的第一、第二、第三个文档块来做评估测试的，这就给了你一个非常小的窗口去答对——如果你只是把一小撮候选交给大语言模型来回答问题，而不是一个更大的候选集，然后让模型去答对。"
+ },
+ {
+  "seg": 793,
+  "start": 4171.952,
+  "end": 4174.213,
+  "speaker": "Unknown",
+  "en": "And that's where a lot of relevancy issues come in.",
+  "zh": "很多相关性问题就出在这里。"
+ },
+ {
+  "seg": 794,
+  "start": 4174.693,
+  "end": 4176.153,
+  "speaker": "Unknown",
+  "en": "You're passing in too much context.",
+  "zh": "你传入了太多上下文。"
+ },
+ {
+  "seg": 795,
+  "start": 4176.954,
+  "end": 4183.099,
+  "speaker": "Unknown",
+  "en": "It's a multiple choice where two or three answers look equally right to the LLM, and it just picks one.",
+  "zh": "这是一道选择题，其中两个或三个答案在 LLM 看来同样正确，它就随便挑了一个。"
+ },
+ {
+  "seg": 796,
+  "start": 4184.36,
+  "end": 4191.406,
+  "speaker": "Unknown",
+  "en": "And if it picks the wrong one, then your users and their beta testers for your new agentic search system complain about the search not working.",
+  "zh": "如果它挑错了，那你的用户，以及你们新智能体搜索系统的 beta 测试者，就会抱怨搜索不好使。"
+ },
+ {
+  "seg": 797,
+  "start": 4191.967,
+  "end": 4192.687,
+  "speaker": "Unknown",
+  "en": "Very common.",
+  "zh": "非常常见。"
+ },
+ {
+  "seg": 798,
+  "start": 4192.888,
+  "end": 4194.209,
+  "speaker": "Unknown",
+  "en": "Very, very common.",
+  "zh": "非常、非常常见。"
+ },
+ {
+  "seg": 799,
+  "start": 4194.429,
+  "end": 4200.354,
+  "speaker": "Unknown",
+  "en": "And oftentimes, a re-ranker like this will actually be very, very useful.",
+  "zh": "而很多时候，像这样的重排序器实际上会非常非常有用。"
+ },
+ {
+  "seg": 800,
+  "start": 4202.095,
+  "end": 4204.337,
+  "speaker": "Unknown",
+  "en": "And so there's two points or two types of",
+  "zh": "所以有两种类型,"
+ },
+ {
+  "seg": 801,
+  "start": 4206.079,
+  "end": 4207.9,
+  "speaker": "Unknown",
+  "en": "Rerankers, at least, you know, that we support.",
+  "zh": "或者说至少有两种 Reranker,你知道的,是我们支持的。"
+ },
+ {
+  "seg": 802,
+  "start": 4207.92,
+  "end": 4213.843,
+  "speaker": "Unknown",
+  "en": "So there's point-wise, these are what most Rerankers are today, and this is what the V2 model is.",
+  "zh": "一种是 point-wise,这是如今大多数 Reranker 的形态,V2 模型就是这种。"
+ },
+ {
+  "seg": 803,
+  "start": 4214.343,
+  "end": 4224.168,
+  "speaker": "Unknown",
+  "en": "And so the point-wise, it still combines the, it takes the query and the document together, but it just scores them independently.",
+  "zh": "对于 point-wise,它仍然会把……它把查询和文档放在一起,但只是独立地对它们打分。"
+ },
+ {
+  "seg": 804,
+  "start": 4224.208,
+  "end": 4228.57,
+  "speaker": "Unknown",
+  "en": "It's only looking at the query and the document, nothing else.",
+  "zh": "它只看查询和文档,别的什么都不看。"
+ },
+ {
+  "seg": 805,
+  "start": 4229.442,
+  "end": 4242.186,
+  "speaker": "Unknown",
+  "en": "Listwise, which is what is in the GenoV3 model, takes your candidate set, and I think right now, for example, up to 64 documents or 64 candidates, and it looks at them all together.",
+  "zh": "Listwise,也就是 GenoV3 模型里的那种,会取你的候选集,我想现在,比如,最多 64 篇文档或 64 个候选,然后把它们放在一起看。"
+ },
+ {
+  "seg": 806,
+  "start": 4243.046,
+  "end": 4244.847,
+  "speaker": "Unknown",
+  "en": "And so that way, if",
+  "zh": "这样一来,如果"
+ },
+ {
+  "seg": 807,
+  "start": 4246.272,
+  "end": 4265.859,
+  "speaker": "Unknown",
+  "en": "If the answers essentially or the potential candidates are all very similar, like they're all pretty much talking about the same thing, that's where having the list-wise can edge out point-wise because it can see the nuances within that list because it sees the multiple documents together.",
+  "zh": "如果答案或者说潜在候选都非常相似,比如它们基本上都在讲同一件事,那正是 listwise 能胜过 point-wise 的地方,因为它能看到那个列表内部的细微差别,因为它把多篇文档放在一起看。"
+ },
+ {
+  "seg": 808,
+  "start": 4267.427,
+  "end": 4284.486,
+  "speaker": "Unknown",
+  "en": "It does take a little bit of extra memory or time because, again, it has to generate embeddings for all those candidates all at once and hold them together in memory and run its evaluation across them as opposed to just firing one at a time and do that.",
+  "zh": "你不必先调用推理 API,然后查询,然后重排。"
+ },
+ {
+  "seg": 809,
+  "start": 4288.048,
+  "end": 4302.172,
+  "speaker": "Unknown",
+  "en": "So if your data is pretty diverse and where the answers come back and it's a pretty distinct set of candidates where one, two, three, four, five are all pretty different enough that the point Y is hitting it.",
+  "zh": "但再说一次,如果你遇到的候选集里所有潜在候选都极其相似,listwise 很可能对你帮助最大。"
+ },
+ {
+  "seg": 810,
+  "start": 4306.801,
+  "end": 4308.742,
+  "speaker": "Unknown",
+  "en": "There we go.",
+  "zh": "好了。"
+ },
+ {
+  "seg": 811,
+  "start": 4309.662,
+  "end": 4312.503,
+  "speaker": "Unknown",
+  "en": "Then point-wise pretty much usually works out.",
+  "zh": "那么 point-wise 通常就够用了。"
+ },
+ {
+  "seg": 812,
+  "start": 4312.523,
+  "end": 4320.265,
+  "speaker": "Unknown",
+  "en": "But again, if you have that set where the potential candidates are all extremely similar, list-wise is probably going to help you out for the best.",
+  "zh": "但话说回来,如果你的数据集里潜在候选者都极其相似,list-wise 大概会对你最有帮助。"
+ },
+ {
+  "seg": 813,
+  "start": 4328.568,
+  "end": 4330.028,
+  "speaker": "Unknown",
+  "en": "And somewhere in here.",
+  "zh": "在这里的某个地方。"
+ },
+ {
+  "seg": 814,
+  "start": 4331.81,
+  "end": 4332.771,
+  "speaker": "Unknown",
+  "en": "Because we want to be helpful.",
+  "zh": "因为我们想帮上忙。"
+ },
+ {
+  "seg": 815,
+  "start": 4333.912,
+  "end": 4348.705,
+  "speaker": "Unknown",
+  "en": "You don't have to run, while it is a two-phase, you know, phase one is query, phase two is your ranking, you don't have to manually have those as separate API calls.",
+  "zh": "你不需要运行——虽然它是两阶段的,你知道的,第一阶段是查询,第二阶段是你的排序——你不需要手动把它们拆成单独的 API 调用。"
+ },
+ {
+  "seg": 816,
+  "start": 4348.805,
+  "end": 4350.767,
+  "speaker": "Unknown",
+  "en": "We can do it all in one shot.",
+  "zh": "我们可以一次性全部完成。"
+ },
+ {
+  "seg": 817,
+  "start": 4350.787,
+  "end": 4353.41,
+  "speaker": "Unknown",
+  "en": "You do it in the lab, it's in the retriever, you can do it.",
+  "zh": "你在 lab 里做,在 retriever 里做,你可以做到。"
+ },
+ {
+  "seg": 818,
+  "start": 4355.532,
+  "end": 4356.613,
+  "speaker": "Unknown",
+  "en": "Can you re-rank any SQL?",
+  "zh": "能对任何 SQL 重排吗?"
+ },
+ {
+  "seg": 819,
+  "start": 4357.453,
+  "end": 4357.593,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "可以。"
+ },
+ {
+  "seg": 820,
+  "start": 4357.813,
+  "end": 4359.834,
+  "speaker": "Unknown",
+  "en": "Yeah, OK.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 821,
+  "start": 4360.675,
+  "end": 4362.155,
+  "speaker": "Unknown",
+  "en": "So you can do any SQL, too.",
+  "zh": "所以你对任何 SQL 也可以做。"
+ },
+ {
+  "seg": 822,
+  "start": 4362.575,
+  "end": 4365.016,
+  "speaker": "Unknown",
+  "en": "But one shot, basically, you have the re-ranker.",
+  "zh": "但一次性,基本上,你拿到 reranker。"
+ },
+ {
+  "seg": 823,
+  "start": 4365.397,
+  "end": 4369.678,
+  "speaker": "Unknown",
+  "en": "You tell what re-ranker you want to use, the model and the query, and it runs both phases for you.",
+  "zh": "你告诉它你想用哪个 reranker、模型和查询,它就会替你跑两个阶段。"
+ },
+ {
+  "seg": 824,
+  "start": 4369.698,
+  "end": 4374.14,
+  "speaker": "Unknown",
+  "en": "So that way, again, you're not having to manage the inference setting separately.",
+  "zh": "这样一来,再说一次,你不用分别管理推理设置。"
+ },
+ {
+  "seg": 825,
+  "start": 4374.32,
+  "end": 4377.982,
+  "speaker": "Unknown",
+  "en": "You're not having to call the inference API, then query, then re-rank.",
+  "zh": "你不需要先调用推理 API,再查询,再重新排序。"
+ },
+ {
+  "seg": 826,
+  "start": 4378.022,
+  "end": 4380.943,
+  "speaker": "Unknown",
+  "en": "You can just fire it all in one shot, and we'll take care of it for you.",
+  "zh": "你可以一次性全部发出,我们会替你处理好。"
+ },
+ {
+  "seg": 827,
+  "start": 4387.051,
+  "end": 4392.152,
+  "speaker": "Unknown",
+  "en": "So I'm going to put up that slide again with a few of the links.",
+  "zh": "那我要再放一次那张幻灯片,带上几个链接。"
+ },
+ {
+  "seg": 828,
+  "start": 4392.572,
+  "end": 4396.313,
+  "speaker": "Unknown",
+  "en": "Again, so the upper right is what we've been doing today.",
+  "zh": "再说一次,右上角是我们今天一直在做的内容。"
+ },
+ {
+  "seg": 829,
+  "start": 4396.353,
+  "end": 4397.313,
+  "speaker": "Unknown",
+  "en": "That's available for a week.",
+  "zh": "那个可以再用一周。"
+ },
+ {
+  "seg": 830,
+  "start": 4397.933,
+  "end": 4404.254,
+  "speaker": "Unknown",
+  "en": "The bottom blue reference repo is where the code for this lives, the notebooks and things like that.",
+  "zh": "下面蓝色的参考 repo 是这份代码所在的地方,还有那些 notebook 之类的。"
+ },
+ {
+  "seg": 831,
+  "start": 4404.895,
+  "end": 4411.576,
+  "speaker": "Unknown",
+  "en": "And then there's the two red ones in the middle, Sunil's secret elastic environment.",
+  "zh": "然后中间有两个红色的,Sunil 的秘密 elastic 环境。"
+ },
+ {
+  "seg": 832,
+  "start": 4413.669,
+  "end": 4415.17,
+  "speaker": "Unknown",
+  "en": "Oh man, I typoed it too.",
+  "zh": "哦天哪,我还打错字了。"
+ },
+ {
+  "seg": 833,
+  "start": 4415.73,
+  "end": 4417.171,
+  "speaker": "Unknown",
+  "en": "Everyone's gonna take a picture of it.",
+  "zh": "大家都要拍照了。"
+ },
+ {
+  "seg": 834,
+  "start": 4417.811,
+  "end": 4422.773,
+  "speaker": "Unknown",
+  "en": "So, and then the other... God, I'm gonna blame... Just proves that we're in a live session.",
+  "zh": "然后,另一个……天哪,我要怪……这恰好证明我们在做直播。"
+ },
+ {
+  "seg": 835,
+  "start": 4422.793,
+  "end": 4423.694,
+  "speaker": "Unknown",
+  "en": "I'm gonna blame the lights.",
+  "zh": "我要怪灯光。"
+ },
+ {
+  "seg": 836,
+  "start": 4423.714,
+  "end": 4428.556,
+  "speaker": "Unknown",
+  "en": "And that we're just, you know, we're doing stuff on the fly.",
+  "zh": "而且我们,你知道的,我们是在临时现做。"
+ },
+ {
+  "seg": 837,
+  "start": 4429.237,
+  "end": 4429.997,
+  "speaker": "Unknown",
+  "en": "Still got it wrong.",
+  "zh": "还是打错了。"
+ },
+ {
+  "seg": 838,
+  "start": 4431.678,
+  "end": 4433.479,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 839,
+  "start": 4433.899,
+  "end": 4435.56,
+  "speaker": "Unknown",
+  "en": "And then the other workshops online.",
+  "zh": "然后是其他在线工作坊。"
+ },
+ {
+  "seg": 840,
+  "start": 4435.72,
+  "end": 4439.221,
+  "speaker": "Unknown",
+  "en": "So we do have a bunch of other workshops online that are completely free.",
+  "zh": "我们确实还有一堆其他完全免费的在线工作坊。"
+ },
+ {
+  "seg": 841,
+  "start": 4441.062,
+  "end": 4442.683,
+  "speaker": "Unknown",
+  "en": "And so things like...",
+  "zh": "比如说……"
+ },
+ {
+  "seg": 842,
+  "start": 4442.985,
+  "end": 4443.926,
+  "speaker": "Unknown",
+  "en": "Working with streams.",
+  "zh": "处理流。"
+ },
+ {
+  "seg": 843,
+  "start": 4444.406,
+  "end": 4451.232,
+  "speaker": "Unknown",
+  "en": "If you have streams of data coming in, it's an extremely efficient way to handle that data.",
+  "zh": "如果你有流数据进来,那是处理这些数据极其高效的方式。"
+ },
+ {
+  "seg": 844,
+  "start": 4451.252,
+  "end": 4452.974,
+  "speaker": "Unknown",
+  "en": "There's another RAG one.",
+  "zh": "还有另一个 RAG 的。"
+ },
+ {
+  "seg": 845,
+  "start": 4453.314,
+  "end": 4456.076,
+  "speaker": "Unknown",
+  "en": "Lexical search, vector search, tutorials.",
+  "zh": "词法搜索、向量搜索、教程。"
+ },
+ {
+  "seg": 846,
+  "start": 4457.578,
+  "end": 4469.388,
+  "speaker": "Unknown",
+  "en": "If you have anyone doing observability work, so things with open telemetry data or looking for root cause analysis, things like that, we have labs on that, so a couple observability labs.",
+  "zh": "如果你们有人做可观测性工作,比如处理 open telemetry 数据或做根因分析之类的,我们有相关的 lab,有几个可观测性 lab。"
+ },
+ {
+  "seg": 847,
+  "start": 4470.97,
+  "end": 4473.171,
+  "speaker": "Unknown",
+  "en": "Should be some security ones in here.",
+  "zh": "这里应该也有一些安全的。"
+ },
+ {
+  "seg": 848,
+  "start": 4473.391,
+  "end": 4480.896,
+  "speaker": "Unknown",
+  "en": "So security is a big part of our platform doing anything from attack discovery and detection rules.",
+  "zh": "所以安全是我们平台很重要的一部分,从攻击发现到检测规则都有涉及。"
+ },
+ {
+  "seg": 849,
+  "start": 4481.476,
+  "end": 4496.444,
+  "speaker": "Unknown",
+  "en": "I know there's new ones coming out too as we add in more and more agentic capability into the stack.",
+  "zh": "我知道随着我们往技术栈里加入越来越多的 agentic 能力,也会有新的内容推出。"
+ },
+ {
+  "seg": 850,
+  "start": 4496.464,
+  "end": 4497.285,
+  "speaker": "Unknown",
+  "en": "Any questions?",
+  "zh": "有什么问题吗?"
+ },
+ {
+  "seg": 851,
+  "start": 4499.267,
+  "end": 4499.627,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 852,
+  "start": 4500.567,
+  "end": 4502.608,
+  "speaker": "Unknown",
+  "en": "So let me ask a question real quick.",
+  "zh": "那让我快速问个问题。"
+ },
+ {
+  "seg": 853,
+  "start": 4504.288,
+  "end": 4507.949,
+  "speaker": "Unknown",
+  "en": "If you hang out in here, do you automatically get a seat in the next workshop?",
+  "zh": "如果你在这里闲逛,你会自动获得下一个研讨会的座位吗?"
+ },
+ {
+  "seg": 854,
+  "start": 4510.19,
+  "end": 4511.791,
+  "speaker": "Unknown",
+  "en": "I'm just curious if that's why people hang out.",
+  "zh": "我只是好奇这是不是人们留下来的原因。"
+ },
+ {
+  "seg": 855,
+  "start": 4511.931,
+  "end": 4512.111,
+  "speaker": "Unknown",
+  "en": "OK.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 856,
+  "start": 4512.511,
+  "end": 4516.972,
+  "speaker": "Unknown",
+  "en": "I'm trying to judge who's still working and who's just hanging out, which is totally fine.",
+  "zh": "我在判断谁还在工作,谁只是在这里闲逛,这完全没问题。"
+ },
+ {
+  "seg": 857,
+  "start": 4518.612,
+  "end": 4518.792,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 858,
+  "start": 4520.093,
+  "end": 4520.933,
+  "speaker": "Unknown",
+  "en": "I get to leave either way.",
+  "zh": "反正不管怎样我都可以离开。"
+ },
+ {
+  "seg": 859,
+  "start": 4521.793,
+  "end": 4527.255,
+  "speaker": "Unknown",
+  "en": "We're going to assume that most of you all are hanging out and that you're not waiting for help on anything.",
+  "zh": "我们就假设你们大多数人只是在这里闲逛,而不是在等什么帮助。"
+ },
+ {
+  "seg": 860,
+  "start": 4528.261,
+  "end": 4532.384,
+  "speaker": "Unknown",
+  "en": "If you are, you've got another seven minutes and 57 seconds.",
+  "zh": "如果你在等,你还有七分五十七秒。"
+ },
+ {
+  "seg": 861,
+  "start": 4535.067,
+  "end": 4536.748,
+  "speaker": "Unknown",
+  "en": "Sanil, you want to demo anything for seven minutes?",
+  "zh": "Sanil,你想在七分钟内演示点什么吗?"
+ },
+ {
+  "seg": 862,
+  "start": 4540.811,
+  "end": 4544.254,
+  "speaker": "Unknown",
+  "en": "Hopefully this was a good use of your time for the folks that are still in the room.",
+  "zh": "希望对还留在房间里的各位来说,这是对时间的良好利用。"
+ },
+ {
+  "seg": 863,
+  "start": 4544.314,
+  "end": 4546.196,
+  "speaker": "Unknown",
+  "en": "And we'd love to get your feedback.",
+  "zh": "我们很希望得到你们的反馈。"
+ },
+ {
+  "seg": 864,
+  "start": 4546.216,
+  "end": 4551.2,
+  "speaker": "Unknown",
+  "en": "We didn't tell you this, but there is a feedback data entry point at the end of the workshop.",
+  "zh": "我们没有告诉你们这一点,但在研讨会结束有一个反馈数据录入入口。"
+ },
+ {
+  "seg": 865,
+  "start": 4551.22,
+  "end": 4554.583,
+  "speaker": "Unknown",
+  "en": "So when you finish it, you do have the ability to tell us how awesome the workshop is.",
+  "zh": "所以当你完成之后,你确实可以告诉我们这个研讨会有多棒。"
+ },
+ {
+  "seg": 866,
+  "start": 4555.322,
+  "end": 4556.363,
+  "speaker": "Unknown",
+  "en": "or how much you didn't like it.",
+  "zh": "或者你有多不喜欢它。"
+ },
+ {
+  "seg": 867,
+  "start": 4556.463,
+  "end": 4561.669,
+  "speaker": "Unknown",
+  "en": "And if you say bad things, then it will hurt our feelings, but we will make the workshop better for others after the fact.",
+  "zh": "如果你说坏话,那会伤害我们的感情,但我们会在事后为其他人把研讨会做得更好。"
+ }
+]

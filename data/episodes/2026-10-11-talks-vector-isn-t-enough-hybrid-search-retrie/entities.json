@@ -1,0 +1,1952 @@
+{
+  "episode_id": "2026-10-11-talks-vector-isn-t-enough-hybrid-search-retrie",
+  "podcast": "精选演讲",
+  "date": "2026-10-11",
+  "tags": [
+    "检索增强生成",
+    "混合搜索",
+    "语义搜索",
+    "重排序",
+    "智能体"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "jeff-vestal",
+      "type": "person",
+      "role": "guest",
+      "name": "Jeff Vestal",
+      "file": "Jeff Vestal",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "james-williams",
+      "type": "person",
+      "role": "guest",
+      "name": "James Williams",
+      "file": "James Williams",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            24.553,
+            25.734
+          ],
+          "quote": "Yeah, I'm James Williams.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "elastic",
+      "type": "company",
+      "role": "company",
+      "name": "Elastic",
+      "file": "Elastic",
+      "primary": true,
+      "how_described": "本集由 Elastic 的两位架构师主讲，说它是 Elasticsearch 背后的搜索公司，核心主张是 BM25 加语义搜索的混合检索，并把推理内置进数据平台",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            15.204,
+            16.105
+          ],
+          "quote": "I work at Elastic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 14,
+          "t": [
+            49.56,
+            51.221
+          ],
+          "quote": "It's an ELA elastic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 28,
+          "t": [
+            89.361,
+            95.102
+          ],
+          "quote": "So while that's doing it, so how many people are familiar with Elastic, the company?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 29,
+          "t": [
+            95.602,
+            96.742
+          ],
+          "quote": "Elastic, Elasticsearch?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 32,
+          "t": [
+            100.383,
+            108.345
+          ],
+          "quote": "And how many of you have used Elastic to build a RAG-backed application, retrieval augmented generation?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 60,
+          "t": [
+            241.503,
+            248.128
+          ],
+          "quote": "And then should you have time, we'll actually put it into a little bit of Elastic's Agent Builder.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 103,
+          "t": [
+            427.029,
+            437.156
+          ],
+          "quote": "We have an inference service called Elastic Inference Service, very creative name, that powers the models that are being used for these workshops.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 126,
+          "t": [
+            517.158,
+            524.564
+          ],
+          "quote": "We have a semantic mapping field in Elastic which basically takes a piece of text and chunks it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 131,
+          "t": [
+            558.984,
+            564.345
+          ],
+          "quote": "That is not exposed via elastic inference service yet, but it is something that the GINA models do support.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 172,
+          "t": [
+            771.559,
+            775.321
+          ],
+          "quote": "And that's in line with everything that I've seen since before even joining Elastic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 174,
+          "t": [
+            786.225,
+            790.467
+          ],
+          "quote": "The advantage to Elastic is, and you're seeing this in the labs, it's one API call.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 183,
+          "t": [
+            833.372,
+            840.297
+          ],
+          "quote": "They're not described in detail in the workshop, but if you go to the Elastic docs, you'll see what the configuration settings are for chunking.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 186,
+          "t": [
+            848.872,
+            860.177
+          ],
+          "quote": "So if you're using Python, Java, .NET, Core, like pretty much any TypeScript, any modern programming language, you could still use Elastic in the format for these workshops.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 192,
+          "t": [
+            883.155,
+            892.145
+          ],
+          "quote": "And so when you use an embedding model that's hooked up to Elastic, and we talk about Gina as the out-of-the-box one, but you can certainly bring your own.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 209,
+          "t": [
+            974.65,
+            979.172
+          ],
+          "quote": "It goes to maybe the Elastic Inference Service, which is default out of the box.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 212,
+          "t": [
+            981.594,
+            986.477
+          ],
+          "quote": "And then we generate the embeddings and we then pass it back to Elastic to do the",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1130.532,
+            1131.713
+          ],
+          "quote": "If you're looking in Elastic Docs,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1257.258,
+            1269.661
+          ],
+          "quote": "The only difference I would say between disk BBQ and BBQ is that we actually have an option in Elastic to not use HNSW as the underlying mechanism for search.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1270.141,
+            1274.703
+          ],
+          "quote": "And the newest form of that is disk BBQ, which is proprietary to Elastic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1426.012,
+            1433.679
+          ],
+          "quote": "So we have the concept in Elastic of running machine learning models in Elastic on what we call ML nodes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1435.502,
+            1441.731
+          ],
+          "quote": "You could basically upload whatever classification model that you've identified that works and wired into Elastic that way.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 376,
+          "t": [
+            1771.56,
+            1783.144
+          ],
+          "quote": "We just barely touched the surface on Lexical because, you know, for 15 years or so, you know, a dozen years at Elastic, that's what we had.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1783.564,
+            1794.368
+          ],
+          "quote": "So if you've ever been on the Elastic search doc sites and you go to the search part and you click on the search API, there's an insane amount of ways to change and tune and tweak",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2137.093,
+            2142.137
+          ],
+          "quote": "You can actually do today with Elastic using the agent builder construct, which is covered in the last lab.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2161.911,
+            2165.093
+          ],
+          "quote": "And I'm glad that we have a construct for it with Elastic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 496,
+          "t": [
+            2530.942,
+            2536.045
+          ],
+          "quote": "Elastic supports the concept of search templates, so you could technically have",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2593.671,
+            2594.792
+          ],
+          "quote": "And in the case of Elastic,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 507,
+          "t": [
+            2605.858,
+            2610.862
+          ],
+          "quote": "Not covered in the labs, but noteworthy to at least have an understanding that that concept exists in Elastic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 533,
+          "t": [
+            2743.171,
+            2752.378
+          ],
+          "quote": "And so it's worth mentioning, too, this is where we actually get into Agent Builder, Elastic's agentic platform, which has the ability to obviously to run agents,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 536,
+          "t": [
+            2758.126,
+            2762.769
+          ],
+          "quote": "The Elastic Inference Service has all your favorite LLMs available to it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 538,
+          "t": [
+            2767.272,
+            2773.157
+          ],
+          "quote": "And it's able to then run these tools directly against the data within Elastic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 555,
+          "t": [
+            2867.036,
+            2879.883
+          ],
+          "quote": "So if you decided that you wanted to do a quick prototype and you're using our Agent Builder mechanism within Elastic and you think, oh, I have to rewrite all this code from scratch now and build out a real app, you don't have to do that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 580,
+          "t": [
+            2994.897,
+            3000.639
+          ],
+          "quote": "It's pre-built so that you can walk through the concepts and learn more about how Elastic works under the hood.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 636,
+          "t": [
+            3325.239,
+            3329.041
+          ],
+          "quote": "Who here knows or has heard of ESQL within Elastic?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 641,
+          "t": [
+            3339.289,
+            3343.553
+          ],
+          "quote": "I was happy to hear, though, that a lot of you are familiar with Elastic and Elasticsearch, so that's good.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 643,
+          "t": [
+            3348.19,
+            3361.313
+          ],
+          "quote": "Query language within Elastic, it's the ESPypeQL, so it's a SQL, near SQL-like language, so you have a SQL-like syntax, and then essentially the pipe is in there to pipe commands together.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 691,
+          "t": [
+            3545.728,
+            3556.637
+          ],
+          "quote": "Because the answer was within Elastic and it had the ability to query it and then run multiple tools and things like this, it's able to kind of get you that answer and get you on your way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 695,
+          "t": [
+            3587.32,
+            3593.102
+          ],
+          "quote": "I started out a little bit skeptical because there were some features in Elastic Query Language that weren't in ESQL.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 697,
+          "t": [
+            3604.154,
+            3615.181
+          ],
+          "quote": "that lend themselves well to solving for certain search tasks better than Elastic Query Language, which you should consider a superset of what ESQL is today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 702,
+          "t": [
+            3654.926,
+            3676.215
+          ],
+          "quote": "First place to look is actually going through the ESQL docs and seeing what new novel retrieval mechanisms we're coming up with because we're doing some very interesting things with federated searching, potentially calling out the different systems within an elastic query language, you know, query that is not considered traditional elastic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 705,
+          "t": [
+            3686.968,
+            3699.178
+          ],
+          "quote": "And I'm talking about things like being able to do like parquet queries on things that are external to Elastic with an ESQL call, which could be incredibly powerful if you're also joining that with data that comes from Elastic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 831,
+          "t": [
+            4404.895,
+            4411.576
+          ],
+          "quote": "And then there's the two red ones in the middle, Sunil's secret elastic environment.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "elasticsearch",
+      "type": "company",
+      "role": "company",
+      "name": "Elasticsearch",
+      "file": "Elasticsearch",
+      "primary": true,
+      "how_described": "本集把它说成智能体的检索层：semantic text 字段、HNSW 向量搜索、BM25 词法搜索、RRF 与重排序都在其中开箱即用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            95.602,
+            96.742
+          ],
+          "quote": "Elastic, Elasticsearch?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 44,
+          "t": [
+            168.261,
+            170.322
+          ],
+          "quote": "And so that's where things like Elasticsearch come in.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 68,
+          "t": [
+            280.029,
+            286.491
+          ],
+          "quote": "There's the part in the DevTools console where you just run API commands within Elasticsearch.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 102,
+          "t": [
+            420.645,
+            426.529
+          ],
+          "quote": "So you will see embedding generation happen within Elasticsearch Serverless.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 107,
+          "t": [
+            448.331,
+            455.077
+          ],
+          "quote": "So you're going to get insight into some new tech that wasn't part of Elasticsearch a year ago.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 114,
+          "t": [
+            470.826,
+            477.629
+          ],
+          "quote": "So as James mentioned, we have the text field, semantic text, and Elasticsearch.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 154,
+          "t": [
+            671.953,
+            677.315
+          ],
+          "quote": "And it'll automatically connect to the Elasticsearch environment that spun up for you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1021.035,
+            1029.26
+          ],
+          "quote": "So if all of us in this room ask how to set up security on TLS on Elasticsearch or something, we're all going to phrase it a little differently.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1156.614,
+            1167.598
+          ],
+          "quote": "Now, that said, you can use, for example, an ingest pipeline in Elasticsearch and make an inference call and say, I do want to generate a summary of this document.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1564.819,
+            1567.841
+          ],
+          "quote": "Elasticsearch, serverless, cluster, all set up for you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2429.643,
+            2434.267
+          ],
+          "quote": "And it's something Elasticsearch does very, very well and very quickly.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 575,
+          "t": [
+            2953.047,
+            2960.433
+          ],
+          "quote": "You can hook it up to any Elasticsearch cluster you have, free one, eh, well, sort of, if you hook up a different service.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 641,
+          "t": [
+            3339.289,
+            3343.553
+          ],
+          "quote": "I was happy to hear, though, that a lot of you are familiar with Elastic and Elasticsearch, so that's good.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 645,
+          "t": [
+            3365.674,
+            3370.655
+          ],
+          "quote": "So you can have ESQL tools to query documents in Elasticsearch.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 724,
+          "t": [
+            3798.157,
+            3802.22
+          ],
+          "quote": "It should be available in all the pillars of Elasticsearch, security, and observability.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "retrieval-augmented-generation",
+      "type": "concept",
+      "role": "concept",
+      "name": "检索增强生成 (retrieval augmented generation)",
+      "file": "检索增强生成",
+      "primary": true,
+      "how_described": "本集说 RAG 并没有消失只是退到背景：模型再聪明也需要外部检索补充时效信息、专有数据，但如果喂的是垃圾数据它会自信地照单全收",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            100.383,
+            108.345
+          ],
+          "quote": "And how many of you have used Elastic to build a RAG-backed application, retrieval augmented generation?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 37,
+          "t": [
+            126.62,
+            129.983
+          ],
+          "quote": "Now, the thing is, retrieval augmented generation didn't actually go away,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体接管了检索与数据分析的管理工作；检索质量差会被带沟里，排序前几位的候选像多选题，模型挑错用户就抱怨搜索不行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            241.503,
+            248.128
+          ],
+          "quote": "And then should you have time, we'll actually put it into a little bit of Elastic's Agent Builder.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 61,
+          "t": [
+            248.555,
+            255.178
+          ],
+          "quote": "Platform where you can see what happens if you retrieve bad information and tell the agent it's good.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1310.768,
+            1327.26
+          ],
+          "quote": "Now, especially with the agent world, too, where you can do multiple queries in, so you can, one of the labs later on, it does a couple round trips, I think just two as an example, but you can go in, get your kind of first phase, get a sample of documents, and then see, oh, okay, so they're all related to this tag, and then go searching.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1521.006,
+            1525.152
+          ],
+          "quote": "Painless scripts, the agent can take those and then create a query that's more tuned for that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2137.093,
+            2142.137
+          ],
+          "quote": "You can actually do today with Elastic using the agent builder construct, which is covered in the last lab.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 428,
+          "t": [
+            2167.125,
+            2168.847
+          ],
+          "quote": "Stuff that Agent Builder's designed to solve for.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 533,
+          "t": [
+            2743.171,
+            2752.378
+          ],
+          "quote": "And so it's worth mentioning, too, this is where we actually get into Agent Builder, Elastic's agentic platform, which has the ability to obviously to run agents,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 546,
+          "t": [
+            2796.602,
+            2806.145
+          ],
+          "quote": "Again, outside of the scope of this workshop, since we have a little time here, this is where the agent has the ability then to start doing things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2830.803,
+            2833.285
+          ],
+          "quote": "But this is where we actually get into Agent Builder.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 554,
+          "t": [
+            2851.828,
+            2866.556
+          ],
+          "quote": "And one of the more interesting things about Agent Builder for folks that are software developers is the fact that everything that you see in a Kibana user interface in Agent Builder is programmable via API.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 555,
+          "t": [
+            2867.036,
+            2879.883
+          ],
+          "quote": "So if you decided that you wanted to do a quick prototype and you're using our Agent Builder mechanism within Elastic and you think, oh, I have to rewrite all this code from scratch now and build out a real app, you don't have to do that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 558,
+          "t": [
+            2888.809,
+            2899.255
+          ],
+          "quote": "And then you have the added benefit if you decide that you wanted to pull those agent builder components out and wire in another framework or another set of APIs that you either build or use a different framework for.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 603,
+          "t": [
+            3160.677,
+            3168.16
+          ],
+          "quote": "As James mentioned, one of the nice things about the agent builder platform is that it is also API driven.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 612,
+          "t": [
+            3211.385,
+            3225.71
+          ],
+          "quote": "But essentially, it's explaining to a model or an agent how to perform a task in a certain way, when tools should be used, how to create presentations, how to create other services.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 625,
+          "t": [
+            3274.623,
+            3284.671
+          ],
+          "quote": "So if we go into the agent that you created, for example, and you look at the overview, it's a very simple agent, again, for the purposes of today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 666,
+          "t": [
+            3441.106,
+            3445.671
+          ],
+          "quote": "So this is a tool that helps speed up that dramatically and kind of help point the agent in the right direction.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 672,
+          "t": [
+            3474.575,
+            3478.999
+          ],
+          "quote": "If your agent wants to connect via MCP.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 675,
+          "t": [
+            3485.624,
+            3488.987
+          ],
+          "quote": "But this shows basically how the agent can then do multiple",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 698,
+          "t": [
+            3616.562,
+            3632.733
+          ],
+          "quote": "And the other thing about ESQL that makes it fantastic is the ability to have parametrization wired into the MCP tool calling chain and wired up with Agent Builder, which is a fantastic add that technically is doable outside of ESQL,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 699,
+          "t": [
+            3633.292,
+            3646.045
+          ],
+          "quote": "The way that we have architected ESQL and our agent builder and our MCP endpoint, it is the happy path to a lot of the, let's call them agentic search use cases that you might have.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 706,
+          "t": [
+            3703.001,
+            3707.685
+          ],
+          "quote": "You can actually see that the agent used ESQL for this call.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 789,
+          "t": [
+            4131.477,
+            4138.561
+          ],
+          "quote": "If you just get your documents good enough in the first phase and let the agent go after them, then you probably don't need a re-ranker.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "semantic-search",
+      "type": "concept",
+      "role": "concept",
+      "name": "语义搜索 (semantic search)",
+      "file": "语义搜索",
+      "primary": true,
+      "how_described": "本集说它靠嵌入模型理解意图、不同措辞能召回同一批文档，但遇到产品编号这类无语义关键词就失效",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            201.97,
+            210.778
+          ],
+          "quote": "But this one's going to talk to you, kind of remind about vector search, semantic search, why it's important, where it's useful, but also where it breaks down.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 166,
+          "t": [
+            741.71,
+            747.631
+          ],
+          "quote": "Traditional lexical search we've been doing for a long time and dense vector semantic search.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 191,
+          "t": [
+            876.487,
+            882.594
+          ],
+          "quote": "is essentially this little chart right here talking about how vector search works and semantic search and what you're getting at.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1040.038,
+            1055.312
+          ],
+          "quote": "One of the key places is if you have a very specific keyword, certainly if you have a keyword that is not a word, like a product ID that makes no sense, it's very specific, semantic search then kind of falls apart because it doesn't really need that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1674.597,
+            1682.405
+          ],
+          "quote": "And my rule of thumb is always see what you can accomplish with a combination of BM25 and semantic search.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1714.338,
+            1725.906
+          ],
+          "quote": "There are some folks that would change that recommendation slightly and say, look, just do BM25, just regular search, and then add semantic search if it's not.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1727.288,
+            1752.208
+          ],
+          "quote": "relevant enough, but I'm a big fan of dense vectors, so I would just go ahead and wire them into the architecture right out of the gate, and that way I don't have to worry about things like, you know, you get into these weird situations with lexical where you're starting to add synonyms or get into advanced lexical tuning techniques that you might not need if the semantic search is able to pair well with the lexical search.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1794.728,
+            1802.572
+          ],
+          "quote": "Lexical search because, to James' point, before we could do semantic search, we had to do all these crazy things to get relevant search.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1850.74,
+            1854.082
+          ],
+          "quote": "So anytime you go semantic search with dense vectors,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2276.343,
+            2276.963
+          ],
+          "quote": "Semantic search.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2641.076,
+            2642.997
+          ],
+          "quote": "Sometimes semantic search is enough.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 765,
+          "t": [
+            3981.356,
+            3992.078
+          ],
+          "quote": "If you're running vector search, semantic search, hybrid search across a first phase and get back a large set of data, then you can take that data and you can re-rank it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vector-search",
+      "type": "concept",
+      "role": "concept",
+      "name": "向量搜索 (vector search)",
+      "file": "向量搜索",
+      "primary": true,
+      "how_described": "本集把向量搜索描述为通过嵌入和 HNSW 找最近邻的检索方式，相似度分数通常在 0 到 1，需要额外的推理调用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            201.97,
+            210.778
+          ],
+          "quote": "But this one's going to talk to you, kind of remind about vector search, semantic search, why it's important, where it's useful, but also where it breaks down.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 191,
+          "t": [
+            876.487,
+            882.594
+          ],
+          "quote": "is essentially this little chart right here talking about how vector search works and semantic search and what you're getting at.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1252.477,
+            1256.998
+          ],
+          "quote": "It pretty much eliminates the memory overhead for vector search.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1839.172,
+            1850.139
+          ],
+          "quote": "And I will say that even though I'm a big fan of dense vector search, that lexical search usually does have lower latency profiles in almost all use cases, and that's because there is no ML inference happening.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 442,
+          "t": [
+            2248.78,
+            2257.006
+          ],
+          "quote": "BM25 has a scale, scores documents from zero to kind of whatever, whereas vector search normally it's zero to one.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 765,
+          "t": [
+            3981.356,
+            3992.078
+          ],
+          "quote": "If you're running vector search, semantic search, hybrid search across a first phase and get back a large set of data, then you can take that data and you can re-rank it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 845,
+          "t": [
+            4453.314,
+            4456.076
+          ],
+          "quote": "Lexical search, vector search, tutorials.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bm25",
+      "type": "concept",
+      "role": "concept",
+      "name": "BM25 关键词搜索 (BM25)",
+      "file": "BM25 关键词搜索",
+      "primary": true,
+      "how_described": "本集说 BM25 是行业用几十年的词频打分方法，只管字面匹配、延迟低因为不需要模型推理，对具体关键词最可靠",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            211.198,
+            216.503
+          ],
+          "quote": "And then we'll go into the kind of lexical search, BM25.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 165,
+          "t": [
+            733.162,
+            741.428
+          ],
+          "quote": "But it is a major point of this lab sequence to let you know that BM25-based search, which is",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1060.344,
+            1067.69
+          ],
+          "quote": "BM25, Lexical, Keyword, Filtering, and all the other traditional so-called search methodologies we've been doing for a long time help can augment that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1674.597,
+            1682.405
+          ],
+          "quote": "And my rule of thumb is always see what you can accomplish with a combination of BM25 and semantic search.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1714.338,
+            1725.906
+          ],
+          "quote": "There are some folks that would change that recommendation slightly and say, look, just do BM25, just regular search, and then add semantic search if it's not.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 442,
+          "t": [
+            2248.78,
+            2257.006
+          ],
+          "quote": "BM25 has a scale, scores documents from zero to kind of whatever, whereas vector search normally it's zero to one.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2257.186,
+            2275.759
+          ],
+          "quote": "And so when you have these scales that do not, that aren't the same, obviously a poor result in a lexical BM25 search is almost always going to beat out from a pure number perspective a good",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 518,
+          "t": [
+            2643.277,
+            2644.357
+          ],
+          "quote": "Sometimes BM25.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "hybrid-search",
+      "type": "concept",
+      "role": "concept",
+      "name": "混合搜索 (hybrid search)",
+      "file": "混合搜索",
+      "primary": true,
+      "how_described": "本集明确说 BM25 加语义搜索的混合检索是 Elastic 作为公司的核心论点，必要时再在顶层加重排序器",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 56,
+          "t": [
+            224.509,
+            226.291
+          ],
+          "quote": "And then putting them together into hybrid search.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            588.167,
+            594.834
+          ],
+          "quote": "So we would solve the problem with traditional chunking and hybrid search, not any exotic semantic chunking scheme.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 167,
+          "t": [
+            748.251,
+            752.872
+          ],
+          "quote": "Do those two things need to be put together to form hybrid search?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 173,
+          "t": [
+            775.481,
+            785.905
+          ],
+          "quote": "Even if you're using a dedicated just pure vector database, you often have to pair that with some other retrieval system and do the equivalent of hybrid search.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 516,
+          "t": [
+            2638.895,
+            2640.996
+          ],
+          "quote": "But you don't always have to do hybrid search.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 726,
+          "t": [
+            3813.448,
+            3819.012
+          ],
+          "quote": "And so you can see when it's doing one of the hybrid search query, it responds, it shows you",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 765,
+          "t": [
+            3981.356,
+            3992.078
+          ],
+          "quote": "If you're running vector search, semantic search, hybrid search across a first phase and get back a large set of data, then you can take that data and you can re-rank it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "rrf",
+      "type": "concept",
+      "role": "concept",
+      "name": "RRF",
+      "file": "RRF",
+      "primary": true,
+      "how_described": "本集说 RRF 是开箱即用的混合融合方法：并行跑两路搜索、扔掉分数只看排名，「直到不好用之前都挺管用」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 337,
+          "t": [
+            1571.824,
+            1583.131
+          ],
+          "quote": "So there's one main knob for reciprocal RRF, and it is, and I'm spacing out here off the top of my head.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1589.835,
+            1592.317
+          ],
+          "quote": "I don't know if we expose it in the RRF.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1619.528,
+            1620.408
+          ],
+          "quote": "RRF is in there somewhere.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2293.153,
+            2301.638
+          ],
+          "quote": "So RRF is kind of designed to be the out of the box, works pretty well,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2536.812,
+            2547.874
+          ],
+          "quote": "Three different search strategies, one that uses RRF, one that uses linear, and maybe another one that uses a combination of linear or RRF with a re-ranker.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2625.47,
+            2626.471
+          ],
+          "quote": "You can start with RRF.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 513,
+          "t": [
+            2627.591,
+            2630.832
+          ],
+          "quote": "It's not something we didn't invent RRF, but we do use it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说任何语义搜索都要多一次推理调用，推理端点往往是系统瓶颈，这也是 Elastic 把推理内置进数据库的原因",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 101,
+          "t": [
+            410.298,
+            419.924
+          ],
+          "quote": "Some of the data providers for Vector Database, and we're in that bucket, have brought inference into the Vector Database.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 103,
+          "t": [
+            427.029,
+            437.156
+          ],
+          "quote": "We have an inference service called Elastic Inference Service, very creative name, that powers the models that are being used for these workshops.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 131,
+          "t": [
+            558.984,
+            564.345
+          ],
+          "quote": "That is not exposed via elastic inference service yet, but it is something that the GINA models do support.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 175,
+          "t": [
+            790.827,
+            793.928
+          ],
+          "quote": "We handle all the inference that happens from ingest",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 193,
+          "t": [
+            892.165,
+            893.927
+          ],
+          "quote": "You can hook up to other inference services.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 200,
+          "t": [
+            923.524,
+            937.568
+          ],
+          "quote": "When we started doing this a few years ago, in the early days, early, you had to keep track of the inference ID, you had to keep track of the model, and then the model, then you have developers, and you have to make sure everyone's using the way one, and there's all those things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 209,
+          "t": [
+            974.65,
+            979.172
+          ],
+          "quote": "It goes to maybe the Elastic Inference Service, which is default out of the box.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 210,
+          "t": [
+            979.372,
+            980.713
+          ],
+          "quote": "Maybe it goes to another Inference Service.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1156.614,
+            1167.598
+          ],
+          "quote": "Now, that said, you can use, for example, an ingest pipeline in Elasticsearch and make an inference call and say, I do want to generate a summary of this document.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1442.472,
+            1448.541
+          ],
+          "quote": "The other option would be to create your own model that you have your own external inference to and potentially use that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1839.172,
+            1850.139
+          ],
+          "quote": "And I will say that even though I'm a big fan of dense vector search, that lexical search usually does have lower latency profiles in almost all use cases, and that's because there is no ML inference happening.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 386,
+          "t": [
+            1854.715,
+            1859.639
+          ],
+          "quote": "You're introducing a call to an inference endpoint.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 387,
+          "t": [
+            1859.919,
+            1865.783
+          ],
+          "quote": "And more often than not, that inference endpoint is going to be more of a bottleneck than the rest of the system.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 388,
+          "t": [
+            1866.144,
+            1877.632
+          ],
+          "quote": "And that's another reason why we wired the inference into the data platform, because when you're doing end-to-end testing, it doesn't matter if your vector database returns vectors really fast.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1877.693,
+            1880.875
+          ],
+          "quote": "If the inference that you're depending on is slow, then your search is going to be slow.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 399,
+          "t": [
+            1937.365,
+            1965.585
+          ],
+          "quote": "There's a whole application runtime construct that's went away ever since this AI boom started that is gonna have to come back and it's either gonna land in the data platform itself where we're doing inference and some of these other things that you would normally have to coordinate with these external services or there's gonna be platforms that try to accomplish that and then use the data platform as just kind of this thing that you plug in.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 536,
+          "t": [
+            2758.126,
+            2762.769
+          ],
+          "quote": "The Elastic Inference Service has all your favorite LLMs available to it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 777,
+          "t": [
+            4040.784,
+            4045.626
+          ],
+          "quote": "So you pay the penalty of having to run inference at",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 824,
+          "t": [
+            4369.698,
+            4374.14
+          ],
+          "quote": "So that way, again, you're not having to manage the inference setting separately.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 825,
+          "t": [
+            4374.32,
+            4377.982
+          ],
+          "quote": "You're not having to call the inference API, then query, then re-rank.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent-builder",
+      "type": "concept",
+      "role": "concept",
+      "name": "Agent Builder",
+      "file": "Agent Builder",
+      "primary": true,
+      "how_described": "本集说这是 Elastic 的智能体平台，可运行智能体、工具、技能和工作流，且一切可编程、通过 API 驱动不锁定用户",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            241.503,
+            248.128
+          ],
+          "quote": "And then should you have time, we'll actually put it into a little bit of Elastic's Agent Builder.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2137.093,
+            2142.137
+          ],
+          "quote": "You can actually do today with Elastic using the agent builder construct, which is covered in the last lab.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 428,
+          "t": [
+            2167.125,
+            2168.847
+          ],
+          "quote": "Stuff that Agent Builder's designed to solve for.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 533,
+          "t": [
+            2743.171,
+            2752.378
+          ],
+          "quote": "And so it's worth mentioning, too, this is where we actually get into Agent Builder, Elastic's agentic platform, which has the ability to obviously to run agents,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2830.803,
+            2833.285
+          ],
+          "quote": "But this is where we actually get into Agent Builder.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 554,
+          "t": [
+            2851.828,
+            2866.556
+          ],
+          "quote": "And one of the more interesting things about Agent Builder for folks that are software developers is the fact that everything that you see in a Kibana user interface in Agent Builder is programmable via API.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 555,
+          "t": [
+            2867.036,
+            2879.883
+          ],
+          "quote": "So if you decided that you wanted to do a quick prototype and you're using our Agent Builder mechanism within Elastic and you think, oh, I have to rewrite all this code from scratch now and build out a real app, you don't have to do that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 558,
+          "t": [
+            2888.809,
+            2899.255
+          ],
+          "quote": "And then you have the added benefit if you decide that you wanted to pull those agent builder components out and wire in another framework or another set of APIs that you either build or use a different framework for.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 603,
+          "t": [
+            3160.677,
+            3168.16
+          ],
+          "quote": "As James mentioned, one of the nice things about the agent builder platform is that it is also API driven.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 698,
+          "t": [
+            3616.562,
+            3632.733
+          ],
+          "quote": "And the other thing about ESQL that makes it fantastic is the ability to have parametrization wired into the MCP tool calling chain and wired up with Agent Builder, which is a fantastic add that technically is doable outside of ESQL,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 699,
+          "t": [
+            3633.292,
+            3646.045
+          ],
+          "quote": "The way that we have architected ESQL and our agent builder and our MCP endpoint, it is the happy path to a lot of the, let's call them agentic search use cases that you might have.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "embedding",
+      "type": "concept",
+      "role": "concept",
+      "name": "嵌入 (embedding)",
+      "file": "嵌入",
+      "primary": false,
+      "how_described": "本集说嵌入在接入时由模型生成，查询时必须用同一个嵌入模型，重排序无法预先嵌入所以要在查询时付推理代价",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 102,
+          "t": [
+            420.645,
+            426.529
+          ],
+          "quote": "So you will see embedding generation happen within Elasticsearch Serverless.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 192,
+          "t": [
+            883.155,
+            892.145
+          ],
+          "quote": "And so when you use an embedding model that's hooked up to Elastic, and we talk about Gina as the out-of-the-box one, but you can certainly bring your own.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 196,
+          "t": [
+            901.603,
+            912.531
+          ],
+          "quote": "But the nice thing about this particular way it sets up is when you create an embedding at ingest time, you create the embedding from your document.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 197,
+          "t": [
+            912.951,
+            916.273
+          ],
+          "quote": "But then at query time, you need to use the same embedding model to do the query time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 201,
+          "t": [
+            937.588,
+            943.129
+          ],
+          "quote": "So by embedding it in the ID in the field itself, it helps on two ways.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "chunking",
+      "type": "concept",
+      "role": "concept",
+      "name": "分块 (chunking)",
+      "file": "分块",
+      "primary": false,
+      "how_described": "本集说 Elastic 的 semantic text 默认按句子边界切成 250 token 块，可配置到词、段落、页面粒度",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 109,
+          "t": [
+            459.58,
+            460.341
+          ],
+          "quote": "We've heard of chunking.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 110,
+          "t": [
+            461.583,
+            462.884
+          ],
+          "quote": "We do help with chunking.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 125,
+          "t": [
+            509.782,
+            514.784
+          ],
+          "quote": "And so you can configure chunking down to the word, to paragraph, page boundary, things like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            537.334,
+            544.86
+          ],
+          "quote": "There are frameworks that talk about semantic chunking and there are other labels for what I will call",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 129,
+          "t": [
+            545.72,
+            547.22
+          ],
+          "quote": "Large context window chunking.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 130,
+          "t": [
+            547.701,
+            558.503
+          ],
+          "quote": "We actually, and this is talked about in the lab in the later sections, we do have a technique that we use called late chunking that can work on large context windows.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 132,
+          "t": [
+            564.756,
+            569.341
+          ],
+          "quote": "That's the closest thing that I would say we would have to semantic chunking.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 133,
+          "t": [
+            569.501,
+            583.855
+          ],
+          "quote": "But we don't really have a need for that construct because the semantic text field itself allows us to deliver the same thing you would get with semantic chunking just by chunking the data and then running searches across it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 136,
+          "t": [
+            588.167,
+            594.834
+          ],
+          "quote": "So we would solve the problem with traditional chunking and hybrid search, not any exotic semantic chunking scheme.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 176,
+          "t": [
+            794.566,
+            801.008
+          ],
+          "quote": "chunking to real-time search, where the query gets translated into a query vector, and we do all the work for you under the hood.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 178,
+          "t": [
+            820.061,
+            821.822
+          ],
+          "quote": "They are configurable, the chunking settings.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 183,
+          "t": [
+            833.372,
+            840.297
+          ],
+          "quote": "They're not described in detail in the workshop, but if you go to the Elastic docs, you'll see what the configuration settings are for chunking.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "hnsw",
+      "type": "concept",
+      "role": "concept",
+      "name": "HNSW",
+      "file": "HNSW",
+      "primary": false,
+      "how_described": "本集说 Elasticsearch 默认用 HNSW 分层可导航小世界图做近似最近邻检索，配合 int8/BBQ 量化降低内存开销",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 213,
+          "t": [
+            987.557,
+            988.438
+          ],
+          "quote": "HNSW, ANN.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 214,
+          "t": [
+            988.458,
+            995.707
+          ],
+          "quote": "We do have other disk, we have disk, ANN, but by default we're using HNSW, the Hierarchical Navigable Small Worlds Graph.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1195.959,
+            1205.643
+          ],
+          "quote": "So when it comes to work that we've done to make HNSW more efficient, that started two years ago, actually two plus years ago,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1257.258,
+            1269.661
+          ],
+          "quote": "The only difference I would say between disk BBQ and BBQ is that we actually have an option in Elastic to not use HNSW as the underlying mechanism for search.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 773,
+          "t": [
+            4020.752,
+            4026.736
+          ],
+          "quote": "And it just does HNSW or one of the disk algorithms and returns a set of documents.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "esql",
+      "type": "concept",
+      "role": "concept",
+      "name": "ESQL",
+      "file": "ESQL",
+      "primary": false,
+      "how_described": "本集说 ESQL 是 Elastic 内新的类 SQL 管道式查询语言，参数化接入 MCP 工具调用链，是智能体搜索用例的最佳路径",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 636,
+          "t": [
+            3325.239,
+            3329.041
+          ],
+          "quote": "Who here knows or has heard of ESQL within Elastic?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 642,
+          "t": [
+            3344.033,
+            3344.894
+          ],
+          "quote": "ESQL is a newer",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 645,
+          "t": [
+            3365.674,
+            3370.655
+          ],
+          "quote": "So you can have ESQL tools to query documents in Elasticsearch.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 694,
+          "t": [
+            3582.719,
+            3587.14
+          ],
+          "quote": "And the last thing I'll say about, I'm a big fan of ESQL.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 695,
+          "t": [
+            3587.32,
+            3593.102
+          ],
+          "quote": "I started out a little bit skeptical because there were some features in Elastic Query Language that weren't in ESQL.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 696,
+          "t": [
+            3593.722,
+            3603.385
+          ],
+          "quote": "I think that it's feature complete enough for you to at least take a look at it, especially if you're building agentic search use cases, because there's some really cool concepts in ESQL",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 697,
+          "t": [
+            3604.154,
+            3615.181
+          ],
+          "quote": "that lend themselves well to solving for certain search tasks better than Elastic Query Language, which you should consider a superset of what ESQL is today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 698,
+          "t": [
+            3616.562,
+            3632.733
+          ],
+          "quote": "And the other thing about ESQL that makes it fantastic is the ability to have parametrization wired into the MCP tool calling chain and wired up with Agent Builder, which is a fantastic add that technically is doable outside of ESQL,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 699,
+          "t": [
+            3633.292,
+            3646.045
+          ],
+          "quote": "The way that we have architected ESQL and our agent builder and our MCP endpoint, it is the happy path to a lot of the, let's call them agentic search use cases that you might have.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 700,
+          "t": [
+            3646.145,
+            3650.049
+          ],
+          "quote": "So if you have not looked at ESQL yet, highly recommend you do that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 702,
+          "t": [
+            3654.926,
+            3676.215
+          ],
+          "quote": "First place to look is actually going through the ESQL docs and seeing what new novel retrieval mechanisms we're coming up with because we're doing some very interesting things with federated searching, potentially calling out the different systems within an elastic query language, you know, query that is not considered traditional elastic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 704,
+          "t": [
+            3681.557,
+            3684.598
+          ],
+          "quote": "And when it does, ESQL is going to be your gateway into that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 705,
+          "t": [
+            3686.968,
+            3699.178
+          ],
+          "quote": "And I'm talking about things like being able to do like parquet queries on things that are external to Elastic with an ESQL call, which could be incredibly powerful if you're also joining that with data that comes from Elastic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 706,
+          "t": [
+            3703.001,
+            3707.685
+          ],
+          "quote": "You can actually see that the agent used ESQL for this call.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 722,
+          "t": [
+            3781.455,
+            3792.641
+          ],
+          "quote": "And I'd say that that was the primary reason we started building ESQL was to build the best in class search experience so people could get rid of all their Splunk stuff.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 738,
+          "t": [
+            3859.44,
+            3863.343
+          ],
+          "quote": "It's changed a little bit over the years if you haven't used it in a little while, but now you can do ESQL in there.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "reranker",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-11-talks-teaching-agents-to-search-with-nvidia-da",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/qFaKvbVc5cE.m4a",
+  "duration_sec": 3321.5,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 650,
+  "asr": true,
+  "title_en": "Teaching Agents to Search with NVIDIA Data Designer — Dhruv Nathawani, NVIDIA",
+  "podcast": "精选演讲",
+  "date": "2026-10-11",
+  "added": "2026-10-20",
+  "added_at": "2026-10-20T07:59:53.570Z",
+  "speaker_map": {
+    "SPEAKER_00": "Dhruv Nathawani"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Dhruv Nathawani"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "教 AI 学会上网搜:NVIDIA 怎么造出「会搜索」的模型",
+  "guest_name": "Dhruv Nathawani",
+  "guest_title": "NVIDIA 研究科学家",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

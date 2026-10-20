@@ -1,0 +1,173 @@
+{
+  "title_zh": "只靠向量搜索不够：两位 Elastic 架构师聊混合检索的门道",
+  "tldr": "Elastic 的 Jeff Vestal 和 James Williams 用一场动手工作坊，讲透语义搜索、关键词搜索为什么必须合用，以及重排器什么时候才值得加。",
+  "digest_md": "在一场以动手练习为主的研讨会上，Elastic 的 AI 架构师 Jeff Vestal 和搜索方向解决方案架构师 James Williams，一边带着大家跑代码，一边回答了不少关于检索的好问题。RAG 这个词虽然不像前两年那么热了，但他们强调，模型再聪明，也需要外部检索来补充时效信息、专有数据和价格这类训练里没有的内容。而且有个残酷的现实：如果你给模型喂垃圾数据，还自信地告诉它这是答案，它基本会照单全收 [02:56 Unknown]。\n\n> 【背景】Elastic 是 Elasticsearch 搜索引擎背后的公司。RAG 指检索增强生成：先从外部数据里检索相关内容，再交给大模型生成回答。\n\n## 语义搜索强在哪，又败在哪\n\n语义搜索靠嵌入模型把文本变成向量，再找最相近的向量。它的长处是理解意图：房间里每个人问「怎么在 Elasticsearch 上配置 TLS 安全」，措辞各不相同，但语义搜索应该把同一批文档找出来 [17:01 Unknown]。\n\n但它有个明显软肋。一旦你要找的是非常具体的关键词，尤其是根本不是正常单词的东西——比如一个毫无语义的产品编号——**语义搜索就抓瞎了** [17:20 Unknown]。这种时候，老派的关键词搜索反而靠谱。\n\n## 用了十几年的关键词搜索，今天仍然有用\n\nBM25 是搜索行业用了几十年的词频打分方法，也就是传统意义上的关键词搜索。Jeff 打了个比方：语义搜索好比查询和文档要说同一种语言，而 BM25 只管字面匹配，不需要模型参与。\n\n关键词搜索的另一个实际优势是延迟低，因为它不用调用模型做推理。任何语义搜索都要多一次推理调用，而这个推理环节往往比系统其他部分更容易成为瓶颈——这也是 Elastic 干脆把推理内置到数据库里的原因 [31:06 Unknown]。\n\nElastic 现在的核心主张很明确：**BM25 加语义搜索的混合检索是正确路线**，必要时再在顶层加重排器 [12:33 Unknown]。就算是专门的纯向量数据库，用户也往往得另配一套检索系统，做等价的混合搜索。\n\n## 两套分数没法直接比，怎么办\n\n混合搜索有个技术麻烦：BM25 的分数可以从零到很大，向量相似度通常是 0 到 1。直接比数字，差的词法结果几乎总会压过好的语义结果 [37:28 Unknown]。\n\nRRF（倒数排名融合）是开箱即用的解法：把两路搜索并行跑，扔掉分数，只看排名。一个文档如果在两边都排得靠前，那多半是好结果。它不需要你懂调参、不需要了解数据细节，「直到不好用之前都挺管用」[38:23 Unknown]。\n\n想更精细，就上线性组合：先把两边分数归一化到同一范围，再手动配权重。怎么定权重？靠人工标注或让大模型帮忙生成判断集——对每个查询写明期望返回哪些文档，然后跑实验看哪组权重最接近。另外，先用关键词、地理位置、日期等条件把候选集过滤小，效果通常也会更好。Jeff 的比喻是：想吃披萨就别只搜食物，搜完再按披萨过滤 [40:12 Unknown]。\n\n## 什么时候才需要重排器\n\n重排是检索的第二阶段：第一阶段先召回一批候选，再用一个模型把查询和文档放在一起重新打分。好处是排序更准，代价是必须在查询时现场跑推理，有延迟成本 [66:34 Unknown]。\n\nJames 给的判断标准是：如果只靠 BM25 加语义搜索就能达到你的相关性目标，就到此为止；**每往上加一层，都是在拿延迟换精度** [28:02 Unknown]。\n\n重排器还分两种。点式（point-wise）逐个给文档打分，只看查询和当前这一篇；列表式（list-wise，如 GINA V3 模型）把最多 64 个候选放在一起看，能分辨出彼此非常相似的一堆文档之间的细微差别，代价是更吃内存和时间 [70:07 Unknown]。\n\n为什么排序这么重要？因为很多智能体应用只把排前几位的片段交给大模型。候选太多时，对模型来说就像一道多选题，两三个答案看着都对，它随便挑一个——挑错了，用户就会抱怨搜索不行 [69:31 Unknown]。\n\n## 检索质量差，智能体会被带沟里\n\n演示环节里有个很直观的例子：让智能体诊断「集群为什么以退出码 137 挂掉」。因为答案就在 Elastic 的数据里，智能体跑了几轮工具调用，先定位到是内存管理器杀掉了进程，再给出怎么调 JVM 设置来预防。\n\n但反过来，如果你检索回来的信息本身是错的，模型大概率会照着错的说。这也是为什么引用来源越来越重要：模型本身不是在做数据库查询，它是在凭训练生成内容，天生擅长一本正经地编。把真实文档喂给它、让它整理成回答并附上来源链接，**模型才更可信** [50:54 Unknown]。\n\n## 本集带走\n\n- 向量搜索理解意图，但遇到产品编号这类无语义关键词会失效；关键词搜索字面精确、延迟低，两者互补，混合检索是 Elastic 的核心主张。\n- RRF 开箱即用、只看排名不看分数；要更精细就用归一化后的线性组合，靠判断集实验定权重。\n- 重排器是拿延迟换精度的选项，只在排序确实关键时才加；候选彼此很相似时，列表式重排器优于点式。\n- 检索回来的数据是错的，再聪明的模型也会自信地给出错答案，引用来源能显著提升可信度。\n- 推理调用常是延迟瓶颈，这也是 Elastic 把嵌入生成、分块等推理直接内置进数据库的原因。",
+  "quotes": [
+    {
+      "en": "if you feed these models, no matter how smart they are, garbage data, and you confidently tell them this is the answer, pretty much they're gonna believe you because that's what you're telling them.",
+      "zh": "如果你给这些模型——不管它们有多聪明——喂垃圾数据，并且自信地告诉它们这就是答案，它们基本上就会相信你，因为你就是这么告诉它们的。",
+      "timestamp": "02:58",
+      "speaker": "Jeff Vestal"
+    },
+    {
+      "en": "But I'm a big fan of dense vectors, so I would just go ahead and wire them into the architecture right out of the gate, and that way I don't have to worry about things like, you know, you get into these weird situations with lexical where you're starting to add synonyms or get into advanced lexical tuning techniques that you might not need if the semantic search is able to pair well with the lexical search.",
+      "zh": "但我是稠密向量的忠实粉丝，所以我会直接从一开始就把它接进架构里，这样我就不用操心那些事情，比如你在词法搜索中会陷入一些奇怪的情况：开始添加同义词，或者用上各种高级词法调优技术，而如果语义搜索能和词法搜索很好地配合，这些你可能根本不需要。",
+      "timestamp": "28:48",
+      "speaker": "James Williams"
+    },
+    {
+      "en": "And more often than not, that inference endpoint is going to be more of a bottleneck than the rest of the system.",
+      "zh": "而且更多时候，那个推理端点会成为整个系统中比其他部分更严重的瓶颈。",
+      "timestamp": "30:59",
+      "speaker": "James Williams"
+    },
+    {
+      "en": "That's when we're going to shine because we can do things that the other platforms can't do.",
+      "zh": "那就是我们要大放异彩的时候，因为我们能做到其他平台做不到的事情。",
+      "timestamp": "33:37",
+      "speaker": "James Williams"
+    },
+    {
+      "en": "But any time you have to feed them data that they're outside their training knowledge or anything, you can pretty confidently get them to give you the wrong answer by providing them the set of data and say, the sky is orange.",
+      "zh": "但任何时候你必须喂给它们超出其训练知识范围的数据或任何东西时，你都可以相当有把握地让它们给你错误的答案，只要给它们一组数据然后说，天空是橙色的。",
+      "timestamp": "44:43",
+      "speaker": "Jeff Vestal"
+    },
+    {
+      "en": "We're seeing a lot of situations where folks are testing the evaluation based on the first, second, and third document chunk coming back, which gives you a very small window of opportunity to get the answer right if you're just handing a small set of candidates to the large language model to answer the question versus a larger candidate set, and then asking the model to get it right.",
+      "zh": "我们看到很多场景，人们是基于返回的第一、第二、第三个文档块来做评估测试的，这就给了你一个非常小的窗口去答对——如果你只是把一小撮候选交给大语言模型来回答问题，而不是一个更大的候选集，然后让模型去答对。",
+      "timestamp": "69:10",
+      "speaker": "James Williams"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "02:56",
+      "speaker": "Unknown",
+      "en": "if you feed these models, no matter how smart they are, garbage data, and you confidently tell them this is the answer, pretty much they're gonna believe you because that's what you're telling them.",
+      "zh": "如果你给这些模型——不管它们有多聪明——喂垃圾数据，并且自信地告诉它们这就是答案，它们基本上就会相信你，因为你就是这么告诉它们的。"
+    },
+    {
+      "timestamp": "12:33",
+      "speaker": "Unknown",
+      "en": "That is the core thesis right now that we have as a company.",
+      "zh": "这正是我们作为公司目前的核心论点。"
+    },
+    {
+      "timestamp": "12:55",
+      "speaker": "Unknown",
+      "en": "Even if you're using a dedicated just pure vector database, you often have to pair that with some other retrieval system and do the equivalent of hybrid search.",
+      "zh": "即使你在使用一个专门的纯向量数据库，你通常也必须把它与某个其他检索系统配对，做相当于混合搜索的事情。"
+    },
+    {
+      "timestamp": "13:06",
+      "speaker": "Unknown",
+      "en": "The advantage to Elastic is, and you're seeing this in the labs, it's one API call.",
+      "zh": "Elastic 的优势是，你在实验中也看到了，它是一次 API 调用。"
+    },
+    {
+      "timestamp": "20:52",
+      "speaker": "Unknown",
+      "en": "It pretty much eliminates the memory overhead for vector search.",
+      "zh": "它基本上消除了向量搜索的内存开销。"
+    },
+    {
+      "timestamp": "21:14",
+      "speaker": "Unknown",
+      "en": "No one else implements that.",
+      "zh": "没有其他人实现过那个。"
+    },
+    {
+      "timestamp": "22:42",
+      "speaker": "Unknown",
+      "en": "And we're trying to target multi-billion vector data sets, which means that we're very careful not to introduce a construct that keeps us from being able to scale at that level.",
+      "zh": "而我们的目标是数十亿级别的向量数据集，这意味着我们非常小心，不引入任何会让我们无法在那个规模上扩展的结构。"
+    },
+    {
+      "timestamp": "23:20",
+      "speaker": "Unknown",
+      "en": "I think they do, but not at the scale that we operate at.",
+      "zh": "我觉得他们确实解决了，但没达到我们所运营的那种规模。"
+    },
+    {
+      "timestamp": "27:54",
+      "speaker": "Unknown",
+      "en": "And my rule of thumb is always see what you can accomplish with a combination of BM25 and semantic search.",
+      "zh": "我的经验法则始终是：先看用 BM25 加语义搜索的组合能做到什么。"
+    },
+    {
+      "timestamp": "28:47",
+      "speaker": "Unknown",
+      "en": "But I'm a big fan of dense vectors, so I would just go ahead and wire them into the architecture right out of the gate, and that way I don't have to worry about things like, you know, you get into these weird situations with lexical where you're starting to add synonyms or get into advanced lexical tuning techniques that you might not need if the semantic search is able to pair well with the lexical search.",
+      "zh": "但我是稠密向量的忠实粉丝，所以我会直接从一开始就把它接进架构里，这样我就不用操心那些事情，比如你在词法搜索中会陷入一些奇怪的情况：开始添加同义词，或者用上各种高级词法调优技术，而如果语义搜索能和词法搜索很好地配合，这些你可能根本不需要。"
+    },
+    {
+      "timestamp": "30:59",
+      "speaker": "Unknown",
+      "en": "And more often than not, that inference endpoint is going to be more of a bottleneck than the rest of the system.",
+      "zh": "而且更多时候，那个推理端点会成为整个系统中比其他部分更严重的瓶颈。"
+    },
+    {
+      "timestamp": "31:17",
+      "speaker": "Unknown",
+      "en": "If the inference that you're depending on is slow, then your search is going to be slow.",
+      "zh": "如果你依赖的推理很慢，那你的搜索就会很慢。"
+    },
+    {
+      "timestamp": "33:02",
+      "speaker": "Unknown",
+      "en": "I think that we're in the very early days of AI where for retrieval purposes, as soon as you start writing code, you're locked into whatever stack you've picked.",
+      "zh": "我认为我们正处于 AI 的非常早期阶段，就检索而言，一旦你开始写代码，你就被锁定在你选定的那个技术栈上了。"
+    },
+    {
+      "timestamp": "33:37",
+      "speaker": "Unknown",
+      "en": "That's when we're going to shine because we can do things that the other platforms can't do.",
+      "zh": "那就是我们要大放异彩的时候，因为我们能做到其他平台做不到的事情。"
+    },
+    {
+      "timestamp": "44:43",
+      "speaker": "Unknown",
+      "en": "But any time you have to feed them data that they're outside their training knowledge or anything, you can pretty confidently get them to give you the wrong answer by providing them the set of data and say, the sky is orange.",
+      "zh": "但任何时候你必须喂给它们超出其训练知识范围的数据或任何东西时，你都可以相当有把握地让它们给你错误的答案，只要给它们一组数据然后说，天空是橙色的。"
+    },
+    {
+      "timestamp": "51:00",
+      "speaker": "Unknown",
+      "en": "But what they're also great at is lying to you because",
+      "zh": "但它们同样擅长对你撒谎，因为"
+    },
+    {
+      "timestamp": "51:50",
+      "speaker": "Unknown",
+      "en": "It's generating tokens based on its training.",
+      "zh": "它是在根据训练生成 token。"
+    },
+    {
+      "timestamp": "62:25",
+      "speaker": "Unknown",
+      "en": "All the things that the Splunk query language tried to do with Splunk in its heyday.",
+      "zh": "Splunk 查询语言在 Splunk 全盛时期试图完成的所有事情。"
+    },
+    {
+      "timestamp": "69:10",
+      "speaker": "Unknown",
+      "en": "We're seeing a lot of situations where folks are testing the evaluation based on the first, second, and third document chunk coming back, which gives you a very small window of opportunity to get the answer right if you're just handing a small set of candidates to the large language model to answer the question versus a larger candidate set, and then asking the model to get it right.",
+      "zh": "我们看到很多场景，人们是基于返回的第一、第二、第三个文档块来做评估测试的，这就给了你一个非常小的窗口去答对——如果你只是把一小撮候选交给大语言模型来回答问题，而不是一个更大的候选集，然后让模型去答对。"
+    },
+    {
+      "timestamp": "69:36",
+      "speaker": "Unknown",
+      "en": "It's a multiple choice where two or three answers look equally right to the LLM, and it just picks one.",
+      "zh": "这是一道选择题，其中两个或三个答案在 LLM 看来同样正确，它就随便挑了一个。"
+    },
+    {
+      "timestamp": "70:46",
+      "speaker": "Unknown",
+      "en": "If the answers essentially or the potential candidates are all very similar, like they're all pretty much talking about the same thing, that's where having the list-wise can edge out point-wise because it can see the nuances within that list because it sees the multiple documents together.",
+      "zh": "如果答案或者说潜在候选都非常相似，比如它们基本上都在讲同一件事，那正是 listwise 能胜过 point-wise 的地方，因为它能看到那个列表内部的细微差别，因为它把多篇文档放在一起看。"
+    }
+  ],
+  "voice_script": "今天这期，咱们聊聊搜索这件事。主角是 Elastic 的两位架构师，一位叫 Jeff Vestal，做 AI 方向，另一位叫 James Williams，专管搜索解决方案。Elastic 就是做 Elasticsearch 那家搜索公司，所以这俩人是正儿八经的行家。他们最近办了一场动手工作坊，带着大家跑代码，中间回答了一堆关于检索的好问题。核心话题就一个：现在都流行拿向量做语义搜索了，那老掉牙的关键词搜索还有没有用？答案不但有用，而且必须合着用。\n\n先把背景垫一下。RAG 这词儿，你可能听过，就是检索增强生成——先从外部数据里查资料，再把查到的东西交给大模型写答案。这词儿现在不像前两年那么火了，但道理没变：模型再聪明，训练里也没有你公司的专有数据、最新的价格、时效信息，这些都得靠外部检索来补。这里还有个挺残酷的现实：如果你给模型喂垃圾数据，还自信地告诉它这就是答案，它基本会照单全收，因为你就是这么告诉它的。\n\n好，那先说语义搜索强在哪。它的原理是拿嵌入模型把文字变成向量，再找最相近的向量。长处是理解意图。比如房间里的每个人都问\"怎么在 Elasticsearch 上配置 TLS 安全\"，措辞五花八门，但语义搜索应该能把同一批文档都捞出来。\n\n不过它有个明显软肋。一旦你要找的是非常具体的关键词，尤其那种根本不是正常单词的东西——比如一个毫无语义的产品编号——语义搜索就抓瞎了。这种时候，老派的关键词搜索反而靠谱。\n\n关键词搜索用的打分方法叫 BM25，就是按词频算分，搜索行业用了几十年。Jeff 打了个比方：语义搜索好比查询和文档得说同一种语言，而 BM25 只管字面匹配，不需要模型参与。还有个实际好处，就是延迟低，因为不用调模型做推理。任何语义搜索都得多一次推理调用，而这个推理环节，往往是整个系统里比其他部分更严重的瓶颈。这也是 Elastic 干脆把推理直接内置到数据库里的原因。所以 Elastic 的核心主张很明确：BM25 加语义搜索的混合检索，才是正确路线。就算是那些专门的纯向量数据库，用户往往也得另配一套检索系统，才能做出等价的混合搜索。\n\n那混合着用，就有个技术麻烦：两边的分数没法直接比。BM25 的分数可以从零到很大，向量相似度通常是零到一。直接比数字，差的词法结果几乎总会压过好的语义结果。怎么办？开箱即用的解法叫 RRF，倒数排名融合。思路是把两路搜索并行跑，把分数扔掉，只看排名——一个文档要是在两边都排得靠前，那多半是好结果。这招不需要你懂调参、也不需要了解数据细节，用他们的话说，直到不好用之前都挺管用。\n\n想更精细一点，就上线性组合：先把两边分数归一化到同一个范围，再手动配权重。权重怎么定？靠人工标注，或者让大模型帮忙生成一个判断集——对每个查询写明期望返回哪些文档，然后跑实验，看哪组权重最接近。另外还有个小技巧：先用关键词、地理位置、日期这些条件把候选集过滤小，效果通常会更好。Jeff 的比喻很形象：想吃披萨就别只搜\"食物\"，搜完再按披萨过滤。\n\n那重排器什么时候才值得加？先解释下，重排是检索的第二阶段：第一阶段先召回一批候选，再用一个模型把查询和文档放在一起重新打分。排序更准，但代价是查询时得现场跑推理，有延迟。James 给的判断标准很实在：如果只靠 BM25 加语义搜索就能达到你的相关性目标，就到此为止。每往上加一层，都是在拿延迟换精度。重排器还分两种：点式的逐个文档打分，只看查询和这一篇；列表式的，比如 GINA V3 模型，能把最多六十四个候选放在一起看，能分辨出一堆彼此很相似的文档之间的细微差别，代价是更吃内存和时间。\n\n为什么排序这么要紧？因为很多智能体应用只把排前几名的片段交给大模型。候选一多，对模型来说就像一道多选题，两三个答案看着都对，它随便挑一个——挑错了，用户就会抱怨你这搜索不行。\n\n最后回到那个起点。工作坊演示里有个例子：让智能体诊断一个集群为什么以退出码 137 挂掉。因为答案就在 Elastic 的数据里，智能体跑了几轮工具调用，先定位到是内存管理器杀掉了进程，再给出怎么调 JVM 设置来预防。反过来，如果检索回来的信息本身是错的，模型大概率会照着错的说。这也是为什么引用来源越来越重要：模型不是在做数据库查询，它是在凭训练生成内容，天生擅长一本正经地编。把真实文档喂给它、让它整理成回答并附上来源链接，模型才更可信。\n\n一句话带走：向量搜索懂意图，关键词搜索认字面，两者合起来才是靠谱的检索；而喂给模型的东西不对，再聪明的它也会自信地错给你看。"
+}

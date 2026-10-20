@@ -1,0 +1,5202 @@
+[
+ {
+  "seg": 0,
+  "start": 12.953,
+  "end": 16.276,
+  "speaker": "Unknown",
+  "en": "The workshop is about something more generic and more powerful.",
+  "zh": "这个工作坊讲的是一些更通用、更强大的东西。"
+ },
+ {
+  "seg": 1,
+  "start": 16.736,
+  "end": 28.905,
+  "speaker": "Unknown",
+  "en": "It's about how do we build data pipelines using the tool that we created, Nemo Data Designer, to be able to create or add any kind of functionality to a model or an agent.",
+  "zh": "它讲的是我们如何使用我们创建的工具 Nemo Data Designer 来构建数据管道，从而能够为一个模型或智能体创建或添加任何类型的功能。"
+ },
+ {
+  "seg": 2,
+  "start": 29.966,
+  "end": 30.787,
+  "speaker": "Unknown",
+  "en": "So let's get started.",
+  "zh": "那么让我们开始吧。"
+ },
+ {
+  "seg": 3,
+  "start": 31.187,
+  "end": 34.61,
+  "speaker": "Unknown",
+  "en": "And by the way, I have a GitHub repo where I have some notebooks.",
+  "zh": "顺便说一下，我有一个 GitHub 仓库，里面有一些 notebook。"
+ },
+ {
+  "seg": 4,
+  "start": 34.65,
+  "end": 38.673,
+  "speaker": "Unknown",
+  "en": "So if you're interested, you can scan the QR code or you can go to that GitHub repo.",
+  "zh": "所以如果你感兴趣，可以扫描二维码，或者访问那个 GitHub 仓库。"
+ },
+ {
+  "seg": 5,
+  "start": 39.39,
+  "end": 42.452,
+  "speaker": "Unknown",
+  "en": "And I'll have the same QR code on all the other slides as well.",
+  "zh": "我会在所有其他幻灯片上也放同样的二维码。"
+ },
+ {
+  "seg": 6,
+  "start": 42.492,
+  "end": 44.854,
+  "speaker": "Unknown",
+  "en": "So if you miss it, there'll be more chances to get it.",
+  "zh": "所以如果你错过了，还会有更多机会获取它。"
+ },
+ {
+  "seg": 7,
+  "start": 48.096,
+  "end": 50.658,
+  "speaker": "Unknown",
+  "en": "So what is the workshop about and what will we learn here?",
+  "zh": "那么这个工作坊是关于什么的，我们在这里会学到什么？"
+ },
+ {
+  "seg": 8,
+  "start": 51.578,
+  "end": 60.264,
+  "speaker": "Unknown",
+  "en": "The first thing we're going to learn is how do you actually take a target agent behavior that you want and turn it into a data problem, right?",
+  "zh": "我们要学的第一件事是，你如何真正把你想要的目标智能体行为转化为一个数据问题，对吧？"
+ },
+ {
+  "seg": 9,
+  "start": 60.344,
+  "end": 65.067,
+  "speaker": "Unknown",
+  "en": "So basically, can we create data for this targeted agent behavior?",
+  "zh": "基本上就是，我们能否为这种目标智能体行为创建数据？"
+ },
+ {
+  "seg": 10,
+  "start": 65.447,
+  "end": 66.628,
+  "speaker": "Unknown",
+  "en": "And then can we train a model",
+  "zh": "然后我们能否训练一个模型"
+ },
+ {
+  "seg": 11,
+  "start": 67.129,
+  "end": 70.45,
+  "speaker": "Unknown",
+  "en": "to learn how to do that task.",
+  "zh": "来学会如何完成那个任务。"
+ },
+ {
+  "seg": 12,
+  "start": 71.57,
+  "end": 78.392,
+  "speaker": "Unknown",
+  "en": "And so we built a tool called Data Designer to build synthetic data pipelines, which does exactly that.",
+  "zh": "所以我们构建了一个叫 Data Designer 的工具来构建合成数据管道，它正是做这件事的。"
+ },
+ {
+  "seg": 13,
+  "start": 79.092,
+  "end": 83.133,
+  "speaker": "Unknown",
+  "en": "And the use case that we're going to target today is Search.",
+  "zh": "而我们今天要针对的用例是搜索。"
+ },
+ {
+  "seg": 14,
+  "start": 83.533,
+  "end": 85.754,
+  "speaker": "Unknown",
+  "en": "And by the way, this is a very reusable framework.",
+  "zh": "顺便说一下，这是一个非常可复用的框架。"
+ },
+ {
+  "seg": 15,
+  "start": 85.794,
+  "end": 90.175,
+  "speaker": "Unknown",
+  "en": "So if you want to create data for something apart from Search, this is exactly how you would do it.",
+  "zh": "所以如果你想为搜索之外的东西创建数据，这正是你会采用的方法。"
+ },
+ {
+  "seg": 16,
+  "start": 91.902,
+  "end": 94.364,
+  "speaker": "Unknown",
+  "en": "And there's two ways to participate in today's workshop.",
+  "zh": "参加今天的工作坊有两种方式。"
+ },
+ {
+  "seg": 17,
+  "start": 94.424,
+  "end": 98.688,
+  "speaker": "Unknown",
+  "en": "So we have, you know, of course, you can follow live, try to run the notebooks.",
+  "zh": "我们有，你知道，当然，你可以实时跟着做，尝试运行那些 notebook。"
+ },
+ {
+  "seg": 18,
+  "start": 99.249,
+  "end": 106.796,
+  "speaker": "Unknown",
+  "en": "But since we just have, like, probably an hour or less than an hour, you could also listen now and then run the notebooks later.",
+  "zh": "但由于我们大概只有一小时或不到一小时的时间，你也可以现在先听，之后再运行那些 notebook。"
+ },
+ {
+  "seg": 19,
+  "start": 107.816,
+  "end": 109.738,
+  "speaker": "Unknown",
+  "en": "So, yeah, make sure you get the GitHub link.",
+  "zh": "所以，是的，确保你拿到那个 GitHub 链接。"
+ },
+ {
+  "seg": 20,
+  "start": 110.099,
+  "end": 114.803,
+  "speaker": "Unknown",
+  "en": "And if you want the slides, I also have the slides on the GitHub repo.",
+  "zh": "如果你想要幻灯片，我也把幻灯片放在了那个 GitHub 仓库里。"
+ },
+ {
+  "seg": 21,
+  "start": 118.469,
+  "end": 122.892,
+  "speaker": "Unknown",
+  "en": "So you're going to need four things if you're going to follow along either now or after the workshop.",
+  "zh": "所以如果你打算现在或工作坊之后跟着做，你需要四样东西。"
+ },
+ {
+  "seg": 22,
+  "start": 123.352,
+  "end": 128.095,
+  "speaker": "Unknown",
+  "en": "Obviously, you need a GPU-enabled machine, so a Cloud VM or a workstation.",
+  "zh": "显然，你需要一台支持 GPU 的机器，也就是云虚拟机或工作站。"
+ },
+ {
+  "seg": 23,
+  "start": 129.196,
+  "end": 131.697,
+  "speaker": "Unknown",
+  "en": "You also need a Tavly search API key.",
+  "zh": "你还需要一个 Tavly search API 密钥。"
+ },
+ {
+  "seg": 24,
+  "start": 132.257,
+  "end": 135.72,
+  "speaker": "Unknown",
+  "en": "Tavly is a company that does search for agents.",
+  "zh": "Tavly 是一家为智能体做搜索的公司。"
+ },
+ {
+  "seg": 25,
+  "start": 136.28,
+  "end": 139.582,
+  "speaker": "Unknown",
+  "en": "If you sign up on their website, they'll give you 1,000 credits for free.",
+  "zh": "如果你在他们的网站上注册，他们会免费给你 1000 个额度。"
+ },
+ {
+  "seg": 26,
+  "start": 140.373,
+  "end": 143.537,
+  "speaker": "Unknown",
+  "en": "And you need Data Designer, which is our tool for creating data.",
+  "zh": "你还需要 Data Designer，也就是我们用来创建数据的工具。"
+ },
+ {
+  "seg": 27,
+  "start": 143.677,
+  "end": 144.839,
+  "speaker": "Unknown",
+  "en": "It's fully open source.",
+  "zh": "它是完全开源的。"
+ },
+ {
+  "seg": 28,
+  "start": 145.299,
+  "end": 149.485,
+  "speaker": "Unknown",
+  "en": "Anyone can download it, use it, do whatever they want with it.",
+  "zh": "任何人都可以下载它、使用它、用它做任何想做的事。"
+ },
+ {
+  "seg": 29,
+  "start": 149.505,
+  "end": 153.57,
+  "speaker": "Unknown",
+  "en": "And all the notebooks that I've provided on the GitHub repo.",
+  "zh": "还有我在 GitHub 仓库里提供的所有 notebook。"
+ },
+ {
+  "seg": 30,
+  "start": 157.417,
+  "end": 158.777,
+  "speaker": "Unknown",
+  "en": "So here's the agenda for today.",
+  "zh": "那么这是今天的议程。"
+ },
+ {
+  "seg": 31,
+  "start": 158.797,
+  "end": 165.839,
+  "speaker": "Unknown",
+  "en": "So we'll first spend a few minutes talking about what is Data Designer and why do we actually need a framework like this.",
+  "zh": "我们首先会花几分钟谈谈什么是 Data Designer，以及我们为什么真的需要这样一个框架。"
+ },
+ {
+  "seg": 32,
+  "start": 166.38,
+  "end": 168.76,
+  "speaker": "Unknown",
+  "en": "And then we'll talk about the basics.",
+  "zh": "然后我们会讲基础知识。"
+ },
+ {
+  "seg": 33,
+  "start": 170.241,
+  "end": 173.161,
+  "speaker": "Unknown",
+  "en": "There's three notebooks I'm going to actually be showing you code.",
+  "zh": "我实际上会给你展示代码的 notebook 有三个。"
+ },
+ {
+  "seg": 34,
+  "start": 174.362,
+  "end": 176.922,
+  "speaker": "Unknown",
+  "en": "The first notebook is about the basics of Data Designer.",
+  "zh": "第一个 notebook 是关于 Data Designer 的基础知识。"
+ },
+ {
+  "seg": 35,
+  "start": 176.943,
+  "end": 178.623,
+  "speaker": "Unknown",
+  "en": "How do you actually create data that you want?",
+  "zh": "你如何真正创建你想要的数据？"
+ },
+ {
+  "seg": 36,
+  "start": 179.418,
+  "end": 183.901,
+  "speaker": "Unknown",
+  "en": "And then the second notebook is about model context protocol or MCP.",
+  "zh": "然后第二个 notebook 是关于模型上下文协议，也就是 MCP。"
+ },
+ {
+  "seg": 37,
+  "start": 184.301,
+  "end": 186.622,
+  "speaker": "Unknown",
+  "en": "How do you actually create agentic data?",
+  "zh": "你如何真正创建智能体数据？"
+ },
+ {
+  "seg": 38,
+  "start": 186.842,
+  "end": 191.885,
+  "speaker": "Unknown",
+  "en": "And then the third notebook, which is what is the super interesting use case of search.",
+  "zh": "然后第三个 notebook，也就是搜索这个超级有趣的用例。"
+ },
+ {
+  "seg": 39,
+  "start": 191.945,
+  "end": 193.686,
+  "speaker": "Unknown",
+  "en": "How do you actually teach a model to do search?",
+  "zh": "你如何真正教一个模型做搜索？"
+ },
+ {
+  "seg": 40,
+  "start": 195.047,
+  "end": 196.948,
+  "speaker": "Unknown",
+  "en": "And then we'll leave some time at the end for questions.",
+  "zh": "然后我们会在最后留一些时间提问。"
+ },
+ {
+  "seg": 41,
+  "start": 199.708,
+  "end": 205.832,
+  "speaker": "Unknown",
+  "en": "So I want to start off with a quote from Andrej Karpathy, and he said, internet data is not the data you want for your transformer.",
+  "zh": "所以我想从 Andrej Karpathy 的一句话开始，他说过，互联网数据并不是你的 transformer 想要的数据。"
+ },
+ {
+  "seg": 42,
+  "start": 206.272,
+  "end": 220.5,
+  "speaker": "Unknown",
+  "en": "So this is a very valid point, because internet data could be, you know, high quality sources like Wikipedia, or it could be, you know, someone's opinion on Twitter or X or some other platform, right?",
+  "zh": "所以这是一个非常正确的观点，因为互联网数据可能是，你知道，像 Wikipedia 这样的高质量来源，也可能是，你知道，某人在 Twitter 或 X 或其他平台上的观点，对吧？"
+ },
+ {
+  "seg": 43,
+  "start": 220.56,
+  "end": 226.744,
+  "speaker": "Unknown",
+  "en": "So how do we actually know what data is useful for training AI models and what data is not useful?",
+  "zh": "那么我们如何真正知道哪些数据对训练 AI 模型有用，哪些数据没有用呢？"
+ },
+ {
+  "seg": 44,
+  "start": 227.785,
+  "end": 233.848,
+  "speaker": "Unknown",
+  "en": "So we need to process this internet data, curate it, and then create training data from it.",
+  "zh": "所以我们需要处理这些互联网数据，对它进行筛选整理，然后从中创建训练数据。"
+ },
+ {
+  "seg": 45,
+  "start": 234.128,
+  "end": 236.009,
+  "speaker": "Unknown",
+  "en": "So that's the traditional approach.",
+  "zh": "这就是传统的方法。"
+ },
+ {
+  "seg": 46,
+  "start": 236.569,
+  "end": 245.874,
+  "speaker": "Unknown",
+  "en": "What we're proposing is that we could actually synthetically generate data either from scratch or from a seed data set.",
+  "zh": "而我们提出的是，我们实际上可以从零开始，或从一个种子数据集合成生成数据。"
+ },
+ {
+  "seg": 47,
+  "start": 246.314,
+  "end": 248.215,
+  "speaker": "Unknown",
+  "en": "And so that's what Data Designer is for.",
+  "zh": "而这正是 Data Designer 的用途。"
+ },
+ {
+  "seg": 48,
+  "start": 249.075,
+  "end": 252.037,
+  "speaker": "Unknown",
+  "en": "So Data Designer is a framework to create synthetic data.",
+  "zh": "所以 Data Designer 是一个创建合成数据的框架。"
+ },
+ {
+  "seg": 49,
+  "start": 253.742,
+  "end": 256.744,
+  "speaker": "Unknown",
+  "en": "And what do I mean by seed data?",
+  "zh": "那么我说的种子数据是什么意思呢？"
+ },
+ {
+  "seg": 50,
+  "start": 256.804,
+  "end": 264.631,
+  "speaker": "Unknown",
+  "en": "So seed data, like you could use Wikipedia data as a seed and then try to create synthetic training data from Wikipedia.",
+  "zh": "所以种子数据,比如你可以用 Wikipedia 数据作为种子,然后尝试从 Wikipedia 创建合成训练数据。"
+ },
+ {
+  "seg": 51,
+  "start": 265.071,
+  "end": 269.234,
+  "speaker": "Unknown",
+  "en": "So your synthetic data is not just made up by a model.",
+  "zh": "这样你的合成数据就不只是由一个模型凭空编造的。"
+ },
+ {
+  "seg": 52,
+  "start": 269.735,
+  "end": 273.898,
+  "speaker": "Unknown",
+  "en": "It is grounded in real-world distribution and real-world data.",
+  "zh": "它是基于真实世界分布和真实世界数据的。"
+ },
+ {
+  "seg": 53,
+  "start": 277.263,
+  "end": 279.764,
+  "speaker": "Unknown",
+  "en": "So Data Designer is a completely open source framework.",
+  "zh": "所以 Data Designer 是一个完全开源的框架。"
+ },
+ {
+  "seg": 54,
+  "start": 280.184,
+  "end": 282.605,
+  "speaker": "Unknown",
+  "en": "We have a large team at NVIDIA that works on this.",
+  "zh": "我们在 NVIDIA 有一支很大的团队在做这个。"
+ },
+ {
+  "seg": 55,
+  "start": 284.566,
+  "end": 289.829,
+  "speaker": "Unknown",
+  "en": "And you can just install it by running pip install Data Designer.",
+  "zh": "你只要运行 pip install Data Designer 就可以安装它。"
+ },
+ {
+  "seg": 56,
+  "start": 291.95,
+  "end": 306.036,
+  "speaker": "Unknown",
+  "en": "And I think what we're really proud of is Data Designer has been used to create six and a half trillion tokens of training data, and this is increasing every single day.",
+  "zh": "而且我觉得让我们非常自豪的一点是,Data Designer 已经被用来创建了六万五千亿(6.5 trillion)token 的训练数据,而且这个数字每天都在增长。"
+ },
+ {
+  "seg": 57,
+  "start": 308.107,
+  "end": 310.809,
+  "speaker": "Unknown",
+  "en": "And, yeah, we're keeping track of the GitHub stars as well.",
+  "zh": "还有,我们也在统计 GitHub star 数。"
+ },
+ {
+  "seg": 58,
+  "start": 311.229,
+  "end": 312.991,
+  "speaker": "Unknown",
+  "en": "So, if you like our repo, give us a star.",
+  "zh": "所以,如果你喜欢我们的仓库,给我们一个 star。"
+ },
+ {
+  "seg": 59,
+  "start": 316.078,
+  "end": 318.479,
+  "speaker": "Unknown",
+  "en": "So what is synthetic data generation, right?",
+  "zh": "那么什么是合成数据生成呢?"
+ },
+ {
+  "seg": 60,
+  "start": 319.579,
+  "end": 335.423,
+  "speaker": "Unknown",
+  "en": "Well, one way to do synthetic data generation is take a loop, run it a million times, and then if you want to create a product review data set, just, you know, continually prompt the LLM saying, give me a product, give me a review, and then give me a customer profile.",
+  "zh": "一种做合成数据生成的方法是取一个循环,跑一百万次,然后如果你想创建一个商品评论数据集,就是不停地给 LLM 提示词,说,给我一个商品,给我一条评论,然后再给我一个客户画像。"
+ },
+ {
+  "seg": 61,
+  "start": 335.663,
+  "end": 337.083,
+  "speaker": "Unknown",
+  "en": "That's one way to create a data set.",
+  "zh": "这是一种创建数据集的方法。"
+ },
+ {
+  "seg": 62,
+  "start": 337.543,
+  "end": 340.164,
+  "speaker": "Unknown",
+  "en": "But you're going to run into a bunch of issues if you do that.",
+  "zh": "但如果你这么做,会遇到一堆问题。"
+ },
+ {
+  "seg": 63,
+  "start": 341.152,
+  "end": 341.853,
+  "speaker": "Unknown",
+  "en": "So what's missing?",
+  "zh": "那缺了什么呢?"
+ },
+ {
+  "seg": 64,
+  "start": 342.954,
+  "end": 345.096,
+  "speaker": "Unknown",
+  "en": "Well, diversity, diversity, diversity.",
+  "zh": "嗯,多样性、多样性、多样性。"
+ },
+ {
+  "seg": 65,
+  "start": 345.176,
+  "end": 346.717,
+  "speaker": "Unknown",
+  "en": "That's the most important thing, right?",
+  "zh": "这是最重要的事情,对吧?"
+ },
+ {
+  "seg": 66,
+  "start": 346.997,
+  "end": 352.543,
+  "speaker": "Unknown",
+  "en": "If you continually prompt LLM after 10, 12, maybe 20 tries, it's going to start repeating stuff.",
+  "zh": "如果你不停地给 LLM 提示词,大概 10 次、12 次,也许 20 次之后,它就会开始重复内容了。"
+ },
+ {
+  "seg": 67,
+  "start": 353.203,
+  "end": 354.705,
+  "speaker": "Unknown",
+  "en": "It's not going to give you what you need.",
+  "zh": "它不会给你你需要的东西。"
+ },
+ {
+  "seg": 68,
+  "start": 355.826,
+  "end": 361.091,
+  "speaker": "Unknown",
+  "en": "You're also missing correlations between all the features that you're looking for in your data set.",
+  "zh": "你还会缺失你要在数据集里找的所有特征之间的相关性。"
+ },
+ {
+  "seg": 69,
+  "start": 362.192,
+  "end": 363.513,
+  "speaker": "Unknown",
+  "en": "You don't have multimodality.",
+  "zh": "你没有多模态性。"
+ },
+ {
+  "seg": 70,
+  "start": 364.938,
+  "end": 372.281,
+  "speaker": "Unknown",
+  "en": "You're not really able to steer the creation of that data set, and there's no validation, verification, and so on.",
+  "zh": "你也没法真正引导那个数据集的创建,而且没有验证、校验等等。"
+ },
+ {
+  "seg": 71,
+  "start": 372.582,
+  "end": 381.725,
+  "speaker": "Unknown",
+  "en": "And if I create a data set, I can't really share it with you, because how do you actually take the process that I use to create my data set to create something similar?",
+  "zh": "而且如果我创建了一个数据集,我没法真正分享给你,因为你要怎么拿我用来创建数据集的那个流程去创建类似的东西呢?"
+ },
+ {
+  "seg": 72,
+  "start": 383.006,
+  "end": 385.227,
+  "speaker": "Unknown",
+  "en": "So that's why we created Data Designer.",
+  "zh": "所以这就是我们创建 Data Designer 的原因。"
+ },
+ {
+  "seg": 73,
+  "start": 386.917,
+  "end": 387.657,
+  "speaker": "Unknown",
+  "en": "So how does it work?",
+  "zh": "那么它是怎么工作的?"
+ },
+ {
+  "seg": 74,
+  "start": 389.098,
+  "end": 393.501,
+  "speaker": "Unknown",
+  "en": "We have many different columns or features in Data Designer.",
+  "zh": "我们在 Data Designer 里有很多不同的列或特征。"
+ },
+ {
+  "seg": 75,
+  "start": 394.561,
+  "end": 399.104,
+  "speaker": "Unknown",
+  "en": "These columns are essentially a Data Designer abstraction.",
+  "zh": "这些列本质上就是 Data Designer 的一种抽象。"
+ },
+ {
+  "seg": 76,
+  "start": 400.122,
+  "end": 403.183,
+  "speaker": "Unknown",
+  "en": "In Data Designer, we generate data column by column.",
+  "zh": "在 Data Designer 里,我们是逐列生成数据的。"
+ },
+ {
+  "seg": 77,
+  "start": 403.524,
+  "end": 406.525,
+  "speaker": "Unknown",
+  "en": "So first you have your seed column, which is completely optional.",
+  "zh": "首先你有一个种子列,它完全是可选的。"
+ },
+ {
+  "seg": 78,
+  "start": 406.605,
+  "end": 409.906,
+  "speaker": "Unknown",
+  "en": "So I gave the example of Wikipedia, which could be a seed data set.",
+  "zh": "我举了 Wikipedia 的例子,它可以是一个种子数据集。"
+ },
+ {
+  "seg": 79,
+  "start": 410.947,
+  "end": 413.148,
+  "speaker": "Unknown",
+  "en": "We could use any data set as a seed.",
+  "zh": "我们可以用任何数据集作为种子。"
+ },
+ {
+  "seg": 80,
+  "start": 413.628,
+  "end": 417.39,
+  "speaker": "Unknown",
+  "en": "So anything which is a CSV, JSONL, Parquet file.",
+  "zh": "只要是 CSV、JSONL、Parquet 文件的东西都可以。"
+ },
+ {
+  "seg": 81,
+  "start": 417.93,
+  "end": 419.991,
+  "speaker": "Unknown",
+  "en": "So you could use your own company data as seed.",
+  "zh": "所以你可以用你自己公司的数据作为种子。"
+ },
+ {
+  "seg": 82,
+  "start": 420.591,
+  "end": 426.274,
+  "speaker": "Unknown",
+  "en": "And then you can try to add sampler columns to inject diversity.",
+  "zh": "然后你可以尝试添加采样器列来注入多样性。"
+ },
+ {
+  "seg": 83,
+  "start": 426.674,
+  "end": 428.755,
+  "speaker": "Unknown",
+  "en": "So let's say you are trying to create a coding data set",
+  "zh": "比如说你想创建一个编程数据集,"
+ },
+ {
+  "seg": 84,
+  "start": 429.503,
+  "end": 434.704,
+  "speaker": "Unknown",
+  "en": "Well, a very simpler sampler column would be like easy, medium, and difficult coding questions.",
+  "zh": "嗯,一个非常简单的采样器列就是像简单、中等和困难的编程题。"
+ },
+ {
+  "seg": 85,
+  "start": 435.184,
+  "end": 438.345,
+  "speaker": "Unknown",
+  "en": "So that's a sampler column you could add, which is difficulty.",
+  "zh": "所以那是你可以添加的一个采样器列,也就是难度。"
+ },
+ {
+  "seg": 86,
+  "start": 438.685,
+  "end": 440.966,
+  "speaker": "Unknown",
+  "en": "You could also add sub-samplers.",
+  "zh": "你还可以添加子采样器。"
+ },
+ {
+  "seg": 87,
+  "start": 441.366,
+  "end": 445.247,
+  "speaker": "Unknown",
+  "en": "So for easy, you could map it to a specific type of problem.",
+  "zh": "比如对于简单,你可以把它映射到一种特定类型的问题。"
+ },
+ {
+  "seg": 88,
+  "start": 445.267,
+  "end": 448.287,
+  "speaker": "Unknown",
+  "en": "For medium, you could map it to a specific type of problem and so on.",
+  "zh": "对于中等,你可以把它映射到一种特定类型的问题,以此类推。"
+ },
+ {
+  "seg": 89,
+  "start": 448.627,
+  "end": 449.848,
+  "speaker": "Unknown",
+  "en": "So we'll get into all of this.",
+  "zh": "我们会讲到所有这些。"
+ },
+ {
+  "seg": 90,
+  "start": 449.968,
+  "end": 453.089,
+  "speaker": "Unknown",
+  "en": "I know it feels a bit abstract, but we'll get into all of this once we look at the code.",
+  "zh": "我知道这感觉有点抽象,但等我们看代码的时候会把这些都讲清楚。"
+ },
+ {
+  "seg": 91,
+  "start": 453.809,
+  "end": 459.39,
+  "speaker": "Unknown",
+  "en": "And then we have columns for generating text, for generating structured data, for generating code.",
+  "zh": "然后我们有用于生成文本的列、用于生成结构化数据的列、用于生成代码的列。"
+ },
+ {
+  "seg": 92,
+  "start": 460.291,
+  "end": 469.017,
+  "speaker": "Unknown",
+  "en": "We also, our data designer is now multimodal, so you can generate images as well, and you can validate your generations too.",
+  "zh": "我们的 Data Designer 现在还支持多模态,所以你也可以生成图像,而且你还可以校验你的生成结果。"
+ },
+ {
+  "seg": 93,
+  "start": 471.239,
+  "end": 485.33,
+  "speaker": "Unknown",
+  "en": "So the whole idea is we build a DAG or a graph which describes how your dataset should be, and then this DAG, once you're ready to execute on it, you can just hit one click and get a dataset out of it.",
+  "zh": "所以整个思路是,我们构建一个 DAG 或者一个图,它描述你的数据集应该是什么样子,然后这个 DAG,等你准备好执行它的时候,你只要点一下,就能从中得到一个数据集。"
+ },
+ {
+  "seg": 94,
+  "start": 486.881,
+  "end": 489.303,
+  "speaker": "Unknown",
+  "en": "So there's three different notebooks we'll walk through today.",
+  "zh": "所以今天我们会走读三个不同的 notebook。"
+ },
+ {
+  "seg": 95,
+  "start": 490.244,
+  "end": 494.768,
+  "speaker": "Unknown",
+  "en": "I know some of you are thinking, well, in 2026, he's going to be showing us code, right?",
+  "zh": "我知道你们有些人在想,都 2026 年了,他还要给我们展示代码,对吧?"
+ },
+ {
+  "seg": 96,
+  "start": 494.828,
+  "end": 498.951,
+  "speaker": "Unknown",
+  "en": "I mean, now there's Codex and Claude Code and all these amazing tools.",
+  "zh": "我是说,现在有 Codex 和 Claude Code 和所有这些了不起的工具了。"
+ },
+ {
+  "seg": 97,
+  "start": 499.512,
+  "end": 507.618,
+  "speaker": "Unknown",
+  "en": "So I think if you understand the code, it will be much easier to use Codex or Claude Code to write your own synthetic data workflows for you.",
+  "zh": "所以我觉得,如果你理解了代码,用 Codex 或 Claude Code 来帮你写你自己的合成数据工作流会容易得多。"
+ },
+ {
+  "seg": 98,
+  "start": 509,
+  "end": 511.602,
+  "speaker": "Unknown",
+  "en": "So we'll just take a brief look at each notebook now.",
+  "zh": "所以我们现在先简要浏览一下每个 notebook。"
+ },
+ {
+  "seg": 99,
+  "start": 513.81,
+  "end": 515.131,
+  "speaker": "Unknown",
+  "en": "And by the way, this is our repo.",
+  "zh": "顺便说一下,这是我们的仓库。"
+ },
+ {
+  "seg": 100,
+  "start": 515.871,
+  "end": 517.632,
+  "speaker": "Unknown",
+  "en": "So this is our data designer repo.",
+  "zh": "这是我们的 data designer 仓库。"
+ },
+ {
+  "seg": 101,
+  "start": 518.073,
+  "end": 520.174,
+  "speaker": "Unknown",
+  "en": "It's fully open source.",
+  "zh": "它是完全开源的。"
+ },
+ {
+  "seg": 102,
+  "start": 520.414,
+  "end": 529.1,
+  "speaker": "Unknown",
+  "en": "And this is the GitHub repo that I have created for this workshop where we have notebooks.",
+  "zh": "这是我为这个工作坊创建的 GitHub 仓库，里面有 notebooks。"
+ },
+ {
+  "seg": 103,
+  "start": 529.16,
+  "end": 531.381,
+  "speaker": "Unknown",
+  "en": "So you can try out notebook one, two, three.",
+  "zh": "你们可以试试 notebook 一、二、三。"
+ },
+ {
+  "seg": 104,
+  "start": 532.062,
+  "end": 540.167,
+  "speaker": "Unknown",
+  "en": "And then we also have the slides here if you want to follow along or if you want access to the slides after the workshop.",
+  "zh": "如果你想跟着操作，或者想在 workshop 结束后获取幻灯片，这里也有 slides。"
+ },
+ {
+  "seg": 105,
+  "start": 541.912,
+  "end": 544.053,
+  "speaker": "Unknown",
+  "en": "So let's go to the first notebook.",
+  "zh": "那我们来看第一个 notebook。"
+ },
+ {
+  "seg": 106,
+  "start": 544.513,
+  "end": 546.734,
+  "speaker": "Unknown",
+  "en": "So this is our intro to data designer notebook.",
+  "zh": "这是我们的 data designer 入门 notebook。"
+ },
+ {
+  "seg": 107,
+  "start": 546.754,
+  "end": 549.155,
+  "speaker": "Unknown",
+  "en": "Can everyone see okay, or should I zoom in?",
+  "zh": "大家都能看清吗，还是我该放大一点？"
+ },
+ {
+  "seg": 108,
+  "start": 549.175,
+  "end": 552.056,
+  "speaker": "Unknown",
+  "en": "It's good?",
+  "zh": "可以吗？"
+ },
+ {
+  "seg": 109,
+  "start": 555.318,
+  "end": 555.498,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 110,
+  "start": 556.538,
+  "end": 561.64,
+  "speaker": "Unknown",
+  "en": "So first things first, we set up our environment.",
+  "zh": "首先第一步，我们设置环境。"
+ },
+ {
+  "seg": 111,
+  "start": 561.78,
+  "end": 567.543,
+  "speaker": "Unknown",
+  "en": "There's a bunch of prompts in here that we're importing, and then what we do is we just",
+  "zh": "这里有一堆我们要导入的 prompt，然后我们要做的就是"
+ },
+ {
+  "seg": 112,
+  "start": 568.08,
+  "end": 569.681,
+  "speaker": "Unknown",
+  "en": "You know, import Data Designer.",
+  "zh": "导入 Data Designer。"
+ },
+ {
+  "seg": 113,
+  "start": 569.901,
+  "end": 571.742,
+  "speaker": "Unknown",
+  "en": "That's it, literally.",
+  "zh": "就这样，真的。"
+ },
+ {
+  "seg": 114,
+  "start": 571.902,
+  "end": 576.765,
+  "speaker": "Unknown",
+  "en": "And once you do that, you see in Data Designer, there's a concept of model providers.",
+  "zh": "一旦你这样做了，你会看到在 Data Designer 里有一个叫 model providers 的概念。"
+ },
+ {
+  "seg": 115,
+  "start": 578.066,
+  "end": 582.028,
+  "speaker": "Unknown",
+  "en": "So we're currently using VLLM, so that's local inference.",
+  "zh": "我们现在用的是 VLLM，也就是本地推理。"
+ },
+ {
+  "seg": 116,
+  "start": 582.208,
+  "end": 585.73,
+  "speaker": "Unknown",
+  "en": "So I'm running this on a NVIDIA GPU cluster.",
+  "zh": "我是在一个 NVIDIA GPU 集群上运行的。"
+ },
+ {
+  "seg": 117,
+  "start": 586.211,
+  "end": 588.732,
+  "speaker": "Unknown",
+  "en": "And then we have access to different types of models, right?",
+  "zh": "然后我们可以访问不同类型的模型，对吧？"
+ },
+ {
+  "seg": 118,
+  "start": 589.052,
+  "end": 592.694,
+  "speaker": "Unknown",
+  "en": "So on my local cluster, I have access to GPT OS as 120 billion.",
+  "zh": "在我的本地集群上，我可以访问 GPT OS as 120 billion。"
+ },
+ {
+  "seg": 119,
+  "start": 592.734,
+  "end": 593.735,
+  "speaker": "Unknown",
+  "en": "You can use any model.",
+  "zh": "你可以用任何模型。"
+ },
+ {
+  "seg": 120,
+  "start": 594.309,
+  "end": 596.691,
+  "speaker": "Unknown",
+  "en": "or any open model to create synthetic data.",
+  "zh": "或者任何开放模型来创建合成数据。"
+ },
+ {
+  "seg": 121,
+  "start": 598.452,
+  "end": 605.176,
+  "speaker": "Unknown",
+  "en": "Some closed models prevent you, because of licensing issues, from creating data from it and using it for training models.",
+  "zh": "一些封闭模型出于许可问题，会阻止你用它们生成数据并用于训练模型。"
+ },
+ {
+  "seg": 122,
+  "start": 605.356,
+  "end": 607.277,
+  "speaker": "Unknown",
+  "en": "But open models are usually fair game.",
+  "zh": "但开放模型通常随便用。"
+ },
+ {
+  "seg": 123,
+  "start": 607.777,
+  "end": 608.858,
+  "speaker": "Unknown",
+  "en": "So I'm using this model.",
+  "zh": "所以我在用这个模型。"
+ },
+ {
+  "seg": 124,
+  "start": 609.178,
+  "end": 612.46,
+  "speaker": "Unknown",
+  "en": "And the goal here is, can I actually take",
+  "zh": "这里的目标是，我能不能真的拿来——"
+ },
+ {
+  "seg": 125,
+  "start": 612.974,
+  "end": 616.637,
+  "speaker": "Unknown",
+  "en": "We have a dataset of Wikipedia topics for this notebook.",
+  "zh": "这个 notebook 里我们有一个 Wikipedia 主题的数据集。"
+ },
+ {
+  "seg": 126,
+  "start": 616.657,
+  "end": 624.143,
+  "speaker": "Unknown",
+  "en": "So, like, you know, different, like, Wikipedia has so many different pages and many different topics.",
+  "zh": "就是，你知道，Wikipedia 有那么多不同的页面、那么多不同的主题。"
+ },
+ {
+  "seg": 127,
+  "start": 624.183,
+  "end": 631.849,
+  "speaker": "Unknown",
+  "en": "So, we just made a list of those, put it in a CSV, and then we basically just call our config builder with seed dataset.",
+  "zh": "所以我们只是把这些做成一个列表，放进一个 CSV，然后基本上就是用 seed dataset 调用我们的 config builder。"
+ },
+ {
+  "seg": 128,
+  "start": 632.229,
+  "end": 638.475,
+  "speaker": "Unknown",
+  "en": "And so, essentially, now we're trying to create a data designer workflow, but with Wikipedia topics.",
+  "zh": "于是，本质上，我们现在是要创建一个 data designer 工作流，但用的是 Wikipedia 主题。"
+ },
+ {
+  "seg": 129,
+  "start": 640.605,
+  "end": 643.145,
+  "speaker": "Unknown",
+  "en": "So once you do that, you can add question difficulty.",
+  "zh": "做完这个之后，你可以添加问题难度。"
+ },
+ {
+  "seg": 130,
+  "start": 643.165,
+  "end": 646.506,
+  "speaker": "Unknown",
+  "en": "You can say easy, medium, hard, however you want your data set to be.",
+  "zh": "你可以设成简单、中等、困难，随你想要的数据集而定。"
+ },
+ {
+  "seg": 131,
+  "start": 646.906,
+  "end": 648.426,
+  "speaker": "Unknown",
+  "en": "And then there's weights you can specify.",
+  "zh": "然后还有你可以指定的权重。"
+ },
+ {
+  "seg": 132,
+  "start": 648.446,
+  "end": 653.007,
+  "speaker": "Unknown",
+  "en": "So you can have more medium questions than easy or hard.",
+  "zh": "所以你可以让中等问题比简单的或难的多。"
+ },
+ {
+  "seg": 133,
+  "start": 653.607,
+  "end": 658.748,
+  "speaker": "Unknown",
+  "en": "And then there's all kinds of sampler columns you can add about question difficulty.",
+  "zh": "然后还有各种各样的采样器列可以添加，跟问题难度相关。"
+ },
+ {
+  "seg": 134,
+  "start": 659.168,
+  "end": 665.069,
+  "speaker": "Unknown",
+  "en": "So for example, for easy, you might do direct lookup or a simple fact or definition.",
+  "zh": "比如，简单题可能是直接查找，或者一个简单的事实或定义。"
+ },
+ {
+  "seg": 135,
+  "start": 665.449,
+  "end": 668.81,
+  "speaker": "Unknown",
+  "en": "But difficult might be you want something in more detail or obscure.",
+  "zh": "而难题可能是你想要更详细或更冷门的东西。"
+ },
+ {
+  "seg": 136,
+  "start": 670.07,
+  "end": 681.898,
+  "speaker": "Unknown",
+  "en": "And then once we get to the LLM generated columns, you just call this function addColumn and then you have your prompt which is essentially gonna look something like this.",
+  "zh": "然后到了 LLM 生成的列，你只需要调用这个 addColumn 函数，然后写你的 prompt，它基本上会长这样。"
+ },
+ {
+  "seg": 137,
+  "start": 686.941,
+  "end": 687.902,
+  "speaker": "Unknown",
+  "en": "Just trying to find it.",
+  "zh": "我找一下。"
+ },
+ {
+  "seg": 138,
+  "start": 695.507,
+  "end": 695.687,
+  "speaker": "Unknown",
+  "en": "Yep.",
+  "zh": "对。"
+ },
+ {
+  "seg": 139,
+  "start": 696.487,
+  "end": 698.649,
+  "speaker": "Unknown",
+  "en": "So you are an expert trivia question writer.",
+  "zh": "「你是一名专家问答题撰写者。」"
+ },
+ {
+  "seg": 140,
+  "start": 699.853,
+  "end": 702.114,
+  "speaker": "Unknown",
+  "en": "So here's a topic, difficulty, question type.",
+  "zh": "这里有 topic、difficulty、question type。"
+ },
+ {
+  "seg": 141,
+  "start": 702.494,
+  "end": 717.218,
+  "speaker": "Unknown",
+  "en": "So whenever you put these ginger templating for topic, what it's going to do is the topics you created in the previous or in the seed that you had from your Wikipedia, it's going to insert those at runtime into this prompt.",
+  "zh": "所以每当你对 topic 使用这些 ginger 模板化，它要做的就是把你之前创建的、或者来自你那份 Wikipedia 数据的 seed 里的主题，在运行时插入到这个 prompt 里。"
+ },
+ {
+  "seg": 142,
+  "start": 717.618,
+  "end": 726.46,
+  "speaker": "Unknown",
+  "en": "So essentially every prompt that the LLM sees is now unique and diverse, and so the model is going to give you diverse data when you actually hit generate.",
+  "zh": "所以本质上 LLM 看到的每一个 prompt 现在都是独特且多样的，因此当你真正点击 generate 时，模型会给你多样化的数据。"
+ },
+ {
+  "seg": 143,
+  "start": 729.021,
+  "end": 733.063,
+  "speaker": "Unknown",
+  "en": "And then you can also have, like, a structured column.",
+  "zh": "然后你也可以有，比如，结构化列。"
+ },
+ {
+  "seg": 144,
+  "start": 733.503,
+  "end": 743.229,
+  "speaker": "Unknown",
+  "en": "So a structured column is when, instead of trying to generate, like, text data, you can try to generate, like, a JSON or Markdown format or any custom format that you are interested in.",
+  "zh": "结构化列就是，不是去生成比如文本数据，而是可以生成比如 JSON 或 Markdown 格式，或者任何你感兴趣的自定义格式。"
+ },
+ {
+  "seg": 145,
+  "start": 744.39,
+  "end": 748.772,
+  "speaker": "Unknown",
+  "en": "And we know that LLMs, you know, we have to be nice to them.",
+  "zh": "而我们知道 LLM，你知道的，我们得对它们客气点。"
+ },
+ {
+  "seg": 146,
+  "start": 748.832,
+  "end": 749.713,
+  "speaker": "Unknown",
+  "en": "We have to talk to them.",
+  "zh": "我们得好好跟它们说话。"
+ },
+ {
+  "seg": 147,
+  "start": 749.753,
+  "end": 752.475,
+  "speaker": "Unknown",
+  "en": "But sometimes they may not give you that structured format that you want.",
+  "zh": "但有时它们可能不会给你想要的那种结构化格式。"
+ },
+ {
+  "seg": 148,
+  "start": 752.755,
+  "end": 754.736,
+  "speaker": "Unknown",
+  "en": "So then we just end up dropping those records.",
+  "zh": "那我们就直接丢弃那些记录。"
+ },
+ {
+  "seg": 149,
+  "start": 759.587,
+  "end": 767.815,
+  "speaker": "Unknown",
+  "en": "So the way data creation works is we have something called preview mode in Data Designer.",
+  "zh": "数据创建的工作方式是，我们在 Data Designer 里有一个叫 preview mode 的东西。"
+ },
+ {
+  "seg": 150,
+  "start": 768.195,
+  "end": 775.542,
+  "speaker": "Unknown",
+  "en": "So essentially when you hit preview, what's gonna happen is it's gonna try to create three records for you and then you can go and look at those records.",
+  "zh": "所以基本上当你点击 preview 时,它会尝试为你创建三条记录,然后你就可以去查看这些记录。"
+ },
+ {
+  "seg": 151,
+  "start": 775.562,
+  "end": 776.783,
+  "speaker": "Unknown",
+  "en": "So let's look at some records.",
+  "zh": "我们来看一些记录。"
+ },
+ {
+  "seg": 152,
+  "start": 776.803,
+  "end": 778.985,
+  "speaker": "Unknown",
+  "en": "So all of this will make a lot more sense.",
+  "zh": "这样一切就会更说得通了。"
+ },
+ {
+  "seg": 153,
+  "start": 779.406,
+  "end": 781.187,
+  "speaker": "Unknown",
+  "en": "So the topic here is the World Wide Web.",
+  "zh": "所以这里的话题是万维网。"
+ },
+ {
+  "seg": 154,
+  "start": 782.533,
+  "end": 796.279,
+  "speaker": "Unknown",
+  "en": "And the question, or I guess some consortium of the World Wide Web, and the question is, which W3C recommendation is identified by the same three-letter abbreviation that serves as an airport code for some city in Norway?",
+  "zh": "问题,或者说是万维网的某个联盟,问题是,哪一个 W3C 推荐标准的三字母缩写同时也是挪威某个城市的机场代码?"
+ },
+ {
+  "seg": 155,
+  "start": 796.659,
+  "end": 798.84,
+  "speaker": "Unknown",
+  "en": "So there's no way I would know the answer to this question, right?",
+  "zh": "所以我不可能知道这个问题的答案,对吧?"
+ },
+ {
+  "seg": 156,
+  "start": 799.08,
+  "end": 803.922,
+  "speaker": "Unknown",
+  "en": "That's why these questions are essentially hard, because you want to invoke the model to do search, right?",
+  "zh": "这就是为什么这些问题本质上很难,因为你想要调用模型去做搜索,对吧?"
+ },
+ {
+  "seg": 157,
+  "start": 804.342,
+  "end": 807.283,
+  "speaker": "Unknown",
+  "en": "But in this first notebook, we're just trying to create question-answer pairs.",
+  "zh": "但在第一个 notebook 中,我们只是尝试创建问答对。"
+ },
+ {
+  "seg": 158,
+  "start": 807.923,
+  "end": 810.024,
+  "speaker": "Unknown",
+  "en": "So which is a very simple data set.",
+  "zh": "所以这是一个非常简单的数据集。"
+ },
+ {
+  "seg": 159,
+  "start": 810.124,
+  "end": 812.065,
+  "speaker": "Unknown",
+  "en": "So I guess this is the answer the model came up with.",
+  "zh": "我想这就是模型想出的答案。"
+ },
+ {
+  "seg": 160,
+  "start": 812.565,
+  "end": 817.188,
+  "speaker": "Unknown",
+  "en": "And then you can also add LLM as a judge to score how your model is doing.",
+  "zh": "然后你还可以添加 LLM 作为裁判来给你的模型表现打分。"
+ },
+ {
+  "seg": 161,
+  "start": 817.568,
+  "end": 819.449,
+  "speaker": "Unknown",
+  "en": "So this is the question the model came up with.",
+  "zh": "这是模型想出的问题。"
+ },
+ {
+  "seg": 162,
+  "start": 819.749,
+  "end": 821.329,
+  "speaker": "Unknown",
+  "en": "This is the answer it came up with.",
+  "zh": "这是它想出的答案。"
+ },
+ {
+  "seg": 163,
+  "start": 821.87,
+  "end": 824.551,
+  "speaker": "Unknown",
+  "en": "And then this is the question quality.",
+  "zh": "然后这是问题质量。"
+ },
+ {
+  "seg": 164,
+  "start": 824.571,
+  "end": 826.372,
+  "speaker": "Unknown",
+  "en": "So we can have another model judge",
+  "zh": "所以我们可以用另一个模型来评判"
+ },
+ {
+  "seg": 165,
+  "start": 827.241,
+  "end": 833.064,
+  "speaker": "Unknown",
+  "en": "What it thinks of the question that the previous model created and so on.",
+  "zh": "它对前一个模型创建的问题的看法等等。"
+ },
+ {
+  "seg": 166,
+  "start": 833.424,
+  "end": 835.466,
+  "speaker": "Unknown",
+  "en": "So in the end, you end up with a dataset like this.",
+  "zh": "所以最终,你会得到这样一个数据集。"
+ },
+ {
+  "seg": 167,
+  "start": 835.866,
+  "end": 840.748,
+  "speaker": "Unknown",
+  "en": "And by the way, we have a function that you can just push your datasets directly to Hugging Face.",
+  "zh": "顺便说一下,我们有一个函数,你可以直接把你的数据集推送到 Hugging Face。"
+ },
+ {
+  "seg": 168,
+  "start": 841.949,
+  "end": 843.43,
+  "speaker": "Unknown",
+  "en": "So it's super easy to use.",
+  "zh": "所以用起来非常简单。"
+ },
+ {
+  "seg": 169,
+  "start": 845.331,
+  "end": 849.173,
+  "speaker": "Unknown",
+  "en": "And you can also visualize all of your questions here, as you can see.",
+  "zh": "你还可以在这里把你的所有问题可视化,如你所见。"
+ },
+ {
+  "seg": 170,
+  "start": 850.655,
+  "end": 852.696,
+  "speaker": "Unknown",
+  "en": "And then you can get some stats about your dataset.",
+  "zh": "然后你可以获得关于数据集的一些统计信息。"
+ },
+ {
+  "seg": 171,
+  "start": 852.776,
+  "end": 860.881,
+  "speaker": "Unknown",
+  "en": "Obviously, we generated only three records here, so these stats are not very meaningful, but if you generate hundreds or thousands of records, you could do that.",
+  "zh": "显然,我们这里只生成了三条记录,所以这些统计信息意义不大,但如果你生成几百或几千条记录,你就可以这么做。"
+ },
+ {
+  "seg": 172,
+  "start": 861.461,
+  "end": 865.063,
+  "speaker": "Unknown",
+  "en": "And then we have something called batch mode, which is datadesigner.create.",
+  "zh": "然后我们有一个叫做 batch mode 的东西,也就是 datadesigner.create。"
+ },
+ {
+  "seg": 173,
+  "start": 865.503,
+  "end": 872.467,
+  "speaker": "Unknown",
+  "en": "And here, instead of 100, I could just put how many other records I need, and then I can go and create all these records.",
+  "zh": "在这里,我可以不填 100,而是填我需要多少条其他记录,然后我就可以去创建所有这些记录。"
+ },
+ {
+  "seg": 174,
+  "start": 873.027,
+  "end": 876.769,
+  "speaker": "Unknown",
+  "en": "And as I mentioned previously, we generate data column by column.",
+  "zh": "正如我之前提到的,我们是一列一列地生成数据的。"
+ },
+ {
+  "seg": 175,
+  "start": 878.134,
+  "end": 884.182,
+  "speaker": "Unknown",
+  "en": "In the batch mode first you generate the questions and then you generate the answers.",
+  "zh": "在 batch mode 中,你先生成问题,然后生成答案。"
+ },
+ {
+  "seg": 176,
+  "start": 884.502,
+  "end": 888.227,
+  "speaker": "Unknown",
+  "en": "So this is obviously a very simple example and then you have the LLM as a judge.",
+  "zh": "所以这显然是一个非常简单的例子,然后再加上 LLM 作为裁判。"
+ },
+ {
+  "seg": 177,
+  "start": 889.568,
+  "end": 891.291,
+  "speaker": "Unknown",
+  "en": "And here's your final data set.",
+  "zh": "这就是你的最终数据集。"
+ },
+ {
+  "seg": 178,
+  "start": 891.471,
+  "end": 892.272,
+  "speaker": "Unknown",
+  "en": "That's what it looks like.",
+  "zh": "它就是这个样子。"
+ },
+ {
+  "seg": 179,
+  "start": 893.544,
+  "end": 895.345,
+  "speaker": "Unknown",
+  "en": "So that was the first notebook.",
+  "zh": "这就是第一个 notebook。"
+ },
+ {
+  "seg": 180,
+  "start": 896.326,
+  "end": 899.908,
+  "speaker": "Unknown",
+  "en": "I think it's quite straightforward once you look at it and try it out.",
+  "zh": "我觉得你看过并试着跑一遍之后会觉得相当直观。"
+ },
+ {
+  "seg": 181,
+  "start": 901.109,
+  "end": 911.375,
+  "speaker": "Unknown",
+  "en": "We have a second notebook which focuses more on MCP, and then we're going to build to the third notebook which I think everyone will find interesting because that's where we'll actually talk about search.",
+  "zh": "我们有第二个 notebook,它更侧重于 MCP,然后我们会过渡到第三个 notebook,我认为每个人都会觉得它有意思,因为那才是我们真正要谈搜索的地方。"
+ },
+ {
+  "seg": 182,
+  "start": 912.776,
+  "end": 913.016,
+  "speaker": "Unknown",
+  "en": "Sorry?",
+  "zh": "什么?"
+ },
+ {
+  "seg": 183,
+  "start": 915.218,
+  "end": 915.378,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 184,
+  "start": 919.107,
+  "end": 919.507,
+  "speaker": "Unknown",
+  "en": "Oh, yeah.",
+  "zh": "哦,对。"
+ },
+ {
+  "seg": 185,
+  "start": 919.867,
+  "end": 921.048,
+  "speaker": "Unknown",
+  "en": "All the GitHub links are the same.",
+  "zh": "所有 GitHub 链接都是同一个。"
+ },
+ {
+  "seg": 186,
+  "start": 921.328,
+  "end": 923.008,
+  "speaker": "Unknown",
+  "en": "I'm just putting them in every single slide.",
+  "zh": "我只是把它放在每一张幻灯片上。"
+ },
+ {
+  "seg": 187,
+  "start": 923.028,
+  "end": 925.829,
+  "speaker": "Unknown",
+  "en": "So if you missed the first one, you can get it.",
+  "zh": "所以如果你错过了第一张,你也可以拿到。"
+ },
+ {
+  "seg": 188,
+  "start": 926.349,
+  "end": 928.35,
+  "speaker": "Unknown",
+  "en": "But I'll pause here for a minute if you want to scan.",
+  "zh": "但如果你想扫码,我在这里暂停一分钟。"
+ },
+ {
+  "seg": 189,
+  "start": 937.753,
+  "end": 940.213,
+  "speaker": "Unknown",
+  "en": "So let's talk about MCP.",
+  "zh": "那么我们来谈谈 MCP。"
+ },
+ {
+  "seg": 190,
+  "start": 940.754,
+  "end": 943.815,
+  "speaker": "Unknown",
+  "en": "So MCP is a standard which allows",
+  "zh": "MCP 是一个标准,它允许"
+ },
+ {
+  "seg": 191,
+  "start": 945.972,
+  "end": 948.273,
+  "speaker": "Unknown",
+  "en": "An agent to essentially connect to tools, right?",
+  "zh": "一个智能体基本上连接到各种工具,对吧?"
+ },
+ {
+  "seg": 192,
+  "start": 948.714,
+  "end": 952.776,
+  "speaker": "Unknown",
+  "en": "So the tool here is Tavily, which is nothing but a search tool for agents.",
+  "zh": "这里的工具是 Tavily,它不过是一个面向智能体的搜索工具。"
+ },
+ {
+  "seg": 193,
+  "start": 953.476,
+  "end": 955.057,
+  "speaker": "Unknown",
+  "en": "There are many other search tools as well.",
+  "zh": "还有很多其他的搜索工具。"
+ },
+ {
+  "seg": 194,
+  "start": 956.117,
+  "end": 964.262,
+  "speaker": "Unknown",
+  "en": "So that's basically the, what we need, what we're trying to teach the model here is how do you do search, right?",
+  "zh": "所以这基本上就是,我们需要的,我们在这里要教模型的是如何做搜索,对吧?"
+ },
+ {
+  "seg": 195,
+  "start": 964.782,
+  "end": 970.545,
+  "speaker": "Unknown",
+  "en": "So Tavily is a good tool for the model to use to learn how to do that search.",
+  "zh": "所以 Tavily 是模型用来学习如何做搜索的好工具。"
+ },
+ {
+  "seg": 196,
+  "start": 971.866,
+  "end": 973.927,
+  "speaker": "Unknown",
+  "en": "So going back to the second notebook,",
+  "zh": "回到第二个 notebook,"
+ },
+ {
+  "seg": 197,
+  "start": 978.068,
+  "end": 984.14,
+  "speaker": "Unknown",
+  "en": "So here, what we'll do is we'll just build upon some simple concepts from the first notebook and we'll add",
+  "zh": "在这里,我们要做的是建立在第一个 notebook 的一些简单概念之上,然后添加"
+ },
+ {
+  "seg": 198,
+  "start": 985.447,
+  "end": 986.888,
+  "speaker": "Unknown",
+  "en": "How to create agentic data.",
+  "zh": "如何创建智能体数据。"
+ },
+ {
+  "seg": 199,
+  "start": 987.728,
+  "end": 1004.895,
+  "speaker": "Unknown",
+  "en": "So, again, you have the imports, you have the model configs, and then the same seed data set, the same sampler column, so question difficulty, question type, and so on, and then you actually create the question, and then at the end, you get like a config, right?",
+  "zh": "同样,你有 imports,有模型配置,然后是相同的种子数据集、相同的 sampler 列,比如问题难度、问题类型等等,然后你实际创建问题,最后你会得到一个 config,对吧?"
+ },
+ {
+  "seg": 200,
+  "start": 1004.915,
+  "end": 1012.498,
+  "speaker": "Unknown",
+  "en": "I don't know why it's printed this in like light color, but yeah, this is essentially your graph that you're creating.",
+  "zh": "我不知道为什么它打印成了浅色，但是的，这本质上就是你正在创建的图。"
+ },
+ {
+  "seg": 201,
+  "start": 1013.461,
+  "end": 1014.623,
+  "speaker": "Unknown",
+  "en": "And then you have the answer.",
+  "zh": "然后你就有了答案。"
+ },
+ {
+  "seg": 202,
+  "start": 1015.023,
+  "end": 1022.994,
+  "speaker": "Unknown",
+  "en": "So it's the exact same thing, except now when you actually create the answer, you add this tool alias here.",
+  "zh": "所以这是一模一样的东西，只不过现在当你实际创建答案时，你在这里添加了这个工具别名。"
+ },
+ {
+  "seg": 203,
+  "start": 1023.534,
+  "end": 1025.116,
+  "speaker": "Unknown",
+  "en": "And so the goal is...",
+  "zh": "所以目标是……"
+ },
+ {
+  "seg": 204,
+  "start": 1026.117,
+  "end": 1035.888,
+  "speaker": "Unknown",
+  "en": "Instead of just trying to answer the question, the model is now going to use a Tavoli search tool to try to find the answer on the internet, right?",
+  "zh": "不只是试图回答问题，模型现在会使用 Tavoli 搜索工具去互联网上尝试找到答案，对吧？"
+ },
+ {
+  "seg": 205,
+  "start": 1036.369,
+  "end": 1043.177,
+  "speaker": "Unknown",
+  "en": "So that's, we're building upon the first notebook where we were just like, okay, please generate a question and then please generate an answer.",
+  "zh": "所以这就是，我们在第一个笔记本的基础上进行构建，那里我们只是说，好，请生成一个问题，然后请生成一个答案。"
+ },
+ {
+  "seg": 206,
+  "start": 1043.517,
+  "end": 1045.179,
+  "speaker": "Unknown",
+  "en": "Now it's please generate a question and then",
+  "zh": "现在是请生成一个问题，然后"
+ },
+ {
+  "seg": 207,
+  "start": 1046.08,
+  "end": 1047.621,
+  "speaker": "Unknown",
+  "en": "Hey, you have this tool available.",
+  "zh": "嘿，你有这个工具可用。"
+ },
+ {
+  "seg": 208,
+  "start": 1047.741,
+  "end": 1053.626,
+  "speaker": "Unknown",
+  "en": "Can you use this tool to go to try to find the answer rather than trying to generate the answer?",
+  "zh": "你能用这个工具去尝试找到答案，而不是试图自己生成答案吗？"
+ },
+ {
+  "seg": 209,
+  "start": 1053.646,
+  "end": 1056.769,
+  "speaker": "Unknown",
+  "en": "So that's the difference between the first and the second notebook.",
+  "zh": "这就是第一个和第二个笔记本之间的区别。"
+ },
+ {
+  "seg": 210,
+  "start": 1058.951,
+  "end": 1064.676,
+  "speaker": "Unknown",
+  "en": "And then again, you have the preview mode where you can generate a few records, and then you look at your records.",
+  "zh": "然后同样，你有预览模式，你可以生成几条记录，然后查看你的记录。"
+ },
+ {
+  "seg": 211,
+  "start": 1065.336,
+  "end": 1067.918,
+  "speaker": "Unknown",
+  "en": "And by the way, data creation is very iterative.",
+  "zh": "顺便说一下，数据创建是非常迭代的过程。"
+ },
+ {
+  "seg": 212,
+  "start": 1068.219,
+  "end": 1069.66,
+  "speaker": "Unknown",
+  "en": "It's not like one and done.",
+  "zh": "它不是一次就完事的。"
+ },
+ {
+  "seg": 213,
+  "start": 1070.14,
+  "end": 1072.242,
+  "speaker": "Unknown",
+  "en": "So when you create some data, look at it.",
+  "zh": "所以当你创建了一些数据，要看看它。"
+ },
+ {
+  "seg": 214,
+  "start": 1072.542,
+  "end": 1073.443,
+  "speaker": "Unknown",
+  "en": "If you're not happy with it,",
+  "zh": "如果你对它不满意，"
+ },
+ {
+  "seg": 215,
+  "start": 1074.205,
+  "end": 1079.81,
+  "speaker": "Unknown",
+  "en": "Then probably you go change your workflow, change your prompts, and then iterate on it.",
+  "zh": "那么很可能你会去修改你的工作流、修改你的提示词，然后对其进行迭代。"
+ },
+ {
+  "seg": 216,
+  "start": 1080.19,
+  "end": 1083.072,
+  "speaker": "Unknown",
+  "en": "And then once you're happy with it, you can send it off to batch execution.",
+  "zh": "一旦你对它满意了，你就可以把它发送到批量执行。"
+ },
+ {
+  "seg": 217,
+  "start": 1083.713,
+  "end": 1087.716,
+  "speaker": "Unknown",
+  "en": "So let's look at what the second notebook produced.",
+  "zh": "那我们来看看第二个笔记本生成了什么。"
+ },
+ {
+  "seg": 218,
+  "start": 1088.377,
+  "end": 1096.263,
+  "speaker": "Unknown",
+  "en": "So let's say the question is, to which German city did Telefunken move its headquarters in 1949?",
+  "zh": "比如说问题是，Telefunken 在 1949 年把总部迁到了哪个德国城市？"
+ },
+ {
+  "seg": 219,
+  "start": 1096.843,
+  "end": 1097.904,
+  "speaker": "Unknown",
+  "en": "Does anyone know the answer?",
+  "zh": "有人知道答案吗？"
+ },
+ {
+  "seg": 220,
+  "start": 1099.345,
+  "end": 1099.766,
+  "speaker": "Unknown",
+  "en": "No, right?",
+  "zh": "不知道，对吧？"
+ },
+ {
+  "seg": 221,
+  "start": 1100.006,
+  "end": 1100.987,
+  "speaker": "Unknown",
+  "en": "I mean, I don't know the answer.",
+  "zh": "我是说，我不知道答案。"
+ },
+ {
+  "seg": 222,
+  "start": 1103.827,
+  "end": 1106.748,
+  "speaker": "Unknown",
+  "en": "What we want to do is create questions that are difficult.",
+  "zh": "我们想要做的是创建困难的问题。"
+ },
+ {
+  "seg": 223,
+  "start": 1106.928,
+  "end": 1110.269,
+  "speaker": "Unknown",
+  "en": "So it invokes reasoning and tool calling from the model.",
+  "zh": "这样它会引发模型进行推理和工具调用。"
+ },
+ {
+  "seg": 224,
+  "start": 1110.969,
+  "end": 1118.012,
+  "speaker": "Unknown",
+  "en": "And so when the model is actually trying to respond to this, it's, as you can see here, it's using Tavoli.",
+  "zh": "所以当模型实际尝试回答这个问题时，正如你在这里看到的，它在使用 Tavoli。"
+ },
+ {
+  "seg": 225,
+  "start": 1118.452,
+  "end": 1123.674,
+  "speaker": "Unknown",
+  "en": "So the first search it made is, Telefuken moved its headquarters in 1949 to which company?",
+  "zh": "它做的第一次搜索是，Telefuken 在 1949 年把总部迁到了哪家公司？"
+ },
+ {
+  "seg": 226,
+  "start": 1124.434,
+  "end": 1126.975,
+  "speaker": "Unknown",
+  "en": "So essentially it's using one search tool called here.",
+  "zh": "所以本质上它在这里调用了一个搜索工具。"
+ },
+ {
+  "seg": 227,
+  "start": 1127.476,
+  "end": 1130.017,
+  "speaker": "Unknown",
+  "en": "And then it's going to get an answer.",
+  "zh": "然后它会得到一个答案。"
+ },
+ {
+  "seg": 228,
+  "start": 1130.377,
+  "end": 1131.958,
+  "speaker": "Unknown",
+  "en": "So this is the query from the model.",
+  "zh": "这是来自模型的查询。"
+ },
+ {
+  "seg": 229,
+  "start": 1131.998,
+  "end": 1133.099,
+  "speaker": "Unknown",
+  "en": "And then here are the results.",
+  "zh": "然后这里是结果。"
+ },
+ {
+  "seg": 230,
+  "start": 1133.279,
+  "end": 1134.319,
+  "speaker": "Unknown",
+  "en": "These are all the URLs.",
+  "zh": "这些是所有的 URL。"
+ },
+ {
+  "seg": 231,
+  "start": 1134.599,
+  "end": 1137.141,
+  "speaker": "Unknown",
+  "en": "And then for each URL, it's going to give you a title.",
+  "zh": "然后对于每个 URL，它会给你一个标题。"
+ },
+ {
+  "seg": 232,
+  "start": 1137.641,
+  "end": 1139.502,
+  "speaker": "Unknown",
+  "en": "And then it's also giving you the content.",
+  "zh": "然后它还会给你内容。"
+ },
+ {
+  "seg": 233,
+  "start": 1139.542,
+  "end": 1142.063,
+  "speaker": "Unknown",
+  "en": "So that's what Tavoli gives us, right, if you make a query.",
+  "zh": "所以这就是 Tavoli 给我们的东西，对吧，当你发起一个查询时。"
+ },
+ {
+  "seg": 234,
+  "start": 1142.144,
+  "end": 1145.485,
+  "speaker": "Unknown",
+  "en": "Or that's what it gives the agent when the agent makes the query.",
+  "zh": "或者说，这就是当智能体发起查询时它给智能体的东西。"
+ },
+ {
+  "seg": 235,
+  "start": 1146.426,
+  "end": 1148.227,
+  "speaker": "Unknown",
+  "en": "And then you end up with the response.",
+  "zh": "然后你最终得到了响应。"
+ },
+ {
+  "seg": 236,
+  "start": 1148.527,
+  "end": 1150.468,
+  "speaker": "Unknown",
+  "en": "And then finally, at the end,",
+  "zh": "然后最后，在结尾，"
+ },
+ {
+  "seg": 237,
+  "start": 1151.975,
+  "end": 1155.756,
+  "speaker": "Unknown",
+  "en": "You can create your dataset with batch mode, just like we did last time.",
+  "zh": "你可以用批量模式创建你的数据集，就像我们上次做的那样。"
+ },
+ {
+  "seg": 238,
+  "start": 1156.977,
+  "end": 1163.179,
+  "speaker": "Unknown",
+  "en": "And if you're thinking he just blazed through this whole first two notebooks, that's because the crux of it is in the third notebook, right?",
+  "zh": "如果你在想他刚才把前两个笔记本整个飞快地过完了，那是因为关键内容在第三个笔记本里，对吧？"
+ },
+ {
+  "seg": 239,
+  "start": 1163.739,
+  "end": 1166.82,
+  "speaker": "Unknown",
+  "en": "So that's what I really want us to focus on today.",
+  "zh": "所以那才是我今天真正想让我们关注的内容。"
+ },
+ {
+  "seg": 240,
+  "start": 1167.741,
+  "end": 1177.784,
+  "speaker": "Unknown",
+  "en": "So let's talk about search, because we just went through a couple of notebooks showing us how to use Data Designer, and that's fine, but what's the problem we're actually trying to solve?",
+  "zh": "那我们来谈谈搜索，因为我们刚刚过了几个展示如何使用 Data Designer 的笔记本，这没问题，但我们实际要解决的问题是什么？"
+ },
+ {
+  "seg": 241,
+  "start": 1179.997,
+  "end": 1184.36,
+  "speaker": "Unknown",
+  "en": "Like I mentioned before, I'm a research scientist at NVIDIA, and we're also part of the Nemotron team.",
+  "zh": "就像我之前提到的，我是 NVIDIA 的研究科学家，我们也是 Nemotron 团队的一部分。"
+ },
+ {
+  "seg": 242,
+  "start": 1184.46,
+  "end": 1189.964,
+  "speaker": "Unknown",
+  "en": "So Nemotron is a collection of open source foundation models that we've created.",
+  "zh": "所以 Nemotron 是我们创建的一系列开源基础模型。"
+ },
+ {
+  "seg": 243,
+  "start": 1190.745,
+  "end": 1194.387,
+  "speaker": "Unknown",
+  "en": "We just released our latest model, Ultra, but we also have two other models.",
+  "zh": "我们刚刚发布了我们最新的模型 Ultra，但我们还有另外两个模型。"
+ },
+ {
+  "seg": 244,
+  "start": 1194.407,
+  "end": 1196.489,
+  "speaker": "Unknown",
+  "en": "So we have three different sizes of models.",
+  "zh": "所以我们有三种不同尺寸的模型。"
+ },
+ {
+  "seg": 245,
+  "start": 1197.009,
+  "end": 1202.653,
+  "speaker": "Unknown",
+  "en": "And so as part of that work, we actually had to teach Nemotron how to do search.",
+  "zh": "而作为那项工作的一部分，我们实际上必须教 Nemotron 如何进行搜索。"
+ },
+ {
+  "seg": 246,
+  "start": 1202.733,
+  "end": 1204.454,
+  "speaker": "Unknown",
+  "en": "And that's very important, right?",
+  "zh": "这非常重要，对吧？"
+ },
+ {
+  "seg": 247,
+  "start": 1205.735,
+  "end": 1219.984,
+  "speaker": "Unknown",
+  "en": "Maybe this feels like a long time ago now, but maybe two or three years ago, I'm sure you all remember looking at, like, I don't know, ChatGPT, Claude, or Gemini, and then looking at the web UI, and it says the knowledge cutoff date is December 2023.",
+  "zh": "也许现在感觉这是很久以前的事了，但大概两三年前，我相信你们都记得看着，比如，我不知道，ChatGPT、Claude 或 Gemini，然后看网页界面，上面写着知识截止日期是 2023 年 12 月。"
+ },
+ {
+  "seg": 248,
+  "start": 1220.364,
+  "end": 1225.628,
+  "speaker": "Unknown",
+  "en": "So the reason it said that is because, well, you have to start training the model at some point.",
+  "zh": "之所以写着那个，是因为，嗯，你总得在某个时点开始训练模型。"
+ },
+ {
+  "seg": 249,
+  "start": 1225.768,
+  "end": 1229.11,
+  "speaker": "Unknown",
+  "en": "So you have to stop collecting and creating data at some point, right?",
+  "zh": "所以你必须在某个时点停止收集和创建数据，对吧？"
+ },
+ {
+  "seg": 250,
+  "start": 1229.17,
+  "end": 1231.452,
+  "speaker": "Unknown",
+  "en": "So let's say they're training the model in January 24.",
+  "zh": "假设他们在 24 年 1 月训练这个模型。"
+ },
+ {
+  "seg": 251,
+  "start": 1232.658,
+  "end": 1236.782,
+  "speaker": "Unknown",
+  "en": "By December 23, they need to, like, essentially freeze the data.",
+  "zh": "那么在 23 年 12 月之前，他们需要把数据基本上冻结起来。"
+ },
+ {
+  "seg": 252,
+  "start": 1237.282,
+  "end": 1244.969,
+  "speaker": "Unknown",
+  "en": "So anything that the model knows after December 23 is not part of its training data.",
+  "zh": "所以模型所知道的任何 23 年 12 月之后的事情，都不在它的训练数据里。"
+ },
+ {
+  "seg": 253,
+  "start": 1245.33,
+  "end": 1248.332,
+  "speaker": "Unknown",
+  "en": "So if you had to ask a question like, what is the weather today?",
+  "zh": "我们基本上是这样想的：模型需要能够访问实时信息，才能做一些有用的事情。"
+ },
+ {
+  "seg": 254,
+  "start": 1248.933,
+  "end": 1253.597,
+  "speaker": "Unknown",
+  "en": "There's no way the model can answer that question from its training data, right?",
+  "zh": "模型不可能从它的训练数据里回答这个问题，对吧？"
+ },
+ {
+  "seg": 255,
+  "start": 1253.617,
+  "end": 1253.918,
+  "speaker": "Unknown",
+  "en": "Question?",
+  "zh": "有问题吗？"
+ },
+ {
+  "seg": 256,
+  "start": 1258.502,
+  "end": 1258.702,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 257,
+  "start": 1260.704,
+  "end": 1262.665,
+  "speaker": "Unknown",
+  "en": "So, yeah, definitely scan the QR code.",
+  "zh": "所以，是的，一定要扫一下二维码。"
+ },
+ {
+  "seg": 258,
+  "start": 1262.985,
+  "end": 1267.588,
+  "speaker": "Unknown",
+  "en": "So the idea is, how do you actually teach the model about current events?",
+  "zh": "那么问题就是，你到底怎么教模型了解当前的事件？"
+ },
+ {
+  "seg": 259,
+  "start": 1268.208,
+  "end": 1276.673,
+  "speaker": "Unknown",
+  "en": "Because learning about current events seems as important, if not more important than, you know, knowing about things from the past, right?",
+  "zh": "因为了解当前事件看起来和了解过去的事情一样重要，甚至更重要，对吧？"
+ },
+ {
+  "seg": 260,
+  "start": 1277.174,
+  "end": 1283.037,
+  "speaker": "Unknown",
+  "en": "So that's why search exists, and that's why models need to learn how to do search.",
+  "zh": "所以这就是搜索存在的原因，也是模型需要学会如何做搜索的原因。"
+ },
+ {
+  "seg": 261,
+  "start": 1285.294,
+  "end": 1289.727,
+  "speaker": "Unknown",
+  "en": "So coming back to the slide, so teaching NIMOTRON models how to use search tools.",
+  "zh": "回到这页幻灯片，教 NIMOTRON 模型如何使用搜索工具。"
+ },
+ {
+  "seg": 262,
+  "start": 1289.747,
+  "end": 1290.77,
+  "speaker": "Unknown",
+  "en": "That was our motivation.",
+  "zh": "这就是我们的动机。"
+ },
+ {
+  "seg": 263,
+  "start": 1293.94,
+  "end": 1299.604,
+  "speaker": "Unknown",
+  "en": "We essentially, the model needs access to real-time information to be able to do useful things.",
+  "zh": "本质上，模型需要访问实时信息才能做一些有用的事情。"
+ },
+ {
+  "seg": 264,
+  "start": 1300.364,
+  "end": 1301.945,
+  "speaker": "Unknown",
+  "en": "So how did we actually do this?",
+  "zh": "那我们到底是怎么做的？"
+ },
+ {
+  "seg": 265,
+  "start": 1302.386,
+  "end": 1306.529,
+  "speaker": "Unknown",
+  "en": "So before I get to how did we do this, we need something to measure progress on, right?",
+  "zh": "在我讲我们是怎么做的之前，我们需要某种东西来衡量进展，对吧？"
+ },
+ {
+  "seg": 266,
+  "start": 1306.989,
+  "end": 1317.577,
+  "speaker": "Unknown",
+  "en": "So in the foundation model community, when you need to measure progress on something, use a benchmark, which is like a standardized test set without the answers, right?",
+  "zh": "在基础模型社区里，当你需要衡量某件事的进展时，就用一个 benchmark，也就是一个没有答案的标准化测试集，对吧？"
+ },
+ {
+  "seg": 267,
+  "start": 1317.657,
+  "end": 1318.678,
+  "speaker": "Unknown",
+  "en": "Like, we don't have the answers.",
+  "zh": "就像，我们没有答案。"
+ },
+ {
+  "seg": 268,
+  "start": 1319.178,
+  "end": 1321.72,
+  "speaker": "Unknown",
+  "en": "So one of the benchmarks for search is BrowseComp.",
+  "zh": "所以关于搜索的 benchmark 之一是 BrowseComp。"
+ },
+ {
+  "seg": 269,
+  "start": 1322.699,
+  "end": 1332.909,
+  "speaker": "Unknown",
+  "en": "which is a really difficult benchmark and the FIFA World Cup is going on right now so I don't know how many soccer fans they are here but I'm a big soccer fan but we don't call it soccer.",
+  "zh": "这是一个非常难的 benchmark。FIFA 世界杯现在正在进行，所以我不知道这里有多少足球迷，但我是个超级足球迷，不过我们不把它叫 soccer。"
+ },
+ {
+  "seg": 270,
+  "start": 1333.35,
+  "end": 1342.839,
+  "speaker": "Unknown",
+  "en": "But between 1990 and 1994 which teams played in a soccer match with a Brazilian referee, had four yellow cards, two for each team",
+  "zh": "在 1990 到 1994 年之间，哪几支球队参加了一场由巴西裁判执法、有四张黄牌、每队两张的足球比赛，"
+ },
+ {
+  "seg": 271,
+  "start": 1343.58,
+  "end": 1344.982,
+  "speaker": "Unknown",
+  "en": "Three in total, blah, blah, blah.",
+  "zh": "总共三张，等等等等。"
+ },
+ {
+  "seg": 272,
+  "start": 1345.562,
+  "end": 1349.207,
+  "speaker": "Unknown",
+  "en": "I won't read the rest of the question, but it's quite a complicated question.",
+  "zh": "我不会把问题的其余部分读出来，但这是一个相当复杂的问题。"
+ },
+ {
+  "seg": 273,
+  "start": 1349.247,
+  "end": 1358.738,
+  "speaker": "Unknown",
+  "en": "There's no way that any of us know the answer to that, or maybe there's someone who's really well-versed in this who has the answer at the top of their head.",
+  "zh": "我们任何人都不可能知道这个问题的答案，或者也许有某个对这方面非常精通的人能脱口而出答案。"
+ },
+ {
+  "seg": 274,
+  "start": 1359.102,
+  "end": 1367.425,
+  "speaker": "Unknown",
+  "en": "What we would do back in the day, like three, four years ago, is we'd actually try to break a problem down if we had a complicated query like this.",
+  "zh": "在过去，比如三四年前，如果我们遇到这样一个复杂的查询，我们实际上会把问题拆解开来。"
+ },
+ {
+  "seg": 275,
+  "start": 1367.865,
+  "end": 1371.266,
+  "speaker": "Unknown",
+  "en": "And then we would reason about what queries to actually make.",
+  "zh": "然后我们会推理出实际要做什么样的查询。"
+ },
+ {
+  "seg": 276,
+  "start": 1371.647,
+  "end": 1386.392,
+  "speaker": "Unknown",
+  "en": "We would go and search on Google or elsewhere, get access to more information, and then reason about what was our original goal, what information did we get access to, and then proceed from there, and then finally arrive at the answer, right?",
+  "zh": "我们会去 Google 或其他地方搜索，获取更多信息，然后推理我们最初的目标是什么、我们获取到了什么信息，然后从那里继续推进，最终得出答案，对吧？"
+ },
+ {
+  "seg": 277,
+  "start": 1386.892,
+  "end": 1389.141,
+  "speaker": "Unknown",
+  "en": "So the answer is Ireland versus Romania.",
+  "zh": "所以答案是爱尔兰对罗马尼亚。"
+ },
+ {
+  "seg": 278,
+  "start": 1389.282,
+  "end": 1389.824,
+  "speaker": "Unknown",
+  "en": "I didn't know that.",
+  "zh": "我之前并不知道这个。"
+ },
+ {
+  "seg": 279,
+  "start": 1391.86,
+  "end": 1402.564,
+  "speaker": "Unknown",
+  "en": "So how did we actually create a dataset that allows us to train a model to go from 0% to 30% on this BrowseCom benchmark?",
+  "zh": "那么我们实际上是怎么创建一个数据集，让我们能把模型在这个 BrowseComp benchmark 上从 0% 训练到 30% 的？"
+ },
+ {
+  "seg": 280,
+  "start": 1402.704,
+  "end": 1405.185,
+  "speaker": "Unknown",
+  "en": "So that's what we're going to learn about today.",
+  "zh": "这就是我们今天要讲的内容。"
+ },
+ {
+  "seg": 281,
+  "start": 1405.885,
+  "end": 1408.586,
+  "speaker": "Unknown",
+  "en": "So to do that, we did something.",
+  "zh": "为了做到这一点，我们做了一些事情。"
+ },
+ {
+  "seg": 282,
+  "start": 1410.366,
+  "end": 1416.388,
+  "speaker": "Unknown",
+  "en": "We used a seed dataset, which I described earlier, except our seed dataset is not just Wikipedia.",
+  "zh": "我们用一个种子数据集，就是我之前描述的那种，只不过我们的种子数据集不只是 Wikipedia。"
+ },
+ {
+  "seg": 283,
+  "start": 1416.768,
+  "end": 1417.889,
+  "speaker": "Unknown",
+  "en": "It's something that",
+  "zh": "它是某种"
+ },
+ {
+  "seg": 284,
+  "start": 1419.109,
+  "end": 1422.192,
+  "speaker": "Unknown",
+  "en": "It's essentially a graph of Wikipedia topics.",
+  "zh": "它本质上是一个 Wikipedia 主题的图。"
+ },
+ {
+  "seg": 285,
+  "start": 1422.632,
+  "end": 1424.614,
+  "speaker": "Unknown",
+  "en": "So it's called Wikidata.",
+  "zh": "所以它叫 Wikidata。"
+ },
+ {
+  "seg": 286,
+  "start": 1424.634,
+  "end": 1430.919,
+  "speaker": "Unknown",
+  "en": "And what we did is we did a few hops along this graph, and that is our seed data set.",
+  "zh": "我们所做的是沿着这个图走了几跳，那就是我们的种子数据集。"
+ },
+ {
+  "seg": 287,
+  "start": 1431.299,
+  "end": 1433.381,
+  "speaker": "Unknown",
+  "en": "And I know the diagram on the right looks like a tree.",
+  "zh": "我知道右边的图看起来像一棵树。"
+ },
+ {
+  "seg": 288,
+  "start": 1433.781,
+  "end": 1434.482,
+  "speaker": "Unknown",
+  "en": "It's not a tree.",
+  "zh": "它不是一棵树。"
+ },
+ {
+  "seg": 289,
+  "start": 1434.802,
+  "end": 1435.323,
+  "speaker": "Unknown",
+  "en": "It's a graph.",
+  "zh": "它是一个图。"
+ },
+ {
+  "seg": 290,
+  "start": 1435.803,
+  "end": 1439.586,
+  "speaker": "Unknown",
+  "en": "So if it looks like a tree, that's my fault.",
+  "zh": "如果它看起来像树，那是我的错。"
+ },
+ {
+  "seg": 291,
+  "start": 1440.007,
+  "end": 1441.468,
+  "speaker": "Unknown",
+  "en": "It should be a graph.",
+  "zh": "它应该是一个图。"
+ },
+ {
+  "seg": 292,
+  "start": 1441.708,
+  "end": 1442.368,
+  "speaker": "Unknown",
+  "en": "And essentially,",
+  "zh": "基本上，"
+ },
+ {
+  "seg": 293,
+  "start": 1443.612,
+  "end": 1469.313,
+  "speaker": "Unknown",
+  "en": "You can see on the right, the first topic is NVIDIA, and then NVIDIA is connected to Jensen, who is our CEO, and then that is connected to Oregon State University because Wikidata says that that's where he went to college, and then that college is located in Benton County, and Benton County is actually named after a person called Thomas Hart Benton.",
+  "zh": "你可以在右边看到，第一个主题是 NVIDIA，然后 NVIDIA 连接到 Jensen，他是我们的 CEO，然后那又连接到 Oregon State University，因为 Wikidata 说那是他上大学的学校，然后那所大学位于 Benton County，而 Benton County 实际上是以一个叫 Thomas Hart Benton 的人命名的。"
+ },
+ {
+  "seg": 294,
+  "start": 1471.662,
+  "end": 1482.43,
+  "speaker": "Unknown",
+  "en": "If you took, if you randomly sampled an entity in Wikidata and then did five to eight hops along it, and I'll explain why five to eight, you'll end up",
+  "zh": "如果你在 Wikidata 里随机抽取一个实体，然后沿着它做五到八跳，我会解释为什么是五到八，你就会最终得到"
+ },
+ {
+  "seg": 295,
+  "start": 1483.842,
+  "end": 1490.429,
+  "speaker": "Unknown",
+  "en": "With a hop like this, like the green, you know, set of entities with like arrows in between.",
+  "zh": "像这样的一跳，就像那个绿色的、你知道的、实体之间带着箭头的一串。"
+ },
+ {
+  "seg": 296,
+  "start": 1490.89,
+  "end": 1495.095,
+  "speaker": "Unknown",
+  "en": "So that is essentially our seed data set to create search riddles.",
+  "zh": "所以这本质上就是我们用来创建搜索谜题的种子数据集。"
+ },
+ {
+  "seg": 297,
+  "start": 1495.755,
+  "end": 1501.942,
+  "speaker": "Unknown",
+  "en": "So one search riddle that I could create from this, and I'm going to have to read this from my speaker notes, is...",
+  "zh": "我可以从这个图里创建的一个搜索谜题——我得看一下我的演讲备注才能读——是……"
+ },
+ {
+  "seg": 298,
+  "start": 1505.932,
+  "end": 1512.037,
+  "speaker": "Unknown",
+  "en": "Which company was founded by the person who went to college where the county was named after Thomas Hart Benton?",
+  "zh": "「哪家公司是由那个人创立的——他上大学的那个县是以 Thomas Hart Benton 命名的？」"
+ },
+ {
+  "seg": 299,
+  "start": 1512.977,
+  "end": 1516.92,
+  "speaker": "Unknown",
+  "en": "So there's no way the LLM knows the answer to that in the training data, right?",
+  "zh": "所以 LLM 在训练数据里不可能知道那个问题的答案，对吧？"
+ },
+ {
+  "seg": 300,
+  "start": 1517.16,
+  "end": 1518.802,
+  "speaker": "Unknown",
+  "en": "Because if we give...",
+  "zh": "因为如果我们给……"
+ },
+ {
+  "seg": 301,
+  "start": 1519.718,
+  "end": 1522.341,
+  "speaker": "Unknown",
+  "en": "An agent, the chance to cheat, it's going to cheat.",
+  "zh": "给一个智能体作弊的机会，它就会作弊。"
+ },
+ {
+  "seg": 302,
+  "start": 1522.561,
+  "end": 1524.183,
+  "speaker": "Unknown",
+  "en": "It's going to just give us the answer.",
+  "zh": "它会直接把答案给我们。"
+ },
+ {
+  "seg": 303,
+  "start": 1524.203,
+  "end": 1529.348,
+  "speaker": "Unknown",
+  "en": "It's not going to use the tool calls or the tools, sorry, like search that we wanted to use, right?",
+  "zh": "它不会使用工具调用，或者工具，抱歉，比如我们想让它用的搜索，对吧？"
+ },
+ {
+  "seg": 304,
+  "start": 1529.549,
+  "end": 1539.62,
+  "speaker": "Unknown",
+  "en": "So we want to make the questions as difficult and as, I guess, riddle-like as possible so we can invoke the search behavior from the model.",
+  "zh": "所以我们想把问题设计得尽可能难，尽可能像谜题一样，这样我们才能从模型中激发出搜索行为。"
+ },
+ {
+  "seg": 305,
+  "start": 1540.576,
+  "end": 1542.458,
+  "speaker": "Unknown",
+  "en": "So this is our seed.",
+  "zh": "所以这就是我们的种子。"
+ },
+ {
+  "seg": 306,
+  "start": 1542.818,
+  "end": 1546.761,
+  "speaker": "Unknown",
+  "en": "So I spoke about the first step, which is create random walks with seed.",
+  "zh": "我讲过第一步，就是用种子创建随机游走。"
+ },
+ {
+  "seg": 307,
+  "start": 1547.161,
+  "end": 1549.223,
+  "speaker": "Unknown",
+  "en": "And why four to eight or five to eight hops?",
+  "zh": "那为什么要四到八跳，或者五到八跳？"
+ },
+ {
+  "seg": 308,
+  "start": 1549.603,
+  "end": 1553.226,
+  "speaker": "Unknown",
+  "en": "Sometimes it just, you know, if you do these hops, it just goes completely off topic.",
+  "zh": "有时候，你知道，如果你做这些跳数，它就会完全跑题。"
+ },
+ {
+  "seg": 309,
+  "start": 1553.606,
+  "end": 1554.427,
+  "speaker": "Unknown",
+  "en": "Like it will say,",
+  "zh": "比如它会说，"
+ },
+ {
+  "seg": 310,
+  "start": 1555.708,
+  "end": 1559.95,
+  "speaker": "Unknown",
+  "en": "I don't know, like a person's name, and then it will say, well, human being.",
+  "zh": "我不知道，比如一个人的名字，然后它会说，嗯，人类。"
+ },
+ {
+  "seg": 311,
+  "start": 1560.03,
+  "end": 1564.271,
+  "speaker": "Unknown",
+  "en": "Well, sure, that is true, but, you know, it's not really related.",
+  "zh": "嗯，当然，这没错，但，你知道，这其实并不相关。"
+ },
+ {
+  "seg": 312,
+  "start": 1564.311,
+  "end": 1566.712,
+  "speaker": "Unknown",
+  "en": "Like, basically, your hops will go off topic.",
+  "zh": "就是说，你的跳数会跑题。"
+ },
+ {
+  "seg": 313,
+  "start": 1566.972,
+  "end": 1570.333,
+  "speaker": "Unknown",
+  "en": "So that's why we want to, as a heuristic, stay between four and eight.",
+  "zh": "所以这就是为什么我们想用一个启发式规则，保持在四到八之间。"
+ },
+ {
+  "seg": 314,
+  "start": 1570.433,
+  "end": 1571.574,
+  "speaker": "Unknown",
+  "en": "That's what worked well for me.",
+  "zh": "这对我来说效果很好。"
+ },
+ {
+  "seg": 315,
+  "start": 1572.254,
+  "end": 1574.695,
+  "speaker": "Unknown",
+  "en": "And then you transform these seeds into search riddles.",
+  "zh": "然后你把这些种子转化成搜索谜题。"
+ },
+ {
+  "seg": 316,
+  "start": 1575.475,
+  "end": 1580.978,
+  "speaker": "Unknown",
+  "en": "And then you execute the search via the search tool, which is Tavali.",
+  "zh": "然后你通过搜索工具执行搜索，这个工具是 Tavali。"
+ },
+ {
+  "seg": 317,
+  "start": 1581.338,
+  "end": 1586.621,
+  "speaker": "Unknown",
+  "en": "So that's how you create a dataset with a search prompt and a search response, right?",
+  "zh": "所以这就是你如何创建一个带搜索提示和搜索回应的数据集，对吧？"
+ },
+ {
+  "seg": 318,
+  "start": 1587.521,
+  "end": 1592.964,
+  "speaker": "Unknown",
+  "en": "And then we evaluate our data, and then something that's not mentioned here is, you know, we train our models, right?",
+  "zh": "然后我们评估我们的数据，这里没提到的一点是，你知道，我们训练我们的模型，对吧？"
+ },
+ {
+  "seg": 319,
+  "start": 1593.404,
+  "end": 1599.548,
+  "speaker": "Unknown",
+  "en": "So once you have the dataset, you train the model with it, and then you measure performance on a standardized benchmark.",
+  "zh": "所以一旦你有了数据集，你就用它训练模型，然后在一个标准化的基准上测量性能。"
+ },
+ {
+  "seg": 320,
+  "start": 1601.008,
+  "end": 1603.67,
+  "speaker": "Unknown",
+  "en": "So let's look at the notebook and see how we can do this.",
+  "zh": "那我们来看看这个 notebook，看看我们能怎么做。"
+ },
+ {
+  "seg": 321,
+  "start": 1605.362,
+  "end": 1606.626,
+  "speaker": "Unknown",
+  "en": "Any questions so far?",
+  "zh": "到目前为止有问题吗？"
+ },
+ {
+  "seg": 322,
+  "start": 1608.973,
+  "end": 1609.214,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "有。"
+ },
+ {
+  "seg": 323,
+  "start": 1617.577,
+  "end": 1631.866,
+  "speaker": "Unknown",
+  "en": "So the reason it was important to do, I guess it's not difficult questions, it's questions that the model cannot find on the internet readily, cannot find answers readily on the internet too.",
+  "zh": "这么做很重要的原因是，我想这不是要难的问题，而是模型无法在互联网上轻易找到的问题，无法轻易在互联网上找到答案的问题。"
+ },
+ {
+  "seg": 324,
+  "start": 1632.387,
+  "end": 1639.791,
+  "speaker": "Unknown",
+  "en": "So like, if you took that full blob of text that we had in the BrowseCom benchmark and you put that on the web, you're not going to get the answer.",
+  "zh": "比如，如果你把我们之前在 BrowseCom 基准里的那一大段文本放到网上，你是得不到答案的。"
+ },
+ {
+  "seg": 325,
+  "start": 1639.811,
+  "end": 1645.855,
+  "speaker": "Unknown",
+  "en": "I mean, you will get the answer because of the AI search thing with Gemini now, but that's what we're trying to teach the model essentially.",
+  "zh": "我是说，你会得到答案，因为现在有了 Gemini 的 AI 搜索功能，但这本质上就是我们想教给模型的。"
+ },
+ {
+  "seg": 326,
+  "start": 1646.456,
+  "end": 1646.576,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 327,
+  "start": 1650.942,
+  "end": 1658.748,
+  "speaker": "Unknown",
+  "en": "Okay, so this is the tutorial for the end-to-end agentic search.",
+  "zh": "好，这就是端到端智能体搜索的教程。"
+ },
+ {
+  "seg": 328,
+  "start": 1660.99,
+  "end": 1665.533,
+  "speaker": "Unknown",
+  "en": "So we already spoke about the way we do this and how we create the data.",
+  "zh": "我们已经讲了做这件事的方法以及如何创建数据。"
+ },
+ {
+  "seg": 329,
+  "start": 1665.573,
+  "end": 1672.939,
+  "speaker": "Unknown",
+  "en": "We already spoke about how we import all these prompts, and I wrote a function to use Tavali with MCP.",
+  "zh": "我们已经讲了如何导入所有这些提示词，我还写了一个函数来通过 MCP 使用 Tavali。"
+ },
+ {
+  "seg": 330,
+  "start": 1673.68,
+  "end": 1675.121,
+  "speaker": "Unknown",
+  "en": "You can go and look at the code later.",
+  "zh": "你可以稍后去看代码。"
+ },
+ {
+  "seg": 331,
+  "start": 1679.637,
+  "end": 1683.5,
+  "speaker": "Unknown",
+  "en": "Here is where we have our seed entities.",
+  "zh": "这里是我们的种子实体。"
+ },
+ {
+  "seg": 332,
+  "start": 1683.7,
+  "end": 1685.161,
+  "speaker": "Unknown",
+  "en": "So this is the example I showed you.",
+  "zh": "这就是我刚才给你们看的例子。"
+ },
+ {
+  "seg": 333,
+  "start": 1685.421,
+  "end": 1687.002,
+  "speaker": "Unknown",
+  "en": "This is just one seed entity.",
+  "zh": "这只是一个种子实体。"
+ },
+ {
+  "seg": 334,
+  "start": 1687.422,
+  "end": 1695.608,
+  "speaker": "Unknown",
+  "en": "So the way my seed collection algorithm works is like you can run it a million times and you'll get a million different hops along Wikidata, right?",
+  "zh": "我的种子收集算法的工作方式是，你可以运行它一百万次，你会得到一百万条不同的 Wikidata 跳数路径，对吧？"
+ },
+ {
+  "seg": 335,
+  "start": 1696.008,
+  "end": 1700.271,
+  "speaker": "Unknown",
+  "en": "So those are just topics we want to ground our search riddle creation on.",
+  "zh": "这些只是我们想用来锚定搜索谜题创建的话题。"
+ },
+ {
+  "seg": 336,
+  "start": 1701.752,
+  "end": 1703.273,
+  "speaker": "Unknown",
+  "en": "So another topic is",
+  "zh": "那另一个话题是"
+ },
+ {
+  "seg": 337,
+  "start": 1705.416,
+  "end": 1714.641,
+  "speaker": "Unknown",
+  "en": "We like modern art, and I'm not really an art buff, so I don't understand most of these words, but essentially this is like another seed hop that you can see.",
+  "zh": "我们喜欢现代艺术，而我其实不是艺术行家，所以这些词我大部分都不懂，但本质上你可以看到这是另一个种子跳数路径。"
+ },
+ {
+  "seg": 338,
+  "start": 1716.962,
+  "end": 1725.728,
+  "speaker": "Unknown",
+  "en": "So the way to create this data set is, well, you are an expert search agent that uses web search to answer questions accurately.",
+  "zh": "创建这个数据集的方式是，好吧，你是一个专家搜索智能体，使用网页搜索来准确回答问题。"
+ },
+ {
+  "seg": 339,
+  "start": 1726.633,
+  "end": 1731.699,
+  "speaker": "Unknown",
+  "en": "Provide valid JSON with the final answer, supporting URLs, and a short justification.",
+  "zh": "提供有效的 JSON，包含最终答案、支持的 URL 和简短的理由说明。"
+ },
+ {
+  "seg": 340,
+  "start": 1732.159,
+  "end": 1733.701,
+  "speaker": "Unknown",
+  "en": "And here are the tools you have available.",
+  "zh": "这里是你可用的工具。"
+ },
+ {
+  "seg": 341,
+  "start": 1733.741,
+  "end": 1735.583,
+  "speaker": "Unknown",
+  "en": "You have one tool, which is tably search.",
+  "zh": "你有一个工具，就是 tably 搜索。"
+ },
+ {
+  "seg": 342,
+  "start": 1736.264,
+  "end": 1738.887,
+  "speaker": "Unknown",
+  "en": "And then here are some usage guidelines for the tool.",
+  "zh": "然后这里是这个工具的一些使用准则。"
+ },
+ {
+  "seg": 343,
+  "start": 1739.407,
+  "end": 1742.331,
+  "speaker": "Unknown",
+  "en": "So we're like, OK, please don't use more than",
+  "zh": "所以我们会写，好，请不要使用超过……"
+ },
+ {
+  "seg": 344,
+  "start": 1742.811,
+  "end": 1749.059,
+  "speaker": "Unknown",
+  "en": "Like, you know, don't like call the tool like 100 times and spend, you know, $1,000 or something.",
+  "zh": "比如，你知道，不要调用这个工具一百次然后花，你知道，一千美元之类的。"
+ },
+ {
+  "seg": 345,
+  "start": 1749.539,
+  "end": 1752.383,
+  "speaker": "Unknown",
+  "en": "I guess those are like all kinds of instructions you can put in there.",
+  "zh": "我想这些就是你可以放进去的各种指令。"
+ },
+ {
+  "seg": 346,
+  "start": 1752.723,
+  "end": 1762.555,
+  "speaker": "Unknown",
+  "en": "But essentially, jokes aside, what you want here is your agent shouldn't go crazy and try to like, you know,",
+  "zh": "但本质上，开个玩笑，你在这里想要的是你的智能体不应该失控，不应该试图，你知道，"
+ },
+ {
+  "seg": 347,
+  "start": 1763.075,
+  "end": 1768.539,
+  "speaker": "Unknown",
+  "en": "Spend way too much money answering a question that's very easy or, you know, something like that.",
+  "zh": "花太多钱去回答一个非常简单的问题，或者之类的。"
+ },
+ {
+  "seg": 348,
+  "start": 1769.12,
+  "end": 1771.101,
+  "speaker": "Unknown",
+  "en": "So that's why we have all these instructions.",
+  "zh": "所以这就是为什么我们有这些指令。"
+ },
+ {
+  "seg": 349,
+  "start": 1771.881,
+  "end": 1773.382,
+  "speaker": "Unknown",
+  "en": "And we also have an example.",
+  "zh": "我们还有一个示例。"
+ },
+ {
+  "seg": 350,
+  "start": 1773.463,
+  "end": 1778.566,
+  "speaker": "Unknown",
+  "en": "So this is something like in-context learning, right?",
+  "zh": "所以这有点像上下文学习，对吧？"
+ },
+ {
+  "seg": 351,
+  "start": 1778.586,
+  "end": 1786.832,
+  "speaker": "Unknown",
+  "en": "So you put an example into the prompt and then the model can essentially learn from that example how to actually call the search tool.",
+  "zh": "你把一个示例放进 prompt 里，然后模型基本上就能从这个示例中学习如何实际调用搜索工具。"
+ },
+ {
+  "seg": 352,
+  "start": 1788.399,
+  "end": 1790.721,
+  "speaker": "Unknown",
+  "en": "So here's your prompt that you want to create.",
+  "zh": "这就是你想创建的 prompt。"
+ },
+ {
+  "seg": 353,
+  "start": 1791.241,
+  "end": 1798.146,
+  "speaker": "Unknown",
+  "en": "So here what we do is we collected the wiki data hops.",
+  "zh": "这里我们所做的是收集了 wiki 数据跳。"
+ },
+ {
+  "seg": 354,
+  "start": 1798.507,
+  "end": 1804.691,
+  "speaker": "Unknown",
+  "en": "We can insert those hops into the prompt here, which is our seed entity.",
+  "zh": "我们可以把这些跳插入到这里面的 prompt 中，也就是我们的种子实体。"
+ },
+ {
+  "seg": 355,
+  "start": 1805.572,
+  "end": 1815.179,
+  "speaker": "Unknown",
+  "en": "And then we ask the model to essentially come up with a question using any or all of the seed entities from this hop.",
+  "zh": "然后我们让模型基本上用这一跳中的任意或全部种子实体来提出一个问题。"
+ },
+ {
+  "seg": 356,
+  "start": 1816.395,
+  "end": 1831.905,
+  "speaker": "Unknown",
+  "en": "And then we ask the model to create a response using this agent solution draw, which I showed earlier in the second notebook.",
+  "zh": "然后我们让模型用这个智能体解决方案轨迹来创建一个回答，这个我在第二个 notebook 里前面展示过。"
+ },
+ {
+  "seg": 357,
+  "start": 1832.786,
+  "end": 1835.968,
+  "speaker": "Unknown",
+  "en": "So once you do this, you'll end up with a preview data set.",
+  "zh": "这样做了之后，你就会得到一个预览数据集。"
+ },
+ {
+  "seg": 358,
+  "start": 1836.823,
+  "end": 1838.725,
+  "speaker": "Unknown",
+  "en": "And so here's our preview dataset.",
+  "zh": "这就是我们的预览数据集。"
+ },
+ {
+  "seg": 359,
+  "start": 1838.745,
+  "end": 1843.369,
+  "speaker": "Unknown",
+  "en": "So Indian Council of Medical Research is the start entity for the seed.",
+  "zh": "印度医学研究理事会是种子的起始实体。"
+ },
+ {
+  "seg": 360,
+  "start": 1844.07,
+  "end": 1850.876,
+  "speaker": "Unknown",
+  "en": "And then apparently that's located in a city called Bhuvaneswar, which is the capital of some state in India.",
+  "zh": "显然它位于一个叫 Bhuvaneswar 的城市，那是印度某个邦的首府。"
+ },
+ {
+  "seg": 361,
+  "start": 1851.836,
+  "end": 1853.298,
+  "speaker": "Unknown",
+  "en": "So that's our seed path.",
+  "zh": "这就是我们的种子路径。"
+ },
+ {
+  "seg": 362,
+  "start": 1854.078,
+  "end": 1859.063,
+  "speaker": "Unknown",
+  "en": "And then here is the question that the model came up with.",
+  "zh": "然后这是模型提出的问题。"
+ },
+ {
+  "seg": 363,
+  "start": 1860.779,
+  "end": 1863.541,
+  "speaker": "Unknown",
+  "en": "And then this agent solution draw is not displayed in here.",
+  "zh": "这个智能体解决方案轨迹在这里没有显示。"
+ },
+ {
+  "seg": 364,
+  "start": 1864.081,
+  "end": 1866.904,
+  "speaker": "Unknown",
+  "en": "But if you look at it, we can see what it looks like here.",
+  "zh": "但如果你看它，我们可以在这里看到它的样子。"
+ },
+ {
+  "seg": 365,
+  "start": 1867.264,
+  "end": 1873.789,
+  "speaker": "Unknown",
+  "en": "So it did a bunch of tool calls, it reasoned about the question, and then it's trying to find the answer on the internet.",
+  "zh": "它做了一系列工具调用，对问题进行了推理，然后它试图在互联网上找到答案。"
+ },
+ {
+  "seg": 366,
+  "start": 1875.79,
+  "end": 1879.933,
+  "speaker": "Unknown",
+  "en": "So that's how you create a search tool called dataset.",
+  "zh": "然后工具调用和智能体相关的东西是在创建实际的——比如，一旦你有了问题，执行实际的搜索并创建轨迹。"
+ },
+ {
+  "seg": 367,
+  "start": 1881.154,
+  "end": 1882.115,
+  "speaker": "Unknown",
+  "en": "And I guess...",
+  "zh": "我猜……"
+ },
+ {
+  "seg": 368,
+  "start": 1883.388,
+  "end": 1890.272,
+  "speaker": "Unknown",
+  "en": "I'll pause here for questions, and then we can move on to the next few slides after that.",
+  "zh": "我在这里暂停一下回答问题，之后我们可以继续讲接下来的几页幻灯片。"
+ },
+ {
+  "seg": 369,
+  "start": 1890.592,
+  "end": 1891.212,
+  "speaker": "Unknown",
+  "en": "Any questions?",
+  "zh": "有什么问题吗？"
+ },
+ {
+  "seg": 370,
+  "start": 1891.453,
+  "end": 1892.153,
+  "speaker": "Unknown",
+  "en": "If something was?",
+  "zh": "如果有什么是？"
+ },
+ {
+  "seg": 371,
+  "start": 1892.193,
+  "end": 1892.533,
+  "speaker": "Unknown",
+  "en": "Yes?",
+  "zh": "好的？"
+ },
+ {
+  "seg": 372,
+  "start": 1911.624,
+  "end": 1911.824,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 373,
+  "start": 1913.762,
+  "end": 1914.443,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "完全正确。"
+ },
+ {
+  "seg": 374,
+  "start": 1915.964,
+  "end": 1916.205,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 375,
+  "start": 1916.946,
+  "end": 1919.789,
+  "speaker": "Unknown",
+  "en": "So we moved the bird benchmark from 26% to 41%.",
+  "zh": "我们把 Bird 基准从 26% 提升到了 41%。"
+ },
+ {
+  "seg": 376,
+  "start": 1919.829,
+  "end": 1923.192,
+  "speaker": "Unknown",
+  "en": "So you asked the exact right question.",
+  "zh": "所以你问的正是该问的问题。"
+ },
+ {
+  "seg": 377,
+  "start": 1923.493,
+  "end": 1926.035,
+  "speaker": "Unknown",
+  "en": "And we have a blog post on this as well.",
+  "zh": "我们也有一篇关于这个的博客文章。"
+ },
+ {
+  "seg": 378,
+  "start": 1926.856,
+  "end": 1927.957,
+  "speaker": "Unknown",
+  "en": "You can read about it.",
+  "zh": "你可以去读一读。"
+ },
+ {
+  "seg": 379,
+  "start": 1929.279,
+  "end": 1934.584,
+  "speaker": "Unknown",
+  "en": "So all the data sets we've created with Data Designer, we have blog posts.",
+  "zh": "我们用 Data Designer 创建的所有数据集，都有博客文章。"
+ },
+ {
+  "seg": 380,
+  "start": 1935.772,
+  "end": 1937.813,
+  "speaker": "Unknown",
+  "en": "And you can see right here.",
+  "zh": "你可以在这里直接看到。"
+ },
+ {
+  "seg": 381,
+  "start": 1938.393,
+  "end": 1940.174,
+  "speaker": "Unknown",
+  "en": "So, I was involved in this work as well.",
+  "zh": "我也参与了这项工作。"
+ },
+ {
+  "seg": 382,
+  "start": 1940.974,
+  "end": 1942.355,
+  "speaker": "Unknown",
+  "en": "So, yeah, this talks about SQL.",
+  "zh": "是的，这篇讲的是 SQL。"
+ },
+ {
+  "seg": 383,
+  "start": 1942.695,
+  "end": 1944.736,
+  "speaker": "Unknown",
+  "en": "And I can also share the link with you after.",
+  "zh": "之后我也可以把链接分享给你。"
+ },
+ {
+  "seg": 384,
+  "start": 1945.997,
+  "end": 1957.122,
+  "speaker": "Unknown",
+  "en": "But essentially, Data Designer can be used to create any kind of dataset for training AI models, possibly other datasets as well if you're looking for test datasets not related to model training and so on.",
+  "zh": "但基本上，Data Designer 可以用来创建任何类型的用于训练 AI 模型的数据集，如果你在找与模型训练无关的测试数据集之类的，也可能用于创建其他数据集。"
+ },
+ {
+  "seg": 385,
+  "start": 1958.042,
+  "end": 1964.525,
+  "speaker": "Unknown",
+  "en": "And we have a bunch of data tools that we've created in our team, apart from Data Designer that I'll talk about in the end.",
+  "zh": "除了 Data Designer 之外，我们团队还创建了一堆数据工具，我在最后会讲到。"
+ },
+ {
+  "seg": 386,
+  "start": 1975.836,
+  "end": 1979.277,
+  "speaker": "Unknown",
+  "en": "So the SOTA is 70 on Bird is because it's agentic.",
+  "zh": "Bird 上的 SOTA 是 70，是因为它是智能体式的。"
+ },
+ {
+  "seg": 387,
+  "start": 1979.858,
+  "end": 1983.299,
+  "speaker": "Unknown",
+  "en": "Our current SQL data set is not agentic.",
+  "zh": "我们目前的 SQL 数据集不是智能体式的。"
+ },
+ {
+  "seg": 388,
+  "start": 1983.999,
+  "end": 1989.702,
+  "speaker": "Unknown",
+  "en": "And also a SOTA on benchmarks is very much model dependent.",
+  "zh": "而且基准上的 SOTA 在很大程度上取决于模型。"
+ },
+ {
+  "seg": 389,
+  "start": 1990.193,
+  "end": 1997.657,
+  "speaker": "Unknown",
+  "en": "We're talking about moving Nemotron Nano, which is our small size LLM or SLM.",
+  "zh": "我们说的是 Nemotron Nano，那是我们的小尺寸 LLM 或 SLM。"
+ },
+ {
+  "seg": 390,
+  "start": 1998.097,
+  "end": 2001.579,
+  "speaker": "Unknown",
+  "en": "I don't know if you can call it an SLM because it's an MOE, but it's an LLM.",
+  "zh": "我不知道能不能叫它 SLM，因为它是一个 MOE，但它是一个 LLM。"
+ },
+ {
+  "seg": 391,
+  "start": 2001.959,
+  "end": 2007.361,
+  "speaker": "Unknown",
+  "en": "And so for that model size, it's a pretty respectable performance on board.",
+  "zh": "对于那个模型尺寸来说，在 Bird 上的表现是相当不错的。"
+ },
+ {
+  "seg": 392,
+  "start": 2007.702,
+  "end": 2007.862,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 393,
+  "start": 2008.362,
+  "end": 2008.642,
+  "speaker": "Unknown",
+  "en": "Question?",
+  "zh": "有问题？"
+ },
+ {
+  "seg": 394,
+  "start": 2026.995,
+  "end": 2027.215,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 395,
+  "start": 2027.615,
+  "end": 2030.856,
+  "speaker": "Unknown",
+  "en": "No, this is a deterministic algorithm to create the seed data.",
+  "zh": "不，这是一个确定性的算法来创建种子数据。"
+ },
+ {
+  "seg": 396,
+  "start": 2031.237,
+  "end": 2042.921,
+  "speaker": "Unknown",
+  "en": "And then the tool calls and the agentic stuff is in creating the actual, like, performing the actual search once you have the question and creating the trajectory.",
+  "zh": "然后工具调用和智能体相关的东西就是去创建实际的,比如说,在有了问题之后执行真正的搜索,并创建轨迹。"
+ },
+ {
+  "seg": 397,
+  "start": 2042.941,
+  "end": 2044.041,
+  "speaker": "Unknown",
+  "en": "We call it a trajectory.",
+  "zh": "我们称之为轨迹。"
+ },
+ {
+  "seg": 398,
+  "start": 2044.321,
+  "end": 2045.902,
+  "speaker": "Unknown",
+  "en": "So creating the search trajectory.",
+  "zh": "也就是创建搜索轨迹。"
+ },
+ {
+  "seg": 399,
+  "start": 2045.962,
+  "end": 2047.042,
+  "speaker": "Unknown",
+  "en": "This is deterministic.",
+  "zh": "这部分是确定性的。"
+ },
+ {
+  "seg": 400,
+  "start": 2047.382,
+  "end": 2050.704,
+  "speaker": "Unknown",
+  "en": "This is just something I came up with to create seed data.",
+  "zh": "这只是我想出来的一个用来创建种子数据的方法。"
+ },
+ {
+  "seg": 401,
+  "start": 2051.424,
+  "end": 2051.604,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 402,
+  "start": 2052.023,
+  "end": 2053.425,
+  "speaker": "Unknown",
+  "en": "You can have any kind of seed data.",
+  "zh": "你可以有任何类型的种子数据。"
+ },
+ {
+  "seg": 403,
+  "start": 2053.586,
+  "end": 2057.672,
+  "speaker": "Unknown",
+  "en": "Maybe you can come up with a better way of creating seed data than this as well.",
+  "zh": "也许你也能想出比这更好的创建种子数据的方式。"
+ },
+ {
+  "seg": 404,
+  "start": 2066.353,
+  "end": 2067.113,
+  "speaker": "Unknown",
+  "en": "Oh, great question.",
+  "zh": "哦,好问题。"
+ },
+ {
+  "seg": 405,
+  "start": 2067.613,
+  "end": 2068.594,
+  "speaker": "Unknown",
+  "en": "So, we could do that.",
+  "zh": "所以,我们可以那么做。"
+ },
+ {
+  "seg": 406,
+  "start": 2069.674,
+  "end": 2074.255,
+  "speaker": "Unknown",
+  "en": "We have created data sets that can be used in pre-training and post-training.",
+  "zh": "我们创建过可用于预训练和后训练的数据集。"
+ },
+ {
+  "seg": 407,
+  "start": 2074.655,
+  "end": 2079.996,
+  "speaker": "Unknown",
+  "en": "My main focus is post-training or, you know, creating data sets for post-training.",
+  "zh": "我的主要方向是后训练,或者说是为后训练创建数据集。"
+ },
+ {
+  "seg": 408,
+  "start": 2080.076,
+  "end": 2086.938,
+  "speaker": "Unknown",
+  "en": "So, this specific, I guess, project was SFD in post-training.",
+  "zh": "所以,这个具体的项目,我猜,是后训练方面的 SFD。"
+ },
+ {
+  "seg": 409,
+  "start": 2088.178,
+  "end": 2088.338,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 410,
+  "start": 2092.042,
+  "end": 2098.025,
+  "speaker": "Unknown",
+  "en": "There's no reason apart from the fact that I think someone at NVIDIA did a deal with Tavly to get credits.",
+  "zh": "没什么特别的理由,只是因为我觉得 NVIDIA 的某个人和 Tavly 达成了一笔交易,拿到了额度。"
+ },
+ {
+  "seg": 411,
+  "start": 2098.045,
+  "end": 2098.906,
+  "speaker": "Unknown",
+  "en": "You can use EXA.",
+  "zh": "你可以用 EXA。"
+ },
+ {
+  "seg": 412,
+  "start": 2099.066,
+  "end": 2101.167,
+  "speaker": "Unknown",
+  "en": "EXA is another search agent provider.",
+  "zh": "EXA 是另一个搜索智能体提供商。"
+ },
+ {
+  "seg": 413,
+  "start": 2101.187,
+  "end": 2104.749,
+  "speaker": "Unknown",
+  "en": "You can write your own search tool, I guess.",
+  "zh": "我想你也可以自己写一个搜索工具。"
+ },
+ {
+  "seg": 414,
+  "start": 2105.529,
+  "end": 2106.89,
+  "speaker": "Unknown",
+  "en": "So yeah, there's that as well.",
+  "zh": "所以,是的,也有这个选项。"
+ },
+ {
+  "seg": 415,
+  "start": 2108.651,
+  "end": 2108.831,
+  "speaker": "Unknown",
+  "en": "Yeah?",
+  "zh": "是吗?"
+ },
+ {
+  "seg": 416,
+  "start": 2111.812,
+  "end": 2112.252,
+  "speaker": "Unknown",
+  "en": "Essentially.",
+  "zh": "本质上是这样。"
+ },
+ {
+  "seg": 417,
+  "start": 2117.715,
+  "end": 2120.257,
+  "speaker": "Unknown",
+  "en": "So the golden responses are generated by",
+  "zh": "所以,黄金响应是由"
+ },
+ {
+  "seg": 418,
+  "start": 2121.68,
+  "end": 2125.021,
+  "speaker": "Unknown",
+  "en": "Data Designer using the model that you choose.",
+  "zh": "Data Designer 使用你选择的模型生成的。"
+ },
+ {
+  "seg": 419,
+  "start": 2125.642,
+  "end": 2135.986,
+  "speaker": "Unknown",
+  "en": "And so in the first notebook, yeah, and so I think, you know, I went a bit quick because we just have an hour for this workshop.",
+  "zh": "在第一个 notebook 里,是的,我想你知道,我讲得有点快,因为我们这个工作坊只有一个小时。"
+ },
+ {
+  "seg": 420,
+  "start": 2136.026,
+  "end": 2137.946,
+  "speaker": "Unknown",
+  "en": "Previous version of this workshop was two hours.",
+  "zh": "这个工作坊之前的版本是两个小时的。"
+ },
+ {
+  "seg": 421,
+  "start": 2138.567,
+  "end": 2142.648,
+  "speaker": "Unknown",
+  "en": "So the model that I used is GPT OSS 120B to create the data.",
+  "zh": "所以我用来创建数据的模型是 GPT OSS 120B。"
+ },
+ {
+  "seg": 422,
+  "start": 2143.729,
+  "end": 2147.79,
+  "speaker": "Unknown",
+  "en": "But Data Designer is not just a collection of LLMs that you can use to create data.",
+  "zh": "但 Data Designer 不只是一组可以用来创建数据的 LLM。"
+ },
+ {
+  "seg": 423,
+  "start": 2148.31,
+  "end": 2149.631,
+  "speaker": "Unknown",
+  "en": "It has a bunch of",
+  "zh": "它有一堆"
+ },
+ {
+  "seg": 424,
+  "start": 2150.232,
+  "end": 2155.274,
+  "speaker": "Unknown",
+  "en": "LLM and non-LLM models as well working together to help you create diverse data.",
+  "zh": "LLM 和非 LLM 的模型协同工作,帮助你创建多样化的数据。"
+ },
+ {
+  "seg": 425,
+  "start": 2158.336,
+  "end": 2158.796,
+  "speaker": "Unknown",
+  "en": "Say that again?",
+  "zh": "再说一遍?"
+ },
+ {
+  "seg": 426,
+  "start": 2161.017,
+  "end": 2163.198,
+  "speaker": "Unknown",
+  "en": "This is, yeah, what do you mean?",
+  "zh": "这个,是,你是什么意思?"
+ },
+ {
+  "seg": 427,
+  "start": 2167.88,
+  "end": 2168.12,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 428,
+  "start": 2170.061,
+  "end": 2170.481,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 429,
+  "start": 2180.439,
+  "end": 2180.699,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 430,
+  "start": 2183.362,
+  "end": 2187.386,
+  "speaker": "Unknown",
+  "en": "Yes, you are distilling, but in some cases you can even go beyond distillation.",
+  "zh": "是的,你是在蒸馏,但在某些情况下你甚至可以超越蒸馏。"
+ },
+ {
+  "seg": 431,
+  "start": 2187.927,
+  "end": 2193.372,
+  "speaker": "Unknown",
+  "en": "And that's the case that I'm trying to make because we have built this tool that allows you to create diverse data.",
+  "zh": "这就是我想论证的观点,因为我们构建了这个能让你创建多样化数据的工具。"
+ },
+ {
+  "seg": 432,
+  "start": 2193.612,
+  "end": 2198.537,
+  "speaker": "Unknown",
+  "en": "So, for example, a completely different use case that I was working on, GPT OSS gets",
+  "zh": "比如,我在做的另一个完全不同的用例,GPT OSS 在一个叫 struct eval 的基准上拿到了"
+ },
+ {
+  "seg": 433,
+  "start": 2199.318,
+  "end": 2210.162,
+  "speaker": "Unknown",
+  "en": "Some percentage on this benchmark called struct eval, which is a way to measure how models do on JSON, Markdown, XML, YAML, and CSV formats.",
+  "zh": "某个百分比,这个基准是用来衡量模型在 JSON、Markdown、XML、YAML 和 CSV 格式上的表现的。"
+ },
+ {
+  "seg": 434,
+  "start": 2210.742,
+  "end": 2216.344,
+  "speaker": "Unknown",
+  "en": "And NIMOTRON actually distilled from GPTOS, but went beyond GPTOS's performance.",
+  "zh": "而 NIMOTRON 实际上是从 GPTOS 蒸馏出来的,但性能超过了 GPTOS。"
+ },
+ {
+  "seg": 435,
+  "start": 2216.364,
+  "end": 2222.447,
+  "speaker": "Unknown",
+  "en": "So it's distillation, but it can also be more powerful than that because of all the things we've built into a data designer.",
+  "zh": "所以这是蒸馏,但它也可以比蒸馏更强大,因为我们在 Data Designer 里构建了所有这些东西。"
+ },
+ {
+  "seg": 436,
+  "start": 2223.367,
+  "end": 2223.527,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 437,
+  "start": 2227.686,
+  "end": 2229.027,
+  "speaker": "Unknown",
+  "en": "You can use Data Designer for RL.",
+  "zh": "你可以把 Data Designer 用于 RL。"
+ },
+ {
+  "seg": 438,
+  "start": 2230.889,
+  "end": 2236.874,
+  "speaker": "Unknown",
+  "en": "So let's say, and by the way, we're doing this for search right now, or the team at NVIDIA is doing this for search.",
+  "zh": "比如说,顺便说一下,我们现在正在为搜索做这件事,或者说是 NVIDIA 的团队在为搜索做这件事。"
+ },
+ {
+  "seg": 439,
+  "start": 2237.114,
+  "end": 2247.363,
+  "speaker": "Unknown",
+  "en": "So instead of trying to create the golden solution, like how he described it, or executing the search riddles as written on my slide, you just don't do that step.",
+  "zh": "所以你不用去创建黄金解决方案,就像他描述的那样,或者按我幻灯片上写的那样执行搜索谜题,你直接跳过那一步就行。"
+ },
+ {
+  "seg": 440,
+  "start": 2247.843,
+  "end": 2251.206,
+  "speaker": "Unknown",
+  "en": "And then you essentially end up with a data set full of prompts.",
+  "zh": "这样你基本上就得到了一个全是提示词的数据集。"
+ },
+ {
+  "seg": 441,
+  "start": 2251.506,
+  "end": 2253.308,
+  "speaker": "Unknown",
+  "en": "And then we have a tool called Nemo Jim.",
+  "zh": "然后我们有一个叫 Nemo Jim 的工具。"
+ },
+ {
+  "seg": 442,
+  "start": 2253.888,
+  "end": 2259.369,
+  "speaker": "Unknown",
+  "en": "Which is essentially an RL reward function.",
+  "zh": "它本质上是一个 RL 奖励函数。"
+ },
+ {
+  "seg": 443,
+  "start": 2259.889,
+  "end": 2264.65,
+  "speaker": "Unknown",
+  "en": "You know, I guess it's a tool to basically teach your models how to do RL.",
+  "zh": "你知道,我想它基本上是一个教你模型如何做 RL 的工具。"
+ },
+ {
+  "seg": 444,
+  "start": 2264.71,
+  "end": 2271.392,
+  "speaker": "Unknown",
+  "en": "But the thing is, in Nemo Gym, you write like a function that essentially gives you a reward.",
+  "zh": "但关键在于,在 Nemo Gym 里,你写一个本质上能给你奖励的函数。"
+ },
+ {
+  "seg": 445,
+  "start": 2271.732,
+  "end": 2282.034,
+  "speaker": "Unknown",
+  "en": "And then you can use any RL training framework to execute in real time with those tools and then provide a reward in RL.",
+  "zh": "然后你可以用任何 RL 训练框架,用这些工具实时执行,然后在 RL 中提供奖励。"
+ },
+ {
+  "seg": 446,
+  "start": 2290.466,
+  "end": 2291.307,
+  "speaker": "Unknown",
+  "en": "That's a great point.",
+  "zh": "这是个很好的点。"
+ },
+ {
+  "seg": 447,
+  "start": 2291.327,
+  "end": 2293.568,
+  "speaker": "Unknown",
+  "en": "We're thinking about how to do this actually currently.",
+  "zh": "我们目前实际上正在思考怎么做这件事。"
+ },
+ {
+  "seg": 448,
+  "start": 2293.828,
+  "end": 2296.73,
+  "speaker": "Unknown",
+  "en": "But to build something generic is the challenge, right?",
+  "zh": "但要构建一个通用的东西是个挑战,对吧?"
+ },
+ {
+  "seg": 449,
+  "start": 2296.75,
+  "end": 2299.652,
+  "speaker": "Unknown",
+  "en": "Like we don't want to build something specific to one use case.",
+  "zh": "就像我们不想构建一个只针对某一个用例的东西。"
+ },
+ {
+  "seg": 450,
+  "start": 2300.432,
+  "end": 2300.592,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 451,
+  "start": 2302.234,
+  "end": 2302.454,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 452,
+  "start": 2310.239,
+  "end": 2312.06,
+  "speaker": "Unknown",
+  "en": "Is this reliable and accurate for?",
+  "zh": "这个对……可靠且准确吗?"
+ },
+ {
+  "seg": 453,
+  "start": 2315.496,
+  "end": 2315.896,
+  "speaker": "Unknown",
+  "en": "ETL.",
+  "zh": "ETL。"
+ },
+ {
+  "seg": 454,
+  "start": 2322.401,
+  "end": 2340.914,
+  "speaker": "Unknown",
+  "en": "So I haven't tried it myself, but I think it is, because it should be, because we've created a diverse set of data sets with data design, and I think at the start we showed about 6.5 trillion tokens, and if it's not reliable, you should come talk to us and see how we can help you.",
+  "zh": "所以我自己没试过，但我认为是的，因为应该是这样，因为我们通过数据设计创建了一套多样化的数据集，我记得一开始我们展示了大约 6.5 万亿个 token，如果它不可靠，你应该来找我们，看看我们能怎么帮你。"
+ },
+ {
+  "seg": 455,
+  "start": 2345.466,
+  "end": 2346.387,
+  "speaker": "Unknown",
+  "en": "I can't hear you, sorry.",
+  "zh": "我听不见，抱歉。"
+ },
+ {
+  "seg": 456,
+  "start": 2351.69,
+  "end": 2357.753,
+  "speaker": "Unknown",
+  "en": "Sorry, I'm not able to hear you.",
+  "zh": "不好意思，我听不到。"
+ },
+ {
+  "seg": 457,
+  "start": 2357.773,
+  "end": 2359.354,
+  "speaker": "Unknown",
+  "en": "Oh, I don't know about that.",
+  "zh": "哦，那个我不知道。"
+ },
+ {
+  "seg": 458,
+  "start": 2360.535,
+  "end": 2363.117,
+  "speaker": "Unknown",
+  "en": "I'll come back to you at the end, and we can chat more.",
+  "zh": "最后我会再来找你，我们可以多聊聊。"
+ },
+ {
+  "seg": 459,
+  "start": 2363.277,
+  "end": 2364.217,
+  "speaker": "Unknown",
+  "en": "Yeah, sorry about that.",
+  "zh": "是的，抱歉。"
+ },
+ {
+  "seg": 460,
+  "start": 2365.018,
+  "end": 2365.198,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 461,
+  "start": 2366.671,
+  "end": 2368.051,
+  "speaker": "Unknown",
+  "en": "We have about 15 more minutes.",
+  "zh": "我们还有大约 15 分钟。"
+ },
+ {
+  "seg": 462,
+  "start": 2368.692,
+  "end": 2377.737,
+  "speaker": "Unknown",
+  "en": "So let me move on, and we can have more questions at the end, to something really interesting, which is evaluating your synthetic data, right?",
+  "zh": "那让我继续往下讲，最后我们再接受更多提问，接下来是一个非常有意思的话题，就是评估你的合成数据，对吧?"
+ },
+ {
+  "seg": 463,
+  "start": 2378.237,
+  "end": 2379.898,
+  "speaker": "Unknown",
+  "en": "And that's not an easy thing to do.",
+  "zh": "而这不是一件容易的事。"
+ },
+ {
+  "seg": 464,
+  "start": 2380.759,
+  "end": 2385.262,
+  "speaker": "Unknown",
+  "en": "Because without this evaluation step, the synthetic data is not that useful.",
+  "zh": "因为没有评估这一步，合成数据就没那么有用。"
+ },
+ {
+  "seg": 465,
+  "start": 2386.462,
+  "end": 2393.306,
+  "speaker": "Unknown",
+  "en": "So when I started, just to give you a sense of how SDG, as we call it, works, synthetic data generation, I started with 50,000 seeds.",
+  "zh": "所以当我开始的时候——为了让大家了解一下我们所说的 SDG，也就是合成数据生成，是怎么运作的——我从 5 万个种子开始。"
+ },
+ {
+  "seg": 466,
+  "start": 2395.286,
+  "end": 2401.991,
+  "speaker": "Unknown",
+  "en": "And in the end, I ended up only with 7,000 high-quality end-to-end SFT records.",
+  "zh": "而最后，我只得到了 7000 条高质量的端到端 SFT 记录。"
+ },
+ {
+  "seg": 467,
+  "start": 2402.952,
+  "end": 2406.555,
+  "speaker": "Unknown",
+  "en": "And then I used that to train the model, and we moved the benchmark from zero to 30, right?",
+  "zh": "然后我用这些去训练模型，我们把基准从零提到了 30，对吧?"
+ },
+ {
+  "seg": 468,
+  "start": 2407.055,
+  "end": 2407.796,
+  "speaker": "Unknown",
+  "en": "So that's great.",
+  "zh": "所以这很棒。"
+ },
+ {
+  "seg": 469,
+  "start": 2408.296,
+  "end": 2417.183,
+  "speaker": "Unknown",
+  "en": "But 50,000 to 7,000, that's a lot of, you know, funneling and filtering for high-quality",
+  "zh": "但是从 5 万到 7000，那是非常大量的，你知道的，为了高质量而做的漏斗式筛选和过滤。"
+ },
+ {
+  "seg": 470,
+  "start": 2417.516,
+  "end": 2425.002,
+  "speaker": "Unknown",
+  "en": "So, what I'm trying to focus on here is that data quality is the most important thing when you're trying to create data.",
+  "zh": "所以，我在这里想强调的是，当你在创建数据时，数据质量是最重要的。"
+ },
+ {
+  "seg": 471,
+  "start": 2425.703,
+  "end": 2427.544,
+  "speaker": "Unknown",
+  "en": "And what do I mean by quality?",
+  "zh": "那我说的质量是什么意思呢?"
+ },
+ {
+  "seg": 472,
+  "start": 2427.564,
+  "end": 2435.35,
+  "speaker": "Unknown",
+  "en": "It can be task-specific, but it can also be generic, like diversity is one way to, you know, one axis of quality, I would say.",
+  "zh": "它可以是任务特定的，但也可以是通用的，比如多样性就是质量的一个维度，我会这么说。"
+ },
+ {
+  "seg": 473,
+  "start": 2438.656,
+  "end": 2458.899,
+  "speaker": "Unknown",
+  "en": "After that, I created this function to help us show like this is what the LLM as a judge scores for each trajectory and what is like your, you know, number of words in your question or search query and then here is your keep percentage 66% and so on.",
+  "zh": "在那之后，我创建了这个函数来帮我们展示，比如这是 LLM 作为评判者对每条轨迹打的分，还有你的问题或搜索查询中的词数，然后这里是保留百分比 66% 等等。"
+ },
+ {
+  "seg": 474,
+  "start": 2461.662,
+  "end": 2463.203,
+  "speaker": "Unknown",
+  "en": "So you can take a look at that function later.",
+  "zh": "所以你可以稍后看看那个函数。"
+ },
+ {
+  "seg": 475,
+  "start": 2463.303,
+  "end": 2469.968,
+  "speaker": "Unknown",
+  "en": "But what's really interesting is how do you actually check if the answers that the model got are correct or not?",
+  "zh": "但真正有意思的是，你要怎么实际检验模型得到的答案是对还是不对?"
+ },
+ {
+  "seg": 476,
+  "start": 2470.628,
+  "end": 2473.67,
+  "speaker": "Unknown",
+  "en": "So I came across this really interesting example.",
+  "zh": "所以我遇到了一个非常有趣的例子。"
+ },
+ {
+  "seg": 477,
+  "start": 2474.371,
+  "end": 2476.152,
+  "speaker": "Unknown",
+  "en": "And the search riddle was quite simple.",
+  "zh": "这个搜索谜题相当简单。"
+ },
+ {
+  "seg": 478,
+  "start": 2476.392,
+  "end": 2479.554,
+  "speaker": "Unknown",
+  "en": "It said, which country owns U.S. Steel?",
+  "zh": "它问的是，哪个国家拥有 U.S. Steel?"
+ },
+ {
+  "seg": 479,
+  "start": 2481.196,
+  "end": 2489.942,
+  "speaker": "Unknown",
+  "en": "And I thought the answer is the U.S. And so I guess the agent predicted U.S. in the training dataset.",
+  "zh": "我以为答案是美国。所以我猜智能体在训练数据集中也预测了美国。"
+ },
+ {
+  "seg": 480,
+  "start": 2491.208,
+  "end": 2495.571,
+  "speaker": "Unknown",
+  "en": "And my verifier said that it was correct.",
+  "zh": "而我的验证器说这是正确的。"
+ },
+ {
+  "seg": 481,
+  "start": 2496.191,
+  "end": 2502.876,
+  "speaker": "Unknown",
+  "en": "But then I went and Googled it, and apparently the U.S. sold U.S. steel to Japan, I think, if I remember correctly, a couple of years ago.",
+  "zh": "但后来我去谷歌搜了一下，显然美国把 U.S. Steel 卖给了日本，如果我没记错的话，是几年前的事。"
+ },
+ {
+  "seg": 482,
+  "start": 2503.296,
+  "end": 2507.979,
+  "speaker": "Unknown",
+  "en": "So even my wiki data seed can become stale, right?",
+  "zh": "所以即使我的 wiki 数据种子也可能过时，对吧?"
+ },
+ {
+  "seg": 483,
+  "start": 2508.139,
+  "end": 2520.487,
+  "speaker": "Unknown",
+  "en": "And so that's the real challenge is how do you actually evaluate and tell if the data that you've created is good, accurate,",
+  "zh": "所以真正的挑战在于，你要如何实际评估并判断你创建的数据是好的、准确的、"
+ },
+ {
+  "seg": 484,
+  "start": 2521.463,
+  "end": 2524.404,
+  "speaker": "Unknown",
+  "en": "You know, relevant and so on.",
+  "zh": "你知道的，是相关的等等。"
+ },
+ {
+  "seg": 485,
+  "start": 2525.924,
+  "end": 2537.408,
+  "speaker": "Unknown",
+  "en": "So I guess if you go and implement a determinist, I guess, like a simple matching function like how I did, you'll end up with like 24% and then you'll be like, well, my data is terrible.",
+  "zh": "所以我想，如果你去实现一个确定性的，我想说，像我那样的简单匹配函数，你会得到大概 24% 的结果，然后你会想，我的数据太糟糕了。"
+ },
+ {
+  "seg": 486,
+  "start": 2537.868,
+  "end": 2538.868,
+  "speaker": "Unknown",
+  "en": "Why did I do all of this?",
+  "zh": "我为什么要做这一切?"
+ },
+ {
+  "seg": 487,
+  "start": 2538.888,
+  "end": 2545.25,
+  "speaker": "Unknown",
+  "en": "But that's not entirely true because here are low percentages I expected because I don't know how to actually create that function.",
+  "zh": "但这并不完全对，因为这些低百分比是我预料到的，因为我不知道该怎么实际创建那个函数。"
+ },
+ {
+  "seg": 488,
+  "start": 2545.27,
+  "end": 2548.751,
+  "speaker": "Unknown",
+  "en": "So this is an active area of research is how do you actually evaluate this data?",
+  "zh": "所以这是一个活跃的研究领域，就是你到底该怎么评估这些数据?"
+ },
+ {
+  "seg": 489,
+  "start": 2549.051,
+  "end": 2553.712,
+  "speaker": "Unknown",
+  "en": "So I think evaluation, from my perspective, is a very multifaceted problem.",
+  "zh": "所以我认为，从我的角度看，评估是一个非常多维的问题。"
+ },
+ {
+  "seg": 490,
+  "start": 2553.972,
+  "end": 2559.434,
+  "speaker": "Unknown",
+  "en": "So you can't just take LLM as a judge and put it in there and hope that that's going to, you know,",
+  "zh": "所以你不能只是拿 LLM 作为评判者放进去，然后指望它就能，你知道的，"
+ },
+ {
+  "seg": 491,
+  "start": 2560.345,
+  "end": 2561.466,
+  "speaker": "Unknown",
+  "en": "Give you everything.",
+  "zh": "给你解决一切。"
+ },
+ {
+  "seg": 492,
+  "start": 2562.286,
+  "end": 2574.594,
+  "speaker": "Unknown",
+  "en": "Evaluation is a problem where if you check for 100 problems and if you see that those 100 problems, all you can tell from checking for 100 problems is those 100 issues don't exist in your dataset.",
+  "zh": "评估是一个这样的问题：如果你检查 100 个问题，然后你发现这 100 个问题——你能从检查这 100 个问题中得出的结论只是这 100 个问题不在你的数据集中。"
+ },
+ {
+  "seg": 493,
+  "start": 2574.614,
+  "end": 2575.955,
+  "speaker": "Unknown",
+  "en": "There could be 1,000 other issues.",
+  "zh": "但可能还有 1000 个其他的问题。"
+ },
+ {
+  "seg": 494,
+  "start": 2576.435,
+  "end": 2580.117,
+  "speaker": "Unknown",
+  "en": "So that's the challenge is how do you actually evaluate the data.",
+  "zh": "所以挑战就在于，你到底该怎么评估数据。"
+ },
+ {
+  "seg": 495,
+  "start": 2580.237,
+  "end": 2582.198,
+  "speaker": "Unknown",
+  "en": "So we have a few different ways that we do that.",
+  "zh": "所以我们有几种不同的做法。"
+ },
+ {
+  "seg": 496,
+  "start": 2584.149,
+  "end": 2588.412,
+  "speaker": "Unknown",
+  "en": "One of them is, like I mentioned earlier, LLM is a judge, which is generic.",
+  "zh": "其中一种就是我前面提到的，LLM 作为评判者，这是通用的。"
+ },
+ {
+  "seg": 497,
+  "start": 2588.492,
+  "end": 2604.402,
+  "speaker": "Unknown",
+  "en": "Something I did really interesting is I actually did LLM as a judge, and I took the judgments, and I sent them to human reviewers, and I have those reviewers cross-check the judgments of the LLM, and essentially give me confidence that the LLM is...",
+  "zh": "我做了一件很有意思的事，我实际用了 LLM 作为评判者，然后我把评判结果发给人类审核员，我让这些审核员交叉核对 LLM 的评判，从而让我有信心认为 LLM 是在……"
+ },
+ {
+  "seg": 498,
+  "start": 2605.282,
+  "end": 2607.584,
+  "speaker": "Unknown",
+  "en": "Judging my responses correctly.",
+  "zh": "正确地评判我的回复。"
+ },
+ {
+  "seg": 499,
+  "start": 2607.964,
+  "end": 2609.005,
+  "speaker": "Unknown",
+  "en": "So that's one way to do it.",
+  "zh": "所以这是一种做法。"
+ },
+ {
+  "seg": 500,
+  "start": 2609.545,
+  "end": 2612.287,
+  "speaker": "Unknown",
+  "en": "And then in search, you could look at real-time information.",
+  "zh": "然后在 search(搜索)中,你可以查看实时信息。"
+ },
+ {
+  "seg": 501,
+  "start": 2612.547,
+  "end": 2621.473,
+  "speaker": "Unknown",
+  "en": "So you have to basically find a union of all these different layers of evaluation that's going to essentially give you enough confidence in your dataset.",
+  "zh": "所以你基本上必须找到所有这些不同评估层面的并集,它将从本质上给你对数据集足够的信心。"
+ },
+ {
+  "seg": 502,
+  "start": 2623.235,
+  "end": 2624.315,
+  "speaker": "Unknown",
+  "en": "So that's it for the code.",
+  "zh": "代码部分就到这里。"
+ },
+ {
+  "seg": 503,
+  "start": 2624.716,
+  "end": 2632.501,
+  "speaker": "Unknown",
+  "en": "I know I blazed through this, but hopefully I've, you know, given access to all of this in my GitHub repo so you all can take a look.",
+  "zh": "我知道我讲得很快,但希望我已经把这些都放到我的 GitHub 仓库里了,你们都可以去看看。"
+ },
+ {
+  "seg": 504,
+  "start": 2634.714,
+  "end": 2637.016,
+  "speaker": "Unknown",
+  "en": "So let's talk about a few other use cases.",
+  "zh": "那么我们来聊聊其他几个用例。"
+ },
+ {
+  "seg": 505,
+  "start": 2637.056,
+  "end": 2642.382,
+  "speaker": "Unknown",
+  "en": "So like I mentioned earlier, we are the, you know, part of a much larger team that creates Nemotron, right?",
+  "zh": "就像我之前提到的,我们是创建 Nemotron 的更大团队的一部分,对吧?"
+ },
+ {
+  "seg": 506,
+  "start": 2642.902,
+  "end": 2647.447,
+  "speaker": "Unknown",
+  "en": "So my focus or my team's focus is essentially creating data sets.",
+  "zh": "所以我的重点,或者说我团队的重点,本质上就是创建数据集。"
+ },
+ {
+  "seg": 507,
+  "start": 2648.092,
+  "end": 2650.973,
+  "speaker": "Unknown",
+  "en": "Or creating a framework for creating data sets.",
+  "zh": "或者说创建一个用于创建数据集的框架。"
+ },
+ {
+  "seg": 508,
+  "start": 2651.153,
+  "end": 2652.093,
+  "speaker": "Unknown",
+  "en": "Or I guess both of those.",
+  "zh": "或者我想两者都是。"
+ },
+ {
+  "seg": 509,
+  "start": 2652.794,
+  "end": 2655.174,
+  "speaker": "Unknown",
+  "en": "So there's all kinds of data sets we've created.",
+  "zh": "我们创建过各种各样的数据集。"
+ },
+ {
+  "seg": 510,
+  "start": 2655.214,
+  "end": 2657.895,
+  "speaker": "Unknown",
+  "en": "The first one that we spoke about today, search tool calling.",
+  "zh": "今天我们讲到的第一个,search 工具调用。"
+ },
+ {
+  "seg": 511,
+  "start": 2658.756,
+  "end": 2662.917,
+  "speaker": "Unknown",
+  "en": "And then we also have a data set to do multi-turn tool calls.",
+  "zh": "然后我们还有一个用于多轮工具调用的数据集。"
+ },
+ {
+  "seg": 512,
+  "start": 2663.437,
+  "end": 2667.158,
+  "speaker": "Unknown",
+  "en": "So I think the search one was very much single turn, right?",
+  "zh": "所以我认为 search 那个很大程度上是单轮的,对吧?"
+ },
+ {
+  "seg": 513,
+  "start": 2667.178,
+  "end": 2669.279,
+  "speaker": "Unknown",
+  "en": "Like we're going from prompt to response.",
+  "zh": "就是从 prompt 到响应。"
+ },
+ {
+  "seg": 514,
+  "start": 2669.699,
+  "end": 2671.3,
+  "speaker": "Unknown",
+  "en": "But what if you had multiple turns?",
+  "zh": "但如果你有多轮呢?"
+ },
+ {
+  "seg": 515,
+  "start": 2671.9,
+  "end": 2673.601,
+  "speaker": "Unknown",
+  "en": "Or what if you had multiple tools",
+  "zh": "或者如果你有多个工具呢?"
+ },
+ {
+  "seg": 516,
+  "start": 2675.5,
+  "end": 2681.944,
+  "speaker": "Unknown",
+  "en": "Or, you know, not just search tools, but, like, you might have a, I don't know, a weather tool or a coding tool and so on.",
+  "zh": "或者,你知道的,不只是 search 工具,比如你可能有一个,我不知道,天气工具或者编程工具等等。"
+ },
+ {
+  "seg": 517,
+  "start": 2683.105,
+  "end": 2686.828,
+  "speaker": "Unknown",
+  "en": "So we're working on multiple different projects here.",
+  "zh": "所以我们在这里做多个不同的项目。"
+ },
+ {
+  "seg": 518,
+  "start": 2687.248,
+  "end": 2689.63,
+  "speaker": "Unknown",
+  "en": "Another really interesting one is structured output generation.",
+  "zh": "另一个非常有意思的是结构化输出生成。"
+ },
+ {
+  "seg": 519,
+  "start": 2689.65,
+  "end": 2690.75,
+  "speaker": "Unknown",
+  "en": "I briefly spoke about it.",
+  "zh": "我简单提过它。"
+ },
+ {
+  "seg": 520,
+  "start": 2690.83,
+  "end": 2697.275,
+  "speaker": "Unknown",
+  "en": "There's a benchmark called Structival, which measures your performance on Toml, JSON, YAML, CSV, XML.",
+  "zh": "有一个叫 Structival 的基准,它衡量你在 Toml、JSON、YAML、CSV、XML 上的表现。"
+ },
+ {
+  "seg": 521,
+  "start": 2697.835,
+  "end": 2700.817,
+  "speaker": "Unknown",
+  "en": "And all of these are super important because everyone wants to use",
+  "zh": "所有这些都非常重要,因为现在每个人都想用"
+ },
+ {
+  "seg": 522,
+  "start": 2702.633,
+  "end": 2705.656,
+  "speaker": "Unknown",
+  "en": "You know, agents to do everything now.",
+  "zh": "你知道的,智能体来做所有事情。"
+ },
+ {
+  "seg": 523,
+  "start": 2706.076,
+  "end": 2712.561,
+  "speaker": "Unknown",
+  "en": "I'm sure you all have seen the BlowTorch meme on LinkedIn or something.",
+  "zh": "我相信你们都在 LinkedIn 或什么地方见过 BlowTorch 那个梗图。"
+ },
+ {
+  "seg": 524,
+  "start": 2712.862,
+  "end": 2724.972,
+  "speaker": "Unknown",
+  "en": "But if we're going to be using agents as the central piece in software applications, then they need to reliably give us like a JSON format or a YAML format and so on.",
+  "zh": "但如果我们要把智能体用作软件应用的核心部分,那它们就需要可靠地给我们 JSON 格式或 YAML 格式等等。"
+ },
+ {
+  "seg": 525,
+  "start": 2725.472,
+  "end": 2728.055,
+  "speaker": "Unknown",
+  "en": "So that's what we were focused on there.",
+  "zh": "所以这就是我们在那里的关注点。"
+ },
+ {
+  "seg": 526,
+  "start": 2728.115,
+  "end": 2729.296,
+  "speaker": "Unknown",
+  "en": "We've also worked on SQL.",
+  "zh": "我们也做过 SQL。"
+ },
+ {
+  "seg": 527,
+  "start": 2731.371,
+  "end": 2732.532,
+  "speaker": "Unknown",
+  "en": "That someone asked about here.",
+  "zh": "这里有人问过这个问题。"
+ },
+ {
+  "seg": 528,
+  "start": 2733.013,
+  "end": 2735.415,
+  "speaker": "Unknown",
+  "en": "And we've also worked on scientific reasoning.",
+  "zh": "我们也做过科学推理。"
+ },
+ {
+  "seg": 529,
+  "start": 2736.877,
+  "end": 2743.444,
+  "speaker": "Unknown",
+  "en": "There's also pre-training data sets that we've created using Data Designer for STEM performance and so on.",
+  "zh": "我们还用 Data Designer 创建了用于 STEM 性能等的预训练数据集。"
+ },
+ {
+  "seg": 530,
+  "start": 2744.265,
+  "end": 2748.49,
+  "speaker": "Unknown",
+  "en": "And so I can talk about the best practices for generating data.",
+  "zh": "我可以讲讲生成数据的最佳实践。"
+ },
+ {
+  "seg": 531,
+  "start": 2749.78,
+  "end": 2753.821,
+  "speaker": "Unknown",
+  "en": "I won't go over this in detail because you can always look at the slides later.",
+  "zh": "我不会详细讲,因为你们以后总可以看幻灯片。"
+ },
+ {
+  "seg": 532,
+  "start": 2754.321,
+  "end": 2763.062,
+  "speaker": "Unknown",
+  "en": "But essentially, diversity before volume, I think the Kimi K2 paper showed something similar, which is ten strategies, one epoch is better than one epoch.",
+  "zh": "但本质上,多样性优先于数量,我想 Kimi K2 论文展示了类似的东西,就是十个策略、一个 epoch 好过一个 epoch。"
+ },
+ {
+  "seg": 533,
+  "start": 2763.623,
+  "end": 2763.903,
+  "speaker": "Unknown",
+  "en": "Sorry.",
+  "zh": "抱歉。"
+ },
+ {
+  "seg": 534,
+  "start": 2764.103,
+  "end": 2767.023,
+  "speaker": "Unknown",
+  "en": "Ten strategies, one epoch is better than ten epochs, one strategy.",
+  "zh": "十个策略、一个 epoch 好过十个 epoch、一个策略。"
+ },
+ {
+  "seg": 535,
+  "start": 2767.883,
+  "end": 2771.824,
+  "speaker": "Unknown",
+  "en": "And you always want to use the cheapest correct column type.",
+  "zh": "而且你总是要使用最便宜的、正确的列类型。"
+ },
+ {
+  "seg": 536,
+  "start": 2772.084,
+  "end": 2775.905,
+  "speaker": "Unknown",
+  "en": "So, like, using an LLM to create a sampler makes no sense, right?",
+  "zh": "比如,用 LLM 来创建一个 sampler(采样器)毫无意义,对吧?"
+ },
+ {
+  "seg": 537,
+  "start": 2775.925,
+  "end": 2777.465,
+  "speaker": "Unknown",
+  "en": "It's a complete waste of resources.",
+  "zh": "那完全是浪费资源。"
+ },
+ {
+  "seg": 538,
+  "start": 2778.03,
+  "end": 2780.772,
+  "speaker": "Unknown",
+  "en": "But using LLM to generate text data makes a lot of sense.",
+  "zh": "但用 LLM 来生成文本数据就非常合理。"
+ },
+ {
+  "seg": 539,
+  "start": 2781.212,
+  "end": 2784.455,
+  "speaker": "Unknown",
+  "en": "So our samplers are written in Python, of course.",
+  "zh": "所以我们的 sampler 当然是用 Python 写的。"
+ },
+ {
+  "seg": 540,
+  "start": 2784.695,
+  "end": 2788.858,
+  "speaker": "Unknown",
+  "en": "And then you generate, you overproduce data, and then you filter down, like I mentioned earlier.",
+  "zh": "然后你生成,过度生产数据,然后像我之前提到的那样过滤下来。"
+ },
+ {
+  "seg": 541,
+  "start": 2789.679,
+  "end": 2791,
+  "speaker": "Unknown",
+  "en": "And then you verify what you can.",
+  "zh": "然后你能验证的就验证。"
+ },
+ {
+  "seg": 542,
+  "start": 2792.585,
+  "end": 2793.586,
+  "speaker": "Unknown",
+  "en": "Iterate on the preview.",
+  "zh": "在预览上迭代。"
+ },
+ {
+  "seg": 543,
+  "start": 2793.846,
+  "end": 2797.23,
+  "speaker": "Unknown",
+  "en": "I think the best way to know if your data is any good is to actually look at the data.",
+  "zh": "我认为知道你的数据好不好,最好的办法就是真正去看这些数据。"
+ },
+ {
+  "seg": 544,
+  "start": 2797.75,
+  "end": 2801.014,
+  "speaker": "Unknown",
+  "en": "That's the best way, if you can review a few samples.",
+  "zh": "这是最好的办法,如果你能审查几个样本的话。"
+ },
+ {
+  "seg": 545,
+  "start": 2802.115,
+  "end": 2804.958,
+  "speaker": "Unknown",
+  "en": "And, of course, what is this idea of data designer?",
+  "zh": "那么 Data Designer 这个想法到底是什么?"
+ },
+ {
+  "seg": 546,
+  "start": 2804.978,
+  "end": 2813.268,
+  "speaker": "Unknown",
+  "en": "Essentially, you're taking the data creation process and making it something, you know, version controllable, shareable, like code.",
+  "zh": "本质上,你是把数据创建过程变成某种,你知道的,可版本控制、可分享的东西,像代码一样。"
+ },
+ {
+  "seg": 547,
+  "start": 2813.741,
+  "end": 2816.722,
+  "speaker": "Unknown",
+  "en": "So essentially we're creating code that can create data.",
+  "zh": "所以本质上我们在创建能够创建数据的代码。"
+ },
+ {
+  "seg": 548,
+  "start": 2817.262,
+  "end": 2826.004,
+  "speaker": "Unknown",
+  "en": "So now you can share this code with anyone because, you know, we already built all this tooling for sharing code and having version control and all of these other things.",
+  "zh": "这样你就可以和任何人分享这些代码,因为,你知道的,我们已经构建了所有这些用于分享代码、版本控制以及所有其他东西的工具。"
+ },
+ {
+  "seg": 549,
+  "start": 2826.384,
+  "end": 2836.127,
+  "speaker": "Unknown",
+  "en": "So if you're trying to do search but not exactly the way I did it and just slightly differently, you take my code, you modify it, and you can create your own data set from it.",
+  "zh": "所以如果你想做 search,但不完全像我那样做,只是稍有不同,你拿走我的代码,修改它,然后你就可以从它创建你自己的数据集。"
+ },
+ {
+  "seg": 550,
+  "start": 2837.647,
+  "end": 2842.008,
+  "speaker": "Unknown",
+  "en": "So something that's super interesting, I'm getting into the extra slides, which I didn't think I would.",
+  "zh": "所以有一件非常有趣的事情，我正在进入额外的幻灯片，我没想到我会这样做。"
+ },
+ {
+  "seg": 551,
+  "start": 2842.6,
+  "end": 2844.141,
+  "speaker": "Unknown",
+  "en": "I think I have 10 more minutes, right?",
+  "zh": "我想我还有 10 分钟，对吧？"
+ },
+ {
+  "seg": 552,
+  "start": 2845.242,
+  "end": 2849.024,
+  "speaker": "Unknown",
+  "en": "So this is something that's really interesting.",
+  "zh": "所以这是一件非常有趣的事情。"
+ },
+ {
+  "seg": 553,
+  "start": 2849.064,
+  "end": 2851.666,
+  "speaker": "Unknown",
+  "en": "We've created something called personas.",
+  "zh": "我们创造了一个叫做 persona（人物画像）的东西。"
+ },
+ {
+  "seg": 554,
+  "start": 2852.546,
+  "end": 2860.511,
+  "speaker": "Unknown",
+  "en": "So Nemotron Personas USA, it's also inspired from this other paper, which is scaling synthetic data creation with one billion personas.",
+  "zh": "所以 Nemotron Personas USA，它也是受另一篇论文的启发，那篇论文是用十亿 persona 扩展合成数据创建。"
+ },
+ {
+  "seg": 555,
+  "start": 2860.571,
+  "end": 2861.792,
+  "speaker": "Unknown",
+  "en": "So what is a persona, right?",
+  "zh": "那 persona 是什么，对吧？"
+ },
+ {
+  "seg": 556,
+  "start": 2862.372,
+  "end": 2871.798,
+  "speaker": "Unknown",
+  "en": "A persona is essentially, so we're trying to solve the problem here of how do you know if the data you've created actually",
+  "zh": "persona 本质上是，我们在这里试图解决的问题是，你怎么知道你创建的数据是否真的"
+ },
+ {
+  "seg": 557,
+  "start": 2872.85,
+  "end": 2879.236,
+  "speaker": "Unknown",
+  "en": "Adheres to like demographic information or grounded in some real-world distributions, right?",
+  "zh": "符合某种人口统计信息，或者根植于某种真实世界的分布，对吧？"
+ },
+ {
+  "seg": 558,
+  "start": 2879.256,
+  "end": 2881.157,
+  "speaker": "Unknown",
+  "en": "That's very important.",
+  "zh": "这非常重要。"
+ },
+ {
+  "seg": 559,
+  "start": 2881.578,
+  "end": 2895.449,
+  "speaker": "Unknown",
+  "en": "So if I were to create a data set of healthcare records in San Francisco, California, well, I want to make sure that the actual demographic of San Francisco is reflected in my data set, right?",
+  "zh": "所以如果我要创建一个加利福尼亚州旧金山的医疗记录数据集，嗯，我想确保旧金山实际的人口统计特征反映在我的数据集中，对吧？"
+ },
+ {
+  "seg": 560,
+  "start": 2895.87,
+  "end": 2899.353,
+  "speaker": "Unknown",
+  "en": "So like the number of, you know, there's all kinds of demographic features",
+  "zh": "所以比如，你知道的，有各种各样的人口统计特征"
+ },
+ {
+  "seg": 561,
+  "start": 2901.089,
+  "end": 2909.492,
+  "speaker": "Unknown",
+  "en": "So we created a dataset called Nemotron Personas using Data Designer, but is also now a seed in Data Designer to create more datasets.",
+  "zh": "所以我们用 Data Designer 创建了一个叫做 Nemotron Personas 的数据集，它现在也是 Data Designer 中用来创建更多数据集的一个种子。"
+ },
+ {
+  "seg": 562,
+  "start": 2910.232,
+  "end": 2922.436,
+  "speaker": "Unknown",
+  "en": "And this essentially allows you to learn from user data without actually leaking any single person's information out there.",
+  "zh": "而这本质上让你能够从用户数据中学习，而不会泄露任何单个人的信息。"
+ },
+ {
+  "seg": 563,
+  "start": 2922.857,
+  "end": 2926.498,
+  "speaker": "Unknown",
+  "en": "So now you can train AI models and you can learn from the aggregate of",
+  "zh": "所以现在你可以训练 AI 模型，你可以从聚合的"
+ },
+ {
+  "seg": 564,
+  "start": 2927.692,
+  "end": 2928.993,
+  "speaker": "Unknown",
+  "en": "You know, people's information.",
+  "zh": "你知道的，人们的信息中学习。"
+ },
+ {
+  "seg": 565,
+  "start": 2929.314,
+  "end": 2938.6,
+  "speaker": "Unknown",
+  "en": "But you don't actually have to have, like, for example, my healthcare records, you know, directly being used in training an AI model.",
+  "zh": "但你实际上不需要，比如，我的医疗记录，你知道的，直接被用于训练一个 AI 模型。"
+ },
+ {
+  "seg": 566,
+  "start": 2938.64,
+  "end": 2944.945,
+  "speaker": "Unknown",
+  "en": "I keep using the healthcare example because I want to find a sensitive industry which is, like, you know, there's HIPAA compliance.",
+  "zh": "我一直用医疗的例子，因为我想找一个敏感行业，比如，你知道的，有 HIPAA 合规。"
+ },
+ {
+  "seg": 567,
+  "start": 2944.965,
+  "end": 2947.807,
+  "speaker": "Unknown",
+  "en": "There's all kinds of regulations there, right, that we have to respect.",
+  "zh": "那里有各种各样的法规，对吧，我们必须遵守。"
+ },
+ {
+  "seg": 568,
+  "start": 2950.401,
+  "end": 2951.522,
+  "speaker": "Unknown",
+  "en": "So this is a persona.",
+  "zh": "所以这是一个 persona。"
+ },
+ {
+  "seg": 569,
+  "start": 2952.342,
+  "end": 2957.244,
+  "speaker": "Unknown",
+  "en": "This person is a 50-year-old pharmacist with a free spirit, balances her relaxed approach, blah, blah, blah.",
+  "zh": "这个人是一位 50 岁的药剂师，有着自由奔放的精神，平衡着她轻松的方式，等等等等。"
+ },
+ {
+  "seg": 570,
+  "start": 2957.905,
+  "end": 2967.389,
+  "speaker": "Unknown",
+  "en": "But essentially there's a persona, there's a professional persona, first name, last name, middle name, gender, age, all kinds of things.",
+  "zh": "但本质上有一个 persona，有一个职业 persona，名字、姓氏、中间名、性别、年龄，各种东西。"
+ },
+ {
+  "seg": 571,
+  "start": 2968.79,
+  "end": 2970.511,
+  "speaker": "Unknown",
+  "en": "And we have a million of these.",
+  "zh": "而我们有一百万个这样的。"
+ },
+ {
+  "seg": 572,
+  "start": 2971.211,
+  "end": 2977.354,
+  "speaker": "Unknown",
+  "en": "You can take this, you can use it however you please as seed to create more data.",
+  "zh": "你可以拿走它，随你喜好的方式用作种子来创建更多数据。"
+ },
+ {
+  "seg": 573,
+  "start": 2979.099,
+  "end": 2984.142,
+  "speaker": "Unknown",
+  "en": "So, yeah, I think with the personas, I will probably stop here.",
+  "zh": "所以，是的，我想关于 persona，我大概就讲到这里。"
+ },
+ {
+  "seg": 574,
+  "start": 2984.162,
+  "end": 2985.082,
+  "speaker": "Unknown",
+  "en": "So we have two more minutes.",
+  "zh": "我们还有两分钟。"
+ },
+ {
+  "seg": 575,
+  "start": 2985.102,
+  "end": 2987.823,
+  "speaker": "Unknown",
+  "en": "I'll talk about these other tools, and then we'll leave time for questions.",
+  "zh": "我会讲讲这些其他工具，然后留出时间提问。"
+ },
+ {
+  "seg": 576,
+  "start": 2988.244,
+  "end": 2989.024,
+  "speaker": "Unknown",
+  "en": "Oh, you want a question?",
+  "zh": "哦，你想要提问？"
+ },
+ {
+  "seg": 577,
+  "start": 2989.104,
+  "end": 2989.264,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 578,
+  "start": 2990.224,
+  "end": 2990.405,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 579,
+  "start": 2994.487,
+  "end": 2994.687,
+  "speaker": "Unknown",
+  "en": "For?",
+  "zh": "关于？"
+ },
+ {
+  "seg": 580,
+  "start": 2998.609,
+  "end": 2998.789,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 581,
+  "start": 2999.749,
+  "end": 3001.31,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah, yeah.",
+  "zh": "是的，是的，是的。"
+ },
+ {
+  "seg": 582,
+  "start": 3001.33,
+  "end": 3007.393,
+  "speaker": "Unknown",
+  "en": "So that's essentially why we created it, is to have a way to learn from aggregate information",
+  "zh": "所以这基本上就是我们创建它的原因，就是有一种方法可以从聚合信息中学习"
+ },
+ {
+  "seg": 583,
+  "start": 3008.087,
+  "end": 3011.728,
+  "speaker": "Unknown",
+  "en": "Without actually, like, you know, having individual people.",
+  "zh": "而不用真正，你知道的，涉及具体的个人。"
+ },
+ {
+  "seg": 584,
+  "start": 3011.748,
+  "end": 3014.449,
+  "speaker": "Unknown",
+  "en": "So, like, you could create synthetic social security numbers.",
+  "zh": "所以，比如，你可以创建合成的社会安全号码。"
+ },
+ {
+  "seg": 585,
+  "start": 3015.31,
+  "end": 3018.491,
+  "speaker": "Unknown",
+  "en": "Now, they're not actually gonna be, like, your social security number, right?",
+  "zh": "现在，它们实际上不会是你的社会安全号码，对吧？"
+ },
+ {
+  "seg": 586,
+  "start": 3018.931,
+  "end": 3036.978,
+  "speaker": "Unknown",
+  "en": "But I think the idea is, like, if there's, for example, I don't know, what is a good example that I... Yeah, yeah.",
+  "zh": "但我认为这个想法是，比如，如果有一个，我不知道，什么是一个好的例子，我……嗯，嗯。"
+ },
+ {
+  "seg": 587,
+  "start": 3038.32,
+  "end": 3039.42,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah, yeah, exactly.",
+  "zh": "是的，是的，是的，没错。"
+ },
+ {
+  "seg": 588,
+  "start": 3039.68,
+  "end": 3045.721,
+  "speaker": "Unknown",
+  "en": "So, for example, we actually created some tax data for, you know, a customer.",
+  "zh": "所以，比如，我们实际上为一个客户创建了一些税务数据。"
+ },
+ {
+  "seg": 589,
+  "start": 3046.181,
+  "end": 3056.343,
+  "speaker": "Unknown",
+  "en": "And this tax data, I realized there's exactly seven people in the U.S. who are below 18 earning more than $10 million a year on their tax return.",
+  "zh": "而这些税务数据，我发现在美国恰好有 7 个人年龄低于 18 岁，但在他们的报税单上年收入超过 1000 万美元。"
+ },
+ {
+  "seg": 590,
+  "start": 3056.703,
+  "end": 3063.264,
+  "speaker": "Unknown",
+  "en": "But there's, like, way more people who are older and they're earning, you know, X or Y or Z amount of money.",
+  "zh": "但有，比如，多得多的人年纪更大，他们挣着，你知道的，X 或 Y 或 Z 数额的钱。"
+ },
+ {
+  "seg": 591,
+  "start": 3063.324,
+  "end": 3067.545,
+  "speaker": "Unknown",
+  "en": "And so the tax data that we create, let's say we want to create a synthetic W2 form.",
+  "zh": "所以我们创建的税务数据，比方说我们想创建一个合成的 W2 表格。"
+ },
+ {
+  "seg": 592,
+  "start": 3068.267,
+  "end": 3078.416,
+  "speaker": "Unknown",
+  "en": "We want to make sure that that form is not just random values from the LLM, because the LLM is not going to give you... Have you asked an LLM to tell a joke?",
+  "zh": "我们想确保那个表格不只是来自 LLM 的随机数值，因为 LLM 不会给你……你有没有让一个 LLM 讲个笑话？"
+ },
+ {
+  "seg": 593,
+  "start": 3078.436,
+  "end": 3080.098,
+  "speaker": "Unknown",
+  "en": "It's going to tell you the same joke every time.",
+  "zh": "它每次都会给你讲同一个笑话。"
+ },
+ {
+  "seg": 594,
+  "start": 3080.518,
+  "end": 3084.882,
+  "speaker": "Unknown",
+  "en": "So similarly, it's not going to give you numbers that are realistic, right?",
+  "zh": "所以同样地，它不会给你符合现实的数字，对吧？"
+ },
+ {
+  "seg": 595,
+  "start": 3084.922,
+  "end": 3087.324,
+  "speaker": "Unknown",
+  "en": "It's always going to come back to the average of things.",
+  "zh": "它总是会回到事物的平均值。"
+ },
+ {
+  "seg": 596,
+  "start": 3087.865,
+  "end": 3093.73,
+  "speaker": "Unknown",
+  "en": "And so when you create data, you want to make sure that that synthetic W2 form or 1040 form or whatever",
+  "zh": "所以当你创建数据时，你想确保那个合成的 W2 表格或 1040 表格或 whatever"
+ },
+ {
+  "seg": 597,
+  "start": 3094.227,
+  "end": 3097.388,
+  "speaker": "Unknown",
+  "en": "is actually adhering to real-world distribution.",
+  "zh": "真正符合真实世界的分布。"
+ },
+ {
+  "seg": 598,
+  "start": 3097.408,
+  "end": 3099.008,
+  "speaker": "Unknown",
+  "en": "So that's why we created this persona dataset.",
+  "zh": "所以这就是我们创建这个 persona 数据集的原因。"
+ },
+ {
+  "seg": 599,
+  "start": 3101.909,
+  "end": 3103.069,
+  "speaker": "Unknown",
+  "en": "So we have a bunch of tools.",
+  "zh": "所以我们有一堆工具。"
+ },
+ {
+  "seg": 600,
+  "start": 3103.75,
+  "end": 3105.55,
+  "speaker": "Unknown",
+  "en": "Just two minutes and then more questions.",
+  "zh": "就两分钟,然后更多提问时间。"
+ },
+ {
+  "seg": 601,
+  "start": 3105.57,
+  "end": 3106.21,
+  "speaker": "Unknown",
+  "en": "Sorry about that.",
+  "zh": "不好意思。"
+ },
+ {
+  "seg": 602,
+  "start": 3107.611,
+  "end": 3109.651,
+  "speaker": "Unknown",
+  "en": "So we have a bunch of tools that we've created.",
+  "zh": "我们创建了一整套工具。"
+ },
+ {
+  "seg": 603,
+  "start": 3109.671,
+  "end": 3113.812,
+  "speaker": "Unknown",
+  "en": "Data Designer is only the tip of the iceberg, I guess.",
+  "zh": "Data Designer 我想只是冰山一角。"
+ },
+ {
+  "seg": 604,
+  "start": 3113.872,
+  "end": 3117.333,
+  "speaker": "Unknown",
+  "en": "But it's our most successful tool so far because it's our oldest tool.",
+  "zh": "但它是目前为止我们最成功的工具,因为它是我们最老的工具。"
+ },
+ {
+  "seg": 605,
+  "start": 3117.393,
+  "end": 3123.275,
+  "speaker": "Unknown",
+  "en": "We also have, you know, at NVIDIA, we have data curation tools.",
+  "zh": "我们还有,你知道,在 NVIDIA,我们有数据整理工具。"
+ },
+ {
+  "seg": 606,
+  "start": 3124.376,
+  "end": 3128.061,
+  "speaker": "Unknown",
+  "en": "So, which is Nemo Curator, which I'm sure there are other talks about this.",
+  "zh": "就是 Nemo Curator,我确定还有其他关于这个的演讲。"
+ },
+ {
+  "seg": 607,
+  "start": 3128.421,
+  "end": 3130.584,
+  "speaker": "Unknown",
+  "en": "I believe I saw on the schedule.",
+  "zh": "我记得在日程表上看到了。"
+ },
+ {
+  "seg": 608,
+  "start": 3130.785,
+  "end": 3131.726,
+  "speaker": "Unknown",
+  "en": "It is very interesting.",
+  "zh": "这非常有意思。"
+ },
+ {
+  "seg": 609,
+  "start": 3131.866,
+  "end": 3140.898,
+  "speaker": "Unknown",
+  "en": "You know, you have to take data, real-world data, curate it, modify it, post-process it, get it to a state where it's usable to train in LLMs.",
+  "zh": "你知道,你得拿数据,真实世界的数据,整理它、修改它、后处理它,让它达到可以用来训练 LLM 的状态。"
+ },
+ {
+  "seg": 610,
+  "start": 3141.498,
+  "end": 3143.08,
+  "speaker": "Unknown",
+  "en": "Or you can create synthetic data.",
+  "zh": "或者你可以创建合成数据。"
+ },
+ {
+  "seg": 611,
+  "start": 3143.32,
+  "end": 3144.801,
+  "speaker": "Unknown",
+  "en": "So I think it depends on your use case.",
+  "zh": "所以我认为这取决于你的用例。"
+ },
+ {
+  "seg": 612,
+  "start": 3144.821,
+  "end": 3148.505,
+  "speaker": "Unknown",
+  "en": "I'm not going to stand here and say synthetic data is the best thing ever for everything.",
+  "zh": "我不会站在这里说合成数据对一切事物都是最好的。"
+ },
+ {
+  "seg": 613,
+  "start": 3148.885,
+  "end": 3155.412,
+  "speaker": "Unknown",
+  "en": "But I think there are specific use cases where you want to curate real-world data or where you want to generate synthetic data.",
+  "zh": "但我认为有特定的用例,你想整理真实世界的数据,或者你想生成合成数据。"
+ },
+ {
+  "seg": 614,
+  "start": 3155.572,
+  "end": 3157.694,
+  "speaker": "Unknown",
+  "en": "And so we have data curation tools.",
+  "zh": "所以我们有数据整理工具。"
+ },
+ {
+  "seg": 615,
+  "start": 3157.734,
+  "end": 3161.097,
+  "speaker": "Unknown",
+  "en": "We have Data Designer, which is our synthetic data generation tool.",
+  "zh": "我们有 Data Designer,那是我们的合成数据生成工具。"
+ },
+ {
+  "seg": 616,
+  "start": 3161.501,
+  "end": 3163.282,
+  "speaker": "Unknown",
+  "en": "We have a new tool called Anonymizer.",
+  "zh": "我们有一个叫 Anonymizer 的新工具。"
+ },
+ {
+  "seg": 617,
+  "start": 3163.682,
+  "end": 3166.223,
+  "speaker": "Unknown",
+  "en": "And by the way, all these tools are completely open source.",
+  "zh": "顺便说一下,所有这些工具都是完全开源的。"
+ },
+ {
+  "seg": 618,
+  "start": 3166.464,
+  "end": 3172.947,
+  "speaker": "Unknown",
+  "en": "So everything that our org does at NVIDIA is fully open source, including Nemotron, including all these tools.",
+  "zh": "所以我们在 NVIDIA 的组织所做的一切都是完全开源的,包括 Nemotron,包括所有这些工具。"
+ },
+ {
+  "seg": 619,
+  "start": 3173.927,
+  "end": 3175.268,
+  "speaker": "Unknown",
+  "en": "So you can use it however you want.",
+  "zh": "所以你可以随意使用它。"
+ },
+ {
+  "seg": 620,
+  "start": 3176.729,
+  "end": 3179.69,
+  "speaker": "Unknown",
+  "en": "So this data tool is called Nemo Anonymizer.",
+  "zh": "这个数据工具叫 Nemo Anonymizer。"
+ },
+ {
+  "seg": 621,
+  "start": 3180.151,
+  "end": 3182.792,
+  "speaker": "Unknown",
+  "en": "And the goal here is can we actually anonymize data?",
+  "zh": "这里目标是,我们能不能真正地匿名化数据?"
+ },
+ {
+  "seg": 622,
+  "start": 3183.175,
+  "end": 3190.725,
+  "speaker": "Unknown",
+  "en": "So I don't know about you guys, but I don't know if I should be saying this when the talk is recorded, but I've been putting all kinds of things into my agents.",
+  "zh": "我不知道你们怎么样,但我不知道在演讲被录制的场合说这个合不合适,我一直在往我的智能体里塞各种东西。"
+ },
+ {
+  "seg": 623,
+  "start": 3190.805,
+  "end": 3197.193,
+  "speaker": "Unknown",
+  "en": "Like, you know, I accidentally put my API keys in there once or like, you know, some other sensitive information, right?",
+  "zh": "比如,你知道,我不小心把我的 API 密钥放进去过一两次,或者,你知道,一些其他敏感信息,对吧?"
+ },
+ {
+  "seg": 624,
+  "start": 3197.233,
+  "end": 3200.817,
+  "speaker": "Unknown",
+  "en": "And all this log data for like all your agents that you're using,",
+  "zh": "还有所有你正在使用的智能体的日志数据,"
+ },
+ {
+  "seg": 625,
+  "start": 3201.518,
+  "end": 3204.64,
+  "speaker": "Unknown",
+  "en": "We need some way to anonymize it before it's usable, right?",
+  "zh": "我们需要某种方法在它可用之前先匿名化,对吧?"
+ },
+ {
+  "seg": 626,
+  "start": 3204.98,
+  "end": 3206.521,
+  "speaker": "Unknown",
+  "en": "So that's what Anonymizer does.",
+  "zh": "所以这就是 Anonymizer 做的事。"
+ },
+ {
+  "seg": 627,
+  "start": 3206.861,
+  "end": 3210.463,
+  "speaker": "Unknown",
+  "en": "So that's just an example, but there's obviously many other ways to use Anonymizer.",
+  "zh": "这只是一个例子,但显然还有很多其他使用 Anonymizer 的方式。"
+ },
+ {
+  "seg": 628,
+  "start": 3210.983,
+  "end": 3218.668,
+  "speaker": "Unknown",
+  "en": "And then we have Nemo Safe Synthesizer, which is allowing us to generate safe synthetic versions of sensitive data sets as well.",
+  "zh": "然后我们还有 Nemo Safe Synthesizer,它让我们能够为敏感数据集生成安全的合成版本。"
+ },
+ {
+  "seg": 629,
+  "start": 3218.908,
+  "end": 3221.529,
+  "speaker": "Unknown",
+  "en": "So yeah, come talk to me if you have any questions.",
+  "zh": "所以,如果你有任何问题,来找我聊。"
+ },
+ {
+  "seg": 630,
+  "start": 3223.23,
+  "end": 3225.031,
+  "speaker": "Unknown",
+  "en": "Here's my LinkedIn if you want to stay in touch.",
+  "zh": "这是我的 LinkedIn,如果你想保持联系。"
+ },
+ {
+  "seg": 631,
+  "start": 3226.577,
+  "end": 3228.52,
+  "speaker": "Unknown",
+  "en": "Again, you can use Data Designer.",
+  "zh": "再说一次,你可以使用 Data Designer。"
+ },
+ {
+  "seg": 632,
+  "start": 3228.88,
+  "end": 3230.903,
+  "speaker": "Unknown",
+  "en": "I would love for you guys to try out the notebooks.",
+  "zh": "我非常希望你们能试试这些 notebook。"
+ },
+ {
+  "seg": 633,
+  "start": 3230.943,
+  "end": 3235.609,
+  "speaker": "Unknown",
+  "en": "I'm so sorry that we had only one hour, so I had to just blaze through all the code.",
+  "zh": "非常抱歉我们只有一个小时,所以我不得不快速过完所有代码。"
+ },
+ {
+  "seg": 634,
+  "start": 3236.089,
+  "end": 3237.311,
+  "speaker": "Unknown",
+  "en": "But you can try out the notebooks.",
+  "zh": "但你可以试试这些 notebook。"
+ },
+ {
+  "seg": 635,
+  "start": 3237.651,
+  "end": 3241.957,
+  "speaker": "Unknown",
+  "en": "We also have the blogs if you're interested in text to SQL or some other use case.",
+  "zh": "如果你对 text to SQL 或其他用例感兴趣,我们还有博客。"
+ },
+ {
+  "seg": 636,
+  "start": 3242.317,
+  "end": 3247.824,
+  "speaker": "Unknown",
+  "en": "So this is showing us how to use the personas.",
+  "zh": "这里展示的是如何使用 personas。"
+ },
+ {
+  "seg": 637,
+  "start": 3248.024,
+  "end": 3250.968,
+  "speaker": "Unknown",
+  "en": "I think there's a blog somewhere on how we created the personas dataset.",
+  "zh": "我想某处有一篇关于我们如何创建 personas 数据集的博客。"
+ },
+ {
+  "seg": 638,
+  "start": 3251.469,
+  "end": 3260.981,
+  "speaker": "Unknown",
+  "en": "For the U.S., we took the census information and we used a PGM, a probabilistic graphical model, to essentially create",
+  "zh": "对于美国,我们采用了人口普查信息,用了一个 PGM,一个概率图模型,本质上创建"
+ },
+ {
+  "seg": 639,
+  "start": 3262.242,
+  "end": 3272.55,
+  "speaker": "Unknown",
+  "en": "Like a connection between all, basically take that demographic information, process it, and then try to create a data set from it essentially.",
+  "zh": "就像一个连接,基本上把那些人口统计信息,处理它,然后尝试从中创建一个数据集。"
+ },
+ {
+  "seg": 640,
+  "start": 3272.97,
+  "end": 3273.871,
+  "speaker": "Unknown",
+  "en": "So that's what we did.",
+  "zh": "所以我们就是这么做的。"
+ },
+ {
+  "seg": 641,
+  "start": 3275.132,
+  "end": 3279.695,
+  "speaker": "Unknown",
+  "en": "And so every country publishes this demographic information.",
+  "zh": "每个国家都会发布这种人口统计信息。"
+ },
+ {
+  "seg": 642,
+  "start": 3280.136,
+  "end": 3284.039,
+  "speaker": "Unknown",
+  "en": "So it's not really like, I'm looking at other slides now.",
+  "zh": "所以其实不是……我现在在看其他幻灯片了。"
+ },
+ {
+  "seg": 643,
+  "start": 3284.439,
+  "end": 3286.621,
+  "speaker": "Unknown",
+  "en": "We've done a bunch of these workshops recently.",
+  "zh": "我们最近做了很多这样的工作坊。"
+ },
+ {
+  "seg": 644,
+  "start": 3288.202,
+  "end": 3291.003,
+  "speaker": "Unknown",
+  "en": "But yeah, there's all kinds of personas.",
+  "zh": "但,嗯,有各种各样的 personas。"
+ },
+ {
+  "seg": 645,
+  "start": 3291.564,
+  "end": 3298.787,
+  "speaker": "Unknown",
+  "en": "If you're trying to build for something outside the U.S., if you're building something for Japan, India, Singapore, Brazil, I'm sure we have more now.",
+  "zh": "如果你想为美国以外的地方构建,如果你在为日本、印度、新加坡、巴西构建,我相信我们现在有更多的了。"
+ },
+ {
+  "seg": 646,
+  "start": 3299.227,
+  "end": 3301.888,
+  "speaker": "Unknown",
+  "en": "So we have all kinds of personas data sets.",
+  "zh": "所以我们有各种各样的 personas 数据集。"
+ },
+ {
+  "seg": 647,
+  "start": 3301.908,
+  "end": 3312.533,
+  "speaker": "Unknown",
+  "en": "So it's giving us a way to create customized AI for whichever country you're interested.",
+  "zh": "所以它给了我们一种方法,为任何你感兴趣的国家创建定制化的 AI。"
+ },
+ {
+  "seg": 648,
+  "start": 3319.871,
+  "end": 3320.816,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 649,
+  "start": 3320.836,
+  "end": 3321.5,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

@@ -1,0 +1,1289 @@
+{
+  "episode_id": "2026-10-11-talks-teaching-agents-to-search-with-nvidia-da",
+  "podcast": "精选演讲",
+  "date": "2026-10-11",
+  "tags": [
+    "合成数据",
+    "智能体",
+    "开源模型",
+    "搜索工具调用",
+    "数据质量与评估"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "dhruv-nathawani",
+      "type": "person",
+      "role": "guest",
+      "name": "Dhruv Nathawani",
+      "file": "Dhruv Nathawani",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集说 NVIDIA 的 Nemotron 团队教模型做搜索，团队在 NVIDIA 做了一整套开源数据工具，演讲者自称是 NVIDIA 的研究科学家。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            280.184,
+            282.605
+          ],
+          "quote": "We have a large team at NVIDIA that works on this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            582.208,
+            585.73
+          ],
+          "quote": "So I'm running this on a NVIDIA GPU cluster.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1179.997,
+            1184.36
+          ],
+          "quote": "Like I mentioned before, I'm a research scientist at NVIDIA, and we're also part of the Nemotron team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1443.612,
+            1469.313
+          ],
+          "quote": "You can see on the right, the first topic is NVIDIA, and then NVIDIA is connected to Jensen, who is our CEO, and then that is connected to Oregon State University because Wikidata says that that's where he went to college, and then that college is located in Benton County, and Benton County is actually named after a person called Thomas Hart Benton.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2092.042,
+            2098.025
+          ],
+          "quote": "There's no reason apart from the fact that I think someone at NVIDIA did a deal with Tavly to get credits.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2230.889,
+            2236.874
+          ],
+          "quote": "So let's say, and by the way, we're doing this for search right now, or the team at NVIDIA is doing this for search.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 605,
+          "t": [
+            3117.393,
+            3123.275
+          ],
+          "quote": "We also have, you know, at NVIDIA, we have data curation tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 618,
+          "t": [
+            3166.464,
+            3172.947
+          ],
+          "quote": "So everything that our org does at NVIDIA is fully open source, including Nemotron, including all these tools.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nemotron",
+      "type": "company",
+      "role": "company",
+      "name": "Nemotron",
+      "file": "Nemotron",
+      "primary": true,
+      "how_described": "本集说 Nemotron 是 NVIDIA 的一系列开源基础模型，有三种不同尺寸；通过合成搜索数据训练后，BrowseComp 从 0% 提升到 30%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 241,
+          "t": [
+            1179.997,
+            1184.36
+          ],
+          "quote": "Like I mentioned before, I'm a research scientist at NVIDIA, and we're also part of the Nemotron team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1184.46,
+            1189.964
+          ],
+          "quote": "So Nemotron is a collection of open source foundation models that we've created.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1197.009,
+            1202.653
+          ],
+          "quote": "And so as part of that work, we actually had to teach Nemotron how to do search.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1990.193,
+            1997.657
+          ],
+          "quote": "We're talking about moving Nemotron Nano, which is our small size LLM or SLM.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2637.056,
+            2642.382
+          ],
+          "quote": "So like I mentioned earlier, we are the, you know, part of a much larger team that creates Nemotron, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 554,
+          "t": [
+            2852.546,
+            2860.511
+          ],
+          "quote": "So Nemotron Personas USA, it's also inspired from this other paper, which is scaling synthetic data creation with one billion personas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 561,
+          "t": [
+            2901.089,
+            2909.492
+          ],
+          "quote": "So we created a dataset called Nemotron Personas using Data Designer, but is also now a seed in Data Designer to create more datasets.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 618,
+          "t": [
+            3166.464,
+            3172.947
+          ],
+          "quote": "So everything that our org does at NVIDIA is fully open source, including Nemotron, including all these tools.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tavily",
+      "type": "company",
+      "role": "company",
+      "name": "Tavily",
+      "file": "Tavily",
+      "primary": true,
+      "how_described": "本集说 Tavily 是一家给智能体做搜索的公司，在训练数据生成里作为模型学习搜索的工具，注册还免费给 1000 个额度。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 192,
+          "t": [
+            948.714,
+            952.776
+          ],
+          "quote": "So the tool here is Tavily, which is nothing but a search tool for agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 195,
+          "t": [
+            964.782,
+            970.545
+          ],
+          "quote": "So Tavily is a good tool for the model to use to learn how to do that search.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "data-designer",
+      "type": "concept",
+      "role": "concept",
+      "name": "Data Designer",
+      "file": "Data Designer",
+      "primary": true,
+      "how_described": "本集说 Data Designer 是完全开源的合成数据框架，把数据集生成过程写成像代码一样可版本化、可分享的管道，已被用来生成 6.5 万亿 token 的训练数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            16.736,
+            28.905
+          ],
+          "quote": "It's about how do we build data pipelines using the tool that we created, Nemo Data Designer, to be able to create or add any kind of functionality to a model or an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            71.57,
+            78.392
+          ],
+          "quote": "And so we built a tool called Data Designer to build synthetic data pipelines, which does exactly that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            140.373,
+            143.537
+          ],
+          "quote": "And you need Data Designer, which is our tool for creating data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            158.797,
+            165.839
+          ],
+          "quote": "So we'll first spend a few minutes talking about what is Data Designer and why do we actually need a framework like this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            174.362,
+            176.922
+          ],
+          "quote": "The first notebook is about the basics of Data Designer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            246.314,
+            248.215
+          ],
+          "quote": "And so that's what Data Designer is for.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            249.075,
+            252.037
+          ],
+          "quote": "So Data Designer is a framework to create synthetic data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            277.263,
+            279.764
+          ],
+          "quote": "So Data Designer is a completely open source framework.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            284.566,
+            289.829
+          ],
+          "quote": "And you can just install it by running pip install Data Designer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            291.95,
+            306.036
+          ],
+          "quote": "And I think what we're really proud of is Data Designer has been used to create six and a half trillion tokens of training data, and this is increasing every single day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            383.006,
+            385.227
+          ],
+          "quote": "So that's why we created Data Designer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            389.098,
+            393.501
+          ],
+          "quote": "We have many different columns or features in Data Designer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            394.561,
+            399.104
+          ],
+          "quote": "These columns are essentially a Data Designer abstraction.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            400.122,
+            403.183
+          ],
+          "quote": "In Data Designer, we generate data column by column.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            460.291,
+            469.017
+          ],
+          "quote": "We also, our data designer is now multimodal, so you can generate images as well, and you can validate your generations too.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            515.871,
+            517.632
+          ],
+          "quote": "So this is our data designer repo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            544.513,
+            546.734
+          ],
+          "quote": "So this is our intro to data designer notebook.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            568.08,
+            569.681
+          ],
+          "quote": "You know, import Data Designer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            571.902,
+            576.765
+          ],
+          "quote": "And once you do that, you see in Data Designer, there's a concept of model providers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            632.229,
+            638.475
+          ],
+          "quote": "And so, essentially, now we're trying to create a data designer workflow, but with Wikipedia topics.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            759.587,
+            767.815
+          ],
+          "quote": "So the way data creation works is we have something called preview mode in Data Designer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1167.741,
+            1177.784
+          ],
+          "quote": "So let's talk about search, because we just went through a couple of notebooks showing us how to use Data Designer, and that's fine, but what's the problem we're actually trying to solve?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1929.279,
+            1934.584
+          ],
+          "quote": "So all the data sets we've created with Data Designer, we have blog posts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1945.997,
+            1957.122
+          ],
+          "quote": "But essentially, Data Designer can be used to create any kind of dataset for training AI models, possibly other datasets as well if you're looking for test datasets not related to model training and so on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1958.042,
+            1964.525
+          ],
+          "quote": "And we have a bunch of data tools that we've created in our team, apart from Data Designer that I'll talk about in the end.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 418,
+          "t": [
+            2121.68,
+            2125.021
+          ],
+          "quote": "Data Designer using the model that you choose.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2143.729,
+            2147.79
+          ],
+          "quote": "But Data Designer is not just a collection of LLMs that you can use to create data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2216.364,
+            2222.447
+          ],
+          "quote": "So it's distillation, but it can also be more powerful than that because of all the things we've built into a data designer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2227.686,
+            2229.027
+          ],
+          "quote": "You can use Data Designer for RL.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 529,
+          "t": [
+            2736.877,
+            2743.444
+          ],
+          "quote": "There's also pre-training data sets that we've created using Data Designer for STEM performance and so on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 545,
+          "t": [
+            2802.115,
+            2804.958
+          ],
+          "quote": "And, of course, what is this idea of data designer?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 561,
+          "t": [
+            2901.089,
+            2909.492
+          ],
+          "quote": "So we created a dataset called Nemotron Personas using Data Designer, but is also now a seed in Data Designer to create more datasets.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 603,
+          "t": [
+            3109.671,
+            3113.812
+          ],
+          "quote": "Data Designer is only the tip of the iceberg, I guess.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 615,
+          "t": [
+            3157.734,
+            3161.097
+          ],
+          "quote": "We have Data Designer, which is our synthetic data generation tool.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 631,
+          "t": [
+            3226.577,
+            3228.52
+          ],
+          "quote": "Again, you can use Data Designer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "synthetic-data",
+      "type": "concept",
+      "role": "concept",
+      "name": "合成数据 (synthetic data)",
+      "file": "合成数据",
+      "primary": true,
+      "how_described": "本集说合成数据生成可以从零或从种子数据集批量造训练数据，但循环提示模型会撞多样性之墙，且质量比数量重要——5 万种子最后只留 7000 条。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            71.57,
+            78.392
+          ],
+          "quote": "And so we built a tool called Data Designer to build synthetic data pipelines, which does exactly that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            249.075,
+            252.037
+          ],
+          "quote": "So Data Designer is a framework to create synthetic data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            265.071,
+            269.234
+          ],
+          "quote": "So your synthetic data is not just made up by a model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            316.078,
+            318.479
+          ],
+          "quote": "So what is synthetic data generation, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            319.579,
+            335.423
+          ],
+          "quote": "Well, one way to do synthetic data generation is take a loop, run it a million times, and then if you want to create a product review data set, just, you know, continually prompt the LLM saying, give me a product, give me a review, and then give me a customer profile.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            499.512,
+            507.618
+          ],
+          "quote": "So I think if you understand the code, it will be much easier to use Codex or Claude Code to write your own synthetic data workflows for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            594.309,
+            596.691
+          ],
+          "quote": "or any open model to create synthetic data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2368.692,
+            2377.737
+          ],
+          "quote": "So let me move on, and we can have more questions at the end, to something really interesting, which is evaluating your synthetic data, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2380.759,
+            2385.262
+          ],
+          "quote": "Because without this evaluation step, the synthetic data is not that useful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2386.462,
+            2393.306
+          ],
+          "quote": "So when I started, just to give you a sense of how SDG, as we call it, works, synthetic data generation, I started with 50,000 seeds.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 554,
+          "t": [
+            2852.546,
+            2860.511
+          ],
+          "quote": "So Nemotron Personas USA, it's also inspired from this other paper, which is scaling synthetic data creation with one billion personas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 610,
+          "t": [
+            3141.498,
+            3143.08
+          ],
+          "quote": "Or you can create synthetic data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 612,
+          "t": [
+            3144.821,
+            3148.505
+          ],
+          "quote": "I'm not going to stand here and say synthetic data is the best thing ever for everything.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 613,
+          "t": [
+            3148.885,
+            3155.412
+          ],
+          "quote": "But I think there are specific use cases where you want to curate real-world data or where you want to generate synthetic data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 615,
+          "t": [
+            3157.734,
+            3161.097
+          ],
+          "quote": "We have Data Designer, which is our synthetic data generation tool.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说可以把目标智能体行为（如搜索）转化为数据问题，为智能体造带工具调用轨迹的训练数据，还能匿名化智能体日志。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            16.736,
+            28.905
+          ],
+          "quote": "It's about how do we build data pipelines using the tool that we created, Nemo Data Designer, to be able to create or add any kind of functionality to a model or an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 8,
+          "t": [
+            51.578,
+            60.264
+          ],
+          "quote": "The first thing we're going to learn is how do you actually take a target agent behavior that you want and turn it into a data problem, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            60.344,
+            65.067
+          ],
+          "quote": "So basically, can we create data for this targeted agent behavior?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            945.972,
+            948.273
+          ],
+          "quote": "An agent to essentially connect to tools, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1142.144,
+            1145.485
+          ],
+          "quote": "Or that's what it gives the agent when the agent makes the query.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1519.718,
+            1522.341
+          ],
+          "quote": "An agent, the chance to cheat, it's going to cheat.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1716.962,
+            1725.728
+          ],
+          "quote": "So the way to create this data set is, well, you are an expert search agent that uses web search to answer questions accurately.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1752.723,
+            1762.555
+          ],
+          "quote": "But essentially, jokes aside, what you want here is your agent shouldn't go crazy and try to like, you know,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1816.395,
+            1831.905
+          ],
+          "quote": "And then we ask the model to create a response using this agent solution draw, which I showed earlier in the second notebook.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1860.779,
+            1863.541
+          ],
+          "quote": "And then this agent solution draw is not displayed in here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 412,
+          "t": [
+            2099.066,
+            2101.167
+          ],
+          "quote": "EXA is another search agent provider.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2481.196,
+            2489.942
+          ],
+          "quote": "And I thought the answer is the U.S. And so I guess the agent predicted U.S. in the training dataset.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "seed-data",
+      "type": "concept",
+      "role": "concept",
+      "name": "种子数据 (seed data)",
+      "file": "种子数据",
+      "primary": true,
+      "how_described": "本集说种子数据让合成数据不只是模型凭空编造，而是基于真实世界分布，可用 Wikipedia、公司 CSV 乃至 Wikidata 随机游走路径作为种子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 46,
+          "t": [
+            236.569,
+            245.874
+          ],
+          "quote": "What we're proposing is that we could actually synthetically generate data either from scratch or from a seed data set.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            253.742,
+            256.744
+          ],
+          "quote": "And what do I mean by seed data?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            256.804,
+            264.631
+          ],
+          "quote": "So seed data, like you could use Wikipedia data as a seed and then try to create synthetic training data from Wikipedia.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            406.605,
+            409.906
+          ],
+          "quote": "So I gave the example of Wikipedia, which could be a seed data set.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 199,
+          "t": [
+            987.728,
+            1004.895
+          ],
+          "quote": "So, again, you have the imports, you have the model configs, and then the same seed data set, the same sampler column, so question difficulty, question type, and so on, and then you actually create the question, and then at the end, you get like a config, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1424.634,
+            1430.919
+          ],
+          "quote": "And what we did is we did a few hops along this graph, and that is our seed data set.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1490.89,
+            1495.095
+          ],
+          "quote": "So that is essentially our seed data set to create search riddles.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 395,
+          "t": [
+            2027.615,
+            2030.856
+          ],
+          "quote": "No, this is a deterministic algorithm to create the seed data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 400,
+          "t": [
+            2047.382,
+            2050.704
+          ],
+          "quote": "This is just something I came up with to create seed data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 402,
+          "t": [
+            2052.023,
+            2053.425
+          ],
+          "quote": "You can have any kind of seed data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 403,
+          "t": [
+            2053.586,
+            2057.672
+          ],
+          "quote": "Maybe you can come up with a better way of creating seed data than this as well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "wikidata",
+      "type": "concept",
+      "role": "concept",
+      "name": "Wikidata",
+      "file": "Wikidata",
+      "primary": true,
+      "how_described": "本集说 Wikidata 是 Wikipedia 主题的图谱，随机抽实体走五到八跳生成搜索谜题，能造出模型必须搜索、无法靠记忆回答的难题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 285,
+          "t": [
+            1422.632,
+            1424.614
+          ],
+          "quote": "So it's called Wikidata.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1443.612,
+            1469.313
+          ],
+          "quote": "You can see on the right, the first topic is NVIDIA, and then NVIDIA is connected to Jensen, who is our CEO, and then that is connected to Oregon State University because Wikidata says that that's where he went to college, and then that college is located in Benton County, and Benton County is actually named after a person called Thomas Hart Benton.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1471.662,
+            1482.43
+          ],
+          "quote": "If you took, if you randomly sampled an entity in Wikidata and then did five to eight hops along it, and I'll explain why five to eight, you'll end up",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1687.422,
+            1695.608
+          ],
+          "quote": "So the way my seed collection algorithm works is like you can run it a million times and you'll get a million different hops along Wikidata, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm-as-a-judge",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM 作为裁判 (LLM as a judge)",
+      "file": "LLM 作为裁判",
+      "primary": true,
+      "how_described": "本集说用 LLM 当裁判给生成数据打分，但单靠它不够——裁判的判断还要送人工复核，评估是多层面问题、没有一招通吃。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 160,
+          "t": [
+            812.565,
+            817.188
+          ],
+          "quote": "And then you can also add LLM as a judge to score how your model is doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            884.502,
+            888.227
+          ],
+          "quote": "So this is obviously a very simple example and then you have the LLM as a judge.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2438.656,
+            2458.899
+          ],
+          "quote": "After that, I created this function to help us show like this is what the LLM as a judge scores for each trajectory and what is like your, you know, number of words in your question or search query and then here is your keep percentage 66% and so on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2553.972,
+            2559.434
+          ],
+          "quote": "So you can't just take LLM as a judge and put it in there and hope that that's going to, you know,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2588.492,
+            2604.402
+          ],
+          "quote": "Something I did really interesting is I actually did LLM as a judge, and I took the judgments, and I sent them to human reviewers, and I have those reviewers cross-check the judgments of the LLM, and essentially give me confidence that the LLM is...",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nemotron-personas",
+      "type": "concept",
+      "role": "concept",
+      "name": "Nemotron Personas",
+      "file": "Nemotron Personas",
+      "primary": true,
+      "how_described": "本集说 Nemotron Personas 是 100 万个基于美国人口普查数据用概率图模型生成的虚构人物档案，让合成数据贴合真实分布且不泄露任何真人信息。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 554,
+          "t": [
+            2852.546,
+            2860.511
+          ],
+          "quote": "So Nemotron Personas USA, it's also inspired from this other paper, which is scaling synthetic data creation with one billion personas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 561,
+          "t": [
+            2901.089,
+            2909.492
+          ],
+          "quote": "So we created a dataset called Nemotron Personas using Data Designer, but is also now a seed in Data Designer to create more datasets.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "diversity",
+      "type": "concept",
+      "role": "concept",
+      "name": "多样性 (diversity)",
+      "file": "多样性",
+      "primary": true,
+      "how_described": "本集说反复提示同一个 LLM 十几次后就开始重复，多样性是合成数据最重要的东西，靠采样列、种子数据和模板变量注入。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            342.954,
+            345.096
+          ],
+          "quote": "Well, diversity, diversity, diversity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            420.591,
+            426.274
+          ],
+          "quote": "And then you can try to add sampler columns to inject diversity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2427.564,
+            2435.35
+          ],
+          "quote": "It can be task-specific, but it can also be generic, like diversity is one way to, you know, one axis of quality, I would say.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 532,
+          "t": [
+            2754.321,
+            2763.062
+          ],
+          "quote": "But essentially, diversity before volume, I think the Kimi K2 paper showed something similar, which is ten strategies, one epoch is better than one epoch.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说 MCP 是让智能体连接工具的标准，第二个 notebook 用 MCP 接上 Tavily 来创建智能体数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            179.418,
+            183.901
+          ],
+          "quote": "And then the second notebook is about model context protocol or MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            901.109,
+            911.375
+          ],
+          "quote": "We have a second notebook which focuses more on MCP, and then we're going to build to the third notebook which I think everyone will find interesting because that's where we'll actually talk about search.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 189,
+          "t": [
+            937.753,
+            940.213
+          ],
+          "quote": "So let's talk about MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            940.754,
+            943.815
+          ],
+          "quote": "So MCP is a standard which allows",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1665.573,
+            1672.939
+          ],
+          "quote": "We already spoke about how we import all these prompts, and I wrote a function to use Tavali with MCP.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "distillation",
+      "type": "concept",
+      "role": "concept",
+      "name": "蒸馏 (distillation)",
+      "file": "蒸馏",
+      "primary": false,
+      "how_described": "本集说用合成数据训练某种程度上是蒸馏，但 Nemotron 从 GPT OSS 蒸馏后在 StructEval 上超越了它，所以可以比蒸馏更强。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 430,
+          "t": [
+            2183.362,
+            2187.386
+          ],
+          "quote": "Yes, you are distilling, but in some cases you can even go beyond distillation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2216.364,
+            2222.447
+          ],
+          "quote": "So it's distillation, but it can also be more powerful than that because of all the things we've built into a data designer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": false,
+      "how_described": "本集说演讲者的主要方向是为后训练创建数据集，搜索谜题项目就是后训练方面的 SFT 数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 406,
+          "t": [
+            2069.674,
+            2074.255
+          ],
+          "quote": "We have created data sets that can be used in pre-training and post-training.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2074.655,
+            2079.996
+          ],
+          "quote": "My main focus is post-training or, you know, creating data sets for post-training.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2080.076,
+            2086.938
+          ],
+          "quote": "So, this specific, I guess, project was SFD in post-training.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rl",
+      "type": "concept",
+      "role": "concept",
+      "name": "RL",
+      "file": "RL",
+      "primary": false,
+      "how_described": "本集说 Data Designer 也能用于 RL——只生成提示词数据集，配合 Nemo Gym 写奖励函数实时执行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 437,
+          "t": [
+            2227.686,
+            2229.027
+          ],
+          "quote": "You can use Data Designer for RL.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 442,
+          "t": [
+            2253.888,
+            2259.369
+          ],
+          "quote": "Which is essentially an RL reward function.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2259.889,
+            2264.65
+          ],
+          "quote": "You know, I guess it's a tool to basically teach your models how to do RL.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 445,
+          "t": [
+            2271.732,
+            2282.034
+          ],
+          "quote": "And then you can use any RL training framework to execute in real time with those tools and then provide a reward in RL.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

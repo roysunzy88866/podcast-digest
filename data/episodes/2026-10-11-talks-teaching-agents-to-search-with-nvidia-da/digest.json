@@ -1,0 +1,203 @@
+{
+  "title_zh": "教 AI 学会上网搜:NVIDIA 怎么造出「会搜索」的模型",
+  "tldr": "NVIDIA 研究科学家 Dhruv Nathawani 讲解如何用开源工具 Data Designer 合成训练数据，教会大模型主动调用搜索工具。",
+  "digest_md": "大模型有个众所周知的软肋：它的知识有截止日期。训练完成后，世界上发生的新事它一概不知。NVIDIA 的 Nemotron 团队最近做了一件事——教会自家开源模型在需要时主动去搜索。这场演讲的核心，其实是更通用的一套方法：怎么把你想要的模型行为变成一个数据问题，再批量造出训练数据。\n\n## 为什么不能直接让大模型自己编数据？\n\n最朴素的合成数据方法，是写个循环，反复提示大模型「给我一个产品、给我一条评论」，跑上一百万次。Nathawani 说，这条路会撞墙，问题出在「多样性、多样性、多样性」——反复提示同一个模型，十几二十次之后它就开始重复，给不出新东西 [05:45 Unknown]。\n\n而且这样造出的数据缺少字段之间的关联，没法控制生成方向，也没有验证环节。别人拿到你的数据集，也没法复现你的生产过程。\n\nData Designer 就是为解决这些问题造的。它是一个完全开源的框架，pip 一行命令就能装上，至今已被用来生成 6.5 万亿个训练数据字符。核心思路是：把数据集的生成过程写成一串代码，像管理代码一样版本化、分享、复用 [04:37 Unknown]。\n\n## 数据是按列长出来的\n\nData Designer 里，**数据集是一列一列生成的**。可以给一个种子数据集，比如维基百科主题列表、公司的 CSV 文件，也可以从零开始。然后往上面加采样列注入多样性——比如给编程题加一个难度列：简单、中等、困难，还能配权重，让中等题更多。\n\n接着是模型生成的列，提示词里嵌入模板变量，运行时自动替换成前面采样的主题。这样每个提示词都不一样，模型产出的数据自然多样。生成的过程先跑预览模式，先出 3 条看看，不满意就改提示词重来——数据创建是个反复迭代的过程，不是一锤子买卖 [17:48 Unknown]。\n\n## 让模型别自己瞎答，去用搜索工具\n\n第二个关键变化在答案生成这步。普通的问答数据是请生成答案；而**要造智能体数据，提示词变成：你有 Tavily 这个搜索工具，请用它去网上找答案** [17:27 Unknown]。\n\nTavily 是一家给智能体做搜索的公司。模型收到一道难死人都不认识答案的题，比如「Telefunken 在 1949 年把总部搬到了哪个德国城市」——它会先发起搜索，读回一堆链接和内容，再推理出答案。整个过程被记录下来，就是一条带工具调用的训练数据。\n\n## 用维基数据图谱，造出「模型不可能背出答案」的谜题\n\n最难的问题来了：==上哪去找那么多模型训练数据里没有、必须搜索才能答的题==？\n\nNemotron 团队的办法很巧。Wikidata 是维基百科主题的图谱，实体之间有连接。他们随机挑一个实体，沿着图谱走五到八步——比如从 NVIDIA 出发，连到公司创始人，连到他上过的俄勒冈州立大学，连到学校所在的 Benton County，再连到这个县名字的来源人物 Thomas Hart Benton [24:03 Unknown]。\n\n然后让模型用这条链编一道谜语：某公司由某人创立，此人上的大学所在的县以某位政治家命名，这家公司是哪家？这种题模型背不出来，只能一步步搜。\n\n为什么是五到八步？步数太少题太简单，太多又容易走偏——走着走着就跳到人类这种毫无信息量的实体上去了 [25:53 Unknown]。\n\n这套数据效果如何？Nemotron 模型在搜索基准 BrowseComp 上从 0% 提升到 30%。那道著名的难题——1990 到 1994 年间，哪场足球比赛由巴西裁判执法、双方各得两张黄牌——答案是爱尔兰对罗马尼亚。另在 SQL 基准 Bird 上，模型从 26% 提升到 41% [31:56 Unknown]。\n\n## 五万条种子，最后只留下七千条\n\n**数据质量比数量重要得多**。Nathawani 从 5 万个种子开始，层层过滤，最后只留下 7000 条高质量的完整训练记录 [39:55 Unknown]。\n\n验证答案对不对，本身就是个难题。他举了个翻车例子：一道题问「美国钢铁公司属于哪个国家」，数据集里的答案是美国，验证器判为正确。可他后来一查，美国钢铁几年前已经卖给了日本——连种子数据都会过时 [41:48 Unknown]。\n\n他的解法是多层验证叠在一起：让一个模型当裁判打分，再把裁判的判断送给人复核，看裁判本身靠不靠谱；搜索类的题再对照实时信息。只查 100 个问题，只能说明这 100 个问题不存在，数据里可能还藏着另外 1000 个问题——评估是个多面问题，没有一招通吃 [42:33 Unknown]。\n\n## 一百万个虚构的人，让数据贴近真实分布\n\n团队还发布了 Nemotron Personas 数据集：100 万个虚构人物档案，有姓名、年龄、职业、性格，全部基于美国人口普查数据用概率图模型生成 [54:11 Unknown]。\n\n用途很实际。比如要造合成报税数据，不能让模型瞎填数字——让模型讲笑话，它每次讲同一个；让它填收入，它也总回到平均值。真实情况是，全美 18 岁以下年收入超过 1000 万美元的报税人恰好只有 7 个。用人物画像当种子，合成的 W2 表格才会贴合真实世界的分布 [50:46 Unknown]。\n\n另一个好处是隐私：模型能从人群的整体信息中学习，而不需要任何真实个人的记录进入训练集。\n\n## 本集带走\n\n- 把想要的模型行为转化为数据问题，再用 Data Designer 这样的工具批量合成，是可复用的一套通用方法。\n- 直接循环提示模型造数据，最大死穴是多样性不足；用采样列、种子数据和模板变量来注入变化。\n- 用 Wikidata 图谱随机走五到八步编谜语，能造出模型必须调用搜索、无法靠记忆回答的难题，让 Nemotron 在 BrowseComp 上从 0% 升到 30%。\n- 数据质量优先于数量：5 万种子筛到 7000 条才用；评估要用模型裁判、人工复核、实时信息多层叠加。\n- Nemotron Personas 提供 100 万个贴合真实人口分布的虚构人物，让敏感行业（如医疗、税务）既能造出逼真数据，又不泄露任何真人隐私。",
+  "quotes": [
+    {
+      "en": "internet data is not the data you want for your transformer.",
+      "zh": "互联网数据并不是你的 transformer 想要的数据。",
+      "timestamp": "03:22",
+      "speaker": "Dhruv Nathawani"
+    },
+    {
+      "en": "So your synthetic data is not just made up by a model. It is grounded in real-world distribution and real-world data.",
+      "zh": "这样你的合成数据就不只是由一个模型凭空编造的，它基于真实世界分布和真实世界数据。",
+      "timestamp": "04:25",
+      "speaker": "Dhruv Nathawani"
+    },
+    {
+      "en": "Data Designer has been used to create six and a half trillion tokens of training data, and this is increasing every single day.",
+      "zh": "Data Designer 已经被用来创建了六万五千亿 token 的训练数据，而且这个数字每天都在增长。",
+      "timestamp": "04:56",
+      "speaker": "Dhruv Nathawani"
+    },
+    {
+      "en": "If you continually prompt LLM after 10, 12, maybe 20 tries, it's going to start repeating stuff.",
+      "zh": "如果你不停地给 LLM 提示词，大概 10 次、12 次，也许 20 次之后，它就会开始重复内容了。",
+      "timestamp": "05:46",
+      "speaker": "Dhruv Nathawani"
+    },
+    {
+      "en": "Some closed models prevent you, because of licensing issues, from creating data from it and using it for training models. But open models are usually fair game.",
+      "zh": "一些封闭模型出于许可问题，会阻止你用它们生成数据并用于训练模型。但开放模型通常随便用。",
+      "timestamp": "09:58",
+      "speaker": "Dhruv Nathawani"
+    },
+    {
+      "en": "An agent, the chance to cheat, it's going to cheat. It's going to just give us the answer.",
+      "zh": "给一个智能体作弊的机会，它就会作弊，它会直接把答案给我们。",
+      "timestamp": "25:19",
+      "speaker": "Dhruv Nathawani"
+    },
+    {
+      "en": "So we want to make the questions as difficult and as, I guess, riddle-like as possible so we can invoke the search behavior from the model.",
+      "zh": "所以我们想把问题设计得尽可能难，尽可能像谜题一样，这样我们才能从模型中激发出搜索行为。",
+      "timestamp": "25:29",
+      "speaker": "Dhruv Nathawani"
+    },
+    {
+      "en": "So we moved the bird benchmark from 26% to 41%.",
+      "zh": "我们把 Bird 基准从 26% 提升到了 41%。",
+      "timestamp": "31:56",
+      "speaker": "Dhruv Nathawani"
+    },
+    {
+      "en": "Yes, you are distilling, but in some cases you can even go beyond distillation.",
+      "zh": "是的，你是在蒸馏，但在某些情况下你甚至可以超越蒸馏。",
+      "timestamp": "36:23",
+      "speaker": "Dhruv Nathawani"
+    },
+    {
+      "en": "I started with 50,000 seeds. And in the end, I ended up only with 7,000 high-quality end-to-end SFT records.",
+      "zh": "我从 5 万个种子开始，最后我只得到了 7000 条高质量的端到端 SFT 记录。",
+      "timestamp": "39:52",
+      "speaker": "Dhruv Nathawani"
+    },
+    {
+      "en": "Evaluation is a problem where if you check for 100 problems and if you see that those 100 problems, all you can tell from checking for 100 problems is those 100 issues don't exist in your dataset. There could be 1,000 other issues.",
+      "zh": "评估是一个这样的问题：如果你检查 100 个问题，你能从中得出的结论只是这 100 个问题不在你的数据集中，但可能还有 1000 个其他的问题。",
+      "timestamp": "42:42",
+      "speaker": "Dhruv Nathawani"
+    },
+    {
+      "en": "Ten strategies, one epoch is better than ten epochs, one strategy.",
+      "zh": "十个策略、一个 epoch，好过十个 epoch、一个策略。",
+      "timestamp": "46:04",
+      "speaker": "Dhruv Nathawani"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "03:19",
+      "speaker": "Unknown",
+      "en": "internet data is not the data you want for your transformer.",
+      "zh": "互联网数据并不是你的 transformer 想要的数据。"
+    },
+    {
+      "timestamp": "03:56",
+      "speaker": "Unknown",
+      "en": "What we're proposing is that we could actually synthetically generate data either from scratch or from a seed data set.",
+      "zh": "我们提出的是，我们实际上可以从零开始，或从一个种子数据集合成生成数据。"
+    },
+    {
+      "timestamp": "04:25",
+      "speaker": "Unknown",
+      "en": "So your synthetic data is not just made up by a model. It is grounded in real-world distribution and real-world data.",
+      "zh": "这样你的合成数据就不只是由一个模型凭空编造的，它基于真实世界分布和真实世界数据。"
+    },
+    {
+      "timestamp": "04:51",
+      "speaker": "Unknown",
+      "en": "Data Designer has been used to create six and a half trillion tokens of training data, and this is increasing every single day.",
+      "zh": "Data Designer 已经被用来创建了六万五千亿 token 的训练数据，而且这个数字每天都在增长。"
+    },
+    {
+      "timestamp": "05:42",
+      "speaker": "Unknown",
+      "en": "Well, diversity, diversity, diversity. That's the most important thing, right?",
+      "zh": "嗯，多样性、多样性、多样性。这是最重要的事情，对吧？"
+    },
+    {
+      "timestamp": "05:46",
+      "speaker": "Unknown",
+      "en": "If you continually prompt LLM after 10, 12, maybe 20 tries, it's going to start repeating stuff.",
+      "zh": "如果你不停地给 LLM 提示词，大概 10 次、12 次，也许 20 次之后，它就会开始重复内容了。"
+    },
+    {
+      "timestamp": "10:05",
+      "speaker": "Unknown",
+      "en": "Some closed models prevent you, because of licensing issues, from creating data from it and using it for training models. But open models are usually fair game.",
+      "zh": "一些封闭模型出于许可问题，会阻止你用它们生成数据并用于训练模型。但开放模型通常随便用。"
+    },
+    {
+      "timestamp": "11:57",
+      "speaker": "Unknown",
+      "en": "So essentially every prompt that the LLM sees is now unique and diverse, and so the model is going to give you diverse data when you actually hit generate.",
+      "zh": "所以本质上 LLM 看到的每一个 prompt 现在都是独特且多样的，因此当你真正点击 generate 时，模型会给你多样化的数据。"
+    },
+    {
+      "timestamp": "17:48",
+      "speaker": "Unknown",
+      "en": "It's not like one and done. So when you create some data, look at it. If you're not happy with it, then probably you go change your workflow, change your prompts, and then iterate on it.",
+      "zh": "它不是一次就完事的。所以当你创建了一些数据，要看看它。如果你不满意，那么很可能你会去修改你的工作流、修改你的提示词，然后对其进行迭代。"
+    },
+    {
+      "timestamp": "25:19",
+      "speaker": "Unknown",
+      "en": "An agent, the chance to cheat, it's going to cheat. It's going to just give us the answer.",
+      "zh": "给一个智能体作弊的机会，它就会作弊，它会直接把答案给我们。"
+    },
+    {
+      "timestamp": "25:29",
+      "speaker": "Unknown",
+      "en": "So we want to make the questions as difficult and as, I guess, riddle-like as possible so we can invoke the search behavior from the model.",
+      "zh": "所以我们想把问题设计得尽可能难，尽可能像谜题一样，这样我们才能从模型中激发出搜索行为。"
+    },
+    {
+      "timestamp": "23:11",
+      "speaker": "Unknown",
+      "en": "So how did we actually create a dataset that allows us to train a model to go from 0% to 30% on this BrowseCom benchmark?",
+      "zh": "那么我们实际上是怎么创建一个数据集，让我们能把模型在这个 BrowseComp benchmark 上从 0% 训练到 30% 的？"
+    },
+    {
+      "timestamp": "31:56",
+      "speaker": "Unknown",
+      "en": "So we moved the bird benchmark from 26% to 41%.",
+      "zh": "我们把 Bird 基准从 26% 提升到了 41%。"
+    },
+    {
+      "timestamp": "36:23",
+      "speaker": "Unknown",
+      "en": "Yes, you are distilling, but in some cases you can even go beyond distillation.",
+      "zh": "是的，你是在蒸馏，但在某些情况下你甚至可以超越蒸馏。"
+    },
+    {
+      "timestamp": "39:46",
+      "speaker": "Unknown",
+      "en": "I started with 50,000 seeds. And in the end, I ended up only with 7,000 high-quality end-to-end SFT records.",
+      "zh": "我从 5 万个种子开始，最后我只得到了 7000 条高质量的端到端 SFT 记录。"
+    },
+    {
+      "timestamp": "40:17",
+      "speaker": "Unknown",
+      "en": "data quality is the most important thing when you're trying to create data.",
+      "zh": "当你在创建数据时，数据质量是最重要的。"
+    },
+    {
+      "timestamp": "42:42",
+      "speaker": "Unknown",
+      "en": "Evaluation is a problem where if you check for 100 problems and if you see that those 100 problems, all you can tell from checking for 100 problems is those 100 issues don't exist in your dataset. There could be 1,000 other issues.",
+      "zh": "评估是一个这样的问题：如果你检查 100 个问题，你能从中得出的结论只是这 100 个问题不在你的数据集中，但可能还有 1000 个其他的问题。"
+    },
+    {
+      "timestamp": "46:04",
+      "speaker": "Unknown",
+      "en": "Ten strategies, one epoch is better than ten epochs, one strategy.",
+      "zh": "十个策略、一个 epoch，好过十个 epoch、一个策略。"
+    },
+    {
+      "timestamp": "46:12",
+      "speaker": "Unknown",
+      "en": "So, like, using an LLM to create a sampler makes no sense, right? It's a complete waste of resources.",
+      "zh": "比如，用 LLM 来创建一个采样器毫无意义，对吧？那完全是浪费资源。"
+    },
+    {
+      "timestamp": "51:20",
+      "speaker": "Unknown",
+      "en": "So similarly, it's not going to give you numbers that are realistic, right? It's always going to come back to the average of things.",
+      "zh": "所以同样地，它不会给你符合现实的数字，对吧？它总是会回到事物的平均值。"
+    }
+  ],
+  "voice_script": "你有没有发现,大模型有个特别要命的软肋:它的知识是有截止日期的。训练一完成,世界上再发生的新鲜事,它一概不知道。今天这一期,聊的就是怎么解决这个难题。\n\n主角是 NVIDIA 的 Nemotron 团队,他们最近教会了自家开源模型一个本事:遇到不知道的事,主动去搜索,再去网上找答案,再回来推理出结果。而这场分享真正有意思的地方,其实是一套更通用的方法——怎么把你想要的模型行为,变成一个数据问题,再批量造出训练数据来。\n\n先交代下背景。要教模型一个新行为,传统思路是拿现成的数据去训。可问题是,你想要的行为,网上根本没有对应的现成数据。比如\"会搜索\"这个行为,你得有大量带工具调用的问答记录才能教会它。那怎么办?一个很自然的想法是合成——让大模型自己编。\n\n听起来简单,做起来就撞墙了。最朴素的写法是搞个循环,反复提示模型\"给我一个产品、给我一条评论\",跑上一百万次。Nemotron 团队里的 Nathawani 说了,这条路走不通,死穴就是多样性、多样性、还是多样性。你不停地给大模型提示词,大概十次、十二次、也许二十次之后,它就开始重复了,给不出新东西。\n\n而且这样做出来的数据还有一堆毛病:字段之间没有关联,生成方向没法控制,没有验证环节,别人拿到你的数据集,也复现不了你的生产过程。\n\n所以就有了 Data Designer。这是一个完全开源的框架,pip 一行命令就能装上,至今已经被用来生成了六万五千亿个训练数据的字符。核心思路很简洁:把数据集的生成过程写成代码,像管理代码一样,可以版本化、分享、复用。\n\n具体怎么造?数据集是一列一列长出来的。你可以先给一个种子数据集,比如维基百科的主题列表、或者一份公司的 CSV 文件,也可以从零开始。然后往上面加采样列来注入多样性——举个例子,给编程题加一个难度列,分简单、中等、困难,还能配权重,让中等题出现得更多。接着是模型生成的列,提示词里嵌一个模板变量,运行的时候自动替换成前面采样的主题。这样每条提示词都不一样,模型产出的数据自然就多样了。生成过程也不是一锤子买卖:先跑预览模式,出三条看看效果,不满意就改提示词重来。数据创建本身,就是一个反复迭代的过程。\n\n好,工具说清楚了,那回到最关键的一步——怎么让模型学会别自己瞎答,去用搜索工具?变化出在答案生成这一步。普通的问答数据,是直接请模型生成答案;要造智能体数据,提示词就变成:\"你有 Tavily 这个搜索工具,请用它去网上找答案\"。Tavily 是一家专门给智能体做搜索的公司。模型收到一道难题,会先发起搜索,读回一堆链接和内容,再推理出答案。这整个过程被记录下来,就是一条带工具调用的训练数据。\n\n但这里有个更难的问题:上哪儿去找那么多模型训练数据里没有、必须搜索才能答的题呢?模型要是背得出答案,搜索行为就白教了。\n\nNemotron 团队的办法很巧。Wikidata 是维基百科的主题图谱,实体之间都是连着的。做法是从一个随机实体出发,沿着图谱走五到八步。比如从 NVIDIA 出发,连到公司创始人,连到他上过的俄勒冈州立大学,连到学校所在的县,再连到这个县名字的来源人物。然后让模型用这条链编一道谜语:某公司由某人创立,此人上的大学所在的县以某位政治家命名,这家公司是哪家?这种题,模型背不出来,只能一步一步去搜。\n\n为什么偏是五到八步?步数太少,题太简单;步数太多,又容易走着走着跳到\"人类\"这种毫无信息量的实体上去。\n\n这套数据的效果怎么样?Nemotron 模型在搜索基准 BrowseComp 上,从 0% 直接提到了 30%。那道著名的难题你可能有印象——1990 到 1994 年间,哪场足球比赛由巴西裁判执法、双方各得两张黄牌?答案是爱尔兰对罗马尼亚。另外在 SQL 基准 Bird 上,模型从 26% 提升到了 41%。\n\n不过这里头还有一个绕不开的原则问题:数据质量和数量,到底哪个重要?答案非常明确——质量重要得多。Nathawani 从五万个种子开始,层层过滤,最后只留下七千条高质量的完整训练记录。五万筛到七千,砍掉了将近九成。\n\n而验证答案对不对,本身就是个难题。翻车例子还真有:一道题问\"美国钢铁公司属于哪个国家\",数据集里的答案是美国,验证器也判了正确。可后来一查,美国钢铁几年前已经卖给日本了——连种子数据都会过时。所以解法是多层验证叠在一起:让一个模型当裁判打分,再把裁判的判断送给人复核,看看裁判本身靠不靠谱;搜索类的题,还要对照实时信息。光查一百个问题,只能说明这一百个没问题,数据里可能还藏着另外一千个问题。评估是个多面的问题,没有一招通吃。\n\n讲到这儿你可能会有疑问:这样造出来的数据,会不会太\"假\"、太脱离真实世界?团队还为此发布了另一个数据集,叫 Nemotron Personas,一百万个虚构人物档案,有姓名、年龄、职业、性格,全部基于美国人口普查数据、用概率图模型生成。\n\n用途很实际。比如要造合成的报税数据,不能让模型瞎填数字——让模型讲笑话,它每次都讲同一个;让它填收入,它也总回到平均值。可真实情况是,全美十八岁以下、年收入超过一千万美元的报税人,恰好只有七个。用人物画像当种子,合成的表格才会贴合真实世界的分布。还有一个额外的好处:隐私。模型能从人群的整体信息中学习,而不需要任何真实个人的记录进入训练集。\n\n所以你看,这套方法的逻辑其实特别完整:想清楚你要的模型行为,把它翻译成数据问题;用开源工具按列生成、反复迭代,注入多样性;造出模型必须搜索才能答的难题;再用多层验证把质量守住;最后用贴合真实分布的虚构人物,让数据既逼真又安全。\n\n最后借用一句点题的话:互联网数据,并不是你的 transformer 想要的数据。想要什么样的模型,就得先造出什么样的数据——这就是 NVIDIA 教 AI 学会搜索背后,真正可复用的那套通用方法。"
+}
