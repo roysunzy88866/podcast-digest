@@ -1,0 +1,1663 @@
+{
+  "episode_id": "2026-10-11-talks-building-self-learning-loops-for-your-ag",
+  "podcast": "精选演讲",
+  "date": "2026-10-11",
+  "tags": [
+    "智能体",
+    "可观测性",
+    "AI 工程",
+    "评估",
+    "自学习闭环"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "fuad-ali",
+      "type": "person",
+      "role": "guest",
+      "name": "Fuad Ali",
+      "file": "Fuad Ali",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            12.852,
+            14.112
+          ],
+          "quote": "My name's Fuad Ali.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集的主线：智能体应像火箭一样持续消费自己的遥测数据、自动检测-调查-修复-验证，实现自学习闭环",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            17.033,
+            22.474
+          ],
+          "quote": "And I've been working on agent experimentation and generally agent tooling across the stack at Arise.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 6,
+          "t": [
+            35.097,
+            39.638
+          ],
+          "quote": "What we're going to be talking about today is building self-learning loops for your agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 12,
+          "t": [
+            78.326,
+            87.111
+          ],
+          "quote": "And basically what I'm going to explain is how we've sort of built this idea of self-learning loops for your agent in Arise and how you can use that to self-correct.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 18,
+          "t": [
+            108.959,
+            115.543
+          ],
+          "quote": "In 2025, we released AgentEvals and Alex, which is our in-house agent to kind of help you with AI engineering.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 29,
+          "t": [
+            178.785,
+            181.947
+          ],
+          "quote": "And then what is actually reading that is your coding agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 55,
+          "t": [
+            318.519,
+            325.325
+          ],
+          "quote": "And I think really what I'm trying to set her on here is your agent works in your experimentation phase.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 62,
+          "t": [
+            345.997,
+            354.581
+          ],
+          "quote": "And then what you'll see in production is the agent confidently purchases the wrong item, always does so extremely confidently, because it never verifies the product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 70,
+          "t": [
+            400.952,
+            415.097
+          ],
+          "quote": "We have the OpenAI Agents SDK running on top of this, a fast API backend, search with a vector search and a text fallback, and it's traced to Arise, so you can actually see the source of truth for what that agent is doing in production.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 71,
+          "t": [
+            416.398,
+            427.082
+          ],
+          "quote": "And just to give you a little sneak preview of what that agent is, very simple, you have a web interface for Wonder Toys, and I'll zoom in a bit so you guys can see.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 72,
+          "t": [
+            429.827,
+            444.736
+          ],
+          "quote": "I can click on ask about the product, ask the agent to purchase the product, and don't worry, no real credit cards involved in this demo at all.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 92,
+          "t": [
+            548.283,
+            549.284
+          ],
+          "quote": "The agent won't flag it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 96,
+          "t": [
+            564.089,
+            568.992
+          ],
+          "quote": "Signal is an out-of-the-box agent that lives on the Arise platform in a sandbox.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 102,
+          "t": [
+            590.085,
+            595.489
+          ],
+          "quote": "And because it is an agent with an entire harness, it can actually call to external tools.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 105,
+          "t": [
+            604.115,
+            622.262
+          ],
+          "quote": "And what Signal will do is sitting on top of your trace data, which is a source of truth for what your agents are actually doing in production, it will then self-reflect and go look at the code for the agent that you're running, go look at downstream data sources like Datadog, and can actually write an investigation",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 108,
+          "t": [
+            639.111,
+            646.095
+          ],
+          "quote": "We're going really to that phase three where the agent is consuming its own telemetry data off of the ObserverU platform.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            670.454,
+            673.677
+          ],
+          "quote": "But maybe you don't want to have that agent managed on Arise.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 117,
+          "t": [
+            681.283,
+            684.445
+          ],
+          "quote": "So Arise skills allow your coding agent that you're working in",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 124,
+          "t": [
+            719.23,
+            727.958
+          ],
+          "quote": "And so it'll be able to see what the agent's doing from the trace data as well as the actual code for that agent at the same time and make some really impactful fixes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 142,
+          "t": [
+            809.237,
+            812.18
+          ],
+          "quote": "It's looking at the entire context of what your agent is actually doing in production.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 179,
+          "t": [
+            1015.245,
+            1020.667
+          ],
+          "quote": "We have kind of the agent, all the scripts that it needs, and a bunch of other things there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1207.748,
+            1210.49
+          ],
+          "quote": "So I can see that I started an agent workflow.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1210.87,
+            1214.053
+          ],
+          "quote": "The WonderToys agent then responded.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1219.977,
+            1222.8
+          ],
+          "quote": "And I can kind of see the output of what that agent is doing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1326.213,
+            1329.255
+          ],
+          "quote": "And that is corrupting the agent input.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1343.805,
+            1359.215
+          ],
+          "quote": "So you'll see this overview of what this stock agent is doing, fabricating results, for example, a hypothesis of why that's happening, evidence for that within an individual trace, and then a proposed fix for you to go and then do yourself.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1366.199,
+            1371.345
+          ],
+          "quote": "This agent is sitting in the back consuming the telemetry data, actually writing out the evidence and proposing a fix for you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1463.058,
+            1466.34
+          ],
+          "quote": "You know, kind of wrong filter in my code for the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1483.055,
+            1497.004
+          ],
+          "quote": "We have this idea of the core loop running on a real agent, which detects the issue around the H filtering bug, investigates using the arise trace goal or through signal, fixes",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1497.925,
+            1509.751
+          ],
+          "quote": "That issue, Claude actually patching the fallback, and then verify it, which I'll kind of walk through how that works in Arise as well, with harness as a judge and agent experiments.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1576.179,
+            1590.878
+          ],
+          "quote": "Having trace data, which is the source of truth for what your agent is doing, as well as your actual repo data, which is the code that defines what your agent should be doing, you get some really, really interesting analysis and the ability to actually make improvements at scale.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1621.281,
+            1637.824
+          ],
+          "quote": "A very common pattern, you feed in an input, your LLM as a judge reads the input, whether it's a summarization task or a hallucination eval, whatever it is, it then responds with a set of rails on how well the agent did on the response.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1668.523,
+            1675.565
+          ],
+          "quote": "So observe what the agent is actually doing and adjust what you actually test as the agent goes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1682.408,
+            1686.789
+          ],
+          "quote": "Was this grounded in the right context that was handed off by another agent, for example?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1834.944,
+            1839.127
+          ],
+          "quote": "Shipping the fix part is kind of what I want to talk about now with agent experiments.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1861.526,
+            1867.571
+          ],
+          "quote": "What Arise has come out with is agent experiments that allow you to test that in an automated way via CI as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1876.25,
+            1885.059
+          ],
+          "quote": "What you can do with agent experiments is you can actually stand up that dev agent behind an endpoint and hit that with a data set directly from Rise.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1885.519,
+            1889.303
+          ],
+          "quote": "And that data set will be actual traces that your agent has failed on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1923.155,
+            1929.318
+          ],
+          "quote": "How do I actually go hit my agent with that data set to make sure that the proposed fix is actually validated?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1929.658,
+            1932.079
+          ],
+          "quote": "And that's sort of what agent experiments allow you to do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1932.999,
+            1938.721
+          ],
+          "quote": "With agent experiments and the agent playground in the product, you can actually run against that fixed version.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1942.743,
+            1946.965
+          ],
+          "quote": "You stream sort of the data set inputs into that agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1947.385,
+            1948.705
+          ],
+          "quote": "And the agent actually responds.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1952.987,
+            1964.918
+          ],
+          "quote": "So then you can compare kind of side by side what the agent in dev mode is doing with the fix versus what the agent of production did and look at whether you're actually catching any of those edge cases or not.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1991.95,
+            2005.993
+          ],
+          "quote": "And then maybe alluding a little bit back to this idea of the self-correcting loop, as a full storyline, you now have an agent that's operating autonomously on your traces looking to see if issues are arising.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 358,
+          "t": [
+            2024.601,
+            2038.567
+          ],
+          "quote": "And then because our experiments are actually exposed via skills and API as well, the agent can actually redeploy itself on the new PR and verify itself against a data set of actual failure cases",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 361,
+          "t": [
+            2048.268,
+            2059.215
+          ],
+          "quote": "The agent will actually go collect the failures, create a data set for itself, run it against the new version of itself, and prepare a response back to you that says, hey, I think I found this issue.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 373,
+          "t": [
+            2106.447,
+            2109.649
+          ],
+          "quote": "And it's not just an agent in a sandbox saying it's correct.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 382,
+          "t": [
+            2143.932,
+            2147.293
+          ],
+          "quote": "Takes sub 10 minutes on your own agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 384,
+          "t": [
+            2148.974,
+            2153.055
+          ],
+          "quote": "We have support for all the big agent frameworks, all the foundational model providers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 386,
+          "t": [
+            2161.699,
+            2165.46
+          ],
+          "quote": "Verifying it with a harness as a judge and then measuring that with agent experiments.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2173.696,
+            2182.286
+          ],
+          "quote": "If you're having trouble with the M files, if you just search through the repo or ask a coding agent where the M file is, it will kind of help you do that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 401,
+          "t": [
+            2240.298,
+            2252.708
+          ],
+          "quote": "So as an example of some of the skills you can run, I can ask Claude Code, hey, check my traces for any errors or anything I can fix, cross-reference with the code for the agent in this repo, and use the agent skills.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "coding-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "编码智能体 (coding agent)",
+      "file": "编码智能体",
+      "primary": true,
+      "how_described": "本集说软件工程第三阶段里，读取监控数据的不再是人，而是 Cursor、Claude Code 这类编码智能体，它们同时看代码和线上 trace 来做修复",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            178.785,
+            181.947
+          ],
+          "quote": "And then what is actually reading that is your coding agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 117,
+          "t": [
+            681.283,
+            684.445
+          ],
+          "quote": "So Arise skills allow your coding agent that you're working in",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2173.696,
+            2182.286
+          ],
+          "quote": "If you're having trouble with the M files, if you just search through the repo or ask a coding agent where the M file is, it will kind of help you do that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "本集核心论点：可观测性必须从「人看仪表盘」进化为智能体可以消费、操作、自我反思的程序化接口",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            143.307,
+            153.129
+          ],
+          "quote": "You sort of have the classic software 1.0 where there's an app, and it's traced to Datadog, and there's some sort of observability platform that human beings read.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 28,
+          "t": [
+            174.042,
+            178.285
+          ],
+          "quote": "In this loop, your application produces telemetry events, observability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 37,
+          "t": [
+            217.732,
+            233.465
+          ],
+          "quote": "But what I want you guys to center on is that observability has to evolve from humans reading dashboards to really programmatic interfaces that agents consume, agents can operate on, and agents can self-reflect on as well.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "telemetry",
+      "type": "concept",
+      "role": "concept",
+      "name": "遥测数据 (telemetry)",
+      "file": "遥测数据",
+      "primary": true,
+      "how_described": "本集用 SpaceX 火箭类比：智能体应持续消费自己运行时产生的遥测数据并据此自我修正",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            56.706,
+            71.701
+          ],
+          "quote": "I actually worked in back-end distributed systems at SpaceX, and it is actually quite interesting how we're kind of coming full circle in this world of telemetry where, you know, if you think about it, a rocket system that is continuously course correcting every millisecond",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 11,
+          "t": [
+            72.402,
+            77.825
+          ],
+          "quote": "is actually consuming its own telemetry and then actioning that telemetry in order to self-correct.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 28,
+          "t": [
+            174.042,
+            178.285
+          ],
+          "quote": "In this loop, your application produces telemetry events, observability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 91,
+          "t": [
+            544.217,
+            547.562
+          ],
+          "quote": "in sort of an opaque system that's just emitting telemetry data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 108,
+          "t": [
+            639.111,
+            646.095
+          ],
+          "quote": "We're going really to that phase three where the agent is consuming its own telemetry data off of the ObserverU platform.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1360.415,
+            1365.339
+          ],
+          "quote": "So kind of going back to this concept of agents consuming the telemetry data,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1366.199,
+            1371.345
+          ],
+          "quote": "This agent is sitting in the back consuming the telemetry data, actually writing out the evidence and proposing a fix for you.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "llm-as-a-judge",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM 当裁判 (LLM as a judge)",
+      "file": "LLM 当裁判",
+      "primary": true,
+      "how_described": "本集说它是固定评分标准的常见评估模式，擅长抓已知问题，但抓不住上线上才会暴露的未知问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            94.77,
+            97.852
+          ],
+          "quote": "We were first to the market with LLM as a judge back in 2023.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1611.046,
+            1615.39
+          ],
+          "quote": "So I think raise your hands if you guys are familiar with LLM as a judge, loosely speaking.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1621.281,
+            1637.824
+          ],
+          "quote": "A very common pattern, you feed in an input, your LLM as a judge reads the input, whether it's a summarization task or a hallucination eval, whatever it is, it then responds with a set of rails on how well the agent did on the response.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1735.719,
+            1739.581
+          ],
+          "quote": "An LLM as a judge might be able to read an input and read an output.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "harness-as-a-judge",
+      "type": "concept",
+      "role": "concept",
+      "name": "测试装置当裁判 (harness as a judge)",
+      "file": "测试装置当裁判",
+      "primary": true,
+      "how_described": "本集提出的新评估范式：评分标准从实际运行轨迹中动态产生，可运行在沙箱中调用外部工具（如权限检查），捕捉「未知的未知」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 268,
+          "t": [
+            1497.925,
+            1509.751
+          ],
+          "quote": "That issue, Claude actually patching the fallback, and then verify it, which I'll kind of walk through how that works in Arise as well, with harness as a judge and agent experiments.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1605.421,
+            1610.625
+          ],
+          "quote": "When you want to have this more adaptive analysis, we tend to think of it as harness as a judge.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1638.344,
+            1642.725
+          ],
+          "quote": "What we're really moving to is Harness as a judge, and this is for a few different reasons.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1663.181,
+            1667.383
+          ],
+          "quote": "And so Harness as a judge is a way to do that adaptive analysis.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1688.852,
+            1701.873
+          ],
+          "quote": "So that price filter was an example where I wouldn't have written maybe a test case for that, but a harness as a judge is able to kind of do that adaptive analysis for me with the trace analysis that it has in it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1751.768,
+            1759.934
+          ],
+          "quote": "Whereas a harness as a judge, because you can connect it to external systems, it can then go make a call to actually say, hey, is this user allowed to do this?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1764.718,
+            1779.87
+          ],
+          "quote": "And so harness as a judge is essentially moving from just a foundational model call that scores an input and then comes out with an output rail to a more agentic flow where you can actually call tools and sort of do that unknown unknown catching as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1788.878,
+            1793.304
+          ],
+          "quote": "So I think we kind of talked about harness as a judge.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 386,
+          "t": [
+            2161.699,
+            2165.46
+          ],
+          "quote": "Verifying it with a harness as a judge and then measuring that with agent experiments.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": false,
+      "how_described": "本集说 Signal 智能体运行在 Arize 平台上的沙箱里，harness as a judge 也在沙箱中针对真实轨迹运行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 96,
+          "t": [
+            564.089,
+            568.992
+          ],
+          "quote": "Signal is an out-of-the-box agent that lives on the Arise platform in a sandbox.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1714.282,
+            1722.49
+          ],
+          "quote": "The rubric is really just a sentence, and it reads the actual trace tree directly, then runs in a sandbox against those real traces.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 373,
+          "t": [
+            2106.447,
+            2109.649
+          ],
+          "quote": "And it's not just an agent in a sandbox saying it's correct.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (evals)",
+      "file": "评估",
+      "primary": false,
+      "how_described": "本集强调你无法为没见过的边界情况预先写 eval，Arize 每月运行超过 6000 万次评估",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 56,
+          "t": [
+            325.865,
+            327.446
+          ],
+          "quote": "It works with the evals that you set up.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 57,
+          "t": [
+            327.867,
+            331.47
+          ],
+          "quote": "You don't really know all the evals that you have to set up before you ship it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            931.355,
+            933.636
+          ],
+          "quote": "There's a few features like code evals and things like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1414.719,
+            1423.47
+          ],
+          "quote": "Two, based on that failure and evals running in your platform, actually investigate what's happening with real traces.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "signal",
+      "type": "concept",
+      "role": "concept",
+      "name": "Signal",
+      "file": "Signal",
+      "primary": true,
+      "how_described": "本集介绍 Signal 是 Arize 推出的开箱即用常驻智能体，持续读取生产 trace、按根因聚类故障、写调查报告并自动开修复 PR",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 95,
+          "t": [
+            557.185,
+            564.009
+          ],
+          "quote": "And so the first of the new features that we have in Arise to kind of talk through this is called Signal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 96,
+          "t": [
+            564.089,
+            568.992
+          ],
+          "quote": "Signal is an out-of-the-box agent that lives on the Arise platform in a sandbox.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 98,
+          "t": [
+            573.474,
+            575.956
+          ],
+          "quote": "And what Signal does is it continuously",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 103,
+          "t": [
+            595.869,
+            599.632
+          ],
+          "quote": "So what you can do is you can connect Signal to your GitHub repo.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 104,
+          "t": [
+            600.032,
+            603.715
+          ],
+          "quote": "You can connect Signal to downstream data sources like Datadog.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 105,
+          "t": [
+            604.115,
+            622.262
+          ],
+          "quote": "And what Signal will do is sitting on top of your trace data, which is a source of truth for what your agents are actually doing in production, it will then self-reflect and go look at the code for the agent that you're running, go look at downstream data sources like Datadog, and can actually write an investigation",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            659.686,
+            661.488
+          ],
+          "quote": "So that's the first part, Signal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 130,
+          "t": [
+            758.594,
+            760.736
+          ],
+          "quote": "Similar to Signal, Signal is running on top.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            776.607,
+            785.149
+          ],
+          "quote": "Let's say you're an engineer working on your product continuously, and you're actually sitting there and trying to improve it, versus Signal, which is the always-on sort of continuous method.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 138,
+          "t": [
+            792.839,
+            798.886
+          ],
+          "quote": "And Signal, like I mentioned before, can actually kind of root cause that because it has access to your coding repo.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 153,
+          "t": [
+            854.796,
+            860.52
+          ],
+          "quote": "So I'll pause here, leave this slide on, and then we can start walking through getting the traces for the wonder toy signal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 165,
+          "t": [
+            939.119,
+            945.802
+          ],
+          "quote": "And for this flow, we'll mostly be showing how Claude Code can do that trace analysis for you through the skills and through signal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1228.302,
+            1233.445
+          ],
+          "quote": "And then the second part of this that I wanted to show is sort of like some things that Signal can do on top of this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1238.047,
+            1242.809
+          ],
+          "quote": "And what you actually want to start doing is you want to enable Signal to actually run on top of your agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1245.71,
+            1249.112
+          ],
+          "quote": "And I'll show you an example of Signal in a repo.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1250.498,
+            1252.519
+          ],
+          "quote": "So Signal runs continuously in the background.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1259.702,
+            1266.746
+          ],
+          "quote": "But I'll show you an example of Signal already set up and ready to go and how it's doing that loop of self-improvement.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1296.416,
+            1299.078
+          ],
+          "quote": "And then this is sort of what Signal looks like.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1300.338,
+            1307.142
+          ],
+          "quote": "So Signal has kind of this clustering analysis of different issues that it's seeing across your application.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1428.036,
+            1432.761
+          ],
+          "quote": "And so what Signal and your skills via Claude Code was able to do was",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1446.629,
+            1457.735
+          ],
+          "quote": "So in my code, there was a bug with how I was actually doing that price filter and using Signal, using the trace data that's in Arise, and using the skills via Claude Code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1483.055,
+            1497.004
+          ],
+          "quote": "We have this idea of the core loop running on a real agent, which detects the issue around the H filtering bug, investigates using the arise trace goal or through signal, fixes",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1510.391,
+            1517.575
+          ],
+          "quote": "And then Signal, it'll kind of do this in parallel as well for when you don't want to be hands-on with the keyboard and want to run this in the background.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1517.655,
+            1520.356
+          ],
+          "quote": "Signal will be tuned to your own taxonomy, your own traces.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1525.339,
+            1539.847
+          ],
+          "quote": "So for example, if you have an alert on a specific eval that needs to stay below 1% trigger rate, you can configure a signal to be triggered off of an alert or a latency spike or a cost spike or anything like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1570.774,
+            1575.839
+          ],
+          "quote": "And then in addition to the trace data, whether it's Signal, whether it's your own coding agents,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1920.413,
+            1922.514
+          ],
+          "quote": "Or maybe Signal did that all for me in the background.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 385,
+          "t": [
+            2154.416,
+            2160.818
+          ],
+          "quote": "Enabling signal and going deep or using Claude Code to actually use the Arise skills to do that investigation for you.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "type": "concept",
+      "role": "concept",
+      "name": "skills",
+      "file": "skills",
+      "primary": true,
+      "how_described": "本集介绍 Arize Skills 让 Cursor、Claude Code 等 40 多种编码智能体直接查询 Arize 里的追踪数据，是按需的修复路径",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 112,
+          "t": [
+            662.989,
+            665.391
+          ],
+          "quote": "The second part is really around this idea of skills.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 113,
+          "t": [
+            665.411,
+            670.394
+          ],
+          "quote": "And we'll be having a workshop later today that goes really in-depth to all the skills that we've released.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 116,
+          "t": [
+            677.94,
+            680.342
+          ],
+          "quote": "What we've also released is this concept of Arise skills.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 117,
+          "t": [
+            681.283,
+            684.445
+          ],
+          "quote": "So Arise skills allow your coding agent that you're working in",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 126,
+          "t": [
+            735.723,
+            736.943
+          ],
+          "quote": "So variety of skills.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 127,
+          "t": [
+            736.963,
+            739.184
+          ],
+          "quote": "We have skills for creating data sets off of failures.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            739.224,
+            749.63
+          ],
+          "quote": "We have skills for going in and reading traces and doing some of that trace error analysis, as well as skills for actually running evaluators and running tasks on the platform as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 129,
+          "t": [
+            751.065,
+            757.993
+          ],
+          "quote": "So the first part of this kind of skills workflow is that Claude can actually write the fix for you because it's sitting in your coding repo.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 134,
+          "t": [
+            771.566,
+            773.846
+          ],
+          "quote": "You have Claude Code with the arise trace skills.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 165,
+          "t": [
+            939.119,
+            945.802
+          ],
+          "quote": "And for this flow, we'll mostly be showing how Claude Code can do that trace analysis for you through the skills and through signal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1428.036,
+            1432.761
+          ],
+          "quote": "And so what Signal and your skills via Claude Code was able to do was",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1446.629,
+            1457.735
+          ],
+          "quote": "So in my code, there was a bug with how I was actually doing that price filter and using Signal, using the trace data that's in Arise, and using the skills via Claude Code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1901.775,
+            1905.098
+          ],
+          "quote": "What I can use Arise skills to do is actually go create that data set.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 358,
+          "t": [
+            2024.601,
+            2038.567
+          ],
+          "quote": "And then because our experiments are actually exposed via skills and API as well, the agent can actually redeploy itself on the new PR and verify itself against a data set of actual failure cases",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 383,
+          "t": [
+            2147.633,
+            2148.954
+          ],
+          "quote": "We have instrumentation skills.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 385,
+          "t": [
+            2154.416,
+            2160.818
+          ],
+          "quote": "Enabling signal and going deep or using Claude Code to actually use the Arise skills to do that investigation for you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 397,
+          "t": [
+            2213.594,
+            2218.439
+          ],
+          "quote": "All righty, and if you're having trouble installing the skills as well, have it up on the slides here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 398,
+          "t": [
+            2219.86,
+            2223.444
+          ],
+          "quote": "Very simple, MPX Skills Add, Arise AI, Arise Skills.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 400,
+          "t": [
+            2231.691,
+            2237.237
+          ],
+          "quote": "And this includes skills for trace analysis, data set curation, as well as evaluators.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 401,
+          "t": [
+            2240.298,
+            2252.708
+          ],
+          "quote": "So as an example of some of the skills you can run, I can ask Claude Code, hey, check my traces for any errors or anything I can fix, cross-reference with the code for the agent in this repo, and use the agent skills.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent-experiments",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体实验 (agent experiments)",
+      "file": "智能体实验",
+      "primary": true,
+      "how_described": "本集介绍 agent experiments 允许把修复部署到开发环境端点，用真实失败案例数据集以同一套裁判标准验证修复前后效果",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 268,
+          "t": [
+            1497.925,
+            1509.751
+          ],
+          "quote": "That issue, Claude actually patching the fallback, and then verify it, which I'll kind of walk through how that works in Arise as well, with harness as a judge and agent experiments.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1834.944,
+            1839.127
+          ],
+          "quote": "Shipping the fix part is kind of what I want to talk about now with agent experiments.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1861.526,
+            1867.571
+          ],
+          "quote": "What Arise has come out with is agent experiments that allow you to test that in an automated way via CI as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1876.25,
+            1885.059
+          ],
+          "quote": "What you can do with agent experiments is you can actually stand up that dev agent behind an endpoint and hit that with a data set directly from Rise.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1929.658,
+            1932.079
+          ],
+          "quote": "And that's sort of what agent experiments allow you to do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1932.999,
+            1938.721
+          ],
+          "quote": "With agent experiments and the agent playground in the product, you can actually run against that fixed version.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 386,
+          "t": [
+            2161.699,
+            2165.46
+          ],
+          "quote": "Verifying it with a harness as a judge and then measuring that with agent experiments.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集演示中用 Claude Code 通过 Arize skills 读取 trace、做轨迹分析并写修复 PR",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            185.87,
+            192.214
+          ],
+          "quote": "If any of you guys are using things like cursor, Claude Code, the Datadog CLI, you're already seeing some of this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 118,
+          "t": [
+            684.765,
+            691.033
+          ],
+          "quote": "Whether you're using Cursor, Claude Code, Codex, or 40-plus other coding agents, OpenCode or Ames, whatever it is.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 122,
+          "t": [
+            712.564,
+            713.525
+          ],
+          "quote": "This is just Claude Code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 134,
+          "t": [
+            771.566,
+            773.846
+          ],
+          "quote": "You have Claude Code with the arise trace skills.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 165,
+          "t": [
+            939.119,
+            945.802
+          ],
+          "quote": "And for this flow, we'll mostly be showing how Claude Code can do that trace analysis for you through the skills and through signal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1428.036,
+            1432.761
+          ],
+          "quote": "And so what Signal and your skills via Claude Code was able to do was",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1446.629,
+            1457.735
+          ],
+          "quote": "So in my code, there was a bug with how I was actually doing that price filter and using Signal, using the trace data that's in Arise, and using the skills via Claude Code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1912.025,
+            1915.248
+          ],
+          "quote": "And then I ran the workflow with Claude Code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 385,
+          "t": [
+            2154.416,
+            2160.818
+          ],
+          "quote": "Enabling signal and going deep or using Claude Code to actually use the Arise skills to do that investigation for you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 401,
+          "t": [
+            2240.298,
+            2252.708
+          ],
+          "quote": "So as an example of some of the skills you can run, I can ask Claude Code, hey, check my traces for any errors or anything I can fix, cross-reference with the code for the agent in this repo, and use the agent skills.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "concept",
+      "role": "concept",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集把 Arize 内部智能体 Alex 比作「AI 工程领域的 Cursor」，并列为可接 skills 的编码智能体之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            115.563,
+            117.705
+          ],
+          "quote": "Think of Cursor for AI engineering.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 31,
+          "t": [
+            185.87,
+            192.214
+          ],
+          "quote": "If any of you guys are using things like cursor, Claude Code, the Datadog CLI, you're already seeing some of this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 118,
+          "t": [
+            684.765,
+            691.033
+          ],
+          "quote": "Whether you're using Cursor, Claude Code, Codex, or 40-plus other coding agents, OpenCode or Ames, whatever it is.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "datadog",
+      "type": "company",
+      "role": "company",
+      "name": "Datadog",
+      "file": "Datadog",
+      "primary": false,
+      "how_described": "本集以 Datadog 作为软件 1.0 时代人类读仪表盘式监控的典型例子，Signal 也可连接它作为下游数据源",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            143.307,
+            153.129
+          ],
+          "quote": "You sort of have the classic software 1.0 where there's an app, and it's traced to Datadog, and there's some sort of observability platform that human beings read.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 31,
+          "t": [
+            185.87,
+            192.214
+          ],
+          "quote": "If any of you guys are using things like cursor, Claude Code, the Datadog CLI, you're already seeing some of this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 32,
+          "t": [
+            192.994,
+            199.258
+          ],
+          "quote": "The gap is you're still probably prompting that to go read that information from a back end like Datadog or whatever it is.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 104,
+          "t": [
+            600.032,
+            603.715
+          ],
+          "quote": "You can connect Signal to downstream data sources like Datadog.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 105,
+          "t": [
+            604.115,
+            622.262
+          ],
+          "quote": "And what Signal will do is sitting on top of your trace data, which is a source of truth for what your agents are actually doing in production, it will then self-reflect and go look at the code for the agent that you're running, go look at downstream data sources like Datadog, and can actually write an investigation",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai-agents-sdk",
+      "type": "concept",
+      "role": "concept",
+      "name": "OpenAI Agents SDK",
+      "file": "OpenAI Agents SDK",
+      "primary": false,
+      "how_described": "本集演示的 Wonder Toys 购物助手是在 OpenAI Agents SDK 之上运行的示例智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            400.952,
+            415.097
+          ],
+          "quote": "We have the OpenAI Agents SDK running on top of this, a fast API backend, search with a vector search and a text fallback, and it's traced to Arise, so you can actually see the source of truth for what that agent is doing in production.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 81,
+          "t": [
+            481.343,
+            490.368
+          ],
+          "quote": "And your tracing should be set up after you've gotten an API key from Arise and an OpenAI API key to run the OpenAI Agents SDK.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Arize",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

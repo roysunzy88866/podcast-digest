@@ -1,0 +1,161 @@
+{
+  "title_zh": "让智能体自己发现自己的错误：Arize AI 的自学习闭环",
+  "tldr": "Arize AI 产品经理 Fuad Ali 讲解如何让智能体自动发现、调查、修复并验证自己的线上故障。",
+  "digest_md": "火箭每毫秒都在校准航向，靠的是不断读取自己的飞行数据。Fuad Ali 曾经在 SpaceX 做后端分布式系统，现在在 Arize AI 负责智能体实验工具。他认为智能体（agent）也该这样：持续消费自己运行时产生的遥测数据，自动纠错。这场工作坊讲的正是如何搭建这样一个自学习闭环。\n\n## 软件工程正在进入第三阶段\n\nAli 把软件工程分成三个阶段。第一阶段的经典模式：应用把数据上报到 Datadog 这类监控平台，人类看仪表盘，发现异常后写代码修复。第二阶段，人类不再改代码，而是改提示词来纠正模型行为。\n\n现在要进入第三阶段：读取监控数据的不再是人，而是编码智能体本身。你用 Cursor、Claude Code 时已经能看到雏形——但通常还是得自己提示它去看数据。当系统里有成千上万个智能体在跑，人类根本读不过来。Ali 的核心论点是：可观测性必须从人看仪表盘进化为「智能体可以消费、操作、反思的程序化接口」[03:37 Unknown]。\n\n> 【背景】Arize AI 是一家做大模型应用可观测性和评估的公司，客户包括 Spotify、Reddit、Uber、TripAdvisor。文字稿中公司名被口述为 Arise/Rai，即 Arize。\n\n## 最贵的故障，上线前看不见\n\nAli 用一个玩具商店购物助手做演示。用户想要 30 美元以下的生日礼物，助手却返回 50 美元的商品，而且非常自信地推荐——因为它从不验证结果。这类问题在测试环境里一切正常，只有用户投诉、客服工单、凌晨三点的告警电话才会暴露。他的一句话总结很直白：**让你付出代价的故障，在上线时是不可见的**——因为如果当时看见了，你早就修好了 [05:06 Unknown]。你没法为一个还没见过的边界情况预先写测试。\n\n## Signal：常驻后台的调查员\n\nArize 的第一个新功能叫 Signal，一个开箱即用的智能体，在平台上一个开关就能打开。它持续读取线上每条追踪记录，把故障按根因聚类、去重，还能连上你的 GitHub 仓库和 Datadog 等下游数据源。因为它同时看得到运行数据（智能体实际做了什么）和代码（智能体应该做什么），所以能写出调查报告——包括问题概述、原因假设、单条追踪里的证据——然后直接开一个修复用的拉取请求 [10:23 Unknown]。Ali 强调，代码审查仍然留给人类，但调查和提方案这步已经自动化了。\n\n## Skills：把追踪数据交给你的编码智能体\n\n如果你不想把智能体托管在平台上，还有第二条路：Arize Skills。装一条命令，Cursor、Claude Code 等 40 多种编码智能体就能直接查询 Arize 里的追踪数据。这样它在一个仓库里既能看到代码，也能看到线上真实发生的交互，做出更有效的修复。\n\n两条路是互补的：Skills 是按需的，工程师在键盘前主动发起；Signal 是常驻的，持续在后台产出新洞察，还能配置成由告警触发——比如某个评估的触发率超过 1% 或延迟、成本飙升时自动行动 [25:40 Unknown]。\n\n## 用测试装置当裁判抓住未知的未知\n\n评估智能体的方式也在变。常见的大模型当裁判是固定评分标准，适合抓已知问题，但抓不住你没想到的坑。Ali 提出的新范式叫测试装置当裁判：评分标准从实际运行轨迹中动态产生——==这个工具选对了吗==？参数合法吗？有没有基于正确的上下文？\n\n它还运行在真实沙盒环境里，可以调用外部工具。一个例子是权限检查：普通的大模型裁判只看输入输出，不知道某个用户该有什么权限；而测试装置裁判可以直接去查「这个用户被允许做这件事吗」，再对照追踪记录。写规则也简单了，规则就是一句话：「每个返回商品的价格都在用户要求的区间内则通过，任何结果超出预算则失败」[30:02 Unknown]——不用列一堆测试模板。\n\n## 修复之后，还要自己验证自己\n\n最后一个环节是智能体实验。假设你有一个修复，可以在开发环境部署一个新版本，把线上收集的真实失败案例（比如 25 个预算搜索失败的例子）做成数据集打过去，用和生产环境同一套裁判标准打分，对比修复前后的正确率、延迟和成本。\n\n把这一切串起来，就是完整的自主闭环：**智能体发现 30 美元预算被违反，调查代码里的过滤错误，提交修复**，然后自己把这个拉取请求部署到开发环境、用收集的失败数据集验证，最后才通知人类——汇报里会写清「我发现了问题、做了调查、提交了修复、跑通了验证，这个评估指标提升了 36%」[34:36 Unknown]。人类只剩最后一件事：代码审查，然后发布。\n\nAli 在 SpaceX 时学到的那套火箭逻辑，如今落在了智能体身上：持续读取自己的飞行数据，自动校准航向。\n\n## 本集带走\n\n- 最致命的智能体故障在上线前不可见，你无法为没见过的边界情况预先写测试。\n- 软件工程正从人看仪表盘走向「智能体消费遥测数据并自我修正」的第三阶段。\n- Arize 的 Signal 常驻后台，自动聚类故障根因、写调查报告、开修复拉取请求；Arize Skills 则让 Cursor、Claude Code 等编码智能体直接查询追踪数据。\n- 测试装置当裁判让评分标准从运行轨迹中动态产生，能抓住事先想不到的问题，还能调用外部系统做权限等检查。\n- 完整闭环包括四步：检测、调查、修复、验证——智能体甚至能在通知人类之前，先用真实失败数据集验证自己的修复。",
+  "quotes": [
+    {
+      "en": "observability has to evolve from humans reading dashboards to really programmatic interfaces that agents consume, agents can operate on, and agents can self-reflect on as well.",
+      "zh": "可观测性必须从人类阅读仪表盘，进化为智能体可以消费、可以在其上操作、也可以在其上进行自我反思的编程接口。",
+      "timestamp": "03:40",
+      "speaker": "Fuad Ali"
+    },
+    {
+      "en": "The big problem I want to outline here is the failures that cost you are invisible at launch.",
+      "zh": "我在这里要指出的大问题是，那些让你付出代价的故障在发布时是看不见的。",
+      "timestamp": "05:06",
+      "speaker": "Fuad Ali"
+    },
+    {
+      "en": "You don't really know all the evals that you have to set up before you ship it. Otherwise, you would have written it.",
+      "zh": "你其实并不知道在发布之前你必须设置哪些评测。否则你早就写好了。",
+      "timestamp": "05:27",
+      "speaker": "Fuad Ali"
+    },
+    {
+      "en": "And then what you'll see in production is the agent confidently purchases the wrong item, always does so extremely confidently, because it never verifies the product.",
+      "zh": "然后你在生产环境中会看到，智能体自信地购买了错误的商品，而且总是做得极其自信，因为它从不验证商品。",
+      "timestamp": "05:45",
+      "speaker": "Fuad Ali"
+    },
+    {
+      "en": "And so harness as a judge is essentially moving from just a foundational model call that scores an input and then comes out with an output rail to a more agentic flow where you can actually call tools and sort of do that unknown unknown catching as well.",
+      "zh": "所以 harness 作为裁判本质上是把「一个对输入打分然后产出输出护栏的基础模型调用」升级为一种更智能体的流程，你可以实际调用工具，并且也能做那种未知的未知的捕捉。",
+      "timestamp": "29:24",
+      "speaker": "Fuad Ali"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "01:12",
+      "speaker": "Unknown",
+      "en": "is actually consuming its own telemetry and then actioning that telemetry in order to self-correct.",
+      "zh": "它实际上是在消费它自己的遥测数据，然后对这些遥测数据采取行动，以便进行自我修正。"
+    },
+    {
+      "timestamp": "02:48",
+      "speaker": "Unknown",
+      "en": "What we're moving to really is phase three, which is the fully autonomous loop.",
+      "zh": "我们真正正在走向的是第三阶段，即完全自主的循环。"
+    },
+    {
+      "timestamp": "03:02",
+      "speaker": "Unknown",
+      "en": "It's not just a human reading it and then putting a prompt in.",
+      "zh": "不再只是人类阅读这些数据然后输入一个提示词。"
+    },
+    {
+      "timestamp": "03:26",
+      "speaker": "Unknown",
+      "en": "It starts to become pretty much impossible for a human being to actually read those things.",
+      "zh": "让人类真正去阅读那些东西几乎就变得不可能了。"
+    },
+    {
+      "timestamp": "03:37",
+      "speaker": "Unknown",
+      "en": "observability has to evolve from humans reading dashboards to really programmatic interfaces that agents consume, agents can operate on, and agents can self-reflect on as well.",
+      "zh": "可观测性必须从人类阅读仪表盘，进化为智能体可以消费、可以在其上操作、也可以在其上进行自我反思的编程接口。"
+    },
+    {
+      "timestamp": "04:50",
+      "speaker": "Unknown",
+      "en": "You want agents that can detect a problem, investigate it, ship a fix in the same loop.",
+      "zh": "你想要的是能够在同一个循环中检测问题、调查问题并发布修复的智能体。"
+    },
+    {
+      "timestamp": "05:06",
+      "speaker": "Unknown",
+      "en": "The big problem I want to outline here is the failures that cost you are invisible at launch.",
+      "zh": "我在这里要指出的大问题是，那些让你付出代价的故障在发布时是看不见的。"
+    },
+    {
+      "timestamp": "05:11",
+      "speaker": "Unknown",
+      "en": "And that's sort of by definition, because if you had caught them, they wouldn't have cost you.",
+      "zh": "这从定义上讲就是这样，因为如果你已经发现了它们，它们就不会让你付出代价。"
+    },
+    {
+      "timestamp": "05:27",
+      "speaker": "Unknown",
+      "en": "You don't really know all the evals that you have to set up before you ship it. Otherwise, you would have written it.",
+      "zh": "你其实并不知道在发布之前你必须设置哪些评测。否则你早就写好了。"
+    },
+    {
+      "timestamp": "05:45",
+      "speaker": "Unknown",
+      "en": "And then what you'll see in production is the agent confidently purchases the wrong item, always does so extremely confidently, because it never verifies the product.",
+      "zh": "然后你在生产环境中会看到，智能体自信地购买了错误的商品，而且总是做得极其自信，因为它从不验证商品。"
+    },
+    {
+      "timestamp": "09:12",
+      "speaker": "Unknown",
+      "en": "How do you actually write an eval for an edge case you haven't seen yet?",
+      "zh": "对于一个你还没见过的边缘情况，你到底怎么为它写评测？"
+    },
+    {
+      "timestamp": "09:09",
+      "speaker": "Unknown",
+      "en": "It'll return a confident list of completely wrong products.",
+      "zh": "它会返回一份完全错误的商品列表，而且非常自信。"
+    },
+    {
+      "timestamp": "26:16",
+      "speaker": "Unknown",
+      "en": "Having trace data, which is the source of truth for what your agent is doing, as well as your actual repo data, which is the code that defines what your agent should be doing, you get some really, really interesting analysis and the ability to actually make improvements at scale.",
+      "zh": "拥有 trace 数据——它是你的智能体正在做什么的真相来源——以及你实际的仓库数据——它是定义你的智能体应该做什么的代码——你就能得到非常、非常有趣的分析，以及真正大规模进行改进的能力。"
+    },
+    {
+      "timestamp": "27:25",
+      "speaker": "Unknown",
+      "en": "LM as a judge is really a fixed rubric.",
+      "zh": "LLM as a judge 实际上是一个固定的评分标准。"
+    },
+    {
+      "timestamp": "27:38",
+      "speaker": "Unknown",
+      "en": "You don't always know what those issues are going to be like before you hit production.",
+      "zh": "在你进入生产环境之前，你并不总是知道那些问题会是什么样子。"
+    },
+    {
+      "timestamp": "27:55",
+      "speaker": "Unknown",
+      "en": "So the criteria kind of emerges from the trajectory.",
+      "zh": "所以评判标准是从轨迹中涌现出来的。"
+    },
+    {
+      "timestamp": "28:34",
+      "speaker": "Unknown",
+      "en": "The rubric is really just a sentence, and it reads the actual trace tree directly, then runs in a sandbox against those real traces.",
+      "zh": "评分标准其实就是一句话，它直接读取实际的轨迹树，然后在沙箱中针对那些真实轨迹运行。"
+    },
+    {
+      "timestamp": "29:24",
+      "speaker": "Unknown",
+      "en": "And so harness as a judge is essentially moving from just a foundational model call that scores an input and then comes out with an output rail to a more agentic flow where you can actually call tools and sort of do that unknown unknown catching as well.",
+      "zh": "所以 harness 作为裁判本质上是把「一个对输入打分然后产出输出护栏的基础模型调用」升级为一种更智能体的流程，你可以实际调用工具，并且也能做那种未知的未知的捕捉。"
+    },
+    {
+      "timestamp": "30:17",
+      "speaker": "Unknown",
+      "en": "And this rubric now will catch this on every subsequent run and not just an individual test case that you've coded for before.",
+      "zh": "这个评分标准现在会在每一次后续运行中捕捉到这个问题，而不只是你之前专门为它写的那一个测试用例。"
+    },
+    {
+      "timestamp": "34:03",
+      "speaker": "Unknown",
+      "en": "So this full loop happens completely autonomously.",
+      "zh": "所以这整个循环是完全自主发生的。"
+    }
+  ],
+  "voice_script": "今天咱们聊一家叫 Arize AI 的公司,以及一个非常具体的问题:你的智能体在线上出了错,谁最先知道?\n\n先交代一下背景。这期的主角叫 Fuad Ali,以前在 SpaceX 做后端分布式系统,现在在 Arize AI 负责智能体实验工具。Arize 这家公司是做大模型应用的可观测性和评估的,客户里有 Spotify、Reddit、Uber 这些名字。Ali 喜欢拿火箭打比方:火箭每毫秒都在校准航向,靠的是不断读取自己的飞行数据。智能体也该这样——持续消费自己运行时产生的遥测数据,自动纠错。这一期讲的就是怎么搭这样一个自学习闭环。\n\n那这个问题是怎么来的?得先从软件工程的三个阶段说起。\n\n第一个阶段,是大家都熟悉的经典模式:应用把数据上报到 Datadog 这类监控平台,人盯着仪表盘,发现异常了,写代码修复。第二个阶段,随着大模型出现,人不再改代码了,而是改提示词来纠正模型的行为。现在是第三阶段:读取监控数据的不再是人,而是编码智能体本身。你用 Cursor、Claude Code 的时候,其实已经能看到雏形了——只不过通常还是得你自己提示它去看数据。Ali 的判断很直接:当系统里有成千上万个智能体在跑,人类根本读不过来那些数据。所以可观测性必须升级——从人看仪表盘,进化为智能体可以消费、可以操作、可以在其上自我反思的程序化接口。\n\n这个论点听起来有点抽象,那就看个具体例子。演示里是一个玩具商店的购物助手:用户想要 30 美元以下的生日礼物,助手却返回了 50 美元的商品,而且推荐得非常自信。为什么会自信?因为它从不验证结果。更麻烦的是,这类问题在测试环境里一切正常,只有等用户投诉、客服工单、凌晨三点的告警电话,才会暴露出来。Ali 对此有句很直白的总结:让你付出代价的故障,在上线时是不可见的——因为如果当时看见了,你早就修好了。你没办法为一个还没见过的边界情况,预先写好测试。\n\n那怎么办?Arize 给了两条路,先说第一条,叫 Signal。这是一个开箱即用的智能体,在平台上一个开关就能打开。它常驻后台,持续读取线上每一条追踪记录,把故障按根因聚类、去重,还能连上你的 GitHub 仓库和 Datadog 这些下游数据源。为什么它厉害?因为它同时看得到两边:一边是运行数据,也就是智能体实际做了什么;另一边是代码,也就是智能体本来应该做什么。两相对照,它就能写出一份调查报告——问题概述、原因假设、单条追踪里的证据都齐了——然后直接开一个修复用的拉取请求。当然,Ali 强调,代码审查仍然留给人类,但调查和提方案这一步,已经自动化了。\n\n如果你不想把智能体托管在平台上呢?这就是第二条路,叫 Arize Skills。装一条命令,Cursor、Claude Code 等四十多种编码智能体,就能直接查询 Arize 里的追踪数据。这样一来,同一个智能体在一个仓库里,既能看到代码,也能看到线上真实发生的交互,修复自然更有效。两条路是互补的:Skills 是按需的,工程师坐在键盘前主动发起;Signal 是常驻的,持续在后台产出新洞察,还能配置成由告警触发——比如某个评估的触发率超过百分之一,或者延迟、成本飙升的时候,自动行动。\n\n发现问题、调查问题、修复问题,到这里是三步了。但还有个更根本的问题:怎么评判一个智能体到底做得好不好?\n\n常见的做法是大模型当裁判,拿一套固定的评分标准去打分。Ali 说这适合抓已知问题,但你没想到的坑,它抓不住。于是他提出一个新范式,叫测试装置当裁判。什么意思?评分标准不再是事先写死的,而是从实际运行轨迹里动态产生:这个工具选对了吗?参数合法吗?有没有基于正确的上下文?而且它运行在真实沙盒环境里,可以调用外部工具。举个例子,权限检查:普通的大模型裁判只看输入输出,根本不知道某个用户该有什么权限;测试装置裁判可以直接去查——这个用户被允许做这件事吗——再对照追踪记录。连写规则都变简单了,规则就是一句话:每个返回商品的价格都在用户要求的区间内则通过,任何结果超出预算则失败。不用再列一堆测试模板。\n\n最后一环,是修复之后怎么办。假设你有一个修复方案,可以在开发环境部署一个新版本,然后把线上收集到的真实失败案例——比如二十五个预算搜索失败的例子——做成数据集打过去,用和生产环境同一套裁判标准打分,对比修复前后的正确率、延迟和成本。\n\n把这些串起来,就是一个完整的自主闭环:智能体发现 30 美元预算被违反,调查代码里的过滤错误,提交修复,然后自己把这个拉取请求部署到开发环境,用收集来的失败数据集验证,最后才通知人类。汇报里会写清楚:我发现了问题、做了调查、提交了修复、跑通了验证,这个评估指标提升了百分之三十六。人类只剩最后一件事——代码审查,然后发布。\n\nSpaceX 那套火箭逻辑,如今落在了智能体身上:持续读取自己的飞行数据,自动校准航向。"
+}

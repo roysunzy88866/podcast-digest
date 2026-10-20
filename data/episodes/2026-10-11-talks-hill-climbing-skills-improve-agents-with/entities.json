@@ -1,0 +1,790 @@
+{
+  "episode_id": "2026-10-11-talks-hill-climbing-skills-improve-agents-with",
+  "podcast": "精选演讲",
+  "date": "2026-10-11",
+  "tags": [
+    "浏览器智能体",
+    "智能体可靠性",
+    "自动研究循环",
+    "技能沉淀",
+    "提示词注入防护"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "shubhankar-srivastava",
+      "type": "person",
+      "role": "guest",
+      "name": "Shubhankar Srivastava",
+      "file": "Shubhankar Srivastava",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "browserbase",
+      "type": "company",
+      "role": "company",
+      "name": "Browserbase",
+      "file": "Browserbase",
+      "primary": true,
+      "how_described": "本集嘉宾所在公司,被说成一个让你构建和运行浏览器智能体的平台,提供基础设施、SDK、技能和 CLI,并推出了免费的 Browse.sh。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            47.548,
+            51.311
+          ],
+          "quote": "I'm on the sales engineering team at BrowserBase.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            140.815,
+            146.777
+          ],
+          "quote": "And BrowserBase is essentially a platform for you to build and run these browser agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2185.013,
+            2186.954
+          ],
+          "quote": "BrowserBase works with Microsoft.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 570,
+          "t": [
+            3084.434,
+            3089.717
+          ],
+          "quote": "Also, I'll be at the BrowserBase booths all days of the conference as well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "browse-sh",
+      "type": "company",
+      "role": "company",
+      "name": "Browse.sh",
+      "file": "Browse.sh",
+      "primary": true,
+      "how_described": "本集说它是 Browserbase 基于 auto-browse 循环做成的产品:为几百个网站预生成技能文件并免费开放,被称为「浏览器智能体的黄页」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 208,
+          "t": [
+            1106.779,
+            1111.921
+          ],
+          "quote": "We actually went ahead and created this product called Browse.sh.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2246.268,
+            2269.601
+          ],
+          "quote": "So all of these are currently in my local skills folder, but if you want to ship this in production, of course, you can bake this into your agent loop, or if you want to, I think for browse.sh, the publicly available skills that we have, I think we use Worsale Blob Storage to store all these skills and make them on demand.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 536,
+          "t": [
+            2905.099,
+            2916.288
+          ],
+          "quote": "I think we also try to run our skills that are generated against some security reviewer agent of sorts before we actually publish this on Browse.sh.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "browser-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "浏览器智能体 (browser agent)",
+      "file": "浏览器智能体",
+      "primary": true,
+      "how_described": "本集说浏览器智能体就是驱动浏览器干活的智能体,用 CLI/MCP 控制浏览器点击、截图、填表;当前最大问题是可靠性差、每次运行从零开始。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            109.1,
+            110.921
+          ],
+          "quote": "You basically call that a browser agent, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            218.676,
+            232.085
+          ],
+          "quote": "If I zoom in a bit, you'll see this browser agent is trying to go on Google Flights and click on the, it's trying to drag the time filter and it's unable to figure out how do I drag that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            246.236,
+            250.72
+          ],
+          "quote": "Another example I wanted to show is a browser agent on OpenTable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            264.231,
+            269.154
+          ],
+          "quote": "I don't know what happens here, but like can my browser agent get around these issues?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            965.813,
+            982.224
+          ],
+          "quote": "The sale is only done when the browser agent is successful, so reliability is the most important thing for me, and this is the key tool that I take to my customers, and I'm like, just fire your agents, let them do this auto-research thing, and your agents will be successful in production.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reliability",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体可靠性 (reliability)",
+      "file": "智能体可靠性",
+      "primary": true,
+      "how_described": "本集把可靠性视为智能体落地最大痛点,并主张它是工程问题:靠工具、技能和 harness 的打磨,而不是换模型来解决。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            166.807,
+            171.392
+          ],
+          "quote": "The biggest problem with agents today is essentially reliability.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            184.926,
+            187.868
+          ],
+          "quote": "And we see reliability essentially as an engineering problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            196.315,
+            202.579
+          ],
+          "quote": "But we see that a lot of the work that has to be done for reliability is the hardness around it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            209.464,
+            212.627
+          ],
+          "quote": "How do we improve the reliability of these browser agents?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            275.337,
+            283.542
+          ],
+          "quote": "And this is where we sort of look at different ideas to improve the reliability of these agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            714.224,
+            725.675
+          ],
+          "quote": "These are the kind of tricks that are now persisted for every future run and gives me so many more savings from a performance, reliability, and cost perspective.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            965.813,
+            982.224
+          ],
+          "quote": "The sale is only done when the browser agent is successful, so reliability is the most important thing for me, and this is the key tool that I take to my customers, and I'm like, just fire your agents, let them do this auto-research thing, and your agents will be successful in production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1739.459,
+            1751.584
+          ],
+          "quote": "Took the GitHub repo that Karpathy put out, and then there's all this context about my customers that I have, where I was like, hey, these customers face these kinds of reliability problems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 375,
+          "t": [
+            2047.51,
+            2053.232
+          ],
+          "quote": "How do you increase the reliability of your agents?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 376,
+          "t": [
+            2053.352,
+            2056.333
+          ],
+          "quote": "Reliability is an engineering problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 458,
+          "t": [
+            2451.48,
+            2453.522
+          ],
+          "quote": "I care most about reliability.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "auto-research",
+      "type": "concept",
+      "role": "concept",
+      "name": "自动研究 (auto-research)",
+      "file": "自动研究",
+      "primary": true,
+      "how_described": "本集说这是 Karpathy 提出的思路:一个循环反复尝试可验证问题、查看自己的轨迹并自我改进;Browserbase 把它应用到浏览器领域。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 85,
+          "t": [
+            377.095,
+            384.898
+          ],
+          "quote": "This is where we sort of started thinking about, and this was like four to six months ago where Karpathy came up with this idea of auto research.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            479.587,
+            490.806
+          ],
+          "quote": "So it'll do its job, and we'll come back to this, but I wanted to talk about what's really happening here and the architecture behind this auto research loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            504.2,
+            506.022
+          ],
+          "quote": "We took auto-research and we took browsing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            965.813,
+            982.224
+          ],
+          "quote": "The sale is only done when the browser agent is successful, so reliability is the most important thing for me, and this is the key tool that I take to my customers, and I'm like, just fire your agents, let them do this auto-research thing, and your agents will be successful in production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1193.861,
+            1200.962
+          ],
+          "quote": "We essentially are running the same auto-research loop behind the scenes and making this available for you all.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1366.212,
+            1375.478
+          ],
+          "quote": "So I think the question is, like, how do you know that the auto-research loop is accurate, whether it is converging, and when it says it's converging, it's actually converging.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1506.432,
+            1510.394
+          ],
+          "quote": "In fact, Karpathy talks about this, like, this is one way of doing auto research.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1510.514,
+            1514.096
+          ],
+          "quote": "You can actually auto research on different ways of doing auto research itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1729.536,
+            1735.358
+          ],
+          "quote": "Can you share how you thought about auto-research into auto-browse?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2291.06,
+            2299.583
+          ],
+          "quote": "The current working theory that we have right now is you don't want to waste tokens running auto-research every day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2306.997,
+            2317.472
+          ],
+          "quote": "So we build these loops or systems where as soon as we run into any production failure, we run an auto-research loop to see what went wrong, to heal it,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2333.061,
+            2342.726
+          ],
+          "quote": "You can run an auto-research or you can run a sample run every two hours, every three hours to see if the skill is working perfectly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2375.77,
+            2379.672
+          ],
+          "quote": "So again, this is the design of the auto-research loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 445,
+          "t": [
+            2379.772,
+            2385.815
+          ],
+          "quote": "There's one way of telling your auto-research that, hey, I want to focus on just success.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 526,
+          "t": [
+            2851.925,
+            2868.53
+          ],
+          "quote": "I think if I understand this correctly, how do you prevent against prompt injection because websites could trick my auto research loop in learning something bad that can do some malicious behavior in a production setting?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "auto-browse",
+      "type": "concept",
+      "role": "concept",
+      "name": "自动浏览循环 (auto-browse)",
+      "file": "自动浏览循环",
+      "primary": true,
+      "how_described": "本集说这是把 auto-research 与浏览结合的循环:两个 Claude Agent SDK 智能体配对,执行者真的去操作浏览器,教师每轮读轨迹、把经验写进 strategy.md,直到收敛。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 104,
+          "t": [
+            499.117,
+            504.18
+          ],
+          "quote": "And the architecture here is this auto-browse loop that we call this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            506.042,
+            507.043
+          ],
+          "quote": "We call it auto-browse.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            783.577,
+            793.419
+          ],
+          "quote": "So, for example, I went to auto-browse and I was like, hey, go to the AI Engineer's website and tell me which talks and workshops are talking about hill climbing, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1698.56,
+            1702.942
+          ],
+          "quote": "Like one auto-browse loop that we probably run is like maybe $30, $40.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1729.536,
+            1735.358
+          ],
+          "quote": "Can you share how you thought about auto-research into auto-browse?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1999.005,
+            2012.712
+          ],
+          "quote": "And the easiest way to read this is we put it out here on skills.sh as well in auto-browse, and you can sort of do something like this.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "skill-md",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能文件 (skill.md)",
+      "file": "技能文件",
+      "primary": true,
+      "how_described": "本集说循环收敛后输出一份 skill.md,沉淀所有黑科技和技巧;它是纯文本的可移植产物,可以给 Claude Code 或任何智能体/SDK 使用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 132,
+          "t": [
+            664.733,
+            675.243
+          ],
+          "quote": "The key thing that I wanted to also talk about is at the end of this converged loop, the output that I want is a skill.md file.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            675.823,
+            687.074
+          ],
+          "quote": "This skill.md file would be what I give to my future agents, and it would have a collection of all the hacks or all the tricks or all the learnings from previous runs.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hill-climbing",
+      "type": "concept",
+      "role": "concept",
+      "name": "爬山法 (hill climbing)",
+      "file": "爬山法",
+      "primary": true,
+      "how_described": "本集的主题:不碰模型权重,靠执行者+教师循环一轮轮积累技巧让智能体变可靠,不同任务成本最多降到原来的十六分之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            22.987,
+            33.397
+          ],
+          "quote": "I am here to talk about hill-climbing skills, specifically how can you improve your agents without really going into the models, without really going into the weights.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            80.709,
+            90.255
+          ],
+          "quote": "Maybe I'll talk a bit about what browser agents are before diving into the whole concept of hill climbing for skills so that it becomes clear what we're doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            155.64,
+            160.141
+          ],
+          "quote": "And we're going to be using all of these tools to see what hill climbing does look like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            783.577,
+            793.419
+          ],
+          "quote": "So, for example, I went to auto-browse and I was like, hey, go to the AI Engineer's website and tell me which talks and workshops are talking about hill climbing, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "replayable-environment",
+      "type": "concept",
+      "role": "concept",
+      "name": "可重放的环境与可验证的结果 (replayable environment)",
+      "file": "可重放的环境与可验证的结果",
+      "primary": true,
+      "how_described": "本集说要把这套方法用到自己的领域需要两个条件:可反复重放的环境、可验证/可量化的结果;编码任务两者都满足,知识型工作难以重放。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 244,
+          "t": [
+            1303.187,
+            1318.152
+          ],
+          "quote": "And the two conditions that are required is that A, you should have a replayable environment of some sorts so that you can run these loops, and B, you should have some sort of verifiable outcome, some sort of quantifiable metric for you to run these loops.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1545.982,
+            1547.143
+          ],
+          "quote": "Replayable environment, I think,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prompt injection)",
+      "file": "提示词注入",
+      "primary": true,
+      "how_described": "本集在问答中讨论:网站可能欺骗自动研究循环学到恶意行为,Browserbase 用请求入口过滤、技能发布前安全审查智能体、基础设施层网络与操作限制三层防护。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 526,
+          "t": [
+            2851.925,
+            2868.53
+          ],
+          "quote": "I think if I understand this correctly, how do you prevent against prompt injection because websites could trick my auto research loop in learning something bad that can do some malicious behavior in a production setting?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 538,
+          "t": [
+            2920.592,
+            2933.136
+          ],
+          "quote": "We encourage our customers to have a good level of prompt injection guardrail surface area if they're sort of giving this out to consumers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 550,
+          "t": [
+            2990.77,
+            2996.935
+          ],
+          "quote": "It has access to anything on the wild web and take that super seriously from a prompt injection POV.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "captcha",
+      "type": "concept",
+      "role": "concept",
+      "name": "验证码与反爬虫 (CAPTCHA)",
+      "file": "验证码与反爬虫",
+      "primary": false,
+      "how_described": "本集提到浏览器智能体常被验证码和反爬拦截,Browserbase 在 Chrome 二进制层的基础设施层开箱即用解决,而非用 AI 破解。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 493,
+          "t": [
+            2681.912,
+            2685.554
+          ],
+          "quote": "Edge captcha, if I'm understanding this, is like a particular kind of captcha.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 498,
+          "t": [
+            2709.11,
+            2711.731
+          ],
+          "quote": "We don't really need to use an AI to solve a CAPTCHA.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fine-tune",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine-tune)",
+      "file": "微调",
+      "primary": false,
+      "how_described": "本集说针对每个网站做微调不可行——不可能为每个新任务都微调模型,所以才需要从生产轨迹持续学习的机制。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            354.257,
+            359.999
+          ],
+          "quote": "And some people might say, oh, why don't you fine-tune on some open table or restaurant websites?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "webmcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "WebMCP",
+      "file": "WebMCP",
+      "primary": false,
+      "how_described": "本集说 WebMCP 是让网站可编程的概念,类似浏览器上的 API,随新版 Chrome 推出;Browserbase 已在 SDK 中支持,但采用还不多。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 462,
+          "t": [
+            2468.332,
+            2470.515
+          ],
+          "quote": "If a website supports WebMCP, will this use it?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2470.876,
+            2472.178
+          ],
+          "quote": "WebMCP is so cool.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 470,
+          "t": [
+            2508.224,
+            2513.688
+          ],
+          "quote": "In fact, we recently shipped support for WebMCP with our SDKs that we launched.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2520.792,
+            2523.374
+          ],
+          "quote": "We've not really seen a lot of adoption with WebMCP as yet.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集说技能文件是可移植的纯文本,可以交给 Claude Code 使用,执行 slash autobrowse 让它现场生成技能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 295,
+          "t": [
+            1630.301,
+            1641.746
+          ],
+          "quote": "You can just do slash autobrowse on your Claude Code or Codex and be like, hey, slash autobrowse, use Opus 4.8 on both of these, teacher and doer, and go create a skill for me to do this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2806.692,
+            2808.152
+          ],
+          "quote": "It can work in your Claude Code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 519,
+          "t": [
+            2810.734,
+            2816.316
+          ],
+          "quote": "I took a skill and I told my Claude Code, can you find events in SF for this Friday?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 547,
+          "t": [
+            2975.519,
+            2982.664
+          ],
+          "quote": "You can even do something like what Codex or Claude Code does, like always allow or allow once or allow any action.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

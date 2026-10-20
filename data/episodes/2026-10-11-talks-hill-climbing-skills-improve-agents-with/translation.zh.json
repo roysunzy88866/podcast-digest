@@ -1,0 +1,4594 @@
+[
+ {
+  "seg": 0,
+  "start": 12.957,
+  "end": 13.237,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 1,
+  "start": 13.878,
+  "end": 14.118,
+  "speaker": "Unknown",
+  "en": "Hello.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 2,
+  "start": 14.619,
+  "end": 16.04,
+  "speaker": "Unknown",
+  "en": "Thank you, everybody, for being here.",
+  "zh": "感谢各位来到这里。"
+ },
+ {
+  "seg": 3,
+  "start": 16.06,
+  "end": 18.442,
+  "speaker": "Unknown",
+  "en": "I know it's the last workshop of the day.",
+  "zh": "我知道这是今天最后一个工作坊了。"
+ },
+ {
+  "seg": 4,
+  "start": 18.482,
+  "end": 20.244,
+  "speaker": "Unknown",
+  "en": "I appreciate all of you turning up here.",
+  "zh": "我很感激你们所有人还能到这里来。"
+ },
+ {
+  "seg": 5,
+  "start": 21.325,
+  "end": 22.606,
+  "speaker": "Unknown",
+  "en": "I am Shubh.",
+  "zh": "我是 Shubh。"
+ },
+ {
+  "seg": 6,
+  "start": 22.987,
+  "end": 33.397,
+  "speaker": "Unknown",
+  "en": "I am here to talk about hill-climbing skills, specifically how can you improve your agents without really going into the models, without really going into the weights.",
+  "zh": "我在这里要谈的是爬山式技能优化,具体来说,如何在不深入模型、不深入权重的情况下改进你的智能体。"
+ },
+ {
+  "seg": 7,
+  "start": 34.658,
+  "end": 36.94,
+  "speaker": "Unknown",
+  "en": "I have a Slido up here as well.",
+  "zh": "我这里还开了一个 Slido。"
+ },
+ {
+  "seg": 8,
+  "start": 37.16,
+  "end": 44.866,
+  "speaker": "Unknown",
+  "en": "I'll just flash the QR code in case any of you want to put in any questions, and we can address them towards the end as well.",
+  "zh": "我会闪一下这个二维码,以防你们有谁想提交问题,我们可以在最后一起解答。"
+ },
+ {
+  "seg": 9,
+  "start": 46.547,
+  "end": 47.308,
+  "speaker": "Unknown",
+  "en": "A little bit about me.",
+  "zh": "简单介绍一下我自己。"
+ },
+ {
+  "seg": 10,
+  "start": 47.548,
+  "end": 51.311,
+  "speaker": "Unknown",
+  "en": "I'm on the sales engineering team at BrowserBase.",
+  "zh": "我在 BrowserBase 的销售工程团队。"
+ },
+ {
+  "seg": 11,
+  "start": 52.452,
+  "end": 57.435,
+  "speaker": "Unknown",
+  "en": "I essentially work with our customers, deploying browser agents in production.",
+  "zh": "我主要和我们的客户合作,在生产环境中部署浏览器智能体。"
+ },
+ {
+  "seg": 12,
+  "start": 58.676,
+  "end": 59.297,
+  "speaker": "Unknown",
+  "en": "I'm not sure.",
+  "zh": "我不太确定。"
+ },
+ {
+  "seg": 13,
+  "start": 59.577,
+  "end": 61.118,
+  "speaker": "Unknown",
+  "en": "Maybe we'll do a show of hands.",
+  "zh": "也许我们可以举手示意一下。"
+ },
+ {
+  "seg": 14,
+  "start": 61.978,
+  "end": 64.9,
+  "speaker": "Unknown",
+  "en": "How many of you know what browser agents are?",
+  "zh": "你们当中有多少人知道什么是浏览器智能体?"
+ },
+ {
+  "seg": 15,
+  "start": 66.36,
+  "end": 66.74,
+  "speaker": "Unknown",
+  "en": "Anybody?",
+  "zh": "有人吗?"
+ },
+ {
+  "seg": 16,
+  "start": 66.76,
+  "end": 67.701,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 17,
+  "start": 67.921,
+  "end": 68.281,
+  "speaker": "Unknown",
+  "en": "A few.",
+  "zh": "有一些。"
+ },
+ {
+  "seg": 18,
+  "start": 68.882,
+  "end": 69.342,
+  "speaker": "Unknown",
+  "en": "Amazing.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 19,
+  "start": 70.102,
+  "end": 72.704,
+  "speaker": "Unknown",
+  "en": "Have any of you built browser agents before?",
+  "zh": "你们有没有人之前构建过浏览器智能体?"
+ },
+ {
+  "seg": 20,
+  "start": 73.104,
+  "end": 74.785,
+  "speaker": "Unknown",
+  "en": "Have any of you used these tools?",
+  "zh": "有没有人用过这些工具?"
+ },
+ {
+  "seg": 21,
+  "start": 75.885,
+  "end": 76.406,
+  "speaker": "Unknown",
+  "en": "Show of hands.",
+  "zh": "举手示意一下。"
+ },
+ {
+  "seg": 22,
+  "start": 76.646,
+  "end": 76.926,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 23,
+  "start": 77.066,
+  "end": 77.646,
+  "speaker": "Unknown",
+  "en": "A few of them.",
+  "zh": "有一些人。"
+ },
+ {
+  "seg": 24,
+  "start": 78.046,
+  "end": 78.447,
+  "speaker": "Unknown",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 25,
+  "start": 79.248,
+  "end": 80.209,
+  "speaker": "Unknown",
+  "en": "Nice.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 26,
+  "start": 80.709,
+  "end": 90.255,
+  "speaker": "Unknown",
+  "en": "Maybe I'll talk a bit about what browser agents are before diving into the whole concept of hill climbing for skills so that it becomes clear what we're doing.",
+  "zh": "在深入讲解技能爬山这个整体概念之前,也许我应该先讲一下什么是浏览器智能体,这样大家就能清楚我们在做什么。"
+ },
+ {
+  "seg": 27,
+  "start": 90.596,
+  "end": 97.44,
+  "speaker": "Unknown",
+  "en": "Towards the end of the talk, we'll also look into how you can do this in your domain, in your field as well.",
+  "zh": "在演讲的最后,我们还会看看你们如何在自己的领域、自己的业务中做到这一点。"
+ },
+ {
+  "seg": 28,
+  "start": 99.221,
+  "end": 100.222,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 29,
+  "start": 101.523,
+  "end": 104.585,
+  "speaker": "Unknown",
+  "en": "So, quick primer on what browser agents are.",
+  "zh": "那么,快速科普一下什么是浏览器智能体。"
+ },
+ {
+  "seg": 30,
+  "start": 105.165,
+  "end": 108.268,
+  "speaker": "Unknown",
+  "en": "If you have an agent that needs to drive a browser,",
+  "zh": "如果你有一个需要驱动浏览器的智能体,"
+ },
+ {
+  "seg": 31,
+  "start": 109.1,
+  "end": 110.921,
+  "speaker": "Unknown",
+  "en": "You basically call that a browser agent, right?",
+  "zh": "你基本上就把它叫做浏览器智能体,对吧?"
+ },
+ {
+  "seg": 32,
+  "start": 111.081,
+  "end": 113.482,
+  "speaker": "Unknown",
+  "en": "Browser becomes the tool to your agent.",
+  "zh": "浏览器变成了你智能体的一个工具。"
+ },
+ {
+  "seg": 33,
+  "start": 113.942,
+  "end": 115.403,
+  "speaker": "Unknown",
+  "en": "And how do you control it?",
+  "zh": "那你怎么控制它呢?"
+ },
+ {
+  "seg": 34,
+  "start": 115.643,
+  "end": 134.132,
+  "speaker": "Unknown",
+  "en": "You control it with some sort of CLI, some sort of MCP, some sort of method where you can control the browser and say, hey, go and click on this red button, go and click on the refresh button, go and take a screenshot or take a snapshot of the accessibility tree of this website, right?",
+  "zh": "你用某种 CLI、某种 MCP、某种可以控制浏览器的方法来控制它,比如说,嘿,去点击这个红色按钮,去点击刷新按钮,去截个图,或者对这个网站的可访问性树做个快照,对吧?"
+ },
+ {
+  "seg": 35,
+  "start": 134.352,
+  "end": 134.913,
+  "speaker": "Unknown",
+  "en": "So these are the...",
+  "zh": "这些就是……"
+ },
+ {
+  "seg": 36,
+  "start": 135.553,
+  "end": 140.295,
+  "speaker": "Unknown",
+  "en": "Low-level tools that your agent can have access to to control the browser.",
+  "zh": "你的智能体可以用来控制浏览器的低层级工具。"
+ },
+ {
+  "seg": 37,
+  "start": 140.815,
+  "end": 146.777,
+  "speaker": "Unknown",
+  "en": "And BrowserBase is essentially a platform for you to build and run these browser agents.",
+  "zh": "而 BrowserBase 本质上是一个让你构建和运行这些浏览器智能体的平台。"
+ },
+ {
+  "seg": 38,
+  "start": 147.297,
+  "end": 154.599,
+  "speaker": "Unknown",
+  "en": "We provide the infrastructure and the SDKs, the skills, the CLI that go with building these browser agents.",
+  "zh": "我们提供构建这些浏览器智能体所需的基础设施和 SDK、技能、CLI。"
+ },
+ {
+  "seg": 39,
+  "start": 155.64,
+  "end": 160.141,
+  "speaker": "Unknown",
+  "en": "And we're going to be using all of these tools to see what hill climbing does look like.",
+  "zh": "我们将使用所有这些工具来看看爬山到底是什么样子。"
+ },
+ {
+  "seg": 40,
+  "start": 161.602,
+  "end": 161.882,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 41,
+  "start": 163.822,
+  "end": 165.143,
+  "speaker": "Unknown",
+  "en": "I want to talk a bit about",
+  "zh": "我想稍微谈一下,"
+ },
+ {
+  "seg": 42,
+  "start": 166.807,
+  "end": 171.392,
+  "speaker": "Unknown",
+  "en": "The biggest problem with agents today is essentially reliability.",
+  "zh": "如今智能体最大的问题本质上就是可靠性。"
+ },
+ {
+  "seg": 43,
+  "start": 172.533,
+  "end": 183.525,
+  "speaker": "Unknown",
+  "en": "People are frustrated with browser agents getting stuck or getting into an anti-border capture issue or maybe just forgetting or being lazy and not completing the task.",
+  "zh": "人们对浏览器智能体感到沮丧,因为它们会卡住,或者陷入反爬虫验证码问题,又或者只是遗忘、偷懒、不完成任务。"
+ },
+ {
+  "seg": 44,
+  "start": 184.926,
+  "end": 187.868,
+  "speaker": "Unknown",
+  "en": "And we see reliability essentially as an engineering problem.",
+  "zh": "我们本质上把可靠性视为一个工程问题。"
+ },
+ {
+  "seg": 45,
+  "start": 188.209,
+  "end": 195.954,
+  "speaker": "Unknown",
+  "en": "I think the recent models, the Opus and the Fable, when it came out for those three days, it was really, really smart, right?",
+  "zh": "我认为最近的模型,Opus 和 Fable,刚发布的那三天,真的非常非常聪明,对吧?"
+ },
+ {
+  "seg": 46,
+  "start": 196.315,
+  "end": 202.579,
+  "speaker": "Unknown",
+  "en": "But we see that a lot of the work that has to be done for reliability is the hardness around it.",
+  "zh": "但我们看到,可靠性方面要做的大量工作其实是它周围的工程难点。"
+ },
+ {
+  "seg": 47,
+  "start": 203.06,
+  "end": 204.561,
+  "speaker": "Unknown",
+  "en": "It is the tools that you give it.",
+  "zh": "是你给它的那些工具。"
+ },
+ {
+  "seg": 48,
+  "start": 204.861,
+  "end": 206.362,
+  "speaker": "Unknown",
+  "en": "It is the skills that you give here.",
+  "zh": "是你在这里给它的那些技能。"
+ },
+ {
+  "seg": 49,
+  "start": 206.922,
+  "end": 209.344,
+  "speaker": "Unknown",
+  "en": "And that's what we're going to be sort of looking at.",
+  "zh": "这就是我们要着手探讨的内容。"
+ },
+ {
+  "seg": 50,
+  "start": 209.464,
+  "end": 212.627,
+  "speaker": "Unknown",
+  "en": "How do we improve the reliability of these browser agents?",
+  "zh": "我们如何提升这些浏览器智能体的可靠性?"
+ },
+ {
+  "seg": 51,
+  "start": 213.692,
+  "end": 218.255,
+  "speaker": "Unknown",
+  "en": "I wanted to give you all a few examples of where these agents suck today.",
+  "zh": "我想给大家举几个例子，说明这些智能体现在有多糟糕。"
+ },
+ {
+  "seg": 52,
+  "start": 218.676,
+  "end": 232.085,
+  "speaker": "Unknown",
+  "en": "If I zoom in a bit, you'll see this browser agent is trying to go on Google Flights and click on the, it's trying to drag the time filter and it's unable to figure out how do I drag that.",
+  "zh": "如果我放大一点，你会看到这个浏览器智能体正在尝试打开 Google Flights,并点击那个，它正在尝试拖动时间过滤器，但它无法弄清楚该怎么拖动它。"
+ },
+ {
+  "seg": 53,
+  "start": 232.446,
+  "end": 236.709,
+  "speaker": "Unknown",
+  "en": "Dragging is a tricky operation for these agents to do and it's getting super confused.",
+  "zh": "拖动对这些智能体来说是一个棘手的操作，它变得非常困惑。"
+ },
+ {
+  "seg": 54,
+  "start": 237.029,
+  "end": 240.632,
+  "speaker": "Unknown",
+  "en": "It doesn't know what the HTML element for that is, what the JavaScript for that is.",
+  "zh": "它不知道那个的 HTML 元素是什么，对应的 JavaScript 是什么。"
+ },
+ {
+  "seg": 55,
+  "start": 240.952,
+  "end": 242.293,
+  "speaker": "Unknown",
+  "en": "It's not really able to do this.",
+  "zh": "它实际上做不到这件事。"
+ },
+ {
+  "seg": 56,
+  "start": 242.793,
+  "end": 245.836,
+  "speaker": "Unknown",
+  "en": "And it gets stuck, and it's not able to book my flight tickets.",
+  "zh": "然后它就卡住了，无法帮我订机票。"
+ },
+ {
+  "seg": 57,
+  "start": 246.236,
+  "end": 250.72,
+  "speaker": "Unknown",
+  "en": "Another example I wanted to show is a browser agent on OpenTable.",
+  "zh": "我想展示的另一个例子是 OpenTable 上的浏览器智能体。"
+ },
+ {
+  "seg": 58,
+  "start": 251,
+  "end": 261.95,
+  "speaker": "Unknown",
+  "en": "Let's say I have my OpenClaw or my Hermes agent, and I need to book a date night, and I tell, hey, go to OpenTable and find me some, and look at the antibody that it runs into, right?",
+  "zh": "假设我有我的 OpenClaw 或者我的 Hermes 智能体，我需要订一次约会晚餐，我告诉它，嘿，去 OpenTable 给我找一些，看看它遇到的那个阻碍，对吧？"
+ },
+ {
+  "seg": 59,
+  "start": 262.51,
+  "end": 264.211,
+  "speaker": "Unknown",
+  "en": "And it's just like access denied.",
+  "zh": "然后就是访问被拒绝。"
+ },
+ {
+  "seg": 60,
+  "start": 264.231,
+  "end": 269.154,
+  "speaker": "Unknown",
+  "en": "I don't know what happens here, but like can my browser agent get around these issues?",
+  "zh": "我不知道这里发生了什么，但我的浏览器智能体能绕过这些问题吗？"
+ },
+ {
+  "seg": 61,
+  "start": 269.574,
+  "end": 274.617,
+  "speaker": "Unknown",
+  "en": "Can they be more reliable and can they book my date night restaurants is the biggest question I wanted to ask here.",
+  "zh": "它们能更可靠吗？它们能帮我订到约会晚餐的餐厅吗？这是我想问的最大的问题。"
+ },
+ {
+  "seg": 62,
+  "start": 275.337,
+  "end": 283.542,
+  "speaker": "Unknown",
+  "en": "And this is where we sort of look at different ideas to improve the reliability of these agents.",
+  "zh": "这就是为什么我们开始研究不同的想法来提升这些智能体的可靠性。"
+ },
+ {
+  "seg": 63,
+  "start": 284.122,
+  "end": 289.085,
+  "speaker": "Unknown",
+  "en": "And one of them, actually let's dig into the root cause here, right?",
+  "zh": "而其中一个，实际上让我们先深入探究一下这里的根本原因，对吧？"
+ },
+ {
+  "seg": 64,
+  "start": 289.125,
+  "end": 290.725,
+  "speaker": "Unknown",
+  "en": "Like why this is happening.",
+  "zh": "比如为什么会发生这种情况。"
+ },
+ {
+  "seg": 65,
+  "start": 292.582,
+  "end": 294.606,
+  "speaker": "Unknown",
+  "en": "We have these Opus models, these 5.5.",
+  "zh": "我们有这些 Opus 模型，这些 5.5。"
+ },
+ {
+  "seg": 66,
+  "start": 294.686,
+  "end": 296.811,
+  "speaker": "Unknown",
+  "en": "They're super nice general purpose.",
+  "zh": "它们是非常好的通用模型。"
+ },
+ {
+  "seg": 67,
+  "start": 296.831,
+  "end": 298.434,
+  "speaker": "Unknown",
+  "en": "You might have used Codex computer use.",
+  "zh": "你可能用过 Codex 的计算机操作。"
+ },
+ {
+  "seg": 68,
+  "start": 298.775,
+  "end": 299.216,
+  "speaker": "Unknown",
+  "en": "Very nice.",
+  "zh": "非常好用。"
+ },
+ {
+  "seg": 69,
+  "start": 299.236,
+  "end": 302.623,
+  "speaker": "Unknown",
+  "en": "But when you want to sort of do long-running,",
+  "zh": "但是当你想要进行长时间运行时，"
+ },
+ {
+  "seg": 70,
+  "start": 304.968,
+  "end": 311.81,
+  "speaker": "Unknown",
+  "en": "Tricky websites like the OpenTables or the Google Flights, it sort of becomes very difficult to run these in production.",
+  "zh": "像 OpenTable 或 Google Flights 这样棘手的网站，要在生产环境中运行这些就变得非常困难。"
+ },
+ {
+  "seg": 71,
+  "start": 312.15,
+  "end": 318.693,
+  "speaker": "Unknown",
+  "en": "And these site-specific tricks or these JavaScript that you need to run on your browser, the agent doesn't know about them, right?",
+  "zh": "而且这些特定于网站的技巧，或者你需要在浏览器上运行的 JavaScript,智能体并不知道它们，对吧？"
+ },
+ {
+  "seg": 72,
+  "start": 319.053,
+  "end": 322.474,
+  "speaker": "Unknown",
+  "en": "And the most important thing is every run starts from zero.",
+  "zh": "最重要的一点是，每次运行都是从零开始。"
+ },
+ {
+  "seg": 73,
+  "start": 323.034,
+  "end": 326.958,
+  "speaker": "Unknown",
+  "en": "You're not really having any sort of learning baked into your runs.",
+  "zh": "你的运行中并没有内嵌任何形式的学习。"
+ },
+ {
+  "seg": 74,
+  "start": 327.259,
+  "end": 329.701,
+  "speaker": "Unknown",
+  "en": "I think Dwarkesh talked about this a couple of days ago.",
+  "zh": "我想 Dwarkesh 几天前谈到过这个。"
+ },
+ {
+  "seg": 75,
+  "start": 330.002,
+  "end": 333.606,
+  "speaker": "Unknown",
+  "en": "He's like, why is progress on computer use still so slow today?",
+  "zh": "他说，为什么计算机操作的进展至今仍然这么慢？"
+ },
+ {
+  "seg": 76,
+  "start": 334.907,
+  "end": 339.832,
+  "speaker": "Unknown",
+  "en": "Although computer use seems like a verifiable problem, why is it still not solved?",
+  "zh": "尽管计算机操作看起来是一个可验证的问题，为什么它仍然没有被解决？"
+ },
+ {
+  "seg": 77,
+  "start": 340.553,
+  "end": 342.334,
+  "speaker": "Unknown",
+  "en": "Essentially, there's no learning happening.",
+  "zh": "本质上，是因为没有任何学习在发生。"
+ },
+ {
+  "seg": 78,
+  "start": 342.774,
+  "end": 349.496,
+  "speaker": "Unknown",
+  "en": "Every agent run is a start-from-scratch run, and it's not learning from its production traces.",
+  "zh": "每次智能体运行都是从零开始的运行，它没有从自己的生产轨迹中学习。"
+ },
+ {
+  "seg": 79,
+  "start": 350.156,
+  "end": 353.297,
+  "speaker": "Unknown",
+  "en": "And these browser agents, I call them geniuses that never learn.",
+  "zh": "而这些浏览器智能体，我称之为从不学习的天才。"
+ },
+ {
+  "seg": 80,
+  "start": 354.257,
+  "end": 359.999,
+  "speaker": "Unknown",
+  "en": "And some people might say, oh, why don't you fine-tune on some open table or restaurant websites?",
+  "zh": "有人可能会说，哦，为什么你不在一些 OpenTable 或者餐厅网站上做微调呢？"
+ },
+ {
+  "seg": 81,
+  "start": 360.959,
+  "end": 363.14,
+  "speaker": "Unknown",
+  "en": "But it's not really scalable, right?",
+  "zh": "但这实际上不可扩展，对吧？"
+ },
+ {
+  "seg": 82,
+  "start": 363.22,
+  "end": 367.401,
+  "speaker": "Unknown",
+  "en": "If you're thinking of building agents, you can't really be fine-tuning for every new task that comes up.",
+  "zh": "如果你想构建智能体，你不可能为每一个出现的新任务都做微调。"
+ },
+ {
+  "seg": 83,
+  "start": 367.722,
+  "end": 368.382,
+  "speaker": "Unknown",
+  "en": "You want some",
+  "zh": "你想要某种"
+ },
+ {
+  "seg": 84,
+  "start": 369.542,
+  "end": 375.071,
+  "speaker": "Unknown",
+  "en": "You want a modality where it can learn from its production traces and get better over time.",
+  "zh": "你想要一种模式，让它能从自己的生产轨迹中学习并随时间变得更好。"
+ },
+ {
+  "seg": 85,
+  "start": 377.095,
+  "end": 384.898,
+  "speaker": "Unknown",
+  "en": "This is where we sort of started thinking about, and this was like four to six months ago where Karpathy came up with this idea of auto research.",
+  "zh": "这就是我们开始思考的地方，而这大概是在四到六个月前，Karpathy 提出了 auto research 这个想法。"
+ },
+ {
+  "seg": 86,
+  "start": 385.338,
+  "end": 387.899,
+  "speaker": "Unknown",
+  "en": "It's essentially a loop, right?",
+  "zh": "它本质上是一个循环，对吧？"
+ },
+ {
+  "seg": 87,
+  "start": 388.359,
+  "end": 399.223,
+  "speaker": "Unknown",
+  "en": "And this loop sort of takes a verifiable problem statement and goes at it, tries it again and again, looks at its own traces, and tries to improve itself.",
+  "zh": "这个循环会拿到一个可验证的问题陈述，然后去攻克它，一次又一次地尝试，查看自己的轨迹，并尝试改进自己。"
+ },
+ {
+  "seg": 88,
+  "start": 400.194,
+  "end": 403.537,
+  "speaker": "Unknown",
+  "en": "And we wondered, how can we apply this to browser agents?",
+  "zh": "我们想知道，如何把这个应用到浏览器智能体上？"
+ },
+ {
+  "seg": 89,
+  "start": 403.877,
+  "end": 412.905,
+  "speaker": "Unknown",
+  "en": "How can we apply this to these complicated workflows, these complicated websites, which are not deterministic, they change every day, they have different captchas every time.",
+  "zh": "如何把这个应用到这些复杂的工作流、这些复杂的网站上？它们不是确定性的，它们每天都在变化，每次都有不同的验证码。"
+ },
+ {
+  "seg": 90,
+  "start": 414.627,
+  "end": 416.548,
+  "speaker": "Unknown",
+  "en": "How can we learn from these, right?",
+  "zh": "我们如何从这些当中学习，对吧？"
+ },
+ {
+  "seg": 91,
+  "start": 417.749,
+  "end": 422.614,
+  "speaker": "Unknown",
+  "en": "This is where I want to sort of switch into a demo and sort of show this live.",
+  "zh": "这就是我想切换到演示环节的地方，现场展示这个。"
+ },
+ {
+  "seg": 92,
+  "start": 423.134,
+  "end": 425.896,
+  "speaker": "Unknown",
+  "en": "And I'm going to start with",
+  "zh": "我将从"
+ },
+ {
+  "seg": 93,
+  "start": 429.469,
+  "end": 442.056,
+  "speaker": "Unknown",
+  "en": "So I want to maybe do something like go to Google Flights and find me a business class flight from SF to New York for this Saturday.",
+  "zh": "所以我想做类似这样的事情：去 Google Flights 给我找一张这周六从旧金山到纽约的商务舱机票。"
+ },
+ {
+  "seg": 94,
+  "start": 442.636,
+  "end": 447.439,
+  "speaker": "Unknown",
+  "en": "I want to have one carry-on bag and this flight should be in the morning.",
+  "zh": "我想带一件随身行李，而且这趟航班应该在早上。"
+ },
+ {
+  "seg": 95,
+  "start": 449.22,
+  "end": 453.342,
+  "speaker": "Unknown",
+  "en": "I hope my, okay, this is correct.",
+  "zh": "我希望我的，好，这个是对的。"
+ },
+ {
+  "seg": 96,
+  "start": 455.42,
+  "end": 456.98,
+  "speaker": "Unknown",
+  "en": "Just paste this and run this.",
+  "zh": "只需粘贴这个并运行它。"
+ },
+ {
+  "seg": 97,
+  "start": 457.361,
+  "end": 460.001,
+  "speaker": "Unknown",
+  "en": "So starting a browser-based session here.",
+  "zh": "所以在这里启动一个基于浏览器的会话。"
+ },
+ {
+  "seg": 98,
+  "start": 460.561,
+  "end": 466.923,
+  "speaker": "Unknown",
+  "en": "So what you see in the center is a remote browser has just spun up and has navigated to Google Flights.",
+  "zh": "你在中间看到的是一个远程浏览器刚刚启动，并导航到了 Google Flights。"
+ },
+ {
+  "seg": 99,
+  "start": 467.343,
+  "end": 472.865,
+  "speaker": "Unknown",
+  "en": "If I expand my agent here, it's doing all of these things.",
+  "zh": "如果我在这里展开我的智能体，它正在做所有这些事情。"
+ },
+ {
+  "seg": 100,
+  "start": 473.125,
+  "end": 475.306,
+  "speaker": "Unknown",
+  "en": "This is the reasoning traces that you can see live.",
+  "zh": "这是你可以实时看到的推理轨迹。"
+ },
+ {
+  "seg": 101,
+  "start": 475.626,
+  "end": 479.067,
+  "speaker": "Unknown",
+  "en": "And it's trying to sort of apply the business class filter.",
+  "zh": "它正在尝试应用商务舱过滤器。"
+ },
+ {
+  "seg": 102,
+  "start": 479.587,
+  "end": 490.806,
+  "speaker": "Unknown",
+  "en": "So it'll do its job, and we'll come back to this, but I wanted to talk about what's really happening here and the architecture behind this auto research loop.",
+  "zh": "它会完成它的工作,我们稍后会回到这里,但我想谈谈这里真正发生的事情,以及这个自动研究循环背后的架构。"
+ },
+ {
+  "seg": 103,
+  "start": 495.794,
+  "end": 498.556,
+  "speaker": "Unknown",
+  "en": "So we fired the Google Flights task.",
+  "zh": "我们启动了 Google Flights 任务。"
+ },
+ {
+  "seg": 104,
+  "start": 499.117,
+  "end": 504.18,
+  "speaker": "Unknown",
+  "en": "And the architecture here is this auto-browse loop that we call this.",
+  "zh": "这里的架构就是这个我们称之为自动浏览循环的东西。"
+ },
+ {
+  "seg": 105,
+  "start": 504.2,
+  "end": 506.022,
+  "speaker": "Unknown",
+  "en": "We took auto-research and we took browsing.",
+  "zh": "我们把自动研究和浏览结合了起来。"
+ },
+ {
+  "seg": 106,
+  "start": 506.042,
+  "end": 507.043,
+  "speaker": "Unknown",
+  "en": "We call it auto-browse.",
+  "zh": "我们叫它自动浏览。"
+ },
+ {
+  "seg": 107,
+  "start": 507.543,
+  "end": 511.746,
+  "speaker": "Unknown",
+  "en": "And this loop essentially is two Claude Agent SDK agents.",
+  "zh": "这个循环本质上是两个 Claude Agent SDK 智能体。"
+ },
+ {
+  "seg": 108,
+  "start": 513.047,
+  "end": 516.23,
+  "speaker": "Unknown",
+  "en": "You can call one as the doer agent and one as the teacher agent.",
+  "zh": "你可以把一个称为执行者智能体,另一个称为教师智能体。"
+ },
+ {
+  "seg": 109,
+  "start": 516.77,
+  "end": 520.172,
+  "speaker": "Unknown",
+  "en": "This doer agent, its job is to actually go and do the browsing.",
+  "zh": "这个执行者智能体的工作是实际去执行浏览。"
+ },
+ {
+  "seg": 110,
+  "start": 520.572,
+  "end": 523.354,
+  "speaker": "Unknown",
+  "en": "It has access to the browse CLI that we talked about.",
+  "zh": "它可以访问我们刚才谈到的 browse CLI。"
+ },
+ {
+  "seg": 111,
+  "start": 523.574,
+  "end": 524.955,
+  "speaker": "Unknown",
+  "en": "It has access to the browser.",
+  "zh": "它可以访问浏览器。"
+ },
+ {
+  "seg": 112,
+  "start": 526.036,
+  "end": 531.099,
+  "speaker": "Unknown",
+  "en": "And it goes and sort of clicks on buttons, looks at the screenshot, tries to get me information.",
+  "zh": "它会去点击按钮,查看截图,尝试为我获取信息。"
+ },
+ {
+  "seg": 113,
+  "start": 531.559,
+  "end": 538.063,
+  "speaker": "Unknown",
+  "en": "And the teacher's job is to look at the traces of the doer and learn what went wrong and what went right.",
+  "zh": "而教师的工作是查看执行者的轨迹,了解哪里出了问题,哪里做对了。"
+ },
+ {
+  "seg": 114,
+  "start": 538.904,
+  "end": 544.848,
+  "speaker": "Unknown",
+  "en": "And they keep working together until they find a very good solution that converges.",
+  "zh": "它们会持续协同工作,直到找到一个收敛的非常好的解决方案。"
+ },
+ {
+  "seg": 115,
+  "start": 547.073,
+  "end": 549.595,
+  "speaker": "Unknown",
+  "en": "We don't tell it how many loops you need to go for.",
+  "zh": "我们不告诉它需要跑多少轮循环。"
+ },
+ {
+  "seg": 116,
+  "start": 550.016,
+  "end": 555.681,
+  "speaker": "Unknown",
+  "en": "We don't tell it what's the success rate that we want.",
+  "zh": "我们不告诉它我们想要的成功率是多少。"
+ },
+ {
+  "seg": 117,
+  "start": 555.761,
+  "end": 560.785,
+  "speaker": "Unknown",
+  "en": "We don't tell it, hey, we need to do this within X number of tokens or X number of seconds.",
+  "zh": "我们不告诉它,嘿,我们需要在 X 个 token 或 X 秒内完成这件事。"
+ },
+ {
+  "seg": 118,
+  "start": 561.106,
+  "end": 568.552,
+  "speaker": "Unknown",
+  "en": "We just give it a broad prompt, and we let the bitter lesson, we embrace the bitter lesson, and we're like, okay, let the doer and teacher go at it.",
+  "zh": "我们只给它一个宽泛的提示词,我们拥抱苦涩教训,我们说,好吧,让执行者和教师去干吧。"
+ },
+ {
+  "seg": 119,
+  "start": 570.053,
+  "end": 577.757,
+  "speaker": "Unknown",
+  "en": "And the key thing that happens is there is a strategy.md file that is essentially the artifact across multiple runs.",
+  "zh": "而关键在于有一个 strategy.md 文件,它本质上是跨多次运行的产物。"
+ },
+ {
+  "seg": 120,
+  "start": 579.658,
+  "end": 589.043,
+  "speaker": "Unknown",
+  "en": "After every iteration, the teacher thinks about what happened, looks at the screenshot, looks at the logs, and then thinks, oh, you did not click on this button.",
+  "zh": "每次迭代之后,教师会思考发生了什么,查看截图,查看日志,然后思考,哦,你没有点击这个按钮。"
+ },
+ {
+  "seg": 121,
+  "start": 590.003,
+  "end": 592.024,
+  "speaker": "Unknown",
+  "en": "You should actually click on this button instead.",
+  "zh": "你其实应该点击那个按钮才对。"
+ },
+ {
+  "seg": 122,
+  "start": 592.264,
+  "end": 598.788,
+  "speaker": "Unknown",
+  "en": "And it puts that in the strategy.md file, and that artifact carries over to the next iteration, and it improves from there.",
+  "zh": "它会把这一点写进 strategy.md 文件,这个产物会延续到下一次迭代,并在此基础上改进。"
+ },
+ {
+  "seg": 123,
+  "start": 599.974,
+  "end": 602.736,
+  "speaker": "Unknown",
+  "en": "Maybe we'll go back to our demo and see what happened.",
+  "zh": "也许我们回到我们的演示,看看发生了什么。"
+ },
+ {
+  "seg": 124,
+  "start": 603.016,
+  "end": 615.045,
+  "speaker": "Unknown",
+  "en": "All right, so iteration number one, there was a failure here, and the learning from this iteration was skip the entire form calendar widget because you can just do...",
+  "zh": "好的,第一次迭代,这里有一次失败,这次迭代学到的经验是跳过整个表单日历组件,因为你可以直接用……"
+ },
+ {
+  "seg": 125,
+  "start": 615.785,
+  "end": 618.827,
+  "speaker": "Unknown",
+  "en": "A query parameter and you don't really need to click around, right?",
+  "zh": "一个查询参数,你其实不需要到处点击,对吧?"
+ },
+ {
+  "seg": 126,
+  "start": 618.867,
+  "end": 628.912,
+  "speaker": "Unknown",
+  "en": "The agent was smart enough in this instance to think, oh, I'm wasting so many tokens and I'm wasting so much time clicking around where I could just use Google Flight's query parameter.",
+  "zh": "在这个实例中,智能体足够聪明,想到了,哦,我在浪费这么多 token,浪费这么多时间到处点击,而我其实可以直接用 Google Flights 的查询参数。"
+ },
+ {
+  "seg": 127,
+  "start": 629.272,
+  "end": 637.876,
+  "speaker": "Unknown",
+  "en": "Now, this is obvious in hindsight, but maybe as a human, I wouldn't have thought of this and I wouldn't have written this complicated query parameter myself, right?",
+  "zh": "现在,事后来看这很显然,但作为人类,我可能不会想到这一点,我自己也不会写出这么复杂的查询参数,对吧?"
+ },
+ {
+  "seg": 128,
+  "start": 639.497,
+  "end": 641.699,
+  "speaker": "Unknown",
+  "en": "So this is the learning from the first iteration.",
+  "zh": "所以这就是第一次迭代的经验。"
+ },
+ {
+  "seg": 129,
+  "start": 641.959,
+  "end": 644.702,
+  "speaker": "Unknown",
+  "en": "Now it's going and doing things in iteration number two.",
+  "zh": "现在它在第二次迭代中继续执行操作。"
+ },
+ {
+  "seg": 130,
+  "start": 644.942,
+  "end": 659.994,
+  "speaker": "Unknown",
+  "en": "It'll keep going on till it feels like it has maxed out all the tricks, it has maxed out all JavaScript hacks that it could do, and then think about, okay, this is the skill that I can use from here.",
+  "zh": "它会一直进行下去,直到它觉得已经用尽了所有技巧,用尽了所有它能做的 JavaScript 黑科技,然后再思考,好的,这是我可以从这里使用的技能。"
+ },
+ {
+  "seg": 131,
+  "start": 663.597,
+  "end": 663.798,
+  "speaker": "Unknown",
+  "en": "I think",
+  "zh": "我认为"
+ },
+ {
+  "seg": 132,
+  "start": 664.733,
+  "end": 675.243,
+  "speaker": "Unknown",
+  "en": "The key thing that I wanted to also talk about is at the end of this converged loop, the output that I want is a skill.md file.",
+  "zh": "我还想谈的关键一点是,在这个收敛循环的末尾,我想要的输出是一个 skill.md 文件。"
+ },
+ {
+  "seg": 133,
+  "start": 675.823,
+  "end": 687.074,
+  "speaker": "Unknown",
+  "en": "This skill.md file would be what I give to my future agents, and it would have a collection of all the hacks or all the tricks or all the learnings from previous runs.",
+  "zh": "这个 skill.md 文件将是我给我未来智能体的东西,它会汇集之前所有运行中的黑科技、技巧或经验。"
+ },
+ {
+  "seg": 134,
+  "start": 687.574,
+  "end": 690.197,
+  "speaker": "Unknown",
+  "en": "We'll look at what that skill might look like.",
+  "zh": "我们来看看这个技能可能是什么样子。"
+ },
+ {
+  "seg": 135,
+  "start": 691.118,
+  "end": 694.603,
+  "speaker": "Unknown",
+  "en": "It could look like, hey, a pre-filled URL is mandatory.",
+  "zh": "它可能是这样的,嘿,预填的 URL 是必须的。"
+ },
+ {
+  "seg": 136,
+  "start": 694.903,
+  "end": 699.609,
+  "speaker": "Unknown",
+  "en": "Don't go around and waste your clicks and tokens clicking on these buttons.",
+  "zh": "不要到处浪费你的点击和 token 去点这些按钮。"
+ },
+ {
+  "seg": 137,
+  "start": 700.41,
+  "end": 702.732,
+  "speaker": "Unknown",
+  "en": "There is a reopen bug in the calendar",
+  "zh": "日历里有一个重新打开的 bug"
+ },
+ {
+  "seg": 138,
+  "start": 703.353,
+  "end": 704.094,
+  "speaker": "Unknown",
+  "en": "Don't do this.",
+  "zh": "不要这么做。"
+ },
+ {
+  "seg": 139,
+  "start": 705.195,
+  "end": 711.781,
+  "speaker": "Unknown",
+  "en": "If you want to move the drag, if you want to drag your timestamp thing, use JavaScript injection.",
+  "zh": "如果你想移动拖拽,如果你想拖动你的时间戳的东西,使用 JavaScript 注入。"
+ },
+ {
+  "seg": 140,
+  "start": 711.921,
+  "end": 713.863,
+  "speaker": "Unknown",
+  "en": "Don't try to do it with the mouse, right?",
+  "zh": "不要试图用鼠标来做,对吧?"
+ },
+ {
+  "seg": 141,
+  "start": 714.224,
+  "end": 725.675,
+  "speaker": "Unknown",
+  "en": "These are the kind of tricks that are now persisted for every future run and gives me so many more savings from a performance, reliability, and cost perspective.",
+  "zh": "这些就是现在为未来每一次运行而持久化保存的技巧,从性能、可靠性和成本角度来看,给我带来了多得多的节省。"
+ },
+ {
+  "seg": 142,
+  "start": 727.701,
+  "end": 733.043,
+  "speaker": "Unknown",
+  "en": "Now, we'll go back to our run and see if it has passed.",
+  "zh": "现在,我们回到我们的运行,看看它是否通过了。"
+ },
+ {
+  "seg": 143,
+  "start": 733.083,
+  "end": 735.103,
+  "speaker": "Unknown",
+  "en": "Okay, so iteration number two has passed.",
+  "zh": "好的,第二次迭代通过了。"
+ },
+ {
+  "seg": 144,
+  "start": 735.363,
+  "end": 741.265,
+  "speaker": "Unknown",
+  "en": "And if you can see, the savings in cost are like 4x.",
+  "zh": "如果你能看到的话,成本节省大约是 4 倍。"
+ },
+ {
+  "seg": 145,
+  "start": 741.545,
+  "end": 743.866,
+  "speaker": "Unknown",
+  "en": "This chart is being created on the fly.",
+  "zh": "这张图表是实时生成的。"
+ },
+ {
+  "seg": 146,
+  "start": 744.466,
+  "end": 747.667,
+  "speaker": "Unknown",
+  "en": "So it started from $12 and the second one was $3.",
+  "zh": "它从 12 美元开始,第二次是 3 美元。"
+ },
+ {
+  "seg": 147,
+  "start": 747.827,
+  "end": 756.49,
+  "speaker": "Unknown",
+  "en": "And keep in mind, my agents here are opus4.8, both for the doer and for the teacher.",
+  "zh": "请记住,我这里的智能体用的是 opus4.8,执行者和教师都是。"
+ },
+ {
+  "seg": 148,
+  "start": 757.897,
+  "end": 759.719,
+  "speaker": "Unknown",
+  "en": "Now iteration three just came in.",
+  "zh": "现在第三次迭代刚刚进来。"
+ },
+ {
+  "seg": 149,
+  "start": 760.599,
+  "end": 762.141,
+  "speaker": "Unknown",
+  "en": "The number of turns decreased.",
+  "zh": "轮次数量减少了。"
+ },
+ {
+  "seg": 150,
+  "start": 762.381,
+  "end": 763.902,
+  "speaker": "Unknown",
+  "en": "The latency is also better.",
+  "zh": "延迟也更好了。"
+ },
+ {
+  "seg": 151,
+  "start": 764.723,
+  "end": 767.225,
+  "speaker": "Unknown",
+  "en": "But there was a failure in iteration number three.",
+  "zh": "但第三次迭代出现了一个失败。"
+ },
+ {
+  "seg": 152,
+  "start": 767.245,
+  "end": 769.827,
+  "speaker": "Unknown",
+  "en": "So there's something that it sort of overcorrected on.",
+  "zh": "所以它似乎在某处过度纠正了。"
+ },
+ {
+  "seg": 153,
+  "start": 770.067,
+  "end": 772.83,
+  "speaker": "Unknown",
+  "en": "And iteration number four should probably be learning from that.",
+  "zh": "第四次迭代应该会从中学习。"
+ },
+ {
+  "seg": 154,
+  "start": 773.03,
+  "end": 774.111,
+  "speaker": "Unknown",
+  "en": "And we'll see if it does that.",
+  "zh": "我们到时候看看它是不是这样做的。"
+ },
+ {
+  "seg": 155,
+  "start": 776.395,
+  "end": 783.437,
+  "speaker": "Unknown",
+  "en": "While it's doing its own thing, I wanted to show some previous runs that I did just in preparation for this demo.",
+  "zh": "在它自己运行的时候，我想展示一些我之前为这个 demo 准备的运行记录。"
+ },
+ {
+  "seg": 156,
+  "start": 783.577,
+  "end": 793.419,
+  "speaker": "Unknown",
+  "en": "So, for example, I went to auto-browse and I was like, hey, go to the AI Engineer's website and tell me which talks and workshops are talking about hill climbing, right?",
+  "zh": "比如说，我去了 auto-browse，然后说，嘿，去 AI Engineer 的网站，告诉我哪些演讲和工作坊在讲爬山法，对吧？"
+ },
+ {
+  "seg": 157,
+  "start": 793.559,
+  "end": 797.82,
+  "speaker": "Unknown",
+  "en": "And it did that across multiple iterations, and you can see the replay of each of these.",
+  "zh": "它在多次迭代中完成了这个任务，你可以看到每一次的回放。"
+ },
+ {
+  "seg": 158,
+  "start": 797.96,
+  "end": 804.402,
+  "speaker": "Unknown",
+  "en": "These are replays that are coming from browser-based, super helpful, important for observability perspective, and as you can see,",
+  "zh": "这些是来自浏览器端的回放，非常有用，从可观测性的角度来看很重要，而且正如你所看到的，"
+ },
+ {
+  "seg": 159,
+  "start": 805.783,
+  "end": 812.029,
+  "speaker": "Unknown",
+  "en": "It sort of got better in terms of cost, 7.4x.",
+  "zh": "它在成本方面有所改善，7.4 倍。"
+ },
+ {
+  "seg": 160,
+  "start": 812.429,
+  "end": 817.694,
+  "speaker": "Unknown",
+  "en": "Even though it was able to pass in all the iterations, I still got improvements in cost.",
+  "zh": "尽管它在所有迭代中都能通过，我在成本上仍然获得了改进。"
+ },
+ {
+  "seg": 161,
+  "start": 818.215,
+  "end": 822.439,
+  "speaker": "Unknown",
+  "en": "Now, I wanted to actually see what are the learnings from this skill, right?",
+  "zh": "现在，我实际上想看看从这个 skill 中能学到什么，对吧？"
+ },
+ {
+  "seg": 162,
+  "start": 823.04,
+  "end": 826.383,
+  "speaker": "Unknown",
+  "en": "How do you sort of persist all of these learnings?",
+  "zh": "你要如何持久化所有这些学到的经验？"
+ },
+ {
+  "seg": 163,
+  "start": 826.603,
+  "end": 829.065,
+  "speaker": "Unknown",
+  "en": "It says, go straight to the Schedule page.",
+  "zh": "它写着：直接前往 Schedule 页面。"
+ },
+ {
+  "seg": 164,
+  "start": 829.726,
+  "end": 833.069,
+  "speaker": "Unknown",
+  "en": "If there are open errors, don't retry blindly.",
+  "zh": "如果有打开的错误，不要盲目重试。"
+ },
+ {
+  "seg": 165,
+  "start": 833.129,
+  "end": 833.669,
+  "speaker": "Unknown",
+  "en": "Run this.",
+  "zh": "运行这个。"
+ },
+ {
+  "seg": 166,
+  "start": 834.63,
+  "end": 837.433,
+  "speaker": "Unknown",
+  "en": "Type the keyword into the session search input.",
+  "zh": "把关键词输入到会话搜索输入框里。"
+ },
+ {
+  "seg": 167,
+  "start": 837.973,
+  "end": 847.881,
+  "speaker": "Unknown",
+  "en": "Wait briefly, so have these waits, because sometimes websites take a lot of time to load, so you can have these kind of tricks, and then read the results.",
+  "zh": "稍等片刻，也就是加入这些等待，因为有时候网站加载需要很多时间，所以你可以用这类技巧，然后再读取结果。"
+ },
+ {
+  "seg": 168,
+  "start": 848.141,
+  "end": 851.464,
+  "speaker": "Unknown",
+  "en": "There's a lot of learning that is happening in these skills.",
+  "zh": "在这些 skill 里有大量的学习在发生。"
+ },
+ {
+  "seg": 169,
+  "start": 851.765,
+  "end": 854.487,
+  "speaker": "Unknown",
+  "en": "Maybe I wanted to show some interesting ones.",
+  "zh": "也许我想展示几个有意思的。"
+ },
+ {
+  "seg": 170,
+  "start": 854.607,
+  "end": 857.93,
+  "speaker": "Unknown",
+  "en": "I wanted to show this OpenTable one, because I started with this.",
+  "zh": "我想展示这个 OpenTable 的例子，因为我是从这个开始的。"
+ },
+ {
+  "seg": 171,
+  "start": 859.222,
+  "end": 862.104,
+  "speaker": "Unknown",
+  "en": "Blocker of access denied when we started this demo.",
+  "zh": "我们开始这个 demo 时的阻塞是访问被拒绝。"
+ },
+ {
+  "seg": 172,
+  "start": 862.784,
+  "end": 870.19,
+  "speaker": "Unknown",
+  "en": "And if we go to the screenshot, this was the access denied thing that we got in iteration number one.",
+  "zh": "像这样做日期计算。"
+ },
+ {
+  "seg": 173,
+  "start": 870.53,
+  "end": 872.211,
+  "speaker": "Unknown",
+  "en": "Let's see how it learned from there.",
+  "zh": "让我们看看它是如何从那里学习的。"
+ },
+ {
+  "seg": 174,
+  "start": 873.212,
+  "end": 880.377,
+  "speaker": "Unknown",
+  "en": "It realized that the block is environmental because the website doesn't want this agent to do something.",
+  "zh": "它意识到这个阻塞是环境性的，因为这个网站不想让这个智能体做某些操作。"
+ },
+ {
+  "seg": 175,
+  "start": 881.077,
+  "end": 892.3,
+  "speaker": "Unknown",
+  "en": "In iteration number two, it figured that if I do a query parameter and if I put a latitude, longitude metro ID, I automatically get that UI that works.",
+  "zh": "在第二次迭代中，它发现如果我加一个查询参数，如果我填入纬度、经度和 metro ID，我就自动得到了那个能用的 UI。"
+ },
+ {
+  "seg": 176,
+  "start": 892.76,
+  "end": 899.821,
+  "speaker": "Unknown",
+  "en": "Do not open slash R, that's blocked, and do not reload slash S. These are the places where the blocks kick in.",
+  "zh": "不要打开 slash R，那个被屏蔽了，也不要重新加载 slash S。这些就是屏蔽触发的地方。"
+ },
+ {
+  "seg": 177,
+  "start": 900.141,
+  "end": 905.743,
+  "speaker": "Unknown",
+  "en": "If you don't do that and you follow this technique instead, your agent will work, right?",
+  "zh": "如果你不那么做，而是改用这个技巧，你的智能体就能正常工作，对吧？"
+ },
+ {
+  "seg": 178,
+  "start": 905.983,
+  "end": 906.823,
+  "speaker": "Unknown",
+  "en": "And as you can see,",
+  "zh": "然后正如你所看到的，"
+ },
+ {
+  "seg": 179,
+  "start": 908.324,
+  "end": 912.329,
+  "speaker": "Unknown",
+  "en": "It sort of went from $6.22 to $0.51.",
+  "zh": "它大致从 6.22 美元降到了 0.51 美元。"
+ },
+ {
+  "seg": 180,
+  "start": 912.649,
+  "end": 919.597,
+  "speaker": "Unknown",
+  "en": "The time taken went from 189 seconds to 27 seconds, and the skill it came up with was here.",
+  "zh": "耗时从 189 秒降到了 27 秒，而它总结出的 skill 就在这里。"
+ },
+ {
+  "seg": 181,
+  "start": 920.859,
+  "end": 921.9,
+  "speaker": "Unknown",
+  "en": "Build the search URL.",
+  "zh": "构建搜索 URL。"
+ },
+ {
+  "seg": 182,
+  "start": 922.833,
+  "end": 924.633,
+  "speaker": "Unknown",
+  "en": "Do the date math like this.",
+  "zh": "像这样算一下日期。"
+ },
+ {
+  "seg": 183,
+  "start": 925.734,
+  "end": 931.295,
+  "speaker": "Unknown",
+  "en": "This is the known metro pins for San Francisco, and follow these steps, right?",
+  "zh": "这些是旧金山的已知 metro 定位点，然后按照这些步骤来，对吧？"
+ },
+ {
+  "seg": 184,
+  "start": 931.675,
+  "end": 935.396,
+  "speaker": "Unknown",
+  "en": "Never call slash R because that will return access denied.",
+  "zh": "永远不要调用 slash R，因为那会返回访问被拒绝。"
+ },
+ {
+  "seg": 185,
+  "start": 935.816,
+  "end": 945.058,
+  "speaker": "Unknown",
+  "en": "Now, these are the kind of learnings where a human could never have done, but you just sort of embrace the bitter lesson and let agents do the job, and they will find these tricks for you.",
+  "zh": "现在，这类学习是人类永远做不到的，你只要拥抱苦涩的教训，让智能体去干活，它们就会为你找到这些技巧。"
+ },
+ {
+  "seg": 186,
+  "start": 948.227,
+  "end": 953.77,
+  "speaker": "Unknown",
+  "en": "I want to also show a few examples of the kind of improvements we see.",
+  "zh": "我还想展示几个我们看到的改进类型的例子。"
+ },
+ {
+  "seg": 187,
+  "start": 954.95,
+  "end": 963.594,
+  "speaker": "Unknown",
+  "en": "The reason why this problem is so close to my heart is because I, from a sales perspective, am deploying these browser agents into production.",
+  "zh": "这个问题之所以让我如此上心，是因为从销售的角度来说，我是在把这些浏览器智能体部署到生产环境中。"
+ },
+ {
+  "seg": 188,
+  "start": 965.813,
+  "end": 982.224,
+  "speaker": "Unknown",
+  "en": "The sale is only done when the browser agent is successful, so reliability is the most important thing for me, and this is the key tool that I take to my customers, and I'm like, just fire your agents, let them do this auto-research thing, and your agents will be successful in production.",
+  "zh": "只有浏览器智能体成功了，销售才算完成，所以可靠性对我来说是最重要的，而这是我去见客户时拿出的关键工具，我会说，尽管去跑你的智能体，让它们做这种自动研究的事情，你的智能体就能在生产中成功。"
+ },
+ {
+  "seg": 189,
+  "start": 982.804,
+  "end": 986.207,
+  "speaker": "Unknown",
+  "en": "And these are the kind of success metrics that people are looking for.",
+  "zh": "而这些就是人们在寻找的成功指标。"
+ },
+ {
+  "seg": 190,
+  "start": 986.727,
+  "end": 992.39,
+  "speaker": "Unknown",
+  "en": "Up to 16x cheaper, 12x cheaper, 3x cheaper on different tasks.",
+  "zh": "便宜最多 16 倍、12 倍，不同任务上便宜 3 倍。"
+ },
+ {
+  "seg": 191,
+  "start": 992.49,
+  "end": 993.911,
+  "speaker": "Unknown",
+  "en": "Of course, every task is different.",
+  "zh": "当然，每个任务都不一样。"
+ },
+ {
+  "seg": 192,
+  "start": 994.151,
+  "end": 1003.415,
+  "speaker": "Unknown",
+  "en": "The bottlenecks on each task are different, so you might see variance there, but the idea is you can hill climb on these techniques.",
+  "zh": "每个任务的瓶颈都不一样，所以你可能会看到差异，但关键是你可以在这些技巧上做爬山。"
+ },
+ {
+  "seg": 193,
+  "start": 1006.557,
+  "end": 1010.479,
+  "speaker": "Unknown",
+  "en": "I wanted to go back to our live demo and see if there's any",
+  "zh": "我想回到我们的实时 demo，看看有没有什么"
+ },
+ {
+  "seg": 194,
+  "start": 1013.08,
+  "end": 1029.373,
+  "speaker": "Unknown",
+  "en": "All right, so we have a graduated skill, and the skill applied end-to-end, no further learning, the results are showing correctly, one-way business class, San Francisco to New York, July the 4th, one carry-on bag included, and there is this 8 a.m., $649, right?",
+  "zh": "好的，我们有一个已经毕业的 skill，这个 skill 端到端地应用了，没有进一步的学习，结果显示正确，单程商务舱，旧金山到纽约，7 月 4 日，包含一件随身行李，还有这个上午 8 点、649 美元，对吧？"
+ },
+ {
+  "seg": 195,
+  "start": 1029.633,
+  "end": 1034.998,
+  "speaker": "Unknown",
+  "en": "So it was able to get all of this, and I can sort of watch the entire replay to see if that is accurate.",
+  "zh": "所以它拿到了所有这些信息，我可以大致观看完整的回放来确认是否准确。"
+ },
+ {
+  "seg": 196,
+  "start": 1035.858,
+  "end": 1038.721,
+  "speaker": "Unknown",
+  "en": "I was able to sort of figure out this entire skill.",
+  "zh": "我能够大致搞清楚这整个 skill。"
+ },
+ {
+  "seg": 197,
+  "start": 1039.261,
+  "end": 1043.665,
+  "speaker": "Unknown",
+  "en": "And the fast path is encode the whole query in the URL, strongly preferred.",
+  "zh": "而快速路径就是把整个查询编码进 URL，强烈推荐。"
+ },
+ {
+  "seg": 198,
+  "start": 1044.946,
+  "end": 1058.538,
+  "speaker": "Unknown",
+  "en": "Again, like I know I'm showing these things, but when I first started looking at the results here, this was like my moment of like, this is the mythos moment for browser agents, you know, like just reverse engineering the hell out of things.",
+  "zh": "再说一次，我知道我在展示这些东西，但当我第一次看这些结果时，那一刻我的感觉就是，这就是浏览器智能体的 mythos 时刻，你知道吗，就是把东西狠狠地逆向工程个遍。"
+ },
+ {
+  "seg": 199,
+  "start": 1059.439,
+  "end": 1062.141,
+  "speaker": "Unknown",
+  "en": "I look at this with some of my customers, the customers are mind blown.",
+  "zh": "我和一些客户一起看这个，客户们都惊呆了。"
+ },
+ {
+  "seg": 200,
+  "start": 1064.093,
+  "end": 1068.477,
+  "speaker": "Unknown",
+  "en": "Earlier they would be writing scripts for each of their websites.",
+  "zh": "早期他们会为每个网站编写脚本。"
+ },
+ {
+  "seg": 201,
+  "start": 1068.717,
+  "end": 1075.443,
+  "speaker": "Unknown",
+  "en": "They would be like, hey, I need to spend so many engineering hours on just reversing these websites.",
+  "zh": "他们会说，嘿，我需要花这么多工程工时仅仅用来逆向这些网站。"
+ },
+ {
+  "seg": 202,
+  "start": 1075.903,
+  "end": 1078.685,
+  "speaker": "Unknown",
+  "en": "How can I scale this to 100, 1,000 websites?",
+  "zh": "我如何把它扩展到 100 个、1000 个网站？"
+ },
+ {
+  "seg": 203,
+  "start": 1079.026,
+  "end": 1082.489,
+  "speaker": "Unknown",
+  "en": "And now our customers have actually built these entire pipelines",
+  "zh": "而现在我们的客户已经构建了这些完整的管道，"
+ },
+ {
+  "seg": 204,
+  "start": 1083.189,
+  "end": 1089.115,
+  "speaker": "Unknown",
+  "en": "of these skills that get generated on the fly, pull requests that get created automatically.",
+  "zh": "包含即时生成的技能、自动创建的拉取请求。"
+ },
+ {
+  "seg": 205,
+  "start": 1089.576,
+  "end": 1095.041,
+  "speaker": "Unknown",
+  "en": "If there is a failure in production, an agent kicks in and starts healing the skill as well.",
+  "zh": "如果生产环境出现故障，一个智能体会启动并开始修复该技能。"
+ },
+ {
+  "seg": 206,
+  "start": 1095.322,
+  "end": 1101.388,
+  "speaker": "Unknown",
+  "en": "There's a lot of engineering that we can do around this to leverage this technique.",
+  "zh": "我们可以围绕这个做很多工程工作来利用这项技术。"
+ },
+ {
+  "seg": 207,
+  "start": 1103.598,
+  "end": 1106.599,
+  "speaker": "Unknown",
+  "en": "I wanted to also show what we've done with this, right?",
+  "zh": "我还想展示我们用这个做了什么，对吧？"
+ },
+ {
+  "seg": 208,
+  "start": 1106.779,
+  "end": 1111.921,
+  "speaker": "Unknown",
+  "en": "We actually went ahead and created this product called Browse.sh.",
+  "zh": "我们实际上往前走了一步，创建了这个叫 Browse.sh 的产品。"
+ },
+ {
+  "seg": 209,
+  "start": 1112.321,
+  "end": 1120.384,
+  "speaker": "Unknown",
+  "en": "We were like, if we can do this for one website, we can do this for five, why not do this for, like, 500 websites and give it for free for anybody to do this?",
+  "zh": "我们当时的想法是，如果我们能对一个网站做到这一点，能对五个网站做到，那为什么不对，比如，500 个网站做到，并免费提供给任何人使用呢？"
+ },
+ {
+  "seg": 210,
+  "start": 1121.624,
+  "end": 1127.486,
+  "speaker": "Unknown",
+  "en": "And, like, if you remember in the 1990s, or whenever, like, in the 90s, before internet, you had the yellow pages.",
+  "zh": "而且，如果你记得 20 世纪 90 年代，或者不管什么时候，比如在 90 年代，互联网之前，你有黄页。"
+ },
+ {
+  "seg": 211,
+  "start": 1128.247,
+  "end": 1128.727,
+  "speaker": "Unknown",
+  "en": "You had...",
+  "zh": "你有……"
+ },
+ {
+  "seg": 212,
+  "start": 1129.727,
+  "end": 1133.969,
+  "speaker": "Unknown",
+  "en": "Details about accessing people, businesses, et cetera.",
+  "zh": "关于联系人和企业等的详细信息。"
+ },
+ {
+  "seg": 213,
+  "start": 1134.309,
+  "end": 1137.19,
+  "speaker": "Unknown",
+  "en": "This is Yellow Pages for browser agents, right?",
+  "zh": "这就是面向浏览器智能体的黄页，对吧？"
+ },
+ {
+  "seg": 214,
+  "start": 1137.411,
+  "end": 1142.513,
+  "speaker": "Unknown",
+  "en": "It has details about how to do any task on any website on the web.",
+  "zh": "它包含了如何在网络上的任何网站完成任何任务的详细信息。"
+ },
+ {
+  "seg": 215,
+  "start": 1142.693,
+  "end": 1144.454,
+  "speaker": "Unknown",
+  "en": "I wanted to actually show this to you all.",
+  "zh": "我真的想给你们展示一下这个。"
+ },
+ {
+  "seg": 216,
+  "start": 1147.858,
+  "end": 1153.364,
+  "speaker": "Unknown",
+  "en": "You can actually install Browse CLI and use all of these skills completely for free.",
+  "zh": "你实际上可以安装 Browse CLI，并完全免费地使用所有这些技能。"
+ },
+ {
+  "seg": 217,
+  "start": 1153.725,
+  "end": 1158.59,
+  "speaker": "Unknown",
+  "en": "We've eaten up the token costs ourselves, and we're making this available for you all.",
+  "zh": "我们自己承担了 token 成本，并把它提供给你们所有人。"
+ },
+ {
+  "seg": 218,
+  "start": 1159.551,
+  "end": 1165.918,
+  "speaker": "Unknown",
+  "en": "So if I go to, let's say, search products on Amazon, I can see the entire skill is over here.",
+  "zh": "所以如果我去看，比如说，在 Amazon 上搜索商品，我可以看到完整的技能就在这里。"
+ },
+ {
+  "seg": 219,
+  "start": 1166.399,
+  "end": 1167.64,
+  "speaker": "Unknown",
+  "en": "When should you use the skill?",
+  "zh": "你应该什么时候使用这个技能？"
+ },
+ {
+  "seg": 220,
+  "start": 1168.421,
+  "end": 1173.286,
+  "speaker": "Unknown",
+  "en": "How should you look at pricing and availability and whatever, right?",
+  "zh": "你应该如何查看价格和库存等等，对吧？"
+ },
+ {
+  "seg": 221,
+  "start": 1173.367,
+  "end": 1174.528,
+  "speaker": "Unknown",
+  "en": "This is how you use this.",
+  "zh": "这就是这个技能的用法。"
+ },
+ {
+  "seg": 222,
+  "start": 1174.548,
+  "end": 1177.291,
+  "speaker": "Unknown",
+  "en": "A lot of details about Amazon, the screenshots.",
+  "zh": "很多关于 Amazon 的细节，还有截图。"
+ },
+ {
+  "seg": 223,
+  "start": 1178.052,
+  "end": 1183.778,
+  "speaker": "Unknown",
+  "en": "And I just give this Browse Skills CLI to my OpenClaw.",
+  "zh": "而我只是把这个 Browse Skills CLI 给我的 OpenClaw。"
+ },
+ {
+  "seg": 224,
+  "start": 1184.639,
+  "end": 1193.001,
+  "speaker": "Unknown",
+  "en": "And it just knows when to pull the alltrails.com skill, when to pull the weather.gov skill, and this makes my life so much easier.",
+  "zh": "它就知道什么时候拉取 alltrails.com 的技能，什么时候拉取 weather.gov 的技能，这让我的生活轻松多了。"
+ },
+ {
+  "seg": 225,
+  "start": 1193.861,
+  "end": 1200.962,
+  "speaker": "Unknown",
+  "en": "We essentially are running the same auto-research loop behind the scenes and making this available for you all.",
+  "zh": "我们本质上是在后台运行同样的自动研究循环，并把它提供给你们所有人。"
+ },
+ {
+  "seg": 226,
+  "start": 1201.523,
+  "end": 1212.245,
+  "speaker": "Unknown",
+  "en": "In fact, if you would want to, you can go here and you can be like, hey, go and make a skill for me to look up these events in San Francisco for this week.",
+  "zh": "事实上，如果你愿意，你可以来这里，然后说，嘿，去帮我做一个技能，用来查询旧金山本周的这些活动。"
+ },
+ {
+  "seg": 227,
+  "start": 1214.288,
+  "end": 1218.192,
+  "speaker": "Unknown",
+  "en": "You do this, generate a skill, and this will sort of do this for you.",
+  "zh": "你这么做，生成一个技能，它就会替你完成这件事。"
+ },
+ {
+  "seg": 228,
+  "start": 1218.352,
+  "end": 1224.799,
+  "speaker": "Unknown",
+  "en": "This will send you an email, and you can then use your skill in whatever agent you want to, right?",
+  "zh": "它会给你发一封电子邮件，然后你就可以在任何你想要的智能体中使用你的技能，对吧？"
+ },
+ {
+  "seg": 229,
+  "start": 1224.959,
+  "end": 1230.644,
+  "speaker": "Unknown",
+  "en": "So we've done this for browser agents, and I wanted to talk about how can you...",
+  "zh": "所以我们已经为浏览器智能体做了这件事，而我想谈谈你如何可以……"
+ },
+ {
+  "seg": 230,
+  "start": 1231.67,
+  "end": 1235.173,
+  "speaker": "Unknown",
+  "en": "Potentially do this for any other domain, right?",
+  "zh": "或许为任何其他领域做这件事，对吧？"
+ },
+ {
+  "seg": 231,
+  "start": 1235.673,
+  "end": 1245.621,
+  "speaker": "Unknown",
+  "en": "I think coding agents is like one place where I have seen this frustration where the agent is relearning the repo conventions every time.",
+  "zh": "我认为编码智能体就是我见过这种挫败感的一个地方，智能体每次都在重新学习仓库的约定。"
+ },
+ {
+  "seg": 232,
+  "start": 1245.901,
+  "end": 1249.084,
+  "speaker": "Unknown",
+  "en": "It's not applying the linting rules correctly, and I have to tell it every time.",
+  "zh": "它没有正确应用 lint 规则，而我每次都得告诉它。"
+ },
+ {
+  "seg": 233,
+  "start": 1249.384,
+  "end": 1253.587,
+  "speaker": "Unknown",
+  "en": "And maybe you can have your ClaudeMD and AgentsMD and improve that, but",
+  "zh": "也许你可以有你的 ClaudeMD 和 AgentsMD 来改进这一点，但是"
+ },
+ {
+  "seg": 234,
+  "start": 1254.89,
+  "end": 1262.207,
+  "speaker": "Unknown",
+  "en": "The fundamental premise is like the agent should not be relearning your tasks from zero, right?",
+  "zh": "根本前提是，智能体不应该从零开始重新学习你的任务，对吧？"
+ },
+ {
+  "seg": 235,
+  "start": 1264.028,
+  "end": 1265.549,
+  "speaker": "Unknown",
+  "en": "I've seen this in research agents.",
+  "zh": "我在研究智能体中也见过这种情况。"
+ },
+ {
+  "seg": 236,
+  "start": 1265.689,
+  "end": 1269.371,
+  "speaker": "Unknown",
+  "en": "We run a bunch of deep research agents for our internal workflows.",
+  "zh": "我们为内部工作流运行了一堆深度研究智能体。"
+ },
+ {
+  "seg": 237,
+  "start": 1269.871,
+  "end": 1280.237,
+  "speaker": "Unknown",
+  "en": "And every time it struggles and it tries to relearn, oh, I've pulled this information from Wikipedia, but I did not pull it from this other website.",
+  "zh": "每次它都很挣扎，并试图重新学习，哦，我从 Wikipedia 拉取了这个信息，但我没有从这个其他网站拉取。"
+ },
+ {
+  "seg": 238,
+  "start": 1280.778,
+  "end": 1282.639,
+  "speaker": "Unknown",
+  "en": "And I was like, why not?",
+  "zh": "我就想，为什么不呢？"
+ },
+ {
+  "seg": 239,
+  "start": 1282.939,
+  "end": 1284.86,
+  "speaker": "Unknown",
+  "en": "We always do this other website.",
+  "zh": "我们总是用这个其他网站。"
+ },
+ {
+  "seg": 240,
+  "start": 1285.16,
+  "end": 1289.303,
+  "speaker": "Unknown",
+  "en": "You should learn from your previous traces, and you should pull information.",
+  "zh": "你应该从你之前的轨迹中学习，并且你应该拉取信息。"
+ },
+ {
+  "seg": 241,
+  "start": 1290.123,
+  "end": 1290.783,
+  "speaker": "Unknown",
+  "en": "Internal ops.",
+  "zh": "内部运营。"
+ },
+ {
+  "seg": 242,
+  "start": 1290.863,
+  "end": 1297.566,
+  "speaker": "Unknown",
+  "en": "You have all these dashboards, all these databases, all these internal tools, but your agents don't know which ones work and which ones are preferred.",
+  "zh": "你有所有这些仪表盘，所有这些数据库，所有这些内部工具，但你的智能体不知道哪些能用、哪些是首选的。"
+ },
+ {
+  "seg": 243,
+  "start": 1298.186,
+  "end": 1302.327,
+  "speaker": "Unknown",
+  "en": "Ideally, you should be applying this or research technique.",
+  "zh": "理想情况下，你应该应用这个或研究技术。"
+ },
+ {
+  "seg": 244,
+  "start": 1303.187,
+  "end": 1318.152,
+  "speaker": "Unknown",
+  "en": "And the two conditions that are required is that A, you should have a replayable environment of some sorts so that you can run these loops, and B, you should have some sort of verifiable outcome, some sort of quantifiable metric for you to run these loops.",
+  "zh": "而所需的两个条件是：A，你应该有某种可重放的环境，这样你才能运行这些循环；B，你应该有某种可验证的结果，某种可量化的指标，供你运行这些循环。"
+ },
+ {
+  "seg": 245,
+  "start": 1318.453,
+  "end": 1319.393,
+  "speaker": "Unknown",
+  "en": "Yes, I see a question there.",
+  "zh": "是的，我看到那边有个问题。"
+ },
+ {
+  "seg": 246,
+  "start": 1336.176,
+  "end": 1339.737,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 247,
+  "start": 1363.25,
+  "end": 1363.39,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 248,
+  "start": 1364.871,
+  "end": 1365.652,
+  "speaker": "Unknown",
+  "en": "Yeah, exactly.",
+  "zh": "是的，没错。"
+ },
+ {
+  "seg": 249,
+  "start": 1366.212,
+  "end": 1375.478,
+  "speaker": "Unknown",
+  "en": "So I think the question is, like, how do you know that the auto-research loop is accurate, whether it is converging, and when it says it's converging, it's actually converging.",
+  "zh": "所以我认为这个问题是，比如，你怎么知道自动研究循环是准确的，它是否在收敛，以及当它说它收敛时，它确实是在收敛。"
+ },
+ {
+  "seg": 250,
+  "start": 1375.798,
+  "end": 1377.659,
+  "speaker": "Unknown",
+  "en": "When it says it's good, it's actually good.",
+  "zh": "当它说效果好时，实际上就是好。"
+ },
+ {
+  "seg": 251,
+  "start": 1377.679,
+  "end": 1379.08,
+  "speaker": "Unknown",
+  "en": "When it says it's bad, it's actually bad.",
+  "zh": "当它说效果差时，实际上就是差。"
+ },
+ {
+  "seg": 252,
+  "start": 1379.36,
+  "end": 1380.821,
+  "speaker": "Unknown",
+  "en": "Like, how do I have confidence",
+  "zh": "就是说，我怎么能有信心"
+ },
+ {
+  "seg": 253,
+  "start": 1382.442,
+  "end": 1385.224,
+  "speaker": "Unknown",
+  "en": "On what the agent is saying and what the loop is doing.",
+  "zh": "去相信智能体所说的内容以及循环正在做的事情。"
+ },
+ {
+  "seg": 254,
+  "start": 1385.644,
+  "end": 1388.746,
+  "speaker": "Unknown",
+  "en": "I think that's where I want to sort of talk about the verifiable outcome here.",
+  "zh": "我认为这就是我想谈的可验证结果的地方。"
+ },
+ {
+  "seg": 255,
+  "start": 1389.886,
+  "end": 1397.39,
+  "speaker": "Unknown",
+  "en": "For Karpathy, it was quite easy because he was looking at the log loss of the experiment when he was training neural networks, right?",
+  "zh": "对 Karpathy 来说这相当容易，因为他训练神经网络时看的是实验的 log loss,对吧？"
+ },
+ {
+  "seg": 256,
+  "start": 1397.43,
+  "end": 1401.112,
+  "speaker": "Unknown",
+  "en": "So it's very easy to see whether your log loss has gone down or not.",
+  "zh": "所以很容易看出你的 log loss 有没有下降。"
+ },
+ {
+  "seg": 257,
+  "start": 1401.893,
+  "end": 1404.334,
+  "speaker": "Unknown",
+  "en": "But in many real-world scenarios, that is not the case.",
+  "zh": "但在很多真实场景中，情况并非如此。"
+ },
+ {
+  "seg": 258,
+  "start": 1404.834,
+  "end": 1406.295,
+  "speaker": "Unknown",
+  "en": "For browser agents, as I explained,",
+  "zh": "对于浏览器智能体，正如我解释的，"
+ },
+ {
+  "seg": 259,
+  "start": 1407.756,
+  "end": 1415.079,
+  "speaker": "Unknown",
+  "en": "Whether you book a flight ticket or not, that might be straightforward, but did you find the best flight options for me?",
+  "zh": "你有没有订到机票，这可能很直接，但你有没有为我找到最好的航班选择？"
+ },
+ {
+  "seg": 260,
+  "start": 1415.539,
+  "end": 1419.001,
+  "speaker": "Unknown",
+  "en": "Might be slightly fuzzy and might not be the best.",
+  "zh": "这可能就有点模糊了，可能不是最好的。"
+ },
+ {
+  "seg": 261,
+  "start": 1432.546,
+  "end": 1432.726,
+  "speaker": "Unknown",
+  "en": "Mm-hmm.",
+  "zh": "嗯哼。"
+ },
+ {
+  "seg": 262,
+  "start": 1445.145,
+  "end": 1454.775,
+  "speaker": "Unknown",
+  "en": "Yeah, if I understand this correctly, you're saying, like, one mistake in the loop can sort of throw off the entire autoresearch run, and how do you prevent against that?",
+  "zh": "是的，如果我理解正确，你是说，循环中的一个错误可能会让整个自动研究运行跑偏，那你要如何防范这种情况？"
+ },
+ {
+  "seg": 263,
+  "start": 1456.037,
+  "end": 1461.763,
+  "speaker": "Unknown",
+  "en": "I have actually seen where some iterations actually fail.",
+  "zh": "我实际上见过一些迭代确实失败的情况。"
+ },
+ {
+  "seg": 264,
+  "start": 1462.584,
+  "end": 1466.989,
+  "speaker": "Unknown",
+  "en": "For example, if we look at the previous slide.",
+  "zh": "例如，如果我们看上一张幻灯片。"
+ },
+ {
+  "seg": 265,
+  "start": 1470.418,
+  "end": 1473.96,
+  "speaker": "Unknown",
+  "en": "There's like failures happening after there have been successes, right?",
+  "zh": "在已经有成功之后还是会出现失败，对吧？"
+ },
+ {
+  "seg": 266,
+  "start": 1474.661,
+  "end": 1479.324,
+  "speaker": "Unknown",
+  "en": "So it's not always that once you succeed, all the future iterations will always be successful.",
+  "zh": "所以并不是说你一旦成功，之后所有迭代就一定会成功。"
+ },
+ {
+  "seg": 267,
+  "start": 1479.564,
+  "end": 1495.096,
+  "speaker": "Unknown",
+  "en": "But I think it's the design of your loop where you can make it resilient to failures where it doesn't over-index on those and still sort of corrects itself from any mistake that happened in previous runs.",
+  "zh": "但我认为关键在于你循环的设计，你可以让它对失败有韧性，不会过度受那些失败影响，并且仍然能从之前运行中发生的任何错误里自我纠正。"
+ },
+ {
+  "seg": 268,
+  "start": 1495.676,
+  "end": 1497.438,
+  "speaker": "Unknown",
+  "en": "I think we're trying to sort of prevent like",
+  "zh": "我认为我们想尝试防止的是"
+ },
+ {
+  "seg": 269,
+  "start": 1499.668,
+  "end": 1500.208,
+  "speaker": "Unknown",
+  "en": "What do they call it?",
+  "zh": "他们怎么称呼它来着？"
+ },
+ {
+  "seg": 270,
+  "start": 1500.308,
+  "end": 1503.85,
+  "speaker": "Unknown",
+  "en": "Exploding sort of loss sort of scenarios.",
+  "zh": "类似 loss 爆炸那种场景。"
+ },
+ {
+  "seg": 271,
+  "start": 1504.591,
+  "end": 1505.431,
+  "speaker": "Unknown",
+  "en": "I think you could do that.",
+  "zh": "我认为你可以做到这一点。"
+ },
+ {
+  "seg": 272,
+  "start": 1506.432,
+  "end": 1510.394,
+  "speaker": "Unknown",
+  "en": "In fact, Karpathy talks about this, like, this is one way of doing auto research.",
+  "zh": "事实上，Karpathy 谈到过这一点，比如，这是做自动研究的一种方式。"
+ },
+ {
+  "seg": 273,
+  "start": 1510.514,
+  "end": 1514.096,
+  "speaker": "Unknown",
+  "en": "You can actually auto research on different ways of doing auto research itself.",
+  "zh": "你实际上可以对「做自动研究本身的不同方式」进行自动研究。"
+ },
+ {
+  "seg": 274,
+  "start": 1514.637,
+  "end": 1517.218,
+  "speaker": "Unknown",
+  "en": "It's like, is the teacher doer loop the best?",
+  "zh": "就是说，teacher-doer 循环是不是最好的？"
+ },
+ {
+  "seg": 275,
+  "start": 1517.458,
+  "end": 1519.72,
+  "speaker": "Unknown",
+  "en": "Should there be a multi-agent architecture to do this?",
+  "zh": "是不是应该用多智能体架构来做这件事？"
+ },
+ {
+  "seg": 276,
+  "start": 1520.12,
+  "end": 1523.322,
+  "speaker": "Unknown",
+  "en": "Or is there any other approach that might actually work better for...",
+  "zh": "或者有没有其他方法可能实际上更适合"
+ },
+ {
+  "seg": 277,
+  "start": 1524.062,
+  "end": 1527.585,
+  "speaker": "Unknown",
+  "en": "Research tasks in neural networks versus browser agents.",
+  "zh": "神经网络中的研究任务，而不是浏览器智能体？"
+ },
+ {
+  "seg": 278,
+  "start": 1527.885,
+  "end": 1532.169,
+  "speaker": "Unknown",
+  "en": "You could have different designs of your loops to prevent situations like those.",
+  "zh": "你可以为你的循环设计不同的结构，来防止出现类似那些的情况。"
+ },
+ {
+  "seg": 279,
+  "start": 1532.89,
+  "end": 1545.721,
+  "speaker": "Unknown",
+  "en": "I think going back to my point, as long as you have a verifiable outcome or some quantifiable metric, I think you should be able to design a good loop here.",
+  "zh": "我认为回到我的观点，只要你有可验证的结果或某种可量化的指标，我认为你就应该能够在这里设计出一个好的循环。"
+ },
+ {
+  "seg": 280,
+  "start": 1545.982,
+  "end": 1547.143,
+  "speaker": "Unknown",
+  "en": "Replayable environment, I think,",
+  "zh": "可重放的环境，我认为，"
+ },
+ {
+  "seg": 281,
+  "start": 1548.53,
+  "end": 1552.494,
+  "speaker": "Unknown",
+  "en": "Sometimes is under-discussed, but extremely important.",
+  "zh": "有时被讨论得不够，但极其重要。"
+ },
+ {
+  "seg": 282,
+  "start": 1552.514,
+  "end": 1553.995,
+  "speaker": "Unknown",
+  "en": "I think he was talking about Dwarkesh.",
+  "zh": "我记得他是在谈 Dwarkesh。"
+ },
+ {
+  "seg": 283,
+  "start": 1554.215,
+  "end": 1565.646,
+  "speaker": "Unknown",
+  "en": "He said having a verifiable outcome is important, but also you should have extremely grindable environments or extremely grindable use cases as well.",
+  "zh": "他说拥有可验证的结果很重要，但你也应该有极其可反复打磨的环境或极其可反复打磨的用例。"
+ },
+ {
+  "seg": 284,
+  "start": 1566.166,
+  "end": 1572.752,
+  "speaker": "Unknown",
+  "en": "If your agent cannot grind through failures, it will be difficult for it to",
+  "zh": "如果你的智能体不能在失败中反复磨，那它就很难"
+ },
+ {
+  "seg": 285,
+  "start": 1574.464,
+  "end": 1579.165,
+  "speaker": "Unknown",
+  "en": "Go for multiple iterations and fix itself.",
+  "zh": "进行多次迭代并修复自己。"
+ },
+ {
+  "seg": 286,
+  "start": 1579.325,
+  "end": 1590.148,
+  "speaker": "Unknown",
+  "en": "Coding agents is a good example because you can start from a Docker image or you can start from a particular EC2 and you can replay from different parts of the stack.",
+  "zh": "编程智能体就是一个很好的例子，因为你可以从一个 Docker 镜像开始，或者从一个特定的 EC2 开始，你可以从技术栈的不同部分进行重放。"
+ },
+ {
+  "seg": 287,
+  "start": 1590.628,
+  "end": 1595.569,
+  "speaker": "Unknown",
+  "en": "But maybe knowledge work is probably not that easy to replay.",
+  "zh": "但知识型工作可能就没那么容易重放了。"
+ },
+ {
+  "seg": 288,
+  "start": 1595.969,
+  "end": 1601.77,
+  "speaker": "Unknown",
+  "en": "Maybe there's a lot of different human-in-the-loop actions that make it very hard to replay from a particular point in time.",
+  "zh": "也许有很多不同的人类在环操作，使得很难从某个特定时间点重放。"
+ },
+ {
+  "seg": 289,
+  "start": 1602.13,
+  "end": 1604.051,
+  "speaker": "Unknown",
+  "en": "So investing in your environment",
+  "zh": "所以在这种情况下，在你的环境上投入"
+ },
+ {
+  "seg": 290,
+  "start": 1604.531,
+  "end": 1607.58,
+  "speaker": "Unknown",
+  "en": "also can be super rewarding in these cases.",
+  "zh": "也可能带来超高的回报。"
+ },
+ {
+  "seg": 291,
+  "start": 1612.673,
+  "end": 1613.533,
+  "speaker": "Unknown",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 292,
+  "start": 1613.854,
+  "end": 1622.097,
+  "speaker": "Unknown",
+  "en": "I just wanted to share the URLs of the autobrowse loop that I demoed today.",
+  "zh": "我只是想分享一下我今天演示的 autobrowse 循环的 URL。"
+ },
+ {
+  "seg": 293,
+  "start": 1622.157,
+  "end": 1625.719,
+  "speaker": "Unknown",
+  "en": "So if you scan the QR, you'll be able to pull the GitHub for that.",
+  "zh": "如果你扫这个二维码，你就能拉取到对应的 GitHub。"
+ },
+ {
+  "seg": 294,
+  "start": 1626.299,
+  "end": 1629.961,
+  "speaker": "Unknown",
+  "en": "And also the second QR here is the skill itself.",
+  "zh": "这里第二个二维码是这个 skill 本身。"
+ },
+ {
+  "seg": 295,
+  "start": 1630.301,
+  "end": 1641.746,
+  "speaker": "Unknown",
+  "en": "You can just do slash autobrowse on your Claude Code or Codex and be like, hey, slash autobrowse, use Opus 4.8 on both of these, teacher and doer, and go create a skill for me to do this.",
+  "zh": "你只需要在你的 Claude Code 或 Codex 里执行 slash autobrowse,然后说：嘿，slash autobrowse,这两个都用 Opus 4.8,teacher 和 doer 都是，去给我创建一个 skill 来做这件事。"
+ },
+ {
+  "seg": 296,
+  "start": 1645.987,
+  "end": 1647.928,
+  "speaker": "Unknown",
+  "en": "I'm looking at one of these questions.",
+  "zh": "我正在看其中一个问题。"
+ },
+ {
+  "seg": 297,
+  "start": 1649.269,
+  "end": 1659.497,
+  "speaker": "Unknown",
+  "en": "And also, if any of you have ideas of something we want to sort of put the agent against, feel free to type it in the Slido and we can actually try it live.",
+  "zh": "另外，如果你们中有人有想法，想让我们把智能体拿去对付什么，欢迎在 Slido 里输入，我们可以现场试一下。"
+ },
+ {
+  "seg": 298,
+  "start": 1660.338,
+  "end": 1661.419,
+  "speaker": "Unknown",
+  "en": "But let's look at this question.",
+  "zh": "我们来看这个问题。"
+ },
+ {
+  "seg": 299,
+  "start": 1661.459,
+  "end": 1663.761,
+  "speaker": "Unknown",
+  "en": "Is there a way to optimize for convergence?",
+  "zh": "有没有办法针对收敛性做优化？"
+ },
+ {
+  "seg": 300,
+  "start": 1663.961,
+  "end": 1666.022,
+  "speaker": "Unknown",
+  "en": "I think this is the same question that we were just talking about.",
+  "zh": "我想这就是我们刚才谈到的同一个问题。"
+ },
+ {
+  "seg": 301,
+  "start": 1668.504,
+  "end": 1671.126,
+  "speaker": "Unknown",
+  "en": "High cost is interesting because you might think that",
+  "zh": "高成本这个问题很有意思，因为你可能会认为"
+ },
+ {
+  "seg": 302,
+  "start": 1673.233,
+  "end": 1676.554,
+  "speaker": "Unknown",
+  "en": "Doing longer iterations might become costlier over time.",
+  "zh": "随着时间推移，做更长的迭代可能会变得更贵。"
+ },
+ {
+  "seg": 303,
+  "start": 1677.894,
+  "end": 1688.077,
+  "speaker": "Unknown",
+  "en": "I have run a bunch of evals on this where I can throw a sonnet at this problem but run it for longer iterations versus throwing opus for lesser iterations.",
+  "zh": "我在这个问题上跑过很多评估，我可以让 sonnet 跑这个问题但跑更多次迭代， versus 让 opus 跑更少的迭代。"
+ },
+ {
+  "seg": 304,
+  "start": 1688.497,
+  "end": 1691.998,
+  "speaker": "Unknown",
+  "en": "I think you can get the same job done by throwing sonnet.",
+  "zh": "我认为通过让 sonnet 跑,"
+ },
+ {
+  "seg": 305,
+  "start": 1692.798,
+  "end": 1695.659,
+  "speaker": "Unknown",
+  "en": "Larger number of iterations, but still cheaper overall.",
+  "zh": "更多的迭代次数，但总体上仍然更便宜，可以把同样的工作做完。"
+ },
+ {
+  "seg": 306,
+  "start": 1696.64,
+  "end": 1698.52,
+  "speaker": "Unknown",
+  "en": "Also, this cost is amortized, right?",
+  "zh": "而且，这个成本是被摊销的，对吧？"
+ },
+ {
+  "seg": 307,
+  "start": 1698.56,
+  "end": 1702.942,
+  "speaker": "Unknown",
+  "en": "Like one auto-browse loop that we probably run is like maybe $30, $40.",
+  "zh": "比如我们大概会跑的一个 auto-browse 循环，大概是 30、40 美元。"
+ },
+ {
+  "seg": 308,
+  "start": 1702.962,
+  "end": 1706.003,
+  "speaker": "Unknown",
+  "en": "If it's super complicated, $100 at most.",
+  "zh": "如果超级复杂的话，最多 100 美元。"
+ },
+ {
+  "seg": 309,
+  "start": 1706.884,
+  "end": 1707.804,
+  "speaker": "Unknown",
+  "en": "So this is amortized.",
+  "zh": "所以这是摊销掉的。"
+ },
+ {
+  "seg": 310,
+  "start": 1707.884,
+  "end": 1714.167,
+  "speaker": "Unknown",
+  "en": "As long as those costs make sense for you to deploy this in production, just go for it.",
+  "zh": "只要这些成本对你在生产环境中部署来说是合理的，尽管去做。"
+ },
+ {
+  "seg": 311,
+  "start": 1714.207,
+  "end": 1719.889,
+  "speaker": "Unknown",
+  "en": "But there's a lot of interesting things that you could do with evalling the kind of loops that you're generating.",
+  "zh": "不过，对于评估你所生成的这类循环，还有很多有意思的事情可以做。"
+ },
+ {
+  "seg": 312,
+  "start": 1721.103,
+  "end": 1722.525,
+  "speaker": "Unknown",
+  "en": "Yes, I will share the slides as well.",
+  "zh": "是的，我也会分享幻灯片。"
+ },
+ {
+  "seg": 313,
+  "start": 1724.008,
+  "end": 1725.971,
+  "speaker": "Unknown",
+  "en": "I can do this on the GitHub itself.",
+  "zh": "我可以在 GitHub 上直接做这个。"
+ },
+ {
+  "seg": 314,
+  "start": 1729.536,
+  "end": 1735.358,
+  "speaker": "Unknown",
+  "en": "Can you share how you thought about auto-research into auto-browse?",
+  "zh": "你能分享一下你是如何思考从 auto-research 到 auto-browse 的吗？"
+ },
+ {
+  "seg": 315,
+  "start": 1735.598,
+  "end": 1738.399,
+  "speaker": "Unknown",
+  "en": "I mean, the process was fairly straightforward.",
+  "zh": "我是说，这个过程相当直接。"
+ },
+ {
+  "seg": 316,
+  "start": 1739.459,
+  "end": 1751.584,
+  "speaker": "Unknown",
+  "en": "Took the GitHub repo that Karpathy put out, and then there's all this context about my customers that I have, where I was like, hey, these customers face these kinds of reliability problems.",
+  "zh": "拿来 Karpathy 放出的那个 GitHub 仓库，然后还有关于我客户的所有这些背景，我就会想，嘿，这些客户面临这类可靠性问题。"
+ },
+ {
+  "seg": 317,
+  "start": 1752.884,
+  "end": 1762.256,
+  "speaker": "Unknown",
+  "en": "The way I solve it for them is I go into their office, I sit with them, very forward deployed, and I try to sort of just brute force and reverse engineer this.",
+  "zh": "我为他们解决它的方式是，我走进他们的办公室，我和他们坐在一起，非常前向部署，我尝试去暴力破解并对它做逆向工程。"
+ },
+ {
+  "seg": 318,
+  "start": 1762.557,
+  "end": 1763.358,
+  "speaker": "Unknown",
+  "en": "This is what I do.",
+  "zh": "这就是我所做的。"
+ },
+ {
+  "seg": 319,
+  "start": 1763.578,
+  "end": 1765.16,
+  "speaker": "Unknown",
+  "en": "So I am the teacher agent.",
+  "zh": "所以我就是那个教师智能体。"
+ },
+ {
+  "seg": 320,
+  "start": 1766.001,
+  "end": 1767.062,
+  "speaker": "Unknown",
+  "en": "Can you automate me?",
+  "zh": "你能把我自动化吗？"
+ },
+ {
+  "seg": 321,
+  "start": 1767.703,
+  "end": 1773.708,
+  "speaker": "Unknown",
+  "en": "out of the process and create a loop borrowing from Karpathy and build the same thing.",
+  "zh": "把我从这个流程中抽出来，借鉴 Karpathy 创建一个循环，构建同样的东西。"
+ },
+ {
+  "seg": 322,
+  "start": 1774.069,
+  "end": 1776.511,
+  "speaker": "Unknown",
+  "en": "And of course, there's a lot of iterations on top of that.",
+  "zh": "当然，在这之上有大量的迭代。"
+ },
+ {
+  "seg": 323,
+  "start": 1777.151,
+  "end": 1780.554,
+  "speaker": "Unknown",
+  "en": "There's a lot of engineering as well to simplify this.",
+  "zh": "也有很多工程工作来简化它。"
+ },
+ {
+  "seg": 324,
+  "start": 1781.735,
+  "end": 1784.398,
+  "speaker": "Unknown",
+  "en": "But yes, that was the process of converting this.",
+  "zh": "但是的，这就是转换这个过程的方法。"
+ },
+ {
+  "seg": 325,
+  "start": 1788.143,
+  "end": 1789.323,
+  "speaker": "Unknown",
+  "en": "Can you use this in a proxy?",
+  "zh": "你能在代理(proxy)中使用它吗？"
+ },
+ {
+  "seg": 326,
+  "start": 1789.383,
+  "end": 1790.604,
+  "speaker": "Unknown",
+  "en": "Can you be logged into a site?",
+  "zh": "你可以登录到一个网站吗？"
+ },
+ {
+  "seg": 327,
+  "start": 1790.724,
+  "end": 1790.924,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "可以。"
+ },
+ {
+  "seg": 328,
+  "start": 1791.544,
+  "end": 1794.205,
+  "speaker": "Unknown",
+  "en": "Again, this goes back to the environment that you design.",
+  "zh": "再说一次，这回到你所设计的环境。"
+ },
+ {
+  "seg": 329,
+  "start": 1794.845,
+  "end": 1806.91,
+  "speaker": "Unknown",
+  "en": "Browsebase, the infrastructure that all of this is running on, gives you the ability to log into websites, save the cookies, reuse those cookies in future runs so you don't have to log in every time.",
+  "zh": "Browsebase，所有这些运行所依赖的基础设施，让你能够登录网站、保存 cookie、在未来的运行中复用那些 cookie，这样你就不必每次都登录。"
+ },
+ {
+  "seg": 330,
+  "start": 1807.75,
+  "end": 1812.052,
+  "speaker": "Unknown",
+  "en": "Makes it super easy for you to replicate real-world workflows.",
+  "zh": "让你复现真实世界的工作流程变得非常容易。"
+ },
+ {
+  "seg": 331,
+  "start": 1813.532,
+  "end": 1821.099,
+  "speaker": "Unknown",
+  "en": "And yes, you can use proxies as well if you have particular IP addresses, residential IP addresses, you can bring those in as well.",
+  "zh": "而且，是的，你也可以使用代理，如果你有特定的 IP 地址、住宅 IP 地址，你也可以把它们带进来。"
+ },
+ {
+  "seg": 332,
+  "start": 1822.32,
+  "end": 1831.888,
+  "speaker": "Unknown",
+  "en": "A lot of success is definitely how good your infrastructure and environment is, especially in these adversarial scenarios like CAPTCHAs and anti-bots.",
+  "zh": "很多成功与否确实取决于你的基础设施和环境有多好，尤其是在这些对抗性场景中，比如验证码和反爬虫。"
+ },
+ {
+  "seg": 333,
+  "start": 1832.509,
+  "end": 1836.733,
+  "speaker": "Unknown",
+  "en": "So making the infrastructure as good as possible is definitely of value.",
+  "zh": "所以把基础设施做得尽可能好肯定是有价值的。"
+ },
+ {
+  "seg": 334,
+  "start": 1842.264,
+  "end": 1843.145,
+  "speaker": "Unknown",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 335,
+  "start": 1843.605,
+  "end": 1847.028,
+  "speaker": "Unknown",
+  "en": "Any asks for something that we might want to run live?",
+  "zh": "有没有想让我们现场运行点什么的要求？"
+ },
+ {
+  "seg": 336,
+  "start": 1847.048,
+  "end": 1848.389,
+  "speaker": "Unknown",
+  "en": "Yes, question?",
+  "zh": "是的，有个问题？"
+ },
+ {
+  "seg": 337,
+  "start": 1848.449,
+  "end": 1848.83,
+  "speaker": "Unknown",
+  "en": "One question.",
+  "zh": "一个问题。"
+ },
+ {
+  "seg": 338,
+  "start": 1848.85,
+  "end": 1856.697,
+  "speaker": "Unknown",
+  "en": "Having the teacher analyze the whole trajectory of the door once or on every turn, how exactly is this?",
+  "zh": "教师是分析门(doer)的整条轨迹，还是每一轮都分析，这具体是怎么做的？"
+ },
+ {
+  "seg": 339,
+  "start": 1856.717,
+  "end": 1857.157,
+  "speaker": "Unknown",
+  "en": "Great question.",
+  "zh": "好问题。"
+ },
+ {
+  "seg": 340,
+  "start": 1857.197,
+  "end": 1859.319,
+  "speaker": "Unknown",
+  "en": "Actually, I wanted to sort of show the code as well.",
+  "zh": "实际上，我也想展示一下代码。"
+ },
+ {
+  "seg": 341,
+  "start": 1860.74,
+  "end": 1865.064,
+  "speaker": "Unknown",
+  "en": "So if you look at the GitHub, you'll be able to find this evaluate.mjs file.",
+  "zh": "如果你去看那个 GitHub，你能找到这个 evaluate.mjs 文件。"
+ },
+ {
+  "seg": 342,
+  "start": 1867.283,
+  "end": 1871.088,
+  "speaker": "Unknown",
+  "en": "Essentially, it lists out the entire loop, what's happening here.",
+  "zh": "本质上，它列出了整个循环，这里发生了什么。"
+ },
+ {
+  "seg": 343,
+  "start": 1871.108,
+  "end": 1880.179,
+  "speaker": "Unknown",
+  "en": "But to answer your question, the teacher and the doer are working one after the other",
+  "zh": "但回答你的问题，教师和执行者(doer)是依次工作的,"
+ },
+ {
+  "seg": 344,
+  "start": 1881.302,
+  "end": 1882.003,
+  "speaker": "Unknown",
+  "en": "for every loop.",
+  "zh": "对每一个循环都是如此。"
+ },
+ {
+  "seg": 345,
+  "start": 1882.483,
+  "end": 1886.386,
+  "speaker": "Unknown",
+  "en": "So the teacher is finding learnings in every iteration.",
+  "zh": "所以教师在每一次迭代中都找出经验教训。"
+ },
+ {
+  "seg": 346,
+  "start": 1887.406,
+  "end": 1890.468,
+  "speaker": "Unknown",
+  "en": "Maybe if I show the demo over here.",
+  "zh": "也许我在这里展示一下演示。"
+ },
+ {
+  "seg": 347,
+  "start": 1891.529,
+  "end": 1892.81,
+  "speaker": "Unknown",
+  "en": "Let's go to the one we just did.",
+  "zh": "我们去刚才做过的那一个。"
+ },
+ {
+  "seg": 348,
+  "start": 1893.21,
+  "end": 1898.154,
+  "speaker": "Unknown",
+  "en": "Iteration one had these learnings, and then iteration two had some other learnings.",
+  "zh": "迭代一有这些经验教训，然后迭代二有一些其他的经验教训。"
+ },
+ {
+  "seg": 349,
+  "start": 1899.39,
+  "end": 1903.354,
+  "speaker": "Unknown",
+  "en": "You should include the explicit ISO date in this particular format.",
+  "zh": "你应该以这种特定格式包含明确的 ISO 日期。"
+ },
+ {
+  "seg": 350,
+  "start": 1903.694,
+  "end": 1905.515,
+  "speaker": "Unknown",
+  "en": "Iteration three would have some other learnings.",
+  "zh": "第三次迭代会有一些其他的心得。"
+ },
+ {
+  "seg": 351,
+  "start": 1905.876,
+  "end": 1914.703,
+  "speaker": "Unknown",
+  "en": "The date resolution still opens the bare page and clicks, wasting three turns reading today's date or having the executor compute today.",
+  "zh": "日期解析仍然是打开空白页面并点击，浪费三回合去读今天的日期，或者让执行器去计算今天。"
+ },
+ {
+  "seg": 352,
+  "start": 1914.783,
+  "end": 1916.564,
+  "speaker": "Unknown",
+  "en": "So it's figuring out something about the date time.",
+  "zh": "所以它是在琢磨关于日期时间的一些东西。"
+ },
+ {
+  "seg": 353,
+  "start": 1916.624,
+  "end": 1923.39,
+  "speaker": "Unknown",
+  "en": "So in every iteration, the teacher is learning something new and putting this back into the strategy.md.",
+  "zh": "所以在每一次迭代中，老师都在学习新东西，并把这些写回 strategy.md。"
+ },
+ {
+  "seg": 354,
+  "start": 1923.93,
+  "end": 1927.293,
+  "speaker": "Unknown",
+  "en": "Maybe I'll make this real by looking at the traces for one of these runs.",
+  "zh": "也许我可以通过查看其中一次运行的轨迹来让它更真实。"
+ },
+ {
+  "seg": 355,
+  "start": 1930.051,
+  "end": 1934.318,
+  "speaker": "Unknown",
+  "en": "So over here, these are all my runs.",
+  "zh": "这边这些是我所有的运行。"
+ },
+ {
+  "seg": 356,
+  "start": 1936.483,
+  "end": 1940.884,
+  "speaker": "Unknown",
+  "en": "So, for example, this was the OpenTable reservation example.",
+  "zh": "比如，这个是 OpenTable 订座那个例子。"
+ },
+ {
+  "seg": 357,
+  "start": 1941.424,
+  "end": 1945.985,
+  "speaker": "Unknown",
+  "en": "And this was the strategy.md that the teacher sort of appended to every time.",
+  "zh": "而这个就是老师每次都往里追加的 strategy.md。"
+ },
+ {
+  "seg": 358,
+  "start": 1946.505,
+  "end": 1949.806,
+  "speaker": "Unknown",
+  "en": "So, step zero, you should do this, so on and so forth.",
+  "zh": "所以，第零步，你应该这样做，诸如此类。"
+ },
+ {
+  "seg": 359,
+  "start": 1950.566,
+  "end": 1951.266,
+  "speaker": "Unknown",
+  "en": "This was the task.",
+  "zh": "这是那个任务。"
+ },
+ {
+  "seg": 360,
+  "start": 1951.386,
+  "end": 1956.047,
+  "speaker": "Unknown",
+  "en": "This was the prompt that I gave it, find me reservations for the big restaurant.",
+  "zh": "这是我给它的提示词，帮我找那家大餐厅的订座。"
+ },
+ {
+  "seg": 361,
+  "start": 1956.587,
+  "end": 1960.048,
+  "speaker": "Unknown",
+  "en": "And these were the kind of traces that it was sort of learning from.",
+  "zh": "而这些就是它从中学习的那些轨迹。"
+ },
+ {
+  "seg": 362,
+  "start": 1960.328,
+  "end": 1963.429,
+  "speaker": "Unknown",
+  "en": "It would take screenshots, it would take these sort of traces.",
+  "zh": "它会截屏，会记录这些轨迹。"
+ },
+ {
+  "seg": 363,
+  "start": 1964.029,
+  "end": 1966.71,
+  "speaker": "Unknown",
+  "en": "At every step is doing Browse, Open.",
+  "zh": "每一步都在做 Browse, Open。"
+ },
+ {
+  "seg": 364,
+  "start": 1967.311,
+  "end": 1968.551,
+  "speaker": "Unknown",
+  "en": "This is what the output is.",
+  "zh": "这就是输出。"
+ },
+ {
+  "seg": 365,
+  "start": 1968.851,
+  "end": 1971.133,
+  "speaker": "Unknown",
+  "en": "Then turn number two, Browse, Snapshot.",
+  "zh": "然后第二轮，Browse, Snapshot。"
+ },
+ {
+  "seg": 366,
+  "start": 1971.153,
+  "end": 1975.134,
+  "speaker": "Unknown",
+  "en": "Snapshot essentially takes the accessibility tree and this is the snapshot.",
+  "zh": "Snapshot 本质上是获取无障碍树，这就是快照。"
+ },
+ {
+  "seg": 367,
+  "start": 1975.414,
+  "end": 1981.237,
+  "speaker": "Unknown",
+  "en": "So it's reading this entire thing and at every step thinking of like what went right and what went wrong.",
+  "zh": "所以它是在读这整个东西，并且在每一步思考哪里对了、哪里错了。"
+ },
+ {
+  "seg": 368,
+  "start": 1982.418,
+  "end": 1984.239,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, this is like machine code.",
+  "zh": "是的，我的意思是，这就像机器码一样。"
+ },
+ {
+  "seg": 369,
+  "start": 1984.939,
+  "end": 1986.56,
+  "speaker": "Unknown",
+  "en": "I won't show this entire thing.",
+  "zh": "我不会展示这全部内容。"
+ },
+ {
+  "seg": 370,
+  "start": 1987.42,
+  "end": 1991.262,
+  "speaker": "Unknown",
+  "en": "But yeah, this is the summary that it also writes at every iteration.",
+  "zh": "不过是的，这是它在每次迭代时也写下的总结。"
+ },
+ {
+  "seg": 371,
+  "start": 1991.942,
+  "end": 1997.945,
+  "speaker": "Unknown",
+  "en": "So yeah, there's a lot of engineering tweaks that you can do to suit this to your domain as well.",
+  "zh": "所以是的，你可以做很多工程上的调整，让它适配你自己的领域。"
+ },
+ {
+  "seg": 372,
+  "start": 1999.005,
+  "end": 2012.712,
+  "speaker": "Unknown",
+  "en": "And the easiest way to read this is we put it out here on skills.sh as well in auto-browse, and you can sort of do something like this.",
+  "zh": "最简单的了解方式是，我们也把它发布在 skills.sh 上的 auto-browse 里，你可以做类似这样的事情。"
+ },
+ {
+  "seg": 373,
+  "start": 2043.467,
+  "end": 2044.287,
+  "speaker": "Unknown",
+  "en": "Such a good question.",
+  "zh": "这个问题问得太好了。"
+ },
+ {
+  "seg": 374,
+  "start": 2044.367,
+  "end": 2045.848,
+  "speaker": "Unknown",
+  "en": "I think that goes back to like",
+  "zh": "我觉得这要回到"
+ },
+ {
+  "seg": 375,
+  "start": 2047.51,
+  "end": 2053.232,
+  "speaker": "Unknown",
+  "en": "How do you increase the reliability of your agents?",
+  "zh": "你如何提高智能体的可靠性？"
+ },
+ {
+  "seg": 376,
+  "start": 2053.352,
+  "end": 2056.333,
+  "speaker": "Unknown",
+  "en": "Reliability is an engineering problem.",
+  "zh": "可靠性是一个工程问题。"
+ },
+ {
+  "seg": 377,
+  "start": 2056.733,
+  "end": 2065.396,
+  "speaker": "Unknown",
+  "en": "You can design your harness to sort of go for one skill for each task, or you can be like, hey, one skill for every task that you will ever see.",
+  "zh": "你可以把你的 harness 设计成每个任务一个技能，或者你也可以说，嘿，一个技能覆盖所有你可能遇到的任务。"
+ },
+ {
+  "seg": 378,
+  "start": 2066.396,
+  "end": 2068.837,
+  "speaker": "Unknown",
+  "en": "I think it entirely depends how you",
+  "zh": "我认为这完全取决于你如何"
+ },
+ {
+  "seg": 379,
+  "start": 2069.437,
+  "end": 2073.899,
+  "speaker": "Unknown",
+  "en": "Do the harness engineering entirely depends on the use case that you have.",
+  "zh": "harness 的工程完全取决于你的使用场景。"
+ },
+ {
+  "seg": 380,
+  "start": 2074.259,
+  "end": 2078.68,
+  "speaker": "Unknown",
+  "en": "And you run evals with all these different strategies and see which one works for you.",
+  "zh": "你用这些不同的策略跑 eval，看哪个适合你。"
+ },
+ {
+  "seg": 381,
+  "start": 2079.241,
+  "end": 2080.701,
+  "speaker": "Unknown",
+  "en": "For us, this was, yeah.",
+  "zh": "对我们来说，这个，是的。"
+ },
+ {
+  "seg": 382,
+  "start": 2095.787,
+  "end": 2096.007,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 383,
+  "start": 2100.533,
+  "end": 2100.713,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 384,
+  "start": 2101.373,
+  "end": 2101.533,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 385,
+  "start": 2101.633,
+  "end": 2105.775,
+  "speaker": "Unknown",
+  "en": "And this is where, again, the harness comes into the picture.",
+  "zh": "而这也正是 harness 又一次发挥作用的地方。"
+ },
+ {
+  "seg": 386,
+  "start": 2105.955,
+  "end": 2120.24,
+  "speaker": "Unknown",
+  "en": "If the harness has the intelligence to bring in skills from OpenTable and from Resi and Google Reservations, maybe it can bring all of those in to figure out what is the best way to book me a date night.",
+  "zh": "如果 harness 有能力引入来自 OpenTable、来自 Resi 和 Google Reservations 的技能，也许它可以把这些全部引入，来搞清楚给我订一个约会之夜的最好方式是什么。"
+ },
+ {
+  "seg": 387,
+  "start": 2122.021,
+  "end": 2123.061,
+  "speaker": "Unknown",
+  "en": "That's your solution, right?",
+  "zh": "那就是你的解决方案，对吧？"
+ },
+ {
+  "seg": 388,
+  "start": 2123.281,
+  "end": 2127.903,
+  "speaker": "Unknown",
+  "en": "Like, the harness should be able to figure out which tools to use to get the job done.",
+  "zh": "就是说，harness 应该能够搞清楚用哪些工具来把活干完。"
+ },
+ {
+  "seg": 389,
+  "start": 2129.044,
+  "end": 2129.404,
+  "speaker": "Unknown",
+  "en": "That's like...",
+  "zh": "那就像是……"
+ },
+ {
+  "seg": 390,
+  "start": 2130.512,
+  "end": 2131.453,
+  "speaker": "Unknown",
+  "en": "How I would go about it.",
+  "zh": "我会怎么去做这件事。"
+ },
+ {
+  "seg": 391,
+  "start": 2132.814,
+  "end": 2135.956,
+  "speaker": "Unknown",
+  "en": "Figure out what are the most common use cases that your customers have.",
+  "zh": "先搞清楚你的客户最常见的使用场景是什么。"
+ },
+ {
+  "seg": 392,
+  "start": 2136.776,
+  "end": 2141.399,
+  "speaker": "Unknown",
+  "en": "For those use cases, what's the best skill files, prompts, tools.",
+  "zh": "对于那些使用场景，最好的技能文件、提示词、工具是什么。"
+ },
+ {
+  "seg": 393,
+  "start": 2141.639,
+  "end": 2144.902,
+  "speaker": "Unknown",
+  "en": "Maybe you want to do specific tools for specific use cases.",
+  "zh": "也许你想针对特定使用场景做特定工具。"
+ },
+ {
+  "seg": 394,
+  "start": 2145.482,
+  "end": 2148.104,
+  "speaker": "Unknown",
+  "en": "Maybe you want to do generic tools for all use cases.",
+  "zh": "也许你想为所有使用场景做通用工具。"
+ },
+ {
+  "seg": 395,
+  "start": 2148.124,
+  "end": 2149.745,
+  "speaker": "Unknown",
+  "en": "That's the same argument here.",
+  "zh": "这里也是同样的争论。"
+ },
+ {
+  "seg": 396,
+  "start": 2150.065,
+  "end": 2152.967,
+  "speaker": "Unknown",
+  "en": "It's like, do you do one skill for each or one skill for all?",
+  "zh": "就是说，你是每个任务一个技能，还是所有任务一个技能？"
+ },
+ {
+  "seg": 397,
+  "start": 2154.348,
+  "end": 2157.55,
+  "speaker": "Unknown",
+  "en": "And eval across all of these strategies and let the harness figure it out.",
+  "zh": "在所有这些策略上做 eval，让 harness 去搞清楚。"
+ },
+ {
+  "seg": 398,
+  "start": 2161.525,
+  "end": 2161.705,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 399,
+  "start": 2162.706,
+  "end": 2162.846,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 400,
+  "start": 2163.466,
+  "end": 2163.866,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 401,
+  "start": 2163.966,
+  "end": 2165.847,
+  "speaker": "Unknown",
+  "en": "I mean, it's a very similar concept as this, right?",
+  "zh": "我是说，这和这个是非常类似的概念，对吧？"
+ },
+ {
+  "seg": 402,
+  "start": 2166.707,
+  "end": 2167.427,
+  "speaker": "Unknown",
+  "en": "So, DSPY?",
+  "zh": "那么，DSPY？"
+ },
+ {
+  "seg": 403,
+  "start": 2167.547,
+  "end": 2167.688,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 404,
+  "start": 2170.149,
+  "end": 2172.269,
+  "speaker": "Unknown",
+  "en": "I think those guys were on to something really cool.",
+  "zh": "我觉得那帮人当年是搞出了些很酷的东西。"
+ },
+ {
+  "seg": 405,
+  "start": 2172.309,
+  "end": 2173.39,
+  "speaker": "Unknown",
+  "en": "Like, they were around, like,",
+  "zh": "比如，他们在大概，"
+ },
+ {
+  "seg": 406,
+  "start": 2174.665,
+  "end": 2178.968,
+  "speaker": "Unknown",
+  "en": "Three, four years ago where they started building DSPy and all of that.",
+  "zh": "三四年前就开始构建 DSPy 之类的了。"
+ },
+ {
+  "seg": 407,
+  "start": 2179.288,
+  "end": 2184.972,
+  "speaker": "Unknown",
+  "en": "I think we have been doing a lot of research along these lines as well.",
+  "zh": "我觉得我们自己也一直在沿着这些方向做很多研究。"
+ },
+ {
+  "seg": 408,
+  "start": 2185.013,
+  "end": 2186.954,
+  "speaker": "Unknown",
+  "en": "BrowserBase works with Microsoft.",
+  "zh": "BrowserBase 和 Microsoft 有合作。"
+ },
+ {
+  "seg": 409,
+  "start": 2186.974,
+  "end": 2193.419,
+  "speaker": "Unknown",
+  "en": "We actually released a paper about how to build the right sort of verifiers for your agents.",
+  "zh": "我们实际上发布过一篇论文，讲如何为你的智能体构建合适的验证器。"
+ },
+ {
+  "seg": 410,
+  "start": 2194.259,
+  "end": 2200.484,
+  "speaker": "Unknown",
+  "en": "I think running evals is straightforward until you start questioning, okay, how should I eval my eval?",
+  "zh": "我认为运行 evals 本身很简单，直到你开始质疑，好，我该怎么评估我的评估？"
+ },
+ {
+  "seg": 411,
+  "start": 2202.558,
+  "end": 2205.44,
+  "speaker": "Unknown",
+  "en": "Do I need to put all these humans to verify all these runs?",
+  "zh": "我是否需要把所有这些人都拉来验证所有这些运行？"
+ },
+ {
+  "seg": 412,
+  "start": 2205.52,
+  "end": 2207.722,
+  "speaker": "Unknown",
+  "en": "Or is there a good verifier that I can build here?",
+  "zh": "还是我可以在这里构建一个好的验证器？"
+ },
+ {
+  "seg": 413,
+  "start": 2208.102,
+  "end": 2213.425,
+  "speaker": "Unknown",
+  "en": "And all of that uses the learnings from these papers as well.",
+  "zh": "而这些都会用到这些论文中的经验。"
+ },
+ {
+  "seg": 414,
+  "start": 2214.466,
+  "end": 2216.588,
+  "speaker": "Unknown",
+  "en": "I can share all of that in the GitHub as well.",
+  "zh": "我也可以在 GitHub 里分享所有这些内容。"
+ },
+ {
+  "seg": 415,
+  "start": 2220.47,
+  "end": 2222.712,
+  "speaker": "Unknown",
+  "en": "I'll also see if there's any new questions here.",
+  "zh": "我再看看这里有没有新的问题。"
+ },
+ {
+  "seg": 416,
+  "start": 2225.653,
+  "end": 2228.514,
+  "speaker": "Unknown",
+  "en": "Where and how were these skills stored, retrieved at scale?",
+  "zh": "这些技能是在哪里、如何存储和规模化检索的？"
+ },
+ {
+  "seg": 417,
+  "start": 2229.534,
+  "end": 2236.396,
+  "speaker": "Unknown",
+  "en": "Right now, for this repo, all of these get stored in my .cloud over here, so each of these is a scale file.",
+  "zh": "现在呢，对于这个仓库，所有这些都存储在我的 .cloud 这里，所以每一个都是一个 scale 文件。"
+ },
+ {
+  "seg": 418,
+  "start": 2236.836,
+  "end": 2238.636,
+  "speaker": "Unknown",
+  "en": "This was my recipe searcher.",
+  "zh": "这是我的菜谱搜索器。"
+ },
+ {
+  "seg": 419,
+  "start": 2238.916,
+  "end": 2244.418,
+  "speaker": "Unknown",
+  "en": "I wanted to build some, I wanted to cook some dinner yesterday, so I was like, hey, make me some recipes.",
+  "zh": "我昨天想做一些、想做顿晚饭，所以我就像，嘿，给我生成一些菜谱。"
+ },
+ {
+  "seg": 420,
+  "start": 2246.268,
+  "end": 2269.601,
+  "speaker": "Unknown",
+  "en": "So all of these are currently in my local skills folder, but if you want to ship this in production, of course, you can bake this into your agent loop, or if you want to, I think for browse.sh, the publicly available skills that we have, I think we use Worsale Blob Storage to store all these skills and make them on demand.",
+  "zh": "所以目前这些都在我本地的 skills 文件夹里，但如果你想把它上线到生产环境，当然，你可以把它内置到你的智能体循环里，或者如果你愿意，我想对于 browse.sh，我们公开可用的那些技能，我记得我们是用 Worsale Blob Storage 来存储所有这些技能并按需提供。"
+ },
+ {
+  "seg": 421,
+  "start": 2271.382,
+  "end": 2272.202,
+  "speaker": "Unknown",
+  "en": "Hope that helps.",
+  "zh": "希望这有帮助。"
+ },
+ {
+  "seg": 422,
+  "start": 2274.615,
+  "end": 2275.575,
+  "speaker": "Unknown",
+  "en": "Websites change frequently.",
+  "zh": "网站经常变动。"
+ },
+ {
+  "seg": 423,
+  "start": 2275.595,
+  "end": 2279.777,
+  "speaker": "Unknown",
+  "en": "What's your strategy for monitoring that and keeping the website skill updated?",
+  "zh": "你们用什么策略来监控这种情况并保持网站技能的更新？"
+ },
+ {
+  "seg": 424,
+  "start": 2280.537,
+  "end": 2282.458,
+  "speaker": "Unknown",
+  "en": "Yeah, this is such a great question.",
+  "zh": "是的，这是一个非常好的问题。"
+ },
+ {
+  "seg": 425,
+  "start": 2283.058,
+  "end": 2284.598,
+  "speaker": "Unknown",
+  "en": "And this is what I was alluding to earlier.",
+  "zh": "这也是我之前提到的那一点。"
+ },
+ {
+  "seg": 426,
+  "start": 2284.878,
+  "end": 2290.06,
+  "speaker": "Unknown",
+  "en": "It's like, how do you keep these skills up to date because the website's going to change?",
+  "zh": "就是，你怎么让这些技能保持更新，因为网站总会变？"
+ },
+ {
+  "seg": 427,
+  "start": 2291.06,
+  "end": 2299.583,
+  "speaker": "Unknown",
+  "en": "The current working theory that we have right now is you don't want to waste tokens running auto-research every day.",
+  "zh": "我们现在目前的工作理论是，你不会想浪费 token 每天都跑 auto-research。"
+ },
+ {
+  "seg": 428,
+  "start": 2300.163,
+  "end": 2301.464,
+  "speaker": "Unknown",
+  "en": "You want to probably trigger",
+  "zh": "你可能想的是触发"
+ },
+ {
+  "seg": 429,
+  "start": 2302.55,
+  "end": 2306.716,
+  "speaker": "Unknown",
+  "en": "Or if it's failing at any particular point in production.",
+  "zh": "或者在生产环境中的某个特定节点失败时。"
+ },
+ {
+  "seg": 430,
+  "start": 2306.997,
+  "end": 2317.472,
+  "speaker": "Unknown",
+  "en": "So we build these loops or systems where as soon as we run into any production failure, we run an auto-research loop to see what went wrong, to heal it,",
+  "zh": "所以我们构建了这些循环或系统，一旦我们遇到任何生产失败，我们就运行一个 auto-research 循环，看看哪里出了问题，把它修好，"
+ },
+ {
+  "seg": 431,
+  "start": 2318.213,
+  "end": 2325.997,
+  "speaker": "Unknown",
+  "en": "Create a pull request that goes directly to a human engineer and they fix it and automatically the skill gets updated.",
+  "zh": "创建一个直接发给人类工程师的 pull request，他们修复它，然后技能就自动更新了。"
+ },
+ {
+  "seg": 432,
+  "start": 2326.617,
+  "end": 2332.821,
+  "speaker": "Unknown",
+  "en": "So yes, there is that notion of production failure when this might happen, but it's a trade-off.",
+  "zh": "所以是的，确实存在这种可能发生这种情况的生产失败的概念，但这是一个权衡。"
+ },
+ {
+  "seg": 433,
+  "start": 2333.061,
+  "end": 2342.726,
+  "speaker": "Unknown",
+  "en": "You can run an auto-research or you can run a sample run every two hours, every three hours to see if the skill is working perfectly.",
+  "zh": "你可以跑一次 auto-research，也可以每两小时、每三小时跑一次采样运行，看看技能是否运行完美。"
+ },
+ {
+  "seg": 434,
+  "start": 2343.206,
+  "end": 2345.007,
+  "speaker": "Unknown",
+  "en": "So there's different ways of having the",
+  "zh": "所以有不同的方式来做"
+ },
+ {
+  "seg": 435,
+  "start": 2346.968,
+  "end": 2349.95,
+  "speaker": "Unknown",
+  "en": "Cron jobs check for the accuracy of these skills.",
+  "zh": "用 Cron 任务检查这些技能的准确性。"
+ },
+ {
+  "seg": 436,
+  "start": 2351.031,
+  "end": 2354.813,
+  "speaker": "Unknown",
+  "en": "This is actually one thing that I'm actively working on with the customer right now to implement.",
+  "zh": "这实际上是我目前正在和客户一起积极着手实现的一件事。"
+ },
+ {
+  "seg": 437,
+  "start": 2355.194,
+  "end": 2356.655,
+  "speaker": "Unknown",
+  "en": "And there's all these questions, right?",
+  "zh": "而且还有这一堆问题，对吧？"
+ },
+ {
+  "seg": 438,
+  "start": 2356.795,
+  "end": 2358.956,
+  "speaker": "Unknown",
+  "en": "People don't want 100% accuracy.",
+  "zh": "人们并不想要 100% 的准确性。"
+ },
+ {
+  "seg": 439,
+  "start": 2358.976,
+  "end": 2360.658,
+  "speaker": "Unknown",
+  "en": "People might want, like, the next cheaper cost.",
+  "zh": "人们可能想要，比如，更低的成本。"
+ },
+ {
+  "seg": 440,
+  "start": 2360.678,
+  "end": 2363.6,
+  "speaker": "Unknown",
+  "en": "So that's the question that comes up.",
+  "zh": "所以这就是会冒出来的问题。"
+ },
+ {
+  "seg": 441,
+  "start": 2365.061,
+  "end": 2369.123,
+  "speaker": "Unknown",
+  "en": "What's your teacher's criteria here in the example, separate from reaching the goal?",
+  "zh": "在这个例子里，除了达成目标之外，你们的 teacher 标准是什么？"
+ },
+ {
+  "seg": 442,
+  "start": 2369.143,
+  "end": 2371.685,
+  "speaker": "Unknown",
+  "en": "It seems to do some optimizations for turns.",
+  "zh": "看起来它对轮数做了一些优化。"
+ },
+ {
+  "seg": 443,
+  "start": 2372.085,
+  "end": 2373.526,
+  "speaker": "Unknown",
+  "en": "What other criteria do you use?",
+  "zh": "你们还用了哪些其他标准？"
+ },
+ {
+  "seg": 444,
+  "start": 2375.77,
+  "end": 2379.672,
+  "speaker": "Unknown",
+  "en": "So again, this is the design of the auto-research loop.",
+  "zh": "好，再说一次，这是 auto-research 循环的设计。"
+ },
+ {
+  "seg": 445,
+  "start": 2379.772,
+  "end": 2385.815,
+  "speaker": "Unknown",
+  "en": "There's one way of telling your auto-research that, hey, I want to focus on just success.",
+  "zh": "有一种方式是告诉你的 auto-research，嘿，我只想专注于成功。"
+ },
+ {
+  "seg": 446,
+  "start": 2385.975,
+  "end": 2388.156,
+  "speaker": "Unknown",
+  "en": "As soon as you get me success, I'm fine.",
+  "zh": "只要你给我搞成功，我就满意了。"
+ },
+ {
+  "seg": 447,
+  "start": 2388.176,
+  "end": 2388.936,
+  "speaker": "Unknown",
+  "en": "Just give that to me.",
+  "zh": "把那个给我就行。"
+ },
+ {
+  "seg": 448,
+  "start": 2389.916,
+  "end": 2393.118,
+  "speaker": "Unknown",
+  "en": "That's typically not what everybody wants to do.",
+  "zh": "但这通常不是每个人都想做的。"
+ },
+ {
+  "seg": 449,
+  "start": 2393.138,
+  "end": 2401.842,
+  "speaker": "Unknown",
+  "en": "People want to minimize on latency because maybe this is a real-time run where you're focused on how quickly can you get the job done.",
+  "zh": "人们想最小化延迟，因为也许这是一次实时运行，你关注的是多快能把任务完成。"
+ },
+ {
+  "seg": 450,
+  "start": 2402.762,
+  "end": 2407.123,
+  "speaker": "Unknown",
+  "en": "So, if that is the optimizing metric, you focus on getting it as fast as possible.",
+  "zh": "所以,如果那就是优化指标,你专注于尽可能快地得到它。"
+ },
+ {
+  "seg": 451,
+  "start": 2407.363,
+  "end": 2420.706,
+  "speaker": "Unknown",
+  "en": "What I've seen, sometimes these, our research loops are so smart, they realize that browsers are not needed at all, and they just reverse engineer the API, and they fire the API, and that's the fastest that you'll ever get to, right?",
+  "zh": "我见过的是,有时候这些研究循环非常聪明,它们意识到根本不需要浏览器,它们直接对 API 进行逆向工程,然后直接调用 API,那是你能达到的最快速度,对吧?"
+ },
+ {
+  "seg": 452,
+  "start": 2420.806,
+  "end": 2427.708,
+  "speaker": "Unknown",
+  "en": "So, sometimes I've seen situations where it finds a solution that works in 500 milliseconds.",
+  "zh": "所以,有时候我见过它找到一个 500 毫秒内就能完成的解决方案的情况。"
+ },
+ {
+  "seg": 453,
+  "start": 2430.091,
+  "end": 2431.934,
+  "speaker": "Unknown",
+  "en": "Sometimes it is the number of turns, right?",
+  "zh": "有时候是轮次数,对吧?"
+ },
+ {
+  "seg": 454,
+  "start": 2432.214,
+  "end": 2439.725,
+  "speaker": "Unknown",
+  "en": "You want to minimize your context loop and you want to minimize the number of turns it takes to complete the task.",
+  "zh": "你想最小化你的上下文循环,你想最小化完成任务所需的轮次数。"
+ },
+ {
+  "seg": 455,
+  "start": 2440.627,
+  "end": 2444.452,
+  "speaker": "Unknown",
+  "en": "In my instance, I think what I have done is it's your decision to",
+  "zh": "在我的例子中,我想我所做的是,这是你的决定,"
+ },
+ {
+  "seg": 456,
+  "start": 2445.053,
+  "end": 2448.096,
+  "speaker": "Unknown",
+  "en": "Pass or Converge whenever you want to pause it.",
+  "zh": "每当你想暂停它时,是 Pass 还是 Converge。"
+ },
+ {
+  "seg": 457,
+  "start": 2448.517,
+  "end": 2451.079,
+  "speaker": "Unknown",
+  "en": "I'm not really concerned about the costs.",
+  "zh": "我不太关心成本。"
+ },
+ {
+  "seg": 458,
+  "start": 2451.48,
+  "end": 2453.522,
+  "speaker": "Unknown",
+  "en": "I care most about reliability.",
+  "zh": "我最关心的是可靠性。"
+ },
+ {
+  "seg": 459,
+  "start": 2453.882,
+  "end": 2456.465,
+  "speaker": "Unknown",
+  "en": "So keep doing it as long as you feel it's relevant.",
+  "zh": "所以只要你觉得它还有相关性,就继续做下去。"
+ },
+ {
+  "seg": 460,
+  "start": 2456.786,
+  "end": 2461.691,
+  "speaker": "Unknown",
+  "en": "And then it's the teacher's agent's job to call it today when it wants to.",
+  "zh": "然后当教师智能体想调用它时,调用它就是教师智能体的工作。"
+ },
+ {
+  "seg": 461,
+  "start": 2463.686,
+  "end": 2467.431,
+  "speaker": "Unknown",
+  "en": "But yeah, you can try all different strategies.",
+  "zh": "不过是的,你可以尝试各种不同的策略。"
+ },
+ {
+  "seg": 462,
+  "start": 2468.332,
+  "end": 2470.515,
+  "speaker": "Unknown",
+  "en": "If a website supports WebMCP, will this use it?",
+  "zh": "如果一个网站支持 WebMCP,会使用它吗?"
+ },
+ {
+  "seg": 463,
+  "start": 2470.876,
+  "end": 2472.178,
+  "speaker": "Unknown",
+  "en": "WebMCP is so cool.",
+  "zh": "WebMCP 太酷了。"
+ },
+ {
+  "seg": 464,
+  "start": 2473.019,
+  "end": 2478.226,
+  "speaker": "Unknown",
+  "en": "It's essentially this concept, I don't know if everybody knows this, but it's this concept of like,",
+  "zh": "它本质上是这个概念,我不知道是不是每个人都知道,但它就是这个概念,就像,"
+ },
+ {
+  "seg": 465,
+  "start": 2479.027,
+  "end": 2481.268,
+  "speaker": "Unknown",
+  "en": "Making your website programmable.",
+  "zh": "让你的网站变得可编程。"
+ },
+ {
+  "seg": 466,
+  "start": 2482.249,
+  "end": 2494.316,
+  "speaker": "Unknown",
+  "en": "It's come out in this new Google Chrome release recently where you tell your website that if anybody wants to book a reservation, they can do XYZ on the website.",
+  "zh": "它最近在 Google Chrome 的新版本中推出,你告诉你的网站,如果任何人想预订,他们可以在网站上做 XYZ。"
+ },
+ {
+  "seg": 467,
+  "start": 2494.336,
+  "end": 2496.677,
+  "speaker": "Unknown",
+  "en": "It's kind of like an API, but it's on the browser.",
+  "zh": "它有点像 API,但它是在浏览器上的。"
+ },
+ {
+  "seg": 468,
+  "start": 2498.438,
+  "end": 2504.442,
+  "speaker": "Unknown",
+  "en": "Right now, I don't think our research loop supports this, but I don't think it would be",
+  "zh": "现在,我不认为我们的研究循环支持这个,但我不认为做这个"
+ },
+ {
+  "seg": 469,
+  "start": 2506.383,
+  "end": 2507.344,
+  "speaker": "Unknown",
+  "en": "Too hard to do that.",
+  "zh": "会太难。"
+ },
+ {
+  "seg": 470,
+  "start": 2508.224,
+  "end": 2513.688,
+  "speaker": "Unknown",
+  "en": "In fact, we recently shipped support for WebMCP with our SDKs that we launched.",
+  "zh": "事实上,我们最近在我们发布的 SDK 中推出了对 WebMCP 的支持。"
+ },
+ {
+  "seg": 471,
+  "start": 2513.708,
+  "end": 2517.99,
+  "speaker": "Unknown",
+  "en": "We also made some tools for website owners to ship WebMCPs at scale.",
+  "zh": "我们还做了一些工具,让网站所有者可以大规模地发布 WebMCP。"
+ },
+ {
+  "seg": 472,
+  "start": 2519.211,
+  "end": 2520.292,
+  "speaker": "Unknown",
+  "en": "But yeah, this is an interesting one.",
+  "zh": "不过是的,这是个有趣的问题。"
+ },
+ {
+  "seg": 473,
+  "start": 2520.792,
+  "end": 2523.374,
+  "speaker": "Unknown",
+  "en": "We've not really seen a lot of adoption with WebMCP as yet.",
+  "zh": "我们还没有真正看到 WebMCP 有很多采用。"
+ },
+ {
+  "seg": 474,
+  "start": 2527.656,
+  "end": 2528.637,
+  "speaker": "Unknown",
+  "en": "Ground truth for PaaS.",
+  "zh": "PaaS 的 ground truth。"
+ },
+ {
+  "seg": 475,
+  "start": 2529.796,
+  "end": 2530.676,
+  "speaker": "Unknown",
+  "en": "That's interesting.",
+  "zh": "这很有意思。"
+ },
+ {
+  "seg": 476,
+  "start": 2530.776,
+  "end": 2544.001,
+  "speaker": "Unknown",
+  "en": "I think as long as the job was done, as long as, for example, in Google Flights, if it found the cheapest flights, in OpenTable, if it found a reservation, so it evaluates itself.",
+  "zh": "我想只要工作完成了,只要,比如说,在 Google Flights 上,如果它找到了最便宜的航班,在 OpenTable 上,如果它找到了预订,那它就自我评估。"
+ },
+ {
+  "seg": 477,
+  "start": 2544.401,
+  "end": 2545.622,
+  "speaker": "Unknown",
+  "en": "It's typically a binary.",
+  "zh": "它通常是二元的。"
+ },
+ {
+  "seg": 478,
+  "start": 2547.322,
+  "end": 2551.884,
+  "speaker": "Unknown",
+  "en": "And, yeah, again, I fully embrace the bitter lesson.",
+  "zh": "而且,是的,我再次完全拥抱 bitter lesson。"
+ },
+ {
+  "seg": 479,
+  "start": 2551.964,
+  "end": 2556.826,
+  "speaker": "Unknown",
+  "en": "I try not to put many guardrails in these evaluations.",
+  "zh": "我尽量不在这类评估中放太多护栏。"
+ },
+ {
+  "seg": 480,
+  "start": 2558.777,
+  "end": 2567.823,
+  "speaker": "Unknown",
+  "en": "Have you considered a verifier as a service for browsing tasks, including something that allows us to mock certain side effects like purchases?",
+  "zh": "你有没有考虑过为浏览任务提供 verifier as a service,包括允许我们模拟某些副作用(比如购买)的东西?"
+ },
+ {
+  "seg": 481,
+  "start": 2568.643,
+  "end": 2573.326,
+  "speaker": "Unknown",
+  "en": "I might have to ask a follow-up on that.",
+  "zh": "我可能得追问一下这个。"
+ },
+ {
+  "seg": 482,
+  "start": 2574.006,
+  "end": 2577.268,
+  "speaker": "Unknown",
+  "en": "What do you mean by verifier as a service, Ravish, if you're here?",
+  "zh": "你说的 verifier as a service 是什么意思,Ravish,如果你在这里的话?"
+ },
+ {
+  "seg": 483,
+  "start": 2577.769,
+  "end": 2577.929,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 484,
+  "start": 2612.062,
+  "end": 2628.739,
+  "speaker": "Unknown",
+  "en": "So, do you mean that... Yeah, if I understand this correctly, you have different environments that you can use for RL training, and you want to mock what happens if I am replicating Amazon, if I click on purchase, what happens after?",
+  "zh": "所以,你的意思是……对,如果我理解正确的话,你有不同的环境可以用于 RL 训练,你想模拟如果我复制 Amazon,如果我点击购买,之后会发生什么?"
+ },
+ {
+  "seg": 485,
+  "start": 2634.533,
+  "end": 2640.484,
+  "speaker": "Unknown",
+  "en": "No, because we try to rely more on real-world websites.",
+  "zh": "不,因为我们尽量更多地依赖真实世界的网站。"
+ },
+ {
+  "seg": 486,
+  "start": 2640.885,
+  "end": 2642.889,
+  "speaker": "Unknown",
+  "en": "Browser-based, we have the privilege of",
+  "zh": "基于浏览器的,我们有这样的优势,"
+ },
+ {
+  "seg": 487,
+  "start": 2644.261,
+  "end": 2651.863,
+  "speaker": "Unknown",
+  "en": "Being able to access most of the web with our access to different websites and capture solvers, et cetera.",
+  "zh": "凭借我们对不同网站的访问权限和 capture solvers 等等,能够访问大部分网络。"
+ },
+ {
+  "seg": 488,
+  "start": 2652.663,
+  "end": 2655.263,
+  "speaker": "Unknown",
+  "en": "So we try to mimic the real world as much as possible.",
+  "zh": "所以我们尽量尽可能多地模拟真实世界。"
+ },
+ {
+  "seg": 489,
+  "start": 2655.663,
+  "end": 2668.566,
+  "speaker": "Unknown",
+  "en": "But we've been seeing a lot of these RL environments where people are mimicking websites to train and build browser agents that are really good at browsing Salesforce, really good at browsing SAP.",
+  "zh": "但我们已经看到很多这样的 RL 环境,人们模仿网站来训练和构建非常擅长浏览 Salesforce 的浏览器智能体,非常擅长浏览 SAP 的浏览器智能体。"
+ },
+ {
+  "seg": 490,
+  "start": 2669.306,
+  "end": 2672.347,
+  "speaker": "Unknown",
+  "en": "We try to do that on real world portals as much as possible.",
+  "zh": "我们尽量尽可能地在真实世界的门户上做这些。"
+ },
+ {
+  "seg": 491,
+  "start": 2674.488,
+  "end": 2679.251,
+  "speaker": "Unknown",
+  "en": "Are edge captchas easy for the skill to move past or is it token incentive?",
+  "zh": "对于技能来说,edge 验证码容易绕过吗,还是它是 token 密集型的?"
+ },
+ {
+  "seg": 492,
+  "start": 2679.371,
+  "end": 2681.572,
+  "speaker": "Unknown",
+  "en": "What is the point of edge captchas for website owners?",
+  "zh": "对于网站所有者来说,edge 验证码的意义是什么?"
+ },
+ {
+  "seg": 493,
+  "start": 2681.912,
+  "end": 2685.554,
+  "speaker": "Unknown",
+  "en": "Edge captcha, if I'm understanding this, is like a particular kind of captcha.",
+  "zh": "Edge 验证码,如果我理解正确的话,是一种特定类型的验证码。"
+ },
+ {
+  "seg": 494,
+  "start": 2685.874,
+  "end": 2688.015,
+  "speaker": "Unknown",
+  "en": "It's kind of like Google reCaptcha, et cetera.",
+  "zh": "它有点像 Google reCaptcha 之类的。"
+ },
+ {
+  "seg": 495,
+  "start": 2690.776,
+  "end": 2694.078,
+  "speaker": "Unknown",
+  "en": "Yeah, I would probably talk about this separately.",
+  "zh": "是的,我可能会单独谈这个。"
+ },
+ {
+  "seg": 496,
+  "start": 2695.179,
+  "end": 2699.122,
+  "speaker": "Unknown",
+  "en": "I don't think we can talk about what CAPTCHAs we can solve or not.",
+  "zh": "我认为我们不能谈我们能解决哪些验证码或不能解决哪些。"
+ },
+ {
+  "seg": 497,
+  "start": 2699.603,
+  "end": 2706.067,
+  "speaker": "Unknown",
+  "en": "But it's not a token-intensive job, per se, because it's a thing that's done at the infrastructure layer.",
+  "zh": "但它本身并不是一个 token 密集型的工作,因为它是在基础设施层完成的事情。"
+ },
+ {
+  "seg": 498,
+  "start": 2709.11,
+  "end": 2711.731,
+  "speaker": "Unknown",
+  "en": "We don't really need to use an AI to solve a CAPTCHA.",
+  "zh": "我们其实不需要用 AI 来解决验证码。"
+ },
+ {
+  "seg": 499,
+  "start": 2712.452,
+  "end": 2716.275,
+  "speaker": "Unknown",
+  "en": "It's solved at the Chrome binary layer, and we do that out of the box.",
+  "zh": "它是在 Chrome 二进制层解决的,我们开箱即用地做到了这一点。"
+ },
+ {
+  "seg": 500,
+  "start": 2719.522,
+  "end": 2723.105,
+  "speaker": "Unknown",
+  "en": "How does the teacher evaluate the doer and when is the skill mark that's graduated?",
+  "zh": "老师如何评估执行者,技能何时标记为毕业?"
+ },
+ {
+  "seg": 501,
+  "start": 2723.145,
+  "end": 2723.345,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 502,
+  "start": 2723.845,
+  "end": 2728.709,
+  "speaker": "Unknown",
+  "en": "So it evaluates the doer by essentially reading these traces.",
+  "zh": "它评估执行者的方式基本上是阅读这些轨迹。"
+ },
+ {
+  "seg": 503,
+  "start": 2729.73,
+  "end": 2733.453,
+  "speaker": "Unknown",
+  "en": "For every iteration, there is this folder that gets created.",
+  "zh": "每次迭代都会创建一个文件夹。"
+ },
+ {
+  "seg": 504,
+  "start": 2734.314,
+  "end": 2736.055,
+  "speaker": "Unknown",
+  "en": "There are these JSON files.",
+  "zh": "里面有这些 JSON 文件。"
+ },
+ {
+  "seg": 505,
+  "start": 2737.036,
+  "end": 2737.816,
+  "speaker": "Unknown",
+  "en": "It reads these.",
+  "zh": "它读取这些文件。"
+ },
+ {
+  "seg": 506,
+  "start": 2738.737,
+  "end": 2744.882,
+  "speaker": "Unknown",
+  "en": "It has a Claude Agent SDK loop, and it essentially figures out what the learnings from that loop are.",
+  "zh": "它有一个 Claude Agent SDK 循环,基本上弄清楚这个循环中学到了什么。"
+ },
+ {
+  "seg": 507,
+  "start": 2745.962,
+  "end": 2750.104,
+  "speaker": "Unknown",
+  "en": "Actually, I think I have a slide that talks about this at the end.",
+  "zh": "其实,我想我在最后有一张讲这个的幻灯片。"
+ },
+ {
+  "seg": 508,
+  "start": 2753.365,
+  "end": 2754.106,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 509,
+  "start": 2754.206,
+  "end": 2768.872,
+  "speaker": "Unknown",
+  "en": "This is kind of like the prompt for this where it says that you're a browser automation agent, you can use these tools, and the strategy.md gets injected at every iteration, and this is how the...",
+  "zh": "这有点像这个的提示词,它说你是一个浏览器自动化智能体,你可以使用这些工具,strategy.md 在每次迭代中都会被注入,这就是那个……"
+ },
+ {
+  "seg": 510,
+  "start": 2771.645,
+  "end": 2773.486,
+  "speaker": "Unknown",
+  "en": "The teacher evaluates the doer's job.",
+  "zh": "老师评估执行者的工作。"
+ },
+ {
+  "seg": 511,
+  "start": 2774.206,
+  "end": 2780.308,
+  "speaker": "Unknown",
+  "en": "So yeah, it reads the traces, it has the system prompt, it has the previous strategy, and it comes up with a better strategy.",
+  "zh": "所以,是的,它读取轨迹,它有系统提示词,它有之前的策略,然后它想出一个更好的策略。"
+ },
+ {
+  "seg": 512,
+  "start": 2787.53,
+  "end": 2787.93,
+  "speaker": "Unknown",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 513,
+  "start": 2791.091,
+  "end": 2793.331,
+  "speaker": "Unknown",
+  "en": "I hope we've covered all the questions.",
+  "zh": "我希望我们已经涵盖了所有问题。"
+ },
+ {
+  "seg": 514,
+  "start": 2796.452,
+  "end": 2798.813,
+  "speaker": "Unknown",
+  "en": "Any other questions live that we might want to talk about?",
+  "zh": "现场还有其他我们可能想聊的问题吗?"
+ },
+ {
+  "seg": 515,
+  "start": 2799.693,
+  "end": 2799.873,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 516,
+  "start": 2804.811,
+  "end": 2806.592,
+  "speaker": "Unknown",
+  "en": "Yeah, it can work with the StageHand SDK.",
+  "zh": "是的,它可以与 StageHand SDK 一起工作。"
+ },
+ {
+  "seg": 517,
+  "start": 2806.692,
+  "end": 2808.152,
+  "speaker": "Unknown",
+  "en": "It can work in your Claude Code.",
+  "zh": "它可以在你的 Claude Code 中工作。"
+ },
+ {
+  "seg": 518,
+  "start": 2808.893,
+  "end": 2810.273,
+  "speaker": "Unknown",
+  "en": "It's essentially a markdown, right?",
+  "zh": "它本质上就是一个 markdown,对吧?"
+ },
+ {
+  "seg": 519,
+  "start": 2810.734,
+  "end": 2816.316,
+  "speaker": "Unknown",
+  "en": "I took a skill and I told my Claude Code, can you find events in SF for this Friday?",
+  "zh": "我拿了一个技能,然后告诉我的 Claude Code,你能帮我找找这周五旧金山有什么活动吗?"
+ },
+ {
+  "seg": 520,
+  "start": 2816.716,
+  "end": 2818.937,
+  "speaker": "Unknown",
+  "en": "July the 3rd, I went on and did this.",
+  "zh": "7 月 3 日,我上去做了这件事。"
+ },
+ {
+  "seg": 521,
+  "start": 2819.057,
+  "end": 2821.598,
+  "speaker": "Unknown",
+  "en": "So it need not use Browsebase.",
+  "zh": "所以它不必使用 Browsebase。"
+ },
+ {
+  "seg": 522,
+  "start": 2821.638,
+  "end": 2822.659,
+  "speaker": "Unknown",
+  "en": "It need not use StageHand.",
+  "zh": "它不必使用 StageHand。"
+ },
+ {
+  "seg": 523,
+  "start": 2822.699,
+  "end": 2823.759,
+  "speaker": "Unknown",
+  "en": "It is essentially a skill.",
+  "zh": "它本质上是一个技能。"
+ },
+ {
+  "seg": 524,
+  "start": 2823.979,
+  "end": 2827.481,
+  "speaker": "Unknown",
+  "en": "It is a portable artifact you can use in any agent or any SDK.",
+  "zh": "它是一个可移植的产物,你可以在任何智能体或任何 SDK 中使用。"
+ },
+ {
+  "seg": 525,
+  "start": 2850.444,
+  "end": 2851.885,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah, great question.",
+  "zh": "是,是,好问题。"
+ },
+ {
+  "seg": 526,
+  "start": 2851.925,
+  "end": 2868.53,
+  "speaker": "Unknown",
+  "en": "I think if I understand this correctly, how do you prevent against prompt injection because websites could trick my auto research loop in learning something bad that can do some malicious behavior in a production setting?",
+  "zh": "我想如果我理解得没错,你如何防范提示词注入,因为网站可能会欺骗我的自动研究循环,让它学到一些坏东西,在生产环境中做出恶意行为?"
+ },
+ {
+  "seg": 527,
+  "start": 2869.371,
+  "end": 2870.831,
+  "speaker": "Unknown",
+  "en": "There's a few ways we do that.",
+  "zh": "我们有几种方法来做到这一点。"
+ },
+ {
+  "seg": 528,
+  "start": 2871.411,
+  "end": 2873.092,
+  "speaker": "Unknown",
+  "en": "One is at the infrastructure layer itself.",
+  "zh": "一个是在基础设施层本身。"
+ },
+ {
+  "seg": 529,
+  "start": 2873.952,
+  "end": 2874.773,
+  "speaker": "Unknown",
+  "en": "We have a bunch of",
+  "zh": "我们有一堆"
+ },
+ {
+  "seg": 530,
+  "start": 2877.171,
+  "end": 2880.432,
+  "speaker": "Unknown",
+  "en": "protections around our browsers itself.",
+  "zh": "围绕我们浏览器本身的防护。"
+ },
+ {
+  "seg": 531,
+  "start": 2881.213,
+  "end": 2886.855,
+  "speaker": "Unknown",
+  "en": "We have this browser-based safe mode where you can sort of control which URLs it can go to.",
+  "zh": "我们有这种基于浏览器的安全模式，你可以在某种程度上控制它能访问哪些 URL。"
+ },
+ {
+  "seg": 532,
+  "start": 2887.376,
+  "end": 2891.277,
+  "speaker": "Unknown",
+  "en": "You can control what kind of actions it can take on different websites.",
+  "zh": "你可以控制它在不同网站上可以采取什么样的操作。"
+ },
+ {
+  "seg": 533,
+  "start": 2891.337,
+  "end": 2894.839,
+  "speaker": "Unknown",
+  "en": "So at the infrastructure level, at the network firewall, we control things.",
+  "zh": "所以在基础设施层面,在网络防火墙上,我们控制这些事情。"
+ },
+ {
+  "seg": 534,
+  "start": 2895.319,
+  "end": 2899.641,
+  "speaker": "Unknown",
+  "en": "Now you might say that it is possible that Amazon.com gets hacked someday.",
+  "zh": "现在你可能会说,有可能有一天 Amazon.com 被黑了。"
+ },
+ {
+  "seg": 535,
+  "start": 2899.841,
+  "end": 2903.162,
+  "speaker": "Unknown",
+  "en": "How do you prevent against malicious actions on those portals as well?",
+  "zh": "那你如何防范这些门户上的恶意行为呢?"
+ },
+ {
+  "seg": 536,
+  "start": 2905.099,
+  "end": 2916.288,
+  "speaker": "Unknown",
+  "en": "I think we also try to run our skills that are generated against some security reviewer agent of sorts before we actually publish this on Browse.sh.",
+  "zh": "我认为我们还会尝试让生成的技能在真正发布到 Browse.sh 之前,先经过某种安全审查智能体。"
+ },
+ {
+  "seg": 537,
+  "start": 2916.308,
+  "end": 2917.63,
+  "speaker": "Unknown",
+  "en": "That's one way of doing it.",
+  "zh": "这是一种做法。"
+ },
+ {
+  "seg": 538,
+  "start": 2920.592,
+  "end": 2933.136,
+  "speaker": "Unknown",
+  "en": "We encourage our customers to have a good level of prompt injection guardrail surface area if they're sort of giving this out to consumers.",
+  "zh": "我们鼓励我们的客户,如果他们要把它交给消费者使用,要有足够好的提示词注入护栏覆盖面。"
+ },
+ {
+  "seg": 539,
+  "start": 2933.216,
+  "end": 2938.838,
+  "speaker": "Unknown",
+  "en": "For example, some customers of ours might want to automate something on Amazon, and what if somebody puts",
+  "zh": "举例来说,我们的一些客户可能想在 Amazon 上自动化某些事情,那如果有人放了"
+ },
+ {
+  "seg": 540,
+  "start": 2940.598,
+  "end": 2946.083,
+  "speaker": "Unknown",
+  "en": "A listing on Amazon which has some hidden instructions and how do you prevent against those kind of things.",
+  "zh": "一个 Amazon 上的商品列表,里面有一些隐藏的指令,你如何防范这类事情。"
+ },
+ {
+  "seg": 541,
+  "start": 2946.624,
+  "end": 2956.433,
+  "speaker": "Unknown",
+  "en": "And that's where we work with our customers to build the right kind of guardrails before the instruction even reaches the harness.",
+  "zh": "这就是为什么我们与客户合作,在指令甚至到达 harness 之前就构建正确的护栏。"
+ },
+ {
+  "seg": 542,
+  "start": 2956.633,
+  "end": 2959.236,
+  "speaker": "Unknown",
+  "en": "So, yeah, I think I would put like three layers here.",
+  "zh": "所以,是的,我想我会在这里放三层。"
+ },
+ {
+  "seg": 543,
+  "start": 2959.776,
+  "end": 2960.076,
+  "speaker": "Unknown",
+  "en": "One is",
+  "zh": "一个是"
+ },
+ {
+  "seg": 544,
+  "start": 2961.629,
+  "end": 2965.612,
+  "speaker": "Unknown",
+  "en": "As the query is even entering our surface area, we control that.",
+  "zh": "当查询甚至进入我们的覆盖范围时,我们就控制它。"
+ },
+ {
+  "seg": 545,
+  "start": 2966.252,
+  "end": 2970.495,
+  "speaker": "Unknown",
+  "en": "At the skill layer, we make sure that our skill is not tricked.",
+  "zh": "在技能层,我们确保我们的技能不被欺骗。"
+ },
+ {
+  "seg": 546,
+  "start": 2970.936,
+  "end": 2974.998,
+  "speaker": "Unknown",
+  "en": "And at the infrastructure layer, we have network restrictions and action restrictions.",
+  "zh": "而在基础设施层,我们有网络限制和操作限制。"
+ },
+ {
+  "seg": 547,
+  "start": 2975.519,
+  "end": 2982.664,
+  "speaker": "Unknown",
+  "en": "You can even do something like what Codex or Claude Code does, like always allow or allow once or allow any action.",
+  "zh": "你甚至可以做一些像 Codex 或 Claude Code 做的事情,比如总是允许、允许一次或允许任何操作。"
+ },
+ {
+  "seg": 548,
+  "start": 2984.085,
+  "end": 2986.987,
+  "speaker": "Unknown",
+  "en": "This is what browser-based safe mode offers out of the box.",
+  "zh": "这就是基于浏览器的安全模式开箱即用的功能。"
+ },
+ {
+  "seg": 549,
+  "start": 2987.347,
+  "end": 2990.75,
+  "speaker": "Unknown",
+  "en": "I know browser is a crazy threat vector when you think about it.",
+  "zh": "我知道,仔细想想,浏览器是一个疯狂的威胁向量。"
+ },
+ {
+  "seg": 550,
+  "start": 2990.77,
+  "end": 2996.935,
+  "speaker": "Unknown",
+  "en": "It has access to anything on the wild web and take that super seriously from a prompt injection POV.",
+  "zh": "它可以访问开放网络上的任何东西，并且从提示词注入的角度来看，我们对这一点非常认真。"
+ },
+ {
+  "seg": 551,
+  "start": 3003.02,
+  "end": 3003.38,
+  "speaker": "Unknown",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 552,
+  "start": 3003.961,
+  "end": 3008.705,
+  "speaker": "Unknown",
+  "en": "I'll wait for 10 more seconds if there's any other questions.",
+  "zh": "如果还有其他问题，我再等 10 秒钟。"
+ },
+ {
+  "seg": 553,
+  "start": 3008.745,
+  "end": 3009.325,
+  "speaker": "Unknown",
+  "en": "This was fun.",
+  "zh": "这很有意思。"
+ },
+ {
+  "seg": 554,
+  "start": 3009.505,
+  "end": 3010.506,
+  "speaker": "Unknown",
+  "en": "I really enjoyed this.",
+  "zh": "我真的很享受。"
+ },
+ {
+  "seg": 555,
+  "start": 3010.907,
+  "end": 3012.608,
+  "speaker": "Unknown",
+  "en": "I love the kind of questions as well.",
+  "zh": "我也很喜欢这些问题。"
+ },
+ {
+  "seg": 556,
+  "start": 3015.384,
+  "end": 3022.347,
+  "speaker": "Unknown",
+  "en": "And yeah, I will put the QR code back on screen in case any of you want to grab this.",
+  "zh": "好的，我会把二维码重新放到屏幕上，万一你们有人想要拿到这个。"
+ },
+ {
+  "seg": 557,
+  "start": 3022.447,
+  "end": 3022.687,
+  "speaker": "Unknown",
+  "en": "Yes?",
+  "zh": "是的？"
+ },
+ {
+  "seg": 558,
+  "start": 3033.772,
+  "end": 3044.877,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 559,
+  "start": 3045.789,
+  "end": 3046.389,
+  "speaker": "Unknown",
+  "en": "Yeah, exactly.",
+  "zh": "是的，没错。"
+ },
+ {
+  "seg": 560,
+  "start": 3046.409,
+  "end": 3048.351,
+  "speaker": "Unknown",
+  "en": "Yeah, I think we talked about it a while back.",
+  "zh": "是的，我想我们之前聊过这个。"
+ },
+ {
+  "seg": 561,
+  "start": 3049.051,
+  "end": 3053.214,
+  "speaker": "Unknown",
+  "en": "What you could do is, like, I used Anthropic managed agents quite a bit.",
+  "zh": "你可以做的是，比如，我相当多地使用 Anthropic 托管智能体。"
+ },
+ {
+  "seg": 562,
+  "start": 3053.314,
+  "end": 3060.059,
+  "speaker": "Unknown",
+  "en": "So I would run a cron job on managed agents where I would say, use this skill every day at 9 a.m. to do this job.",
+  "zh": "所以我会在托管智能体上运行一个 cron 任务，我会说，每天早上 9 点用这个技能去做这个工作。"
+ },
+ {
+  "seg": 563,
+  "start": 3060.74,
+  "end": 3062.301,
+  "speaker": "Unknown",
+  "en": "And if this is a success, all good.",
+  "zh": "如果成功了，就都好。"
+ },
+ {
+  "seg": 564,
+  "start": 3062.401,
+  "end": 3064.662,
+  "speaker": "Unknown",
+  "en": "If this is a failure, send me a notification here.",
+  "zh": "如果失败了，就在这里给我发一个通知。"
+ },
+ {
+  "seg": 565,
+  "start": 3065.123,
+  "end": 3067.484,
+  "speaker": "Unknown",
+  "en": "That will trigger a healing loop.",
+  "zh": "那会触发一个自愈循环。"
+ },
+ {
+  "seg": 566,
+  "start": 3067.584,
+  "end": 3070.086,
+  "speaker": "Unknown",
+  "en": "So that's how I sort of can bake in",
+  "zh": "所以这就是我某种程度上可以内建的"
+ },
+ {
+  "seg": 567,
+  "start": 3071.807,
+  "end": 3075.849,
+  "speaker": "Unknown",
+  "en": "Checks and balances around websites changing, anti-bots changing, et cetera.",
+  "zh": "围绕网站变化、反爬虫变化等等的制衡机制。"
+ },
+ {
+  "seg": 568,
+  "start": 3081.953,
+  "end": 3082.293,
+  "speaker": "Unknown",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 569,
+  "start": 3082.353,
+  "end": 3083.894,
+  "speaker": "Unknown",
+  "en": "I'm going to hang around here.",
+  "zh": "我会在这里多待一会儿。"
+ },
+ {
+  "seg": 570,
+  "start": 3084.434,
+  "end": 3089.717,
+  "speaker": "Unknown",
+  "en": "Also, I'll be at the BrowserBase booths all days of the conference as well.",
+  "zh": "另外，大会的每一天我都会在 BrowserBase 的展位。"
+ },
+ {
+  "seg": 571,
+  "start": 3089.817,
+  "end": 3093.939,
+  "speaker": "Unknown",
+  "en": "So, in case you're curious and want to chat more, I'd love to do that.",
+  "zh": "所以，如果你们好奇想多聊聊，我很乐意。"
+ },
+ {
+  "seg": 572,
+  "start": 3094.86,
+  "end": 3095.16,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 573,
+  "start": 3102.635,
+  "end": 3102.996,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

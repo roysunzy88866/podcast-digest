@@ -1,0 +1,221 @@
+{
+  "title_zh": "从零到十亿美元:Mercury 创始人谈 AI 如何改写银行业",
+  "tldr": "Mercury 创始人 Immad Akhund 做客 Newcomer 播客，讲这家企业银行如何七年半做到年化收入 10 亿美元，以及 AI 智能体将怎样替你管钱。",
+  "digest_md": "Immad Akhund 是企业银行服务公司 Mercury 的创始人兼 CEO。他的第四家公司，2019 年上线，最近刚跨过年化收入 10 亿美元的门槛。这期访谈里，他聊了三件事：Mercury 怎么做大、AI 智能体怎么跟银行打交道、以及现在的 AI 投资泡沫。\n\n## 为什么创业公司讨厌去银行，这就是商机\n\nAkhund 是连环创业者，卖掉上一家公司后想做一件能干一二十年的事。他的判断很简单：银行账户是每家公司都需要的工具，就像工资单、支付、聊天软件一样，但 2017 年的企业银行体验烂透了——开户难、转账难、想接个 API 更难。市场巨大，人人痛苦，没人喜欢。[02:16 Unknown]\n\n2019 年 4 月上线时他也怀疑过：谁会信任一家金融科技公司替自己管钱？结果 4 天内就有一个素不相识的用户转来 100 万美元。\n\n获客基本靠口碑。种子轮他拉了约 60 个投资人，这些投资人发帖扩散，雪球就滚起来了。直到今天，超过 60% 的客户仍来自自然增长和口碑。\n\n## 七年半，从零到年化 10 亿美元\n\n里程碑刚达成：单月收入乘以 12，年化达 10 亿美元；去年同期是 6.5 亿，一年增长 50%,而且还在加速。客户数涨到 45 万。[31:00 Unknown]\n\n加速的推手是 AI——大量 AI 创业公司用 Mercury,而且 **AI 让任何人都能在线创业，创业的人变多了**。\n\n收入来自五条线：存款利息、企业信用卡、外汇、理财，以及刚推出的记账和发薪等订阅产品。有意思的数据：75% 左右的客户注册时公司成立不满 6 个月，Mercury 往往是他们的第一个银行账户。先拿住银行账户，再随企业成长卖信用卡、记账、发薪——一站式打包。\n\n## 它不是银行，但很快就是了\n\nMercury 一直是“不是银行的银行”，靠合作银行撑底。现在已申请银行牌照，拿到 OCC 和 FDIC 的有条件批准，预计明年正式以 Mercury Bank NA 的名义营业。[09:21 Unknown]\n\n自己当银行的好处：创新自由度大得多，能上 Zelle 转账、做更广的信贷产品。Akhund 解释，创业初期只有 9 个人，找合作银行是唯一选择——当年自己申请牌照至少得先融 3000 万美元以上。做到核心银行业务这个体量，拿牌照是顺理成章的。\n\n## AI 智能体怎么替你付钱？\n\n这是全场最有趣的部分。Akhund 把智能体接入银行拆成三件事：怎么读数据、怎么设控制、能干什么。\n\nMercury 提供 API 和自家的智能体 Command,你可以问“过去三个月我的 AWS 账单涨了多少”，它给你画图，也能发起付款。关键设计是控制：目前任何资金移动——哪怕 5 美元——最后都要人点一下确认。智能体可以拿到一张限额的虚拟卡，比如每天最多花 50 美元，这笔就不需要逐笔批准。[16:06 Unknown]\n\n他打了个比方：现在处于“手不离方向盘”的自动驾驶阶段。未来会像 Waymo 一样，把 AI 当成雇来的财务人员，随着它表现好逐步放权。\n\n## 智能体乱花钱，谁负责？\n\n主持人追问：有人让智能体自动点确认按钮怎么办？将来肯定有官司。Akhund 的回答很淡定：当年网银出现时也有同样的恐慌，银行体系早就有一整套处理欺诈、撤销交易、划分责任的规则。银行系统里很多交易是可撤销的——这跟加密货币不一样，比特币转出去就回不来了。[23:12 Unknown]\n\n他还讲了个亲身例子：女儿想要披头士全套黑胶，他让智能体去找，自己只在最后点了一下付款。“最后点一下其实没那么烦，这大概就是大多数人用智能体的方式。” [25:02 Unknown]\n\n真正让他担心的不是智能体，是 AI 让钓鱼诈骗可以规模化——电话里听不出是 AI,他现在每天接到 10 多个骚扰电话。\n\n## AI 泡沫？他两边的账都算了\n\nAkhund 的判断很平衡：AI 确实是变革性的，同时我们也可能在泡沫里——两件事可以同时成立。[41:48 Unknown]\n\n他点名 Y Combinator:进去的公司只要有心跳就值 5000 万美元，有点成绩就值 1 亿。每个赛道动辄冒出 10 到 20 个对手，不可能都赢。数据中心倒未必过剩——他不太相信已经建多了，因为所有公司对算力的需求还在涨。就算个别巨头倒下，算力是通用的，会流向别人。\n\n他自己的做法是一年做约 20 笔投资，不管市场冷热都保持节奏。ChatGPT 发布前后那段时间很多人停手，那才是最好的投资时机。\n\n对 Mercury 而言，工程团队用 AI 后，每个工程师每月产出的代码量约是几年前的 4 倍。公司已连续 4 年盈利，所以他任由员工敞开用，不搞省 token 那一套。\n\n## 他想成为 Jamie Dimon 吗？\n\n最后被问到：十年后想不想变成那种在纽约有豪华总部、当社会支柱的银行家？Akhund 说，当机构本身不是目的，他关心的是能帮多少人把生意做起来，而且“想死了之后，Mercury 还在影响世界”。创业初期有人存 100 万进来他都惊讶，现在有好几个客户在 Mercury 存着超过 5 亿美元——这份信任，他愿意接。[51:02 Unknown]\n\n## 本集带走\n\n- Mercury 用七年半做到年化收入 10 亿美元，客户 45 万，75% 的客户注册时公司成立不到 6 个月——先占银行账户，再随企业成长卖信用卡、记账、发薪。\n- 银行牌照已获有条件批准，明年将以自有银行运营，可上线 Zelle 和更广的信贷产品。\n- 智能体付钱的方案：智能体准备好一切，人点最后一下；小额消费可用限额虚拟卡免确认。\n- 交易责任问题，他类比网银刚出现时：银行体系已有成熟的欺诈处理和责任划分规则。\n- 对 AI 泡沫的判断：技术是真变革，但早期估值明显过热，两件事同时成立；数据中心目前不算建多了。",
+  "quotes": [
+    {
+      "en": "So, but yeah, within four days, I think, we had someone sign up that I hadn't met that transferred a million dollars to the Mercury Bank account.",
+      "zh": "但是，在四天之内，我们就有一个我没见过的人注册了，并向 Mercury 银行账户转账了一百万美元。",
+      "timestamp": "02:55",
+      "speaker": "Immad Akhund"
+    },
+    {
+      "en": "I mean, even today, more than 60% of our customers are organic and word of mouth.",
+      "zh": "我是说，即使在今天，我们超过 60% 的客户也是有机增长和口碑来的。",
+      "timestamp": "03:37",
+      "speaker": "Immad Akhund"
+    },
+    {
+      "en": "So I was just talking about how in seven and a half years, we've gone from literally zero to a billion in revenue.",
+      "zh": "所以我刚在讲，七年半的时间里，我们的营收从字面意义上的零增长到了 10 亿美元。",
+      "timestamp": "04:07",
+      "speaker": "Immad Akhund"
+    },
+    {
+      "en": "So we've grown 50%. Actually, I'd say the growth has kind of accelerated in the last year, really driven by kind of AI.",
+      "zh": "所以我们增长了 50%。实际上，我想说过去一年增长有所加速，主要是由 AI 驱动的。",
+      "timestamp": "04:28",
+      "speaker": "Immad Akhund"
+    },
+    {
+      "en": "I think there's been acceleration in entrepreneurship because AI has enabled anyone to be an entrepreneur, especially an online entrepreneur.",
+      "zh": "我觉得创业出现了加速，因为 AI 让任何人都能成为创业者，尤其是线上创业者。",
+      "timestamp": "04:40",
+      "speaker": "Immad Akhund"
+    },
+    {
+      "en": "One of the reasons I started Mercury is I don't want to talk to people.",
+      "zh": "我创办 Mercury 的原因之一就是我不想和人说话。",
+      "timestamp": "10:52",
+      "speaker": "Immad Akhund"
+    },
+    {
+      "en": "I mean, I kind of think about it like self-driving cars, right? So at this point, we're much more on the like hands on the wheel and you better be looking properly kind of thing.",
+      "zh": "我是说，我有点把它想成自动驾驶汽车，对吧？所以在现阶段，我们更像是「手要放在方向盘上，你最好认真看着路」这种感觉。",
+      "timestamp": "17:47",
+      "speaker": "Immad Akhund"
+    },
+    {
+      "en": "Like I kind of think about like right now we're treating agents as different from humans, but you know, kind of like a Waymo is treating the AI as the same as a human.",
+      "zh": "就像我现在把智能体和人类区别对待，但你知道，有点像 Waymo 是把 AI 当作和人类一样来对待的。",
+      "timestamp": "18:34",
+      "speaker": "Immad Akhund"
+    },
+    {
+      "en": "I think the future, especially at this time, is like really hard to predict, right? Like, I mean, why isn't it a business of zero? Just go make me money, leave me alone, stop asking me questions.",
+      "zh": "我觉得未来，尤其是在这个时候，真的很难预测，对吧？比如，我的意思是，为什么不是「零人企业」呢？就去帮我赚钱吧，别烦我，别再问我问题了。",
+      "timestamp": "20:11",
+      "speaker": "Immad Akhund"
+    },
+    {
+      "en": "And like, we're definitely seeing startups that are like small with much bigger revenue per employee than we've ever seen.",
+      "zh": "而我们确实看到一些很小的初创公司，它们的人均收入比我们见过的任何时期都要高得多。",
+      "timestamp": "20:47",
+      "speaker": "Immad Akhund"
+    },
+    {
+      "en": "I think the biggest and probably worrying thing about AI is it's made phishing at scale much more possible.",
+      "zh": "我觉得关于 AI 最大、大概也是最令人担忧的事情是，它让大规模钓鱼攻击变得可能得多了。",
+      "timestamp": "26:19",
+      "speaker": "Immad Akhund"
+    },
+    {
+      "en": "I think 100% success would actually mean that we're not experimenting as humanity.",
+      "zh": "我认为 100% 的成功率实际上意味着我们人类没有在做实验。",
+      "timestamp": "33:01",
+      "speaker": "Immad Akhund"
+    },
+    {
+      "en": "Yeah, there's like, if you have a pulse in Y Combinator, you're worth like 50 million now. And like, if you have any traction at all, you're worth 80 to 100 million.",
+      "zh": "是的，就是说，只要你在 Y Combinator 里有口气，你现在就值大概 5000 万。而且只要你有任何一点增长势头，你就值 8000 万到 1 亿。",
+      "timestamp": "42:08",
+      "speaker": "Immad Akhund"
+    },
+    {
+      "en": "Yeah, I think we're doing 4x more lines of code per engineer per month or something compared to a few years ago.",
+      "zh": "是的，我想我们每个工程师每月的代码行数比几年前多了大约 4 倍。",
+      "timestamp": "49:23",
+      "speaker": "Immad Akhund"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "02:42",
+      "speaker": "Unknown",
+      "en": "And yeah, actually, if you think about it, we launched in April, 2019. And at the time I was like, you know, this is going to be a slug because I was like, who's going to trust, you know, this FinTech to like store all their money.",
+      "zh": "实际上，如果你想想，我们在 2019 年 4 月上线。当时我想，这会是一场硬仗，因为我当时想，谁会信任这家金融科技公司来存放他们所有的钱。"
+    },
+    {
+      "timestamp": "02:55",
+      "speaker": "Unknown",
+      "en": "So, but yeah, within four days, I think, we had someone sign up that I hadn't met that transferred a million dollars to the Mercury Bank account.",
+      "zh": "但是，在四天之内，我们就有一个我没见过的人注册了，并向 Mercury 银行账户转账了一百万美元。"
+    },
+    {
+      "timestamp": "03:37",
+      "speaker": "Unknown",
+      "en": "I mean, even today, more than 60% of our customers are organic and word of mouth.",
+      "zh": "我是说，即使在今天，我们超过 60% 的客户也是有机增长和口碑来的。"
+    },
+    {
+      "timestamp": "04:07",
+      "speaker": "Unknown",
+      "en": "So I was just talking about how in seven and a half years, we've gone from literally zero to a billion in revenue.",
+      "zh": "所以我刚在讲，七年半的时间里，我们的营收从字面意义上的零增长到了 10 亿美元。"
+    },
+    {
+      "timestamp": "04:28",
+      "speaker": "Unknown",
+      "en": "So we've grown 50%. Actually, I'd say the growth has kind of accelerated in the last year, really driven by kind of AI.",
+      "zh": "所以我们增长了 50%。实际上，我想说过去一年增长有所加速，主要是由 AI 驱动的。"
+    },
+    {
+      "timestamp": "04:40",
+      "speaker": "Unknown",
+      "en": "I think there's been acceleration in entrepreneurship because AI has enabled anyone to be an entrepreneur, especially an online entrepreneur.",
+      "zh": "我觉得创业出现了加速，因为 AI 让任何人都能成为创业者，尤其是线上创业者。"
+    },
+    {
+      "timestamp": "10:52",
+      "speaker": "Unknown",
+      "en": "One of the reasons I started Mercury is I don't want to talk to people.",
+      "zh": "我创办 Mercury 的原因之一就是我不想和人说话。"
+    },
+    {
+      "timestamp": "12:55",
+      "speaker": "Unknown",
+      "en": "You'd have to have raised like 30 million plus. So I think it's a real enabler.",
+      "zh": "你得已经融了比如 3000 万美元以上。所以我认为这是一个真正的赋能者。"
+    },
+    {
+      "timestamp": "17:47",
+      "speaker": "Unknown",
+      "en": "I mean, I kind of think about it like self-driving cars, right? So at this point, we're much more on the like hands on the wheel and you better be looking properly kind of thing.",
+      "zh": "我是说，我有点把它想成自动驾驶汽车，对吧？所以在现阶段，我们更像是「手要放在方向盘上，你最好认真看着路」这种感觉。"
+    },
+    {
+      "timestamp": "18:34",
+      "speaker": "Unknown",
+      "en": "Like I kind of think about like right now we're treating agents as different from humans, but you know, kind of like a Waymo is treating the AI as the same as a human.",
+      "zh": "就像我现在把智能体和人类区别对待，但你知道，有点像 Waymo 是把 AI 当作和人类一样来对待的。"
+    },
+    {
+      "timestamp": "20:11",
+      "speaker": "Unknown",
+      "en": "I think the future, especially at this time, is like really hard to predict, right? Like, I mean, why isn't it a business of zero? Just go make me money, leave me alone, stop asking me questions.",
+      "zh": "我觉得未来，尤其是在这个时候，真的很难预测，对吧？比如，我的意思是，为什么不是「零人企业」呢？就去帮我赚钱吧，别烦我，别再问我问题了。"
+    },
+    {
+      "timestamp": "20:47",
+      "speaker": "Unknown",
+      "en": "And like, we're definitely seeing startups that are like small with much bigger revenue per employee than we've ever seen.",
+      "zh": "而我们确实看到一些很小的初创公司，它们的人均收入比我们见过的任何时期都要高得多。"
+    },
+    {
+      "timestamp": "26:19",
+      "speaker": "Unknown",
+      "en": "I think the biggest and probably worrying thing about AI is it's made phishing at scale much more possible.",
+      "zh": "我觉得关于 AI 最大、大概也是最令人担忧的事情是，它让大规模钓鱼攻击变得可能得多了。"
+    },
+    {
+      "timestamp": "32:49",
+      "speaker": "Unknown",
+      "en": "I guess nobody wants a bank that's so prescriptive.",
+      "zh": "我想没有人想要一个这么爱指手画脚的银行。"
+    },
+    {
+      "timestamp": "33:01",
+      "speaker": "Unknown",
+      "en": "I think 100% success would actually mean that we're not experimenting as humanity.",
+      "zh": "我认为 100% 的成功率实际上意味着我们人类没有在做实验。"
+    },
+    {
+      "timestamp": "33:40",
+      "speaker": "Unknown",
+      "en": "I do find this kind of pretty funny that everyone calls all their revenue ARR now.",
+      "zh": "我确实觉得这件事挺搞笑的，现在所有人都把自己的收入叫做 ARR。"
+    },
+    {
+      "timestamp": "37:24",
+      "speaker": "Unknown",
+      "en": "I think it's not helped that much, but it's not hurt that much by AI in the way that B2B SaaS has been kind of hurt a lot.",
+      "zh": "我认为金融科技没有从中获益太多，但也没有像 B2B SaaS 那样受到很大伤害。"
+    },
+    {
+      "timestamp": "42:08",
+      "speaker": "Unknown",
+      "en": "Yeah, there's like, if you have a pulse in Y Combinator, you're worth like 50 million now. And like, if you have any traction at all, you're worth 80 to 100 million.",
+      "zh": "是的，就是说，只要你在 Y Combinator 里有口气，你现在就值大概 5000 万。而且只要你有任何一点增长势头，你就值 8000 万到 1 亿。"
+    },
+    {
+      "timestamp": "43:50",
+      "speaker": "Unknown",
+      "en": "I mean, at least when it comes to data center capacity, it's actually like kind of fungible, right?",
+      "zh": "我是说，至少在数据中心容量这件事上，它其实是某种程度上可互换的，对吧？"
+    },
+    {
+      "timestamp": "47:05",
+      "speaker": "Unknown",
+      "en": "And I was like, that was the best time to invest, right? And then at the peak markets, people invest like crazy.",
+      "zh": "而我心想，那才是最好的投资时机，对吧？然后在市场顶峰，人们疯狂投资。"
+    },
+    {
+      "timestamp": "49:23",
+      "speaker": "Unknown",
+      "en": "Yeah, I think we're doing 4x more lines of code per engineer per month or something compared to a few years ago.",
+      "zh": "是的，我想我们每个工程师每月的代码行数比几年前多了大约 4 倍。"
+    }
+  ],
+  "voice_script": "今天这期，来的是 Mercury 的创始人兼 CEO Immad Akhund。Mercury 是一家做企业银行服务的公司，2019 年上线，是他的第四家公司，最近刚跨过一个大门槛——年化收入达到 10 亿美元。这次访谈里，他聊了 Mercury 怎么做大、AI 智能体以后怎么跟银行打交道，还有现在炒得很热的 AI 泡沫。\n\n先把背景垫一下，不然后面的故事听不懂。Akhund 是个连环创业者，卖掉上一家公司之后，想做一件能干上一二十年的事。判断很简单：银行账户是每家公司都需要的工具，就跟工资单、支付、聊天软件一样。但问题是，2017 年的企业银行体验实在太烂了——开户难，转账难，想接个 API 更是难上加难。市场巨大，人人痛苦，没人喜欢。这就是商机。\n\n2019 年 4 月上线的时候，其实心里也打鼓：谁会放心把公司账户交给一家金融科技公司管？结果四天之内，就有一个素不相识的用户注册了，往 Mercury 转了一百万美元。这个开头，直接定下了后来七年的基调。获客基本靠口碑，当年种子轮拉了大约六十个投资人，这些人发帖扩散，雪球就滚起来了。直到今天，超过六成的客户仍然来自自然增长和口碑，几乎没怎么花钱买量。\n\n那七年半从零到年化 10 亿美元，这个增长具体是怎么来的？数字是这样的：单月收入乘以十二，年化 10 亿美元；去年同期是 6.5 亿，一年涨了 50%，而且还在加速，客户数涨到了四十五万。有意思的地方在于，这波加速背后有个大推手，就是 AI。一方面，大量 AI 创业公司本身就在用 Mercury；另一方面更根本——AI 让任何人都能在线创业，创业的人变多了，开公司的人多了，开银行账户的自然就多了。用他自己的话说，过去一年的增长之所以加速，主要就是 AI 驱动的。\n\n再说赚钱的方式。收入来自五条线：存款利息、企业信用卡、外汇、理财，还有刚推出的记账和发薪这类订阅产品。这里面有个特别值得记住的数据：大约 75% 的客户，注册的时候公司成立还不到六个月。也就是说，Mercury 往往是他们的第一个银行账户。先拿住银行账户这个入口，再随着企业长大，一路卖信用卡、记账、发薪，一站式打包。这就解释了为什么这个模式能滚雪球。\n\n顺着这个思路，就引出一个问题：Mercury 一直被人叫“不是银行的银行”，因为它自己是 fintech，底下靠合作银行撑着。现在情况变了——已经申请银行牌照，拿到了 OCC 和 FDIC 的有条件批准，预计明年就能正式以自有银行的名义营业。自己当银行有什么好处？创新自由度大多了，能上 Zelle 转账，能做更广的信贷产品。回头看当年为什么先找合作银行，Akhund 的解释很实在：创业初期全公司才 9 个人，自己申请牌照至少得先融三千万美元以上，根本没这个本钱。现在做到了这个体量，拿牌照是顺理成章的事。\n\n接下来是整期访谈最有趣的部分：AI 智能体怎么替你管钱、替你付钱。Akhund 把这件事拆成三块：怎么读数据、怎么设控制、能干什么。Mercury 提供 API，还有自家的智能体，叫 Command。你可以问它，过去三个月我的 AWS 账单涨了多少，它给你画个图；它也能发起付款。但关键的设计在控制这一层：目前任何资金移动，哪怕只是 5 美元，最后都得人点一下确认。当然也有灵活的地方——智能体可以拿一张限额的虚拟卡，比如每天最多花 50 美元，这种小额支出就不用逐笔批准了。打了个比方，现在相当于自动驾驶的“手不离方向盘”阶段，未来会像 Waymo 那样，把 AI 当成雇来的财务人员，看它表现好，逐步放权。\n\n这就带来一个很现实的问题：智能体乱花钱，谁负责？主持人追问，有人让智能体自动去点确认按钮怎么办？将来肯定有官司。Akhund 的回答很淡定，他说当年网银刚出现的时候，也有过一模一样的恐慌。但银行体系早就有一整套处理欺诈、撤销交易、划分责任的规则。而且银行系统里很多交易是可撤销的——这一点跟加密货币完全不一样，比特币转出去就回不来了。还讲了个自己的例子：女儿想要披头士的全套黑胶，就让智能体去找，自己只在最后点了一下付款。按他的说法，最后点一下其实没那么烦，这大概就是大多数人用智能体的方式。不过话说回来，真正让人担心的倒不是智能体本身，而是 AI 让钓鱼诈骗可以规模化——电话里根本听不出对面是 AI，现在每天能接到十多个骚扰电话。\n\n聊到 AI 泡沫，判断很平衡：AI 确实是变革性的，但同时也可能在泡沫里——两件事可以同时成立。例子很扎心：进了 Y Combinator 的公司，只要有心跳就值五千万美元，有点成绩就值一个亿。每个赛道动不动冒出十到二十个对手，不可能都赢。不过数据中心倒是未必过剩，因为所有公司对算力的需求还在涨，而且算力是通用的，就算个别巨头倒下，机器会流向别人。自己的做法是，一年做大约二十笔投资，不管市场冷热都保持节奏。ChatGPT 发布前后那段时间很多人停了手，那才是最好的投资时机。\n\n最后落到自家公司：Mercury 的工程团队用了 AI 之后，每个工程师每月产出的代码量，大约是几年前的四倍。公司已经连续四年盈利，所以任由员工敞开用，根本不搞省 token 那一套。\n\n访谈最后被问到，十年后想不想变成那种在纽约有豪华总部、当社会支柱的大银行家。回答很清楚：当机构本身不是目的，关心的是能帮多少人把生意做起来，而且想死了之后，Mercury 还在影响世界。想想也是——创业初期有人存一百万进来都觉得惊讶，现在有好几个客户在 Mercury 存着超过五亿美元。这份信任，值得接住。"
+}

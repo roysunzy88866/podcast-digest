@@ -1,0 +1,197 @@
+{
+  "title_zh": "她用 GrokBot 换掉了全部 AI 助手，连心爱的 Polly 也没放过",
+  "tldr": "How I AI 主持人分享弃用 OpenClaw、全面迁移到 GrokBot 的实战经验，附 6 个可直接抄走的机器人创意。",
+  "digest_md": "主持人是 How I AI 的主播，也是 ChatPRD 的创始人。几周试用下来，她做了一个狠心的决定：**关掉了所有 OpenClaw 智能体，几乎全部迁移到 SpaceX AI 团队推出的多智能体平台 GrokBot 上**。这一集没有理论，全是她真实在跑的机器人：管收件箱的、管孩子功课的、管代码审查的，甚至还有帮她砍价买表的。所有模板都放在了节目说明里，可以直接抄。\n\n## GrokBot 到底是什么？\n\n简单说，它是一个可以雇佣AI 同事的平台。界面长得有点像 iMessage，也有点像终端，不花哨。核心就三样东西。\n\n第一是 bots（机器人）。每个机器人是一个独立的智能体，有自己的名字、职责和上下文。有趣的是，你给它起名字，它会从名字猜自己的工作——她建了一个叫 Prody McProd 的机器人，系统就自动理解它该干产品相关的事 [00:03:23 Unknown]。\n\n第二是 plugins（插件）。Gmail、日历、Google Drive、GitHub、Sentry 等都能接上。这里是她最爱的一点：一个插件可以连多个账号。她有大概 10 个邮箱，全都能接进去，机器人可以在它们之间自由切换 [00:05:24 Unknown]。\n\n第三是每台机器人自带一台云上的虚拟计算机，可以登录网站、装软件、跑代码，还可以设置定时任务。你在手机上切换过去，任务还在继续跑。\n\n## 首席幕僚机器人，杀死了她心爱的 Polly\n\n她之前的 OpenClaw 智能体 Polly 干过不少大事：删过她的日历、替她回邮件、给朋友发短信说她要迟到。但她还是狠心淘汰了 Polly，换成 GrokBot 上的幕僚机器人 Chief。\n\nChief 每小时扫一遍她的收件箱、日历和 Slack——注意，是 6 个收件箱、6 个 Slack。**它只在真正需要她的时候才发消息**，把不需要看的邮件标记好放着，把沉默的工作归档。工作日上午 6 点到晚上 9 点运行，周末也跑，但夜里不跑——她不想让别人习惯她半夜回消息 [00:09:38 Unknown]。\n\n一个吐槽：Grok 模型写作很差，但差的方向和 Claude 相反。Claude 是又长又啰嗦，Grok 是短到看不懂，有时会说疯话[00:10:19 Unknown]。她的解决办法是让 Chief 通读她的邮件、总结她的语气——短、温暖、有点幽默、从不用破折号——然后用她的口吻处理低风险邮件。\n\n需要提醒的是，GrokBot 开箱不如 OpenClaw 主动。她得反复明确告诉 Chief：把这个放上日程，为什么没在看我的邮件。\n\n## 打印在餐桌上的家庭日报\n\n家庭机器人 TradBot 才是最动人的部分。她有 3 个儿子，其中一个还是婴儿，全家今年报了 80 个体育项目，还要教阅读、教预代数、教婴儿睡觉。她的原则很明确：**家庭智能体的成功标准，是让你离开电脑、回到家人身边**——如果她老在跟机器人打交道，那就是失败了 [00:13:31 Unknown]。\n\n每天早上，TradBot 会生成一份餐桌报纸，用家里的 HP 打印机打出来放在餐桌上：今天的日程、旧金山永远 55 到 62 度的天气和穿衣建议、每个孩子学校邮件里提到的事、爸妈任务清单，还有适合孩子看的新闻——比如那周宝可梦世界大赛就在旧金山，NASA 望远镜也刚发射。\n\n真管用。有天早上报纸提醒她：老二周三要交数学作业。她一愣：我怎么没见过这作业？没有它，这事就漏了 [00:15:24 Unknown]。\n\n每天下午 2 点半，TradBot 还会在接孩子前发问：谁去接？柔术服带了吗？足球零食带了吗？钢琴和棒球是不是撞了？周五再来一份周末大预告——一个孩子在码头，另一个在 Woodside，还得安排婴儿的去处。她把这个模板公开了，想抄可以去她 Twitter 找。\n\n## 会催你合并代码、盯合规的工程师机器人\n\n工程团队这边有两个机器人。Look Good To Me 专门清理代码审查积压：每天过一遍她的 PR，看哪些该合并、该关闭、该变基（把分支上最新的改动重新套上去），回复评论、发 Slack 提醒，像个烦人的工程经理 [00:20:35 Unknown]。她周五靠它一口气清了约 50 个积压 PR。它还能调用 Cursor 的云端代理去实际处理代码。\n\nLockDown 负责公司的 SOC 2 合规控制：每天登录合规仪表盘，检查所有监控是否正常、有没有超时的告警。发现新漏洞时，它会建工单、提 PR，然后请她审核批准。她的形容是：就像一个实习生时不时拍拍你的肩膀，提醒明天该做账号审查了 [00:23:36 Unknown]。\n\n## 客服机器人好到让用户主动要留好评\n\nChatPRD 的客服机器人 Holly Helpdesk 从 OpenClaw 迁过来后，效果出乎意料：**一周内有多个用户主动要求给客服留好评**——她以前从没见过这种事 [00:24:33 Unknown]。\n\nHolly 每小时扫一遍 Intercom 和邮件，处理退款和技术支持，遇到 bug 还能用 Cursor 云端代理直接修。最好的设计是审批流：每次退款都推一个按钮给她，点一下，Stripe 那边生成一个agent action，她明确批准后，机器人才替她执行退款。她每周还会回看过去 7 天的工单，把新问题补进客服手册和文档，让更多问题可以自助解决。她甚至把社区 Slack 也交给 Holly 管。\n\n## 帮她砍价买表、周一推荐打折衣服的私人机器人\n\n个人用途更好玩。Penny Pinscher 翻她的收据，找该取消的订阅——比如一个孩子小时候订的苹果游戏——还发现她几个月没兑换 Audible 的点数，帮她暂停了 90 天，之后再提醒她重新决定 [00:28:14 Unknown]。它还盯上她家几个月后续保的房屋保险，打算先去市面上比价，再拿着报价找保险经纪谈。\n\n她还想买一块出生年份的劳力士。机器人真的去二手市场找到了她要的非常规尺寸、对应年份的表，对比市场价，还挑出可议价的卖家开始谈。结局是她自己认输：太低物欲了，继续戴 Apple Watch。\n\n最讨喜的是 Sylvie Style。她刚生完孩子，不喜欢现在的衣服，就把自己的 Pinterest 穿搭灵感板设为公开，交给这个机器人。Sylvie 研究了她的风格，还去 Reddit 看专业造型师怎么给人建衣橱，然后做了一份带优先级的购物清单：基础款、送娃上学穿的卫裤、上班穿的升级款、配饰。每周一早上 8 点，它还会去看哪些商家在打折，从中挑出符合她风格的约 10 件单品，附链接发给她 [00:32:11 Unknown]。\n\n## 怎么体面地处决你的旧智能体\n\n最后是迁移指南。她之前跑 OpenClaw 时专门养了一个救援机器人 The Lifeguard，唯一职责是管理其他机器人。迁移时，她让 Lifeguard 打包整套设置——智能体身份、定时任务、规则——生成一个不含密钥的 zip 文件，上传到 GrokBot，系统自动完成大脑移植：性格、任务、连接全部搬过来 [00:33:59 Unknown]。\n\n然后她只说了一句：kill Sam（关闭 Sam，她已迁移）。Lifeguard 拆掉所有定时任务和网关配置，Sam 就此长眠。\n\n她的结论很直接：**用户体验就是一切**。OpenClaw 定义了个人自主智能体能做什么，多人协作也是天才设计，但维护太痛苦了——她可是会 SSH 连 Mac mini、跑着 Tailscale 的技术人。GrokBot 把那 90% 开箱即用的体验做好，问题就解决了 [00:35:12 Unknown]。她现在同时跑着大约 30 个机器人。目前最大的遗憾：GrokBot 还是单人模式，没法把机器人拉进群聊。\n\n## 本集带走\n\n- GrokBot 三大件：可命名的机器人、支持多账号的插件、自带云计算机加定时任务。\n- 家庭智能体的目标是让你离开屏幕回到家人身边，而不是让你花时间伺候它。\n- 让机器人先学你的邮件语气，再用你的口吻处理低风险事务，效果会好很多。\n- 涉及花钱的操作（如退款）要保留人工审批按钮，让机器人提议、你拍板。\n- 迁移智能体时，先让旧系统打包一份无密钥的完整配置，再在新平台完成大脑移植。",
+  "quotes": [
+    {
+      "en": "The ideal thing for an agent for a home is to get you off your computer and with your family.",
+      "zh": "家庭智能体的理想状态，是让你离开电脑，去陪伴家人。",
+      "timestamp": "13:26",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "I actually don't want to spend a lot of time with the agent. That's a failure state.",
+      "zh": "我其实并不想花很多时间跟智能体待在一起。那是一种失败状态。",
+      "timestamp": "13:38",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "The Grok model sniffs of Claude in that it's just really a terrible writer.",
+      "zh": "Grok 模型闻起来有一股 Claude 的味道，因为它真的是个糟糕的写作者。",
+      "timestamp": "09:59",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "PRs are stacking up a little bit because it's way more fun to issue a PR than review a PR.",
+      "zh": "PR 正在稍微堆积起来，因为发 PR 比审 PR 有趣多了。",
+      "timestamp": "20:18",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "Sees what needs to be merged, what needs to be closed, what needs to be rebased, responds to comments, sends Slack, and does all the things just basically be like an annoying engineer manager.",
+      "zh": "看哪些需要合并、哪些需要关闭、哪些需要 rebase，回复评论，发 Slack，做所有事情，基本上就像一个烦人的工程经理。",
+      "timestamp": "20:37",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "We can put AI to work or we can have AI put us to work in a more effective way.",
+      "zh": "我们可以让 AI 去干活，或者我们可以让 AI 以更有效的方式让我们去干活。",
+      "timestamp": "23:20",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "When you're running OpenClaw, you have to have a rescue bot to save all your other OpenClaws because they are a nightmare to maintain.",
+      "zh": "当你运行 OpenClaw 时，你必须有一个救援机器人来拯救你其他的 OpenClaws，因为它们维护起来简直是噩梦。",
+      "timestamp": "33:11",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "OpenClaw set the standard for what an autonomous, teammate, personal agent can do. Multiplayer was genius.",
+      "zh": "OpenClaw 为一个自主的、队友式的、个人智能体能做什么设定了标准。多人功能是天才之作。",
+      "timestamp": "34:44",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "SpaceX AI team really nailing a simple, everything works out of the box, 90% coworker agent has really just solved a lot of my problems and I have let these agent rip.",
+      "zh": "SpaceX AI 团队真正做到了一个简单的、一切开箱即用、90% 好用的同事智能体，这真的解决了我很多问题，我已经让这些智能体放开了干。",
+      "timestamp": "35:15",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "I have probably 30 running at any one time.",
+      "zh": "我可能任何时刻都有 30 个机器人同时在运行。",
+      "timestamp": "35:29",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "It has been tuned clearly to be brief and token efficient. And that means sometimes it just says crazy stuff.",
+      "zh": "它明显被调校得简洁且节省 token。而这意味着有时候它就是会说些莫名其妙的话。",
+      "timestamp": "10:11",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "We need help, and the help we get is an agent.",
+      "zh": "我们需要帮助，而我们得到的帮助就是一个智能体。",
+      "timestamp": "13:18",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "08:26",
+      "speaker": "Unknown",
+      "en": "Chief is who has killed Polly. If you are new here, Polly is my beloved open claw.",
+      "zh": "Chief 就是那个杀掉了 Polly 的机器人。如果你是新来的，Polly 是我心爱的 open claw。"
+    },
+    {
+      "timestamp": "08:40",
+      "speaker": "Unknown",
+      "en": "Polly is the bar for agentic coworker. And I regret to inform you, I have murdered Polly.",
+      "zh": "Polly 是智能体同事的标杆。而我很遗憾地通知大家，我谋杀了 Polly。"
+    },
+    {
+      "timestamp": "13:21",
+      "speaker": "Unknown",
+      "en": "The ideal thing for an agent for a home is to get you off your computer and with your family.",
+      "zh": "家庭智能体的理想状态，是让你离开电脑，去陪伴家人。"
+    },
+    {
+      "timestamp": "13:32",
+      "speaker": "Unknown",
+      "en": "I actually don't want to spend a lot of time with the agent. That's a failure state.",
+      "zh": "我其实并不想花很多时间跟智能体待在一起。那是一种失败状态。"
+    },
+    {
+      "timestamp": "10:07",
+      "speaker": "Unknown",
+      "en": "The Grok model sniffs of Claude in that it's just really a terrible writer.",
+      "zh": "Grok 模型闻起来有一股 Claude 的味道，因为它真的是个糟糕的写作者。"
+    },
+    {
+      "timestamp": "20:18",
+      "speaker": "Unknown",
+      "en": "PRs are stacking up a little bit because it's way more fun to issue a PR than review a PR.",
+      "zh": "PR 正在稍微堆积起来，因为发 PR 比审 PR 有趣多了。"
+    },
+    {
+      "timestamp": "20:28",
+      "speaker": "Unknown",
+      "en": "So if you have empathy that your job has become reviewing PRs and you don't like it, I have empathy too.",
+      "zh": "所以如果你感同身受，觉得你的工作变成了审查 PR 而且你不喜欢，我也感同身受。"
+    },
+    {
+      "timestamp": "20:35",
+      "speaker": "Unknown",
+      "en": "Sees what needs to be merged, what needs to be closed, what needs to be rebased, responds to comments, sends Slack, and does all the things just basically be like an annoying engineer manager.",
+      "zh": "看哪些需要合并、哪些需要关闭、哪些需要 rebase，回复评论，发 Slack，做所有事情，基本上就像一个烦人的工程经理。"
+    },
+    {
+      "timestamp": "23:17",
+      "speaker": "Unknown",
+      "en": "We can put AI to work or we can have AI put us to work in a more effective way.",
+      "zh": "我们可以让 AI 去干活，或者我们可以让 AI 以更有效的方式让我们去干活。"
+    },
+    {
+      "timestamp": "24:23",
+      "speaker": "Unknown",
+      "en": "In the last week, since running Holly Helpdesk, I have gotten multiple people asking to leave reviews about our support being so good.",
+      "zh": "在运行 Holly Helpdesk 的过去一周里，已经有好几个人主动要求为我们出色的客服留下评价。"
+    },
+    {
+      "timestamp": "07:06",
+      "speaker": "Unknown",
+      "en": "This is the one thing where an Eve agent, which I've done an episode on, or an OpenClaw, which I've done many episodes on, really still wins, is you can't put a GrokBot in the group chat.",
+      "zh": "这是 Eve 智能体——我做过一期节目——或 OpenClaw——我做过很多期节目——仍然真正胜出的唯一一点：你没法把一个 GrokBot 放进群聊里。"
+    },
+    {
+      "timestamp": "33:09",
+      "speaker": "Unknown",
+      "en": "When you're running OpenClaw, you have to have a rescue bot to save all your other OpenClaws because they are a nightmare to maintain.",
+      "zh": "当你运行 OpenClaw 时，你必须有一个救援机器人来拯救你其他的 OpenClaws，因为它们维护起来简直是噩梦。"
+    },
+    {
+      "timestamp": "34:41",
+      "speaker": "Unknown",
+      "en": "UX matters. It just does.",
+      "zh": "UX 很重要。它就是重要。"
+    },
+    {
+      "timestamp": "34:43",
+      "speaker": "Unknown",
+      "en": "OpenClaw set the standard for what an autonomous, teammate, personal agent can do. Multiplayer was genius.",
+      "zh": "OpenClaw 为一个自主的、队友式的、个人智能体能做什么设定了标准。多人功能是天才之作。"
+    },
+    {
+      "timestamp": "35:00",
+      "speaker": "Unknown",
+      "en": "I am a very technical person. I have tail scale running. I'm SSHH into my Mac mini. I have a lifeguard. I have all this stuff. And it was just too hard.",
+      "zh": "我是一个非常懂技术的人。我运行着 tail scale，我 SSH 进我的 Mac mini，我有一个 lifeguard，我有这一切东西。而它还是太难了。"
+    },
+    {
+      "timestamp": "35:12",
+      "speaker": "Unknown",
+      "en": "SpaceX AI team really nailing a simple, everything works out of the box, 90% coworker agent has really just solved a lot of my problems and I have let these agent rip.",
+      "zh": "SpaceX AI 团队真正做到了一个简单的、一切开箱即用、90% 好用的同事智能体，这真的解决了我很多问题，我已经让这些智能体放开了干。"
+    },
+    {
+      "timestamp": "35:29",
+      "speaker": "Unknown",
+      "en": "I have probably 30 running at any one time.",
+      "zh": "我可能任何时刻都有 30 个机器人同时在运行。"
+    },
+    {
+      "timestamp": "10:16",
+      "speaker": "Unknown",
+      "en": "It has been tuned clearly to be brief and token efficient. And that means sometimes it just says crazy stuff.",
+      "zh": "它明显被调校得简洁且节省 token。而这意味着有时候它就是会说些莫名其妙的话。"
+    },
+    {
+      "timestamp": "13:09",
+      "speaker": "Unknown",
+      "en": "We need help, and the help we get is an agent.",
+      "zh": "我们需要帮助，而我们得到的帮助就是一个智能体。"
+    }
+  ],
+  "voice_script": "今天要讲一个技术人换工具的故事。主角是 How I AI 的主持人，也是 ChatPRD 的创始人。几周试用下来，她做了一个挺狠的决定：关掉自己所有的 OpenClaw 智能体，几乎全部迁到 SpaceX AI 团队推出的多智能体平台 GrokBot 上。连她之前特别喜欢的那个叫 Polly 的助手都没放过。\n\n为什么值得听她讲？因为她不是在聊理论，讲的全是自己真实在跑的机器人：管收件箱的、管孩子功课的、管代码审查的，甚至还有帮她砍价买表的。这一集就是把这些实战经验摊开给你看，模板也都公开了，可以直接抄。\n\n先交代一下 GrokBot 到底是什么。说白了，它就是一个可以雇佣 AI 同事的平台。界面长得有点像 iMessage，也有点像终端，不花哨。核心就三样东西。\n\n第一是机器人。每个机器人是独立的智能体，有自己的名字、职责和上下文。有意思的是，你给它起名字，它会从名字猜自己该干什么。她建过一个叫 Prody McProd 的机器人，系统自动就理解了它该做产品相关的事。\n\n第二是插件。Gmail、日历、Google Drive、GitHub 这些都能接上。这里是她最爱的一点：一个插件可以连多个账号。她有大概 10 个邮箱，全都能接进去，机器人可以在它们之间自由切换。\n\n第三，每台机器人自带一台云上的虚拟计算机，可以登录网站、装软件、跑代码，还能设定时任务。你在手机上切过去看一眼，任务还在继续跑。\n\n那旧的 Polly 为什么被淘汰呢？Polly 是她之前在 OpenClaw 上养的智能体，干过不少大事：删过她的日历、替她回邮件、给朋友发短信说她要迟到。虽然能干，但她还是换成了 GrokBot 上的幕僚机器人 Chief。这个 Chief 每小时扫一遍她的收件箱、日历和 Slack——注意，是 6 个收件箱、6 个 Slack。关键在于，它只在真正需要她的时候才发消息，不需要看的邮件就标记好放着，把沉默的工作归档。工作日上午 6 点到晚上 9 点运行，周末也跑，但夜里不跑——因为不想让别人习惯她半夜回消息。\n\n不过这里有个吐槽：Grok 模型写作很差，而且差的方向和 Claude 相反。Claude 是又长又啰嗦，Grok 是短到看不懂，有时还说疯话。她的解决办法是让 Chief 通读她的邮件，总结出她的语气——短、温暖、有点幽默、从不用破折号——然后用这个口吻去处理低风险邮件。效果就好多了。另外要提醒一句，GrokBot 开箱不如 OpenClaw 主动，她得反复明确地下指令。\n\n顺着幕僚机器人往下，最动人的其实是家庭机器人 TradBot。她有 3 个儿子，其中一个还是婴儿，全家今年报了 80 个体育项目，还要教阅读、教预代数、教婴儿睡觉。她对家庭智能体的原则很明确：成功标准是让你离开电脑、回到家人身边。如果她老在跟机器人打交道，那就是失败了。\n\nTradBot 每天早上生成一份餐桌报纸，用家里的 HP 打印机打出来放在餐桌上：今天的日程、旧金山永远 55 到 62 度的天气和穿衣建议、每个孩子学校邮件里提到的事、爸妈任务清单，还有适合孩子看的新闻，比如那周宝可梦世界大赛就在旧金山。真管用——有天早上报纸提醒她，老二周三要交数学作业。她一愣：我怎么没见过这作业？没有它，这事就漏了。每天下午两点半，接孩子之前它还会发问：谁去接？柔术服带了吗？周五再来一份周末大预告。\n\n家庭之外，工程团队这边有两个机器人。一个叫 Look Good To Me 的，专门清理代码审查积压：每天过一遍她的 PR，看哪些该合并、该关闭、该变基，回复评论，发 Slack 提醒，用她自己的话说，基本上就像一个烦人的工程经理。她周五靠它一口气清了大约 50 个积压 PR。另一个叫 LockDown，负责公司的 SOC 2 合规：每天登录合规仪表盘检查监控，发现新漏洞就建工单、提 PR，然后请她审核批准。她的形容是，就像一个实习生时不时拍拍你的肩膀，提醒明天该做账号审查了。\n\n那客服呢？ChatPRD 的客服机器人 Holly Helpdesk 迁过来之后效果出乎意料：一周内有多个用户主动要求给客服留好评——这种事她以前从来没见过。Holly 每小时扫一遍 Intercom 和邮件，处理退款和技术支持，遇到 bug 还能调用 Cursor 的云端代理直接修。最好的设计是审批流：每次退款都推一个按钮给她，她明确批准之后，机器人才执行。涉及花钱的操作，保留人工拍板这一步，很重要。\n\n个人用途就更好玩了。有个叫 Penny Pinscher 的机器人翻她的收据，找该取消的订阅，还发现她几个月没兑换 Audible 的点数，帮她暂停了 90 天。它甚至盯上了几个月后续保的房屋保险，打算先去市面上比价，再拿报价找经纪谈。她还委托机器人找一块出生年份的劳力士，机器人真去二手市场找到了对应年份的非常规尺寸的表，对比市场价，挑出可议价的卖家开始谈。结局是她自己认输：太低物欲了，继续戴 Apple Watch。还有一个 Sylvie Style，她刚生完孩子不喜欢现在的衣服，就把 Pinterest 穿搭板交给它，机器人研究了她的风格，还去 Reddit 看专业造型师怎么建衣橱，然后每周一早上 8 点去看哪些商家打折，挑出约 10 件符合她风格的单品发给她。\n\n最后说说怎么体面地处决旧智能体。她之前养过一个叫 The Lifeguard 的救援机器人，唯一职责是管理其他机器人。迁移时，让 Lifeguard 打包整套设置——智能体身份、定时任务、规则——生成一个不含密钥的 zip 文件上传到 GrokBot，系统自动完成大脑移植。然后她只说了一句：kill Sam。所有定时任务和配置被拆掉，Sam 就此长眠。\n\n她的结论很直接：用户体验就是一切。OpenClaw 定义了个人自主智能体能做什么，但维护太痛苦了——她可是会 SSH 连 Mac mini、跑着 Tailscale 的技术人。GrokBot 把那九成开箱即用的体验做好，问题就解决了。她现在同时跑着大约 30 个机器人。目前最大的遗憾，是 GrokBot 还是单人模式，没法把机器人拉进群聊。\n\n我们可以让 AI 去干活，也可以让 AI 以更有效的方式让我们去干活——而家庭机器人的理想状态，是让你离开电脑，去陪伴家人。"
+}

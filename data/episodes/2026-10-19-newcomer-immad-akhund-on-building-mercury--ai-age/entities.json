@@ -1,0 +1,1092 @@
+{
+  "episode_id": "2026-10-19-newcomer-immad-akhund-on-building-mercury--ai-age",
+  "podcast": "Newcomer Pod",
+  "date": "2026-10-19",
+  "tags": [
+    "金融科技",
+    "智能体与支付",
+    "AI 泡沫",
+    "创业与增长",
+    "银行牌照"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "immad-akhund",
+      "type": "person",
+      "role": "host",
+      "name": "Immad Akhund",
+      "file": "Immad Akhund",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "eric-newcomer",
+      "type": "person",
+      "role": "cohost",
+      "name": "Eric Newcomer",
+      "file": "Eric Newcomer",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "mercury",
+      "type": "company",
+      "role": "company",
+      "name": "Mercury",
+      "file": "Mercury",
+      "primary": true,
+      "how_described": "本集主线：Immad Akhund 创办的面向创业公司的企业银行服务平台，七年半做到年化营收 10 亿美元、45 万客户，已获银行牌照有条件批准，明年将以 Mercury Bank NA 运营。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            6.477,
+            12.263
+          ],
+          "quote": "Within four days, I think we had someone sign up that I hadn't met that transferred a million dollars to their Mercury Bank account.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            45.552,
+            47.333
+          ],
+          "quote": "Mata Koon, CEO of Mercury.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 18,
+          "t": [
+            55.758,
+            59.2
+          ],
+          "quote": "So we run a lot of it on, on Mercury.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 21,
+          "t": [
+            69.105,
+            75.61
+          ],
+          "quote": "And honestly, I think I didn't quite appreciate how awesome Mercury was until I opened the old school banking account.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 28,
+          "t": [
+            88.84,
+            94.605
+          ],
+          "quote": "But do you want to start off with like what was the core insight when you started Mercury in the first place?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 37,
+          "t": [
+            128.845,
+            136.547
+          ],
+          "quote": "But, you know, in 2017, when I kind of first started Mercury, banking was one of these things that every single business needs, but like the experience sucked, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            171.338,
+            174.279
+          ],
+          "quote": "And there's a, there's a really large component of trust with Mercury.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            175.519,
+            182.185
+          ],
+          "quote": "So, but yeah, within four days, I think, we had someone sign up that I hadn't met that transferred a million dollars to the Mercury Bank account.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            234.233,
+            241.279
+          ],
+          "quote": "We just had about 1,300 people that work in Mercury in one place in New Orleans a couple of weeks ago.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            276.688,
+            279.07
+          ],
+          "quote": "A lot of AI companies use Mercury.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            340.448,
+            344.131
+          ],
+          "quote": "You know, most people start Mercury in the same way you started it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            537.333,
+            543.177
+          ],
+          "quote": "I mean, you know, always sort of the background context on Mercury is it is a bank that is not a bank.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 146,
+          "t": [
+            561.791,
+            567.034
+          ],
+          "quote": "So sometime next year, we're going to be live and serving customers through Mercury Bank NA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            568.395,
+            571.437
+          ],
+          "quote": "And the idea is eventually all of our customers would be on Mercury Bank.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            595.402,
+            600.005
+          ],
+          "quote": "So right now we don't have Zelle, which is quite a limiting thing, especially on Mercury Personal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            640.878,
+            643.199
+          ],
+          "quote": "I love how Mercury attracts the most.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 166,
+          "t": [
+            652.441,
+            654.942
+          ],
+          "quote": "One of the reasons I started Mercury is I don't want to talk to people.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 215,
+          "t": [
+            897.117,
+            903.339
+          ],
+          "quote": "So, you know, if you want to use the Mercury app, you can directly kind of talk to us and we will, generally speaking, that's a little bit...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 227,
+          "t": [
+            938.427,
+            952.599
+          ],
+          "quote": "So MCP Actions is basically, if you're using Claude Cowork or ChatGPT, you can now say, hey, send money using Mercury, and they'll pop up a thing that says, okay, this is set up, you want to approve that kind of thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 231,
+          "t": [
+            970.418,
+            978.58
+          ],
+          "quote": "And for other elements, so, you know, you can set up agentic cards on Mercury so you can say, okay, actually, you know, I'm fine with my agent spending $50 a day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1016.711,
+            1020.697
+          ],
+          "quote": "So the more you do on Mercury, I think the better it'll get.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1024.362,
+            1033.944
+          ],
+          "quote": "Go to Mercury or you go to your agent and say like, hey, I want to send this person a job offer and, you know, send them a job offer or get them a contract signed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1278.551,
+            1283.252
+          ],
+          "quote": "So just like when I look at Mercury, like we're moving like crazy fast right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 417,
+          "t": [
+            1740.154,
+            1748.16
+          ],
+          "quote": "One of the things that's kind of interesting, at least I've noticed within Mercury is there's a, yeah, there's a lot of these kind of custom tools for each",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 445,
+          "t": [
+            1846.286,
+            1851.387
+          ],
+          "quote": "I don't know if many other people have done it, but that's kind of how I think about agents at Mercury.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 460,
+          "t": [
+            1901.026,
+            1906.032
+          ],
+          "quote": "So our revenue is kind of based on like deposits and payment volume and, you know, people using Mercury.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 470,
+          "t": [
+            1947.104,
+            1956.192
+          ],
+          "quote": "I think, you know, one thing before I started Mercury and I was like very curious about it is like, you know, obviously because we serve small businesses, many of them fail.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 496,
+          "t": [
+            2067.586,
+            2072.127
+          ],
+          "quote": "And most of our customers use the Mercury corporate card.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 525,
+          "t": [
+            2175.147,
+            2181.989
+          ],
+          "quote": "You know, I kind of think about my investing and like, you know, Mercury is like, let's go after big markets where like things are clearly broken.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 530,
+          "t": [
+            2204.664,
+            2211.57
+          ],
+          "quote": "And then, you know, from that have emerged, obviously companies like Mercury that have reached a certain scale and like become breakout.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 541,
+          "t": [
+            2260.238,
+            2270.462
+          ],
+          "quote": "We were just having this conversation literally last week where someone was like, hey, I'd rather just write this whole B2B app than go through Mercury Procurement and negotiate a contract and get everything signed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 550,
+          "t": [
+            2291.428,
+            2302.934
+          ],
+          "quote": "I think it's going to change to some extent, but yeah, I feel like the incumbent FinTech players like Mercury are kind of, you know, very much because we, I guess, new enough and we're still kind of innovating.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 569,
+          "t": [
+            2387.67,
+            2392.313
+          ],
+          "quote": "I'm an investor in several, and obviously we have Mercury Books, which has like a big kind of AI component as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 610,
+          "t": [
+            2588.399,
+            2592.423
+          ],
+          "quote": "I just feel like, I mean, even if I look at Mercury, we're demanding more and more tokens.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 636,
+          "t": [
+            2687.384,
+            2688.164
+          ],
+          "quote": "For like Mercury?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 640,
+          "t": [
+            2697.168,
+            2698.209
+          ],
+          "quote": "I think it's probably good for Mercury.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 678,
+          "t": [
+            2838.713,
+            2841.754
+          ],
+          "quote": "Did Mercury experience a token maxing phase?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 699,
+          "t": [
+            2925.278,
+            2931.562
+          ],
+          "quote": "And then now we have agents and we have our own kind of internal agent that does a lot of coding at Mercury.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 709,
+          "t": [
+            2973.487,
+            2982.052
+          ],
+          "quote": "I think my last question, if you think of Mercury on this big timeline, you're hopefully soon becoming a real bank.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 711,
+          "t": [
+            2985.234,
+            3014.518
+          ],
+          "quote": "An institution like do you think you know in a decade the goal is like we have like the best big office in New York City and we're like this sort of you know it was so much of being a bank is like it's like political and influence and you're part of like at a certain scale like help you know I feel like Jamie Dimon projects this like I'm another pillar of like society in America's institution like is that an aspiration for Mercury or do you or is this a new thing that sort of looks a different way and has a different sort of sense about it?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 729,
+          "t": [
+            3057.619,
+            3061.501
+          ],
+          "quote": "I want to die one day and go, wow, Mercury's still having an impact on the world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 735,
+          "t": [
+            3085.927,
+            3092.711
+          ],
+          "quote": "Yeah, when we first started, like, you know, as I was saying, like, it was crazy to me that someone would put like a million dollars in Mercury.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 736,
+          "t": [
+            3092.851,
+            3095.673
+          ],
+          "quote": "Now we have like several customers of 500 million plus in Mercury.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集用大量篇幅讨论智能体接入银行的三件事：访问数据、设控制、能做什么；资金移动最后都要人点一下确认，就像『手不离方向盘』的自动驾驶。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            27.217,
+            35.384
+          ],
+          "quote": "Somebody's going to spend money that they regret, even if it was their fault, and they're going to sue everybody involved and say an agent was involved.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 206,
+          "t": [
+            855.718,
+            864.023
+          ],
+          "quote": "Could you have like your agent talking to, like people were talking about it, but it was very much like not being done, whereas now it's kind of becoming reality.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            886.934,
+            893.476
+          ],
+          "quote": "And, you know, depending on, like, what your setup is, you will integrate your agent into all of that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            894.056,
+            896.257
+          ],
+          "quote": "Separately, we also have our own agent called Command.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 231,
+          "t": [
+            970.418,
+            978.58
+          ],
+          "quote": "And for other elements, so, you know, you can set up agentic cards on Mercury so you can say, okay, actually, you know, I'm fine with my agent spending $50 a day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1024.362,
+            1033.944
+          ],
+          "quote": "Go to Mercury or you go to your agent and say like, hey, I want to send this person a job offer and, you know, send them a job offer or get them a contract signed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1047.836,
+            1059.99
+          ],
+          "quote": "On the controls bucket, is there like a number where you're like you can't automate, like an agent can't send a million dollars or is there a hard number on how much you limit an agent sending?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1096.901,
+            1102.905
+          ],
+          "quote": "I don't think we have, I mean, there is like some, yeah, we have limits per customer, but I don't think there's a separate limit for agent or human.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1150.867,
+            1154.13
+          ],
+          "quote": "There's a little bit more of a permanence to a human than an agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1154.17,
+            1160.676
+          ],
+          "quote": "It's like if you have this, like, oh, we trust this agent, this amount, but it can get swapped.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1334.894,
+            1336.094
+          ],
+          "quote": "It's like the agent can do all this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1384.363,
+            1389.365
+          ],
+          "quote": "Sue everybody involved and say an agent was involved, like you should have stopped it, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1439.796,
+            1445.179
+          ],
+          "quote": "So if your agent goes rogue and sends a bunch of Bitcoin or whatever, there's just no way to get it back.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1446.16,
+            1452.304
+          ],
+          "quote": "Whereas, yeah, if your agent goes rogue and like goes and does a big e-commerce shop, you can normally dispute it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1457.548,
+            1464.894
+          ],
+          "quote": "And like, you know, what is like, what's this exact kind of circumstance that the agent's spending all this money?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1470.278,
+            1478.044
+          ],
+          "quote": "For most people, they're not doing that many payments in their business that they need it to be like, go agent, go rip it and do like 500 a day kind of thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 398,
+          "t": [
+            1660.982,
+            1669.514
+          ],
+          "quote": "So like we have this one agent that like every time someone does a new database query or makes a change to database query, they'll like test it in production to see like...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 404,
+          "t": [
+            1686.957,
+            1692.119
+          ],
+          "quote": "I think there's also agents can do a lot more to create- Then you create the anti-sloppy code agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 414,
+          "t": [
+            1728.507,
+            1731.208
+          ],
+          "quote": "Actually, an agent can go even further and go fix it for you, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 421,
+          "t": [
+            1759.967,
+            1761.748
+          ],
+          "quote": "And it's all kind of built into our command agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 431,
+          "t": [
+            1776.938,
+            1781.24
+          ],
+          "quote": "We realized like to make our agent really good, it needs to do things, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 440,
+          "t": [
+            1820.118,
+            1826.92
+          ],
+          "quote": "We really wanted the smooth experience between, like, so the command agent, well, you can make a payment, you can ask questions that are kind of read-only.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 442,
+          "t": [
+            1830.101,
+            1836.303
+          ],
+          "quote": "So you can say, either you ask a question that the agent can't respond or you say like, hey, can I get like a human support or, you know.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 553,
+          "t": [
+            2308.616,
+            2314.119
+          ],
+          "quote": "I mean, I'm an investor in this company called Natural that's building that kind of payment layers for agent to agent kind of.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 699,
+          "t": [
+            2925.278,
+            2931.562
+          ],
+          "quote": "And then now we have agents and we have our own kind of internal agent that does a lot of coding at Mercury.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "command",
+      "type": "product",
+      "role": "company",
+      "name": "Command",
+      "file": "Command",
+      "primary": true,
+      "how_described": "本集介绍 Mercury 自家的智能体，几乎什么都能做：问『过去三个月 AWS 账单涨了多少』会画图，也能发起付款，卡住了还会升级给真人支持。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 214,
+          "t": [
+            894.056,
+            896.257
+          ],
+          "quote": "Separately, we also have our own agent called Command.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 218,
+          "t": [
+            908.883,
+            911.365
+          ],
+          "quote": "Well, with command, you can do almost anything.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 421,
+          "t": [
+            1759.967,
+            1761.748
+          ],
+          "quote": "And it's all kind of built into our command agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 440,
+          "t": [
+            1820.118,
+            1826.92
+          ],
+          "quote": "We really wanted the smooth experience between, like, so the command agent, well, you can make a payment, you can ask questions that are kind of read-only.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 580,
+          "t": [
+            2441.412,
+            2450.917
+          ],
+          "quote": "Like if you keep making command better and better, you know, I can already give you like some help with like your finances, but yeah, maybe we'll give you advice on like certain things.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "bank-charter",
+      "type": "concept",
+      "role": "concept",
+      "name": "银行牌照 (bank charter)",
+      "file": "银行牌照",
+      "primary": true,
+      "how_described": "本集说 Mercury 去年申请银行牌照，已获 OCC 和 FDIC 有条件批准；创业初期拿牌照得先融 3000 万美元以上，所以当年只能找合作银行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 144,
+          "t": [
+            555.286,
+            557.608
+          ],
+          "quote": "Yeah, so we applied for a bank charter last year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            781.644,
+            789.716
+          ],
+          "quote": "I think at some point, if you do something like we do, which is very much kind of a core banking service, it just makes sense to get a bank charter eventually.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agentic-cards",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体卡 (agentic cards)",
+      "file": "智能体卡",
+      "primary": true,
+      "how_described": "本集说 Mercury 可以给智能体发一张带消费限额的虚拟卡，比如每天最多花 50 美元，这类小额消费就不需要逐笔人工批准。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 231,
+          "t": [
+            970.418,
+            978.58
+          ],
+          "quote": "And for other elements, so, you know, you can set up agentic cards on Mercury so you can say, okay, actually, you know, I'm fine with my agent spending $50 a day.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "phishing",
+      "type": "concept",
+      "role": "concept",
+      "name": "钓鱼攻击 (phishing)",
+      "file": "钓鱼攻击",
+      "primary": true,
+      "how_described": "本集说 AI 最大、最令人担忧的是让大规模钓鱼攻击变得可能：AI 打电话你听不出是 AI，他本人每天接到 10 个以上骚扰电话。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 378,
+          "t": [
+            1579.073,
+            1585.559
+          ],
+          "quote": "I think the biggest and probably worrying thing about AI is it's made phishing at scale much more possible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1600.928,
+            1604.51
+          ],
+          "quote": "I think there's a ton more phishing, a ton more malware happening.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "bubble",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 泡沫 (bubble)",
+      "file": "AI 泡沫",
+      "primary": true,
+      "how_described": "本集的判断是：AI 是变革性的，但同时也可能在泡沫里——Y Combinator 里『有口气』的公司就值 5000 万，每个赛道冒出 10 到 20 个对手，不可能都赢。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 587,
+          "t": [
+            2477.313,
+            2479.794
+          ],
+          "quote": "What's your bubble read at the moment?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 595,
+          "t": [
+            2499.798,
+            2501.859
+          ],
+          "quote": "If that is a bubble, yes, then, yeah.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 597,
+          "t": [
+            2508.943,
+            2519.73
+          ],
+          "quote": "I think both things can be true that AI is transformational, it's going to be huge and going to fuel a massive GDP growth, et cetera, but we could also be in a bubble.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "data-center",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据中心 (data center)",
+      "file": "数据中心",
+      "primary": true,
+      "how_described": "本集说他还不认为数据中心过度建设了：每家公司需要的 token 都在涨，算力是可互换的，就算个别巨头倒下，容量会流向别人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 607,
+          "t": [
+            2571.665,
+            2576.529
+          ],
+          "quote": "I think on the macro big markets level, it's mostly about, have we overbuilt data center capacity?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 609,
+          "t": [
+            2583.575,
+            2587.999
+          ],
+          "quote": "Actually, I'm not sold that we've overbuilt data center capacity yet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 618,
+          "t": [
+            2620.275,
+            2627.258
+          ],
+          "quote": "I mean, a lot hinges on whether OpenAI and Anthropic can continue to consume a lot of the data center capacity, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 622,
+          "t": [
+            2630.879,
+            2634.421
+          ],
+          "quote": "I mean, at least when it comes to data center capacity, it's actually like kind of fungible, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 625,
+          "t": [
+            2643.166,
+            2645.468
+          ],
+          "quote": "They've overbuilt data center capacity, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 639,
+          "t": [
+            2692.626,
+            2697.128
+          ],
+          "quote": "I think actually like data center build out, like then tokens will get cheaper, we'll get more applications.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "annualized-revenue",
+      "type": "concept",
+      "role": "concept",
+      "name": "年化收入 (annualized revenue)",
+      "file": "年化收入",
+      "primary": true,
+      "how_described": "本集他强调自己报的是年化收入而非 ARR：单月收入乘以 12，因为『现在所有人都把收入叫 ARR』的标准已经丢了。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 448,
+          "t": [
+            1860.91,
+            1866.391
+          ],
+          "quote": "The $1 billion annualized revenue milestone.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2035.683,
+            2039.144
+          ],
+          "quote": "So I always say annualized revenue, it's nice and precise.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "corporate-credit-card",
+      "type": "concept",
+      "role": "concept",
+      "name": "企业信用卡 (corporate credit card)",
+      "file": "企业信用卡",
+      "primary": true,
+      "how_described": "本集说企业信用卡是 Mercury 第二大营收来源，2022 年底推出，承保很简单——账户里有钱就绑着，几乎不亏损。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            304.332,
+            309.855
+          ],
+          "quote": "If you use our cards more, so we have a corporate credit card, that's our second biggest revenue stream.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            604.589,
+            611.253
+          ],
+          "quote": "We do working capital and obviously the corporate credit card, but we'll be able to do a much broader set of lending once we're a bank.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 504,
+          "t": [
+            2100.819,
+            2111.789
+          ],
+          "quote": "You're trying to acquire the customer at the banking stage and then yeah actually that's the only way to use any of other products so you have to use bank to get the books or paper or corporate credit card etc.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2111.809,
+            2114.751
+          ],
+          "quote": "Doesn't that limit the sort of ambition of the corporate credit card?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2122.375,
+            2126.016
+          ],
+          "quote": "It's not, you know, like our underwriting for the corporate credit card is very simple.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "y-combinator",
+      "type": "company",
+      "role": "company",
+      "name": "Y Combinator",
+      "file": "Y Combinator",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 599,
+          "t": [
+            2526.755,
+            2528.496
+          ],
+          "quote": "I'm going to pick on Y Combinator.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 600,
+          "t": [
+            2528.796,
+            2533.017
+          ],
+          "quote": "Yeah, there's like, if you have a pulse in Y Combinator, you're worth like 50 million now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 604,
+          "t": [
+            2555.703,
+            2556.645
+          ],
+          "quote": "I'm not picking a Y Combinator.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp-actions",
+      "type": "product",
+      "role": "company",
+      "name": "MCP Actions",
+      "file": "MCP Actions",
+      "primary": false,
+      "how_described": "本集说 Mercury 当天刚发布 MCP Actions，让 Claude Cowork 或 ChatGPT 里的智能体可以直接发起 Mercury 转账，最后弹窗让人批准。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 225,
+          "t": [
+            927.058,
+            932.683
+          ],
+          "quote": "Mostly text, but the final action, and actually we just launched MCP Actions literally today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 226,
+          "t": [
+            933.183,
+            938.387
+          ],
+          "quote": "So the final action still requires a click to approve it, which is also what MCP Actions allows.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 227,
+          "t": [
+            938.427,
+            952.599
+          ],
+          "quote": "So MCP Actions is basically, if you're using Claude Cowork or ChatGPT, you can now say, hey, send money using Mercury, and they'll pop up a thing that says, okay, this is set up, you want to approve that kind of thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1076.965,
+            1082.712
+          ],
+          "quote": "So right now for any, at least with MCP actions, I don't come on like any sort of like money movement.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

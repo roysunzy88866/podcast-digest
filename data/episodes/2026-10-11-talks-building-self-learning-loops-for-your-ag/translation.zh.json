@@ -1,0 +1,3370 @@
+[
+ {
+  "seg": 0,
+  "start": 12.852,
+  "end": 14.112,
+  "speaker": "Unknown",
+  "en": "My name's Fuad Ali.",
+  "zh": "我叫 Fuad Ali。"
+ },
+ {
+  "seg": 1,
+  "start": 14.492,
+  "end": 16.653,
+  "speaker": "Unknown",
+  "en": "I work in product at Arise or at AI.",
+  "zh": "我在 Arise 或叫 AI 的公司做产品。"
+ },
+ {
+  "seg": 2,
+  "start": 17.033,
+  "end": 22.474,
+  "speaker": "Unknown",
+  "en": "And I've been working on agent experimentation and generally agent tooling across the stack at Arise.",
+  "zh": "我一直在 Arise 从事智能体实验以及整个技术栈上的智能体工具方面的工作。"
+ },
+ {
+  "seg": 3,
+  "start": 23.134,
+  "end": 26.515,
+  "speaker": "Unknown",
+  "en": "You just heard from Lori, who is also part of our team here at Arise.",
+  "zh": "你们刚听过了 Lori 的发言,他也是我们 Arise 团队的成员。"
+ },
+ {
+  "seg": 4,
+  "start": 26.855,
+  "end": 28.295,
+  "speaker": "Unknown",
+  "en": "He's going to be floating around the room.",
+  "zh": "他会在房间里四处走动。"
+ },
+ {
+  "seg": 5,
+  "start": 28.555,
+  "end": 35.017,
+  "speaker": "Unknown",
+  "en": "Aparna, our co-founder and CPO, will also be floating around the room to help you guys out if you require during this workshop.",
+  "zh": "我们的联合创始人兼 CPO Aparna 也会在房间里走动,如果你们在这次工作坊期间需要帮助,她会协助大家。"
+ },
+ {
+  "seg": 6,
+  "start": 35.097,
+  "end": 39.638,
+  "speaker": "Unknown",
+  "en": "What we're going to be talking about today is building self-learning loops for your agent.",
+  "zh": "我们今天要讲的是为你的智能体构建自学习循环。"
+ },
+ {
+  "seg": 7,
+  "start": 41.118,
+  "end": 50.563,
+  "speaker": "Unknown",
+  "en": "And just to give you a bit of background on myself and how I got into the space, I think this concept of self-learning loops is really new to this idea of AI engineering.",
+  "zh": "先简单介绍一下我自己以及我是如何进入这个领域的,我认为自学习循环这个概念对 AI 工程这个想法来说真的很新。"
+ },
+ {
+  "seg": 8,
+  "start": 51.363,
+  "end": 53.824,
+  "speaker": "Unknown",
+  "en": "And there's a lot of features in Arise that kind of help you support it.",
+  "zh": "Arise 里有很多功能可以帮助你支持它。"
+ },
+ {
+  "seg": 9,
+  "start": 54.264,
+  "end": 55.325,
+  "speaker": "Unknown",
+  "en": "But to kind of frame this,",
+  "zh": "但为了做一个铺垫,"
+ },
+ {
+  "seg": 10,
+  "start": 56.706,
+  "end": 71.701,
+  "speaker": "Unknown",
+  "en": "I actually worked in back-end distributed systems at SpaceX, and it is actually quite interesting how we're kind of coming full circle in this world of telemetry where, you know, if you think about it, a rocket system that is continuously course correcting every millisecond",
+  "zh": "我之前其实在 SpaceX 做后端分布式系统,有意思的是,在这个遥测的世界里我们正在迎来一个轮回,想想看,一个每毫秒都在持续修正航向的火箭系统"
+ },
+ {
+  "seg": 11,
+  "start": 72.402,
+  "end": 77.825,
+  "speaker": "Unknown",
+  "en": "is actually consuming its own telemetry and then actioning that telemetry in order to self-correct.",
+  "zh": "实际上是在消费它自己的遥测数据,然后对这些遥测数据采取行动,以便进行自我修正。"
+ },
+ {
+  "seg": 12,
+  "start": 78.326,
+  "end": 87.111,
+  "speaker": "Unknown",
+  "en": "And basically what I'm going to explain is how we've sort of built this idea of self-learning loops for your agent in Arise and how you can use that to self-correct.",
+  "zh": "基本上我要解释的是,我们如何在 Arise 中为你的智能体构建这种自学习循环的理念,以及你如何用它来进行自我修正。"
+ },
+ {
+  "seg": 13,
+  "start": 89.112,
+  "end": 89.292,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 14,
+  "start": 90.747,
+  "end": 94.089,
+  "speaker": "Unknown",
+  "en": "So to give you a bit of history on Arise, we made a few big bets.",
+  "zh": "那么先讲一点 Arise 的历史,我们做过几次大的押注。"
+ },
+ {
+  "seg": 15,
+  "start": 94.77,
+  "end": 97.852,
+  "speaker": "Unknown",
+  "en": "We were first to the market with LLM as a judge back in 2023.",
+  "zh": "我们在 2023 年率先推出了 LLM as a judge。"
+ },
+ {
+  "seg": 16,
+  "start": 98.712,
+  "end": 105.437,
+  "speaker": "Unknown",
+  "en": "We created the first set of semantic inventions for LLM applications with OpenInference, OpenSourced.",
+  "zh": "我们通过开源的 OpenInference 为 LLM 应用创建了第一套语义发明。"
+ },
+ {
+  "seg": 17,
+  "start": 105.557,
+  "end": 108.219,
+  "speaker": "Unknown",
+  "en": "We created the first real-time AI data store, ADB.",
+  "zh": "我们创建了第一个实时 AI 数据存储 ADB。"
+ },
+ {
+  "seg": 18,
+  "start": 108.959,
+  "end": 115.543,
+  "speaker": "Unknown",
+  "en": "In 2025, we released AgentEvals and Alex, which is our in-house agent to kind of help you with AI engineering.",
+  "zh": "2025 年,我们发布了 AgentEvals 和 Alex,后者是我们内部的智能体,用来帮助你做 AI 工程。"
+ },
+ {
+  "seg": 19,
+  "start": 115.563,
+  "end": 117.705,
+  "speaker": "Unknown",
+  "en": "Think of Cursor for AI engineering.",
+  "zh": "可以把它想成 AI 工程领域的 Cursor。"
+ },
+ {
+  "seg": 20,
+  "start": 118.325,
+  "end": 126.913,
+  "speaker": "Unknown",
+  "en": "And in 2026, the next big bet we really want to make is how you can create self-correcting agents with a feedback loop.",
+  "zh": "而在 2026 年,我们真正想做的下一个大押注是,你如何通过反馈循环创建自我修正的智能体。"
+ },
+ {
+  "seg": 21,
+  "start": 127.433,
+  "end": 134.419,
+  "speaker": "Unknown",
+  "en": "And I think everyone understands sort of like how that is going to be extremely powerful to this idea of agents generally.",
+  "zh": "我想大家都明白,这对智能体这个概念整体而言会有多么强大。"
+ },
+ {
+  "seg": 22,
+  "start": 136.765,
+  "end": 142.746,
+  "speaker": "Unknown",
+  "en": "And so I really think the industry is evolving quite a bit when it comes to software engineering.",
+  "zh": "所以我真的认为,在软件工程方面,这个行业正在发生相当大的演变。"
+ },
+ {
+  "seg": 23,
+  "start": 143.307,
+  "end": 153.129,
+  "speaker": "Unknown",
+  "en": "You sort of have the classic software 1.0 where there's an app, and it's traced to Datadog, and there's some sort of observability platform that human beings read.",
+  "zh": "你有经典的软件 1.0:有一个应用,它被追踪到 Datadog,有某种人类阅读的可观测性平台。"
+ },
+ {
+  "seg": 24,
+  "start": 153.509,
+  "end": 155.99,
+  "speaker": "Unknown",
+  "en": "A human dev then writes code to actually correct it.",
+  "zh": "然后由人类开发者编写代码来实际修正它。"
+ },
+ {
+  "seg": 25,
+  "start": 156.53,
+  "end": 160.511,
+  "speaker": "Unknown",
+  "en": "I think 2.0 was really humans interacting with this in prompts.",
+  "zh": "我认为 2.0 实际上是人类通过提示词与之交互。"
+ },
+ {
+  "seg": 26,
+  "start": 161.512,
+  "end": 168.318,
+  "speaker": "Unknown",
+  "en": "So same thing, but instead of you writing the code, you write a prompt that then corrects the behavior that you're seeing in your app.",
+  "zh": "同样的事情,但不是你写代码,而是你写一个提示词,来修正你在应用中看到的行为。"
+ },
+ {
+  "seg": 27,
+  "start": 168.378,
+  "end": 173.202,
+  "speaker": "Unknown",
+  "en": "What we're moving to really is phase three, which is the fully autonomous loop.",
+  "zh": "我们正在走向的,实际上是第三阶段,即完全自主的循环。"
+ },
+ {
+  "seg": 28,
+  "start": 174.042,
+  "end": 178.285,
+  "speaker": "Unknown",
+  "en": "In this loop, your application produces telemetry events, observability.",
+  "zh": "在这个循环中,你的应用产生遥测事件,也就是可观测性数据。"
+ },
+ {
+  "seg": 29,
+  "start": 178.785,
+  "end": 181.947,
+  "speaker": "Unknown",
+  "en": "And then what is actually reading that is your coding agent.",
+  "zh": "而实际阅读这些数据的是你的编码智能体。"
+ },
+ {
+  "seg": 30,
+  "start": 182.307,
+  "end": 184.649,
+  "speaker": "Unknown",
+  "en": "It's not just a human reading it and then putting a prompt in.",
+  "zh": "不再只是人类阅读它然后输入一个提示词。"
+ },
+ {
+  "seg": 31,
+  "start": 185.87,
+  "end": 192.214,
+  "speaker": "Unknown",
+  "en": "If any of you guys are using things like cursor, Claude Code, the Datadog CLI, you're already seeing some of this.",
+  "zh": "如果你们任何人在使用 cursor、Claude Code、Datadog CLI 这类东西,你们已经看到了其中的一部分。"
+ },
+ {
+  "seg": 32,
+  "start": 192.994,
+  "end": 199.258,
+  "speaker": "Unknown",
+  "en": "The gap is you're still probably prompting that to go read that information from a back end like Datadog or whatever it is.",
+  "zh": "差距在于,你可能仍然是在提示它去从 Datadog 之类的后端读取那些信息。"
+ },
+ {
+  "seg": 33,
+  "start": 199.798,
+  "end": 203.141,
+  "speaker": "Unknown",
+  "en": "And I think when you evolve to the needs of like",
+  "zh": "而且我认为当你进化到像"
+ },
+ {
+  "seg": 34,
+  "start": 203.981,
+  "end": 206.383,
+  "speaker": "Unknown",
+  "en": "You know, thousands of agents across the stack.",
+  "zh": "你知道的,整个技术栈上有成千上万个智能体的需求时。"
+ },
+ {
+  "seg": 35,
+  "start": 206.483,
+  "end": 209.906,
+  "speaker": "Unknown",
+  "en": "It starts to become pretty much impossible for a human being to actually read those things.",
+  "zh": "让人类真正去阅读那些东西几乎就变得不可能了。"
+ },
+ {
+  "seg": 36,
+  "start": 210.406,
+  "end": 217.332,
+  "speaker": "Unknown",
+  "en": "And so I'm going to be talking a little bit about some of the new features in Arise that we've released that kind of support this flow.",
+  "zh": "所以我会稍微讲一下我们在 Arise 发布的、支持这种流程的一些新功能。"
+ },
+ {
+  "seg": 37,
+  "start": 217.732,
+  "end": 233.465,
+  "speaker": "Unknown",
+  "en": "But what I want you guys to center on is that observability has to evolve from humans reading dashboards to really programmatic interfaces that agents consume, agents can operate on, and agents can self-reflect on as well.",
+  "zh": "但我希望大家关注的核心是,可观测性必须从人类阅读仪表盘,进化为智能体可以消费的编程接口,智能体可以在其上进行操作的接口,以及智能体也可以在其上进行自我反思的接口。"
+ },
+ {
+  "seg": 38,
+  "start": 238.113,
+  "end": 239.994,
+  "speaker": "Unknown",
+  "en": "So just some proof in the market.",
+  "zh": "这是一些市场证明。"
+ },
+ {
+  "seg": 39,
+  "start": 240.494,
+  "end": 245.157,
+  "speaker": "Unknown",
+  "en": "Arise has processed over 1 trillion spans.",
+  "zh": "Arise 已经处理了超过 1 万亿个 span。"
+ },
+ {
+  "seg": 40,
+  "start": 245.217,
+  "end": 249.64,
+  "speaker": "Unknown",
+  "en": "We've run over 60 million evaluations per month.",
+  "zh": "我们每月运行超过 6000 万次评估。"
+ },
+ {
+  "seg": 41,
+  "start": 249.7,
+  "end": 257.164,
+  "speaker": "Unknown",
+  "en": "We have over 3 million downloads per month, trusted by a ton of different cool teams, whether it's Spotify, Reddit, Uber, TripAdvisor.",
+  "zh": "我们每月有超过 300 万次下载,被大量不同的优秀团队所信赖,无论是 Spotify、Reddit、Uber 还是 TripAdvisor。"
+ },
+ {
+  "seg": 42,
+  "start": 257.564,
+  "end": 262.667,
+  "speaker": "Unknown",
+  "en": "So just to build some confidence that I'm not just here vibe coding something and telling you guys how it should work.",
+  "zh": "这只是为了让你们建立一点信心,我不是在这里随便 vibe coding 一个东西然后告诉你们它应该怎么运作。"
+ },
+ {
+  "seg": 43,
+  "start": 265.723,
+  "end": 271.346,
+  "speaker": "Unknown",
+  "en": "And I think if you look at the industry, the industry is really kind of moving towards this as well.",
+  "zh": "而且我认为,如果你观察这个行业,这个行业也真的正在朝这个方向发展。"
+ },
+ {
+  "seg": 44,
+  "start": 271.366,
+  "end": 281.353,
+  "speaker": "Unknown",
+  "en": "It's not just these teams, but it's also teams that aren't even Arise customers like Ramp Labs and how they've kind of moved to this idea of making",
+  "zh": "不只是这些团队,还包括那些甚至不是 Arise 客户的团队,比如 Ramp Labs,以及他们如何转向让"
+ },
+ {
+  "seg": 45,
+  "start": 282.293,
+  "end": 284.215,
+  "speaker": "Unknown",
+  "en": "Software self-improving and self-healing.",
+  "zh": "软件自我改进、自我修复的理念。"
+ },
+ {
+  "seg": 46,
+  "start": 284.715,
+  "end": 288.919,
+  "speaker": "Unknown",
+  "en": "And I just point this out to say the industry is really moving in this direction.",
+  "zh": "我指出这一点只是想说,这个行业真的在朝这个方向前进。"
+ },
+ {
+  "seg": 47,
+  "start": 289.22,
+  "end": 290.08,
+  "speaker": "Unknown",
+  "en": "It's not just us.",
+  "zh": "不只是我们。"
+ },
+ {
+  "seg": 48,
+  "start": 290.781,
+  "end": 296.526,
+  "speaker": "Unknown",
+  "en": "You want agents that can detect a problem, investigate it, ship a fix in the same loop.",
+  "zh": "你想要的是能够在同一个循环中检测问题、调查问题并发布修复的智能体。"
+ },
+ {
+  "seg": 49,
+  "start": 296.566,
+  "end": 298.929,
+  "speaker": "Unknown",
+  "en": "And that's sort of the loop I'm going to show you guys how to build today.",
+  "zh": "而这就是我今天要向你们展示如何构建的那个循环。"
+ },
+ {
+  "seg": 50,
+  "start": 302.672,
+  "end": 303.393,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 51,
+  "start": 303.413,
+  "end": 305.054,
+  "speaker": "Unknown",
+  "en": "So I think",
+  "zh": "所以我想"
+ },
+ {
+  "seg": 52,
+  "start": 306.108,
+  "end": 311.533,
+  "speaker": "Unknown",
+  "en": "The big problem I want to outline here is the failures that cost you are invisible at launch.",
+  "zh": "我在这里要指出的大问题是，那些让你付出代价的故障在发布时是看不见的。"
+ },
+ {
+  "seg": 53,
+  "start": 311.873,
+  "end": 316.477,
+  "speaker": "Unknown",
+  "en": "And that's sort of by definition, because if you had caught them, they wouldn't have cost you.",
+  "zh": "这从定义上讲就是这样，因为如果你已经发现了它们，它们就不会让你付出代价。"
+ },
+ {
+  "seg": 54,
+  "start": 316.617,
+  "end": 317.758,
+  "speaker": "Unknown",
+  "en": "You would have shipped the fix already.",
+  "zh": "你早就发布修复了。"
+ },
+ {
+  "seg": 55,
+  "start": 318.519,
+  "end": 325.325,
+  "speaker": "Unknown",
+  "en": "And I think really what I'm trying to set her on here is your agent works in your experimentation phase.",
+  "zh": "而我真正想在这里说明的是，你的智能体在实验阶段是正常工作的。"
+ },
+ {
+  "seg": 56,
+  "start": 325.865,
+  "end": 327.446,
+  "speaker": "Unknown",
+  "en": "It works with the evals that you set up.",
+  "zh": "它在你设置的评测下正常工作。"
+ },
+ {
+  "seg": 57,
+  "start": 327.867,
+  "end": 331.47,
+  "speaker": "Unknown",
+  "en": "You don't really know all the evals that you have to set up before you ship it.",
+  "zh": "你其实并不知道在发布之前你必须设置哪些评测。"
+ },
+ {
+  "seg": 58,
+  "start": 331.53,
+  "end": 332.751,
+  "speaker": "Unknown",
+  "en": "Otherwise, you would have written it.",
+  "zh": "否则你早就写好了。"
+ },
+ {
+  "seg": 59,
+  "start": 334.312,
+  "end": 337.574,
+  "speaker": "Unknown",
+  "en": "And something breaks an edge case that your team just wasn't aware about.",
+  "zh": "然后某个你的团队完全没意识到的边缘情况出问题了。"
+ },
+ {
+  "seg": 60,
+  "start": 337.994,
+  "end": 341.855,
+  "speaker": "Unknown",
+  "en": "For example, in this example, a shopper is asking for a birthday gift under $30.",
+  "zh": "举个例子，在这个例子里，一个购物者想要一件 30 美元以下的生日礼物。"
+ },
+ {
+  "seg": 61,
+  "start": 342.396,
+  "end": 345.177,
+  "speaker": "Unknown",
+  "en": "They get a list of items over $30, $50.",
+  "zh": "他们得到的是一份 30 美元以上、50 美元的商品列表。"
+ },
+ {
+  "seg": 62,
+  "start": 345.997,
+  "end": 354.581,
+  "speaker": "Unknown",
+  "en": "And then what you'll see in production is the agent confidently purchases the wrong item, always does so extremely confidently, because it never verifies the product.",
+  "zh": "然后你在生产环境中会看到，智能体自信地购买了错误的商品，而且总是做得极其自信，因为它从不验证商品。"
+ },
+ {
+  "seg": 63,
+  "start": 355.451,
+  "end": 357.274,
+  "speaker": "Unknown",
+  "en": "And again, these don't show up in staging.",
+  "zh": "再说一次，这些问题不会在预发布环境中出现。"
+ },
+ {
+  "seg": 64,
+  "start": 357.514,
+  "end": 359.276,
+  "speaker": "Unknown",
+  "en": "They show up when users complain.",
+  "zh": "它们是在用户抱怨时出现的。"
+ },
+ {
+  "seg": 65,
+  "start": 359.737,
+  "end": 361.239,
+  "speaker": "Unknown",
+  "en": "They show up when you get a support ticket.",
+  "zh": "它们是在你收到支持工单时出现的。"
+ },
+ {
+  "seg": 66,
+  "start": 361.539,
+  "end": 371.032,
+  "speaker": "Unknown",
+  "en": "They show up when you get paged on call at 3 a.m. And that gap, it works in staging, didn't work in production, something sees off, is what I'm trying to close here.",
+  "zh": "它们是在凌晨 3 点你被值班传呼叫醒时出现的。而那个差距——在预发布环境正常、在生产环境不正常、感觉哪里不对劲——就是我在这里想要弥合的。"
+ },
+ {
+  "seg": 67,
+  "start": 375.418,
+  "end": 376.098,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 68,
+  "start": 376.118,
+  "end": 383.562,
+  "speaker": "Unknown",
+  "en": "So real quick, just to ground our kind of talk in an example, we have this thing called the Wonder Toys Assistant.",
+  "zh": "那么，为了把我们的讨论建立在一个例子上，快速说一下，我们有这个叫 Wonder Toys Assistant 的东西。"
+ },
+ {
+  "seg": 69,
+  "start": 384.503,
+  "end": 399.251,
+  "speaker": "Unknown",
+  "en": "It's a shopping assistant, very simple application, has a few tools available to it to search products, get product details, get the information required for one particular product, purchase that product, check an order status, and cancel an order.",
+  "zh": "它是一个购物助手，非常简单的应用，有几个可用的工具：搜索商品、获取商品详情、获取某个特定商品所需的信息、购买该商品、查询订单状态，以及取消订单。"
+ },
+ {
+  "seg": 70,
+  "start": 400.952,
+  "end": 415.097,
+  "speaker": "Unknown",
+  "en": "We have the OpenAI Agents SDK running on top of this, a fast API backend, search with a vector search and a text fallback, and it's traced to Arise, so you can actually see the source of truth for what that agent is doing in production.",
+  "zh": "我们在它上面运行 OpenAI Agents SDK，一个 fast API 后端，搜索采用向量搜索加文本回退，并且它被追踪到 Arise，所以你实际上可以看到该智能体在生产环境中所做事情的事实来源。"
+ },
+ {
+  "seg": 71,
+  "start": 416.398,
+  "end": 427.082,
+  "speaker": "Unknown",
+  "en": "And just to give you a little sneak preview of what that agent is, very simple, you have a web interface for Wonder Toys, and I'll zoom in a bit so you guys can see.",
+  "zh": "为了让大家先预览一下这个智能体是什么，非常简单，你有一个 Wonder Toys 的网页界面，我会放大一点好让你们看清。"
+ },
+ {
+  "seg": 72,
+  "start": 429.827,
+  "end": 444.736,
+  "speaker": "Unknown",
+  "en": "I can click on ask about the product, ask the agent to purchase the product, and don't worry, no real credit cards involved in this demo at all.",
+  "zh": "我可以点击询问商品相关问题，让智能体购买该商品，别担心，这个演示完全不涉及真实的信用卡。"
+ },
+ {
+  "seg": 73,
+  "start": 446.837,
+  "end": 447.898,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 74,
+  "start": 448.078,
+  "end": 451.48,
+  "speaker": "Unknown",
+  "en": "So that just grounds us a little bit in the example we'll be talking about today.",
+  "zh": "这样我们就在今天要讨论的例子上有了一点基础。"
+ },
+ {
+  "seg": 75,
+  "start": 454.718,
+  "end": 460.342,
+  "speaker": "Unknown",
+  "en": "And I think the key thing here is we're going to be going down a few routes to explain some of the new features in Arise.",
+  "zh": "而我觉得关键在于，我们将沿着几条路线来讲解 Arise 的一些新功能。"
+ },
+ {
+  "seg": 76,
+  "start": 462.143,
+  "end": 467.246,
+  "speaker": "Unknown",
+  "en": "But really, it's going to be four commands and then a bit of clicking around the UI interface.",
+  "zh": "但实际上，就是四条命令，再加上在 UI 界面里点几下。"
+ },
+ {
+  "seg": 77,
+  "start": 467.686,
+  "end": 469.067,
+  "speaker": "Unknown",
+  "en": "You're going to git clone the repo.",
+  "zh": "你要先 git clone 这个仓库。"
+ },
+ {
+  "seg": 78,
+  "start": 469.147,
+  "end": 472.569,
+  "speaker": "Unknown",
+  "en": "And don't worry, I'll flash back to this slide so you guys have enough time to walk through this.",
+  "zh": "别担心，我会切回这页幻灯片，好让你们有足够的时间走一遍。"
+ },
+ {
+  "seg": 79,
+  "start": 473.17,
+  "end": 474.911,
+  "speaker": "Unknown",
+  "en": "You're really just going to git clone the repo.",
+  "zh": "你真的只需要 git clone 这个仓库。"
+ },
+ {
+  "seg": 80,
+  "start": 477.1,
+  "end": 481.102,
+  "speaker": "Unknown",
+  "en": "Navigate to it, add your API keys, npm run dev.",
+  "zh": "进入目录，添加你的 API keys，npm run dev。"
+ },
+ {
+  "seg": 81,
+  "start": 481.343,
+  "end": 490.368,
+  "speaker": "Unknown",
+  "en": "And your tracing should be set up after you've gotten an API key from Arise and an OpenAI API key to run the OpenAI Agents SDK.",
+  "zh": "在你从 Arise 拿到一个 API key、再拿一个用来运行 OpenAI Agents SDK 的 OpenAI API key 之后，你的追踪就设置好了。"
+ },
+ {
+  "seg": 82,
+  "start": 490.588,
+  "end": 491.409,
+  "speaker": "Unknown",
+  "en": "And that's pretty much it.",
+  "zh": "基本上就是这样。"
+ },
+ {
+  "seg": 83,
+  "start": 491.489,
+  "end": 496.592,
+  "speaker": "Unknown",
+  "en": "And then once you start clicking around, you'll see that the traces automatically start flowing into Arise.",
+  "zh": "然后一旦你开始点来点去，你就会看到 trace 自动开始流入 Arise。"
+ },
+ {
+  "seg": 84,
+  "start": 503.996,
+  "end": 504.217,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 85,
+  "start": 506.043,
+  "end": 509.044,
+  "speaker": "Unknown",
+  "en": "We're going to get to how we can actually start breaking this thing.",
+  "zh": "我们接下来要讲如何真正开始把这个东西搞坏。"
+ },
+ {
+  "seg": 86,
+  "start": 509.264,
+  "end": 517.827,
+  "speaker": "Unknown",
+  "en": "But the specific bug I've put in this repo is around this idea of price gates.",
+  "zh": "但我放进这个仓库的具体 bug 是围绕价格门槛这个概念的。"
+ },
+ {
+  "seg": 87,
+  "start": 518.087,
+  "end": 522.288,
+  "speaker": "Unknown",
+  "en": "So most of the queries will work, and you guys are walking to play around with it on your own.",
+  "zh": "所以大多数查询都会正常工作，你们可以自己去玩玩看。"
+ },
+ {
+  "seg": 88,
+  "start": 523.328,
+  "end": 529.811,
+  "speaker": "Unknown",
+  "en": "But if you ask for a birthday gift under $30, you're going to be getting items over $30.",
+  "zh": "但如果你要一件 30 美元以下的生日礼物，你会得到 30 美元以上的商品。"
+ },
+ {
+  "seg": 89,
+  "start": 529.831,
+  "end": 533.813,
+  "speaker": "Unknown",
+  "en": "Very common edge case, one where a specific gate wasn't triggered.",
+  "zh": "非常常见的边缘情况，一个特定门槛没有被触发的情况。"
+ },
+ {
+  "seg": 90,
+  "start": 534.453,
+  "end": 542.616,
+  "speaker": "Unknown",
+  "en": "And without the actual context of the coding repo and the context of the traces, it's very hard to find edge cases like this.",
+  "zh": "而且如果没有代码仓库的实际上下文和 trace 的上下文，很难找到这样的边缘情况。"
+ },
+ {
+  "seg": 91,
+  "start": 544.217,
+  "end": 547.562,
+  "speaker": "Unknown",
+  "en": "in sort of an opaque system that's just emitting telemetry data.",
+  "zh": "在一个只是不断发出遥测数据的不透明系统里。"
+ },
+ {
+  "seg": 92,
+  "start": 548.283,
+  "end": 549.284,
+  "speaker": "Unknown",
+  "en": "The agent won't flag it.",
+  "zh": "智能体不会标记它。"
+ },
+ {
+  "seg": 93,
+  "start": 549.585,
+  "end": 551.948,
+  "speaker": "Unknown",
+  "en": "It'll return a confident list of completely wrong products.",
+  "zh": "它会返回一份完全错误的商品列表，而且非常自信。"
+ },
+ {
+  "seg": 94,
+  "start": 552.488,
+  "end": 555.713,
+  "speaker": "Unknown",
+  "en": "How do you actually write an eval for an edge case you haven't seen yet?",
+  "zh": "对于一个你还没见过的边缘情况，你到底怎么为它写评测？"
+ },
+ {
+  "seg": 95,
+  "start": 557.185,
+  "end": 564.009,
+  "speaker": "Unknown",
+  "en": "And so the first of the new features that we have in Arise to kind of talk through this is called Signal.",
+  "zh": "所以，我们在 Arise 里推出的第一个用于解决这类问题的新功能叫 Signal。"
+ },
+ {
+  "seg": 96,
+  "start": 564.089,
+  "end": 568.992,
+  "speaker": "Unknown",
+  "en": "Signal is an out-of-the-box agent that lives on the Arise platform in a sandbox.",
+  "zh": "Signal 是一个开箱即用的智能体，生活在 Arise 平台上的一个沙箱里。"
+ },
+ {
+  "seg": 97,
+  "start": 569.552,
+  "end": 572.854,
+  "speaker": "Unknown",
+  "en": "And it's really just one toggle to turn on in project settings.",
+  "zh": "而且真的只需要在项目设置里打开一个开关。"
+ },
+ {
+  "seg": 98,
+  "start": 573.474,
+  "end": 575.956,
+  "speaker": "Unknown",
+  "en": "And what Signal does is it continuously",
+  "zh": "Signal 做的事情是，它持续地"
+ },
+ {
+  "seg": 99,
+  "start": 576.756,
+  "end": 580.559,
+  "speaker": "Unknown",
+  "en": "Runs on your production traces in the background.",
+  "zh": "在后台对你的生产环境 trace 运行。"
+ },
+ {
+  "seg": 100,
+  "start": 580.699,
+  "end": 582.82,
+  "speaker": "Unknown",
+  "en": "And so what it'll do is it'll read every trace that's coming in.",
+  "zh": "所以它会做的是读取每一条进来的 trace。"
+ },
+ {
+  "seg": 101,
+  "start": 583.321,
+  "end": 589.345,
+  "speaker": "Unknown",
+  "en": "It'll start to cluster failures by root cause, dedupe those failures across runs if the same failures are occurring.",
+  "zh": "它会开始按根因对失败进行聚类，如果同样的失败在不同 run 中重复出现，会对这些失败去重。"
+ },
+ {
+  "seg": 102,
+  "start": 590.085,
+  "end": 595.489,
+  "speaker": "Unknown",
+  "en": "And because it is an agent with an entire harness, it can actually call to external tools.",
+  "zh": "并且因为它是一个带有完整 harness 的智能体，它实际上可以调用外部工具。"
+ },
+ {
+  "seg": 103,
+  "start": 595.869,
+  "end": 599.632,
+  "speaker": "Unknown",
+  "en": "So what you can do is you can connect Signal to your GitHub repo.",
+  "zh": "所以你可以做的是把 Signal 连接到你的 GitHub 仓库。"
+ },
+ {
+  "seg": 104,
+  "start": 600.032,
+  "end": 603.715,
+  "speaker": "Unknown",
+  "en": "You can connect Signal to downstream data sources like Datadog.",
+  "zh": "你可以把 Signal 连接到下游数据源，比如 Datadog。"
+ },
+ {
+  "seg": 105,
+  "start": 604.115,
+  "end": 622.262,
+  "speaker": "Unknown",
+  "en": "And what Signal will do is sitting on top of your trace data, which is a source of truth for what your agents are actually doing in production, it will then self-reflect and go look at the code for the agent that you're running, go look at downstream data sources like Datadog, and can actually write an investigation",
+  "zh": "Signal 会做的事情是，坐在你的 trace 数据之上——这些数据是你生产环境中智能体实际行为的真相来源——然后它会自我反思，去查看你正在运行的智能体的代码，去查看像 Datadog 这样的下游数据源，并且实际上可以写一份调查"
+ },
+ {
+  "seg": 106,
+  "start": 623.142,
+  "end": 629.746,
+  "speaker": "Unknown",
+  "en": "Write a severity entity type and collect some evidence for that and actually write a PR for you and open that PR.",
+  "zh": "写一个严重程度实体类型，收集一些证据，然后实际上为你写一个 PR 并提交那个 PR。"
+ },
+ {
+  "seg": 107,
+  "start": 630.446,
+  "end": 638.691,
+  "speaker": "Unknown",
+  "en": "So you're kind of flashing back to the beginning of this presentation that I was talking about where we have this evolution of software engineering.",
+  "zh": "所以你有点回想起我在这场演示开头讲的，我们有软件工程的演进。"
+ },
+ {
+  "seg": 108,
+  "start": 639.111,
+  "end": 646.095,
+  "speaker": "Unknown",
+  "en": "We're going really to that phase three where the agent is consuming its own telemetry data off of the ObserverU platform.",
+  "zh": "我们真正走向了第三阶段，智能体从 ObserverU 平台上消费它自己的遥测数据。"
+ },
+ {
+  "seg": 109,
+  "start": 646.516,
+  "end": 651.779,
+  "speaker": "Unknown",
+  "en": "It's then looking at its own code and then trying to propose a fix based on some evidence that it has.",
+  "zh": "然后它会查看自己的代码，然后基于它掌握的一些证据尝试提出一个修复方案。"
+ },
+ {
+  "seg": 110,
+  "start": 659.026,
+  "end": 659.286,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好。"
+ },
+ {
+  "seg": 111,
+  "start": 659.686,
+  "end": 661.488,
+  "speaker": "Unknown",
+  "en": "So that's the first part, Signal.",
+  "zh": "这是第一部分，Signal。"
+ },
+ {
+  "seg": 112,
+  "start": 662.989,
+  "end": 665.391,
+  "speaker": "Unknown",
+  "en": "The second part is really around this idea of skills.",
+  "zh": "第二部分围绕着 skills 这个概念。"
+ },
+ {
+  "seg": 113,
+  "start": 665.411,
+  "end": 670.394,
+  "speaker": "Unknown",
+  "en": "And we'll be having a workshop later today that goes really in-depth to all the skills that we've released.",
+  "zh": "今天晚些时候我们会有一个工作坊，深入讲解我们发布的所有 skills。"
+ },
+ {
+  "seg": 114,
+  "start": 670.454,
+  "end": 673.677,
+  "speaker": "Unknown",
+  "en": "But maybe you don't want to have that agent managed on Arise.",
+  "zh": "但也许你不想让那个智能体托管在 Arise 上。"
+ },
+ {
+  "seg": 115,
+  "start": 673.797,
+  "end": 677.82,
+  "speaker": "Unknown",
+  "en": "Maybe you just want to be able to pull data from some store that you have.",
+  "zh": "也许你只是想能够从你已有的某个存储中拉取数据。"
+ },
+ {
+  "seg": 116,
+  "start": 677.94,
+  "end": 680.342,
+  "speaker": "Unknown",
+  "en": "What we've also released is this concept of Arise skills.",
+  "zh": "我们还发布了一个概念，叫做 Arise skills。"
+ },
+ {
+  "seg": 117,
+  "start": 681.283,
+  "end": 684.445,
+  "speaker": "Unknown",
+  "en": "So Arise skills allow your coding agent that you're working in",
+  "zh": "Arise skills 让你正在使用的编码智能体"
+ },
+ {
+  "seg": 118,
+  "start": 684.765,
+  "end": 691.033,
+  "speaker": "Unknown",
+  "en": "Whether you're using Cursor, Claude Code, Codex, or 40-plus other coding agents, OpenCode or Ames, whatever it is.",
+  "zh": "无论你用的是 Cursor、Claude Code、Codex，还是 40 多个其他编码智能体，OpenCode 或 Ames，随便什么。"
+ },
+ {
+  "seg": 119,
+  "start": 691.674,
+  "end": 694.397,
+  "speaker": "Unknown",
+  "en": "And this can actually start to query the traces from Rai.",
+  "zh": "它实际上可以开始从 Rai 查询 trace。"
+ },
+ {
+  "seg": 120,
+  "start": 694.437,
+  "end": 703.768,
+  "speaker": "Unknown",
+  "en": "So a good example of that, I think, is give me one sec.",
+  "zh": "我想举一个很好的例子，稍等一下。"
+ },
+ {
+  "seg": 121,
+  "start": 710.822,
+  "end": 712.524,
+  "speaker": "Unknown",
+  "en": "I can actually ask my coding agents.",
+  "zh": "我实际上可以问我的编码智能体。"
+ },
+ {
+  "seg": 122,
+  "start": 712.564,
+  "end": 713.525,
+  "speaker": "Unknown",
+  "en": "This is just Claude Code.",
+  "zh": "这只是 Claude Code。"
+ },
+ {
+  "seg": 123,
+  "start": 713.585,
+  "end": 719.13,
+  "speaker": "Unknown",
+  "en": "But I can ask my coding agents to actually go read my traces once I'm in the repo.",
+  "zh": "但一旦我在仓库里，我可以让我的编码智能体实际去读取我的 trace。"
+ },
+ {
+  "seg": 124,
+  "start": 719.23,
+  "end": 727.958,
+  "speaker": "Unknown",
+  "en": "And so it'll be able to see what the agent's doing from the trace data as well as the actual code for that agent at the same time and make some really impactful fixes.",
+  "zh": "这样它就能同时从 trace 数据中看到智能体在做什么，以及那个智能体的实际代码，并做出一些非常有影响力的修复。"
+ },
+ {
+  "seg": 125,
+  "start": 734.482,
+  "end": 735.623,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好。"
+ },
+ {
+  "seg": 126,
+  "start": 735.723,
+  "end": 736.943,
+  "speaker": "Unknown",
+  "en": "So variety of skills.",
+  "zh": "所以有一系列 skills。"
+ },
+ {
+  "seg": 127,
+  "start": 736.963,
+  "end": 739.184,
+  "speaker": "Unknown",
+  "en": "We have skills for creating data sets off of failures.",
+  "zh": "我们有从失败中创建数据集的 skills。"
+ },
+ {
+  "seg": 128,
+  "start": 739.224,
+  "end": 749.63,
+  "speaker": "Unknown",
+  "en": "We have skills for going in and reading traces and doing some of that trace error analysis, as well as skills for actually running evaluators and running tasks on the platform as well.",
+  "zh": "我们有进去读取 trace 并做一些 trace 错误分析的 skills，还有实际运行评估器以及在平台上运行任务的 skills。"
+ },
+ {
+  "seg": 129,
+  "start": 751.065,
+  "end": 757.993,
+  "speaker": "Unknown",
+  "en": "So the first part of this kind of skills workflow is that Claude can actually write the fix for you because it's sitting in your coding repo.",
+  "zh": "所以这种 skills 工作流的第一部分是，Claude 实际上可以为你写修复，因为它就坐在你的代码仓库里。"
+ },
+ {
+  "seg": 130,
+  "start": 758.594,
+  "end": 760.736,
+  "speaker": "Unknown",
+  "en": "Similar to Signal, Signal is running on top.",
+  "zh": "和 Signal 类似，Signal 是在上面运行的。"
+ },
+ {
+  "seg": 131,
+  "start": 760.836,
+  "end": 762.839,
+  "speaker": "Unknown",
+  "en": "It has access to your GitHub repo.",
+  "zh": "它有访问你的 GitHub 仓库的权限。"
+ },
+ {
+  "seg": 132,
+  "start": 763.159,
+  "end": 764.801,
+  "speaker": "Unknown",
+  "en": "It can go push up a PR for you.",
+  "zh": "它可以为你推上去一个 PR。"
+ },
+ {
+  "seg": 133,
+  "start": 767.585,
+  "end": 771.506,
+  "speaker": "Unknown",
+  "en": "And so these two paths are sort of equivalent.",
+  "zh": "所以这两条路径某种意义上是等价的。"
+ },
+ {
+  "seg": 134,
+  "start": 771.566,
+  "end": 773.846,
+  "speaker": "Unknown",
+  "en": "You have Claude Code with the arise trace skills.",
+  "zh": "你有带着 arise trace skills 的 Claude Code。"
+ },
+ {
+  "seg": 135,
+  "start": 774.427,
+  "end": 776.227,
+  "speaker": "Unknown",
+  "en": "That's kind of like an on-demand method.",
+  "zh": "那更像是一种按需的方式。"
+ },
+ {
+  "seg": 136,
+  "start": 776.607,
+  "end": 785.149,
+  "speaker": "Unknown",
+  "en": "Let's say you're an engineer working on your product continuously, and you're actually sitting there and trying to improve it, versus Signal, which is the always-on sort of continuous method.",
+  "zh": "比如说，你是一名工程师，在持续开发你的产品，你实际坐在那里试图改进它；而相比之下，Signal 是那种始终在线的持续方式。"
+ },
+ {
+  "seg": 137,
+  "start": 785.309,
+  "end": 790.35,
+  "speaker": "Unknown",
+  "en": "It's continuously serving up new insights, new analysis for you based on your trace data.",
+  "zh": "它基于你的 trace 数据持续为你提供新的洞察、新的分析。"
+ },
+ {
+  "seg": 138,
+  "start": 792.839,
+  "end": 798.886,
+  "speaker": "Unknown",
+  "en": "And Signal, like I mentioned before, can actually kind of root cause that because it has access to your coding repo.",
+  "zh": "而且 Signal，就像我之前提到的，实际上可以进行根因分析，因为它有访问你代码仓库的权限。"
+ },
+ {
+  "seg": 139,
+  "start": 799.246,
+  "end": 800.888,
+  "speaker": "Unknown",
+  "en": "It can write an investigation report.",
+  "zh": "它可以写一份调查报告。"
+ },
+ {
+  "seg": 140,
+  "start": 802.129,
+  "end": 806.013,
+  "speaker": "Unknown",
+  "en": "And it can actually try to put up a PR based on that.",
+  "zh": "而且它实际上可以基于此尝试提交一个 PR。"
+ },
+ {
+  "seg": 141,
+  "start": 806.314,
+  "end": 808.876,
+  "speaker": "Unknown",
+  "en": "And it's not just individual traces that we're looking at.",
+  "zh": "而且我们看的不仅仅是个别的 trace。"
+ },
+ {
+  "seg": 142,
+  "start": 809.237,
+  "end": 812.18,
+  "speaker": "Unknown",
+  "en": "It's looking at the entire context of what your agent is actually doing in production.",
+  "zh": "它看的是你的智能体在生产环境中实际行为的整个上下文。"
+ },
+ {
+  "seg": 143,
+  "start": 814.225,
+  "end": 818.367,
+  "speaker": "Unknown",
+  "en": "So real quick because I want to get to the meat of this presentation.",
+  "zh": "那么快速说一下，因为我想进入这场演示的核心部分。"
+ },
+ {
+  "seg": 144,
+  "start": 819.027,
+  "end": 821.889,
+  "speaker": "Unknown",
+  "en": "I'm going to pause here and keep this slide up.",
+  "zh": "我会在这里暂停，保持这页幻灯片不翻。"
+ },
+ {
+  "seg": 145,
+  "start": 822.249,
+  "end": 829.112,
+  "speaker": "Unknown",
+  "en": "Like I mentioned before, we have Lori in the room and Aparna in the room to help out and run around and kind of help you guys set up.",
+  "zh": "就像我之前提到的，我们请了 Lori 和 Aparna 在现场，来帮忙、来回跑动，帮大家完成设置。"
+ },
+ {
+  "seg": 146,
+  "start": 829.533,
+  "end": 830.413,
+  "speaker": "Unknown",
+  "en": "Aparna is right here.",
+  "zh": "Aparna 就在这里。"
+ },
+ {
+  "seg": 147,
+  "start": 830.433,
+  "end": 834.635,
+  "speaker": "Unknown",
+  "en": "I think Lori is somewhere else in the room, but he'll be running around.",
+  "zh": "我记得 Lori 在房间的另一个地方，但他会来回跑动。"
+ },
+ {
+  "seg": 148,
+  "start": 835.035,
+  "end": 836.876,
+  "speaker": "Unknown",
+  "en": "And we got Dat as well from our team.",
+  "zh": "我们团队还有 Dat。"
+ },
+ {
+  "seg": 149,
+  "start": 837.637,
+  "end": 838.397,
+  "speaker": "Unknown",
+  "en": "So real quick.",
+  "zh": "那么快速说一下。"
+ },
+ {
+  "seg": 150,
+  "start": 839.767,
+  "end": 842.789,
+  "speaker": "Unknown",
+  "en": "These are literally the only four commands you have to run.",
+  "zh": "这些确实是你们只需要运行的四条命令。"
+ },
+ {
+  "seg": 151,
+  "start": 843.269,
+  "end": 850.494,
+  "speaker": "Unknown",
+  "en": "I would recommend signing up for a free account at arise.com to just get your Arise API key to start seeing some of the traces flowing in.",
+  "zh": "我建议在 arise.com 注册一个免费账户，拿到你的 Arise API key，开始看到一些 trace 流入。"
+ },
+ {
+  "seg": 152,
+  "start": 850.874,
+  "end": 854.276,
+  "speaker": "Unknown",
+  "en": "And you will need an OpenAI API key as well for this presentation.",
+  "zh": "而且在这个演示中，你还需要一个 OpenAI API key。"
+ },
+ {
+  "seg": 153,
+  "start": 854.796,
+  "end": 860.52,
+  "speaker": "Unknown",
+  "en": "So I'll pause here, leave this slide on, and then we can start walking through getting the traces for the wonder toy signal.",
+  "zh": "所以我先在这里暂停，把这张幻灯片留着，然后我们开始逐步获取 wonder toy signal 的 trace。"
+ },
+ {
+  "seg": 154,
+  "start": 861.02,
+  "end": 865.983,
+  "speaker": "Unknown",
+  "en": "And then what I'll do is we'll walk through how that loop actually starts to get into production.",
+  "zh": "接下来我要做的是，带大家走一遍这个循环实际上是如何开始进入生产环境的。"
+ },
+ {
+  "seg": 155,
+  "start": 866.924,
+  "end": 867.244,
+  "speaker": "Unknown",
+  "en": "So yeah.",
+  "zh": "那么好。"
+ },
+ {
+  "seg": 156,
+  "start": 871.027,
+  "end": 875.209,
+  "speaker": "Unknown",
+  "en": "And if anyone needs a key, Dat is more than willing to give you guys a key.",
+  "zh": "如果有人需要 key，Dat 非常愿意给你们提供一个 key。"
+ },
+ {
+  "seg": 157,
+  "start": 893.795,
+  "end": 895.516,
+  "speaker": "Unknown",
+  "en": "All right, how's progress going so far, guys?",
+  "zh": "好了，到目前为止进展怎么样，各位？"
+ },
+ {
+  "seg": 158,
+  "start": 898.31,
+  "end": 899.771,
+  "speaker": "Unknown",
+  "en": "And if you don't have your laptop, don't worry.",
+  "zh": "如果你们没有带笔记本，别担心。"
+ },
+ {
+  "seg": 159,
+  "start": 899.791,
+  "end": 904.714,
+  "speaker": "Unknown",
+  "en": "I'll be walking through sort of what this flow looks like if you were to have done it yourself as well.",
+  "zh": "我也会逐步讲解，如果你们自己来做的话，这个流程大概是什么样子。"
+ },
+ {
+  "seg": 160,
+  "start": 907.376,
+  "end": 913.96,
+  "speaker": "Unknown",
+  "en": "I'll give you guys maybe two to three more minutes to set up your API keys and to run these commands and clone the repo.",
+  "zh": "我再给你们两三分钟时间来设置 API key、运行这些命令并 clone 这个 repo。"
+ },
+ {
+  "seg": 161,
+  "start": 914,
+  "end": 917.682,
+  "speaker": "Unknown",
+  "en": "I know that the Wi-Fi has been a little wonky today, so I won't fault you guys for that.",
+  "zh": "我知道今天的 Wi-Fi 有点不稳定，所以我不会因此怪你们。"
+ },
+ {
+  "seg": 162,
+  "start": 925.447,
+  "end": 925.807,
+  "speaker": "Unknown",
+  "en": "No, you do.",
+  "zh": "不，你可以。"
+ },
+ {
+  "seg": 163,
+  "start": 928.854,
+  "end": 931.075,
+  "speaker": "Unknown",
+  "en": "You still get access to evaluators.",
+  "zh": "你仍然可以使用 evaluators。"
+ },
+ {
+  "seg": 164,
+  "start": 931.355,
+  "end": 933.636,
+  "speaker": "Unknown",
+  "en": "There's a few features like code evals and things like that.",
+  "zh": "有一些功能，比如 code evals 之类的。"
+ },
+ {
+  "seg": 165,
+  "start": 939.119,
+  "end": 945.802,
+  "speaker": "Unknown",
+  "en": "And for this flow, we'll mostly be showing how Claude Code can do that trace analysis for you through the skills and through signal.",
+  "zh": "而在这个流程中，我们主要会展示 Claude Code 如何通过 skills 和 signal 为你做 trace 分析。"
+ },
+ {
+  "seg": 166,
+  "start": 945.882,
+  "end": 948.103,
+  "speaker": "Unknown",
+  "en": "So it won't be necessary for this one.",
+  "zh": "所以对这个来说不是必需的。"
+ },
+ {
+  "seg": 167,
+  "start": 953.145,
+  "end": 954.505,
+  "speaker": "Unknown",
+  "en": "Anyone having any trouble?",
+  "zh": "有人遇到什么问题吗？"
+ },
+ {
+  "seg": 168,
+  "start": 954.605,
+  "end": 955.326,
+  "speaker": "Unknown",
+  "en": "Anyone need some help?",
+  "zh": "有人需要帮助吗？"
+ },
+ {
+  "seg": 169,
+  "start": 955.846,
+  "end": 958.107,
+  "speaker": "Unknown",
+  "en": "Feel free to raise your hand and we'll flit around the room.",
+  "zh": "随时举手，我们会在会场里到处跑。"
+ },
+ {
+  "seg": 170,
+  "start": 965.513,
+  "end": 965.773,
+  "speaker": "Unknown",
+  "en": "Sorry?",
+  "zh": "不好意思？"
+ },
+ {
+  "seg": 171,
+  "start": 970.896,
+  "end": 971.776,
+  "speaker": "Unknown",
+  "en": "Here, I'll jump down.",
+  "zh": "来，我跳下去。"
+ },
+ {
+  "seg": 172,
+  "start": 974.577,
+  "end": 974.857,
+  "speaker": "Unknown",
+  "en": "Sorry?",
+  "zh": "不好意思？"
+ },
+ {
+  "seg": 173,
+  "start": 977.259,
+  "end": 978.219,
+  "speaker": "Unknown",
+  "en": "The Git clone is stolen.",
+  "zh": "Git clone 被偷了。(按原文照译)"
+ },
+ {
+  "seg": 174,
+  "start": 979.68,
+  "end": 980.18,
+  "speaker": "Unknown",
+  "en": "Ah, OK.",
+  "zh": "啊，好的。"
+ },
+ {
+  "seg": 175,
+  "start": 980.92,
+  "end": 981.18,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好。"
+ },
+ {
+  "seg": 176,
+  "start": 981.36,
+  "end": 982.621,
+  "speaker": "Unknown",
+  "en": "That's probably a Wi-Fi issue.",
+  "zh": "那可能是 Wi-Fi 的问题。"
+ },
+ {
+  "seg": 177,
+  "start": 1003.121,
+  "end": 1008.963,
+  "speaker": "Unknown",
+  "en": "So if you guys are having Wi-Fi issues, let me know when you can start to see the repo pull up.",
+  "zh": "所以如果你们遇到 Wi-Fi 问题，等你们能看到 repo 拉取下来的时候告诉我。"
+ },
+ {
+  "seg": 178,
+  "start": 1009.263,
+  "end": 1013.524,
+  "speaker": "Unknown",
+  "en": "It might take a few seconds, but this is generally the structure of the repo.",
+  "zh": "可能需要几秒钟，但这大致就是这个 repo 的结构。"
+ },
+ {
+  "seg": 179,
+  "start": 1015.245,
+  "end": 1020.667,
+  "speaker": "Unknown",
+  "en": "We have kind of the agent, all the scripts that it needs, and a bunch of other things there.",
+  "zh": "我们有智能体、它需要的所有脚本，还有一堆其他东西。"
+ },
+ {
+  "seg": 180,
+  "start": 1020.727,
+  "end": 1023.968,
+  "speaker": "Unknown",
+  "en": "So I'll give you guys a few more seconds because I know the Wi-Fi is a little slow.",
+  "zh": "所以我再给你们几秒钟，因为我知道 Wi-Fi 有点慢。"
+ },
+ {
+  "seg": 181,
+  "start": 1024.708,
+  "end": 1030.77,
+  "speaker": "Unknown",
+  "en": "Once we get folks starting to get into the repo, please make sure to sign up for an API key as well.",
+  "zh": "一旦大家开始进入 repo，请确保也注册一个 API key。"
+ },
+ {
+  "seg": 182,
+  "start": 1031.53,
+  "end": 1034.213,
+  "speaker": "Unknown",
+  "en": "and get your OpenAI API key as well so we can get started.",
+  "zh": "并且也拿到你的 OpenAI API key，这样我们就可以开始了。"
+ },
+ {
+  "seg": 183,
+  "start": 1054.15,
+  "end": 1054.971,
+  "speaker": "Unknown",
+  "en": "Should I just keep going?",
+  "zh": "我要继续往下讲了吗？"
+ },
+ {
+  "seg": 184,
+  "start": 1055.011,
+  "end": 1056.192,
+  "speaker": "Unknown",
+  "en": "You want to just like do it alongside them?",
+  "zh": "你想跟着他们一起做一遍吗？"
+ },
+ {
+  "seg": 185,
+  "start": 1071.06,
+  "end": 1073.981,
+  "speaker": "Unknown",
+  "en": "And just a reminder, all you have to do is run those few commands.",
+  "zh": "提醒一下，你们只需要运行那几条命令。"
+ },
+ {
+  "seg": 186,
+  "start": 1074.001,
+  "end": 1077.242,
+  "speaker": "Unknown",
+  "en": "So you git clone the repo.",
+  "zh": "你们先 git clone 这个 repo。"
+ },
+ {
+  "seg": 187,
+  "start": 1077.982,
+  "end": 1079.982,
+  "speaker": "Unknown",
+  "en": "Then you'll cd into that repo.",
+  "zh": "然后 cd 进入那个 repo。"
+ },
+ {
+  "seg": 188,
+  "start": 1080.042,
+  "end": 1080.923,
+  "speaker": "Unknown",
+  "en": "So I'm already in there.",
+  "zh": "我已经在里面了。"
+ },
+ {
+  "seg": 189,
+  "start": 1083.343,
+  "end": 1084.924,
+  "speaker": "Unknown",
+  "en": "Then you'll npm install.",
+  "zh": "然后运行 npm install。"
+ },
+ {
+  "seg": 190,
+  "start": 1086.624,
+  "end": 1090.625,
+  "speaker": "Unknown",
+  "en": "And then make sure that you have your env file loaded.",
+  "zh": "然后确保你已经加载了你的 env 文件。"
+ },
+ {
+  "seg": 191,
+  "start": 1091.005,
+  "end": 1092.646,
+  "speaker": "Unknown",
+  "en": "This is where you're going to be putting your three keys.",
+  "zh": "这就是你要放那三个 key 的地方。"
+ },
+ {
+  "seg": 192,
+  "start": 1096.647,
+  "end": 1097.507,
+  "speaker": "Unknown",
+  "en": "No dot at the end here.",
+  "zh": "这里末尾不要加点。(按原文照译)"
+ },
+ {
+  "seg": 193,
+  "start": 1102.937,
+  "end": 1103.437,
+  "speaker": "Unknown",
+  "en": "Wait, sorry.",
+  "zh": "等等，抱歉。"
+ },
+ {
+  "seg": 194,
+  "start": 1104.217,
+  "end": 1104.657,
+  "speaker": "Unknown",
+  "en": "Which one?",
+  "zh": "哪一个？"
+ },
+ {
+  "seg": 195,
+  "start": 1117.761,
+  "end": 1118.821,
+  "speaker": "Unknown",
+  "en": "Oh, the .git at the end.",
+  "zh": "哦，末尾的 .git。"
+ },
+ {
+  "seg": 196,
+  "start": 1130.604,
+  "end": 1131.544,
+  "speaker": "Unknown",
+  "en": "For example, got it.",
+  "zh": "比如，明白了。"
+ },
+ {
+  "seg": 197,
+  "start": 1151.757,
+  "end": 1154.16,
+  "speaker": "Unknown",
+  "en": "Can't change it right now, but we'll get it going.",
+  "zh": "现在改不了，但我们会把它跑起来。"
+ },
+ {
+  "seg": 198,
+  "start": 1164.193,
+  "end": 1164.433,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好。"
+ },
+ {
+  "seg": 199,
+  "start": 1165.014,
+  "end": 1165.354,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好了。"
+ },
+ {
+  "seg": 200,
+  "start": 1165.554,
+  "end": 1166.014,
+  "speaker": "Unknown",
+  "en": "I'll start.",
+  "zh": "我来开始。"
+ },
+ {
+  "seg": 201,
+  "start": 1166.675,
+  "end": 1169.277,
+  "speaker": "Unknown",
+  "en": "I'll leave this up for maybe 10 more seconds.",
+  "zh": "我再等大概 10 秒钟。"
+ },
+ {
+  "seg": 202,
+  "start": 1170.277,
+  "end": 1170.818,
+  "speaker": "Unknown",
+  "en": "Very simple.",
+  "zh": "很简单。"
+ },
+ {
+  "seg": 203,
+  "start": 1171.058,
+  "end": 1172.519,
+  "speaker": "Unknown",
+  "en": "Make sure you put your M values in.",
+  "zh": "确保你把你的 M 值填进去。"
+ },
+ {
+  "seg": 204,
+  "start": 1173.18,
+  "end": 1177.503,
+  "speaker": "Unknown",
+  "en": "There may be a bug there as well, but just make sure you look for the .m file.",
+  "zh": "那里可能也有个 bug,但你只要确保找到那个 .m 文件。"
+ },
+ {
+  "seg": 205,
+  "start": 1177.783,
+  "end": 1179.104,
+  "speaker": "Unknown",
+  "en": "Input your own keys.",
+  "zh": "输入你自己的密钥。"
+ },
+ {
+  "seg": 206,
+  "start": 1180.445,
+  "end": 1188.731,
+  "speaker": "Unknown",
+  "en": "Just to show you an example, I will take this off so you don't see my keys, but there are some keys in there as well.",
+  "zh": "只是给你们看个例子，我会把这个拿掉，免得你们看到我的密钥，不过里面确实有一些密钥。"
+ },
+ {
+  "seg": 207,
+  "start": 1189.391,
+  "end": 1191.313,
+  "speaker": "Unknown",
+  "en": "And then you npm install and npm run dev.",
+  "zh": "然后 npm install 和 npm run dev。"
+ },
+ {
+  "seg": 208,
+  "start": 1193.336,
+  "end": 1201.202,
+  "speaker": "Unknown",
+  "en": "So what you'll then see is that your WonderToys interactions, so your interactions with this chatbot, are being traced to Arise.",
+  "zh": "这样你会看到，你的 WonderToys 交互，也就是你与这个聊天机器人的交互，正在被追踪到 Arise。"
+ },
+ {
+  "seg": 209,
+  "start": 1202.243,
+  "end": 1207.728,
+  "speaker": "Unknown",
+  "en": "And in your Arise traces, you'll actually be able to see the things that are coming in through this chatbot.",
+  "zh": "在你的 Arise 追踪记录中，你实际上能看到通过这个聊天机器人进来的内容。"
+ },
+ {
+  "seg": 210,
+  "start": 1207.748,
+  "end": 1210.49,
+  "speaker": "Unknown",
+  "en": "So I can see that I started an agent workflow.",
+  "zh": "我可以看到我启动了一个智能体工作流。"
+ },
+ {
+  "seg": 211,
+  "start": 1210.87,
+  "end": 1214.053,
+  "speaker": "Unknown",
+  "en": "The WonderToys agent then responded.",
+  "zh": "然后 WonderToys 智能体做出了响应。"
+ },
+ {
+  "seg": 212,
+  "start": 1214.573,
+  "end": 1219.377,
+  "speaker": "Unknown",
+  "en": "It searched products, took another turn, and actually found the products and returned them to me.",
+  "zh": "它搜索了产品，又进行了一轮，然后实际找到了产品并返回给我。"
+ },
+ {
+  "seg": 213,
+  "start": 1219.977,
+  "end": 1222.8,
+  "speaker": "Unknown",
+  "en": "And I can kind of see the output of what that agent is doing.",
+  "zh": "我可以大致看到那个智能体正在做的事情的输出。"
+ },
+ {
+  "seg": 214,
+  "start": 1223.22,
+  "end": 1225.381,
+  "speaker": "Unknown",
+  "en": "So this is kind of like baseline value prop.",
+  "zh": "这算是基线价值主张。"
+ },
+ {
+  "seg": 215,
+  "start": 1225.401,
+  "end": 1225.981,
+  "speaker": "Unknown",
+  "en": "Can I trace?",
+  "zh": "我能追踪吗？"
+ },
+ {
+  "seg": 216,
+  "start": 1226.061,
+  "end": 1227.362,
+  "speaker": "Unknown",
+  "en": "Can I understand what's going on?",
+  "zh": "我能理解正在发生什么吗？"
+ },
+ {
+  "seg": 217,
+  "start": 1228.302,
+  "end": 1233.445,
+  "speaker": "Unknown",
+  "en": "And then the second part of this that I wanted to show is sort of like some things that Signal can do on top of this.",
+  "zh": "接下来我想展示的第二部分，是在此基础上 Signal 能做一些事情。"
+ },
+ {
+  "seg": 218,
+  "start": 1233.945,
+  "end": 1236.766,
+  "speaker": "Unknown",
+  "en": "So you have all this trace data coming in through Arise.",
+  "zh": "你有所有这些通过 Arise 进来的追踪数据。"
+ },
+ {
+  "seg": 219,
+  "start": 1238.047,
+  "end": 1242.809,
+  "speaker": "Unknown",
+  "en": "And what you actually want to start doing is you want to enable Signal to actually run on top of your agents.",
+  "zh": "而你真正想开始做的，是让 Signal 实际运行在你的智能体之上。"
+ },
+ {
+  "seg": 220,
+  "start": 1245.71,
+  "end": 1249.112,
+  "speaker": "Unknown",
+  "en": "And I'll show you an example of Signal in a repo.",
+  "zh": "我会给你看一个仓库中 Signal 的例子。"
+ },
+ {
+  "seg": 221,
+  "start": 1250.498,
+  "end": 1252.519,
+  "speaker": "Unknown",
+  "en": "So Signal runs continuously in the background.",
+  "zh": "Signal 在后台持续运行。"
+ },
+ {
+  "seg": 222,
+  "start": 1252.639,
+  "end": 1256.041,
+  "speaker": "Unknown",
+  "en": "It takes a few minutes to actually get started once your traces start flowing in.",
+  "zh": "当你的追踪数据开始流入后，它实际需要几分钟才能启动。"
+ },
+ {
+  "seg": 223,
+  "start": 1256.821,
+  "end": 1257.461,
+  "speaker": "Unknown",
+  "en": "So I'll show you.",
+  "zh": "我来给你们演示。"
+ },
+ {
+  "seg": 224,
+  "start": 1258.082,
+  "end": 1259.682,
+  "speaker": "Unknown",
+  "en": "We're getting hit with a little slow Wi-Fi.",
+  "zh": "我们的 Wi-Fi 有点慢。"
+ },
+ {
+  "seg": 225,
+  "start": 1259.702,
+  "end": 1266.746,
+  "speaker": "Unknown",
+  "en": "But I'll show you an example of Signal already set up and ready to go and how it's doing that loop of self-improvement.",
+  "zh": "但我会给你们展示一个已经设置好、准备就绪的 Signal 的例子，以及它如何进行那个自我改进的循环。"
+ },
+ {
+  "seg": 226,
+  "start": 1290.033,
+  "end": 1293.135,
+  "speaker": "Unknown",
+  "en": "So kind of like I mentioned earlier, traces are flowing in through Arise.",
+  "zh": "就像我之前提到的，追踪数据通过 Arise 流入。"
+ },
+ {
+  "seg": 227,
+  "start": 1293.215,
+  "end": 1295.456,
+  "speaker": "Unknown",
+  "en": "Every interaction you do with the app comes in.",
+  "zh": "你与应用的每一次交互都会进来。"
+ },
+ {
+  "seg": 228,
+  "start": 1296.416,
+  "end": 1299.078,
+  "speaker": "Unknown",
+  "en": "And then this is sort of what Signal looks like.",
+  "zh": "这大概就是 Signal 的样子。"
+ },
+ {
+  "seg": 229,
+  "start": 1300.338,
+  "end": 1307.142,
+  "speaker": "Unknown",
+  "en": "So Signal has kind of this clustering analysis of different issues that it's seeing across your application.",
+  "zh": "Signal 会对它在你的应用中看到的各种问题进行聚类分析。"
+ },
+ {
+  "seg": 230,
+  "start": 1307.982,
+  "end": 1312.564,
+  "speaker": "Unknown",
+  "en": "You'll see sort of this table of categorization of what those issues are.",
+  "zh": "你会看到一张对这些问题的分类表格。"
+ },
+ {
+  "seg": 231,
+  "start": 1313.325,
+  "end": 1315.266,
+  "speaker": "Unknown",
+  "en": "You can see those issues trending over time.",
+  "zh": "你可以看到这些问题随时间的趋势。"
+ },
+ {
+  "seg": 232,
+  "start": 1316.046,
+  "end": 1319.068,
+  "speaker": "Unknown",
+  "en": "And then you can actually go read examples of what that are.",
+  "zh": "然后你实际上可以去阅读它们的具体例子。"
+ },
+ {
+  "seg": 233,
+  "start": 1319.768,
+  "end": 1325.552,
+  "speaker": "Unknown",
+  "en": "So in this example, we can see some serialization issues with Python.",
+  "zh": "在这个例子里，我们可以看到一些 Python 的序列化问题。"
+ },
+ {
+  "seg": 234,
+  "start": 1326.213,
+  "end": 1329.255,
+  "speaker": "Unknown",
+  "en": "And that is corrupting the agent input.",
+  "zh": "这正在破坏智能体的输入。"
+ },
+ {
+  "seg": 235,
+  "start": 1329.655,
+  "end": 1332.658,
+  "speaker": "Unknown",
+  "en": "And you'll see that it actually opened a PR for me already.",
+  "zh": "你们会看到它实际上已经为我打开了一个 PR。"
+ },
+ {
+  "seg": 236,
+  "start": 1333.778,
+  "end": 1337.361,
+  "speaker": "Unknown",
+  "en": "And so I can just one click go into that PR and start viewing it.",
+  "zh": "我只需一键点击就能进入那个 PR 并开始查看。"
+ },
+ {
+  "seg": 237,
+  "start": 1338.802,
+  "end": 1343.705,
+  "speaker": "Unknown",
+  "en": "There's also this idea of writing at least the ticket out of that investigation.",
+  "zh": "还有这么一个概念，即至少把调查结果写成工单。"
+ },
+ {
+  "seg": 238,
+  "start": 1343.805,
+  "end": 1359.215,
+  "speaker": "Unknown",
+  "en": "So you'll see this overview of what this stock agent is doing, fabricating results, for example, a hypothesis of why that's happening, evidence for that within an individual trace, and then a proposed fix for you to go and then do yourself.",
+  "zh": "你们会看到这个 stock 智能体正在做什么的概览，比如编造结果，关于为什么会发生这种情况的假设，单个追踪记录中的证据，然后是给你自己去执行的一个修复建议。"
+ },
+ {
+  "seg": 239,
+  "start": 1360.415,
+  "end": 1365.339,
+  "speaker": "Unknown",
+  "en": "So kind of going back to this concept of agents consuming the telemetry data,",
+  "zh": "回到智能体消费遥测数据这个概念，"
+ },
+ {
+  "seg": 240,
+  "start": 1366.199,
+  "end": 1371.345,
+  "speaker": "Unknown",
+  "en": "This agent is sitting in the back consuming the telemetry data, actually writing out the evidence and proposing a fix for you.",
+  "zh": "这个智能体在后台消费遥测数据，实际写出证据并为你提出修复方案。"
+ },
+ {
+  "seg": 241,
+  "start": 1372.527,
+  "end": 1375.611,
+  "speaker": "Unknown",
+  "en": "In this example, we've still left the code review to a human.",
+  "zh": "在这个例子里，我们仍然把代码审查留给了人类。"
+ },
+ {
+  "seg": 242,
+  "start": 1376.011,
+  "end": 1378.054,
+  "speaker": "Unknown",
+  "en": "Your mind's the limit on how far you want to take these things.",
+  "zh": "你想把这些东西推进到什么程度，全凭你的想象。"
+ },
+ {
+  "seg": 243,
+  "start": 1378.094,
+  "end": 1379.756,
+  "speaker": "Unknown",
+  "en": "We do recommend you do that as well.",
+  "zh": "我们也建议你这么做。"
+ },
+ {
+  "seg": 244,
+  "start": 1381.117,
+  "end": 1385.443,
+  "speaker": "Unknown",
+  "en": "But kind of this idea of the self-healing software you can see in action.",
+  "zh": "但这种自愈软件的概念，你们已经可以看到实际运行了。"
+ },
+ {
+  "seg": 245,
+  "start": 1387.8,
+  "end": 1390.241,
+  "speaker": "Unknown",
+  "en": "How are we feeling on setup?",
+  "zh": "大家环境搭建得怎么样了？"
+ },
+ {
+  "seg": 246,
+  "start": 1390.361,
+  "end": 1393.121,
+  "speaker": "Unknown",
+  "en": "Was the Wi-Fi able to get up and running for people?",
+  "zh": "Wi-Fi 能让大家跑起来吗？"
+ },
+ {
+  "seg": 247,
+  "start": 1393.301,
+  "end": 1394.021,
+  "speaker": "Unknown",
+  "en": "Were you able to?",
+  "zh": "你们能做到吗？"
+ },
+ {
+  "seg": 248,
+  "start": 1394.281,
+  "end": 1394.441,
+  "speaker": "Unknown",
+  "en": "No?",
+  "zh": "不行吗？"
+ },
+ {
+  "seg": 249,
+  "start": 1394.642,
+  "end": 1395.082,
+  "speaker": "Unknown",
+  "en": "OK, cool.",
+  "zh": "好的，明白了。"
+ },
+ {
+  "seg": 250,
+  "start": 1395.462,
+  "end": 1397.582,
+  "speaker": "Unknown",
+  "en": "I will continue through the presentation.",
+  "zh": "我将继续进行演示。"
+ },
+ {
+  "seg": 251,
+  "start": 1397.982,
+  "end": 1401.483,
+  "speaker": "Unknown",
+  "en": "And maybe we can take some time at the end as well to kind of flit around the room and help you out.",
+  "zh": "也许我们最后也可以留一些时间,在房间里到处走一走,为大家提供帮助。"
+ },
+ {
+  "seg": 252,
+  "start": 1404.904,
+  "end": 1410.145,
+  "speaker": "Unknown",
+  "en": "So kind of the four steps that I wanted to walk through you guys were, one, detect.",
+  "zh": "所以我想带大家走一遍的四个步骤是,第一,检测。"
+ },
+ {
+  "seg": 253,
+  "start": 1410.685,
+  "end": 1413.846,
+  "speaker": "Unknown",
+  "en": "So surface the fallback failure before a user had reported it.",
+  "zh": "也就是在用户报告之前,把 fallback 失败暴露出来。"
+ },
+ {
+  "seg": 254,
+  "start": 1414.719,
+  "end": 1423.47,
+  "speaker": "Unknown",
+  "en": "Two, based on that failure and evals running in your platform, actually investigate what's happening with real traces.",
+  "zh": "第二,基于那次失败以及在你们平台上运行的 evals,用真实的 trace 实际调查发生了什么。"
+ },
+ {
+  "seg": 255,
+  "start": 1424.271,
+  "end": 1427.535,
+  "speaker": "Unknown",
+  "en": "And so in our example, there was a bug with the price check.",
+  "zh": "在我们的例子里,价格检查有一个 bug。"
+ },
+ {
+  "seg": 256,
+  "start": 1428.036,
+  "end": 1432.761,
+  "speaker": "Unknown",
+  "en": "And so what Signal and your skills via Claude Code was able to do was",
+  "zh": "而 Signal 以及通过 Claude Code 使用的 skills 能够做的是"
+ },
+ {
+  "seg": 257,
+  "start": 1433.342,
+  "end": 1434.203,
+  "speaker": "Unknown",
+  "en": "Look at the traces.",
+  "zh": "我们有这个核心循环的想法,它运行在一个真实的智能体上,检测 H 过滤 bug 相关的问题,通过 arise trace goal 或通过 Signal 进行调查,修复"
+ },
+ {
+  "seg": 258,
+  "start": 1434.623,
+  "end": 1439.345,
+  "speaker": "Unknown",
+  "en": "Look at what a user is asking within the trace around the price being under $30.",
+  "zh": "查看 trace 中用户围绕价格低于 30 美元所提出的问题。"
+ },
+ {
+  "seg": 259,
+  "start": 1439.966,
+  "end": 1446.569,
+  "speaker": "Unknown",
+  "en": "Actually marry that to an investigation of the code path that checks the price filter and then propose a fix for you.",
+  "zh": "把它与对检查价格过滤器的代码路径的调查真正结合起来,然后为你们提出一个修复方案。"
+ },
+ {
+  "seg": 260,
+  "start": 1446.629,
+  "end": 1457.735,
+  "speaker": "Unknown",
+  "en": "So in my code, there was a bug with how I was actually doing that price filter and using Signal, using the trace data that's in Arise, and using the skills via Claude Code.",
+  "zh": "所以在我的代码里,我做价格过滤的方式有一个 bug,而借助 Signal,借助 Arise 里的 trace 数据,以及通过 Claude Code 使用的 skills,"
+ },
+ {
+  "seg": 261,
+  "start": 1458.095,
+  "end": 1462.478,
+  "speaker": "Unknown",
+  "en": "I was able to see that interaction happen with a real user and then fix that",
+  "zh": "我能够看到与真实用户发生的那个交互,然后修复它,"
+ },
+ {
+  "seg": 262,
+  "start": 1463.058,
+  "end": 1466.34,
+  "speaker": "Unknown",
+  "en": "You know, kind of wrong filter in my code for the agent.",
+  "zh": "你知道,也就是修复我代码里针对智能体的那个错误的过滤器。"
+ },
+ {
+  "seg": 263,
+  "start": 1466.54,
+  "end": 1468.842,
+  "speaker": "Unknown",
+  "en": "And then finally, we have this verify path.",
+  "zh": "最后,我们有这个验证路径。"
+ },
+ {
+  "seg": 264,
+  "start": 1468.902,
+  "end": 1473.585,
+  "speaker": "Unknown",
+  "en": "Wasn't planning to get to it today because it is a little bit of setup, but happy to kind of talk through that.",
+  "zh": "我本来没打算今天讲到它,因为它需要一些设置,不过我很乐意聊一聊。"
+ },
+ {
+  "seg": 265,
+  "start": 1473.685,
+  "end": 1476.987,
+  "speaker": "Unknown",
+  "en": "And then we'll make sure to kind of return when the Wi-Fi is good as well.",
+  "zh": "然后等 Wi-Fi 好一些的时候,我们也会确保回过头来再讲。"
+ },
+ {
+  "seg": 266,
+  "start": 1478.172,
+  "end": 1481.694,
+  "speaker": "Unknown",
+  "en": "So again, just a quick recap on the basics here.",
+  "zh": "所以,再快速回顾一下这里的基础内容。"
+ },
+ {
+  "seg": 267,
+  "start": 1483.055,
+  "end": 1497.004,
+  "speaker": "Unknown",
+  "en": "We have this idea of the core loop running on a real agent, which detects the issue around the H filtering bug, investigates using the arise trace goal or through signal, fixes",
+  "zh": "我们有一个核心循环运行在真实智能体上的想法,它会检测 H 过滤 bug 周围的问题,使用 arise trace goal 或通过信号进行调查,并修复"
+ },
+ {
+  "seg": 268,
+  "start": 1497.925,
+  "end": 1509.751,
+  "speaker": "Unknown",
+  "en": "That issue, Claude actually patching the fallback, and then verify it, which I'll kind of walk through how that works in Arise as well, with harness as a judge and agent experiments.",
+  "zh": "那个问题,Claude 实际为 fallback 打了补丁,然后验证它,我也会讲讲这在 Arise 里是如何工作的,即 harness as a judge 和智能体实验。"
+ },
+ {
+  "seg": 269,
+  "start": 1510.391,
+  "end": 1517.575,
+  "speaker": "Unknown",
+  "en": "And then Signal, it'll kind of do this in parallel as well for when you don't want to be hands-on with the keyboard and want to run this in the background.",
+  "zh": "而 Signal 也会并行地做这些,适用于你不想亲手敲键盘、想在后台运行这一切的时候。"
+ },
+ {
+  "seg": 270,
+  "start": 1517.655,
+  "end": 1520.356,
+  "speaker": "Unknown",
+  "en": "Signal will be tuned to your own taxonomy, your own traces.",
+  "zh": "Signal 会根据你自己的分类体系、你自己的 traces 进行调优。"
+ },
+ {
+  "seg": 271,
+  "start": 1522.057,
+  "end": 1524.559,
+  "speaker": "Unknown",
+  "en": "You can also configure it to be set off alerts.",
+  "zh": "你也可以配置它来触发警报。"
+ },
+ {
+  "seg": 272,
+  "start": 1525.339,
+  "end": 1539.847,
+  "speaker": "Unknown",
+  "en": "So for example, if you have an alert on a specific eval that needs to stay below 1% trigger rate, you can configure a signal to be triggered off of an alert or a latency spike or a cost spike or anything like that.",
+  "zh": "举例来说,如果你在某个特定的 eval 上设了警报,需要保持触发率低于 1%,你可以配置一个 signal,由一个警报、一次延迟飙升、一次成本飙升或任何类似情况来触发。"
+ },
+ {
+  "seg": 273,
+  "start": 1540.147,
+  "end": 1544.269,
+  "speaker": "Unknown",
+  "en": "You can then have custom harness judges running in CI on those PRs.",
+  "zh": "然后你可以在 CI 里让自定义的 harness judges 在那些 PR 上运行。"
+ },
+ {
+  "seg": 274,
+  "start": 1545.31,
+  "end": 1549.032,
+  "speaker": "Unknown",
+  "en": "You can experiment with those, and then you can kind of optimize things from there.",
+  "zh": "你可以对它们进行实验,然后从这里开始进行优化。"
+ },
+ {
+  "seg": 275,
+  "start": 1550.417,
+  "end": 1554.781,
+  "speaker": "Unknown",
+  "en": "And quick shout out as well, at 2 PM, Lori will be doing a workshop.",
+  "zh": "另外快速提一下,下午 2 点,Lori 会做一个工作坊。"
+ },
+ {
+  "seg": 276,
+  "start": 1554.801,
+  "end": 1560.786,
+  "speaker": "Unknown",
+  "en": "Hopefully, the Wi-Fi is a little bit better as well, where we dive deep into some of these workflows as well.",
+  "zh": "希望 Wi-Fi 到时候也能好一些,我们会深入讲解其中一些工作流程。"
+ },
+ {
+  "seg": 277,
+  "start": 1561.967,
+  "end": 1564.849,
+  "speaker": "Unknown",
+  "en": "So kind of centering us, I talked about this loop.",
+  "zh": "回到正题,我讲过这个循环。"
+ },
+ {
+  "seg": 278,
+  "start": 1565.09,
+  "end": 1567.532,
+  "speaker": "Unknown",
+  "en": "I think we all kind of get the picture of I have an app.",
+  "zh": "我想大家都大致明白了这个图景:我有一个应用。"
+ },
+ {
+  "seg": 279,
+  "start": 1568.092,
+  "end": 1568.713,
+  "speaker": "Unknown",
+  "en": "It's traced.",
+  "zh": "它被追踪了。"
+ },
+ {
+  "seg": 280,
+  "start": 1569.213,
+  "end": 1570.274,
+  "speaker": "Unknown",
+  "en": "Those traces flow in.",
+  "zh": "那些 traces 流入。"
+ },
+ {
+  "seg": 281,
+  "start": 1570.774,
+  "end": 1575.839,
+  "speaker": "Unknown",
+  "en": "And then in addition to the trace data, whether it's Signal, whether it's your own coding agents,",
+  "zh": "除了 trace 数据之外,无论是 Signal,还是你自己的编码智能体,"
+ },
+ {
+  "seg": 282,
+  "start": 1576.179,
+  "end": 1590.878,
+  "speaker": "Unknown",
+  "en": "Having trace data, which is the source of truth for what your agent is doing, as well as your actual repo data, which is the code that defines what your agent should be doing, you get some really, really interesting analysis and the ability to actually make improvements at scale.",
+  "zh": "拥有 trace 数据——它是你的智能体正在做什么的真相来源——以及你实际的仓库数据——它是定义你的智能体应该做什么的代码——你就能得到非常、非常有趣的分析,以及真正大规模进行改进的能力。"
+ },
+ {
+  "seg": 283,
+  "start": 1592.649,
+  "end": 1598.494,
+  "speaker": "Unknown",
+  "en": "I think one thing that we didn't talk about yet that I want to get into is how do we evaluate agents using agents?",
+  "zh": "我想有一个我们还没谈到、而我想深入讲的一点是:我们如何用智能体来评估智能体?"
+ },
+ {
+  "seg": 284,
+  "start": 1598.594,
+  "end": 1604.94,
+  "speaker": "Unknown",
+  "en": "So this is an example of pull the traces, look at my code, figure out what's wrong.",
+  "zh": "所以这是一个例子:拉取 traces,查看我的代码,找出问题所在。"
+ },
+ {
+  "seg": 285,
+  "start": 1605.421,
+  "end": 1610.625,
+  "speaker": "Unknown",
+  "en": "When you want to have this more adaptive analysis, we tend to think of it as harness as a judge.",
+  "zh": "当你想要这种更具适应性的分析时,我们倾向于把它称为 harness as a judge。"
+ },
+ {
+  "seg": 286,
+  "start": 1611.046,
+  "end": 1615.39,
+  "speaker": "Unknown",
+  "en": "So I think raise your hands if you guys are familiar with LLM as a judge, loosely speaking.",
+  "zh": "所以我觉得如果你们大致熟悉 LLM as a judge 的话,请举手。"
+ },
+ {
+  "seg": 287,
+  "start": 1616.74,
+  "end": 1616.98,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 288,
+  "start": 1617.16,
+  "end": 1617.42,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 289,
+  "start": 1617.44,
+  "end": 1621.261,
+  "speaker": "Unknown",
+  "en": "I think pretty much everyone in the room should be familiar with that at this point.",
+  "zh": "我想在座几乎每个人此刻都应该熟悉它了。"
+ },
+ {
+  "seg": 290,
+  "start": 1621.281,
+  "end": 1637.824,
+  "speaker": "Unknown",
+  "en": "A very common pattern, you feed in an input, your LLM as a judge reads the input, whether it's a summarization task or a hallucination eval, whatever it is, it then responds with a set of rails on how well the agent did on the response.",
+  "zh": "一种非常常见的模式:你输入一个 input,你的 LLM as a judge 读取这个 input,无论它是摘要任务还是幻觉 eval 或其他什么,然后它以一组 rails 做出响应,评价智能体在该响应上的表现。"
+ },
+ {
+  "seg": 291,
+  "start": 1638.344,
+  "end": 1642.725,
+  "speaker": "Unknown",
+  "en": "What we're really moving to is Harness as a judge, and this is for a few different reasons.",
+  "zh": "我们真正正在转向的是 Harness as a judge,这有几个不同的原因。"
+ },
+ {
+  "seg": 292,
+  "start": 1642.785,
+  "end": 1644.045,
+  "speaker": "Unknown",
+  "en": "I think, firstly,",
+  "zh": "我想,首先,"
+ },
+ {
+  "seg": 293,
+  "start": 1645.145,
+  "end": 1646.968,
+  "speaker": "Unknown",
+  "en": "LM as a judge is really a fixed rubric.",
+  "zh": "LM as a judge 实际上是一个固定的评分标准。"
+ },
+ {
+  "seg": 294,
+  "start": 1647.008,
+  "end": 1654.661,
+  "speaker": "Unknown",
+  "en": "So when you have a use case in mind and when you have an eval that you know you want to score on, it works really well at catching those known issues.",
+  "zh": "所以当你心里有一个明确的用例,当你知道你要对某个 eval 打分时,它在捕捉那些已知问题上效果非常好。"
+ },
+ {
+  "seg": 295,
+  "start": 1655.342,
+  "end": 1657.906,
+  "speaker": "Unknown",
+  "en": "However, like I just kind of explained with the price filter,",
+  "zh": "然而,就像我刚才用价格过滤器解释的那样,"
+ },
+ {
+  "seg": 296,
+  "start": 1658.92,
+  "end": 1662.621,
+  "speaker": "Unknown",
+  "en": "You don't always know what those issues are going to be like before you hit production.",
+  "zh": "在你进入生产环境之前,你并不总是知道那些问题会是什么样子。"
+ },
+ {
+  "seg": 297,
+  "start": 1663.181,
+  "end": 1667.383,
+  "speaker": "Unknown",
+  "en": "And so Harness as a judge is a way to do that adaptive analysis.",
+  "zh": "所以 Harness as a judge 是做那种适应性分析的一种方式。"
+ },
+ {
+  "seg": 298,
+  "start": 1668.523,
+  "end": 1675.565,
+  "speaker": "Unknown",
+  "en": "So observe what the agent is actually doing and adjust what you actually test as the agent goes.",
+  "zh": "也就是观察智能体实际在做什么,并随着智能体的运行调整你实际测试的内容。"
+ },
+ {
+  "seg": 299,
+  "start": 1675.885,
+  "end": 1678.166,
+  "speaker": "Unknown",
+  "en": "So the criteria kind of emerges from the trajectory.",
+  "zh": "所以评判标准是从轨迹中涌现出来的。"
+ },
+ {
+  "seg": 300,
+  "start": 1679.186,
+  "end": 1680.407,
+  "speaker": "Unknown",
+  "en": "Was this the right tool to pick?",
+  "zh": "这是选对的工具了吗?"
+ },
+ {
+  "seg": 301,
+  "start": 1680.847,
+  "end": 1681.967,
+  "speaker": "Unknown",
+  "en": "Were the arguments valid?",
+  "zh": "论据是否成立?"
+ },
+ {
+  "seg": 302,
+  "start": 1682.408,
+  "end": 1686.789,
+  "speaker": "Unknown",
+  "en": "Was this grounded in the right context that was handed off by another agent, for example?",
+  "zh": "它是否扎根于正确的上下文,比如由另一个智能体交接过来的?"
+ },
+ {
+  "seg": 303,
+  "start": 1687.269,
+  "end": 1688.832,
+  "speaker": "Unknown",
+  "en": "This idea of that unknown unknown.",
+  "zh": "这就是那种未知的未知的概念。"
+ },
+ {
+  "seg": 304,
+  "start": 1688.852,
+  "end": 1701.873,
+  "speaker": "Unknown",
+  "en": "So that price filter was an example where I wouldn't have written maybe a test case for that, but a harness as a judge is able to kind of do that adaptive analysis for me with the trace analysis that it has in it.",
+  "zh": "那个价格过滤器就是一个例子,我可能不会为它写测试用例,但 harness 作为裁判能够用它内置的轨迹分析为我做那种自适应分析。"
+ },
+ {
+  "seg": 305,
+  "start": 1703.892,
+  "end": 1707.455,
+  "speaker": "Unknown",
+  "en": "So this is sort of like verifying in plain language.",
+  "zh": "所以这有点像是用自然语言来验证。"
+ },
+ {
+  "seg": 306,
+  "start": 1707.776,
+  "end": 1710.218,
+  "speaker": "Unknown",
+  "en": "You're not column mapping.",
+  "zh": "你不是在写列映射。"
+ },
+ {
+  "seg": 307,
+  "start": 1710.238,
+  "end": 1713.722,
+  "speaker": "Unknown",
+  "en": "You're not writing boilerplate, you know, sort of eval templates and text.",
+  "zh": "你不是在写样板式的评估模板和文本。"
+ },
+ {
+  "seg": 308,
+  "start": 1714.282,
+  "end": 1722.49,
+  "speaker": "Unknown",
+  "en": "The rubric is really just a sentence, and it reads the actual trace tree directly, then runs in a sandbox against those real traces.",
+  "zh": "评分标准其实就是一句话,它直接读取实际的轨迹树,然后在沙箱中针对那些真实轨迹运行。"
+ },
+ {
+  "seg": 309,
+  "start": 1724.192,
+  "end": 1730.096,
+  "speaker": "Unknown",
+  "en": "And so I think it gives you a bunch of tools on top of that because it also runs in an environment.",
+  "zh": "所以我认为它在此基础上给了你很多工具,因为它还在一个环境中运行。"
+ },
+ {
+  "seg": 310,
+  "start": 1730.656,
+  "end": 1734.958,
+  "speaker": "Unknown",
+  "en": "So one example that I see from a lot of customers is around this idea of access checks.",
+  "zh": "我从很多客户那里看到的一个例子是围绕访问检查这个概念。"
+ },
+ {
+  "seg": 311,
+  "start": 1735.719,
+  "end": 1739.581,
+  "speaker": "Unknown",
+  "en": "An LLM as a judge might be able to read an input and read an output.",
+  "zh": "LLM 作为裁判也许能读取一个输入和读取一个输出。"
+ },
+ {
+  "seg": 312,
+  "start": 1740.061,
+  "end": 1751.168,
+  "speaker": "Unknown",
+  "en": "But because it has no data outside of that, unless you paste in every user in the system into the system prompt, it doesn't actually know or have context on what that user should be doing or should have access to.",
+  "zh": "但因为它在此外没有任何数据,除非你把系统里的每个用户都粘贴进系统提示词,否则它实际上不知道、也没有上下文了解那个用户应该做什么、应该有什么访问权限。"
+ },
+ {
+  "seg": 313,
+  "start": 1751.768,
+  "end": 1759.934,
+  "speaker": "Unknown",
+  "en": "Whereas a harness as a judge, because you can connect it to external systems, it can then go make a call to actually say, hey, is this user allowed to do this?",
+  "zh": "而 harness 作为裁判,因为你可以把它连接到外部系统,它可以实际发起一次调用去问:嘿,这个用户被允许做这件事吗?"
+ },
+ {
+  "seg": 314,
+  "start": 1760.535,
+  "end": 1763.637,
+  "speaker": "Unknown",
+  "en": "Does the trace reflect the access that they had?",
+  "zh": "轨迹是否反映了他们所拥有的访问权限?"
+ },
+ {
+  "seg": 315,
+  "start": 1764.718,
+  "end": 1779.87,
+  "speaker": "Unknown",
+  "en": "And so harness as a judge is essentially moving from just a foundational model call that scores an input and then comes out with an output rail to a more agentic flow where you can actually call tools and sort of do that unknown unknown catching as well.",
+  "zh": "所以 harness 作为裁判本质上是把「一个对输入打分然后产出输出护栏的基础模型调用」升级为一种更智能体的流程,你可以实际调用工具,并且也能做那种未知的未知的捕捉。"
+ },
+ {
+  "seg": 316,
+  "start": 1787.215,
+  "end": 1788.477,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 317,
+  "start": 1788.878,
+  "end": 1793.304,
+  "speaker": "Unknown",
+  "en": "So I think we kind of talked about harness as a judge.",
+  "zh": "所以我觉得我们已经大致讲了 harness 作为裁判。"
+ },
+ {
+  "seg": 318,
+  "start": 1794.306,
+  "end": 1802.458,
+  "speaker": "Unknown",
+  "en": "How that would have worked in this scenario is scoring the fix to fail and actually deciding whether to pass the example or not.",
+  "zh": "它在这个场景中会如何工作,就是给那个修复打通过/失败的分数,并实际决定是否让这个例子通过。"
+ },
+ {
+  "seg": 319,
+  "start": 1802.918,
+  "end": 1809.361,
+  "speaker": "Unknown",
+  "en": "So, for example, pass of every return product's price is within the requested min price, max price range.",
+  "zh": "比如,如果每个返回产品的价格都在请求的最低价、最高价区间内,就通过。"
+ },
+ {
+  "seg": 320,
+  "start": 1809.841,
+  "end": 1811.722,
+  "speaker": "Unknown",
+  "en": "Fail if any result exceeds the budget.",
+  "zh": "如果任何结果超出预算,就失败。"
+ },
+ {
+  "seg": 321,
+  "start": 1812.563,
+  "end": 1816.505,
+  "speaker": "Unknown",
+  "en": "And it's actually able to go into the code and check that those filters are working correctly.",
+  "zh": "而且它实际上能够进入代码里检查那些过滤器是否正确工作。"
+ },
+ {
+  "seg": 322,
+  "start": 1817.165,
+  "end": 1825.189,
+  "speaker": "Unknown",
+  "en": "And this rubric now will catch this on every subsequent run and not just an individual test case that you've coded for before.",
+  "zh": "这个评分标准现在会在每一次后续运行中捕捉到这个问题,而不只是你之前专门为它写的那一个测试用例。"
+ },
+ {
+  "seg": 323,
+  "start": 1828.179,
+  "end": 1833.363,
+  "speaker": "Unknown",
+  "en": "So quickly checking in, we talked about the detect, investigate, and ship the fix.",
+  "zh": "快速回顾一下,我们讲了检测、调查和发布修复。"
+ },
+ {
+  "seg": 324,
+  "start": 1834.944,
+  "end": 1839.127,
+  "speaker": "Unknown",
+  "en": "Shipping the fix part is kind of what I want to talk about now with agent experiments.",
+  "zh": "发布修复这部分就是我接下来想讲的智能体实验。"
+ },
+ {
+  "seg": 325,
+  "start": 1839.427,
+  "end": 1849.856,
+  "speaker": "Unknown",
+  "en": "So maybe we've found an issue, we've grounded that in real trace data, we've investigated that, we know why it's wrong, and we've decided that we have a fix worth shipping.",
+  "zh": "也许我们发现了一个问题,我们把它扎根于真实轨迹数据,我们调查了它,我们知道它为什么错了,而且我们已经决定有一个值得发布的修复。"
+ },
+ {
+  "seg": 326,
+  "start": 1850.656,
+  "end": 1854.68,
+  "speaker": "Unknown",
+  "en": "Before you ship the fix, you probably want to test this on a set of results.",
+  "zh": "在发布修复之前,你可能想在一组结果上测试它。"
+ },
+ {
+  "seg": 327,
+  "start": 1855.34,
+  "end": 1857.422,
+  "speaker": "Unknown",
+  "en": "And I'm not sure how you guys are doing this today.",
+  "zh": "而我不确定你们现在是怎么做的。"
+ },
+ {
+  "seg": 328,
+  "start": 1857.462,
+  "end": 1860.224,
+  "speaker": "Unknown",
+  "en": "Maybe you're deploying to a dev environment and then manually testing.",
+  "zh": "也许你是部署到开发环境然后手动测试。"
+ },
+ {
+  "seg": 329,
+  "start": 1861.526,
+  "end": 1867.571,
+  "speaker": "Unknown",
+  "en": "What Arise has come out with is agent experiments that allow you to test that in an automated way via CI as well.",
+  "zh": "Arise 推出的智能体实验,让你也能通过 CI 以自动化的方式来测试。"
+ },
+ {
+  "seg": 330,
+  "start": 1867.831,
+  "end": 1874.497,
+  "speaker": "Unknown",
+  "en": "And so I don't think any of us are strangers to the concept of data sets of failure cases that we collect over time.",
+  "zh": "所以我想我们对「随时间收集的失败案例数据集」这个概念都不陌生。"
+ },
+ {
+  "seg": 331,
+  "start": 1876.25,
+  "end": 1885.059,
+  "speaker": "Unknown",
+  "en": "What you can do with agent experiments is you can actually stand up that dev agent behind an endpoint and hit that with a data set directly from Rise.",
+  "zh": "用智能体实验,你实际上可以把那个开发智能体部署到一个端点后面,直接从 Rise 用数据集去打它。"
+ },
+ {
+  "seg": 332,
+  "start": 1885.519,
+  "end": 1889.303,
+  "speaker": "Unknown",
+  "en": "And that data set will be actual traces that your agent has failed on.",
+  "zh": "而那个数据集会是你的智能体实际失败过的真实轨迹。"
+ },
+ {
+  "seg": 333,
+  "start": 1889.744,
+  "end": 1896.45,
+  "speaker": "Unknown",
+  "en": "So in the previous example, I kind of showed you the wonder toys where maybe I have a few traces asking for",
+  "zh": "在前面的例子里,我大概给你展示了 wonder toys,也许我有几条轨迹是在请求"
+ },
+ {
+  "seg": 334,
+  "start": 1898.392,
+  "end": 1900.894,
+  "speaker": "Unknown",
+  "en": "Birthday gifts under $30 that actually failed.",
+  "zh": "30 美元以下的生日礼物,而它们实际失败了。"
+ },
+ {
+  "seg": 335,
+  "start": 1901.775,
+  "end": 1905.098,
+  "speaker": "Unknown",
+  "en": "What I can use Arise skills to do is actually go create that data set.",
+  "zh": "我可以用 Arise skills 实际去创建那个数据集。"
+ },
+ {
+  "seg": 336,
+  "start": 1905.519,
+  "end": 1911.444,
+  "speaker": "Unknown",
+  "en": "So I'll have, like, call it 25 examples of budget-constrained searches that failed, right?",
+  "zh": "所以我会得到,比如说,25 个失败的预算受限搜索的例子,对吧?"
+ },
+ {
+  "seg": 337,
+  "start": 1912.025,
+  "end": 1915.248,
+  "speaker": "Unknown",
+  "en": "And then I ran the workflow with Claude Code.",
+  "zh": "然后我用 Claude Code 运行了那个工作流。"
+ },
+ {
+  "seg": 338,
+  "start": 1915.268,
+  "end": 1916.449,
+  "speaker": "Unknown",
+  "en": "I did some trace analysis.",
+  "zh": "我做了一些轨迹分析。"
+ },
+ {
+  "seg": 339,
+  "start": 1916.649,
+  "end": 1918.15,
+  "speaker": "Unknown",
+  "en": "I identified the bug in my code.",
+  "zh": "我在我的代码里定位到了那个 bug。"
+ },
+ {
+  "seg": 340,
+  "start": 1918.511,
+  "end": 1920.192,
+  "speaker": "Unknown",
+  "en": "And I have a fix ready as a PR.",
+  "zh": "而且我有一个以 PR 形式准备好的修复。"
+ },
+ {
+  "seg": 341,
+  "start": 1920.413,
+  "end": 1922.514,
+  "speaker": "Unknown",
+  "en": "Or maybe Signal did that all for me in the background.",
+  "zh": "或者也许 Signal 已经在后台替我把这些全做完了。"
+ },
+ {
+  "seg": 342,
+  "start": 1923.155,
+  "end": 1929.318,
+  "speaker": "Unknown",
+  "en": "How do I actually go hit my agent with that data set to make sure that the proposed fix is actually validated?",
+  "zh": "我实际要怎么用那个数据集去打我的智能体,以确保提议的修复真的被验证了?"
+ },
+ {
+  "seg": 343,
+  "start": 1929.658,
+  "end": 1932.079,
+  "speaker": "Unknown",
+  "en": "And that's sort of what agent experiments allow you to do.",
+  "zh": "而这就是智能体实验让你能做到的事。"
+ },
+ {
+  "seg": 344,
+  "start": 1932.999,
+  "end": 1938.721,
+  "speaker": "Unknown",
+  "en": "With agent experiments and the agent playground in the product, you can actually run against that fixed version.",
+  "zh": "通过产品里的智能体实验和智能体游乐场,你实际上可以针对那个修复后的版本运行。"
+ },
+ {
+  "seg": 345,
+  "start": 1939.322,
+  "end": 1940.282,
+  "speaker": "Unknown",
+  "en": "So you deploy it to dev.",
+  "zh": "你把它部署到开发环境。"
+ },
+ {
+  "seg": 346,
+  "start": 1940.762,
+  "end": 1942.203,
+  "speaker": "Unknown",
+  "en": "It stands up behind an endpoint.",
+  "zh": "它部署在一个端点后面。"
+ },
+ {
+  "seg": 347,
+  "start": 1942.743,
+  "end": 1946.965,
+  "speaker": "Unknown",
+  "en": "You stream sort of the data set inputs into that agent.",
+  "zh": "你把数据集的输入流式地喂给那个智能体。"
+ },
+ {
+  "seg": 348,
+  "start": 1947.385,
+  "end": 1948.705,
+  "speaker": "Unknown",
+  "en": "And the agent actually responds.",
+  "zh": "而智能体实际做出响应。"
+ },
+ {
+  "seg": 349,
+  "start": 1949.186,
+  "end": 1952.247,
+  "speaker": "Unknown",
+  "en": "And then you can score it with the same judge rubric that you have in production.",
+  "zh": "然后你可以用你在生产中用的同一套裁判评分标准给它打分。"
+ },
+ {
+  "seg": 350,
+  "start": 1952.987,
+  "end": 1964.918,
+  "speaker": "Unknown",
+  "en": "So then you can compare kind of side by side what the agent in dev mode is doing with the fix versus what the agent of production did and look at whether you're actually catching any of those edge cases or not.",
+  "zh": "然后你就可以并排比较 dev 模式下的智能体做修复时做的事，和生产环境的智能体做了什么，看看你是否真的捕捉到了那些边缘情况。"
+ },
+ {
+  "seg": 351,
+  "start": 1966.855,
+  "end": 1991.33,
+  "speaker": "Unknown",
+  "en": "So similar to other dataset experimentation workflows, what you want to do is you want to look before the fix and after the fix, look at your judge, which is in this case the price correctness judge, look at your examples and queries, look at whether maybe latency is increasing, cost is increasing, so you have sort of a view of those operational metrics as well, and then quantify the results of your experiment.",
+  "zh": "类似其他数据集实验流程，你要做的就是看修复前和修复后，看你的评判器，在这里就是价格正确性评判器，看你的示例和查询，看延迟是否在上升，成本是否在上升，这样你对那些运营指标也有一个视角，然后量化你的实验结果。"
+ },
+ {
+  "seg": 352,
+  "start": 1991.95,
+  "end": 2005.993,
+  "speaker": "Unknown",
+  "en": "And then maybe alluding a little bit back to this idea of the self-correcting loop, as a full storyline, you now have an agent that's operating autonomously on your traces looking to see if issues are arising.",
+  "zh": "然后再稍微回到这个自我修正循环的想法，作为一个完整的故事线，你现在有一个智能体在你的追踪上自主运行，查看是否出现了问题。"
+ },
+ {
+  "seg": 353,
+  "start": 2006.093,
+  "end": 2009.314,
+  "speaker": "Unknown",
+  "en": "So I can see that the user asked for under $30.",
+  "zh": "所以我可以看到用户要求价格低于 30 美元。"
+ },
+ {
+  "seg": 354,
+  "start": 2009.734,
+  "end": 2011.874,
+  "speaker": "Unknown",
+  "en": "The response was clearly over $30.",
+  "zh": "而响应显然超过了 30 美元。"
+ },
+ {
+  "seg": 355,
+  "start": 2012.854,
+  "end": 2015.755,
+  "speaker": "Unknown",
+  "en": "Investigating why that's happening with reference to a code base,",
+  "zh": "参照代码库调查为什么会发生这种情况，"
+ },
+ {
+  "seg": 356,
+  "start": 2017.018,
+  "end": 2021.62,
+  "speaker": "Unknown",
+  "en": "Putting up a fix in the form of a PR for how it thinks it can improve that.",
+  "zh": "以 PR 的形式提交一个修复，说明它认为如何可以改进这一点。"
+ },
+ {
+  "seg": 357,
+  "start": 2022.02,
+  "end": 2023.421,
+  "speaker": "Unknown",
+  "en": "In this case, it was a filtering error.",
+  "zh": "在这个案例中，那是一个过滤错误。"
+ },
+ {
+  "seg": 358,
+  "start": 2024.601,
+  "end": 2038.567,
+  "speaker": "Unknown",
+  "en": "And then because our experiments are actually exposed via skills and API as well, the agent can actually redeploy itself on the new PR and verify itself against a data set of actual failure cases",
+  "zh": "而且因为我们的实验实际上也通过技能和 API 暴露出来，这个智能体可以在新 PR 上重新部署自己，并针对一个真实失败案例的数据集验证自己"
+ },
+ {
+  "seg": 359,
+  "start": 2039.722,
+  "end": 2043.384,
+  "speaker": "Unknown",
+  "en": "Before it even notifies you or decides that it's worth your human review.",
+  "zh": "在它通知你或决定是否值得让你人工审查之前。"
+ },
+ {
+  "seg": 360,
+  "start": 2043.865,
+  "end": 2047.927,
+  "speaker": "Unknown",
+  "en": "So this full loop happens completely autonomously.",
+  "zh": "所以这整个循环是完全自主发生的。"
+ },
+ {
+  "seg": 361,
+  "start": 2048.268,
+  "end": 2059.215,
+  "speaker": "Unknown",
+  "en": "The agent will actually go collect the failures, create a data set for itself, run it against the new version of itself, and prepare a response back to you that says, hey, I think I found this issue.",
+  "zh": "这个智能体真的会去收集失败，为自己创建一个数据集，用它的新版本去运行，并准备一个响应回给你说，嘿，我想我发现了这个问题。"
+ },
+ {
+  "seg": 362,
+  "start": 2059.575,
+  "end": 2060.576,
+  "speaker": "Unknown",
+  "en": "I investigated it.",
+  "zh": "我调查了它。"
+ },
+ {
+  "seg": 363,
+  "start": 2061.156,
+  "end": 2062.877,
+  "speaker": "Unknown",
+  "en": "I know why it might be happening.",
+  "zh": "我知道它为什么可能发生。"
+ },
+ {
+  "seg": 364,
+  "start": 2062.937,
+  "end": 2063.778,
+  "speaker": "Unknown",
+  "en": "I pushed to PR.",
+  "zh": "我推送了一个 PR。"
+ },
+ {
+  "seg": 365,
+  "start": 2064.218,
+  "end": 2065.499,
+  "speaker": "Unknown",
+  "en": "I then ran that PR.",
+  "zh": "然后我运行了那个 PR。"
+ },
+ {
+  "seg": 366,
+  "start": 2066.159,
+  "end": 2068.8,
+  "speaker": "Unknown",
+  "en": "in dev against the data set of failures I found.",
+  "zh": "在 dev 环境里，针对我发现的那些失败案例的数据集。"
+ },
+ {
+  "seg": 367,
+  "start": 2069.2,
+  "end": 2076.483,
+  "speaker": "Unknown",
+  "en": "And I saw, in this case, a 36% increase in performance on this specific evaluator.",
+  "zh": "而且我看到了，在这个案例中，这个特定评估器上的性能提升了 36%。"
+ },
+ {
+  "seg": 368,
+  "start": 2076.944,
+  "end": 2085.787,
+  "speaker": "Unknown",
+  "en": "And all that information is available to you in the PR itself for you to then just go read, validate the code, do some code review, and ship.",
+  "zh": "而所有这些信息都在 PR 本身里可供你查看，你只需去阅读、验证代码、做些代码审查，然后发布。"
+ },
+ {
+  "seg": 369,
+  "start": 2086.047,
+  "end": 2090.069,
+  "speaker": "Unknown",
+  "en": "So I think this makes it kind of coming back to this idea of the lube.",
+  "zh": "所以我认为这让我们回到这个循环的想法。"
+ },
+ {
+  "seg": 370,
+  "start": 2092.442,
+  "end": 2100.865,
+  "speaker": "Unknown",
+  "en": "I think it makes it really, really powerful to go full circle where you have the detect, investigate, hypothesize, and fix loop.",
+  "zh": "我认为它让这个完整闭环变得非常非常强大，你拥有检测、调查、假设和修复的循环。"
+ },
+ {
+  "seg": 371,
+  "start": 2101.305,
+  "end": 2103.466,
+  "speaker": "Unknown",
+  "en": "And then you also have the validation loop.",
+  "zh": "然后你还有验证循环。"
+ },
+ {
+  "seg": 372,
+  "start": 2103.506,
+  "end": 2105.927,
+  "speaker": "Unknown",
+  "en": "So how do I actually know that this fix is correct?",
+  "zh": "那么我怎么真正知道这个修复是正确的？"
+ },
+ {
+  "seg": 373,
+  "start": 2106.447,
+  "end": 2109.649,
+  "speaker": "Unknown",
+  "en": "And it's not just an agent in a sandbox saying it's correct.",
+  "zh": "而不只是沙箱里的一个智能体说它是正确的。"
+ },
+ {
+  "seg": 374,
+  "start": 2110.049,
+  "end": 2115.451,
+  "speaker": "Unknown",
+  "en": "How do I actually go test that on real failures and real edge cases from my working example?",
+  "zh": "我怎么真正去用我工作示例中的真实失败和真实边缘情况来测试它？"
+ },
+ {
+  "seg": 375,
+  "start": 2116.111,
+  "end": 2121.073,
+  "speaker": "Unknown",
+  "en": "And how do I actually start to stand that up and auto test that for me?",
+  "zh": "我又怎么真正开始把它搭起来并为我自动测试？"
+ },
+ {
+  "seg": 376,
+  "start": 2122.414,
+  "end": 2125.677,
+  "speaker": "Unknown",
+  "en": "And so I think we'll come back.",
+  "zh": "所以我想我们会回来。"
+ },
+ {
+  "seg": 377,
+  "start": 2125.777,
+  "end": 2130.802,
+  "speaker": "Unknown",
+  "en": "We'll have some time as well to kind of help you guys around in the rest of the workshop if the Wi-Fi is doing a little bit better.",
+  "zh": "如果 Wi-Fi 表现得好一点的话，我们也会有一些时间来帮你们完成工作坊的其余部分。"
+ },
+ {
+  "seg": 378,
+  "start": 2131.703,
+  "end": 2137.228,
+  "speaker": "Unknown",
+  "en": "But I'll go back to the slide that was previous so that you guys can kind of walk through this yourselves.",
+  "zh": "但我会回到之前的幻灯片，让你们可以自己走一遍这个流程。"
+ },
+ {
+  "seg": 379,
+  "start": 2137.909,
+  "end": 2138.029,
+  "speaker": "Unknown",
+  "en": "One,",
+  "zh": "第一，"
+ },
+ {
+  "seg": 380,
+  "start": 2139.03,
+  "end": 2140.13,
+  "speaker": "Unknown",
+  "en": "Getting the tracing started.",
+  "zh": "让追踪开始运行。"
+ },
+ {
+  "seg": 381,
+  "start": 2140.431,
+  "end": 2143.652,
+  "speaker": "Unknown",
+  "en": "If you're not collecting tracing, nothing else works.",
+  "zh": "如果你不收集追踪，其他一切都无法工作。"
+ },
+ {
+  "seg": 382,
+  "start": 2143.932,
+  "end": 2147.293,
+  "speaker": "Unknown",
+  "en": "Takes sub 10 minutes on your own agent.",
+  "zh": "在你自己的智能体上只需不到 10 分钟。"
+ },
+ {
+  "seg": 383,
+  "start": 2147.633,
+  "end": 2148.954,
+  "speaker": "Unknown",
+  "en": "We have instrumentation skills.",
+  "zh": "我们有埋点技能。"
+ },
+ {
+  "seg": 384,
+  "start": 2148.974,
+  "end": 2153.055,
+  "speaker": "Unknown",
+  "en": "We have support for all the big agent frameworks, all the foundational model providers.",
+  "zh": "我们支持所有主要的智能体框架、所有基础模型提供商。"
+ },
+ {
+  "seg": 385,
+  "start": 2154.416,
+  "end": 2160.818,
+  "speaker": "Unknown",
+  "en": "Enabling signal and going deep or using Claude Code to actually use the Arise skills to do that investigation for you.",
+  "zh": "开启信号并深入挖掘，或者使用 Claude Code 来实际使用 Arise 技能替你做那种调查。"
+ },
+ {
+  "seg": 386,
+  "start": 2161.699,
+  "end": 2165.46,
+  "speaker": "Unknown",
+  "en": "Verifying it with a harness as a judge and then measuring that with agent experiments.",
+  "zh": "用一个 harness 作为评判器来验证它，然后用智能体实验来度量它。"
+ },
+ {
+  "seg": 387,
+  "start": 2166.827,
+  "end": 2173.656,
+  "speaker": "Unknown",
+  "en": "So before we end, I will go back to this and we'll walk around the room and try to help you guys get this set up.",
+  "zh": "所以在我们结束之前，我会回到这一页，我们会在房间里走动，试着帮你们把这个设置好。"
+ },
+ {
+  "seg": 388,
+  "start": 2173.696,
+  "end": 2182.286,
+  "speaker": "Unknown",
+  "en": "If you're having trouble with the M files, if you just search through the repo or ask a coding agent where the M file is, it will kind of help you do that.",
+  "zh": "如果你在 M 文件上遇到麻烦，你只需在仓库里搜索或问一个编码智能体 M 文件在哪里，它会帮你做到这一点。"
+ },
+ {
+  "seg": 389,
+  "start": 2183.087,
+  "end": 2185.09,
+  "speaker": "Unknown",
+  "en": "Other than that, make sure you git clone the repo.",
+  "zh": "除此之外，确保你 git clone 了这个仓库。"
+ },
+ {
+  "seg": 390,
+  "start": 2186.391,
+  "end": 2189.534,
+  "speaker": "Unknown",
+  "en": "And you get your API keys from the Arise platform.",
+  "zh": "然后从 Arise 平台获取你的 API 密钥。"
+ },
+ {
+  "seg": 391,
+  "start": 2189.594,
+  "end": 2192.056,
+  "speaker": "Unknown",
+  "en": "And then you can actually start to see these traces coming together.",
+  "zh": "然后你就可以真正开始看到这些追踪汇聚在一起了。"
+ },
+ {
+  "seg": 392,
+  "start": 2193.217,
+  "end": 2199.922,
+  "speaker": "Unknown",
+  "en": "In the spirit of AIE and workshops, I think this really works better when you guys see it and touch it yourselves and actually try to do it.",
+  "zh": "本着 AIE 和工作坊的精神，我认为当你们亲自看到并动手、真正尝试去做的时候，效果会好得多。"
+ },
+ {
+  "seg": 393,
+  "start": 2200.383,
+  "end": 2203.846,
+  "speaker": "Unknown",
+  "en": "So hopefully the Wi-Fi works and I'll come around and hop around.",
+  "zh": "所以希望 Wi-Fi 能正常工作，我会在周围转转。"
+ },
+ {
+  "seg": 394,
+  "start": 2204.206,
+  "end": 2207.169,
+  "speaker": "Unknown",
+  "en": "If you do have questions or you're blocked at any point, feel free to ask me.",
+  "zh": "如果你有问题或在任何地方卡住了，随时问我。"
+ },
+ {
+  "seg": 395,
+  "start": 2207.189,
+  "end": 2210.752,
+  "speaker": "Unknown",
+  "en": "Odds are someone else in this room is experiencing the same issue.",
+  "zh": "很可能这个房间里还有其他人也遇到了同样的问题。"
+ },
+ {
+  "seg": 396,
+  "start": 2210.772,
+  "end": 2213.334,
+  "speaker": "Unknown",
+  "en": "So I'm happy to kind of shout out some advice as we go.",
+  "zh": "所以我很乐意在我们进行的过程中大声分享一些建议。"
+ },
+ {
+  "seg": 397,
+  "start": 2213.594,
+  "end": 2218.439,
+  "speaker": "Unknown",
+  "en": "All righty, and if you're having trouble installing the skills as well, have it up on the slides here.",
+  "zh": "好了，如果你在安装技能时也遇到麻烦，我把它放在这里的幻灯片上了。"
+ },
+ {
+  "seg": 398,
+  "start": 2219.86,
+  "end": 2223.444,
+  "speaker": "Unknown",
+  "en": "Very simple, MPX Skills Add, Arise AI, Arise Skills.",
+  "zh": "非常简单，MPX Skills Add，Arise AI，Arise Skills。"
+ },
+ {
+  "seg": 399,
+  "start": 2223.984,
+  "end": 2230.991,
+  "speaker": "Unknown",
+  "en": "This will give you access to an interactive mode where you can choose what you want to install, or you can just choose to install all of them as well.",
+  "zh": "这会让你进入一个交互模式，你可以选择你想安装什么，或者你也可以直接选择全部安装。"
+ },
+ {
+  "seg": 400,
+  "start": 2231.691,
+  "end": 2237.237,
+  "speaker": "Unknown",
+  "en": "And this includes skills for trace analysis, data set curation, as well as evaluators.",
+  "zh": "这包括用于轨迹分析、数据集筛选的技能，以及评估器。"
+ },
+ {
+  "seg": 401,
+  "start": 2240.298,
+  "end": 2252.708,
+  "speaker": "Unknown",
+  "en": "So as an example of some of the skills you can run, I can ask Claude Code, hey, check my traces for any errors or anything I can fix, cross-reference with the code for the agent in this repo, and use the agent skills.",
+  "zh": "举一个你可以运行的技能的例子，我可以问 Claude Code，嘿，检查我的轨迹中有没有错误或任何我能修复的东西，与这个仓库里智能体的代码交叉比对，并使用智能体技能。"
+ },
+ {
+  "seg": 402,
+  "start": 2253.329,
+  "end": 2259.434,
+  "speaker": "Unknown",
+  "en": "And we will be sending out kind of a recording of this as well as all the resources you need to kind of get started with this.",
+  "zh": "我们也会发出这次演示的录像，以及你入门所需的全部资源。"
+ },
+ {
+  "seg": 403,
+  "start": 2259.474,
+  "end": 2260.995,
+  "speaker": "Unknown",
+  "en": "So apologies for the internet.",
+  "zh": "所以为网络问题道歉。"
+ },
+ {
+  "seg": 404,
+  "start": 2261.015,
+  "end": 2264.979,
+  "speaker": "Unknown",
+  "en": "If it doesn't work out today, you guys will be able to get up and running very quick as well.",
+  "zh": "如果今天没能成功，你们也能很快上手运行。"
+ },
+ {
+  "seg": 405,
+  "start": 2265.319,
+  "end": 2266.02,
+  "speaker": "Unknown",
+  "en": "All righty, guys.",
+  "zh": "好了，各位。"
+ },
+ {
+  "seg": 406,
+  "start": 2266.26,
+  "end": 2268.662,
+  "speaker": "Unknown",
+  "en": "We got to close up our workshop for now.",
+  "zh": "我们的工作坊现在要收尾了。"
+ },
+ {
+  "seg": 407,
+  "start": 2269.202,
+  "end": 2270.223,
+  "speaker": "Unknown",
+  "en": "Thank you once again.",
+  "zh": "再次感谢大家。"
+ },
+ {
+  "seg": 408,
+  "start": 2270.243,
+  "end": 2282.873,
+  "speaker": "Unknown",
+  "en": "I just want to leave you guys with sort of this detect, investigate, fix, and verify slide, which kind of covers the through line of how you can get started with Arise and how to create your self-improving agents.",
+  "zh": "我只想给大家留下这张「检测、调查、修复、验证」的幻灯片，它大致涵盖了如何开始使用 Arise 以及如何创建你的自我改进智能体的主线。"
+ },
+ {
+  "seg": 409,
+  "start": 2283.333,
+  "end": 2284.093,
+  "speaker": "Unknown",
+  "en": "And then once again,",
+  "zh": "然后再说一次，"
+ },
+ {
+  "seg": 410,
+  "start": 2285.054,
+  "end": 2286.957,
+  "speaker": "Unknown",
+  "en": "Feel free to connect with me on Twitter or LinkedIn.",
+  "zh": "欢迎在 Twitter 或 LinkedIn 上与我联系。"
+ },
+ {
+  "seg": 411,
+  "start": 2287.498,
+  "end": 2291.624,
+  "speaker": "Unknown",
+  "en": "And if you want a free year of Arise Pro as well, just use the code on the screen.",
+  "zh": "如果你想要免费一年的 Arise Pro，只需使用屏幕上的代码。"
+ },
+ {
+  "seg": 412,
+  "start": 2292.285,
+  "end": 2294.588,
+  "speaker": "Unknown",
+  "en": "We have a free tier that's always free, free to use.",
+  "zh": "我们有一个永久免费的免费层，可以免费使用。"
+ },
+ {
+  "seg": 413,
+  "start": 2295.089,
+  "end": 2299.956,
+  "speaker": "Unknown",
+  "en": "For this conference only, we're also giving out Arise Pro for free, which gives you a bit more of the usage limits.",
+  "zh": "仅限本次大会，我们还免费赠送 Arise Pro，它能给你更高的使用额度。"
+ },
+ {
+  "seg": 414,
+  "start": 2300.836,
+  "end": 2304.338,
+  "speaker": "Unknown",
+  "en": "If you guys are running agents with thousands and thousands of traces.",
+  "zh": "如果你们在运行产生成千上万条轨迹的智能体的话。"
+ },
+ {
+  "seg": 415,
+  "start": 2304.458,
+  "end": 2305.799,
+  "speaker": "Unknown",
+  "en": "So thank you guys so much.",
+  "zh": "所以非常感谢大家。"
+ },
+ {
+  "seg": 416,
+  "start": 2305.819,
+  "end": 2310.822,
+  "speaker": "Unknown",
+  "en": "We're running another workshop at 2 p.m. led by Lori that'll go into a few more code examples.",
+  "zh": "我们下午 2 点还有另一场由 Lori 主持的工作坊，会讲更多代码示例。"
+ },
+ {
+  "seg": 417,
+  "start": 2311.242,
+  "end": 2313.283,
+  "speaker": "Unknown",
+  "en": "Hopefully the Wi-Fi is also a little bit better then.",
+  "zh": "希望到那时 Wi-Fi 也会好一点。"
+ },
+ {
+  "seg": 418,
+  "start": 2313.383,
+  "end": 2314.664,
+  "speaker": "Unknown",
+  "en": "And yeah, we'll get going.",
+  "zh": "那么，我们要开始了。"
+ },
+ {
+  "seg": 419,
+  "start": 2314.784,
+  "end": 2315.345,
+  "speaker": "Unknown",
+  "en": "Thank you guys.",
+  "zh": "谢谢大家。"
+ },
+ {
+  "seg": 420,
+  "start": 2315.425,
+  "end": 2315.985,
+  "speaker": "Unknown",
+  "en": "Appreciate you.",
+  "zh": "感谢你们。"
+ }
+]

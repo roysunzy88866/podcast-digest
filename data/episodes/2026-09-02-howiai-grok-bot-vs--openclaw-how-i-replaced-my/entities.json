@@ -1,0 +1,880 @@
+{
+  "episode_id": "2026-09-02-howiai-grok-bot-vs--openclaw-how-i-replaced-my",
+  "podcast": "How I AI",
+  "date": "2026-09-02",
+  "tags": [
+    "智能体",
+    "个人自动化",
+    "GrokBot",
+    "AI 工作流",
+    "多智能体平台"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "grokbot",
+      "type": "company",
+      "role": "company",
+      "name": "GrokBot",
+      "file": "GrokBot",
+      "primary": true,
+      "how_described": "本集把它说成：SpaceX AI 团队推出的多智能体平台，可雇佣「AI 同事」——可命名的 bots、支持多账号的插件、每台机器人自带云端虚拟机和例行程务，开箱即用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.091,
+            5.013
+          ],
+          "quote": "Today, I'm going to talk about what everybody else is talking about these days, GrokBot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 2,
+          "t": [
+            11.04,
+            17.244
+          ],
+          "quote": "High-level overview of GrokBot, the new GrokModels, and Origin, Cursor's new GitHub replacement.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 3,
+          "t": [
+            17.704,
+            20.726
+          ],
+          "quote": "But today I'm gonna talk specifically about GrokBot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 4,
+          "t": [
+            20.906,
+            24.769
+          ],
+          "quote": "After several weeks of working with GrokBot, I have to tell you the truth.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            25.489,
+            30.693
+          ],
+          "quote": "I have killed all my open claws and moved almost entirely to GrokBot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            31.393,
+            45.719
+          ],
+          "quote": "In this episode, I'm just gonna show you a couple very practical use cases of GrokBot, why I think it's better right now than some of the open clause I was running, what is still missing, and what I can't wait for you to try.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 8,
+          "t": [
+            51.041,
+            60.165
+          ],
+          "quote": "We will put the bot links and the bot templates in the show notes, and I hope this is a really specific way to get you up and running in your life a little bit better with GrokBot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            130.181,
+            135.042
+          ],
+          "quote": "Okay, quickly before we get into use cases, let's just remind you of exactly what GrokBot is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            135.122,
+            140.363
+          ],
+          "quote": "GrokBot is the new multi-agent platform from the SpaceX AI team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            154.178,
+            161.146
+          ],
+          "quote": "And GrokBot has a very similar feel where you can define agents, give them jobs and assign them work to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            161.887,
+            165.15
+          ],
+          "quote": "Looking at GrokBot, there's just a couple things that I think you need to know.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            165.37,
+            168.052
+          ],
+          "quote": "First of all, GrokBot is very simple.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            176.9,
+            181.944
+          ],
+          "quote": "But there are a couple key primitives of GrokBot I think is important to know as you get started.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            251.22,
+            253.881
+          ],
+          "quote": "Kind of like fundamental way that GrokBot works.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            254.501,
+            257.562
+          ],
+          "quote": "The second thing that you need to know about GrokBot are plugins.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            280.488,
+            283.149
+          ],
+          "quote": "This is where I fell in love with GrokBot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            288.83,
+            297.951
+          ],
+          "quote": "You will rarely, I'm showing you this screen because I'm trying to give you the world tour of GrokBot, but you'll rarely have to actually explicitly go into the GrokBot screen and set up plugins.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            307.053,
+            316.557
+          ],
+          "quote": "The other thing I love about GrokBot, and I called this out in my earlier review, is that you can connect multiple accounts per plugin.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            329.024,
+            332.468
+          ],
+          "quote": "My GrokBot can switch and move between all of them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            363.569,
+            369.412
+          ],
+          "quote": "The final thing that you need to know is that GrokBot has a computer and it has routines.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            369.912,
+            373.394
+          ],
+          "quote": "So every GrokBot has a virtual machine in which it can do",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            392.256,
+            399.96
+          ],
+          "quote": "So if you switch like me to GrokBot on your phone, you'll have continuity of tasks, which is really nice.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            426.013,
+            435.779
+          ],
+          "quote": "This is the one thing where an Eve agent, which I've done an episode on, or an OpenClaw, which I've done many episodes on, really still wins, is you can't put a GrokBot in the group chat.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            435.859,
+            438.961
+          ],
+          "quote": "And I want a GrokBot in the group chat.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            462.475,
+            465.516
+          ],
+          "quote": "Okay, so that is those are the fundamentals of GrokBot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            531.235,
+            536.216
+          ],
+          "quote": "I will show you quickly how to migrate from OpenClaw to GrokBot if you want.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            607.477,
+            615.319
+          ],
+          "quote": "And one of my complaints about GrokBot is that it has been tuned clearly to be brief and token efficient.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            647.272,
+            651.432
+          ],
+          "quote": "I've been really happy with a prompt that GrokBot put together again.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            671.256,
+            684.887
+          ],
+          "quote": "So I've trained GrokBot Chief on my voice, and then it does that hourly sweep, it does a morning briefing, and it does a weekend plan ahead so I know what's happening in my work life in the weekend ahead.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            712.108,
+            720.679
+          ],
+          "quote": "And what I've had to tune in terms of GrokBot versus OpenClaw that I think was a little bit better is OpenClaw had that heartbeat function.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1271.234,
+            1280.037
+          ],
+          "quote": "Why I want to show this one is it can, GrokBot can kick off cursor cloud agent coding jobs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1437.354,
+            1452.864
+          ],
+          "quote": "And then finally, I do have to say something that has been really impressive from a quality perspective is migrating over Holly Helpdesk, our helpdesk customer support agent at ChatPRD, over to GrokBot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1461.408,
+            1463.149
+          ],
+          "quote": "But now it runs through GrokBot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1651.543,
+            1661.025
+          ],
+          "quote": "Penny Pinscher, the GrokBot, is that it did find things that I should cancel, like a Apple game that I was paying for since my kids were really little and now they're big, they don't need it anymore.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1810.627,
+            1819.192
+          ],
+          "quote": "And then the most fun personal use case, I will just end today's episode with my favorite GrokBot, which is Sylvie Style.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 401,
+          "t": [
+            1971.778,
+            1976.146
+          ],
+          "quote": "Okay, so that has been my world tour of GrokBot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2029.992,
+            2039.474
+          ],
+          "quote": "And I was able to just literally upload subfolders of that to GrokBot and it kind of like did brain transplant.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 441,
+          "t": [
+            2132.245,
+            2139.331
+          ],
+          "quote": "I would love to hear from you what your use cases are for GrokBot, if there's any you missed, if there's any you want me to build from you.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openclaw",
+      "type": "company",
+      "role": "company",
+      "name": "OpenClaw",
+      "file": "OpenClaw",
+      "primary": true,
+      "how_described": "本集说 OpenClaw 为自主的、队友式的个人智能体设定了标准、多人功能是天才设计，但维护起来是噩梦，作者已把全部智能体迁移到 GrokBot 并「处决」了它们",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            426.013,
+            435.779
+          ],
+          "quote": "This is the one thing where an Eve agent, which I've done an episode on, or an OpenClaw, which I've done many episodes on, really still wins, is you can't put a GrokBot in the group chat.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            531.235,
+            536.216
+          ],
+          "quote": "I will show you quickly how to migrate from OpenClaw to GrokBot if you want.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            712.108,
+            720.679
+          ],
+          "quote": "And what I've had to tune in terms of GrokBot versus OpenClaw that I think was a little bit better is OpenClaw had that heartbeat function.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            726.727,
+            730.289
+          ],
+          "quote": "Out of the box, I felt like OpenClaw was a lot more proactive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            832.066,
+            837.128
+          ],
+          "quote": "It may sound familiar to you if you've listened to my podcast about OpenClaw about six months ago.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 406,
+          "t": [
+            1989.835,
+            1998.822
+          ],
+          "quote": "So I have a rescue bot because when you're running OpenClaw, you have to have a rescue bot to save all your other OpenClaws because they are a nightmare to maintain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2083.233,
+            2089.176
+          ],
+          "quote": "And I think OpenClaw set the standard for what an autonomous, teammate, personal agent can do.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatprd",
+      "type": "company",
+      "role": "company",
+      "name": "ChatPRD",
+      "file": "ChatPRD",
+      "primary": true,
+      "how_described": "本集提到它是主持人的公司，其客服智能体 Holly Helpdesk 迁到 GrokBot 后表现出色，一周内多个用户主动要求给客服留好评",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 57,
+          "t": [
+            274.746,
+            278.748
+          ],
+          "quote": "I have Granola, GitHub, Sentry, ChatPRD.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1437.354,
+            1452.864
+          ],
+          "quote": "And then finally, I do have to say something that has been really impressive from a quality perspective is migrating over Holly Helpdesk, our helpdesk customer support agent at ChatPRD, over to GrokBot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1559.902,
+            1563.743
+          ],
+          "quote": "And then finally, we have a ChatPRD community Slack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1564.304,
+            1568.826
+          ],
+          "quote": "And I'm really terrible at managing the ChatPRD community Slack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1568.906,
+            1579.25
+          ],
+          "quote": "And so I have given Holly access to manage the ChatPRD community Slack, look in support and reply to those questions, and even prompt and manage.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集提到 GrokBot 可以启动 Cursor 的云端智能体编码任务，用来实际处理 rebase 和修 bug",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            11.04,
+            17.244
+          ],
+          "quote": "High-level overview of GrokBot, the new GrokModels, and Origin, Cursor's new GitHub replacement.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            115.878,
+            122.019
+          ],
+          "quote": "OpenAI, Perplexity, and Cursor are already using WorkOS to move faster and meet enterprise demands.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1271.234,
+            1280.037
+          ],
+          "quote": "Why I want to show this one is it can, GrokBot can kick off cursor cloud agent coding jobs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1286.359,
+            1288.761
+          ],
+          "quote": "on different PRs can be done by cursor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1500.92,
+            1508.022
+          ],
+          "quote": "She's empowered if there is a bug to fix it using Cloud, Cursor Cloud agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1587.994,
+            1599.099
+          ],
+          "quote": "I've been heads down on some awesome stuff and there's some behind the scenes work going on in chat PRD and please drop a hello in instructions and it says sent using cursor because I did not send this.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集的主线就是智能体：像雇人一样给每个智能体起名、分配具体工作和例行程务，跑收件箱、家庭日报、代码审查、客服、购物等真实任务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            135.122,
+            140.363
+          ],
+          "quote": "GrokBot is the new multi-agent platform from the SpaceX AI team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            195.511,
+            200.792
+          ],
+          "quote": "To create an agent, you just click this plus sign and then you can either search your existing bots.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            426.013,
+            435.779
+          ],
+          "quote": "This is the one thing where an Eve agent, which I've done an episode on, or an OpenClaw, which I've done many episodes on, really still wins, is you can't put a GrokBot in the group chat.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            765.753,
+            770.216
+          ],
+          "quote": "And TradBot is my family agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            798.083,
+            800.886
+          ],
+          "quote": "But we need help, and the help we get is an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            801.967,
+            812.734
+          ],
+          "quote": "This is what I have to say generally about parenting slash agents for the home is the ideal thing for an agent for a home is to get you off your computer and with your family.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            812.794,
+            820.74
+          ],
+          "quote": "So that is always my goal with a trad agent, a household agent, is I actually don't want to spend a lot of time with the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            822.461,
+            827.825
+          ],
+          "quote": "I want the agent to make it really easy for me to spend time with my kids.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1134.541,
+            1138.082
+          ],
+          "quote": "An agent will scan your inbox and draft replies to vendor follow-ups.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1271.234,
+            1280.037
+          ],
+          "quote": "Why I want to show this one is it can, GrokBot can kick off cursor cloud agent coding jobs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1381.383,
+            1386.467
+          ],
+          "quote": "And so it's just very nice to have someone, quote unquote, an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1437.354,
+            1452.864
+          ],
+          "quote": "And then finally, I do have to say something that has been really impressive from a quality perspective is migrating over Holly Helpdesk, our helpdesk customer support agent at ChatPRD, over to GrokBot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1531.891,
+            1533.532
+          ],
+          "quote": "It's called an agent action.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1533.692,
+            1539.594
+          ],
+          "quote": "It allows me to explicitly approve that action for the agent to do on my behalf in Stripe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1672.048,
+            1681.09
+          ],
+          "quote": "I want you to, I'm going to negotiate, find other rates and go back to our agent with market rates against the policy that we have so we can have a negotiated rate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2005.608,
+            2011.276
+          ],
+          "quote": "I said, hey, I want you to pull a secrets-free package of my entire agent setup, crons, agent identities, rules, etc.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2022.61,
+            2029.972
+          ],
+          "quote": "A zip file that had all my agent identities, all my Cron files, everything I needed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2083.233,
+            2089.176
+          ],
+          "quote": "And I think OpenClaw set the standard for what an autonomous, teammate, personal agent can do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2121.855,
+            2126.7
+          ],
+          "quote": "coworker agent has really just solved a lot of my problems and I have let these agent rip.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "multi-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "多智能体 (multi-agent)",
+      "file": "多智能体",
+      "primary": true,
+      "how_described": "本集把 GrokBot 定义为多智能体平台，作者同时跑着约 30 个各司其职的机器人，推崇「一个岗位一个机器人」的框架",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            135.122,
+            140.363
+          ],
+          "quote": "GrokBot is the new multi-agent platform from the SpaceX AI team.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "soc-2",
+      "type": "concept",
+      "role": "concept",
+      "name": "SOC 2 合规 (SOC 2)",
+      "file": "SOC 2 合规",
+      "primary": true,
+      "how_described": "本集说 LockDown 机器人每天登录合规仪表盘检查 SOC 2 控制项、分诊漏洞并提 PR 请求人工批准，像一个提醒你做账户审计的实习生",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 267,
+          "t": [
+            1208.594,
+            1214.856
+          ],
+          "quote": "And we have to, as part of our SOC 2 compliance posture and controls, we do review the PRs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1320.946,
+            1331.954
+          ],
+          "quote": "The other one, which I think is a really great use case that I would love to call out for folks, is we have our SOC 2 controls.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1345.782,
+            1349.684
+          ],
+          "quote": "And so I have built LockDown, the SOC 2 control bot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1349.884,
+            1361.328
+          ],
+          "quote": "And what this SOC 2 control bot does is it actually logs into that dashboard we use to manage our SOC 2 controls, looks through all the controls, makes sure that none of them need human attention.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1406.725,
+            1416.355
+          ],
+          "quote": "And I really think that having AI put me to work against our SOC 2 controls and our compliance and security position is really nice.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": false,
+      "how_described": "本集提到客服机器人的退款审批通过 Stripe 的 agent action 实现，作者明确批准后智能体才代为执行退款",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            112.856,
+            114.977
+          ],
+          "quote": "Think of it like Stripe for enterprise features.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1527.09,
+            1529.451
+          ],
+          "quote": "It should push to me a Stripe request.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1529.511,
+            1531.791
+          ],
+          "quote": "That Stripe request I can open in Stripe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1533.692,
+            1539.594
+          ],
+          "quote": "It allows me to explicitly approve that action for the agent to do on my behalf in Stripe.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

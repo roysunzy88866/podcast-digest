@@ -1,0 +1,173 @@
+{
+  "title_zh": "不改模型,让浏览器智能体自己学会爬坡",
+  "tldr": "Browserbase 的 Shubhankar Srivastava 演讲，讲如何用「执行者+老师」循环让智能体自我改进。",
+  "digest_md": "浏览器智能体就是让人工智能去操作一个浏览器：点击按钮、填表、搜航班、订餐厅。Shubhankar Srivastava 在 Browserbase 做销售工程师，天天帮客户把这类智能体部署到真实环境里。他这场演讲回答了一个很实际的问题：==智能体经常卡死、被网站拦截，怎么不碰模型本身，让它变可靠==？\n\n## 为什么智能体总在同一块石头上绊倒\n\n演讲开头放了两个翻车现场。一个智能体在 Google Flights 上想拖动时间筛选器，但拖动这个操作对它来说太难了，它不知道背后的网页元素和 JavaScript，反复失败。另一个想在 OpenTable 订餐厅，直接撞上拒绝访问的拦截页。\n\n根子上的问题，他概括得很狠：**这些智能体是从不学习的天才**[05:53 Unknown]。模型本身很聪明，但每一次运行都从零开始，上一次踩过的坑、发现的技巧，全都留不下来。\n\n有人会说，那针对每个网站做微调不就行了？他觉得不可行——你不能每来一个新任务就去微调一次模型。真正缺的，是一种能从生产运行记录里持续学习的机制。\n\n## 一个执行者，一个老师\n\n受 Karpathy 提出的自动研究思路启发，他们搭了一个叫auto-browse的循环：**两个智能体配对干活** [08:33 Unknown]。\n\n一个叫执行者，负责真的去操作浏览器，截图、点按钮。另一个叫老师，不干活，只在每轮结束后翻执行者的运行记录，分析哪里对了、哪里错了。\n\n关键在于一个叫 strategy.md 的文件。老师每轮学到的东西都写进去，比如「这个日历控件有 bug，别碰」「别用鼠标拖，直接注入 JavaScript」。这份文件会带进下一轮，执行者照着改进，如此往复，直到收敛。\n\n他们不告诉循环要跑几轮、要达到什么成功率、花多少算力。给一个大方向，放手让它自己磨。这就是所谓爬坡：不换模型，靠一轮轮积累的技巧往上爬。\n\n## 学出来的技巧，人类未必想得到\n\n现场演示里，智能体的第一个发现就很有意思：订商务舱机票根本不用在日历控件里点来点去，把参数直接拼进 Google Flights 的网址就行。事后看很显然，但他说自己作为人类未必想得出这么复杂的网址写法 [10:18 Unknown]。\n\nOpenTable 那个例子更夸张。第一轮被拒绝访问拦住后，老师判断这是环境层面的封锁；第二轮它发现，只要在网址里带上经纬度和城市编号，就能绕开拦截直接拿到可用的界面，还总结出「永远别打开 /R 路径，那里必被拦」。\n\n效果也硬：这个任务的**成本从 6.22 美元降到 0.51 美元**，耗时从 189 秒降到 27 秒 [15:08 Unknown]。Google Flights 那个任务第二轮成本降到四分之一。不同任务改善幅度不同，他给出的数字从便宜 3 倍到 16 倍不等。\n\n循环结束的产物是一份 skill.md 文件，把所有技巧沉淀下来，之后每次运行直接套用，不用再学。\n\n## 把它变成「浏览器智能体的黄页」\n\nBrowserbase 把这套方法做成了产品 Browse.sh：预先为比如 500 个网站生成好技能文件，免费开放[18:32]。他把它比作九十年代互联网普及之前的黄页——只不过查的不是商家电话，而是「如何在网络上的任何网站完成任何任务」[18:57 说话人]。\n\n技能文件本质上是纯文本，是个可移植的产物。你可以交给 Claude Code，也可以接别的工具，它会自己判断什么时候该调哪个网站的技能。用户甚至可以提交需求，让系统现场生成一个新技能，发邮件给你。\n\n## 网站天天变，技能怎么保鲜\n\n==网站一改版，技能可能就失效了==。目前的做法不是每天烧算力重跑循环，而是按需触发：生产环境一出现失败，就启动一轮自动研究，诊断问题、自动创建拉取请求，交给人类工程师确认后更新技能 [38:26 Unknown]。也可以用定时任务每隔几小时抽查技能是否还正常。\n\n安全上他们分了三层：请求进来时先过滤，技能文件发布前过一道安全审查，基础设施层面限制浏览器能访问的网址、能执行的操作。\n\n## 你自己的领域能不能用？\n\n他认为这套思路不限于浏览器。写代码的智能体每次都要重新学一遍仓库规范；研究类智能体每次都忘了该去哪个网站取数据。核心前提是「智能体不应该每次都从零重新学你的任务」[21:04 Unknown]。\n\n要套用这套方法，需要两个条件：一是可重放的环境，能反复从头跑；二是可验证的结果，能明确判断这轮是成是败。编码任务两者都满足，浏览器任务基本满足；但有些知识型工作夹着大量人工介入，很难重放，就不太合适。\n\n## 本集带走\n\n- 智能体最大的短板不是模型不够聪明，而是每次运行都从零开始，经验留不下来。\n- 执行者+老师循环配上跨轮传递的策略文件，能让智能体在不改模型的情况下自我改进。\n- 学出来的技巧常出乎人的意料，比如直接拼网址参数、逆向网站接口，成本最多降到原来的十六分之一。\n- 前提条件是可重放的环境加可验证的结果；网站改版后靠生产失败触发自愈循环更新技能。\n- 技能文件是可移植的纯文本，Browserbase 已把它做成免费开放的 Browse.sh。",
+  "quotes": [
+    {
+      "en": "And the most important thing is every run starts from zero.",
+      "zh": "最重要的一点是，每次运行都是从零开始。",
+      "timestamp": "05:19",
+      "speaker": "Shubhankar Srivastava"
+    },
+    {
+      "en": "Every agent run is a start-from-scratch run, and it's not learning from its production traces.",
+      "zh": "每次智能体运行都是从零开始的运行，它没有从自己的生产轨迹中学习。",
+      "timestamp": "05:42",
+      "speaker": "Shubhankar Srivastava"
+    },
+    {
+      "en": "And these browser agents, I call them geniuses that never learn.",
+      "zh": "这些浏览器智能体，我称之为从不学习的天才。",
+      "timestamp": "05:50",
+      "speaker": "Shubhankar Srivastava"
+    },
+    {
+      "en": "We just give it a broad prompt, and we let the bitter lesson, we embrace the bitter lesson, and we're like, okay, let the doer and teacher go at it.",
+      "zh": "我们只给它一个宽泛的提示词，我们拥抱苦涩教训，我们说，好吧，让执行者和教师去干吧。",
+      "timestamp": "09:21",
+      "speaker": "Shubhankar Srivastava"
+    },
+    {
+      "en": "Now, these are the kind of learnings where a human could never have done, but you just sort of embrace the bitter lesson and let agents do the job, and they will find these tricks for you.",
+      "zh": "现在，这类学习是人类永远做不到的，你只要拥抱苦涩的教训，让智能体去干活，它们就会为你找到这些技巧。",
+      "timestamp": "15:35",
+      "speaker": "Shubhankar Srivastava"
+    },
+    {
+      "en": "He said having a verifiable outcome is important, but also you should have extremely grindable environments or extremely grindable use cases as well.",
+      "zh": "他说拥有可验证的结果很重要，但你也应该有极其可反复打磨的环境或极其可反复打磨的用例。",
+      "timestamp": "25:54",
+      "speaker": "Shubhankar Srivastava"
+    },
+    {
+      "en": "What I've seen, sometimes these, our research loops are so smart, they realize that browsers are not needed at all, and they just reverse engineer the API, and they fire the API, and that's the fastest that you'll ever get to, right?",
+      "zh": "我见过的是，有时候这些研究循环非常聪明，它们意识到根本不需要浏览器，它们直接对 API 进行逆向工程，然后直接调用 API，那是你能达到的最快速度，对吧？",
+      "timestamp": "40:07",
+      "speaker": "Shubhankar Srivastava"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "05:19",
+      "speaker": "Unknown",
+      "en": "And the most important thing is every run starts from zero.",
+      "zh": "最重要的一点是，每次运行都是从零开始。"
+    },
+    {
+      "timestamp": "05:42",
+      "speaker": "Unknown",
+      "en": "Every agent run is a start-from-scratch run, and it's not learning from its production traces.",
+      "zh": "每次智能体运行都是从零开始的运行，它没有从自己的生产轨迹中学习。"
+    },
+    {
+      "timestamp": "05:50",
+      "speaker": "Unknown",
+      "en": "And these browser agents, I call them geniuses that never learn.",
+      "zh": "这些浏览器智能体，我称之为从不学习的天才。"
+    },
+    {
+      "timestamp": "06:00",
+      "speaker": "Unknown",
+      "en": "But it's not really scalable, right?",
+      "zh": "但这实际上不可扩展，对吧？"
+    },
+    {
+      "timestamp": "03:04",
+      "speaker": "Unknown",
+      "en": "And we see reliability essentially as an engineering problem.",
+      "zh": "我们本质上把可靠性视为一个工程问题。"
+    },
+    {
+      "timestamp": "05:34",
+      "speaker": "Unknown",
+      "en": "Although computer use seems like a verifiable problem, why is it still not solved?",
+      "zh": "尽管计算机操作看起来是一个可验证的问题，为什么它仍然没有被解决？"
+    },
+    {
+      "timestamp": "09:21",
+      "speaker": "Unknown",
+      "en": "We just give it a broad prompt, and we let the bitter lesson, we embrace the bitter lesson, and we're like, okay, let the doer and teacher go at it.",
+      "zh": "我们只给它一个宽泛的提示词，我们拥抱苦涩教训，我们说，好吧，让执行者和教师去干吧。"
+    },
+    {
+      "timestamp": "10:29",
+      "speaker": "Unknown",
+      "en": "Now, this is obvious in hindsight, but maybe as a human, I wouldn't have thought of this and I wouldn't have written this complicated query parameter myself, right?",
+      "zh": "现在，事后来看这很显然，但作为人类，我可能不会想到这一点，我自己也不会写出这么复杂的查询参数，对吧？"
+    },
+    {
+      "timestamp": "12:15",
+      "speaker": "Unknown",
+      "en": "And if you can see, the savings in cost are like 4x.",
+      "zh": "如果你能看到的话，成本节省大约是 4 倍。"
+    },
+    {
+      "timestamp": "15:35",
+      "speaker": "Unknown",
+      "en": "Now, these are the kind of learnings where a human could never have done, but you just sort of embrace the bitter lesson and let agents do the job, and they will find these tricks for you.",
+      "zh": "现在，这类学习是人类永远做不到的，你只要拥抱苦涩的教训，让智能体去干活，它们就会为你找到这些技巧。"
+    },
+    {
+      "timestamp": "17:19",
+      "speaker": "Unknown",
+      "en": "And the fast path is encode the whole query in the URL, strongly preferred.",
+      "zh": "而快速路径就是把整个查询编码进 URL，强烈推荐。"
+    },
+    {
+      "timestamp": "17:24",
+      "speaker": "Unknown",
+      "en": "Again, like I know I'm showing these things, but when I first started looking at the results here, this was like my moment of like, this is the mythos moment for browser agents, you know, like just reverse engineering the hell out of things.",
+      "zh": "再说一次，我知道我在展示这些东西，但当我第一次看这些结果时，那一刻我的感觉就是，这就是浏览器智能体的 mythos 时刻，你知道吗，就是把东西狠狠地逆向工程个遍。"
+    },
+    {
+      "timestamp": "17:48",
+      "speaker": "Unknown",
+      "en": "They would be like, hey, I need to spend so many engineering hours on just reversing these websites.",
+      "zh": "他们会说，嘿，我需要花这么多工程工时仅仅用来逆向这些网站。"
+    },
+    {
+      "timestamp": "18:54",
+      "speaker": "Unknown",
+      "en": "This is Yellow Pages for browser agents, right?",
+      "zh": "这就是面向浏览器智能体的黄页，对吧？"
+    },
+    {
+      "timestamp": "20:54",
+      "speaker": "Unknown",
+      "en": "The fundamental premise is like the agent should not be relearning your tasks from zero, right?",
+      "zh": "根本前提是，智能体不应该从零开始重新学习你的任务，对吧？"
+    },
+    {
+      "timestamp": "25:54",
+      "speaker": "Unknown",
+      "en": "He said having a verifiable outcome is important, but also you should have extremely grindable environments or extremely grindable use cases as well.",
+      "zh": "他说拥有可验证的结果很重要，但你也应该有极其可反复打磨的环境或极其可反复打磨的用例。"
+    },
+    {
+      "timestamp": "26:30",
+      "speaker": "Unknown",
+      "en": "But maybe knowledge work is probably not that easy to replay.",
+      "zh": "但知识型工作可能就没那么容易重放了。"
+    },
+    {
+      "timestamp": "40:07",
+      "speaker": "Unknown",
+      "en": "What I've seen, sometimes these, our research loops are so smart, they realize that browsers are not needed at all, and they just reverse engineer the API, and they fire the API, and that's the fastest that you'll ever get to, right?",
+      "zh": "我见过的是，有时候这些研究循环非常聪明，它们意识到根本不需要浏览器，它们直接对 API 进行逆向工程，然后直接调用 API，那是你能达到的最快速度，对吧？"
+    },
+    {
+      "timestamp": "42:27",
+      "speaker": "Unknown",
+      "en": "And, yeah, again, I fully embrace the bitter lesson.",
+      "zh": "而且，是的，我再次完全拥抱苦涩教训。"
+    },
+    {
+      "timestamp": "49:47",
+      "speaker": "Unknown",
+      "en": "I know browser is a crazy threat vector when you think about it.",
+      "zh": "我知道，仔细想想，浏览器是一个疯狂的威胁向量。"
+    }
+  ],
+  "voice_script": "今天聊的这件事，跟你每天可能都在用的东西有关——浏览器。现在有一种智能体，能替你操作浏览器：点按钮、填表单、搜航班、订餐厅。听起来很美好，但实际部署过的人都知道，这东西经常卡死、经常被网站拦截，客户天天来抱怨。\n\n今天的主角是 Browserbase 的销售工程师 Shubhankar Srivastava，他天天帮客户把这类智能体部署到真实环境里。他这场演讲回答了一个很实际的问题：智能体老出问题，但我不想动模型本身，有没有办法让它自己变可靠？答案是有的，而且方法相当有意思。\n\n先看看这些智能体到底是怎么翻车的。演讲开头放了两个现场。第一个，一个智能体在 Google Flights 上想拖动时间筛选器，但拖动这个操作对它来说太难了，它根本不知道背后那些网页元素和 JavaScript 是怎么回事，反复失败。第二个，想在 OpenTable 订餐厅，结果直接撞上一面拒绝访问的拦截页。\n\n这些事故背后有个共同根子，他的概括相当狠：这些智能体，是从不学习的天才。模型本身很聪明，但每一次运行都从零开始。上一次踩过的坑、发现的技巧，全都留不下来。就像一个天才员工，每天早上醒来都失忆，同一个坑天天重新掉进去一次。\n\n那有人会说，针对每个网站去做模型微调不就行了？演讲里明确说了不可行——你不可能每来一个新任务就微调一次模型。真正缺的，是一种能从生产运行记录里持续学习的机制。\n\n这就引出了他们搭的那套东西，叫 auto-browse。它受 Karpathy 提出的自动研究思路启发，核心是两个智能体配对干活。一个叫执行者，负责真的去操作浏览器，截图、点按钮。另一个叫老师，不干活，只在每轮结束后翻执行者的运行记录，分析哪里对了、哪里错了。\n\n这套循环里最关键的一个零件，是一份叫 strategy.md 的文件。老师每轮学到的东西都往里写，比如这个日历控件有 bug，别碰；别用鼠标拖，直接注入 JavaScript。这份文件会带进下一轮，执行者照着改进，然后老师再总结，再改进，如此往复，直到收敛。\n\n更妙的是他们怎么控制这个循环——不控制。不告诉它要跑几轮，不定成功率，不给算力上限。按原话说的就是：我们只给它一个宽泛的提示词，我们拥抱苦涩教训，我们说，好吧，让执行者和教师去干吧。这个思路叫爬坡：不换模型，靠一轮轮积累的技巧往上爬。\n\n那这样爬坡，能爬出什么来呢？现场演示里，智能体的第一个发现就很出人意料：订商务舱机票，根本不用在日历控件里点来点去，把参数直接拼进 Google Flights 的网址就行。事后看很显然，但连演讲者自己都说，作为人类，他未必想得出这么复杂的网址写法。\n\nOpenTable 那个例子更夸张。第一轮被拒绝访问拦住之后，老师判断这是环境层面的封锁；到了第二轮，智能体发现，只要在网址里带上经纬度和城市编号，就能绕开拦截，直接拿到能用的界面。它还总结出一条经验：永远别打开那个斜杠 R 路径，去了必被拦。\n\n效果是硬的。OpenTable 这个任务，成本从 6.22 美元降到 0.51 美元，耗时从 189 秒降到 27 秒。Google Flights 那个任务，第二轮成本就降到了四分之一。不同任务改善幅度不一样，给出的数字是便宜 3 倍到 16 倍不等。循环结束后会沉淀出一份 skill.md 文件，把所有技巧存下来，之后每次运行直接套用，不用再学。\n\n那这套东西怎么让更多人用上？Browserbase 把它做成了产品，叫 Browse.sh：预先为比如 500 个网站生成好技能文件，免费开放。这个比喻很形象——它就像九十年代互联网普及之前的黄页，只不过查的不是商家电话，而是如何在网络上的任何网站完成任何任务。而且技能文件本质上是纯文本，是可移植的。你可以交给 Claude Code，也可以接别的工具，工具自己会判断什么时候调哪个网站的技能。用户甚至可以提交需求，让系统现场生成一个新技能，做好发邮件给你。\n\n不过还有个现实问题：网站天天改版，技能文件一旦失效怎么办？目前的做法不是每天烧算力重跑循环，而是按需触发——生产环境一出现失败，就自动启动一轮研究，诊断问题，自动创建拉取请求，交给人类工程师确认后再更新技能。也可以用定时任务，每隔几小时抽查技能还灵不灵。安全上分了三层：请求进来先过滤，技能发布前过安全审查，基础设施层面再限制浏览器能访问的网址和能执行的操作。\n\n听到这儿你可能会想，我自己不做浏览器智能体，这套思路跟我有什么关系？其实它不限于浏览器。写代码的智能体每次都要重新学一遍仓库规范，研究类智能体每次都忘了该去哪个网站取数据——核心前提就一句话：智能体不应该每次都从零重新学你的任务。要套用这个方法，需要两个条件：一是可重放的环境，能反复从头跑；二是可验证的结果，能明确判断这轮是成是败。编码任务两条都满足，浏览器任务基本满足，但有些知识型工作夹着大量人工介入，很难重放，就不太合适了。\n\n回过头看，这一集真正想说的是：智能体最大的短板不是模型不够聪明，而是每次运行都从零开始。记住这句总结——这些浏览器智能体是从不学习的天才，而补上学习这一环，靠的不是更强的模型，是让经验留下来。"
+}

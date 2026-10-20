@@ -1,0 +1,143 @@
+===标题===
+让智能体自己爬坡：不改模型，也能让浏览器智能体越用越聪明
+===导语===
+Browserbase 的 Shubhankar Srivastava 演示了 auto-browse 循环：两个智能体一个干活一个复盘，把踩过的坑写成技能文件，成本最多降 16 倍。
+===正文===
+浏览器智能体就是让 AI 把浏览器当作工具来操作——点按钮、填表、截图，替你订机票、订餐厅。Shubhankar Srivastava 在 Browserbase 做销售工程，负责帮客户把这类智能体部署到真实生产环境。他这场演讲回答了一个所有人都关心的问题：智能体今天为什么老出错，以及不动模型本身，怎么让它变可靠。
+
+## 智能体最大的毛病：每次都从零开始
+
+现在的智能体有多笨？现场放了两个例子。一个在 Google Flights 上想拖动时间筛选器，怎么也搞不定拖拽操作，卡死在那里；另一个去 OpenTable 订餐厅，直接被网站拒绝访问。
+
+根子上的问题是：模型再聪明，也不知道某个网站的专属技巧——哪些网址会触发拦截、该用哪段 JavaScript。更糟的是，每一次运行都从零开始，上次学到的教训不会带下来。他把这类智能体叫做「geniuses that never learn」——从不学习的天才 [05:53 Unknown]。
+
+有人会说，那就针对每个网站微调模型。但在他看来这不现实：不可能每来一个新任务就微调一次，你需要一种能从生产运行记录里持续学习的机制。
+
+## 解法：一个干活的，一个当老师的
+
+思路来自 Karpathy 几个月前提出的 auto-research（自动研究）循环：给智能体一个可验证的任务，让它反复尝试、查看自己的轨迹、自我改进。Shubhankar 把它搬到浏览器上，起了个名字叫 auto-browse。
+
+架构很简单：两个 Claude Agent SDK 智能体配对。干活的那个拿着浏览器工具去操作；老师的那个在旁边看运行轨迹，总结哪里对了哪里错了。老师每轮的结论写进一个 strategy.md 文件，带到下一轮。不告诉它要跑几轮、要花多少算力，就让它俩自己磨合，直到收敛 [09:21 Unknown]。
+
+最终产出是一个 skill.md 文件——把这一路试出来的所有窍门固化下来，交给以后所有智能体使用。
+
+## 现场演示：从 12 美元降到 3 美元
+
+现场跑的任务是去 Google Flights 订一张周六旧金山飞纽约的商务舱机票，带一件登机箱，要早班。
+
+第一轮失败了。但老师学到了一招：根本不用在日历控件上点来点去，把日期写进网址的查询参数就行。第二轮就通过了，而且成本从 12 美元降到 3 美元，4 倍的差距 [12:21 Unknown]。第三轮轮数更少、延迟更低，但失败了——它矫枉过正了，第四轮又纠回来。最后收敛出的技能核心是：把整个查询都编码进网址，别浪费点击。
+
+OpenTable 的例子更夸张。第一轮被拒绝访问后，智能体发现拦截跟环境有关，于是改用带经纬度和城市编号的查询参数绕开被封锁的页面。成本从 6.22 美元降到 0.51 美元，耗时从 189 秒降到 27 秒 [15:08 Unknown]。它甚至摸清了旧金山对应的城市编号。Shubhankar 说，这些招数让以前要花大量工程时间逆向网站的客户目瞪口呆。
+
+> 【背景】OpenTable 是美国的餐厅订位网站，对自动化访问有较严格的反爬措施。
+
+## 怎么搬到你自己的领域
+
+这套东西不只属于浏览器。他举了几个同样适用的场景：编码智能体每次都在重新学仓库的代码规范；研究智能体每次都忘了该从哪个网站取数据；内部运营里有各种仪表盘和数据库，智能体不知道哪个好用。
+
+条件就两个 [21:58 Unknown]：一是有可重放的环境，能让循环反复跑；二是有可验证的结果，能判断成功还是失败。编码任务天然合适——从 Docker 镜像随时重来。但知识型工作可能很难重放，因为中间有很多人工介入。
+
+他还提醒，验证本身有讲究。订没订到机票是明确的二值判断，但「有没有找到最好的航班选项」就很模糊。设计好怎么评价结果，是整个循环能不能收敛的关键。
+
+## 网站天天变，技能怎么办
+
+技能会过时，这是绕不开的问题。现在的做法是：不在每天定时烧算力重跑，而是等生产环境出现失败时，自动触发一轮 auto-browse 去修复技能，然后生成拉取请求交给人类工程师审核合并 [38:26 Unknown]。也可以在 Claude Code 里设定时任务，每天早上 9 点跑一次，成功就继续，失败就通知并触发修复。
+
+成本方面他算过账：跑一轮 auto-browse 大概 30 到 40 美元，最复杂也不过 100 美元，而且这笔钱是摊销的——技能生成一次，以后每次运行都在省钱。甚至用更便宜的 Sonnet 模型多跑几轮，可能比用 Opus 少跑几轮更划算 [28:08 Unknown]。
+
+## 安全：浏览器是个危险的入口
+
+有人问：网站能不能在页面里藏恶意指令，骗这个学习循环学会坏事？他给了三层防护 [49:19 Unknown]：入口层控制查询能到哪、能做什么；技能层在发布前先过一道安全审查智能体；基础设施层有网络限制和动作限制，类似 Claude Code 的「每次询问、仅此一次、始终允许」的授权模式。
+
+## 本集带走
+
+- 智能体不可靠的根源不是模型不够聪明，而是每次运行都从零开始、不带任何学习。
+- auto-browse 用「干活 + 老师」两个智能体配对反复迭代，把经验固化成可移植的技能文件，不改模型权重。
+- 实测收益明显：成本最多降 16 倍，OpenTable 任务从 6.22 美元降到 0.51 美元、189 秒降到 27 秒。
+- 想在自己领域复用，需要两样东西：可重放的环境，和可验证的结果。
+- 技能会过时——靠生产失败自动触发修复循环、人工审核拉取请求来保鲜。
+===金句===
+02:46 | Unknown
+The biggest problem with agents today is essentially reliability.
+如今智能体最大的问题本质上就是可靠性。
+
+03:04 | Unknown
+And we see reliability essentially as an engineering problem.
+我们本质上把可靠性视为一个工程问题。
+
+05:19 | Unknown
+And the most important thing is every run starts from zero.
+最重要的一点是，每次运行都是从零开始。
+
+05:42 | Unknown
+Every agent run is a start-from-scratch run, and it's not learning from its production traces.
+每次智能体运行都是从零开始的运行，它没有从自己的生产轨迹中学习。
+
+05:50 | Unknown
+And these browser agents, I call them geniuses that never learn.
+而这些浏览器智能体，我称之为从不学习的天才。
+
+06:03 | Unknown
+If you're thinking of building agents, you can't really be fine-tuning for every new task that comes up.
+如果你想构建智能体，你不可能为每一个出现的新任务都做微调。
+
+09:21 | Unknown
+We just give it a broad prompt, and we let the bitter lesson, we embrace the bitter lesson, and we're like, okay, let the doer and teacher go at it.
+我们只给它一个宽泛的提示词，我们拥抱苦涩教训，我们说，好吧，让执行者和教师去干吧。
+
+10:29 | Unknown
+Now, this is obvious in hindsight, but maybe as a human, I wouldn't have thought of this and I wouldn't have written this complicated query parameter myself, right?
+现在，事后来看这很显然，但作为人类，我可能不会想到这一点，我自己也不会写出这么复杂的查询参数，对吧？
+
+15:35 | Unknown
+Now, these are the kind of learnings where a human could never have done, but you just sort of embrace the bitter lesson and let agents do the job, and they will find these tricks for you.
+这类学习是人类永远做不到的，你只要拥抱苦涩的教训，让智能体去干活，它们就会为你找到这些技巧。
+
+16:05 | Unknown
+The sale is only done when the browser agent is successful, so reliability is the most important thing for me.
+只有浏览器智能体成功了，销售才算完成，所以可靠性对我来说是最重要的。
+
+17:24 | Unknown
+Again, like I know I'm showing these things, but when I first started looking at the results here, this was like my moment of like, this is the mythos moment for browser agents, you know, like just reverse engineering the hell out of things.
+当我第一次看这些结果时，那一刻我的感觉就是，这就是浏览器智能体的 mythos 时刻，就是把东西狠狠地逆向工程个遍。
+
+18:54 | Unknown
+This is Yellow Pages for browser agents, right?
+这就是面向浏览器智能体的黄页，对吧？
+
+21:54 | Unknown
+The fundamental premise is like the agent should not be relearning your tasks from zero, right?
+根本前提是，智能体不应该从零开始重新学习你的任务，对吧？
+
+25:48 | Unknown
+Sometimes is under-discussed, but extremely important.
+有时被讨论得不够，但极其重要。
+
+25:54 | Unknown
+He said having a verifiable outcome is important, but also you should have extremely grindable environments or extremely grindable use cases as well.
+他说拥有可验证的结果很重要，但你也应该有极其可反复打磨的环境或极其可反复打磨的用例。
+
+29:23 | Unknown
+So I am the teacher agent. Can you automate me?
+所以我就是那个教师智能体。你能把我自动化吗？
+
+28:16 | Unknown
+Also, this cost is amortized, right? Like one auto-browse loop that we probably run is like maybe $30, $40.
+而且，这个成本是被摊销的，对吧？我们大概会跑的一个 auto-browse 循环，大概是 30、40 美元。
+
+40:07 | Unknown
+What I've seen, sometimes these, our research loops are so smart, they realize that browsers are not needed at all, and they just reverse engineer the API, and they fire the API, and that's the fastest that you'll ever get to, right?
+我见过的是，有时候这些研究循环非常聪明，它们意识到根本不需要浏览器，直接对 API 进行逆向工程，然后直接调用 API,那是你能达到的最快速度，对吧？
+
+42:27 | Unknown
+And, yeah, again, I fully embrace the bitter lesson. I try not to put many guardrails in these evaluations.
+而且，是的，我再次完全拥抱 bitter lesson。我尽量不在这类评估中放太多护栏。
+
+49:47 | Unknown
+I know browser is a crazy threat vector when you think about it.
+我知道，仔细想想，浏览器是一个疯狂的威胁向量。
+
+20:31 | Unknown
+And now our customers have actually built these entire pipelines of these skills that get generated on the fly, pull requests that get created automatically.
+而现在我们的客户已经构建了这些完整的管道，包含即时生成的技能、自动创建的拉取请求。
+===END===
