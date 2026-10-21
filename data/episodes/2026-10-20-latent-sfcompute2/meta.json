@@ -1,0 +1,28 @@
+{
+  "id": "2026-10-20-latent-sfcompute2",
+  "source_url": "https://www.latent.space/p/sfcompute2",
+  "substack_post_id": 221372257,
+  "audio_mp3": "https://api.substack.com/api/v1/audio/upload/628fa070-efc0-490c-a5b8-048f7daa656e/src",
+  "duration_sec": 2203.2,
+  "transcript_source": "Substack 官方 aligned transcription.json(说话人标注+逐词时间戳);由 scripts/fetch-source.mjs 取",
+  "transcript_segments": 736,
+  "cover_official_url": "https://substack-video.s3.amazonaws.com/video_upload/post/221372257/628fa070-efc0-490c-a5b8-048f7daa656e/transcoded-1792523882.png",
+  "title_en": "The Programmable Data Center — Evan Conrad, SF Compute",
+  "podcast": "Latent Space",
+  "date": "2026-10-20",
+  "added": "2026-10-21",
+  "added_at": "2026-10-21T02:12:38.532Z",
+  "speaker_map": {
+    "SPEAKER_00": "Evan Conrad"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Evan Conrad"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "算力也能像石油一样交易：SF Compute 想给数据中心开一个期货市场",
+  "guest_name": "Evan Conrad",
+  "guest_title": "SF Compute 创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

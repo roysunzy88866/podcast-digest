@@ -1,0 +1,197 @@
+{
+  "title_zh": "增长人员的一天：五个终端窗口，把活儿全派给 AI",
+  "tldr": "帮 ElevenLabs 从 1 亿涨到 2 亿美元营收的 James McAulay，演示他如何用 Claude Code 跑增长。",
+  "digest_md": "James McAulay 做了 10 年创业公司 CEO，后来加入 ElevenLabs——按他的说法，那是增长领域的大师课。现在他开了自己的公司，教人用 AI 智能体做增长，95 天做到月入 10 万美元，没招一个全职员工。这期节目里，他把整套方法完整演示了一遍。\n\n## AI 时代做增长，最大的风险是分心\n\nMcAulay 的核心观点：AI 让人几乎什么都能做出来，你和一个智能体坐下来，一天之内就能做出一个能用的产品原型。但问题恰恰出在这——**没人要的功能，做得再快也是浪费时间** [14:03 James McAulay]。\n\n所以他给自己搭了一套增长操作系统：年度使命写成文件，拆成季度 OKR，每月复盘一次，每周五花大约一小时做周复盘，平时还有每日站会。站会他自己也常忘，但周复盘雷打不动，已经连做了十多周。\n\n复盘为什么有效？举他自己的例子：他技术出身，喜欢加功能。Claude 连上了他的待办清单之后发现，一些市场和外联任务每周都原封不动躺在那儿，而 GitHub 记录显示他「重构了根本不需要重构的东西，纯粹因为重构好玩」[13:37 James McAulay]。感觉不准，数字不会骗人——他会说觉得销售这周有点慢，Claude 直接去查数据，告诉你到底在不在轨道上。\n\n## 让 AI 当你的增长负责人，反复问「这是不是十倍的机会」\n\n这套系统装在终端里，每次启动 Claude，第一件事就是提醒你本季度的目标。你要是跑偏了，比如想做个毫不相关的 3D 小游戏，它会把你拽回来 [11:26 James McAulay]。\n\n用他的话说，就像雇了一个增长负责人，天天追着你问：「这是十倍的赌注吗？这周你为什么分心了？」\n\n## 增长实验最大的坑：开了头不收尾\n\n系统里内置了实验纪律。他见过太多次这样的场面：公司跑了一堆实验，没好好记录，新同事入职想做某个漏斗测试，老员工只能说这个我们试过，没用——但结果在哪儿？没记录 [19:31 James McAulay]。\n\n他的解法是一套模板：每个实验写清假设、对应的指标基线、可能的干扰因素、什么情况提前终止。系统会盯着所有进行中的实验，发现该结束的就催你收尾、写下学到的经验。播客主持人也补充，Claude 在实验严谨性上表现不错——有一次它主动指出实验存在混杂变量，得先看媒介组合模型 [19:14 SPEAKER_01]。\n\n## SEO 审计：从花几千美元等三周，到几美分跑一次\n\n节目里最实用的演示是 SEO 审计技能（改编自 Corey Haynes 的开源技能）。他记得 10 年前请 SEO 代理公司，花不少钱，等两三周才拿到一份报告，再等两三周让开发者排期修改 [36:52 James McAulay]。现在这套技能十几分钟跑完：反向链接、标题标签、页面速度（用 Lighthouse 命令行工具）、可抓取性，一次出全。\n\n关键是两个便宜工具：Firecrawl 把任何网页转成文本文件，绕开反爬虫拦截；Data for SEO 的接口便宜到不敢相信，查一个关键词只要几美分——不用再订上百美元的传统 SEO 工具或 SEMrush [27:33 James McAulay]。\n\n现场他拿主持人的网站试了试，真找出一堆问题：很多文章没有 SEO 描述、部分标题过长、存在重复内容。主持人说自己的 SEO 流量从 5 月的 2.5 万次掉到了 1 万次，这份报告正好用得上。\n\n## 多智能体互审：让五个批评家攻击你的计划\n\n他每天在用的另一个技能叫多智能体精炼：写好计划或产品需求文档后，派出 3 到 10 个子智能体，各带一个视角——技术对不对、可不可行、漏了什么、够不够简单——回来汇成一份带优先级的修改清单 [39:39 James McAulay]。\n\n他称之为**对抗性审查，效果远好于让一个智能体检查自己的工作**。有人甚至把 Paul Graham 这类人的文章喂给智能体，让他们来点评你的计划。他提醒：子智能体用 Sonnet 就够了，他有次不小心开了 20 个高端模型子智能体，额度瞬间见底。\n\n## 全自动增长智能体？还没到那个程度\n\n主持人问：==自主智能体是不是被吹过头了==？McAulay 的回答很实在：社交媒体上说自己有智能体 24 小时替自己干活的人，要么在烧算力做无用功，要么只是每天收到一份竞品简报。他自己的日常是五六个终端窗口，每个派出去一个可能要一小时的活，人在驾驶座上 [35:40 James McAulay]。\n\n「**创造一个智能体然后让它自己印钱，我认为有点幻想成分，是推特上的炒作**。」\n\n但他也承认这是他最想突破的方向：晚上六点合上笔记本，智能体自己挑任务、自己干活、自己检查，早上醒来实验已经收尾、下一个已经开跑。谁能替公司做好这件事，谁就能赚大钱 [60:01 James McAulay]。\n\n## 大多数人还没发现的技巧：让智能体改进它自己\n\n教了 400 多人之后，他发现大家最普遍的盲点是：**不知道可以让智能体优化自己**。在 Jack and Jill（一家智能体招聘公司）时，他听到有同事直接问智能体 Jack「你会怎么改进自己的系统提示词」，Jack 给出十步清单，照做之后真的变好了 [64:02 James McAulay]。\n\n网页聊天版做不到这点——它改不了自己的设定。但在终端里，智能体能读写你电脑上的任何文件，包括它自己的技能和指令。所以下次想知道怎么改配置，先问它自己。\n\n## 本集带走\n\n- 增长的核心仍是优先级：AI 让你能做任何事，系统的作用是逼你只做真正动指标的事。\n- 用周复盘对抗自我感觉：把主观感受和 Stripe、PostHog 里的硬数据放在一起对照。\n- 实验必须闭环：假设、基线、干扰因素先写清，结束后记录学到了什么，否则等于白做。\n- 把所有工具尽快接进智能体：数据、CRM、邮件列表一旦打通，一个提示词就能换来以前需要一个工程师的活。\n- 别迷信全自动智能体：眼下最有效的模式是人掌舵，智能体干活，让它们互相审查计划。",
+  "quotes": [
+    {
+      "en": "It actually took us six years to reach £100,000 of monthly revenue. My current business hit that goal in 95 days. I haven't hired a single full-time employee.",
+      "zh": "我们当时花了六年才达到每月 10 万英镑的收入。我现在的业务在 95 天内就达成了这个目标。我没有雇佣过一名全职员工。",
+      "timestamp": "01:00",
+      "speaker": "James McAulay"
+    },
+    {
+      "en": "I guess you could think about this as having your own growth lead who is just repeatedly saying, is this a 10x bet? Is this going to move the needle? Why did you get distracted this week?",
+      "zh": "我想你可以把这理解为拥有你自己的增长负责人，他只是反复地问：这是一个 10 倍的赌注吗？这会推动关键指标吗？你这周为什么分心了？",
+      "timestamp": "11:51",
+      "speaker": "James McAulay"
+    },
+    {
+      "en": "Hang on, you've shipped so much that we did not need to ship. You've refactored part of your platform for no reason other than it was fun to refactor.",
+      "zh": "等等，你上线了这么多我们根本不需要上线的东西。你重构了你平台的某个部分，唯一的理由就是重构很好玩。",
+      "timestamp": "13:37",
+      "speaker": "James McAulay"
+    },
+    {
+      "en": "It's not an exaggeration to say that if you or I sat down You know, tomorrow morning we could have a working sort of MVP or like a feature by the end of the day. But if nobody wants that feature, if nobody wants that product, we've wasted our time.",
+      "zh": "可以毫不夸张地说，如果你或我坐下来，明天早上开工，到一天结束时我们就能做出一个能跑的 MVP 或一个功能。但如果没人想要那个功能、没人想要那个产品，我们就浪费了时间。",
+      "timestamp": "14:03",
+      "speaker": "James McAulay"
+    },
+    {
+      "en": "But I realized very quickly that I wasn't reading the files. Like I was setting up tests. I was inspecting all the front end. I was basically managing the coding agent, but trusting that with the right testing harness, it couldn't ship something that would break.",
+      "zh": "但我很快就意识到，我根本没在读那些文件。我在搭建测试，在检查所有前端。我基本上是在管理这个编码智能体，同时相信只要有合适的测试框架，它不会交付出会出问题的东西。",
+      "timestamp": "15:41",
+      "speaker": "James McAulay"
+    },
+    {
+      "en": "I think with AI now there's kind of no excuse for not documenting stuff.",
+      "zh": "我觉得现在有了 AI，不记录东西就有点没有借口了。",
+      "timestamp": "19:47",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "But in doing that and having Claude basically sort of structure your context in a second brain, every answer, every question from there on out is better.",
+      "zh": "但通过这样做，让 Claude 基本上把你的上下文结构化地放进一个第二大脑，从那以后的每一个回答、每一个问题都会更好。",
+      "timestamp": "21:27",
+      "speaker": "James McAulay"
+    },
+    {
+      "en": "But the idea that we have these agents that we sort of create and then they just go off and like print money for us without us sort of doing anything, I think is a little bit of a fantasy and maybe some kind of overhyping on Twitter.",
+      "zh": "但是那种「我们创建了这些智能体，然后它们就自己去给我们印钞票，而我们什么都不用做」的想法，我觉得有点像是一种幻想，也许还有点 Twitter 上的过度炒作。",
+      "timestamp": "33:04",
+      "speaker": "James McAulay"
+    },
+    {
+      "en": "And then I remember giving a report like this to my developers and waiting two or three weeks to have it all prioritized, backlogged, built. Whereas now, if I sent you this report, you gave it to whichever agent is inside your repo and said slash goal, test and refine until all of these are solved, it would do it.",
+      "zh": "然后我记得把这样的报告交给我的开发人员，再等两三个星期，让所有事项被排好优先级、进 backlog、做完。而现在，如果我把这份报告发给你，你把它交给你仓库里的任何一个智能体，输入 slash goal，测试并迭代直到所有问题都解决，它就会去做。",
+      "timestamp": "37:01",
+      "speaker": "James McAulay"
+    },
+    {
+      "en": "just like adversarial review, this is called adversarial review, always, in my experience, surfaces like far more than just getting one agent to kind of like review its own work.",
+      "zh": "就像对抗性评审一样，这个就叫对抗性评审，在我的经验里，它揭示的东西远远多于只让一个智能体去评审它自己的工作。",
+      "timestamp": "44:17",
+      "speaker": "James McAulay"
+    },
+    {
+      "en": "I think people don't realize that you can ask an agent to improve itself.",
+      "zh": "我觉得人们没有意识到，你可以让一个智能体去改进它自己。",
+      "timestamp": "63:27",
+      "speaker": "James McAulay"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "01:00",
+      "speaker": "James McAulay",
+      "en": "It actually took us six years to reach £100,000 of monthly revenue. My current business hit that goal in 95 days. I haven't hired a single full-time employee.",
+      "zh": "我们当时花了六年才达到每月 10 万英镑的收入。我现在的业务在 95 天内就达成了这个目标。我没有雇佣过一名全职员工。"
+    },
+    {
+      "timestamp": "03:50",
+      "speaker": "James McAulay",
+      "en": "But I've sort of deliberately engineered this whole harness so that I'm constantly kept on track.",
+      "zh": "但我是刻意设计了这一整套 harness，让自己始终保持在正轨上。"
+    },
+    {
+      "timestamp": "05:46",
+      "speaker": "James McAulay",
+      "en": "I only work with tools that have good APIs or good CLIs. Everything feeds back into whichever agent you're using.",
+      "zh": "我只用那些有好的 API 或好的 CLI 的工具。所有东西都会回馈到你正在使用的那个智能体。"
+    },
+    {
+      "timestamp": "11:01",
+      "speaker": "James McAulay",
+      "en": "Growth is all about prioritization. We do not want to get distracted. We don't want to waste time running the wrong experiments.",
+      "zh": "增长的关键全在于优先级排序。我们不想分心。我们不想浪费时间跑错误的实验。"
+    },
+    {
+      "timestamp": "11:51",
+      "speaker": "James McAulay",
+      "en": "I guess you could think about this as having your own growth lead who is just repeatedly saying, is this a 10x bet? Is this going to move the needle? Why did you get distracted this week?",
+      "zh": "我想你可以把这理解为拥有你自己的增长负责人，他只是反复地问：这是一个 10 倍的赌注吗？这会推动关键指标吗？你这周为什么分心了？"
+    },
+    {
+      "timestamp": "13:37",
+      "speaker": "James McAulay",
+      "en": "Hang on, you've shipped so much that we did not need to ship. You've refactored part of your platform for no reason other than it was fun to refactor.",
+      "zh": "等等，你上线了这么多我们根本不需要上线的东西。你重构了你平台的某个部分，唯一的理由就是重构很好玩。"
+    },
+    {
+      "timestamp": "13:56",
+      "speaker": "James McAulay",
+      "en": "Because I do think this is one of the biggest risks with AI now is that we can build anything, right?",
+      "zh": "因为我的确认为，这是现在 AI 带来的最大风险之一：我们可以构建任何东西，对吧？"
+    },
+    {
+      "timestamp": "14:03",
+      "speaker": "James McAulay",
+      "en": "It's not an exaggeration to say that if you or I sat down You know, tomorrow morning we could have a working sort of MVP or like a feature by the end of the day. But if nobody wants that feature, if nobody wants that product, we've wasted our time.",
+      "zh": "可以毫不夸张地说，如果你或我坐下来，明天早上开工，到一天结束时我们就能做出一个能跑的 MVP 或一个功能。但如果没人想要那个功能、没人想要那个产品，我们就浪费了时间。"
+    },
+    {
+      "timestamp": "15:41",
+      "speaker": "James McAulay",
+      "en": "But I realized very quickly that I wasn't reading the files. Like I was setting up tests. I was inspecting all the front end. I was basically managing the coding agent, but trusting that with the right testing harness, it couldn't ship something that would break.",
+      "zh": "但我很快就意识到，我根本没在读那些文件。我在搭建测试，在检查所有前端。我基本上是在管理这个编码智能体，同时相信只要有合适的测试框架，它不会交付出会出问题的东西。"
+    },
+    {
+      "timestamp": "18:29",
+      "speaker": "James McAulay",
+      "en": "So, you know, you've got a bunch of post hoc experiments, but you haven't actually documented the learnings.",
+      "zh": "所以，你知道，你有一堆事后回顾的实验，但你实际上没有记录下学到的东西。"
+    },
+    {
+      "timestamp": "19:32",
+      "speaker": "James McAulay",
+      "en": "And we'd say, oh, sorry, I already tried that. And they'd say, cool, where can I see the results? Well, we can tell you that it didn't work, but we don't actually have it documented.",
+      "zh": "我们会说，哦，抱歉，那个已经试过了。他们会说，好啊，我在哪里能看到结果？嗯，我们可以告诉你那个没起作用，但我们实际上没有把它记录下来。"
+    },
+    {
+      "timestamp": "19:47",
+      "speaker": "SPEAKER_01",
+      "en": "I think with AI now there's kind of no excuse for not documenting stuff.",
+      "zh": "我觉得现在有了 AI，不记录东西就有点没有借口了。"
+    },
+    {
+      "timestamp": "20:16",
+      "speaker": "James McAulay",
+      "en": "But in doing that and having Claude basically sort of structure your context in a second brain, every answer, every question from there on out is better.",
+      "zh": "但通过这样做，让 Claude 基本上把你的上下文结构化地放进一个第二大脑，从那以后的每一个回答、每一个问题都会更好。"
+    },
+    {
+      "timestamp": "27:55",
+      "speaker": "James McAulay",
+      "en": "No. ... I found it so clunky in those tools to actually kind of like put together a keyword universe. Whereas with Claude, I said, you know, analyze my website, analyze competitors, use data for SEO to create a keyword universe, and then we will like attack the keywords that matter.",
+      "zh": "不推荐。……我发现在那些工具里整理关键词宇宙太笨重了。而用 Claude，我说：分析我的网站，分析竞争对手，用 data for SEO 来创建一个关键词宇宙，然后我们就去攻下那些重要的关键词。"
+    },
+    {
+      "timestamp": "32:10",
+      "speaker": "James McAulay",
+      "en": "They're either like burning tokens on sort of like kind of useless stuff or, you know, these agents are maybe like going out to scan a competitor and sending a briefing back.",
+      "zh": "他们要么是在某种没用的东西上烧 token，要么，这些智能体可能就是出去扫描一下竞争对手然后发回一份简报。"
+    },
+    {
+      "timestamp": "33:07",
+      "speaker": "James McAulay",
+      "en": "But the idea that we have these agents that we sort of create and then they just go off and like print money for us without us sort of doing anything, I think is a little bit of a fantasy and maybe some kind of overhyping on Twitter.",
+      "zh": "但是那种「我们创建了这些智能体，然后它们就自己去给我们印钞票，而我们什么都不用做」的想法，我觉得有点像是一种幻想，也许还有点 Twitter 上的过度炒作。"
+    },
+    {
+      "timestamp": "36:57",
+      "speaker": "James McAulay",
+      "en": "And then I remember giving a report like this to my developers and waiting two or three weeks to have it all prioritized, backlogged, built. Whereas now, if I sent you this report, you gave it to whichever agent is inside your repo and said slash goal, test and refine until all of these are solved, it would do it.",
+      "zh": "然后我记得把这样的报告交给我的开发人员，再等两三个星期，让所有事项被排好优先级、进 backlog、做完。而现在，如果我把这份报告发给你，你把它交给你仓库里的任何一个智能体，输入 slash goal，测试并迭代直到所有问题都解决，它就会去做。"
+    },
+    {
+      "timestamp": "44:17",
+      "speaker": "James McAulay",
+      "en": "just like adversarial review, this is called adversarial review, always, in my experience, surfaces like far more than just getting one agent to kind of like review its own work.",
+      "zh": "就像对抗性评审一样，这个就叫对抗性评审，在我的经验里，它揭示的东西远远多于只让一个智能体去评审它自己的工作。"
+    },
+    {
+      "timestamp": "54:03",
+      "speaker": "James McAulay",
+      "en": "I think my biggest piece of advice is like get everything connected as fast as possible. ... giving it full context across every ecosystem you work in is what kind of like helps it move at an incredible speed.",
+      "zh": "我觉得我最大的建议就是尽快把所有东西连接起来。……让它在你工作的每个生态系统中都拥有完整上下文，这就是它能以惊人速度推进的原因。"
+    },
+    {
+      "timestamp": "63:27",
+      "speaker": "James McAulay",
+      "en": "I think people don't realize that you can ask an agent to improve itself.",
+      "zh": "我觉得人们没有意识到，你可以让一个智能体去改进它自己。"
+    }
+  ],
+  "voice_script": "今天这一期,来聊一个很实际的问题:AI 时代,做增长的人一天到底该怎么干活。主角叫 James McAulay,做过十年创业公司 CEO,后来加入 ElevenLabs,用他的话说,那段经历就是增长领域的大师课。现在自己开了公司,教人用 AI 智能体做增长,95 天做到月入 10 万美元,而且一个全职员工都没招。对比一下——之前的业务花了六年才达到每月 10 万英镑。这一期,把整套方法完整演示了一遍。\n\n先说最核心的观点。AI 让人几乎什么都能做出来,你跟一个智能体坐下来,一天之内就能做出一个能用的产品原型。但问题恰恰出在这儿:没人要的功能,做得再快也是浪费时间。所以光会\"做出来\"不够,真正的功夫在优先级——逼自己只做真正动指标的事。\n\n为此,给自己搭了一套增长操作系统。年度使命写成文件,拆成季度 OKR,每月复盘一次,每周五花大约一小时做周复盘,平时还有每日站会。站会经常忘,但周复盘雷打不动,已经连做了十多周。\n\n为什么复盘这么重要?举个例子就明白了。技术出身,天然喜欢加功能。结果 Claude 连上待办清单之后发现,一些市场和外联任务每周都原封不动躺在那儿,GitHub 记录还显示,这人\"重构了根本不需要重构的东西,纯粹因为重构好玩\"。感觉不准,数字不会骗人。你可能会说\"我觉得销售这周有点慢\",Claude 直接去查数据,告诉你到底在不在轨道上。\n\n这套系统装在终端里,每次启动 Claude,第一件事就是提醒你本季度的目标。要是跑偏了,比如想做个毫不相关的 3D 小游戏,它会把人拽回来。用 McAulay 自己的话说,就像雇了一个增长负责人,天天追着你问:这是十倍的赌注吗?这会推动关键指标吗?这周你为什么分心了?\n\n那做实验又该怎么管?系统里内置了实验纪律。见过太多次这样的场面:公司跑了一堆实验,没好好记录,新同事入职想做某个漏斗测试,老员工只能说这个我们试过,没用——但结果在哪儿?没记录。解法是一套模板:每个实验写清假设、对应的指标基线、可能的干扰因素、什么情况提前终止。系统会盯着所有进行中的实验,该结束的就催你收尾、写下学到的经验。主持人也补充了一句,Claude 在实验严谨性上表现不错,有一次主动指出实验存在混杂变量,得先看媒介组合模型。用 McAulay 的话说,现在有了 AI,不记录东西就有点没有借口了。\n\n接下来是节目里最实用的演示:SEO 审计技能,改编自 Corey Haynes 的开源技能。十年前请 SEO 代理公司,花不少钱,等两三周才拿到一份报告,再等两三周让开发者排期修改。现在这套技能十几分钟跑完,反向链接、标题标签、页面速度、可抓取性,一次出全。关键是两个便宜工具:Firecrawl 把任何网页转成文本文件,绕开反爬虫拦截;Data for SEO 的接口便宜到不敢相信,查一个关键词只要几美分,不用再订上百美元的传统工具或 SEMrush。现场拿主持人的网站试了试,真找出一堆问题:很多文章没有 SEO 描述、部分标题过长、还有重复内容。主持人说自己的 SEO 流量从 5 月的 2.5 万次掉到了 1 万次,这份报告正好用得上。\n\n那写好的计划谁来把关?每天在用的另一个技能叫多智能体精炼:写好计划或产品需求文档后,派出 3 到 10 个子智能体,各带一个视角——技术对不对、可不可行、漏了什么、够不够简单——回来汇成一份带优先级的修改清单。这叫对抗性审查,效果远好于让一个智能体检查自己的工作。有人甚至把 Paul Graham 这类人的文章喂给智能体,让它们来点评你的计划。一个提醒:子智能体用 Sonnet 就够了,有次不小心开了 20 个高端模型子智能体,额度瞬间见底。\n\n听到这儿你可能会问,那全自动智能体呢?让 AI 24 小时自己干活不行吗?McAulay 的回答很实在:社交媒体上说自己有智能体 24 小时替自己干活的人,要么在烧算力做无用功,要么只是每天收到一份竞品简报。日常其实是五六个终端窗口,每个派出去一个可能要一小时的活,人在驾驶座上。创造一个智能体然后让它自己印钱,这有点幻想成分,是推特上的炒作。但也承认,这是最想突破的方向:晚上六点合上笔记本,智能体自己挑任务、自己干活、自己检查,早上醒来实验已经收尾、下一个已经开跑。谁能替公司做好这件事,谁就能赚大钱。\n\n最后一个大多数人还没发现的技巧:让智能体改进它自己。教了 400 多人之后发现,大家最普遍的盲点就是这个。之前在一家叫 Jack and Jill 的智能体招聘公司,听到有同事直接问智能体\"你会怎么改进自己的系统提示词\",对方给出十步清单,照做之后真的变好了。为什么网页聊天版做不到?因为它改不了自己的设定。但在终端里,智能体能读写你电脑上的任何文件,包括它自己的技能和指令。所以下次想知道怎么改配置,先问它自己。\n\n这一期听下来,一句话带走:AI 让你能做任何事,所以增长的核心又回到了老问题——优先级。眼下最有效的模式,是人掌舵,智能体干活,让它们互相审查计划,而系统的作用,就是逼你只做真正动指标的事。"
+}

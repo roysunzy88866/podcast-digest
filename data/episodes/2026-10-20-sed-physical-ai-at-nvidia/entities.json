@@ -1,0 +1,1182 @@
+{
+  "episode_id": "2026-10-20-sed-physical-ai-at-nvidia",
+  "podcast": "Software Engineering Daily",
+  "date": "2026-10-20",
+  "tags": [
+    "物理 AI",
+    "机器人",
+    "世界模型",
+    "自动驾驶",
+    "边缘计算"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "matt-merrill",
+      "type": "person",
+      "role": "host",
+      "name": "Matt Merrill",
+      "file": "Matt Merrill",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            50.344,
+            70.281
+          ],
+          "quote": "In this episode, Amit joins Matt Merrill to discuss what separates physical AI from digital AI, how world models plan and predict, the two-tower architecture that lets a robot reason and act at once, why training on video demanded a new data pipeline, and how any developer can start building in this space.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            71.299,
+            80.682
+          ],
+          "quote": "Matt Merrill is a software engineering leader with over 20 years of experience building and scaling software teams across enterprise and product-focused organizations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            109.757,
+            119.42
+          ],
+          "quote": "My name is Matt Merrill, and I am here today with Amit Goel from NVIDIA, who is head of robotics and edge AI.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "amit-goel",
+      "type": "person",
+      "role": "cohost",
+      "name": "Amit Goel",
+      "file": "Amit Goel",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            42.237,
+            49.824
+          ],
+          "quote": "Amit Goel has been at NVIDIA for 15 years, and he is currently the Head of Robotics Ecosystem and Edge AI product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            109.757,
+            119.42
+          ],
+          "quote": "My name is Matt Merrill, and I am here today with Amit Goel from NVIDIA, who is head of robotics and edge AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 15,
+          "t": [
+            126.363,
+            126.843
+          ],
+          "quote": "Amit Goel Hey, Matt.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 17,
+          "t": [
+            127.983,
+            131.505
+          ],
+          "quote": "I'm Amit Goel, head of our robotics ecosystem.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "嘉宾 Amit Goel 任职 15 年的公司，构建 Cosmos 世界模型系列、Jetson 边缘计算产品和 Curator 数据管线，处于物理 AI 和机器人技术前沿。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            34.774,
+            41.637
+          ],
+          "quote": "NVIDIA has been building a family of these models called Cosmos and sits at the frontier of physical AI and robotics.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            42.237,
+            49.824
+          ],
+          "quote": "Amit Goel has been at NVIDIA for 15 years, and he is currently the Head of Robotics Ecosystem and Edge AI product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            109.757,
+            119.42
+          ],
+          "quote": "My name is Matt Merrill, and I am here today with Amit Goel from NVIDIA, who is head of robotics and edge AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 18,
+          "t": [
+            132.305,
+            140.307
+          ],
+          "quote": "At NVIDIA, which means my team gets to work with all the developers who are doing some amazing work with AI and robotics.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 21,
+          "t": [
+            151.47,
+            153.03
+          ],
+          "quote": "I've been at NVIDIA for 15 years.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 28,
+          "t": [
+            179.02,
+            183.946
+          ],
+          "quote": "So when NVIDIA or anybody says physical AI, what do you mean?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 127,
+          "t": [
+            647.626,
+            652.609
+          ],
+          "quote": "So at NVIDIA, we have been working on the Cosmos models and a variety of those exist.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1019.82,
+            1025.746
+          ],
+          "quote": "If you look at the latest Cosmos 3 family of models that NVIDIA released, we have these two heads, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 574,
+          "t": [
+            2840.152,
+            2841.654
+          ],
+          "quote": "Is that something NVIDIA produces?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 594,
+          "t": [
+            2925.406,
+            2936.596
+          ],
+          "quote": "You want to look for models that are supported by the support NVIDIA's like crude or physical intelligence or, you know, these popular AI models, right?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "type": "company",
+      "role": "company",
+      "name": "Hugging Face",
+      "file": "Hugging Face",
+      "primary": true,
+      "how_described": "NVIDIA 与之合作让软件开发者为机器人编程的平台；提到把采集数据发布到 Hugging Face 训练策略、且其 checkpoint 已覆盖 SO101 机械臂等硬件；还提到智能体攻击 Hugging Face 后社区用开放模型修复的事件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 468,
+          "t": [
+            2372.261,
+            2384.068
+          ],
+          "quote": "We saw recent what happened in a couple of weeks ago, you know, with the agent getting, attacking the hugging face, and they were able to use an open model to actually go and triage that and, you know, fix it, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 556,
+          "t": [
+            2740.372,
+            2753.416
+          ],
+          "quote": "And one of the things we started working with the team at Hugging Face was to target and enable all the software developers who are used to writing programs to start programming robots.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 570,
+          "t": [
+            2813.315,
+            2823.461
+          ],
+          "quote": "Format it, publish it to Hugging Face, train a policy, convert it, deploy it onto the small Jetson, and let the robot do its thing.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 601,
+          "t": [
+            2961.092,
+            2968.034
+          ],
+          "quote": "That's why the Hugging Face checkpoints are really good because they already have checkpoints for this SO101 ARM.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "boston-dynamics",
+      "type": "company",
+      "role": "company",
+      "name": "Boston Dynamics",
+      "file": "Boston Dynamics",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 525,
+          "t": [
+            2654.434,
+            2663.477
+          ],
+          "quote": "If you look at the 1X robot, the Boston Dynamics humanoid, they are all powered by this small computer, but it has 2,000 terahertz of compute.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 615,
+          "t": [
+            3011.479,
+            3017.301
+          ],
+          "quote": "Probably that Boston Dynamics thing that can jump upstairs and jump up on platforms and things like that.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "1x",
+      "type": "company",
+      "role": "company",
+      "name": "1X",
+      "file": "1X",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 525,
+          "t": [
+            2654.434,
+            2663.477
+          ],
+          "quote": "If you look at the 1X robot, the Boston Dynamics humanoid, they are all powered by this small computer, but it has 2,000 terahertz of compute.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "physical-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "物理 AI (physical AI)",
+      "file": "物理 AI",
+      "primary": true,
+      "how_described": "本集主线概念：与数字 AI 的最大区别在于打交道的是原子而非比特——输入是传感器、3D 信息、视频，输出是在真实世界执行的动作，且必须实时运行在设备端。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            34.774,
+            41.637
+          ],
+          "quote": "NVIDIA has been building a family of these models called Cosmos and sits at the frontier of physical AI and robotics.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            50.344,
+            70.281
+          ],
+          "quote": "In this episode, Amit joins Matt Merrill to discuss what separates physical AI from digital AI, how world models plan and predict, the two-tower architecture that lets a robot reason and act at once, why training on video demanded a new data pipeline, and how any developer can start building in this space.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            119.9,
+            123.062
+          ],
+          "quote": "And I'm really excited to be here to talk to you about physical AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 22,
+          "t": [
+            153.05,
+            155.271
+          ],
+          "quote": "We're very excited to talk about physical AI today.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 28,
+          "t": [
+            179.02,
+            183.946
+          ],
+          "quote": "So when NVIDIA or anybody says physical AI, what do you mean?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 30,
+          "t": [
+            189.572,
+            197.561
+          ],
+          "quote": "Yeah, the big difference between LLMs or in general digital AI and physical AI is that",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 33,
+          "t": [
+            214.473,
+            222.718
+          ],
+          "quote": "So physical AI essentially is a model that can take as inputs the information of the world around you.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 37,
+          "t": [
+            236.665,
+            242.628
+          ],
+          "quote": "So that's probably the closest way to think about physical AI in the real world, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 44,
+          "t": [
+            284.723,
+            293.406
+          ],
+          "quote": "So physical AI has been around for a while, but it's been very narrowly defined for one particular use case.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 55,
+          "t": [
+            330.766,
+            334.69
+          ],
+          "quote": "Like a self-driving car or even a Nest thermostat is technically physical AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 69,
+          "t": [
+            404.908,
+            410.69
+          ],
+          "quote": "And inherently, the world model, because it's dealing with the physics of the world, is a physical AI model.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 117,
+          "t": [
+            590.02,
+            593.582
+          ],
+          "quote": "You were asking about physical AI and difference between LLMs.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 176,
+          "t": [
+            891.488,
+            899.393
+          ],
+          "quote": "So the frequency at which the output must be generated is very different for a robotic and a physical AI model.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1499.863,
+            1502.787
+          ],
+          "quote": "But physical AI requires actually three computers.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1532.654,
+            1540.12
+          ],
+          "quote": "So it requires a very different way to think about the compute hardware that you need if you're building a physical AI model.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1551.713,
+            1557.579
+          ],
+          "quote": "I think, you know, Jim Fan, who leads our research team for physical AI and humanoid robotics.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1862.169,
+            1868.156
+          ],
+          "quote": "As I said, for physical AI, because that's where you can safely test your models.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 401,
+          "t": [
+            1967.052,
+            1970.534
+          ],
+          "quote": "And I'm curious how, you know, you handle that in the physical AI space.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 402,
+          "t": [
+            1971.194,
+            1975.637
+          ],
+          "quote": "So one of the things that is important for physical AI is...",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 558,
+          "t": [
+            2757.918,
+            2759.879
+          ],
+          "quote": "You're building physical AI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 568,
+          "t": [
+            2791.16,
+            2802.828
+          ],
+          "quote": "But the interesting thing about physical AI is that experience of touching a real thing and dealing with the connection and the motors and the variations there.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 571,
+          "t": [
+            2824.582,
+            2837.19
+          ],
+          "quote": "And all of that, I would say, for you to get started, if you have a good computer, a thousand dollars budget, take a couple of days, and you can have your first physical AI model doing things.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 670,
+          "t": [
+            3294.535,
+            3297.956
+          ],
+          "quote": "You have to get physical when you're working with the physical AI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 676,
+          "t": [
+            3331.102,
+            3337.246
+          ],
+          "quote": "As software developers get into physical AI, they need to understand, you know, all the mechanical constraints.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "world-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "世界模型 (world model)",
+      "file": "世界模型",
+      "primary": true,
+      "how_described": "物理 AI 的核心模型：输入对世界当前状态的观测，输出对未来的预测；能规划从当前状态到目标状态的路径、在行动前做反事实推演（如预测 10 种未来打分选最安全的）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            356.35,
+            359.151
+          ],
+          "quote": "Prepping for this was a concept of a world model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 62,
+          "t": [
+            365.674,
+            373.217
+          ],
+          "quote": "Yeah, so the way to think about the world model is in the context of what are the inputs and what are the outputs, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 63,
+          "t": [
+            373.577,
+            379.579
+          ],
+          "quote": "So for a world model, the inputs are observations of the current state of the world.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 68,
+          "t": [
+            400.968,
+            404.109
+          ],
+          "quote": "The next question is, what does the world model predict, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 69,
+          "t": [
+            404.908,
+            410.69
+          ],
+          "quote": "And inherently, the world model, because it's dealing with the physics of the world, is a physical AI model.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 73,
+          "t": [
+            424.453,
+            426.414
+          ],
+          "quote": "The typical output of a world model is",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 74,
+          "t": [
+            427.794,
+            439.397
+          ],
+          "quote": "A video, which given a prompt, given a current state, if the world model understands what happens in the world, it can predict based on what you told me, this is what's likely to happen.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 104,
+          "t": [
+            537.206,
+            539.547
+          ],
+          "quote": "These are all of the outputs of a world model today.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 113,
+          "t": [
+            559.786,
+            570.25
+          ],
+          "quote": "I mean, the amount of data that gets fed into a world model is orders of magnitude more than what you would feed into a text LLM, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 115,
+          "t": [
+            576.772,
+            581.434
+          ],
+          "quote": "So of course, the amount of data that gets processed in a world model is a lot.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 124,
+          "t": [
+            632.558,
+            640.322
+          ],
+          "quote": "You can just ask the world model to give it a particular image and say, can you create a world around me and I want to drive this thing in New York, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1308.829,
+            1316.478
+          ],
+          "quote": "As I mentioned, when you're thinking about the world model, the number of modalities that you're dealing with is quite different.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1329.362,
+            1332.705
+          ],
+          "quote": "When you are working with the world models and you're training a world model,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1424.772,
+            1430.356
+          ],
+          "quote": "But when you're training a world model, let's say it's a robotics world model, how do you verify it?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2217.272,
+            2218.452
+          ],
+          "quote": "Because it is a world model.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 508,
+          "t": [
+            2557.575,
+            2573.424
+          ],
+          "quote": "But one of the functions of a world model is also what we were talking about earlier is that they can be the planning brain for your robot because they can predict a lot of different scenarios and pick one that is most appropriate that gets you to their objective function.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2579.007,
+            2580.27
+          ],
+          "quote": "That part of the world model.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 515,
+          "t": [
+            2608.555,
+            2617.1
+          ],
+          "quote": "And the main purpose of the Cosmos 3 Edge is that it's a world model that can take the inputs as text or actions,",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "imitation-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "模仿学习 (imitation learning)",
+      "file": "模仿学习",
+      "primary": true,
+      "how_described": "让机器人在多样化环境中收集人类执行任务的数据训练模型，扩大分布覆盖，使真实世界落在模型见过的分布之内。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 324,
+          "t": [
+            1606.27,
+            1611.373
+          ],
+          "quote": "And I read a little bit about imitation learning and watching humans do tasks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1665.525,
+            1669.486
+          ],
+          "quote": "So that's why when you see imitation learning, that's what is happening.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1769.415,
+            1776.576
+          ],
+          "quote": "The first one, how do I do a certain particular task is being done combination of either imitation learning and reinforcement learning.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2221.986,
+            2225.971
+          ],
+          "quote": "It's not just imitation learning on, you know, this is the right way to do it.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "强化学习 (reinforcement learning)",
+      "file": "强化学习",
+      "primary": true,
+      "how_described": "用于世界模型后训练的方法：世界模型的任务是模拟世界，所以强化学习必须调用物理模拟器来验证和打分，且能以快于实时的速度进行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 284,
+          "t": [
+            1416.325,
+            1420.328
+          ],
+          "quote": "You see a lot of post-training happens with using the reinforcement learning.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1430.456,
+            1432.277
+          ],
+          "quote": "How do you do the reinforcement learning?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1433.038,
+            1438.863
+          ],
+          "quote": "For a coding model, reinforcement learning is you go, run it, compile the code, verify it works or not.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1468.104,
+            1475.988
+          ],
+          "quote": "And then after that, you have to continuously call a simulator where you go and do the reinforcement learning and testing whether if it's working or not.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1503.507,
+            1512.758
+          ],
+          "quote": "You need a computer for training the model, you need a computer where you do simulation either to create data or to do reinforcement learning post-training.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1769.415,
+            1776.576
+          ],
+          "quote": "The first one, how do I do a certain particular task is being done combination of either imitation learning and reinforcement learning.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1868.657,
+            1873.383
+          ],
+          "quote": "That is where you can do reinforcement learning faster than real-time speeds.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理模型 (reasoning model)",
+      "file": "推理模型",
+      "primary": true,
+      "how_described": "双塔架构中的规划大脑：低频运行、从互联网文本和视频学到常识，遇到分布外情况能判断最接近哪类已知场景；与高频动作塔共享潜空间协同工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 178,
+          "t": [
+            902.675,
+            906.917
+          ],
+          "quote": "A reasoning model that is planning can exist at a low frequency.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1691.833,
+            1702.137
+          ],
+          "quote": "That's where the second part comes in where you need to think about having a reasoning model paired with a model that has seen enough distribution.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1703.998,
+            1716.483
+          ],
+          "quote": "You cannot just have a reasoning model but not have enough real-world data because the reasoning model can tell you this is closest to this particular real-world distribution and then you can go act on that, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1716.983,
+            1720.045
+          ],
+          "quote": "So the reasoning model is learning from data in the wild.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 357,
+          "t": [
+            1788.239,
+            1791.42
+          ],
+          "quote": "The reasoning model, this is where the generalization is coming from, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1825.432,
+            1829.694
+          ],
+          "quote": "So, you know, when you're doing the reasoning model, you expose it to all elements.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2199.468,
+            2208.23
+          ],
+          "quote": "They can simulate, if you look at the work that we published recently with our self-driving car team called Alpamayo, it's a reasoning model.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "防止机器人「幻觉」伤人的分层安全手段之一：给规划大脑加护栏使它不规划不可接受的行动，与给 LLM 加约束类似，再配合模拟测试和独立监视 AI。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 400,
+          "t": [
+            1963.61,
+            1967.032
+          ],
+          "quote": "I would imagine that there's better guardrails for things like that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2059.038,
+            2069.065
+          ],
+          "quote": "The planning brain is sort of like a VLM or an LLM where you can do the guardrails into that so that it does not plan something that is not acceptable.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 417,
+          "t": [
+            2075.93,
+            2078.331
+          ],
+          "quote": "How do you put the guardrails around your planning?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 418,
+          "t": [
+            2078.391,
+            2087.735
+          ],
+          "quote": "It's very similar to how do you put guardrails around an LLM to not give you an answer or information that is not suitable, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2164.044,
+            2171.447
+          ],
+          "quote": "You make sure that your reasoning brain, planning brain has the guardrails and then extensively test in simulation.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "real-to-sim",
+      "type": "concept",
+      "role": "concept",
+      "name": "真实到仿真 (real-to-sim)",
+      "file": "真实到仿真",
+      "primary": true,
+      "how_described": "背着摄像头和激光雷达的人采集真实世界数据，输入模型生成 3D 仿真环境，再做光照、道路变窄等增强，用于后训练和微调模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 381,
+          "t": [
+            1888.701,
+            1899.492
+          ],
+          "quote": "And what they are doing is capturing the real world and passing it into a model that can create a 3D representation of that world, what we like to call real-to-sim.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "cosmos",
+      "type": "concept",
+      "role": "concept",
+      "name": "Cosmos",
+      "file": "Cosmos",
+      "primary": true,
+      "how_described": "NVIDIA 构建的世界模型系列，有多种尺寸，从边缘端到超大模型；Cosmos 3 采用推理塔+动作塔双塔设计，共享潜空间实现高带宽通信。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            34.774,
+            41.637
+          ],
+          "quote": "NVIDIA has been building a family of these models called Cosmos and sits at the frontier of physical AI and robotics.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            647.626,
+            652.609
+          ],
+          "quote": "So at NVIDIA, we have been working on the Cosmos models and a variety of those exist.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1019.82,
+            1025.746
+          ],
+          "quote": "If you look at the latest Cosmos 3 family of models that NVIDIA released, we have these two heads, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1058.2,
+            1065.844
+          ],
+          "quote": "So that's why we build Cosmos with that shared context so that both these can coexist and exchange information with very high bandwidth.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2517.725,
+            2522.069
+          ],
+          "quote": "I want to talk a little bit about, so you released Cosmos 3 Edge.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2522.089,
+            2523.47
+          ],
+          "quote": "You mentioned this Cosmos model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2601.272,
+            2608.235
+          ],
+          "quote": "So we took our Cosmos 3 model, which comes in different sizes, and we created a four billion parameter version of it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 515,
+          "t": [
+            2608.555,
+            2617.1
+          ],
+          "quote": "And the main purpose of the Cosmos 3 Edge is that it's a world model that can take the inputs as text or actions,",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "jetson",
+      "type": "concept",
+      "role": "concept",
+      "name": "Jetson",
+      "file": "Jetson",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            149.349,
+            151.31
+          ],
+          "quote": "It's called the Jetson family of products.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 520,
+          "t": [
+            2635.668,
+            2644.911
+          ],
+          "quote": "It can run real-time on a Jetson Tor, which is, you know, a computer which is the size of a passport that has 2,000 teraops of compute.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 570,
+          "t": [
+            2813.315,
+            2823.461
+          ],
+          "quote": "Format it, publish it to Hugging Face, train a policy, convert it, deploy it onto the small Jetson, and let the robot do its thing.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "alpamayo",
+      "type": "concept",
+      "role": "concept",
+      "name": "Alpamayo",
+      "file": "Alpamayo",
+      "primary": false,
+      "how_described": "NVIDIA 自动驾驶团队发布的推理模型，具备反事实能力——能在行动前预测 10 种不同未来并选择最安全的一个。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 436,
+          "t": [
+            2199.468,
+            2208.23
+          ],
+          "quote": "They can simulate, if you look at the work that we published recently with our self-driving car team called Alpamayo, it's a reasoning model.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "curator",
+      "type": "concept",
+      "role": "concept",
+      "name": "Curator",
+      "file": "Curator",
+      "primary": false,
+      "how_described": "NVIDIA 为物理 AI 构建的数据管线工具，能处理海量视频并以训练数据可持续流入的方式存储，解决原有文本训练管线喂不饱 GPU 的问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 280,
+          "t": [
+            1388.335,
+            1400.187
+          ],
+          "quote": "So we created something called Curator, which was the ability to now take large amounts of videos, process it, store it in a way that now you can keep the training data coming in.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "so101",
+      "type": "concept",
+      "role": "concept",
+      "name": "SO101",
+      "file": "SO101",
+      "primary": false,
+      "how_described": "目前创客圈最流行的开源机械臂，可 3D 打印或买套件组装，几百美元即可用于遥操作采集数据训练策略。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 583,
+          "t": [
+            2857.391,
+            2862.237
+          ],
+          "quote": "If you look at SO101 ARM, that's the most popular with the makers right now.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 601,
+          "t": [
+            2961.092,
+            2968.034
+          ],
+          "quote": "That's why the Hugging Face checkpoints are really good because they already have checkpoints for this SO101 ARM.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Waymo",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

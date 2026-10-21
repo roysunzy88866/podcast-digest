@@ -1,0 +1,5570 @@
+[
+ {
+  "seg": 0,
+  "start": 0.531,
+  "end": 6.937,
+  "speaker": "Unknown",
+  "en": "In recent years, the main impact of AI has been on the digital world, and most notably software engineering.",
+  "zh": "近年来，AI 的主要影响一直是在数字世界，尤其是在软件工程领域。"
+ },
+ {
+  "seg": 1,
+  "start": 7.357,
+  "end": 18.726,
+  "speaker": "Unknown",
+  "en": "However, its longer-term effect on the physical world may prove even more profound, reshaping how cars drive themselves, how factories run, and how robots move through homes and warehouses.",
+  "zh": "然而，它对物理世界的长期影响可能会更加深远，重塑汽车如何自动驾驶、工厂如何运转，以及机器人如何在家庭和仓库中移动。"
+ },
+ {
+  "seg": 2,
+  "start": 19.487,
+  "end": 24.049,
+  "speaker": "Unknown",
+  "en": "World models are at the center of the movement to bring AI into the physical space.",
+  "zh": "世界模型是将 AI 带入物理空间这一运动的核心。"
+ },
+ {
+  "seg": 3,
+  "start": 24.629,
+  "end": 34.194,
+  "speaker": "Unknown",
+  "en": "These models take in observations of the current state of the world and predict what comes next, which lets a robot plan its next move or car anticipate the road ahead.",
+  "zh": "这些模型接收对世界当前状态的观察，并预测接下来会发生什么，这让机器人能够规划下一步动作，或者让汽车预判前方的路况。"
+ },
+ {
+  "seg": 4,
+  "start": 34.774,
+  "end": 41.637,
+  "speaker": "Unknown",
+  "en": "NVIDIA has been building a family of these models called Cosmos and sits at the frontier of physical AI and robotics.",
+  "zh": "NVIDIA 一直在构建一系列这样的模型，称为 Cosmos，并且处于物理 AI 和机器人技术的前沿。"
+ },
+ {
+  "seg": 5,
+  "start": 42.237,
+  "end": 49.824,
+  "speaker": "Unknown",
+  "en": "Amit Goel has been at NVIDIA for 15 years, and he is currently the Head of Robotics Ecosystem and Edge AI product.",
+  "zh": "Amit Goel 在 NVIDIA 已经工作了 15 年，他目前是机器人生态系统和边缘 AI 产品负责人。"
+ },
+ {
+  "seg": 6,
+  "start": 50.344,
+  "end": 70.281,
+  "speaker": "Unknown",
+  "en": "In this episode, Amit joins Matt Merrill to discuss what separates physical AI from digital AI, how world models plan and predict, the two-tower architecture that lets a robot reason and act at once, why training on video demanded a new data pipeline, and how any developer can start building in this space.",
+  "zh": "在本期节目中，Amit 与 Matt Merrill 一起讨论：物理 AI 与数字 AI 的区别、世界模型如何进行规划和预测、让机器人能够同时推理和行动的双塔架构、为什么在视频上训练需要全新的数据管线，以及任何开发者如何开始在这个领域中构建。"
+ },
+ {
+  "seg": 7,
+  "start": 71.299,
+  "end": 80.682,
+  "speaker": "Unknown",
+  "en": "Matt Merrill is a software engineering leader with over 20 years of experience building and scaling software teams across enterprise and product-focused organizations.",
+  "zh": "Matt Merrill 是一位软件工程负责人，拥有超过 20 年在企业级和以产品为中心的组织中构建和扩展软件团队的经验。"
+ },
+ {
+  "seg": 8,
+  "start": 81.082,
+  "end": 86.304,
+  "speaker": "Unknown",
+  "en": "His background is in backend development, cloud architecture, and distributed systems design.",
+  "zh": "他的背景是后端开发、云架构和分布式系统设计。"
+ },
+ {
+  "seg": 9,
+  "start": 86.704,
+  "end": 92.426,
+  "speaker": "Unknown",
+  "en": "He currently architects and delivers software products and leads a team of engineers at Dept Agency.",
+  "zh": "他目前在 Dept Agency 负责软件产品的架构设计和交付，并领导一个工程师团队。"
+ },
+ {
+  "seg": 10,
+  "start": 92.826,
+  "end": 97.648,
+  "speaker": "Unknown",
+  "en": "You can learn more about his work at code.theothermattm.com.",
+  "zh": "你可以在 code.theothermattm.com 上了解更多关于他工作的信息。"
+ },
+ {
+  "seg": 11,
+  "start": 108.476,
+  "end": 109.356,
+  "speaker": "Unknown",
+  "en": "Hello, everybody.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 12,
+  "start": 109.757,
+  "end": 119.42,
+  "speaker": "Unknown",
+  "en": "My name is Matt Merrill, and I am here today with Amit Goel from NVIDIA, who is head of robotics and edge AI.",
+  "zh": "我叫 Matt Merrill，今天我和来自 NVIDIA 的 Amit Goel 在这里，他是机器人和边缘 AI 的负责人。"
+ },
+ {
+  "seg": 13,
+  "start": 119.9,
+  "end": 123.062,
+  "speaker": "Unknown",
+  "en": "And I'm really excited to be here to talk to you about physical AI.",
+  "zh": "我非常高兴能在这里和大家聊聊物理 AI。"
+ },
+ {
+  "seg": 14,
+  "start": 123.142,
+  "end": 126.043,
+  "speaker": "Unknown",
+  "en": "So why don't I turn it over to you, Amit, to introduce yourself?",
+  "zh": "那么，Amit，不如请你来自我介绍一下？"
+ },
+ {
+  "seg": 15,
+  "start": 126.363,
+  "end": 126.843,
+  "speaker": "Unknown",
+  "en": "Amit Goel Hey, Matt.",
+  "zh": "Amit Goel 嗨，Matt。"
+ },
+ {
+  "seg": 16,
+  "start": 126.863,
+  "end": 127.683,
+  "speaker": "Unknown",
+  "en": "Great to be here.",
+  "zh": "很高兴来到这里。"
+ },
+ {
+  "seg": 17,
+  "start": 127.983,
+  "end": 131.505,
+  "speaker": "Unknown",
+  "en": "I'm Amit Goel, head of our robotics ecosystem.",
+  "zh": "我是 Amit Goel，我们机器人生态系统的负责人。"
+ },
+ {
+  "seg": 18,
+  "start": 132.305,
+  "end": 140.307,
+  "speaker": "Unknown",
+  "en": "At NVIDIA, which means my team gets to work with all the developers who are doing some amazing work with AI and robotics.",
+  "zh": "在 NVIDIA，这意味着我的团队要与所有正在用 AI 和机器人技术做出惊人工作的开发者合作。"
+ },
+ {
+  "seg": 19,
+  "start": 141.287,
+  "end": 148.729,
+  "speaker": "Unknown",
+  "en": "And I also lead our product team that builds the computers for running the AI on the device on the edge.",
+  "zh": "我还领导我们的产品团队，负责构建在设备端、边缘侧运行 AI 的计算机。"
+ },
+ {
+  "seg": 20,
+  "start": 149.349,
+  "end": 151.31,
+  "speaker": "Unknown",
+  "en": "It's called the Jetson family of products.",
+  "zh": "它叫做 Jetson 系列产品。"
+ },
+ {
+  "seg": 21,
+  "start": 151.47,
+  "end": 153.03,
+  "speaker": "Unknown",
+  "en": "I've been at NVIDIA for 15 years.",
+  "zh": "我在 NVIDIA 已经工作了 15 年。"
+ },
+ {
+  "seg": 22,
+  "start": 153.05,
+  "end": 155.271,
+  "speaker": "Unknown",
+  "en": "We're very excited to talk about physical AI today.",
+  "zh": "我们非常高兴今天能聊物理 AI 这个话题。"
+ },
+ {
+  "seg": 23,
+  "start": 155.698,
+  "end": 156.118,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 24,
+  "start": 156.278,
+  "end": 167.304,
+  "speaker": "Unknown",
+  "en": "So I am super excited to talk about this because I think that a lot of folks listening here are probably at this point pretty familiar with the software side of GenAI and LLMs.",
+  "zh": "我非常兴奋能聊这个话题，因为我想，这里的很多听众到现在为止可能已经相当熟悉 GenAI 和 LLM 在软件方面的内容了。"
+ },
+ {
+  "seg": 25,
+  "start": 168.025,
+  "end": 171.286,
+  "speaker": "Unknown",
+  "en": "And what I kind of want to do today is just start from zero, right?",
+  "zh": "而我今天想做的就是从零开始，对吧？"
+ },
+ {
+  "seg": 26,
+  "start": 171.326,
+  "end": 174.448,
+  "speaker": "Unknown",
+  "en": "Like, and that's actually, I'm not playing a role here.",
+  "zh": "说实话，我这不是在演戏。"
+ },
+ {
+  "seg": 27,
+  "start": 174.828,
+  "end": 178.11,
+  "speaker": "Unknown",
+  "en": "I purposely didn't dive into this deep so that I could kind of be fresh.",
+  "zh": "我特意没有深入研究这个领域，这样我就能保持一种新鲜感。"
+ },
+ {
+  "seg": 28,
+  "start": 179.02,
+  "end": 183.946,
+  "speaker": "Unknown",
+  "en": "So when NVIDIA or anybody says physical AI, what do you mean?",
+  "zh": "那么，当 NVIDIA 或任何人说物理 AI 时，你指的是什么？"
+ },
+ {
+  "seg": 29,
+  "start": 184.006,
+  "end": 189.092,
+  "speaker": "Unknown",
+  "en": "What makes it different from LLMs and coding agents that most of our listeners are using every day?",
+  "zh": "是什么让它不同于我们大多数听众每天都在使用的 LLM 和编码智能体？"
+ },
+ {
+  "seg": 30,
+  "start": 189.572,
+  "end": 197.561,
+  "speaker": "Unknown",
+  "en": "Yeah, the big difference between LLMs or in general digital AI and physical AI is that",
+  "zh": "是的，LLM 或者一般意义上的数字 AI 与物理 AI 的最大区别在于"
+ },
+ {
+  "seg": 31,
+  "start": 198.383,
+  "end": 200.064,
+  "speaker": "Unknown",
+  "en": "You're working with atoms.",
+  "zh": "你打交道的是原子。"
+ },
+ {
+  "seg": 32,
+  "start": 200.784,
+  "end": 213.852,
+  "speaker": "Unknown",
+  "en": "And what that means is you are dealing with sensors, you're looking at spatial information, 3D information, you're looking at videos, you're understanding dynamics of the world.",
+  "zh": "而这意味着你要处理传感器，你要看空间信息、3D 信息，你要看视频，你要理解世界的动态。"
+ },
+ {
+  "seg": 33,
+  "start": 214.473,
+  "end": 222.718,
+  "speaker": "Unknown",
+  "en": "So physical AI essentially is a model that can take as inputs the information of the world around you.",
+  "zh": "所以物理 AI 本质上是一个模型，它可以把周围世界的信息作为输入。"
+ },
+ {
+  "seg": 34,
+  "start": 223.758,
+  "end": 226.52,
+  "speaker": "Unknown",
+  "en": "And predict what's going to happen in that world.",
+  "zh": "并预测那个世界里将会发生什么。"
+ },
+ {
+  "seg": 35,
+  "start": 226.66,
+  "end": 231.262,
+  "speaker": "Unknown",
+  "en": "So everybody is probably familiar right now with self-driving cars.",
+  "zh": "现在每个人都可能对自动驾驶汽车很熟悉了。"
+ },
+ {
+  "seg": 36,
+  "start": 231.482,
+  "end": 236.085,
+  "speaker": "Unknown",
+  "en": "If you live in San Francisco Bay Area, you'll see the Waymos driving around.",
+  "zh": "如果你住在旧金山湾区，你会看到 Waymo 到处行驶。"
+ },
+ {
+  "seg": 37,
+  "start": 236.665,
+  "end": 242.628,
+  "speaker": "Unknown",
+  "en": "So that's probably the closest way to think about physical AI in the real world, right?",
+  "zh": "所以这可能是思考现实世界中物理 AI 最直观的方式，对吧？"
+ },
+ {
+  "seg": 38,
+  "start": 242.648,
+  "end": 250.012,
+  "speaker": "Unknown",
+  "en": "You have a machine that is taking the information from the cameras, the lidars, and the actuators in the car.",
+  "zh": "你有一台机器，它从摄像头、激光雷达以及车内的执行器获取信息。"
+ },
+ {
+  "seg": 39,
+  "start": 250.992,
+  "end": 258.375,
+  "speaker": "Unknown",
+  "en": "And making a decision on what it should do next based on what the driver wants out of the car, right?",
+  "zh": "然后基于驾驶员对车辆的需求，做出下一步该做什么的决策，对吧？"
+ },
+ {
+  "seg": 40,
+  "start": 258.895,
+  "end": 266.758,
+  "speaker": "Unknown",
+  "en": "So it's taking the data from the observations from the physical world and determining actions that have to be executed in the physical world.",
+  "zh": "所以它是从物理世界的观察中获取数据，并确定必须在物理世界中执行的动作。"
+ },
+ {
+  "seg": 41,
+  "start": 267.598,
+  "end": 269.059,
+  "speaker": "Unknown",
+  "en": "And it's been around for a while.",
+  "zh": "而且它已经存在一段时间了。"
+ },
+ {
+  "seg": 42,
+  "start": 269.119,
+  "end": 276.601,
+  "speaker": "Unknown",
+  "en": "The simplest form is probably your Nest thermostat that's controlling the temperature of things in your house based on your activity.",
+  "zh": "最简单的形式可能就是你家的 Nest 恒温器，它根据你的活动来控制家里的温度。"
+ },
+ {
+  "seg": 43,
+  "start": 277.361,
+  "end": 284.663,
+  "speaker": "Unknown",
+  "en": "And even like a small traffic intersection that's observing what's the activity that's happening and controlling that particular traffic light.",
+  "zh": "甚至像一个小型交通路口，它在观察正在发生的活动，并控制那个特定的红绿灯。"
+ },
+ {
+  "seg": 44,
+  "start": 284.723,
+  "end": 293.406,
+  "speaker": "Unknown",
+  "en": "So physical AI has been around for a while, but it's been very narrowly defined for one particular use case.",
+  "zh": "所以物理 AI 已经存在一段时间了，但它一直被非常狭义地定义为某一个特定用例。"
+ },
+ {
+  "seg": 45,
+  "start": 294.026,
+  "end": 302.989,
+  "speaker": "Unknown",
+  "en": "So now what's happening with the large, really large models and general models is that you can have a single model that can understand all of this.",
+  "zh": "而现在随着超大模型和通用模型的出现，你可以拥有一个能够理解这一切的单一模型。"
+ },
+ {
+  "seg": 46,
+  "start": 303.609,
+  "end": 305.829,
+  "speaker": "Unknown",
+  "en": "And similar to what happens with LLM, right?",
+  "zh": "这类似于 LLM 领域发生的情况，对吧？"
+ },
+ {
+  "seg": 47,
+  "start": 306.47,
+  "end": 308.19,
+  "speaker": "Unknown",
+  "en": "You don't have a sentiment analysis model.",
+  "zh": "你不再需要一个专门的情感分析模型。"
+ },
+ {
+  "seg": 48,
+  "start": 308.21,
+  "end": 309.67,
+  "speaker": "Unknown",
+  "en": "You don't have a translation model.",
+  "zh": "不再需要一个专门的翻译模型。"
+ },
+ {
+  "seg": 49,
+  "start": 309.69,
+  "end": 311.211,
+  "speaker": "Unknown",
+  "en": "You don't have a summarization model.",
+  "zh": "不再需要一个专门的摘要模型。"
+ },
+ {
+  "seg": 50,
+  "start": 311.611,
+  "end": 318.413,
+  "speaker": "Unknown",
+  "en": "You have one big model that understands everything in the texture world and you can program it to do what you want it to do.",
+  "zh": "你有一个理解纹理世界一切的大模型，你可以对它编程让它做你想做的事。"
+ },
+ {
+  "seg": 51,
+  "start": 319.033,
+  "end": 327.062,
+  "speaker": "Unknown",
+  "en": "We are getting to the point where we can build these general physical intelligence models that you can use for a lot of application in the physical world.",
+  "zh": "我们正在到达这样一个节点：可以构建这些通用的物理智能模型，你可以在物理世界中用于很多应用。"
+ },
+ {
+  "seg": 52,
+  "start": 327.522,
+  "end": 327.843,
+  "speaker": "Unknown",
+  "en": "Got it.",
+  "zh": "明白了。"
+ },
+ {
+  "seg": 53,
+  "start": 327.923,
+  "end": 329.505,
+  "speaker": "Unknown",
+  "en": "Yeah, that was one of my big questions.",
+  "zh": "是的，这是我的大问题之一。"
+ },
+ {
+  "seg": 54,
+  "start": 329.525,
+  "end": 330.706,
+  "speaker": "Unknown",
+  "en": "I never really thought about that.",
+  "zh": "我以前真的没想过这个问题。"
+ },
+ {
+  "seg": 55,
+  "start": 330.766,
+  "end": 334.69,
+  "speaker": "Unknown",
+  "en": "Like a self-driving car or even a Nest thermostat is technically physical AI.",
+  "zh": "比如自动驾驶汽车，甚至 Nest 恒温器，严格来说都是物理 AI。"
+ },
+ {
+  "seg": 56,
+  "start": 335.531,
+  "end": 342.637,
+  "speaker": "Unknown",
+  "en": "But when I was prepping for this, seeing some of the stuff that is currently happening is so much more advanced than that.",
+  "zh": "但我在为这期节目做准备时，看到目前正在进行的一些东西比那先进得多。"
+ },
+ {
+  "seg": 57,
+  "start": 342.737,
+  "end": 348.121,
+  "speaker": "Unknown",
+  "en": "And it makes sense that in the past year, the explosion in what these models can do enables a lot of this.",
+  "zh": "而且说得通的是，过去一年这些模型能力的爆发使很多东西成为可能。"
+ },
+ {
+  "seg": 58,
+  "start": 348.321,
+  "end": 353.345,
+  "speaker": "Unknown",
+  "en": "So let's dive in and try to give folks like a mental model of how these things break down.",
+  "zh": "那么让我们深入探讨一下，试着给大家一个心智模型，理解这些东西是如何分解的。"
+ },
+ {
+  "seg": 59,
+  "start": 353.405,
+  "end": 355.487,
+  "speaker": "Unknown",
+  "en": "And so one thing that I was reading about",
+  "zh": "我在为这期节目做准备时读到的一件事"
+ },
+ {
+  "seg": 60,
+  "start": 356.35,
+  "end": 359.151,
+  "speaker": "Unknown",
+  "en": "Prepping for this was a concept of a world model.",
+  "zh": "是一个叫世界模型的概念。"
+ },
+ {
+  "seg": 61,
+  "start": 359.671,
+  "end": 365.254,
+  "speaker": "Unknown",
+  "en": "Can you tell folks about that and like how that fits in here and how it might drive one of these devices?",
+  "zh": "你能跟大家讲讲这个概念，它在这里如何契合，以及它可能如何驱动这样一台设备吗？"
+ },
+ {
+  "seg": 62,
+  "start": 365.674,
+  "end": 373.217,
+  "speaker": "Unknown",
+  "en": "Yeah, so the way to think about the world model is in the context of what are the inputs and what are the outputs, right?",
+  "zh": "好，理解世界模型的方式是，从输入是什么、输出是什么的角度来思考，对吧？"
+ },
+ {
+  "seg": 63,
+  "start": 373.577,
+  "end": 379.579,
+  "speaker": "Unknown",
+  "en": "So for a world model, the inputs are observations of the current state of the world.",
+  "zh": "对于世界模型来说，输入是对世界当前状态的观测。"
+ },
+ {
+  "seg": 64,
+  "start": 380.24,
+  "end": 385.942,
+  "speaker": "Unknown",
+  "en": "It could be a sensor coming data from a motor of a car, of a robot.",
+  "zh": "它可能是来自汽车电机、机器人的传感器传来的数据。"
+ },
+ {
+  "seg": 65,
+  "start": 386.622,
+  "end": 391.924,
+  "speaker": "Unknown",
+  "en": "It could be a signal that is audio command that has been given as an input.",
+  "zh": "它可能是作为输入给出的音频指令信号。"
+ },
+ {
+  "seg": 66,
+  "start": 392.464,
+  "end": 393.845,
+  "speaker": "Unknown",
+  "en": "It could be a textual prompt.",
+  "zh": "它可能是文本提示。"
+ },
+ {
+  "seg": 67,
+  "start": 394.365,
+  "end": 399.967,
+  "speaker": "Unknown",
+  "en": "And of course, it has to have the cameras and the visual representation of the world that's coming into it.",
+  "zh": "当然，它还必须有摄像头以及输入进来的世界的视觉表征。"
+ },
+ {
+  "seg": 68,
+  "start": 400.968,
+  "end": 404.109,
+  "speaker": "Unknown",
+  "en": "The next question is, what does the world model predict, right?",
+  "zh": "下一个问题是，世界模型预测什么，对吧？"
+ },
+ {
+  "seg": 69,
+  "start": 404.908,
+  "end": 410.69,
+  "speaker": "Unknown",
+  "en": "And inherently, the world model, because it's dealing with the physics of the world, is a physical AI model.",
+  "zh": "而本质上，世界模型因为它处理的是世界的物理规律，是一个物理 AI 模型。"
+ },
+ {
+  "seg": 70,
+  "start": 411.13,
+  "end": 415.491,
+  "speaker": "Unknown",
+  "en": "It is multimodal because the real world has multiple modalities, right?",
+  "zh": "它是多模态的，因为真实世界有多种模态，对吧？"
+ },
+ {
+  "seg": 71,
+  "start": 415.611,
+  "end": 419.172,
+  "speaker": "Unknown",
+  "en": "We are hearing, we are listening, we are processing information.",
+  "zh": "我们在听，我们在倾听，我们在处理信息。"
+ },
+ {
+  "seg": 72,
+  "start": 419.712,
+  "end": 423.893,
+  "speaker": "Unknown",
+  "en": "So it's multimodal, many inputs and also many outputs.",
+  "zh": "所以它是多模态的，有很多输入，也有很多输出。"
+ },
+ {
+  "seg": 73,
+  "start": 424.453,
+  "end": 426.414,
+  "speaker": "Unknown",
+  "en": "The typical output of a world model is",
+  "zh": "世界模型的典型输出是"
+ },
+ {
+  "seg": 74,
+  "start": 427.794,
+  "end": 439.397,
+  "speaker": "Unknown",
+  "en": "A video, which given a prompt, given a current state, if the world model understands what happens in the world, it can predict based on what you told me, this is what's likely to happen.",
+  "zh": "一段视频，即给定一个提示、给定一个当前状态，如果世界模型理解世界上会发生什么，它就可以基于你告诉我的内容预测：这就是可能发生的事情。"
+ },
+ {
+  "seg": 75,
+  "start": 440.097,
+  "end": 443.838,
+  "speaker": "Unknown",
+  "en": "In the case of a car, you can say, I'm going at this particular speed.",
+  "zh": "以汽车为例，你可以说，我正以这个特定速度行驶。"
+ },
+ {
+  "seg": 76,
+  "start": 444.398,
+  "end": 446.319,
+  "speaker": "Unknown",
+  "en": "This is what I see is happening around me.",
+  "zh": "这是我看到的发生在我周围的情况。"
+ },
+ {
+  "seg": 77,
+  "start": 447.019,
+  "end": 450.76,
+  "speaker": "Unknown",
+  "en": "Tell me what is likely going to be the state of the world in the next five seconds.",
+  "zh": "告诉我未来五秒钟世界可能是什么状态。"
+ },
+ {
+  "seg": 78,
+  "start": 451.34,
+  "end": 455.041,
+  "speaker": "Unknown",
+  "en": "Based on that, I can then control the car to what action it should take.",
+  "zh": "基于这一点，我就可以控制汽车该采取什么行动。"
+ },
+ {
+  "seg": 79,
+  "start": 455.701,
+  "end": 458.523,
+  "speaker": "Unknown",
+  "en": "Same analogy applies to a robot, right?",
+  "zh": "同样的类比也适用于机器人，对吧？"
+ },
+ {
+  "seg": 80,
+  "start": 458.964,
+  "end": 461.806,
+  "speaker": "Unknown",
+  "en": "You asked me to pick this thing and put it over there.",
+  "zh": "你让我拿起这个东西放到那边去。"
+ },
+ {
+  "seg": 81,
+  "start": 462.526,
+  "end": 465.749,
+  "speaker": "Unknown",
+  "en": "This is what I see is my current state of everything around me.",
+  "zh": "这是我看到的我周围一切事物的当前状态。"
+ },
+ {
+  "seg": 82,
+  "start": 465.769,
+  "end": 467.29,
+  "speaker": "Unknown",
+  "en": "This is the object that I see.",
+  "zh": "这是我看到的那个物体。"
+ },
+ {
+  "seg": 83,
+  "start": 467.95,
+  "end": 468.671,
+  "speaker": "Unknown",
+  "en": "How should I move?",
+  "zh": "我该怎么移动？"
+ },
+ {
+  "seg": 84,
+  "start": 468.831,
+  "end": 469.552,
+  "speaker": "Unknown",
+  "en": "Should I go left?",
+  "zh": "我该往左吗？"
+ },
+ {
+  "seg": 85,
+  "start": 469.912,
+  "end": 470.673,
+  "speaker": "Unknown",
+  "en": "Should I go right?",
+  "zh": "我该往右吗？"
+ },
+ {
+  "seg": 86,
+  "start": 470.893,
+  "end": 472.094,
+  "speaker": "Unknown",
+  "en": "Should I go backwards?",
+  "zh": "我该往后退吗？"
+ },
+ {
+  "seg": 87,
+  "start": 472.274,
+  "end": 473.034,
+  "speaker": "Unknown",
+  "en": "Do I need to bend?",
+  "zh": "我需要弯腰吗？"
+ },
+ {
+  "seg": 88,
+  "start": 473.635,
+  "end": 475.977,
+  "speaker": "Unknown",
+  "en": "It can predict what is the next few things it needs to do.",
+  "zh": "它可以预测接下来几步需要做什么。"
+ },
+ {
+  "seg": 89,
+  "start": 476.617,
+  "end": 479.239,
+  "speaker": "Unknown",
+  "en": "So the world models can predict the world around you.",
+  "zh": "所以世界模型可以预测你周围的世界。"
+ },
+ {
+  "seg": 90,
+  "start": 479.559,
+  "end": 482.541,
+  "speaker": "Unknown",
+  "en": "It can do a 3D representation of the world.",
+  "zh": "它可以做出世界的 3D 表征。"
+ },
+ {
+  "seg": 91,
+  "start": 483.141,
+  "end": 487.183,
+  "speaker": "Unknown",
+  "en": "It can also understand, hey, I want to be there.",
+  "zh": "它还可以理解：嘿，我想去那里。"
+ },
+ {
+  "seg": 92,
+  "start": 487.503,
+  "end": 488.604,
+  "speaker": "Unknown",
+  "en": "This is my objective.",
+  "zh": "这是我的目标。"
+ },
+ {
+  "seg": 93,
+  "start": 489.445,
+  "end": 490.325,
+  "speaker": "Unknown",
+  "en": "How do I get there?",
+  "zh": "我怎么到那里？"
+ },
+ {
+  "seg": 94,
+  "start": 490.765,
+  "end": 493.527,
+  "speaker": "Unknown",
+  "en": "What we think about in our head, it's called planning, right?",
+  "zh": "我们在脑子里思考的东西，叫做规划，对吧？"
+ },
+ {
+  "seg": 95,
+  "start": 494.007,
+  "end": 498.21,
+  "speaker": "Unknown",
+  "en": "So the world models can predict the plan to go from the current state",
+  "zh": "所以世界模型可以预测从当前状态"
+ },
+ {
+  "seg": 96,
+  "start": 498.93,
+  "end": 500.051,
+  "speaker": "Unknown",
+  "en": "To the desired state.",
+  "zh": "到期望状态的规划。"
+ },
+ {
+  "seg": 97,
+  "start": 500.551,
+  "end": 503.692,
+  "speaker": "Unknown",
+  "en": "So this is essentially the planning function of the word model.",
+  "zh": "所以这本质上就是世界模型的规划功能。"
+ },
+ {
+  "seg": 98,
+  "start": 504.333,
+  "end": 507.835,
+  "speaker": "Unknown",
+  "en": "And the other thing is you can say, hey, this is my current state.",
+  "zh": "另一件事是，你可以说，嘿，这是我的当前状态。"
+ },
+ {
+  "seg": 99,
+  "start": 508.075,
+  "end": 509.435,
+  "speaker": "Unknown",
+  "en": "I'm planning to take this action.",
+  "zh": "我计划采取这个行动。"
+ },
+ {
+  "seg": 100,
+  "start": 509.756,
+  "end": 511.757,
+  "speaker": "Unknown",
+  "en": "Can you tell me what is going to happen if I do this?",
+  "zh": "你能告诉我,如果我这么做会发生什么吗?"
+ },
+ {
+  "seg": 101,
+  "start": 512.635,
+  "end": 514.716,
+  "speaker": "Unknown",
+  "en": "And that is super important for robotics, right?",
+  "zh": "这对机器人技术来说超级重要,对吧?"
+ },
+ {
+  "seg": 102,
+  "start": 514.736,
+  "end": 522.259,
+  "speaker": "Unknown",
+  "en": "Like if you can say, I'm going to do this and tell me what's going to happen, you can actually decide whether that's the right thing to do or not.",
+  "zh": "比如,如果你能说,我要做这件事,然后告诉我会发生什么,你实际上就能决定那是不是该做的事。"
+ },
+ {
+  "seg": 103,
+  "start": 522.519,
+  "end": 536.666,
+  "speaker": "Unknown",
+  "en": "So rendering the entire world around you, given an action, predicting what the world is going to look like after you take that action, or given the current action and the desired state, predicting the action I should take to get to that desired state.",
+  "zh": "所以,在给定一个动作的情况下渲染你周围的整个世界,预测你采取那个动作之后世界会是什么样子;或者在给定当前动作和期望状态的情况下,预测我应该采取什么动作来达到那个期望状态。"
+ },
+ {
+  "seg": 104,
+  "start": 537.206,
+  "end": 539.547,
+  "speaker": "Unknown",
+  "en": "These are all of the outputs of a world model today.",
+  "zh": "这些都是当今世界模型的输出。"
+ },
+ {
+  "seg": 105,
+  "start": 540.047,
+  "end": 547.533,
+  "speaker": "Unknown",
+  "en": "That sounds like it could be, especially for something like a self-driving car, an absolutely enormous model or set of models.",
+  "zh": "听起来这可能会是,尤其是对于像自动驾驶汽车这样的东西,一个极其庞大的模型或一组模型。"
+ },
+ {
+  "seg": 106,
+  "start": 547.913,
+  "end": 548.073,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 107,
+  "start": 548.113,
+  "end": 551.436,
+  "speaker": "Unknown",
+  "en": "This just seems like a lot, like a video, potentially audio.",
+  "zh": "这看起来就是很多,比如视频,可能还有音频。"
+ },
+ {
+  "seg": 108,
+  "start": 551.596,
+  "end": 552.036,
+  "speaker": "Unknown",
+  "en": "I don't know.",
+  "zh": "我不知道。"
+ },
+ {
+  "seg": 109,
+  "start": 552.196,
+  "end": 552.877,
+  "speaker": "Unknown",
+  "en": "Just a lot.",
+  "zh": "就是很多。"
+ },
+ {
+  "seg": 110,
+  "start": 552.957,
+  "end": 554.158,
+  "speaker": "Unknown",
+  "en": "I mean, I'm almost having...",
+  "zh": "我意思是,我几乎都……"
+ },
+ {
+  "seg": 111,
+  "start": 554.924,
+  "end": 558.565,
+  "speaker": "Unknown",
+  "en": "A hard time wrapping my mind around how much stuff is going into that.",
+  "zh": "很难想象到底有多少东西要塞进那个模型里。"
+ },
+ {
+  "seg": 112,
+  "start": 559.066,
+  "end": 559.666,
+  "speaker": "Unknown",
+  "en": "No, you're right.",
+  "zh": "不,你说得对。"
+ },
+ {
+  "seg": 113,
+  "start": 559.786,
+  "end": 570.25,
+  "speaker": "Unknown",
+  "en": "I mean, the amount of data that gets fed into a world model is orders of magnitude more than what you would feed into a text LLM, right?",
+  "zh": "我意思是,输入到世界模型中的数据量比输入到文本 LLM 的数据量要大上好几个数量级,对吧?"
+ },
+ {
+  "seg": 114,
+  "start": 570.27,
+  "end": 576.032,
+  "speaker": "Unknown",
+  "en": "Because just a video of 15 minutes is several gigabytes of data.",
+  "zh": "因为仅仅 15 分钟的视频就是好几个 GB 的数据。"
+ },
+ {
+  "seg": 115,
+  "start": 576.772,
+  "end": 581.434,
+  "speaker": "Unknown",
+  "en": "So of course, the amount of data that gets processed in a world model is a lot.",
+  "zh": "所以,当然,世界模型中处理的数据量是很大的。"
+ },
+ {
+  "seg": 116,
+  "start": 582.335,
+  "end": 589.099,
+  "speaker": "Unknown",
+  "en": "But at the end of the day, I think the size of the model we see varies depending on what you want the model to do.",
+  "zh": "但归根结底,我认为我们看到的模型大小会因你希望模型做什么而有所不同。"
+ },
+ {
+  "seg": 117,
+  "start": 590.02,
+  "end": 593.582,
+  "speaker": "Unknown",
+  "en": "You were asking about physical AI and difference between LLMs.",
+  "zh": "你刚才问到物理 AI 以及它与 LLM 的区别。"
+ },
+ {
+  "seg": 118,
+  "start": 593.822,
+  "end": 601.907,
+  "speaker": "Unknown",
+  "en": "And one of the things is that you have to run some of these models on the device itself, on that particular robot or on that particular car.",
+  "zh": "其中一点是,你必须把其中一些模型运行在设备本身上,运行在那一台特定的机器人或那一辆特定的汽车上。"
+ },
+ {
+  "seg": 119,
+  "start": 602.488,
+  "end": 608.131,
+  "speaker": "Unknown",
+  "en": "You do not have the luxury to say, it's okay if it takes one minute to get back to it with an answer.",
+  "zh": "你没有那种奢侈的条件说,等一分钟才得到答案也没关系。"
+ },
+ {
+  "seg": 120,
+  "start": 608.651,
+  "end": 611.013,
+  "speaker": "Unknown",
+  "en": "I'm going to throw all the compute available at it.",
+  "zh": "把所有可用的算力都砸上去。"
+ },
+ {
+  "seg": 121,
+  "start": 611.413,
+  "end": 617.998,
+  "speaker": "Unknown",
+  "en": "So you need to think about how you're going to make distilled version of these world models that can run on device.",
+  "zh": "所以你需要思考如何制作这些世界模型的蒸馏版本,让它们能在设备上运行。"
+ },
+ {
+  "seg": 122,
+  "start": 618.638,
+  "end": 622.761,
+  "speaker": "Unknown",
+  "en": "But for something like evaluation, which can happen offline, right?",
+  "zh": "但对于像评估这样的事情,它是可以离线进行的,对吧?"
+ },
+ {
+  "seg": 123,
+  "start": 622.921,
+  "end": 631.668,
+  "speaker": "Unknown",
+  "en": "If you're training a model, you collected some amount of data, but you want to train what it is going to do if it was in a particular street of New York.",
+  "zh": "如果你在训练一个模型,你收集了一些数据,但你想要训练它,如果它身处纽约某条街道上它会怎么做。"
+ },
+ {
+  "seg": 124,
+  "start": 632.558,
+  "end": 640.322,
+  "speaker": "Unknown",
+  "en": "You can just ask the world model to give it a particular image and say, can you create a world around me and I want to drive this thing in New York, right?",
+  "zh": "你可以直接让世界模型给它一张特定的图像,然后说,你能不能在我周围创造一个世界,我想在纽约开这个东西,对吧?"
+ },
+ {
+  "seg": 125,
+  "start": 640.963,
+  "end": 645.065,
+  "speaker": "Unknown",
+  "en": "That part is super heavy, but that part can also run offline.",
+  "zh": "那部分超级重,但那部分也可以离线运行。"
+ },
+ {
+  "seg": 126,
+  "start": 645.185,
+  "end": 646.986,
+  "speaker": "Unknown",
+  "en": "You can throw a lot of compute at it.",
+  "zh": "你可以投入大量算力。"
+ },
+ {
+  "seg": 127,
+  "start": 647.626,
+  "end": 652.609,
+  "speaker": "Unknown",
+  "en": "So at NVIDIA, we have been working on the Cosmos models and a variety of those exist.",
+  "zh": "所以在 NVIDIA,我们一直在开发 Cosmos 模型,存在多种此类模型。"
+ },
+ {
+  "seg": 128,
+  "start": 653.409,
+  "end": 662.096,
+  "speaker": "Unknown",
+  "en": "And we have many different sizes of the model starting from things that can run onto the edge all the way to really, we have nanos and super models.",
+  "zh": "而且我们有很多不同尺寸的模型,从能运行在边缘设备上的,一直到,真的,我们有 nano 级的和超大型的模型。"
+ },
+ {
+  "seg": 129,
+  "start": 662.577,
+  "end": 664.078,
+  "speaker": "Unknown",
+  "en": "They can be used for creating data.",
+  "zh": "它们可以用于生成数据。"
+ },
+ {
+  "seg": 130,
+  "start": 664.118,
+  "end": 666.76,
+  "speaker": "Unknown",
+  "en": "They can be used for evaluating things offline.",
+  "zh": "它们可以用于离线评估各种东西。"
+ },
+ {
+  "seg": 131,
+  "start": 666.78,
+  "end": 668.422,
+  "speaker": "Unknown",
+  "en": "So you're a hundred percent right.",
+  "zh": "所以你说得百分之百对。"
+ },
+ {
+  "seg": 132,
+  "start": 668.522,
+  "end": 671.564,
+  "speaker": "Unknown",
+  "en": "These models are processing a lot of data.",
+  "zh": "这些模型在处理大量数据。"
+ },
+ {
+  "seg": 133,
+  "start": 671.905,
+  "end": 675.307,
+  "speaker": "Unknown",
+  "en": "You anticipated my next thought comment, which was just the speed.",
+  "zh": "你猜到了我的下一个想法,那就是速度。"
+ },
+ {
+  "seg": 134,
+  "start": 675.527,
+  "end": 676.488,
+  "speaker": "Unknown",
+  "en": "These things can't wait.",
+  "zh": "这些东西不能等。"
+ },
+ {
+  "seg": 135,
+  "start": 676.648,
+  "end": 681.472,
+  "speaker": "Unknown",
+  "en": "It's not like me waiting for Fable to analyze my next presentation or something.",
+  "zh": "不像我在等着 Fable 分析我的下一个演示文稿之类的东西。"
+ },
+ {
+  "seg": 136,
+  "start": 681.592,
+  "end": 681.853,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 137,
+  "start": 682.093,
+  "end": 682.193,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 138,
+  "start": 682.493,
+  "end": 687.382,
+  "speaker": "Unknown",
+  "en": "Yeah, you cannot just leave it around and come back and see what happened.",
+  "zh": "是的,你不能把它放在一边,然后回来看发生了什么。"
+ },
+ {
+  "seg": 139,
+  "start": 687.402,
+  "end": 689.906,
+  "speaker": "Unknown",
+  "en": "Especially if you're deploying it on the device itself.",
+  "zh": "尤其是当你把它部署在设备本身上的时候。"
+ },
+ {
+  "seg": 140,
+  "start": 689.926,
+  "end": 691.048,
+  "speaker": "Unknown",
+  "en": "Yeah, that's amazing.",
+  "zh": "是的,太神奇了。"
+ },
+ {
+  "seg": 141,
+  "start": 691.918,
+  "end": 700.944,
+  "speaker": "Unknown",
+  "en": "So I'd love to walk through, you know, you get these interview questions of, I remember back in the day, it used to be like, what happens when you press enter on Google, right?",
+  "zh": "所以我很想走一遍,你知道的,你会遇到那些面试问题,我记得以前,常常是这样的:当你在 Google 上按下回车时会发生什么,对吧?"
+ },
+ {
+  "seg": 142,
+  "start": 701.004,
+  "end": 704.046,
+  "speaker": "Unknown",
+  "en": "So I kind of want to give you this for one of these situations.",
+  "zh": "所以我有点想把这个问题在其中一个场景下抛给你。"
+ },
+ {
+  "seg": 143,
+  "start": 704.126,
+  "end": 707.348,
+  "speaker": "Unknown",
+  "en": "So we can pick a type of robot or whatever.",
+  "zh": "我们可以选一种类型的机器人或什么的。"
+ },
+ {
+  "seg": 144,
+  "start": 707.768,
+  "end": 718.115,
+  "speaker": "Unknown",
+  "en": "What happens in 100 milliseconds between that thing capturing, let's say an image or some sort of multiple sensor inputs, and then a motor command going out of that thing to perform an action?",
+  "zh": "在那个东西捕捉到,比如说一张图像或某种多个传感器输入,然后一个电机指令从那个东西输出以执行一个动作之间的 100 毫秒里发生了什么?"
+ },
+ {
+  "seg": 145,
+  "start": 718.592,
+  "end": 728.025,
+  "speaker": "Unknown",
+  "en": "Yeah, so typically if you think about, let's say a robot, the moment you are capturing the information from the robot's camera,",
+  "zh": "是的,通常来说,如果你想想,比如说一个机器人,从你捕捉机器人摄像头的图像的那一刻起,"
+ },
+ {
+  "seg": 146,
+  "start": 728.835,
+  "end": 732.397,
+  "speaker": "Unknown",
+  "en": "Typically you need more information than just the camera.",
+  "zh": "通常你需要的信息不仅仅是摄像头。"
+ },
+ {
+  "seg": 147,
+  "start": 732.717,
+  "end": 738.92,
+  "speaker": "Unknown",
+  "en": "You need to also understand what is the state of each of its actuators.",
+  "zh": "你还需要了解它的每个执行器的状态。"
+ },
+ {
+  "seg": 148,
+  "start": 739.56,
+  "end": 748.165,
+  "speaker": "Unknown",
+  "en": "You need to understand some of the other sensors like IMU, which is an inertial measurement unit that tells you the pose of the different parts of the robot.",
+  "zh": "你需要了解一些其他的传感器,比如 IMU,也就是惯性测量单元,它告诉你机器人各个部件的姿态。"
+ },
+ {
+  "seg": 149,
+  "start": 749.125,
+  "end": 752.848,
+  "speaker": "Unknown",
+  "en": "And once you capture this information, first you need to synchronize all of this.",
+  "zh": "而一旦你捕捉到了这些信息,首先你需要把这一切同步起来。"
+ },
+ {
+  "seg": 150,
+  "start": 752.988,
+  "end": 756.79,
+  "speaker": "Unknown",
+  "en": "What that means is, my camera is observing at this particular time.",
+  "zh": "这意味着，我的摄像头在这个特定时刻进行观测。"
+ },
+ {
+  "seg": 151,
+  "start": 757.37,
+  "end": 760.092,
+  "speaker": "Unknown",
+  "en": "At the same time, what was the state of my motors?",
+  "zh": "与此同时，我的电机是什么状态？"
+ },
+ {
+  "seg": 152,
+  "start": 760.132,
+  "end": 761.593,
+  "speaker": "Unknown",
+  "en": "What was the state of the IMUs?",
+  "zh": "我的 IMU 是什么状态？"
+ },
+ {
+  "seg": 153,
+  "start": 762.113,
+  "end": 763.914,
+  "speaker": "Unknown",
+  "en": "And you need to fuse them together.",
+  "zh": "而你需要把它们融合在一起。"
+ },
+ {
+  "seg": 154,
+  "start": 764.855,
+  "end": 770.938,
+  "speaker": "Unknown",
+  "en": "The next thing you have to do is, if you're given a task, let's assume we are running a vision language action model.",
+  "zh": "接下来你要做的是，如果给你一个任务，假设我们正在运行一个视觉-语言-动作模型。"
+ },
+ {
+  "seg": 155,
+  "start": 771.598,
+  "end": 785.765,
+  "speaker": "Unknown",
+  "en": "You need to tokenize this data, all of this data, the data from the current frame, but also the data from the past frames, because your next action is dependent on not just what you're currently seeing, but also a little bit of history.",
+  "zh": "你需要将这些数据标记化，所有这些数据，当前帧的数据，也包括过去帧的数据，因为你的下一个动作不仅取决于你当前看到的东西，还取决于一点历史。"
+ },
+ {
+  "seg": 156,
+  "start": 786.365,
+  "end": 794.551,
+  "speaker": "Unknown",
+  "en": "So you have to take the data, you have to tokenize it, and then you feed it into this model, which is now going to do two things.",
+  "zh": "所以你必须拿到数据，把它标记化，然后把它输入到这个模型中，这个模型现在要做两件事。"
+ },
+ {
+  "seg": 157,
+  "start": 795.171,
+  "end": 806.239,
+  "speaker": "Unknown",
+  "en": "First thing it has to do is it has to do a planning, which is the task of taking my current observation, my past observations, and my objective function.",
+  "zh": "第一件事是它必须做规划，也就是把我的当前观测、我的过去观测和我的目标函数拿来做决策的任务。"
+ },
+ {
+  "seg": 158,
+  "start": 806.6,
+  "end": 807.1,
+  "speaker": "Unknown",
+  "en": "What should I do?",
+  "zh": "一个在做规划的推理模型可以以低频率存在。"
+ },
+ {
+  "seg": 159,
+  "start": 808.861,
+  "end": 813.044,
+  "speaker": "Unknown",
+  "en": "If I was asked to pick up that particular cup, do I need to move left?",
+  "zh": "如果我被要求拿起那个特定的杯子，我需要向左移动吗？"
+ },
+ {
+  "seg": 160,
+  "start": 813.505,
+  "end": 814.405,
+  "speaker": "Unknown",
+  "en": "Do I need to move right?",
+  "zh": "我需要向右移动吗？"
+ },
+ {
+  "seg": 161,
+  "start": 814.665,
+  "end": 816.126,
+  "speaker": "Unknown",
+  "en": "Do I need to go up or down?",
+  "zh": "我需要向上还是向下？"
+ },
+ {
+  "seg": 162,
+  "start": 816.847,
+  "end": 817.908,
+  "speaker": "Unknown",
+  "en": "How far do I need to reach?",
+  "zh": "我需要伸多远？"
+ },
+ {
+  "seg": 163,
+  "start": 817.928,
+  "end": 829.977,
+  "speaker": "Unknown",
+  "en": "So this is the planning task, and today this is something that is done by an autoregressive model that will predict the sequence of tasks that you need to do based on the objective function and current input.",
+  "zh": "这就是规划任务，今天这是由一个自回归模型完成的，它会基于目标函数和当前输入预测你需要执行的任务序列。"
+ },
+ {
+  "seg": 164,
+  "start": 830.657,
+  "end": 833.62,
+  "speaker": "Unknown",
+  "en": "Now that's your reasoning and planning brain that kicks in.",
+  "zh": "这就是你的推理和规划大脑启动了。"
+ },
+ {
+  "seg": 165,
+  "start": 834.08,
+  "end": 838.724,
+  "speaker": "Unknown",
+  "en": "And the planner tells you, okay, based on the task that's given to you, this is the next step you need to do.",
+  "zh": "规划器告诉你，好，基于给你的任务，这是你下一步需要做的。"
+ },
+ {
+  "seg": 166,
+  "start": 839.385,
+  "end": 844.649,
+  "speaker": "Unknown",
+  "en": "Now comes in the second piece of the modeler, which is generating all the actions.",
+  "zh": "现在进入这个模型（modeler）的第二部分，也就是生成所有动作。"
+ },
+ {
+  "seg": 167,
+  "start": 845.39,
+  "end": 852.336,
+  "speaker": "Unknown",
+  "en": "And that part is very complex because depending on the robot type, you could be controlling 30 to 40 motors.",
+  "zh": "这部分非常复杂，因为根据机器人类型的不同，你可能要控制 30 到 40 个电机。"
+ },
+ {
+  "seg": 168,
+  "start": 854.037,
+  "end": 857.358,
+  "speaker": "Unknown",
+  "en": "And you need to generate actions of all of that synchronously.",
+  "zh": "而你需要同步地生成所有这些动作。"
+ },
+ {
+  "seg": 169,
+  "start": 857.378,
+  "end": 859.858,
+  "speaker": "Unknown",
+  "en": "You cannot see really generate that, right?",
+  "zh": "你真的不能随便生成，对吧？"
+ },
+ {
+  "seg": 170,
+  "start": 860.398,
+  "end": 862.779,
+  "speaker": "Unknown",
+  "en": "You need to control the output.",
+  "zh": "你需要控制输出。"
+ },
+ {
+  "seg": 171,
+  "start": 862.859,
+  "end": 867.459,
+  "speaker": "Unknown",
+  "en": "And one thing that's very unique about physical world is that a lot of things are continuous.",
+  "zh": "物理世界有一个非常独特的地方，那就是很多东西都是连续的。"
+ },
+ {
+  "seg": 172,
+  "start": 867.979,
+  "end": 872.98,
+  "speaker": "Unknown",
+  "en": "You have to control the current and you cannot send it for like this much current.",
+  "zh": "你必须控制电流，你不能就发这么多的电流。"
+ },
+ {
+  "seg": 173,
+  "start": 873.48,
+  "end": 875.501,
+  "speaker": "Unknown",
+  "en": "It has to be continuously generated.",
+  "zh": "它必须被连续地生成。"
+ },
+ {
+  "seg": 174,
+  "start": 876.261,
+  "end": 882.282,
+  "speaker": "Unknown",
+  "en": "So the kind of models that you need is different than what you need to predict a discrete output.",
+  "zh": "所以你需要的模型类型，与预测离散输出所需的模型是不同的。"
+ },
+ {
+  "seg": 175,
+  "start": 882.902,
+  "end": 891.408,
+  "speaker": "Unknown",
+  "en": "A sequence of text versus the current for 50 motors that you have to send it at every millisecond.",
+  "zh": "一段文本序列，对比 50 个电机你必须每毫秒发送的电流。"
+ },
+ {
+  "seg": 176,
+  "start": 891.488,
+  "end": 899.393,
+  "speaker": "Unknown",
+  "en": "So the frequency at which the output must be generated is very different for a robotic and a physical AI model.",
+  "zh": "所以对于一个机器人模型和物理 AI 模型来说，输出生成所需的频率是非常不同的。"
+ },
+ {
+  "seg": 177,
+  "start": 900.013,
+  "end": 902.655,
+  "speaker": "Unknown",
+  "en": "So you have to make these two models work together.",
+  "zh": "所以你必须让这两个模型协同工作。"
+ },
+ {
+  "seg": 178,
+  "start": 902.675,
+  "end": 906.917,
+  "speaker": "Unknown",
+  "en": "A reasoning model that is planning can exist at a low frequency.",
+  "zh": "一个正在做规划的推理模型可以以低频率存在。"
+ },
+ {
+  "seg": 179,
+  "start": 907.498,
+  "end": 912.481,
+  "speaker": "Unknown",
+  "en": "The inputs of that goes to another model that actually generates the motor control commands.",
+  "zh": "它的输入会进入另一个模型，那个模型实际生成电机控制指令。"
+ },
+ {
+  "seg": 180,
+  "start": 912.861,
+  "end": 917.744,
+  "speaker": "Unknown",
+  "en": "And that one is running really, really fast because it has to control all of that at high frequency.",
+  "zh": "而那个模型运行得非常非常快，因为它必须以高频率控制所有这些。"
+ },
+ {
+  "seg": 181,
+  "start": 918.424,
+  "end": 921.969,
+  "speaker": "Unknown",
+  "en": "And once you have that output, typically that's happening in the brain.",
+  "zh": "一旦你有了那个输出，通常这是在大脑中发生的。"
+ },
+ {
+  "seg": 182,
+  "start": 922.529,
+  "end": 932.642,
+  "speaker": "Unknown",
+  "en": "But typically at the end of that, it goes to a small computer that is attached to the motors, which does your PID control based on the input that it got from the model.",
+  "zh": "但通常在这之后，它会传送到一个连接在电机上的小计算机，它根据从模型得到的输入进行 PID 控制。"
+ },
+ {
+  "seg": 183,
+  "start": 932.843,
+  "end": 934.264,
+  "speaker": "Unknown",
+  "en": "I'm not familiar with PID.",
+  "zh": "我不熟悉 PID。"
+ },
+ {
+  "seg": 184,
+  "start": 934.304,
+  "end": 934.685,
+  "speaker": "Unknown",
+  "en": "What's that?",
+  "zh": "那是什么？"
+ },
+ {
+  "seg": 185,
+  "start": 935.175,
+  "end": 940.416,
+  "speaker": "Unknown",
+  "en": "So PID is the closed loop control, that low frequency control loop.",
+  "zh": "PID 是闭环控制，也就是那个低频率的控制回路。"
+ },
+ {
+  "seg": 186,
+  "start": 940.696,
+  "end": 946.578,
+  "speaker": "Unknown",
+  "en": "That is, you have a target position, you get the current position, and you control the current.",
+  "zh": "就是说，你有一个目标位置，你获取当前的位置，然后你控制电流。"
+ },
+ {
+  "seg": 187,
+  "start": 946.618,
+  "end": 948.998,
+  "speaker": "Unknown",
+  "en": "So that is running right onto the motors.",
+  "zh": "所以它是直接在电机上运行的。"
+ },
+ {
+  "seg": 188,
+  "start": 949.339,
+  "end": 952.519,
+  "speaker": "Unknown",
+  "en": "It does not need to know what's happening on the other 30 motors, right?",
+  "zh": "它不需要知道其他 30 个电机上发生了什么，对吧？"
+ },
+ {
+  "seg": 189,
+  "start": 952.539,
+  "end": 954.94,
+  "speaker": "Unknown",
+  "en": "Because its objective is to control that one motor.",
+  "zh": "因为它的目标就是控制那一个电机。"
+ },
+ {
+  "seg": 190,
+  "start": 955.46,
+  "end": 958.302,
+  "speaker": "Unknown",
+  "en": "And that runs on a very small computer or a microcontroller.",
+  "zh": "而这运行在一个非常小的计算机或微控制器上。"
+ },
+ {
+  "seg": 191,
+  "start": 958.322,
+  "end": 961.344,
+  "speaker": "Unknown",
+  "en": "I'm thinking of this in terms of like a BIOS or something like that.",
+  "zh": "我在想这个就像是一个 BIOS 或者类似的东西。"
+ },
+ {
+  "seg": 192,
+  "start": 961.424,
+  "end": 962.365,
+  "speaker": "Unknown",
+  "en": "Like just very simple.",
+  "zh": "就是非常简单的东西。"
+ },
+ {
+  "seg": 193,
+  "start": 962.445,
+  "end": 962.765,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 194,
+  "start": 962.825,
+  "end": 965.067,
+  "speaker": "Unknown",
+  "en": "It's just a very simple firmware that's running.",
+  "zh": "它只是一个在运行的非常简单的固件。"
+ },
+ {
+  "seg": 195,
+  "start": 965.147,
+  "end": 966.528,
+  "speaker": "Unknown",
+  "en": "It's just taking commands.",
+  "zh": "它只是接收指令。"
+ },
+ {
+  "seg": 196,
+  "start": 967.223,
+  "end": 972.126,
+  "speaker": "Unknown",
+  "en": "I'm listening to this and I just can't help but think like this is the world's most insane state machine ever.",
+  "zh": "我听着这些，忍不住想，这简直是有史以来最疯狂的状态机。"
+ },
+ {
+  "seg": 197,
+  "start": 974.108,
+  "end": 977.59,
+  "speaker": "Unknown",
+  "en": "That's just so much to keep track of.",
+  "zh": "要追踪的东西实在太多了。"
+ },
+ {
+  "seg": 198,
+  "start": 978.09,
+  "end": 984.955,
+  "speaker": "Unknown",
+  "en": "And so you talked about this in a way that almost seems like there's two different models happening.",
+  "zh": "所以你讲到这个的方式，几乎让人感觉像是有两个不同的模型在运行。"
+ },
+ {
+  "seg": 199,
+  "start": 985.035,
+  "end": 989.458,
+  "speaker": "Unknown",
+  "en": "There's a reasoning and a planning, but yet they're all sharing the same.",
+  "zh": "一个是推理和规划，但它们却都共享同一个。"
+ },
+ {
+  "seg": 200,
+  "start": 990.37,
+  "end": 991.592,
+  "speaker": "Unknown",
+  "en": "That's right.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 201,
+  "start": 992.012,
+  "end": 993.394,
+  "speaker": "Unknown",
+  "en": "How does that work?",
+  "zh": "那是怎么运作的？"
+ },
+ {
+  "seg": 202,
+  "start": 993.554,
+  "end": 994.495,
+  "speaker": "Unknown",
+  "en": "How does it share that?",
+  "zh": "它是怎么共享那个的？"
+ },
+ {
+  "seg": 203,
+  "start": 994.795,
+  "end": 995.135,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 204,
+  "start": 995.376,
+  "end": 997.258,
+  "speaker": "Unknown",
+  "en": "So that's the interesting part.",
+  "zh": "注：应为 [[224]] 你不想把数据发送过去，因为那会浪费带宽。"
+ },
+ {
+  "seg": 205,
+  "start": 997.298,
+  "end": 1000.661,
+  "speaker": "Unknown",
+  "en": "There are many ways these models are being architected.",
+  "zh": "这些模型有多种架构方式。"
+ },
+ {
+  "seg": 206,
+  "start": 1001.702,
+  "end": 1007.148,
+  "speaker": "Unknown",
+  "en": "And one of the ways that we are looking at this is having a shared latent space where",
+  "zh": "我们看待这个问题的方式之一，是拥有一个共享的潜空间，其中"
+ },
+ {
+  "seg": 207,
+  "start": 1007.909,
+  "end": 1013.214,
+  "speaker": "Unknown",
+  "en": "The attention from one model, and there's a cross-attention between one model and the other model.",
+  "zh": "一个模型的注意力，与另一个模型之间有交叉注意力。"
+ },
+ {
+  "seg": 208,
+  "start": 1013.695,
+  "end": 1019.18,
+  "speaker": "Unknown",
+  "en": "The embeddings are shared so that you have a really high bandwidth communication between these two brains.",
+  "zh": "嵌入是共享的，这样这两个大脑之间就有真正高带宽的通信。"
+ },
+ {
+  "seg": 209,
+  "start": 1019.82,
+  "end": 1025.746,
+  "speaker": "Unknown",
+  "en": "If you look at the latest Cosmos 3 family of models that NVIDIA released, we have these two heads, right?",
+  "zh": "如果你看看 NVIDIA 发布的最新 Cosmos 3 系列模型，我们有这两个头，对吧？"
+ },
+ {
+  "seg": 210,
+  "start": 1025.826,
+  "end": 1029.089,
+  "speaker": "Unknown",
+  "en": "A reasoning head, and on top of that is the",
+  "zh": "一个推理头，在它之上是"
+ },
+ {
+  "seg": 211,
+  "start": 1030.11,
+  "end": 1037.393,
+  "speaker": "Unknown",
+  "en": "We have the reasoning tower and the action tower on the output side and they talk to each other.",
+  "zh": "我们有推理塔和动作塔，在输出侧，它们彼此通信。"
+ },
+ {
+  "seg": 212,
+  "start": 1037.413,
+  "end": 1042.354,
+  "speaker": "Unknown",
+  "en": "They have shared context in which they exchange information in the latent space.",
+  "zh": "它们有共享的上下文，在其中于潜空间里交换信息。"
+ },
+ {
+  "seg": 213,
+  "start": 1042.934,
+  "end": 1050.137,
+  "speaker": "Unknown",
+  "en": "If you were running them distributed, you may want to take the output of one and decode it and send it to the other one and again encode it.",
+  "zh": "如果你是分布式地运行它们，你可能需要取一个的输出，解码后发送给另一个，再重新编码。"
+ },
+ {
+  "seg": 214,
+  "start": 1050.597,
+  "end": 1052.638,
+  "speaker": "Unknown",
+  "en": "But that slows down the bandwidth, right?",
+  "zh": "但那会降低带宽，对吧？"
+ },
+ {
+  "seg": 215,
+  "start": 1053.038,
+  "end": 1057.74,
+  "speaker": "Unknown",
+  "en": "As I was telling you, for a robotic system, they need to operate really in a closed loop.",
+  "zh": "正如我告诉你的，对于一个机器人系统，它们需要真正以闭环方式运行。"
+ },
+ {
+  "seg": 216,
+  "start": 1058.2,
+  "end": 1065.844,
+  "speaker": "Unknown",
+  "en": "So that's why we build Cosmos with that shared context so that both these can coexist and exchange information with very high bandwidth.",
+  "zh": "所以这就是我们构建 Cosmos 时采用共享上下文的原因，这样两者可以共存并以非常高的带宽交换信息。"
+ },
+ {
+  "seg": 217,
+  "start": 1066.364,
+  "end": 1072.067,
+  "speaker": "Unknown",
+  "en": "I'm almost picturing this just like, I don't know, I'm trying to think of like a CPU analogy, but it's logical.",
+  "zh": "我几乎在想象这个，就像，我不知道，我在想类似 CPU 的类比，但在逻辑上。"
+ },
+ {
+  "seg": 218,
+  "start": 1072.467,
+  "end": 1075.508,
+  "speaker": "Unknown",
+  "en": "It's almost like a logical division inside the same hardware.",
+  "zh": "几乎就像同一硬件内部的逻辑划分。"
+ },
+ {
+  "seg": 219,
+  "start": 1075.608,
+  "end": 1076.308,
+  "speaker": "Unknown",
+  "en": "Is that correct?",
+  "zh": "是这样吗？"
+ },
+ {
+  "seg": 220,
+  "start": 1076.369,
+  "end": 1077.269,
+  "speaker": "Unknown",
+  "en": "Or do I have that wrong?",
+  "zh": "还是我理解错了？"
+ },
+ {
+  "seg": 221,
+  "start": 1077.587,
+  "end": 1078.528,
+  "speaker": "Unknown",
+  "en": "You're absolutely right.",
+  "zh": "你完全正确。"
+ },
+ {
+  "seg": 222,
+  "start": 1078.648,
+  "end": 1081.81,
+  "speaker": "Unknown",
+  "en": "Think about like in a physical space, we have a shared memory, right?",
+  "zh": "想想物理空间里，我们有共享内存，对吧？"
+ },
+ {
+  "seg": 223,
+  "start": 1081.85,
+  "end": 1083.932,
+  "speaker": "Unknown",
+  "en": "Where you have two different processes.",
+  "zh": "有两个不同的进程。"
+ },
+ {
+  "seg": 224,
+  "start": 1084.072,
+  "end": 1087.574,
+  "speaker": "Unknown",
+  "en": "You don't want to send the data over because it wastes your bandwidth.",
+  "zh": "你不会想把数据传过去,因为那会浪费你的带宽。"
+ },
+ {
+  "seg": 225,
+  "start": 1088.095,
+  "end": 1090.997,
+  "speaker": "Unknown",
+  "en": "The same thing we are doing at the model level now, right?",
+  "zh": "我们现在在模型层面做的就是同样的事情，对吧？"
+ },
+ {
+  "seg": 226,
+  "start": 1091.137,
+  "end": 1097.462,
+  "speaker": "Unknown",
+  "en": "Where in the latent space, we can share the information and the context between these two models.",
+  "zh": "在潜空间里，我们可以在这两个模型之间共享信息和上下文。"
+ },
+ {
+  "seg": 227,
+  "start": 1097.922,
+  "end": 1102.265,
+  "speaker": "Unknown",
+  "en": "So they can operate, although they're operating in different frequencies, they can share the same context.",
+  "zh": "所以它们可以运行，尽管它们运行在不同的频率上，它们可以共享相同的上下文。"
+ },
+ {
+  "seg": 228,
+  "start": 1102.686,
+  "end": 1103.006,
+  "speaker": "Unknown",
+  "en": "Got it.",
+  "zh": "明白了。"
+ },
+ {
+  "seg": 229,
+  "start": 1103.446,
+  "end": 1104.367,
+  "speaker": "Unknown",
+  "en": "That's really interesting.",
+  "zh": "这真的很有趣。"
+ },
+ {
+  "seg": 230,
+  "start": 1104.687,
+  "end": 1115.133,
+  "speaker": "Unknown",
+  "en": "I was going to ask about that two tower design because that was something I came across and it didn't make sense to me, but as you explained that reasoning step, that does make more sense.",
+  "zh": "我本来想问那个双塔设计，因为那是我之前遇到过但没弄明白的东西，但听你解释了推理步骤后，这就更说得通了。"
+ },
+ {
+  "seg": 231,
+  "start": 1115.374,
+  "end": 1116.394,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 232,
+  "start": 1116.434,
+  "end": 1122.738,
+  "speaker": "Unknown",
+  "en": "And the best, another way to think of it is like, is an architect, which is planning everything that you need to build.",
+  "zh": "另一个理解的最好方式是，就像一个建筑师，规划你需要建造的一切。"
+ },
+ {
+  "seg": 233,
+  "start": 1123.299,
+  "end": 1127.461,
+  "speaker": "Unknown",
+  "en": "And then there's an executioner, which is given the plan is doing the execution.",
+  "zh": "然后有一个执行者，拿到计划后负责执行。"
+ },
+ {
+  "seg": 234,
+  "start": 1128.121,
+  "end": 1133.705,
+  "speaker": "Unknown",
+  "en": "They both need access to the same information, but what they do with that information is slightly different.",
+  "zh": "他们都需要访问相同的信息，但他们用这些信息做的事情略有不同。"
+ },
+ {
+  "seg": 235,
+  "start": 1135.266,
+  "end": 1138.488,
+  "speaker": "Unknown",
+  "en": "This episode of Software Engineering Daily is brought to you by VariaCode.",
+  "zh": "本期 Software Engineering Daily 节目由 VariaCode 呈现。"
+ },
+ {
+  "seg": 236,
+  "start": 1138.709,
+  "end": 1141.891,
+  "speaker": "Unknown",
+  "en": "If you're an engineering or IT leader, you know how painful this is.",
+  "zh": "如果你是工程或 IT 负责人，你知道这有多痛苦。"
+ },
+ {
+  "seg": 237,
+  "start": 1142.291,
+  "end": 1149.617,
+  "speaker": "Unknown",
+  "en": "An open rec sits unfilled for three months, your tech lead is burning out, covering the gaps, and your product roadmap gets pushed back again.",
+  "zh": "一个空缺的招聘职位三个月无人补上，你的技术负责人在疲于奔命，填补空缺，你的产品路线图再次被推迟。"
+ },
+ {
+  "seg": 238,
+  "start": 1150.017,
+  "end": 1151.378,
+  "speaker": "Unknown",
+  "en": "VariaCode solves that.",
+  "zh": "VariaCode 解决这个问题。"
+ },
+ {
+  "seg": 239,
+  "start": 1151.698,
+  "end": 1160.984,
+  "speaker": "Unknown",
+  "en": "For over 10 years, they've been embedding senior Latin American engineers directly into US engineering teams in under 10 days at up to 40% less than local hiring.",
+  "zh": "十多年来，他们一直在不到 10 天内把资深拉美工程师直接嵌入美国工程团队，成本比本地招聘最多低 40%。"
+ },
+ {
+  "seg": 240,
+  "start": 1161.225,
+  "end": 1163.606,
+  "speaker": "Unknown",
+  "en": "We're not talking about generic contractor pools.",
+  "zh": "我们说的不是泛泛的外包承包商池。"
+ },
+ {
+  "seg": 241,
+  "start": 1163.826,
+  "end": 1168.41,
+  "speaker": "Unknown",
+  "en": "These are pre-vetted, high-quality engineers with real on-call and SLA experience.",
+  "zh": "这些是经过预审的高质量工程师，拥有真正的 on-call 和 SLA 经验。"
+ },
+ {
+  "seg": 242,
+  "start": 1168.87,
+  "end": 1174.594,
+  "speaker": "Unknown",
+  "en": "They work directly in your Slack, JIRA, and daily stand-ups in your exact US time zone with zero friction.",
+  "zh": "他们直接在你的 Slack、JIRA 和每日站会中工作，与你完全相同的美国时区，零摩擦。"
+ },
+ {
+  "seg": 243,
+  "start": 1174.974,
+  "end": 1177.376,
+  "speaker": "Unknown",
+  "en": "If you're ready to stop losing sprints to open recs,",
+  "zh": "如果你准备好不再因空缺职位而浪费冲刺周期，"
+ },
+ {
+  "seg": 244,
+  "start": 1177.736,
+  "end": 1184.809,
+  "speaker": "Unknown",
+  "en": "Head over to variacode.com slash SED right now and get a custom shortlist of senior candidates in 48 hours.",
+  "zh": "现在就前往 variacode.com/SED，在 48 小时内获得一份定制的资深候选人名单。"
+ },
+ {
+  "seg": 245,
+  "start": 1185.15,
+  "end": 1190.52,
+  "speaker": "Unknown",
+  "en": "That's V-A-R-I-A-C-O-D-E dot com slash SED.",
+  "zh": "网址是 V-A-R-I-A-C-O-D-E 点 com /SED。"
+ },
+ {
+  "seg": 246,
+  "start": 1191.83,
+  "end": 1194.812,
+  "speaker": "Unknown",
+  "en": "Every visitor on your platform looks the same at first.",
+  "zh": "你平台上的每个访客起初看起来都一样。"
+ },
+ {
+  "seg": 247,
+  "start": 1195.152,
+  "end": 1197.254,
+  "speaker": "Unknown",
+  "en": "Can you trust them, or are they a threat?",
+  "zh": "你能信任他们吗，还是他们是威胁？"
+ },
+ {
+  "seg": 248,
+  "start": 1197.454,
+  "end": 1205.399,
+  "speaker": "Unknown",
+  "en": "Fingerprint lets you answer this question right away with one API call, no model to maintain, and implementation in minutes.",
+  "zh": "Fingerprint 让你用一个 API 调用立即回答这个问题，无需维护模型，几分钟内即可实现。"
+ },
+ {
+  "seg": 249,
+  "start": 1205.84,
+  "end": 1220.37,
+  "speaker": "Unknown",
+  "en": "Fingerprint recognizes bots, AI agents, VPNs, tampering, and over 100 more unique signals to give you durable risk scoring and threat detection in real time, even as human and agentic activity blends together.",
+  "zh": "Fingerprint 识别机器人、AI 智能体、VPN、篡改行为以及 100 多种其他独特信号，即使在人类与智能体活动日益交融的情况下，也能为你提供实时的持久风险评分和威胁检测。"
+ },
+ {
+  "seg": 250,
+  "start": 1220.79,
+  "end": 1226.412,
+  "speaker": "Unknown",
+  "en": "You can identify suspicious traffic faster and build safer and more secure sites and apps.",
+  "zh": "你可以更快地识别可疑流量,构建更安全、更有保障的网站和应用。"
+ },
+ {
+  "seg": 251,
+  "start": 1226.772,
+  "end": 1229.733,
+  "speaker": "Unknown",
+  "en": "Over 6,000 companies rely on it every day.",
+  "zh": "每天,有超过 6,000 家公司依赖它。"
+ },
+ {
+  "seg": 252,
+  "start": 1230.013,
+  "end": 1232.293,
+  "speaker": "Unknown",
+  "en": "Join them now at Fingerprint.com.",
+  "zh": "现在就加入他们,访问 Fingerprint.com。"
+ },
+ {
+  "seg": 253,
+  "start": 1232.654,
+  "end": 1234.494,
+  "speaker": "Unknown",
+  "en": "Think about your mobile app source code.",
+  "zh": "想想你的移动应用源代码。"
+ },
+ {
+  "seg": 254,
+  "start": 1234.814,
+  "end": 1237.415,
+  "speaker": "Unknown",
+  "en": "Once it hits the App Store, it's out in the wild.",
+  "zh": "一旦它进入应用商店,就流散在外了。"
+ },
+ {
+  "seg": 255,
+  "start": 1237.775,
+  "end": 1245.26,
+  "speaker": "Unknown",
+  "en": "And without the right protection, decompiling is easy for malicious actors looking to steal your IP or tamper with your software.",
+  "zh": "而如果没有正确的保护,对于想要窃取你的知识产权或篡改你的软件的恶意行为者来说,反编译很容易。"
+ },
+ {
+  "seg": 256,
+  "start": 1245.5,
+  "end": 1246.861,
+  "speaker": "Unknown",
+  "en": "That's where GuardSquare comes in.",
+  "zh": "这就是 GuardSquare 的用武之地。"
+ },
+ {
+  "seg": 257,
+  "start": 1247.261,
+  "end": 1254.225,
+  "speaker": "Unknown",
+  "en": "GuardSquare provides the highest level of mobile app security for Android and iOS applications and SDKs.",
+  "zh": "GuardSquare 为 Android 和 iOS 应用以及 SDK 提供最高级别的移动应用安全。"
+ },
+ {
+  "seg": 258,
+  "start": 1254.685,
+  "end": 1258.848,
+  "speaker": "Unknown",
+  "en": "Their advanced tools integrate seamlessly into your CI-CD pipeline.",
+  "zh": "他们的先进工具可以无缝集成到你的 CI-CD 流水线中。"
+ },
+ {
+  "seg": 259,
+  "start": 1259.228,
+  "end": 1275.323,
+  "speaker": "Unknown",
+  "en": "We're talking polymorphic multi-layered code hardening techniques and automated runtime application self-protection paired with mobile application security testing and real-time threat monitoring to deliver the highest level of mobile app security without compromise.",
+  "zh": "我们说的是多态多层代码加固技术和自动化的运行时应用自我保护,再配上移动应用安全测试和实时威胁监控,以提供最高级别的移动应用安全,绝不妥协。"
+ },
+ {
+  "seg": 260,
+  "start": 1275.743,
+  "end": 1277.325,
+  "speaker": "Unknown",
+  "en": "Don't leave your hard work exposed.",
+  "zh": "不要让你辛苦的工作成果暴露在外。"
+ },
+ {
+  "seg": 261,
+  "start": 1277.745,
+  "end": 1280.007,
+  "speaker": "Unknown",
+  "en": "Secure your mobile applications today.",
+  "zh": "今天就保护你的移动应用。"
+ },
+ {
+  "seg": 262,
+  "start": 1280.348,
+  "end": 1282.77,
+  "speaker": "Unknown",
+  "en": "Go to guardsquare.com to learn more.",
+  "zh": "访问 guardsquare.com 了解更多。"
+ },
+ {
+  "seg": 263,
+  "start": 1284.332,
+  "end": 1299.86,
+  "speaker": "Unknown",
+  "en": "So one of the things here that's like, I mean, we talk in textual models about using GPUs because they're really good at this task, but I can't help but think like this requires just so much more horsepower, so to speak, than what those need.",
+  "zh": "所以这里有一点,我的意思是,我们在文本模型中谈使用 GPU,是因为它们真的很擅长这个任务,但我不禁觉得,这需要的算力,可以说,比那些模型需要的多得多。"
+ },
+ {
+  "seg": 264,
+  "start": 1301,
+  "end": 1306.046,
+  "speaker": "Unknown",
+  "en": "If you can simplify it, like what is the difference in the hardware that's powering these things?",
+  "zh": "如果你能简化一下,驱动这些东西的硬件有什么不同?"
+ },
+ {
+  "seg": 265,
+  "start": 1306.606,
+  "end": 1308.789,
+  "speaker": "Unknown",
+  "en": "There are a few things that is different.",
+  "zh": "有几点是不同的。"
+ },
+ {
+  "seg": 266,
+  "start": 1308.829,
+  "end": 1316.478,
+  "speaker": "Unknown",
+  "en": "As I mentioned, when you're thinking about the world model, the number of modalities that you're dealing with is quite different.",
+  "zh": "正如我提到的,当你思考世界模型时,你要处理的模态数量非常不同。"
+ },
+ {
+  "seg": 267,
+  "start": 1317.373,
+  "end": 1328.802,
+  "speaker": "Unknown",
+  "en": "What that does to your architecture is when you're training a model, when you're dealing with the text inputs, the bandwidth that you're processing for data itself is not that high.",
+  "zh": "这对你的架构的影响是,当你训练一个模型时,当你处理文本输入时,你为数据本身处理的带宽并没有那么高。"
+ },
+ {
+  "seg": 268,
+  "start": 1329.362,
+  "end": 1332.705,
+  "speaker": "Unknown",
+  "en": "When you are working with the world models and you're training a world model,",
+  "zh": "当你在做世界模型并且训练一个世界模型时,"
+ },
+ {
+  "seg": 269,
+  "start": 1333.601,
+  "end": 1335.462,
+  "speaker": "Unknown",
+  "en": "You need to retrieve the images.",
+  "zh": "你需要检索图像。"
+ },
+ {
+  "seg": 270,
+  "start": 1336.063,
+  "end": 1339.766,
+  "speaker": "Unknown",
+  "en": "You need to retrieve the actions or the motor control commands.",
+  "zh": "你需要检索动作或运动控制指令。"
+ },
+ {
+  "seg": 271,
+  "start": 1340.366,
+  "end": 1347.251,
+  "speaker": "Unknown",
+  "en": "You need to retrieve the text annotation for all of that in parallel and bring it into your model.",
+  "zh": "你需要并行检索所有这些的文本标注,并把它们送入你的模型。"
+ },
+ {
+  "seg": 272,
+  "start": 1347.812,
+  "end": 1354.877,
+  "speaker": "Unknown",
+  "en": "That creates pretty unique challenges from the hardware perspective as to what do you keep in the storage?",
+  "zh": "这从硬件角度带来了相当独特的挑战:你在存储中保留什么?"
+ },
+ {
+  "seg": 273,
+  "start": 1355.017,
+  "end": 1356.818,
+  "speaker": "Unknown",
+  "en": "How do you manage the data?",
+  "zh": "你如何管理数据?"
+ },
+ {
+  "seg": 274,
+  "start": 1357.539,
+  "end": 1362.462,
+  "speaker": "Unknown",
+  "en": "We, in fact, had to go ahead and build out a completely different stack",
+  "zh": "事实上,我们不得不去构建一套完全不同的技术栈"
+ },
+ {
+  "seg": 275,
+  "start": 1363.263,
+  "end": 1364.845,
+  "speaker": "Unknown",
+  "en": "in order to process this data.",
+  "zh": "来处理这些数据。"
+ },
+ {
+  "seg": 276,
+  "start": 1365.566,
+  "end": 1370.133,
+  "speaker": "Unknown",
+  "en": "Because GPU's resources are super scarce and precious.",
+  "zh": "因为 GPU 的资源超级稀缺和宝贵。"
+ },
+ {
+  "seg": 277,
+  "start": 1371.394,
+  "end": 1375.74,
+  "speaker": "Unknown",
+  "en": "And a lot of this preprocessing typically was done on a CPU.",
+  "zh": "而很多这类预处理通常是在 CPU 上完成的。"
+ },
+ {
+  "seg": 278,
+  "start": 1376.501,
+  "end": 1380.166,
+  "speaker": "Unknown",
+  "en": "And so you would have your model waiting for the data to do the training.",
+  "zh": "这样你的模型就得等待数据才能进行训练。"
+ },
+ {
+  "seg": 279,
+  "start": 1380.827,
+  "end": 1388.195,
+  "speaker": "Unknown",
+  "en": "But it's just not possible to do that with the existing pipelines that were built for text-based model training.",
+  "zh": "但是用为文本模型训练构建的现有流水线,根本不可能做到这一点。"
+ },
+ {
+  "seg": 280,
+  "start": 1388.335,
+  "end": 1400.187,
+  "speaker": "Unknown",
+  "en": "So we created something called Curator, which was the ability to now take large amounts of videos, process it, store it in a way that now you can keep the training data coming in.",
+  "zh": "所以我们创建了一个叫 Curator 的东西,它现在能够处理大量视频,进行处理,并以一种能让训练数据持续流入的方式存储起来。"
+ },
+ {
+  "seg": 281,
+  "start": 1400.908,
+  "end": 1402.67,
+  "speaker": "Unknown",
+  "en": "So that's on the data side of things.",
+  "zh": "这是数据方面的事情。"
+ },
+ {
+  "seg": 282,
+  "start": 1403.351,
+  "end": 1411.822,
+  "speaker": "Unknown",
+  "en": "On the hardware side of things, when it comes to training these models, as you know with LLMs also, there are multiple phases, right?",
+  "zh": "在硬件方面,当训练这些模型时,正如你在 LLM 上也知道的那样,有多个阶段,对吧?"
+ },
+ {
+  "seg": 283,
+  "start": 1412.062,
+  "end": 1415.566,
+  "speaker": "Unknown",
+  "en": "There's pre-training, there's mid-training, and then there's post-training.",
+  "zh": "有预训练,有中期训练,然后有后训练。"
+ },
+ {
+  "seg": 284,
+  "start": 1416.325,
+  "end": 1420.328,
+  "speaker": "Unknown",
+  "en": "You see a lot of post-training happens with using the reinforcement learning.",
+  "zh": "你会看到很多后训练是使用强化学习进行的。"
+ },
+ {
+  "seg": 285,
+  "start": 1420.548,
+  "end": 1421.769,
+  "speaker": "Unknown",
+  "en": "You're using different tools.",
+  "zh": "你会使用不同的工具。"
+ },
+ {
+  "seg": 286,
+  "start": 1422.31,
+  "end": 1423.911,
+  "speaker": "Unknown",
+  "en": "The same is true for world models.",
+  "zh": "世界模型也是如此。"
+ },
+ {
+  "seg": 287,
+  "start": 1424.772,
+  "end": 1430.356,
+  "speaker": "Unknown",
+  "en": "But when you're training a world model, let's say it's a robotics world model, how do you verify it?",
+  "zh": "但是当你训练一个世界模型时,假设它是一个机器人学世界模型,你如何验证它?"
+ },
+ {
+  "seg": 288,
+  "start": 1430.456,
+  "end": 1432.277,
+  "speaker": "Unknown",
+  "en": "How do you do the reinforcement learning?",
+  "zh": "你如何做强化学习?"
+ },
+ {
+  "seg": 289,
+  "start": 1433.038,
+  "end": 1438.863,
+  "speaker": "Unknown",
+  "en": "For a coding model, reinforcement learning is you go, run it, compile the code, verify it works or not.",
+  "zh": "对于编程模型,强化学习就是:去运行它,编译代码,验证它是否可行。"
+ },
+ {
+  "seg": 290,
+  "start": 1439.403,
+  "end": 1442.706,
+  "speaker": "Unknown",
+  "en": "For a word model, its job is to simulate the word.",
+  "zh": "而对于一个世界模型,它的任务是模拟这个世界。"
+ },
+ {
+  "seg": 291,
+  "start": 1443.347,
+  "end": 1447.29,
+  "speaker": "Unknown",
+  "en": "You actually need to go to a physics simulator as a tool, right?",
+  "zh": "你实际上需要去到一个物理模拟器作为工具,对吧?"
+ },
+ {
+  "seg": 292,
+  "start": 1447.99,
+  "end": 1456.638,
+  "speaker": "Unknown",
+  "en": "And that physics simulator is best run on another kind of GPU, which has the ray tracing cores that can do the sensor simulation.",
+  "zh": "而那个物理模拟器最适合运行在另一种 GPU 上,即拥有光线追踪核心、能够进行传感器模拟的 GPU。"
+ },
+ {
+  "seg": 293,
+  "start": 1457.398,
+  "end": 1460.56,
+  "speaker": "Unknown",
+  "en": "So it becomes a heterogeneous computer architecture.",
+  "zh": "所以它就变成了一种异构计算架构。"
+ },
+ {
+  "seg": 294,
+  "start": 1460.66,
+  "end": 1463.401,
+  "speaker": "Unknown",
+  "en": "On the one side, you need something that can process all of this data.",
+  "zh": "一方面,你需要能处理所有这些数据的东西。"
+ },
+ {
+  "seg": 295,
+  "start": 1463.802,
+  "end": 1467.384,
+  "speaker": "Unknown",
+  "en": "Then of course, you have your transformer model that needs to get trained.",
+  "zh": "然后当然,你有需要被训练的 transformer 模型。"
+ },
+ {
+  "seg": 296,
+  "start": 1468.104,
+  "end": 1475.988,
+  "speaker": "Unknown",
+  "en": "And then after that, you have to continuously call a simulator where you go and do the reinforcement learning and testing whether if it's working or not.",
+  "zh": "而在那之后,你还必须持续调用模拟器,在其中进行强化学习,测试它是否有效。"
+ },
+ {
+  "seg": 297,
+  "start": 1476.609,
+  "end": 1478.85,
+  "speaker": "Unknown",
+  "en": "So it becomes a pretty complex architecture.",
+  "zh": "所以它变成了一个相当复杂的架构。"
+ },
+ {
+  "seg": 298,
+  "start": 1479.79,
+  "end": 1484.153,
+  "speaker": "Unknown",
+  "en": "And inherently, it has become the heterogeneous computing problem, right?",
+  "zh": "而且本质上,它已经成为了一个异构计算问题,对吧?"
+ },
+ {
+  "seg": 299,
+  "start": 1484.633,
+  "end": 1494.3,
+  "speaker": "Unknown",
+  "en": "That's one other thing that developers who are used to LLMs get access to a whole bunch of computers, all, you know, latest Blackwell clusters.",
+  "zh": "这是另一件事:习惯了 LLM 的开发者可以获得一大堆计算机,都是,你知道的,最新的 Blackwell 集群。"
+ },
+ {
+  "seg": 300,
+  "start": 1494.34,
+  "end": 1499.103,
+  "speaker": "Unknown",
+  "en": "They can go and just train the models, test the models, evaluate it, serve it all on that cluster.",
+  "zh": "他们可以在那个集群上直接训练模型、测试模型、评估它、部署服务,全都在那上面完成。"
+ },
+ {
+  "seg": 301,
+  "start": 1499.863,
+  "end": 1502.787,
+  "speaker": "Unknown",
+  "en": "But physical AI requires actually three computers.",
+  "zh": "但物理 AI 实际上需要三台计算机。"
+ },
+ {
+  "seg": 302,
+  "start": 1503.507,
+  "end": 1512.758,
+  "speaker": "Unknown",
+  "en": "You need a computer for training the model, you need a computer where you do simulation either to create data or to do reinforcement learning post-training.",
+  "zh": "你需要一台计算机来训练模型,你需要一台计算机来做仿真——无论是为了创建数据还是做强化学习后训练。"
+ },
+ {
+  "seg": 303,
+  "start": 1513.539,
+  "end": 1515.141,
+  "speaker": "Unknown",
+  "en": "And then last piece of it,",
+  "zh": "然后最后一块是,"
+ },
+ {
+  "seg": 304,
+  "start": 1516.002,
+  "end": 1516.522,
+  "speaker": "Unknown",
+  "en": "Deployment.",
+  "zh": "部署。"
+ },
+ {
+  "seg": 305,
+  "start": 1516.923,
+  "end": 1521.246,
+  "speaker": "Unknown",
+  "en": "You cannot deploy it on the same infrastructure that you train it on.",
+  "zh": "你不能把它部署在你训练它的同一套基础设施上。"
+ },
+ {
+  "seg": 306,
+  "start": 1521.566,
+  "end": 1525.509,
+  "speaker": "Unknown",
+  "en": "You need to deploy it on a small computer that's sitting inside the brain of a robot.",
+  "zh": "你需要把它部署在位于机器人大脑里的一台小计算机上。"
+ },
+ {
+  "seg": 307,
+  "start": 1526.15,
+  "end": 1532.554,
+  "speaker": "Unknown",
+  "en": "So you need to go do some more work on the model quantization, distillation, compression to go deploy it.",
+  "zh": "所以你得对模型做更多的工作——量化、蒸馏、压缩——才能去部署它。"
+ },
+ {
+  "seg": 308,
+  "start": 1532.654,
+  "end": 1540.12,
+  "speaker": "Unknown",
+  "en": "So it requires a very different way to think about the compute hardware that you need if you're building a physical AI model.",
+  "zh": "所以如果你在构建一个物理 AI 模型,这需要一种非常不同的方式来思考你所需要的计算硬件。"
+ },
+ {
+  "seg": 309,
+  "start": 1540.52,
+  "end": 1548.709,
+  "speaker": "Unknown",
+  "en": "I'm joking here, but I'm imagining you being at like a cocktail party talking with a software developer about textual LLMs and going, that's cute.",
+  "zh": "我这里是开玩笑,但我在想象你在鸡尾酒会上和一个软件开发者聊文本 LLM,然后说:那挺可爱的。"
+ },
+ {
+  "seg": 310,
+  "start": 1549.11,
+  "end": 1550.211,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 311,
+  "start": 1550.231,
+  "end": 1550.972,
+  "speaker": "Unknown",
+  "en": "Just kidding.",
+  "zh": "开个玩笑。"
+ },
+ {
+  "seg": 312,
+  "start": 1551.312,
+  "end": 1551.633,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 313,
+  "start": 1551.713,
+  "end": 1557.579,
+  "speaker": "Unknown",
+  "en": "I think, you know, Jim Fan, who leads our research team for physical AI and humanoid robotics.",
+  "zh": "我想,你知道,Jim Fan,他领导我们的物理 AI 和人形机器人研究团队。"
+ },
+ {
+  "seg": 314,
+  "start": 1558.18,
+  "end": 1562.081,
+  "speaker": "Unknown",
+  "en": "He often jokes like, I'm always envious of my friends in the LLM world.",
+  "zh": "他经常开玩笑说:我总是羡慕我在 LLM 世界的朋友们。"
+ },
+ {
+  "seg": 315,
+  "start": 1562.521,
+  "end": 1564.861,
+  "speaker": "Unknown",
+  "en": "Their problem is I don't have more GPUs.",
+  "zh": "他们的问题是:我没有更多 GPU。"
+ },
+ {
+  "seg": 316,
+  "start": 1565.421,
+  "end": 1572.603,
+  "speaker": "Unknown",
+  "en": "And my problem is like, okay, first of all, the data that I got, like half of the sensor data is missing, the synchronization is not there.",
+  "zh": "而我的问题是:好吧,首先,我拿到的数据,传感器数据一半是缺失的,同步也没做好。"
+ },
+ {
+  "seg": 317,
+  "start": 1573.183,
+  "end": 1585.825,
+  "speaker": "Unknown",
+  "en": "And then I'd have to, I get the GPUs, I train it, but next I have to find a simulation environment to go test it, deploy it onto the real robot, the cables are breaking, and you know, so it's a very different world, yeah.",
+  "zh": "然后我还得——我拿到 GPU,训练完了,但接下来我得找一个仿真环境去测试它,部署到真实的机器人上,线缆又断了,你知道,所以这是一个非常不同的世界,是的。"
+ },
+ {
+  "seg": 318,
+  "start": 1586.205,
+  "end": 1587.147,
+  "speaker": "Unknown",
+  "en": "That is something.",
+  "zh": "我是说,是的,光是做那个仿真所需的算力就让人难以置信。"
+ },
+ {
+  "seg": 319,
+  "start": 1587.287,
+  "end": 1589.05,
+  "speaker": "Unknown",
+  "en": "The simulation piece of it.",
+  "zh": "仿真那一部分。"
+ },
+ {
+  "seg": 320,
+  "start": 1589.37,
+  "end": 1593.076,
+  "speaker": "Unknown",
+  "en": "I mean, yeah, the horsepower even just to do that simulation is mind-boggling.",
+  "zh": "我是说,是啊,光是做那个仿真所需的算力就令人难以置信。"
+ },
+ {
+  "seg": 321,
+  "start": 1593.737,
+  "end": 1593.938,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 322,
+  "start": 1595.223,
+  "end": 1603.768,
+  "speaker": "Unknown",
+  "en": "So switching topics a little bit, like when these things are deployed, they need to react to somewhat unpredictable things, right?",
+  "zh": "那么稍微换个话题,当这些东西被部署之后,它们需要对一些某种程度上不可预测的事物做出反应,对吧?"
+ },
+ {
+  "seg": 323,
+  "start": 1603.788,
+  "end": 1605.369,
+  "speaker": "Unknown",
+  "en": "Like they effectively need to learn.",
+  "zh": "比如它们实际上需要学习。"
+ },
+ {
+  "seg": 324,
+  "start": 1606.27,
+  "end": 1611.373,
+  "speaker": "Unknown",
+  "en": "And I read a little bit about imitation learning and watching humans do tasks.",
+  "zh": "我读了一点关于模仿学习以及观察人类执行任务的内容。"
+ },
+ {
+  "seg": 325,
+  "start": 1611.433,
+  "end": 1618.557,
+  "speaker": "Unknown",
+  "en": "And can you say a little bit more about how that happens in the, at least in current research and out in the real world and how that operates?",
+  "zh": "你能多讲一点这是如何在至少当前的研究以及现实世界中发生的,它是如何运作的吗?"
+ },
+ {
+  "seg": 326,
+  "start": 1619.077,
+  "end": 1624.743,
+  "speaker": "Unknown",
+  "en": "Yeah, so two things that's being done right now to make these models more generalizable.",
+  "zh": "是的,现在为了让这些模型更可泛化,正在做两件事。"
+ },
+ {
+  "seg": 327,
+  "start": 1625.403,
+  "end": 1630.128,
+  "speaker": "Unknown",
+  "en": "First is to collect data in diverse environments, right?",
+  "zh": "第一是在多样化的环境中收集数据,对吧?"
+ },
+ {
+  "seg": 328,
+  "start": 1630.208,
+  "end": 1636.474,
+  "speaker": "Unknown",
+  "en": "So this is, if you are supposed to assemble, let's pack a bag of shoes, right?",
+  "zh": "比如说,如果你要组装——比如说装一袋鞋,对吧?"
+ },
+ {
+  "seg": 329,
+  "start": 1637.235,
+  "end": 1640.156,
+  "speaker": "Unknown",
+  "en": "Often the size of the bag, the shoes is going to be different.",
+  "zh": "通常袋子的尺寸、鞋子的尺寸都会不同。"
+ },
+ {
+  "seg": 330,
+  "start": 1640.456,
+  "end": 1642.197,
+  "speaker": "Unknown",
+  "en": "The size of the box is going to be different.",
+  "zh": "盒子的尺寸也会不同。"
+ },
+ {
+  "seg": 331,
+  "start": 1642.857,
+  "end": 1664.445,
+  "speaker": "Unknown",
+  "en": "So one way to do this is you have a lot of people collecting data in different environments, in different factories, bringing the data of doing the tasks in different environments and training the model so that it now has seen enough distribution so that the real world falls somewhere within that distribution.",
+  "zh": "所以其中一种做法是让很多人在不同的环境、不同的工厂里收集数据,把在不同环境中执行任务的数据拿来,然后训练模型,这样它就见过足够多的分布,以至于真实世界会落在那个分布之内的某处。"
+ },
+ {
+  "seg": 332,
+  "start": 1664.985,
+  "end": 1665.185,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 333,
+  "start": 1665.525,
+  "end": 1669.486,
+  "speaker": "Unknown",
+  "en": "So that's why when you see imitation learning, that's what is happening.",
+  "zh": "所以这就是为什么当你看到模仿学习时,那正在发生的就是这个。"
+ },
+ {
+  "seg": 334,
+  "start": 1669.646,
+  "end": 1674.888,
+  "speaker": "Unknown",
+  "en": "We are collecting the data, increasing the distribution in which it's been collected.",
+  "zh": "我们在收集数据,扩大数据被收集的分布范围。"
+ },
+ {
+  "seg": 335,
+  "start": 1675.808,
+  "end": 1683.691,
+  "speaker": "Unknown",
+  "en": "But as it turns out, however much data you collect in the real world, the real world has an infinite distribution.",
+  "zh": "但事实证明,无论你在真实世界收集多少数据,真实世界的分布是无限的。"
+ },
+ {
+  "seg": 336,
+  "start": 1684.071,
+  "end": 1685.011,
+  "speaker": "Unknown",
+  "en": "It's continuous.",
+  "zh": "它是连续的。"
+ },
+ {
+  "seg": 337,
+  "start": 1685.111,
+  "end": 1691.033,
+  "speaker": "Unknown",
+  "en": "So you can collect it in 10 different lights, but there's going to be something that's always going to be out of distribution.",
+  "zh": "你可以在 10 种不同的光照下收集数据,但总会有某种东西始终是超出分布的。"
+ },
+ {
+  "seg": 338,
+  "start": 1691.833,
+  "end": 1702.137,
+  "speaker": "Unknown",
+  "en": "That's where the second part comes in where you need to think about having a reasoning model paired with a model that has seen enough distribution.",
+  "zh": "这就是第二部分发挥作用的地方——你需要考虑让一个推理模型与一个已经见过足够多分布的模型配对。"
+ },
+ {
+  "seg": 339,
+  "start": 1702.157,
+  "end": 1703.478,
+  "speaker": "Unknown",
+  "en": "They go together, right?",
+  "zh": "它们是一起工作的,对吧?"
+ },
+ {
+  "seg": 340,
+  "start": 1703.998,
+  "end": 1716.483,
+  "speaker": "Unknown",
+  "en": "You cannot just have a reasoning model but not have enough real-world data because the reasoning model can tell you this is closest to this particular real-world distribution and then you can go act on that, right?",
+  "zh": "你不能只有一个推理模型却没有足够的真实世界数据,因为推理模型可以告诉你:这最接近于这个特定的真实世界分布,然后你就可以据此去行动,对吧?"
+ },
+ {
+  "seg": 341,
+  "start": 1716.983,
+  "end": 1720.045,
+  "speaker": "Unknown",
+  "en": "So the reasoning model is learning from data in the wild.",
+  "zh": "所以推理模型是从野外数据中学习的。"
+ },
+ {
+  "seg": 342,
+  "start": 1720.586,
+  "end": 1723.168,
+  "speaker": "Unknown",
+  "en": "It's using all the text data that's available.",
+  "zh": "它在利用所有可用的文本数据。"
+ },
+ {
+  "seg": 343,
+  "start": 1723.388,
+  "end": 1728.512,
+  "speaker": "Unknown",
+  "en": "It's using the video data that's collected across different domains, right?",
+  "zh": "它在利用跨不同领域收集的视频数据,对吧?"
+ },
+ {
+  "seg": 344,
+  "start": 1729.012,
+  "end": 1729.993,
+  "speaker": "Unknown",
+  "en": "And learning from that.",
+  "zh": "并从中学习。"
+ },
+ {
+  "seg": 345,
+  "start": 1730.573,
+  "end": 1740.081,
+  "speaker": "Unknown",
+  "en": "So combining this pre-training with data in the wild, textual video data, along with a real data, action data, which is",
+  "zh": "所以把这种基于野外数据的预训练——文本、视频数据——与真实数据、动作数据结合起来,也就是"
+ },
+ {
+  "seg": 346,
+  "start": 1740.781,
+  "end": 1743.583,
+  "speaker": "Unknown",
+  "en": "People doing the task, robots doing the task.",
+  "zh": "人执行任务、机器人执行任务的数据。"
+ },
+ {
+  "seg": 347,
+  "start": 1744.263,
+  "end": 1754.649,
+  "speaker": "Unknown",
+  "en": "Combining these two, the world models are now trying to solve this problem of how do I know enough that I'm physically capable of doing the task?",
+  "zh": "把这两者结合起来,世界模型现在正试图解决这个问题:我如何才能充分掌握,使我在物理上能够执行这个任务?"
+ },
+ {
+  "seg": 348,
+  "start": 1754.669,
+  "end": 1756.61,
+  "speaker": "Unknown",
+  "en": "I know how to pick up an object.",
+  "zh": "我知道如何拿起一个物体。"
+ },
+ {
+  "seg": 349,
+  "start": 1756.63,
+  "end": 1758.431,
+  "speaker": "Unknown",
+  "en": "I know how to slide something.",
+  "zh": "我知道如何滑动某个东西。"
+ },
+ {
+  "seg": 350,
+  "start": 1758.451,
+  "end": 1761.693,
+  "speaker": "Unknown",
+  "en": "I know how to bend over and perform a particular task.",
+  "zh": "我知道如何弯腰去执行某项特定任务。"
+ },
+ {
+  "seg": 351,
+  "start": 1762.433,
+  "end": 1766.554,
+  "speaker": "Unknown",
+  "en": "And how do I do it in different environment in a different context, right?",
+  "zh": "而我如何在不同的环境、不同的情境下做到这一点，对吧？"
+ },
+ {
+  "seg": 352,
+  "start": 1766.574,
+  "end": 1768.855,
+  "speaker": "Unknown",
+  "en": "So both of these things are being trained together.",
+  "zh": "所以这两件事是放在一起训练的。"
+ },
+ {
+  "seg": 353,
+  "start": 1769.415,
+  "end": 1776.576,
+  "speaker": "Unknown",
+  "en": "The first one, how do I do a certain particular task is being done combination of either imitation learning and reinforcement learning.",
+  "zh": "第一件事，我如何执行某项特定任务，是通过模仿学习和强化学习的某种组合来完成的。"
+ },
+ {
+  "seg": 354,
+  "start": 1777.217,
+  "end": 1780.077,
+  "speaker": "Unknown",
+  "en": "And then how do I do this in any environment?",
+  "zh": "然后是如何在任何环境中做到这一点？"
+ },
+ {
+  "seg": 355,
+  "start": 1780.577,
+  "end": 1782.738,
+  "speaker": "Unknown",
+  "en": "This is where the data in the wild is playing a role.",
+  "zh": "这就是野外数据发挥作用的地方。"
+ },
+ {
+  "seg": 356,
+  "start": 1783.278,
+  "end": 1788.039,
+  "speaker": "Unknown",
+  "en": "Okay, so the reasoning models, are these very task specific?",
+  "zh": "好的，那么这些推理模型，它们是非常特定于任务的吗？"
+ },
+ {
+  "seg": 357,
+  "start": 1788.239,
+  "end": 1791.42,
+  "speaker": "Unknown",
+  "en": "The reasoning model, this is where the generalization is coming from, right?",
+  "zh": "推理模型，这正是泛化能力的来源，对吧？"
+ },
+ {
+  "seg": 358,
+  "start": 1791.44,
+  "end": 1795.342,
+  "speaker": "Unknown",
+  "en": "So you're trying to collect diversity of information.",
+  "zh": "所以你要尽量收集多样化的信息。"
+ },
+ {
+  "seg": 359,
+  "start": 1795.922,
+  "end": 1806.885,
+  "speaker": "Unknown",
+  "en": "Your robot might be designed to work in a factory, but you're putting in all the data from homes, from outdoors, from indoors, because that's when you build a reasoning capability.",
+  "zh": "你的机器人可能被设计为在工厂里工作，但你要把来自家庭、户外、室内的所有数据都放进去，因为只有这样你才能构建出推理能力。"
+ },
+ {
+  "seg": 360,
+  "start": 1807.465,
+  "end": 1810.366,
+  "speaker": "Unknown",
+  "en": "That can generalize and you can draw parallels from it.",
+  "zh": "这种能力可以泛化，你可以从中类推出很多东西。"
+ },
+ {
+  "seg": 361,
+  "start": 1810.406,
+  "end": 1810.566,
+  "speaker": "Unknown",
+  "en": "I see.",
+  "zh": "我明白了。"
+ },
+ {
+  "seg": 362,
+  "start": 1810.786,
+  "end": 1811.086,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 363,
+  "start": 1811.187,
+  "end": 1817.829,
+  "speaker": "Unknown",
+  "en": "That makes sense to me that you need to give it tons of different inputs to be able to react to different things.",
+  "zh": "这说得通，你需要给它大量不同的输入，它才能对不同的东西做出反应。"
+ },
+ {
+  "seg": 364,
+  "start": 1818.229,
+  "end": 1818.91,
+  "speaker": "Unknown",
+  "en": "So, okay.",
+  "zh": "所以，好的。"
+ },
+ {
+  "seg": 365,
+  "start": 1819.07,
+  "end": 1819.27,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 366,
+  "start": 1819.49,
+  "end": 1824.852,
+  "speaker": "Unknown",
+  "en": "Because if you were just looking at factory, you would probably not see a cat or cow come in and...",
+  "zh": "因为如果你只看工厂，你可能不会看到一只猫或牛走进来，然后……"
+ },
+ {
+  "seg": 367,
+  "start": 1825.432,
+  "end": 1829.694,
+  "speaker": "Unknown",
+  "en": "So, you know, when you're doing the reasoning model, you expose it to all elements.",
+  "zh": "所以，你知道，当你做推理模型时，你要让它接触到所有元素。"
+ },
+ {
+  "seg": 368,
+  "start": 1830.294,
+  "end": 1831.995,
+  "speaker": "Unknown",
+  "en": "This is a little random digression.",
+  "zh": "这里有点随机的题外话。"
+ },
+ {
+  "seg": 369,
+  "start": 1832.015,
+  "end": 1836.876,
+  "speaker": "Unknown",
+  "en": "I was on Reddit the other day and somebody posted, I live near Boston, so it was on the Boston subreddit.",
+  "zh": "我前几天在 Reddit 上，有人发帖，我住在波士顿附近，所以那是波士顿的子版块。"
+ },
+ {
+  "seg": 370,
+  "start": 1836.956,
+  "end": 1840.358,
+  "speaker": "Unknown",
+  "en": "Somebody posted a picture of this guy with his wacky looking backpack on.",
+  "zh": "有人发了一张图片，是关于一个背着很古怪背包的家伙。"
+ },
+ {
+  "seg": 371,
+  "start": 1840.758,
+  "end": 1846.2,
+  "speaker": "Unknown",
+  "en": "It was like a crazy backpack and people were making jokes like, oh, he's the rocketeer or whatever.",
+  "zh": "那背包特别夸张，人们开玩笑说，哦，他是火箭人什么的。"
+ },
+ {
+  "seg": 372,
+  "start": 1847.063,
+  "end": 1851.169,
+  "speaker": "Unknown",
+  "en": "And somebody was like, no, I think that they're gathering world data for AI models.",
+  "zh": "然后有人说，不，我觉得他们是在为 AI 模型收集世界数据。"
+ },
+ {
+  "seg": 373,
+  "start": 1851.409,
+  "end": 1855.234,
+  "speaker": "Unknown",
+  "en": "I see you nodding your head that that's probably what that guy was doing.",
+  "zh": "我看到你在点头，那家伙做的很可能就是这件事。"
+ },
+ {
+  "seg": 374,
+  "start": 1855.595,
+  "end": 1855.835,
+  "speaker": "Unknown",
+  "en": "So.",
+  "zh": "所以。"
+ },
+ {
+  "seg": 375,
+  "start": 1856.536,
+  "end": 1856.857,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 376,
+  "start": 1857.097,
+  "end": 1860.982,
+  "speaker": "Unknown",
+  "en": "One of the things that is happening is simulation is important.",
+  "zh": "目前正在发生的事情之一是，仿真非常重要。"
+ },
+ {
+  "seg": 377,
+  "start": 1862.169,
+  "end": 1868.156,
+  "speaker": "Unknown",
+  "en": "As I said, for physical AI, because that's where you can safely test your models.",
+  "zh": "正如我所说，对于物理 AI 而言，因为那是你可以安全测试模型的地方。"
+ },
+ {
+  "seg": 378,
+  "start": 1868.657,
+  "end": 1873.383,
+  "speaker": "Unknown",
+  "en": "That is where you can do reinforcement learning faster than real-time speeds.",
+  "zh": "在那里你可以以快于实时的速度进行强化学习。"
+ },
+ {
+  "seg": 379,
+  "start": 1874.324,
+  "end": 1880.672,
+  "speaker": "Unknown",
+  "en": "But the challenge with simulation models is the cost of creating that simulated world is quite high.",
+  "zh": "但仿真模型的挑战在于，创建那个仿真世界的成本相当高。"
+ },
+ {
+  "seg": 380,
+  "start": 1881.152,
+  "end": 1887.82,
+  "speaker": "Unknown",
+  "en": "So what you would probably likely saw was somebody, you know, carrying a backpack with some cameras and LIDARs.",
+  "zh": "所以你看到的很可能是某个人，背着装有一些摄像头和激光雷达的背包。"
+ },
+ {
+  "seg": 381,
+  "start": 1888.701,
+  "end": 1899.492,
+  "speaker": "Unknown",
+  "en": "And what they are doing is capturing the real world and passing it into a model that can create a 3D representation of that world, what we like to call real-to-sim.",
+  "zh": "他们所做的是捕捉真实世界，并将其输入到一个能够创建该世界三维表示的模型中，我们喜欢称之为 real-to-sim（真实到仿真）。"
+ },
+ {
+  "seg": 382,
+  "start": 1900.774,
+  "end": 1906.398,
+  "speaker": "Unknown",
+  "en": "You take the real data, run it through a model, and it creates a simulated version of it.",
+  "zh": "你拿真实数据，用一个模型来处理，它就会创建一个仿真的版本。"
+ },
+ {
+  "seg": 383,
+  "start": 1906.958,
+  "end": 1913.964,
+  "speaker": "Unknown",
+  "en": "Now once you have the simulated version of it, you can drive in that simulated version and test how your car is going to behave.",
+  "zh": "一旦你有了仿真版本，你就可以在那个仿真版本中行驶，测试你的车会怎么表现。"
+ },
+ {
+  "seg": 384,
+  "start": 1917.286,
+  "end": 1920.088,
+  "speaker": "Unknown",
+  "en": "You can use that and do augmentations, right?",
+  "zh": "你可以用它来做数据增强，对吧？"
+ },
+ {
+  "seg": 385,
+  "start": 1920.168,
+  "end": 1921.728,
+  "speaker": "Unknown",
+  "en": "What if this building's colors were different?",
+  "zh": "如果这栋楼的颜色不一样会怎样？"
+ },
+ {
+  "seg": 386,
+  "start": 1921.768,
+  "end": 1923.069,
+  "speaker": "Unknown",
+  "en": "What if the lighting was different?",
+  "zh": "如果光照不一样会怎样？"
+ },
+ {
+  "seg": 387,
+  "start": 1923.169,
+  "end": 1924.81,
+  "speaker": "Unknown",
+  "en": "What if the road was narrower?",
+  "zh": "如果道路更窄会怎样？"
+ },
+ {
+  "seg": 388,
+  "start": 1925.33,
+  "end": 1927.992,
+  "speaker": "Unknown",
+  "en": "So you are closer to the actual distribution.",
+  "zh": "这样你就更接近真实的分布。"
+ },
+ {
+  "seg": 389,
+  "start": 1928.652,
+  "end": 1931.253,
+  "speaker": "Unknown",
+  "en": "And this data is often used for post-training.",
+  "zh": "而这些数据通常用于后训练。"
+ },
+ {
+  "seg": 390,
+  "start": 1931.554,
+  "end": 1937.637,
+  "speaker": "Unknown",
+  "en": "This is where I want my car to operate really well in this particular block.",
+  "zh": "这就是我希望我的车在这个特定街区表现特别好的情况。"
+ },
+ {
+  "seg": 391,
+  "start": 1938.197,
+  "end": 1938.397,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 392,
+  "start": 1938.437,
+  "end": 1942.639,
+  "speaker": "Unknown",
+  "en": "I'm going to collect the data and let my general model post train in this world.",
+  "zh": "我要收集数据，让我的通用模型在这个世界里进行后训练。"
+ },
+ {
+  "seg": 393,
+  "start": 1943.259,
+  "end": 1945.34,
+  "speaker": "Unknown",
+  "en": "Now it becomes really good at that environment.",
+  "zh": "现在它就变得非常擅长那个环境了。"
+ },
+ {
+  "seg": 394,
+  "start": 1945.8,
+  "end": 1946.781,
+  "speaker": "Unknown",
+  "en": "That's really interesting.",
+  "zh": "这真的很有意思。"
+ },
+ {
+  "seg": 395,
+  "start": 1946.921,
+  "end": 1949.342,
+  "speaker": "Unknown",
+  "en": "That's actually the opposite of what I might've thought.",
+  "zh": "这其实和我原本想的相反。"
+ },
+ {
+  "seg": 396,
+  "start": 1949.462,
+  "end": 1951.042,
+  "speaker": "Unknown",
+  "en": "So thank you for clarifying.",
+  "zh": "所以谢谢你澄清。"
+ },
+ {
+  "seg": 397,
+  "start": 1951.863,
+  "end": 1952.083,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 398,
+  "start": 1953.263,
+  "end": 1958.847,
+  "speaker": "Unknown",
+  "en": "One thing that just came to mind here is, you know, like hallucinations in text models or, you know, you just kind of chuckle at them.",
+  "zh": "这里有一件事刚刚浮现在我脑海里，你知道，比如文本模型里的幻觉，或者，你知道，你只会对它们一笑了之。"
+ },
+ {
+  "seg": 399,
+  "start": 1959.287,
+  "end": 1963.129,
+  "speaker": "Unknown",
+  "en": "But hallucinations in a physical space sound a little scary.",
+  "zh": "但物理空间里的幻觉听起来就有点吓人了。"
+ },
+ {
+  "seg": 400,
+  "start": 1963.61,
+  "end": 1967.032,
+  "speaker": "Unknown",
+  "en": "I would imagine that there's better guardrails for things like that.",
+  "zh": "我可以想象，对于这类事情应该有更好的护栏。"
+ },
+ {
+  "seg": 401,
+  "start": 1967.052,
+  "end": 1970.534,
+  "speaker": "Unknown",
+  "en": "And I'm curious how, you know, you handle that in the physical AI space.",
+  "zh": "我很好奇你们在物理 AI 领域是如何处理这个问题的。"
+ },
+ {
+  "seg": 402,
+  "start": 1971.194,
+  "end": 1975.637,
+  "speaker": "Unknown",
+  "en": "So one of the things that is important for physical AI is...",
+  "zh": "那么，对物理 AI 来说很重要的一点是……"
+ },
+ {
+  "seg": 403,
+  "start": 1976.963,
+  "end": 1984.29,
+  "speaker": "Unknown",
+  "en": "As you mentioned that if you're out of distribution, if you're hallucinating, the impact is pretty significant.",
+  "zh": "正如你所提到的，如果你处于分布之外，如果你在产生幻觉，影响是相当重大的。"
+ },
+ {
+  "seg": 404,
+  "start": 1984.71,
+  "end": 1986.672,
+  "speaker": "Unknown",
+  "en": "So you have to do two things for that.",
+  "zh": "所以你必须为此做两件事。"
+ },
+ {
+  "seg": 405,
+  "start": 1987.193,
+  "end": 1992.558,
+  "speaker": "Unknown",
+  "en": "Either you can make your model really conservative and says, okay, this is out of distribution.",
+  "zh": "要么你可以让你的模型非常保守，它会判断：好吧，这超出了分布范围。"
+ },
+ {
+  "seg": 406,
+  "start": 1992.598,
+  "end": 1998.484,
+  "speaker": "Unknown",
+  "en": "I see something that I've not seen before, or, you know, this is not part of my learning curriculum.",
+  "zh": "我看到了一些我以前从未见过的东西，或者，你知道，这不在我的学习课程之内。"
+ },
+ {
+  "seg": 407,
+  "start": 1998.544,
+  "end": 1999.745,
+  "speaker": "Unknown",
+  "en": "I'm not going to act on it.",
+  "zh": "我不会对它采取行动。"
+ },
+ {
+  "seg": 408,
+  "start": 2000.605,
+  "end": 2006.149,
+  "speaker": "Unknown",
+  "en": "The other thing you can do is, well, I'm going to act on it.",
+  "zh": "另一件你可以做的事是：好吧，我要对它采取行动。"
+ },
+ {
+  "seg": 409,
+  "start": 2006.509,
+  "end": 2017.316,
+  "speaker": "Unknown",
+  "en": "And in fact, the way I'm going to make sure that I know how to handle these out-of-distribution scenarios is I'm going to actually give those and simulate in that environment.",
+  "zh": "而且事实上，我要确保自己知道如何处理这些分布外场景的方式是，我要实际提供这些场景并在那个环境中进行模拟。"
+ },
+ {
+  "seg": 410,
+  "start": 2018.677,
+  "end": 2029.426,
+  "speaker": "Unknown",
+  "en": "I'm going to evaluate my policies or my models in a lot of different environments, which some of them may not even be real, and then score them on their performance.",
+  "zh": "我要在很多不同的环境中评估我的策略或我的模型，其中一些环境甚至可能不是真实的，然后对它们的表现进行打分。"
+ },
+ {
+  "seg": 411,
+  "start": 2029.606,
+  "end": 2037.933,
+  "speaker": "Unknown",
+  "en": "So one of the ways to make sure that your robot policies are not hallucinating or if they are out of distribution, they're still safe.",
+  "zh": "所以，确保你的机器人策略不产生幻觉、或者即使它们处于分布之外时仍然是安全的方法之一，"
+ },
+ {
+  "seg": 412,
+  "start": 2038.674,
+  "end": 2044.661,
+  "speaker": "Unknown",
+  "en": "is to expose them to those adverse environments in simulation and see how they perform.",
+  "zh": "是让它们在模拟中暴露于那些恶劣环境，并观察它们的表现。"
+ },
+ {
+  "seg": 413,
+  "start": 2045.282,
+  "end": 2052.59,
+  "speaker": "Unknown",
+  "en": "That's one of the ways to kind of make sure your policies and the models that you're training are within the guardrail.",
+  "zh": "这是确保你的策略和你正在训练的模型处于护栏之内的一种方式。"
+ },
+ {
+  "seg": 414,
+  "start": 2053.131,
+  "end": 2057.837,
+  "speaker": "Unknown",
+  "en": "The second thing also is, you remember we talked about a planning brain and an action brain?",
+  "zh": "第二件事也是，你还记得我们谈过规划大脑和行动大脑吗？"
+ },
+ {
+  "seg": 415,
+  "start": 2059.038,
+  "end": 2069.065,
+  "speaker": "Unknown",
+  "en": "The planning brain is sort of like a VLM or an LLM where you can do the guardrails into that so that it does not plan something that is not acceptable.",
+  "zh": "规划大脑有点像一个 VLM 或 LLM,你可以在其中加入护栏，这样它就不会规划出不可接受的东西。"
+ },
+ {
+  "seg": 416,
+  "start": 2069.646,
+  "end": 2075.39,
+  "speaker": "Unknown",
+  "en": "If it does not plan, then the action head is operating on the plans that are coming out of it.",
+  "zh": "如果它没有规划，那么动作头就是在它输出的计划之上运行的。"
+ },
+ {
+  "seg": 417,
+  "start": 2075.93,
+  "end": 2078.331,
+  "speaker": "Unknown",
+  "en": "How do you put the guardrails around your planning?",
+  "zh": "你如何为你的规划设置护栏？"
+ },
+ {
+  "seg": 418,
+  "start": 2078.391,
+  "end": 2087.735,
+  "speaker": "Unknown",
+  "en": "It's very similar to how do you put guardrails around an LLM to not give you an answer or information that is not suitable, right?",
+  "zh": "这与你如何为 LLM 设置护栏、使其不给出不合适的答案或信息是非常相似的，对吧？"
+ },
+ {
+  "seg": 419,
+  "start": 2087.755,
+  "end": 2091.177,
+  "speaker": "Unknown",
+  "en": "So you can strain things at the planning stage.",
+  "zh": "所以你可以在规划阶段进行约束。"
+ },
+ {
+  "seg": 420,
+  "start": 2092.117,
+  "end": 2096,
+  "speaker": "Unknown",
+  "en": "On the action stage, again, you know, it is mostly learning in domain.",
+  "zh": "在动作阶段，再说一次，你知道，它主要是域内学习。"
+ },
+ {
+  "seg": 421,
+  "start": 2096.601,
+  "end": 2098.723,
+  "speaker": "Unknown",
+  "en": "You can go to simulation and test it.",
+  "zh": "你可以去模拟中测试它。"
+ },
+ {
+  "seg": 422,
+  "start": 2099.643,
+  "end": 2113.135,
+  "speaker": "Unknown",
+  "en": "And the third thing that we are also thinking about is when it comes to safety and actions is you have to have some level of redundancy, some level of external element that is observing and verifying.",
+  "zh": "我们也在考虑的第三件事是，在安全和动作方面，你必须有一定程度的冗余，一定程度的、正在观察和验证的外部元素。"
+ },
+ {
+  "seg": 423,
+  "start": 2113.415,
+  "end": 2117.358,
+  "speaker": "Unknown",
+  "en": "So, because that kind of separates the concerns, right?",
+  "zh": "因为这样就把关注点分离了，对吧？"
+ },
+ {
+  "seg": 424,
+  "start": 2117.418,
+  "end": 2119.039,
+  "speaker": "Unknown",
+  "en": "The person that is acting",
+  "zh": "正在行动的那一方"
+ },
+ {
+  "seg": 425,
+  "start": 2119.78,
+  "end": 2133.45,
+  "speaker": "Unknown",
+  "en": "And the person that is monitoring, if there's another AI that can observe what is happening and then have a way to control the robot or the car, that's another way to manage safety.",
+  "zh": "和正在监控的那一方，如果有另一个 AI 能够观察正在发生的事情，然后有能力控制机器人或汽车，那是管理安全的另一种方式。"
+ },
+ {
+  "seg": 426,
+  "start": 2134.09,
+  "end": 2143.317,
+  "speaker": "Unknown",
+  "en": "So I think it's a combination of all of these things that are coming together to make sure that as we are building these models, as they go into the real world,",
+  "zh": "所以我认为这是所有这些事情的组合共同起作用，以确保当我们构建这些模型、当它们进入真实世界时，"
+ },
+ {
+  "seg": 427,
+  "start": 2144.077,
+  "end": 2150.759,
+  "speaker": "Unknown",
+  "en": "We can make sure that, you know, we're not being extremely conservative and not being able to do half of the tasks.",
+  "zh": "我们能够确保，你知道，我们不会过于保守，以至于连一半的任务都完不成。"
+ },
+ {
+  "seg": 428,
+  "start": 2151.68,
+  "end": 2152.92,
+  "speaker": "Unknown",
+  "en": "We don't want that, right?",
+  "zh": "我们不想要那样，对吧？"
+ },
+ {
+  "seg": 429,
+  "start": 2153.04,
+  "end": 2155.041,
+  "speaker": "Unknown",
+  "en": "But we want them to be able to do that safely.",
+  "zh": "但我们想要它们能够安全地完成任务。"
+ },
+ {
+  "seg": 430,
+  "start": 2155.121,
+  "end": 2164.004,
+  "speaker": "Unknown",
+  "en": "So we are bringing this outside-in element of safety where you're monitoring, you're looking at it and making a decision.",
+  "zh": "所以我们引入这种由外而内的安全元素，即你在监控，你在观察它并做出决策。"
+ },
+ {
+  "seg": 431,
+  "start": 2164.044,
+  "end": 2171.447,
+  "speaker": "Unknown",
+  "en": "You make sure that your reasoning brain, planning brain has the guardrails and then extensively test in simulation.",
+  "zh": "你要确保你的推理大脑、规划大脑有护栏，然后在模拟中进行大量测试。"
+ },
+ {
+  "seg": 432,
+  "start": 2171.687,
+  "end": 2173.048,
+  "speaker": "Unknown",
+  "en": "That's one thing I wanted to dig in.",
+  "zh": "这是我想深入挖掘的一点。"
+ },
+ {
+  "seg": 433,
+  "start": 2173.209,
+  "end": 2183.499,
+  "speaker": "Unknown",
+  "en": "When you say it evaluates those plans, it makes sense in training that it does that, but I want to clarify, is it also doing this in the real world too?",
+  "zh": "你说它评估那些计划，这在训练中说得通，但我想澄清一下，它在真实世界中也会这样做吗？"
+ },
+ {
+  "seg": 434,
+  "start": 2183.599,
+  "end": 2191.767,
+  "speaker": "Unknown",
+  "en": "If it is unsure about its action, is it actually going to run simulations in real time to evaluate which one may be the best?",
+  "zh": "如果它对自己的动作不确定，它是否真的会在实时运行模拟来评估哪一个可能是最好的？"
+ },
+ {
+  "seg": 435,
+  "start": 2192.247,
+  "end": 2198.828,
+  "speaker": "Unknown",
+  "en": "That's the biggest value of the world models is, you know, they can do counterfactuals.",
+  "zh": "这就是世界模型最大的价值所在，你知道，它们可以做反事实推演。"
+ },
+ {
+  "seg": 436,
+  "start": 2199.468,
+  "end": 2208.23,
+  "speaker": "Unknown",
+  "en": "They can simulate, if you look at the work that we published recently with our self-driving car team called Alpamayo, it's a reasoning model.",
+  "zh": "它们可以模拟，如果你看看我们最近与我们的自动驾驶汽车团队发布的名为 Alpamayo 的工作，它是一个推理模型。"
+ },
+ {
+  "seg": 437,
+  "start": 2208.81,
+  "end": 2217.172,
+  "speaker": "Unknown",
+  "en": "And within that, it can reason, it can predict 10 different futures and choose one of them, right?",
+  "zh": "在其中，它可以推理，它可以预测 10 种不同的未来并选择其中之一，对吧？"
+ },
+ {
+  "seg": 438,
+  "start": 2217.272,
+  "end": 2218.452,
+  "speaker": "Unknown",
+  "en": "Because it is a world model.",
+  "zh": "因为它是一个世界模型。"
+ },
+ {
+  "seg": 439,
+  "start": 2219.483,
+  "end": 2221.886,
+  "speaker": "Unknown",
+  "en": "It is not limited to only the right thing.",
+  "zh": "它不局限于只有唯一正确的做法。"
+ },
+ {
+  "seg": 440,
+  "start": 2221.986,
+  "end": 2225.971,
+  "speaker": "Unknown",
+  "en": "It's not just imitation learning on, you know, this is the right way to do it.",
+  "zh": "它不只是模仿学习，即，你知道，这是正确的做法。"
+ },
+ {
+  "seg": 441,
+  "start": 2226.552,
+  "end": 2228.935,
+  "speaker": "Unknown",
+  "en": "It can explore 10 different directions.",
+  "zh": "它可以探索 10 个不同的方向。"
+ },
+ {
+  "seg": 442,
+  "start": 2230.328,
+  "end": 2237.11,
+  "speaker": "Unknown",
+  "en": "10 different outcomes, score them, and act on just the safest and the one that gets you the most to your objective function.",
+  "zh": "10 种不同的结果，给它们打分，然后只对最安全的、最能使你达成目标函数的那个采取行动。"
+ },
+ {
+  "seg": 443,
+  "start": 2237.89,
+  "end": 2240.911,
+  "speaker": "Unknown",
+  "en": "So that's the beauty of the world models.",
+  "zh": "所以这就是世界模型的美妙之处。"
+ },
+ {
+  "seg": 444,
+  "start": 2241.451,
+  "end": 2243.151,
+  "speaker": "Unknown",
+  "en": "It is doing that at evaluation time.",
+  "zh": "它是在评估时做这件事的。"
+ },
+ {
+  "seg": 445,
+  "start": 2244.712,
+  "end": 2247.612,
+  "speaker": "Unknown",
+  "en": "And it's important to have these models open for that reason as well.",
+  "zh": "出于这个原因，让这些模型保持开放也很重要。"
+ },
+ {
+  "seg": 446,
+  "start": 2249.713,
+  "end": 2256.176,
+  "speaker": "Unknown",
+  "en": "What is acceptable in one part of the world versus what's acceptable in another part of the world?",
+  "zh": "在世界的一个地方什么是可接受的，与在世界的另一个地方什么是可接受的？"
+ },
+ {
+  "seg": 447,
+  "start": 2256.436,
+  "end": 2258.117,
+  "speaker": "Unknown",
+  "en": "Thinking about driving rules, right?",
+  "zh": "想想驾驶规则，对吧？"
+ },
+ {
+  "seg": 448,
+  "start": 2258.137,
+  "end": 2266.08,
+  "speaker": "Unknown",
+  "en": "What is an acceptable driving behavior in Boston is likely different from the acceptable driving behavior in the Bay Area.",
+  "zh": "在波士顿可接受的驾驶行为很可能与湾区可接受的驾驶行为不同。"
+ },
+ {
+  "seg": 449,
+  "start": 2266.22,
+  "end": 2268.681,
+  "speaker": "Unknown",
+  "en": "And if you go to a different country, of course, it changes.",
+  "zh": "如果你去另一个国家，它当然会改变。"
+ },
+ {
+  "seg": 450,
+  "start": 2268.741,
+  "end": 2277.765,
+  "speaker": "Unknown",
+  "en": "So taking these word models that can predict all of the different counterfactual scenarios and then post-training them to choose what is acceptable",
+  "zh": "所以，把这些能够预测所有不同反事实场景的世界模型拿来做后训练，让它们选择什么是可接受的"
+ },
+ {
+  "seg": 451,
+  "start": 2278.365,
+  "end": 2278.985,
+  "speaker": "Unknown",
+  "en": "It's important.",
+  "zh": "这很重要。"
+ },
+ {
+  "seg": 452,
+  "start": 2279.345,
+  "end": 2289.929,
+  "speaker": "Unknown",
+  "en": "When I heard you talk about the security, I can't help but think like this is security in layers, security in the planning stage, security in the execution stage, evaluating options.",
+  "zh": "当我听你谈到安全性时，我不禁觉得这是分层的安全，规划阶段的安全，执行阶段的安全，评估选项的安全。"
+ },
+ {
+  "seg": 453,
+  "start": 2290.17,
+  "end": 2292.03,
+  "speaker": "Unknown",
+  "en": "So that's really good.",
+  "zh": "所以这真的很好。"
+ },
+ {
+  "seg": 454,
+  "start": 2292.05,
+  "end": 2295.231,
+  "speaker": "Unknown",
+  "en": "And that is not something that, well, I don't know.",
+  "zh": "而这不是一件……嗯，我不知道。"
+ },
+ {
+  "seg": 455,
+  "start": 2295.432,
+  "end": 2299.413,
+  "speaker": "Unknown",
+  "en": "I was about to say that's not something you hear too much about in the LLMs, but that's probably not true.",
+  "zh": "所以在这种情况下，我认为开放和可访问实际上给了我们更多的工具，让每个人都能构建可以监控它们的系统。"
+ },
+ {
+  "seg": 456,
+  "start": 2299.453,
+  "end": 2301.094,
+  "speaker": "Unknown",
+  "en": "We're starting to do things like that as well.",
+  "zh": "我们也开始做类似的事情了。"
+ },
+ {
+  "seg": 457,
+  "start": 2301.494,
+  "end": 2301.874,
+  "speaker": "Unknown",
+  "en": "That's right.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 458,
+  "start": 2302.254,
+  "end": 2315.876,
+  "speaker": "Unknown",
+  "en": "So you mentioned the open models, which is really exciting and also a little bit scary because one of the things where my catastrophizing brain goes is like, what happens if this tech gets into the wrong hands, right?",
+  "zh": "所以你提到了开放模型，这既令人兴奋也有点可怕，因为我那灾难化思维的大脑会想，如果这项技术落入坏人之手会怎样，对吧？"
+ },
+ {
+  "seg": 459,
+  "start": 2317.15,
+  "end": 2318.812,
+  "speaker": "Unknown",
+  "en": "And I know you're not a soothsayer.",
+  "zh": "我知道你不是预言家。"
+ },
+ {
+  "seg": 460,
+  "start": 2318.932,
+  "end": 2332.648,
+  "speaker": "Unknown",
+  "en": "We all, at least our listeners have the best of intentions, but is there anything being done in the research community to help get ahead of this in terms of ethics, legalities, and just human safety in general?",
+  "zh": "我们所有人，至少我们的听众都是心怀善意的，但在伦理、法律以及总体的人类安全方面，研究界有没有在做什么来提前应对这个问题？"
+ },
+ {
+  "seg": 461,
+  "start": 2333.048,
+  "end": 2333.449,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 462,
+  "start": 2333.489,
+  "end": 2337.193,
+  "speaker": "Unknown",
+  "en": "I think fundamentally to think about it, if these models are open,",
+  "zh": "我认为从根本上来说，如果这些模型是开放的，"
+ },
+ {
+  "seg": 463,
+  "start": 2338.79,
+  "end": 2349.746,
+  "speaker": "Unknown",
+  "en": "As long as we have more people who have access to them with the right intention, they will outnumber the people who will have access to this with a bad intention.",
+  "zh": "只要更多能接触到它们的人怀着正确的意图，他们在数量上就会超过怀着不良意图接触到这项技术的人。"
+ },
+ {
+  "seg": 464,
+  "start": 2350.487,
+  "end": 2352.029,
+  "speaker": "Unknown",
+  "en": "Hopefully that's the world we live in.",
+  "zh": "希望我们生活在这样一个世界里。"
+ },
+ {
+  "seg": 465,
+  "start": 2353.671,
+  "end": 2364.997,
+  "speaker": "Unknown",
+  "en": "So in that case, I think being open and accessible actually gives us more tools for everybody to build systems that can monitor them.",
+  "zh": "所以在这种情况下，我认为保持开放和可访问，实际上给了我们更多的工具，让每个人都能构建可以监控它们的系统。"
+ },
+ {
+  "seg": 466,
+  "start": 2365.117,
+  "end": 2369.9,
+  "speaker": "Unknown",
+  "en": "As I said, the thing with safety is you have to assume that, what if it happens?",
+  "zh": "正如我所说，安全这件事，你必须假设，如果它发生了怎么办？"
+ },
+ {
+  "seg": 467,
+  "start": 2370.08,
+  "end": 2371.361,
+  "speaker": "Unknown",
+  "en": "How am I going to counteract?",
+  "zh": "我该如何应对？"
+ },
+ {
+  "seg": 468,
+  "start": 2372.261,
+  "end": 2384.068,
+  "speaker": "Unknown",
+  "en": "We saw recent what happened in a couple of weeks ago, you know, with the agent getting, attacking the hugging face, and they were able to use an open model to actually go and triage that and, you know, fix it, right?",
+  "zh": "我们看到几周前发生的事情，你知道的，智能体攻击了 hugging face，而他们能够用一个开放模型去实际做分类排查并修复它，对吧？"
+ },
+ {
+  "seg": 469,
+  "start": 2384.668,
+  "end": 2392.133,
+  "speaker": "Unknown",
+  "en": "So I think that's why we believe that keeping, having a pretty strong, open ecosystem",
+  "zh": "所以我认为这就是为什么我们相信，保持一个相当强大的开放生态"
+ },
+ {
+  "seg": 470,
+  "start": 2393.213,
+  "end": 2397.855,
+  "speaker": "Unknown",
+  "en": "is vital to make sure that there are checks and balances.",
+  "zh": "对于确保存在制衡机制至关重要。"
+ },
+ {
+  "seg": 471,
+  "start": 2398.495,
+  "end": 2407.879,
+  "speaker": "Unknown",
+  "en": "It's vital for people to, you know, create models that are better aligned to their philosophy, right?",
+  "zh": "它对人们来说也至关重要，你知道的，去创建更符合他们理念的模型，对吧？"
+ },
+ {
+  "seg": 472,
+  "start": 2407.939,
+  "end": 2410.901,
+  "speaker": "Unknown",
+  "en": "And it's especially true for like physical world.",
+  "zh": "而这在物理世界中尤其如此。"
+ },
+ {
+  "seg": 473,
+  "start": 2411.161,
+  "end": 2418.104,
+  "speaker": "Unknown",
+  "en": "I was off kidding with somebody that me and my wife can't agree on how we load a dishwasher, right?",
+  "zh": "我曾跟某人开玩笑说，我和我妻子在我们如何装洗碗机这件事上都达不成一致，对吧？"
+ },
+ {
+  "seg": 474,
+  "start": 2418.204,
+  "end": 2419.885,
+  "speaker": "Unknown",
+  "en": "Like that is the right way.",
+  "zh": "就好像那才是正确的方式。"
+ },
+ {
+  "seg": 475,
+  "start": 2421.626,
+  "end": 2428.391,
+  "speaker": "Unknown",
+  "en": "So we need an open model where, you know, I can, she can reinforce, train it to do it the way she likes it, or I can do it.",
+  "zh": "所以我们需要一个开放模型，你知道的，她可以强化、训练它按她喜欢的方式去做，或者我可以这样做。"
+ },
+ {
+  "seg": 476,
+  "start": 2428.472,
+  "end": 2434.096,
+  "speaker": "Unknown",
+  "en": "So if it is a, you know, somebody decides for us how the dishwasher is going to be loaded, there's no way that's going to work.",
+  "zh": "所以如果是，你知道的，由某个人替我们决定洗碗机该怎么装，那绝对行不通。"
+ },
+ {
+  "seg": 477,
+  "start": 2434.457,
+  "end": 2436.538,
+  "speaker": "Unknown",
+  "en": "I mean, do you have a dishwasher loading robot?",
+  "zh": "我是说，你有装洗碗机的机器人吗？"
+ },
+ {
+  "seg": 478,
+  "start": 2436.638,
+  "end": 2439.02,
+  "speaker": "Unknown",
+  "en": "Like, is that, are you doing that at home?",
+  "zh": "就是说，你在家里用的是那个吗？"
+ },
+ {
+  "seg": 479,
+  "start": 2439.1,
+  "end": 2440.482,
+  "speaker": "Unknown",
+  "en": "Like, because I'm totally jealous.",
+  "zh": "因为，我实在太羡慕了。"
+ },
+ {
+  "seg": 480,
+  "start": 2440.702,
+  "end": 2442.583,
+  "speaker": "Unknown",
+  "en": "Like, is that a perk of working in a video?",
+  "zh": "就是说，那是在 Nvidia 工作的福利吗？"
+ },
+ {
+  "seg": 481,
+  "start": 2442.603,
+  "end": 2443.304,
+  "speaker": "Unknown",
+  "en": "No, okay.",
+  "zh": "不，好吧。"
+ },
+ {
+  "seg": 482,
+  "start": 2443.384,
+  "end": 2445.306,
+  "speaker": "Unknown",
+  "en": "Not yet, but I'm looking forward to it.",
+  "zh": "还没有，但我很期待。"
+ },
+ {
+  "seg": 483,
+  "start": 2446.206,
+  "end": 2447.207,
+  "speaker": "Unknown",
+  "en": "I think it'll happen soon.",
+  "zh": "我觉得很快就会实现的。"
+ },
+ {
+  "seg": 484,
+  "start": 2448.067,
+  "end": 2448.847,
+  "speaker": "Unknown",
+  "en": "Give me a prototype.",
+  "zh": "给我个原型吧。"
+ },
+ {
+  "seg": 485,
+  "start": 2449.568,
+  "end": 2450.428,
+  "speaker": "Unknown",
+  "en": "That's really interesting.",
+  "zh": "那真的很有意思。"
+ },
+ {
+  "seg": 486,
+  "start": 2450.568,
+  "end": 2455.07,
+  "speaker": "Unknown",
+  "en": "And tell me if I'm completely off here, but like, I almost think of this in terms of like human morals, right?",
+  "zh": "如果我完全理解错了请告诉我，但我几乎是从人类道德的角度来考虑这件事的，对吧？"
+ },
+ {
+  "seg": 487,
+  "start": 2455.17,
+  "end": 2461.072,
+  "speaker": "Unknown",
+  "en": "Like you, the deeper the moral is set in someone, the harder it is to compromise it.",
+  "zh": "就像你说的，道德在某个人心里扎得越深，就越难被妥协。"
+ },
+ {
+  "seg": 488,
+  "start": 2461.292,
+  "end": 2468.295,
+  "speaker": "Unknown",
+  "en": "And I think what you're saying is that these models are open and they are deeply ingrained in ethical things.",
+  "zh": "而我想你说的意思是，这些模型是开放的，并且它们深深植入了伦理相关的东西。"
+ },
+ {
+  "seg": 489,
+  "start": 2468.955,
+  "end": 2470.776,
+  "speaker": "Unknown",
+  "en": "It's very hard to unprogram that.",
+  "zh": "要把这些东西从程序里抹掉是非常难的。"
+ },
+ {
+  "seg": 490,
+  "start": 2471.016,
+  "end": 2472.637,
+  "speaker": "Unknown",
+  "en": "Is that kind of what you're saying?",
+  "zh": "你想表达的是这个意思吗？"
+ },
+ {
+  "seg": 491,
+  "start": 2473.337,
+  "end": 2478.5,
+  "speaker": "Unknown",
+  "en": "I think if these models are open, you can introspect them and you can steer them.",
+  "zh": "我认为如果这些模型是开放的，你可以对它们进行内省，也可以对它们进行引导。"
+ },
+ {
+  "seg": 492,
+  "start": 2479.1,
+  "end": 2487.684,
+  "speaker": "Unknown",
+  "en": "If they're not, then you can put monitors, you can put all kinds of things, but you're limited in what you can do.",
+  "zh": "如果它们不是开放的，那么你可以放监控器，可以放各种东西，但你能做的很有限。"
+ },
+ {
+  "seg": 493,
+  "start": 2488.064,
+  "end": 2491.566,
+  "speaker": "Unknown",
+  "en": "And then you also introduce a single point of failure as well.",
+  "zh": "而且你还会引入一个单点故障。"
+ },
+ {
+  "seg": 494,
+  "start": 2493.367,
+  "end": 2500.691,
+  "speaker": "Unknown",
+  "en": "So I think diversity and choice and one model checking the other one is the best way",
+  "zh": "所以我认为多样性、选择，以及用一个模型去检查另一个模型，是最好的方式"
+ },
+ {
+  "seg": 495,
+  "start": 2501.571,
+  "end": 2506.275,
+  "speaker": "Unknown",
+  "en": "For making sure that you have a better answer to the security problem.",
+  "zh": "能确保你对安全问题有一个更好的答案。"
+ },
+ {
+  "seg": 496,
+  "start": 2507.016,
+  "end": 2512.601,
+  "speaker": "Unknown",
+  "en": "I can see what you mean by the transparency being huge because, you know, if there's a bad guy, you don't know what he's thinking.",
+  "zh": "我能明白你说的透明度为什么这么重要，因为，你知道的，如果一个坏人，你不知道他在想什么。"
+ },
+ {
+  "seg": 497,
+  "start": 2512.661,
+  "end": 2516.304,
+  "speaker": "Unknown",
+  "en": "But if you can see what he's thinking, that's a little bit of a different story.",
+  "zh": "但如果你能看到他在想什么，那就是另一回事了。"
+ },
+ {
+  "seg": 498,
+  "start": 2516.544,
+  "end": 2517.245,
+  "speaker": "Unknown",
+  "en": "It's really interesting.",
+  "zh": "这真的很有意思。"
+ },
+ {
+  "seg": 499,
+  "start": 2517.725,
+  "end": 2522.069,
+  "speaker": "Unknown",
+  "en": "I want to talk a little bit about, so you released Cosmos 3 Edge.",
+  "zh": "我想稍微聊一下，你们发布了 Cosmos 3 Edge。"
+ },
+ {
+  "seg": 500,
+  "start": 2522.089,
+  "end": 2523.47,
+  "speaker": "Unknown",
+  "en": "You mentioned this Cosmos model.",
+  "zh": "你提到了这个 Cosmos 模型。"
+ },
+ {
+  "seg": 501,
+  "start": 2524.303,
+  "end": 2527.444,
+  "speaker": "Unknown",
+  "en": "And for somebody who's not familiar with this, right?",
+  "zh": "对于不熟悉它的人来说,对吧?"
+ },
+ {
+  "seg": 502,
+  "start": 2527.464,
+  "end": 2532.426,
+  "speaker": "Unknown",
+  "en": "Like, I don't really know what that, I think you said it's a model, but I don't really know what that means edge.",
+  "zh": "比如,我不太清楚那是什么,我记得你说过它是个模型,但我不太明白 edge 是什么意思。"
+ },
+ {
+  "seg": 503,
+  "start": 2532.766,
+  "end": 2534.567,
+  "speaker": "Unknown",
+  "en": "So can you talk a little bit about what that is?",
+  "zh": "那么你能稍微谈谈它是什么吗?"
+ },
+ {
+  "seg": 504,
+  "start": 2535.107,
+  "end": 2540.549,
+  "speaker": "Unknown",
+  "en": "As I was telling you earlier, right, the world models can do many different functions.",
+  "zh": "就像我之前跟你说的,对吧,世界模型可以执行很多不同的功能。"
+ },
+ {
+  "seg": 505,
+  "start": 2541.069,
+  "end": 2546.931,
+  "speaker": "Unknown",
+  "en": "They can create, predict random worlds in which you can, you know, evaluate your policies.",
+  "zh": "它们可以创造、预测随机世界,你可以在里面评估你的策略。"
+ },
+ {
+  "seg": 506,
+  "start": 2547.731,
+  "end": 2552.513,
+  "speaker": "Unknown",
+  "en": "They can take real world data and augment it to change the environments.",
+  "zh": "它们可以拿真实世界的数据并进行增强,以改变环境。"
+ },
+ {
+  "seg": 507,
+  "start": 2553.473,
+  "end": 2556.495,
+  "speaker": "Unknown",
+  "en": "But some of these things are pretty compute intensive, right?",
+  "zh": "但其中有些事情是非常计算密集的,对吧?"
+ },
+ {
+  "seg": 508,
+  "start": 2557.575,
+  "end": 2573.424,
+  "speaker": "Unknown",
+  "en": "But one of the functions of a world model is also what we were talking about earlier is that they can be the planning brain for your robot because they can predict a lot of different scenarios and pick one that is most appropriate that gets you to their objective function.",
+  "zh": "但世界模型的功能之一,也是我们之前谈到的,就是它们可以成为你机器人的规划大脑,因为它们可以预测很多不同的场景,并挑选一个最合适的、能让你达成目标函数的场景。"
+ },
+ {
+  "seg": 509,
+  "start": 2574.925,
+  "end": 2577.967,
+  "speaker": "Unknown",
+  "en": "That model needs to run on the robot.",
+  "zh": "那个模型需要运行在机器人上。"
+ },
+ {
+  "seg": 510,
+  "start": 2579.007,
+  "end": 2580.27,
+  "speaker": "Unknown",
+  "en": "That part of the world model.",
+  "zh": "世界模型的那个部分。"
+ },
+ {
+  "seg": 511,
+  "start": 2581.091,
+  "end": 2586.443,
+  "speaker": "Unknown",
+  "en": "This model is not really generating pretty videos, 10 second long videos.",
+  "zh": "这个模型并不是真的在生成漂亮的视频,10 秒长的视频。"
+ },
+ {
+  "seg": 512,
+  "start": 2586.503,
+  "end": 2587.506,
+  "speaker": "Unknown",
+  "en": "It doesn't have to do that.",
+  "zh": "它不需要做那个。"
+ },
+ {
+  "seg": 513,
+  "start": 2588.305,
+  "end": 2600.591,
+  "speaker": "Unknown",
+  "en": "This model does not have to, you know, you can distill it down to certain particular domains that you care about, but it should be able to, you know, do the task of predicting the future and controlling the robot.",
+  "zh": "这个模型不需要——你可以把它蒸馏到你关心的特定领域,但它应该能够完成预测未来和控制机器人的任务。"
+ },
+ {
+  "seg": 514,
+  "start": 2601.272,
+  "end": 2608.235,
+  "speaker": "Unknown",
+  "en": "So we took our Cosmos 3 model, which comes in different sizes, and we created a four billion parameter version of it.",
+  "zh": "所以我们拿来了我们的 Cosmos 3 模型,它有不同的大小版本,我们创建了一个 40 亿参数的版本。"
+ },
+ {
+  "seg": 515,
+  "start": 2608.555,
+  "end": 2617.1,
+  "speaker": "Unknown",
+  "en": "And the main purpose of the Cosmos 3 Edge is that it's a world model that can take the inputs as text or actions,",
+  "zh": "Cosmos 3 Edge 的主要用途是,它是一个世界模型,可以把文本或动作作为输入,"
+ },
+ {
+  "seg": 516,
+  "start": 2617.68,
+  "end": 2622.922,
+  "speaker": "Unknown",
+  "en": "or videos and generate the next action that the robot needs to do.",
+  "zh": "或者视频,并生成机器人需要执行的下一个动作。"
+ },
+ {
+  "seg": 517,
+  "start": 2623.543,
+  "end": 2628.485,
+  "speaker": "Unknown",
+  "en": "And by making it a 4 billion parameter model, we can now deploy it onto the robot.",
+  "zh": "通过把它做成一个 40 亿参数的模型,我们现在可以把它部署到机器人上。"
+ },
+ {
+  "seg": 518,
+  "start": 2628.625,
+  "end": 2633.407,
+  "speaker": "Unknown",
+  "en": "So it can be used as the policy of the robot itself.",
+  "zh": "这样它就可以作为机器人本身的策略来使用。"
+ },
+ {
+  "seg": 519,
+  "start": 2633.647,
+  "end": 2635.548,
+  "speaker": "Unknown",
+  "en": "And, you know, we optimize it.",
+  "zh": "而且,你知道,我们对它做了优化。"
+ },
+ {
+  "seg": 520,
+  "start": 2635.668,
+  "end": 2644.911,
+  "speaker": "Unknown",
+  "en": "It can run real-time on a Jetson Tor, which is, you know, a computer which is the size of a passport that has 2,000 teraops of compute.",
+  "zh": "它可以在 Jetson Tor 上实时运行,那是一台护照大小的计算机,拥有 2000 teraops 的算力。"
+ },
+ {
+  "seg": 521,
+  "start": 2645.371,
+  "end": 2646.971,
+  "speaker": "Unknown",
+  "en": "Did you say the size of a passport?",
+  "zh": "你是说护照那么大?"
+ },
+ {
+  "seg": 522,
+  "start": 2647.492,
+  "end": 2650.333,
+  "speaker": "Unknown",
+  "en": "Yeah, it's the size of a passport, if your passport's signed.",
+  "zh": "是的,就是护照那么大,如果你的护照是签过的那种。"
+ },
+ {
+  "seg": 523,
+  "start": 2650.613,
+  "end": 2651.353,
+  "speaker": "Unknown",
+  "en": "Wow, okay.",
+  "zh": "哇,好吧。"
+ },
+ {
+  "seg": 524,
+  "start": 2652.033,
+  "end": 2654.394,
+  "speaker": "Unknown",
+  "en": "That's what is inside a lot of robots.",
+  "zh": "很多机器人里面装的就是这个。"
+ },
+ {
+  "seg": 525,
+  "start": 2654.434,
+  "end": 2663.477,
+  "speaker": "Unknown",
+  "en": "If you look at the 1X robot, the Boston Dynamics humanoid, they are all powered by this small computer, but it has 2,000 terahertz of compute.",
+  "zh": "如果你看看 1X 机器人、Boston Dynamics 的人形机器人,它们都是由这台小电脑驱动的,而且它有 2000 terahertz 的算力。"
+ },
+ {
+  "seg": 526,
+  "start": 2664.177,
+  "end": 2667.259,
+  "speaker": "Unknown",
+  "en": "It can run 10 billion, 4 billion parameter model on it.",
+  "zh": "它可以在上面运行 100 亿、40 亿参数的模型。"
+ },
+ {
+  "seg": 527,
+  "start": 2667.799,
+  "end": 2670.46,
+  "speaker": "Unknown",
+  "en": "So that way it can do the reasoning.",
+  "zh": "这样它就能进行推理。"
+ },
+ {
+  "seg": 528,
+  "start": 2670.54,
+  "end": 2673.281,
+  "speaker": "Unknown",
+  "en": "You were asking about counterfactual, it can do all of that on-device.",
+  "zh": "你刚才问到反事实,它可以在设备端完成所有这些。"
+ },
+ {
+  "seg": 529,
+  "start": 2674.341,
+  "end": 2675.321,
+  "speaker": "Unknown",
+  "en": "That is wild.",
+  "zh": "那太狂野了。"
+ },
+ {
+  "seg": 530,
+  "start": 2675.902,
+  "end": 2676.762,
+  "speaker": "Unknown",
+  "en": "That is really cool.",
+  "zh": "那真的很酷。"
+ },
+ {
+  "seg": 531,
+  "start": 2677.552,
+  "end": 2679.093,
+  "speaker": "Unknown",
+  "en": "So I can see why that's a big deal.",
+  "zh": "所以我能看出为什么这是件大事。"
+ },
+ {
+  "seg": 532,
+  "start": 2679.253,
+  "end": 2682.434,
+  "speaker": "Unknown",
+  "en": "It's a mini model that can run on robot.",
+  "zh": "它是一个可以运行在机器人上的迷你模型。"
+ },
+ {
+  "seg": 533,
+  "start": 2682.894,
+  "end": 2683.374,
+  "speaker": "Unknown",
+  "en": "On the robot.",
+  "zh": "在机器人上。"
+ },
+ {
+  "seg": 534,
+  "start": 2683.815,
+  "end": 2689.037,
+  "speaker": "Unknown",
+  "en": "It's so funny because when I think edge, I think of, you know, like, oh, CDN distributed geographically.",
+  "zh": "这很有意思,因为当我想到 edge,我想的是,你知道,比如,哦,CDN 按地理位置分布。"
+ },
+ {
+  "seg": 535,
+  "start": 2689.097,
+  "end": 2692.678,
+  "speaker": "Unknown",
+  "en": "But when you guys talk about edge, it's like, nah, it's in a factory or it's, yeah.",
+  "zh": "但当你们谈论 edge 的时候,是,不,它在工厂里,或者是,对。"
+ },
+ {
+  "seg": 536,
+  "start": 2692.698,
+  "end": 2693.579,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "对。"
+ },
+ {
+  "seg": 537,
+  "start": 2694.059,
+  "end": 2698.621,
+  "speaker": "Unknown",
+  "en": "It's battery powered, you know, running on device, running all the time.",
+  "zh": "它是电池供电的,你知道,在设备上运行,一直运行。"
+ },
+ {
+  "seg": 538,
+  "start": 2698.641,
+  "end": 2699.241,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "对。"
+ },
+ {
+  "seg": 539,
+  "start": 2699.281,
+  "end": 2699.581,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 540,
+  "start": 2699.841,
+  "end": 2703.423,
+  "speaker": "Unknown",
+  "en": "And the power consumption of those things has to be reasonable too.",
+  "zh": "而且这些东西的功耗也必须是合理的。"
+ },
+ {
+  "seg": 541,
+  "start": 2703.663,
+  "end": 2705.884,
+  "speaker": "Unknown",
+  "en": "Not only is it small, but the power consumption.",
+  "zh": "不仅体积小,而且功耗。"
+ },
+ {
+  "seg": 542,
+  "start": 2705.904,
+  "end": 2706.084,
+  "speaker": "Unknown",
+  "en": "Wow.",
+  "zh": "哇。"
+ },
+ {
+  "seg": 543,
+  "start": 2706.404,
+  "end": 2706.724,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 544,
+  "start": 2706.904,
+  "end": 2707.465,
+  "speaker": "Unknown",
+  "en": "That's crazy.",
+  "zh": "太疯狂了。"
+ },
+ {
+  "seg": 545,
+  "start": 2708.005,
+  "end": 2708.325,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 546,
+  "start": 2708.385,
+  "end": 2710.426,
+  "speaker": "Unknown",
+  "en": "So I'm a normal developer.",
+  "zh": "那么我是一个普通开发者。"
+ },
+ {
+  "seg": 547,
+  "start": 2710.726,
+  "end": 2712.767,
+  "speaker": "Unknown",
+  "en": "I want to start playing around with this next weekend.",
+  "zh": "我想下个周末就开始玩这个东西。"
+ },
+ {
+  "seg": 548,
+  "start": 2712.927,
+  "end": 2715.649,
+  "speaker": "Unknown",
+  "en": "How do I get my hands on one of these passport sized computers?",
+  "zh": "我怎么才能弄到一台这种护照大小的计算机?"
+ },
+ {
+  "seg": 549,
+  "start": 2715.669,
+  "end": 2717.089,
+  "speaker": "Unknown",
+  "en": "They're only like 20 bucks, right?",
+  "zh": "它们只要 20 块钱左右,对吧?"
+ },
+ {
+  "seg": 550,
+  "start": 2717.109,
+  "end": 2719.851,
+  "speaker": "Unknown",
+  "en": "I'm just kidding.",
+  "zh": "我开玩笑的。"
+ },
+ {
+  "seg": 551,
+  "start": 2719.931,
+  "end": 2721.271,
+  "speaker": "Unknown",
+  "en": "How accessible is this?",
+  "zh": "这有多容易上手?"
+ },
+ {
+  "seg": 552,
+  "start": 2721.592,
+  "end": 2724.973,
+  "speaker": "Unknown",
+  "en": "Like, I would love to play with something like this.",
+  "zh": "比如,我很想玩玩这样的东西。"
+ },
+ {
+  "seg": 553,
+  "start": 2725.113,
+  "end": 2728.335,
+  "speaker": "Unknown",
+  "en": "Like, how does a normal dev get into this?",
+  "zh": "比如,一个普通的开发者要怎么进入这个领域?"
+ },
+ {
+  "seg": 554,
+  "start": 2729.028,
+  "end": 2733.77,
+  "speaker": "Unknown",
+  "en": "Yeah, I think it has become much easier in the last, I would say, 12 to 18 months.",
+  "zh": "是的,我想在过去,我会说,12 到 18 个月里,它变得容易多了。"
+ },
+ {
+  "seg": 555,
+  "start": 2734.05,
+  "end": 2740.272,
+  "speaker": "Unknown",
+  "en": "In the past, the hardware was very expensive because it was designed for roboticists, right?",
+  "zh": "过去,硬件非常昂贵,因为它是为机器人学家设计的,对吧?"
+ },
+ {
+  "seg": 556,
+  "start": 2740.372,
+  "end": 2753.416,
+  "speaker": "Unknown",
+  "en": "And one of the things we started working with the team at Hugging Face was to target and enable all the software developers who are used to writing programs to start programming robots.",
+  "zh": "而我们开始与 Hugging Face 团队合作的事情之一,就是面向并赋能所有习惯于写程序的开发者,让他们开始为机器人编程。"
+ },
+ {
+  "seg": 557,
+  "start": 2753.916,
+  "end": 2756.377,
+  "speaker": "Unknown",
+  "en": "And to do that, you need to have a robot.",
+  "zh": "要做到这一点,你需要有一台机器人。"
+ },
+ {
+  "seg": 558,
+  "start": 2757.918,
+  "end": 2759.879,
+  "speaker": "Unknown",
+  "en": "You're building physical AI.",
+  "zh": "你在做的是物理 AI。"
+ },
+ {
+  "seg": 559,
+  "start": 2760.66,
+  "end": 2762.981,
+  "speaker": "Unknown",
+  "en": "Of course, you can do a lot in simulation.",
+  "zh": "当然,你可以在仿真里做很多事。"
+ },
+ {
+  "seg": 560,
+  "start": 2763.361,
+  "end": 2764.182,
+  "speaker": "Unknown",
+  "en": "That's the first step.",
+  "zh": "那是第一步。"
+ },
+ {
+  "seg": 561,
+  "start": 2764.342,
+  "end": 2766.043,
+  "speaker": "Unknown",
+  "en": "You have to get started with this.",
+  "zh": "你得从这里入门。"
+ },
+ {
+  "seg": 562,
+  "start": 2766.263,
+  "end": 2775.17,
+  "speaker": "Unknown",
+  "en": "You use your existing computer, you download a simulator, and you download an existing model, connect it together and see how it works.",
+  "zh": "你用现有的电脑,下载一个仿真器,下载一个现有的模型,把它们连接起来,看看效果如何。"
+ },
+ {
+  "seg": 563,
+  "start": 2775.25,
+  "end": 2777.371,
+  "speaker": "Unknown",
+  "en": "And this is all just running on your laptop?",
+  "zh": "这些都只是在你的笔记本上运行?"
+ },
+ {
+  "seg": 564,
+  "start": 2777.511,
+  "end": 2783.595,
+  "speaker": "Unknown",
+  "en": "Yeah, you can run on a decent laptop today, which has a 4090 GPU.",
+  "zh": "是的,今天你可以在一台不错的笔记本上运行,只要它有一块 4090 GPU。"
+ },
+ {
+  "seg": 565,
+  "start": 2783.635,
+  "end": 2785.417,
+  "speaker": "Unknown",
+  "en": "You can get a DGX part.",
+  "zh": "你可以买个 DGX 部件。"
+ },
+ {
+  "seg": 566,
+  "start": 2786.217,
+  "end": 2786.838,
+  "speaker": "Unknown",
+  "en": "Run it on that.",
+  "zh": "在上面运行。"
+ },
+ {
+  "seg": 567,
+  "start": 2787.418,
+  "end": 2790.84,
+  "speaker": "Unknown",
+  "en": "So you can run the simulator, you can train the models, test it.",
+  "zh": "这样你就可以运行仿真器,训练模型,测试它。"
+ },
+ {
+  "seg": 568,
+  "start": 2791.16,
+  "end": 2802.828,
+  "speaker": "Unknown",
+  "en": "But the interesting thing about physical AI is that experience of touching a real thing and dealing with the connection and the motors and the variations there.",
+  "zh": "但物理 AI 有意思的地方在于,亲手触碰真实的东西、处理连接、电机以及其中各种变化的体验。"
+ },
+ {
+  "seg": 569,
+  "start": 2803.368,
+  "end": 2812.394,
+  "speaker": "Unknown",
+  "en": "So now, for a couple of hundred dollars, you can get a robotic arm that you can train, you can teleoperate it, collect data.",
+  "zh": "所以现在,花几百美元,你就能买到一个可以训练的机械臂,你可以遥操作它,采集数据。"
+ },
+ {
+  "seg": 570,
+  "start": 2813.315,
+  "end": 2823.461,
+  "speaker": "Unknown",
+  "en": "Format it, publish it to Hugging Face, train a policy, convert it, deploy it onto the small Jetson, and let the robot do its thing.",
+  "zh": "格式化它,发布到 Hugging Face,训练一个策略,转换它,部署到小型 Jetson 上,让机器人去做它的事。"
+ },
+ {
+  "seg": 571,
+  "start": 2824.582,
+  "end": 2837.19,
+  "speaker": "Unknown",
+  "en": "And all of that, I would say, for you to get started, if you have a good computer, a thousand dollars budget, take a couple of days, and you can have your first physical AI model doing things.",
+  "zh": "而这一切,我想说,对于入门来说,如果你有一台好电脑,一千美元的预算,花上几天时间,你就可以拥有你的第一个能干活的物理 AI 模型。"
+ },
+ {
+  "seg": 572,
+  "start": 2837.99,
+  "end": 2838.27,
+  "speaker": "Unknown",
+  "en": "Wow.",
+  "zh": "哇。"
+ },
+ {
+  "seg": 573,
+  "start": 2838.651,
+  "end": 2839.652,
+  "speaker": "Unknown",
+  "en": "What are the arms?",
+  "zh": "那些机械臂是什么?"
+ },
+ {
+  "seg": 574,
+  "start": 2840.152,
+  "end": 2841.654,
+  "speaker": "Unknown",
+  "en": "Is that something NVIDIA produces?",
+  "zh": "是 NVIDIA 生产的吗?"
+ },
+ {
+  "seg": 575,
+  "start": 2841.874,
+  "end": 2845.398,
+  "speaker": "Unknown",
+  "en": "Or is that something that other third parties produce?",
+  "zh": "还是其他第三方生产的?"
+ },
+ {
+  "seg": 576,
+  "start": 2845.558,
+  "end": 2846.68,
+  "speaker": "Unknown",
+  "en": "It's just third party.",
+  "zh": "就是第三方的。"
+ },
+ {
+  "seg": 577,
+  "start": 2846.7,
+  "end": 2847.821,
+  "speaker": "Unknown",
+  "en": "There are lots of projects.",
+  "zh": "有很多项目。"
+ },
+ {
+  "seg": 578,
+  "start": 2847.961,
+  "end": 2853.327,
+  "speaker": "Unknown",
+  "en": "If you're into 3D printing, you can just order the material, 3D print these things, get it together.",
+  "zh": "如果你会 3D 打印,你可以直接订购材料,3D 打印这些东西,然后组装起来。"
+ },
+ {
+  "seg": 579,
+  "start": 2853.347,
+  "end": 2854.228,
+  "speaker": "Unknown",
+  "en": "Oh, that's really cool.",
+  "zh": "哦,那真的很酷。"
+ },
+ {
+  "seg": 580,
+  "start": 2854.528,
+  "end": 2854.729,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 581,
+  "start": 2854.749,
+  "end": 2854.989,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 582,
+  "start": 2855.189,
+  "end": 2856.771,
+  "speaker": "Unknown",
+  "en": "Pretty big open source ecosystem.",
+  "zh": "相当大的开源生态系统。"
+ },
+ {
+  "seg": 583,
+  "start": 2857.391,
+  "end": 2862.237,
+  "speaker": "Unknown",
+  "en": "If you look at SO101 ARM, that's the most popular with the makers right now.",
+  "zh": "如果你看看 SO101 ARM,那是目前制客群体里最受欢迎的。"
+ },
+ {
+  "seg": 584,
+  "start": 2862.317,
+  "end": 2871.807,
+  "speaker": "Unknown",
+  "en": "You can 3D print it or lots of vendors do the kitting of all together and they ship it to you, but you still get the joy of connecting it and building it all together.",
+  "zh": "你可以 3D 打印它,或者很多厂商会把整套零件配好打包寄给你,但你仍然能享受到把它连接起来、亲手组装起来的乐趣。"
+ },
+ {
+  "seg": 585,
+  "start": 2872.988,
+  "end": 2873.748,
+  "speaker": "Unknown",
+  "en": "So that's there.",
+  "zh": "所以有这个选择。"
+ },
+ {
+  "seg": 586,
+  "start": 2873.868,
+  "end": 2886.971,
+  "speaker": "Unknown",
+  "en": "And then, you know, you can start from there and go to a humanoid and get one of these, you know, humanoids for $15,000, $10,000 these days that you can make it do whatever you want, dance or, you know, or clean your home.",
+  "zh": "然后,你知道,你可以从这里起步,再进阶到人形机器人,现在花一万五千美元、一万美元就能买到这样的人形机器人,你可以让它做任何你想做的事,跳舞,或者,你知道的,打扫你的家。"
+ },
+ {
+  "seg": 587,
+  "start": 2887.511,
+  "end": 2887.751,
+  "speaker": "Unknown",
+  "en": "Wow.",
+  "zh": "哇。"
+ },
+ {
+  "seg": 588,
+  "start": 2888.391,
+  "end": 2897.813,
+  "speaker": "Unknown",
+  "en": "When somebody's like looking into the, like those, I don't know what we call them, like classes of product, like what would I Google for or what would I ask Claude for in terms of trying to find that?",
+  "zh": "当有人想研究这些,像那些,我不知道我们怎么称呼它们,像产品类别,我应该谷歌搜索什么,或者问 Claude 什么,才能找到它们?"
+ },
+ {
+  "seg": 589,
+  "start": 2897.933,
+  "end": 2901.494,
+  "speaker": "Unknown",
+  "en": "That's something that to me, if I were to step away, I'd be like, okay, I,",
+  "zh": "对我来说,如果让我离开这个话题,我会想,好吧,我,"
+ },
+ {
+  "seg": 590,
+  "start": 2902.074,
+  "end": 2909.696,
+  "speaker": "Unknown",
+  "en": "I guess I could search like open source robotic arm, but I feel like there's probably something more specific that people could search.",
+  "zh": "我猜我可以搜像开源机械臂这样的词,但我觉得可能有更具体的搜索词。"
+ },
+ {
+  "seg": 591,
+  "start": 2909.736,
+  "end": 2910.176,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 592,
+  "start": 2910.356,
+  "end": 2920.759,
+  "speaker": "Unknown",
+  "en": "I think if you're interested in using this new age of robotics, which is end-to-end models, right?",
+  "zh": "我想,如果你有兴趣使用这个新时代的机器人技术,也就是端到端模型,对吧?"
+ },
+ {
+  "seg": 593,
+  "start": 2921.019,
+  "end": 2924.36,
+  "speaker": "Unknown",
+  "en": "That is taking pixels in, controls out.",
+  "zh": "就是像素输入,控制输出。"
+ },
+ {
+  "seg": 594,
+  "start": 2925.406,
+  "end": 2936.596,
+  "speaker": "Unknown",
+  "en": "You want to look for models that are supported by the support NVIDIA's like crude or physical intelligence or, you know, these popular AI models, right?",
+  "zh": "你要找的是那些得到 NVIDIA 之类的支持的模型,像 crude 或者 Physical Intelligence,或者,你知道的,这些流行的 AI 模型,对吧?"
+ },
+ {
+  "seg": 595,
+  "start": 2936.616,
+  "end": 2941.801,
+  "speaker": "Unknown",
+  "en": "So those robot hardware that has been tested with these models, right?",
+  "zh": "所以要找那些已经用这些模型测试过的机器人硬件,对吧?"
+ },
+ {
+  "seg": 596,
+  "start": 2941.981,
+  "end": 2950.048,
+  "speaker": "Unknown",
+  "en": "The way to search for is look for different robot policies, AI models that exist and say, I'm looking for a hardware",
+  "zh": "搜索的方法就是去找现有的各种机器人策略、AI 模型,然后说,我在找一个硬件,"
+ },
+ {
+  "seg": 597,
+  "start": 2950.789,
+  "end": 2952.73,
+  "speaker": "Unknown",
+  "en": "That works with this particular model, right?",
+  "zh": "能和这个特定模型配合的硬件,对吧?"
+ },
+ {
+  "seg": 598,
+  "start": 2952.77,
+  "end": 2956.911,
+  "speaker": "Unknown",
+  "en": "You don't want to have to customize the model for a different hardware, right?",
+  "zh": "你不会想为了另一套硬件去定制模型,对吧?"
+ },
+ {
+  "seg": 599,
+  "start": 2957.351,
+  "end": 2960.212,
+  "speaker": "Unknown",
+  "en": "Yeah, that's a bridge too far for somebody trying to get into it.",
+  "zh": "是的,对一个刚想入行的人来说,那跨度太大了。"
+ },
+ {
+  "seg": 600,
+  "start": 2960.512,
+  "end": 2960.992,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 601,
+  "start": 2961.092,
+  "end": 2968.034,
+  "speaker": "Unknown",
+  "en": "That's why the Hugging Face checkpoints are really good because they already have checkpoints for this SO101 ARM.",
+  "zh": "这就是为什么 Hugging Face 的 checkpoint 非常好用,因为它们已经有这个 SO101 机械臂的 checkpoint 了。"
+ },
+ {
+  "seg": 602,
+  "start": 2968.654,
+  "end": 2977.257,
+  "speaker": "Unknown",
+  "en": "If you're looking at action chunking transformer model, you are looking for a Groot model, you're looking for any of the popular AI models for robotics.",
+  "zh": "如果你在看 action chunking transformer 模型,你在找 Groot 模型,你在找任何流行的机器人 AI 模型。"
+ },
+ {
+  "seg": 603,
+  "start": 2978.174,
+  "end": 2988.282,
+  "speaker": "Unknown",
+  "en": "You can find a checkpoint for specific hardwares, and that's one way to go find it because then you can just cobble it together and have your first rollout.",
+  "zh": "你可以找到针对特定硬件的 checkpoint,这是找到它们的一种方式,因为这样你就可以拼凑起来,完成你的第一次 rollout。"
+ },
+ {
+  "seg": 604,
+  "start": 2988.982,
+  "end": 2992.004,
+  "speaker": "Unknown",
+  "en": "And then you can say, okay, I want to go customize it.",
+  "zh": "然后你可以说,好,我想去定制它。"
+ },
+ {
+  "seg": 605,
+  "start": 2992.445,
+  "end": 2992.685,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 606,
+  "start": 2993.005,
+  "end": 2993.766,
+  "speaker": "Unknown",
+  "en": "Oh, that sounds fun.",
+  "zh": "哦,听起来很有趣。"
+ },
+ {
+  "seg": 607,
+  "start": 2994.086,
+  "end": 2994.366,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 608,
+  "start": 2994.386,
+  "end": 2994.606,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 609,
+  "start": 2994.826,
+  "end": 2995.047,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "很酷。"
+ },
+ {
+  "seg": 610,
+  "start": 2995.267,
+  "end": 2996.628,
+  "speaker": "Unknown",
+  "en": "I hope that inspires some people.",
+  "zh": "我希望这能激励一些人。"
+ },
+ {
+  "seg": 611,
+  "start": 2996.788,
+  "end": 2997.809,
+  "speaker": "Unknown",
+  "en": "All right, let's close it out.",
+  "zh": "好了,我们来收尾吧。"
+ },
+ {
+  "seg": 612,
+  "start": 2997.829,
+  "end": 3000.09,
+  "speaker": "Unknown",
+  "en": "I got a couple of open-ended what-if questions.",
+  "zh": "我有几个开放式的假设性问题。"
+ },
+ {
+  "seg": 613,
+  "start": 3000.17,
+  "end": 3005.755,
+  "speaker": "Unknown",
+  "en": "So what sounds like science fiction right now that you actually think might come true in five years with this?",
+  "zh": "那么现在听起来像科幻小说、但你真的认为五年内可能实现的是什么?"
+ },
+ {
+  "seg": 614,
+  "start": 3006.558,
+  "end": 3010.659,
+  "speaker": "Unknown",
+  "en": "If you think about robots today, what comes to your mind?",
+  "zh": "如果你想到今天的机器人,你脑子里会浮现什么?"
+ },
+ {
+  "seg": 615,
+  "start": 3011.479,
+  "end": 3017.301,
+  "speaker": "Unknown",
+  "en": "Probably that Boston Dynamics thing that can jump upstairs and jump up on platforms and things like that.",
+  "zh": "可能是 Boston Dynamics 那个能跳上楼梯、跳上平台之类的东西。"
+ },
+ {
+  "seg": 616,
+  "start": 3017.461,
+  "end": 3018.201,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 617,
+  "start": 3018.701,
+  "end": 3024.163,
+  "speaker": "Unknown",
+  "en": "I think for most people, when I think about robots, it's the embodiment that comes to mind, right?",
+  "zh": "我想对大多数人来说,想到机器人时,浮现在脑海的是那个实体形态,对吧?"
+ },
+ {
+  "seg": 618,
+  "start": 3024.243,
+  "end": 3032.965,
+  "speaker": "Unknown",
+  "en": "As you said, that human eye or the big arm that they saw in an automotive plant that was carrying the entire car and turning it upside down.",
+  "zh": "就像你说的,那个人形机器人,或者他们在汽车工厂里见过的那种大机械臂,能搬运整辆车并把它翻转过来。"
+ },
+ {
+  "seg": 619,
+  "start": 3033.305,
+  "end": 3047.116,
+  "speaker": "Unknown",
+  "en": "But I think in five years, we will see definitely robots that are more around us, more ubiquitous, that are multifunctional and can do many things.",
+  "zh": "但我认为在五年内,我们肯定会看到更多围绕在我们身边、更无处不在的机器人,它们是多功能的,可以做很多事情。"
+ },
+ {
+  "seg": 620,
+  "start": 3047.557,
+  "end": 3049.098,
+  "speaker": "Unknown",
+  "en": "Robots today are purpose-built.",
+  "zh": "今天的机器人都是为特定目的而造的。"
+ },
+ {
+  "seg": 621,
+  "start": 3049.538,
+  "end": 3056.404,
+  "speaker": "Unknown",
+  "en": "You think about robot, you think about either that humanoid or you think about a Roomba or you think about, you know, that industrial robot.",
+  "zh": "你想到机器人,你要么想到那个人形机器人,要么想到 Roomba,要么想到,你知道的,那种工业机器人。"
+ },
+ {
+  "seg": 622,
+  "start": 3057.024,
+  "end": 3061.308,
+  "speaker": "Unknown",
+  "en": "You don't think about a brain that can do 10 things for you.",
+  "zh": "你不会想到一个能为你做 10 件事的大脑。"
+ },
+ {
+  "seg": 623,
+  "start": 3062.568,
+  "end": 3064.409,
+  "speaker": "Unknown",
+  "en": "You think about the body, not the brain.",
+  "zh": "你想的是身体,而不是大脑。"
+ },
+ {
+  "seg": 624,
+  "start": 3065.169,
+  "end": 3075.013,
+  "speaker": "Unknown",
+  "en": "I think in five years from now, I expect that we will have robotic embodiments that are going to be capable of doing multiple things.",
+  "zh": "我认为从现在起的五年内,我预计我们将拥有能够做多种事情的机器人实体形态。"
+ },
+ {
+  "seg": 625,
+  "start": 3075.493,
+  "end": 3083.796,
+  "speaker": "Unknown",
+  "en": "So when you think about robot, you will not think about the body, but you will think about, oh, that thing that can do all of these tasks for me.",
+  "zh": "所以当你想到机器人时,你不会想到身体,而是会想,哦,那个能为我完成所有这些任务的东西。"
+ },
+ {
+  "seg": 626,
+  "start": 3084.256,
+  "end": 3086.757,
+  "speaker": "Unknown",
+  "en": "The embodiment is just an artifact.",
+  "zh": "实体形态只是一个附属品。"
+ },
+ {
+  "seg": 627,
+  "start": 3087.517,
+  "end": 3088.298,
+  "speaker": "Unknown",
+  "en": "So that would change.",
+  "zh": "所以那会改变。"
+ },
+ {
+  "seg": 628,
+  "start": 3088.598,
+  "end": 3094.422,
+  "speaker": "Unknown",
+  "en": "You would not think about a robot for A, but you would think about a robot that can do a class of things for you.",
+  "zh": "你不会想到一个专门做 A 的机器人,而是会想到一个能为你做一类事情的机器人。"
+ },
+ {
+  "seg": 629,
+  "start": 3095.502,
+  "end": 3102.427,
+  "speaker": "Unknown",
+  "en": "The other thing that's going to change is for the robotics people is the task of programming was very intimidating.",
+  "zh": "另一件会改变的事情是,对机器人领域的人来说,编程这个任务曾经非常令人生畏。"
+ },
+ {
+  "seg": 630,
+  "start": 3102.847,
+  "end": 3104.968,
+  "speaker": "Unknown",
+  "en": "It's like you need to be an expert.",
+  "zh": "就好像你必须是个专家。"
+ },
+ {
+  "seg": 631,
+  "start": 3105.148,
+  "end": 3109.571,
+  "speaker": "Unknown",
+  "en": "You need to be either, you know, a technician or a PhD to be able to program the robots.",
+  "zh": "你要么得是个技术员,要么得是个博士,才能给机器人编程。"
+ },
+ {
+  "seg": 632,
+  "start": 3110.632,
+  "end": 3115.035,
+  "speaker": "Unknown",
+  "en": "That is going to look very different, you know, with these foundation models.",
+  "zh": "有了这些基础模型,情况会大不一样。"
+ },
+ {
+  "seg": 633,
+  "start": 3116.077,
+  "end": 3119.56,
+  "speaker": "Unknown",
+  "en": "You would be able to likely show a task.",
+  "zh": "你很可能只需要演示一个任务。"
+ },
+ {
+  "seg": 634,
+  "start": 3120.26,
+  "end": 3121.301,
+  "speaker": "Unknown",
+  "en": "Do it one time.",
+  "zh": "做一次。"
+ },
+ {
+  "seg": 635,
+  "start": 3122.022,
+  "end": 3123.723,
+  "speaker": "Unknown",
+  "en": "Do it with the robot two times.",
+  "zh": "和机器人一起做两次。"
+ },
+ {
+  "seg": 636,
+  "start": 3124.384,
+  "end": 3128.807,
+  "speaker": "Unknown",
+  "en": "And teaching the robot with data is what is going to be magical.",
+  "zh": "用数据来教机器人,这将是神奇之处。"
+ },
+ {
+  "seg": 637,
+  "start": 3128.907,
+  "end": 3135.212,
+  "speaker": "Unknown",
+  "en": "It seems impossible if you tell a robotics person today that, hey, you know, programming a robot is just like, go show it.",
+  "zh": "如果你今天告诉一个机器人领域的人,嘿,你知道,给机器人编程就是,去演示给它看。"
+ },
+ {
+  "seg": 638,
+  "start": 3135.253,
+  "end": 3136.814,
+  "speaker": "Unknown",
+  "en": "Hey, this is the task I want you to do.",
+  "zh": "嘿,这是我想让你做的任务。"
+ },
+ {
+  "seg": 639,
+  "start": 3136.994,
+  "end": 3137.594,
+  "speaker": "Unknown",
+  "en": "It is a video.",
+  "zh": "这是一段视频。"
+ },
+ {
+  "seg": 640,
+  "start": 3138.115,
+  "end": 3138.775,
+  "speaker": "Unknown",
+  "en": "Can you go do it?",
+  "zh": "你能照着做吗?"
+ },
+ {
+  "seg": 641,
+  "start": 3139.256,
+  "end": 3139.476,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧?"
+ },
+ {
+  "seg": 642,
+  "start": 3139.776,
+  "end": 3141.257,
+  "speaker": "Unknown",
+  "en": "That seems like magic today.",
+  "zh": "今天这看起来像魔法。"
+ },
+ {
+  "seg": 643,
+  "start": 3142.283,
+  "end": 3145.406,
+  "speaker": "Unknown",
+  "en": "But that's going to be how we're going to tell robots how to do a task.",
+  "zh": "但这就是我们将来告诉机器人如何执行任务的方式。"
+ },
+ {
+  "seg": 644,
+  "start": 3145.606,
+  "end": 3152.091,
+  "speaker": "Unknown",
+  "en": "We're going to either demonstrate it, we're going to tele-operate it just one time, two times, and the robot will go do it.",
+  "zh": "我们要么演示给它看,要么远程操控它一两次,机器人就会去做了。"
+ },
+ {
+  "seg": 645,
+  "start": 3152.611,
+  "end": 3163.5,
+  "speaker": "Unknown",
+  "en": "I mean, if we didn't have this inflection point with software-based LLMs in the past year, I probably would not believe you, but seeing what happens in the past year, I believe it.",
+  "zh": "我是说,如果过去一年没有软件领域 LLM 的这个转折点,我可能不会相信你,但看到过去一年发生的事情,我信了。"
+ },
+ {
+  "seg": 646,
+  "start": 3163.76,
+  "end": 3165.762,
+  "speaker": "Unknown",
+  "en": "Yeah, it's crazy.",
+  "zh": "是啊,太疯狂了。"
+ },
+ {
+  "seg": 647,
+  "start": 3166.222,
+  "end": 3169.443,
+  "speaker": "Unknown",
+  "en": "So I think those are the two things that I think would happen.",
+  "zh": "所以我认为这就是我认为会发生的两件事。"
+ },
+ {
+  "seg": 648,
+  "start": 3169.983,
+  "end": 3170.363,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 649,
+  "start": 3170.763,
+  "end": 3176.044,
+  "speaker": "Unknown",
+  "en": "Multifunction robots that can be just taught by telling them what to do, showing them what to do.",
+  "zh": "是的,多功能的机器人,只需告诉它们做什么、演示给它们看做什么,就能教会它们。"
+ },
+ {
+  "seg": 650,
+  "start": 3176.504,
+  "end": 3176.744,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 651,
+  "start": 3176.844,
+  "end": 3184.406,
+  "speaker": "Unknown",
+  "en": "You make such a good point about, I mean, for the history of robots, it's always been the thing with the arms and the face and it talks.",
+  "zh": "你说得非常对，我是说，在机器人的历史上，它一直都是那种带手臂、有脸、会说话的东西。"
+ },
+ {
+  "seg": 652,
+  "start": 3185.006,
+  "end": 3185.306,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 653,
+  "start": 3185.606,
+  "end": 3187.587,
+  "speaker": "Unknown",
+  "en": "It doesn't have to be like that, right?",
+  "zh": "它不一定要是那样，对吧？"
+ },
+ {
+  "seg": 654,
+  "start": 3187.687,
+  "end": 3188.507,
+  "speaker": "Unknown",
+  "en": "And so, yeah.",
+  "zh": "所以，是啊。"
+ },
+ {
+  "seg": 655,
+  "start": 3189.227,
+  "end": 3196.913,
+  "speaker": "Unknown",
+  "en": "I can't wait until I have a disembodied arm robot that can do whatever I show it to do in my house, like load dishwashers.",
+  "zh": "我等不及要拥有一个无实体的手臂机器人，它能在我家里做我展示给它的任何事情，比如装洗碗机。"
+ },
+ {
+  "seg": 656,
+  "start": 3196.933,
+  "end": 3200.716,
+  "speaker": "Unknown",
+  "en": "So AI is reshaping a lot of software engineering jobs, right?",
+  "zh": "那么 AI 正在重塑很多软件工程的工作，对吧？"
+ },
+ {
+  "seg": 657,
+  "start": 3200.836,
+  "end": 3204.259,
+  "speaker": "Unknown",
+  "en": "I mean, it's a little scary and also enthralling at the same time.",
+  "zh": "我是说，这有点吓人，同时又很迷人。"
+ },
+ {
+  "seg": 658,
+  "start": 3204.88,
+  "end": 3206.981,
+  "speaker": "Unknown",
+  "en": "Some people are wondering where their careers are going to go.",
+  "zh": "一些人在想他们的职业会走向何方。"
+ },
+ {
+  "seg": 659,
+  "start": 3207.081,
+  "end": 3211.245,
+  "speaker": "Unknown",
+  "en": "And, you know, maybe you've inspired some people to look into this.",
+  "zh": "而且，你知道，也许你已经激励了一些人去研究这个领域。"
+ },
+ {
+  "seg": 660,
+  "start": 3211.345,
+  "end": 3217.55,
+  "speaker": "Unknown",
+  "en": "So if I'm a senior engineer today, I have no robotics background, but I have a heck of a lot of software background.",
+  "zh": "所以如果我是今天的一名资深工程师，我没有机器人学背景，但我有非常多的软件背景。"
+ },
+ {
+  "seg": 661,
+  "start": 3218.373,
+  "end": 3222.695,
+  "speaker": "Unknown",
+  "en": "What would you start learning besides the basics that we just talked about playing around?",
+  "zh": "除了我们刚才聊到的上手玩一玩这些基础之外，你会开始学什么？"
+ },
+ {
+  "seg": 662,
+  "start": 3223.075,
+  "end": 3225.497,
+  "speaker": "Unknown",
+  "en": "What's the best way to really get into this?",
+  "zh": "真正深入这个领域的最好方式是什么？"
+ },
+ {
+  "seg": 663,
+  "start": 3226.097,
+  "end": 3233.921,
+  "speaker": "Unknown",
+  "en": "The best way, if you want to get into robotics, is just starting, I believe, with simulation.",
+  "zh": "最好的方式，如果你想进入机器人领域，我相信就是从仿真开始。"
+ },
+ {
+  "seg": 664,
+  "start": 3234.481,
+  "end": 3243.425,
+  "speaker": "Unknown",
+  "en": "Because that is where it still feels like you're working with software, but you get to experience",
+  "zh": "因为在那里你仍然感觉是在和软件打交道，但你能体验到"
+ },
+ {
+  "seg": 665,
+  "start": 3244.626,
+  "end": 3260.618,
+  "speaker": "Unknown",
+  "en": "The physical challenges where you don't think about, just like you get exposed to gravity, you get exposed to friction, you get exposed to all the real world challenges that you will encounter when you get to the hardware.",
+  "zh": "那些你不会去想的物理挑战，就像你会接触到重力，会接触到摩擦力，会接触到等你到了硬件阶段时会遇到的所有真实世界的挑战。"
+ },
+ {
+  "seg": 666,
+  "start": 3260.818,
+  "end": 3265.882,
+  "speaker": "Unknown",
+  "en": "So I think that's the first thing is get out, start working with the simulator.",
+  "zh": "所以我认为第一件事就是走出去，开始使用仿真器。"
+ },
+ {
+  "seg": 667,
+  "start": 3266.622,
+  "end": 3275.386,
+  "speaker": "Unknown",
+  "en": "Get exposed to those terminologies and the data that you're not used to when you're working with code and software.",
+  "zh": "去接触那些你写代码、做软件时用不到的术语和数据。"
+ },
+ {
+  "seg": 668,
+  "start": 3276.026,
+  "end": 3290.653,
+  "speaker": "Unknown",
+  "en": "And then once you get comfortable with the simulation, then deploying it on hardware, as I mentioned, there is a lot of different hardware modalities that are available now where you can deploy the models that you've trained.",
+  "zh": "然后一旦你对仿真熟悉了，接下来就是部署到硬件上，正如我提到的，现在有很多不同的硬件模态可用，你可以把你训练好的模型部署上去。"
+ },
+ {
+  "seg": 669,
+  "start": 3291.313,
+  "end": 3294.054,
+  "speaker": "Unknown",
+  "en": "You can get one of those and start deploying them.",
+  "zh": "你可以买一台这样的设备，开始部署。"
+ },
+ {
+  "seg": 670,
+  "start": 3294.535,
+  "end": 3297.956,
+  "speaker": "Unknown",
+  "en": "You have to get physical when you're working with the physical AI.",
+  "zh": "当你在做物理 AI 时，你必须接触实体。"
+ },
+ {
+  "seg": 671,
+  "start": 3297.996,
+  "end": 3301.118,
+  "speaker": "Unknown",
+  "en": "So don't be intimidated by it, embrace it.",
+  "zh": "所以不要被它吓到，去拥抱它。"
+ },
+ {
+  "seg": 672,
+  "start": 3301.978,
+  "end": 3308.282,
+  "speaker": "Unknown",
+  "en": "And I think the more and more software developers and hardware developers work together,",
+  "zh": "而且我认为越来越多的软件开发者和硬件开发者一起合作，"
+ },
+ {
+  "seg": 673,
+  "start": 3309.315,
+  "end": 3310.816,
+  "speaker": "Unknown",
+  "en": "I think we'll have better systems.",
+  "zh": "我认为我们会有更好的系统。"
+ },
+ {
+  "seg": 674,
+  "start": 3311.156,
+  "end": 3323.039,
+  "speaker": "Unknown",
+  "en": "Today, still, I feel that a lot of times the hardware developers who are building the mechanical team is a little bit operating differently, decoupled from the software team.",
+  "zh": "今天，我仍然感觉很多时候，构建机械团队的硬件开发者的运作方式有点不同，与软件团队是解耦的。"
+ },
+ {
+  "seg": 675,
+  "start": 3323.84,
+  "end": 3330.362,
+  "speaker": "Unknown",
+  "en": "But I think when they start understanding each other's languages, which is what would happen if, you know,",
+  "zh": "但我认为当他们开始理解彼此的语言时——也就是如果，你知道，"
+ },
+ {
+  "seg": 676,
+  "start": 3331.102,
+  "end": 3337.246,
+  "speaker": "Unknown",
+  "en": "As software developers get into physical AI, they need to understand, you know, all the mechanical constraints.",
+  "zh": "随着软件开发者进入物理 AI，他们需要理解，你知道，所有的机械约束——"
+ },
+ {
+  "seg": 677,
+  "start": 3337.866,
+  "end": 3339.227,
+  "speaker": "Unknown",
+  "en": "That would be pretty exciting.",
+  "zh": "那会非常令人兴奋。"
+ },
+ {
+  "seg": 678,
+  "start": 3339.588,
+  "end": 3341.929,
+  "speaker": "Unknown",
+  "en": "And I think we'll have much more capable systems.",
+  "zh": "而且我认为我们会有能力强得多的系统。"
+ },
+ {
+  "seg": 679,
+  "start": 3342.569,
+  "end": 3346.832,
+  "speaker": "Unknown",
+  "en": "Before we talked, I was wondering if you're going to say like, oh, you need to go get a PhD in math or something.",
+  "zh": "在我们聊之前，我还在想你会不会说，哦，你需要去拿一个数学博士学位什么的。"
+ },
+ {
+  "seg": 680,
+  "start": 3346.852,
+  "end": 3347.873,
+  "speaker": "Unknown",
+  "en": "I'm joking, but like...",
+  "zh": "我在开玩笑，不过就像……"
+ },
+ {
+  "seg": 681,
+  "start": 3348.393,
+  "end": 3351.776,
+  "speaker": "Unknown",
+  "en": "I think what I'm hearing is like, no, that's starting to change.",
+  "zh": "我想我听到的是，不，情况开始改变了。"
+ },
+ {
+  "seg": 682,
+  "start": 3352.116,
+  "end": 3364.046,
+  "speaker": "Unknown",
+  "en": "Just like in software, when you wanted to mess around with, let's not even talk about LLMs, but machine learning, it used to be, you gotta know a lot of math, you gotta really get in there with the concepts, and now it's becoming a lot more user-friendly.",
+  "zh": "就像在软件领域，当你想搞点——我们先不谈 LLM——机器学习的时候，过去是你得懂数学，你得真正深入那些概念，而现在它变得对用户友好多了。"
+ },
+ {
+  "seg": 683,
+  "start": 3364.587,
+  "end": 3365.648,
+  "speaker": "Unknown",
+  "en": "Sounds the same thing.",
+  "zh": "听起来是同一回事。"
+ },
+ {
+  "seg": 684,
+  "start": 3366.057,
+  "end": 3369.879,
+  "speaker": "Unknown",
+  "en": "Yeah, I think the open source ecosystem around robotics is pretty strong.",
+  "zh": "是的，我觉得机器人领域的开源生态相当强大。"
+ },
+ {
+  "seg": 685,
+  "start": 3370.079,
+  "end": 3376.283,
+  "speaker": "Unknown",
+  "en": "You have everything that you need from tools, to assets, to models, it's all available.",
+  "zh": "你需要的一切都有，从工具，到资产，到模型，全都是现成可用的。"
+ },
+ {
+  "seg": 686,
+  "start": 3377.223,
+  "end": 3380.425,
+  "speaker": "Unknown",
+  "en": "So you can really go ahead then and get started.",
+  "zh": "所以你真的可以直接上手开始。"
+ },
+ {
+  "seg": 687,
+  "start": 3381.046,
+  "end": 3381.286,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 688,
+  "start": 3381.326,
+  "end": 3383.267,
+  "speaker": "Unknown",
+  "en": "Well, Amit, this was fantastic.",
+  "zh": "那么，Amit，这期太棒了。"
+ },
+ {
+  "seg": 689,
+  "start": 3383.727,
+  "end": 3384.928,
+  "speaker": "Unknown",
+  "en": "Super, super interesting.",
+  "zh": "超级、超级有意思。"
+ },
+ {
+  "seg": 690,
+  "start": 3385.208,
+  "end": 3388.51,
+  "speaker": "Unknown",
+  "en": "I really thank you for being here and explaining this to us.",
+  "zh": "我非常感谢你来到这里,并向我们解释这些。"
+ },
+ {
+  "seg": 691,
+  "start": 3389.07,
+  "end": 3389.67,
+  "speaker": "Unknown",
+  "en": "This is great.",
+  "zh": "真的感谢你来到这里并为我们讲解这些。"
+ },
+ {
+  "seg": 692,
+  "start": 3390.111,
+  "end": 3395.253,
+  "speaker": "Unknown",
+  "en": "And I really enjoyed being here and hope you have a good rest of your week.",
+  "zh": "这太好了。"
+ },
+ {
+  "seg": 693,
+  "start": 3395.773,
+  "end": 3396.173,
+  "speaker": "Unknown",
+  "en": "You too.",
+  "zh": "我也真的很高兴来到这里，祝你接下来一周愉快。"
+ },
+ {
+  "seg": 694,
+  "start": 3396.293,
+  "end": 3398.154,
+  "speaker": "Unknown",
+  "en": "Send me that dishwashing robot when you get it.",
+  "zh": "你也是。"
+ },
+ {
+  "seg": 695,
+  "start": 3398.314,
+  "end": 3399.155,
+  "speaker": "Unknown",
+  "en": "Yeah, I will.",
+  "zh": "你拿到那个洗碗机器人的时候，给我发一台。"
+ }
+]

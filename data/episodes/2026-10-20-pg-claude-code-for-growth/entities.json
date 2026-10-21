@@ -1,0 +1,2023 @@
+{
+  "episode_id": "2026-10-20-pg-claude-code-for-growth",
+  "podcast": "Product Growth Podcast",
+  "date": "2026-10-20",
+  "tags": [
+    "AI 智能体",
+    "增长",
+    "SEO",
+    "Claude Code",
+    "实验纪律"
+  ],
+  "categories": [
+    "增长与销售",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "james-mcaulay",
+      "type": "person",
+      "role": "host",
+      "name": "James McAulay",
+      "file": "James McAulay",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线:用 AI agent 做增长工作——从日常复盘、实验管理到 SEO 审计,嘉宾整个业务都跑在 agent 上,并教人『用 AI 智能体更快地增长』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            237.941,
+            243.204
+          ],
+          "quote": "And Claude or any agent that drops in here is sort of laser focused on the growth goals.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 93,
+          "t": [
+            274.164,
+            278.607
+          ],
+          "quote": "as we all know by now, an AI agent can be incredibly helpful.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 118,
+          "t": [
+            350.939,
+            353.262
+          ],
+          "quote": " Everything feeds back into whichever agent",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 170,
+          "t": [
+            503.477,
+            506.979
+          ],
+          "quote": "The agent builder will ask a few questions to shape it and then",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 171,
+          "t": [
+            507.039,
+            509.761
+          ],
+          "quote": "the agent connectors plug it into your stack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 173,
+          "t": [
+            511.362,
+            513.185
+          ],
+          "quote": "The agent reads the PRD,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 181,
+          "t": [
+            533.205,
+            535.4960000000001
+          ],
+          "quote": "Set up the agent once and it runs the work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 185,
+          "t": [
+            549.029,
+            551.1890000000001
+          ],
+          "quote": "The agent library is linked right there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 302,
+          "t": [
+            885.094,
+            887.736
+          ],
+          "quote": "So how do we spin up our first agent?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 319,
+          "t": [
+            933.094,
+            937.778
+          ],
+          "quote": " And so I had my files in the middle, agent on the right.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 324,
+          "t": [
+            950.38,
+            954.323
+          ],
+          "quote": "I was basically managing the coding agent,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1022.562,
+            1023.9929999999999
+          ],
+          "quote": "So let's get this agent spun out.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 408,
+          "t": [
+            1191.289,
+            1197.153
+          ],
+          "quote": "Okay, so we've run this setup and basically the agent has sort of looked through",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 579,
+          "t": [
+            1765.574,
+            1769.2060000000001
+          ],
+          "quote": "give it to the agent, and then ask the agent to kind of like make the change.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 603,
+          "t": [
+            1830.968,
+            1835.39
+          ],
+          "quote": "Can we go back to the agent that we spun up and that was pulling your context",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 604,
+          "t": [
+            1835.45,
+            1839.662
+          ],
+          "quote": "and just close the loop on how to build sort of like an autonomous growth agent?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 609,
+          "t": [
+            1859.255,
+            1863.418
+          ],
+          "quote": "an agent using something like Vercel's eFramework, OpenClaw, Hermes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 610,
+          "t": [
+            1864.218,
+            1869.761
+          ],
+          "quote": "My system is not really like this agent is 24-7 sitting on my Mac Mini doing work for me.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 612,
+          "t": [
+            1875.574,
+            1878.849
+          ],
+          "quote": "of like sending this agent off to do a piece of work that might take an hour.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 617,
+          "t": [
+            1899.316,
+            1904.179
+          ],
+          "quote": "an agent that sort of woke up Sunday, ran the test and then like sort of shut down.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 646,
+          "t": [
+            2002.831,
+            2008.315
+          ],
+          "quote": "Or is it like this kind of direct the agent, have them work for a few hours, come back?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 681,
+          "t": [
+            2108.942,
+            2112.083
+          ],
+          "quote": "I think we could call that sort of proactive agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 724,
+          "t": [
+            2232.621,
+            2236.825
+          ],
+          "quote": "you gave it to whichever agent is inside your repo and said slash goal,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 764,
+          "t": [
+            2350.299,
+            2352.12
+          ],
+          "quote": "the agent just looks at the PRD and it sees,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 768,
+          "t": [
+            2359.816,
+            2364.117
+          ],
+          "quote": "This is something that I use all the time, multi-agent refine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 781,
+          "t": [
+            2403.512,
+            2408.754
+          ],
+          "quote": "then this multi-agent refine Basically takes a few different approaches",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 789,
+          "t": [
+            2435.028,
+            2438.139111111111
+          ],
+          "quote": " I think the sub-agent that I find particularly helpful,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 792,
+          "t": [
+            2442.67,
+            2444.6144444444444
+          ],
+          "quote": "we'll go to an agent and we'll say,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 795,
+          "t": [
+            2453.252,
+            2456.833
+          ],
+          "quote": "And so if you ask an agent what's missing from this plan,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 797,
+          "t": [
+            2461.055,
+            2463.3883333333333
+          ],
+          "quote": "that your primary agent hadn't thought of.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 808,
+          "t": [
+            2496.442,
+            2500.102
+          ],
+          "quote": "And so I'm going to say Multi-Agent Refine OKRs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 823,
+          "t": [
+            2547.755,
+            2551.667
+          ],
+          "quote": "like whoever you look up to, you can basically train an agent on their writing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 824,
+          "t": [
+            2551.717,
+            2555.868
+          ],
+          "quote": "And then when you run multi-agent refine, it will sort of like approach it as they would.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 827,
+          "t": [
+            2562.558,
+            2567.051
+          ],
+          "quote": " The master agent is going to like review the results and then just go and fix it for you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 855,
+          "t": [
+            2643.198,
+            2646.9757777777777
+          ],
+          "quote": " And so now our main agent is like synthesizing what they all found.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 863,
+          "t": [
+            2663.051,
+            2667.774
+          ],
+          "quote": "surfaces like far more than just getting one agent to kind",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 872,
+          "t": [
+            2692.127,
+            2696.571
+          ],
+          "quote": "So should you be running like multi-agent review on the SEO audit or",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 879,
+          "t": [
+            2707.166,
+            2709.7599999999998
+          ],
+          "quote": "And the agent would go and research the code base.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 882,
+          "t": [
+            2715.338,
+            2718.463
+          ],
+          "quote": "And then I would multi-agent refine the PRD.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 886,
+          "t": [
+            2724.749,
+            2729.1378888888885
+          ],
+          "quote": "they'll kind of find improvements and maybe things that the first agent missed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 887,
+          "t": [
+            2729.233,
+            2734.277
+          ],
+          "quote": "So I'm often using multi-agent refine in this planning phase just before I then hand",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 888,
+          "t": [
+            2734.317,
+            2737.74
+          ],
+          "quote": "the plan over to the build agent or client.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 889,
+          "t": [
+            2738.347,
+            2741.149
+          ],
+          "quote": "And then once you have multi-agent review,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 956,
+          "t": [
+            2930.035,
+            2934.018
+          ],
+          "quote": "but if your agent can see all the event definitions in post-hog,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1007,
+          "t": [
+            3082.525,
+            3087.017
+          ],
+          "quote": "Then I multi-agent refined the PRD just to check that we were like taking the right approach.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1065,
+          "t": [
+            3234.448,
+            3235.289
+          ],
+          "quote": " can use any agent here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1066,
+          "t": [
+            3235.489,
+            3239.314
+          ],
+          "quote": " I'm primarily in Cloud Code, but like this is all set up in a kind of agent agnostic way.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1118,
+          "t": [
+            3401.3,
+            3404.8709999999996
+          ],
+          "quote": "So for the majority of last year, you know, people weren't using agent skills.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1168,
+          "t": [
+            3556.505,
+            3560.549
+          ],
+          "quote": "But I would love to reach a point where an agent came back to me and said,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1173,
+          "t": [
+            3567.876,
+            3574.522
+          ],
+          "quote": "And I think just this idea of like an agent running 24-7 is just not quite ironed out yet.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1176,
+          "t": [
+            3584.211,
+            3589.716
+          ],
+          "quote": "Instinct is kind of the latest personal agent and like Meta's Muse assistant this week as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1177,
+          "t": [
+            3589.796,
+            3593.861
+          ],
+          "quote": "Just this idea that like there's an agent not bound to your computer,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1247,
+          "t": [
+            3807.255,
+            3811.3105555555558
+          ],
+          "quote": "I think people don't realize that you can ask an agent to improve itself.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1251,
+          "t": [
+            3818.244,
+            3821.607
+          ],
+          "quote": "I was at this company, Jack and Jill, and they're an agent company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1287,
+          "t": [
+            3927.991,
+            3930.192
+          ],
+          "quote": "of like file based agent,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1294,
+          "t": [
+            3946.39,
+            3948.6677777777777
+          ],
+          "quote": "You obviously have the Agent Accelerator.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1302,
+          "t": [
+            3964.165,
+            3969.289
+          ],
+          "quote": "there's a link on the Agent Accelerator website to find out if we would be",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "growth",
+      "type": "concept",
+      "role": "concept",
+      "name": "growth",
+      "file": "growth",
+      "primary": true,
+      "how_described": "本集核心主题:增长的核心是优先级排序,他用一套『增长操作系统』(使命文件、季度 OKR、每周复盘)逼自己只做真正动指标的事。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.171,
+            3.386
+          ],
+          "quote": " AI has just completely unlocked what growth people can do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1,
+          "t": [
+            3.436,
+            7.011
+          ],
+          "quote": "We no longer need to wait for engineers to build growth experiments.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 3,
+          "t": [
+            11.127,
+            15.033
+          ],
+          "quote": "We're seeing these full-stack growth hires achieve incredible amounts.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 4,
+          "t": [
+            15.293,
+            19.237444444444442
+          ],
+          "quote": " I think this operating system will help you get better growth results.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 6,
+          "t": [
+            30.095,
+            33.687000000000005
+          ],
+          "quote": " It's my sort of take on how to work with Claude as a growth person.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 9,
+          "t": [
+            39.44,
+            43.613
+          ],
+          "quote": "and helped AI startups like Jack and Jill and Wonder Studios with their growth.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 33,
+          "t": [
+            114.652,
+            116.933
+          ],
+          "quote": " but what about all the important growth work,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 36,
+          "t": [
+            122.616,
+            124.277
+          ],
+          "quote": "And if you are on a growth team,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 38,
+          "t": [
+            127.138,
+            129.839
+          ],
+          "quote": "If you're a PM at a startup who has to handle growth work,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 39,
+          "t": [
+            129.88,
+            133.41199999999998
+          ],
+          "quote": "you might've been wondering, How do I apply this to my growth work?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 49,
+          "t": [
+            153.56,
+            158.227
+          ],
+          "quote": "I ran my own company as CEO for 10 years and I was responsible for growth there as",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 52,
+          "t": [
+            164.175,
+            166.739
+          ],
+          "quote": "And for me, that was a masterclass in growth.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 56,
+          "t": [
+            177.284,
+            180.396
+          ],
+          "quote": "I did some growth consulting for a few other AI companies.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 69,
+          "t": [
+            213.821,
+            218.565
+          ],
+          "quote": "some growth experiment discipline for anyone to kind of approach growth in",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 78,
+          "t": [
+            237.941,
+            243.204
+          ],
+          "quote": "And Claude or any agent that drops in here is sort of laser focused on the growth goals.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 113,
+          "t": [
+            329.974,
+            331.41844444444445
+          ],
+          "quote": "It's called Growth Agents,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 132,
+          "t": [
+            386.901,
+            391.116
+          ],
+          "quote": " So I guess you could call this like, yeah, an agentic growth operating system.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 133,
+          "t": [
+            391.166,
+            396.084
+          ],
+          "quote": "You could use this if you were like, you know, a full stack growth person, first growth hire.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 164,
+          "t": [
+            489.387,
+            492.639
+          ],
+          "quote": " Every growth team has a funnel they should be watching more closely.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 228,
+          "t": [
+            661.6,
+            663.642
+          ],
+          "quote": " Growth is all about prioritization.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 246,
+          "t": [
+            711.961,
+            715.702
+          ],
+          "quote": "I guess you could think about this as having your own growth lead",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1052.481,
+            1053.633
+          ],
+          "quote": "for growth experiments.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1056.106,
+            1060.493
+          ],
+          "quote": "I've set up a bunch of rules around like how to run growth experiments.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1092.387,
+            1096.428
+          ],
+          "quote": "It's very easy to start a growth experiment and then get distracted",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 376,
+          "t": [
+            1105.751,
+            1109.362
+          ],
+          "quote": "you have run like a bunch of growth experiments, but they're not documented.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1123.488,
+            1126.892
+          ],
+          "quote": "Let's use that to inform the next growth experiment.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 501,
+          "t": [
+            1530.419,
+            1532.2112222222222
+          ],
+          "quote": "Okay, so it's saying, yeah, you're a growth lead.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 523,
+          "t": [
+            1596.293,
+            1600.057
+          ],
+          "quote": " I do a lot of YouTube, as you do, for growth.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 604,
+          "t": [
+            1835.45,
+            1839.662
+          ],
+          "quote": "and just close the loop on how to build sort of like an autonomous growth agent?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 606,
+          "t": [
+            1840.573,
+            1847.573
+          ],
+          "quote": "So I guess I want to manage expectations here that these are not fully autonomous growth agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 620,
+          "t": [
+            1910.922,
+            1915.0886666666668
+          ],
+          "quote": "I think this operating system will like help you get better growth results.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 621,
+          "t": [
+            1915.386,
+            1920.55
+          ],
+          "quote": "And it's my sort of take on like how to work with Claude as a growth person.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 647,
+          "t": [
+            2008.575,
+            2012.197
+          ],
+          "quote": " I am painfully bad at focusing on growth stuff.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 676,
+          "t": [
+            2092.487,
+            2096.9314444444444
+          ],
+          "quote": " I mean, you said you're not doing much growth, but that sounds very scientific.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 677,
+          "t": [
+            2097.188,
+            2100.965777777778
+          ],
+          "quote": " It sounds like you're doing You're doing content-led growth, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 780,
+          "t": [
+            2401.552,
+            2403.462
+          ],
+          "quote": "But if I'm planning a piece of growth work,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 782,
+          "t": [
+            2408.834,
+            2412.016
+          ],
+          "quote": "on growth strategy and then comes back and says, okay,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 807,
+          "t": [
+            2494.421,
+            2496.392
+          ],
+          "quote": "But we've got their Q2 Growth OKRs, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 841,
+          "t": [
+            2603.623,
+            2607.6785555555557
+          ],
+          "quote": "This one, you're a skeptical critic reviewing this company's growth OKRs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 902,
+          "t": [
+            2765.026,
+            2768.057
+          ],
+          "quote": "you know, like many years ago when I was sort of running growth in a small startup.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 949,
+          "t": [
+            2913.032,
+            2918.795
+          ],
+          "quote": "So yeah, like PostHog plus Cloud Code is to me just like a growth person's dream.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 952,
+          "t": [
+            2919.935,
+            2921.2259999999997
+          ],
+          "quote": "if you're a growth person,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 960,
+          "t": [
+            2942.866,
+            2947.129
+          ],
+          "quote": "if you're a growth person that only has the UI and cannot see the code,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 974,
+          "t": [
+            2984.422,
+            2985.172
+          ],
+          "quote": "growth engineer,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1041,
+          "t": [
+            3163.533,
+            3166.274
+          ],
+          "quote": "So you've set up this agentic growth OS.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1137,
+          "t": [
+            3451.75,
+            3455.271
+          ],
+          "quote": "I would also bet that the majority of people in the growth team",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1141,
+          "t": [
+            3467.856,
+            3472.958
+          ],
+          "quote": "I don't think growth people and product people were inside Cloud Code this time last year.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1143,
+          "t": [
+            3474.919,
+            3475.699
+          ],
+          "quote": "as a growth industry,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1152,
+          "t": [
+            3496.882,
+            3498.7129999999997
+          ],
+          "quote": "in growth is going to be adopting?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1156,
+          "t": [
+            3517.156,
+            3520.198
+          ],
+          "quote": "And I have had attempts at building growth.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1181,
+          "t": [
+            3605.368,
+            3610.571
+          ],
+          "quote": "And then I think growth people will be tasked with pointing these agents at",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1189,
+          "t": [
+            3630.575,
+            3637.06
+          ],
+          "quote": "I was doing growth consulting and I got asked to do like a workshop teaching execs on AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1201,
+          "t": [
+            3671.509,
+            3674.673
+          ],
+          "quote": "Like at this point, I'm still just doing growth consulting.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1239,
+          "t": [
+            3785.119,
+            3787.8509999999997
+          ],
+          "quote": "being out of living labs, doing growth consulting.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集说他的一切工作都在终端里的 Claude Code 中运行,接入 PostHog、Stripe 等工具的 API/CLI/MCP,构建了他称之『agentic growth operating system』的东西。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            110.47,
+            114.47
+          ],
+          "quote": "We've been talking a lot about how you use Claude Code for product work,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 79,
+          "t": [
+            243.385,
+            246.487
+          ],
+          "quote": "So I've been using Claude code for this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 84,
+          "t": [
+            256.534,
+            258.81177777777776
+          ],
+          "quote": "This works in Claude code, Codex, Hermes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 95,
+          "t": [
+            280.087,
+            281.478
+          ],
+          "quote": " I'd heard about Claude Code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 332,
+          "t": [
+            976.994,
+            979.116
+          ],
+          "quote": "I was running Claude code through Cursor,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 335,
+          "t": [
+            983.74,
+            985.902
+          ],
+          "quote": "And I think just running Claude code,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 543,
+          "t": [
+            1660.764,
+            1667.129
+          ],
+          "quote": "You give Claude Code the API key and it can just research like any term for like a few cents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 692,
+          "t": [
+            2143.804,
+            2146.1949999999997
+          ],
+          "quote": "sending off different pieces of work to Claude Code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 941,
+          "t": [
+            2886.394,
+            2891.1717777777776
+          ],
+          "quote": " Created this post hoc account at the same time as I was like discovering Claude Code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 943,
+          "t": [
+            2895.141,
+            2897.8529999999996
+          ],
+          "quote": "Claude Code has done all of this through the API.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1049,
+          "t": [
+            3187.339,
+            3191.602
+          ],
+          "quote": "And I kind of like fell under the spell of Claude Code and thought",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1223,
+          "t": [
+            3733.848,
+            3735.499
+          ],
+          "quote": "Again, Claude Code set it up for me.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1282,
+          "t": [
+            3917.685,
+            3919.8559999999998
+          ],
+          "quote": "But once you get into Claude code and code work,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "type": "concept",
+      "role": "concept",
+      "name": "skills",
+      "file": "skills",
+      "primary": true,
+      "how_described": "本集说 skills 是他增长 OS 的组成部分(晨会技能、月度复盘、PRD 技能、SEO 审计等),并回忆 2025 年在 Eleven Labs 时 skills 还没被正式化、只能用 custom GPTs。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            50.427,
+            54.019000000000005
+          ],
+          "quote": "and that's because skills hadn't been formalized across the AI ecosystem.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 35,
+          "t": [
+            120.455,
+            122.34388888888888
+          ],
+          "quote": "These are really important skills.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 67,
+          "t": [
+            209.337,
+            211.16799999999998
+          ],
+          "quote": "I'm going to show you some skills.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 104,
+          "t": [
+            305.964,
+            309.846
+          ],
+          "quote": "with goals and also with skills and with tools.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 120,
+          "t": [
+            354.083,
+            356.186
+          ],
+          "quote": " I've also packaged up a bunch of skills.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 122,
+          "t": [
+            357.428,
+            360.70577777777777
+          ],
+          "quote": "These are skills genuinely that I use, you know, every day.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 125,
+          "t": [
+            369.085,
+            370.556
+          ],
+          "quote": " It's a collection of skills.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 130,
+          "t": [
+            382.196,
+            385.459
+          ],
+          "quote": "So it looks at the way you're working and it suggests new skills or it goes looking",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 256,
+          "t": [
+            750.995,
+            755.882
+          ],
+          "quote": "I have kind of stopped using these skills just sticking to execution.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 260,
+          "t": [
+            766.43,
+            768.371
+          ],
+          "quote": "I have iterated on these skills.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 297,
+          "t": [
+            875.249,
+            877.981
+          ],
+          "quote": "Well, maybe I'll have to give it a try with these updated skills.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 298,
+          "t": [
+            878.031,
+            879.692
+          ],
+          "quote": "Maybe my skills just weren't very good.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 491,
+          "t": [
+            1492.529,
+            1496.832
+          ],
+          "quote": "help you master frontier AI skills to become an AI native product builder",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 515,
+          "t": [
+            1579.869,
+            1580.92
+          ],
+          "quote": "We got these skills.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 518,
+          "t": [
+            1584.451,
+            1586.622
+          ],
+          "quote": "And the skills I've sort of put together,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 519,
+          "t": [
+            1586.672,
+            1589.564
+          ],
+          "quote": "we've got these content skills that I use all the time,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 531,
+          "t": [
+            1619.432,
+            1624.673
+          ],
+          "quote": "So he has done, he's done this amazing set of skills called Marketing Skills.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 602,
+          "t": [
+            1825.405,
+            1830.908
+          ],
+          "quote": "So yeah, one of my favorite skills, if you pair it up with data for SEO.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 607,
+          "t": [
+            1849.866,
+            1853.752
+          ],
+          "quote": "You can set up these skills to run on a schedule.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 608,
+          "t": [
+            1853.952,
+            1858.795
+          ],
+          "quote": "You can You can take any of these skills and you could create",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 623,
+          "t": [
+            1925.114,
+            1928.696
+          ],
+          "quote": "or why do we just have kind of like this schedule on skills?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 698,
+          "t": [
+            2161.113,
+            2161.854
+          ],
+          "quote": "And in these skills,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 912,
+          "t": [
+            2805.481,
+            2807.933
+          ],
+          "quote": "And then all the skills I showed you Weekly, Retro,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1113,
+          "t": [
+            3390.096,
+            3391.156
+          ],
+          "quote": "You know, skills,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1116,
+          "t": [
+            3393.557,
+            3398.679
+          ],
+          "quote": "but I'm pretty sure that like skills as a concept were really formalized",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1118,
+          "t": [
+            3401.3,
+            3404.8709999999996
+          ],
+          "quote": "So for the majority of last year, you know, people weren't using agent skills.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "sub-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "sub-agents",
+      "file": "sub-agents",
+      "primary": true,
+      "how_described": "本集说他每天用 multi-agent refine:派出 3 到 10 个带不同视角的 sub-agents(技术正确性、缺了什么、简洁性)攻击计划,效果远好于让单个智能体检查自己的工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 700,
+          "t": [
+            2162.114,
+            2163.9449999999997
+          ],
+          "quote": "you can spin these up as sub-agents,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 773,
+          "t": [
+            2374.681,
+            2380.407
+          ],
+          "quote": "like payments infrastructure, I'll run this skill that basically spawns sub-agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 779,
+          "t": [
+            2396.511,
+            2401.112
+          ],
+          "quote": "So if I'm building something, then it's these sub-agents in an engineering sense.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 814,
+          "t": [
+            2518.961,
+            2525.903
+          ],
+          "quote": " Okay, so it's going to spin up, I think, five sub-agents to critique our OKRs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 816,
+          "t": [
+            2531.684,
+            2534.4539999999997
+          ],
+          "quote": "there's some stock sub-agents that I use all the time,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 840,
+          "t": [
+            2601.643,
+            2603.4763333333335
+          ],
+          "quote": "You can see these are sub-agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 884,
+          "t": [
+            2719.945,
+            2723.308
+          ],
+          "quote": " Audit, PRD, five sub-agents attack the PRD.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "autonomous-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "autonomous agents",
+      "file": "autonomous agents",
+      "primary": true,
+      "how_described": "本集说自主智能体被过度炒作:网上声称 24 小时替自己干活的智能体,要么在烧 token 做无用功,要么只是每天发竞品简报;『创造智能体让它自己印钱』是推特上的幻想。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 622,
+          "t": [
+            1920.77,
+            1925.014
+          ],
+          "quote": "So are autonomous agents overhyped or are they just not there at quality",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 626,
+          "t": [
+            1935.362,
+            1938.9731111111112
+          ],
+          "quote": "that they have, you know, autonomous agents doing stuff for them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 632,
+          "t": [
+            1951.865,
+            1954.717
+          ],
+          "quote": "like people are using these kind of autonomous agents",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "okr",
+      "type": "concept",
+      "role": "concept",
+      "name": "OKR",
+      "file": "OKR",
+      "primary": true,
+      "how_described": "本集说他按季度运行 OKR,写进系统并回溯关联到年度使命,还现场用 multi-agent refine 让五个子智能体批评他的 Q2 增长 OKR。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 852,
+          "t": [
+            2632.589,
+            2637.814
+          ],
+          "quote": "or they've hedged some of the numbers because the wording of the OKR was wrong.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "seo",
+      "type": "concept",
+      "role": "concept",
+      "name": "SEO",
+      "file": "SEO",
+      "primary": true,
+      "how_described": "本集最实用的演示:SEO 审计技能十几分钟跑完反向链接、标题标签、页面速度、可抓取性,对比十年前花几千美元等三周的 SEO 代理报告。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            117.353,
+            120.295
+          ],
+          "quote": " SEO, ads, product marketing?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 123,
+          "t": [
+            361.134,
+            367.603
+          ],
+          "quote": "Morning stand-up skill, monthly retro, but also like a good PRD skill, an SEO audit, etc.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 134,
+          "t": [
+            396.134,
+            402.463
+          ],
+          "quote": "If you're quite specialized product marketer, SEO lead, you can basically onboard.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 528,
+          "t": [
+            1611.288,
+            1613.64
+          ],
+          "quote": "You mentioned SEO at the start of the call.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 533,
+          "t": [
+            1627.614,
+            1630.514
+          ],
+          "quote": "And his most popular one is SEO Audit.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 540,
+          "t": [
+            1648.2,
+            1653.123
+          ],
+          "quote": "for anyone doing SEO is Firecrawl, just like turn any website into an MD file.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 541,
+          "t": [
+            1653.743,
+            1658.422
+          ],
+          "quote": " And then also data for SEO, which is this like Dirt Cheap SEO API.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 544,
+          "t": [
+            1667.689,
+            1670.502
+          ],
+          "quote": "So I've like kind of wired those into the SEO audit.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 546,
+          "t": [
+            1675.616,
+            1680.12
+          ],
+          "quote": "when you can just do it in cents for whatever you need from data for SEO?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 550,
+          "t": [
+            1687.646,
+            1690.668
+          ],
+          "quote": "But I noticed, you know, I've done years of SEO work.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 560,
+          "t": [
+            1713.285,
+            1715.476
+          ],
+          "quote": "use data for SEO to create a keyword universe,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 572,
+          "t": [
+            1751.486,
+            1753.907
+          ],
+          "quote": "So I don't know how much you know about SEO,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 589,
+          "t": [
+            1788.865,
+            1792.6983333333333
+          ],
+          "quote": "which actually matters quite a lot for SEO and helps with conversion.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 600,
+          "t": [
+            1819.862,
+            1823.484
+          ],
+          "quote": "I literally deployed a new page and just ran SEO audit to check that again,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 602,
+          "t": [
+            1825.405,
+            1830.908
+          ],
+          "quote": "So yeah, one of my favorite skills, if you pair it up with data for SEO.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 614,
+          "t": [
+            1882.524,
+            1886.69
+          ],
+          "quote": "I've, you know, for example, the SEO audit, I have a cloud code routine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 706,
+          "t": [
+            2175.064,
+            2177.564
+          ],
+          "quote": "So maybe can we circle back to the SEO audit?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 707,
+          "t": [
+            2177.826,
+            2181.3815555555557
+          ],
+          "quote": "I think there we'll find that I don't focus on SEO quite enough.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 713,
+          "t": [
+            2197.866,
+            2200.9215555555556
+          ],
+          "quote": "Apparently, a lot of posts don't have SEO descriptions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 718,
+          "t": [
+            2212.402,
+            2217.105
+          ],
+          "quote": "And I remember 10 years ago, paying SEO agencies quite a lot of money to come back.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 726,
+          "t": [
+            2242.129,
+            2245.672
+          ],
+          "quote": " And so in about a couple of hours, we've just tidied up your SEO presence",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 730,
+          "t": [
+            2248.675,
+            2252.989
+          ],
+          "quote": "I'm actually literally in the process of looking at what happened to my SEO because",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 731,
+          "t": [
+            2253.039,
+            2258.824
+          ],
+          "quote": "in May I was getting like 25K visits from SEO and it's down to like 10K.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 755,
+          "t": [
+            2323.149,
+            2326.56
+          ],
+          "quote": "And I'll say, well, I think, you know, it might rank for this term on SEO.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 872,
+          "t": [
+            2692.127,
+            2696.571
+          ],
+          "quote": "So should you be running like multi-agent review on the SEO audit or",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1075,
+          "t": [
+            3268.474,
+            3271.274
+          ],
+          "quote": "On Analytics, I've got like VidIQ, Data for SEO.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "posthog",
+      "type": "company",
+      "role": "company",
+      "name": "PostHog",
+      "file": "PostHog",
+      "primary": true,
+      "how_described": "本集说 PostHog 是他推荐每个人首先设置的工具,有出色的 MCP/API/CLI,他的仪表盘和实验全是 Claude Code 通过 API 建的,『PostHog 加 Claude Code 是增长人的梦想组合』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 196,
+          "t": [
+            576.848,
+            580.751
+          ],
+          "quote": "For me, it's Stripe, PostHog, Xero, Atio.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 923,
+          "t": [
+            2833.406,
+            2837.946
+          ],
+          "quote": "This is all data that should come from PostHog, Mixpanel, Amplitude.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 925,
+          "t": [
+            2839.547,
+            2844.228
+          ],
+          "quote": "I haven't got PostHog set up, but I've referred in this like set of tools.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 926,
+          "t": [
+            2845.028,
+            2849.028
+          ],
+          "quote": "PostHog is like the first tool that I recommend everyone set up.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 927,
+          "t": [
+            2849.068,
+            2850.249
+          ],
+          "quote": "Have you used PostHog yourself?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 938,
+          "t": [
+            2874.607,
+            2878.31
+          ],
+          "quote": "They've got like a sort of PostHog wizard now that you just like one line",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 939,
+          "t": [
+            2878.33,
+            2882.8419999999996
+          ],
+          "quote": "into code code and PostHog will sort of, you know, run all your experiments for you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 949,
+          "t": [
+            2913.032,
+            2918.795
+          ],
+          "quote": "So yeah, like PostHog plus Cloud Code is to me just like a growth person's dream.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 981,
+          "t": [
+            3008.684,
+            3012.957
+          ],
+          "quote": " I'm going to create a new landing page and I'm just going to forget about PostHog.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 986,
+          "t": [
+            3016.509,
+            3020.852
+          ],
+          "quote": "okay, what is the system that means I never forget PostHog events ever again?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "firecrawl",
+      "type": "company",
+      "role": "company",
+      "name": "Firecrawl",
+      "file": "Firecrawl",
+      "primary": false,
+      "how_described": "本集说它把任何网页转成 MD 文件,绕开 Claude 抓网站时常碰到的 Cloudflare 拦截。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 540,
+          "t": [
+            1648.2,
+            1653.123
+          ],
+          "quote": "for anyone doing SEO is Firecrawl, just like turn any website into an MD file.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "data-for-seo",
+      "type": "company",
+      "role": "company",
+      "name": "data for SEO",
+      "file": "data for SEO",
+      "primary": false,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 541,
+          "t": [
+            1653.743,
+            1658.422
+          ],
+          "quote": " And then also data for SEO, which is this like Dirt Cheap SEO API.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 546,
+          "t": [
+            1675.616,
+            1680.12
+          ],
+          "quote": "when you can just do it in cents for whatever you need from data for SEO?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 560,
+          "t": [
+            1713.285,
+            1715.476
+          ],
+          "quote": "use data for SEO to create a keyword universe,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 602,
+          "t": [
+            1825.405,
+            1830.908
+          ],
+          "quote": "So yeah, one of my favorite skills, if you pair it up with data for SEO.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1075,
+          "t": [
+            3268.474,
+            3271.274
+          ],
+          "quote": "On Analytics, I've got like VidIQ, Data for SEO.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "jack-and-jill",
+      "type": "company",
+      "role": "company",
+      "name": "Jack and Jill",
+      "file": "Jack and Jill",
+      "primary": false,
+      "how_described": "本集提到的一家 AI 原生智能体招聘公司:Jack 跟候选人对话、Jill 跟招聘人员对话;嘉宾在那里第一次听到有人问智能体怎么改进自己的 system prompt。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            39.44,
+            43.613
+          ],
+          "quote": "and helped AI startups like Jack and Jill and Wonder Studios with their growth.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1251,
+          "t": [
+            3818.244,
+            3821.607
+          ],
+          "quote": "I was at this company, Jack and Jill, and they're an agent company.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "ElevenLabs",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

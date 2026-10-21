@@ -1,0 +1,173 @@
+{
+  "title_zh": "机器人脑子里装的是什么:NVIDIA 工程师讲透物理 AI",
+  "tldr": "NVIDIA 机器人生态负责人 Amit Goel 讲解物理 AI 如何看世界、做规划、控制马达，以及普通开发者如何入门。",
+  "digest_md": "过去几年，AI 改变的主要是数字世界，尤其是软件行业。Amit Goel 认为，AI 对物理世界的长期影响可能更深远——让汽车自己开、让工厂自己跑、让机器人走进仓库和家庭。他在 NVIDIA 工作了 15 年，现在负责机器人生态和边缘 AI 产品。在 Software Engineering Daily 这期节目里，他从头讲清楚了物理 AI 到底是怎么运转的。\n\n## 物理 AI 和大语言模型差在哪?\n\n区别一句话：**大语言模型处理的是比特，物理 AI 处理的是原子**。[03:18 Amit Goel]\n\n物理 AI 的输入是传感器、三维空间信息、视频，输出的是要在真实世界里执行的动作。其实它早就存在：Nest 温控器、根据路况调整的红绿灯、旧金山街上跑的 Waymo 无人车，都是某种形式的物理 AI。\n\n以前的物理 AI 都是为一个场景专门做的。现在变化在于，就像大语言模型把情感分析、翻译、摘要统一成了一个通用模型，物理 AI 也在走向一个模型理解多种任务的时代。\n\n## 世界模型：先预测，再行动\n\n核心概念叫世界模型。输入是当前世界的状态——摄像头画面、电机数据、语音指令、文字提示；输出是对未来的预测。[06:13 Amit Goel]\n\n比如一辆车可以问：我现在是这个速度，周围是这个情况，==接下来 5 秒世界会变成什么样==?机器人可以问：我要拿起那个东西，该往左还是往右，要不要弯腰?\n\n世界模型还能反过来用：我打算做这个动作，先告诉我做了之后世界会怎样——这样就能提前判断这个动作对不对。\n\n视频数据量极大，15 分钟视频就是好几个吉字节，所以世界模型处理的输入比文本模型大好几个数量级。[19:19 Amit Goel]\n\n## 机器人脑子里的 100 毫秒\n\n==从摄像头拍到画面到电机执行命令，中间发生了什么==?\n\n先把所有传感器数据同步——相机这一帧对应着当时每个电机的状态、姿态传感器的读数，融合在一起，连同历史帧一起输入模型。\n\n然后是两个环节。第一步是规划：一个自回归模型根据当前观察和任务目标，推理下一步该干什么。第二步是生成动作：一台机器人可能要同时控制 30 到 40 个电机，而且电流是连续信号，必须每毫秒都输出，这和逐字生成文本完全是两码事。[14:51 Amit Goel]\n\n所以是两个模型配合：规划的那个跑得慢一点，控制电机的那一个跑得飞快。 Cosmos 3 就采用了双塔设计——一个推理塔、一个动作塔，两个模型共享同一个潜在空间，像两个进程共享内存一样，通信带宽极高，虽然工作频率不同，却始终看着同一份上下文。[18:11 Amit Goel]\n\n打个比方：一个是画图纸的建筑师，一个是照图施工的执行者。\n\n## 训练物理 AI 需要三台计算机\n\n做大语言模型的开发者习惯了一切都在一个 GPU 集群上完成。物理 AI 不行。\n\n**它需要三台不同的计算机**：一台训练模型；一台跑物理模拟器，用来生成数据或做强化学习——这个模拟器最好用带光线追踪核心的 GPU,才能仿真传感器；第三台是部署用的，藏在机器人身体里的小计算机。[25:03 Amit Goel]\n\n数据管线也得重做。视频、电机指令、文字标注要并行读取，原来为文本训练搭的管线根本喂不饱 GPU,于是 NVIDIA 做了一个叫 Curator 的工具来处理海量视频。[23:23 Amit Goel]\n\nNVIDIA 研究团队的 Jim Fan 常开玩笑说，他很羡慕做大语言模型的朋友——人家的问题是 GPU 不够，他的问题是传感器数据丢一半、同步没做、线缆动不动就断。[26:01 Amit Goel]\n\n## 机器人怎么学新任务？看人做\n\n一条路是模仿学习：派很多人在不同环境里做同一个任务，收集数据，让模型见过足够多的变化，真实世界就落在它见过的分布里。\n\n但真实世界的分布是无限的，总会有没见过的情况。所以第二条路是配一个推理模型——它从互联网上的文本和视频里学到常识，遇到陌生情况，能判断这最接近哪类已知场景，再决定怎么办。[27:28 Amit Goel]\n\n机器人本是为工厂设计的，训练时却要喂它家里、户外、各种地方的数据，这样它才能泛化——不然工厂里来了一只猫它就懵了。\n\n波士顿街上有背包客背着摄像头和激光雷达到处走，那是在采集真实世界，把真实场景转成模拟环境(所谓 real-to-sim),再在里面做光照变化、道路变窄等增强，用来微调模型。[31:40 Amit Goel]\n\n## 文本模型会胡说，机器人胡说怎么办?\n\n文本模型幻觉顶多让人笑，机器人幻觉可能伤人。对策有好几层。\n\n可以在模拟环境里大量制造极端场景，给机器人的策略打分，看它出不出格。可以在规划那个脑子上加护栏，跟给大语言模型加约束一样。还可以在旁边放一个独立监视的 AI,只观察不行动，发现不对就接管。[35:13 Amit Goel]\n\n最有意思的是反事实能力：世界模型不是只会模仿正确做法，而是能在行动前推演出 10 种不同未来，逐一打分，选最安全、最接近目标的那个执行。NVIDIA 自动驾驶团队发布的推理模型 Alpamayo 就有这个能力。[36:48 Amit Goel] 不同地方的可接受行为也不同——波士顿和湾区、更别提别的国家的驾驶习惯，开放模型的好处就是可以按本地规矩微调。\n\n## 花一千美元，周末就能上手\n\nCosmos 3 Edge 是个 40 亿参数的世界模型，能塞进机器人当大脑，实时跑在一台护照大小的 Jetson Tor 计算机上，算力有 2000 teraops。1X 和 Boston Dynamics 的人形机器人都由这台小电脑驱动。[44:05 Amit Goel]\n\n> 【背景】原文转写为「Jetson Tor」，应指 NVIDIA 的 Jetson AGX Thor——护照大小、算力 2000 teraops 的机器人计算机。\n\n==普通人怎么入门==？先用笔记本电脑(带 4090 显卡)下载模拟器和现成模型，在模拟里玩起来。然后花几百美元买一只机械臂——SO101 是创客圈最流行的型号，可以 3D 打印，也可以买套件自己装。遥控它采集数据、传到 Hugging Face、训练策略、部署到机械臂上。预算 1000 美元、花几天时间，就能有自己的第一个物理 AI 模型动起来。[47:04 Amit Goel]\n\n挑硬件的诀窍：先选模型，再找和这个模型配套测试过的硬件，别自己去做适配。\n\n## 五年之后：不再想机器人的身体，而是想它能干什么\n\nAmit Goel 的两个预测：一，**机器人会从单一用途走向多功能**，提到机器人时你想的不再是那个身体，而是那件能帮你干一堆事的东西。二，编程机器人不再需要博士学位——演示一遍，或者遥控它做一两次，它就会了。今天听起来像魔法，五年后可能就是日常。[51:00 Amit Goel]\n\n> 【背景】NVIDIA 是生产 GPU 和 AI 计算硬件的公司；Hugging Face 是开放的机器学习模型分享平台;1X、Boston Dynamics 是做机器人的公司；Waymo 是 Alphabet 旗下的自动驾驶公司。\n\n## 本集带走\n\n- 物理 AI 和数字 AI 的本质区别：输入输出都是真实世界的原子，不是文本比特，数据量大几个数量级，且必须在设备上实时响应。\n- 世界模型是物理 AI 的核心：它能预测未来、规划路径、做反事实推演——行动前先在脑内模拟 10 种结果再选最安全的。\n- 双塔架构让机器人同时会想和会动：低频的推理塔做规划，高频的动作塔控制多个电机，两者共享潜在空间，像两个进程共享内存。\n- 训练物理 AI 需要 3 台计算机：训练集群、物理模拟器、机器人身上的小型边缘计算机，这是和大语言模型完全不同的基础设施。\n- 入门门槛已大幅降低：1000 美元预算、一台好电脑加一只几百美元的开源机械臂，几天就能跑起第一个物理 AI 模型。",
+  "quotes": [
+    {
+      "en": "But physical AI requires actually three computers.",
+      "zh": "但物理 AI 实际上需要三台计算机。",
+      "timestamp": "24:59",
+      "speaker": "Amit Goel"
+    },
+    {
+      "en": "However much data you collect in the real world, the real world has an infinite distribution.",
+      "zh": "无论你在真实世界收集多少数据，真实世界的分布是无限的。",
+      "timestamp": "27:57",
+      "speaker": "Amit Goel"
+    },
+    {
+      "en": "That's the biggest value of the world models is, you know, they can do counterfactuals.",
+      "zh": "这就是世界模型最大的价值所在，你知道，它们可以做反事实推演。",
+      "timestamp": "36:32",
+      "speaker": "Amit Goel"
+    },
+    {
+      "en": "As long as we have more people who have access to them with the right intention, they will outnumber the people who will have access to this with a bad intention.",
+      "zh": "只要更多能接触到这些模型的人怀着正确的意图，他们在数量上就会超过怀着不良意图接触到这项技术的人。",
+      "timestamp": "38:58",
+      "speaker": "Amit Goel"
+    },
+    {
+      "en": "I think if these models are open, you can introspect them and you can steer them.",
+      "zh": "我认为如果这些模型是开放的，你可以对它们进行内省，也可以对它们进行引导。",
+      "timestamp": "41:13",
+      "speaker": "Amit Goel"
+    },
+    {
+      "en": "It can run real-time on a Jetson Tor, which is, you know, a computer which is the size of a passport that has 2,000 teraops of compute.",
+      "zh": "它可以在 Jetson Tor 上实时运行，那是一台护照大小的计算机，拥有 2000 teraops 的算力。",
+      "timestamp": "43:55",
+      "speaker": "Amit Goel"
+    },
+    {
+      "en": "The embodiment is just an artifact.",
+      "zh": "实体形态只是一个附属品。",
+      "timestamp": "51:24",
+      "speaker": "Amit Goel"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "09:19",
+      "speaker": "Amit Goel",
+      "en": "the amount of data that gets fed into a world model is orders of magnitude more than what you would feed into a text LLM, right?",
+      "zh": "输入到世界模型中的数据量，比输入到文本 LLM 的数据量要大上好几个数量级，对吧？"
+    },
+    {
+      "timestamp": "10:02",
+      "speaker": "Amit Goel",
+      "en": "You do not have the luxury to say, it's okay if it takes one minute to get back to it with an answer.",
+      "zh": "你没有那种奢侈的条件说，等一分钟才得到答案也没关系。"
+    },
+    {
+      "timestamp": "10:11",
+      "speaker": "Amit Goel",
+      "en": "So you need to think about how you're going to make distilled version of these world models that can run on device.",
+      "zh": "所以你需要思考如何制作这些世界模型的蒸馏版本，让它们能在设备上运行。"
+    },
+    {
+      "timestamp": "14:22",
+      "speaker": "Amit Goel",
+      "en": "And one thing that's very unique about physical world is that a lot of things are continuous.",
+      "zh": "物理世界有一个非常独特的地方，那就是很多东西都是连续的。"
+    },
+    {
+      "timestamp": "14:42",
+      "speaker": "Amit Goel",
+      "en": "A sequence of text versus the current for 50 motors that you have to send it at every millisecond.",
+      "zh": "一段文本序列，对比 50 个电机你必须每毫秒发送的电流。"
+    },
+    {
+      "timestamp": "15:02",
+      "speaker": "Amit Goel",
+      "en": "A reasoning model that is planning can exist at a low frequency.",
+      "zh": "一个正在做规划的推理模型可以以低频率存在。"
+    },
+    {
+      "timestamp": "18:08",
+      "speaker": "Amit Goel",
+      "en": "The same thing we are doing at the model level now, right? Where in the latent space, we can share the information and the context between these two models.",
+      "zh": "我们现在在模型层面做的就是同样的事情，对吧？在潜空间里，我们可以在这两个模型之间共享信息和上下文。"
+    },
+    {
+      "timestamp": "22:45",
+      "speaker": "Amit Goel",
+      "en": "Because GPU's resources are super scarce and precious.",
+      "zh": "因为 GPU 的资源超级稀缺和宝贵。"
+    },
+    {
+      "timestamp": "23:00",
+      "speaker": "Amit Goel",
+      "en": "But it's just not possible to do that with the existing pipelines that were built for text-based model training.",
+      "zh": "但是用为文本模型训练构建的现有流水线，根本不可能做到这一点。"
+    },
+    {
+      "timestamp": "24:03",
+      "speaker": "Amit Goel",
+      "en": "For a word model, its job is to simulate the word.",
+      "zh": "而对于一个世界模型，它的任务是模拟这个世界。"
+    },
+    {
+      "timestamp": "24:59",
+      "speaker": "Amit Goel",
+      "en": "But physical AI requires actually three computers.",
+      "zh": "但物理 AI 实际上需要三台计算机。"
+    },
+    {
+      "timestamp": "25:16",
+      "speaker": "Amit Goel",
+      "en": "You cannot deploy it on the same infrastructure that you train it on.",
+      "zh": "你不能把它部署在你训练它的同一套基础设施上。"
+    },
+    {
+      "timestamp": "28:00",
+      "speaker": "Amit Goel",
+      "en": "However much data you collect in the real world, the real world has an infinite distribution.",
+      "zh": "无论你在真实世界收集多少数据，真实世界的分布是无限的。"
+    },
+    {
+      "timestamp": "36:32",
+      "speaker": "Amit Goel",
+      "en": "That's the biggest value of the world models is, you know, they can do counterfactuals.",
+      "zh": "这就是世界模型最大的价值所在，你知道，它们可以做反事实推演。"
+    },
+    {
+      "timestamp": "36:48",
+      "speaker": "Amit Goel",
+      "en": "And within that, it can reason, it can predict 10 different futures and choose one of them, right?",
+      "zh": "在其中，它可以推理，它可以预测 10 种不同的未来并选择其中之一，对吧？"
+    },
+    {
+      "timestamp": "38:58",
+      "speaker": "Amit Goel",
+      "en": "As long as we have more people who have access to them with the right intention, they will outnumber the people who will have access to this with a bad intention.",
+      "zh": "只要更多能接触到这些模型的人怀着正确的意图，他们在数量上就会超过怀着不良意图接触到这项技术的人。"
+    },
+    {
+      "timestamp": "41:13",
+      "speaker": "Amit Goel",
+      "en": "I think if these models are open, you can introspect them and you can steer them.",
+      "zh": "我认为如果这些模型是开放的，你可以对它们进行内省，也可以对它们进行引导。"
+    },
+    {
+      "timestamp": "44:03",
+      "speaker": "Amit Goel",
+      "en": "It can run real-time on a Jetson Tor, which is, you know, a computer which is the size of a passport that has 2,000 teraops of compute.",
+      "zh": "它可以在 Jetson Tor 上实时运行，那是一台护照大小的计算机，拥有 2000 teraops 的算力。"
+    },
+    {
+      "timestamp": "51:24",
+      "speaker": "Amit Goel",
+      "en": "The embodiment is just an artifact.",
+      "zh": "实体形态只是一个附属品。"
+    },
+    {
+      "timestamp": "52:04",
+      "speaker": "Amit Goel",
+      "en": "And teaching the robot with data is what is going to be magical.",
+      "zh": "用数据来教机器人，这将是神奇之处。"
+    }
+  ],
+  "voice_script": "今天咱们聊机器人，聊聊机器人脑子里到底装的是什么。嘉宾是 NVIDIA 的 Amit Goel,在这家公司干了十五年，现在负责机器人生态和边缘 AI 产品。他在 Software Engineering Daily 这期节目里，把一个叫“物理 AI”的东西从头到尾讲了一遍。\n\n先说这问题是怎么来的。过去几年，AI 改变的主要是数字世界，尤其是软件行业——写代码、做翻译、生成内容，都是比特层面的事。但 Amit Goel 认为AI 对物理世界的长期影响可能更深远：让汽车自己开、让工厂自己跑、让机器人走进仓库和家庭。这一块，他把它叫做物理 AI。\n\n那物理 AI 和大语言模型到底差在哪？区别一句话：大语言模型处理的是比特，物理 AI 处理的是原子。它的输入是传感器、三维空间信息、视频，输出的是要在真实世界里执行的动作。其实这东西早就存在了——Nest 温控器、根据路况调整的红绿灯、旧金山街上跑的 Waymo 无人车，都是某种形式的物理 AI。真正变了的是：以前的物理 AI 都是为一个场景专门做的，现在就像大语言模型把情感分析、翻译、摘要统一成了一个通用模型那样，物理 AI 也正在走向一个模型理解多种任务的时代。\n\n理解了这个区别，核心概念就来了，叫世界模型。它的输入是当前世界的状态——摄像头画面、电机数据、语音指令、文字提示；输出是对未来的预测。比如一辆车可以问：我现在是这个速度，周围是这个情况，接下来五秒世界会变成什么样？机器人可以问：我要拿起那个东西，该往左还是往右，要不要弯腰？更妙的是，世界模型还能反过来用：我打算做这个动作，先告诉我做了之后世界会怎样——这样就能提前判断这个动作对不对。顺便说一句，这事对算力要求极高，因为视频数据量太大了，十五分钟的视频就是好几个吉字节，所以世界模型处理的输入比文本模型大好几个数量级。\n\n有了世界模型这个概念，咱们可以拆开看一个具体的问题：从摄像头拍到画面，到电机真正执行命令，机器人脑子里这一百毫秒到底发生了什么？首先，要把所有传感器数据同步——相机这一帧，对应着当时每个电机的状态、姿态传感器的读数，融合在一起，连同历史帧一起输入模型。然后是两个环节。第一步是规划：一个自回归模型根据当前观察和任务目标，推理下一步该干什么。第二步是生成动作：一台机器人可能要同时控制三十到四十个电机，而且电流是连续信号，必须每毫秒都输出——这和逐字生成文本，完全是两码事。\n\n所以你需要两个模型配合：规划的那个跑得慢一点，控制电机的那一个跑得飞快。NVIDIA 的 Cosmos 3 就采用了双塔设计——一个推理塔、一个动作塔，两个模型共享同一个潜在空间，像两个进程共享内存一样，通信带宽极高。虽然工作频率不同，却始终看着同一份上下文。打个比方：一个是画图纸的建筑师，一个是照图施工的执行者。\n\n不过你可能会想，做大语言模型的开发者，习惯了一切都在一个 GPU 集群上完成，物理 AI 是不是也这样？不行。它需要三台不同的计算机：一台训练模型；一台跑物理模拟器，用来生成数据或做强化学习——这个模拟器最好用带光线追踪核心的 GPU,才能仿真传感器；第三台是部署用的，藏在机器人身体里的小计算机。数据管线也得重做，因为视频、电机指令、文字标注要并行读取，原来为文本训练搭的管线根本喂不饱 GPU,所以 NVIDIA 做了一个叫 Curator 的工具来处理海量视频。NVIDIA 研究团队的 Jim Fan 常开玩笑说，很羡慕做大语言模型的朋友——人家的问题是 GPU 不够，这边的问题是传感器数据丢一半、同步没做、线缆动不动就断。\n\n那机器人怎么学新任务呢？一条路是模仿学习：派很多人在不同环境里做同一个任务，收集数据，让模型见过足够多的变化，真实世界就落在它见过的分布里。但有句话说得特别到位：无论你在真实世界收集多少数据，真实世界的分布是无限的，总会有没见过的情况。所以第二条路是配一个推理模型——它从互联网上的文本和视频里学到常识，遇到陌生情况，能判断这最接近哪类已知场景，再决定怎么办。这也解释了一个反直觉的做法：机器人本是为工厂设计的，训练时却要喂它家里、户外、各种地方的数据，不然工厂里来了一只猫，它就懵了。为了拿到更多真实场景，波士顿街上有背包客背着摄像头和激光雷达到处走，把真实场景转成模拟环境，再在里面做光照变化、道路变窄这些增强，用来微调模型。\n\n这里就引出一个很自然的问题：文本模型会胡说，顶多让人一笑；机器人要是“胡说”，可能伤人。怎么办？对策有好几层。可以在模拟环境里大量制造极端场景，给机器人的策略打分，看出不出格；可以在规划那个脑子上加护栏，跟给大语言模型加约束一样；还可以在旁边放一个独立监视的 AI,只观察不行动，发现不对就接管。而最有意思的，是世界模型的反事实能力：它不是只会模仿正确做法，而是能在行动之前，推演出十种不同的未来，逐一打分，选最安全、最接近目标的那个去执行。NVIDIA 自动驾驶团队发布的推理模型 Alpamayo 就有这个能力。而且不同地方可接受的行为也不同——波士顿和湾区的驾驶习惯都不一样，更别提别的国家了，开放模型的好处就是可以按本地规矩微调。\n\n说到这儿你可能会觉得，这些都是 NVIDIA 这种公司玩的东西吧？其实门槛比你想的低得多。Cosmos 3 Edge 是个四十亿参数的世界模型，能塞进机器人当大脑，实时跑在一台护照大小的计算机上，算力有两千 teraops。1X 和 Boston Dynamics 的人形机器人，都由这台小电脑驱动。普通人入门的路子是：先用带 4090 显卡的笔记本电脑，下载模拟器和现成模型，在模拟里玩起来；然后花几百美元买一只机械臂——SO101 是创客圈最流行的型号，可以 3D 打印，也可以买套件自己装。遥控它采集数据、传到 Hugging Face、训练策略、再部署回机械臂。预算一千美元，花几天时间，你就有自己的第一个物理 AI 模型动起来了。挑硬件有个诀窍：先选模型，再找和这个模型配套测试过的硬件，别自己去做适配。\n\n最后是 Amit Goel 的两个预测。第一，机器人会从单一用途走向多功能——以后提到机器人，你想的不再是那个身体，而是那件能帮你干一堆事的东西。第二，编程机器人不再需要博士学位——演示一遍，或者遥控它做一两次，它就会了。今天听起来像魔法，五年后可能就是日常。就像这个节目的标题说的：机器人脑子里装的是什么？装的是能预测未来、会做反事实推演的世界模型。"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-20-bigtech-google-ceo-sundar-pichai-ai-s-infinite-p",
+  "audio_mp3": "https://pdst.fm/e/tracking.swap.fm/track/t7yC0rGPUqahTF4et8YD/pscrb.fm/rss/p/traffic.megaphone.fm/AMPP8673427150.mp3",
+  "duration_sec": 2782.42,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 521,
+  "asr": true,
+  "title_en": "Google CEO Sundar Pichai: AI’s Infinite Possibilities, Compute Scarcity Dilemmas, Future AI Products",
+  "podcast": "Big Technology Podcast",
+  "date": "2026-10-20",
+  "added": "2026-10-21",
+  "added_at": "2026-10-21T00:02:22.306Z",
+  "speaker_map": {
+    "SPEAKER_00": "Sundar Pichai",
+    "SPEAKER_01": "Alex"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Sundar Pichai",
+  "cohosts": [
+    "Alex"
+  ],
+  "title_zh": "Google 重回 AI 之巅：Sundar Pichai 谈算力争夺、模型自改进与太空数据中心",
+  "guest_name": "Sundar Pichai",
+  "guest_title": "Google CEO",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

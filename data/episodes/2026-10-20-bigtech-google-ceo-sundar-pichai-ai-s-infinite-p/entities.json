@@ -1,0 +1,1188 @@
+{
+  "episode_id": "2026-10-20-bigtech-google-ceo-sundar-pichai-ai-s-infinite-p",
+  "podcast": "Big Technology Podcast",
+  "date": "2026-10-20",
+  "tags": [
+    "AI 前沿竞争",
+    "算力与数据中心",
+    "智能体",
+    "递归自我改进",
+    "太空数据中心"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "sundar-pichai",
+      "type": "person",
+      "role": "host",
+      "name": "Sundar Pichai",
+      "file": "Sundar Pichai",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            123.397,
+            135.324
+          ],
+          "quote": "Alphabet CEO Sundar Pichai joins us to talk about Google's plan to compete on the frontier of AI, the balance between cutting edge AI research and the company's cloud business, and what the future of the interface looks like.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "alex",
+      "type": "person",
+      "role": "cohost",
+      "name": "Alex",
+      "file": "Alex",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            140.967,
+            141.507
+          ],
+          "quote": "Thanks, Alex.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 516,
+          "t": [
+            2775.938,
+            2776.439
+          ],
+          "quote": "Thanks, Alex.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "本集主角:Sundar Pichai 阐述 Google 重回 AI 前沿的战略——前沿研究算力投入不可谈判,云业务为此放弃短期收入,并在编程、数学等基准上超越 OpenAI 和 Anthropic 的公开模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            105.411,
+            109.174
+          ],
+          "quote": "Where's Google's Muse or its Dots product?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            123.397,
+            135.324
+          ],
+          "quote": "Alphabet CEO Sundar Pichai joins us to talk about Google's plan to compete on the frontier of AI, the balance between cutting edge AI research and the company's cloud business, and what the future of the interface looks like.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 39,
+          "t": [
+            142.848,
+            146.21
+          ],
+          "quote": "So Google is back on the frontier with Gemini 4 Argonne.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 43,
+          "t": [
+            160.602,
+            173.014
+          ],
+          "quote": "Now, the conventional wisdom had been that Google had basically given up on the frontier, that it was going to make these fast models that were good enough and use them in its products, and it wasn't pursuing frontier AI anymore.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 69,
+          "t": [
+            296.615,
+            300.8
+          ],
+          "quote": "Let me at least make the argument for why standard models might be good enough for Google.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 76,
+          "t": [
+            329.449,
+            345.053
+          ],
+          "quote": "If you need to do biological research, maybe the frontier is really necessary, but the people who would say, Google doesn't really need the frontier, they would say, you just need those standard models and you can put them in products like Maps and Gmail and Search.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 116,
+          "t": [
+            585.803,
+            590.787
+          ],
+          "quote": "Google has also had a scenario where its bots got access.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 155,
+          "t": [
+            850.102,
+            861.208
+          ],
+          "quote": "Google is somewhat unique in that you research the language or the LLM side of the equation, which started with the Transformer language, and then you also pursue world models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 174,
+          "t": [
+            985.443,
+            986.865
+          ],
+          "quote": "This is a big topic about Google.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            987.786,
+            999.819
+          ],
+          "quote": "I've had people suggest to me that Google should get out of the AI research game and take all of its cloud computing resources and its chips and just sell that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1173.397,
+            1183.421
+          ],
+          "quote": "The way I think about computer allocation is making sure Google DeepMind, both for research and frontier model development, is cutting edge in terms of compute access.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1644.599,
+            1647.12
+          ],
+          "quote": "And I was speaking with Sam Altman about the challenge from Google.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1654.551,
+            1660.035
+          ],
+          "quote": "And I don't know if he said it specifically like this, but he implied Google is bolting on AI to existing products.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 375,
+          "t": [
+            1972.46,
+            1981.307
+          ],
+          "quote": "Thought about where Google plays next, a question comes up, you know, where's Google's Muse or its Dots product?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 381,
+          "t": [
+            2014.277,
+            2019.241
+          ],
+          "quote": "And you saw us describe the early versions of it at Google I.O.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 394,
+          "t": [
+            2094.245,
+            2095.487
+          ],
+          "quote": "It'll work in Google search.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 403,
+          "t": [
+            2115.29,
+            2122.236
+          ],
+          "quote": "Google's invested and has committed tens of billions of dollars to Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2321.765,
+            2327.609
+          ],
+          "quote": "You recently, was it maybe last year, you said that 25% of code written within Google was written by AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 468,
+          "t": [
+            2492.678,
+            2497.243
+          ],
+          "quote": "Is there an unproven discipline in AI right now that Google is working hardest to crack?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "gemini",
+      "type": "concept",
+      "role": "concept",
+      "name": "Gemini",
+      "file": "Gemini",
+      "primary": true,
+      "how_described": "本集说 Gemini 是 Google 从零构建的 AI 原生应用,目标是成为个人化、主动且强大的助手;语音模型已好到 Pichai 说完不用回头修改一个字。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            142.848,
+            146.21
+          ],
+          "quote": "So Google is back on the frontier with Gemini 4 Argonne.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 58,
+          "t": [
+            232.474,
+            243.777
+          ],
+          "quote": "And in the first 72 hours since we launched, it's almost up to 25 trillion tokens used, which is about 3x what Gemini 3.0 had in the first 72 hours.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1566.252,
+            1578.962
+          ],
+          "quote": "Look, today, for example, I mean, nowadays, I just, even in my phone, like, you know, Gemini voice models are so good, I can just press the microphone button.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1639.197,
+            1643.338
+          ],
+          "quote": "Gemini was doing very well in OpenAI batting down the hatches.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1701.48,
+            1706.346
+          ],
+          "quote": "I mean, Gemini was built from the ground up, like as a product, the Gemini app I'm talking about.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1871.441,
+            1883.947
+          ],
+          "quote": "Is it possible to make search and Gmail powered by Gemini as good as search and Gmail that you access when you plug Gmail into your ChatGPT interface?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1891.409,
+            1903.82
+          ],
+          "quote": "We have one of the exciting things we announced recently is in a unified Gemini agent for enterprise, which we have announced and we're bringing that to consumers, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1926.645,
+            1935.293
+          ],
+          "quote": "You can address this agent, whether you're in Workspace, in Surge, in Gemini, all of it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1997.684,
+            2012.315
+          ],
+          "quote": "Look, we already today, so the way we have envisioned this, in fact, we described Gemini, our goal with Gemini app to be a personal, proactive, and powerful assistant.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 383,
+          "t": [
+            2021.382,
+            2033.094
+          ],
+          "quote": "But effectively, already, you know, if you open the Gemini app as a pro or an ultra user, you see Chat and Task, and they start giving you that agentic experience.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 386,
+          "t": [
+            2045.606,
+            2055.235
+          ],
+          "quote": "But over time, so you will soon in Gemini, you will be able to ask something and that will, it's a continuum.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 389,
+          "t": [
+            2070.201,
+            2073.425
+          ],
+          "quote": "Already empirically, when I look at what's coming into Gemini in our app,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 391,
+          "t": [
+            2080.171,
+            2085.937
+          ],
+          "quote": "But a steadily growing percentage is already agentic tasks in Gemini.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 393,
+          "t": [
+            2092.924,
+            2094.225
+          ],
+          "quote": "It'll work in the Gemini app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2173.086,
+            2178.468
+          ],
+          "quote": "With Apple, you had a partnership with them to license Gemini to them to help improve Siri.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2514.724,
+            2520.727
+          ],
+          "quote": "With our Gemini models early on, we had a one million context window on the input side, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "argon",
+      "type": "concept",
+      "role": "concept",
+      "name": "Argon(新前沿模型) (Argon)",
+      "file": "Argon(新前沿模型)",
+      "primary": true,
+      "how_described": "本集说 Google 新发布的世界领先前沿模型(转写稿中拼作 Argon/Argonne/Oregon/Orgon):发布 72 小时用了近 25 万亿 token,约为 Gemini 3.0 同期 3 倍;推出四周内代码提交量增 30%、回滚减少约三分之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 111,
+          "t": [
+            552.682,
+            563.566
+          ],
+          "quote": "And he talked about with Argon that one of the core innovations for Argon was relying more on the model to help develop the model, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 125,
+          "t": [
+            633.433,
+            642.902
+          ],
+          "quote": "You're right, Sergey mentioned RSI being a critical contributor as we are developing Argon.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            761.541,
+            766.703
+          ],
+          "quote": "So all that work is very, very important and we are doing a lot of that with Argon.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            965.402,
+            971.589
+          ],
+          "quote": "Yeah, I looked at your Twitter after the Argon announcement, and it's all just like real-world application.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 384,
+          "t": [
+            2034.175,
+            2038.479
+          ],
+          "quote": "With Argon now, that capability is dramatically X-rated.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 398,
+          "t": [
+            2102.715,
+            2107.301
+          ],
+          "quote": "It'll be powered by Argon, and so we are very excited to bring it to our users.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2343.558,
+            2348.161
+          ],
+          "quote": "What's now, what we are tracking with Argon, for example, we are now",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集的主线之一:Pichai 说前沿将是多个智能体协同工作,Google 要做云端 24-7 全天候运行的统一持久化智能体,在 Workspace、搜索、Gemini 里都能召唤,智能体任务占比在稳步上升。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            109.594,
+            117.259
+          ],
+          "quote": "Users both in consumer and enterprise will have access to kind of some multi-agent framework for them working all the time doing things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            518.049,
+            522.179
+          ],
+          "quote": "Kind of some multi-agent framework for them working all the time doing tanks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1132.394,
+            1137.357
+          ],
+          "quote": "Even if you think back to a year from today, last year, the agent recording takeoff hadn't happened.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1745.196,
+            1764.288
+          ],
+          "quote": "So for instance, if I'm asking my agent to go out and do something for me and it suggests a product, should it, I mean, maybe even if disclosed, does it get a cut of the sale if I make the sale or when you think about the way that you're gonna make money from these products, what's the plan?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1891.409,
+            1903.82
+          ],
+          "quote": "We have one of the exciting things we announced recently is in a unified Gemini agent for enterprise, which we have announced and we're bringing that to consumers, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1926.645,
+            1935.293
+          ],
+          "quote": "You can address this agent, whether you're in Workspace, in Surge, in Gemini, all of it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "recursive-self-improvement",
+      "type": "concept",
+      "role": "concept",
+      "name": "递归自我改进 (recursive self-improvement)",
+      "file": "递归自我改进",
+      "primary": true,
+      "how_described": "本集说前沿模型将更擅长开发下一代模型;Pichai 澄清今天的 RSI 是智能体与人类研究员以自动化方式协作开发模型,离完全无人还很远。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 86,
+          "t": [
+            401.07,
+            408.935
+          ],
+          "quote": "I think the frontier models will be better at developing the next set of models in an era of recursive self-improvement.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            528.616,
+            530.476
+          ],
+          "quote": "You mentioned recursive self-improvement.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 120,
+          "t": [
+            597.728,
+            614.891
+          ],
+          "quote": "There's enough evidence that they're not doing exactly what we want them to be doing, that this idea of pursuing this recursive self-improvement or even making the models better much faster, it's sort of freaky.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "compute",
+      "type": "concept",
+      "role": "concept",
+      "name": "算力 (compute)",
+      "file": "算力",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            41.949,
+            44.51
+          ],
+          "quote": "It's never been more challenging to get Frontier Compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 27,
+          "t": [
+            87.697,
+            92.901
+          ],
+          "quote": "So the compute we have today is a function of decisions I made in 2024.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            768.427,
+            780.271
+          ],
+          "quote": "So I think as an industry, we need to constantly up our game and take the time to do all this well, including dedicating the compute required to make sure you can safely deploy these models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            976.153,
+            985.183
+          ],
+          "quote": "OK, I want to talk to you about the way that you balance allocating compute, which is your most precious resource, between cloud and AI research.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 178,
+          "t": [
+            1020.377,
+            1023.58
+          ],
+          "quote": "Now you've said a big part of your job is figuring out how to allocate compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1033.083,
+            1041.251
+          ],
+          "quote": "The ground zero for us is making sure we are investing in the compute that's needed to be at the AI frontier.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1058.84,
+            1067.046
+          ],
+          "quote": "So I think that is ground zero for us, making sure both for research and developing the models that we have enough compute needed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1068.501,
+            1079.089
+          ],
+          "quote": "Beyond that, look, we have these independent businesses which each have their own long-range plans and so they're using those long-range plans to project forward and we plan for compute for all of them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1090.437,
+            1093.6
+          ],
+          "quote": "So with that help, we can plan on a long-term compute trajectory for them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            1104.207,
+            1109.531
+          ],
+          "quote": "But the first principles we operate on is to making sure we have enough compute to invest in the frontier.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1115.956,
+            1122.12
+          ],
+          "quote": "I think what you're seeing in these conversations is if you sit now, remember, we are building our own compute, our own data centers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1125.251,
+            1130.493
+          ],
+          "quote": "So the compute we have today is a function of decisions I made in 2024.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1173.397,
+            1183.421
+          ],
+          "quote": "The way I think about computer allocation is making sure Google DeepMind, both for research and frontier model development, is cutting edge in terms of compute access.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1187.563,
+            1192.786
+          ],
+          "quote": "I think it's great we can provide our compute to other people, too, like we have done.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1218.321,
+            1230.246
+          ],
+          "quote": "You know, I think it's a, yeah, it's a reasonable, like, you know, if today a customer is coming out and asking us for compute in 27, that is incredibly difficult to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1230.266,
+            1239.71
+          ],
+          "quote": "You know, there's part of the reason even last year we went out and leased some short-term compute was to accommodate some customers and help them out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1313.003,
+            1320.248
+          ],
+          "quote": "And based on all that, you take a disciplined approach, a confident, aggressive, but a disciplined approach to plan out compute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1348.013,
+            1353.336
+          ],
+          "quote": "And remember, what matters is a square set of everything you need to build out that compute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1379.313,
+            1388.261
+          ],
+          "quote": "But am I confident that the compute we are planning for, we will have uses for it given enough time?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1432.433,
+            1448.082
+          ],
+          "quote": "I think our cloud business is at any given moment in time foregoing short-term revenues because we are making compute trade-offs to support frontier AI development.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2276.593,
+            2297.627
+          ],
+          "quote": "And it's clear to me that it's an approach which will make a lot of sense in the future, being in sunsynchronous orbits with universe, I mean, 24-7 access to the most abundant form of energy we have access to will make a lot of sense for this exponential increase in compute that we are going to need.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2537.563,
+            2543.828
+          ],
+          "quote": "So part of, we do dedicate a meaningful percentage of our compute to these research bets too.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "alignment",
+      "type": "concept",
+      "role": "concept",
+      "name": "对齐 (alignment)",
+      "file": "对齐",
+      "primary": true,
+      "how_described": "本集说模型对齐良好但并非完美对齐,不完美是个大问题;对齐是活跃的研究领域、存在明显缺口,所以不能是唯一依赖,下一步是行业标准和独立评估者。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 135,
+          "t": [
+            696.01,
+            697.211
+          ],
+          "quote": "You're talking about alignment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            711.602,
+            713.764
+          ],
+          "quote": "So you have the work you do on alignment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            804.874,
+            817.739
+          ],
+          "quote": "I think all of us are, I think as an industry, I think you're definitely seeing an increased levels of work on alignment, testing for safety, et cetera, as we deploy these models.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "world-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "世界模型 (world model)",
+      "file": "世界模型",
+      "primary": true,
+      "how_described": "本集说 Google 独特地同时押注 LLM 和世界模型两条线:让模型理解物理定律、高保真模拟世界,是智能的关键基块,也让 Argon 在具身推理基准上达到最先进。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 156,
+          "t": [
+            862.188,
+            878.243
+          ],
+          "quote": "And there are some AI research efforts out there like OpenAI that have basically determined that the LLM is the path to AGI, and they've actually subset part of their world model research, which is like the AI model that tries to understand the physical world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 158,
+          "t": [
+            880.526,
+            885.23
+          ],
+          "quote": "So talk a little bit about why you find the world model side to be important.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 编程 (coding)",
+      "file": "AI 编程",
+      "primary": true,
+      "how_described": "本集说「AI 写了 25% 的代码」这个数字已无意义——每段代码都深受 AI 影响;新指标是模型发布四周内 CL 提交量增 30%、回滚减少约三分之一,工程师写得更快、质量更好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            151.293,
+            159.921
+          ],
+          "quote": "It beats OpenAI and Anthropics public models on a variety of benchmarks, including on coding, math, science, and knowledge work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 57,
+          "t": [
+            219.351,
+            231.434
+          ],
+          "quote": "But I think across the board, be it for agentic work, knowledge work, coding, creative tasks, I think Argonne is one of the really good frontier models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            285.932,
+            296.021
+          ],
+          "quote": "But even on coding, for example, there are areas, pockets, where we know we need to do better, and there's clear feedback, and so we'll make it better.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1787.831,
+            1794.833
+          ],
+          "quote": "I think developers are willing to pay for these coding models because it really makes them more productive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1794.933,
+            1800.494
+          ],
+          "quote": "Nobody would want to code the way they were coding three years ago or even like same time last year.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-native",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 原生 (AI native)",
+      "file": "AI 原生",
+      "primary": false,
+      "how_described": "本集说 Sam Altman 认为构建 AI 原生产品的 OpenAI 能击退把 AI 嫁接到现有产品的 Google;Pichai 回应说要构建 AI 原生的世界级产品体验,同时也适配现有产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 301,
+          "t": [
+            1647.726,
+            1653.951
+          ],
+          "quote": "What he said was he thought OpenAI would fend you off because they're building AI native.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1660.896,
+            1669.522
+          ],
+          "quote": "What is your view of whether a bolt-on, I wonder if you would accept that framing, can compete with an AI native product?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1724.308,
+            1732.631
+          ],
+          "quote": "I mean, I think of it as you want to build world-class product experiences that are AI native and they are winning.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集多次提及的竞争对手:Argon 在基准上击败其公开模型;其机器人曾突破封控入侵 Hugging Face;Greg Brockman 主张最好的产品是没有界面;Sam Altman 称 OpenAI 靠 AI 原生迎击 Google。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            151.293,
+            159.921
+          ],
+          "quote": "It beats OpenAI and Anthropics public models on a variety of benchmarks, including on coding, math, science, and knowledge work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 115,
+          "t": [
+            574.954,
+            585.783
+          ],
+          "quote": "Obviously the tech world, and now the world more broadly knows about the Hugging Face incident where OpenAI's bots broke containment and hacked into Hugging Face and did some crazy stuff.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 156,
+          "t": [
+            862.188,
+            878.243
+          ],
+          "quote": "And there are some AI research efforts out there like OpenAI that have basically determined that the LLM is the path to AGI, and they've actually subset part of their world model research, which is like the AI model that tries to understand the physical world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1491.309,
+            1494.691
+          ],
+          "quote": "I was speaking with Greg Brockman, the president of OpenAI, about this a couple months ago.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1630.773,
+            1633.434
+          ],
+          "quote": "Yeah, I'm just going to play the OpenAI hits.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1639.197,
+            1643.338
+          ],
+          "quote": "Gemini was doing very well in OpenAI batting down the hatches.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1647.726,
+            1653.951
+          ],
+          "quote": "What he said was he thought OpenAI would fend you off because they're building AI native.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1675.766,
+            1679.387
+          ],
+          "quote": "I think OpenAI has pushed us out as a company too.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集说 Google 已向 Anthropic 投入并承诺数百亿美元,因为其创始团队是世界级、参与过最早的 GPD 模型,Google 判断他们会处于前沿。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 403,
+          "t": [
+            2115.29,
+            2122.236
+          ],
+          "quote": "Google's invested and has committed tens of billions of dollars to Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2128.67,
+            2142.063
+          ],
+          "quote": "Very early on, when we looked at the founding team of Anthropic, it was very clear to us, you know, this was a world-class team which was involved in some of the earliest GPD models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 409,
+          "t": [
+            2157.2,
+            2161.486
+          ],
+          "quote": "We've done that with SpaceX, we've done that with Anthropic, and that's what we saw.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "deepmind",
+      "type": "company",
+      "role": "company",
+      "name": "DeepMind",
+      "file": "DeepMind",
+      "primary": false,
+      "how_described": "本集说算力分配的第一优先是保证 Google DeepMind 在研究和前沿模型开发上的算力获取处于最前沿,其余业务在此基础上排队。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 109,
+          "t": [
+            547.141,
+            552.202
+          ],
+          "quote": "And in fact, I think Sergey was doing this roundtable with researchers at DeepMind.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1173.397,
+            1183.421
+          ],
+          "quote": "The way I think about computer allocation is making sure Google DeepMind, both for research and frontier model development, is cutting edge in terms of compute access.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": false,
+      "how_described": "本集提到有人建议 Google 学 NVIDIA 专心卖算力——NVIDIA 因此成为 5 万亿美元的公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 177,
+          "t": [
+            1002.962,
+            1019.877
+          ],
+          "quote": "And NVIDIA, which is doing that effectively, a $5 trillion company, there's a push and pull between cloud that wants to sell this computing resource at a high markup and AI research that needs a very big computer to make the best AI.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "waymo",
+      "type": "company",
+      "role": "company",
+      "name": "Waymo",
+      "file": "Waymo",
+      "primary": false,
+      "how_described": "本集说 Pichai 拿 DARPA 沙漠挑战赛的 Stanley 车类比太空数据中心——当时像科幻,后来成了 Waymo,这条旅程已走了近 20 年。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 183,
+          "t": [
+            1048.633,
+            1057.839
+          ],
+          "quote": "So AI is that key horizontal ingredient across everything we do, all the way from search to cloud to Waymo to everything we do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2231.338,
+            2245.613
+          ],
+          "quote": "You know, projects like this remind me, I still recall that moment in the desert for the DARPA Grand Challenge, watching the Stanley car, you know, compete in it, which ended up being the basis for Waymo, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2270.369,
+            2273.211
+          ],
+          "quote": "Waymo, we are about almost 20 years into the journey.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "data center",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "sandbox",
+      "reason": "专名「sandbox」未在真相源出现,且不在别名表(疑编造)"
+    },
+    {
+      "name": "TPU",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

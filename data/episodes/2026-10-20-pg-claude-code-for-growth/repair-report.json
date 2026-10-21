@@ -1,0 +1,104 @@
+{
+  "kept": [
+    {
+      "i": 1,
+      "timestamp": "01:00",
+      "speaker": "James McAulay",
+      "trimmed": false,
+      "tsWas": "01:00",
+      "spkWas": "James McAulay"
+    },
+    {
+      "i": 3,
+      "timestamp": "11:51",
+      "speaker": "James McAulay",
+      "trimmed": false,
+      "tsWas": "11:51",
+      "spkWas": "James McAulay"
+    },
+    {
+      "i": 4,
+      "timestamp": "13:37",
+      "speaker": "James McAulay",
+      "trimmed": false,
+      "tsWas": "13:37",
+      "spkWas": "James McAulay"
+    },
+    {
+      "i": 5,
+      "timestamp": "14:03",
+      "speaker": "James McAulay",
+      "trimmed": false,
+      "tsWas": "14:03",
+      "spkWas": "James McAulay"
+    },
+    {
+      "i": 6,
+      "timestamp": "15:41",
+      "speaker": "James McAulay",
+      "trimmed": false,
+      "tsWas": "15:41",
+      "spkWas": "James McAulay"
+    },
+    {
+      "i": 7,
+      "timestamp": "19:47",
+      "speaker": "SPEAKER_01",
+      "trimmed": false,
+      "tsWas": "19:47",
+      "spkWas": "SPEAKER_01"
+    },
+    {
+      "i": 8,
+      "timestamp": "21:27",
+      "speaker": "James McAulay",
+      "trimmed": false,
+      "tsWas": "20:16",
+      "spkWas": "James McAulay"
+    },
+    {
+      "i": 9,
+      "timestamp": "33:04",
+      "speaker": "James McAulay",
+      "trimmed": false,
+      "tsWas": "33:07",
+      "spkWas": "James McAulay"
+    },
+    {
+      "i": 10,
+      "timestamp": "37:01",
+      "speaker": "James McAulay",
+      "trimmed": false,
+      "tsWas": "36:57",
+      "spkWas": "James McAulay"
+    },
+    {
+      "i": 11,
+      "timestamp": "44:17",
+      "speaker": "James McAulay",
+      "trimmed": false,
+      "tsWas": "44:17",
+      "spkWas": "James McAulay"
+    },
+    {
+      "i": 13,
+      "timestamp": "63:27",
+      "speaker": "James McAulay",
+      "trimmed": false,
+      "tsWas": "63:27",
+      "spkWas": "James McAulay"
+    }
+  ],
+  "dropped": [
+    {
+      "i": 2,
+      "reason": "命中片段跨说话人(占比0.86/连续他人3词,疑拼接)",
+      "en": "I only work with tools that have good APIs or good CLIs. Everything feeds back into whichever agent you're using."
+    },
+    {
+      "i": 12,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "I think my biggest piece of advice is like get everything connected as fast as possible. ... giving it full context across every ecosystem you work in is what kind of like helps it move at an incredible speed."
+    }
+  ]
+}

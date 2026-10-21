@@ -1,0 +1,5890 @@
+[
+ {
+  "seg": 0,
+  "start": 0.251,
+  "end": 3.5843333333333334,
+  "speaker": "Evan Conrad",
+  "en": "Nvidia is obviously like the 800-pound gorilla in the room.",
+  "zh": "Nvidia 显然是房间里那头 800 磅重的大猩猩。"
+ },
+ {
+  "seg": 1,
+  "start": 3.813,
+  "end": 6.094,
+  "speaker": "Evan Conrad",
+  "en": "Why didn't they make SF Compute?",
+  "zh": "为什么他们没有做 SF Compute?"
+ },
+ {
+  "seg": 2,
+  "start": 6.134,
+  "end": 10.636,
+  "speaker": "Evan Conrad",
+  "en": "So our impression is that Nvidia can't make it, but benefits tremendously from it existing.",
+  "zh": "所以我们的看法是，Nvidia 没法做这件事，但却从它的存在中获得巨大好处。"
+ },
+ {
+  "seg": 3,
+  "start": 10.656,
+  "end": 12.737,
+  "speaker": "Evan Conrad",
+  "en": "The reason why they can't make it is because they would",
+  "zh": "他们没法做的原因是，那样的话"
+ },
+ {
+  "seg": 4,
+  "start": 12.757,
+  "end": 15.923666666666666,
+  "speaker": "Evan Conrad",
+  "en": "then not be independent enough for people to trade on it.",
+  "zh": "他们就不够独立，人们没法在它上面交易。"
+ },
+ {
+  "seg": 5,
+  "start": 15.923666666666666,
+  "end": 25.78,
+  "speaker": "Unknown",
+  "en": "[music]",
+  "zh": "[音乐]"
+ },
+ {
+  "seg": 6,
+  "start": 25.78,
+  "end": 27.773,
+  "speaker": "SPEAKER_01",
+  "en": "Anyway, Evan, welcome back to Latent Space.",
+  "zh": "总之，Evan，欢迎回到 Latent Space。"
+ },
+ {
+  "seg": 7,
+  "start": 27.823,
+  "end": 28.184,
+  "speaker": "SPEAKER_01",
+  "en": "Thank you so much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 8,
+  "start": 28.204,
+  "end": 29.115,
+  "speaker": "SPEAKER_01",
+  "en": "Welcome back to AIE.",
+  "zh": "欢迎回到 AIE。"
+ },
+ {
+  "seg": 9,
+  "start": 29.165,
+  "end": 30.297,
+  "speaker": "SPEAKER_01",
+  "en": "Actually, first time at AIE.",
+  "zh": "其实，这是第一次参加 AIE。"
+ },
+ {
+  "seg": 10,
+  "start": 30.347,
+  "end": 31.729,
+  "speaker": "SPEAKER_01",
+  "en": "I think so, yeah.",
+  "zh": "我想是的，对。"
+ },
+ {
+  "seg": 11,
+  "start": 32.35,
+  "end": 36.716,
+  "speaker": "SPEAKER_01",
+  "en": "This is a very special one because I feel like you have been working",
+  "zh": "这一集很特别，因为我觉得你做"
+ },
+ {
+  "seg": 12,
+  "start": 36.736,
+  "end": 39.40266666666666,
+  "speaker": "SPEAKER_01",
+  "en": "on compute trading, compute markets for a while.",
+  "zh": "算力交易、算力市场已经有一段时间了。"
+ },
+ {
+  "seg": 13,
+  "start": 39.601,
+  "end": 41.156555555555556,
+  "speaker": "SPEAKER_01",
+  "en": "Now it's like feeling Yeah.",
+  "zh": "现在感觉就像 对。"
+ },
+ {
+  "seg": 14,
+  "start": 58.04,
+  "end": 60.26222222222222,
+  "speaker": "SPEAKER_01",
+  "en": "So people are going to watch your talk.",
+  "zh": "大家会去看你的演讲。"
+ },
+ {
+  "seg": 15,
+  "start": 60.781,
+  "end": 65.842,
+  "speaker": "SPEAKER_01",
+  "en": "I think it's a very good explanation of both your origin story and why you need",
+  "zh": "我觉得它非常好地解释了你们的起源故事、为什么你们需要存在，"
+ },
+ {
+  "seg": 16,
+  "start": 65.862,
+  "end": 69.702,
+  "speaker": "SPEAKER_01",
+  "en": "to exist and what the hard problems you work on done in a very simple,",
+  "zh": "以及你们在解决哪些难题，讲得非常简单、"
+ },
+ {
+  "seg": 17,
+  "start": 69.742,
+  "end": 70.712,
+  "speaker": "SPEAKER_01",
+  "en": "engaging manner.",
+  "zh": "引人入胜。"
+ },
+ {
+  "seg": 18,
+  "start": 70.762,
+  "end": 74.793,
+  "speaker": "SPEAKER_01",
+  "en": "I'm very jealous of your writing skills because you showed the flyer that you showed",
+  "zh": "我很嫉妒你的写作能力，因为你展示了你在"
+ },
+ {
+  "seg": 19,
+  "start": 74.843,
+  "end": 75.783,
+  "speaker": "SPEAKER_01",
+  "en": "at New Reps.",
+  "zh": "New Reps 上展示的那张传单。"
+ },
+ {
+  "seg": 20,
+  "start": 75.803,
+  "end": 78.803,
+  "speaker": "SPEAKER_01",
+  "en": "It's pretty straightforward and simple, and it's good.",
+  "zh": "它非常直白、简单，很好。"
+ },
+ {
+  "seg": 21,
+  "start": 79.344,
+  "end": 80.45511111111111,
+  "speaker": "SPEAKER_01",
+  "en": "So anyway, congrats.",
+  "zh": "所以，恭喜。"
+ },
+ {
+  "seg": 22,
+  "start": 80.544,
+  "end": 80.934,
+  "speaker": "SPEAKER_01",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 23,
+  "start": 80.984,
+  "end": 82.344,
+  "speaker": "Evan Conrad",
+  "en": "I appreciate that.",
+  "zh": "我很感激。"
+ },
+ {
+  "seg": 24,
+  "start": 82.464,
+  "end": 84.285,
+  "speaker": "Evan Conrad",
+  "en": "And also congrats on AIE.",
+  "zh": "也恭喜 AIE。"
+ },
+ {
+  "seg": 25,
+  "start": 84.75500000000001,
+  "end": 85.765,
+  "speaker": "Evan Conrad",
+  "en": "Y'all are rolling.",
+  "zh": "你们进展很猛。"
+ },
+ {
+  "seg": 26,
+  "start": 86.423,
+  "end": 87.013,
+  "speaker": "SPEAKER_01",
+  "en": "We're rolling.",
+  "zh": "我们确实进展很猛。"
+ },
+ {
+  "seg": 27,
+  "start": 87.063,
+  "end": 89.694,
+  "speaker": "SPEAKER_01",
+  "en": "I just came back from the site tour for next year's AIE.",
+  "zh": "我刚从明年 AIE 的场地考察回来。"
+ },
+ {
+  "seg": 28,
+  "start": 89.744,
+  "end": 91.904,
+  "speaker": "SPEAKER_01",
+  "en": "And then for- A hint?",
+  "zh": "然后是—— 有提示吗？"
+ },
+ {
+  "seg": 29,
+  "start": 91.964,
+  "end": 92.915,
+  "speaker": "SPEAKER_01",
+  "en": "At Javits Center.",
+  "zh": "在 Javits Center。"
+ },
+ {
+  "seg": 30,
+  "start": 92.965,
+  "end": 94.215,
+  "speaker": "SPEAKER_01",
+  "en": "It's the same place they do Comic-Con.",
+  "zh": "就是他们办漫展的那个地方。"
+ },
+ {
+  "seg": 31,
+  "start": 94.265,
+  "end": 95.305,
+  "speaker": "SPEAKER_01",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 32,
+  "start": 95.725,
+  "end": 96.35600000000001,
+  "speaker": "SPEAKER_01",
+  "en": "Wow.",
+  "zh": "哇。"
+ },
+ {
+  "seg": 33,
+  "start": 96.406,
+  "end": 97.406,
+  "speaker": "SPEAKER_01",
+  "en": "Wow.",
+  "zh": "哇。"
+ },
+ {
+  "seg": 34,
+  "start": 97.526,
+  "end": 98.296,
+  "speaker": "SPEAKER_01",
+  "en": "Damn.",
+  "zh": "厉害。"
+ },
+ {
+  "seg": 35,
+  "start": 98.346,
+  "end": 101.197,
+  "speaker": "SPEAKER_01",
+  "en": "But I think the finance focus is really hitting for folks.",
+  "zh": "不过我觉得金融这个主题对大家来说真的很吸引人。"
+ },
+ {
+  "seg": 36,
+  "start": 101.247,
+  "end": 101.977,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 37,
+  "start": 102.027,
+  "end": 104.248,
+  "speaker": "SPEAKER_01",
+  "en": "So we're going to try to split up.",
+  "zh": "所以我们打算试着做细分。"
+ },
+ {
+  "seg": 38,
+  "start": 104.988,
+  "end": 106.848,
+  "speaker": "SPEAKER_01",
+  "en": "Here, we just lump everything in finance.",
+  "zh": "在这里，我们把所有东西都笼统归为金融。"
+ },
+ {
+  "seg": 39,
+  "start": 106.888,
+  "end": 109.139,
+  "speaker": "SPEAKER_01",
+  "en": "Your finance, their finance, insurance is finance.",
+  "zh": "你的金融、他们的金融、保险也是金融。"
+ },
+ {
+  "seg": 40,
+  "start": 109.189,
+  "end": 110.659,
+  "speaker": "SPEAKER_01",
+  "en": "But they're all super different.",
+  "zh": "但它们其实都非常不同。"
+ },
+ {
+  "seg": 41,
+  "start": 110.709,
+  "end": 111.299,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah.",
+  "zh": "对。"
+ },
+ {
+  "seg": 42,
+  "start": 111.349,
+  "end": 117.211,
+  "speaker": "SPEAKER_01",
+  "en": "So we'll probably break out things more- Minutely in future because people want",
+  "zh": "所以我们未来可能会更细分地拆分—— 更细地拆分，因为大家想"
+ },
+ {
+  "seg": 43,
+  "start": 117.231,
+  "end": 120.182,
+  "speaker": "SPEAKER_01",
+  "en": "to go deep on hedge fund stuff or banking or personal wealth.",
+  "zh": "深入了解对冲基金、银行业或个人财富方面的内容。"
+ },
+ {
+  "seg": 44,
+  "start": 121.192,
+  "end": 122.573,
+  "speaker": "Evan Conrad",
+  "en": "Especially in New York.",
+  "zh": "尤其是在纽约。"
+ },
+ {
+  "seg": 45,
+  "start": 123.113,
+  "end": 126.744,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah, like Anthropic was like, yeah, we're all about RIAs right now.",
+  "zh": "对，比如 Anthropic 就说，对，我们现在专注于 RIA。"
+ },
+ {
+  "seg": 46,
+  "start": 126.794,
+  "end": 128.685,
+  "speaker": "SPEAKER_01",
+  "en": "RIAs, like Registered Investment Advisors.",
+  "zh": "RIA，就是注册投资顾问。"
+ },
+ {
+  "seg": 47,
+  "start": 128.735,
+  "end": 129.115,
+  "speaker": "SPEAKER_01",
+  "en": "Yes.",
+  "zh": "对。"
+ },
+ {
+  "seg": 48,
+  "start": 129.135,
+  "end": 130.08499999999998,
+  "speaker": "SPEAKER_01",
+  "en": "So different from you.",
+  "zh": "所以跟你不一样。"
+ },
+ {
+  "seg": 49,
+  "start": 130.135,
+  "end": 131.135,
+  "speaker": "Evan Conrad",
+  "en": "No, no, no.",
+  "zh": "对，对，对。"
+ },
+ {
+  "seg": 50,
+  "start": 133.376,
+  "end": 134.516,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah, yeah.",
+  "zh": "是的,是的。"
+ },
+ {
+  "seg": 51,
+  "start": 134.917,
+  "end": 136.74699999999999,
+  "speaker": "SPEAKER_01",
+  "en": "Okay, so for listeners who don't know,",
+  "zh": "好的,给不知道的听众说一下,"
+ },
+ {
+  "seg": 52,
+  "start": 136.797,
+  "end": 141.599,
+  "speaker": "SPEAKER_01",
+  "en": "we did a podcast two years ago where you talked about where SF Compute was.",
+  "zh": "我们两年前做过一期播客,当时你谈了 SF Compute 的状况。"
+ },
+ {
+  "seg": 53,
+  "start": 143.36,
+  "end": 146.281,
+  "speaker": "SPEAKER_01",
+  "en": "Today, you're much more in a sort of physical settlement.",
+  "zh": "今天,你在做的事情在某种意义上更偏向实物结算了。"
+ },
+ {
+  "seg": 54,
+  "start": 146.321,
+  "end": 149.4321111111111,
+  "speaker": "SPEAKER_01",
+  "en": "You talk about your back fabric, or what do you call it?",
+  "zh": "你谈到你的 back fabric,或者你们怎么称呼它?"
+ },
+ {
+  "seg": 55,
+  "start": 149.562,
+  "end": 150.562,
+  "speaker": "Evan Conrad",
+  "en": "The back plane.",
+  "zh": "背板(back plane)。"
+ },
+ {
+  "seg": 56,
+  "start": 150.223,
+  "end": 154.16744444444447,
+  "speaker": "SPEAKER_01",
+  "en": "Back plane, which obviously takes a lot of hardcore engineering stuff.",
+  "zh": "背板,这显然需要大量硬核的工程工作。"
+ },
+ {
+  "seg": 57,
+  "start": 154.324,
+  "end": 158.586,
+  "speaker": "SPEAKER_01",
+  "en": "Can you give a status update on where is SF Compute versus listeners",
+  "zh": "能否给一个进展更新,相对于两年前"
+ },
+ {
+  "seg": 58,
+  "start": 158.606,
+  "end": 160.957,
+  "speaker": "SPEAKER_01",
+  "en": "who last heard you on a podcast two years ago?",
+  "zh": "上次在播客里听过你们的听众,SF Compute 现在处于什么状态?"
+ },
+ {
+  "seg": 59,
+  "start": 161.007,
+  "end": 162.189,
+  "speaker": "Evan Conrad",
+  "en": "So when we started,",
+  "zh": "我们刚起步的时候,"
+ },
+ {
+  "seg": 60,
+  "start": 162.249,
+  "end": 164.332,
+  "speaker": "Evan Conrad",
+  "en": "we were this company called Junark and then we were just trying",
+  "zh": "我们是一家叫 Junark 的公司,当时我们只是想"
+ },
+ {
+  "seg": 61,
+  "start": 164.352,
+  "end": 165.68533333333335,
+  "speaker": "Evan Conrad",
+  "en": "to sublease our cluster.",
+  "zh": "转租我们的集群。"
+ },
+ {
+  "seg": 62,
+  "start": 166.695,
+  "end": 170.08,
+  "speaker": "Evan Conrad",
+  "en": "And we started there in the technical stack.",
+  "zh": "我们从技术栈那一层开始做。"
+ },
+ {
+  "seg": 63,
+  "start": 170.741,
+  "end": 174.266,
+  "speaker": "Evan Conrad",
+  "en": "And a way to think about it is it's like you're in a hotel and you're trying to sell",
+  "zh": "一个理解方式是,就像你住在一家酒店里,你试图把这个酒店房间卖出去,然后有人"
+ },
+ {
+  "seg": 64,
+  "start": 174.306,
+  "end": 176.13933333333335,
+  "speaker": "Evan Conrad",
+  "en": "that hotel room and then somebody",
+  "zh": "那间酒店房间,然后有人"
+ },
+ {
+  "seg": 65,
+  "start": 185.776,
+  "end": 188.758,
+  "speaker": "Evan Conrad",
+  "en": "And then they want room service,",
+  "zh": "然后他们想要客房服务,"
+ },
+ {
+  "seg": 66,
+  "start": 188.798,
+  "end": 190.119,
+  "speaker": "Evan Conrad",
+  "en": "and so you get access to the kitchen,",
+  "zh": "于是你获得了进入厨房的权限,"
+ },
+ {
+  "seg": 67,
+  "start": 190.159,
+  "end": 192.321,
+  "speaker": "Evan Conrad",
+  "en": "and then they want security,",
+  "zh": "然后他们想要安保,"
+ },
+ {
+  "seg": 68,
+  "start": 192.361,
+  "end": 193.982,
+  "speaker": "Evan Conrad",
+  "en": "and so you get access to the security closet,",
+  "zh": "于是你获得了进入安保储藏间的权限,"
+ },
+ {
+  "seg": 69,
+  "start": 194.022,
+  "end": 195.85399999999998,
+  "speaker": "Evan Conrad",
+  "en": "and you get this, and you do that, and you do this.",
+  "zh": "你拿到这个,你做成那个,你又做了这个。"
+ },
+ {
+  "seg": 70,
+  "start": 195.904,
+  "end": 198.095,
+  "speaker": "Evan Conrad",
+  "en": "And at a certain point, you're just running the whole hotel.",
+  "zh": "到了某个节点,你其实已经在运营整家酒店了。"
+ },
+ {
+  "seg": 71,
+  "start": 198.145,
+  "end": 200.643,
+  "speaker": "Evan Conrad",
+  "en": "And the moment you're running the whole hotel, you say, oh...",
+  "zh": "而当你运营整家酒店的那一刻,你说,哦……"
+ },
+ {
+  "seg": 72,
+  "start": 200.693,
+  "end": 201.875,
+  "speaker": "Evan Conrad",
+  "en": "Wait a second.",
+  "zh": "等一下。"
+ },
+ {
+  "seg": 73,
+  "start": 202.436,
+  "end": 203.027,
+  "speaker": "Evan Conrad",
+  "en": "Instead,",
+  "zh": "相反,"
+ },
+ {
+  "seg": 74,
+  "start": 203.077,
+  "end": 210.077,
+  "speaker": "Evan Conrad",
+  "en": "my supplier on this market is somebody that looks closer to a fund or a cloud",
+  "zh": "我在这个市场上的供应商,应该是一个更接近基金或云的角色,"
+ },
+ {
+  "seg": 75,
+  "start": 211.309,
+  "end": 212.13,
+  "speaker": "Evan Conrad",
+  "en": "that has access,",
+  "zh": "它拥有进入的权限,"
+ },
+ {
+  "seg": 76,
+  "start": 212.15,
+  "end": 215.52499999999998,
+  "speaker": "Evan Conrad",
+  "en": "in our case, a cloud that has access to the data center and we're going to level up.",
+  "zh": "在我们的例子里,是一个能进入数据中心的云,而我们要升级了。"
+ },
+ {
+  "seg": 77,
+  "start": 215.575,
+  "end": 218.156,
+  "speaker": "Evan Conrad",
+  "en": "And so what we've spent the last several years doing is building",
+  "zh": "所以过去几年我们一直在做的,就是构建"
+ },
+ {
+  "seg": 78,
+  "start": 218.197,
+  "end": 222.499,
+  "speaker": "Evan Conrad",
+  "en": "the entire operating capacity of a cloud in order to offer,",
+  "zh": "一朵云的完整运营能力,以便提供,"
+ },
+ {
+  "seg": 79,
+  "start": 223.259,
+  "end": 227.262,
+  "speaker": "Evan Conrad",
+  "en": "in order to actually deliver the compute at a reliable level.",
+  "zh": "以便真正以可靠的水平交付算力。"
+ },
+ {
+  "seg": 80,
+  "start": 228.282,
+  "end": 229.47299999999998,
+  "speaker": "Evan Conrad",
+  "en": "We call that physical settlement.",
+  "zh": "我们把这叫做实物结算(physical settlement)。"
+ },
+ {
+  "seg": 81,
+  "start": 229.523,
+  "end": 231.023,
+  "speaker": "Evan Conrad",
+  "en": "We're taking a term from...",
+  "zh": "我们借用了一个术语,来自……"
+ },
+ {
+  "seg": 82,
+  "start": 231.344,
+  "end": 232.035,
+  "speaker": "Evan Conrad",
+  "en": "The futures market.",
+  "zh": "期货市场。"
+ },
+ {
+  "seg": 83,
+  "start": 232.085,
+  "end": 232.825,
+  "speaker": "Evan Conrad",
+  "en": "From futures markets,",
+  "zh": "来自期货市场,"
+ },
+ {
+  "seg": 84,
+  "start": 232.845,
+  "end": 234.386,
+  "speaker": "Evan Conrad",
+  "en": "from other markets,",
+  "zh": "来自其他市场,"
+ },
+ {
+  "seg": 85,
+  "start": 234.906,
+  "end": 235.906,
+  "speaker": "Evan Conrad",
+  "en": "where in,",
+  "zh": "在那些市场里,"
+ },
+ {
+  "seg": 86,
+  "start": 236.207,
+  "end": 237.207,
+  "speaker": "Evan Conrad",
+  "en": "you know,",
+  "zh": "你知道,"
+ },
+ {
+  "seg": 87,
+  "start": 237.408,
+  "end": 239.01899999999998,
+  "speaker": "Evan Conrad",
+  "en": "oil or soybeans or something,",
+  "zh": "石油或大豆之类的,"
+ },
+ {
+  "seg": 88,
+  "start": 239.069,
+  "end": 243.291,
+  "speaker": "Evan Conrad",
+  "en": "physical settlement means you get delivered the oil and the soybeans.",
+  "zh": "实物结算意味着你真的会收到交付的石油和大豆。"
+ },
+ {
+  "seg": 89,
+  "start": 243.571,
+  "end": 244.571,
+  "speaker": "Evan Conrad",
+  "en": "But...",
+  "zh": "但是……"
+ },
+ {
+  "seg": 90,
+  "start": 245.452,
+  "end": 252.214,
+  "speaker": "Evan Conrad",
+  "en": "In some markets, like in oil and also in power, there's a delivery network.",
+  "zh": "在某些市场,比如石油和电力市场,存在一个交付网络。"
+ },
+ {
+  "seg": 91,
+  "start": 252.635,
+  "end": 254.415,
+  "speaker": "Evan Conrad",
+  "en": "In oil, you have to have pipelines.",
+  "zh": "在石油市场,你必须有管道。"
+ },
+ {
+  "seg": 92,
+  "start": 254.455,
+  "end": 259.62166666666667,
+  "speaker": "Evan Conrad",
+  "en": "If you would like the oil to be delivered to you, there has to be a way for it to get to you.",
+  "zh": "如果你想让石油被交付给你,就必须有办法让它送到你手上。"
+ },
+ {
+  "seg": 93,
+  "start": 259.857,
+  "end": 265.279,
+  "speaker": "SPEAKER_01",
+  "en": "And for people interested in financial history, during COVID, oil went negative.",
+  "zh": "对于对金融史感兴趣的人,新冠期间,石油价格变成了负数。"
+ },
+ {
+  "seg": 94,
+  "start": 266.019,
+  "end": 270.761,
+  "speaker": "SPEAKER_01",
+  "en": "So I will pay you to take oil from me because it is sitting there in the port.",
+  "zh": "也就是说我会付钱让你把我的石油拿走,因为它就堆在港口。"
+ },
+ {
+  "seg": 95,
+  "start": 271.421,
+  "end": 272.941,
+  "speaker": "SPEAKER_01",
+  "en": "And I can't pay for this.",
+  "zh": "而我付不起这些钱。"
+ },
+ {
+  "seg": 96,
+  "start": 273.121,
+  "end": 274.792,
+  "speaker": "SPEAKER_01",
+  "en": "And so I will pay you to take my oil.",
+  "zh": "所以我愿意付钱让你把我的石油运走。"
+ },
+ {
+  "seg": 97,
+  "start": 274.842,
+  "end": 275.922,
+  "speaker": "SPEAKER_01",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 98,
+  "start": 276.103,
+  "end": 278.514,
+  "speaker": "SPEAKER_01",
+  "en": "That is like the weirdness of physical settlement.",
+  "zh": "那就是实物结算的怪异之处。"
+ },
+ {
+  "seg": 99,
+  "start": 278.564,
+  "end": 279.174,
+  "speaker": "Evan Conrad",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 100,
+  "start": 279.224,
+  "end": 282.235,
+  "speaker": "Evan Conrad",
+  "en": "There's a bunch of weirdnesses like this in other markets as well.",
+  "zh": "其他市场里也有一堆这样的怪异之处。"
+ },
+ {
+  "seg": 101,
+  "start": 282.285,
+  "end": 284.666,
+  "speaker": "Evan Conrad",
+  "en": "So in the power markets and the grid,",
+  "zh": "比如在电力市场和电网里,"
+ },
+ {
+  "seg": 102,
+  "start": 285.546,
+  "end": 288.067,
+  "speaker": "Evan Conrad",
+  "en": "there's parts of the orders that you fill out,",
+  "zh": "订单的某些部分——你填写的那些订单,"
+ },
+ {
+  "seg": 103,
+  "start": 288.087,
+  "end": 293.89,
+  "speaker": "Evan Conrad",
+  "en": "the buy orders and sellers that are there because the boiler takes a while",
+  "zh": "买单和卖单之所以存在,是因为锅炉需要一段时间"
+ },
+ {
+  "seg": 104,
+  "start": 293.91,
+  "end": 294.91,
+  "speaker": "Evan Conrad",
+  "en": "to cool off.",
+  "zh": "才能冷却下来。"
+ },
+ {
+  "seg": 105,
+  "start": 295.671,
+  "end": 301.179,
+  "speaker": "Evan Conrad",
+  "en": "And you can stop the boiler and then you can start it back up again within some period of time.",
+  "zh": "你可以停掉锅炉,然后在某段时间之内再把它重新启动。"
+ },
+ {
+  "seg": 106,
+  "start": 301.28,
+  "end": 303.813,
+  "speaker": "Evan Conrad",
+  "en": "And so that has to get factored into the order book.",
+  "zh": "所以这一点必须被纳入订单簿的考量。"
+ },
+ {
+  "seg": 107,
+  "start": 303.863,
+  "end": 306.337,
+  "speaker": "Evan Conrad",
+  "en": "This genre thing is the same thing that happens in compute markets.",
+  "zh": "这类东西和算力市场里发生的事情是一样的。"
+ },
+ {
+  "seg": 108,
+  "start": 306.387,
+  "end": 309.772,
+  "speaker": "Evan Conrad",
+  "en": "So we co-designed physical settlement and the order book.",
+  "zh": "所以我们把实物交割和订单簿做了协同设计。"
+ },
+ {
+  "seg": 109,
+  "start": 309.792,
+  "end": 311.56977777777774,
+  "speaker": "Evan Conrad",
+  "en": "Very similar types of problems.",
+  "zh": "非常相似的问题类型。"
+ },
+ {
+  "seg": 110,
+  "start": 326.065,
+  "end": 326.496,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 111,
+  "start": 326.546,
+  "end": 330.241,
+  "speaker": "SPEAKER_01",
+  "en": "So people can refer to your talk and you've done a couple other podcasts already.",
+  "zh": "大家可以去参考你的演讲,你也已经做过另外几期播客了。"
+ },
+ {
+  "seg": 112,
+  "start": 330.291,
+  "end": 334.06877777777777,
+  "speaker": "SPEAKER_01",
+  "en": "So I want to be like the sort of 201 level instead of the 101 level.",
+  "zh": "所以我想做的是 201 级别的内容,而不是 101 级别的。"
+ },
+ {
+  "seg": 113,
+  "start": 334.517,
+  "end": 337.031,
+  "speaker": "SPEAKER_01",
+  "en": "And also because I have been a derivatives trader,",
+  "zh": "而且因为我本人做过衍生品交易员,"
+ },
+ {
+  "seg": 114,
+  "start": 337.081,
+  "end": 341.081,
+  "speaker": "SPEAKER_01",
+  "en": "so I can give people a bit more detail that you normally don't get into.",
+  "zh": "所以我可以给听众讲一些你平时不会深入讲的细节。"
+ },
+ {
+  "seg": 115,
+  "start": 341.848,
+  "end": 344.913,
+  "speaker": "SPEAKER_01",
+  "en": "So for example, how mature or deep or liquid",
+  "zh": "比如说,如今的算力市场"
+ },
+ {
+  "seg": 116,
+  "start": 345.013,
+  "end": 345.894,
+  "speaker": "Evan Conrad",
+  "en": "is the computer market today?",
+  "zh": "有多成熟、多深、流动性多好?"
+ },
+ {
+  "seg": 117,
+  "start": 346.415,
+  "end": 348.30388888888893,
+  "speaker": "Evan Conrad",
+  "en": "Not very mature or deep or liquid.",
+  "zh": "不算很成熟、不算很深、流动性也不算很好。"
+ },
+ {
+  "seg": 118,
+  "start": 348.879,
+  "end": 353.946,
+  "speaker": "Evan Conrad",
+  "en": "So what we've been doing is first we had to go get a bunch of supply online in",
+  "zh": "所以我们一直在做的,首先是得先把一大批供给上线,"
+ },
+ {
+  "seg": 119,
+  "start": 353.966,
+  "end": 356.219,
+  "speaker": "Evan Conrad",
+  "en": "the first place, which just takes a while.",
+  "zh": "而这本身就需要一段时间。"
+ },
+ {
+  "seg": 120,
+  "start": 356.269,
+  "end": 357.6578888888889,
+  "speaker": "Evan Conrad",
+  "en": "The nice part is that...",
+  "zh": "好的一面是……"
+ },
+ {
+  "seg": 121,
+  "start": 377.705,
+  "end": 380.699,
+  "speaker": "Evan Conrad",
+  "en": "Maybe I should have said the volume on the actual order book is small,",
+  "zh": "也许我应该说,实际订单簿上的成交量很小,"
+ },
+ {
+  "seg": 122,
+  "start": 380.749,
+  "end": 383.453,
+  "speaker": "Evan Conrad",
+  "en": "but the liquidity on the order book is high.",
+  "zh": "但订单簿上的流动性很高。"
+ },
+ {
+  "seg": 123,
+  "start": 383.554,
+  "end": 388.49844444444443,
+  "speaker": "Evan Conrad",
+  "en": "So for that small amount of capacity that you have, you have very concentrated liquidity.",
+  "zh": "对于那一小部分容量,你拥有非常集中的流动性。"
+ },
+ {
+  "seg": 124,
+  "start": 391.345,
+  "end": 395.351,
+  "speaker": "Evan Conrad",
+  "en": "The standard metric I would say for someone who is using this is a customer",
+  "zh": "对于使用这个系统的人来说,我会说标准指标是:"
+ },
+ {
+  "seg": 125,
+  "start": 395.391,
+  "end": 398.255,
+  "speaker": "Evan Conrad",
+  "en": "who buys capacity from us and they spend $100 to buy",
+  "zh": "一个从我们这里购买容量的客户,花 100 美元"
+ },
+ {
+  "seg": 126,
+  "start": 398.275,
+  "end": 402.8305555555555,
+  "speaker": "Evan Conrad",
+  "en": "that capacity will make back $25 on average from selling it back to somebody else.",
+  "zh": "买下那份容量,平均能通过把它卖回给别人赚回 25 美元。"
+ },
+ {
+  "seg": 127,
+  "start": 403.603,
+  "end": 408.77,
+  "speaker": "Evan Conrad",
+  "en": "And that's the number that we or this is one of the metrics We try to measure it by,",
+  "zh": "这就是我们用来衡量它的指标之一,"
+ },
+ {
+  "seg": 128,
+  "start": 408.87,
+  "end": 411.37,
+  "speaker": "Evan Conrad",
+  "en": "is this solving the problem for the customer?",
+  "zh": "也就是:这在为客户解决问题吗?"
+ },
+ {
+  "seg": 129,
+  "start": 423.991,
+  "end": 424.991,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah, got it.",
+  "zh": "对,明白了。"
+ },
+ {
+  "seg": 130,
+  "start": 425.132,
+  "end": 427.994,
+  "speaker": "SPEAKER_01",
+  "en": "And so last time we talked as well,",
+  "zh": "上次我们聊的时候,"
+ },
+ {
+  "seg": 131,
+  "start": 428.094,
+  "end": 431.42699999999996,
+  "speaker": "SPEAKER_01",
+  "en": "there was a lot of conversation about standardizing the contracts.",
+  "zh": "有很多关于把合约标准化的讨论。"
+ },
+ {
+  "seg": 132,
+  "start": 431.477,
+  "end": 432.408,
+  "speaker": "SPEAKER_01",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 133,
+  "start": 432.458,
+  "end": 435.7,
+  "speaker": "SPEAKER_01",
+  "en": "Talking with like the CFTC or whatever.",
+  "zh": "跟 CFTC 之类的机构谈什么的。"
+ },
+ {
+  "seg": 134,
+  "start": 435.92,
+  "end": 437.61199999999997,
+  "speaker": "SPEAKER_01",
+  "en": "What's the status of those things?",
+  "zh": "那些事情的进展如何了?"
+ },
+ {
+  "seg": 135,
+  "start": 437.662,
+  "end": 441.37399999999997,
+  "speaker": "Evan Conrad",
+  "en": "So I think standardizing the contracts in general is still pretty far away.",
+  "zh": "我认为合约标准化整体上仍然很远。"
+ },
+ {
+  "seg": 136,
+  "start": 441.424,
+  "end": 445.227,
+  "speaker": "Evan Conrad",
+  "en": "And what we were trying to do at the time was...",
+  "zh": "我们当时想做的事情是……"
+ },
+ {
+  "seg": 137,
+  "start": 448.227,
+  "end": 448.658,
+  "speaker": "Evan Conrad",
+  "en": "Or basically,",
+  "zh": "或者说,"
+ },
+ {
+  "seg": 138,
+  "start": 448.708,
+  "end": 451.892,
+  "speaker": "Evan Conrad",
+  "en": "what we learned over the last several years was we just needed to operate",
+  "zh": "过去几年我们学到的是,我们必须把整套东西"
+ },
+ {
+  "seg": 139,
+  "start": 451.912,
+  "end": 452.503,
+  "speaker": "Evan Conrad",
+  "en": "the whole thing.",
+  "zh": "自己运营起来。"
+ },
+ {
+  "seg": 140,
+  "start": 452.553,
+  "end": 454.246,
+  "speaker": "Evan Conrad",
+  "en": "Otherwise, you cannot standardize the thing.",
+  "zh": "否则你无法把这套东西标准化。"
+ },
+ {
+  "seg": 141,
+  "start": 454.296,
+  "end": 457.22999999999996,
+  "speaker": "Evan Conrad",
+  "en": "And so to get closer to something that can be standardized,",
+  "zh": "所以要想更接近可以被标准化的东西,"
+ },
+ {
+  "seg": 142,
+  "start": 457.28,
+  "end": 460.334,
+  "speaker": "Evan Conrad",
+  "en": "you first need to make all the operations of the thing the same.",
+  "zh": "你首先得把这套东西的所有运营操作都变得一致。"
+ },
+ {
+  "seg": 143,
+  "start": 460.384,
+  "end": 462.848,
+  "speaker": "Evan Conrad",
+  "en": "To give an example of what can be different,",
+  "zh": "举一个可以不一样的例子,"
+ },
+ {
+  "seg": 144,
+  "start": 463.768,
+  "end": 467.54577777777774,
+  "speaker": "Evan Conrad",
+  "en": "A single operator can offer two different types of virtual machines.",
+  "zh": "单个运营商可以提供两种不同类型的虚拟机。"
+ },
+ {
+  "seg": 145,
+  "start": 467.871,
+  "end": 469.531,
+  "speaker": "Evan Conrad",
+  "en": "One type of virtual machine might have",
+  "zh": "其中一种虚拟机可能"
+ },
+ {
+  "seg": 146,
+  "start": 469.551,
+  "end": 474.054,
+  "speaker": "Evan Conrad",
+  "en": "a 40% performance degradation versus another type of virtual machine.",
+  "zh": "相比另一种虚拟机有 40% 的性能退化。"
+ },
+ {
+  "seg": 147,
+  "start": 474.494,
+  "end": 475.975,
+  "speaker": "Evan Conrad",
+  "en": "And 40% is a lot.",
+  "zh": "而 40% 是很大的差异。"
+ },
+ {
+  "seg": 148,
+  "start": 476.195,
+  "end": 478.3061111111111,
+  "speaker": "SPEAKER_01",
+  "en": "When you say performance degradation,",
+  "zh": "你说性能退化的时候,"
+ },
+ {
+  "seg": 149,
+  "start": 477.316,
+  "end": 480.397,
+  "speaker": "SPEAKER_01",
+  "en": "are you talking like MFU type things or like amount of burn-in",
+  "zh": "你说的是 MFU 那类东西,还是烧机( burn-in )的量"
+ },
+ {
+  "seg": 150,
+  "start": 480.417,
+  "end": 481.87899999999996,
+  "speaker": "SPEAKER_01",
+  "en": "that you've experienced or what?",
+  "zh": "你经历过的，还是什么？"
+ },
+ {
+  "seg": 151,
+  "start": 481.929,
+  "end": 482.65999999999997,
+  "speaker": "Evan Conrad",
+  "en": "It will affect,",
+  "zh": "它会影响，"
+ },
+ {
+  "seg": 152,
+  "start": 482.71,
+  "end": 483.74,
+  "speaker": "Evan Conrad",
+  "en": "so in this particular case,",
+  "zh": "所以在这个具体的例子中，"
+ },
+ {
+  "seg": 153,
+  "start": 483.79,
+  "end": 487.382,
+  "speaker": "Evan Conrad",
+  "en": "I'm talking about GPU kernel launches and how long it takes for that to happen,",
+  "zh": "我说的是 GPU kernel 启动以及它需要多长时间才能完成，"
+ },
+ {
+  "seg": 154,
+  "start": 487.432,
+  "end": 490.194,
+  "speaker": "Evan Conrad",
+  "en": "which is a process that happens quite frequently when you're doing sort",
+  "zh": "这个过程在你做训练或推理时发生得非常频繁，"
+ },
+ {
+  "seg": 155,
+  "start": 490.214,
+  "end": 491.99177777777777,
+  "speaker": "Evan Conrad",
+  "en": "of either training or inference.",
+  "zh": "无论是训练还是推理。"
+ },
+ {
+  "seg": 156,
+  "start": 495.82,
+  "end": 498.081,
+  "speaker": "Evan Conrad",
+  "en": "The end result is that you get a worse MFU.",
+  "zh": "最终的结果是你得到更差的 MFU。"
+ },
+ {
+  "seg": 157,
+  "start": 499.381,
+  "end": 503.484,
+  "speaker": "SPEAKER_01",
+  "en": "It's the intermediate level.",
+  "zh": "这是中间层级的。"
+ },
+ {
+  "seg": 158,
+  "start": 503.664,
+  "end": 508.3306666666667,
+  "speaker": "SPEAKER_01",
+  "en": "For anyone who's traded commodities before, there's different grades of commodities.",
+  "zh": "对于任何交易过大宗商品的人来说，大宗商品有不同的等级。"
+ },
+ {
+  "seg": 159,
+  "start": 508.628,
+  "end": 513.0200000000001,
+  "speaker": "SPEAKER_01",
+  "en": "It's not oil, it's light sweet crude versus whatever the opposite of light sweet crude is.",
+  "zh": "它不是石油，它是轻质低硫原油对比轻质低硫原油的反面那种东西。"
+ },
+ {
+  "seg": 160,
+  "start": 513.07,
+  "end": 518.354,
+  "speaker": "SPEAKER_01",
+  "en": "Or it's corn level A or corn B or whatever.",
+  "zh": "或者是 A 级玉米或 B 级玉米之类的。"
+ },
+ {
+  "seg": 161,
+  "start": 519.074,
+  "end": 521.3660000000001,
+  "speaker": "SPEAKER_01",
+  "en": "You have to establish the equivalents of those things.",
+  "zh": "你必须建立这些东西的等价标准。"
+ },
+ {
+  "seg": 162,
+  "start": 521.416,
+  "end": 523.003,
+  "speaker": "SPEAKER_01",
+  "en": "I'm wondering if they have been established.",
+  "zh": "我在想他们是否已经建立了这些标准。"
+ },
+ {
+  "seg": 163,
+  "start": 523.053,
+  "end": 527.3290000000001,
+  "speaker": "Evan Conrad",
+  "en": "So what we did instead was we created an order book that had multiple different constraints.",
+  "zh": "所以我们改为创建了一个带有多重不同约束条件的订单簿。"
+ },
+ {
+  "seg": 164,
+  "start": 527.379,
+  "end": 531.3234444444445,
+  "speaker": "Evan Conrad",
+  "en": "And you can say, I want to have something that's between this and that.",
+  "zh": "你可以说，我想要一个在这和那之间的东西。"
+ },
+ {
+  "seg": 165,
+  "start": 531.506,
+  "end": 533.506,
+  "speaker": "Evan Conrad",
+  "en": "It runs from this time to this time.",
+  "zh": "它从这个时间运行到那个时间。"
+ },
+ {
+  "seg": 166,
+  "start": 533.749,
+  "end": 535.832,
+  "speaker": "Evan Conrad",
+  "en": "It's like X to Y.",
+  "zh": "就像 X 到 Y。"
+ },
+ {
+  "seg": 167,
+  "start": 535.852,
+  "end": 538.2650000000001,
+  "speaker": "Evan Conrad",
+  "en": "It's a bunch of different properties that you can attach to your order.",
+  "zh": "这是一堆你可以附加到订单上的不同属性。"
+ },
+ {
+  "seg": 168,
+  "start": 538.315,
+  "end": 542.888,
+  "speaker": "Evan Conrad",
+  "en": "And then we match that against cell orders that have those properties in a big matching engine.",
+  "zh": "然后我们在一个大型撮合引擎中将其与具有这些属性的卖单进行匹配。"
+ },
+ {
+  "seg": 169,
+  "start": 542.938,
+  "end": 546.291,
+  "speaker": "Evan Conrad",
+  "en": "And the reason why we did it this way is it allows us to generate liquidity",
+  "zh": "我们这样做的原因是，它让我们能够在你还不知道这项技术能做什么之前就生成流动性，"
+ },
+ {
+  "seg": 170,
+  "start": 546.341,
+  "end": 550.2330000000001,
+  "speaker": "Evan Conrad",
+  "en": "without having to standardize before you know what the technology can do.",
+  "zh": "而不必先进行标准化。"
+ },
+ {
+  "seg": 171,
+  "start": 550.283,
+  "end": 555.4770000000001,
+  "speaker": "Evan Conrad",
+  "en": "And because the technology was shifting so quickly, we wanted to basically be able to do that.",
+  "zh": "而且由于技术变化如此之快，我们基本上希望能够做到这一点。"
+ },
+ {
+  "seg": 172,
+  "start": 555.527,
+  "end": 558.479,
+  "speaker": "Evan Conrad",
+  "en": "The tradeoff of this is that you have less concentrated liquidity.",
+  "zh": "这样做的代价是流动性没那么集中。"
+ },
+ {
+  "seg": 173,
+  "start": 558.529,
+  "end": 560.26,
+  "speaker": "Evan Conrad",
+  "en": "And so the prices are going to have,",
+  "zh": "所以价格会有，"
+ },
+ {
+  "seg": 174,
+  "start": 560.31,
+  "end": 563.2420000000001,
+  "speaker": "Evan Conrad",
+  "en": "there's going to be more spreads between the buy and the sell.",
+  "zh": "买价和卖价之间会有更大的价差。"
+ },
+ {
+  "seg": 175,
+  "start": 563.292,
+  "end": 563.822,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 176,
+  "start": 563.872,
+  "end": 564.582,
+  "speaker": "SPEAKER_01",
+  "en": "It sucks.",
+  "zh": "这很糟糕。"
+ },
+ {
+  "seg": 177,
+  "start": 564.632,
+  "end": 564.9630000000001,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 178,
+  "start": 565.013,
+  "end": 569.8050000000001,
+  "speaker": "Evan Conrad",
+  "en": "But on the other hand, it means there's lots of arbitrage to make if you can do that correctly.",
+  "zh": "但另一方面，这意味着如果你能正确操作的话，有很多套利机会可赚。"
+ },
+ {
+  "seg": 179,
+  "start": 569.855,
+  "end": 573.9661111111111,
+  "speaker": "Evan Conrad",
+  "en": "So if you have a product that can use lots of different types of capacity,",
+  "zh": "所以如果你有一个可以使用多种不同类型容量的产品，"
+ },
+ {
+  "seg": 180,
+  "start": 574.217,
+  "end": 578.099,
+  "speaker": "Evan Conrad",
+  "en": "then you might really like SF Compute because you will be able to use lots",
+  "zh": "那你可能会非常喜欢 SF Compute，因为你将能够使用很多"
+ },
+ {
+  "seg": 181,
+  "start": 578.119,
+  "end": 580.59,
+  "speaker": "Evan Conrad",
+  "en": "of different types of capacity and you'll make more money.",
+  "zh": "不同类型的容量，而且你会赚更多的钱。"
+ },
+ {
+  "seg": 182,
+  "start": 580.64,
+  "end": 581.9733333333334,
+  "speaker": "Evan Conrad",
+  "en": "You can take the spread.",
+  "zh": "你可以吃下这个价差。"
+ },
+ {
+  "seg": 183,
+  "start": 582.141,
+  "end": 582.5310000000001,
+  "speaker": "SPEAKER_01",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 184,
+  "start": 582.581,
+  "end": 585.842,
+  "speaker": "Evan Conrad",
+  "en": "What dimensions matter in this grid of things?",
+  "zh": "在这个网格中，哪些维度是重要的？"
+ },
+ {
+  "seg": 185,
+  "start": 586.343,
+  "end": 587.343,
+  "speaker": "Evan Conrad",
+  "en": "So...",
+  "zh": "所以……"
+ },
+ {
+  "seg": 186,
+  "start": 587.579,
+  "end": 593.328,
+  "speaker": "Evan Conrad",
+  "en": "Capacity right now, in order for you to sell that, you have to interrupt your current",
+  "zh": "现在的容量，为了让你能卖掉它，你必须中断你当前的"
+ },
+ {
+  "seg": 187,
+  "start": 607.529,
+  "end": 611.334,
+  "speaker": "Evan Conrad",
+  "en": "Capacity that's sold, that's starting a month from now, you can buy and sell that all the time.",
+  "zh": "已售出的容量，那是下个月才开始的，你可以随时买卖那种容量。"
+ },
+ {
+  "seg": 188,
+  "start": 611.675,
+  "end": 614.286111111111,
+  "speaker": "Evan Conrad",
+  "en": "And so you get liquidity on that really easily.",
+  "zh": "所以你很容易就能在那上面获得流动性。"
+ },
+ {
+  "seg": 189,
+  "start": 614.779,
+  "end": 616.842,
+  "speaker": "Evan Conrad",
+  "en": "There is some concern like, oh no, will I have capacity next month?",
+  "zh": "会有一些担忧，比如，哎呀，下个月我还有容量吗？"
+ },
+ {
+  "seg": 190,
+  "start": 616.862,
+  "end": 617.383,
+  "speaker": "Evan Conrad",
+  "en": "But it's very different.",
+  "zh": "但这是很不一样的。"
+ },
+ {
+  "seg": 191,
+  "start": 617.403,
+  "end": 619.777,
+  "speaker": "Evan Conrad",
+  "en": "It's a little different than if you're interrupting a workload right now.",
+  "zh": "这和你现在中断一个工作负载有点不同。"
+ },
+ {
+  "seg": 192,
+  "start": 619.827,
+  "end": 622.0200000000001,
+  "speaker": "Evan Conrad",
+  "en": "The way that the interruption happens matters.",
+  "zh": "中断发生的方式很重要。"
+ },
+ {
+  "seg": 193,
+  "start": 622.07,
+  "end": 625.565,
+  "speaker": "Evan Conrad",
+  "en": "So an example is if you're on a cluster and the cluster doesn't have",
+  "zh": "举个例子，如果你在一个集群上，而这个集群没有"
+ },
+ {
+  "seg": 194,
+  "start": 625.615,
+  "end": 627.9483333333334,
+  "speaker": "Evan Conrad",
+  "en": "as amazing storage as you want it to have.",
+  "zh": "你想要的那么好的存储。"
+ },
+ {
+  "seg": 195,
+  "start": 628.199,
+  "end": 632.2545555555555,
+  "speaker": "Evan Conrad",
+  "en": "So an example is like, do you have a Weka or Avast system under the hood?",
+  "zh": "举个例子，比如你的底层是否有 Weka 或 Avast 系统？"
+ },
+ {
+  "seg": 196,
+  "start": 633.366,
+  "end": 640.366,
+  "speaker": "Evan Conrad",
+  "en": "This changes how you respond to being preempted or removed off the cluster.",
+  "zh": "这会改变你响应被抢占或被移出集群的方式。"
+ },
+ {
+  "seg": 197,
+  "start": 641.31,
+  "end": 643.6210000000001,
+  "speaker": "Evan Conrad",
+  "en": "Meanwhile, the location of that storage matters.",
+  "zh": "同时，那个存储的位置也很重要。"
+ },
+ {
+  "seg": 198,
+  "start": 643.671,
+  "end": 650.195,
+  "speaker": "Evan Conrad",
+  "en": "So if you're able to move that data from one cluster to another quickly,",
+  "zh": "所以如果你能够快速地把数据从一个集群移动到另一个集群，"
+ },
+ {
+  "seg": 199,
+  "start": 650.375,
+  "end": 653.8870000000001,
+  "speaker": "Evan Conrad",
+  "en": "then maybe you might be able to spread across multiple different clusters.",
+  "zh": "那么也许你可以跨多个不同的集群分布。"
+ },
+ {
+  "seg": 200,
+  "start": 653.937,
+  "end": 657.0690000000001,
+  "speaker": "Evan Conrad",
+  "en": "And you can be interrupted over here and then pop back up over there.",
+  "zh": "你可以在这边被中断,然后在那边重新弹出来。"
+ },
+ {
+  "seg": 201,
+  "start": 657.119,
+  "end": 658.24,
+  "speaker": "Evan Conrad",
+  "en": "To make that work,",
+  "zh": "要让这个可行,"
+ },
+ {
+  "seg": 202,
+  "start": 658.34,
+  "end": 663.263,
+  "speaker": "Evan Conrad",
+  "en": "you also need a fast transit path Between one cluster and another,",
+  "zh": "你还需要一个快速的传输路径,在一个集群和另一个集群之间,"
+ },
+ {
+  "seg": 203,
+  "start": 663.303,
+  "end": 664.774,
+  "speaker": "Evan Conrad",
+  "en": "typically this is implemented with a WAN,",
+  "zh": "通常这是用广域网来实现的,"
+ },
+ {
+  "seg": 204,
+  "start": 664.824,
+  "end": 667.7128888888889,
+  "speaker": "Evan Conrad",
+  "en": "but most of these clusters don't necessarily have...",
+  "zh": "但这些集群中的大多数不一定有……"
+ },
+ {
+  "seg": 205,
+  "start": 667.946,
+  "end": 668.916,
+  "speaker": "SPEAKER_01",
+  "en": "Wide area network?",
+  "zh": "广域网?"
+ },
+ {
+  "seg": 206,
+  "start": 668.966,
+  "end": 669.927,
+  "speaker": "Evan Conrad",
+  "en": "Yeah, a wide area network.",
+  "zh": "是的,广域网。"
+ },
+ {
+  "seg": 207,
+  "start": 669.947,
+  "end": 672.418,
+  "speaker": "Evan Conrad",
+  "en": "So basically cables that connect the clusters together.",
+  "zh": "所以基本上就是把集群连接起来的电缆。"
+ },
+ {
+  "seg": 208,
+  "start": 672.468,
+  "end": 674.4590000000001,
+  "speaker": "Evan Conrad",
+  "en": "A private internet is another way to think about it.",
+  "zh": "把它想成一个专用互联网是另一种理解方式。"
+ },
+ {
+  "seg": 209,
+  "start": 674.509,
+  "end": 679.432,
+  "speaker": "Evan Conrad",
+  "en": "A lot of clusters that are being spun up today are like, they're not attached to...",
+  "zh": "今天很多正在搭建的集群,它们没有连接到……"
+ },
+ {
+  "seg": 210,
+  "start": 681.326,
+  "end": 686.995,
+  "speaker": "Evan Conrad",
+  "en": "Traditional CPU clusters were next to the customer for latency reasons.",
+  "zh": "传统的 CPU 集群出于延迟原因放在客户旁边。"
+ },
+ {
+  "seg": 211,
+  "start": 687.636,
+  "end": 690.7,
+  "speaker": "Evan Conrad",
+  "en": "In GPUs, they're next to the power.",
+  "zh": "而 GPU 则放在电力旁边。"
+ },
+ {
+  "seg": 212,
+  "start": 692.743,
+  "end": 696.558,
+  "speaker": "Evan Conrad",
+  "en": "You put the data center next to the power rather than next to the customer.",
+  "zh": "你把数据中心放在电力旁边,而不是客户旁边。"
+ },
+ {
+  "seg": 213,
+  "start": 696.608,
+  "end": 698.51,
+  "speaker": "Evan Conrad",
+  "en": "This means that a lot of stuff is getting put in places",
+  "zh": "这意味着很多东西被放到了这样一些地方,"
+ },
+ {
+  "seg": 214,
+  "start": 698.53,
+  "end": 701.7522222222221,
+  "speaker": "Evan Conrad",
+  "en": "that previously they weren't expecting data centers there.",
+  "zh": "以前人们并不期望那里会有数据中心。"
+ },
+ {
+  "seg": 215,
+  "start": 701.952,
+  "end": 706.935,
+  "speaker": "Evan Conrad",
+  "en": "And so you may not have as excellent of a transit path from one to the other.",
+  "zh": "所以从一个集群到另一个集群的传输路径可能就没有那么优秀了。"
+ },
+ {
+  "seg": 216,
+  "start": 706.955,
+  "end": 708.343888888889,
+  "speaker": "Evan Conrad",
+  "en": "So this starts to matter.",
+  "zh": "所以这就开始变得重要了。"
+ },
+ {
+  "seg": 217,
+  "start": 708.976,
+  "end": 715.18,
+  "speaker": "Evan Conrad",
+  "en": "Other examples are weird shit where we theoretically support but don't actually...",
+  "zh": "另一些例子是些奇怪的东西,我们在理论上支持但实际上没有……"
+ },
+ {
+  "seg": 218,
+  "start": 718.682,
+  "end": 721.873,
+  "speaker": "Evan Conrad",
+  "en": "This is a thing that we're thinking about but haven't done, basically.",
+  "zh": "这基本上是我们在考虑但还没做的事情。"
+ },
+ {
+  "seg": 219,
+  "start": 721.923,
+  "end": 724.224,
+  "speaker": "Evan Conrad",
+  "en": "The early GB200s broke.",
+  "zh": "早期的 GB200 坏了。"
+ },
+ {
+  "seg": 220,
+  "start": 724.844,
+  "end": 726.364,
+  "speaker": "Evan Conrad",
+  "en": "The early H100s broke.",
+  "zh": "早期的 H100 坏了。"
+ },
+ {
+  "seg": 221,
+  "start": 727.245,
+  "end": 730.3561111111111,
+  "speaker": "Evan Conrad",
+  "en": "And so if you were buying H100s or you're buying GB200s,",
+  "zh": "所以如果你在买 H100 或者买 GB200,"
+ },
+ {
+  "seg": 222,
+  "start": 730.626,
+  "end": 733.8960000000001,
+  "speaker": "Evan Conrad",
+  "en": "you might really want the ones that were deployed after a certain time",
+  "zh": "你可能真的想要那些在某个时间点之后部署的,"
+ },
+ {
+  "seg": 223,
+  "start": 733.946,
+  "end": 736.337,
+  "speaker": "Evan Conrad",
+  "en": "because you're not getting the first shitty ones off the rack.",
+  "zh": "因为你不会拿到货架上第一批那些烂货。"
+ },
+ {
+  "seg": 224,
+  "start": 736.387,
+  "end": 737.948,
+  "speaker": "Evan Conrad",
+  "en": "And so if you're a super sophisticated customer,",
+  "zh": "所以如果你是一个超级复杂的客户,"
+ },
+ {
+  "seg": 225,
+  "start": 737.968,
+  "end": 740.6346666666666,
+  "speaker": "Evan Conrad",
+  "en": "you may be willing to pay more because for that.",
+  "zh": "你可能愿意为此多付钱。"
+ },
+ {
+  "seg": 226,
+  "start": 740.788,
+  "end": 745.91,
+  "speaker": "Evan Conrad",
+  "en": "Oh, so it's about what cohort they were produced and they get",
+  "zh": "哦,所以这是关于它们是哪个批次生产的,而且它们"
+ },
+ {
+  "seg": 227,
+  "start": 745.95,
+  "end": 746.35,
+  "speaker": "SPEAKER_01",
+  "en": "better over",
+  "zh": "会随着"
+ },
+ {
+  "seg": 228,
+  "start": 746.37,
+  "end": 746.57,
+  "speaker": "Evan Conrad",
+  "en": "time?",
+  "zh": "时间变得更好?"
+ },
+ {
+  "seg": 229,
+  "start": 746.59,
+  "end": 746.88,
+  "speaker": "Evan Conrad",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 230,
+  "start": 746.93,
+  "end": 750.8188888888889,
+  "speaker": "Evan Conrad",
+  "en": "So the first ones off the rack maybe had some faults or some problem.",
+  "zh": "所以第一批下线的可能有一些故障或问题。"
+ },
+ {
+  "seg": 231,
+  "start": 751.197,
+  "end": 756.945,
+  "speaker": "Evan Conrad",
+  "en": "And so if you were the ones who got the first ones from the first shipment of them,",
+  "zh": "所以如果你是拿到第一批出货的人,"
+ },
+ {
+  "seg": 232,
+  "start": 757.986,
+  "end": 761.291,
+  "speaker": "Evan Conrad",
+  "en": "then yeah, they would be broken in some way.",
+  "zh": "那没错,它们会有某种程度的损坏。"
+ },
+ {
+  "seg": 233,
+  "start": 761.772,
+  "end": 764.7040000000001,
+  "speaker": "SPEAKER_01",
+  "en": "One of the sort of process is like, look, there's defects everywhere.",
+  "zh": "有点像流程上的说法是:看,缺陷到处都是。"
+ },
+ {
+  "seg": 234,
+  "start": 764.754,
+  "end": 766.0450000000001,
+  "speaker": "SPEAKER_01",
+  "en": "Like it just happens, right?",
+  "zh": "这种事就是会发生,对吧?"
+ },
+ {
+  "seg": 235,
+  "start": 766.095,
+  "end": 766.565,
+  "speaker": "SPEAKER_01",
+  "en": "Totally.",
+  "zh": "完全正确。"
+ },
+ {
+  "seg": 236,
+  "start": 766.615,
+  "end": 770.057,
+  "speaker": "SPEAKER_01",
+  "en": "And so like you get a new shipment from TSMC or whatever,",
+  "zh": "所以比如你从台积电之类的地方收到一批新货,"
+ },
+ {
+  "seg": 237,
+  "start": 770.678,
+  "end": 774.63,
+  "speaker": "SPEAKER_01",
+  "en": "and you just kind of run your tests and like you figure out which ones are bad",
+  "zh": "你就运行你的测试,搞清楚哪些是坏的,"
+ },
+ {
+  "seg": 238,
+  "start": 774.68,
+  "end": 775.471,
+  "speaker": "SPEAKER_01",
+  "en": "and you throw them out.",
+  "zh": "然后把它们扔掉。"
+ },
+ {
+  "seg": 239,
+  "start": 775.521,
+  "end": 777.0765555555555,
+  "speaker": "SPEAKER_01",
+  "en": "And isn't that how it works?",
+  "zh": "这不就是它的工作方式吗?"
+ },
+ {
+  "seg": 240,
+  "start": 777.582,
+  "end": 781.084,
+  "speaker": "SPEAKER_01",
+  "en": "I didn't know about this element of cohorting where like let's say Q4,",
+  "zh": "我之前不知道这种批次划分的因素,比如 2026 年第四季度的 B300 比 2027 年的 B300 差很多。"
+ },
+ {
+  "seg": 241,
+  "start": 781.104,
+  "end": 783.666,
+  "speaker": "SPEAKER_01",
+  "en": "2026, B300s are way worse than 2027 B300s.",
+  "zh": "2026 年的 B300 比 2027 年的 B300 差得多。"
+ },
+ {
+  "seg": 242,
+  "start": 787.65,
+  "end": 790.094,
+  "speaker": "Evan Conrad",
+  "en": "Yeah, so I'll give an example.",
+  "zh": "是的,我举个例子。"
+ },
+ {
+  "seg": 243,
+  "start": 790.695,
+  "end": 791.9870000000001,
+  "speaker": "Evan Conrad",
+  "en": "You're describing burn-in.",
+  "zh": "你描述的是老化测试(burn-in)。"
+ },
+ {
+  "seg": 244,
+  "start": 792.037,
+  "end": 792.527,
+  "speaker": "Evan Conrad",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 245,
+  "start": 792.577,
+  "end": 794.0214444444445,
+  "speaker": "Evan Conrad",
+  "en": "So when you get a cluster,",
+  "zh": "所以当你拿到一个集群时,"
+ },
+ {
+  "seg": 246,
+  "start": 794.62,
+  "end": 795.432,
+  "speaker": "Evan Conrad",
+  "en": "a good cloud,",
+  "zh": "一个好的云厂商"
+ },
+ {
+  "seg": 247,
+  "start": 795.482,
+  "end": 799.988,
+  "speaker": "Evan Conrad",
+  "en": "what it does is it tries to kill all the GPUs before they ever get in the hands of",
+  "zh": "会做的就是尽量在 GPU 到达"
+ },
+ {
+  "seg": 248,
+  "start": 800.008,
+  "end": 801.008,
+  "speaker": "Evan Conrad",
+  "en": "the customer.",
+  "zh": "客户手中之前就把那些会坏的都杀死。"
+ },
+ {
+  "seg": 249,
+  "start": 801.29,
+  "end": 802.432,
+  "speaker": "Evan Conrad",
+  "en": "And then the...",
+  "zh": "然后……"
+ },
+ {
+  "seg": 250,
+  "start": 802.592,
+  "end": 805.825,
+  "speaker": "Evan Conrad",
+  "en": "GPUs that are broken or the nodes that are broken, you get RMA'd.",
+  "zh": "坏掉的 GPU 或坏掉的节点，你会拿到 RMA。"
+ },
+ {
+  "seg": 251,
+  "start": 805.875,
+  "end": 807.676,
+  "speaker": "Evan Conrad",
+  "en": "You basically go and request it.",
+  "zh": "你基本上就是去提出申请。"
+ },
+ {
+  "seg": 252,
+  "start": 807.716,
+  "end": 810.2080000000001,
+  "speaker": "Evan Conrad",
+  "en": "You return it and you get a new one and there's a lead time to that,",
+  "zh": "你把它退回去，换一台新的，这有一个交付周期，"
+ },
+ {
+  "seg": 253,
+  "start": 810.258,
+  "end": 813.26,
+  "speaker": "Evan Conrad",
+  "en": "but whatever, you'll get some back.",
+  "zh": "但无所谓，你会拿回一些的。"
+ },
+ {
+  "seg": 254,
+  "start": 813.541,
+  "end": 816.133,
+  "speaker": "Evan Conrad",
+  "en": "And then the customer never has to experience this.",
+  "zh": "然后客户永远不需要经历这些。"
+ },
+ {
+  "seg": 255,
+  "start": 816.183,
+  "end": 819.525,
+  "speaker": "Evan Conrad",
+  "en": "The thing I'm referring to is that",
+  "zh": "我所指的是这样一种情况："
+ },
+ {
+  "seg": 256,
+  "start": 821.587,
+  "end": 827.732,
+  "speaker": "Evan Conrad",
+  "en": "In early H100s, there were firmware bugs that may not even be related to the specific...",
+  "zh": "早期的 H100 上，有一些固件 bug，可能甚至与特定的……无关。"
+ },
+ {
+  "seg": 257,
+  "start": 827.932,
+  "end": 829.2097777777778,
+  "speaker": "Evan Conrad",
+  "en": "They may not be NVIDIA.",
+  "zh": "它们可能不是 NVIDIA 的问题。"
+ },
+ {
+  "seg": 258,
+  "start": 829.353,
+  "end": 830.4085555555555,
+  "speaker": "Evan Conrad",
+  "en": "They might be like,",
+  "zh": "它们可能是，"
+ },
+ {
+  "seg": 259,
+  "start": 830.554,
+  "end": 834.297,
+  "speaker": "Evan Conrad",
+  "en": "Supermicro has a firmware bug in the box that you bought,",
+  "zh": "Supermicro 卖给你的整机里有个固件 bug，"
+ },
+ {
+  "seg": 260,
+  "start": 835.338,
+  "end": 837.099,
+  "speaker": "Evan Conrad",
+  "en": "and it applies to all of them.",
+  "zh": "而且它适用于所有这些机器。"
+ },
+ {
+  "seg": 261,
+  "start": 837.68,
+  "end": 838.9022222222221,
+  "speaker": "Evan Conrad",
+  "en": "And it doesn't matter.",
+  "zh": "这没什么区别。"
+ },
+ {
+  "seg": 262,
+  "start": 840.102,
+  "end": 844.0464444444444,
+  "speaker": "Evan Conrad",
+  "en": "The solution to that was you need to get them to update their firmware,",
+  "zh": "解决办法是你得让他们更新固件，"
+ },
+ {
+  "seg": 263,
+  "start": 844.505,
+  "end": 847.287,
+  "speaker": "Evan Conrad",
+  "en": "or they need to ship a new thing in every new box.",
+  "zh": "或者他们需要在每一台新出厂的机器里装上新的东西。"
+ },
+ {
+  "seg": 264,
+  "start": 847.327,
+  "end": 848.118,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 265,
+  "start": 848.168,
+  "end": 850.911,
+  "speaker": "SPEAKER_01",
+  "en": "We should have this for the B300s that we got.",
+  "zh": "我们拿到的 B300s 应该也遇到过这个。"
+ },
+ {
+  "seg": 266,
+  "start": 851.212,
+  "end": 853.5453333333334,
+  "speaker": "Evan Conrad",
+  "en": "And the IQ had to use Devin to go fix it.",
+  "zh": "然后 IQ 不得不用 Devin 去修复它。"
+ },
+ {
+  "seg": 267,
+  "start": 853.554,
+  "end": 854.554,
+  "speaker": "Evan Conrad",
+  "en": "Yes, great.",
+  "zh": "是的，很好。"
+ },
+ {
+  "seg": 268,
+  "start": 854.656,
+  "end": 856.865,
+  "speaker": "Evan Conrad",
+  "en": "So different types of problems like this can happen.",
+  "zh": "所以像这样不同类型的问题都可能发生。"
+ },
+ {
+  "seg": 269,
+  "start": 856.915,
+  "end": 857.385,
+  "speaker": "Evan Conrad",
+  "en": "Interesting.",
+  "zh": "有意思。"
+ },
+ {
+  "seg": 270,
+  "start": 857.435,
+  "end": 861.576,
+  "speaker": "SPEAKER_01",
+  "en": "Okay, that seems small compared to the overall.",
+  "zh": "好吧，相比整体来说这看起来是小事。"
+ },
+ {
+  "seg": 271,
+  "start": 861.616,
+  "end": 864.426,
+  "speaker": "SPEAKER_01",
+  "en": "I want people to understand the shape of this market.",
+  "zh": "我想让人们理解这个市场的形态。 [[252→修改]] 你提到了抢占，我们谈过 spot 实例以及它的类比。"
+ },
+ {
+  "seg": 272,
+  "start": 864.476,
+  "end": 870.678,
+  "speaker": "SPEAKER_01",
+  "en": "You mentioned preemption, and we talked about spot instances and how the analogy is.",
+  "zh": "你提到了抢占,我们聊过竞价实例,以及这个类比。"
+ },
+ {
+  "seg": 273,
+  "start": 871.098,
+  "end": 873.428,
+  "speaker": "SPEAKER_01",
+  "en": "And then there's also booking a month out.",
+  "zh": "然后还有提前一个月预订。"
+ },
+ {
+  "seg": 274,
+  "start": 873.478,
+  "end": 875.638,
+  "speaker": "SPEAKER_01",
+  "en": "How far out do these markets go?",
+  "zh": "这些市场能提前多久？"
+ },
+ {
+  "seg": 275,
+  "start": 876.119,
+  "end": 883.119,
+  "speaker": "SPEAKER_01",
+  "en": "And is real-time or preemption more interesting to you versus being further out?",
+  "zh": "对你来说，实时或抢占相比更远期的更有意思吗？"
+ },
+ {
+  "seg": 276,
+  "start": 883.64,
+  "end": 884.368,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 277,
+  "start": 884.418,
+  "end": 887.11,
+  "speaker": "Evan Conrad",
+  "en": "To answer your first question, three to five years.",
+  "zh": "回答你的第一个问题，三到五年。"
+ },
+ {
+  "seg": 278,
+  "start": 887.16,
+  "end": 888.201,
+  "speaker": "Evan Conrad",
+  "en": "Wow.",
+  "zh": "哇。"
+ },
+ {
+  "seg": 279,
+  "start": 889.061,
+  "end": 891.1165555555556,
+  "speaker": "SPEAKER_01",
+  "en": "Month by month or quarter by quarter?",
+  "zh": "按月还是按季度？"
+ },
+ {
+  "seg": 280,
+  "start": 891.283,
+  "end": 892.824,
+  "speaker": "Evan Conrad",
+  "en": "Are you asking how the cash flow works?",
+  "zh": "你是在问现金流是怎么运作的吗？"
+ },
+ {
+  "seg": 281,
+  "start": 892.844,
+  "end": 895.366,
+  "speaker": "Evan Conrad",
+  "en": "The contracts, the futures contracts.",
+  "zh": "合约，期货合约。"
+ },
+ {
+  "seg": 282,
+  "start": 895.426,
+  "end": 898.2037777777779,
+  "speaker": "SPEAKER_01",
+  "en": "Again, I'm a former contracts derivatives trader.",
+  "zh": "再说一次，我以前是合约衍生品交易员。"
+ },
+ {
+  "seg": 283,
+  "start": 898.008,
+  "end": 903.611,
+  "speaker": "Evan Conrad",
+  "en": "In the market itself, as in the broader market, clusters are financed three to five years.",
+  "zh": "在市场本身，也就是更广义的市场上，集群是以三到五年融资的。"
+ },
+ {
+  "seg": 284,
+  "start": 903.832,
+  "end": 904.832,
+  "speaker": "Evan Conrad",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 285,
+  "start": 905.993,
+  "end": 908.3040000000001,
+  "speaker": "Evan Conrad",
+  "en": "The payments are for over that period of time.",
+  "zh": "付款是在那段时间内分期支付。"
+ },
+ {
+  "seg": 286,
+  "start": 908.354,
+  "end": 914.335,
+  "speaker": "Evan Conrad",
+  "en": "There is also blocks of capacity in our order book, which can extend any arbitrary time.",
+  "zh": "我们的订单簿里也有容量区块，可以延展到任意时间。"
+ },
+ {
+  "seg": 287,
+  "start": 915.116,
+  "end": 918.647,
+  "speaker": "Evan Conrad",
+  "en": "There's some stuff that we have to do for the cash flow on that.",
+  "zh": "这上面有一些我们在现金流方面必须做的事情。"
+ },
+ {
+  "seg": 288,
+  "start": 918.697,
+  "end": 922.3280000000001,
+  "speaker": "Evan Conrad",
+  "en": "Right now what we do is we just ask people to pay entirely upfront for a block.",
+  "zh": "现在我们做的就是让人们为区块完全预付。"
+ },
+ {
+  "seg": 289,
+  "start": 922.378,
+  "end": 925.2090000000001,
+  "speaker": "Evan Conrad",
+  "en": "We don't ask them to do that for a lease for a longer term contract.",
+  "zh": "对于更长期合约的租约，我们不要求他们这么做。"
+ },
+ {
+  "seg": 290,
+  "start": 925.259,
+  "end": 928.8900000000001,
+  "speaker": "Evan Conrad",
+  "en": "This gets into something that I definitely need a whiteboard to explain.",
+  "zh": "这就涉及到一个我绝对需要白板才能解释的东西。"
+ },
+ {
+  "seg": 291,
+  "start": 928.94,
+  "end": 929.94,
+  "speaker": "Evan Conrad",
+  "en": "But...",
+  "zh": "但是……"
+ },
+ {
+  "seg": 292,
+  "start": 930.813,
+  "end": 932.214,
+  "speaker": "Evan Conrad",
+  "en": "You had another question I was about to answer and I",
+  "zh": "你还有另一个问题，我正要回答，"
+ },
+ {
+  "seg": 293,
+  "start": 932.234,
+  "end": 933.435,
+  "speaker": "SPEAKER_01",
+  "en": "forgot what it was.",
+  "zh": "然后忘了是什么了。"
+ },
+ {
+  "seg": 294,
+  "start": 933.595,
+  "end": 935.677,
+  "speaker": "SPEAKER_01",
+  "en": "Do you want real time?",
+  "zh": "你想要实时吗？"
+ },
+ {
+  "seg": 295,
+  "start": 936.078,
+  "end": 939.0300000000001,
+  "speaker": "SPEAKER_01",
+  "en": "What's more interesting to you, real time or longer out?",
+  "zh": "对你来说什么更有意思，实时还是更远期的？"
+ },
+ {
+  "seg": 296,
+  "start": 939.08,
+  "end": 942.143,
+  "speaker": "Evan Conrad",
+  "en": "We care more about longer out because we're trying to build a forwards curve",
+  "zh": "我们更关心更远期的，因为我们正在构建一条"
+ },
+ {
+  "seg": 297,
+  "start": 942.163,
+  "end": 944.0518888888889,
+  "speaker": "Evan Conrad",
+  "en": "that has a lot of liquidity on it.",
+  "zh": "上面有大量流动性的远期曲线。"
+ },
+ {
+  "seg": 298,
+  "start": 947.287,
+  "end": 950.37,
+  "speaker": "Evan Conrad",
+  "en": "These are kind of the same thing and kind of not.",
+  "zh": "这俩有点是一回事，又有点不是。"
+ },
+ {
+  "seg": 299,
+  "start": 952.917,
+  "end": 956.74,
+  "speaker": "Evan Conrad",
+  "en": "What we do is we can say, you can buy an hour out.",
+  "zh": "我们做的是，我们可以说，你可以买一小时之后的。"
+ },
+ {
+  "seg": 300,
+  "start": 956.76,
+  "end": 958.691,
+  "speaker": "Evan Conrad",
+  "en": "You can buy right now to the next hour.",
+  "zh": "你现在可以买到下一个小时的。"
+ },
+ {
+  "seg": 301,
+  "start": 958.741,
+  "end": 961.0930000000001,
+  "speaker": "Evan Conrad",
+  "en": "Or you can buy right now to the next three years.",
+  "zh": "或者你现在可以买到未来三年的。"
+ },
+ {
+  "seg": 302,
+  "start": 961.143,
+  "end": 962.204,
+  "speaker": "Evan Conrad",
+  "en": "And anywhere in between.",
+  "zh": "以及介于两者之间的任何时长。"
+ },
+ {
+  "seg": 303,
+  "start": 962.244,
+  "end": 962.855,
+  "speaker": "Evan Conrad",
+  "en": "That's wild.",
+  "zh": "那太疯狂了。"
+ },
+ {
+  "seg": 304,
+  "start": 962.905,
+  "end": 963.6550000000001,
+  "speaker": "Evan Conrad",
+  "en": "I know.",
+  "zh": "我知道。"
+ },
+ {
+  "seg": 305,
+  "start": 963.705,
+  "end": 967.708,
+  "speaker": "Evan Conrad",
+  "en": "And so the... Or finally, technically.",
+  "zh": "然后这个……或者最终，从技术上讲。"
+ },
+ {
+  "seg": 306,
+  "start": 968.409,
+  "end": 969.409,
+  "speaker": "Evan Conrad",
+  "en": "The...",
+  "zh": "这个……"
+ },
+ {
+  "seg": 307,
+  "start": 971.151,
+  "end": 974.586,
+  "speaker": "Evan Conrad",
+  "en": "There's a certain difference that happens that's dependent for each customer.",
+  "zh": "会发生某种差异，这种差异取决于每个客户。"
+ },
+ {
+  "seg": 308,
+  "start": 974.636,
+  "end": 975.4870000000001,
+  "speaker": "Evan Conrad",
+  "en": "Basically,",
+  "zh": "基本上，"
+ },
+ {
+  "seg": 309,
+  "start": 975.537,
+  "end": 980.944,
+  "speaker": "Evan Conrad",
+  "en": "if I have a workload that's batch inference,",
+  "zh": "如果我有一个工作负载是批量推理，"
+ },
+ {
+  "seg": 310,
+  "start": 981.044,
+  "end": 985.89,
+  "speaker": "Evan Conrad",
+  "en": "basically, where I can be interrupted at any point, I don't really care, then...",
+  "zh": "基本上，就是我可以在任何时间点被打断，我不太在乎，那么……"
+ },
+ {
+  "seg": 311,
+  "start": 988.167,
+  "end": 994.51,
+  "speaker": "Evan Conrad",
+  "en": "My ability to be cut off is probably like I need an hour of time to know",
+  "zh": "我被打断的可能性，大概就是我需要提前一个小时知道"
+ },
+ {
+  "seg": 312,
+  "start": 995.65,
+  "end": 997.3810000000001,
+  "speaker": "Evan Conrad",
+  "en": "that I'm going to be cut off and then I'm good.",
+  "zh": "我会被打断，然后我就没问题了。"
+ },
+ {
+  "seg": 313,
+  "start": 997.431,
+  "end": 1000.772,
+  "speaker": "Evan Conrad",
+  "en": "Or I can even be notified in a minute or two.",
+  "zh": "或者我甚至可以提前一两分钟收到通知。"
+ },
+ {
+  "seg": 314,
+  "start": 1001.733,
+  "end": 1006.875,
+  "speaker": "Evan Conrad",
+  "en": "But if I have live inference customers who are expecting me to be online, then...",
+  "zh": "但如果我有实时推理客户在指望我在线，那么……"
+ },
+ {
+  "seg": 315,
+  "start": 1007.931,
+  "end": 1010.5976666666667,
+  "speaker": "Evan Conrad",
+  "en": "And so those two things are priced differently.",
+  "zh": "所以这两件事的定价是不同的。"
+ },
+ {
+  "seg": 316,
+  "start": 1022.632,
+  "end": 1028.115,
+  "speaker": "Evan Conrad",
+  "en": "Why they're priced differently is because what is the price you would pay in order",
+  "zh": "它们定价不同的原因是，你愿意付出什么代价"
+ },
+ {
+  "seg": 317,
+  "start": 1028.175,
+  "end": 1029.286,
+  "speaker": "Evan Conrad",
+  "en": "to interrupt your batch job?",
+  "zh": "来打断你的批量任务？"
+ },
+ {
+  "seg": 318,
+  "start": 1029.336,
+  "end": 1033.289,
+  "speaker": "Evan Conrad",
+  "en": "It's very different than the price you would pay to interrupt your live job.",
+  "zh": "这和你打断实时任务所付出的代价是非常不同的。"
+ },
+ {
+  "seg": 319,
+  "start": 1033.339,
+  "end": 1038.562,
+  "speaker": "Evan Conrad",
+  "en": "If you have a live job, you are probably paying an SLA when you break for your customer.",
+  "zh": "如果你有一个实时任务，当你中断时，你可能正在向客户支付 SLA 违约金。"
+ },
+ {
+  "seg": 320,
+  "start": 1039.402,
+  "end": 1040.093,
+  "speaker": "Evan Conrad",
+  "en": "Does that make sense?",
+  "zh": "这说得通吗？"
+ },
+ {
+  "seg": 321,
+  "start": 1040.143,
+  "end": 1040.713,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah, I see.",
+  "zh": "是的，我明白了。"
+ },
+ {
+  "seg": 322,
+  "start": 1040.763,
+  "end": 1043.2350000000001,
+  "speaker": "SPEAKER_01",
+  "en": "So this is actually the market for breaking leases.",
+  "zh": "所以这实际上是打破租约的市场。"
+ },
+ {
+  "seg": 323,
+  "start": 1043.285,
+  "end": 1044.605,
+  "speaker": "Evan Conrad",
+  "en": "These are the market for breaking leases, basically.",
+  "zh": "基本上，这些就是打破租约的市场。"
+ },
+ {
+  "seg": 324,
+  "start": 1044.625,
+  "end": 1045.066,
+  "speaker": "Evan Conrad",
+  "en": "Oh, my God.",
+  "zh": "哦，天哪。"
+ },
+ {
+  "seg": 325,
+  "start": 1045.106,
+  "end": 1049.286,
+  "speaker": "Evan Conrad",
+  "en": "And then there's also the market for future leases or like for leases that are...",
+  "zh": "然后还有未来租约的市场，或者说……的租约市场……"
+ },
+ {
+  "seg": 326,
+  "start": 1049.336,
+  "end": 1051.508,
+  "speaker": "SPEAKER_01",
+  "en": "Oh, I thought this was like a subletting situation.",
+  "zh": "哦，我还以为这是类似转租的情况。"
+ },
+ {
+  "seg": 327,
+  "start": 1051.558,
+  "end": 1053.1135555555556,
+  "speaker": "Evan Conrad",
+  "en": "This is like a lease break.",
+  "zh": "这是类似违约退租的情况。"
+ },
+ {
+  "seg": 328,
+  "start": 1053.279,
+  "end": 1058.422,
+  "speaker": "Evan Conrad",
+  "en": "So one way to think about it is in power markets, there's actually two markets.",
+  "zh": "所以一种思考方式是，在电力市场中，实际上有两个市场。"
+ },
+ {
+  "seg": 329,
+  "start": 1059.083,
+  "end": 1061.594,
+  "speaker": "Evan Conrad",
+  "en": "There's like the day ahead market and there's the live market.",
+  "zh": "有日前市场，还有实时市场。"
+ },
+ {
+  "seg": 330,
+  "start": 1061.644,
+  "end": 1066.828,
+  "speaker": "Evan Conrad",
+  "en": "Compute kind of has the same thing where it has capacity that is coming online",
+  "zh": "算力基本上也有同样的情况，它有正在上线的容量"
+ },
+ {
+  "seg": 331,
+  "start": 1067.208,
+  "end": 1072.251,
+  "speaker": "Evan Conrad",
+  "en": "or capacity that's about to arrive to you and then capacity that is currently",
+  "zh": "或者即将到达你手中的容量，然后还有目前正在"
+ },
+ {
+  "seg": 332,
+  "start": 1072.351,
+  "end": 1073.182,
+  "speaker": "Evan Conrad",
+  "en": "in use.",
+  "zh": "使用中的容量。"
+ },
+ {
+  "seg": 333,
+  "start": 1073.232,
+  "end": 1075.4542222222221,
+  "speaker": "Evan Conrad",
+  "en": "And these have different price dynamics.",
+  "zh": "而这些有不同的价格动态。"
+ },
+ {
+  "seg": 334,
+  "start": 1076.027,
+  "end": 1076.6580000000001,
+  "speaker": "SPEAKER_01",
+  "en": "OK.",
+  "zh": "好。"
+ },
+ {
+  "seg": 335,
+  "start": 1076.708,
+  "end": 1077.708,
+  "speaker": "SPEAKER_01",
+  "en": "Interesting.",
+  "zh": "有意思。"
+ },
+ {
+  "seg": 336,
+  "start": 1078.049,
+  "end": 1079.4934444444443,
+  "speaker": "SPEAKER_01",
+  "en": "Backwardation or contango?",
+  "zh": "期货贴水还是期货升水？"
+ },
+ {
+  "seg": 337,
+  "start": 1080.292,
+  "end": 1081.834,
+  "speaker": "Evan Conrad",
+  "en": "Backwardation or contango?",
+  "zh": "期货贴水还是期货升水？"
+ },
+ {
+  "seg": 338,
+  "start": 1081.894,
+  "end": 1087.02,
+  "speaker": "SPEAKER_01",
+  "en": "So is compute further out priced higher than spot or lower than spot?",
+  "zh": "所以是远期算力定价比现货高还是比现货低？"
+ },
+ {
+  "seg": 339,
+  "start": 1088.282,
+  "end": 1089.964,
+  "speaker": "SPEAKER_01",
+  "en": "Is compute further out priced?",
+  "zh": "远期算力是怎么定价的？"
+ },
+ {
+  "seg": 340,
+  "start": 1090.544,
+  "end": 1091.515,
+  "speaker": "SPEAKER_01",
+  "en": "Does it go like this?",
+  "zh": "它是这样走的吗？"
+ },
+ {
+  "seg": 341,
+  "start": 1091.565,
+  "end": 1094.5094444444444,
+  "speaker": "SPEAKER_01",
+  "en": "Does it go like that over one year out, two year out?",
+  "zh": "还是这样走的，一年期、两年期？"
+ },
+ {
+  "seg": 342,
+  "start": 1096.471,
+  "end": 1099.153,
+  "speaker": "Evan Conrad",
+  "en": "Oh, this is both at different times.",
+  "zh": "哦，这在不同的时期都有。"
+ },
+ {
+  "seg": 343,
+  "start": 1099.233,
+  "end": 1100.564,
+  "speaker": "SPEAKER_01",
+  "en": "I find it fascinating that you don't know.",
+  "zh": "我觉得很有意思的是你居然不知道。"
+ },
+ {
+  "seg": 344,
+  "start": 1100.614,
+  "end": 1101.314,
+  "speaker": "Evan Conrad",
+  "en": "Yeah, I mean, both.",
+  "zh": "是，我是说，两者都有。"
+ },
+ {
+  "seg": 345,
+  "start": 1101.355,
+  "end": 1102.7994444444444,
+  "speaker": "Evan Conrad",
+  "en": "It depends on who you are.",
+  "zh": "这取决于你是谁。"
+ },
+ {
+  "seg": 346,
+  "start": 1103.076,
+  "end": 1105.057,
+  "speaker": "Evan Conrad",
+  "en": "So I'll make the case.",
+  "zh": "那我来论证一下。"
+ },
+ {
+  "seg": 347,
+  "start": 1106.518,
+  "end": 1108.539,
+  "speaker": "Evan Conrad",
+  "en": "Wait, so you're asking, is compute sold right now?",
+  "zh": "等等，所以你问的是，现在出售的算力——"
+ },
+ {
+  "seg": 348,
+  "start": 1108.559,
+  "end": 1110.2812222222221,
+  "speaker": "SPEAKER_01",
+  "en": "The same unit of compute today.",
+  "zh": "今天同一单位的算力。"
+ },
+ {
+  "seg": 349,
+  "start": 1111.502,
+  "end": 1112.142,
+  "speaker": "SPEAKER_01",
+  "en": "Maybe not today.",
+  "zh": "也许不是今天。"
+ },
+ {
+  "seg": 350,
+  "start": 1112.182,
+  "end": 1113.363,
+  "speaker": "SPEAKER_01",
+  "en": "Maybe a month out.",
+  "zh": "大概一个月之后。"
+ },
+ {
+  "seg": 351,
+  "start": 1114.028,
+  "end": 1115.959,
+  "speaker": "SPEAKER_01",
+  "en": "Versus one year out versus two year out.",
+  "zh": "相对于一年之后还是两年之后。"
+ },
+ {
+  "seg": 352,
+  "start": 1116.009,
+  "end": 1117.68,
+  "speaker": "SPEAKER_01",
+  "en": "Is that is that curve going up or going down?",
+  "zh": "那条曲线是往上走还是往下走？"
+ },
+ {
+  "seg": 353,
+  "start": 1117.73,
+  "end": 1119.231,
+  "speaker": "SPEAKER_01",
+  "en": "We see like a hump.",
+  "zh": "我们看到的是一个驼峰。"
+ },
+ {
+  "seg": 354,
+  "start": 1119.611,
+  "end": 1120.342,
+  "speaker": "SPEAKER_01",
+  "en": "Oh, my God.",
+  "zh": "哦，我的天。"
+ },
+ {
+  "seg": 355,
+  "start": 1120.392,
+  "end": 1121.432,
+  "speaker": "SPEAKER_01",
+  "en": "OK, so explain.",
+  "zh": "好，那你解释一下。"
+ },
+ {
+  "seg": 356,
+  "start": 1122.793,
+  "end": 1122.933,
+  "speaker": "Evan Conrad",
+  "en": "Like,",
+  "zh": "就是，"
+ },
+ {
+  "seg": 357,
+  "start": 1122.953,
+  "end": 1126.435,
+  "speaker": "Evan Conrad",
+  "en": "I think this will make intuitive sense is basically like if I have milk and it is",
+  "zh": "我觉得这个在直觉上很好理解，基本上就是，如果我有一盒牛奶"
+ },
+ {
+  "seg": 358,
+  "start": 1126.475,
+  "end": 1128.507,
+  "speaker": "Evan Conrad",
+  "en": "about to expire, I will lower the price on it.",
+  "zh": "快过期了，我就会降价卖。"
+ },
+ {
+  "seg": 359,
+  "start": 1128.557,
+  "end": 1129.557,
+  "speaker": "Evan Conrad",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 360,
+  "start": 1129.897,
+  "end": 1132.299,
+  "speaker": "Evan Conrad",
+  "en": "And so that's basically what we see.",
+  "zh": "所以我们看到的 basically 就是这个。"
+ },
+ {
+  "seg": 361,
+  "start": 1132.359,
+  "end": 1133.86,
+  "speaker": "SPEAKER_01",
+  "en": "It's the Nvidia release cycle, basically.",
+  "zh": "这 basically 就是 Nvidia 的发布周期。"
+ },
+ {
+  "seg": 362,
+  "start": 1133.9,
+  "end": 1134.718,
+  "speaker": "SPEAKER_01",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 363,
+  "start": 1134.768,
+  "end": 1138.804,
+  "speaker": "Evan Conrad",
+  "en": "Well, we're more saying like if there's a block of compute and it's approaching now,",
+  "zh": "嗯，我们更想说的是，如果有一块算力现在临近到期了，"
+ },
+ {
+  "seg": 364,
+  "start": 1138.854,
+  "end": 1140.005,
+  "speaker": "Evan Conrad",
+  "en": "it can't be sold in the past.",
+  "zh": "它没法在过去被卖掉，"
+ },
+ {
+  "seg": 365,
+  "start": 1140.055,
+  "end": 1143.6105555555557,
+  "speaker": "Evan Conrad",
+  "en": "And so it has to drop its price in order to clear at some price.",
+  "zh": "所以它必须降价才能以某个价格成交。"
+ },
+ {
+  "seg": 366,
+  "start": 1143.981,
+  "end": 1148.037,
+  "speaker": "Evan Conrad",
+  "en": "And so initially you see this like drop where stuff that's sold right now,",
+  "zh": "所以一开始你会看到这种下降，就是那些现在就卖出去的东西，"
+ },
+ {
+  "seg": 367,
+  "start": 1148.087,
+  "end": 1149.3590000000002,
+  "speaker": "Evan Conrad",
+  "en": "anything that's on the market right now,",
+  "zh": "现在在市场上的任何东西，"
+ },
+ {
+  "seg": 368,
+  "start": 1149.409,
+  "end": 1151.712,
+  "speaker": "Evan Conrad",
+  "en": "And so they're sort of paying for the shorter lead time.",
+  "zh": "所以他们其实是在为更短的交货时间付钱。"
+ },
+ {
+  "seg": 369,
+  "start": 1151.752,
+  "end": 1154.545,
+  "speaker": "Evan Conrad",
+  "en": "And they pay less for the compute that's off into the future.",
+  "zh": "而对于未来的算力，他们付得更少。"
+ },
+ {
+  "seg": 370,
+  "start": 1154.595,
+  "end": 1157.6505555555557,
+  "speaker": "Evan Conrad",
+  "en": "This is what I think a normal healthy curve looks like.",
+  "zh": "这就是我认为正常的、健康的曲线的样子。"
+ },
+ {
+  "seg": 371,
+  "start": 1172.057,
+  "end": 1173.138,
+  "speaker": "Evan Conrad",
+  "en": "The place where I'm like, oh, man,",
+  "zh": "而让我觉得「哦，天哪」的地方在于，"
+ },
+ {
+  "seg": 372,
+  "start": 1173.158,
+  "end": 1174.158,
+  "speaker": "Evan Conrad",
+  "en": "no shit,",
+  "zh": "真的假的，"
+ },
+ {
+  "seg": 373,
+  "start": 1174.498,
+  "end": 1176.399,
+  "speaker": "Evan Conrad",
+  "en": "is that right now,",
+  "zh": "就是现在，"
+ },
+ {
+  "seg": 374,
+  "start": 1176.62,
+  "end": 1180.642,
+  "speaker": "Evan Conrad",
+  "en": "if you took a B300 and you tried to run inference on it,",
+  "zh": "如果你拿一块 B300 试着跑推理，"
+ },
+ {
+  "seg": 375,
+  "start": 1181.242,
+  "end": 1186.305,
+  "speaker": "Evan Conrad",
+  "en": "you can make $40 an hour or so selling that as inference.",
+  "zh": "你把它作为推理卖出去大概能赚每小时 40 美元。"
+ },
+ {
+  "seg": 376,
+  "start": 1186.605,
+  "end": 1187.7716666666668,
+  "speaker": "Evan Conrad",
+  "en": "Any model, basically.",
+  "zh": "基本 any 模型都行。"
+ },
+ {
+  "seg": 377,
+  "start": 1188.406,
+  "end": 1190.257,
+  "speaker": "Evan Conrad",
+  "en": "And so that's if you use it at 100%.",
+  "zh": "而且这是按 100% 使用率算的。"
+ },
+ {
+  "seg": 378,
+  "start": 1190.307,
+  "end": 1193.349,
+  "speaker": "Evan Conrad",
+  "en": "And maybe if you only have like 50% utilization or something, so like $25 an hour.",
+  "zh": "也许如果你只有 50% 左右的利用率什么的，那就是每小时 25 美元左右。"
+ },
+ {
+  "seg": 379,
+  "start": 1193.369,
+  "end": 1193.769,
+  "speaker": "Evan Conrad",
+  "en": "So $25 an hour.",
+  "zh": "所以每小时 25 美元。"
+ },
+ {
+  "seg": 380,
+  "start": 1193.789,
+  "end": 1196.789,
+  "speaker": "Evan Conrad",
+  "en": "Meanwhile, you can buy B300s at like $5 to $6 an hour.",
+  "zh": "而与此同时，你可以以每小时大概 5 到 6 美元买到 B300。"
+ },
+ {
+  "seg": 381,
+  "start": 1199.475,
+  "end": 1200.9660000000001,
+  "speaker": "Evan Conrad",
+  "en": "One of these numbers has to change.",
+  "zh": "这两个数字总有一个得变。"
+ },
+ {
+  "seg": 382,
+  "start": 1201.016,
+  "end": 1201.4260000000002,
+  "speaker": "Evan Conrad",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 383,
+  "start": 1201.476,
+  "end": 1202.4270000000001,
+  "speaker": "Evan Conrad",
+  "en": "It's a huge arbitrage.",
+  "zh": "这是一个巨大的套利空间。"
+ },
+ {
+  "seg": 384,
+  "start": 1202.477,
+  "end": 1203.017,
+  "speaker": "Evan Conrad",
+  "en": "It's a huge arbitrage.",
+  "zh": "这是一个巨大的套利空间。"
+ },
+ {
+  "seg": 385,
+  "start": 1203.037,
+  "end": 1204.448,
+  "speaker": "SPEAKER_01",
+  "en": "You mentioned this in your talks a lot.",
+  "zh": "你在演讲里经常提到这个。"
+ },
+ {
+  "seg": 386,
+  "start": 1204.498,
+  "end": 1204.748,
+  "speaker": "Evan Conrad",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 387,
+  "start": 1204.798,
+  "end": 1208.399,
+  "speaker": "Evan Conrad",
+  "en": "So a bunch of people are basically looking at this and thinking,",
+  "zh": "所以有一堆人 basically 都在看着这个，然后在想，"
+ },
+ {
+  "seg": 388,
+  "start": 1209.84,
+  "end": 1211.491,
+  "speaker": "Evan Conrad",
+  "en": "if I think prices are going to go up,",
+  "zh": "如果我认为价格会涨，"
+ },
+ {
+  "seg": 389,
+  "start": 1211.541,
+  "end": 1214.852,
+  "speaker": "Evan Conrad",
+  "en": "I might be willing to pay more than what I previously thought in the future",
+  "zh": "那我可能愿意在未来付出比我之前以为更多的钱，"
+ },
+ {
+  "seg": 390,
+  "start": 1214.902,
+  "end": 1217.902,
+  "speaker": "Evan Conrad",
+  "en": "because I might think, OK, I can buy a five right now.",
+  "zh": "因为我会想，好，我现在能以 5 美元买到。"
+ },
+ {
+  "seg": 391,
+  "start": 1217.964,
+  "end": 1219.314,
+  "speaker": "Evan Conrad",
+  "en": "But if I can't buy any more,",
+  "zh": "但如果以后买不到了，"
+ },
+ {
+  "seg": 392,
+  "start": 1219.364,
+  "end": 1222.466,
+  "speaker": "Evan Conrad",
+  "en": "then maybe I will be willing to buy even more in the future just to lock it in",
+  "zh": "那也许我愿意在未来出更高的价，就为了把它锁定，"
+ },
+ {
+  "seg": 393,
+  "start": 1222.506,
+  "end": 1224.017,
+  "speaker": "Evan Conrad",
+  "en": "if it's going to come online later.",
+  "zh": "如果它晚些时候才上线的话。"
+ },
+ {
+  "seg": 394,
+  "start": 1224.067,
+  "end": 1225.9003333333333,
+  "speaker": "Evan Conrad",
+  "en": "So we see the other side as well.",
+  "zh": "所以我们也看到了另一面。"
+ },
+ {
+  "seg": 395,
+  "start": 1227.278,
+  "end": 1228.428,
+  "speaker": "Evan Conrad",
+  "en": "It kind of depends on who you are.",
+  "zh": "这有点取决于你是谁。"
+ },
+ {
+  "seg": 396,
+  "start": 1228.478,
+  "end": 1230.259,
+  "speaker": "SPEAKER_01",
+  "en": "Cool.",
+  "zh": "酷。"
+ },
+ {
+  "seg": 397,
+  "start": 1230.699,
+  "end": 1233.36,
+  "speaker": "SPEAKER_01",
+  "en": "And I just really want to make super clear on this.",
+  "zh": "而且我真的很想把这一点说清楚。"
+ },
+ {
+  "seg": 398,
+  "start": 1233.4,
+  "end": 1233.67,
+  "speaker": "SPEAKER_01",
+  "en": "Of course.",
+  "zh": "当然。"
+ },
+ {
+  "seg": 399,
+  "start": 1233.72,
+  "end": 1236.21,
+  "speaker": "SPEAKER_01",
+  "en": "Do you care about the different generations of chips,",
+  "zh": "你在乎不同的芯片代际吗，"
+ },
+ {
+  "seg": 400,
+  "start": 1236.26,
+  "end": 1239.121,
+  "speaker": "SPEAKER_01",
+  "en": "or do you just care about overall flops and you spread",
+  "zh": "还是你只关心总算力(flops),然后"
+ },
+ {
+  "seg": 401,
+  "start": 1239.221,
+  "end": 1240.8876666666667,
+  "speaker": "SPEAKER_01",
+  "en": "among whatever chips you want?",
+  "zh": "随便摊到你想用的任何芯片上?"
+ },
+ {
+  "seg": 402,
+  "start": 1241.001,
+  "end": 1243.852,
+  "speaker": "Evan Conrad",
+  "en": "We care about different generations of chips because- Yeah, you care.",
+  "zh": "我们关心不同世代的芯片,因为——对,你在乎。"
+ },
+ {
+  "seg": 403,
+  "start": 1243.902,
+  "end": 1245.6242222222222,
+  "speaker": "Evan Conrad",
+  "en": "I guess do your customers care?",
+  "zh": "我猜是你的客户在乎?"
+ },
+ {
+  "seg": 404,
+  "start": 1245.763,
+  "end": 1246.213,
+  "speaker": "Evan Conrad",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 405,
+  "start": 1246.263,
+  "end": 1246.573,
+  "speaker": "Evan Conrad",
+  "en": "Right?",
+  "zh": "对吧?"
+ },
+ {
+  "seg": 406,
+  "start": 1246.623,
+  "end": 1247.023,
+  "speaker": "Evan Conrad",
+  "en": "Oh, wait.",
+  "zh": "哦,等等。"
+ },
+ {
+  "seg": 407,
+  "start": 1247.043,
+  "end": 1250.684,
+  "speaker": "Evan Conrad",
+  "en": "When you say different generation chips, do you mean like- So like B300s or B300s?",
+  "zh": "你说不同世代的芯片,你是指——比如 B300 还是 B300?"
+ },
+ {
+  "seg": 408,
+  "start": 1250.704,
+  "end": 1251.394,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah, exactly.",
+  "zh": "对,没错。"
+ },
+ {
+  "seg": 409,
+  "start": 1251.444,
+  "end": 1252.0140000000001,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 410,
+  "start": 1252.064,
+  "end": 1254.125,
+  "speaker": "SPEAKER_01",
+  "en": "Or like even AMD or whatever, right?",
+  "zh": "或者甚至是 AMD 或别的什么,对吧?"
+ },
+ {
+  "seg": 411,
+  "start": 1254.145,
+  "end": 1255.875,
+  "speaker": "Evan Conrad",
+  "en": "Yes, I think people totally care about the generation.",
+  "zh": "是的,我觉得大家完全在乎芯片世代。"
+ },
+ {
+  "seg": 412,
+  "start": 1255.925,
+  "end": 1260.3138888888889,
+  "speaker": "Evan Conrad",
+  "en": "I think part of this is because of things like VRAM and part of this is because",
+  "zh": "我觉得部分原因是显存(VRAM)之类的东西,还有部分原因是"
+ },
+ {
+  "seg": 413,
+  "start": 1260.652,
+  "end": 1264.778,
+  "speaker": "Evan Conrad",
+  "en": "of larger NVLink domains and things like that.",
+  "zh": "更大的 NVLink 域之类的。"
+ },
+ {
+  "seg": 414,
+  "start": 1264.798,
+  "end": 1268.943,
+  "speaker": "SPEAKER_01",
+  "en": "So there's just no way to abstract all this to some generalized unit of compute",
+  "zh": "所以根本没办法把这些都抽象成某种通用的算力单位,"
+ },
+ {
+  "seg": 415,
+  "start": 1268.963,
+  "end": 1271.664,
+  "speaker": "SPEAKER_01",
+  "en": "that you can sort of mush around wherever you like.",
+  "zh": "可以让你随便挪来挪去。"
+ },
+ {
+  "seg": 416,
+  "start": 1271.714,
+  "end": 1274.065,
+  "speaker": "Evan Conrad",
+  "en": "I think when you were saying even oil isn't oil,",
+  "zh": "我觉得你刚才说连石油都不是石油,"
+ },
+ {
+  "seg": 417,
+  "start": 1274.115,
+  "end": 1276.295,
+  "speaker": "Evan Conrad",
+  "en": "oil is actually just a bunch of different types of oil.",
+  "zh": "石油实际上只是一堆不同种类的油。"
+ },
+ {
+  "seg": 418,
+  "start": 1276.315,
+  "end": 1278.376,
+  "speaker": "Evan Conrad",
+  "en": "Yeah, like jet fuel or car fuel, whatever.",
+  "zh": "对,比如航空燃油或者汽车燃油,随便什么。"
+ },
+ {
+  "seg": 419,
+  "start": 1278.396,
+  "end": 1279.807,
+  "speaker": "Evan Conrad",
+  "en": "I think it's the same thing.",
+  "zh": "我觉得是同一回事。"
+ },
+ {
+  "seg": 420,
+  "start": 1279.857,
+  "end": 1281.037,
+  "speaker": "SPEAKER_01",
+  "en": "You're going to get a bunch of different types.",
+  "zh": "你会得到一堆不同的种类。"
+ },
+ {
+  "seg": 421,
+  "start": 1281.057,
+  "end": 1283.0014444444444,
+  "speaker": "SPEAKER_01",
+  "en": "It is, but you have oil refineries.",
+  "zh": "是,但你有炼油厂。"
+ },
+ {
+  "seg": 422,
+  "start": 1283.938,
+  "end": 1287.715777777778,
+  "speaker": "SPEAKER_01",
+  "en": "Effectively, a black box is you can put oil in and get whatever out.",
+  "zh": "从效果上看就是一个黑箱,你可以把油放进去,得到任何你想要的东西。"
+ },
+ {
+  "seg": 423,
+  "start": 1288.119,
+  "end": 1290.86,
+  "speaker": "SPEAKER_01",
+  "en": "If computed is so heterogeneous,",
+  "zh": "如果算力如此异构——"
+ },
+ {
+  "seg": 424,
+  "start": 1290.9,
+  "end": 1292.0111111111112,
+  "speaker": "SPEAKER_01",
+  "en": "I guess is the word,",
+  "zh": "我猜这个词是这么用的——"
+ },
+ {
+  "seg": 425,
+  "start": 1292.16,
+  "end": 1295.671,
+  "speaker": "SPEAKER_01",
+  "en": "you just have to expose the underlying complexity to your end customer,",
+  "zh": "那你就得把底层的复杂性暴露给你的终端客户,"
+ },
+ {
+  "seg": 426,
+  "start": 1295.721,
+  "end": 1297.8876666666667,
+  "speaker": "SPEAKER_01",
+  "en": "which is bad for you as a market maker.",
+  "zh": "这对你作为一个做市商来说是不利的。"
+ },
+ {
+  "seg": 427,
+  "start": 1300.085,
+  "end": 1303.347,
+  "speaker": "SPEAKER_01",
+  "en": "You want to identify the one choke point,",
+  "zh": "你想找到那个唯一的咽喉要道,"
+ },
+ {
+  "seg": 428,
+  "start": 1303.387,
+  "end": 1306.068,
+  "speaker": "SPEAKER_01",
+  "en": "or I don't know what the better word for choke point is,",
+  "zh": "或者我不知道「咽喉要道」有没有更好的说法,"
+ },
+ {
+  "seg": 429,
+  "start": 1306.108,
+  "end": 1307.409,
+  "speaker": "SPEAKER_01",
+  "en": "like a shelling point,",
+  "zh": "比如一个聚点(shelling point),"
+ },
+ {
+  "seg": 430,
+  "start": 1307.769,
+  "end": 1309.2134444444443,
+  "speaker": "SPEAKER_01",
+  "en": "where everyone agrees, OK,",
+  "zh": "让所有人都同意,好,"
+ },
+ {
+  "seg": 431,
+  "start": 1309.41,
+  "end": 1310.69,
+  "speaker": "SPEAKER_01",
+  "en": "this is kind of the standard,",
+  "zh": "这差不多就是标准,"
+ },
+ {
+  "seg": 432,
+  "start": 1310.71,
+  "end": 1314.852,
+  "speaker": "SPEAKER_01",
+  "en": "and we'll all agree to this standard, and it'll be somewhat inefficient.",
+  "zh": "我们都同意这个标准,虽然它会有些低效。"
+ },
+ {
+  "seg": 433,
+  "start": 1315.152,
+  "end": 1316.123,
+  "speaker": "Evan Conrad",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 434,
+  "start": 1316.173,
+  "end": 1322.936,
+  "speaker": "Evan Conrad",
+  "en": "So we've been able to reduce the problems to a certain level, but they still exist.",
+  "zh": "所以我们已经能把这些问题降低到一定程度,但它们仍然存在。"
+ },
+ {
+  "seg": 435,
+  "start": 1322.956,
+  "end": 1324.767,
+  "speaker": "SPEAKER_01",
+  "en": "Your job is dimensionality reduction.",
+  "zh": "你的工作就是降维。"
+ },
+ {
+  "seg": 436,
+  "start": 1324.817,
+  "end": 1325.327,
+  "speaker": "SPEAKER_01",
+  "en": "Yes.",
+  "zh": "是。"
+ },
+ {
+  "seg": 437,
+  "start": 1325.377,
+  "end": 1328.3890000000001,
+  "speaker": "Evan Conrad",
+  "en": "We reduce a lot of the dimensions, but nonetheless, there are still dimensions.",
+  "zh": "我们降低了很多维度,但尽管如此,仍然还有维度。"
+ },
+ {
+  "seg": 438,
+  "start": 1328.439,
+  "end": 1329.588,
+  "speaker": "Evan Conrad",
+  "en": "It's still going to exist.",
+  "zh": "它还是会存在。"
+ },
+ {
+  "seg": 439,
+  "start": 1329.638,
+  "end": 1331.638,
+  "speaker": "SPEAKER_01",
+  "en": "Do you know how many SKUs you have?",
+  "zh": "你知道你有多少个 SKU 吗?"
+ },
+ {
+  "seg": 440,
+  "start": 1332.22,
+  "end": 1339.22,
+  "speaker": "SPEAKER_01",
+  "en": "So like five times 100 times like 5,000 equals, I don't know.",
+  "zh": "大概是五乘以一百再乘以大概五千,等于,我不知道。"
+ },
+ {
+  "seg": 441,
+  "start": 1340.925,
+  "end": 1344.827,
+  "speaker": "Evan Conrad",
+  "en": "We actually made SKUs like a concept that,",
+  "zh": "我们实际上把 SKU 做成了一个概念,"
+ },
+ {
+  "seg": 442,
+  "start": 1345.407,
+  "end": 1348.599,
+  "speaker": "Evan Conrad",
+  "en": "and the goal is to make it so that somebody else can make their own SKU.",
+  "zh": "目标是让其他人也能创建他们自己的 SKU。"
+ },
+ {
+  "seg": 443,
+  "start": 1348.649,
+  "end": 1354.956,
+  "speaker": "Evan Conrad",
+  "en": "So if I want to buy Blackwells, I can say I'm willing to buy Blackwells at $6 an hour or less.",
+  "zh": "比如如果我想买 Blackwell,我可以说我愿意以每小时 6 美元或更低的价格购买 Blackwell。"
+ },
+ {
+  "seg": 444,
+  "start": 1355.436,
+  "end": 1358.998,
+  "speaker": "Evan Conrad",
+  "en": "And you can match me against GB300s or you can match me against B300s.",
+  "zh": "然后你可以用 GB300 跟我匹配,或者用 B300 跟我匹配。"
+ },
+ {
+  "seg": 445,
+  "start": 1359.038,
+  "end": 1362.926888888889,
+  "speaker": "Evan Conrad",
+  "en": "And I don't care which Blackwell as long as it's less than $6 an hour.",
+  "zh": "我不在乎是哪种 Blackwell,只要低于每小时 6 美元就行。"
+ },
+ {
+  "seg": 446,
+  "start": 1363.021,
+  "end": 1365.492,
+  "speaker": "SPEAKER_01",
+  "en": "But you just said you care about memory and other stuff.",
+  "zh": "但你刚说你还在乎显存之类的。"
+ },
+ {
+  "seg": 447,
+  "start": 1365.542,
+  "end": 1365.892,
+  "speaker": "SPEAKER_01",
+  "en": "Totally.",
+  "zh": "完全在乎。"
+ },
+ {
+  "seg": 448,
+  "start": 1365.942,
+  "end": 1366.463,
+  "speaker": "SPEAKER_01",
+  "en": "But not every",
+  "zh": "但不是每一个"
+ },
+ {
+  "seg": 449,
+  "start": 1366.483,
+  "end": 1366.923,
+  "speaker": "Evan Conrad",
+  "en": "customer does.",
+  "zh": "客户都在乎。"
+ },
+ {
+  "seg": 450,
+  "start": 1367.083,
+  "end": 1370.155,
+  "speaker": "Evan Conrad",
+  "en": "So some customers just can work on Blackwells, whatever it is.",
+  "zh": "所以有些客户就是能在 Blackwell 上干活,不管它是什么。"
+ },
+ {
+  "seg": 451,
+  "start": 1370.205,
+  "end": 1372.626,
+  "speaker": "Evan Conrad",
+  "en": "Some customers are super hyper-specific and they need this exact thing.",
+  "zh": "有些客户是超级超具体的,他们需要的就是这个确切的东西。"
+ },
+ {
+  "seg": 452,
+  "start": 1372.666,
+  "end": 1374.938,
+  "speaker": "Evan Conrad",
+  "en": "And they're going to pay more for that because the market's going to charge them more.",
+  "zh": "而且他们会为此付更多钱,因为市场会向他们收更多钱。"
+ },
+ {
+  "seg": 453,
+  "start": 1374.988,
+  "end": 1375.858,
+  "speaker": "SPEAKER_01",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 454,
+  "start": 1375.908,
+  "end": 1377.349,
+  "speaker": "Evan Conrad",
+  "en": "And that's what we do.",
+  "zh": "这就是我们所做的事情。"
+ },
+ {
+  "seg": 455,
+  "start": 1377.449,
+  "end": 1381.1712222222222,
+  "speaker": "SPEAKER_01",
+  "en": "So people use your APIs to programmatically define what they want,",
+  "zh": "所以人们用你们的 API 以编程方式定义他们想要什么,"
+ },
+ {
+  "seg": 456,
+  "start": 1381.191,
+  "end": 1387.694,
+  "speaker": "SPEAKER_01",
+  "en": "and then you match that with whatever composition of sellers they might be able",
+  "zh": "然后你们把它和你们能找到的、"
+ },
+ {
+  "seg": 457,
+  "start": 1387.734,
+  "end": 1388.285,
+  "speaker": "SPEAKER_01",
+  "en": "to fulfill?",
+  "zh": "可能满足需求的各种卖方组合进行匹配?"
+ },
+ {
+  "seg": 458,
+  "start": 1388.335,
+  "end": 1389.335,
+  "speaker": "Evan Conrad",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 459,
+  "start": 1389.415,
+  "end": 1393.637,
+  "speaker": "Evan Conrad",
+  "en": "With the caveat that having a named query is a new thing we're doing,",
+  "zh": "不过要说明一下,具名查询是我们正在做的新东西,"
+ },
+ {
+  "seg": 460,
+  "start": 1394.258,
+  "end": 1397.294,
+  "speaker": "Evan Conrad",
+  "en": "but the query system as a concept is how the order book works right now.",
+  "zh": "但查询系统作为一个概念,就是现在订单簿运作的方式。"
+ },
+ {
+  "seg": 461,
+  "start": 1397.344,
+  "end": 1398.3995555555557,
+  "speaker": "SPEAKER_01",
+  "en": "Okay, interesting.",
+  "zh": "好,有意思。"
+ },
+ {
+  "seg": 462,
+  "start": 1398.665,
+  "end": 1404.009,
+  "speaker": "SPEAKER_01",
+  "en": "All right, so I think that's a lot of, I guess, nitty-gritty.",
+  "zh": "好,我想这些算是相当多的细枝末节了。"
+ },
+ {
+  "seg": 463,
+  "start": 1404.089,
+  "end": 1405.81,
+  "speaker": "SPEAKER_01",
+  "en": "Are there anything about,",
+  "zh": "有没有什么关于,"
+ },
+ {
+  "seg": 464,
+  "start": 1405.91,
+  "end": 1406.461,
+  "speaker": "SPEAKER_01",
+  "en": "I guess,",
+  "zh": "我是说,"
+ },
+ {
+  "seg": 465,
+  "start": 1406.511,
+  "end": 1407.781,
+  "speaker": "SPEAKER_01",
+  "en": "that you want to educate people on,",
+  "zh": "你想要向人们科普的东西,"
+ },
+ {
+  "seg": 466,
+  "start": 1407.831,
+  "end": 1409.863,
+  "speaker": "SPEAKER_01",
+  "en": "whether it's financial people or engineers,",
+  "zh": "无论是金融人士还是工程师,"
+ },
+ {
+  "seg": 467,
+  "start": 1409.913,
+  "end": 1412.315,
+  "speaker": "SPEAKER_01",
+  "en": "about the state of the compute trading market",
+  "zh": "关于算力交易市场的现状,"
+ },
+ {
+  "seg": 468,
+  "start": 1413.115,
+  "end": 1414.4483333333333,
+  "speaker": "SPEAKER_01",
+  "en": "as you've developed it?",
+  "zh": "就像你所发展起来的这样?"
+ },
+ {
+  "seg": 469,
+  "start": 1413.896,
+  "end": 1416.507111111111,
+  "speaker": "Evan Conrad",
+  "en": "Because effectively, you guys are defining it.",
+  "zh": "因为实际上,你们是在定义这个市场。"
+ },
+ {
+  "seg": 470,
+  "start": 1418.117,
+  "end": 1421.401,
+  "speaker": "Evan Conrad",
+  "en": "Mainly just the requirement for physical settlement.",
+  "zh": "主要就是实物交割的必要性。"
+ },
+ {
+  "seg": 471,
+  "start": 1422.483,
+  "end": 1425.983,
+  "speaker": "Evan Conrad",
+  "en": "We spent three years learning why you need physical settlement.",
+  "zh": "我们花了三年时间去理解为什么你需要实物交割。"
+ },
+ {
+  "seg": 472,
+  "start": 1426.369,
+  "end": 1433.369,
+  "speaker": "Evan Conrad",
+  "en": "And our entire conversation today is that these things are known We're going to try",
+  "zh": "而我们今天的整个对话就是说,这些东西目前是互不相同的,我们要尝试"
+ },
+ {
+  "seg": 473,
+  "start": 1433.878,
+  "end": 1434.588,
+  "speaker": "Evan Conrad",
+  "en": "and make them fungible.",
+  "zh": "让它们变得可互换。"
+ },
+ {
+  "seg": 474,
+  "start": 1434.638,
+  "end": 1436.6935555555556,
+  "speaker": "Evan Conrad",
+  "en": "That's the industry's job to do that.",
+  "zh": "让它们变得可互换是整个行业的任务。"
+ },
+ {
+  "seg": 475,
+  "start": 1436.98,
+  "end": 1441.042,
+  "speaker": "Evan Conrad",
+  "en": "But without that, you run a lot of risks.",
+  "zh": "但如果不这么做,你会面临很多风险。"
+ },
+ {
+  "seg": 476,
+  "start": 1441.222,
+  "end": 1446.464,
+  "speaker": "Evan Conrad",
+  "en": "If you try to build too much financialization before the industry has had time",
+  "zh": "如果在行业还没来得及"
+ },
+ {
+  "seg": 477,
+  "start": 1446.524,
+  "end": 1452.367,
+  "speaker": "Evan Conrad",
+  "en": "to build out the physical settlement, then I think what you have is you have...",
+  "zh": "建立实物交割之前,就试图搞太多金融化,那么我认为你会得到的是……"
+ },
+ {
+  "seg": 478,
+  "start": 1454.721,
+  "end": 1458.493,
+  "speaker": "Evan Conrad",
+  "en": "A market that's very easy to manipulate and a market that has a lot of basis risk",
+  "zh": "一个非常容易被操纵的市场,以及一个有大量基差风险的市场,"
+ },
+ {
+  "seg": 479,
+  "start": 1458.543,
+  "end": 1462.714,
+  "speaker": "Evan Conrad",
+  "en": "where the price you may be hedging against actually has nothing to do with the price",
+  "zh": "在那里,你对冲所依据的价格,实际上和你"
+ },
+ {
+  "seg": 480,
+  "start": 1462.764,
+  "end": 1466.806,
+  "speaker": "Evan Conrad",
+  "en": "that the market you can actually buy the capacity for.",
+  "zh": "实际能买到容量的那个市场的价格毫无关系。"
+ },
+ {
+  "seg": 481,
+  "start": 1466.926,
+  "end": 1468.307,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah, so for listeners,",
+  "zh": "是的,给听众说明一下,"
+ },
+ {
+  "seg": 482,
+  "start": 1468.447,
+  "end": 1470.127,
+  "speaker": "SPEAKER_01",
+  "en": "we talked about this briefly last time,",
+  "zh": "我们上次简单聊过这个,"
+ },
+ {
+  "seg": 483,
+  "start": 1470.167,
+  "end": 1473.529,
+  "speaker": "SPEAKER_01",
+  "en": "but people are often shocked to find out that,",
+  "zh": "但人们常常会很震惊地发现,"
+ },
+ {
+  "seg": 484,
+  "start": 1473.869,
+  "end": 1474.169,
+  "speaker": "SPEAKER_01",
+  "en": "let's say,",
+  "zh": "比如说,"
+ },
+ {
+  "seg": 485,
+  "start": 1474.189,
+  "end": 1478.11,
+  "speaker": "SPEAKER_01",
+  "en": "the market for credit default swaps is 12 times the size of the bonds",
+  "zh": "信用违约互换市场的规模是其所保险债券的 12 倍,"
+ },
+ {
+  "seg": 486,
+  "start": 1478.13,
+  "end": 1479.491,
+  "speaker": "SPEAKER_01",
+  "en": "that they insure,",
+  "zh": "大概是这样的,"
+ },
+ {
+  "seg": 487,
+  "start": 1479.571,
+  "end": 1480.121,
+  "speaker": "SPEAKER_01",
+  "en": "something like that,",
+  "zh": "或者说抵押贷款的"
+ },
+ {
+  "seg": 488,
+  "start": 1480.171,
+  "end": 1482.632,
+  "speaker": "SPEAKER_01",
+  "en": "or the market for Mortgage,",
+  "zh": "再保险市场之类的规模比底层的实物交割还要大。"
+ },
+ {
+  "seg": 489,
+  "start": 1483.753,
+  "end": 1488.456,
+  "speaker": "SPEAKER_01",
+  "en": "sort of reinsurance or all that is larger than the underlying physical settlement.",
+  "zh": "所以这就是实物交割和现金交割的区别。"
+ },
+ {
+  "seg": 490,
+  "start": 1488.476,
+  "end": 1490.748,
+  "speaker": "SPEAKER_01",
+  "en": "So that's why physical versus cash settled.",
+  "zh": "基本上现金交割就像是你在《大空头》里看到的那种对赌,"
+ },
+ {
+  "seg": 491,
+  "start": 1490.798,
+  "end": 1496.542,
+  "speaker": "SPEAKER_01",
+  "en": "And like basically cash settlements are like exactly the kind of the side bet",
+  "zh": "它们可能与底层的东西本身有关,也可能毫无关系,"
+ },
+ {
+  "seg": 492,
+  "start": 1496.562,
+  "end": 1501.725,
+  "speaker": "SPEAKER_01",
+  "en": "that you see in the big short where they may or may not have anything to do with",
+  "zh": "而且它可能被用作其他各种东西的代理指标,"
+ },
+ {
+  "seg": 493,
+  "start": 1501.745,
+  "end": 1502.906,
+  "speaker": "SPEAKER_01",
+  "en": "the underlying thing itself.",
+  "zh": "你不会想让这种东西失控的。"
+ },
+ {
+  "seg": 494,
+  "start": 1502.946,
+  "end": 1506.568,
+  "speaker": "SPEAKER_01",
+  "en": "And it may be used as a proxy for overall other stuff.",
+  "zh": "是的,所以澄清一下,我们认为现金交割期货作为一个概念是个好主意。"
+ },
+ {
+  "seg": 495,
+  "start": 1506.668,
+  "end": 1509.168,
+  "speaker": "SPEAKER_01",
+  "en": "And you don't want that to go out of control.",
+  "zh": "我们只是认为它应该从实物交割中派生出来,因为,"
+ },
+ {
+  "seg": 496,
+  "start": 1509.308,
+  "end": 1514.23,
+  "speaker": "Evan Conrad",
+  "en": "Yeah, so to be clear, we think cash settlement as a future concept is a great idea.",
+  "zh": "正如你所说,它是一种对赌。"
+ },
+ {
+  "seg": 497,
+  "start": 1514.931,
+  "end": 1518.122,
+  "speaker": "Evan Conrad",
+  "en": "We just think it should be derived from physical settlement because,",
+  "zh": "而且这就好比你在做出实物交割之前,先做出现金交割期货一样。"
+ },
+ {
+  "seg": 498,
+  "start": 1518.172,
+  "end": 1519.783111111111,
+  "speaker": "Evan Conrad",
+  "en": "as you said, it's a side bet.",
+  "zh": "正如你所说，这是一个 side bet(次要赌注)。"
+ },
+ {
+  "seg": 499,
+  "start": 1520.613,
+  "end": 1526.196,
+  "speaker": "Evan Conrad",
+  "en": "And it would be kind of like if you made a cash settlement future before you made",
+  "zh": "这就有点像你在做之前先做了一个现金结算期货，"
+ },
+ {
+  "seg": 500,
+  "start": 1526.236,
+  "end": 1526.856,
+  "speaker": "Evan Conrad",
+  "en": "the physical settlement,",
+  "zh": "实物结算,"
+ },
+ {
+  "seg": 501,
+  "start": 1528.457,
+  "end": 1530.018,
+  "speaker": "SPEAKER_01",
+  "en": "which I think people are kind of doing already.",
+  "zh": "我觉得人们其实已经在这么做了。"
+ },
+ {
+  "seg": 502,
+  "start": 1530.648,
+  "end": 1531.218,
+  "speaker": "Evan Conrad",
+  "en": "Yeah, totally.",
+  "zh": "对,完全。"
+ },
+ {
+  "seg": 503,
+  "start": 1531.268,
+  "end": 1533.229,
+  "speaker": "Evan Conrad",
+  "en": "People are trying to make cash settlement before you make the physical settlement.",
+  "zh": "人们在尝试在你做实物结算之前先做现金结算。"
+ },
+ {
+  "seg": 504,
+  "start": 1533.249,
+  "end": 1537.0823333333333,
+  "speaker": "SPEAKER_01",
+  "en": "And people do that for all sorts of things, including startup stock.",
+  "zh": "而人们对各种东西都这么干,包括创业公司股票。"
+ },
+ {
+  "seg": 505,
+  "start": 1536.27,
+  "end": 1536.64,
+  "speaker": "SPEAKER_01",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 506,
+  "start": 1536.69,
+  "end": 1536.871,
+  "speaker": "SPEAKER_01",
+  "en": "Right?",
+  "zh": "对吧?"
+ },
+ {
+  "seg": 507,
+  "start": 1536.891,
+  "end": 1539.812,
+  "speaker": "SPEAKER_01",
+  "en": "Like you can buy and sell a made-up share of OpenAI,",
+  "zh": "比如你可以买卖虚构的 OpenAI 股份,"
+ },
+ {
+  "seg": 508,
+  "start": 1539.852,
+  "end": 1541.843,
+  "speaker": "SPEAKER_01",
+  "en": "but it's nothing to do with the actual share.",
+  "zh": "但这和实际的股份毫无关系。"
+ },
+ {
+  "seg": 509,
+  "start": 1541.893,
+  "end": 1542.663,
+  "speaker": "Evan Conrad",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 510,
+  "start": 1542.713,
+  "end": 1545.174,
+  "speaker": "Evan Conrad",
+  "en": "And lots of those go very poorly.",
+  "zh": "而且其中很多都搞得很糟糕。"
+ },
+ {
+  "seg": 511,
+  "start": 1546.074,
+  "end": 1548.5184444444444,
+  "speaker": "Evan Conrad",
+  "en": "Like, it would be kind of bad if you made a,",
+  "zh": "比如,如果你做一个,那会有点糟,"
+ },
+ {
+  "seg": 512,
+  "start": 1549.476,
+  "end": 1556.02,
+  "speaker": "Evan Conrad",
+  "en": "it would be bad if you started selling the derivative on a stock that doesn't exist",
+  "zh": "如果你开始卖一种还不存在的股票的衍生品,那会很糟"
+ },
+ {
+  "seg": 513,
+  "start": 1556.06,
+  "end": 1557.06,
+  "speaker": "Evan Conrad",
+  "en": "yet.",
+  "zh": "还没有。"
+ },
+ {
+  "seg": 514,
+  "start": 1557.341,
+  "end": 1557.982,
+  "speaker": "Evan Conrad",
+  "en": "Yeah, yeah.",
+  "zh": "对,对。"
+ },
+ {
+  "seg": 515,
+  "start": 1558.002,
+  "end": 1561.334,
+  "speaker": "SPEAKER_01",
+  "en": "So, I mean, one thing that we do, so I used to be a currency trader, right?",
+  "zh": "那么,我是说,我们做的一件事是,我以前是个货币交易员,对吧?"
+ },
+ {
+  "seg": 516,
+  "start": 1561.384,
+  "end": 1562.884,
+  "speaker": "SPEAKER_01",
+  "en": "And interest rates as well.",
+  "zh": "还有利率也是。"
+ },
+ {
+  "seg": 517,
+  "start": 1562.945,
+  "end": 1566.107,
+  "speaker": "SPEAKER_01",
+  "en": "And one thing we do is you have a board that gets together and says,",
+  "zh": "我们做的一件事是,你有一个委员会聚在一起说,"
+ },
+ {
+  "seg": 518,
+  "start": 1566.127,
+  "end": 1569.1825555555556,
+  "speaker": "SPEAKER_01",
+  "en": "like, this is the London Interbank Offered Rate, LIBOR.",
+  "zh": "比如,这就是伦敦银行同业拆借利率,LIBOR。"
+ },
+ {
+  "seg": 519,
+  "start": 1569.569,
+  "end": 1572.0800000000002,
+  "speaker": "SPEAKER_01",
+  "en": "And we all agree, like, this is the monthly fixing.",
+  "zh": "而我们大家都同意,比如,这是每月的定盘价。"
+ },
+ {
+  "seg": 520,
+  "start": 1572.13,
+  "end": 1573.681,
+  "speaker": "SPEAKER_01",
+  "en": "And we all trade to that fixing.",
+  "zh": "然后我们都围绕这个定盘价交易。"
+ },
+ {
+  "seg": 521,
+  "start": 1573.731,
+  "end": 1574.731,
+  "speaker": "SPEAKER_01",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 522,
+  "start": 1575.312,
+  "end": 1578.812,
+  "speaker": "Evan Conrad",
+  "en": "Is that even meaningful at some point in three years from now?",
+  "zh": "那在三年后的某个时点,这还有意义吗?"
+ },
+ {
+  "seg": 523,
+  "start": 1578.433,
+  "end": 1580.494,
+  "speaker": "Evan Conrad",
+  "en": "So critically, LIBOR was manipulated.",
+  "zh": "关键是,LIBOR 曾被操纵。"
+ },
+ {
+  "seg": 524,
+  "start": 1580.774,
+  "end": 1581.774,
+  "speaker": "Evan Conrad",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 525,
+  "start": 1582.034,
+  "end": 1583.254,
+  "speaker": "Evan Conrad",
+  "en": "Our concern at the moment is- Because",
+  "zh": "我们目前的担忧是——因为"
+ },
+ {
+  "seg": 526,
+  "start": 1583.274,
+  "end": 1583.694,
+  "speaker": "SPEAKER_01",
+  "en": "there's 12 banks.",
+  "zh": "有 12 家银行。"
+ },
+ {
+  "seg": 527,
+  "start": 1584.395,
+  "end": 1585.265,
+  "speaker": "Evan Conrad",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 528,
+  "start": 1585.315,
+  "end": 1590.516,
+  "speaker": "Evan Conrad",
+  "en": "Well, our concern is there's a very similar problem where you can manipulate an index.",
+  "zh": "嗯,我们的担忧是,存在一个非常类似的问题,就是你可以操纵一个指数。"
+ },
+ {
+  "seg": 529,
+  "start": 1590.716,
+  "end": 1593.397,
+  "speaker": "Evan Conrad",
+  "en": "Our impression is why you can manipulate that index is because a lot of",
+  "zh": "我们的理解是,之所以你能操纵那个指数,是因为很多"
+ },
+ {
+  "seg": 530,
+  "start": 1593.417,
+  "end": 1599.679,
+  "speaker": "Evan Conrad",
+  "en": "the indexes are based on a very small amount of data that has not a lot",
+  "zh": "指数是基于非常少量的数据构建的,这些数据与购买新储备合约的实际价格"
+ },
+ {
+  "seg": 531,
+  "start": 1599.699,
+  "end": 1603.587888888889,
+  "speaker": "Evan Conrad",
+  "en": "of correlation with the actual price of buying a new reserve contract.",
+  "zh": "没有太大相关性。"
+ },
+ {
+  "seg": 532,
+  "start": 1604.94,
+  "end": 1606.55,
+  "speaker": "Evan Conrad",
+  "en": "That's what we're concerned about.",
+  "zh": "这就是我们担心的。"
+ },
+ {
+  "seg": 533,
+  "start": 1606.6,
+  "end": 1607.271,
+  "speaker": "Evan Conrad",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 534,
+  "start": 1607.321,
+  "end": 1608.0710000000001,
+  "speaker": "SPEAKER_01",
+  "en": "Interesting.",
+  "zh": "有意思。"
+ },
+ {
+  "seg": 535,
+  "start": 1608.121,
+  "end": 1609.281,
+  "speaker": "SPEAKER_01",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 536,
+  "start": 1609.361,
+  "end": 1611.638777777778,
+  "speaker": "SPEAKER_01",
+  "en": "I think that's the rough state of things.",
+  "zh": "我觉得这就是大致的现状了。"
+ },
+ {
+  "seg": 537,
+  "start": 1612.962,
+  "end": 1618.123,
+  "speaker": "SPEAKER_01",
+  "en": "I think the other part of just today is you talked with Oliver,",
+  "zh": "我觉得今天还有另一部分是,你和 Oliver 聊过,"
+ },
+ {
+  "seg": 538,
+  "start": 1618.143,
+  "end": 1622.364,
+  "speaker": "SPEAKER_01",
+  "en": "and you're doing an event with Jump, and you're friends with Silicon Data.",
+  "zh": "你在和 Jump 办一场活动,而且你和 Silicon Data 是朋友。"
+ },
+ {
+  "seg": 539,
+  "start": 1622.624,
+  "end": 1624.654,
+  "speaker": "SPEAKER_01",
+  "en": "What are you learning from all these other players?",
+  "zh": "你从这些其他玩家身上学到了什么?"
+ },
+ {
+  "seg": 540,
+  "start": 1624.704,
+  "end": 1628.755,
+  "speaker": "SPEAKER_01",
+  "en": "Who are the major players that you would want to call out as doing interesting things?",
+  "zh": "你想点名说哪些是在做有意思的事情的主要玩家?"
+ },
+ {
+  "seg": 541,
+  "start": 1628.805,
+  "end": 1629.845,
+  "speaker": "SPEAKER_01",
+  "en": "Ooh.",
+  "zh": "哦。"
+ },
+ {
+  "seg": 542,
+  "start": 1631.466,
+  "end": 1633.6960000000001,
+  "speaker": "Evan Conrad",
+  "en": "So we're big fans of silicon data and compute exchange.",
+  "zh": "我们是 Silicon Data 和 Compute Exchange 的忠实粉丝。"
+ },
+ {
+  "seg": 543,
+  "start": 1633.746,
+  "end": 1636.0793333333334,
+  "speaker": "Evan Conrad",
+  "en": "I think they were also very early to this.",
+  "zh": "我觉得他们在这方面也非常早。"
+ },
+ {
+  "seg": 544,
+  "start": 1636.387,
+  "end": 1640.628,
+  "speaker": "Evan Conrad",
+  "en": "And I think they are doing a reasonable shot at a path that we think",
+  "zh": "而且我认为他们在一条我们认为合理的路径上做了不错的尝试,"
+ },
+ {
+  "seg": 545,
+  "start": 1641.549,
+  "end": 1644.049,
+  "speaker": "Evan Conrad",
+  "en": "that we'll likely end up being partners with.",
+  "zh": "我们很可能最终会和他们成为合作伙伴。"
+ },
+ {
+  "seg": 546,
+  "start": 1644.189,
+  "end": 1646.61,
+  "speaker": "SPEAKER_01",
+  "en": "Can you distinguish your different paths?",
+  "zh": "你能区分一下你们不同的路径吗?"
+ },
+ {
+  "seg": 547,
+  "start": 1646.83,
+  "end": 1650.726,
+  "speaker": "Evan Conrad",
+  "en": "So the general gist is they're doing cash settlement, we're doing physical settlement.",
+  "zh": "大致来说,他们做的是现金结算,我们做的是实物结算。"
+ },
+ {
+  "seg": 548,
+  "start": 1650.776,
+  "end": 1654.261,
+  "speaker": "Evan Conrad",
+  "en": "We think both can exist and should exist and that they're sort",
+  "zh": "我们认为两者可以并存、也应该并存,而且它们彼此之间"
+ },
+ {
+  "seg": 549,
+  "start": 1654.281,
+  "end": 1657.4476666666667,
+  "speaker": "Evan Conrad",
+  "en": "of mutually beneficial to each other and so totally fine.",
+  "zh": "是互利的,所以完全没问题。"
+ },
+ {
+  "seg": 550,
+  "start": 1657.926,
+  "end": 1659.829,
+  "speaker": "Evan Conrad",
+  "en": "So I think they are one of the earliest in the space",
+  "zh": "所以我认为他们是这个领域里最早的一批"
+ },
+ {
+  "seg": 551,
+  "start": 1659.869,
+  "end": 1663.7050000000002,
+  "speaker": "Evan Conrad",
+  "en": "and I think they are very clearly took the I bet well before anybody else did.",
+  "zh": "而且我认为他们非常明确地比其他任何人都早下了这个赌注。"
+ },
+ {
+  "seg": 552,
+  "start": 1663.755,
+  "end": 1665.9772222222223,
+  "speaker": "Evan Conrad",
+  "en": "And I think that's very honorable to do.",
+  "zh": "我觉得这么做是很值得尊敬的。"
+ },
+ {
+  "seg": 553,
+  "start": 1667.781,
+  "end": 1669.423,
+  "speaker": "Evan Conrad",
+  "en": "You mentioned Jump?",
+  "zh": "你提到 Jump 了？"
+ },
+ {
+  "seg": 554,
+  "start": 1669.503,
+  "end": 1670.825,
+  "speaker": "SPEAKER_01",
+  "en": "Semi-analysis, Jump.",
+  "zh": "Semi Analysis，Jump。"
+ },
+ {
+  "seg": 555,
+  "start": 1671.026,
+  "end": 1672.7482222222222,
+  "speaker": "SPEAKER_01",
+  "en": "These are the players emerging.",
+  "zh": "这些是正在涌现的玩家。"
+ },
+ {
+  "seg": 556,
+  "start": 1673.489,
+  "end": 1675.162,
+  "speaker": "SPEAKER_01",
+  "en": "You were my first introduction to this.",
+  "zh": "你是我对这个领域的第一次了解。"
+ },
+ {
+  "seg": 557,
+  "start": 1675.212,
+  "end": 1676.784,
+  "speaker": "SPEAKER_01",
+  "en": "And I see all these other guys coming in.",
+  "zh": "然后我看到所有这些其他人进来了。"
+ },
+ {
+  "seg": 558,
+  "start": 1676.834,
+  "end": 1679.348,
+  "speaker": "SPEAKER_01",
+  "en": "And I'm like, okay, something's happening here.",
+  "zh": "我就想，好吧，这里正在发生一些事情。"
+ },
+ {
+  "seg": 559,
+  "start": 1679.398,
+  "end": 1681.0900000000001,
+  "speaker": "SPEAKER_01",
+  "en": "I don't know the landscape as clearly as you do.",
+  "zh": "我对这个格局的了解没有你那么清楚。"
+ },
+ {
+  "seg": 560,
+  "start": 1681.14,
+  "end": 1685.447,
+  "speaker": "Evan Conrad",
+  "en": "Yeah, so the categories of folks that we've seen is there's folks that are trying",
+  "zh": "是的，我们见过的这类人分成几种，有一些人在尝试"
+ },
+ {
+  "seg": 561,
+  "start": 1685.487,
+  "end": 1686.699,
+  "speaker": "Evan Conrad",
+  "en": "to set better standards.",
+  "zh": "建立更好的标准。"
+ },
+ {
+  "seg": 562,
+  "start": 1686.749,
+  "end": 1690.214,
+  "speaker": "Evan Conrad",
+  "en": "So Semi Analysis, I think, is working to try and create better standards.",
+  "zh": "所以 Semi Analysis，我想，正在努力尝试创建更好的标准。"
+ },
+ {
+  "seg": 563,
+  "start": 1690.254,
+  "end": 1691.866,
+  "speaker": "Evan Conrad",
+  "en": "There's folks that are trying to do...",
+  "zh": "还有一些人在尝试做……"
+ },
+ {
+  "seg": 564,
+  "start": 1691.916,
+  "end": 1693.916,
+  "speaker": "Evan Conrad",
+  "en": "Residual value insurance and so on.",
+  "zh": "残值保险之类的。"
+ },
+ {
+  "seg": 565,
+  "start": 1694.938,
+  "end": 1696.518,
+  "speaker": "Evan Conrad",
+  "en": "There's a number of different companies in the space.",
+  "zh": "这个领域里有不少不同的公司。"
+ },
+ {
+  "seg": 566,
+  "start": 1696.538,
+  "end": 1701.0910000000001,
+  "speaker": "Evan Conrad",
+  "en": "I don't know any of them super well, but I know this is a concept and I think that's important.",
+  "zh": "我对他们中的任何一家都不是特别了解，但我知道这是一个概念，我认为这很重要。"
+ },
+ {
+  "seg": 567,
+  "start": 1701.141,
+  "end": 1706.263,
+  "speaker": "Evan Conrad",
+  "en": "There are folks that are trying to do deposit lending",
+  "zh": "还有一些人在尝试做存款借贷"
+ },
+ {
+  "seg": 568,
+  "start": 1706.363,
+  "end": 1709.365,
+  "speaker": "Evan Conrad",
+  "en": "where they'll front your credit risk for the cloud.",
+  "zh": "他们会为你的云端信用风险提供垫付。"
+ },
+ {
+  "seg": 569,
+  "start": 1709.905,
+  "end": 1713.046,
+  "speaker": "Evan Conrad",
+  "en": "There's an ecosystem of companies that are forming around how do we resolve",
+  "zh": "围绕“我们如何解决算力的金融瓶颈”这个问题，"
+ },
+ {
+  "seg": 570,
+  "start": 1713.066,
+  "end": 1715.1215555555557,
+  "speaker": "Evan Conrad",
+  "en": "the financial bottlenecks of compute.",
+  "zh": "正在形成一个公司生态系统。"
+ },
+ {
+  "seg": 571,
+  "start": 1715.287,
+  "end": 1716.5092222222222,
+  "speaker": "Evan Conrad",
+  "en": "And it is cool to see.",
+  "zh": "看到这些很酷。"
+ },
+ {
+  "seg": 572,
+  "start": 1716.628,
+  "end": 1720.97,
+  "speaker": "SPEAKER_01",
+  "en": "I think, effectively, what you want in this ecosystem is buyers and sellers.",
+  "zh": "我认为，实际上，你在这个生态系统里想要的是买家和卖家。"
+ },
+ {
+  "seg": 573,
+  "start": 1720.99,
+  "end": 1722.431,
+  "speaker": "SPEAKER_01",
+  "en": "You want an analyst.",
+  "zh": "你想要一个分析师。"
+ },
+ {
+  "seg": 574,
+  "start": 1722.451,
+  "end": 1724.292,
+  "speaker": "SPEAKER_01",
+  "en": "You want, you said insurance?",
+  "zh": "你想要，你刚才说的是保险？"
+ },
+ {
+  "seg": 575,
+  "start": 1724.372,
+  "end": 1725.893,
+  "speaker": "SPEAKER_01",
+  "en": "Or what's the?",
+  "zh": "还是什么？"
+ },
+ {
+  "seg": 576,
+  "start": 1726.013,
+  "end": 1726.873,
+  "speaker": "SPEAKER_01",
+  "en": "Residual value insurance.",
+  "zh": "残值保险。"
+ },
+ {
+  "seg": 577,
+  "start": 1726.893,
+  "end": 1727.954,
+  "speaker": "SPEAKER_01",
+  "en": "Residual, yeah.",
+  "zh": "残值，对。"
+ },
+ {
+  "seg": 578,
+  "start": 1728.354,
+  "end": 1732.076,
+  "speaker": "SPEAKER_01",
+  "en": "And we want this healthy ecosystem out there.",
+  "zh": "而我们想要外面有一个健康的生态系统。"
+ },
+ {
+  "seg": 579,
+  "start": 1732.436,
+  "end": 1733.056,
+  "speaker": "SPEAKER_01",
+  "en": "But obviously,",
+  "zh": "但显然，"
+ },
+ {
+  "seg": 580,
+  "start": 1733.076,
+  "end": 1737.7426666666668,
+  "speaker": "SPEAKER_01",
+  "en": "you guys are owning the problem of physical settlement, which is really interesting.",
+  "zh": "你们正在负责实物交割这个问题，这非常有意思。"
+ },
+ {
+  "seg": 581,
+  "start": 1737.919,
+  "end": 1740.3,
+  "speaker": "SPEAKER_01",
+  "en": "OK, so we can go into the hard tech side,",
+  "zh": "好，那我们可以聊聊硬科技那一面，"
+ },
+ {
+  "seg": 582,
+  "start": 1740.32,
+  "end": 1744.2644444444443,
+  "speaker": "SPEAKER_01",
+  "en": "because obviously, you are also hiring for extremely cracked engineers.",
+  "zh": "因为显然，你们也在招极其厉害的工程师。"
+ },
+ {
+  "seg": 583,
+  "start": 1745.083,
+  "end": 1746.1941111111112,
+  "speaker": "SPEAKER_01",
+  "en": "Describe your stack.",
+  "zh": "描述一下你们的技术栈。"
+ },
+ {
+  "seg": 584,
+  "start": 1747.105,
+  "end": 1750.91,
+  "speaker": "Evan Conrad",
+  "en": "We do all the things a cloud does without being the cloud.",
+  "zh": "我们做了云所做的所有事情，但自己不是云。"
+ },
+ {
+  "seg": 585,
+  "start": 1751.671,
+  "end": 1753.614,
+  "speaker": "Evan Conrad",
+  "en": "As in, we don't own the hardware.",
+  "zh": "也就是说，我们不拥有硬件。"
+ },
+ {
+  "seg": 586,
+  "start": 1753.634,
+  "end": 1756.549,
+  "speaker": "Evan Conrad",
+  "en": "The reason why we don't own the hardware is because if we did,",
+  "zh": "我们不拥有硬件的原因是，如果我们拥有了，"
+ },
+ {
+  "seg": 587,
+  "start": 1756.599,
+  "end": 1759.172,
+  "speaker": "Evan Conrad",
+  "en": "we would be able to manipulate the forwards market.",
+  "zh": "我们就能够操纵远期市场。"
+ },
+ {
+  "seg": 588,
+  "start": 1759.222,
+  "end": 1761.005,
+  "speaker": "Evan Conrad",
+  "en": "So we have to be Switzerland.",
+  "zh": "所以我们必须当瑞士。"
+ },
+ {
+  "seg": 589,
+  "start": 1761.045,
+  "end": 1765.7116666666668,
+  "speaker": "Evan Conrad",
+  "en": "We have to be independent, which creates a lot of strange things about the company.",
+  "zh": "我们必须保持独立，这给公司带来很多奇怪的地方。"
+ },
+ {
+  "seg": 590,
+  "start": 1766.008,
+  "end": 1770.03,
+  "speaker": "Evan Conrad",
+  "en": "But in order to do physical settlement, you have to do site visits.",
+  "zh": "但要做实物交割，你必须做实地考察。"
+ },
+ {
+  "seg": 591,
+  "start": 1770.05,
+  "end": 1772.251,
+  "speaker": "Evan Conrad",
+  "en": "You have to visit the data center.",
+  "zh": "你必须去访问数据中心。"
+ },
+ {
+  "seg": 592,
+  "start": 1773.952,
+  "end": 1779.295,
+  "speaker": "Evan Conrad",
+  "en": "You have to design the bill of materials and ensure that You have",
+  "zh": "你必须设计物料清单，并确保……你必须"
+ },
+ {
+  "seg": 593,
+  "start": 1779.315,
+  "end": 1783.601,
+  "speaker": "Evan Conrad",
+  "en": "to basically do like supply chain consulting where you have relationships",
+  "zh": "基本上要做类似供应链咨询的工作，你要和不同的 OEM 有关系，"
+ },
+ {
+  "seg": 594,
+  "start": 1783.641,
+  "end": 1787.3076666666668,
+  "speaker": "Evan Conrad",
+  "en": "with different OEMs that ensure that things get delivered on time.",
+  "zh": "以确保东西按时交付。"
+ },
+ {
+  "seg": 595,
+  "start": 1788.448,
+  "end": 1791.593,
+  "speaker": "Evan Conrad",
+  "en": "Then you have to do cluster architecture.",
+  "zh": "然后你要做集群架构。"
+ },
+ {
+  "seg": 596,
+  "start": 1793.195,
+  "end": 1798.642,
+  "speaker": "Evan Conrad",
+  "en": "So you're sort of Then you're rolling out racks or you're working with partners",
+  "zh": "所以你差不多是……然后你要部署机架，或者和合作伙伴"
+ },
+ {
+  "seg": 597,
+  "start": 1798.662,
+  "end": 1800.8286666666668,
+  "speaker": "Evan Conrad",
+  "en": "to roll out racks and supervising that.",
+  "zh": "一起部署机架并监督这个过程。"
+ },
+ {
+  "seg": 598,
+  "start": 1800.945,
+  "end": 1803.168,
+  "speaker": "Evan Conrad",
+  "en": "Then you're doing backplane management.",
+  "zh": "然后你要做背板管理。"
+ },
+ {
+  "seg": 599,
+  "start": 1803.208,
+  "end": 1808.395,
+  "speaker": "Evan Conrad",
+  "en": "So you're taking over the PDUs and the switches and the DPUs and UFM and BMC",
+  "zh": "所以你要接管 PDU、交换机、DPU、UFM 和 BMC，"
+ },
+ {
+  "seg": 600,
+  "start": 1808.455,
+  "end": 1813.118,
+  "speaker": "Evan Conrad",
+  "en": "and you're operating the whole Harness around the nodes that you're selling.",
+  "zh": "而且你运营的是围绕你所出售节点的一整套 Harness。"
+ },
+ {
+  "seg": 601,
+  "start": 1813.138,
+  "end": 1815.288,
+  "speaker": "SPEAKER_01",
+  "en": "When you say you as an SF compute employees.",
+  "zh": "当你说「你」的时候，指的是 SF Compute 的员工。"
+ },
+ {
+  "seg": 602,
+  "start": 1815.338,
+  "end": 1815.8880000000001,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah.",
+  "zh": "你不是那种 Equinix 之类的公司。"
+ },
+ {
+  "seg": 603,
+  "start": 1815.938,
+  "end": 1816.938,
+  "speaker": "SPEAKER_01",
+  "en": "Wow.",
+  "zh": "哇。"
+ },
+ {
+  "seg": 604,
+  "start": 1817.259,
+  "end": 1821.68,
+  "speaker": "Evan Conrad",
+  "en": "So when you buy a node from a cloud, there's the bare metal.",
+  "zh": "所以当你从云厂商那里买一个节点时，那里有裸金属。"
+ },
+ {
+  "seg": 605,
+  "start": 1821.86,
+  "end": 1822.04,
+  "speaker": "Evan Conrad",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 606,
+  "start": 1822.08,
+  "end": 1823.63,
+  "speaker": "Evan Conrad",
+  "en": "But there's all this shit around the bare metal.",
+  "zh": "但裸金属周围还有一堆乱七八糟的东西。"
+ },
+ {
+  "seg": 607,
+  "start": 1823.68,
+  "end": 1824.5510000000002,
+  "speaker": "Evan Conrad",
+  "en": "Yeah.",
+  "zh": "是。"
+ },
+ {
+  "seg": 608,
+  "start": 1824.601,
+  "end": 1830.202,
+  "speaker": "Evan Conrad",
+  "en": "And in order to make that bare metal node work, you have to operate everything else.",
+  "zh": "而要让那个裸金属节点跑起来，你得把其他所有东西都运营好。"
+ },
+ {
+  "seg": 609,
+  "start": 1830.842,
+  "end": 1831.842,
+  "speaker": "Evan Conrad",
+  "en": "Then we.",
+  "zh": "然后我们。"
+ },
+ {
+  "seg": 610,
+  "start": 1832.423,
+  "end": 1836.284,
+  "speaker": "SPEAKER_01",
+  "en": "Because I just like traditionally the job of the data center is to extract some",
+  "zh": "因为传统上数据中心的职责就是帮你把其中一些"
+ },
+ {
+  "seg": 611,
+  "start": 1836.304,
+  "end": 1837.034,
+  "speaker": "SPEAKER_01",
+  "en": "of this away from you.",
+  "zh": "抽象掉。"
+ },
+ {
+  "seg": 612,
+  "start": 1837.084,
+  "end": 1838.084,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah.",
+  "zh": "对。"
+ },
+ {
+  "seg": 613,
+  "start": 1838.653,
+  "end": 1840.264111111111,
+  "speaker": "SPEAKER_01",
+  "en": "We're the ones that do that.",
+  "zh": "做这件事的就是我们。"
+ },
+ {
+  "seg": 614,
+  "start": 1840.875,
+  "end": 1842.737,
+  "speaker": "SPEAKER_01",
+  "en": "But you're not in the data center business.",
+  "zh": "但你们并不做数据中心业务。"
+ },
+ {
+  "seg": 615,
+  "start": 1842.757,
+  "end": 1845.4792222222222,
+  "speaker": "SPEAKER_01",
+  "en": "You're not in the sort of Equinix's of the world.",
+  "zh": "你不在那种 Equinix 之类的地方。"
+ },
+ {
+  "seg": 616,
+  "start": 1845.759,
+  "end": 1848.370111111111,
+  "speaker": "SPEAKER_01",
+  "en": "We're not in the data center business, sort of.",
+  "zh": "我们不算做数据中心业务，算是吧。"
+ },
+ {
+  "seg": 617,
+  "start": 1848.581,
+  "end": 1853.505,
+  "speaker": "Evan Conrad",
+  "en": "What we do work with is, so we offer supercomputing as a service.",
+  "zh": "我们的合作为，我们提供超算即服务。"
+ },
+ {
+  "seg": 618,
+  "start": 1854.206,
+  "end": 1856.8726666666666,
+  "speaker": "Evan Conrad",
+  "en": "And what this means is folks come to us and say,",
+  "zh": "这意味着有人来找我们说，"
+ },
+ {
+  "seg": 619,
+  "start": 1858.569,
+  "end": 1863.614,
+  "speaker": "Evan Conrad",
+  "en": "I've got X, where X is, I've got X megawatts here.",
+  "zh": "我有 X,这里的 X 是，我有 X 兆瓦。"
+ },
+ {
+  "seg": 620,
+  "start": 1863.854,
+  "end": 1866.854,
+  "speaker": "Evan Conrad",
+  "en": "And maybe sometimes they mean, I've got a data center.",
+  "zh": "有时他们的意思是，我有一个数据中心，"
+ },
+ {
+  "seg": 621,
+  "start": 1866.956,
+  "end": 1870.139,
+  "speaker": "Evan Conrad",
+  "en": "That's like I would like to turn into a GPU cluster.",
+  "zh": "我想把它变成一个 GPU 集群。"
+ },
+ {
+  "seg": 622,
+  "start": 1870.46,
+  "end": 1873.923,
+  "speaker": "Evan Conrad",
+  "en": "Like my options are I could sell the GPU cluster or I could sell the data center",
+  "zh": "我的选项是，我可以卖掉 GPU 集群，或者把数据中心"
+ },
+ {
+  "seg": 623,
+  "start": 1873.943,
+  "end": 1875.815,
+  "speaker": "Evan Conrad",
+  "en": "to somebody or I could become the cloud.",
+  "zh": "卖给某个人，或者我自己变成云。"
+ },
+ {
+  "seg": 624,
+  "start": 1875.865,
+  "end": 1878.818,
+  "speaker": "Evan Conrad",
+  "en": "And then we go to them and say, great, we will turn you into the cloud.",
+  "zh": "然后我们对他们说，好，我们来帮你变成云。"
+ },
+ {
+  "seg": 625,
+  "start": 1878.868,
+  "end": 1880.1200000000001,
+  "speaker": "Evan Conrad",
+  "en": "We're the supercomputing part.",
+  "zh": "我们负责超算那一部分。"
+ },
+ {
+  "seg": 626,
+  "start": 1880.17,
+  "end": 1881.141,
+  "speaker": "Evan Conrad",
+  "en": "You're the data center.",
+  "zh": "你负责数据中心。"
+ },
+ {
+  "seg": 627,
+  "start": 1881.191,
+  "end": 1884.8021111111111,
+  "speaker": "Evan Conrad",
+  "en": "Let's partner together and then we will sell and I'll make money.",
+  "zh": "我们合作，然后我们去卖、去赚钱。"
+ },
+ {
+  "seg": 628,
+  "start": 1885.253,
+  "end": 1889.536,
+  "speaker": "Evan Conrad",
+  "en": "Sometimes it's people who have something that could turn into a data center,",
+  "zh": "有时候是那些手上有能改造成数据中心的东西的人，"
+ },
+ {
+  "seg": 629,
+  "start": 1889.916,
+  "end": 1894.028,
+  "speaker": "Evan Conrad",
+  "en": "in which case we're going to basically project manage that up to the layer.",
+  "zh": "这种情况下我们基本上会把那个项目往上管理到那一层，"
+ },
+ {
+  "seg": 630,
+  "start": 1894.078,
+  "end": 1899.282,
+  "speaker": "Evan Conrad",
+  "en": "And then we will work with those folks to turn their powered land",
+  "zh": "然后我们会和这些人合作，通过和合作伙伴一起，"
+ },
+ {
+  "seg": 631,
+  "start": 1900.102,
+  "end": 1904.084,
+  "speaker": "Evan Conrad",
+  "en": "or whatever they have into a data center by working with partners.",
+  "zh": "把他们的带电土地或他们拥有的 whatever 变成数据中心。"
+ },
+ {
+  "seg": 632,
+  "start": 1904.565,
+  "end": 1907.2160000000001,
+  "speaker": "Evan Conrad",
+  "en": "And then we take over at the supercomputing part.",
+  "zh": "然后我们从超算那一部分接管。"
+ },
+ {
+  "seg": 633,
+  "start": 1907.266,
+  "end": 1910.799,
+  "speaker": "Evan Conrad",
+  "en": "This requires us to have some sort of data center expertise in-house,",
+  "zh": "这要求我们内部有某种数据中心方面的专业能力，"
+ },
+ {
+  "seg": 634,
+  "start": 1910.849,
+  "end": 1912.6823333333332,
+  "speaker": "Evan Conrad",
+  "en": "but we don't self-perform builds.",
+  "zh": "但我们不自己执行建设。"
+ },
+ {
+  "seg": 635,
+  "start": 1913.29,
+  "end": 1914.831,
+  "speaker": "Evan Conrad",
+  "en": "So, yeah.",
+  "zh": "所以，是的。"
+ },
+ {
+  "seg": 636,
+  "start": 1915.387,
+  "end": 1915.737,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah.",
+  "zh": "嗯。"
+ },
+ {
+  "seg": 637,
+  "start": 1915.787,
+  "end": 1920.298,
+  "speaker": "SPEAKER_01",
+  "en": "So it's somewhat modular because you have different scenarios you need to play under.",
+  "zh": "所以它有一定的模块化，因为你要应对不同的场景。"
+ },
+ {
+  "seg": 638,
+  "start": 1920.348,
+  "end": 1920.838,
+  "speaker": "Evan Conrad",
+  "en": "Yeah.",
+  "zh": "是。"
+ },
+ {
+  "seg": 639,
+  "start": 1920.888,
+  "end": 1925.309,
+  "speaker": "Evan Conrad",
+  "en": "Someone once described us as like Palantir for Compute",
+  "zh": "有人曾把我们形容为计算领域的 Palantir,"
+ },
+ {
+  "seg": 640,
+  "start": 1925.929,
+  "end": 1930.79,
+  "speaker": "Evan Conrad",
+  "en": "because it's like each time it's this new rodeo.",
+  "zh": "因为每次都是一场新的牛仔竞技。"
+ },
+ {
+  "seg": 641,
+  "start": 1932.05,
+  "end": 1934.87,
+  "speaker": "Evan Conrad",
+  "en": "And we deeply partner with folks on both sides.",
+  "zh": "我们和两边的伙伴都深度合作。"
+ },
+ {
+  "seg": 642,
+  "start": 1935.111,
+  "end": 1936.0610000000001,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah.",
+  "zh": "是。"
+ },
+ {
+  "seg": 643,
+  "start": 1936.111,
+  "end": 1937.2776666666668,
+  "speaker": "SPEAKER_01",
+  "en": "And primarily the US?",
+  "zh": "主要在美国？"
+ },
+ {
+  "seg": 644,
+  "start": 1938.071,
+  "end": 1940.682,
+  "speaker": "Evan Conrad",
+  "en": "Primarily the US, but we operate around the world.",
+  "zh": "主要在美国，但我们在全球运营。"
+ },
+ {
+  "seg": 645,
+  "start": 1940.732,
+  "end": 1941.202,
+  "speaker": "Evan Conrad",
+  "en": "Yeah.",
+  "zh": "是。"
+ },
+ {
+  "seg": 646,
+  "start": 1941.252,
+  "end": 1943.9742222222221,
+  "speaker": "SPEAKER_01",
+  "en": "At some point, does SF Compute become a misnomer?",
+  "zh": "到某个时候，SF Compute 这个名字会不会变得名不副实？"
+ },
+ {
+  "seg": 647,
+  "start": 1944.407,
+  "end": 1947.708,
+  "speaker": "Evan Conrad",
+  "en": "So we're deploying clusters all around the world.",
+  "zh": "我们在全球各地部署集群。"
+ },
+ {
+  "seg": 648,
+  "start": 1948.049,
+  "end": 1948.8590000000002,
+  "speaker": "Evan Conrad",
+  "en": "And when we do that,",
+  "zh": "当我们这么做时，"
+ },
+ {
+  "seg": 649,
+  "start": 1948.909,
+  "end": 1952.27,
+  "speaker": "Evan Conrad",
+  "en": "we're working with people who themselves are trying to be clouds all around",
+  "zh": "我们在和服务对象合作，他们自己也想在全世界成为云。"
+ },
+ {
+  "seg": 650,
+  "start": 1952.29,
+  "end": 1952.96,
+  "speaker": "Evan Conrad",
+  "en": "the world.",
+  "zh": "世界。"
+ },
+ {
+  "seg": 651,
+  "start": 1953.01,
+  "end": 1955.0810000000001,
+  "speaker": "Evan Conrad",
+  "en": "They look like sovereign compute players.",
+  "zh": "它们看起来就像主权算力玩家。"
+ },
+ {
+  "seg": 652,
+  "start": 1955.131,
+  "end": 1957.852,
+  "speaker": "Evan Conrad",
+  "en": "And our pitch to sovereign compute is amazing.",
+  "zh": "而我们针对主权算力的推介是非常棒的。"
+ },
+ {
+  "seg": 653,
+  "start": 1958.412,
+  "end": 1961.1897777777779,
+  "speaker": "Evan Conrad",
+  "en": "Let's help you set up a cloud in your own country.",
+  "zh": "让我们帮你在自己的国家搭建一朵云。"
+ },
+ {
+  "seg": 654,
+  "start": 1961.473,
+  "end": 1963.584,
+  "speaker": "Evan Conrad",
+  "en": "And we will bring the San Francisco offtake.",
+  "zh": "而我们会带来旧金山的承购。"
+ },
+ {
+  "seg": 655,
+  "start": 1963.634,
+  "end": 1965.445,
+  "speaker": "Evan Conrad",
+  "en": "We'll bring the San Francisco expertise.",
+  "zh": "我们会带来旧金山的专业知识。"
+ },
+ {
+  "seg": 656,
+  "start": 1965.495,
+  "end": 1966.9394444444442,
+  "speaker": "Evan Conrad",
+  "en": "We'll set up the clusters.",
+  "zh": "我们会搭建集群。"
+ },
+ {
+  "seg": 657,
+  "start": 1967.276,
+  "end": 1968.4660000000001,
+  "speaker": "Evan Conrad",
+  "en": "That's our whole business.",
+  "zh": "这就是我们整个的业务。"
+ },
+ {
+  "seg": 658,
+  "start": 1968.516,
+  "end": 1969.847,
+  "speaker": "Evan Conrad",
+  "en": "We're going to make it financeable.",
+  "zh": "我们要让它变得可融资。"
+ },
+ {
+  "seg": 659,
+  "start": 1969.897,
+  "end": 1971.397,
+  "speaker": "SPEAKER_01",
+  "en": "Who are your main partners?",
+  "zh": "你们的主要合作伙伴是谁？"
+ },
+ {
+  "seg": 660,
+  "start": 1971.518,
+  "end": 1974.0735555555557,
+  "speaker": "SPEAKER_01",
+  "en": "Biggest announced partners that you can name?",
+  "zh": "能点名披露的最大合作伙伴？"
+ },
+ {
+  "seg": 661,
+  "start": 1975.065,
+  "end": 1976.985,
+  "speaker": "SPEAKER_01",
+  "en": "Nobody I can name, basically.",
+  "zh": "基本上没有我能点名的。"
+ },
+ {
+  "seg": 662,
+  "start": 1977.385,
+  "end": 1982.786,
+  "speaker": "Evan Conrad",
+  "en": "We will have some announcements in a week or two that we expect to come on.",
+  "zh": "我们会在一两周内有一些公告，我们预计会公布。"
+ },
+ {
+  "seg": 663,
+  "start": 1982.926,
+  "end": 1983.867,
+  "speaker": "Evan Conrad",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 664,
+  "start": 1983.907,
+  "end": 1984.9625555555556,
+  "speaker": "Evan Conrad",
+  "en": "All things sort of.",
+  "zh": "各种各样的。"
+ },
+ {
+  "seg": 665,
+  "start": 1985.027,
+  "end": 1985.487,
+  "speaker": "Evan Conrad",
+  "en": "Sure, sure.",
+  "zh": "当然，当然。"
+ },
+ {
+  "seg": 666,
+  "start": 1985.527,
+  "end": 1986.457,
+  "speaker": "Evan Conrad",
+  "en": "Good luck, yeah.",
+  "zh": "祝好运，嗯。"
+ },
+ {
+  "seg": 667,
+  "start": 1986.507,
+  "end": 1987.507,
+  "speaker": "SPEAKER_01",
+  "en": "No, I mean,",
+  "zh": "不，我是说，"
+ },
+ {
+  "seg": 668,
+  "start": 1987.687,
+  "end": 1991.928,
+  "speaker": "SPEAKER_01",
+  "en": "I think this is really interesting for every country who's investing in sovereign AI",
+  "zh": "我觉得对于每一个投资主权 AI 的国家来说，"
+ },
+ {
+  "seg": 669,
+  "start": 1991.968,
+  "end": 1993.968,
+  "speaker": "SPEAKER_01",
+  "en": "to figure this out.",
+  "zh": "把这件事搞清楚都非常有趣。"
+ },
+ {
+  "seg": 670,
+  "start": 1994.589,
+  "end": 2001.01,
+  "speaker": "SPEAKER_01",
+  "en": "And it's interesting that SF is still sort of like that brand name and that is very marketable.",
+  "zh": "而且有意思的是，旧金山仍然像是那个品牌名称，而且非常具有市场号召力。"
+ },
+ {
+  "seg": 671,
+  "start": 2001.09,
+  "end": 2002.09,
+  "speaker": "SPEAKER_01",
+  "en": "So I think...",
+  "zh": "所以我觉得……"
+ },
+ {
+  "seg": 672,
+  "start": 2002.861,
+  "end": 2006.435,
+  "speaker": "SPEAKER_01",
+  "en": "One of the interesting things is just thinking through this market,",
+  "zh": "一个有意思的事情就是思考这个市场，"
+ },
+ {
+  "seg": 673,
+  "start": 2006.485,
+  "end": 2009.485,
+  "speaker": "SPEAKER_01",
+  "en": "NVIDIA is obviously the 800-pound gorilla in the room.",
+  "zh": "NVIDIA 显然是房间里那只 800 磅重的大猩猩。"
+ },
+ {
+  "seg": 674,
+  "start": 2010.069,
+  "end": 2012.352,
+  "speaker": "SPEAKER_01",
+  "en": "Why didn't they make SF Compute?",
+  "zh": "但让我们真正深入剖析一下多个玩家的激励。"
+ },
+ {
+  "seg": 675,
+  "start": 2012.452,
+  "end": 2013.813,
+  "speaker": "SPEAKER_01",
+  "en": "And again,",
+  "zh": "而且，再说一次，"
+ },
+ {
+  "seg": 676,
+  "start": 2013.833,
+  "end": 2015.315,
+  "speaker": "SPEAKER_01",
+  "en": "the answer is going to be market manipulation,",
+  "zh": "答案会是市场操纵，"
+ },
+ {
+  "seg": 677,
+  "start": 2015.335,
+  "end": 2019.223888888889,
+  "speaker": "SPEAKER_01",
+  "en": "but let's just really get into the incentives of the multiple players.",
+  "zh": "但我们还是真正深入剖析一下多方参与者的激励机制吧。"
+ },
+ {
+  "seg": 678,
+  "start": 2019.466,
+  "end": 2022.337,
+  "speaker": "Evan Conrad",
+  "en": "Yeah, so our impression is that NVIDIA can't make it,",
+  "zh": "是的，我们的印象是 NVIDIA 做不了这个，"
+ },
+ {
+  "seg": 679,
+  "start": 2022.387,
+  "end": 2024.479,
+  "speaker": "Evan Conrad",
+  "en": "but benefits tremendously from it existing.",
+  "zh": "但却从它的存在中获益巨大。"
+ },
+ {
+  "seg": 680,
+  "start": 2024.529,
+  "end": 2026.33,
+  "speaker": "Evan Conrad",
+  "en": "The reason why they can't make it is because they would",
+  "zh": "他们做不了它的原因是，因为那样"
+ },
+ {
+  "seg": 681,
+  "start": 2026.35,
+  "end": 2029.5166666666667,
+  "speaker": "Evan Conrad",
+  "en": "then not be independent enough for people to trade on it.",
+  "zh": "他们就不够独立，无法让人们在其上交易。"
+ },
+ {
+  "seg": 682,
+  "start": 2029.592,
+  "end": 2030.980888888889,
+  "speaker": "Evan Conrad",
+  "en": "If you don't trade on it,",
+  "zh": "如果没有人在上面交易，"
+ },
+ {
+  "seg": 683,
+  "start": 2031.333,
+  "end": 2034.735,
+  "speaker": "Evan Conrad",
+  "en": "then you don't have enough liquidity for lenders to finance against",
+  "zh": "那么你就没有足够的流动性，让放贷方"
+ },
+ {
+  "seg": 684,
+  "start": 2034.775,
+  "end": 2035.826,
+  "speaker": "Evan Conrad",
+  "en": "the forwards market.",
+  "zh": "针对远期市场进行融资。"
+ },
+ {
+  "seg": 685,
+  "start": 2035.876,
+  "end": 2038.938,
+  "speaker": "Evan Conrad",
+  "en": "This is also why Crusoe and CoreWeave and Lambda,",
+  "zh": "这也是为什么 Crusoe 和 CoreWeave 和 Lambda，"
+ },
+ {
+  "seg": 686,
+  "start": 2039.038,
+  "end": 2040.529,
+  "speaker": "Evan Conrad",
+  "en": "why the hyperscalers can't make it,",
+  "zh": "为什么超大规模云厂商做不了它，"
+ },
+ {
+  "seg": 687,
+  "start": 2040.579,
+  "end": 2042.8,
+  "speaker": "Evan Conrad",
+  "en": "why Base10 and Fireworks and Modal can't make it,",
+  "zh": "为什么 Base10 和 Fireworks 和 Modal 做不了它，"
+ },
+ {
+  "seg": 688,
+  "start": 2042.82,
+  "end": 2044.361,
+  "speaker": "Evan Conrad",
+  "en": "because they have too much demand on that side.",
+  "zh": "因为他们在那一侧有太多的需求。"
+ },
+ {
+  "seg": 689,
+  "start": 2044.381,
+  "end": 2045.381,
+  "speaker": "Evan Conrad",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 690,
+  "start": 2045.783,
+  "end": 2051.1163333333334,
+  "speaker": "Evan Conrad",
+  "en": "This is a thing that benefits the entire industry because it makes the financing costs go down.",
+  "zh": "这是一件惠及整个行业的事情，因为它能让融资成本下降。"
+ },
+ {
+  "seg": 691,
+  "start": 2051.358,
+  "end": 2052.358,
+  "speaker": "Evan Conrad",
+  "en": "But...",
+  "zh": "但是……"
+ },
+ {
+  "seg": 692,
+  "start": 2052.722,
+  "end": 2057.3886666666667,
+  "speaker": "Evan Conrad",
+  "en": "Nobody can make it unless they give up the ability to do all the big inference money",
+  "zh": "没有人能做它，除非他们放弃所有大额推理收入的能力"
+ },
+ {
+  "seg": 693,
+  "start": 2057.723,
+  "end": 2059.684,
+  "speaker": "Evan Conrad",
+  "en": "and all the big cloud deals.",
+  "zh": "以及所有大额云交易。"
+ },
+ {
+  "seg": 694,
+  "start": 2059.844,
+  "end": 2062.7884444444444,
+  "speaker": "Evan Conrad",
+  "en": "You have to kill your business in order to make this.",
+  "zh": "你必须杀掉你自己的业务才能做成这件事。"
+ },
+ {
+  "seg": 695,
+  "start": 2062.845,
+  "end": 2063.7749999999996,
+  "speaker": "SPEAKER_01",
+  "en": "That's why nobody does it.",
+  "zh": "这就是为什么没人做。"
+ },
+ {
+  "seg": 696,
+  "start": 2063.825,
+  "end": 2065.7749999999996,
+  "speaker": "SPEAKER_01",
+  "en": "Structurally, they're not set up to do that.",
+  "zh": "从结构上讲，他们不是为做这件事而设立的。"
+ },
+ {
+  "seg": 697,
+  "start": 2065.825,
+  "end": 2066.2149999999997,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 698,
+  "start": 2066.265,
+  "end": 2070.0427777777777,
+  "speaker": "SPEAKER_01",
+  "en": "And you're basically reducing friction, and that's all your revenue.",
+  "zh": "而你基本上是在减少摩擦，那就是你的全部收入。"
+ },
+ {
+  "seg": 699,
+  "start": 2070.606,
+  "end": 2073.287,
+  "speaker": "SPEAKER_01",
+  "en": "You've announced some milestones.",
+  "zh": "你已经公布了一些里程碑。"
+ },
+ {
+  "seg": 700,
+  "start": 2073.387,
+  "end": 2075.748,
+  "speaker": "SPEAKER_01",
+  "en": "Actually, I forgot to say that up front.",
+  "zh": "其实，我忘了在开头说这件事。"
+ },
+ {
+  "seg": 701,
+  "start": 2076.048,
+  "end": 2079.9368888888885,
+  "speaker": "SPEAKER_01",
+  "en": "Can you repeat what they are and just take a victory lap a little bit?",
+  "zh": "你能重复一下这些是什么，稍微得意地炫耀一下吗？"
+ },
+ {
+  "seg": 702,
+  "start": 2081.969,
+  "end": 2084.643,
+  "speaker": "Evan Conrad",
+  "en": "We've closed several hundred million dollars of volume.",
+  "zh": "我们已经完成了几亿美元的成交量。"
+ },
+ {
+  "seg": 703,
+  "start": 2084.693,
+  "end": 2088.058,
+  "speaker": "Evan Conrad",
+  "en": "We have a significant number of new clusters on the way.",
+  "zh": "我们有大量新的集群在路上。"
+ },
+ {
+  "seg": 704,
+  "start": 2089.48,
+  "end": 2096.089,
+  "speaker": "Evan Conrad",
+  "en": "And then the things that I think I'm most excited about is we've shipped",
+  "zh": "然后我觉得最让我兴奋的是我们已经发布了"
+ },
+ {
+  "seg": 705,
+  "start": 2096.149,
+  "end": 2100.163,
+  "speaker": "Evan Conrad",
+  "en": "a whole bunch There's a bunch of new features that make SF Compute very viable",
+  "zh": "一大堆……有一堆新功能，让 SF Compute 对"
+ },
+ {
+  "seg": 706,
+  "start": 2100.213,
+  "end": 2102.395,
+  "speaker": "Evan Conrad",
+  "en": "for platform-as-a-service companies.",
+  "zh": "平台即服务公司来说非常可行。"
+ },
+ {
+  "seg": 707,
+  "start": 2102.955,
+  "end": 2109.955,
+  "speaker": "Evan Conrad",
+  "en": "An example is we allow customers to subdivide their InfiniBand fabric without having to ask us.",
+  "zh": "举个例子，我们允许客户细分他们的 InfiniBand 网络结构，而不必向我们提出请求。"
+ },
+ {
+  "seg": 708,
+  "start": 2110.562,
+  "end": 2114.816,
+  "speaker": "Evan Conrad",
+  "en": "So many clouds, when you go to buy them, they will give you one InfiniBand fabric.",
+  "zh": "很多云，当你要去买的时候，它们只会给你一个 InfiniBand 网络结构。"
+ },
+ {
+  "seg": 709,
+  "start": 2114.866,
+  "end": 2119.789,
+  "speaker": "Evan Conrad",
+  "en": "And then if you want to Would you describe this as like you're virtualizing",
+  "zh": "然后如果你想……你会把这描述为你在虚拟化"
+ },
+ {
+  "seg": 710,
+  "start": 2120.109,
+  "end": 2122.4978888888886,
+  "speaker": "Evan Conrad",
+  "en": "the data center and making it programmable?",
+  "zh": "数据中心并让它可编程吗？"
+ },
+ {
+  "seg": 711,
+  "start": 2139.52,
+  "end": 2141.75,
+  "speaker": "Evan Conrad",
+  "en": "Yeah, we're virtualizing the data center and making it programmable.",
+  "zh": "是的，我们在虚拟化数据中心并让它可编程。"
+ },
+ {
+  "seg": 712,
+  "start": 2141.8,
+  "end": 2143.971,
+  "speaker": "Evan Conrad",
+  "en": "So all the stuff that you would have gotten if you had owned the hardware,",
+  "zh": "所以所有那些如果你拥有硬件本来就能得到的东西，"
+ },
+ {
+  "seg": 713,
+  "start": 2144.021,
+  "end": 2149.362,
+  "speaker": "Evan Conrad",
+  "en": "we're trying to virtualize that, which I think is exciting to us.",
+  "zh": "我们正试图把它虚拟化，我觉得这让我们很兴奋。"
+ },
+ {
+  "seg": 714,
+  "start": 2149.482,
+  "end": 2149.982,
+  "speaker": "SPEAKER_01",
+  "en": "It's funny.",
+  "zh": "很有意思。"
+ },
+ {
+  "seg": 715,
+  "start": 2150.002,
+  "end": 2155.863,
+  "speaker": "SPEAKER_01",
+  "en": "The last time this happened was the cloud, which is really cool.",
+  "zh": "上一次发生这种事是云，这真的很酷。"
+ },
+ {
+  "seg": 716,
+  "start": 2156.363,
+  "end": 2162.184,
+  "speaker": "SPEAKER_01",
+  "en": "And then finally, I think, what is your call to action for people?",
+  "zh": "最后，我想问，你对人们的行动号召是什么？"
+ },
+ {
+  "seg": 717,
+  "start": 2162.244,
+  "end": 2162.9539999999997,
+  "speaker": "SPEAKER_01",
+  "en": "Is it engineers?",
+  "zh": "是面向工程师的吗？"
+ },
+ {
+  "seg": 718,
+  "start": 2163.004,
+  "end": 2164.4484444444442,
+  "speaker": "SPEAKER_01",
+  "en": "Is it give me your supply?",
+  "zh": "还是把你的供给给我？"
+ },
+ {
+  "seg": 719,
+  "start": 2164.524,
+  "end": 2165.524,
+  "speaker": "SPEAKER_01",
+  "en": "What is it?",
+  "zh": "到底是什么？"
+ },
+ {
+  "seg": 720,
+  "start": 2165.704,
+  "end": 2169.115,
+  "speaker": "Evan Conrad",
+  "en": "If you would like to own a GPU cluster and you want the residual value from it,",
+  "zh": "如果你想拥有一个 GPU 集群，并且你想获得它的剩余价值，"
+ },
+ {
+  "seg": 721,
+  "start": 2169.165,
+  "end": 2170.646,
+  "speaker": "Evan Conrad",
+  "en": "you want to have it for your portfolio.",
+  "zh": "你想把它纳入你的投资组合。"
+ },
+ {
+  "seg": 722,
+  "start": 2171.186,
+  "end": 2174.198,
+  "speaker": "Evan Conrad",
+  "en": "We would love to work with you in order to build that GPU cluster.",
+  "zh": "我们很乐意与你合作来建设那个 GPU 集群。"
+ },
+ {
+  "seg": 723,
+  "start": 2174.248,
+  "end": 2178.551,
+  "speaker": "Evan Conrad",
+  "en": "We will take over and we will do the supercomputing portions of that and ensure",
+  "zh": "我们会接管，并且我们会做其中的超级计算部分，确保"
+ },
+ {
+  "seg": 724,
+  "start": 2178.571,
+  "end": 2179.361,
+  "speaker": "Evan Conrad",
+  "en": "the things go right.",
+  "zh": "事情顺利进行。"
+ },
+ {
+  "seg": 725,
+  "start": 2179.411,
+  "end": 2180.411,
+  "speaker": "Evan Conrad",
+  "en": "We own the SLA.",
+  "zh": "我们拥有这个 SLA。"
+ },
+ {
+  "seg": 726,
+  "start": 2180.532,
+  "end": 2183.7839999999997,
+  "speaker": "Evan Conrad",
+  "en": "And then if it turns out that that was a bad idea that you need out of that cluster,",
+  "zh": "然后如果事实证明那是个坏主意，你需要退出那个集群，"
+ },
+ {
+  "seg": 727,
+  "start": 2183.834,
+  "end": 2185.5649999999996,
+  "speaker": "Evan Conrad",
+  "en": "we can immediately sell that cluster to somebody else",
+  "zh": "我们可以立即把那个集群卖给其他人，"
+ },
+ {
+  "seg": 728,
+  "start": 2185.615,
+  "end": 2187.6705555555554,
+  "speaker": "Evan Conrad",
+  "en": "so it doesn't hit your balance sheet.",
+  "zh": "这样它就不会砸在你的资产负债表上。"
+ },
+ {
+  "seg": 729,
+  "start": 2187.936,
+  "end": 2188.627,
+  "speaker": "SPEAKER_01",
+  "en": "Very simple pitch.",
+  "zh": "非常简单的推销。"
+ },
+ {
+  "seg": 730,
+  "start": 2188.677,
+  "end": 2189.637,
+  "speaker": "SPEAKER_01",
+  "en": "Well, thank you so much for your time.",
+  "zh": "好的，非常感谢你抽出时间。"
+ },
+ {
+  "seg": 731,
+  "start": 2189.657,
+  "end": 2193.73,
+  "speaker": "SPEAKER_01",
+  "en": "You're doing a great service to the industry, and I just am happy to be your friend.",
+  "zh": "你在为这个行业做一件很棒的事，我只是很高兴能成为你的朋友。"
+ },
+ {
+  "seg": 732,
+  "start": 2193.78,
+  "end": 2194.64,
+  "speaker": "SPEAKER_01",
+  "en": "I appreciate it.",
+  "zh": "我很感激。"
+ },
+ {
+  "seg": 733,
+  "start": 2194.66,
+  "end": 2195.521,
+  "speaker": "SPEAKER_01",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 734,
+  "start": 2195.541,
+  "end": 2196.541,
+  "speaker": "SPEAKER_01",
+  "en": "That's it.",
+  "zh": "就到这里。"
+ },
+ {
+  "seg": 735,
+  "start": 2196.541,
+  "end": 2203.2,
+  "speaker": "Unknown",
+  "en": "[music]",
+  "zh": "[音乐]"
+ }
+]

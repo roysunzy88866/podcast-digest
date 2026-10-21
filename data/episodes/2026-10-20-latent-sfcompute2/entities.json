@@ -1,0 +1,730 @@
+{
+  "episode_id": "2026-10-20-latent-sfcompute2",
+  "podcast": "Latent Space",
+  "date": "2026-10-20",
+  "tags": [
+    "算力市场",
+    "AI 基础设施",
+    "GPU",
+    "金融化",
+    "期货交易"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "evan-conrad",
+      "type": "person",
+      "role": "guest",
+      "name": "Evan Conrad",
+      "file": "Evan Conrad",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "sf-compute",
+      "type": "company",
+      "role": "concept",
+      "name": "SF Compute",
+      "file": "SF Compute",
+      "primary": true,
+      "how_described": "本集主角：从转租 GPU 集群起家，现在做算力的中立交易所——不拥有硬件（必须「当瑞士」），但提供超算即服务，做实物交割所需的全部运营，把数据中心虚拟化、可编程，已完成数亿美元成交量。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            3.813,
+            6.094
+          ],
+          "quote": "Why didn't they make SF Compute?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            136.797,
+            141.599
+          ],
+          "quote": "we did a podcast two years ago where you talked about where SF Compute was.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 57,
+          "t": [
+            154.324,
+            158.586
+          ],
+          "quote": "Can you give a status update on where is SF Compute versus listeners",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 180,
+          "t": [
+            574.217,
+            578.099
+          ],
+          "quote": "then you might really like SF Compute because you will be able to use lots",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 601,
+          "t": [
+            1813.138,
+            1815.288
+          ],
+          "quote": "When you say you as an SF compute employees.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 646,
+          "t": [
+            1941.252,
+            1943.9742222222221
+          ],
+          "quote": "At some point, does SF Compute become a misnomer?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 674,
+          "t": [
+            2010.069,
+            2012.352
+          ],
+          "quote": "Why didn't they make SF Compute?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 705,
+          "t": [
+            2096.149,
+            2100.163
+          ],
+          "quote": "a whole bunch There's a bunch of new features that make SF Compute very viable",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "concept",
+      "name": "Nvidia",
+      "file": "Nvidia",
+      "primary": true,
+      "how_described": "本集称它是「房间里 800 磅的大猩猩」：它做不了算力交易所，因为不够独立、别人不敢在它上面交易，但它的存在能降低全行业融资成本，对它好处巨大。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.251,
+            3.5843333333333334
+          ],
+          "quote": " Nvidia is obviously like the 800-pound gorilla in the room.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 2,
+          "t": [
+            6.134,
+            10.636
+          ],
+          "quote": "So our impression is that Nvidia can't make it, but benefits tremendously from it existing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 257,
+          "t": [
+            827.932,
+            829.2097777777778
+          ],
+          "quote": "They may not be NVIDIA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1132.359,
+            1133.86
+          ],
+          "quote": "It's the Nvidia release cycle, basically.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 673,
+          "t": [
+            2006.485,
+            2009.485
+          ],
+          "quote": "NVIDIA is obviously the 800-pound gorilla in the room.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 678,
+          "t": [
+            2019.466,
+            2022.337
+          ],
+          "quote": "Yeah, so our impression is that NVIDIA can't make it,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "coreweave",
+      "type": "company",
+      "role": "concept",
+      "name": "CoreWeave",
+      "file": "CoreWeave",
+      "primary": false,
+      "how_described": "本集把它与 Crusoe、Lambda、超大规模云厂商并列，说它们因为自己有大量算力要卖、会操纵市场，所以都做不了中立交易所。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 685,
+          "t": [
+            2035.876,
+            2038.938
+          ],
+          "quote": "This is also why Crusoe and CoreWeave and Lambda,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "physical-settlement",
+      "type": "concept",
+      "role": "concept",
+      "name": "实物交割 (physical settlement)",
+      "file": "实物交割",
+      "primary": true,
+      "how_described": "本集核心概念：借自期货市场的术语——合同到期时算力必须真的能跑起来交付给买家；SF Compute 花三年学会为什么需要它，并警告在实物交割建立前先搞金融化会制造易操纵的市场。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            143.36,
+            146.281
+          ],
+          "quote": "Today, you're much more in a sort of physical settlement.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 80,
+          "t": [
+            228.282,
+            229.47299999999998
+          ],
+          "quote": "We call that physical settlement.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            239.069,
+            243.291
+          ],
+          "quote": "physical settlement means you get delivered the oil and the soybeans.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            276.103,
+            278.514
+          ],
+          "quote": "That is like the weirdness of physical settlement.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 108,
+          "t": [
+            306.387,
+            309.772
+          ],
+          "quote": "So we co-designed physical settlement and the order book.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 470,
+          "t": [
+            1418.117,
+            1421.401
+          ],
+          "quote": " Mainly just the requirement for physical settlement.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 471,
+          "t": [
+            1422.483,
+            1425.983
+          ],
+          "quote": "We spent three years learning why you need physical settlement.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 477,
+          "t": [
+            1446.524,
+            1452.367
+          ],
+          "quote": "to build out the physical settlement, then I think what you have is you have...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 489,
+          "t": [
+            1483.753,
+            1488.456
+          ],
+          "quote": "sort of reinsurance or all that is larger than the underlying physical settlement.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 497,
+          "t": [
+            1514.931,
+            1518.122
+          ],
+          "quote": "We just think it should be derived from physical settlement because,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 500,
+          "t": [
+            1526.236,
+            1526.856
+          ],
+          "quote": " the physical settlement,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 503,
+          "t": [
+            1531.268,
+            1533.229
+          ],
+          "quote": "People are trying to make cash settlement before you make the physical settlement.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 547,
+          "t": [
+            1646.83,
+            1650.726
+          ],
+          "quote": " So the general gist is they're doing cash settlement, we're doing physical settlement.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 580,
+          "t": [
+            1733.076,
+            1737.7426666666668
+          ],
+          "quote": "you guys are owning the problem of physical settlement, which is really interesting.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 590,
+          "t": [
+            1766.008,
+            1770.03
+          ],
+          "quote": "But in order to do physical settlement, you have to do site visits.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "order-book",
+      "type": "concept",
+      "role": "concept",
+      "name": "订单簿 (order book)",
+      "file": "订单簿",
+      "primary": true,
+      "how_described": "本集说 SF Compute 建了带多重约束条件的订单簿和大型撮合引擎，时间跨度从下一小时到三年，用查询系统让买家定义所需容量属性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 106,
+          "t": [
+            301.28,
+            303.813
+          ],
+          "quote": "And so that has to get factored into the order book.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            306.387,
+            309.772
+          ],
+          "quote": "So we co-designed physical settlement and the order book.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            377.705,
+            380.699
+          ],
+          "quote": "Maybe I should have said the volume on the actual order book is small,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            380.749,
+            383.453
+          ],
+          "quote": "but the liquidity on the order book is high.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            523.053,
+            527.3290000000001
+          ],
+          "quote": " So what we did instead was we created an order book that had multiple different constraints.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 286,
+          "t": [
+            908.354,
+            914.335
+          ],
+          "quote": "There is also blocks of capacity in our order book, which can extend any arbitrary time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 460,
+          "t": [
+            1394.258,
+            1397.294
+          ],
+          "quote": "but the query system as a concept is how the order book works right now.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "forwards-curve",
+      "type": "concept",
+      "role": "concept",
+      "name": "远期曲线 (forwards curve)",
+      "file": "远期曲线",
+      "primary": true,
+      "how_described": "本集说 SF Compute 想建一条有大量流动性的远期曲线，其形状呈「驼峰」：快到期的算力像快过期的牛奶降价清仓，远期因稀缺预期反而溢价。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 296,
+          "t": [
+            939.08,
+            942.143
+          ],
+          "quote": "We care more about longer out because we're trying to build a forwards curve",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "liquidity",
+      "type": "concept",
+      "role": "concept",
+      "name": "流动性 (liquidity)",
+      "file": "流动性",
+      "primary": true,
+      "how_described": "本集反复讨论：算力市场订单簿成交量小但流动性高度集中（花 100 美元买容量平均能卖回 25 美元）；没有足够流动性，放贷方就不敢依据远期市场放贷。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 122,
+          "t": [
+            380.749,
+            383.453
+          ],
+          "quote": "but the liquidity on the order book is high.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            383.554,
+            388.49844444444443
+          ],
+          "quote": "So for that small amount of capacity that you have, you have very concentrated liquidity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            542.938,
+            546.291
+          ],
+          "quote": "And the reason why we did it this way is it allows us to generate liquidity",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            555.527,
+            558.479
+          ],
+          "quote": "The tradeoff of this is that you have less concentrated liquidity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            611.675,
+            614.286111111111
+          ],
+          "quote": "And so you get liquidity on that really easily.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 297,
+          "t": [
+            942.163,
+            944.0518888888889
+          ],
+          "quote": "that has a lot of liquidity on it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 683,
+          "t": [
+            2031.333,
+            2034.735
+          ],
+          "quote": "then you don't have enough liquidity for lenders to finance against",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "arbitrage",
+      "type": "concept",
+      "role": "concept",
+      "name": "套利 (arbitrage)",
+      "file": "套利",
+      "primary": true,
+      "how_described": "本集的招牌论点：B300 跑推理满负荷一小时能赚约 40 美元、租金却只要 5 到 6 美元，巨大价差是聪明交易者的套利机会。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 178,
+          "t": [
+            565.013,
+            569.8050000000001
+          ],
+          "quote": "But on the other hand, it means there's lots of arbitrage to make if you can do that correctly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1201.476,
+            1202.4270000000001
+          ],
+          "quote": "It's a huge arbitrage.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1202.477,
+            1203.017
+          ],
+          "quote": "It's a huge arbitrage.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "spot-instances",
+      "type": "concept",
+      "role": "concept",
+      "name": "现货实例 (spot instances)",
+      "file": "现货实例",
+      "primary": false,
+      "how_described": "本集在聊中断/抢占机制时把可中断容量与 spot 实例类比，讨论不同负载（批量推理 vs 实时服务）的定价差异。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 272,
+          "t": [
+            864.476,
+            870.678
+          ],
+          "quote": "You mentioned preemption, and we talked about spot instances and how the analogy is.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "burn-in",
+      "type": "concept",
+      "role": "concept",
+      "name": "老化测试 (burn-in)",
+      "file": "老化测试",
+      "primary": false,
+      "how_described": "本集说好的云公司会在交付前「烤」机器，把会坏的 GPU 在到客户手里之前筛出去返厂。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 149,
+          "t": [
+            477.316,
+            480.397
+          ],
+          "quote": "are you talking like MFU type things or like amount of burn-in",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 243,
+          "t": [
+            790.695,
+            791.9870000000001
+          ],
+          "quote": "You're describing burn-in.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "supercomputing-as-a-service",
+      "type": "concept",
+      "role": "concept",
+      "name": "超算即服务 (supercomputing as a service)",
+      "file": "超算即服务",
+      "primary": true,
+      "how_described": "本集说这是 SF Compute 的商业模式：你有地、数据中心或几兆瓦电力，他们负责把它变成能赚钱的 GPU 云并承诺把算力卖出去，被称为「计算界的 Palantir」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 617,
+          "t": [
+            1848.581,
+            1853.505
+          ],
+          "quote": "What we do work with is, so we offer supercomputing as a service.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sovereign-compute",
+      "type": "concept",
+      "role": "concept",
+      "name": "主权算力 (sovereign compute)",
+      "file": "主权算力",
+      "primary": false,
+      "how_described": "本集提到 SF Compute 面向主权算力玩家的推介：帮各国在本国搭建云，带去旧金山的承购和专业知识。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 651,
+          "t": [
+            1953.01,
+            1955.0810000000001
+          ],
+          "quote": "They look like sovereign compute players.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 652,
+          "t": [
+            1955.131,
+            1957.852
+          ],
+          "quote": "And our pitch to sovereign compute is amazing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "palantir",
+      "type": "company",
+      "role": "concept",
+      "name": "Palantir",
+      "file": "Palantir",
+      "primary": false,
+      "how_described": "本集引用别人的形容：SF Compute 像「计算领域的 Palantir」，因为每个项目都是一场新的牛仔竞技。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 639,
+          "t": [
+            1920.888,
+            1925.309
+          ],
+          "quote": "Someone once described us as like Palantir for Compute",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "silicon-data",
+      "type": "company",
+      "role": "concept",
+      "name": "Silicon Data",
+      "file": "Silicon Data",
+      "primary": false,
+      "how_described": "本集说 SF Compute 是它的忠实粉丝，认为它做现金结算路径、进场很早，未来可能成为合作伙伴。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 538,
+          "t": [
+            1618.143,
+            1622.364
+          ],
+          "quote": "and you're doing an event with Jump, and you're friends with Silicon Data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 542,
+          "t": [
+            1631.466,
+            1633.6960000000001
+          ],
+          "quote": "So we're big fans of silicon data and compute exchange.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "compute-exchange",
+      "type": "company",
+      "role": "concept",
+      "name": "Compute Exchange",
+      "file": "Compute Exchange",
+      "primary": false,
+      "how_described": "本集与 Silicon Data 并列提及，说它做现金结算、是这个领域最早的一批玩家。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 542,
+          "t": [
+            1631.466,
+            1633.6960000000001
+          ],
+          "quote": "So we're big fans of silicon data and compute exchange.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}
