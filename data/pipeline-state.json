@@ -311,7 +311,8 @@
     "ksjwtQop4os": "2026-10-11-talks-vector-isn-t-enough-hybrid-search-retrie",
     "qFaKvbVc5cE": "2026-10-11-talks-teaching-agents-to-search-with-nvidia-da",
     "s-glGHAa1a4": "2026-10-11-talks-an-ai-future-without-the-lock-in-remy-gu",
-    "xn8EsW0wxyc": "2026-10-11-talks-how-secrets-leak-through-ai-agents-and-h"
+    "xn8EsW0wxyc": "2026-10-11-talks-how-secrets-leak-through-ai-agents-and-h",
+    "tyFPqtyOK5w": "2026-10-11-talks-the-autonomous-computer-infrastructure-f"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
@@ -331,12 +332,11 @@
     "2026-10-06-knowledge-charlie-munger-s-interview-with-todd-com": 1,
     "2026-10-06-ainativedev-legora-cto-why-ai-agents-need-more-than": 1,
     "2026-10-19-sourcery-apollos-yahoo-playbook--5-years-after-th": 1,
-    "2026-10-21-strictlyvc-benchmark-s-five-partners-on-ai-ipos-and": 2,
-    "2026-10-21-latent-tenex": 2,
-    "2026-10-11-talks-the-autonomous-computer-infrastructure-f": 2,
-    "2026-10-21-a16z-the-missing-infrastructure-for-ai-agents": 1,
-    "2026-10-12-talks-reliable-smart-workflows-for-finance-wea": 1,
-    "2026-10-12-talks-hiring-employable-agents-startup-battlef": 1,
+    "2026-10-21-a16z-the-missing-infrastructure-for-ai-agents": 2,
+    "2026-10-12-talks-reliable-smart-workflows-for-finance-wea": 2,
+    "2026-10-12-talks-hiring-employable-agents-startup-battlef": 2,
+    "2026-10-21-beyondcoding-how-senior-engineers-use-coding-agents-o": 1,
+    "2026-09-23-twist-vcs-would-bet-on-open-source-ai-over-ope": 1,
     "2026-09-10-sed-a-rust-framework-to-simplify-distributed": 1
   },
   "redoDone": {
@@ -694,8 +694,8 @@
     "twist": "2026-10-20T00:03:00.000Z",
     "grit": "2026-10-19T09:27:34.000Z",
     "mos": "2026-10-20T09:00:00.000Z",
-    "strictlyvc": "2026-09-24T18:17:00.000Z",
-    "latent": "2026-10-20T19:31:57.000Z"
+    "strictlyvc": "2026-10-21T02:13:00.000Z",
+    "latent": "2026-10-21T05:01:26.000Z"
   },
   "skipped": [
     {
@@ -1807,6 +1807,24 @@
       "reason": "导读/实体事实层未过(删句兜底删不下,重做一次浓缩后仍未过)",
       "title": "Snyk&#39;s Manoj Nair: Skills and MCP Are the New npm",
       "pubDate": "2026-10-20T12:00:00.000Z"
+    },
+    {
+      "id": "2026-10-21-strictlyvc-benchmark-s-five-partners-on-ai-ipos-and",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Benchmark's Five Partners on AI, IPOs, and Silicon Valley's Comeback",
+      "pubDate": "2026-10-21T02:13:00.000Z"
+    },
+    {
+      "id": "2026-10-21-latent-tenex",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC — Alex Lieberman & CJ Hess",
+      "pubDate": "2026-10-21T05:01:26.000Z"
+    },
+    {
+      "id": "2026-10-11-talks-the-autonomous-computer-infrastructure-f",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "The Autonomous Computer: Infrastructure for Computer Use Agents — Ang Li, Simular",
+      "pubDate": "2026-10-11T00:00:00.000Z"
     }
   ]
 }
