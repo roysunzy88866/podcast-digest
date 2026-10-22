@@ -315,7 +315,9 @@
     "tyFPqtyOK5w": "2026-10-11-talks-the-autonomous-computer-infrastructure-f",
     "8g0g1ncwzG0": "2026-10-12-talks-reliable-smart-workflows-for-finance-wea",
     "EEt3ZSG4a1s": "2026-10-12-talks-hiring-employable-agents-startup-battlef",
-    "FGftGOzfohc": "2026-10-12-talks-build-a-research-agent-with-claude-manag"
+    "FGftGOzfohc": "2026-10-12-talks-build-a-research-agent-with-claude-manag",
+    "Fa3hQVIKShw": "2026-10-12-talks-just-in-time-ontologies-what-cheap-intel",
+    "PwCSYy-oGsM": "2026-10-12-talks-containment-is-lying-to-you-measuring-ai"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
@@ -336,16 +338,17 @@
     "2026-10-06-ainativedev-legora-cto-why-ai-agents-need-more-than": 1,
     "2026-10-19-sourcery-apollos-yahoo-playbook--5-years-after-th": 1,
     "2026-10-21-pragmatic-the-revised-rules-of-engineering": 2,
-    "2026-10-12-talks-just-in-time-ontologies-what-cheap-intel": 2,
-    "2026-10-12-talks-containment-is-lying-to-you-measuring-ai": 2,
-    "2026-10-22-twentyvc-20vc-trillion-or-bust-the-new-vc-game-co": 2,
-    "2026-10-22-practicalai-exploit-development-agentic-vulnerabilit": 2,
-    "2026-10-22-sed-blitzy-and-autonomous-software-developme": 2,
-    "2026-10-22-ainativedev-your-coding-agent-should-never-hold-a-cr": 2,
+    "2026-10-22-mad-mistral-is-so-back-inside-le-chonk--the": 2,
+    "2026-10-22-nopriors-the-new-apex-predator-crowdstrike-ceo-ge": 2,
+    "2026-10-22-dwarkesh-intel-tour": 1,
+    "2026-10-22-mos-reid-hoffman-and-openai-cfo-sarah-friar": 2,
+    "2026-10-22-latent-moshi": 1,
+    "2026-10-22-latent-modal-d": 1,
+    "2026-10-12-talks-claude-managed-agents-q-a-evals-ci-cd-an": 1,
     "2026-09-23-twist-vcs-would-bet-on-open-source-ai-over-ope": 2,
     "2026-09-10-sed-a-rust-framework-to-simplify-distributed": 2,
     "2026-09-09-deepmind-can-ai-help-us-better-predict-the-weathe": 2,
-    "2026-09-03-eyeonai-from-10-drones-a-month-to-nearly-100-000": 1,
+    "2026-09-03-eyeonai-from-10-drones-a-month-to-nearly-100-000": 2,
     "2024-08-25-lennys-how-to-consistently-go-viral-nikita-bier": 1
   },
   "redoDone": {
@@ -668,6 +671,11 @@
       "status": "找不到播客版 → 交本机 YouTube",
       "title": "#785.陶哲轩&邓煜：我们为何构建开放数学模型",
       "day": "2026-10-22"
+    },
+    "6ada452f97726cd467564347": {
+      "status": "找不到播客版 → 交本机 YouTube",
+      "title": "#786.Google CEO劈柴哥：前沿模型能帮我们开发下一批模型",
+      "day": "2026-10-23"
     }
   },
   "cutoffs": {
@@ -686,11 +694,11 @@
     "dwarkesh": "2026-10-01T15:28:28.000Z",
     "doac": "2026-10-12T05:00:00.000Z",
     "deepmind": "2026-10-01T16:38:11.000Z",
-    "twentyvc": "2026-10-19T07:07:00.000Z",
+    "twentyvc": "2026-10-22T07:07:00.000Z",
     "cogrev": "2026-10-20T11:00:00.000Z",
     "knowledge": "2026-10-13T10:00:00.000Z",
     "pragmatic": "2026-10-14T17:06:56.000Z",
-    "practicalai": "2026-10-15T13:32:00.000Z",
+    "practicalai": "2026-10-22T09:00:00.000Z",
     "changelog": "2026-10-09T19:00:00.000Z",
     "devtools": "2026-09-03T01:59:52.000Z",
     "rework": "2026-08-19T08:00:00.000Z",
@@ -703,13 +711,13 @@
     "pmf": "2026-10-19T09:00:00.000Z",
     "cheekypint": "2026-10-20T13:05:00.000Z",
     "productpodcast": "2026-10-21T19:00:00.000Z",
-    "ainativedev": "2026-10-20T12:00:00.000Z",
+    "ainativedev": "2026-10-22T12:00:00.000Z",
     "newcomer": "2026-10-19T15:53:16.000Z",
     "engenable": "2026-10-16T12:00:00.000Z",
     "sourcery": "2026-10-16T10:11:50.000Z",
     "iltb": "2026-10-20T08:00:00.000Z",
     "generalist": "2026-10-20T11:00:00.000Z",
-    "sed": "2026-10-20T09:00:00.000Z",
+    "sed": "2026-10-22T09:00:00.000Z",
     "twist": "2026-10-20T00:03:00.000Z",
     "grit": "2026-10-19T09:27:34.000Z",
     "mos": "2026-10-20T09:00:00.000Z",
@@ -1552,12 +1560,6 @@
       "pubDate": "2026-10-09T16:51:00.000Z"
     },
     {
-      "id": "2026-10-09-eyeonai-chat-gpt-s-creator-explains-the-shocking",
-      "reason": "导读/实体事实层未过(删句兜底删不下,重做一次浓缩后仍未过)",
-      "title": "Chat GPT's Creator Explains The Shocking Truth About How AI Understands the World | Ilya Sutskever",
-      "pubDate": "2026-10-09T15:00:00.000Z"
-    },
-    {
       "id": "2026-09-24-mos-how-to-build-a-billion-dollar-sports-tea",
       "reason": "题材不对味:题材为传统体育行业(WNBA 球队从零建队)的泛话题,与 AI/科技创业不沾边,属拦截类 ①",
       "title": "How to build a billion-dollar sports team from scratch, with Golden State Valkyries’ Jess Smith",
@@ -1910,6 +1912,42 @@
       "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
       "title": "We asked 3 VCs: would you invest in Elizabeth Holmes’ next startup? | E2353",
       "pubDate": "2026-10-22T01:28:00.000Z"
+    },
+    {
+      "id": "2026-10-22-twentyvc-20vc-trillion-or-bust-the-new-vc-game-co",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "20VC: Trillion or Bust: The New VC Game | Coreweave Sell-Off Creates Panic | Town at $1B, Anduril at $90B: Revenue Multiples Out of Control | General Atlantic Eyes IPO & Modal Raises $750M at $15.75B",
+      "pubDate": "2026-10-22T07:07:00.000Z"
+    },
+    {
+      "id": "2026-10-22-practicalai-exploit-development-agentic-vulnerabilit",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Exploit Development, Agentic Vulnerability Discovery, and Fake PoCs",
+      "pubDate": "2026-10-22T09:00:00.000Z"
+    },
+    {
+      "id": "2026-10-22-sed-blitzy-and-autonomous-software-developme",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Blitzy and Autonomous Software Development for Enterprise",
+      "pubDate": "2026-10-22T09:00:00.000Z"
+    },
+    {
+      "id": "2026-10-22-ainativedev-your-coding-agent-should-never-hold-a-cr",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Your Coding Agent Should Never Hold a Credential",
+      "pubDate": "2026-10-22T12:00:00.000Z"
+    },
+    {
+      "id": "2026-10-12-talks-just-in-time-ontologies-what-cheap-intel",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Just-in-Time Ontologies: What Cheap Intelligence Means for Data — Hrishi Olickel, Southbridge AI",
+      "pubDate": "2026-10-12T00:00:00.000Z"
+    },
+    {
+      "id": "2026-10-12-talks-containment-is-lying-to-you-measuring-ai",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Containment Is Lying to You: Measuring AI Agents Like Employees — Druid AI",
+      "pubDate": "2026-10-12T00:00:00.000Z"
     }
   ]
 }
