@@ -325,7 +325,6 @@
     "2026-09-02-twist-vc-experts-on-why-physical-ai-funding-is": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT7305736664.mp3",
     "2026-08-28-twist-breaking-down-nvidia-s-hugging-face-and": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT9523716331.mp3",
     "2026-09-30-pragmatic-distributed-databases-with-peter": "https://api.substack.com/feed/podcast/217889431/bba96d28746310eb65c6f215045feb9f.mp3",
-    "2024-08-25-lennys-how-to-consistently-go-viral-nikita-bier": "https://pscrb.fm/rss/p/api.substack.com/feed/podcast/147504863/c51ccaf5b9438ab83c072d6cccbda231.mp3",
     "2026-10-21-pragmatic-the-revised-rules-of-engineering": "https://api.substack.com/feed/podcast/221358515/21be084e9eda508a6f0476b15e6df032.mp3"
   },
   "transient": {
@@ -335,17 +334,21 @@
     "2026-10-06-knowledge-charlie-munger-s-interview-with-todd-com": 1,
     "2026-10-06-ainativedev-legora-cto-why-ai-agents-need-more-than": 1,
     "2026-10-19-sourcery-apollos-yahoo-playbook--5-years-after-th": 1,
-    "2026-10-21-beyondcoding-how-senior-engineers-use-coding-agents-o": 2,
-    "2026-10-21-lennys-claude-duet-is-beautiful-i-still": 1,
-    "2026-10-21-aiandi-how-a-frontier-team-can-help-your-compan": 1,
-    "2026-10-21-pragmatic-the-revised-rules-of-engineering": 1,
-    "2026-10-21-howiai-claude-duet-is-beautiful--i-still-forgot": 1,
-    "2026-10-21-twiml-airbnb-is-building-a-company-brain-for-a": 1,
-    "2026-10-21-productpodcast-mrbeast-cpto-on-how-the-world-39-s-bigge": 1,
-    "2026-10-12-talks-build-a-research-agent-with-claude-manag": 1,
+    "2026-10-21-lennys-claude-duet-is-beautiful-i-still": 2,
+    "2026-10-21-aiandi-how-a-frontier-team-can-help-your-compan": 2,
+    "2026-10-21-pragmatic-the-revised-rules-of-engineering": 2,
+    "2026-10-21-howiai-claude-duet-is-beautiful--i-still-forgot": 2,
+    "2026-10-21-twiml-airbnb-is-building-a-company-brain-for-a": 2,
+    "2026-10-21-productpodcast-mrbeast-cpto-on-how-the-world-39-s-bigge": 2,
+    "2026-10-12-talks-build-a-research-agent-with-claude-manag": 2,
+    "2026-10-22-twist-we-asked-3-vcs-would-you-invest-in-eliza": 1,
+    "2026-10-12-talks-just-in-time-ontologies-what-cheap-intel": 1,
+    "2026-10-12-talks-containment-is-lying-to-you-measuring-ai": 1,
     "2026-09-23-twist-vcs-would-bet-on-open-source-ai-over-ope": 1,
     "2026-09-10-sed-a-rust-framework-to-simplify-distributed": 1,
-    "2026-09-09-deepmind-can-ai-help-us-better-predict-the-weathe": 1
+    "2026-09-09-deepmind-can-ai-help-us-better-predict-the-weathe": 1,
+    "2026-09-03-eyeonai-from-10-drones-a-month-to-nearly-100-000": 1,
+    "2024-08-25-lennys-how-to-consistently-go-viral-nikita-bier": 1
   },
   "redoDone": {
     "2026-10-02-nopriors-the-future-of-frontier-model-architectur": "feed 里已找不到",
@@ -662,6 +665,11 @@
       "status": "找不到播客版 → 交本机 YouTube",
       "title": "#784.黄仁勋 GTC 演讲：用公司的知识和工具打造专属 agent",
       "day": "2026-10-22"
+    },
+    "6ad8ef8db381c0fcba19c273": {
+      "status": "找不到播客版 → 交本机 YouTube",
+      "title": "#785.陶哲轩&邓煜：我们为何构建开放数学模型",
+      "day": "2026-10-22"
     }
   },
   "cutoffs": {
@@ -675,7 +683,7 @@
     "aiandi": "2026-10-14T16:22:14.000Z",
     "nopriors": "2026-10-15T10:00:00.000Z",
     "thepeel": "2026-10-15T13:00:00.000Z",
-    "beyondcoding": "2026-10-14T11:00:00.000Z",
+    "beyondcoding": "2026-10-21T11:00:00.000Z",
     "founders": "2026-10-13T23:30:00.000Z",
     "dwarkesh": "2026-10-01T15:28:28.000Z",
     "doac": "2026-10-12T05:00:00.000Z",
@@ -1856,6 +1864,12 @@
       "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
       "title": "Hiring Employable Agents + Startup Battlefield Finals — Howie Liu, HyperAgent",
       "pubDate": "2026-10-12T00:00:00.000Z"
+    },
+    {
+      "id": "2026-10-21-beyondcoding-how-senior-engineers-use-coding-agents-o",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "How Senior Engineers Use Coding Agents On Prod Infrastructure",
+      "pubDate": "2026-10-21T11:00:00.000Z"
     }
   ]
 }
