@@ -314,7 +314,8 @@
     "xn8EsW0wxyc": "2026-10-11-talks-how-secrets-leak-through-ai-agents-and-h",
     "tyFPqtyOK5w": "2026-10-11-talks-the-autonomous-computer-infrastructure-f",
     "8g0g1ncwzG0": "2026-10-12-talks-reliable-smart-workflows-for-finance-wea",
-    "EEt3ZSG4a1s": "2026-10-12-talks-hiring-employable-agents-startup-battlef"
+    "EEt3ZSG4a1s": "2026-10-12-talks-hiring-employable-agents-startup-battlef",
+    "FGftGOzfohc": "2026-10-12-talks-build-a-research-agent-with-claude-manag"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
@@ -334,19 +335,16 @@
     "2026-10-06-knowledge-charlie-munger-s-interview-with-todd-com": 1,
     "2026-10-06-ainativedev-legora-cto-why-ai-agents-need-more-than": 1,
     "2026-10-19-sourcery-apollos-yahoo-playbook--5-years-after-th": 1,
-    "2026-10-21-lennys-claude-duet-is-beautiful-i-still": 2,
-    "2026-10-21-aiandi-how-a-frontier-team-can-help-your-compan": 2,
     "2026-10-21-pragmatic-the-revised-rules-of-engineering": 2,
-    "2026-10-21-howiai-claude-duet-is-beautiful--i-still-forgot": 2,
-    "2026-10-21-twiml-airbnb-is-building-a-company-brain-for-a": 2,
-    "2026-10-21-productpodcast-mrbeast-cpto-on-how-the-world-39-s-bigge": 2,
-    "2026-10-12-talks-build-a-research-agent-with-claude-manag": 2,
-    "2026-10-22-twist-we-asked-3-vcs-would-you-invest-in-eliza": 1,
-    "2026-10-12-talks-just-in-time-ontologies-what-cheap-intel": 1,
-    "2026-10-12-talks-containment-is-lying-to-you-measuring-ai": 1,
-    "2026-09-23-twist-vcs-would-bet-on-open-source-ai-over-ope": 1,
-    "2026-09-10-sed-a-rust-framework-to-simplify-distributed": 1,
-    "2026-09-09-deepmind-can-ai-help-us-better-predict-the-weathe": 1,
+    "2026-10-12-talks-just-in-time-ontologies-what-cheap-intel": 2,
+    "2026-10-12-talks-containment-is-lying-to-you-measuring-ai": 2,
+    "2026-10-22-twentyvc-20vc-trillion-or-bust-the-new-vc-game-co": 2,
+    "2026-10-22-practicalai-exploit-development-agentic-vulnerabilit": 2,
+    "2026-10-22-sed-blitzy-and-autonomous-software-developme": 2,
+    "2026-10-22-ainativedev-your-coding-agent-should-never-hold-a-cr": 2,
+    "2026-09-23-twist-vcs-would-bet-on-open-source-ai-over-ope": 2,
+    "2026-09-10-sed-a-rust-framework-to-simplify-distributed": 2,
+    "2026-09-09-deepmind-can-ai-help-us-better-predict-the-weathe": 2,
     "2026-09-03-eyeonai-from-10-drones-a-month-to-nearly-100-000": 1,
     "2024-08-25-lennys-how-to-consistently-go-viral-nikita-bier": 1
   },
@@ -673,14 +671,14 @@
     }
   },
   "cutoffs": {
-    "lennys": "2026-10-18T12:31:36.000Z",
+    "lennys": "2026-10-21T20:25:18.000Z",
     "pg": "2026-10-20T21:31:12.000Z",
     "a16z": "2026-10-21T10:00:00.000Z",
     "yc": "2026-09-26T15:10:19.000Z",
     "mad": "2026-10-15T11:30:01.000Z",
     "trainingdata": "2026-10-20T09:00:00.000Z",
     "bigtech": "2026-10-20T17:18:00.000Z",
-    "aiandi": "2026-10-14T16:22:14.000Z",
+    "aiandi": "2026-10-21T18:31:26.000Z",
     "nopriors": "2026-10-15T10:00:00.000Z",
     "thepeel": "2026-10-15T13:00:00.000Z",
     "beyondcoding": "2026-10-21T11:00:00.000Z",
@@ -696,15 +694,15 @@
     "changelog": "2026-10-09T19:00:00.000Z",
     "devtools": "2026-09-03T01:59:52.000Z",
     "rework": "2026-08-19T08:00:00.000Z",
-    "howiai": "2026-10-19T11:00:00.000Z",
+    "howiai": "2026-10-21T20:24:16.000Z",
     "unsupervised": "2026-10-06T12:50:23.000Z",
-    "twiml": "2026-10-15T10:30:00.000Z",
+    "twiml": "2026-10-21T19:09:00.000Z",
     "eyeonai": "2026-10-16T14:00:00.000Z",
     "indepth": "2026-08-27T11:00:00.000Z",
     "uncapped": "2026-10-01T09:00:00.000Z",
     "pmf": "2026-10-19T09:00:00.000Z",
     "cheekypint": "2026-10-20T13:05:00.000Z",
-    "productpodcast": "2026-10-14T19:00:00.000Z",
+    "productpodcast": "2026-10-21T19:00:00.000Z",
     "ainativedev": "2026-10-20T12:00:00.000Z",
     "newcomer": "2026-10-19T15:53:16.000Z",
     "engenable": "2026-10-16T12:00:00.000Z",
@@ -1870,6 +1868,48 @@
       "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
       "title": "How Senior Engineers Use Coding Agents On Prod Infrastructure",
       "pubDate": "2026-10-21T11:00:00.000Z"
+    },
+    {
+      "id": "2026-10-21-lennys-claude-duet-is-beautiful-i-still",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Claude Duet is beautiful. I still forgot to use it",
+      "pubDate": "2026-10-21T20:25:18.000Z"
+    },
+    {
+      "id": "2026-10-21-aiandi-how-a-frontier-team-can-help-your-compan",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "How a Frontier Team Can Help Your Company Keep Up With AI",
+      "pubDate": "2026-10-21T18:31:26.000Z"
+    },
+    {
+      "id": "2026-10-21-howiai-claude-duet-is-beautiful--i-still-forgot",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Claude Duet is beautiful. I still forgot to use it",
+      "pubDate": "2026-10-21T20:24:16.000Z"
+    },
+    {
+      "id": "2026-10-21-twiml-airbnb-is-building-a-company-brain-for-a",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Airbnb Is Building a ‘Company Brain’ for AI Agents with Ahmad Al-Dahle - #781",
+      "pubDate": "2026-10-21T19:09:00.000Z"
+    },
+    {
+      "id": "2026-10-21-productpodcast-mrbeast-cpto-on-how-the-world-39-s-bigge",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "MrBeast CPTO on How the World&#39;s Biggest YouTuber Uses AI to Run Every Video Like a Product Launch | Shiva Rajaraman",
+      "pubDate": "2026-10-21T19:00:00.000Z"
+    },
+    {
+      "id": "2026-10-12-talks-build-a-research-agent-with-claude-manag",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Build a Research Agent with Claude Managed Agents (Part 2 of 4) — Anthropic",
+      "pubDate": "2026-10-12T00:00:00.000Z"
+    },
+    {
+      "id": "2026-10-22-twist-we-asked-3-vcs-would-you-invest-in-eliza",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "We asked 3 VCs: would you invest in Elizabeth Holmes’ next startup? | E2353",
+      "pubDate": "2026-10-22T01:28:00.000Z"
     }
   ]
 }
