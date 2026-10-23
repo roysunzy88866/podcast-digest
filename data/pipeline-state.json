@@ -320,7 +320,8 @@
     "PwCSYy-oGsM": "2026-10-12-talks-containment-is-lying-to-you-measuring-ai",
     "QSeaZ6qHyXs": "2026-10-12-talks-claude-managed-agents-q-a-evals-ci-cd-an",
     "SacJfmp33vM": "2026-10-12-talks-your-gpu-neighbor-can-hear-your-model-br",
-    "T3wRyXg_yVg": "2026-10-12-talks-inside-the-ai-economy-what-stripe-s-data"
+    "T3wRyXg_yVg": "2026-10-12-talks-inside-the-ai-economy-what-stripe-s-data",
+    "bH36gWAgPwA": "2026-10-04-talks-local-ai-is-now-6x-faster-on-your-pc"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
@@ -339,10 +340,8 @@
     "2026-10-06-knowledge-charlie-munger-s-interview-with-todd-com": 1,
     "2026-10-06-ainativedev-legora-cto-why-ai-agents-need-more-than": 1,
     "2026-10-19-sourcery-apollos-yahoo-playbook--5-years-after-th": 1,
-    "2026-10-23-doac-most-replayed-moment-how-ai-companies-ar": 2,
-    "2026-10-04-talks-local-ai-is-now-6x-faster-on-your-pc": 2,
-    "2026-10-23-a16z-amazon-ceo-220-billion-still-cant-meet-a": 2,
-    "2026-10-23-nopriors-democratizing-security-for-the-agentic-w": 2,
+    "2026-10-23-yc-this-is-how-you-should-actually-make-lau": 2,
+    "2026-10-23-thepeel-oren-zeevs-2-7b-solo-gp-playbook-e3qvbqj": 2,
     "2026-09-23-twist-vcs-would-bet-on-open-source-ai-over-ope": 2,
     "2026-09-21-twist-elon-s-new-hyperloop-trump-s-ai-rename-a": 2,
     "2026-09-21-eyeonai-inside-ukraine-s-drone-war-maj-phoenix-o": 2,
@@ -692,18 +691,18 @@
   "cutoffs": {
     "lennys": "2026-10-21T20:25:18.000Z",
     "pg": "2026-10-20T21:31:12.000Z",
-    "a16z": "2026-10-22T16:07:57.000Z",
+    "a16z": "2026-10-23T10:00:00.000Z",
     "yc": "2026-10-22T16:00:00.000Z",
     "mad": "2026-10-22T11:30:00.000Z",
     "trainingdata": "2026-10-20T09:00:00.000Z",
     "bigtech": "2026-10-20T17:18:00.000Z",
     "aiandi": "2026-10-21T18:31:26.000Z",
-    "nopriors": "2026-10-22T10:00:00.000Z",
+    "nopriors": "2026-10-23T10:00:00.000Z",
     "thepeel": "2026-10-15T13:00:00.000Z",
     "beyondcoding": "2026-10-21T11:00:00.000Z",
     "founders": "2026-10-13T23:30:00.000Z",
     "dwarkesh": "2026-10-22T15:02:21.000Z",
-    "doac": "2026-10-12T05:00:00.000Z",
+    "doac": "2026-10-23T05:00:00.000Z",
     "deepmind": "2026-10-01T16:38:11.000Z",
     "twentyvc": "2026-10-22T07:07:00.000Z",
     "cogrev": "2026-10-20T11:00:00.000Z",
@@ -2037,6 +2036,30 @@
       "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
       "title": "Inside the AI Economy: What Stripe's Data Reveals — Nilofer Rajpurkar, Stripe",
       "pubDate": "2026-10-12T00:00:00.000Z"
+    },
+    {
+      "id": "2026-10-23-a16z-amazon-ceo-220-billion-still-cant-meet-a",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Amazon CEO Andy Jassy on the $220 Billion AI Buildout",
+      "pubDate": "2026-10-23T10:00:00.000Z"
+    },
+    {
+      "id": "2026-10-23-nopriors-democratizing-security-for-the-agentic-w",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Democratizing Security for the Agentic Web with CloudFlare CTO Dane Knecht",
+      "pubDate": "2026-10-23T10:00:00.000Z"
+    },
+    {
+      "id": "2026-10-23-doac-most-replayed-moment-how-ai-companies-ar",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Most Replayed Moment: How AI Companies Are Gaslighting You - Karen Hao",
+      "pubDate": "2026-10-23T05:00:00.000Z"
+    },
+    {
+      "id": "2026-10-04-talks-local-ai-is-now-6x-faster-on-your-pc",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Local AI Is Now 6x Faster on Your PC",
+      "pubDate": "2026-10-04T00:00:00.000Z"
     }
   ]
 }
