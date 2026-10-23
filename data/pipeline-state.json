@@ -318,7 +318,8 @@
     "FGftGOzfohc": "2026-10-12-talks-build-a-research-agent-with-claude-manag",
     "Fa3hQVIKShw": "2026-10-12-talks-just-in-time-ontologies-what-cheap-intel",
     "PwCSYy-oGsM": "2026-10-12-talks-containment-is-lying-to-you-measuring-ai",
-    "QSeaZ6qHyXs": "2026-10-12-talks-claude-managed-agents-q-a-evals-ci-cd-an"
+    "QSeaZ6qHyXs": "2026-10-12-talks-claude-managed-agents-q-a-evals-ci-cd-an",
+    "SacJfmp33vM": "2026-10-12-talks-your-gpu-neighbor-can-hear-your-model-br"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
@@ -337,16 +338,21 @@
     "2026-10-06-knowledge-charlie-munger-s-interview-with-todd-com": 1,
     "2026-10-06-ainativedev-legora-cto-why-ai-agents-need-more-than": 1,
     "2026-10-19-sourcery-apollos-yahoo-playbook--5-years-after-th": 1,
-    "2026-10-12-talks-your-gpu-neighbor-can-hear-your-model-br": 2,
     "2026-10-12-talks-inside-the-ai-economy-what-stripe-s-data": 2,
+    "2026-10-23-doac-most-replayed-moment-how-ai-companies-ar": 1,
+    "2026-10-22-changelog-building-what-s-next": 2,
+    "2026-10-04-talks-local-ai-is-now-6x-faster-on-your-pc": 1,
     "2026-09-23-twist-vcs-would-bet-on-open-source-ai-over-ope": 2,
     "2026-09-21-twist-elon-s-new-hyperloop-trump-s-ai-rename-a": 2,
+    "2026-09-21-eyeonai-inside-ukraine-s-drone-war-maj-phoenix-o": 2,
     "2026-09-20-a16z-nas-grandmaster-caz-steve-stoute-ben-hor": 2,
     "2026-09-17-newcomer-former-sec-official-on-ftx--crypto--sili": 1,
+    "2026-09-16-bigtech-a-sober-conversation-about-ai-existentia": 2,
     "2026-09-10-sed-a-rust-framework-to-simplify-distributed": 2,
     "2026-09-09-deepmind-can-ai-help-us-better-predict-the-weathe": 2,
     "2026-09-03-eyeonai-from-10-drones-a-month-to-nearly-100-000": 2,
     "2026-09-02-beyondcoding-how-the-best-engineers-build-a-world-mod": 2,
+    "2026-08-27-mos-chicago-fed-president-on-inflation-reces": 2,
     "2024-08-25-lennys-how-to-consistently-go-viral-nikita-bier": 1
   },
   "redoDone": {
@@ -673,6 +679,11 @@
     "6ada452f97726cd467564347": {
       "status": "找不到播客版 → 交本机 YouTube",
       "title": "#786.Google CEO劈柴哥：前沿模型能帮我们开发下一批模型",
+      "day": "2026-10-23"
+    },
+    "6ada58a497726cd4675645e4": {
+      "status": "非 AI 也非科技创业(Jev),不对齐",
+      "title": "#788. Top Gear制片人Andy Wilman：三个人的默契，电视节目没法第一天就造出来",
       "day": "2026-10-23"
     }
   },
@@ -2005,6 +2016,12 @@
       "id": "2026-10-12-talks-claude-managed-agents-q-a-evals-ci-cd-an",
       "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
       "title": "Claude Managed Agents Q&A: Evals, CI/CD and Multi-Tenancy (Part 4 of 4) — Anthropic",
+      "pubDate": "2026-10-12T00:00:00.000Z"
+    },
+    {
+      "id": "2026-10-12-talks-your-gpu-neighbor-can-hear-your-model-br",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Your GPU Neighbor Can Hear Your Model — Branislav Brzak, Stealthium",
       "pubDate": "2026-10-12T00:00:00.000Z"
     }
   ]
