@@ -321,7 +321,9 @@
     "QSeaZ6qHyXs": "2026-10-12-talks-claude-managed-agents-q-a-evals-ci-cd-an",
     "SacJfmp33vM": "2026-10-12-talks-your-gpu-neighbor-can-hear-your-model-br",
     "T3wRyXg_yVg": "2026-10-12-talks-inside-the-ai-economy-what-stripe-s-data",
-    "bH36gWAgPwA": "2026-10-04-talks-local-ai-is-now-6x-faster-on-your-pc"
+    "bH36gWAgPwA": "2026-10-04-talks-local-ai-is-now-6x-faster-on-your-pc",
+    "Uv0nAf_7tyU": "2026-10-12-talks-decoupling-the-brain-from-the-hands-clau",
+    "_cRgl3maiT8": "2026-10-12-talks-how-inference-keeps-up-with-our-insatiab"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
@@ -340,9 +342,8 @@
     "2026-10-06-knowledge-charlie-munger-s-interview-with-todd-com": 1,
     "2026-10-06-ainativedev-legora-cto-why-ai-agents-need-more-than": 1,
     "2026-10-19-sourcery-apollos-yahoo-playbook--5-years-after-th": 1,
-    "2026-10-12-talks-decoupling-the-brain-from-the-hands-clau": 2,
-    "2026-10-12-talks-how-inference-keeps-up-with-our-insatiab": 2,
-    "2026-10-24-twentyvc-20vc-why-robotics-will-be-100x-bigger-th": 2,
+    "2026-10-24-a16z-what-it-takes-to-win-as-a-founder-ben-ho": 2,
+    "2026-10-24-cogrev-ai-am-highlights-clean-neurons-black-oct": 2,
     "2026-09-23-twist-vcs-would-bet-on-open-source-ai-over-ope": 2,
     "2026-09-21-twist-elon-s-new-hyperloop-trump-s-ai-rename-a": 2,
     "2026-09-21-eyeonai-inside-ukraine-s-drone-war-maj-phoenix-o": 2,
@@ -351,11 +352,12 @@
     "2026-09-17-newcomer-former-sec-official-on-ftx--crypto--sili": 1,
     "2026-09-16-bigtech-a-sober-conversation-about-ai-existentia": 2,
     "2026-09-10-sed-a-rust-framework-to-simplify-distributed": 2,
+    "2026-09-10-a16z-aram-x-jen-x-dg-draft-dxgkjks2": 2,
     "2026-09-09-deepmind-can-ai-help-us-better-predict-the-weathe": 2,
     "2026-09-03-eyeonai-from-10-drones-a-month-to-nearly-100-000": 2,
     "2026-09-02-strictlyvc-grindr-ceo-is-betting-on-ai-to-solve-onl": 2,
     "2026-09-02-beyondcoding-how-the-best-engineers-build-a-world-mod": 2,
-    "2026-08-27-mos-chicago-fed-president-on-inflation-reces": 2,
+    "2026-08-27-mos-chicago-fed-president-on-inflation-reces": 1,
     "2024-08-25-lennys-how-to-consistently-go-viral-nikita-bier": 1
   },
   "redoDone": {
@@ -706,7 +708,7 @@
     "dwarkesh": "2026-10-22T15:02:21.000Z",
     "doac": "2026-10-23T05:00:00.000Z",
     "deepmind": "2026-10-01T16:38:11.000Z",
-    "twentyvc": "2026-10-22T07:07:00.000Z",
+    "twentyvc": "2026-10-24T07:07:00.000Z",
     "cogrev": "2026-10-20T11:00:00.000Z",
     "knowledge": "2026-10-13T10:00:00.000Z",
     "pragmatic": "2026-10-21T16:58:21.000Z",
@@ -2086,6 +2088,24 @@
       "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
       "title": "How Zip's AI Superagents Automate Procurement End-to-End | Rujul Zaparde",
       "pubDate": "2026-10-23T13:06:00.000Z"
+    },
+    {
+      "id": "2026-10-24-twentyvc-20vc-why-robotics-will-be-100x-bigger-th",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "20VC: Why Robotics Will be 100x Bigger than Coding Agents | Inference Will Be a $10TRN Market: What No One Sees | Why Software Investors are F***** Today with Naveen Rao, Unconventional",
+      "pubDate": "2026-10-24T07:07:00.000Z"
+    },
+    {
+      "id": "2026-10-12-talks-decoupling-the-brain-from-the-hands-clau",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Decoupling the Brain from the Hands: Claude Managed Agents (Part 1 of 4) — Anthropic",
+      "pubDate": "2026-10-12T00:00:00.000Z"
+    },
+    {
+      "id": "2026-10-12-talks-how-inference-keeps-up-with-our-insatiab",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "How Inference Keeps Up with Our Insatiable Need for Tokens — Cerebras & Gimlet Labs",
+      "pubDate": "2026-10-12T00:00:00.000Z"
     }
   ]
 }
