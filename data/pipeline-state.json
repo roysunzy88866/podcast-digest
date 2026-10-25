@@ -323,7 +323,9 @@
     "T3wRyXg_yVg": "2026-10-12-talks-inside-the-ai-economy-what-stripe-s-data",
     "bH36gWAgPwA": "2026-10-04-talks-local-ai-is-now-6x-faster-on-your-pc",
     "Uv0nAf_7tyU": "2026-10-12-talks-decoupling-the-brain-from-the-hands-clau",
-    "_cRgl3maiT8": "2026-10-12-talks-how-inference-keeps-up-with-our-insatiab"
+    "_cRgl3maiT8": "2026-10-12-talks-how-inference-keeps-up-with-our-insatiab",
+    "gpmze-6ueGU": "2026-10-12-talks-we-let-our-financial-planners-write-the",
+    "iH_wV8BbS24": "2026-10-12-talks-sandboxes-aren-t-optional-4-ways-to-isol"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
@@ -332,8 +334,7 @@
     "2026-09-17-pragmatic-ai-skills-with-matt-pocock": "https://api.substack.com/feed/podcast/215854309/58f711af76405b52f81c0c380a5deed7.mp3",
     "2026-09-18-twist-hugging-face-co-founder-on-open-source-m": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT9908320817.mp3",
     "2026-09-02-twist-vc-experts-on-why-physical-ai-funding-is": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT7305736664.mp3",
-    "2026-08-28-twist-breaking-down-nvidia-s-hugging-face-and": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT9523716331.mp3",
-    "2026-09-30-pragmatic-distributed-databases-with-peter": "https://api.substack.com/feed/podcast/217889431/bba96d28746310eb65c6f215045feb9f.mp3"
+    "2026-08-28-twist-breaking-down-nvidia-s-hugging-face-and": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT9523716331.mp3"
   },
   "transient": {
     "2026-08-03-pmf-he-fired-almost-everyone-kept-2-engineer": 1,
@@ -342,9 +343,7 @@
     "2026-10-06-knowledge-charlie-munger-s-interview-with-todd-com": 1,
     "2026-10-06-ainativedev-legora-cto-why-ai-agents-need-more-than": 1,
     "2026-10-19-sourcery-apollos-yahoo-playbook--5-years-after-th": 1,
-    "2026-10-12-talks-we-let-our-financial-planners-write-the": 2,
-    "2026-10-12-talks-sandboxes-aren-t-optional-4-ways-to-isol": 2,
-    "2026-10-24-sourcery-ex-twitter-ceo-says-were-underestimating": 2,
+    "2026-09-30-pragmatic-distributed-databases-with-peter": 1,
     "2026-09-23-twist-vcs-would-bet-on-open-source-ai-over-ope": 2,
     "2026-09-21-twist-elon-s-new-hyperloop-trump-s-ai-rename-a": 2,
     "2026-09-21-eyeonai-inside-ukraine-s-drone-war-maj-phoenix-o": 2,
@@ -359,6 +358,7 @@
     "2026-09-03-eyeonai-from-10-drones-a-month-to-nearly-100-000": 2,
     "2026-09-02-strictlyvc-grindr-ceo-is-betting-on-ai-to-solve-onl": 2,
     "2026-09-02-beyondcoding-how-the-best-engineers-build-a-world-mod": 2,
+    "2026-08-31-sourcery-inside-bridgit-mendlers-new-185-000-sqft": 1,
     "2026-08-27-mos-chicago-fed-president-on-inflation-reces": 1,
     "2024-08-25-lennys-how-to-consistently-go-viral-nikita-bier": 1
   },
@@ -730,7 +730,7 @@
     "ainativedev": "2026-10-22T12:00:00.000Z",
     "newcomer": "2026-10-19T15:53:16.000Z",
     "engenable": "2026-10-16T12:00:00.000Z",
-    "sourcery": "2026-10-16T10:11:50.000Z",
+    "sourcery": "2026-10-24T10:30:57.000Z",
     "iltb": "2026-10-20T08:00:00.000Z",
     "generalist": "2026-10-20T11:00:00.000Z",
     "sed": "2026-10-22T09:00:00.000Z",
@@ -2126,6 +2126,24 @@
       "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
       "title": "OpenAI’s $1.25T Raise, Starlink Mobile & Zuck’s Tax Deal | EP 2354",
       "pubDate": "2026-10-24T01:52:00.000Z"
+    },
+    {
+      "id": "2026-10-24-sourcery-ex-twitter-ceo-says-were-underestimating",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Ex-Twitter CEO Says We’re Underestimating AI Agents by 10,000x",
+      "pubDate": "2026-10-24T10:30:57.000Z"
+    },
+    {
+      "id": "2026-10-12-talks-we-let-our-financial-planners-write-the",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "We Let Our Financial Planners Write the Agents — Matthew Ragone, Range",
+      "pubDate": "2026-10-12T00:00:00.000Z"
+    },
+    {
+      "id": "2026-10-12-talks-sandboxes-aren-t-optional-4-ways-to-isol",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Sandboxes Aren't Optional: 4 Ways to Isolate Coding Agents — Robert Brennan, OpenHands",
+      "pubDate": "2026-10-12T00:00:00.000Z"
     }
   ]
 }
