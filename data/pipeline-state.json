@@ -325,7 +325,9 @@
     "Uv0nAf_7tyU": "2026-10-12-talks-decoupling-the-brain-from-the-hands-clau",
     "_cRgl3maiT8": "2026-10-12-talks-how-inference-keeps-up-with-our-insatiab",
     "gpmze-6ueGU": "2026-10-12-talks-we-let-our-financial-planners-write-the",
-    "iH_wV8BbS24": "2026-10-12-talks-sandboxes-aren-t-optional-4-ways-to-isol"
+    "iH_wV8BbS24": "2026-10-12-talks-sandboxes-aren-t-optional-4-ways-to-isol",
+    "k72eLcYpVys": "2026-10-12-talks-1-000-agent-tasks-in-a-sandbox-what-brea",
+    "mBNVKkyfnE0": "2026-10-12-talks-the-next-trillion-internet-users-still-d"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
@@ -342,11 +344,12 @@
     "2026-10-06-knowledge-charlie-munger-s-interview-with-todd-com": 1,
     "2026-10-06-ainativedev-legora-cto-why-ai-agents-need-more-than": 1,
     "2026-10-19-sourcery-apollos-yahoo-playbook--5-years-after-th": 1,
-    "2026-10-25-lennys-an-86-minute-guide-to-finding-pmf": 2,
-    "2026-10-12-talks-1-000-agent-tasks-in-a-sandbox-what-brea": 2,
-    "2026-10-12-talks-the-next-trillion-internet-users-still-d": 2,
+    "2026-10-26-doac-mark-cuban-the-next-market-crash-is-wher": 1,
+    "2026-10-26-twentyvc-20vc-satya-nadella-on-open-vs-closed-mod": 2,
+    "2026-10-26-pmf-his-free-app-hit-200-locations-and-nobod": 2,
     "2026-09-30-pragmatic-distributed-databases-with-peter": 1,
     "2026-09-27-cogrev-ai-am-what-if-it-works-too-well-colludin": 2,
+    "2026-09-25-cogrev-zero-to-one-in-ai-safety-halcyon-s-mike": 2,
     "2026-09-23-twist-vcs-would-bet-on-open-source-ai-over-ope": 2,
     "2026-09-21-twist-elon-s-new-hyperloop-trump-s-ai-rename-a": 2,
     "2026-09-21-eyeonai-inside-ukraine-s-drone-war-maj-phoenix-o": 2,
@@ -359,9 +362,9 @@
     "2026-09-10-sed-a-rust-framework-to-simplify-distributed": 2,
     "2026-09-10-a16z-aram-x-jen-x-dg-draft-dxgkjks2": 2,
     "2026-09-09-deepmind-can-ai-help-us-better-predict-the-weathe": 2,
-    "2026-09-03-eyeonai-from-10-drones-a-month-to-nearly-100-000": 2,
-    "2026-09-02-strictlyvc-grindr-ceo-is-betting-on-ai-to-solve-onl": 2,
-    "2026-09-02-beyondcoding-how-the-best-engineers-build-a-world-mod": 2,
+    "2026-09-03-eyeonai-from-10-drones-a-month-to-nearly-100-000": 1,
+    "2026-09-02-strictlyvc-grindr-ceo-is-betting-on-ai-to-solve-onl": 1,
+    "2026-09-02-beyondcoding-how-the-best-engineers-build-a-world-mod": 1,
     "2026-08-31-sourcery-inside-bridgit-mendlers-new-185-000-sqft": 1,
     "2026-08-27-mos-chicago-fed-president-on-inflation-reces": 1,
     "2026-08-27-eyeonai-inside-ukraine-s-azov-drone-r-d-the-engi": 1,
@@ -707,10 +710,15 @@
       "status": "找不到播客版 → 交本机 YouTube",
       "title": "#791.Google前CEO：模型开发要6个月，发布后不到5个月就过时",
       "day": "2026-10-26"
+    },
+    "6ade4656c96c8942ec12167a": {
+      "status": "找不到播客版 → 交本机 YouTube",
+      "title": "#793. npm创始人Laurie Voss：如何判断你的 AI 智能体是否足够优秀",
+      "day": "2026-10-26"
     }
   },
   "cutoffs": {
-    "lennys": "2026-10-21T20:25:18.000Z",
+    "lennys": "2026-10-25T12:31:34.000Z",
     "pg": "2026-10-20T21:31:12.000Z",
     "a16z": "2026-10-25T10:00:00.000Z",
     "yc": "2026-10-23T17:45:54.000Z",
@@ -2159,6 +2167,24 @@
       "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
       "title": "The New Startup Playbook | Box CEO Aaron Levie",
       "pubDate": "2026-10-25T10:00:00.000Z"
+    },
+    {
+      "id": "2026-10-25-lennys-an-86-minute-guide-to-finding-pmf",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "An 86-minute guide to finding PMF | Rob Snyder (Author, The Power of Pull)",
+      "pubDate": "2026-10-25T12:31:34.000Z"
+    },
+    {
+      "id": "2026-10-12-talks-1-000-agent-tasks-in-a-sandbox-what-brea",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "1,000 Agent Tasks in a Sandbox: What Breaks When LLMs Run Code — Kevin Orellana, AWS",
+      "pubDate": "2026-10-12T00:00:00.000Z"
+    },
+    {
+      "id": "2026-10-12-talks-the-next-trillion-internet-users-still-d",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "The Next Trillion Internet Users Still Don’t Have an Identity — Adi Singh, AgentMail",
+      "pubDate": "2026-10-12T00:00:00.000Z"
     }
   ]
 }
