@@ -2210,3 +2210,4 @@
 {"ts":"2026-10-26T07:58:48.242Z","action":"push-failed","videoId":null,"error":"pull --rebase + push 连败 3 次;种子已在本地提交,下轮巡航随新提交重推"}
 {"ts":"2026-10-26T13:41:15.703Z","action":"git-pull-failed","videoId":null,"error":"fatal: unable to access 'https://github.com/roysunzy88866/podcast-digest.git/': Failed to connect to github.com port 443 after 75010 ms: Couldn't connect to server\n"}
 {"ts":"2026-10-27T01:42:06.090Z","action":"git-pull-failed","videoId":null,"error":"error: RPC failed; curl 16 Error in the HTTP2 framing layer\nfatal: expected flush after ref listing\n"}
+{"ts":"2026-10-27T07:41:15.676Z","action":"git-pull-failed","videoId":null,"error":"fatal: unable to access 'https://github.com/roysunzy88866/podcast-digest.git/': Failed to connect to github.com port 443 after 75010 ms: Couldn't connect to server\n"}
