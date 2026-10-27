@@ -344,15 +344,15 @@
     "2026-10-06-knowledge-charlie-munger-s-interview-with-todd-com": 1,
     "2026-10-06-ainativedev-legora-cto-why-ai-agents-need-more-than": 1,
     "2026-10-19-sourcery-apollos-yahoo-playbook--5-years-after-th": 1,
-    "2026-10-26-doac-mark-cuban-the-next-market-crash-is-wher": 2,
     "2026-08-27-mos-chicago-fed-president-on-inflation-reces": 1,
     "2026-08-27-eyeonai-inside-ukraine-s-azov-drone-r-d-the-engi": 1,
     "2024-08-25-lennys-how-to-consistently-go-viral-nikita-bier": 1,
-    "2026-10-26-lennys-why-reddit-built-its-own-ai-prototyping": 1,
-    "2026-10-26-a16z-openai-when-ai-agents-use-computers-fast": 2,
-    "2026-10-26-bigtech-emergency-pod-anthropic-s-s-1-ipo-filing": 2,
-    "2026-10-26-thepeel-inside-the-anthropic-bet-that-made-menlo": 2,
-    "2026-10-26-founders-438-james-garfield-s-extraordinary-rise": 1,
+    "2026-10-26-lennys-why-reddit-built-its-own-ai-prototyping": 2,
+    "2026-10-26-founders-438-james-garfield-s-extraordinary-rise": 2,
+    "2026-10-26-howiai-why-reddit-built-its-own-ai-prototyping": 2,
+    "2026-10-26-sourcery-the-2b-ai-startup-simulating-human-behav": 2,
+    "2026-10-12-talks-auth-for-agents-let-ai-sign-up-for-your": 1,
+    "2026-10-12-talks-please-enough-with-the-sloppy-one-shot-s": 1,
     "2026-09-30-pragmatic-distributed-databases-with-peter": 1,
     "2026-09-27-cogrev-ai-am-what-if-it-works-too-well-colludin": 2,
     "2026-09-25-cogrev-zero-to-one-in-ai-safety-halcyon-s-mike": 2,
@@ -365,8 +365,8 @@
     "2026-09-17-twentyvc-20vc-why-pacing-the-frontier-is-bs-insti": 2,
     "2026-09-17-newcomer-former-sec-official-on-ftx--crypto--sili": 1,
     "2026-09-16-bigtech-a-sober-conversation-about-ai-existentia": 2,
-    "2026-09-10-sed-a-rust-framework-to-simplify-distributed": 1,
-    "2026-09-10-a16z-aram-x-jen-x-dg-draft-dxgkjks2": 1,
+    "2026-09-10-sed-a-rust-framework-to-simplify-distributed": 2,
+    "2026-09-10-a16z-aram-x-jen-x-dg-draft-dxgkjks2": 2,
     "2026-09-09-deepmind-can-ai-help-us-better-predict-the-weathe": 1,
     "2026-09-03-eyeonai-from-10-drones-a-month-to-nearly-100-000": 1,
     "2026-09-02-strictlyvc-grindr-ceo-is-betting-on-ai-to-solve-onl": 1,
@@ -724,18 +724,18 @@
   "cutoffs": {
     "lennys": "2026-10-25T12:31:34.000Z",
     "pg": "2026-10-20T21:31:12.000Z",
-    "a16z": "2026-10-25T10:00:00.000Z",
+    "a16z": "2026-10-26T10:00:00.000Z",
     "yc": "2026-10-23T17:45:54.000Z",
     "mad": "2026-10-22T11:30:00.000Z",
     "trainingdata": "2026-10-20T09:00:00.000Z",
-    "bigtech": "2026-10-23T22:12:00.000Z",
+    "bigtech": "2026-10-26T17:09:00.000Z",
     "aiandi": "2026-10-21T18:31:26.000Z",
     "nopriors": "2026-10-23T10:00:00.000Z",
-    "thepeel": "2026-10-23T14:04:08.000Z",
+    "thepeel": "2026-10-26T14:08:26.000Z",
     "beyondcoding": "2026-10-21T11:00:00.000Z",
     "founders": "2026-10-13T23:30:00.000Z",
     "dwarkesh": "2026-10-22T15:02:21.000Z",
-    "doac": "2026-10-23T05:00:00.000Z",
+    "doac": "2026-10-26T05:00:00.000Z",
     "deepmind": "2026-10-01T16:38:11.000Z",
     "twentyvc": "2026-10-26T07:07:00.000Z",
     "cogrev": "2026-10-24T11:45:37.000Z",
@@ -2195,6 +2195,30 @@
       "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
       "title": "His free app hit 200 locations and nobody used it, then he raised $25M. | Tushar Mishra, Co-Founder & CEO of Delightree",
       "pubDate": "2026-10-26T09:00:00.000Z"
+    },
+    {
+      "id": "2026-10-26-a16z-openai-when-ai-agents-use-computers-fast",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "OpenAI: When AI Agents Use Computers Faster Than You",
+      "pubDate": "2026-10-26T10:00:00.000Z"
+    },
+    {
+      "id": "2026-10-26-bigtech-emergency-pod-anthropic-s-s-1-ipo-filing",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Emergency Pod: Anthropic's S-1 IPO Filing — With Dan Primack",
+      "pubDate": "2026-10-26T17:09:00.000Z"
+    },
+    {
+      "id": "2026-10-26-thepeel-inside-the-anthropic-bet-that-made-menlo",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Inside the Anthropic Bet That Made Menlo a Top AI Firm | Matt Murphy",
+      "pubDate": "2026-10-26T14:08:26.000Z"
+    },
+    {
+      "id": "2026-10-26-doac-mark-cuban-the-next-market-crash-is-wher",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Mark Cuban: The Next Market Crash Is Where The Real Money Is Made!",
+      "pubDate": "2026-10-26T05:00:00.000Z"
     }
   ]
 }
