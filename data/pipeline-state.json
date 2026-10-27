@@ -327,7 +327,9 @@
     "gpmze-6ueGU": "2026-10-12-talks-we-let-our-financial-planners-write-the",
     "iH_wV8BbS24": "2026-10-12-talks-sandboxes-aren-t-optional-4-ways-to-isol",
     "k72eLcYpVys": "2026-10-12-talks-1-000-agent-tasks-in-a-sandbox-what-brea",
-    "mBNVKkyfnE0": "2026-10-12-talks-the-next-trillion-internet-users-still-d"
+    "mBNVKkyfnE0": "2026-10-12-talks-the-next-trillion-internet-users-still-d",
+    "nSkmXakJ6eo": "2026-10-12-talks-auth-for-agents-let-ai-sign-up-for-your",
+    "oixzVKMAXG0": "2026-10-12-talks-please-enough-with-the-sloppy-one-shot-s"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
@@ -347,10 +349,10 @@
     "2026-08-27-mos-chicago-fed-president-on-inflation-reces": 1,
     "2026-08-27-eyeonai-inside-ukraine-s-azov-drone-r-d-the-engi": 1,
     "2024-08-25-lennys-how-to-consistently-go-viral-nikita-bier": 1,
-    "2026-10-12-talks-auth-for-agents-let-ai-sign-up-for-your": 2,
-    "2026-10-12-talks-please-enough-with-the-sloppy-one-shot-s": 2,
-    "2026-10-26-pg-how-to-steal-your-way-to-a-hit-product": 1,
-    "2026-10-26-twist-pregame-your-launch-before-your-app-exis": 2,
+    "2026-10-26-pg-how-to-steal-your-way-to-a-hit-product": 2,
+    "2026-10-27-iltb-cliff-sosin-owning-the-complements-to-in": 2,
+    "2026-10-27-sed-managing-ai-coding-costs-at-scale": 2,
+    "2026-10-27-mos-eric-schmidt-scores-us-vs-china-who-s-wi": 2,
     "2026-09-30-pragmatic-distributed-databases-with-peter": 1,
     "2026-09-27-cogrev-ai-am-what-if-it-works-too-well-colludin": 2,
     "2026-09-25-cogrev-zero-to-one-in-ai-safety-halcyon-s-mike": 2,
@@ -364,8 +366,8 @@
     "2026-09-17-newcomer-former-sec-official-on-ftx--crypto--sili": 1,
     "2026-09-16-iltb-michael-moritz-lessons-from-40-years-of": 2,
     "2026-09-16-bigtech-a-sober-conversation-about-ai-existentia": 2,
-    "2026-09-10-sed-a-rust-framework-to-simplify-distributed": 2,
-    "2026-09-10-a16z-aram-x-jen-x-dg-draft-dxgkjks2": 2,
+    "2026-09-10-sed-a-rust-framework-to-simplify-distributed": 1,
+    "2026-09-10-a16z-aram-x-jen-x-dg-draft-dxgkjks2": 1,
     "2026-09-09-deepmind-can-ai-help-us-better-predict-the-weathe": 1,
     "2026-09-03-eyeonai-from-10-drones-a-month-to-nearly-100-000": 1,
     "2026-09-02-strictlyvc-grindr-ceo-is-betting-on-ai-to-solve-onl": 1,
@@ -719,6 +721,11 @@
       "status": "找不到播客版 → 交本机 YouTube",
       "title": "#793. npm创始人Laurie Voss：如何判断你的 AI 智能体是否足够优秀",
       "day": "2026-10-26"
+    },
+    "6ae04a1197726cd467586246": {
+      "status": "找不到播客版 → 交本机 YouTube",
+      "title": "#796.Lex 对话数学家｜AI能组合已知方法，却还没提出新数学问题",
+      "day": "2026-10-27"
     }
   },
   "cutoffs": {
@@ -761,7 +768,7 @@
     "iltb": "2026-10-20T08:00:00.000Z",
     "generalist": "2026-10-20T11:00:00.000Z",
     "sed": "2026-10-22T09:00:00.000Z",
-    "twist": "2026-10-24T01:52:00.000Z",
+    "twist": "2026-10-26T23:54:00.000Z",
     "grit": "2026-10-19T09:27:34.000Z",
     "mos": "2026-10-22T09:00:00.000Z",
     "strictlyvc": "2026-10-21T02:13:00.000Z",
@@ -2243,6 +2250,24 @@
       "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
       "title": "The $2B AI Startup Simulating Human Behavior with 85% Accuracy",
       "pubDate": "2026-10-26T10:00:00.000Z"
+    },
+    {
+      "id": "2026-10-26-twist-pregame-your-launch-before-your-app-exis",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Pregame Your Launch Before Your App Exists (w/ Amanda Bradford) | E2355",
+      "pubDate": "2026-10-26T23:54:00.000Z"
+    },
+    {
+      "id": "2026-10-12-talks-auth-for-agents-let-ai-sign-up-for-your",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Auth for Agents: Let AI Sign Up for Your Product with auth.md — Michael Grinich, WorkOS",
+      "pubDate": "2026-10-12T00:00:00.000Z"
+    },
+    {
+      "id": "2026-10-12-talks-please-enough-with-the-sloppy-one-shot-s",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Please… Enough with the Sloppy, One-Shot SaaS Replacements — Mahmoud Abdelwahab, Railway",
+      "pubDate": "2026-10-12T00:00:00.000Z"
     }
   ]
 }
