@@ -349,33 +349,12 @@
     "2026-08-27-mos-chicago-fed-president-on-inflation-reces": 1,
     "2026-08-27-eyeonai-inside-ukraine-s-azov-drone-r-d-the-engi": 1,
     "2024-08-25-lennys-how-to-consistently-go-viral-nikita-bier": 1,
-    "2026-10-27-a16z-reinventing-school-for-the-ai-era-joe-li": 2,
-    "2026-10-27-knowledge-the-science-of-doing-your-best-work": 1,
-    "2026-10-27-ainativedev-caleb-sima-ai-attackers-move-at-machine": 2,
+    "2026-10-27-knowledge-the-science-of-doing-your-best-work": 2,
     "2026-10-12-talks-scheduled-agents-dreaming-and-q-a-claude": 1,
     "2026-10-12-talks-agents-in-orbit-workflows-not-autopilot": 1,
-    "2026-09-30-pragmatic-distributed-databases-with-peter": 1,
-    "2026-09-27-cogrev-ai-am-what-if-it-works-too-well-colludin": 2,
-    "2026-09-25-cogrev-zero-to-one-in-ai-safety-halcyon-s-mike": 2,
-    "2026-09-23-twist-vcs-would-bet-on-open-source-ai-over-ope": 2,
-    "2026-09-21-twist-elon-s-new-hyperloop-trump-s-ai-rename-a": 2,
-    "2026-09-21-eyeonai-inside-ukraine-s-drone-war-maj-phoenix-o": 2,
-    "2026-09-20-a16z-nas-grandmaster-caz-steve-stoute-ben-hor": 2,
-    "2026-09-18-twist-hugging-face-co-founder-on-open-source-m": 2,
-    "2026-09-17-twiml-from-voice-agents-to-ai-avatars-with-ale": 2,
-    "2026-09-17-twentyvc-20vc-why-pacing-the-frontier-is-bs-insti": 2,
-    "2026-09-17-newcomer-former-sec-official-on-ftx--crypto--sili": 1,
-    "2026-09-16-iltb-michael-moritz-lessons-from-40-years-of": 2,
-    "2026-09-16-bigtech-a-sober-conversation-about-ai-existentia": 2,
-    "2026-09-10-sed-a-rust-framework-to-simplify-distributed": 1,
-    "2026-09-10-a16z-aram-x-jen-x-dg-draft-dxgkjks2": 1,
-    "2026-09-09-deepmind-can-ai-help-us-better-predict-the-weathe": 1,
-    "2026-09-03-eyeonai-from-10-drones-a-month-to-nearly-100-000": 1,
-    "2026-09-02-strictlyvc-grindr-ceo-is-betting-on-ai-to-solve-onl": 1,
-    "2026-09-02-beyondcoding-how-the-best-engineers-build-a-world-mod": 1,
-    "2026-08-31-sourcery-inside-bridgit-mendlers-new-185-000-sqft": 1,
-    "2026-08-29-mos-pioneers-of-ai-designing-ai-for-people-a": 1,
-    "2026-10-25-lennys-an-86-minute-guide-to-finding-pmf": 1
+    "2026-10-27-cheekypint-the-airline-ceo-putting-starlink-on-ever": 1,
+    "2026-10-27-strictlyvc-flock-ceo-garrett-langley-on-public-back": 1,
+    "2026-10-27-latent-howanthropicshipsthe1llmintheworldsafely": 1
   },
   "redoDone": {
     "2026-10-02-nopriors-the-future-of-frontier-model-architectur": "feed 里已找不到",
@@ -727,12 +706,17 @@
       "status": "找不到播客版 → 交本机 YouTube",
       "title": "#796.Lex 对话数学家｜AI能组合已知方法，却还没提出新数学问题",
       "day": "2026-10-27"
+    },
+    "6ae08230c96c8942ec13164d": {
+      "status": "非 AI 也非科技创业(Jev),不对齐",
+      "title": "#797.Huberman x 英国超耐力运动员：你得有很多种理由，才能一直游下去",
+      "day": "2026-10-28"
     }
   },
   "cutoffs": {
     "lennys": "2026-10-26T12:04:20.000Z",
     "pg": "2026-10-26T23:31:46.000Z",
-    "a16z": "2026-10-26T10:00:00.000Z",
+    "a16z": "2026-10-27T10:00:00.000Z",
     "yc": "2026-10-23T17:45:54.000Z",
     "mad": "2026-10-22T11:30:00.000Z",
     "trainingdata": "2026-10-20T09:00:00.000Z",
@@ -762,7 +746,7 @@
     "pmf": "2026-10-26T09:00:00.000Z",
     "cheekypint": "2026-10-20T13:05:00.000Z",
     "productpodcast": "2026-10-21T19:00:00.000Z",
-    "ainativedev": "2026-10-22T12:00:00.000Z",
+    "ainativedev": "2026-10-27T13:00:00.000Z",
     "newcomer": "2026-10-19T15:53:16.000Z",
     "engenable": "2026-10-16T12:00:00.000Z",
     "sourcery": "2026-10-26T10:00:00.000Z",
@@ -2293,6 +2277,18 @@
       "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
       "title": "Eric Schmidt scores US vs. China: who’s winning the AI race?",
       "pubDate": "2026-10-27T09:00:00.000Z"
+    },
+    {
+      "id": "2026-10-27-a16z-reinventing-school-for-the-ai-era-joe-li",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Reinventing School for the AI Era | Joe Liemandt, Gagan Biyani & Erik Torenberg",
+      "pubDate": "2026-10-27T10:00:00.000Z"
+    },
+    {
+      "id": "2026-10-27-ainativedev-caleb-sima-ai-attackers-move-at-machine",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Caleb Sima: AI Attackers Move at Machine Speed",
+      "pubDate": "2026-10-27T13:00:00.000Z"
     }
   ]
 }
