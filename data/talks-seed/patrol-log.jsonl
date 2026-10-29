@@ -2257,3 +2257,4 @@
 {"ts":"2026-10-29T01:45:15.955Z","action":"discover-error","channel":"sequoia","videoId":null,"error":"取不到 https://www.youtube.com/feeds/videos.xml?channel_id=UCWrF0oN6unbXrWsTN7RctTw(网络/代理连败 4 次,多半是代理抽风):fetch failed"}
 {"ts":"2026-10-29T01:45:59.975Z","action":"discover-error","channel":"greylock","videoId":null,"error":"取不到 https://www.youtube.com/feeds/videos.xml?channel_id=UCZ7x7yDBbEFCGztD8BYvRhA(网络/代理连败 4 次,多半是代理抽风):fetch failed"}
 {"ts":"2026-10-29T01:46:43.999Z","action":"discover-error","channel":"cursor","videoId":null,"error":"取不到 https://www.youtube.com/feeds/videos.xml?channel_id=UC6YYHJzM6PhZ2Yey9BQiUaw(网络/代理连败 4 次,多半是代理抽风):fetch failed"}
+{"ts":"2026-10-29T07:41:30.714Z","action":"git-pull-failed","videoId":null,"error":"fatal: unable to access 'https://github.com/roysunzy88866/podcast-digest.git/': Error in the HTTP2 framing layer\n"}
