@@ -353,11 +353,10 @@
     "2024-08-25-lennys-how-to-consistently-go-viral-nikita-bier": 1,
     "2026-10-28-beyondcoding-what-staff-engineers-do-that-most-dont-m": 1,
     "2026-08-29-mos-pioneers-of-ai-designing-ai-for-people-a": 1,
-    "2026-10-28-lennys-grok-vs-dot-vs-muse-vs-claude-duet": 2,
-    "2026-10-28-latent-supabase": 2,
-    "2026-10-28-yc-the-new-full-stack-designer-e3r9vuj": 2,
-    "2026-10-28-aiandi-can-you-use-ai-to-make-good-art-with-fre": 2,
-    "2026-10-28-unsupervised-ep-95-modal-ceo-on-the-future-of-inferen": 2,
+    "2026-10-28-cogrev-freedom-of-action-america-s-asi-strategy": 2,
+    "2026-10-28-twiml-the-brutal-reality-of-building-agentic-p": 2,
+    "2026-10-28-productpodcast-replit-ceo-on-the-self-driving-company-h": 2,
+    "2026-10-12-talks-your-agent-is-a-lethal-trifecta-and-what": 1,
     "2026-09-30-pragmatic-distributed-databases-with-peter": 1,
     "2026-09-27-cogrev-ai-am-what-if-it-works-too-well-colludin": 2,
     "2026-09-25-cogrev-zero-to-one-in-ai-safety-halcyon-s-mike": 2,
@@ -369,7 +368,7 @@
     "2026-09-17-twiml-from-voice-agents-to-ai-avatars-with-ale": 2,
     "2026-09-17-twentyvc-20vc-why-pacing-the-frontier-is-bs-insti": 2,
     "2026-09-17-newcomer-former-sec-official-on-ftx--crypto--sili": 1,
-    "2026-09-16-iltb-michael-moritz-lessons-from-40-years-of": 1,
+    "2026-09-16-iltb-michael-moritz-lessons-from-40-years-of": 2,
     "2026-09-16-bigtech-a-sober-conversation-about-ai-existentia": 2,
     "2026-09-10-sed-a-rust-framework-to-simplify-distributed": 1,
     "2026-09-10-a16z-aram-x-jen-x-dg-draft-dxgkjks2": 1,
@@ -735,17 +734,22 @@
       "status": "非 AI 也非科技创业(Jev),不对齐",
       "title": "#797.Huberman x 英国超耐力运动员：你得有很多种理由，才能一直游下去",
       "day": "2026-10-28"
+    },
+    "6ae2b8f197726cd4675970e4": {
+      "status": "找不到播客版 → 交本机 YouTube",
+      "title": "#798.Anthropic工程与产品负责人：如何打造Opus5.5",
+      "day": "2026-10-29"
     }
   },
   "cutoffs": {
-    "lennys": "2026-10-26T12:04:20.000Z",
+    "lennys": "2026-10-28T12:04:22.000Z",
     "pg": "2026-10-26T23:31:46.000Z",
     "a16z": "2026-10-28T10:00:00.000Z",
-    "yc": "2026-10-23T17:45:54.000Z",
+    "yc": "2026-10-28T20:20:04.000Z",
     "mad": "2026-10-22T11:30:00.000Z",
     "trainingdata": "2026-10-28T09:00:00.000Z",
     "bigtech": "2026-10-26T17:09:00.000Z",
-    "aiandi": "2026-10-21T18:31:26.000Z",
+    "aiandi": "2026-10-28T20:23:44.000Z",
     "nopriors": "2026-10-23T10:00:00.000Z",
     "thepeel": "2026-10-26T14:08:26.000Z",
     "beyondcoding": "2026-10-21T11:00:00.000Z",
@@ -762,7 +766,7 @@
     "devtools": "2026-09-03T01:59:52.000Z",
     "rework": "2026-08-19T08:00:00.000Z",
     "howiai": "2026-10-26T11:00:00.000Z",
-    "unsupervised": "2026-10-06T12:50:23.000Z",
+    "unsupervised": "2026-10-28T13:03:16.000Z",
     "twiml": "2026-10-21T19:09:00.000Z",
     "eyeonai": "2026-10-23T13:06:00.000Z",
     "indepth": "2026-08-27T11:00:00.000Z",
@@ -781,7 +785,7 @@
     "grit": "2026-10-19T09:27:34.000Z",
     "mos": "2026-10-27T09:00:00.000Z",
     "strictlyvc": "2026-10-21T02:13:00.000Z",
-    "latent": "2026-10-22T17:40:57.000Z"
+    "latent": "2026-10-28T19:48:05.000Z"
   },
   "skipped": [
     {
@@ -2379,6 +2383,36 @@
       "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
       "title": "Grok vs. Dot vs. Muse vs. Claude Duet: which one crushes the competition?",
       "pubDate": "2026-10-28T11:00:00.000Z"
+    },
+    {
+      "id": "2026-10-28-lennys-grok-vs-dot-vs-muse-vs-claude-duet",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Grok vs. Dot vs. Muse vs. Claude Duet: which one crushes the competition?",
+      "pubDate": "2026-10-28T12:04:22.000Z"
+    },
+    {
+      "id": "2026-10-28-yc-the-new-full-stack-designer-e3r9vuj",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "The New Full-Stack Designer",
+      "pubDate": "2026-10-28T20:20:04.000Z"
+    },
+    {
+      "id": "2026-10-28-aiandi-can-you-use-ai-to-make-good-art-with-fre",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Can You Use AI To Make Good Art? — With Fred Graver",
+      "pubDate": "2026-10-28T20:23:44.000Z"
+    },
+    {
+      "id": "2026-10-28-unsupervised-ep-95-modal-ceo-on-the-future-of-inferen",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Ep 95: Modal CEO on the Future of Inference, the Chaos of the GPU Market & Origins of the Sandbox Bet",
+      "pubDate": "2026-10-28T13:03:16.000Z"
+    },
+    {
+      "id": "2026-10-28-latent-supabase",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Why Agents Love Supabase",
+      "pubDate": "2026-10-28T19:48:05.000Z"
     }
   ]
 }
