@@ -332,7 +332,8 @@
     "oixzVKMAXG0": "2026-10-12-talks-please-enough-with-the-sloppy-one-shot-s",
     "qJtcEDc_WJU": "2026-10-12-talks-scheduled-agents-dreaming-and-q-a-claude",
     "rAUyRDOFyHU": "2026-10-12-talks-agents-in-orbit-workflows-not-autopilot",
-    "ws9XcGGPBDk": "2026-10-12-talks-your-agent-is-a-lethal-trifecta-and-what"
+    "ws9XcGGPBDk": "2026-10-12-talks-your-agent-is-a-lethal-trifecta-and-what",
+    "-a2oTS9J67U": "2026-10-13-talks-the-agent-works-does-anyone-trust-it-mic"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
@@ -355,10 +356,11 @@
     "2024-08-25-lennys-how-to-consistently-go-viral-nikita-bier": 1,
     "2026-10-28-beyondcoding-what-staff-engineers-do-that-most-dont-m": 1,
     "2026-08-29-mos-pioneers-of-ai-designing-ai-for-people-a": 1,
-    "2026-10-13-talks-the-agent-works-does-anyone-trust-it-mic": 2,
     "2026-10-29-pragmatic-software-engineering-at-google-and": 1,
-    "2026-10-28-changelog-the-future-is-postgres": 2,
-    "2026-10-29-cheekypint-why-sam-altman-is-against-a-single-super": 2,
+    "2026-10-25-lennys-an-86-minute-guide-to-finding-pmf": 1,
+    "2026-10-30-a16z-why-ai-could-turn-small-law-firms-into-b": 2,
+    "2026-10-29-sourcery-franklin-templeton-ceo-on-spacex--anthro": 2,
+    "2026-10-29-sed-ai-regulation-and-what-every-tech-compan": 2,
     "2026-09-30-pragmatic-distributed-databases-with-peter": 1,
     "2026-09-27-cogrev-ai-am-what-if-it-works-too-well-colludin": 2,
     "2026-09-25-cogrev-zero-to-one-in-ai-safety-halcyon-s-mike": 2,
@@ -378,8 +380,7 @@
     "2026-09-03-eyeonai-from-10-drones-a-month-to-nearly-100-000": 1,
     "2026-09-02-strictlyvc-grindr-ceo-is-betting-on-ai-to-solve-onl": 1,
     "2026-09-02-beyondcoding-how-the-best-engineers-build-a-world-mod": 1,
-    "2026-08-31-sourcery-inside-bridgit-mendlers-new-185-000-sqft": 1,
-    "2026-10-25-lennys-an-86-minute-guide-to-finding-pmf": 1
+    "2026-08-31-sourcery-inside-bridgit-mendlers-new-185-000-sqft": 1
   },
   "redoDone": {
     "2026-10-02-nopriors-the-future-of-frontier-model-architectur": "feed 里已找不到",
@@ -774,7 +775,7 @@
     "knowledge": "2026-10-27T10:00:00.000Z",
     "pragmatic": "2026-10-21T16:58:21.000Z",
     "practicalai": "2026-10-29T09:00:00.000Z",
-    "changelog": "2026-10-22T16:00:00.000Z",
+    "changelog": "2026-10-28T15:00:00.000Z",
     "devtools": "2026-09-03T01:59:52.000Z",
     "rework": "2026-08-19T08:00:00.000Z",
     "howiai": "2026-10-26T11:00:00.000Z",
@@ -784,7 +785,7 @@
     "indepth": "2026-10-28T11:00:00.000Z",
     "uncapped": "2026-10-29T11:59:33.000Z",
     "pmf": "2026-10-26T09:00:00.000Z",
-    "cheekypint": "2026-10-20T13:05:00.000Z",
+    "cheekypint": "2026-10-29T11:45:00.000Z",
     "productpodcast": "2026-10-28T19:00:00.000Z",
     "ainativedev": "2026-10-27T13:00:00.000Z",
     "newcomer": "2026-10-19T15:53:16.000Z",
@@ -2503,6 +2504,18 @@
       "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
       "title": "What I learned about power from LBJ and Robert Moses",
       "pubDate": "2026-10-29T16:48:39.000Z"
+    },
+    {
+      "id": "2026-10-28-changelog-the-future-is-postgres",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "The future is Postgres",
+      "pubDate": "2026-10-28T15:00:00.000Z"
+    },
+    {
+      "id": "2026-10-13-talks-the-agent-works-does-anyone-trust-it-mic",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "The Agent Works. Does Anyone Trust It? — Michele Grant, Leading at Scale",
+      "pubDate": "2026-10-13T00:00:00.000Z"
     }
   ]
 }
