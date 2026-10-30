@@ -2267,3 +2267,4 @@
 {"ts":"2026-10-29T13:45:10.204Z","action":"discover-error","channel":"sequoia","videoId":null,"error":"取不到 https://www.youtube.com/feeds/videos.xml?channel_id=UCWrF0oN6unbXrWsTN7RctTw(网络/代理连败 4 次,多半是代理抽风):fetch failed"}
 {"ts":"2026-10-29T13:45:54.222Z","action":"discover-error","channel":"greylock","videoId":null,"error":"取不到 https://www.youtube.com/feeds/videos.xml?channel_id=UCZ7x7yDBbEFCGztD8BYvRhA(网络/代理连败 4 次,多半是代理抽风):fetch failed"}
 {"ts":"2026-10-29T13:46:38.247Z","action":"discover-error","channel":"cursor","videoId":null,"error":"取不到 https://www.youtube.com/feeds/videos.xml?channel_id=UC6YYHJzM6PhZ2Yey9BQiUaw(网络/代理连败 4 次,多半是代理抽风):fetch failed"}
+{"ts":"2026-10-29T13:57:25.207Z","action":"push-failed","videoId":null,"error":"pull --rebase + push 连败 3 次;种子已在本地提交,下轮巡航随新提交重推"}
