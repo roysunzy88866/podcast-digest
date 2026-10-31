@@ -333,7 +333,8 @@
     "qJtcEDc_WJU": "2026-10-12-talks-scheduled-agents-dreaming-and-q-a-claude",
     "rAUyRDOFyHU": "2026-10-12-talks-agents-in-orbit-workflows-not-autopilot",
     "ws9XcGGPBDk": "2026-10-12-talks-your-agent-is-a-lethal-trifecta-and-what",
-    "-a2oTS9J67U": "2026-10-13-talks-the-agent-works-does-anyone-trust-it-mic"
+    "-a2oTS9J67U": "2026-10-13-talks-the-agent-works-does-anyone-trust-it-mic",
+    "3ZlQk4-knWM": "2026-10-13-talks-deploying-ai-inside-a-bank-is-not-an-eng"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
@@ -356,13 +357,12 @@
     "2024-08-25-lennys-how-to-consistently-go-viral-nikita-bier": 1,
     "2026-10-28-beyondcoding-what-staff-engineers-do-that-most-dont-m": 1,
     "2026-08-29-mos-pioneers-of-ai-designing-ai-for-people-a": 1,
-    "2026-10-29-pragmatic-software-engineering-at-google-and": 2,
+    "2026-10-29-pragmatic-software-engineering-at-google-and": 3,
     "2026-10-25-lennys-an-86-minute-guide-to-finding-pmf": 1,
     "2026-08-31-sourcery-inside-bridgit-mendlers-new-185-000-sqft": 1,
-    "2026-10-13-talks-deploying-ai-inside-a-bank-is-not-an-eng": 2,
-    "2026-10-30-yc-what-happens-when-everyone-can-build-sof": 2,
-    "2026-10-30-bigtech-big-tech-s-ugly-week-getting-rich-at-ant": 2,
-    "2026-10-30-dwarkesh-robert-caro": 1,
+    "2026-10-30-dwarkesh-robert-caro": 2,
+    "2026-10-29-twist-is-ai-the-new-cigarettes-our-vc-panel-di": 2,
+    "2026-10-30-twist-binance-hacked-6-3b-stolen-doordash-buys": 2,
     "2026-09-30-pragmatic-distributed-databases-with-peter": 1,
     "2026-09-27-cogrev-ai-am-what-if-it-works-too-well-colludin": 2,
     "2026-09-25-cogrev-zero-to-one-in-ai-safety-halcyon-s-mike": 2,
@@ -382,7 +382,8 @@
     "2026-09-03-eyeonai-from-10-drones-a-month-to-nearly-100-000": 1,
     "2026-09-02-strictlyvc-grindr-ceo-is-betting-on-ai-to-solve-onl": 1,
     "2026-09-02-beyondcoding-how-the-best-engineers-build-a-world-mod": 1,
-    "2026-10-30-cgc-techstuff-after-the-builders-on-dario-daniela-amod": 1
+    "2026-10-30-cgc-techstuff-after-the-builders-on-dario-daniela-amod": 1,
+    "2026-10-15-nopriors-the-changing-physics-of-cybersecurity-an": 1
   },
   "redoDone": {
     "2026-10-02-nopriors-the-future-of-frontier-model-architectur": "feed 里已找不到",
@@ -760,10 +761,10 @@
     "lennys": "2026-10-28T12:04:22.000Z",
     "pg": "2026-10-26T23:31:46.000Z",
     "a16z": "2026-10-30T10:00:00.000Z",
-    "yc": "2026-10-28T20:20:04.000Z",
+    "yc": "2026-10-30T18:06:16.000Z",
     "mad": "2026-10-29T14:11:54.000Z",
     "trainingdata": "2026-10-28T09:00:00.000Z",
-    "bigtech": "2026-10-26T17:09:00.000Z",
+    "bigtech": "2026-10-30T21:30:00.000Z",
     "aiandi": "2026-10-28T20:23:44.000Z",
     "nopriors": "2026-10-29T10:00:00.000Z",
     "thepeel": "2026-10-29T14:00:00.000Z",
@@ -2548,6 +2549,24 @@
       "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
       "title": "I Got Interviewed! The Story Behind Sourcery, Alex Karp, Sam Altman Clip..",
       "pubDate": "2026-10-30T14:02:04.000Z"
+    },
+    {
+      "id": "2026-10-30-yc-what-happens-when-everyone-can-build-sof",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "What Happens When Everyone Can Build Software",
+      "pubDate": "2026-10-30T18:06:16.000Z"
+    },
+    {
+      "id": "2026-10-30-bigtech-big-tech-s-ugly-week-getting-rich-at-ant",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Big Tech's Ugly Week, Getting Rich At Anthropic, AI Costs Plunge",
+      "pubDate": "2026-10-30T21:30:00.000Z"
+    },
+    {
+      "id": "2026-10-13-talks-deploying-ai-inside-a-bank-is-not-an-eng",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Deploying AI Inside a Bank Is Not an Engineering Problem — Paden Gayle, Applied AI Engineers",
+      "pubDate": "2026-10-13T00:00:00.000Z"
     }
   ]
 }
