@@ -335,7 +335,8 @@
     "ws9XcGGPBDk": "2026-10-12-talks-your-agent-is-a-lethal-trifecta-and-what",
     "-a2oTS9J67U": "2026-10-13-talks-the-agent-works-does-anyone-trust-it-mic",
     "3ZlQk4-knWM": "2026-10-13-talks-deploying-ai-inside-a-bank-is-not-an-eng",
-    "Fe4aSMXsOZ4": "2026-10-13-talks-every-building-is-a-balance-sheet-spatia"
+    "Fe4aSMXsOZ4": "2026-10-13-talks-every-building-is-a-balance-sheet-spatia",
+    "SHvwutPSeZg": "2026-10-13-talks-judge-a-transaction-by-the-company-it-ke"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
@@ -359,13 +360,15 @@
     "2026-08-29-mos-pioneers-of-ai-designing-ai-for-people-a": 1,
     "2026-10-25-lennys-an-86-minute-guide-to-finding-pmf": 1,
     "2026-08-31-sourcery-inside-bridgit-mendlers-new-185-000-sqft": 1,
-    "2026-10-13-talks-judge-a-transaction-by-the-company-it-ke": 2,
-    "2026-11-01-a16z-how-bending-spoons-built-a-20-billion-co": 2,
-    "2026-10-12-talks-building-aie-open-q-a-and-feedback-sessi": 1,
+    "2026-10-12-talks-building-aie-open-q-a-and-feedback-sessi": 2,
+    "2026-09-02-strictlyvc-grindr-ceo-is-betting-on-ai-to-solve-onl": 1,
+    "2026-09-02-beyondcoding-how-the-best-engineers-build-a-world-mod": 1,
+    "2026-11-01-lennys-how-a-19-year-old-intern-built-the": 1,
     "2026-09-30-pragmatic-distributed-databases-with-peter": 1,
     "2026-09-27-cogrev-ai-am-what-if-it-works-too-well-colludin": 2,
     "2026-09-25-cogrev-zero-to-one-in-ai-safety-halcyon-s-mike": 2,
     "2026-09-23-twist-vcs-would-bet-on-open-source-ai-over-ope": 2,
+    "2026-09-23-pragmatic-design-engineering-with-maggie-appleton": 1,
     "2026-09-21-twist-elon-s-new-hyperloop-trump-s-ai-rename-a": 2,
     "2026-09-21-eyeonai-inside-ukraine-s-drone-war-maj-phoenix-o": 2,
     "2026-09-20-a16z-nas-grandmaster-caz-steve-stoute-ben-hor": 2,
@@ -375,13 +378,12 @@
     "2026-09-17-newcomer-former-sec-official-on-ftx--crypto--sili": 1,
     "2026-09-16-iltb-michael-moritz-lessons-from-40-years-of": 2,
     "2026-09-16-bigtech-a-sober-conversation-about-ai-existentia": 2,
+    "2026-09-15-sed-inside-google-8217-s-database-infrastruc": 2,
     "2026-09-14-twist-ask-jason-ai-extinction-grok-s-rogue-mem": 2,
     "2026-09-10-sed-a-rust-framework-to-simplify-distributed": 1,
     "2026-09-10-a16z-aram-x-jen-x-dg-draft-dxgkjks2": 1,
     "2026-09-09-deepmind-can-ai-help-us-better-predict-the-weathe": 1,
     "2026-09-03-eyeonai-from-10-drones-a-month-to-nearly-100-000": 1,
-    "2026-09-02-strictlyvc-grindr-ceo-is-betting-on-ai-to-solve-onl": 1,
-    "2026-09-02-beyondcoding-how-the-best-engineers-build-a-world-mod": 1,
     "2026-10-30-cgc-techstuff-after-the-builders-on-dario-daniela-amod": 1
   },
   "redoDone": {
@@ -759,7 +761,7 @@
   "cutoffs": {
     "lennys": "2026-10-28T12:04:22.000Z",
     "pg": "2026-10-26T23:31:46.000Z",
-    "a16z": "2026-10-31T10:00:00.000Z",
+    "a16z": "2026-11-01T11:00:00.000Z",
     "yc": "2026-10-30T18:06:16.000Z",
     "mad": "2026-10-29T14:11:54.000Z",
     "trainingdata": "2026-10-28T09:00:00.000Z",
@@ -2644,6 +2646,18 @@
       "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
       "title": "Roblox’s approach to tripling AI code review acceptance rates",
       "pubDate": "2026-10-30T12:30:00.000Z"
+    },
+    {
+      "id": "2026-11-01-a16z-how-bending-spoons-built-a-20-billion-co",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "How Bending Spoons Built a $20 Billion Compounder | Luca Ferrari",
+      "pubDate": "2026-11-01T11:00:00.000Z"
+    },
+    {
+      "id": "2026-10-13-talks-judge-a-transaction-by-the-company-it-ke",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Judge a Transaction by the Company It Keeps — Somya Rai & MD Sharique, EXL",
+      "pubDate": "2026-10-13T00:00:00.000Z"
     }
   ]
 }
