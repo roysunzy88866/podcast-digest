@@ -2346,3 +2346,4 @@
 {"ts":"2026-11-02T01:46:39.561Z","action":"discover-error","channel":"cursor","videoId":null,"error":"取不到 https://www.youtube.com/feeds/videos.xml?channel_id=UC6YYHJzM6PhZ2Yey9BQiUaw(网络/代理连败 4 次,多半是代理抽风):fetch failed"}
 {"ts":"2026-11-02T01:56:51.843Z","action":"push-failed","videoId":null,"error":"pull --rebase + push 连败 3 次;种子已在本地提交,下轮巡航随新提交重推"}
 {"ts":"2026-11-02T07:41:35.962Z","action":"git-pull-failed","videoId":null,"error":"fatal: unable to access 'https://github.com/roysunzy88866/podcast-digest.git/': Error in the HTTP2 framing layer\n"}
+{"ts":"2026-11-02T13:42:11.369Z","action":"git-pull-failed","videoId":null,"error":"error: RPC failed; curl 28 Failed to connect to github.com port 443 after 75002 ms: Couldn't connect to server\nfatal: expected flush after ref listing\n"}
