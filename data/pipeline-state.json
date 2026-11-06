@@ -368,12 +368,10 @@
     "2026-09-02-beyondcoding-how-the-best-engineers-build-a-world-mod": 1,
     "2026-10-30-cgc-techstuff-after-the-builders-on-dario-daniela-amod": 1,
     "2026-09-03-eyeonai-from-10-drones-a-month-to-nearly-100-000": 1,
-    "2026-10-23-yc-this-is-how-you-should-actually-make-lau": 2,
     "2026-11-05-bigtech-will-the-democrats-big-win-stop-the-ai-b": 2,
     "2026-11-05-trainingdata-bringing-continual-learning-to-every-com": 2,
-    "2026-11-05-bigtech-can-ai-keep-going-after-the-democrats-bi": 2,
-    "2026-11-05-nopriors-tokenization-agentic-trading-harmonic-ro": 2,
-    "2026-11-05-sourcery-planet-labs-ceo-why-ai-data-centers-will": 2,
+    "2026-11-05-trainingdata-a-model-for-everyone-how-ronak-from-traj": 2,
+    "2026-11-05-thepeel-his-customers-died--he-grew-51-a-month-a": 2,
     "2026-09-30-pragmatic-distributed-databases-with-peter": 1,
     "2026-09-27-cogrev-ai-am-what-if-it-works-too-well-colludin": 2,
     "2026-09-25-cogrev-zero-to-one-in-ai-safety-halcyon-s-mike": 2,
@@ -388,7 +386,7 @@
     "2026-09-17-twentyvc-20vc-why-pacing-the-frontier-is-bs-insti": 2,
     "2026-09-17-newcomer-former-sec-official-on-ftx--crypto--sili": 1,
     "2026-09-16-iltb-michael-moritz-lessons-from-40-years-of": 1,
-    "2026-09-16-bigtech-a-sober-conversation-about-ai-existentia": 1,
+    "2026-09-16-bigtech-a-sober-conversation-about-ai-existentia": 2,
     "2026-09-15-sed-inside-google-8217-s-database-infrastruc": 1,
     "2026-09-14-twist-ask-jason-ai-extinction-grok-s-rogue-mem": 1,
     "2026-09-11-bigtech-special-report-will-ai-wipe-out-humanity": 1,
@@ -784,6 +782,11 @@
       "status": "非 AI 也非科技创业(Jev),不对齐",
       "title": "#808.谷爱凌：努力被夸得太多，方向却被低估了",
       "day": "2026-11-04"
+    },
+    "6aec5a4c6381f0f964c44817": {
+      "status": "找不到播客版 → 交本机 YouTube",
+      "title": "#810.All-In Podcast选举夜直播：AI基建若放慢一半，GDP增速少0.5个百分点",
+      "day": "2026-11-06"
     }
   },
   "cutoffs": {
@@ -793,9 +796,9 @@
     "yc": "2026-11-04T16:39:37.000Z",
     "mad": "2026-10-29T14:11:54.000Z",
     "trainingdata": "2026-10-28T09:00:00.000Z",
-    "bigtech": "2026-10-30T21:30:00.000Z",
+    "bigtech": "2026-11-05T00:47:00.000Z",
     "aiandi": "2026-11-04T17:02:33.000Z",
-    "nopriors": "2026-10-29T10:00:00.000Z",
+    "nopriors": "2026-11-05T11:00:00.000Z",
     "thepeel": "2026-10-29T14:00:00.000Z",
     "beyondcoding": "2026-11-04T11:59:58.000Z",
     "founders": "2026-11-04T19:18:00.000Z",
@@ -822,7 +825,7 @@
     "ainativedev": "2026-11-03T13:00:00.000Z",
     "newcomer": "2026-10-19T15:53:16.000Z",
     "engenable": "2026-10-30T12:30:00.000Z",
-    "sourcery": "2026-11-03T18:01:21.000Z",
+    "sourcery": "2026-11-05T11:00:00.000Z",
     "iltb": "2026-11-04T09:00:00.000Z",
     "generalist": "2026-11-03T12:00:00.000Z",
     "sed": "2026-11-03T10:00:00.000Z",
@@ -2920,6 +2923,30 @@
       "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
       "title": "Demis Hassabis says society is “not ready” for the AI future",
       "pubDate": "2026-11-05T10:00:00.000Z"
+    },
+    {
+      "id": "2026-11-05-bigtech-can-ai-keep-going-after-the-democrats-bi",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Can AI Keep Going After The Democrats’ Big Win? — With Teddy Schleifer",
+      "pubDate": "2026-11-05T00:47:00.000Z"
+    },
+    {
+      "id": "2026-11-05-nopriors-tokenization-agentic-trading-harmonic-ro",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Tokenization, Agentic Trading, Harmonic: Robinhood's Mission to Expand Ownership with CEO Vlad Tenev",
+      "pubDate": "2026-11-05T11:00:00.000Z"
+    },
+    {
+      "id": "2026-11-05-sourcery-planet-labs-ceo-why-ai-data-centers-will",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Planet Labs CEO: Why AI Data Centers Will Move to Space",
+      "pubDate": "2026-11-05T11:00:00.000Z"
+    },
+    {
+      "id": "2026-10-23-yc-this-is-how-you-should-actually-make-lau",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "This Is How You Should Actually Make Launch Videos",
+      "pubDate": "2026-10-23T17:45:54.000Z"
     }
   ]
 }
