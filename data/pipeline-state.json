@@ -376,11 +376,6 @@
     "2026-11-05-doac-iran-war-expert-the-8-most-dangerous-wee": 1,
     "2026-09-08-sed-sed-news-the-nvidia-hugging-face-deal-ch": 1,
     "2026-10-27-cgc-tbpn-gavin-baker-on-anthropic-s-s-1-gpu-price": 1,
-    "2026-11-08-latent-onemillionaiengineerspecialhowstanfordte": 2,
-    "2026-11-09-a16z-scott-kupor-on-building-a16z-and-rebuild": 2,
-    "2026-11-09-twentyvc-20vc-mistral-ceo-on-why-energy-is-not-th": 2,
-    "2026-11-09-howiai-how-this-founder-built-a-better-duolingo": 2,
-    "2026-11-09-sourcery-planet-labs-factory-tour-e3s2upg": 2,
     "2026-10-16-talks-ai-agents-cut-3-day-portfolio-builds-to": 1,
     "2026-09-30-pragmatic-distributed-databases-with-peter": 1,
     "2026-09-27-cogrev-ai-am-what-if-it-works-too-well-colludin": 2,
@@ -400,7 +395,11 @@
     "2026-09-15-sed-inside-google-8217-s-database-infrastruc": 2,
     "2026-09-14-twist-ask-jason-ai-extinction-grok-s-rogue-mem": 1,
     "2026-09-12-cogrev-ai-am-highlights-astra-as-agi-openai-s-p": 1,
-    "2026-09-11-bigtech-special-report-will-ai-wipe-out-humanity": 1
+    "2026-09-11-bigtech-special-report-will-ai-wipe-out-humanity": 1,
+    "2026-11-09-lennys-how-this-founder-built-a-better-duolingo": 1,
+    "2026-11-09-lennys-claude-fable-52-review-fast-creative": 1,
+    "2026-11-09-bigtech-jensen-and-the-honeypot": 1,
+    "2026-11-09-pmf-he-pays-every-one-of-his-150-employees-t": 1
   },
   "redoDone": {
     "2026-10-02-nopriors-the-future-of-frontier-model-architectur": "feed 里已找不到",
@@ -814,7 +813,7 @@
   "cutoffs": {
     "lennys": "2026-11-08T13:31:32.000Z",
     "pg": "2026-11-03T23:44:37.000Z",
-    "a16z": "2026-11-07T11:00:00.000Z",
+    "a16z": "2026-11-09T11:00:00.000Z",
     "yc": "2026-11-07T17:17:37.000Z",
     "mad": "2026-10-29T14:11:54.000Z",
     "trainingdata": "2026-11-05T10:00:00.000Z",
@@ -827,7 +826,7 @@
     "dwarkesh": "2026-10-30T16:56:02.000Z",
     "doac": "2026-11-06T06:00:00.000Z",
     "deepmind": "2026-10-01T16:38:11.000Z",
-    "twentyvc": "2026-11-07T07:07:00.000Z",
+    "twentyvc": "2026-11-09T07:07:00.000Z",
     "cogrev": "2026-11-07T20:35:18.000Z",
     "knowledge": "2026-11-03T11:00:00.000Z",
     "pragmatic": "2026-11-05T15:58:00.000Z",
@@ -835,7 +834,7 @@
     "changelog": "2026-11-04T21:00:00.000Z",
     "devtools": "2026-09-03T01:59:52.000Z",
     "rework": "2026-08-19T08:00:00.000Z",
-    "howiai": "2026-11-02T12:00:00.000Z",
+    "howiai": "2026-11-09T12:00:00.000Z",
     "unsupervised": "2026-11-05T14:05:50.000Z",
     "twiml": "2026-11-03T17:25:00.000Z",
     "eyeonai": "2026-11-06T16:21:00.000Z",
@@ -847,7 +846,7 @@
     "ainativedev": "2026-11-03T13:00:00.000Z",
     "newcomer": "2026-11-05T19:50:00.000Z",
     "engenable": "2026-10-30T12:30:00.000Z",
-    "sourcery": "2026-11-05T11:00:00.000Z",
+    "sourcery": "2026-11-09T14:44:26.000Z",
     "iltb": "2026-11-06T09:00:00.000Z",
     "generalist": "2026-11-03T12:00:00.000Z",
     "sed": "2026-11-05T10:00:00.000Z",
@@ -3119,6 +3118,36 @@
       "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
       "title": "Why PMs are suddenly valuable again | Tulsee Doshi (Head of Product, Gemini)",
       "pubDate": "2026-11-08T13:31:32.000Z"
+    },
+    {
+      "id": "2026-11-09-a16z-scott-kupor-on-building-a16z-and-rebuild",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Scott Kupor on Building a16z and Rebuilding the Federal Workforce",
+      "pubDate": "2026-11-09T11:00:00.000Z"
+    },
+    {
+      "id": "2026-11-09-twentyvc-20vc-mistral-ceo-on-why-energy-is-not-th",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "20VC: Mistral CEO on Why Energy Is Not the Bottleneck to AI | Why OpenAI and Anthropic Will Come for Your Business | The Future of the Inference Market | Are Chinese Open-Source Models Truly Safe?",
+      "pubDate": "2026-11-09T07:07:00.000Z"
+    },
+    {
+      "id": "2026-11-09-howiai-how-this-founder-built-a-better-duolingo",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "How this founder built a better Duolingo with Codex | William Imoh",
+      "pubDate": "2026-11-09T12:00:00.000Z"
+    },
+    {
+      "id": "2026-11-09-sourcery-planet-labs-factory-tour-e3s2upg",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Planet Labs Factory Tour",
+      "pubDate": "2026-11-09T14:44:26.000Z"
+    },
+    {
+      "id": "2026-11-08-latent-onemillionaiengineerspecialhowstanfordte",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+      "pubDate": "2026-11-08T21:23:29.000Z"
     }
   ]
 }
