@@ -342,7 +342,8 @@
     "dYh7TQkuYFE": "2026-10-13-talks-i-believe-everything-my-agents-tell-me-t",
     "gDRCpTMCqEU": "2026-10-13-talks-what-technical-due-diligence-finds-when",
     "0JZy5AuuQzc": "2026-10-14-talks-i-spent-two-years-building-the-median-ha",
-    "eS7qQ3WJSrw": "2026-10-15-talks-jensen-huang-does-ai-revenue-justify-cap"
+    "eS7qQ3WJSrw": "2026-10-15-talks-jensen-huang-does-ai-revenue-justify-cap",
+    "BOWYujhIQuo": "2026-10-16-talks-ai-agents-cut-3-day-portfolio-builds-to"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
@@ -376,13 +377,14 @@
     "2026-11-05-doac-iran-war-expert-the-8-most-dangerous-wee": 1,
     "2026-09-08-sed-sed-news-the-nvidia-hugging-face-deal-ch": 1,
     "2026-10-27-cgc-tbpn-gavin-baker-on-anthropic-s-s-1-gpu-price": 1,
-    "2026-10-16-talks-ai-agents-cut-3-day-portfolio-builds-to": 2,
-    "2026-11-09-latent-handshake": 2,
+    "2026-09-23-pragmatic-design-engineering-with-maggie-appleton": 1,
+    "2026-10-29-cheekypint-why-sam-altman-is-against-a-single-super": 2,
+    "2026-11-10-knowledge-how-elon-musk-solves-problems-jon-mcneil": 1,
+    "2026-11-10-ainativedev-edith-harbaugh-code-is-cheap-the-last-mi": 2,
     "2026-09-30-pragmatic-distributed-databases-with-peter": 1,
     "2026-09-27-cogrev-ai-am-what-if-it-works-too-well-colludin": 2,
     "2026-09-25-cogrev-zero-to-one-in-ai-safety-halcyon-s-mike": 2,
     "2026-09-23-twist-vcs-would-bet-on-open-source-ai-over-ope": 2,
-    "2026-09-23-pragmatic-design-engineering-with-maggie-appleton": 1,
     "2026-09-21-twist-elon-s-new-hyperloop-trump-s-ai-rename-a": 2,
     "2026-09-21-eyeonai-inside-ukraine-s-drone-war-maj-phoenix-o": 2,
     "2026-09-20-a16z-nas-grandmaster-caz-steve-stoute-ben-hor": 2,
@@ -391,14 +393,13 @@
     "2026-09-17-twiml-from-voice-agents-to-ai-avatars-with-ale": 2,
     "2026-09-17-twentyvc-20vc-why-pacing-the-frontier-is-bs-insti": 2,
     "2026-09-17-newcomer-former-sec-official-on-ftx--crypto--sili": 1,
-    "2026-09-16-iltb-michael-moritz-lessons-from-40-years-of": 1,
+    "2026-09-16-iltb-michael-moritz-lessons-from-40-years-of": 2,
     "2026-09-16-bigtech-a-sober-conversation-about-ai-existentia": 2,
     "2026-09-15-sed-inside-google-8217-s-database-infrastruc": 1,
     "2026-09-14-twist-ask-jason-ai-extinction-grok-s-rogue-mem": 1,
     "2026-09-12-cogrev-ai-am-highlights-astra-as-agi-openai-s-p": 1,
     "2026-09-11-bigtech-special-report-will-ai-wipe-out-humanity": 1,
-    "2026-11-09-cgc-60-minutes-extended-interview-president-trump-on-60": 1,
-    "2026-10-29-cheekypint-why-sam-altman-is-against-a-single-super": 1
+    "2026-11-09-cgc-60-minutes-extended-interview-president-trump-on-60": 1
   },
   "redoDone": {
     "2026-10-02-nopriors-the-future-of-frontier-model-architectur": "feed 里已找不到",
@@ -510,7 +511,8 @@
     "2026-09-03-mos-angela-duckworth-on-why-grit-isn-t-enoug": "2026-10-19",
     "2026-08-20-nopriors-from-restoring-sight-to-reimagining-the": "2026-10-19",
     "2026-09-02-howiai-grok-bot-vs--openclaw-how-i-replaced-my": "2026-10-20",
-    "2026-09-17-pragmatic-ai-skills-with-matt-pocock": "feed 里已找不到"
+    "2026-09-17-pragmatic-ai-skills-with-matt-pocock": "feed 里已找不到",
+    "2026-09-23-pragmatic-design-engineering-with-maggie-appleton": "feed 里已找不到"
   },
   "cgcAlign": {
     "6ac8b044e742e36efcc059c2": {
@@ -863,7 +865,7 @@
     "grit": "2026-11-02T09:02:32.000Z",
     "mos": "2026-11-07T10:00:00.000Z",
     "strictlyvc": "2026-10-21T02:13:00.000Z",
-    "latent": "2026-11-06T15:10:53.000Z"
+    "latent": "2026-11-09T17:15:53.000Z"
   },
   "skipped": [
     {
@@ -3193,6 +3195,18 @@
       "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
       "title": "Claude Fable 5.2 review: fast, creative, and finally not annoying",
       "pubDate": "2026-11-09T20:36:36.000Z"
+    },
+    {
+      "id": "2026-11-09-latent-handshake",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord & Team",
+      "pubDate": "2026-11-09T17:15:53.000Z"
+    },
+    {
+      "id": "2026-10-16-talks-ai-agents-cut-3-day-portfolio-builds-to",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "AI Agents Cut 3-Day Portfolio Builds to Minutes — Jack McDonald, Apollo & Michael Manapat, Rowspace",
+      "pubDate": "2026-10-16T00:00:00.000Z"
     }
   ]
 }
