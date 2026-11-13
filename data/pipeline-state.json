@@ -380,8 +380,12 @@
     "2026-10-27-cgc-tbpn-gavin-baker-on-anthropic-s-s-1-gpu-price": 1,
     "2026-09-23-pragmatic-design-engineering-with-maggie-appleton": 1,
     "2026-09-11-bigtech-special-report-will-ai-wipe-out-humanity": 1,
-    "2026-11-10-newcomer-former-amex-ceo-on-what-business-leaders": 1,
-    "2026-11-12-engenable-inside-the-devex-metrics-compass-with-an": 1,
+    "2026-11-10-newcomer-former-amex-ceo-on-what-business-leaders": 2,
+    "2026-11-12-engenable-inside-the-devex-metrics-compass-with-an": 2,
+    "2026-11-09-cgc-60-minutes-extended-interview-president-trump-on-60": 1,
+    "2026-10-27-iltb-cliff-sosin-owning-the-complements-to-in": 2,
+    "2026-11-13-a16z-every-day-is-zero-day-wiz-cto-ami-luttwa": 2,
+    "2026-11-13-sourcery-spacex--palantir--anduril--onodrim--the": 2,
     "2026-09-30-pragmatic-distributed-databases-with-peter": 1,
     "2026-09-27-cogrev-ai-am-what-if-it-works-too-well-colludin": 2,
     "2026-09-25-cogrev-zero-to-one-in-ai-safety-halcyon-s-mike": 2,
@@ -396,11 +400,9 @@
     "2026-09-17-newcomer-former-sec-official-on-ftx--crypto--sili": 1,
     "2026-09-16-iltb-michael-moritz-lessons-from-40-years-of": 2,
     "2026-09-16-bigtech-a-sober-conversation-about-ai-existentia": 2,
-    "2026-09-15-sed-inside-google-8217-s-database-infrastruc": 2,
-    "2026-09-14-twist-ask-jason-ai-extinction-grok-s-rogue-mem": 2,
-    "2026-11-10-latent-resend": 1,
-    "2026-11-09-cgc-60-minutes-extended-interview-president-trump-on-60": 1,
-    "2026-10-27-iltb-cliff-sosin-owning-the-complements-to-in": 1
+    "2026-09-15-sed-inside-google-8217-s-database-infrastruc": 1,
+    "2026-09-14-twist-ask-jason-ai-extinction-grok-s-rogue-mem": 1,
+    "2026-11-10-latent-resend": 1
   },
   "redoDone": {
     "2026-10-02-nopriors-the-future-of-frontier-model-architectur": "feed 里已找不到",
@@ -835,6 +837,21 @@
       "status": "找不到播客版 → 交本机 YouTube",
       "title": "#824.布鲁金斯中国研究员：中国想赢的不是前沿模型，而是AI普及",
       "day": "2026-11-13"
+    },
+    "6af709703caef3b52f55513c": {
+      "status": "合集/超长,不对齐",
+      "title": "#826. Acquired｜英伟达三部曲1993-2023（重制版）",
+      "day": "2026-11-13"
+    },
+    "6af190eeb4a4e20202f720b9": {
+      "status": "非 AI 也非科技创业(Jev),不对齐",
+      "title": "#818. 特朗普：如果重来一次，我还是会袭击",
+      "day": "2026-11-13"
+    },
+    "6aef03eeb4a4e20202f62fc1": {
+      "status": "非 AI 也非科技创业(Jev),不对齐",
+      "title": "#815.All-In联合主持人Chamath：为什么打扑克能训练你接受损失？",
+      "day": "2026-11-13"
     }
   },
   "cutoffs": {
@@ -858,7 +875,7 @@
     "knowledge": "2026-11-10T11:00:00.000Z",
     "pragmatic": "2026-11-05T15:58:00.000Z",
     "practicalai": "2026-10-29T09:00:00.000Z",
-    "changelog": "2026-11-04T21:00:00.000Z",
+    "changelog": "2026-11-13T03:00:00.000Z",
     "devtools": "2026-09-03T01:59:52.000Z",
     "rework": "2026-08-19T08:00:00.000Z",
     "howiai": "2026-11-11T12:00:00.000Z",
@@ -3415,6 +3432,12 @@
       "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
       "title": "What Limited Partners Want Now with TrueBridge Partners and LGT Partners",
       "pubDate": "2026-11-10T22:14:00.000Z"
+    },
+    {
+      "id": "2026-11-13-changelog-all-your-packages-are-belong-to-us",
+      "reason": "超长集:估 275 分 > 单班预算 280 分(永远放不进一班;等官方稿/人工点名,删账本条目可重放)",
+      "title": "All your packages are belong to us",
+      "pubDate": "2026-11-13T03:00:00.000Z"
     }
   ]
 }
