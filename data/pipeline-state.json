@@ -380,12 +380,10 @@
     "2026-10-27-cgc-tbpn-gavin-baker-on-anthropic-s-s-1-gpu-price": 1,
     "2026-09-23-pragmatic-design-engineering-with-maggie-appleton": 1,
     "2026-09-11-bigtech-special-report-will-ai-wipe-out-humanity": 1,
-    "2026-11-10-newcomer-former-amex-ceo-on-what-business-leaders": 2,
-    "2026-11-12-engenable-inside-the-devex-metrics-compass-with-an": 2,
     "2026-11-09-cgc-60-minutes-extended-interview-president-trump-on-60": 1,
-    "2026-10-27-iltb-cliff-sosin-owning-the-complements-to-in": 2,
-    "2026-11-13-a16z-every-day-is-zero-day-wiz-cto-ami-luttwa": 2,
-    "2026-11-13-sourcery-spacex--palantir--anduril--onodrim--the": 2,
+    "2026-09-14-twist-ask-jason-ai-extinction-grok-s-rogue-mem": 1,
+    "2026-11-13-eyeonai-why-enterprise-ai-isn-t-delivering-roi-a": 2,
+    "2026-11-13-newcomer-perplexity-ceo-on-nvidia-and-who-wins-th": 1,
     "2026-09-30-pragmatic-distributed-databases-with-peter": 1,
     "2026-09-27-cogrev-ai-am-what-if-it-works-too-well-colludin": 2,
     "2026-09-25-cogrev-zero-to-one-in-ai-safety-halcyon-s-mike": 2,
@@ -401,8 +399,9 @@
     "2026-09-16-iltb-michael-moritz-lessons-from-40-years-of": 2,
     "2026-09-16-bigtech-a-sober-conversation-about-ai-existentia": 2,
     "2026-09-15-sed-inside-google-8217-s-database-infrastruc": 1,
-    "2026-09-14-twist-ask-jason-ai-extinction-grok-s-rogue-mem": 1,
-    "2026-11-10-latent-resend": 1
+    "2026-11-10-latent-resend": 1,
+    "2026-11-07-cgc-all-in-with-chamath-midterm-blood-bath-4t-ai-sell-off-data-c": 1,
+    "2026-11-13-practicalai-implementing-federated-learning-to-enhan": 1
   },
   "redoDone": {
     "2026-10-02-nopriors-the-future-of-frontier-model-architectur": "feed 里已找不到",
@@ -857,7 +856,7 @@
   "cutoffs": {
     "lennys": "2026-11-11T13:04:09.000Z",
     "pg": "2026-11-10T23:59:40.000Z",
-    "a16z": "2026-11-12T11:00:00.000Z",
+    "a16z": "2026-11-13T11:00:00.000Z",
     "yc": "2026-11-07T17:17:37.000Z",
     "mad": "2026-10-29T14:11:54.000Z",
     "trainingdata": "2026-11-05T10:00:00.000Z",
@@ -889,8 +888,8 @@
     "productpodcast": "2026-11-11T08:00:00.000Z",
     "ainativedev": "2026-11-10T13:00:00.000Z",
     "newcomer": "2026-11-05T19:50:00.000Z",
-    "engenable": "2026-10-30T12:30:00.000Z",
-    "sourcery": "2026-11-10T13:00:00.000Z",
+    "engenable": "2026-11-12T13:00:00.000Z",
+    "sourcery": "2026-11-13T11:17:36.000Z",
     "iltb": "2026-11-06T09:00:00.000Z",
     "generalist": "2026-11-03T12:00:00.000Z",
     "sed": "2026-11-12T10:00:00.000Z",
@@ -3438,6 +3437,36 @@
       "reason": "超长集:估 275 分 > 单班预算 280 分(永远放不进一班;等官方稿/人工点名,删账本条目可重放)",
       "title": "All your packages are belong to us",
       "pubDate": "2026-11-13T03:00:00.000Z"
+    },
+    {
+      "id": "2026-11-13-a16z-every-day-is-zero-day-wiz-cto-ami-luttwa",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Every Day Is Zero Day | Wiz CTO Ami Luttwak",
+      "pubDate": "2026-11-13T11:00:00.000Z"
+    },
+    {
+      "id": "2026-11-13-sourcery-spacex--palantir--anduril--onodrim--the",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "SpaceX, Palantir, Anduril & Onodrim | The Return of Conglomerates",
+      "pubDate": "2026-11-13T11:17:36.000Z"
+    },
+    {
+      "id": "2026-11-10-newcomer-former-amex-ceo-on-what-business-leaders",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Former Amex CEO on What Business Leaders Are Getting Wrong",
+      "pubDate": "2026-11-10T14:15:00.000Z"
+    },
+    {
+      "id": "2026-11-12-engenable-inside-the-devex-metrics-compass-with-an",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Inside the DevEx Metrics Compass with André Meyer",
+      "pubDate": "2026-11-12T13:00:00.000Z"
+    },
+    {
+      "id": "2026-10-27-iltb-cliff-sosin-owning-the-complements-to-in",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Cliff Sosin - Owning the Complements to Intelligence - [Invest Like the Best, EP.497]",
+      "pubDate": "2026-10-27T08:00:00.000Z"
     }
   ]
 }
