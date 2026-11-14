@@ -383,9 +383,8 @@
     "2026-09-11-bigtech-special-report-will-ai-wipe-out-humanity": 1,
     "2026-11-09-cgc-60-minutes-extended-interview-president-trump-on-60": 1,
     "2026-09-14-twist-ask-jason-ai-extinction-grok-s-rogue-mem": 1,
-    "2026-11-14-a16z-from-the-telephone-to-modern-computing-j": 2,
-    "2026-11-13-twist-jason-jensen-huang-will-be-back-at-nvidi": 2,
-    "2026-11-14-mos-the-best-practices-corrupting-business-w": 2,
+    "2026-11-14-yc-from-software-factories-to-everything-fa": 2,
+    "2026-10-16-talks-why-nobody-has-solved-continual-learning": 1,
     "2026-09-30-pragmatic-distributed-databases-with-peter": 1,
     "2026-09-27-cogrev-ai-am-what-if-it-works-too-well-colludin": 2,
     "2026-09-25-cogrev-zero-to-one-in-ai-safety-halcyon-s-mike": 2,
@@ -395,11 +394,11 @@
     "2026-09-20-a16z-nas-grandmaster-caz-steve-stoute-ben-hor": 2,
     "2026-09-19-cogrev-ai-am-highlights-zvi-on-pacing-trump-xi": 2,
     "2026-09-18-twist-hugging-face-co-founder-on-open-source-m": 2,
-    "2026-09-17-twiml-from-voice-agents-to-ai-avatars-with-ale": 1,
+    "2026-09-17-twiml-from-voice-agents-to-ai-avatars-with-ale": 2,
     "2026-09-17-twentyvc-20vc-why-pacing-the-frontier-is-bs-insti": 2,
     "2026-09-17-newcomer-former-sec-official-on-ftx--crypto--sili": 1,
-    "2026-09-16-iltb-michael-moritz-lessons-from-40-years-of": 1,
-    "2026-09-16-bigtech-a-sober-conversation-about-ai-existentia": 1,
+    "2026-09-16-iltb-michael-moritz-lessons-from-40-years-of": 2,
+    "2026-09-16-bigtech-a-sober-conversation-about-ai-existentia": 2,
     "2026-11-10-latent-resend": 1,
     "2026-11-07-cgc-all-in-with-chamath-midterm-blood-bath-4t-ai-sell-off-data-c": 1
   },
@@ -856,12 +855,22 @@
       "status": "非 AI 也非科技创业(Jev),不对齐",
       "title": "#827.斯坦福成瘾门诊主任 Anna Lembke：最严重的成瘾，瘾的不是物质，而是控制感",
       "day": "2026-11-14"
+    },
+    "6af8a6ea3caef3b52f55c2c7": {
+      "status": "找不到播客版 → 交本机 YouTube",
+      "title": "#830.Yann LeCun：世界模型与下一场 AI 革命 | 南洋理工大学高等研究所公开讲座",
+      "day": "2026-11-15"
+    },
+    "6af8995114d01a26f8a9de4d": {
+      "status": "找不到播客版 → 交本机 YouTube",
+      "title": "#829. Dwarkesh Patel｜RSI：AI怎么从数学题进步到超越顶尖研究员？",
+      "day": "2026-11-15"
     }
   },
   "cutoffs": {
     "lennys": "2026-11-11T13:04:09.000Z",
     "pg": "2026-11-13T23:56:59.000Z",
-    "a16z": "2026-11-13T11:00:00.000Z",
+    "a16z": "2026-11-14T11:00:00.000Z",
     "yc": "2026-11-07T17:17:37.000Z",
     "mad": "2026-10-29T14:11:54.000Z",
     "trainingdata": "2026-11-05T10:00:00.000Z",
@@ -898,9 +907,9 @@
     "iltb": "2026-11-06T09:00:00.000Z",
     "generalist": "2026-11-03T12:00:00.000Z",
     "sed": "2026-11-12T10:00:00.000Z",
-    "twist": "2026-11-12T00:12:00.000Z",
+    "twist": "2026-11-13T22:59:00.000Z",
     "grit": "2026-11-02T09:02:32.000Z",
-    "mos": "2026-11-12T10:00:00.000Z",
+    "mos": "2026-11-14T10:00:00.000Z",
     "strictlyvc": "2026-11-10T22:14:00.000Z",
     "latent": "2026-11-10T20:05:17.000Z"
   },
@@ -3520,6 +3529,24 @@
       "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
       "title": "20VC: Taking on NVIDIA: Fractile CEO on the Future of Chips | What Everyone Gets Wrong About Capex Spending | The Winners and Losers in Neo Clouds with Walter Goodwin",
       "pubDate": "2026-11-14T07:07:00.000Z"
+    },
+    {
+      "id": "2026-11-14-a16z-from-the-telephone-to-modern-computing-j",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "From the Telephone to Modern Computing | James Gleick",
+      "pubDate": "2026-11-14T11:00:00.000Z"
+    },
+    {
+      "id": "2026-11-13-twist-jason-jensen-huang-will-be-back-at-nvidi",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Jason: Jensen Huang will be back at Nvidia within 12 months | E2363",
+      "pubDate": "2026-11-13T22:59:00.000Z"
+    },
+    {
+      "id": "2026-11-14-mos-the-best-practices-corrupting-business-w",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "The “best practices” corrupting business, with Eric Ries and Krista Tippett",
+      "pubDate": "2026-11-14T10:00:00.000Z"
     }
   ]
 }
