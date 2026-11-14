@@ -344,7 +344,8 @@
     "0JZy5AuuQzc": "2026-10-14-talks-i-spent-two-years-building-the-median-ha",
     "eS7qQ3WJSrw": "2026-10-15-talks-jensen-huang-does-ai-revenue-justify-cap",
     "BOWYujhIQuo": "2026-10-16-talks-ai-agents-cut-3-day-portfolio-builds-to",
-    "Fva8hFosqyQ": "2026-10-16-talks-the-highest-loop-swyx"
+    "Fva8hFosqyQ": "2026-10-16-talks-the-highest-loop-swyx",
+    "kiClTcJUnhc": "2026-10-16-talks-why-one-ai-agent-isn-t-enough-and-how-to"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
@@ -382,11 +383,25 @@
     "2026-09-11-bigtech-special-report-will-ai-wipe-out-humanity": 1,
     "2026-11-09-cgc-60-minutes-extended-interview-president-trump-on-60": 1,
     "2026-09-14-twist-ask-jason-ai-extinction-grok-s-rogue-mem": 1,
-    "2026-11-13-newcomer-perplexity-ceo-on-nvidia-and-who-wins-th": 2,
-    "2026-10-16-talks-why-one-ai-agent-isn-t-enough-and-how-to": 2,
-    "2026-11-13-pg-ai-customer-research": 2,
-    "2026-11-14-twentyvc-20vc-taking-on-nvidia-fractile-ceo-on-th": 1,
-    "2026-11-14-cogrev-ai-the-modern-enigma-nathan-s-keynote-at": 1
+    "2026-11-14-a16z-from-the-telephone-to-modern-computing-j": 2,
+    "2026-11-13-twist-jason-jensen-huang-will-be-back-at-nvidi": 2,
+    "2026-11-14-mos-the-best-practices-corrupting-business-w": 2,
+    "2026-09-30-pragmatic-distributed-databases-with-peter": 1,
+    "2026-09-27-cogrev-ai-am-what-if-it-works-too-well-colludin": 2,
+    "2026-09-25-cogrev-zero-to-one-in-ai-safety-halcyon-s-mike": 2,
+    "2026-09-23-twist-vcs-would-bet-on-open-source-ai-over-ope": 2,
+    "2026-09-21-twist-elon-s-new-hyperloop-trump-s-ai-rename-a": 2,
+    "2026-09-21-eyeonai-inside-ukraine-s-drone-war-maj-phoenix-o": 2,
+    "2026-09-20-a16z-nas-grandmaster-caz-steve-stoute-ben-hor": 2,
+    "2026-09-19-cogrev-ai-am-highlights-zvi-on-pacing-trump-xi": 2,
+    "2026-09-18-twist-hugging-face-co-founder-on-open-source-m": 2,
+    "2026-09-17-twiml-from-voice-agents-to-ai-avatars-with-ale": 1,
+    "2026-09-17-twentyvc-20vc-why-pacing-the-frontier-is-bs-insti": 2,
+    "2026-09-17-newcomer-former-sec-official-on-ftx--crypto--sili": 1,
+    "2026-09-16-iltb-michael-moritz-lessons-from-40-years-of": 1,
+    "2026-09-16-bigtech-a-sober-conversation-about-ai-existentia": 1,
+    "2026-11-10-latent-resend": 1,
+    "2026-11-07-cgc-all-in-with-chamath-midterm-blood-bath-4t-ai-sell-off-data-c": 1
   },
   "redoDone": {
     "2026-10-02-nopriors-the-future-of-frontier-model-architectur": "feed 里已找不到",
@@ -845,7 +860,7 @@
   },
   "cutoffs": {
     "lennys": "2026-11-11T13:04:09.000Z",
-    "pg": "2026-11-10T23:59:40.000Z",
+    "pg": "2026-11-13T23:56:59.000Z",
     "a16z": "2026-11-13T11:00:00.000Z",
     "yc": "2026-11-07T17:17:37.000Z",
     "mad": "2026-10-29T14:11:54.000Z",
@@ -877,7 +892,7 @@
     "cheekypint": "2026-11-10T12:45:00.000Z",
     "productpodcast": "2026-11-11T08:00:00.000Z",
     "ainativedev": "2026-11-10T13:00:00.000Z",
-    "newcomer": "2026-11-05T19:50:00.000Z",
+    "newcomer": "2026-11-13T18:15:00.000Z",
     "engenable": "2026-11-12T13:00:00.000Z",
     "sourcery": "2026-11-13T11:17:36.000Z",
     "iltb": "2026-11-06T09:00:00.000Z",
@@ -3475,6 +3490,36 @@
       "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
       "title": "Special Report: The Fall Of Jensen Huang & What Comes Next",
       "pubDate": "2026-11-14T00:04:00.000Z"
+    },
+    {
+      "id": "2026-11-13-pg-ai-customer-research",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "How to Build an AI Customer Research Agent in Claude Code",
+      "pubDate": "2026-11-13T23:56:59.000Z"
+    },
+    {
+      "id": "2026-11-13-newcomer-perplexity-ceo-on-nvidia-and-who-wins-th",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Perplexity CEO on NVIDIA and Who Wins the AI Race",
+      "pubDate": "2026-11-13T18:15:00.000Z"
+    },
+    {
+      "id": "2026-10-16-talks-why-one-ai-agent-isn-t-enough-and-how-to",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Why One AI Agent Isn’t Enough (And How to Run 1,000) - CJ Avilla & Harrison Stall, Anthropic",
+      "pubDate": "2026-10-16T00:00:00.000Z"
+    },
+    {
+      "id": "2026-11-14-cogrev-ai-the-modern-enigma-nathan-s-keynote-at",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "AI, the Modern Enigma: Nathan's Keynote at IT Revolution's Enterprise AI Summit at Bletchley Park",
+      "pubDate": "2026-11-14T09:05:22.000Z"
+    },
+    {
+      "id": "2026-11-14-twentyvc-20vc-taking-on-nvidia-fractile-ceo-on-th",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "20VC: Taking on NVIDIA: Fractile CEO on the Future of Chips | What Everyone Gets Wrong About Capex Spending | The Winners and Losers in Neo Clouds with Walter Goodwin",
+      "pubDate": "2026-11-14T07:07:00.000Z"
     }
   ]
 }
