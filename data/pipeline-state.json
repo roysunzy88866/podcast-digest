@@ -394,13 +394,14 @@
     "2026-09-17-newcomer-former-sec-official-on-ftx--crypto--sili": 1,
     "2026-11-12-cgc-semianalysis-weekly-ep-044-is-nvidia-over-emergency-pod-with": 1,
     "2026-11-10-latent-resend": 1,
-    "2026-11-16-pragmatic-software-engineering-after-code-becomes": 2,
     "2026-09-30-pragmatic-distributed-databases-with-peter": 1,
     "2026-09-18-twist-hugging-face-co-founder-on-open-source-m": 2,
     "2026-11-16-doac-nvidia-spy-scandal-what-trump-was-told-a": 1,
-    "2026-11-17-indepth-why-the-ai-race-is-becoming-a-brand-race": 2,
-    "2026-11-17-sourcery-dylan-patel-on-the-ai-market-shakeout--b": 2,
-    "2026-11-17-ainativedev-paul-stack-i-39-ll-never-write-infrastru": 2,
+    "2026-11-17-a16z-can-ai-learn-to-improve-itself-recursive": 2,
+    "2026-11-17-bigtech-why-the-anthropic-ipo-will-fail-with-gar": 2,
+    "2026-11-17-founders-440-the-most-inspiring-autobiography-i": 1,
+    "2026-11-17-generalist-why-inference-is-harder-than-you-think-e": 2,
+    "2026-11-17-newcomer-why-palo-altos-ceo-buys-the-startups-tha": 1,
     "2026-09-27-cogrev-ai-am-what-if-it-works-too-well-colludin": 2,
     "2026-09-25-cogrev-zero-to-one-in-ai-safety-halcyon-s-mike": 2,
     "2026-09-23-twist-vcs-would-bet-on-open-source-ai-over-ope": 2,
@@ -882,6 +883,11 @@
       "status": "找不到播客版 → 交本机 YouTube",
       "title": "#831.Grok Bot 工程师 Poteto：所有代码都是垃圾（除了我的）",
       "day": "2026-11-16"
+    },
+    "6afc7602a4a79edf137ad929": {
+      "status": "非 AI 也非科技创业(Jev),不对齐",
+      "title": "#834.海贼王·尾田荣一郎：为什么我非得画到截稿前最后一刻？",
+      "day": "2026-11-18"
     }
   },
   "cutoffs": {
@@ -903,7 +909,7 @@
     "twentyvc": "2026-11-09T07:07:00.000Z",
     "cogrev": "2026-11-11T11:59:15.000Z",
     "knowledge": "2026-11-10T11:00:00.000Z",
-    "pragmatic": "2026-11-05T15:58:00.000Z",
+    "pragmatic": "2026-11-16T13:33:48.000Z",
     "practicalai": "2026-10-29T09:00:00.000Z",
     "changelog": "2026-11-13T03:00:00.000Z",
     "devtools": "2026-09-03T01:59:52.000Z",
@@ -912,15 +918,15 @@
     "unsupervised": "2026-11-05T14:05:50.000Z",
     "twiml": "2026-11-10T16:21:00.000Z",
     "eyeonai": "2026-11-13T14:22:00.000Z",
-    "indepth": "2026-10-28T11:00:00.000Z",
+    "indepth": "2026-11-17T12:00:00.000Z",
     "uncapped": "2026-11-12T13:00:00.000Z",
     "pmf": "2026-11-16T10:00:00.000Z",
     "cheekypint": "2026-11-10T12:45:00.000Z",
     "productpodcast": "2026-11-11T08:00:00.000Z",
-    "ainativedev": "2026-11-10T13:00:00.000Z",
+    "ainativedev": "2026-11-17T13:00:00.000Z",
     "newcomer": "2026-11-16T14:15:00.000Z",
     "engenable": "2026-11-12T13:00:00.000Z",
-    "sourcery": "2026-11-13T11:17:36.000Z",
+    "sourcery": "2026-11-17T11:00:00.000Z",
     "iltb": "2026-11-06T09:00:00.000Z",
     "generalist": "2026-11-03T12:00:00.000Z",
     "sed": "2026-11-12T10:00:00.000Z",
@@ -3684,6 +3690,30 @@
       "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
       "title": "Memory-Aware Agent Harnesses for Anti-Money Laundering — Nacho Martinez, Oracle",
       "pubDate": "2026-10-17T00:00:00.000Z"
+    },
+    {
+      "id": "2026-11-16-pragmatic-software-engineering-after-code-becomes",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Software engineering after code becomes cheap with Satya Nadella",
+      "pubDate": "2026-11-16T13:33:48.000Z"
+    },
+    {
+      "id": "2026-11-17-indepth-why-the-ai-race-is-becoming-a-brand-race",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Why the AI race is becoming a brand race | Dan Mishin (Founder, CEO of Manifest OS)",
+      "pubDate": "2026-11-17T12:00:00.000Z"
+    },
+    {
+      "id": "2026-11-17-sourcery-dylan-patel-on-the-ai-market-shakeout--b",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Dylan Patel on the AI Market Shakeout & Building SemiAnalysis",
+      "pubDate": "2026-11-17T11:00:00.000Z"
+    },
+    {
+      "id": "2026-11-17-ainativedev-paul-stack-i-39-ll-never-write-infrastru",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Paul Stack: I&#39;ll Never Write Infrastructure as Code Again",
+      "pubDate": "2026-11-17T13:00:00.000Z"
     }
   ]
 }
