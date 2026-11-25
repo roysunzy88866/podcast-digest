@@ -359,7 +359,8 @@
   },
   "audioWanted": {
     "2026-09-02-twist-vc-experts-on-why-physical-ai-funding-is": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT7305736664.mp3",
-    "2026-08-28-twist-breaking-down-nvidia-s-hugging-face-and": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT9523716331.mp3"
+    "2026-08-28-twist-breaking-down-nvidia-s-hugging-face-and": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT9523716331.mp3",
+    "2026-11-25-pragmatic-how-anthropic-builds-software-in": "https://api.substack.com/feed/podcast/226291266/48f1ade2511a24d25234b3abca7031c0.mp3"
   },
   "transient": {
     "2026-08-03-pmf-he-fired-almost-everyone-kept-2-engineer": 1,
@@ -410,13 +411,12 @@
     "2026-09-21-eyeonai-inside-ukraine-s-drone-war-maj-phoenix-o": 2,
     "2026-09-23-twist-vcs-would-bet-on-open-source-ai-over-ope": 2,
     "2026-09-25-cogrev-zero-to-one-in-ai-safety-halcyon-s-mike": 2,
-    "2026-11-25-lennys-gemini-4-neon-beat-gpt-62-and-claude": 1,
-    "2026-11-25-a16z-replay-principles-and-algorithms-for-wor": 2,
-    "2026-11-25-beyondcoding-ai-architect-reveals-his-rules-for-build": 2,
-    "2026-11-25-howiai-gemini-4-neon-beat-gpt-6-2-and-claude-in": 2,
-    "2026-11-24-iltb-scott-wu-on-cybersecurity-compute-and-th": 2,
-    "2026-11-21-mos-why-everything-is-breaking-outages-ai-an": 2,
-    "2026-09-27-cogrev-ai-am-what-if-it-works-too-well-colludin": 2
+    "2026-11-25-lennys-gemini-4-neon-beat-gpt-62-and-claude": 2,
+    "2026-11-25-pragmatic-how-anthropic-builds-software-in": 1,
+    "2026-11-24-sed-steve-yegge-on-building-software-factori": 1,
+    "2026-11-25-twist-30-pilots-zero-customers-why-vcs-keep-pa": 1,
+    "2026-11-24-mos-nvidia-china-and-the-open-model-race-ref": 1,
+    "2026-11-25-latent-therevolutionvstherenaissancethariqshihi": 1
   },
   "redoDone": {
     "2026-10-02-nopriors-the-future-of-frontier-model-architectur": "feed 里已找不到",
@@ -897,7 +897,7 @@
   "cutoffs": {
     "lennys": "2026-11-23T13:04:43.000Z",
     "pg": "2026-11-24T00:34:06.000Z",
-    "a16z": "2026-11-24T11:00:00.000Z",
+    "a16z": "2026-11-25T11:00:00.000Z",
     "yc": "2026-11-24T17:13:52.000Z",
     "mad": "2026-10-29T14:11:54.000Z",
     "trainingdata": "2026-11-24T10:00:00.000Z",
@@ -905,7 +905,7 @@
     "aiandi": "2026-11-04T17:02:33.000Z",
     "nopriors": "2026-11-19T11:44:00.000Z",
     "thepeel": "2026-11-20T14:00:00.000Z",
-    "beyondcoding": "2026-11-18T12:00:00.000Z",
+    "beyondcoding": "2026-11-25T12:00:00.000Z",
     "founders": "2026-11-17T19:10:00.000Z",
     "dwarkesh": "2026-11-24T21:45:30.000Z",
     "doac": "2026-11-23T06:00:00.000Z",
@@ -918,7 +918,7 @@
     "changelog": "2026-11-24T20:00:00.000Z",
     "devtools": "2026-09-03T01:59:52.000Z",
     "rework": "2026-08-19T08:00:00.000Z",
-    "howiai": "2026-11-23T12:00:00.000Z",
+    "howiai": "2026-11-25T12:00:00.000Z",
     "unsupervised": "2026-11-24T13:05:03.000Z",
     "twiml": "2026-11-24T20:15:00.000Z",
     "eyeonai": "2026-11-24T14:08:00.000Z",
@@ -931,7 +931,7 @@
     "newcomer": "2026-11-20T14:45:00.000Z",
     "engenable": "2026-11-12T13:00:00.000Z",
     "sourcery": "2026-11-23T11:00:00.000Z",
-    "iltb": "2026-11-17T13:00:00.000Z",
+    "iltb": "2026-11-24T15:00:00.000Z",
     "generalist": "2026-11-17T12:00:00.000Z",
     "sed": "2026-11-19T10:00:00.000Z",
     "twist": "2026-11-23T20:06:00.000Z",
@@ -4186,6 +4186,36 @@
       "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
       "title": "Why AI Agents Still Won't Pay for Anything — Jan Curn, Apify",
       "pubDate": "2026-10-18T00:00:00.000Z"
+    },
+    {
+      "id": "2026-11-25-a16z-replay-principles-and-algorithms-for-wor",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Replay: Principles and Algorithms for Work and Life | Ray Dalio (2019)",
+      "pubDate": "2026-11-25T11:00:00.000Z"
+    },
+    {
+      "id": "2026-11-25-beyondcoding-ai-architect-reveals-his-rules-for-build",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "AI Architect Reveals His Rules for Building Software Factories",
+      "pubDate": "2026-11-25T12:00:00.000Z"
+    },
+    {
+      "id": "2026-11-25-howiai-gemini-4-neon-beat-gpt-6-2-and-claude-in",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Gemini 4 Neon beat GPT-6.2 and Claude in my 25-task AI benchmark",
+      "pubDate": "2026-11-25T12:00:00.000Z"
+    },
+    {
+      "id": "2026-11-24-iltb-scott-wu-on-cybersecurity-compute-and-th",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Scott Wu on Cybersecurity, Compute, and the Future of Engineering - [Invest Like the Best, EP.502]",
+      "pubDate": "2026-11-24T15:00:00.000Z"
+    },
+    {
+      "id": "2026-11-21-mos-why-everything-is-breaking-outages-ai-an",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Why everything is breaking: outages, AI, and the new cyber math, with CrowdStrike’s George Kurtz",
+      "pubDate": "2026-11-21T10:00:00.000Z"
     }
   ]
 }
