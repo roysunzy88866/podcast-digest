@@ -360,7 +360,8 @@
   "audioWanted": {
     "2026-09-02-twist-vc-experts-on-why-physical-ai-funding-is": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT7305736664.mp3",
     "2026-08-28-twist-breaking-down-nvidia-s-hugging-face-and": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT9523716331.mp3",
-    "2026-11-25-pragmatic-how-anthropic-builds-software-in": "https://api.substack.com/feed/podcast/226291266/48f1ade2511a24d25234b3abca7031c0.mp3"
+    "2026-11-25-pragmatic-how-anthropic-builds-software-in": "https://api.substack.com/feed/podcast/226291266/48f1ade2511a24d25234b3abca7031c0.mp3",
+    "2026-11-25-productpodcast-datadog-vp-of-product-on-the-7-levers-of": "https://www.buzzsprout.com/90361/episodes/20179889-datadog-vp-of-product-on-the-7-levers-of-enterprise-product-strategy-in-the-ai-era-data-distribution-ecosystem-price-ux-speed-compliance-ryan-salva-e321.mp3"
   },
   "transient": {
     "2026-08-03-pmf-he-fired-almost-everyone-kept-2-engineer": 1,
@@ -411,12 +412,13 @@
     "2026-09-21-eyeonai-inside-ukraine-s-drone-war-maj-phoenix-o": 2,
     "2026-09-23-twist-vcs-would-bet-on-open-source-ai-over-ope": 2,
     "2026-09-25-cogrev-zero-to-one-in-ai-safety-halcyon-s-mike": 2,
-    "2026-11-25-lennys-gemini-4-neon-beat-gpt-62-and-claude": 2,
     "2026-11-25-pragmatic-how-anthropic-builds-software-in": 1,
-    "2026-11-24-sed-steve-yegge-on-building-software-factori": 1,
-    "2026-11-25-twist-30-pilots-zero-customers-why-vcs-keep-pa": 1,
-    "2026-11-24-mos-nvidia-china-and-the-open-model-race-ref": 1,
-    "2026-11-25-latent-therevolutionvstherenaissancethariqshihi": 1
+    "2026-11-25-latent-therevolutionvstherenaissancethariqshihi": 2,
+    "2026-11-25-bigtech-is-ai-racing-toward-disaster-with-trista": 2,
+    "2026-11-25-productpodcast-datadog-vp-of-product-on-the-7-levers-of": 1,
+    "2026-10-18-talks-insurance-claims-are-ai-s-messiest-data": 1,
+    "2026-09-27-cogrev-ai-am-what-if-it-works-too-well-colludin": 2,
+    "2026-11-25-beyondcoding-ai-architect-reveals-how-software-factor": 1
   },
   "redoDone": {
     "2026-10-02-nopriors-the-future-of-frontier-model-architectur": "feed 里已找不到",
@@ -895,7 +897,7 @@
     }
   },
   "cutoffs": {
-    "lennys": "2026-11-23T13:04:43.000Z",
+    "lennys": "2026-11-25T13:04:21.000Z",
     "pg": "2026-11-24T00:34:06.000Z",
     "a16z": "2026-11-25T11:00:00.000Z",
     "yc": "2026-11-24T17:13:52.000Z",
@@ -4216,6 +4218,30 @@
       "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
       "title": "Why everything is breaking: outages, AI, and the new cyber math, with CrowdStrike’s George Kurtz",
       "pubDate": "2026-11-21T10:00:00.000Z"
+    },
+    {
+      "id": "2026-11-25-lennys-gemini-4-neon-beat-gpt-62-and-claude",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Gemini 4 Neon beat GPT-6.2 and Claude in my 25-task AI benchmark",
+      "pubDate": "2026-11-25T13:04:21.000Z"
+    },
+    {
+      "id": "2026-11-25-twist-30-pilots-zero-customers-why-vcs-keep-pa",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "30 Pilots, Zero Customers: Why VCs Keep Passing",
+      "pubDate": "2026-11-25T18:51:00.000Z"
+    },
+    {
+      "id": "2026-11-24-sed-steve-yegge-on-building-software-factori",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Steve Yegge on Building Software Factories",
+      "pubDate": "2026-11-24T10:00:00.000Z"
+    },
+    {
+      "id": "2026-11-24-mos-nvidia-china-and-the-open-model-race-ref",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Nvidia, China, and the open-model race: Reflection AI's Misha Laskin on a $25B bet",
+      "pubDate": "2026-11-24T10:00:00.000Z"
     }
   ]
 }
