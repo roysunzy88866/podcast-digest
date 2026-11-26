@@ -352,7 +352,8 @@
     "SHMCGrNJJGc": "2026-10-17-talks-how-to-know-if-your-ai-agent-is-any-good",
     "Ti-BmGU1_mQ": "2026-10-17-talks-the-ai-bill-is-too-damn-high-tokenomics",
     "X7oI4Umt3DU": "2026-10-17-talks-ai-safety-fact-vs-fiction-yc-paper-club",
-    "-AOxpwVeIWw": "2026-10-18-talks-why-ai-agents-still-won-t-pay-for-anythi"
+    "-AOxpwVeIWw": "2026-10-18-talks-why-ai-agents-still-won-t-pay-for-anythi",
+    "W4pnzOURwHQ": "2026-10-18-talks-insurance-claims-are-ai-s-messiest-data"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
@@ -411,11 +412,14 @@
     "2026-09-21-eyeonai-inside-ukraine-s-drone-war-maj-phoenix-o": 2,
     "2026-09-23-twist-vcs-would-bet-on-open-source-ai-over-ope": 2,
     "2026-09-25-cogrev-zero-to-one-in-ai-safety-halcyon-s-mike": 2,
-    "2026-11-25-pragmatic-how-anthropic-builds-software-in": 2,
-    "2026-11-25-productpodcast-datadog-vp-of-product-on-the-7-levers-of": 1,
-    "2026-10-18-talks-insurance-claims-are-ai-s-messiest-data": 2,
-    "2026-11-25-beyondcoding-ai-architect-reveals-how-software-factor": 2,
-    "2026-09-27-cogrev-ai-am-what-if-it-works-too-well-colludin": 2
+    "2026-11-25-productpodcast-datadog-vp-of-product-on-the-7-levers-of": 2,
+    "2026-09-27-cogrev-ai-am-what-if-it-works-too-well-colludin": 2,
+    "2026-11-26-a16z-replay-on-food-as-medicine-2020-6pgesa1x": 2,
+    "2026-11-26-twentyvc-20vc-jensen-huang-s-1trn-return-what-hap": 2,
+    "2026-11-26-practicalai-humans-in-a-post-human-world": 2,
+    "2026-11-26-sed-temporal-and-durable-execution-for-ai-ag": 2,
+    "2026-11-26-mos-possible-ai-guardrails-data-center-deman": 2,
+    "2026-11-26-ainativedev-chainguard-39-s-dan-lorenc-inside-the-ph": 2
   },
   "redoDone": {
     "2026-10-02-nopriors-the-future-of-frontier-model-architectur": "feed 里已找不到",
@@ -910,9 +914,9 @@
     "doac": "2026-11-23T06:00:00.000Z",
     "deepmind": "2026-11-24T18:17:32.000Z",
     "twentyvc": "2026-11-23T07:07:00.000Z",
-    "cogrev": "2026-11-21T08:00:45.000Z",
+    "cogrev": "2026-11-26T12:37:35.000Z",
     "knowledge": "2026-11-24T11:00:00.000Z",
-    "pragmatic": "2026-11-18T18:08:52.000Z",
+    "pragmatic": "2026-11-25T17:31:32.000Z",
     "practicalai": "2026-11-19T10:00:00.000Z",
     "changelog": "2026-11-24T20:00:00.000Z",
     "devtools": "2026-09-03T01:59:52.000Z",
@@ -4251,6 +4255,30 @@
       "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
       "title": "The Revolution vs The Renaissance — Thariq Shihipar, OpenAI",
       "pubDate": "2026-11-25T22:28:01.000Z"
+    },
+    {
+      "id": "2026-11-26-cogrev-ai-am-number-must-go-up-christiano-s-war",
+      "reason": "超长集:估 263 分 > 单班预算 280 分(永远放不进一班;等官方稿/人工点名,删账本条目可重放)",
+      "title": "AI:AM: Number Must Go Up? Christiano's Warning, Jensen's Return, GiveDirectly's Pitch for the Poor",
+      "pubDate": "2026-11-26T12:37:35.000Z"
+    },
+    {
+      "id": "2026-11-25-pragmatic-how-anthropic-builds-software-in",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "How Anthropic builds software in 2026 with Katelyn Lesse",
+      "pubDate": "2026-11-25T17:31:32.000Z"
+    },
+    {
+      "id": "2026-10-18-talks-insurance-claims-are-ai-s-messiest-data",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Insurance Claims Are AI's Messiest Data Problem — Denys Linkov, Wisedocs",
+      "pubDate": "2026-10-18T00:00:00.000Z"
+    },
+    {
+      "id": "2026-11-25-beyondcoding-ai-architect-reveals-how-software-factor",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "AI Architect Reveals How Software Factories Actually Work",
+      "pubDate": "2026-11-25T12:00:00.000Z"
     }
   ]
 }
